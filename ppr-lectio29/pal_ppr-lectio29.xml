@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 29, de Notitia [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 29, de Notitia [Palatine Transcription]</title>
+          <date when="2017-01-31">January 31, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-01-31" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="48-v"/><cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio29">
+        <head xml:id="ppr-l29-Hldnldn">Lectio 29, de Notitia [Palantine Transcription]</head>
+        <div>
+          <head xml:id="ppr-l29-Hudesdp">Utrum 'Deus esse' sit demonstrabile: praefatio</head>
+          <p xml:id="ppr-l29-pesice">
+            Quantum ad 
+            <lb ed="#PV"/>quintum articulum videndum est 
+            <lb ed="#PV"/>utrum deum esse sit demonstrabile 
+            <lb ed="#PV"/>et hoc excludendo statum beatorum 
+            <lb ed="#PV"/>de quibus non est dubium 
+            <lb ed="#PV"/>quando ex praemissis prioribus via 
+            <lb ed="#PV"/>doctrinae sciant concludere de<lb ed="#PV"/>monstrative 
+            deum esse licet 
+            <lb ed="#PV"/>sit principium complexum evidentissimum 
+            <lb ed="#PV"/>nec talis demonstratio facit 
+            <lb ed="#PV"/><unclear>de novo scire realiter</unclear> eorum Sed 
+            <lb ed="#PV"/>utrum possit stante beatitudine 
+            <lb ed="#PV"/>habere aliquam novam notitiam 
+            <lb ed="#PV"/>respectu huius quod est deus de isto 
+            <lb ed="#PV"/>possunt esse duo modi dicendi 
+            <lb ed="#PV"/>quia vel huiusmodi processus esset 
+            <lb ed="#PV"/>ex notitiis in verbo vel in proprio 
+            <lb ed="#PV"/>genere ad intellectum per lumen 
+            <lb ed="#PV"/>gloriae potest dici utroque modo 
+            <lb ed="#PV"/>quod sic licet beatitudo essentialis 
+            <lb ed="#PV"/>sit in variabilis seu beati<lb ed="#PV"/>fica 
+            notitia de lege statuta 
+            <lb ed="#PV"/><choice><orig>nichilominus</orig><reg>nihilominus</reg></choice> quantum ad acci<lb ed="#PV"/>dentalia 
+            potest variari Ita quod ex 
+            <lb ed="#PV"/>notitiis in verbo possint concludere 
+            <lb ed="#PV"/>beati quod deus est
+          </p>
+          <p xml:id="ppr-l29-spenad">
+            2o in proprie 
+            <lb ed="#PV"/>genere specialiter <unclear>iuti</unclear> lumen gloriae 
+            <pb ed="#PV" n="49-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>nec huiusmodi scientia et proprio genere 
+            <lb ed="#PV"/>beatifico sunt impossibiles sunt 
+            <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> nec actus fidei aenigmaticus 
+            <lb ed="#PV"/>est impossibilis visioni clare quod deus 
+            <lb ed="#PV"/>est <choice><orig>ymmo</orig><reg>immo</reg></choice> causando demonstrationem 
+            <lb ed="#PV"/>pro evidenti notitia praemissarum 
+            <lb ed="#PV"/>et evidenti notitia de bonitate 
+            <lb ed="#PV"/>commune et quod sunt respectu alicuius 
+            <lb ed="#PV"/>potentiae concludentes huiusmodi 
+            <lb ed="#PV"/>conclusionem quod deus est deus cognoscit 
+            <lb ed="#PV"/>se vel potest se cognoscere demon<lb ed="#PV"/>strative 
+            licet non sit demonstratio 
+            <lb ed="#PV"/>vel discursus primo potest dici 
+            <lb ed="#PV"/>quantum ad hoc quod sit notitia 
+            <lb ed="#PV"/>evidens aequivalenter demonstrativa
+          </p>
+          <p xml:id="ppr-l29-niitlg">
+            <lb ed="#PV"/>non ergo intelligo de statu 
+            <lb ed="#PV"/>beatorum quia non est dubium 
+            <lb ed="#PV"/>quin possint
+          </p>
+          <p xml:id="ppr-l29-ndeais">
+            Etiam de statu 
+            <lb ed="#PV"/>innocentiae non revocatur in 
+            <lb ed="#PV"/>dubium quin in illo statu erat 
+            <lb ed="#PV"/>evidenter demonstrabile nedum 
+            <lb ed="#PV"/><choice><sic>theoloice</sic><corr>theologiae</corr></choice> ymmo etima in primo lumine 
+            <lb ed="#PV"/>naturali et <choice><sic>theoloice</sic><corr>theologiae</corr></choice> concurrente 
+            <lb ed="#PV"/>lumine supernaturali Etiam ex puro 
+            <lb ed="#PV"/>lumine in statu innocentiae
+          </p>
+          <p xml:id="ppr-l29-nvhqde">
+            <lb ed="#PV"/>Nam <ref><name ref="#HughOfStVictor">venerabilis hugo</name> <title>de sa<lb ed="#PV"/>cramentis</title></ref> 
+            nedum quod deus 
+            <lb ed="#PV"/>est sed etiam quod deus est <seg type="correction"><del rend="strikethrough">e</del>trinus</seg> 
+            <lb ed="#PV"/>et unus trinus parens potuit 
+            <lb ed="#PV"/>habere notitiam Nam ex habitudi<lb ed="#PV"/>ne 
+            <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> creatae ad ipsam 
+            <lb ed="#PV"/>trinitatem increatam potuit 
+            <lb ed="#PV"/>evidenter concludere deum 
+            <lb ed="#PV"/>esse trinum et unum <choice><orig>in mediate</orig><reg>immediate</reg></choice> 
+            <lb ed="#PV"/>anima videbat se esse animam et 
+            <lb ed="#PV"/>se esse factam ad <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> 
+            <lb ed="#PV"/>dei et trinitatis ergo cognovit 
+            <lb ed="#PV"/>se secundum illam habitudinem 
+            <lb ed="#PV"/>quod non fuissent nisi cognovisse 
+            <lb ed="#PV"/>utrumque extremorum forte ex cuilibet 
+            <lb ed="#PV"/>creaturae notitiae est deducibile 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>quod deus est trinus et unus
+          </p>
+          <p xml:id="ppr-l29-inrsid">Iterum 
+            <lb ed="#PV"/>non revocatur in dubium utrum 
+            <lb ed="#PV"/>sit demonstrabile etiam in lumine naturali a sub<lb ed="#PV"/>stantiis 
+            intellectualibus perfectioribus 
+            <lb ed="#PV"/>quam sit homo
+          </p>
+          <p xml:id="ppr-l29-idnvie">
+            doctores non 
+            <lb ed="#PV"/>revocaverunt <unclear>in deum</unclear> dubium 
+            <lb ed="#PV"/>quin species superior possit habere 
+            <lb ed="#PV"/>demonstrationem alicuius conclusionis 
+            <lb ed="#PV"/>ad cuius ad sensum nos non 
+            <lb ed="#PV"/>possemus pertingere per fidem
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l29-Hudesnl">Utrum Deum esse sit demonstrabile in lumine naturali in statu naturae lapsae?</head>
+          <p xml:id="ppr-l29-eissnl">
+            <lb ed="#PV"/>Ideo restat difficultas utrum 
+            <lb ed="#PV"/>in statu naturae lapsu sit de<lb ed="#PV"/>monstrabile 
+            deum esse in lumine 
+            <lb ed="#PV"/>naturali
+          </p>
+          <div>
+            <head xml:id="ppr-l29-Hpcpcpc">[Conclusio prima]</head>
+            <p xml:id="ppr-l29-cqmame">
+              Conclusio naturalis investigatio 
+              <lb ed="#PV"/>humana ex lumine naturali praecise 
+              <lb ed="#PV"/>non concluderet evidenter deum 
+              <lb ed="#PV"/>esse ista conclusio fuit in radice 
+              <lb ed="#PV"/>scitis tacta in toto processu in 
+              <lb ed="#PV"/>quo ostensum fuit quod fra<lb ed="#PV"/>gilis 
+              est et debilis humana in<lb ed="#PV"/>vestigatio 
+              sibi de<lb ed="#PV"/>relicta Ex 
+              <lb ed="#PV"/>patuit de primis phantasmatibus 
+              <lb ed="#PV"/>qui non posuerunt ultra substantias 
+              <lb ed="#PV"/>sensibiles aliquam rem spiritualem 
+              <lb ed="#PV"/>quod <name ref="#Aquinas">sanctus thomas</name> allegat 
+              <lb ed="#PV"/>in libro de angelis et substantiis separatis 
+              <lb ed="#PV"/>in principio Et etiam de caldeis pro tunc 
+              <lb ed="#PV"/><unclear>philosophantibus</unclear> qui non solebant 
+              <lb ed="#PV"/>nisi astra et caelum et <unclear>numquod</unclear> non 
+              <lb ed="#PV"/><unclear>m?ti</unclear> posuissent substantias spiritua<lb ed="#PV"/>les 
+              Et si posteriores posue<lb ed="#PV"/>runt 
+              hoc fuit per doctrinam 
+              <lb ed="#PV"/>a prophetis vel a deo vel quia 
+              <lb ed="#PV"/>aliqui fuerunt supernaturaliter 
+              <lb ed="#PV"/>illustrati Radix fuit saepe 
+              <lb ed="#PV"/>tacta scilicet <seg type="correction">p<subst><del rend="strikethrough">er</del><add>ro</add></subst>pter</seg> penam culpae 
+              <lb ed="#PV"/><choice><orig>ymaginabilis</orig><reg>imaginabilis</reg></choice> de isto satis dictum 
+              <lb ed="#PV"/>fuit
+            </p>
+            <p xml:id="ppr-l29-upcdsi">
+              <lb ed="#PV"/>Consequenter potest dici quod 
+              <pb ed="#PV" n="49-v"/>
+              <cb ed="#PV"/>
+              <lb ed="#PV"/>philosophi nullum conceptum verum 
+              <lb ed="#PV"/>de deo ex primis naturalibus non 
+              <lb ed="#PV"/><unclear>neoatamen</unclear> <add place="above-line">fide</add> habuerunt nam inconcep<lb ed="#PV"/>tibus 
+              eorum semper inportantur 
+              <lb ed="#PV"/>aliquid imperfectionis vel deo re<lb ed="#PV"/>pugnans 
+              ratione cuius semper <unclear>substantialiter</unclear> 
+              <lb ed="#PV"/>propositionum quas formant de deo 
+              <lb ed="#PV"/>pro nullo supponunt propter 
+              <lb ed="#PV"/><subst><del rend="strikethrough">fallaciam</del><add place="above-line"><unclear>falsam</unclear></add></subst> connotationem <choice><orig>inperfectionis</orig><reg>imperfectionis</reg></choice> 
+              <lb ed="#PV"/>deo repugnantis excluso tamen 
+              <lb ed="#PV"/><name>aristotelem</name> <name>platonem</name> <name>socratem</name> et alios quos 
+              <lb ed="#PV"/>verisimile <unclear>quia</unclear> fuisse illustratos
+            </p>
+          </div>   
+          <div>
+            <head xml:id="ppr-l29-Hcscscs">Conclusio Secunda</head>
+            <p xml:id="ppr-l29-scdnaf">
+              <lb ed="#PV"/><pc type="virgula">/</pc>2a conclusio deum esse est 
+              <lb ed="#PV"/>theologice demonstrabile in lumine 
+              <lb ed="#PV"/>naturali ita quod sit demonstrabile 
+              <lb ed="#PV"/>in lumine naturaliter adiuto fide Et 
+              <lb ed="#PV"/>hoc est proprie theologice demonstrare 
+              <lb ed="#PV"/>sicut expressum a suo loco 
+              <lb ed="#PV"/>Et quod in tali sit primo sunt tes<lb ed="#PV"/>tes 
+              omnes antiqui doctores  
+              <lb ed="#PV"/>unde omnes concedant in hoc 
+              <lb ed="#PV"/>quod omnes rationes <name ref="#Aristotle">aristotelis</name> ad istam 
+              <lb ed="#PV"/>processum factae sunt demonstra<lb ed="#PV"/>tive 
+              ergo a fortiori in lumine motu 
+              <lb ed="#PV"/>fide
+            </p>
+            <p xml:id="ppr-l29-uaefhd">
+              Advertendum quod aliquid 
+              <lb ed="#PV"/>esse demonstrabile dicitur in ordine 
+              <lb ed="#PV"/>ad aliquam potentiam cui ap<lb ed="#PV"/>ta 
+              nata est fieri demonstratio
+            </p>
+            <p xml:id="ppr-l29-snepsi">
+              2o 
+              <lb ed="#PV"/>advertendum quod demonstratio 
+              <lb ed="#PV"/>non debet censeri demonstratio 
+              <lb ed="#PV"/>nisi respectu potentiae debite dis<lb ed="#PV"/>positae 
+              unde ad sciendum utrum <c>a</c> 
+              <lb ed="#PV"/>processus sit demonstrativus respectu 
+              <lb ed="#PV"/>potentiae humanae non est videndum 
+              <lb ed="#PV"/>utrum sit demonstrativus puero vel 
+              <lb ed="#PV"/>dementi vel laeso in naturalibus vel 
+              <lb ed="#PV"/><unclear>indisivo</unclear> Causa sub est nam 
+              <lb ed="#PV"/>sunt demonstrationes rudentis<lb ed="#PV"/>sime 
+              mathematicae quae non possunt 
+              <lb ed="#PV"/>esse demonstrationes carentibus 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>usu rationis Sed <unclear>decenseri</unclear> de<lb ed="#PV"/>monstrativa 
+              vel non demonstrativa 
+              <lb ed="#PV"/>in comparatione ad intellectum bene 
+              <lb ed="#PV"/>dispositum patet hoc in simili de 
+              <lb ed="#PV"/><ref><name ref="#Aristotle">philosopho</name> in <title ref="#Ethics">ethicis</title> <unclear>v</unclear></ref> semper remittit 
+              <lb ed="#PV"/>ad iudicium sapientis
+            </p>
+            <p xml:id="ppr-l29-ahqsee">
+              <name ref="#Boethius">Boetius</name> 
+              <lb ed="#PV"/>in libro suo <title ref="#deHebdomadibus">de ebdomedalibus</title> 
+              <lb ed="#PV"/>ponit istam distinctionem 
+              <lb ed="#PV"/>quod duplex est omni conceptio 
+              <lb ed="#PV"/>una ita communis ut quisque pro<lb ed="#PV"/>bat 
+              id est approbat eam auditam ut 
+              <lb ed="#PV"/>omne totum est magis sua parte 
+              <lb ed="#PV"/>Alia est quae est communis apud 
+              <lb ed="#PV"/>omnes sapientes ut spiritualia 
+              <lb ed="#PV"/>non esse in locus est communis <unclear>ai</unclear> con<lb ed="#PV"/>ceptio 
+              et principium apud intellectum 
+              <lb ed="#PV"/>elevatum et bene dispositum 
+              <lb ed="#PV"/>Ita <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> est proportionaliter aliquid 
+              <lb ed="#PV"/>esse demonstrabile et utrum processus 
+              <lb ed="#PV"/>demonstrativus debet attendi penes 
+              <lb ed="#PV"/>iudicium <sic>sapientum</sic>
+            </p>
+            <p xml:id="ppr-l29-eqalnd">Et quia 
+              <lb ed="#PV"/>antiqui doctores catholici sa<lb ed="#PV"/>pientes 
+              posuerunt quod sit de<lb ed="#PV"/>monstrabile 
+              et etiam illae rationes 
+              <lb ed="#PV"/><name ref="#Aristotle">philosophii</name> quod non sit processus in in<lb ed="#PV"/>finitum 
+              sunt demonstrative 
+              <lb ed="#PV"/>Sed theologus quem purus <sic>p</sic> quia 
+              <lb ed="#PV"/>lumen fidei iuvante acquirit 
+              <lb ed="#PV"/>scientiam nobiliorem et alterius 
+              <lb ed="#PV"/>speciei quam philosophus purus 
+              <lb ed="#PV"/>quia per fidem lumen naturale di<lb ed="#PV"/>rigitur 
+              et roboratur ad forman<lb ed="#PV"/>dum 
+              conceptum nobiliorem 
+              <lb ed="#PV"/>de propositionibus vocalibus de deo 
+              <lb ed="#PV"/>formatis quam purus philosophus 
+              <lb ed="#PV"/>Et ideo conclusiones theologicae etiam 
+              <lb ed="#PV"/>cum processus philosophi <del rend="vacat">quod non sit pro<lb ed="#PV"/>cessus 
+              in infinitum sunt de<lb ed="#PV"/>monstrative 
+              Sed theologus 
+              <lb ed="#PV"/>quam purus philosophus quia lumen fidei</del> 
+              <pb ed="#PV" n="50-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>sunt nobiliores et altioris speciei 
+              <lb ed="#PV"/>quam in puro lumine naturali de<lb ed="#PV"/>ductae 
+              <lb ed="#PV"/>et istud est satis deduc<lb ed="#PV"/>tum 
+              a doctoribus
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l29-Hpadpad">Probationes aliquorum doctorum</head>
+            <p xml:id="ppr-l29-qecfed">Ponam 
+              <lb ed="#PV"/>aliquas rationes ad probandum quod 
+              <lb ed="#PV"/>deus <sic>sic</sic>
+            </p>
+            <div>
+              <head xml:id="ppr-l29-Hpspsps">Probatio Scoti</head>
+              <p xml:id="ppr-l29-eiafam">
+                <!-- paragraph seems jointly related to with l29-qannae -->
+                arguit <name ref="#Scotus">doctor subti<lb ed="#PV"/>lis</name> 
+                valde apparenter et demonstrative 
+                <lb ed="#PV"/>aptum intrinsecum bene dispositum 
+                <lb ed="#PV"/>quod nulla res potest se de non 
+                <lb ed="#PV"/>esse ad esse producere quia quodammodo 
+                <lb ed="#PV"/>res quae non est aliud ageret 
+                <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> esset prius natura quem 
+                <lb ed="#PV"/>ipsa met sit et hoc impli<lb ed="#PV"/>cat 
+                quocumque modo prioritatis 
+                <lb ed="#PV"/>Et hoc dicit <name ref="#Augustine">augustinus</name> 
+                <lb ed="#PV"/>primo determinate <choice><orig>nichil</orig><reg>nihil</reg></choice> gignit 
+                <lb ed="#PV"/>se ut sic scilicet quod faciat se esse 
+                <lb ed="#PV"/>nec angelo quia quod <unclear>aliqualiter</unclear> res 
+                <lb ed="#PV"/>quae penitus vel est incipiat 
+                <lb ed="#PV"/>esse et non ab aliquo non videtur 
+                <lb ed="#PV"/>possibile quia non est ratio quare 
+                <lb ed="#PV"/>plus non quam prius produ<lb ed="#PV"/>ceretur
+              </p>
+              <p xml:id="ppr-l29-iieied">
+                Etiam est contra ex<lb ed="#PV"/>perientiam 
+                quia semper quod modo 
+                <lb ed="#PV"/>ab aliquo movetur vel producitur 
+                <lb ed="#PV"/>id quod movetur vel producitur 
+                <lb ed="#PV"/>fit ergo <c>b</c> ab <c>a</c> et eodem modo arguitur de 
+                <lb ed="#PV"/><c>a</c> quia vel eset effectibile vel in<lb ed="#PV"/>effectibile 
+                Si ineffectibile et facit <c>b</c> 
+                <lb ed="#PV"/>tunc est prima causa et hanc 
+                <lb ed="#PV"/>vocamus deum si <c>a</c> sit effec<lb ed="#PV"/>tibile 
+                Iterum arguitur et quaeritur aliquo 
+                <lb ed="#PV"/>et quia non est processus in in<lb ed="#PV"/>finitum 
+                deveniemus ad ali<lb ed="#PV"/>quod 
+                ineffectibile et per consequens 
+                <lb ed="#PV"/>erat aliqua causa efficiens 
+                <lb ed="#PV"/>vel non effectiva et ille est 
+                <lb ed="#PV"/>deus
+              </p>
+              <p xml:id="ppr-l29-sfdvev">
+                Item forte diceretur quod 
+                <lb ed="#PV"/>esset processus in infinitum 
+                <lb ed="#PV"/>in talibus sed istud apud 
+                <lb ed="#PV"/>intellectum bene dispositum 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>reputandum est impossibile et ideo 
+                <lb ed="#PV"/><name ref="#Aristotle">aristoteles</name> reputavit evidens quia 
+                <lb ed="#PV"/>non est processus <unclear>intellectualibus</unclear> in in<lb ed="#PV"/>finitum
+              </p>
+              <p xml:id="ppr-l29-stdepc">
+                Illo tamen dato arguit 
+                <lb ed="#PV"/><name ref="#Scotus">scotus</name> et signat toam multi<lb ed="#PV"/>tudinem 
+                effectorum et sit a ista 
+                <lb ed="#PV"/>multitudo est effectiva et non 
+                <lb ed="#PV"/>ab aliquo huius multitudinis 
+                <lb ed="#PV"/>ergo ab aliquo ex hac multi<lb ed="#PV"/>tudinem 
+                et per consequens est res in<lb ed="#PV"/>effectibilis 
+                <unclear>etio</unclear> est prima causa
+              </p>
+              <p xml:id="ppr-l29-veqqde">
+                <lb ed="#PV"/>verum est quod doctores calump<lb ed="#PV"/>nient 
+                istas rationes et forte os<lb ed="#PV"/>tendam 
+                in <ref target="http://scta.info/resource/ppr-lectio30"> <!-- db check ref -->lectione sequenti</ref> quomodo 
+                <lb ed="#PV"/>possent calumpniari Sed pro 
+                <lb ed="#PV"/>nunc adducam alias rationes
+              </p>
+              <div>
+                <head xml:id="ppr-l29-Hpdrpdr">Probatio de Ripa</head>
+                <p xml:id="ppr-l29-dripds">
+                  <name ref="#Ripa">de ripa</name> procedit probando inten<lb ed="#PV"/>tum 
+                  dato quod sit processus in 
+                  <lb ed="#PV"/>infinitum et causis et effectibus 
+                  <lb ed="#PV"/>ponit duas suppositiones
+                </p>
+                <p xml:id="ppr-l29-pseqen">
+                  prima 
+                  <lb ed="#PV"/>quod in tali ordine id quod est 
+                  <lb ed="#PV"/>superius semper est perfectius <choice><orig>yma<lb ed="#PV"/>inandum</orig><reg>ima<lb ed="#PV"/>inandum</reg></choice> 
+                  quod infimum productum 
+                  <lb ed="#PV"/>ab alio sit minus perfectum 2m 
+                  <lb ed="#PV"/>ordinem causalitatis ita quod semper 
+                  <lb ed="#PV"/>causa superior est perfectior 
+                  <lb ed="#PV"/>et dicit quod videtur esse quasi evi<lb ed="#PV"/>denter 
+                  notum
+                </p>
+                <p xml:id="ppr-l29-ssqcmp">
+                  <!-- might also be relatedTo l29-uchphd -->
+                  2o supponit 
+                  <lb ed="#PV"/>quod creatura quanto est perfectior 
+                  <lb ed="#PV"/>tanto est dependentior Ista 
+                  <lb ed="#PV"/>suppositio non esset evidens in 
+                  <lb ed="#PV"/>lumine naturali iuto fide Nam 
+                  <lb ed="#PV"/>in puro lumine naturali dicetur 
+                  <lb ed="#PV"/>contradictionem quia videtur in puro lumen 
+                  <lb ed="#PV"/>naturali quod angeli essent minus 
+                  <lb ed="#PV"/>dependens quam res fluxibiles 
+                  <lb ed="#PV"/>ergo dixerunt aliqui quod rea<lb ed="#PV"/>liter 
+                  haberent <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse quem 
+                  <lb ed="#PV"/>errorem secutus est ille <name>de monte<pb ed="#PV" n="50-v"/><cb ed="#PV" n="a"/><lb ed="#PV"/><lb ed="#PV"/>sono <!-- Demosthenes --></name> 
+                  Sed considerata habitudine 
+                  <lb ed="#PV"/>creaturae ad deum generaliter 
+                  <lb ed="#PV"/>sicut creatura perfectior quantum 
+                  <lb ed="#PV"/>ad sui productionem requirit causam 
+                  <lb ed="#PV"/>perfectiorem ita quod quantum est ex parte 
+                  <lb ed="#PV"/>sui productionis requirit maiorem 
+                  <lb ed="#PV"/>influxum productum quem res 
+                  <lb ed="#PV"/>minus perfecta Ita quod proportionaliter 
+                  <lb ed="#PV"/>de conservatione quod ipsa quantum 
+                  <lb ed="#PV"/>est de se est magis labilis <unclear>quam res 
+                  <lb ed="#PV"/>??mus</unclear> perfecta ita quod indiget 
+                  <lb ed="#PV"/>proportionaliter maiori influxu conser<lb ed="#PV"/>vatio 
+                  unde <name ref="#Augustine">augustinus</name> et 
+                  <lb ed="#PV"/>alii <unclear>immiunt</unclear> quod creatura quasi 
+                  <lb ed="#PV"/>continue producitur quia intellectu 
+                  <lb ed="#PV"/>gradum habet sufficientem ad ex<lb ed="#PV"/>istendum 
+                  sed solum est purus 
+                  <lb ed="#PV"/>dependens Ideo ut ita lo<lb ed="#PV"/>quar 
+                  quanto plus habet de 
+                  <lb ed="#PV"/>se tanto plus habet dependere 
+                </p>
+                <p xml:id="ppr-l29-ichilf">
+                  <lb ed="#PV"/>Item creatura quodammodo quasi 
+                  <lb ed="#PV"/>accidens scilicet quantum quandam simili 
+                  <lb ed="#PV"/>non dependet a deo Et ergo 
+                  <lb ed="#PV"/>quidam philosophi posuerunt quod deus 
+                  <lb ed="#PV"/>respectu creaturae habet se per modo 
+                  <lb ed="#PV"/>informationis et hoc propter 
+                  <lb ed="#PV"/>indigentes ipsius creaturae 
+                  <lb ed="#PV"/>unde <name ref="#Maimonides">rabi moyses</name> ponit 
+                  <lb ed="#PV"/>quod deus est causa in genere 
+                  <lb ed="#PV"/>causae efficientis formalis 
+                  <lb ed="#PV"/>et finalis Item <ref><name ref="#RogerBacon">lyconiensis</name> in 
+                  <lb ed="#PV"/>expositione librorum augusto</ref> 
+                  <lb ed="#PV"/>ponit quod deus habet se per modum 
+                  <lb ed="#PV"/>formae sicut de sigilii respectu 
+                  <lb ed="#PV"/>alicuius loquendi quia ad sub<lb ed="#PV"/>stractionem 
+                  statim <unclear>evacessit</unclear>
+                </p>
+                <p xml:id="ppr-l29-tisnaf">
+                  tunc 
+                  <lb ed="#PV"/><title>de ripa</title> procedit Nam dato 
+                  <lb ed="#PV"/>quod esset processus in infinitum 
+                  <lb ed="#PV"/>istud non evitet quin deus sit 
+                  <lb ed="#PV"/>nam signemus <ref>infimam</ref> 
+                  <lb ed="#PV"/>illa non sufficit tunc erit 
+                  <cb ed="#PV" n="b"/>
+                  <lb ed="#PV"/>alia et ascendendo semper creatura 
+                  <lb ed="#PV"/>erat magis fluxibilis et alius 
+                  <lb ed="#PV"/>certa ipsum magis fluxibilis 
+                  <lb ed="#PV"/>et sic consequenter erit proces<lb ed="#PV"/>sus 
+                  in infinitum Nam po<lb ed="#PV"/>natur 
+                  aliquid prohibens fluxum 
+                  <lb ed="#PV"/>et ista ratio est satis apparens theologo 
+                  <lb ed="#PV"/>cuius humana naturale iuvatur luine 
+                  <lb ed="#PV"/>fidei
+                </p>
+              </div>
+              <div>
+                <head xml:id="ppr-l29-Hapapap">Aliae probationes</head>
+                <p xml:id="ppr-l29-arpibd">
+                  Alia ratio ponit esse ex 
+                  <lb ed="#PV"/>infinitate artificii Nam con<lb ed="#PV"/>siderata 
+                  subtilitate artificii 
+                  <lb ed="#PV"/>scilicet caelum et motuum eisudem 
+                  <lb ed="#PV"/>organizatione minimae animalis 
+                  <lb ed="#PV"/>vel in arbor non potest resolvi 
+                  <lb ed="#PV"/>nisi ad unum artificem subti<lb ed="#PV"/>lissimum
+                </p>
+                <p xml:id="ppr-l29-ipaahc">
+                  <lb ed="#PV"/>Item potest argui ex 
+                  <lb ed="#PV"/>fidelitate rerum obiectivarum 
+                  <lb ed="#PV"/>nam illa est infinita ergo debet
+                  <lb ed="#PV"/>sibi corresponderi potentia talia 
+                  <lb ed="#PV"/>cognoscens et illa non est nisi 
+                  <lb ed="#PV"/>deus antecedens patet nam capto quo<lb ed="#PV"/>cumque 
+                  corpusculo de illo in<lb ed="#PV"/>finita 
+                  sunt dicibilia etiam in<lb ed="#PV"/>finitae 
+                  sunt habitudines istius ad 
+                  <lb ed="#PV"/>alia et ita proportiones et faciunt 
+                  <lb ed="#PV"/>pulchritivam <sic>ermoniam</sic> et non 
+                  <lb ed="#PV"/>a <choice><sic>causu</sic><corr>casu</corr></choice> id est ab artifice
+                </p>
+                
+                <p xml:id="ppr-l29-ipasis">
+                  Item 
+                  <lb ed="#PV"/><sic>exterminatione</sic> causarum in<lb ed="#PV"/>differentiium 
+                  ad effectum unde ignis 
+                  <lb ed="#PV"/>infinitorum <unclear>quaelibet</unclear> potest producere 
+                  <lb ed="#PV"/>quando producit primum potest producere 
+                  <lb ed="#PV"/>secundum ita quod infinitorum quaelibet 
+                  <lb ed="#PV"/>potest producere ergo oporteret quod <del rend="strikethrough">significat</del> sit 
+                  <lb ed="#PV"/>aliqua causa determinans ita quod 
+                  <lb ed="#PV"/>una causa producat hoc in<lb ed="#PV"/>dividuum et non aliud sibi omnino 
+                  <lb ed="#PV"/>simile non videtur salvabile quando 
+                  <lb ed="#PV"/>sit aliqua prima causa deter<lb ed="#PV"/>minans
+                </p>
+                <p xml:id="ppr-l29-ipauep">
+                  Item ex ordine 
+                  <lb ed="#PV"/>rerum res ordinantur ad invicem 
+                  <pb ed="#PV" n="51-r"/>
+                  <cb ed="#PV" n="a"/>
+                  <lb ed="#PV"/>sicut experimur oportet ergo tandem 
+                  <lb ed="#PV"/><choice><orig>de venire</orig><reg>devenire</reg></choice> ad finem ratione cuius to<lb ed="#PV"/>tus 
+                  ordo disponitur unde <name ref="#Aristotle">aristoteles</name> 
+                  <lb ed="#PV"/>in finem <num>XYmi <!--12--></num> <title>metaphysicae</title> conclu<lb ed="#PV"/>dunt 
+                  <quote>entia nolunt unus 
+                  <lb ed="#PV"/>ergo princeps</quote> etc
+                </p>
+                <!--<p xml:id="ppr-l29-asrdre">
+                   missing; compare to opening of next section; possible mistake in lection division here???
+                  </p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <head xml:id="ppr-l29-Hctctct">Circa textum</head>
+          <p xml:id="ppr-l29-ctssma">Circa textum 
+          <lb ed="#PV"/>scilicet distinctionem 27am prima conclusio 
+            <lb ed="#PV"/>non est idem esse patrem et genuisse 
+            <lb ed="#PV"/>filium et habere patrem ergo aliquid 
+            <lb ed="#PV"/>esse spiritu sanctum et ab utroque 
+            <lb ed="#PV"/>procedere patet de essentia quia 
+            <lb ed="#PV"/>est pater est tamen non genera et 
+            <lb ed="#PV"/>filium ita quod non sequitur 
+            <lb ed="#PV"/>a est pater ergo generat filium unde 
+            <lb ed="#PV"/>pater potest capi pure adiective 
+            <lb ed="#PV"/>et sic naturae illa essentia est pater 
+            <lb ed="#PV"/>Alio modo subiective et tunc bene con<lb ed="#PV"/>ceditur 
+            2m modum antiquorum
+          </p>
+          <p xml:id="ppr-l29-schnsg">
+            <lb ed="#PV"/>2a conclusio haec nomina ge<lb ed="#PV"/>nitor 
+            genitus verbum <choice><orig>ymago</orig><reg>imago</reg></choice> 
+            <lb ed="#PV"/>relative <sic>summuntur</sic> in divinis 
+            <lb ed="#PV"/>Aliqua fuit propria personis 
+            <lb ed="#PV"/>et sunt condistinctiva notiona<lb ed="#PV"/>lia 
+            sicut generaliter
+          </p>
+          <p xml:id="ppr-l29-tcnsle">
+            3a conclusio 
+            <lb ed="#PV"/>nomina essentia capiuntur quandoque 
+            <lb ed="#PV"/>pro propriis sicut dicitur deus de 
+            <lb ed="#PV"/>deo lumen de lumine et quando dicitur 
+            <lb ed="#PV"/>deus generat non est ita essentiale sicut 
+            <lb ed="#PV"/>ly essentia
+          </p>
+          <p xml:id="ppr-l29-qcqpdp">
+            4ta conclusio 
+            <lb ed="#PV"/>quod secundum nomina essentialia 
+            <lb ed="#PV"/>tantum dicitur hoc de illo sed secundum 
+            <lb ed="#PV"/>propria non dicitur ut non dicitur 
+            <lb ed="#PV"/>pater de patre
+          </p>
+          <p xml:id="ppr-l29-qcnbnd">
+            Quinta conclusio 
+            <lb ed="#PV"/>nomina essentialia interdum non 
+            <lb ed="#PV"/>solum capiuntur pro propriis 
+            <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> aliquando pro tota trinitate 
+            <lb ed="#PV"/>ut cum dicitur nemo bonus nisi deus
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

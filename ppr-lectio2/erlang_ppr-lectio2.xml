@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lectio 2, de Fide [Erlangen Transcription]</title>
+                <author xml:id="PP">Petrus Plaoul</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2011.10-dev-master">
+                    <title>Lectio 2, de Fide [Erlangne Transcription]</title>
+                    <date when="2011-10-04">October 04, 2011</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LombardPress</publisher>
+                <pubPlace>Boston, MA</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2011-03-25">March 23rd, 2011</date>  
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">Erlangen</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="la">
+        <front>
+            <div xml:id="includeList">
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+                <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+            </div>
+        </front>
+        <body>
+            <div xml:id="lectio2">
+                <head xml:id="l2-Hlprlpr" subtype="title">Lectio 2, de Fide [Erlangen Transcription]</head>  
+                    
+            	<p xml:id="ppr-l2-idsadf"><lb ed="#E"/>Circa quaestionem notandum Quaedam est scientia quae est causa rerum et prior et alia 
+                <lb ed="#E"/>posterior et ita ponitur ab <name ref="#Aristotle">aristotle</name> et cuius <name ref="#Averroes">commentatore</name> 12o <title ref="#Metaphysics">metaphyiscae</title> De articulis fidei 
+                <pb ed="#E" n="3v"/><lb ed="#E"/>possumus habere duplices assensus unum per rationes probabiles et tales non sensunt[?] ad catholice 
+                <lb ed="#E"/>credendum quia solum habens talem non credet catholice sicut prius dictum est Sed quaeritur utrum 
+                <lb ed="#E"/>talis esset infidelis dicendum est v?eo quod sic quia non haberet fidem requisitam 3o seu fidem 
+                <lb ed="#E"/>infusam Sed si intelligitur quod haberet actum positum dicitur quod non sed prima acceptio est magis propriam 
+                <lb ed="#E"/>Aliquis homo habens istam credulitatem inductus per rationem probabilem scilicet istius iudicium futurum 
+                    <lb ed="#E"/>erit Isti assensui potest subesse falsum et sic iste assensus potest esse falsus Iudicium futurum erit si 
+                    <lb ed="#E"/>deus ordina<corr><g ref="#carrot"/><add>ret</add><del>veit</del></corr> per suam potentiam absolutam quod non erit Aliqui assensus multi?itur[?] secundum 
+                    <lb ed="#E"/>multitudinem obiect?um[?] et eciam habitus proporcionales et sic non est de fide Et omnis isti[?] as<lb ed="#E"/>sensus 
+                sunt p[?] concciores[?] rebus Sed alii sunt assensus viceversa qui non sunt posteriores 
+                    <lb ed="#E"/>sed priores et esse divinum iudicium est huiusmodi quod nullo modo dependet a futuro et habet magis rationem esse quam
+                    <lb ed="#E"/>effectus</p>
+                
+            	<p xml:id="ppr-l2-fnerea"><g ref="#pilcrow"/>Fides non est posterior ymmo prior veritate se tenente ex patet enuntiablis sicut 
+                    <lb ed="#E"/>iudicium dei quod habet respectu istius iudicium futurum erit nullo modo dependent ab illo in esse rei <g ref="#slash"/>Sic 
+                    <lb ed="#E"/>dicitur de fide quod nec in esse veri nec inesse apparentiae dependet a rebus ymmo est prior rebus[?] 
+                    <lb ed="#E"/>et apparentiis</p> 
+            	
+            	<p xml:id="ppr-l2-inqaac"><g ref="#slash"/>Item notandum quod est idem habitus scilicet fides quo intellectus in omni con<lb ed="#E"/>ditorum 
+                    exit actus et sic est idem habitus inclinans ad articulum trinitatis neccessarium et articulum contingentem</p> 
+                    
+            	<p xml:id="ppr-l2-ifnefi"><lb ed="#E"/><g ref="#slash"/>Item fidei nullo modo potest sub esse falsum <g ref="#slash"/>Advertendum quod multiplex est veritas prima iudicium 
+                    <lb ed="#E"/><corr>di<del rend="expunctuated">im</del></corr> <corr><add place="inline">in</add>complexum</corr> quod ineffabilium Ita quod non potest aliter indic?e[?] quam sit <g ref="#slash"/>Eciam ipsa essentia 
+                    <lb ed="#E"/>dicitur veritas incomplexa aliquae[?] veritas causata supponit pro ente connotando conformitatem ad divinum 
+                    <lb ed="#E"/>exemplar conformatum ipsius</p>
+                
+            	<p xml:id="ppr-l2-smvcvr">Secundo modo veritas complexa i??[?] est quae conformitas 
+                    <lb ed="#E"/>?obus[?] causata a divino iudicio sicut <name>sortem</name> c??e[?] est veritas derivata a prima veritate quia 
+                    <lb ed="#E"/>deus iudicat quid verum est <name>sortem</name> currere veritas complexa huius <name ref="#Sortes">sortes</name> currit est <name ref="#Sortes">sortes</name> consideratus 
+                    <lb ed="#E"/>ut est currens sequiutr quod veritas a parte rei discermur[?] a veritate ex?te[?] in intellectu 
+                    <lb ed="#E"/>unde veritas intellectus est iudicium confomre veritate rei etc.</p>
+                
+            	<p xml:id="ppr-l2-ppqesp"><g ref="#slash"/>Braguuerdini ponit quod sicut primum principium in conplexum est deust Ita primum principium complexum est 
+                    <lb ed="#E"/>de ipso deo Ita quod deum esse est prima veritas complexa sicut in ordine encium deus est primum unde 
+                    <lb ed="#E"/>in quoibus genere oportet esse aliquod primum Et ita videtur quod in tota latitudine veritatum esset verrita<lb ed="#E"/>tem 
+                    divnaum complexam ponere et non non[?] in primo orinde Eciam dicit quaedam qutum[?] est de ve<lb ed="#E"/>ritatibus 
+                contingentibus non est dubium quin ista veritas sit <unclear>primo</unclear> illis</p> 
+            	
+            	<p xml:id="ppr-l2-iiqmee">Item illud quod est 
+                    <lb ed="#E"/>notissimum naturae est notissimum simplex <ref>primo <name ref="#Physics">physicorum</name></ref> et sic est de illo deum esset Sicud 
+                    <lb ed="#E"/>dicit <ref><name ref="#Aristotle">aristoteles</name> 2o <title ref="#Metaphysics">metaphysicae</title></ref> quia deus maxime cognoscibilis est quantum est de se sed ex parte 
+                    <lb ed="#E"/>meam est defectus unde dicit sicut oculus nocticoratis et illud est primum simplex licet non quo 
+                    <lb ed="#E"/>ad nos Et sic sicut est aliquod principium primum quo ad non scilicet quod est notissimum quo ad nos 
+                    <lb ed="#E"/>Ita eciam de rebus</p>
+                
+            	<p xml:id="ppr-l2-iaeoav">Item <name>anselmus</name> et <name>augustinus</name> videntur velle in pluribus lcis quod ipsa 
+                    <lb ed="#E"/>prima veritas est causa omnium veritatum Infert correlaria ipe?? <name>Braguu</name></p>
+                
+            	<p xml:id="ppr-l2-peaies">Primum scilicet actum 
+                    <lb ed="#E"/>esse priorem potencia sive in deo sive neccess?ua in mobilibus et non mobilibus temporalibus 
+                    <lb ed="#E"/>et non temporalibus</p>
+                
+            	<p xml:id="ppr-l2-tcepip">Secundum <choice><orig>corrollarium</orig><reg>corollarium</reg></choice> esse est prius quam non esse patet de prima causa</p>
+                
+            	<p xml:id="ppr-l2-qcniec">Tertium 
+                    <lb ed="#E"/>neccessarium est prius p??li Credo quod capit possibile[?] pro contingenti</p>
+                
+            	<p xml:id="ppr-l2-qcevpe">Quartum corollarium neccessarium 
+                    <lb ed="#E"/>est prius <corr><g ref="#carrot"/><add place="aboveLine">in</add>possibili</corr> Ita quod ipse ymaginatur quod nullo modo potest esse falsum vel impossibile etc nisi ori<lb ed="#E"/>ginaliter 
+                hoc sit a prima causa ita quod hoc quod homo non potest esse a??nus finaliter resolvitur 
+                    <lb ed="#E"/>in deum Ita quod deum esse est totalis origo et fons ??m veritatum et quaeri[?] hoc vel hoc est 
+                    <lb ed="#E"/>inpossibile Ita quod si possemus concipere deum non esse haberemus concipere primum principium 
+                    <cb ed="#E" n="4r"/><lb ed="#E"/>esse falsum Istud pissu a <name>Braguu</name> ponitur ad introducendum quod fides nullo modo dependet 
+                    <lb ed="#E"/>a bar?lis[?] ergo dicit <name ref="#Paul">apostolus</name> quod est non apparentium scilicet ex parte obiecti et si sic ali?? apaprentia 
+                    <lb ed="#E"/>hoc est ex parte dei et ex sua int?site[?]</p>
+            		
+            	<p xml:id="ppr-l2-sqssnm">Sequitur quod si inpossibile deus non esset vel esset bonum 
+                    <lb ed="#E"/>nec aliqua denominatio perfectionis simpliciter conveniret creaturae quia illa habet neccessariam habi<lb ed="#E"/>tudinem 
+                ad deum quia sublata non manebit</p>
+                
+            	<p xml:id="ppr-l2-nufmon">Notandum ulterius fides respectu futuri 
+                    <lb ed="#E"/>contingentis sive ipsum eveniat sive non stat in veritate nec aliquis potest decipi per assensum 
+                    <lb ed="#E"/>fidei nec forte deus potest facere quod etc Quia deus creavit[?] eam quod sit talis naturae 
+                    <lb ed="#E"/>Et sic in deus mutaret ordine naturae non potest etc sicut si deus faceret ignem fri<lb ed="#E"/>gefacere 
+                mutaret ordinem et non posset nec mutatio[?] ordine naturae</p>
+                
+            	<p xml:id="ppr-l2-suqpef"><g ref="#pilcrow"/>Sequitur <corr><del rend="strikethrough">propter</del></corr> probatur quod assensus 
+                    <lb ed="#E"/>fidei potest vocari neccesarius respectu cuiuscumque obiecti licet non neccessario sit respectu talis unde ponamus quod assensus 
+                    <lb ed="#E"/>sit una propositio mentalis dico quod assensus fidei respectu istius antechristus erit est propositio neccessaria quia 
+                    <lb ed="#E"/>habet illam nobilem condicionem quod non habet dependentia a re</p>
+                
+            	<p xml:id="ppr-l2-espnrc">Et si ponatur quod antichristus 
+                    <lb ed="#E"/>non erit dico quod adhuc ille assensus non est fliis[?] sed est assentio[?] oppositi Vide sicut deus habet 
+                    <lb ed="#E"/>iudicium quod antichristus erit et tamen si antichristus non erit propter hoc divinum iudicium non nutritur nec 
+                    <lb ed="#E"/>falsificatur et sic est de fide et sic fides est assensus neccessarisu respectu contingentis</p> 
+            	
+            	<p xml:id="ppr-l2-sqicen">Sequitur quod iudicium 
+                    <lb ed="#E"/>causatum de futurus contingenti est neccessarium</p>
+            	
+            	<p xml:id="ppr-l2-shcfss">Sequitur hanc c?m non valere hoc iudicium mentale 
+                    <lb ed="#E"/>est neccessarium ergo neccesse est sic fore sicut signficat</p> 
+            	
+            	<p xml:id="ppr-l2-suqaef">Sequitur quod aliqua denominatio perfectionis communica<lb ed="#E"/>ta 
+                est realiter fidei quae non potest communicari rationali creaturae patet quia esse notitiam 
+                    <lb ed="#E"/>infallibilem est denominatio valde magnae perfectionis et istam sortitur fides 
+                    <lb ed="#E"/>Sc?tudo[?] est superior ad fidem in gradu</p> 
+            	
+            	<p xml:id="ppr-l2-sqscss">Sequitur quod stat quod aliqua denominatio perfectionis 
+                    <lb ed="#E"/>simplicitur moalis competit alicui et non communicatur speciei superior</p> 
+            	
+            	<p xml:id="ppr-l2-inqiei">Item notandum quod si esset una crea<lb ed="#E"/>tura 
+                scilicet intelligencia quae haberet naturam fidei illa nullo modo posset falli et non minus denominatio 
+                    <lb ed="#E"/>dilective caritatis potest sibi conpotere et ista esset in peccabilis</p> 
+            	
+            	<p xml:id="ppr-l2-ampdhe">Alio modo posset ymagi<lb ed="#E"/>nari 
+                creatura inpeccabilis si deus de potentia abosluta ordinaret qualitatem quae naturaliter dn?get 
+                    <lb ed="#E"/>hominem et praeservaret a peccato sicut caritas d?ngit[?] hominem etc</p> 
+            	
+            	<p xml:id="ppr-l2-isdopv">Alio modo si deus causaret in<lb ed="#E"/>tellectum 
+                et simul faceret ipsum esse non potentiam velitimam[?] ille intellectus esset inpeccabilis quia 
+                    <lb ed="#E"/>omnem peccatum voluntarium[?]</p>
+                
+            	<p xml:id="ppr-l2-ipglem">Item per gratiam Item propter debilitatem capacitatis Item licet esse 
+                    <lb ed="#E"/>libera tamen non posset forte ascendere ad capitudum praecepta legis et moris</p>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

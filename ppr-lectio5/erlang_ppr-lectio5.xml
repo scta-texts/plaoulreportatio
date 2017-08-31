@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 5, de Fide [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>A SCTA Project</authority>
+        <availability status="free">
+            <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2011-03-25">March 23rd, 2011</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="5-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio5">
+        <head xml:id="ppr-l5-Hd1e3722">Lectio 5, de Fide [Erlangen Transcription]</head>
+        <div xml:id="ppr-l5-Dd1e3725">
+          <head xml:id="ppr-l5-Hprpier"><supplied>Plus rationes pro secunda instantia et responsiones</supplied></head>
+          <div xml:id="ppr-l5-Dd1e3731">
+            <head xml:id="ppr-l5-Htrtrtr"><supplied>Tres rationes</supplied></head>
+            <p xml:id="ppr-l5-caqsef">
+              <lb ed="#E"/>Tanta est rectitudo fidei quod non contingit aliquem per cuius assensum decipi et quod non 
+              <lb ed="#E"/>contingit aliquem talem esse falsum <choice><orig>ymmo</orig><reg>immo</reg></choice> quilibet talis est in moralis[?] veritatis <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+              <lb ed="#E"/><choice><orig>neccessarius</orig><reg>necessarius</reg></choice> licet sic respectu futuricontingentis propter cuius <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> habitudinem
+            </p> 
+            <p xml:id="ppr-l5-psppim">
+              ad primam veri<lb ed="#E"/>tatem 
+              <name rend="#Abraham">Abraham</name> credidit quod verbum dei incarnabitur Quia dicit <name>Abraham</name> exul<lb ed="#E"/>tavit 
+              ut videret diem[?] mou[?] vidit et ganisus[?] est Tunc sic <name>abraham</name> credidit 
+              <lb ed="#E"/>ex fide quod christus incarnabitur ponamus quod christus non incarnabitur quia sicut dicit 
+              <lb ed="#E"/><name ref="#Augustine">augustinus</name> christus potui aliter redimere prima pars est neccessaria scilicet quod <name>abraham</name> credidit etc 
+              <lb ed="#E"/>quia transivit in praeteritum et secundam contingens et tamen non incarnabitur igitur false credidit 
+              <lb ed="#E"/>ergo fidei potest sub esse falsum Item prius argumentum est de ymolatione[?] filii <name>abrahae</name> quia cre<lb ed="#E"/>didit 
+              filium suum et <choice><orig>ymolandum</orig><reg>immolandum</reg></choice> et credidit ex fide Item 
+              <lb ed="#E"/>argumentum fuit Spiritus sanctus qui est summe bonus de facto ?it[?] respectu ex?xoris[?] et respectu falr[?] et 
+              <lb ed="#E"/>fide[?] non est maioris rectitudinis quam spiritus sanctus igitur antecedens patet quia si aliqua res 
+              <lb ed="#E"/>positive producatur oportet quod spiritus sanctus con?trat[?] 
+              Item argumentum fides in in potentia obiectali etc
+            </p>
+            <p xml:id="ppr-l5-usapce">Arguitur aliter fides inclinat ad conformiter credendum praelato ecclesiae a deo et tamen 
+              <lb ed="#E"/>praelato potest decipere quia etiam potest decipi quia posset c?dere[?] quod pater in divinis 
+              <pb ed="#E" n="6r"/><lb ed="#E"/>esset maior et perfectior filio et quia posset producere aliquae quem filius non posset 
+              <lb ed="#E"/>et potest ulterius praedicare aliis et sic ac?deret[?] sibi una vetula habens fidem infusam
+              <!-- break -->
+              <lb ed="#E"/>Item de ecclesia probatur quia potest errare ut in casu connuri[?] denominatio[?] ut si aliquis occul<lb ed="#E"/>tus 
+              contraheret cum aliqua et postea in facie ecclesiae etiam etiam conpellit talem stare[?] 
+              <lb ed="#E"/>cum secunda et tamen deberet cum prima
+            </p>
+            <p xml:id="ppr-l5-idpeli">
+              Item probatur de deo probatur quia potest decipere creaturam quia potest 
+              <lb ed="#E"/>facere quod non implicat contradictionem
+              <!-- break -->
+              Item <name>Ieremias</name> loquens de deo dicit decepisti me 
+              <lb ed="#E"/>C?stus finxit se comedere et non comedit quia non habuit corpus christum[?] <choice><orig>commedere</orig><reg>comedere</reg></choice> Quantum 
+              <lb ed="#E"/>ad primum punctum ultimi argumenti de vetual credente praelato in ista materia egoegeletru[?] 
+              <lb ed="#E"/><name ref="#WilliamOfAuxerre">wilhelmus anticiodoresnis</name> ponendo istam conclusionem Sicut non potest aliquis agere contra 
+              <lb ed="#E"/>caritatem quando peccet Ita  non potest quis agere contra fidem quando peccet mortaliter <g ref="#dot"/> 
+              <lb ed="#E"/>Et ergo in isto casu peccaverit mortaliter
+            </p>
+          </div>
+          <div xml:id="ppr-l5-Dd1e4045">
+            <head xml:id="ppr-l5-Hrrrrrr">
+              <supplied>Responsio</supplied>
+            </head>
+            <p xml:id="ppr-l5-iurdii">
+              Ad rationem respondit[?] quod creatura rationalis habet multitudinem praelatum 
+              <lb ed="#E"/>primus et summus est deus continue assistens animae et ipsam dirigens et manens inquantum 
+              <lb ed="#E"/>est ex pacte sui illuminans
+              <!-- break -->
+              Et dicit ulterius quod creaturae innatum est cognoscere 
+              <lb ed="#E"/>vim[??] et ideo vetula si non sit inculpa glorificat deum et deus illuminat eam quia tan<lb ed="#E"/>ta 
+              est divina sollicituod quod non permittit demare et sic non credit et si crederet non 
+              <lb ed="#E"/>ex fide et de hoc deo illiminante et sic in isto casu non credet suo praelato Et sic dicit 
+              <lb ed="#E"/><name ref="#Paul">apostolus</name> Si angelus de caelo aliud dogmatizaret scilicet aliud a fide scilicet deffensum fidei ana<lb ed="#E"/>thema 
+              sit De ecclesia in casu posito dirigitur quod ecclesia in suo regiminie habet aliqua quae sunt 
+              <lb ed="#E"/>mere spiritualia alia quae sunt pollitica alia mixta
+            </p>
+            <p xml:id="ppr-l5-qediis">
+              Quantum ad prima quae tangunt 
+              <lb ed="#E"/>fidem et illa quae tangunt salutem ipsa non potest errare quia dirigitur a spiritu sancto et vicu<lb ed="#E"/>ficatur[?] 
+              Si vero factum sit pollitticum ipsa uncct[?] quodammodo pollittice et potest errare
+              <!-- break --> 
+              De mixtis[?] 
+              <lb ed="#E"/>dico quod meus[?] mini?tatione[?] pono aliquod spirituale et etiam ad hoc non spirituale quantum ad inflic<lb ed="#E"/>tionem 
+              <choice><orig>penae</orig><reg>poenae</reg></choice> ad extra Factum ecclesiae est quodammodo pollitticum sed quantum ad mittiora[?] est spiritu<lb ed="#E"/>ale 
+              Etiam non potest errare quantum ad illa quae considerat statum spiritualm hominis
+            </p>
+            <p xml:id="ppr-l5-qedehd">
+              Quantum 
+              <lb ed="#E"/>est de errore consilii generalis quantum ad spiritualia non potest creare et si ad tempore erraret 
+              <lb ed="#E"/>deus provideret quod semper veritas crederetur fidelis omnis essent infideles prophe<lb ed="#E"/>tarent 
+              vellent nollent veritatem Unde alias in quodam concilio generali papa et 
+              <lb ed="#E"/>omnes erraverunt excepto uno solo sed <name>hylario</name> qui quasi erat moris reputationi 
+              <lb ed="#E"/>inter omnes et tandem venit ad conspectum collegii papae inpuam[?] papae et pependit man<lb ed="#E"/>tellum 
+              suum super radium solarem ex miraculo quod deus per illum fecit ad redu<lb ed="#E"/>cendum ecclesiam per illum ad veritatem fidei
+            </p>
+            <!-- appears missing  <p xml:id="l5-sdqdie"> -->
+            <p xml:id="ppr-l5-qatafc">
+              Quantum ad tertium utrum deus potest decipere 
+              <lb ed="#E"/>creatura unde quiddam tempus[?] creatura cum sit cum nec mentr? nec falle potest et sic dicitur 
+              <lb ed="#E"/>quod non Probatur quia sic suae bonitati immensae repugnat facere creatuarum peccare sic 
+              <lb ed="#E"/>sibi repugnat decipere creaturam
+            </p>
+            <p>
+              <lb ed="#E"/>Et si arguitur quod deus de facto concurrit ad errorem 
+              <lb ed="#E"/>ergo decipit consequentia non valet quia non sequitur <corr>de producit</corr> mesum[?] erog currit vel facit co<lb ed="#E"/>medere 
+              ergo commedit sic non sequitur in proposito
+            </p>
+          </div>
+          <div xml:id="ppr-l5-Dd1e4299">
+            <head xml:id="ppr-l5-Harpier"><supplied>Alia ratio pro secunda instantia et responsio</supplied></head>
+            <p xml:id="ppr-l5-strvaf">
+              <!-- also contains <p xml:id="l5-reqdnf"> and <p xml:id="l5-ipupad">-->
+              Sed dubitatur utrum potest se solo producere 
+              <lb ed="#E"/>errorem nulla alia creatura concurrente 
+              Teneo quod non quia sic etaim deciperet 
+              <lb ed="#E"/>Alius difficultas quaeritur utrum deus potest se solo causare assensum de futuro contingenti quem 
+              <lb ed="#E"/>producet ratio probabilis dicitur probabiliter[?] quod non vel saltem est sustinibile 
+              <lb ed="#E"/>ymmo nec assensum verum respectu futuri contingentis scilicet eiusdem speciei 
+              <pb ed="#E" n="6v"/><lb ed="#E"/>Tum assensu producto ratione probabili
+              Sit ita quod deus se solo causet 
+              <lb ed="#E"/>in <name>sorte</name> talem assensum et transiverit in praeteritum tunc <choice><orig>neccesse</orig><reg>necesse</reg></choice> est quod causaverit et supponitur[?] 
+              <lb ed="#E"/>quod non sit de assensibus fidei et supponitur[?] quod assensus respectu istius antichristus erit ponamus tunc <choice><orig>2am</orig><reg>secundam</reg></choice> 
+              <lb ed="#E"/>scilicet quod antichristus non erit tunc sic iste assentit quod antichristus erti et antichristus non erit a solo deo 
+              <lb ed="#E"/>ille assensus causatur ergo deus decipit creaturam
+            </p>
+            <p xml:id="ppr-l5-trechd">
+              <lb ed="#E"/>Tunc respondetur ad aliquas 
+              <lb ed="#E"/>rationes quod in ista lectione et etiam in lectione Sermo ad auctoritatem <name ref="#Jeremiah">Ieremiae</name> dicens 
+              <lb ed="#E"/><quote>domine decepisti me</quote> 
+              Respondetur uno modo quod ipse <name>Ieremias</name> non loquitur in persona propria sed in persona 
+              <lb ed="#E"/><name>zephat</name> loquentis nugaciter et false Aliter exponitur quod intelligebatur quantum 
+              <lb ed="#E"/>ad opinionem populi quod populus credebat quod deus deceperat <name>Ieremiam</name>
+            </p>
+            <p xml:id="ppr-l5-asassp">
+              Aliquid a?a[?] quando dicitur 
+              <lb ed="#E"/>quis finxit se comedere et non comedit dicitur quod veraciter comedit licet cibus non fuerit 
+              <lb ed="#E"/>conversus <g ref="#dot"/> unde comestio non cognoscet[?] conversionem cibi in alitum ita quod huiusmodi conversio non 
+              <lb ed="#E"/>est de integritate comestionis
+            </p>
+            <p>
+              Et dicitur quod panis vel cibi fuit postea resolutus 
+              <lb ed="#E"/>in materiam secundam quod sibi placuit
+            </p>
+            <p xml:id="ppr-l5-aaqica">
+              <!-- or <p xml:id="l5-aaqica"> -->
+              Quantum ad illud quando dicitur fixit se longuis nec[?] 
+              <lb ed="#E"/>per hoc voluit duo muere primo quod disci?li[?] recedebant realiter ab eo scilicet quibus 
+              <lb ed="#E"/>liquebatur
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l5-Dd1e4472">
+          <head xml:id="ppr-l5-Hrarpsi">
+            <supplied>Responsio ad rationes pro secunda instantia</supplied>
+          </head>
+          <p xml:id="ppr-l5-trrrpf">
+            Ita quod ipsi dubitabant de eius resine?ne[?] <choice><orig>2o</orig><reg>secundo</reg></choice> voluit muere[?] suam ascensionem 
+            <lb ed="#E"/>Ad alias rationes prius factas
+          </p>
+          <p xml:id="ppr-l5-apdiav">
+            ad primam de spe Responsio <name ref="#WilliamOfAuxerre">anticiodorensis</name> quod fides et spes 
+            <lb ed="#E"/>sint virtutes unde spes semper est absque praesumptione et ideo numquam inclinat absolute ad 
+            <lb ed="#E"/>habendam vitam aeternam sed debet sic esse in universali si quis perseraverit[?] usque ad finem 
+            <lb ed="#E"/>Et proportionabiliter de simplixi si ego usque ad finem vice eo in gratia et sic habebo vicam aeternam 
+            <lb ed="#E"/>sic de cessero in gratia Ita quod spes non est habitus catholicus sed conditionalis 
+            <lb ed="#E"/>nec saltem sic facta a deo revelatio
+          </p>
+          <p xml:id="ppr-l5-asreif">
+            Ad aliam videlicet ad secundam factam in lectione <choice><orig>in mediate</orig><reg>immediate</reg></choice> 
+            <lb ed="#E"/>praecedenti de receptione corporis christi Dicitur quod fides in inclinat ad credendum quod ibi 
+            <lb ed="#E"/>sit corpus christi sed <corr><del>etiam</del></corr> ex suppositione scilicet si sit vera consecratio facta peteres utrum esset ex 
+            <lb ed="#E"/>or[?] credendo catholice posset dici quod non renddit hominem multum culpabilem fides 
+            <lb ed="#E"/>tamen numquam exieret[?] in talem actum propter excellenciam eius
+          </p>
+          <p xml:id="ppr-l5-atdmip">
+            Ad terciam de assensu ante 
+            <lb ed="#E"/>incarnationem christi quia aliiqui assenciebant isti Christus incarnabitur et continuetur 
+            <lb ed="#E"/>usque ad instans incarnationis tunc erit falsus Respondeitur distinguendo de huius modi assensu 
+            <lb ed="#E"/>recte[?] temporis quia vel potest quod debebat praesciri[?] a fuelibus[?] illius temporis secundum praescriptionem prophetarum 
+            <lb ed="#E"/>quia erat de scriptrum appraehentis licet non forte ita praescientiae supe[?] multum distabat quod non 
+            <lb ed="#E"/>patuit elici vel concludi ex dictis prophetarum fides inclinabat ad credendum quod christus 
+            <lb ed="#E"/>incarnabitur sed proprie quando non potuit concludit quod non esset natus tunc debebat conclu<lb ed="#E"/>dere 
+            ex fide christus est incarnatus vel incarnabitur et sic assensu fidei semper est 
+            <lb ed="#E"/>verus
+            <!-- break -->
+            Quia quam diu poterat constaret etc[?] inclinabat etc et quando dicitur potentia[?] dicitur 
+            <lb ed="#E"/>quod non est possibilis Dicit[?] conservetur ille assensus dicitur quod ille assensus in tempore quo christus erat 
+            <lb ed="#E"/>venturus et putaret constaret etc tunc inclinabat ad primum et consequenter inclinabat 
+            <lb ed="#E"/>ad illam disiunctam vel dicitur quod non est possibile illum conservari in esse assensus quia suae 
+            <lb ed="#E"/>naturae repugnat
+          </p>
+        </div>
+        <div xml:id="ppr-l5-Dd1e4673">
+          <head xml:id="ppr-l5-Hd1e4675">Circa textum</head>
+          <p xml:id="ppr-l5-cthnep">
+            Circa texta haec est concedenda deus genuit deum patet 
+            <lb ed="#E"/>in sine balo[?] lumine de lumine deum verum de deo vero Non tamen concedendum quod genuit se diu 
+            <lb ed="#E"/>quia nulla res potest se generare quia oportet quod inter ginguens et genitum sit diversitas vera 
+            <lb ed="#E"/>nulla res potest se generare ut sic Ista neganda deus genuit deum qui est pater <g ref="#dot"/> 
+            <pb ed="#E" n="7r"/><lb ed="#E"/>Haec concedenda deus genuit deum qui non est pater
+          </p> 
+          <p xml:id="ppr-l5-nqcncv">
+            Nota quod cathe[?] numqua respecit 
+            <lb ed="#E"/>ad propositionem in materia trinitatis nisi fuerit resoluta dicit enim vel intelligit sic vel sic dixit <name>magister petrus</name> 
+            <lb ed="#E"/>eum in hoc approbando <name>Magister</name> sententiarum dicit quod pater generat filium natura unde pater generat 
+            <lb ed="#E"/>filium natura voluntate cornritante[?] unde si ymaginemur quod in divinis natura et voluntas 
+            <lb ed="#E"/>debent realiter distincte tunc pater diceretire generare filium natura seu secundum fecunditatem 
+            <lb ed="#E"/>suae natura et est in alia produccio a voluntate comitante natura ut si ymaginaremur 
+            <lb ed="#E"/>sicut prius et voluntas produceret amorem concomitante natura ut si ymaginaremur 
+            <lb ed="#E"/>sic prius et voluntas produceret amorem concomitante natura et si per medum amens producitur 
+            <lb ed="#E"/>spiritus sanctus ab utroque et sic patet quod in divinis est dilectio productio scilicet una a natura voluntate 
+            <lb ed="#E"/>conto[?] mitante et alia a voluntate a natura concomitante
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

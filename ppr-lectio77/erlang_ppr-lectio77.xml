@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 77, de Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2012.09-dev-master">
+          <title>Lectio 77, de Trinitate [Erlangen Transcription]</title>
+          <date when="2012-09-22">September 22, 2012</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Petrus Plaoul Editio Critica Electronica (PPECE)</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2012-09-22">September 22, 2012</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+        <div xml:id="lectio77">
+          <head xml:id="l76-Hldtldt" subtype="title">Lectio 77, de Trinitate [Erlangen Transcription]</head>
+              
+          <p><lb ed="#E"/>Ad aequaliter continuandum materiam alias inceptam Pono propositionem et inferam <choice><orig>correllaria</orig><reg>corollaria</reg></choice></p>
+          
+          <p>propositio 
+            <lb ed="#E"/>est ista sicut ex gratuita dei providencia scriptura non fuit sufficienter evidens ad subiectum est in<lb ed="#E"/>finitae 
+            capacitatis et continenciae sic christi sponsa ecclesia est infinitae fecunditatis ad decla<lb ed="#E"/>randum 
+          infinitas conclusiones secundum infinitos casus possibiles occurrere sensus propositionis est quod 
+            <lb ed="#E"/>sicut scriptura sacra est infinitae continenciae et infinitas continet veritates sicut sponsa christi 
+            <lb ed="#E"/>ecclesia est infinitae fecunditatis ad declarandum eas prima pars probabiliter ex auctoritate <name>augustini</name> in 
+            <lb ed="#E"/><title>de doctrina christiana</title> quae communiter allegatur scilicet quidquid iin aliis sequitis[?] invenitur et si utile 
+            <lb ed="#E"/>sit in sacra scriptura reperitur et si noxium dampnatur ergo ita est generaliter si utilia sint 
+            <lb ed="#E"/>reperiuntur in sacra scriptura et si inutilia dampnantur</p>
+          
+          <p>Secunda pars probatur primo ex immen<lb ed="#E"/>sitate 
+            fecunditatis sponsi si perfecte coniunctus est suae sponsae ad declarandum veritates filiis 
+            <lb ed="#E"/>ecclesiae <choice><orig>neccessarias</orig><reg>necessarias</reg></choice> quocumque contingat etiam occurrere[?] nedum veritates talis sed eciam regulas honestatis 
+            <lb ed="#E"/>ad affectus rectificationem ita quod non solum ad intellectum informationem sed eciam ad effectus 
+            <lb ed="#E"/>rectificationem</p>
+          
+          <p>Ex prima parte in secundum primo quod licet scripturae continentia et ecclesiae fecunditas aliquid 
+            <lb ed="#E"/>alicui reducta quia scripturae continentiae etc omnium veritatum tangencium gatuitum regimen 
+            <lb ed="#E"/>ecclessiae et humanae speciei et actualiter continet quamlibet talem veritatem sed fecunditas ecclesiae non 
+            <lb ed="#E"/>actualiter[?] reductu[?] est ad cuiuscumque veritatis cognitionem sicut ante determinationem spiritus sancti proceeret a filio non 
+            <lb ed="#E"/>fuit actualiter informata de illa veritate licet illa veritas continebatur in ea est tamen sensitivis[?] 
+            <lb ed="#E"/>ad declarandum eas propter sponsum scilicet spiritum sanctum natum est elare illas veritates</p>
+          
+          <p>Secundum correlarium 
+            <lb ed="#E"/>maior est scripturae continentia et altior quam sit angeli notitia beatifica nam scriptura est conten<lb ed="#E"/>tiva[?] 
+            <lb ed="#E"/>infinitarum veritatum angelus autem solum finitas percipit veritates patet a signa[?] nam 
+            <lb ed="#E"/>licet incarnationis misterium esset in sacra scriptura descriptum nichilominus tamen latuit angelos 
+            <lb ed="#E"/>sic habetur <title ref="#is">ysa</title></p>
+          
+          <p><g ref="#pilcrow"/>ipsi admirantes dixerunt quis est iste qui venit d?dem[?] etc 
+            <lb ed="#E"/>Potest inferri 3o quod maior est scripturae continencia quam sit tota notitia caelestis paradis sub 
+            <lb ed="#E"/>christo et nostrae eius Ita quod totum residuum circa christum et mentem eius propter reverentiam ipsius non tantum et cet[?] 
+            cognoscit in verbo quot relucent in sacra scriptura vel continentur</p>
+          
+          <p>Quartum <choice><orig>correlarium</orig><reg>corollarium</reg></choice> sicut sacra 
+            <lb ed="#E"/>scriptura pu?biliter fuit edita propter spirituale matrimonium sponsi ad sponsam sic solus sponsus eam cepit 
+            <lb ed="#E"/>plenarie</p>
+          
+          <p>Prima pars patet Nam finis circa deum tocius spiritualis regiminis et divinae providenciae fuit 
+            <lb ed="#E"/>incarnatio verbi meritorium spirituale christi ad sponsam ita quod habemus meritum divinae providenciae et 
+            <lb ed="#E"/>spiritualis regminis ante verbi incarnationem et habemus consummationem illius incarnationem et in passione 
+            <lb ed="#E"/>et haec fuit intentio prophetarum unde <name ref="#Solomon">salomon</name> Osculetur me osculo omnis sui et licet matrimonium 
+            <lb ed="#E"/>esset et inceptum non causat tamen confirmatum sed osculando inflavit spiritum sanctum[?] et dona gratuita quaelibet 
+            <lb ed="#E"/><choice><orig>habundat</orig><reg>abundat</reg></choice> ecclesia in fide et sic sponsus numquam permittit deficere qu[?] illa sit formidabilis veritate 
+            <pb ed="#E" n="104v"/><lb ed="#E"/>In hiis quae tanguit fidem et bonos mores <!-- might want to add paragraph break here --> Secunda pars patet nam sacra scriptura est infinitae con<lb ed="#E"/>tinenciae 
+            et continet infinitas et altissimas veritates sed nulli creaturae est communicata in<lb ed="#E"/>finita 
+            notitia circa <corr><del rend="expunctuated">habitudinem</del></corr> christi humanitatem unde solus christus habet plenariam noti<lb ed="#E"/>tiam 
+            quo ad omnes modos repraesentandi</p>
+          
+          <p>ubi advertendum quod incarnatione verbi humanitas 
+            <lb ed="#E"/>christi primo legit in vero omnem veritatem et quicquid in sacra scriptura continetur et legendo in<lb ed="#E"/>tellexit 
+          omnia quae verum[?] plenariae secundum <name ref="#Lombard">magistrum</name> <title>sententiarum</title> in eodem instanti anima christi intellexit 
+            <lb ed="#E"/>omnia quae verbum plenarie et ratione ydoneitatis christus consecratus est in sacerdotem et regalem 
+            <lb ed="#E"/>dignitatem <choice><orig>ymmo</orig><reg>immo</reg></choice> pro eius reverentiam reconciliatum est totum genus humanum in eodem instanti 
+            <lb ed="#E"/>incarnationis</p>
+          
+          <p>Quintum <choice><orig>correllarium</orig><reg>corollarium</reg></choice> licet omnes veritates ut dictum est contineantur in sacra scriptu<lb ed="#E"/>ra 
+          non tamen evidenter est nobis Causa secundae partis potest esse infinitas librorum non sufficeret 
+          <lb ed="#E"/>ad explicandum <choice><orig>misteria</orig><reg>mysteria</reg></choice> in sacra scriptura contenta ideo etc Nam ad hoc requireretur infinita 
+            <lb ed="#E"/>multitudo voluminum nec sufficeret</p>
+          
+          <p>Secunda causa potest esset ut sponsa christi sub timore viveret 
+            <lb ed="#E"/>et cum devotione adiutorium spiritus sancti invocaret in casibus arduis ubi defficiente sensu huma<lb ed="#E"/>no 
+          receret[?] ad spiritum sanctum tamquam ad sponsum ut generaret veritas ex sua sponsa <choice><orig>neccessariis</orig><reg>necessariis</reg></choice> 
+            <lb ed="#E"/>ad subiectum</p>
+          
+          <p>Sequitur ulterius quod in sacra scriptura omnes leges iustae et omnes regulae morales 
+            <lb ed="#E"/>vere et plene continentur patet ex dictis et probatione prius tacta nam probatio <name ref="#Augustine">augustinus</name> est ad hoc in principio[?] 
+            <lb ed="#E"/>istius lectionis tacta Consimilem ne dum de moralibus eo sed eciam de speculabilibus unde <name>Ioseph</name> 
+            <lb ed="#E"/><name>Bachon</name> et <name>Rabbi Moises</name> super illud <title>ezechielis</title> in medio rotae tenet quod singulem artes in 
+            <lb ed="#E"/>sacra scriptura continentur alio et alio typo et modo tradendi <hi rend="underline">Unde <name>Rrabbi moises</name></hi> super 
+            <lb ed="#E"/>illud <title>ezechielis</title> in medio rotae exponit et dicit quod antiqui intelligentes philosophiam de motibus 
+            <lb ed="#E"/>corporum caelestium et etiam de motu diurno quod spiritus erat motis id est intelligencia mo<lb ed="#E"/>vens 
+            orbem</p> 
+          
+          <p>et sic scriptura est omnis veritatis tam practicae quam speculativae realiter con<lb ed="#E"/>tentiva 
+          <choice><orig>ymmo</orig><reg>immo</reg></choice> debet <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> velud exemplar et liber ad extra communicatum in quo continetur 
+            <lb ed="#E"/>totum quod est in libro vitae ad intra licet sub nubilo</p>
+          
+          <p>Sequitur quod prophetae non plene suas 
+            <lb ed="#E"/>prophecias intellexerunt nec moyses quae <corr><add place="aboveLine">con</add>scripsit</corr> patet quia in scriptura sua infinitae veritates 
+            <lb ed="#E"/>relucent quas non cepit</p>
+          
+          <!-- this is probably number corollary 9 -->
+          <p>Sequitur quod infinitum altiora conscripsit quam intellexit etc non fuit v? 
+            <lb ed="#E"/>pureum[?] organum spiritus sanctus licet tamen sufficienter intellexit illa quae fuerant <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> pro regimine populi</p>
+          
+          <p><lb ed="#E"/>consequenter potest inferri esse probabile quod quandoque libri moysi realiter continent totum novum testamentum 
+            <lb ed="#E"/>quantum ad sententias alias[?] continet omnes veritates novi testamenti Ideo secundum doctores quod rota 
+            <lb ed="#E"/>sit in medio rotae intelligitur quod in veteri testamento est totum novum et contra quia omnia 
+            <lb ed="#E"/>sunt de consto[?] sponsa Salvator dicit moises scripsit de me Advertendum quod scriptura licet cerneret[?cresceret] 
+            <lb ed="#E"/>hoc tamen non fuit quantum ad vigorem suum principalem sed debet ymaginari ad modum pueri[?] cuius 
+            <lb ed="#E"/>eadem est forma vel anima usque ad perfectionem perfectam suam aetatem et sic quantum ad formalem partem 
+            <lb ed="#E"/>non perfeicitur tamen quantum ad aliquid perficitur sic in proposito veritates magis explicite sunt 
+            <lb ed="#E"/>licet in scriptura sacra continebantur et sic dicuntur crescere[?] Consequenter ad ea quantum concernunt[?] 
+            <lb ed="#E"/>fide non crescunt veritates fidei licet ad plena obligemur per determinationem ecclesiae et sic coescivit[?]  
+            <lb ed="#E"/>non per generacionem novae veritatis sed per exemplificationem eius</p>
+          
+          <p>sequitur quod scriptura sacra 
+            <lb ed="#E"/>sufficeret pro plenaria instructione vitae humanae quantum ad intellectum et plenaria instructione 
+            <lb ed="#E"/>morum quantum ad affectum pro sequendo vitam aeternam id est sufficienter continet omnia talia <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> 
+            <lb ed="#E"/>ad subiectum et rectificationem affectus licet indigiat ex processione et sponso declarante</p>
+          
+          <p>Sequitur 
+            <lb ed="#E"/>quod urgentibus <choice><orig>neccessitatibus</orig><reg>necessitatibus</reg></choice> circa regimen ecclesiae vacandum esset bibliae nam ibi continentur omnia 
+            <lb ed="#E"/>tangencia regimen ecclesiae et sicut morbi ecclesiae ibi tanguntur ita et remo?a[?]</p>
+          
+          <p>Sequitur pecca<lb ed="#E"/>tum 
+          negligenciae medicorum qui uccinerunt[?] ad libros humanitus ad inventos quorum finis 
+            <lb ed="#E"/>est bonum temporale praecipue inquibus non est vita nec salus</p>
+          
+          <p>Aliud correlaritur[?] infinitum 
+            <lb ed="#E"/>maior est sponsi praesentia ad ecclesiam quam sit eius experiencia nam sponsus scilicet christus 
+            <cb ed="#E" n="105r"/><lb ed="#E"/>respectu eccleisae infinitae assistit et fecundat ecclesiam quam sit eius experiencia quantum ex parte 
+            <lb ed="#E"/>sui respectu cuiuscumque in nonibilis[?] veritatis neccessariae pro salute et illud veritatis fecundat ecclesaim quan<lb ed="#E"/>tum 
+            ex ex parte sui sed influencia tamen experitur secundum dispositionem membrorum ecclesiae ex boni<lb ed="#E"/>tate 
+          morum vel studio sacrarum scripturarum vel ex ambobus simili[?]</p>
+          
+          <p>Aliud <choice><orig>corrollarium</orig><reg>corollarium</reg></choice> Ecclesia eciam 
+            <lb ed="#E"/>circa fidei veritates vel regulas honestatis nullum posset generare monstrum quia sponsus 
+            <lb ed="#E"/>est veritas summa et bonitas summa quae realiter reddit sponsam in maculatam ideo quod 
+            <lb ed="#E"/>a sponso et a sponsa realiter immaculatis non potest error procederet vel moralitatis pravitas</p>
+          
+          <p>Aliud 
+            <lb ed="#E"/><choice><orig>corrollarium</orig><reg>corollarium</reg></choice> quamvis sine monstro vel monstruositate sint multa capita in corpore sponsae scilicet ecclesiae 
+            <lb ed="#E"/>ad unum tamen ordinata hic nubia[?] praeter illud tamen caput <choice><orig>ymo</orig><reg>ymmo</reg></choice> abstracto adhuc manent vita 
+            <lb ed="#E"/>ecclesiae et eius integritas sine monstro Prima pars patet nam omnes tenentes vicem <name ref="#Apostles">apostolorum</name> sicut epicopi 
+            <lb ed="#E"/>habent rationem capitis et quilibet eorum est realiter caput ideo secundum divisionem et multitudinem partium 
+            <lb ed="#E"/>fidelium requerentur multa capita quae tantum reducuntur ad unum <choice><orig>capud</orig><reg>caput</reg></choice> quod est praesul romanus</p>
+          
+            <p><lb ed="#E"/>de illo secundo quod subtracto capitis princiaplis vel cuiuscumque ipsorum non tollit vitam ecclesiae nam ecclesia principaliter 
+              <lb ed="#E"/>in fide vivit et in caritate et illa est eius unio formalis et principalis</p>
+          
+          <p>Item caput influens 
+            <lb ed="#E"/>vitam est ipse sponsus qui habet vicem capitis influentis ideo remanente principali capite 
+            <lb ed="#E"/>non tollitur vita nec est monstruosa</p>
+          
+          <p>Item vacante sede apostolica ecclesia non esset mortua 
+            <lb ed="#E"/>et monstruosa <choice><orig>ymmo</orig><reg>immo</reg></choice> adhuc manet quantum et caritatem in quibus consistit eius unitas ideo non 
+            <lb ed="#E"/>moritur morte spirituali nec absolute redditur sine capite quia manet cum capit principali et sic 
+            <lb ed="#E"/>non redditur acephala</p>
+          
+          <p>Sequitur quod licet unitas capitis sequatur ex sacra scriptura eciam 
+            <lb ed="#E"/>scilicet christum quod debeat esse unus salus papa Sp?m tamen non videtur esse dicendum proprie contra fidem 
+            <lb ed="#E"/>Advertendum quod ex usu doctrinarum lata est differentia dicere ista propositio repugnat alicui propositioni sequenti ex 
+            <lb ed="#E"/>fide et ista propositio est contra fidem et refert sic dicere non ex primaria significatione terminorum sed ex 
+            <lb ed="#E"/>usu doctrinarum Nam si aliqua propositio sequitur ad fidem contradictorium eius repugnat fidei Sic 
+            <lb ed="#E"/>doctores non admittunt tales propositiones <name>Augustinus</name> <title>super genesim</title> Tam diu non est contra fidem quam 
+            <lb ed="#E"/>diu non est determinatum per ecclesiam Et ideo non potest quando probabiliter asserit donec fuerit determi<lb ed="#E"/>natum 
+            per ecclesiam unde ex usu doctorum aliquid esse contra fidem vocatur vel quia repung<lb ed="#E"/>nat 
+          evidenter fidei vel quia est determinatum est repungans fidei nam dicunt aliqui quod sequitur 
+            <lb ed="#E"/>ex articulo omnipotentiae quod deus posset errare supremam speciem Alii dicunt oppositum et neutrum 
+            <lb ed="#E"/>est contra fidem quia non est determinatum per ecclesiam Et de isto usu habemus nos <choice><orig>neccessario</orig><reg>necessario</reg></choice> iuvare 
+            <lb ed="#E"/>Et quantum ad unam propositionem <name>magistro Iohanam de montesano</name></p> <!-- reference to John of montesano see Sullivan, volume II, index p. 620 -->
+          
+          <p>Consequenter potest infertur quod ex 
+            <lb ed="#E"/>provisione naturae et sollicitudine circa humanam speciem et gratuita dei providencia 
+            <lb ed="#E"/>posset fundari una positio de auctoritate quae debetur universitate parisiensis circa ardua fidei 
+            <lb ed="#E"/>et ecclesiae regimen de hoc per dei gratiam tangetur aliquid in leccione sequenti Sequitur alia leccio</p>
+            
+          
+          
+          </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 32, de Notitia [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-17">February 17, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>A SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-17" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="56-r"/><cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio32">
+        <head xml:id="ppr-l32-Hldnldn">Lectio 32, de Notitia [Palantine Transcription]</head>
+        <div>
+          <head xml:id="ppr-l32-Hreqaqr">Responsio ad quintam rationem</head>
+          <p xml:id="ppr-l32-qrpinc">
+            <lb ed="#PV"/>Alia lectio perti<lb ed="#PV"/>nens 
+            ad sextum 
+            <lb ed="#PV"/>articulum 41 <!-- actually heading -->
+            <lb ed="#PV"/>Quinta ratio principalis 
+            <lb ed="#PV"/>ad probandum quod deus non 
+            <lb ed="#PV"/>est cognoscibilis tangit utrum 
+            <lb ed="#PV"/>huiusmodi notitia esset finita 
+            <lb ed="#PV"/>vel infinita si finita aliqua 
+            <lb ed="#PV"/>creata notitia potest esse ita perfecta
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>si infinita tunc esset increata
+          </p>
+          <p xml:id="ppr-l32-qasidf">
+            <lb ed="#PV"/>Quod 
+            <lb ed="#PV"/>primum sequitur probatur Nam aliquid 
+            <lb ed="#PV"/>obiectum creatum causat notitiam 
+            <lb ed="#PV"/>certe perfectionis et aliud obiectum 
+            <lb ed="#PV"/>perfectiorem et sic quia processus est in 
+            <lb ed="#PV"/>infinitum deveniendum in ad ali<lb ed="#PV"/>quod 
+            obiectum causans notitiam 
+            <lb ed="#PV"/>perfectiorem ista finita
+          </p>
+          <p xml:id="ppr-l32-irpasp">
+            Ad istam 
+            <lb ed="#PV"/>difficultatem quia tenendum 
+            <lb ed="#PV"/>quod notitia de deo quae habetur 
+            de creatura est finita <!-- pilcrow mark?? --> primo 
+            <lb ed="#PV"/><name ref="#Ripa">magister ioannes de ripa</name> respondet quod non 
+            <lb ed="#PV"/>est processus in infinitum in talibus 
+            <lb ed="#PV"/>notitiis qui totus numerus specie<lb ed="#PV"/>rum 
+            in genere accidentium est 
+            <lb ed="#PV"/>finitus Consequenter diceret 
+            <lb ed="#PV"/>quod aliqua sunt obiecta quae 
+            <lb ed="#PV"/>non possunt concurrere obiective 
+            <lb ed="#PV"/>sed si debent cognosci quodlibet 
+            <lb ed="#PV"/>ipsorum erit sui ipsius notitia 
+            <lb ed="#PV"/>formaliter et illa erit perfectior 
+            <lb ed="#PV"/>quam notitia quam habemus 
+            <lb ed="#PV"/>de deo quia illa est intelligentia 
+            <lb ed="#PV"/>et nostra esset accidens
+          </p>
+          <p xml:id="ppr-l32-veqaec">
+            Ista positio 
+            <lb ed="#PV"/>licet sit probabilis quia non 
+            <lb ed="#PV"/>est contra fidem tamen tenui 
+            <lb ed="#PV"/>contrarium Ideo respondetur secundum 
+            <lb ed="#PV"/>alia viam Sed pro declaratione 
+              <note type="marginal-note" place="margin-right">nota quod non est <unclear>??</unclear> <unclear>intense</unclear> <unclear>so?i?orum</unclear></note>
+            <lb ed="#PV"/>mere advertendum quod non est proportio<lb ed="#PV"/>nalis 
+            habitudo notitiarum inter 
+            <lb ed="#PV"/>se sicut obiectorum a quibus 
+            <lb ed="#PV"/>causantur et in hoc stabit so<lb ed="#PV"/>lutio 
+            huius dubii Causa igitur 
+            <lb ed="#PV"/>dicti est quia valde possibile 
+            <lb ed="#PV"/>est quod aliquod obiectum unifor<lb ed="#PV"/>miter 
+            concursu causet valde 
+            <lb ed="#PV"/>diversas notitias ut notitiam 
+            <lb ed="#PV"/>sensitivam et notitiam intellectivam
+          </p>
+          <p xml:id="ppr-l32-iecsie">
+            <pb ed="#PV" n="56-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>Item si obiectum causet notitiam 
+            <lb ed="#PV"/>in nobis et angelus esset praesens 
+            <lb ed="#PV"/>causaret aliam notitiam perfecti<lb ed="#PV"/>oris 
+            speciei in angelo Alia causa quia 
+            <lb ed="#PV"/>obiectum non est totalis causa 
+            <lb ed="#PV"/>huius notitiae sed concurrit potentia 
+            <lb ed="#PV"/>unde non sequitur si aliqua 
+            <lb ed="#PV"/><choice><orig>agregatio</orig><reg>aggregatio</reg></choice> causarum concurrit 
+            <lb ed="#PV"/>si una dupletur quod ergo totus 
+            <lb ed="#PV"/>effectus dupletur ex ista ra<lb ed="#PV"/>dice 
+            habetur bene quod non sit 
+            <lb ed="#PV"/>eadem proportio notitiarum sicut 
+            <lb ed="#PV"/>obiectarum quia idem obiectum 
+            <lb ed="#PV"/>posset producere diversas species 
+            <lb ed="#PV"/>notitiarum nobiliores et perfec<lb ed="#PV"/>tiores 
+            secundum diversitatem appli<lb ed="#PV"/>cationes 
+            potentiarum et etc secundum 
+            <lb ed="#PV"/>quod potentiae sunt diversae
+            <!-- 3o needs to be added in other version; secundo break needs to be found -->
+            3o 
+            <lb ed="#PV"/>diceretur quod ex alia radice non 
+            <lb ed="#PV"/>oportet quod sit eadem proportio 
+            <lb ed="#PV"/>quia ascendendo per obiecta 
+            <lb ed="#PV"/>contingeret devenire ad aliqua 
+            <lb ed="#PV"/>obiecta quae mere libere age<lb ed="#PV"/>rent 
+            et ita videtur esse de an<lb ed="#PV"/>gelis 
+            quod deus velit aliqua 
+            <lb ed="#PV"/><choice><orig>secratae</orig><reg>secretae</reg></choice> <unclear>sine</unclear> per eos et non vi<lb ed="#PV"/>deantur 
+            nisi velint
+          </p>
+          <p xml:id="ppr-l32-qdqddn">
+            <lb ed="#PV"/>4o dicitur 
+            <lb ed="#PV"/>quod non dantur huiusmodi 
+            <lb ed="#PV"/>proportiones secundum quod ymaginatur 
+            <lb ed="#PV"/><name>adam</name> scilicet secundum quod datur obiec<lb ed="#PV"/>tum 
+            perfectius potest dici quod speciens 
+            <lb ed="#PV"/>non communicant in aliquo in 
+            <lb ed="#PV"/>quo possunt comparari unde proportio 
+            <lb ed="#PV"/>proprie dicta semper sit in quan<lb ed="#PV"/>titatibus 
+            eiusdem generis 
+            <lb ed="#PV"/>ut numerum ad numeri continui ad con<lb ed="#PV"/>tinuum 
+            unde si perfectio humana 
+            <lb ed="#PV"/>duplaretur quid esset hoc non 
+            <lb ed="#PV"/>posset illud reperiri et sic procederet 
+            <lb ed="#PV"/>argumentum super falsa <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>unde species non possunt sic comparari
+          </p>
+          <p xml:id="ppr-l32-ampesp">
+            <lb ed="#PV"/>Quinto dicitur licet admitteretur 
+            <lb ed="#PV"/>causa doctrinae scilicet quod placeret ex<lb ed="#PV"/>cessus 
+            obiectorum tunc diceretur 
+            <lb ed="#PV"/>quod non esset eadem proportio notiti<lb ed="#PV"/>arum 
+            quia non oportet quod causabilis 
+            <lb ed="#PV"/>obiectiva correspondeat ad per<lb ed="#PV"/>fectionem 
+            rei in se scilicet quod sit talis 
+            <lb ed="#PV"/>proportio causalitatum obiectorum 
+            <lb ed="#PV"/>sicut est proportio essentiarum inter 
+            <lb ed="#PV"/>se ut <sic>repungnant</sic> mere primae 
+            <lb ed="#PV"/>quod agat unde causalitates 
+            <lb ed="#PV"/>sunt communicatae secundum quod congruit 
+            <lb ed="#PV"/>ordini universi ita quod stat quod 
+            <lb ed="#PV"/>perfectio essentialis valde mo<lb ed="#PV"/>dicum 
+            addat ad causalitatem 
+            <lb ed="#PV"/>obiecti Nam quia staret quod 
+            <lb ed="#PV"/>non posset attingere causali<lb ed="#PV"/>tatem 
+            <unclear>alterius</unclear> obiecti secundum 
+            <lb ed="#PV"/>speciem dato tamen quod causali<lb ed="#PV"/>tas 
+            alterius valde modicum 
+            <lb ed="#PV"/>excederet
+          </p>
+          <!--
+            Doesn't seem present
+            <p xml:id="ppr-l32-raiccp">Respondendo ad istam rationem, 
+           <lb ed="#R"/>ita quod data una notitia causata finita, non oportet quod 
+           <lb ed="#R"/>obiecti perfectioris in duplo sit dupla notitia, immo 
+           <lb ed="#R"/>data dupla ad illam forte non attingeret 
+           <lb ed="#R"/>suprema intelligentia, si daretur. Et sic non oportet 
+           <lb ed="#R"/>quod si visio Dei esset finita quod posset dari cognitio 
+           <lb ed="#R"/>creaturae perfectior.</p> -->
+          <p xml:id="ppr-l32-sdaiml">
+            Sexto diceretur quod visio 
+            <lb ed="#PV"/>dei aliquo modo est infinita licet 
+            <lb ed="#PV"/>tamen posset excedi in eadem 
+            <lb ed="#PV"/>specie visionis ita quod posset esse 
+            <lb ed="#PV"/>maior dicit <name ref="#Wodeham">adam</name> quod non 
+            <lb ed="#PV"/>capit istam rationem ideo eam 
+            <lb ed="#PV"/>dmittit et forte vocant eam infi<lb ed="#PV"/>nitam 
+            quia habet infinitas species 
+            <lb ed="#PV"/>sub se secundum quod finit infinita  
+            <lb ed="#PV"/>obiecta et cuilibet correspondent notitia 
+            <lb ed="#PV"/>alterius
+          </p>
+          <p xml:id="ppr-l32-araqao">
+            <lb ed="#PV"/>Aliter respondet 
+            <lb ed="#PV"/><name ref="#Wodeham">adam</name> ymaginando quod ex parte 
+            <lb ed="#PV"/>capacitatis animae evaditur huius 
+            <lb ed="#PV"/>modi difficultas Nam dato 
+            <lb ed="#PV"/>quod omnia obiecta essent causata 
+            <lb ed="#PV"/>quae essent nata causare huius<lb ed="#PV"/>modi 
+            notitiam ex quo anima 
+            <lb ed="#PV"/>est solum finitae capax non 
+            <lb ed="#PV"/>potest capere huiusmodi notitia infinita
+            <pb ed="#PV" n="57-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>ut si summa sit ut <sic>ut</sic> nullae non 
+            <lb ed="#PV"/>posset anima capere nisi ut mille 
+            <lb ed="#PV"/>et sic de deo dato quod ageret secundum 
+            <lb ed="#PV"/>ultimum suae potentiae non posset 
+            <lb ed="#PV"/>agere in hac potentia perceptiva 
+            <lb ed="#PV"/>nisi notitia ut mille et cum hoc 
+            <lb ed="#PV"/>illa notitia excedit alias no<lb ed="#PV"/>titias 
+            quia est nobilioris ob<lb ed="#PV"/>iecti 
+            et quantum ad gradum 
+            <lb ed="#PV"/>est aequae perfecta quia nullum 
+            <lb ed="#PV"/>obiectum creatum potest intensiorem 
+            <lb ed="#PV"/>et sic quantum ad speciem et no<lb ed="#PV"/>bilior 
+            et etiam quantum ad obiec<lb ed="#PV"/>tum 
+            licet non quantum ad 
+            <lb ed="#PV"/>gradum
+          </p>
+          <div>
+            <head xml:id="ppr-l32-Hcoacoa">Contra opinionem <name>Adamae</name></head>
+            <p xml:id="ppr-l32-isnned">
+              <lb ed="#PV"/>Ista solutio non sufficit 
+            </p>
+            <p xml:id="ppr-l32-pqiadp">
+              <lb ed="#PV"/>primo quia inpertinens est de capa<lb ed="#PV"/>citate 
+              animae humanae quia si anima 
+              <lb ed="#PV"/>humana non sit capax capiatur 
+              <lb ed="#PV"/>intelligentia vel capiantur 
+              <lb ed="#PV"/>met obiecta
+            </p>
+            <p xml:id="ppr-l32-inslne">
+              <lb ed="#PV"/>Item non sovit 
+              <lb ed="#PV"/>difficultatem principalem quia non 
+              <lb ed="#PV"/><sic>agimus</sic> de perfectione graduum 
+              <lb ed="#PV"/>eiusdem speciei sed de perfectione 
+              <lb ed="#PV"/>specifica graduum quia non 
+              <lb ed="#PV"/>acquiritur maior perfectio essen<lb ed="#PV"/>tialis 
+              ex acquisitione graduum 
+              <lb ed="#PV"/>quia albedo ut <unclear>10</unclear> et albedo 
+              <lb ed="#PV"/>ut 2 sunt eiusdem perfectionis es<lb ed="#PV"/>sentialis 
+              nunc est quod iudicio 
+              <lb ed="#PV"/>modo quandoque vocat perfectionem indivi<lb ed="#PV"/>dualem 
+              specificam et ita non est 
+              <lb ed="#PV"/>consuetum
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l32-Haqdqds">Aliqua, quae declarandum sunt</head>
+            <p xml:id="ppr-l32-cimqed">
+              <lb ed="#PV"/>Pro ipsius declaratione sunt 
+              <lb ed="#PV"/>aliqua advertenda quod nos possu<lb ed="#PV"/>mus 
+              advertenda quod nos possu<lb ed="#PV"/>mus 
+              loqui de essentiali perfectione 
+              <lb ed="#PV"/>et quantum ad hoc non videtur 
+              <lb ed="#PV"/>in<lb ed="#PV"/>veniens quod aliqua notitia 
+              <lb ed="#PV"/>de creatura esset ita perfecta essentialiter 
+              <lb ed="#PV"/>sicut esset notitia dei demonstra<lb ed="#PV"/>ta 
+              aliqua certa puta ista visione est 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>Quantum est ex parto obiecti non re<lb ed="#PV"/>pugnat 
+              creaturae quod quantumlibet 
+              <lb ed="#PV"/>perfecte cognoscitur ideo aliqua 
+              <lb ed="#PV"/>est infinite perfecta et est magis 
+              <lb ed="#PV"/>perfecta qua sit notitia aniame christi de 
+              <lb ed="#PV"/>deo Credo quod in <unclear>pe</unclear> loquitur 
+              <lb ed="#PV"/>solum ibi de notitia quam deus 
+              <lb ed="#PV"/>habet de creatura Etiam obiectum 
+              <lb ed="#PV"/>non est causa totalis notitiae et 
+              <lb ed="#PV"/>ergo secundum concursum creaturae cau<lb ed="#PV"/>santis 
+              notitiam perfectionem ymaginari 
+              <lb ed="#PV"/>potest quod ascendendo sit secundum huius<lb ed="#PV"/>modi 
+              creaturas concurrentes semper 
+              <lb ed="#PV"/>erit notitia perfectior Ponamus 
+              <lb ed="#PV"/>quod deus concurrat valde remisse 
+              stat quod causetur una notitia 
+              <lb ed="#PV"/>valde remissa quantum ad perfec<lb ed="#PV"/>tionem 
+              specificam
+            </p>
+            <p xml:id="ppr-l32-snpdee">
+              2o nos possu<lb ed="#PV"/>mus 
+              quantificare quantum ad in<lb ed="#PV"/>tentionem 
+              et tunc non est difficul<lb ed="#PV"/>tas 
+              quia stat quod notitia de 
+              <lb ed="#PV"/>creatura sit intentior quia deus 
+              <lb ed="#PV"/>potest concurrere causando noti<lb ed="#PV"/>tiam 
+              intuitivam valde remissam
+            </p>
+            <p xml:id="ppr-l32-qpqand">
+              <lb ed="#PV"/>3o potest intelligi quantum ad gra<lb ed="#PV"/>dum 
+              perceptionis et gradum <unclear>quantitatis</unclear> 
+              <lb ed="#PV"/>qui dicitur notitia ut si idem 
+              <lb ed="#PV"/>gradus vel aliqualis aequalis 
+              <lb ed="#PV"/>alicuius notitiae poneretur in ange<lb ed="#PV"/>lo 
+              esset maior captivitatis quam 
+              <lb ed="#PV"/>homo ergo erit maior gradus 
+              <lb ed="#PV"/>perceptionis quod in homine ideo gradus 
+              <lb ed="#PV"/>in esse perceptionis qui in homine 
+              <lb ed="#PV"/>ideo gradus in esse perfectionis 
+              <lb ed="#PV"/>est alterius rationis quam <unclear>quantitatis</unclear> 
+              in se non quod velim ponere dis<lb ed="#PV"/>tinctionem 
+              rerum quantum ad hoc 
+              <lb ed="#PV"/>sed ad sensum dictum Tunc 
+              <lb ed="#PV"/>quantum ad hoc staret quod aliqua 
+              <lb ed="#PV"/>notitia creaturae essent maior etc 
+            </p>
+            <p xml:id="ppr-l32-qmpqlc">
+              <pb ed="#PV" n="57-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>Quarto quantum ad speciem 
+              <lb ed="#PV"/>lucis quia realiter deus est lux 
+              <lb ed="#PV"/><choice><orig>in mensa</orig><reg>immensa</reg></choice> 
+              etiam notitia hominis 
+              <lb ed="#PV"/>est quaedam lux et sic <choice><orig>ymaginando</orig><reg>imaginando</reg></choice> 
+              <lb ed="#PV"/>latitudinem in qua deus esset 
+              <lb ed="#PV"/>suprema lux et sic consequenter 
+              <lb ed="#PV"/>et sic ascendendo esset semper per<lb ed="#PV"/>fectior 
+              notitia ita quod minor no<lb ed="#PV"/>titia 
+              de specie lucis superioris ex<lb ed="#PV"/>cederet 
+              maximam de specie lucis 
+              <lb ed="#PV"/>inferiorum sicut scilicet <choice><orig>ymaginare<lb ed="#PV"/>mur</orig><reg>imaginare<lb ed="#PV"/>mur</reg></choice> 
+              de sole et radiis eius respectu 
+              <lb ed="#PV"/>alterius lucidi et radiorum eiusdem 
+              <lb ed="#PV"/>ita quod minimus radius non radi<lb ed="#PV"/>os 
+              solares excederet maximum 
+              <lb ed="#PV"/>alterius lucidi
+            </p>
+            <p xml:id="ppr-l32-qmpqan">
+              <lb ed="#PV"/>Quinto imperfectione 
+              <lb ed="#PV"/><sic>corperatur</sic> una notitia ad aliam 
+              <lb ed="#PV"/>secundum habitudinem quam habent 
+              <lb ed="#PV"/>notitiae ad ultimum finem et ipsi<lb ed="#PV"/>us 
+              consecutionem unde immediate 
+              <lb ed="#PV"/>coniungit potentiam cognitivam 
+              <lb ed="#PV"/>cum fine ultimo in quo con<lb ed="#PV"/>iunctione 
+              consistit ultima perfec<lb ed="#PV"/>tio 
+              Et sic staret quod cognitio 
+              <lb ed="#PV"/>speciei inferioris esset perfectior 
+              <lb ed="#PV"/>quia multae sunt species et ob<lb ed="#PV"/>iecta 
+              quarum cognitio est inperti<lb ed="#PV"/>nens 
+              ad consecutionem ultimi finis 
+              <lb ed="#PV"/>Quantum ad hoc cognitio 
+              <lb ed="#PV"/>fidei est valde perfecta vel cogni<lb ed="#PV"/>tio 
+              quae fides est quia est in<lb ed="#PV"/>mediate 
+              directiva in finem 
+              <lb ed="#PV"/>ultimum saltim disponit licet non 
+              <lb ed="#PV"/>faciat <choice><orig>in mediate</orig><reg>immediate</reg></choice> attingere 
+              et sic visio dei essent perfectior quam 
+              <lb ed="#PV"/>cuiuscumque alterius rei cognitio 
+            </p>
+            <p xml:id="ppr-l32-sqpncd">
+              <lb ed="#PV"/>Sexto ratione obiecti potest de<lb ed="#PV"/>nominari 
+              extrinsece et sic secundum 
+              <lb ed="#PV"/>quod obiectioni esset perfectius 
+              <lb ed="#PV"/>etiam notitia et sic quaelibet no<lb ed="#PV"/>titia 
+              dei esset infinita
+            </p>
+            <p xml:id="ppr-l32-ampncd">
+              Septimo 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>perfectio notitiae posset attendi 
+              <lb ed="#PV"/>in habitudine ad suum obiectum 
+              <lb ed="#PV"/>id est penes modum repraesentandi ob<lb ed="#PV"/>iectum 
+              suum sic quod illa quae perfectius 
+              <lb ed="#PV"/>repraesentat suum obiectum est perfec<lb ed="#PV"/>tior 
+              et sic quaelibet notitia de deo 
+              <lb ed="#PV"/>creata est in infinitum modice 
+              <lb ed="#PV"/>perfectionis quia infinite de<lb ed="#PV"/>ficit 
+              ab adaequata comprehensibi<lb ed="#PV"/>litate 
+              sui obiecti Et cuiuslibet 
+              <lb ed="#PV"/>creaturae notitia magis apropin<lb ed="#PV"/>quat 
+              ad comprehensibilitatem 
+              <lb ed="#PV"/>sui obiecti
+            </p>
+            <p xml:id="ppr-l32-unmaim">
+              <lb ed="#PV"/>Advertendum quod ap<lb ed="#PV"/>prehendere 
+              creaturam potest in<lb ed="#PV"/>telligi 
+              uno modo quod cognoscatur 
+              <lb ed="#PV"/>secundum omne praedicatum dicibile 
+              <lb ed="#PV"/>de ea Isto modo non potest una creatura 
+              <lb ed="#PV"/>comprehendi ab alia nisi mi<lb ed="#PV"/>raculose 
+              sicut forte de anima christi 
+              <lb ed="#PV"/>Sed multi tenent quod est <unclear>impossibile</unclear> 
+              <lb ed="#PV"/>creaturae Istud tamen non denogo 
+              <lb ed="#PV"/>animae <sic>cristi</sic> Alio modo potest intelli<lb ed="#PV"/>gi 
+              secundum omnia praedicata essentialia 
+              <lb ed="#PV"/>sibi non tamen secundum omnes extrin<lb ed="#PV"/>secas 
+              habitudines <choice><orig>ymmo</orig><reg>immo</reg></choice> sunt 
+              <lb ed="#PV"/>infinite communicabiles
+            </p>
+            <!-- appears absent  
+             <p xml:id="ppr-l32-eisiqr">Ex istis statis apparet qualiter uno modo quantificandi notitias, 
+            <lb ed="#R"/>notitia Dei uno modo est perfectior quam notitia creaturae; 
+            <lb ed="#R"/>alio modo vero est e converso, scilicet, quod notitia creaturae est 
+            <lb ed="#R"/>perfectior quam notitia Dei. Et secundum istas distinctiones 
+            <lb ed="#R"/>respondendum est in ista materia, et sic apparet solutio istius quintae rationis.</p>
+            -->
+          </div>
+        </div>
+        <div xml:id="ppr-l32-Dctctct">
+          <head xml:id="ppr-l32-Hctctct">Circum textum</head>
+          <p xml:id="ppr-l32-cdthpd">
+            Circa 
+            <lb ed="#PV"/>distinctionem 30am Sunt enim quaedam 
+            <lb ed="#PV"/>quae ex tempore dicuntur prima 
+            <lb ed="#PV"/>conclusio quaedam nomina dicuntur 
+            <lb ed="#PV"/>de deo temporaliter et relative 
+            <lb ed="#PV"/>et denominatione non quod accidant 
+            <lb ed="#PV"/>deo sed in ordine ad creaturam 
+            <lb ed="#PV"/>et sic ex tempore dicitur dominus Aliqui 
+            <lb ed="#PV"/>dicunt quod ab aeterno dicebatur 
+            <lb ed="#PV"/>dominus Alii dicunt quod hoc debet intelli<lb ed="#PV"/>gi 
+            quod ab aeterno habuit potentiam 
+            <lb ed="#PV"/>dominativam
+          </p>
+          <p xml:id="ppr-l32-aciedh">
+            Alia conclusio 
+            <lb ed="#PV"/>incepit esse dominus hominis
+          </p>
+          <p xml:id="ppr-l32-tqddde">
+            Ter<lb ed="#PV"/>tia 
+            quando de deo dicitur aliquid 
+            <lb ed="#PV"/>ex tempore nichil ex hoc accidit 
+            <pb ed="#PV" n="58-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>deo sed accidit creaturis et attribu<lb ed="#PV"/>itur 
+            deo denominatione extrinseca
+          </p>
+          <p xml:id="ppr-l32-qqsdda">
+            <lb ed="#PV"/>Quarta quod spiritus sanctus dicitur 
+            <lb ed="#PV"/>datur vel donatum hoc eest ex 
+            <lb ed="#PV"/>tempore sed dicitur donum aeternaliter
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 1, de Fide [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 1, de Fide [Palantine Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="2-r"/><cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio1">
+        <head>Lectio 1, de Fide [Palantine Transcription]</head>
+        <p xml:id="ppr-l1-cpspfs">
+          <lb ed="#PV"/><hi rend="largeFont">Lectio 2a</hi>
+          <lb ed="#PV"/>Circa prologum quaeritur utrum 
+          <lb ed="#PV"/>in causa Iudiciali fidei contra 
+          <lb ed="#PV"/><choice><orig>tradicionem</orig><reg>traditionem</reg></choice> pure humanitus ad<lb ed="#PV"/>inventam 
+          <pc type="virgula">/</pc> iudex <choice><orig>ydoneus</orig><reg>idoneus</reg></choice> pro fide 
+          <lb ed="#PV"/>ferret sententiam
+        </p>
+        <p xml:id="ppr-l1-eipdlt">
+          <note type="marginal-note" place="margin-left">prima conclusio</note>
+          <pc type="virgula">/</pc> prima conclusio quod non 
+          <lb ed="#PV"/>subicitur fides iudicio rationis 
+          <lb ed="#PV"/>quare quia fides est donum 
+          <lb ed="#PV"/>dei <pc type="virgula">/</pc> excedens iudicium rationis 
+          <lb ed="#PV"/>humanae <pc type="virgula">/</pc> immediate descendens a patre 
+          <lb ed="#PV"/>luminum per gratiam. Alia conclusio 
+          <lb ed="#PV"/>quam arguit <name>cordig</name> homini singula 
+          <lb ed="#PV"/>In statu <choice><orig>innocenciae</orig><reg>innocentiae</reg></choice> <pc type="virgula">/</pc> fuerunt subiecta 
+          <lb ed="#PV"/>et hoc habetur ex <title ref="#gen">genesis</title> <pc type="virgula">/</pc> unde <name>ma<lb ed="#PV"/>gister 
+          Petrus</name> qui dixit <name>Cordig</name> quod 
+          <lb ed="#PV"/><choice><orig>posicio</orig><reg>positio</reg></choice> sua non fuit fundata <pc type="virgula">/</pc> 
+          <lb ed="#PV"/>ipse multiplicatur probavit eam <pc type="virgula">/</pc> et primo 
+          <lb ed="#PV"/>assumpsit illum quod dictum 
+          <lb ed="#PV"/>est</p>
+          
+        <p xml:id="ppr-l1-isgmsn">Item superiora gubernant 
+          <lb ed="#PV"/>inferiora igitur in statu innocen<lb ed="#PV"/>ciae 
+          homo habuit regimen et regimen[?] 
+          <lb ed="#PV"/>non solum morale sed naturale <pc type="virgula">/</pc> </p>
+        
+        <p xml:id="ppr-l1-ihfsie"><lb ed="#PV"/><pc type="virgula">/</pc> Item homo factus est ad yma<lb ed="#PV"/>ginem 
+          dei ergo in statu innocentiae etc</p>
+        
+        <p xml:id="ppr-l1-spppoe"><lb ed="#PV"/>Sed propter peccatum obiecta fuit 
+          <cb ed="#PV" n="b"/> <!-- 2rb -->
+          <lb ed="#PV"/>soluta sequitur quod imperium <name ref="#Adam">adae</name> 
+          <lb ed="#PV"/>fuit super omnes vires suas 
+          <lb ed="#PV"/>Ex quo sequitur quod gravitas 
+          <lb ed="#PV"/>non impedivisset motum sursum 
+          <lb ed="#PV"/>et sic iste motus fuisset naturalis 
+          <lb ed="#PV"/><g ref="#dbslash"/>Salva igitur reverentia ponentis 
+          <lb ed="#PV"/>oppositum etc</p>
+        
+        <p xml:id="ppr-l1-iipica">Item ista positio 
+          <lb ed="#PV"/>fundata et per <name ref="#WilliamOfParis">guuilhelm parisiensis</name> 
+          <lb ed="#PV"/>in libro <title>de universo</title> <pc type="virgula">/</pc> ubi dicit 
+          <lb ed="#PV"/>si quaeritur eciam nulla enim poterat 
+          <lb ed="#PV"/>resistere potestatequi?si[?] con[?] se Impera<lb ed="#PV"/>retur 
+          Imperium cursum adimpleret</p>
+        
+        <p xml:id="ppr-l1-indiep"><lb ed="#PV"/>Item ne dum hanc veritatem 
+          <lb ed="#PV"/>katholicus sed et <name ref="#Philosophers">philosophus</name> unde primo 
+          <lb ed="#PV"/><title>pollictice</title> in rebus in animatis 
+          <lb ed="#PV"/>est principatus et dominum <pc type="virgula">/</pc> Et reperiunt 
+          <lb ed="#PV"/>in natura ut in armonia mix<lb ed="#PV"/>tum 
+          movetur secundum naturam ele<lb ed="#PV"/>menti 
+          in eo praedominantis</p>
+        
+        <p xml:id="ppr-l1-iiaarp"><pc type="virgula">/</pc> Item 
+          <lb ed="#PV"/>in animali reperitur principatus</p>
+        
+        <p xml:id="ppr-l1-ieicmc"><lb ed="#PV"/><pc type="virgula">/</pc> Item eciam in homine <pc type="virgula">/</pc> et hoc dicit 
+          <lb ed="#PV"/><name>philosophus</name> in bene dispositis maximae 
+          <lb ed="#PV"/>una pars obedit alteri <pc type="virgula">/</pc> ut corpus 
+          <lb ed="#PV"/>animae <pc type="virgula">/</pc> excludendo malam naturae com<lb ed="#PV"/>plexionem 
+          <pc type="virgula">/</pc> et eciam con?trus[?] malam 
+          <lb ed="#PV"/>consuetudinem</p>
+        
+        <p xml:id="ppr-l1-cpgrac">Consequenter 
+          <lb ed="#PV"/>ponit <name>guuilhelmus</name> credo tamen 
+          <lb ed="#PV"/>quod <name ref="#Aristotle">aristoteles</name> primo <title>pollite</title> <corr><g ref="#carrot"/><add>dangunt[?]</add></corr> dupli<lb ed="#PV"/>cem 
+          principatum unum rationis 
+          <lb ed="#PV"/>super sensum et vocatur regalis 
+          <lb ed="#PV"/>et pollitcus <pc type="virgula">/</pc> alium rationis super 
+          <lb ed="#PV"/>corpus scilicet super vires non sensi<lb ed="#PV"/>tivas 
+          et vocatur dispositus quando 
+          <lb ed="#PV"/>scilicet dominus adnutum utitur servo 
+          <lb ed="#PV"/>seu subdito et ista est ha<lb ed="#PV"/>bitudo 
+          dominii ad servum simpliciter 
+          <lb ed="#PV"/>et est racionis ad corpus</p>
+        
+        <p xml:id="ppr-l1-eqsspp"><pc type="virgula">/</pc> Ex 
+          <lb ed="#PV"/>quo sequitur quod corpori habet magis 
+          <lb ed="#PV"/>Imperare quam viribus sensitivis 
+          <lb ed="#PV"/>ex quo sequitur propositum principale</p>
+        
+        <p xml:id="ppr-l1-iaprdc"><lb ed="#PV"/><pc type="virgula">/</pc> Item arguitur per raciones et sunt con<lb ed="#PV"/>clusiones 
+          praemittendae Prima 
+          <lb ed="#PV"/>quod operacio motus et effectus 
+          <pb ed="#PV" n="2-v"/><cb ed="#PV" n="a"/><lb ed="#PV"/>qui veniunt a substantiis corporalibus 
+          <lb ed="#PV"/>a substantiis intellectualibus fuit 
+          <lb ed="#PV"/>ab Imperio divino et praecipue motus 
+          <lb ed="#PV"/>localis est ex imperio efficaci causae 
+          <lb ed="#PV"/>Imperantis et ad illud resolvitur 
+          <lb ed="#PV"/>divina causalitas</p>
+        
+        <p xml:id="ppr-l1-scqqio"><choice><orig>2a</orig><reg>secunaa</reg></choice> conclusio 
+          <lb ed="#PV"/>quod res habent diversos fines 
+          <lb ed="#PV"/>in quos diriguntur quasi in 
+          <lb ed="#PV"/>opposita</p>
+        
+        <p xml:id="ppr-l1-cqdame"><pc type="virgula">/</pc> Circa quod dicitur  
+          <lb ed="#PV"/>quod res magis appetunt bonum 
+          <lb ed="#PV"/>universi <pc type="virgula">/</pc> quam bonum proprium <pc type="virgula">/</pc> sicut 
+          <lb ed="#PV"/>apparet de vacui replecione <pc type="virgula">/</pc> et 
+          <lb ed="#PV"/>est magis naturale quia natura incinat 
+          <lb ed="#PV"/>magis <pc type="virgula">/</pc> et hoc applicatur quod non 
+          <lb ed="#PV"/>est negandum quando anima haberet 
+          <lb ed="#PV"/>Imperium super corpus in statu 
+          <lb ed="#PV"/>innocentiae <pc type="virgula">/</pc> et per hoc solventur 
+          <lb ed="#PV"/>raciones quae fiebant convertum 
+          <lb ed="#PV"/>ad materiam exteriorem</p>
+        
+        <p xml:id="ppr-l1-esrnms"><pc type="virgula">/</pc> Ex 2a radi<lb ed="#PV"/>ce 
+          scilicet secunda conclusione quia 
+          <lb ed="#PV"/>res magis obiediunt universali naturae ideo 
+          <lb ed="#PV"/>quia anima videtur habere ordinem <pc type="virgula">/</pc> videtur 
+          <lb ed="#PV"/>quod alia debebant sibi obedire 
+          <lb ed="#PV"/>et sic videtur fuisse naturale mo<lb ed="#PV"/>veri 
+          sursum</p>
+        
+        <p xml:id="ppr-l1-uacerr"><pc type="virgula">/</pc> unde <name ref="#Albert">albertus</name> credo 
+          <lb ed="#E"/>super libro <title>de generatione</title> nutrimento[?] gravi[?] 
+          <lb ed="#PV"/>est naturale quod ascendit ex Imperio 
+          <lb ed="#PV"/>dato animae ex rationali regimine</p>
+        
+        <p xml:id="ppr-l1-iemmgn"><pc type="virgula">/</pc> Item 
+          <lb ed="#PV"/>elementa moventur sursum ad 
+          <lb ed="#PV"/>mixtorum generationem naturaliter</p>
+
+        <p xml:id="ppr-l1-eqsinp"><lb ed="#PV"/>Ex quo sequitur quod naturalis 
+          <lb ed="#PV"/>motus potest sumi praeter naturalem 
+          <lb ed="#PV"/>inclinationem naturae particularis</p>
+        
+        <p xml:id="ppr-l1-pprsnl">Pro probatione 
+          <lb ed="#PV"/>revelationis principalis 
+          <lb ed="#PV"/>meae <pc type="virgula">/</pc> arguitur <pc type="virgula">/</pc> de facto in statu naturae 
+          <lb ed="#PV"/>lapsae <pc type="virgula">/</pc> quia nam[?] movet coprus 
+          <lb ed="#PV"/>non obstante rebellione virium 
+          <lb ed="#PV"/>inferiorum <pc type="virgula">/</pc> nec videmus exces<lb ed="#PV"/>sum 
+          domini in statu innocenciae 
+          <lb ed="#PV"/>ad excessum domini in statu
+          <lb ed="#PV"/>naturae lapsae</p>
+        
+        <p xml:id="ppr-l1-ivdfmm"><pc type="virgula">/</pc> Item videmus de facto 
+          <lb ed="#PV"/>quod manus movetur ad Imperium 
+          voluntantis et dominum quod ha<lb ed="#PV"/>buit 
+          <name>adam</name> fuit multo magis <pc type="virgula">/</pc> </p>
+        
+        <p xml:id="ppr-l1-icpfms"><lb ed="#PV"/><pc type="virgula">/</pc> Item capitur proportio gravitatis aeris 
+          <lb ed="#PV"/>et aquae mota compereamus densitatem 
+          <cb ed="#PV" n="b"/> <!-- 2vb -->
+          <lb ed="#PV"/>aquae ad densitatem aeris et dominum 
+          <lb ed="#PV"/>ad dominum Item si corpus esset 
+          <lb ed="#PV"/>reductu ad tempermentum pon<lb ed="#PV"/>deris 
+          <lb ed="#E"/>tunc aequaliter movetur 
+          <lb ed="#PV"/>sursum et deorsum modo <name>adam</name> 
+          <lb ed="#PV"/>fuit optime complexionatus 
+          <lb ed="#PV"/>ergo fuit <name>adae</name> valde difficile 
+          <lb ed="#PV"/>facile moveri sursum</p>
+        
+        <p xml:id="ppr-l1-iappno">Item <name>adam</name> 
+          <lb ed="#PV"/>potuit velle moveri quaeritur 
+          <lb ed="#PV"/>igitur utrum obediebat sibi gravitas 
+          <lb ed="#PV"/>vel non In statu innocenciae po<lb ed="#PV"/>tentia 
+          regetativa obediebat <name>adae</name> 
+          <lb ed="#PV"/>ergo vis vegetativa erat subiecta 
+          <lb ed="#PV"/>voluntate antecedens patet per <name ref="#Augustine">augustinum</name> 
+          <lb ed="#PV"/>quare ergo aliae potentiae non 
+          <lb ed="#PV"/>obedissent</p>
+        
+        <p xml:id="ppr-l1-immivo">Item moventur 
+          <lb ed="#PV"/>multi sursum per saltum 
+          <lb ed="#PV"/>ergo vis Imperativo poterat sur<lb ed="#PV"/>sum 
+          etc Item methaphysic con<lb ed="#PV"/>cedunt 
+          quod viribus sensitivis 
+          <lb ed="#PV"/>obediunt etc ergo in statu In<lb ed="#PV"/>nocentiae 
+          <lb ed="#PV"/>debeant Imperio 
+          <lb ed="#PV"/>voluntatis obedire</p>
+        
+        <p xml:id="ppr-l1-iabepa">Item anima 
+          <lb ed="#PV"/>bene disposita praeter naturam 
+          exteriorem altera est per am??nam[?]</p>
+        
+        <p xml:id="ppr-l1-usaafe">Prima conclusio fides est 
+          <lb ed="#PV"/>donum dei supernaturali <pc type="virgula">/</pc> patet quia 
+          <lb ed="#PV"/>est error pelagii oppositum di<lb ed="#PV"/>centis 
+          quia ex puris naturalibus 
+          <lb ed="#PV"/>ad notitiam articulorum fidei 
+          <lb ed="#PV"/>aliquis possit pertingere Item spiritu 
+          <lb ed="#PV"/>sancto locuit sunt sancti dei omnes 
+          <lb ed="#PV"/>et paulus fides est substantia rerum 
+          <lb ed="#PV"/>sperandarum argumentum non appa<lb ed="#PV"/>rencium 
+          dicit notanter[?] quod est 
+          <lb ed="#PV"/>argumentum ad probandum par<lb ed="#PV"/>ticulares 
+          virtutes mtheolo??[?] 
+          <lb ed="#PV"/>et non dicit converso[?] quod fides non 
+          <lb ed="#PV"/>concluditur ex aliquo sed ex 
+          <lb ed="#PV"/>ea habita multa concluduntur 
+          <lb ed="#PV"/>et cognoscuntur saltem illa fides 
+          <lb ed="#PV"/>de qua In proposito unde[?] sicut 
+          <lb ed="#PV"/>karitas[?] dirigit voluntatem 
+          <lb ed="#PV"/>ad diligendum deum propter 
+          <lb ed="#PV"/>se ita proportionabiliter fides 
+          <pb ed="#PV" n="3-r"/>
+          <cb ed="#PV" n="a"/><lb ed="#PV"/>inclinat intellectum ad creden<lb ed="#PV"/>dum 
+          deo et purae veritati im<lb ed="#PV"/>mediate 
+          habitus fidei abne<lb ed="#PV"/>gat omnes apparencias et sophistica 
+          <lb ed="#PV"/>ymo omnes rationes naturales re<lb ed="#PV"/>pudeat[?] 
+          et est fr???or quam 
+          <lb ed="#PV"/>assensus primi principii et per rationem 
+          <lb ed="#PV"/>sophisticam possit aliquis 
+          <lb ed="#PV"/>dubitari primum principium</p>
+        
+        <p xml:id="ppr-l1-uaqriv"><choice><orig>3s</orig><reg>tres</reg></choice> 
+          <lb ed="#PV"/>sunt opiniones de fide quaedam 
+          <lb ed="#PV"/>dicit quod habetur sicut dictum 
+          <lb ed="#PV"/>est per infusione quia donum 
+          <lb ed="#PV"/>dei supernaturale. alia opinio est 
+          <lb ed="#PV"/>ipsius <name ref="#Holcot">holkot</name> dicentis quod ipsa 
+          <lb ed="#PV"/>habetur per solam <choice><orig>racionem</orig><reg>rationem</reg></choice></p>
+        
+        <p xml:id="ppr-l1-tempea"><lb ed="#PV"/><g ref="#dbslash"/><choice><orig>3a</orig><reg>tertia</reg></choice> est media dicens quod habetur 
+          <lb ed="#PV"/>assensus fidei seu qui fides dicitur 
+          <lb ed="#PV"/>per voluntatem et rationem seu <choice><orig>appa<lb ed="#PV"/>renciam</orig><reg>appa<lb ed="#PV"/>rentiam</reg></choice> 
+          unde <name ref="#Holcot">holgot</name> per rationem 
+          <lb ed="#PV"/>intelligit apparentiam staret quod 
+          <lb ed="#PV"/>sortes crederet articulis fide videlicet per 
+          <lb ed="#PV"/><choice><orig>raciones</orig><reg>rationes</reg></choice> et miracula et saepe ex<lb ed="#PV"/>i<del rend="strikethrough">e</del>ret 
+          in actum <pc type="virgula">/</pc> et tamen esset 
+          infidelis quia non haberet habitum 
+          <lb ed="#PV"/>illum quem ponimus fidem videlicet[?] 
+          <lb ed="#PV"/>infusum tamen talis habitus 
+          <lb ed="#PV"/>acquisitus per rationes et miracula 
+          <lb ed="#PV"/>esset sibi bonus quia praeservaret[?] eum 
+          <lb ed="#PV"/>adhaesi.</p>
+        
+        <p xml:id="ppr-l1-ctindr">Sed dices si sic fides 
+         <lb ed="#PV"/>haberetur solum per infusionem 
+         <lb ed="#PV"/>tunc rationes probabiles <sic>fuerent</sic> 
+         <lb ed="#PV"/>frustra.</p>
+        
+        <p xml:id="ppr-l1-qrpcdi"><pc type="virgula">/</pc> dicitur quod proficiunt non 
+         <lb ed="#PV"/>ad productionem talis habitus effec<lb ed="#PV"/>tive 
+         <pc type="virgula">/</pc> qui dicitur fides sed quia 
+         <lb ed="#PV"/>sunt quandoque fantastica per induc<lb ed="#PV"/>tione
+          <choice><orig>dyaboli</orig><reg>diaboli</reg></choice> et illius obviatur
+          <lb ed="#PV"/>per rationes probabiles</p>
+        
+        <p xml:id="ppr-l1-ssqfes"><choice><orig>eciam</orig><reg>etiam</reg></choice> stat 
+          <lb ed="#PV"/>quod aliquis praemio inducatur 
+          <lb ed="#PV"/>ad credendum articulos fidei per 
+          <lb ed="#PV"/><choice><orig>raciones</orig><reg>rationes</reg></choice> probabiles <corr><del rend="strikethrough">etiam stat</del></corr> 
+          <lb ed="#PV"/>et postea deus infundat sibi 
+          <lb ed="#PV"/>verum habitum fidei et fiat 
+          <lb ed="#PV"/>postea valde fidelis.</p>
+        
+        <p xml:id="ppr-l1-sqfppa">Sequitur 
+          <lb ed="#PV"/>quod fides est proprie sanitas 
+          <cb ed="#PV" n="b"/> <!-- 3rb -->
+          <lb ed="#PV"/>intellectus quia intellectus mi[?] fi<lb ed="#PV"/>dem 
+          est inferius et pronus ad 
+          <lb ed="#PV"/>falsitatem per fidem sanatur 
+          <lb ed="#PV"/><choice><orig>Eciam</orig><reg>Etiam</reg></choice> fides est aspera in princi<lb ed="#PV"/>pio 
+          quia queumadmodum[?] dicit hominem a tirreis[?] 
+          <lb ed="#PV"/>et <choice><orig>negociis</orig><reg>negotiis</reg></choice> temporalibus ergo 
+          <lb ed="#PV"/>multi contempnunt eum[?] quod est 
+          <lb ed="#PV"/>aspera patet per <name ref="#Paul">apostolum</name></p>
+        
+        <p xml:id="ppr-l1-acfefv">Conclusio 
+          <lb ed="#PV"/>fides est realiter meritoria ita 
+          <lb ed="#PV"/>quod est formaliter meritum ita 
+          <lb ed="#PV"/>quod est formaliter meritum patet 
+          <lb ed="#PV"/>scripturam quia quis per credere 
+          <lb ed="#PV"/>meretur ut patet de Abraham 
+          <lb ed="#PV"/>quia per credere iustus reputabitur 
+          <lb ed="#PV"/>vicem crediderit quod debet <choice><orig>ymolari</orig><reg>immolari</reg></choice> 
+          <lb ed="#PV"/>filium suum.</p>
+        
+        <p xml:id="ppr-l1-pqeqra"><g ref="#dbslash"/>Nota replices sunt 
+          <lb ed="#PV"/>actus animae aliqui sunt qui solum 
+          <lb ed="#PV"/>sunt cognitivi ut intellectiones 
+          <lb ed="#PV"/>Alii sunt qui sunt solum appetitivi
+          <lb ed="#PV"/>seu deliberativi ut sunt volitiones 
+          <lb ed="#PV"/><pc type="virgula">/</pc> Alii sunt mixti scilicet cognitivi 
+          <lb ed="#PV"/>et appetitivi sive volitivi. unde 
+          <lb ed="#PV"/>actus fidei est realiter appetitivus 
+          <lb ed="#PV"/>seu cognitivus et <sic>dilectus</sic> magis 
+          <lb ed="#PV"/>quam cognitivus dixit <name>magister 
+          <lb ed="#PV"/>petrus</name> quod ad <choice><orig>augmentacionem</orig><reg>augmentationem</reg></choice> caritatis 
+          <lb ed="#PV"/> augmentaretur fides.</p>
+        
+        <p xml:id="ppr-l1-scosec"><pc type="virgula">/</pc> Contra 
+          <lb ed="#PV"/>In daemonibus est fides et tamen 
+          <lb ed="#PV"/>non est ibi caritas et vita. <pc type="virgula">/</pc> Item 
+          <lb ed="#PV"/>fides est mortua cum peccatoribus[?] 
+          <lb ed="#PV"/>et est auctoritas <name ref="#James">Iacob</name>. Item 
+          <lb ed="#PV"/><name ref="#Paul">apostolus</name> si caritatem non habeam 
+          <lb ed="#PV"/><choice><orig>nichil</orig><reg>nihil</reg></choice>.</p>
+        
+        <p xml:id="ppr-l1-airqip">Respondetur <choice><orig>ymaginando</orig><reg>imaginando</reg></choice> 
+          <lb ed="#PV"/>duplicem <add place="aboveLine">fidem</add> vitam unam per rationem 
+          <lb ed="#PV"/>probabilem acquisitam vel 
+          <lb ed="#PV"/>forte derelictam ex actibus creden<lb ed="#PV"/>di 
+          verae fide prius habiti per 
+          <lb ed="#PV"/>modum vestigii et ista staret 
+          <lb ed="#PV"/>cum peccato <pc type="virgula">/</pc> et talis acquisita 
+          <lb ed="#PV"/>per rationes est in daemonibus.</p>
+        
+        <p xml:id="ppr-l1-ampeno">
+          <pb ed="#PV" n="3-v"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>Aliter <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> possumus 
+          <lb ed="#PV"/>quod fides habet multi<add place="aboveLine">pliciter</add><del rend="strikethrough">tudinem</del> habitudinem 
+          <lb ed="#PV"/>ad subiectum in quo est scilicet ha<lb ed="#PV"/>bitudinem 
+          afficiendi seu appeten<lb ed="#PV"/>di 
+          seu per modum appetitus. <pc type="virgula">/</pc> <choice><orig>2o</orig><reg>secundo</reg></choice> 
+          <lb ed="#PV"/>per modum cognitionis <choice><orig>3o</orig><reg>tertio</reg></choice> habet 
+          <lb ed="#PV"/>aliam habitudinem per modum 
+          <lb ed="#PV"/>inhaesionis et sic dicitur quod sta<lb ed="#PV"/>ret 
+          quod maneret substantiam fidei quando dicitur 
+          <lb ed="#PV"/>tum ad <choice><orig>terciam</orig><reg>tertiam</reg></choice> habitudinem 
+          <lb ed="#PV"/>et non convertum ad duas primas 
+          <lb ed="#PV"/>vi[?] creatura ?o?li[?] existente in peccato 
+          <lb ed="#PV"/>et sic esset mortua quia non 
+          <lb ed="#PV"/>staret in illo convertum[?] ad <choice><orig>operaci<lb ed="#PV"/>ones</orig><reg>operati<lb ed="#PV"/>ones</reg></choice> 
+          suas nobiles quia for<lb ed="#PV"/>te 
+          pro eo pro tunc scilicet qud esset homo 
+          <lb ed="#PV"/>hiis fidem in peccato non vellet 
+          <lb ed="#PV"/>deus ex?e[?] cum habitu fide.</p>
+        
+        <p xml:id="ppr-l1-qailaa"><lb ed="#PV"/>In actum convertum ad duas 
+          <lb ed="#PV"/>primas habitudines dixit 
+          <lb ed="#PV"/><name>magister petrus</name> non esse possibile, <choice><orig>ymo</orig><reg>immo</reg></choice> <pc type="virgula">/</pc> nec
+          <lb ed="#PV"/>probabile quod <choice><orig>eciam</orig><reg>etiam</reg></choice> <choice><orig>agencia</orig><reg>agentia</reg></choice> naturalium <pc type="virgula">/</pc> 
+          <lb ed="#PV"/>haberet instinctualem modum <pc type="virgula">/</pc> proportionalem 
+          <lb ed="#PV"/>libertati Itaque applicato 
+          <lb ed="#PV"/>combustibili[?] et stantibus omnibus 
+          <lb ed="#PV"/>requisitis stare in instinctu ig<lb ed="#PV"/>nis 
+          agere vel non agere.</p>
+        
+        <p xml:id="ppr-l1-apaeis">Etiam 
+          <lb ed="#PV"/>dixit magister <name>Richardus</name> hac 
+          <lb ed="#PV"/>idem tenuisse in suis principiis 
+          <lb ed="#PV"/>habitus fidei id est non praecise nedum 
+          <lb ed="#PV"/>elevat intellectum, <choice><orig>ymo</orig><reg>immo</reg></choice> <choice><orig>eciam</orig><reg>etiam</reg></choice> 
+          <lb ed="#PV"/>reddit intellectum vigorosior 
+          <lb ed="#PV"/>et potentionem[?] et sic est in qualitatibus 
+          <lb ed="#PV"/>naturalibus ut coprus humanum 
+          <lb ed="#PV"/>quomodo est sub dispositionibus, si sic convenientibus[?] 
+          <lb ed="#PV"/>est sa??[?] quae si tollentur effi<lb ed="#PV"/>citur 
+          inf??? Et ideo <choice><orig>raci<lb ed="#PV"/>onabile</orig><reg>rati<lb ed="#PV"/>onabile</reg></choice> 
+          est quod <choice><orig>eciam</orig><reg>etiam</reg></choice> ita sit 
+          <lb ed="#PV"/>de fide et sic fides fortificat 
+          <lb ed="#PV"/>intellectum respectu quantumcumque 
+          <lb ed="#PV"/>virtutum quia fides est qualis 
+          <lb ed="#PV"/>convenientissima intellectus tollens 
+          <lb ed="#PV"/>omnem <choice><orig>disposicionem</orig><reg>dispositionem</reg></choice> contrariam 
+          <lb ed="#PV"/>et sic fides intensa facit rationes 
+          <lb ed="#PV"/>suas apparere <del rend="strikethrough">quod quando aliquis</del> 
+          <lb ed="#PV"/>demonstrativas.</p>
+        
+        <p xml:id="ppr-l1-eehnhf">Sequitur quod redar<lb ed="#PV"/>guendus 
+          est <name ref="#Averroes">averroiis</name> quod quando[?] 
+          <cb ed="#PV" n="b"/> <!-- 3vb -->
+          <lb ed="#PV"/>aliquis est imbutus[?] in lege est Im<lb ed="#PV"/>pedimentum 
+          intellectus quia fi<lb ed="#PV"/>des 
+          est sanitas intellectus Et 
+          <lb ed="#PV"/>negligentia fidelium est quod non magis 
+          <lb ed="#PV"/>acqurivit[?] <choice><orig>sciencias</orig><reg>scientias</reg></choice> p??tas[?] ad 
+          <lb ed="#PV"/>inventas</p>
+       
+        <p xml:id="ppr-l1-qeeppn"><pc type="virgula">/</pc> Nota de apparentiis quod aliqua apparentia est ex parte obiectit 
+          <lb ed="#PV"/>eius modi et ita communiter[?] est in lumine 
+          <lb ed="#PV"/>naturali quia est sensibilius disc??us 
+          <lb ed="#PV"/>et elicius[?] con??ones[?] in naturalibus. Alia est 
+          <lb ed="#PV"/>apparentia quae habetur non ab 
+          <lb ed="#PV"/>obiecto ut est divina quia nam[?] 
+          <lb ed="#PV"/>non habet ex parte obiecti sed ex se ut 
+          <lb ed="#PV"/>per prius habuit[?] <choice><orig>apparenciam</orig><reg>apparentiam</reg></choice> de 
+          <lb ed="#PV"/>ante christo quam[?] ante christus erat[?]. Et sic 
+          <lb ed="#PV"/>potest dici de fide ita quod <choice><orig>apparencia</orig><reg>apparentia</reg></choice> 
+          <lb ed="#PV"/>fidei est ex intrinseco ergo dici <name ref="#Paul">apostolus</name> 
+          <lb ed="#PV"/>quod sit non apparentium scilicet ex parte obiecti 
+          <lb ed="#PV"/>et sic fies habet modicum divinae 
+          <lb ed="#PV"/>rep[?] seu tancionis[?] et non dependet 
+          <lb ed="#PV"/>ab obiecto di?[?] praedicta ponitur 
+          <lb ed="#PV"/>a <name ref="#Aristotle">philosopho</name> <pc type="virgula">/</pc> <choice><orig>2o</orig><reg>secundo</reg></choice> <title ref="#Metaphysics">metaphysicae</title> et non est de novo[?] 
+          <lb ed="#PV"/>Iuventa deus sic scit au??m[?] 
+          <lb ed="#PV"/>fore et tamen non potest non fore unde 
+          <lb ed="#PV"/>dixit quod scientia non dependet 
+          <lb ed="#PV"/>ex ante christum fore vel non fore 
+          <lb ed="#PV"/><g ref="#dbslash"/>Sacramenta legis novae sunt signa 
+          <lb ed="#PV"/>gratiae nedum signa sed eciam con<lb ed="#PV"/>ferunt 
+          <lb ed="#PV"/>christi vi gratia Sunt duo 
+          <lb ed="#PV"/>aequaliter de noti[?] omnino et non 
+          <lb ed="#PV"/>baptisati tunc habeunt gravum 
+          <lb ed="#PV"/>eius debitam ratione denominationes 
+          <lb ed="#PV"/>et sacerdos baptizet unum 
+          <lb ed="#PV"/>et non velit alium baptisare 
+          <lb ed="#PV"/>Qio[?] quod posterius baptisatus 
+          <lb ed="#PV"/>habet maiorem gravum sed sacramenta 
+          <lb ed="#PV"/>veteris legis non constulerunt 
+          <lb ed="#PV"/>gravum.</p>
+        
+        <p xml:id="ppr-l1-ctffsi">Circum textum fava[?] est 
+          <lb ed="#PV"/>aliquid diligere finaliter seu 
+          <lb ed="#PV"/>ultimate propter se unum[?] quid 
+          <lb ed="#PV"/>volo frui[?] victoria[?] ??? uti 
+          <lb ed="#PV"/>Intelligitur quod voluit procedere 
+          <lb ed="#PV"/>ad alia seu ad illacionem aliorum 
+          <lb ed="#PV"/>malorum. Sed uti est diligere 
+          <lb ed="#PV"/>aliquam rem finaliter propter 
+          <pb ed="#PV" n="4-r"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>aliud et sic diligimus creaturas 
+          <lb ed="#PV"/>deus utitur creaturis et fruitur sui 
+          <lb ed="#PV"/>ipsius.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

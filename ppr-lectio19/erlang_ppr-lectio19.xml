@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 19, De fide [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 19, De fide [Erlangen Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+          <availability status="free">
+            <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="23-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio19">
+        <head xml:id="ppr-l19-Hd1e3723">Lectio 19, De Fide [Erlangen Transcription]</head>
+        <div xml:id="ppr-l19-Dd1e3726">
+          <head xml:id="ppr-l19-Hrdppnt">[Recapitulatio de primis tres principiis nostrae theologiae]</head>
+          <!-- <p xml:id="ppr-l19-seqilp"> seems missing -->
+          <!-- <p xml:id="ppr-l19-isqnic"> seems missing -->
+          <p xml:id="ppr-l19-seirsl">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Prima principia et conclusiones exprimentes divinam nobilitatem et excellentiam re<lb ed="#E"/>ducuntur 
+            ad istam deus est ut habere omnipotentiam <choice><orig>inmensam</orig><reg>immensam</reg></choice> contradictione 
+            <lb ed="#E"/>liberam Ex illo infert quod deus posset facere quicquid fieri non implicat contradictionem 
+            <lb ed="#E"/>et sic de multis aliis
+          </p>
+          <p xml:id="ppr-l19-eceesp">
+            Sequitur quod deus est summe providentiae unde posuerunt unum principium 
+            <lb ed="#E"/>scilicet deum esse universaliter perfectum Secundum principium deum gubernare et providere humano generi[?] 
+            <lb ed="#E"/>sub isto secundo principio continentur prima opera pietatis et ecclesia omnia alia reducun<lb ed="#E"/>tur 
+            ad illud Et istud tangit <name ref="#Paul">apostolus</name>
+          </p>
+        </div>
+        <div xml:id="ppr-l19-Dd1e3785">
+          <head xml:id="ppr-l19-Hdptepp">[Duo praecepta theologiae, licet non sint immediate sequentia ex primis principiis]</head>
+          <p xml:id="ppr-l19-aeqtpd">
+            Advertendum ulterius quod volentibus <unclear>procedere[?]</unclear> 
+            <lb ed="#E"/>theologice duo principia sunt observanda quae sunt directiva primum quod est <name ref="#Boethius">boetii</name> etiam 
+            <lb ed="#E"/><name ref="#Aristotle">aristotelis</name> secundum m?ees[?] recipiendi sunt secundum materiam subiectam
+          </p>
+          <p xml:id="ppr-l19-apecic">
+            Advertendum <del>ulterius quod vo<lb ed="#E"/>lentibus 
+            procedere</del> ad aliud principium scilicet debilitas humani ingenii quae debet considerari <name ref="#Paul">Apostolus</name> 
+            <lb ed="#E"/><quote ana="#IIcor3_5"><choice><orig>nichil</orig><reg>nihil</reg></choice> est nobis tamquam ex nobis</quote> Creatura requirit a deo continuam actuationem Sicut 
+            <lb ed="#E"/>tenet <name ref="#WilliamOfParis">wilhelmus parisiensis</name> sicut dictum est prius
+          </p>
+        </div>
+        <div xml:id="ppr-l19-Dd1e3849">
+          <head xml:id="ppr-l19-Hqptqpt">Quartum principium theologiae</head>
+          <p xml:id="ppr-l19-appese">
+            Ad primum praemittendum pro nunc quod deus est 
+            <lb ed="#E"/>prima r?a[?] et ultima prima <unclear>i??piendo</unclear> superius ultima incipiendo inferius et summa ad 
+            <lb ed="#E"/>quam resolvitur omen iustum bonum et decens et ita magno utilitatis sicut tactum est prius 
+            <lb ed="#E"/>et quodamodo omnis veritas est a deo exemplata et ita etiam omnis bonitas 
+          </p>
+          <div xml:id="ppr-l19-Dd1e3883">
+            <head xml:id="ppr-l19-Hceqsri">[Corollaria ex quarto principio: quod humanum iudicum non est sufficiens regula iusti]</head>
+            <p xml:id="ppr-l19-eqsivr">
+              sic quod humanum 
+              <lb ed="#E"/>iudicium non est sufficiens regula iusti vel rectitudinis
+            </p>
+            <p xml:id="ppr-l19-uaqaur">
+              <name ref="#Aristotle">philosophus</name> in toto libro sub <title ref="#Ethics">ethicorum</title> 
+              <lb ed="#E"/>resolvit omnia ad dictamen rectae rationis sed tamen illa non est <sic>ultimam regulam</sic>
+            </p>
+            <!-- <p xml:id="ppr-l19-iaemeh"> seems missing -->
+            <p xml:id="ppr-l19-eqseoh">
+              <lb ed="#E"/>Sequitur quod deus non vult sic fore vel operari ad extra quia bonum est sic fieri vel fore 
+              <lb ed="#E"/>sed viceversa scilicet quia vult sic fieri ideo bonum est ita quod non est ex parte subiecti oritur 
+              <lb ed="#E"/>ordinatio primae causae quod sic vel sic regat
+            </p>
+            <p xml:id="ppr-l19-eqsosb">
+              Sequitur quod absolute posset esse bonum quod omnes 
+              <lb ed="#E"/>daemones et etiam dampnati alii salvarentur et omnes in paradiso existentes 
+              <lb ed="#E"/>dampnarentur patet quia istud non est bonum nisi in relatione ad primam regulam quia 
+              <lb ed="#E"/>sic esse vel non esse non est primarie bonum nisi in resolutione ad primum a quo tamquam 
+              <lb ed="#E"/>a principali capit quod sit bonum
+            </p>
+            <p xml:id="ppr-l19-eqsdgt">
+              Sequitur quod non est standum humano iudicio in inquisitione 
+              <lb ed="#E"/>materiae <unclear>reprobatorum</unclear> illorum qui <choice><orig>nichil</orig><reg>nihil</reg></choice> male egerunt sicut scriptum est de <name ref="#Esau">esau</name> et 
+              <lb ed="#E"/><name ref="#Jacob">Iacob</name> antequam aliquid boni vel mali egissent <name ref="#Jacob">Iacob</name> dilexi <name ref="#Esau">esau</name> odio habui 
+              <lb ed="#E"/>Deus non praedestinavit aliquem propter bona opera futura nec reprobavit 
+              <lb ed="#E"/>propter futuram mala Item non est recurrendum ad humanum iudicium de crcuiatu perpe<lb ed="#E"/>tuo 
+              propter nimium peccatum mortale quia prima facie diceretur quod non esset mi<lb ed="#E"/>sericorditer 
+              actum et tamen est misericorditer actum
+            </p>
+            <p xml:id="ppr-l19-ienomf">
+              Sicut est <unclear>demflatione <!-- probably deflatione --></unclear> animae in primo 
+              <lb ed="#E"/>instanti suae creationis unde ipsa est culpabilis et dampnabitur perpetuo si <unclear>de<lb ed="#E"/>ded?at</unclear> 
+              cum illa inflatione Certum est quod de hoc humanum iudicium non bene iudicaret 
+              <lb ed="#E"/>sed tota radix est quia deus ita vult ergo bonum
+            </p>
+            <p xml:id="ppr-l19-eqsbov">
+              Ex hoc <name ref="#Origen">origines</name> cepit initium 
+              <lb ed="#E"/>sui erroris quia stet in humano iudicio seu in iudicio propriae rationis Divina ista evi<lb ed="#E"/>tantur 
+              quia non est standum humano iudicia quia sumitur tota radix ex hoc 
+              <lb ed="#E"/>quod deus ita <unclear>vult</unclear> 2o est sanctum <unclear>pm[?]</unclear> etc
+            </p>
+            <p xml:id="ppr-l19-eqsdes">
+              Sequitur quod pro satisfactione murmurantium sufficit 
+              <lb ed="#E"/><unclear>declarare</unclear> humanam praesumptionem et falsam <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> nec aliter est eis solvendum 
+              <lb ed="#E"/>sed solum ostendere eorum praesumptionem falsam <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> ista radix est quia <g ref="#dot"/> 
+              <pb ed="#E" n="24-r"/><lb ed="#E"/>resolverit se ad humaum iudicium et hoc male quia illud non est ultimum et etiam 
+              <lb ed="#E"/>provenit ex debilitate ingenii non potentis capere qualiter hoc fit iuste
+            </p>
+            <p xml:id="ppr-l19-eqslln">
+              Sequitur ulterius 
+              <lb ed="#E"/>quod quicumque perfecte caperet divinam providentiam utique iudicaret omnia fieri optime nam 
+              <lb ed="#E"/>de factus <seg type="correction">humani<del rend="strikethrough">i</del></seg> iudicii resolvendo etiam provenit ex ignorantia divini iudicii Quid<lb ed="#E"/>quid 
+              divina providentia facit ordinat <unclear><sic>mmelius</sic></unclear> licet finis non lateat
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l19-Dd1e4134">
+          <head xml:id="ppr-l19-Hquiiae">[Quintum principium theologiae]</head>
+          <p xml:id="ppr-l19-appipo">
+            Aliud 
+            <lb ed="#E"/>principium nisi quis ponat obiective gratiam dei consequitur dummodo sit in statu viae et usus ratione 
+            <lb ed="#E"/>Istud principium theologicum propter istam regulam salvatur de multitudine dampnandorum 
+            <lb ed="#E"/>quia non stat pereum quod multi dampnabuntur
+          </p>
+        </div>
+        <div xml:id="ppr-l19-Dd1e4160">
+          <head xml:id="ppr-l19-Hsptspt">[Sextum principium theologiae]</head>
+          <p xml:id="ppr-l19-apdssc">
+            Aliud principium Credendum est doc<lb ed="#E"/>toribus 
+            approbatis scilicet <name ref="#GregoryGreat">Gregorius</name> <name ref="#Augustine">Augustinus</name> <name ref="#Jerome">Ieromio</name> <name ref="#Ambrose">Ambrosio</name> in hiis quae tangunt expositionem 
+            <lb ed="#E"/>sacrae scripturae et fidei nisi sibi invicem contradicant et etiam nisi materia sit parvae speculativa Probatur 
+            <lb ed="#E"/>et istud proficiet pro postea <unclear>dicendis[?]</unclear> nam credendum est quod quemcumque sensum dant quod 
+            <lb ed="#E"/>ex alio passu sacrae scripturae eliciunt ergo eis credendum Item propter vehementem 
+            <lb ed="#E"/>laborem circa expositionem sacrae scripturae sunt quasi artifices modo in talibus oportet 
+            <lb ed="#E"/>addiscentem credere ubi esset materia speculativa salvata reverentia non esset magis 
+            <lb ed="#E"/>eis credendum quam rationes eorum convincerent Sic dicit <name ref="#Augustine">augustinus</name> in epistola ad <name ref="#Jerome">Ieromium</name> 
+            <lb ed="#E"/>Solum illis litteris credendum ex se quae sacrae vocantur scilicet bibliae sed in eis non nisi 
+            <lb ed="#E"/>in quantum consonae sacrae scripturae vel ratione possent probari Advertendum quod non oportet 
+            <lb ed="#E"/>quod quidquid dicant quod hoc sit catholicum patet quia <name ref="#Jerome">Ieromus</name> contradicit <name ref="#Augustine">augustino</name> nec 
+            <lb ed="#E"/>dicta eorum inquantum eorum sunt fidei sunt licet sunt fidei inquantum scripturae sacrae sunt 
+            <lb ed="#E"/>consona
+          </p>
+        </div>
+        <div xml:id="ppr-l19-Dd1e4265">
+          <head xml:id="ppr-l19-Hsepiae">[Septimum principium theologiae]</head>
+          <p xml:id="ppr-l19-apqudi">
+            Ad principium scribentibus aliqua non habentibus fidem non est credendum 
+            <lb ed="#E"/>nec eorum auctoritas debet aliquem movere nisi quia consona scripturae sacrae vel fidei vel rationi 
+            <lb ed="#E"/>vel quia doctores sacri nostri per usum approbaverunt <choice><orig>inplicite</orig><reg>implicite</reg></choice> deo
+          </p>
+          <!-- review break -->
+          <p xml:id="ppr-l19-eiclsc">
+            in quadam epistola 
+            <lb ed="#E"/>loquitur de muliere captiva quae debet primo abradi et tunc nubere unde per mulierem cap<lb ed="#E"/>tivam 
+            intelligit scientiam traditam per gentiles quae non debet nude recipi sed debet 
+            <lb ed="#E"/>abradi et tunc potest nubere et tunc potest allegari Sicut <name>paulus</name> utitur huiusmodi allegantibus 
+            <lb ed="#E"/>Et versimile est quod illi qui non habuerunt fidem statuerunt malos fines Sicut 
+            <lb ed="#E"/>tangit <name ref="#Lactantius">lactantius</name> Ad apparendum tradiderunt errores Aliqui ad extollendum statum 
+            <lb ed="#E"/>suum sicut de quodam <unclear>presbytero</unclear> in <placeName>egypto</placeName> qui scripsit epistolam <name>allexandro</name> in quam scripsit de multis 
+            <lb ed="#E"/>annis quibus fuit regimen esset <placeName>egipti</placeName> et sic saepe fecerunt <unclear>Atheniensis</unclear> et sic aliqui 
+            <lb ed="#E"/>fugiunt mendacia ad extollendum suum genus <unclear>Solius</unclear> narrat de <name>allexandro</name> 
+            <lb ed="#E"/>quod nascebatur quando sol fuit in oppositis signis et vel scivit de astrologia
+          </p>
+          <!-- <p xml:id="ppr-l19-ieapvm"> seems missing or is partly contained in above -->
+          <p xml:id="ppr-l19-aeesde">
+            Auctor 
+            <lb ed="#E"/>de proprietatibus rerum ponit quod caput et cauda <unclear>dra?ionis</unclear> sunt duae stellae et non 
+            <lb ed="#E"/>sunt nisi intersectiones <name>Augustinus</name> in libro XII <title>de trinitate</title> Narrate de presbytero in <placeName>egipto</placeName> 
+            <lb ed="#E"/>etc unde non abhorrent mendacia ad fines suos malos consequendes 
+            <lb ed="#E"/>et sic non est credendum gentilibus sed debent repelli nec debent quaequam laedere nec in 
+            <lb ed="#E"/>du?o[?] difficultatem
+          </p>
+          <!-- parallel breaks very weak here; hard to discern -->
+          <p xml:id="ppr-l19-tqeeit">
+            Sed obiectiones de <name>aristotle</name> dicitur quod in pluribus locutus est bene et abraduntur 
+            <lb ed="#E"/>dicta sua de aeternitate mundi quia illa non consonat fidei Et etiam possit ponit differentia 
+            <lb ed="#E"/>inter illos ex una parte qui laboraverunt quodammodo ex viribus propriis sicut 
+            <lb ed="#E"/>fuerunt doctores sacri et alios <add place="aboveLine">qui</add> <choice><orig>inmediate</orig><reg>immediate</reg></choice> habuerunt a deo sicut fuerunt 
+            <pb ed="#E" n="24-v"/>
+            <lb ed="#E"/>
+            <name ref="#Apostles">Apostoli</name> post missionis spiritus sancti Fides non subicitur humano iudicio
+          </p>
+          <p xml:id="ppr-l19-sdfaef">
+            Secundo 
+            <lb ed="#E"/>humana investigatio est per modum servi una habitudo quod plene obediebat domino 
+            <lb ed="#E"/><sic>Secundam</sic> quod <choice><orig>nichil</orig><reg>nihil</reg></choice> faciat ex se et sic theologia procedit ex fide et lumine naturali Et sic 
+            <lb ed="#E"/>est finis istius materiae Et primo incipietur a 3a <unclear>d?o</unclear> post <sic>prima</sic> post <sic>secundam</sic>
+          </p>
+        </div>
+        <div xml:id="ppr-l19-Dd1e4497">
+          <head xml:id="ppr-l19-Hd1e4499">Circa textum</head>
+          <p xml:id="ppr-l19-d1e4502">
+            Circa textum scilicet distinctione 17am prima conclusio spiritus sanctus non solum est caritas qua deus diligit 
+            <lb ed="#E"/>nos sed qua res diligimus deum dixit <name ref="#Plaoul">magister petrus</name> quod <name ref="#Lombard">magister</name> <title>sententiarum</title> in isto passu non 
+            <lb ed="#E"/>communiter tenetur dixit tamen quod esset probabile unde dixit <name>magister petrus</name> quod opinio 
+            <lb ed="#E"/><name>magistri</name> <title>sententiarum</title> est quod bene fides realiter est una qualitas creata et etiam spes sed cari<lb ed="#E"/>tas 
+            est spiritus sanctus met habituans animam
+          </p>
+          <p xml:id="ppr-l19-d1e4546">
+            Secundam conclusio Spiritus sanctus in se non au<lb ed="#E"/>getur 
+            nec minuitur sed quo ad nos unde secundum beneplacitum suum potest nos magis 
+            <lb ed="#E"/>et minus <unclear>vinectare</unclear>
+          </p>
+          <p xml:id="ppr-l19-d1e4560">
+            Tertia conclusio spiritus sanctus non est caritas a se ipso absolute id est non est a<lb ed="#E"/>more 
+            a se ipso quia non producit se et tamen nobis caritas a se ipso quia se ipsa gra<lb ed="#E"/>tificat 
+            nos unde si a seipso esset amore faceret se esse quod non est concedendum <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+            <lb ed="#E"/>contra <name ref="#Augustine">augustinum</name>
+          </p>
+          <p xml:id="ppr-l19-d1e4587">
+            ultima conclusio spiritus sanctus <del rend="strikethrough">s</del> non concurrit per modum habitus ad actum caritatis
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

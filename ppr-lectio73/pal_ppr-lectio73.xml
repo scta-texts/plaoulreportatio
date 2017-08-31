@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 73, de Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2012.12-dev-master">
+          <title>Lectio 73, de Trinitate [Palantine Transcription]</title>
+          <date when="2012-12-15">December 15, 2012</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2012-12-15">December 15, 2012</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-01-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="133-r"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio73">
+        <head xml:id="ppr-l73-Hldtldt">Lectio 73, de Trinitate [Palantine Transcription]</head>
+      <div>
+        <head xml:id="ppr-l73-Hdmdmdm">Decima manuductiones</head>
+        <head><lb ed="#PV"/><hi rend="largeFont">In alia lectione</hi></head>
+        <p xml:id="ppr-l73-cmcsma"><lb ed="#PV"/>Consequenter continuando materiam 
+          <lb ed="#PV"/>inceptam ad fortificationem intellectus 
+          <lb ed="#PV"/>tunc apprehensionem <choice><orig>misterii</orig><reg>mysterii</reg></choice> trinitatis 
+          <lb ed="#PV"/>sunt adducendae manuductiones.</p>
+        
+        <p xml:id="ppr-l73-pesoit">prima est <name ref="#WilliamOfParis">magistri 
+          <pb ed="#PV" n="133-v"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>wilhelmi parisiensis</name> considerando 
+          <lb ed="#PV"/>animam secundum triplicem habitudinem. 
+          <lb ed="#PV"/>prima ut est in se quaedam vita intrinseca 
+          <lb ed="#PV"/>Et <choice><orig>2o</orig><reg>secundo</reg></choice> ex hoc oritur quod sit est appre<lb ed="#PV"/>hensiva 
+          vel intellectiva. Et <choice><orig>3o</orig><reg>tertio</reg></choice> ex 
+          <lb ed="#PV"/>duobus illis oritur quod sit affec<lb ed="#PV"/>tiva et quaeritum[?] ad hoc intrinsece 
+          <lb ed="#PV"/>repraesentatur in ea quid credo in<lb ed="#PV"/>creatae 
+          trinitatis.</p>
+        
+        <p xml:id="ppr-l73-smeiai"><g ref="#dbslash"/><choice><orig>2a</orig><reg>secunda</reg></choice> manuductio 
+          <lb ed="#PV"/>iuxta aliquorum <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> 
+          <lb ed="#PV"/>quod <choice><orig>potenciae</orig><reg>potentiae</reg></choice> animae sint realiter inter se 
+          <lb ed="#PV"/>distinctae et quod <choice><orig>nichilominus</orig><reg>nihilominus</reg></choice> con<lb ed="#PV"/>currunt 
+          <choice><orig>ydemptice</orig><reg>identice</reg></choice> cum ipsa anima 
+          <lb ed="#PV"/>scilicet quod substantia animae est realiter 
+          <lb ed="#PV"/><choice><orig>potencia</orig><reg>potentia</reg></choice> qui est memorativa 
+          <lb ed="#PV"/>et est specierum intelligibilium, deinde 
+          <lb ed="#PV"/>est potentia realiter intellectiva, deinde 
+          <lb ed="#PV"/>volitiva Item <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> 
+          <lb ed="#PV"/>quod huiusmodi <choice><orig>potenciae</orig><reg>potentiae</reg></choice> realiter 
+          <lb ed="#PV"/>inter se distinguantur ita quod me<lb ed="#PV"/>moria 
+          realiter non est intellectiva, 
+          <lb ed="#PV"/>nec intellectiva est vis volitiva, 
+          <lb ed="#PV"/>licet concurrant <choice><orig>ydemptice</orig><reg>identice</reg></choice> cum anima. et 
+          <lb ed="#PV"/>quantum ad hoc esset magna similitudo 
+          <lb ed="#PV"/>trinitatis Nam sic in trinitate 
+          <lb ed="#PV"/>ponuntur pater per modum speciei intelligibilis et est realiter 
+          <lb ed="#PV"/>idem cum essentia deinde 
+          <lb ed="#PV"/>secunda persona idem cum essentia. 
+          <lb ed="#PV"/>et est intelligentia vel verum[?] per 
+          <lb ed="#PV"/>modum notitiae productum 
+          <lb ed="#PV"/>consequenter spiritum sanctum ponimus 
+          <lb ed="#PV"/>amorem distinctum a qualibet 
+          <lb ed="#PV"/>aliarum personarum et sic est magna 
+          <lb ed="#PV"/>similtudo quantum ad hoc nisi quod 
+          <lb ed="#PV"/>esset dissimilitudo quia una perso<lb ed="#PV"/>na 
+          producat realiter aliam sicut 
+          <lb ed="#PV"/>in divinis. Sed tamen quantum ad 
+          <lb ed="#PV"/>modum capiendi quod una res 
+          <lb ed="#PV"/>sit tres similitudo est congrua 
+          <cb ed="#PV" n="b"/> <!-- 133vb -->
+          <lb ed="#PV"/>et conveniens
+        </p>
+        <p xml:id="ppr-l73-tmcipa">
+          3o possumus manuduci 
+          <lb ed="#PV"/>ex actibus <sic>potentarum</sic> animae Nam 
+          <lb ed="#PV"/>anima recipit speciem intelligibi<lb ed="#PV"/>lem 
+          et per eam actuatur et ab illa 
+          <lb ed="#PV"/>specie procedit cognitio vel notitia 
+          <lb ed="#PV"/>de re cuius est species in potentia 
+          <lb ed="#PV"/>et formaliter <unclear>proportionem</unclear> de eodem obiecto 
+          <lb ed="#PV"/>cognitio deinde ex specie intelligibili 
+          <lb ed="#PV"/>et cognitione procedit affectio verum 
+          <lb ed="#PV"/>voluntas boni praesentati per hunc 
+          <lb ed="#PV"/>modum vel nisi praesentate vel cognitae 
+          <lb ed="#PV"/>Ex isto modo et praecedente simul iunctis 
+          <lb ed="#PV"/>habetur congrua similitudo trinitatis
+        </p>
+        <p xml:id="ppr-l73-qmieit">
+          4tus modus potest esse ymaginan<lb ed="#PV"/>do 
+          quod accidentia diversarum 
+          <lb ed="#PV"/>specierum ex inhaeseione ad subiectum 
+          <lb ed="#PV"/>realiter ydemptificentur sicut multi 
+          <lb ed="#PV"/>tenuerunt de qualibus forma 
+          <lb ed="#PV"/>mundi quod vi unionois sit ydemp<lb ed="#PV"/>tificatio 
+          sic quod unum realiter 
+          <lb ed="#PV"/>sit reliquum
+        </p>
+        <p>
+          Consequenter 
+          <lb ed="#PV"/>ymaginatur de anima tria accidentia 
+          <lb ed="#PV"/>scilicet speciem intelligibilem alicuius obiecti 
+          <lb ed="#PV"/>notitiam illius obiecti procedente 
+          <lb ed="#PV"/>ad huiusmodi specie et amorem consequenter 
+          <lb ed="#PV"/>et si ymaginemur quod concurrant 
+          <lb ed="#PV"/>ydemptice cum subiecto et vi 
+          <lb ed="#PV"/>unionis consurgat ydempti<lb ed="#PV"/>ficatio 
+          habetur ymaginatio et sic habemus 
+          <lb ed="#PV"/>speciem intelligiblem quae realiter esset 
+          <lb ed="#PV"/>anima sit accidentia non <unclear>???</unclear>
+          <lb ed="#PV"/>inter se et ergo negantur de se 
+          <lb ed="#PV"/>in vicem et sic modus iste est 
+          <lb ed="#PV"/>declarativus ymaginationis trintiatis 
+          <lb ed="#PV"/>quia ponimus patrem et filium et spiritum 
+          <lb ed="#PV"/>sanctum realiter distingui et concurrere 
+          <lb ed="#PV"/>ydemptice cum essentia 
+        </p>
+        <p xml:id="ppr-l73-qmseca">
+          Quintus 
+          <lb ed="#PV"/>modus ymaginandi ydemptitate 
+          <lb ed="#PV"/>aliquod cum distinctione et isto supponendo 
+          <pb ed="#PV" n="134-r"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>quod eadem materia possit esse in diversis 
+          <lb ed="#PV"/>locis etiam formaliter patet de corpore 
+          <lb ed="#PV"/>christi et <unclear>concurrere</unclear> consequenter in theologia 
+          <lb ed="#PV"/>ponamus casum quod <name>sortes</name> <unclear>applis</unclear> 
+          <lb ed="#PV"/>se ad cognitionem filii deinde 
+          <lb ed="#PV"/>in instanti decisionois seis 
+          <lb ed="#PV"/>tota materia sortis ponatur sub 
+          <lb ed="#PV"/>forma seminis Ita quod tota materia 
+          <lb ed="#PV"/>eadem sit in sorte et in semine 
+          <lb ed="#PV"/><unclear>cant</unclear> disponatur materia ad formam 
+          <lb ed="#PV"/>embrionis et sic consequenter usque ad 
+          <lb ed="#PV"/>animae <unclear>int?ne</unclear> productionem deinde 
+          <lb ed="#PV"/>quando est sufficienter organiza<lb ed="#PV"/>ta 
+          quod realiter anima sortis po<lb ed="#PV"/>natur 
+          in huiusmodi materia ipsa 
+          <lb ed="#PV"/>tamen cum haec <unclear>vemoneute</unclear>
+          <lb ed="#PV"/>cum sorte tunc sortes et filius 
+          <lb ed="#PV"/>suus sunt eadem essentia quia 
+          <lb ed="#PV"/>sunt eadem materia et eadem forma 
+          <lb ed="#PV"/>et tamen remanent inter sortes 
+          <lb ed="#PV"/>et platonem <unclear>d?o</unclear> relativa quia unus 
+          <lb ed="#PV"/>est filius et alter pater et sic oportet 
+          <lb ed="#PV"/>quid ibi sit oppositio ratione habitudo 
+          <lb ed="#PV"/>relative tollens affirmationem 
+          <lb ed="#PV"/>praedicatorum de se in vicem et tamen 
+          <lb ed="#PV"/>sunt eadem quantitas ergo oportet 
+          <lb ed="#PV"/>quod ibi sit alia distinctio aliter idem 
+          <lb ed="#PV"/>generet se quod est contra <name ref="#Augustine">augustinum</name>.
+        </p>
+        <p xml:id="ppr-l73-sieeee">
+          <lb ed="#PV"/>Sexta ymaginatur unam 
+          <lb ed="#PV"/>opinionem supponendo quam recitat 
+          <lb ed="#PV"/><name ref="#Lombard">magister</name>
+          in 3o de unione ypos<lb ed="#PV"/>tatica 
+          et est una opinio inter 
+          <lb ed="#PV"/>tres ibi recitatas videtur quod illa 
+          <lb ed="#PV"/>unio fiat realiter per ydempti<lb ed="#PV"/>ficationem 
+          naturae assumptae a supposito 
+          <lb ed="#PV"/>sustentificante Sic ergo una 
+          <lb ed="#PV"/>natura quae assumatur gratia exem<lb ed="#PV"/>pli 
+          a tribus angelis <c>b</c> et <c>c</c> 
+          <lb ed="#PV"/>et unus angelus propter hoc non erit 
+          <cb ed="#PV" n="b"/> <!--134rb -->
+          aliter <unclear>et</unclear> sunt una natura et ad<lb ed="#PV"/>huc 
+          sunt distinctae personae licet 
+          <lb ed="#PV"/>sit eadem quantitas et eadem entitas.
+        </p>
+        <p xml:id="ppr-l73-smehit">
+          <lb ed="#PV"/>Septimus modus ymaginandi 
+          <lb ed="#PV"/>est ponendo quod unus angelus 
+          <lb ed="#PV"/>sit realiter in tribus locis tunc 
+          <lb ed="#PV"/>habet aliam ubertatem ut ita loquor 
+          <lb ed="#PV"/>in uno situ et aliam in alio 
+          <lb ed="#PV"/>ponamus quod huiusmodi uber<lb ed="#PV"/>tates 
+          vel locabilitates sint re<lb ed="#PV"/>lationes distinctae concurrantes 
+          <lb ed="#PV"/>tamen ydemptice cum angelo 
+          <lb ed="#PV"/>unde aquae facile est ymaginari 
+          <lb ed="#PV"/>de relationibus sicut de <unclear>locationibus</unclear> 
+          <lb ed="#PV"/>vel sitibus et habetur casus 
+          <lb ed="#PV"/>satis similis.
+        </p>
+        <p xml:id="ppr-l73-ompsss">
+          Octavus casus 
+          <lb ed="#PV"/>ponatur quod sit aliqua intelligentia 
+          <lb ed="#PV"/>creata quae sit per sui essentiam 
+          <lb ed="#PV"/>sui ipsius cognitiva et etc aliorum 
+          <lb ed="#PV"/>et haec per suam essentiam 
+          <lb ed="#PV"/>et etiam sit dilectiva per suam 
+          <lb ed="#PV"/>essentiam Illo tamen non 
+          <lb ed="#PV"/>obstante possit tamen notitiam 
+          <lb ed="#PV"/>a se distantiam sibi inhaerentem 
+          <lb ed="#PV"/>producere et etiam volitionem quae 
+          <lb ed="#PV"/>sit adaequate notitia vel volitio 
+          <lb ed="#PV"/>illorum quae cognoscit vel 
+          <lb ed="#PV"/>vult per suam essentiam produ<lb ed="#PV"/>cat 
+          ergo notitiam repraesentativam 
+          <lb ed="#PV"/>sui ipsius et aliorum etiam producat 
+          <lb ed="#PV"/>amorem superadditum per quae diligit 
+          <lb ed="#PV"/>illam quae per essentiam ponatur 
+          <lb ed="#PV"/>ulterius quod ydenptificentur cum 
+          <lb ed="#PV"/>essentia tunc habetur ymaginatur 
+          <lb ed="#PV"/>et ratione originatoris et <unclear>d?tio</unclear> et tamen 
+          <lb ed="#PV"/>erit concursus ydempticus 
+          <lb ed="#PV"/>quod et <unclear>d?to</unclear> patet quia unum producit 
+          <lb ed="#PV"/>aliud <name ref="#WilliamOfParis">wilhelmus parysisensis</name>
+          <pb ed="#PV" n="134-v"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>in libro de divinali mistoris po<lb ed="#PV"/>nit
+        </p>
+        <p xml:id="ppr-l73-nmedis">
+          aliam rationem manuductionem 
+          <lb ed="#PV"/>secundum istam ut videbatur <name>magister 
+          <lb ed="#PV"/>p plau</name> non multum <unclear>curavit</unclear> 
+          <lb ed="#PV"/>unde dicit <name>wilhelmus</name> quod in tri<lb ed="#PV"/>angulo 
+          sunt tres angeli distincti 
+          <lb ed="#PV"/>et tamen non est nisi una superfi<lb ed="#PV"/>cies 
+          <lb ed="#PV"/>ergo tres angulo licet 
+          <lb ed="#PV"/>sint tres quilibet tamen est eadem 
+          <lb ed="#PV"/>superficies secundum suam quidditatem
+        </p>
+        <p xml:id="ppr-l73-deqpeh">
+          <lb ed="#PV"/>Alia manuductio ex dictis philosophorum 
+          <lb ed="#PV"/>maxime ex positione platonis et heremeticis
+        </p>
+        <p xml:id="ppr-l73-npppci">
+          <lb ed="#PV"/>plato posuit quod species est communis 
+          <lb ed="#PV"/>plato posuit quod species est commquidditas omnium sitorum individuorum 
+          <lb ed="#PV"/>et non loquitur de terminis quia 
+          <lb ed="#PV"/>de illis ideo esset difficultas 
+          <lb ed="#PV"/>sed loquitur a parte rei ponendo 
+          <lb ed="#PV"/>hominem qui est essentia sortis et 
+          <lb ed="#PV"/>platonis et tamen <unclear>secundum</unclear> non est 
+          <lb ed="#PV"/>plato unde secundum plaotnem sortes plato 
+          <lb ed="#PV"/>et cicero sunt eadem quidditas 
+          <lb ed="#PV"/>humana et ergo ponitur platonica 
+          <lb ed="#PV"/>proponit <unclear>propor?or</unclear> ad ymaginationem 
+          <lb ed="#PV"/>trinitatis et ponit quod quidditas 
+          <lb ed="#PV"/>hominis est simpliciter incorruptibilis 
+          <lb ed="#PV"/>ymmo ista ponitur platonis est diffici<lb ed="#PV"/>lior 
+          quam ymaginatio trinitatis 
+          <lb ed="#PV"/>quia eandem quidditatem ponit rem
+          <lb ed="#PV"/>aeternam et rem corruptibile quia 
+          <lb ed="#PV"/>est illa quidditas quae est in<lb ed="#PV"/>corruptibilis 
+          et sortes qui est corruptibils 
+          <lb ed="#PV"/>vel annichilabilis
+        </p>
+        <p xml:id="ppr-l73-htpdnp">
+          <pc type="virgula">/</pc> <name>hermes trismegesti</name> 
+          <lb ed="#PV"/>ponit quod deus est quidditative mundo 
+          <lb ed="#PV"/>et ratione productionis dicitur deus a 
+          <lb ed="#PV"/>mundo realiter et personaliter 
+          <lb ed="#PV"/>et tamen <unclear>mundus</unclear> est eadem quantitas 
+          <lb ed="#PV"/>quae est deus et quae est mundus 
+          <lb ed="#PV"/>et illud valet ad defensandum 
+          <lb ed="#PV"/>articulum casu gentiles quia sui 
+          <cb ed="#PV" n="b"/>mirabiliora ponunt</p>
+      </div>
+      <div>
+        <head xml:id="ppr-l73-Hnotlia">Notabilia</head>
+        <p xml:id="ppr-l73-cppepn">
+          Circa prae<lb ed="#PV"/>dicta 
+          pro maiori evidentia 
+          <lb ed="#PV"/>vel facilior conceptione materiae 
+          <lb ed="#PV"/>praesentis dico aliqua per modum 
+          <lb ed="#PV"/>notabilium
+        </p>
+        <div>
+          <head xml:id="ppr-l73-Hprimum">Primum</head>
+          <p xml:id="ppr-l73-pqeimp">primum rationale quod negatio mu<lb ed="#PV"/>tua 
+            extremorum actualiter existen<lb ed="#PV"/>tium 
+            non infert unum non esse 
+            <lb ed="#PV"/>essentiam alterius ubi gratia 
+            <lb ed="#PV"/>si sit negatio terminorum vel extreme<lb ed="#PV"/>morum 
+            huiusmodi mutua negatio 
+            <lb ed="#PV"/>non infert unum non esse essentiam 
+            <lb ed="#PV"/>alterius unde quod <c>a</c> non esse 
+            <lb ed="#PV"/>essentia <c>b</c> patet in materia opinionis 
+            <lb ed="#PV"/>platonis ut sortes non est plato et tamen 
+            <lb ed="#PV"/>sint eadem essentia ut secundum 
+            <lb ed="#PV"/>platonem nam sequitur sortes non 
+            <lb ed="#PV"/>est plato ergo essentia sortis non 
+            <lb ed="#PV"/>est essentia platonis
+          </p>
+      </div>
+      <div>
+        <head xml:id="ppr-l73-Hsecdum">Secundum</head>
+        <p xml:id="ppr-l73-sneiep">
+          2m notabile 
+          <lb ed="#PV"/>affirmationes oppositae huiusmodi 
+          <lb ed="#PV"/>negationibus non praecise denominant 
+          <lb ed="#PV"/>ydemptitate essentiale Nam 
+          <lb ed="#PV"/>si sic ista esset vera sortes est plato 
+          <lb ed="#PV"/>scilicet si sortes denominaretur praecise 
+          <lb ed="#PV"/>quod essentia sortis esset essentia 
+          <lb ed="#PV"/>platonis ipsa esset vera secundum platonem 
+          <lb ed="#PV"/>Et si de ista pater in divinis 
+          <lb ed="#PV"/>est filius in divinis si praecise 
+          <lb ed="#PV"/>affirmaret ydemptitatem essentiae 
+          <lb ed="#PV"/>et sic ista esset vera pater in divinis 
+          <lb ed="#PV"/>est filius in divinis quae est heretica
+        </p>
+      </div>
+      <div>
+        <head xml:id="ppr-l73-Hterium">Tertium</head>
+        <p xml:id="ppr-l73-eqsnep">
+          <lb ed="#PV"/>Sequitur 3o quod per huiusmodi 
+          <lb ed="#PV"/>affirmativa denotat supposita <!-- possible correction here -->
+          <lb ed="#PV"/>vel personalis ydemptitas
+        </p>
+      </div>
+      <div>
+        <head xml:id="ppr-l73-Hquatum">Quartum</head>
+        <p xml:id="ppr-l73-qnqpss">
+          4m 
+          <lb ed="#PV"/>notabile quod esse sortem vel platonem 
+          <lb ed="#PV"/>vel secundum individualem rationalem 
+          <lb ed="#PV"/>denominari non consurgit in<lb ed="#PV"/>mediate 
+          etiam absoluta et essentiali
+          <pb ed="#PV" n="135-r"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>ratione quidditativa patet quia sortes et plato 
+          <lb ed="#PV"/>habent eundem rationem quidditativam 
+          <lb ed="#PV"/>ymmo omnis competens uni 
+          <lb ed="#PV"/>competit alteri Ita consequenter diceretur 
+          <lb ed="#PV"/>de huiusmodi denominationibus scilicet esse 
+          <lb ed="#PV"/>patrem esse filium quia si secundum es<lb ed="#PV"/>sentiale 
+          denominationem tunc cui<lb ed="#PV"/>cumque 
+          competeret talis quid<lb ed="#PV"/>ditas 
+          esset pater et filius quod non 
+          <lb ed="#PV"/>est dicendum
+        </p>
+      </div>
+      <div>
+        <head xml:id="ppr-l73-Hquitum">Quintum</head>
+        <p xml:id="ppr-l73-qdreea">
+          Quintum notabile 
+          <lb ed="#PV"/>quod de ratione essentiali materiae et absolute 
+          <lb ed="#PV"/>sumpta non est aliqua negatio 
+          <lb ed="#PV"/>vel negationis inclusio <!-- shoudld this begin a new section parallel to the "sequitur" sections below --> Sequitur 
+          <lb ed="#PV"/>quod non repugnat essentiali 
+          <lb ed="#PV"/>rationi sortis quando sortes et plato sunt 
+          <lb ed="#PV"/>eadem quidditas <!-- another possible paragraph break --> Istud sequitur 
+          <lb ed="#PV"/>ex praedictis quia ratio quidditatis 
+          <lb ed="#PV"/>nulla includit negationem 
+          <lb ed="#PV"/>nec esse sortis prout est esse huiusmodi 
+          <lb ed="#PV"/>individui sumitur ex ratione 
+          <lb ed="#PV"/>absoluta
+        </p>
+      </div>
+      </div>
+        <div>
+          <head xml:id="ppr-l73-Hmitmit">Modi imaginandi Trinitatem</head>
+          <p xml:id="ppr-l73-eqsass">
+            <!-- this section break seems similar to similar phrases in the above paragraph; consider if these should be separate paragraphs like this one -->
+            Sequitur quod non 
+            <lb ed="#PV"/>est evidens repugnantia ex 
+            <lb ed="#PV"/>parte quidditatum quod sortes non 
+            <lb ed="#PV"/>est plato sed est ex rationibus indivi<lb ed="#PV"/>dualibus 
+            descendendo consequenter 
+            <lb ed="#PV"/>et veniendo ad personas divinas 
+            <lb ed="#PV"/>quia tactum est quod ex parte 
+            <lb ed="#PV"/>essentialis rationis non repugnat 
+            <lb ed="#PV"/>diversas personas ydemptitate 
+            <lb ed="#PV"/>concurrere ut quod pater et filius sint 
+            <lb ed="#PV"/>eius quidditas et tamen pater 
+            <lb ed="#PV"/>non est filius quia sunt 
+            <lb ed="#PV"/>rationes personales Ita quod non 
+            <lb ed="#PV"/>est de ratione essentiae quod sit pater 
+            <lb ed="#PV"/>vel filius patet ex dictis quod 
+            <lb ed="#PV"/>a simplicitate et unitate essen<lb ed="#PV"/>tiarum 
+            stat pluralitas personarum
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

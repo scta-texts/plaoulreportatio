@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 8, de Fide [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+        guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="12-r"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio8">
+        <head xml:id="ppr-l8-Hd1e3720">Lectio 8, de Fide [Palatine Transcription]</head>
+        <div xml:id="ppr-l8-Dd1e3723">
+          <head xml:id="ppr-l8-Hcaqaqo"><supplied>Conclusio ad questionem originalem</supplied></head>
+          <p xml:id="ppr-l8-seqses">
+            <lb ed="#PV"/><hi rend="largeFont">Alia lectio <g ref="#dot"/>nona<g ref="#dot"/></hi> 
+            <lb ed="#PV"/>dictum est quod fides est donum dei 
+            <lb ed="#PV"/>supernaturale
+          </p>
+        </div>
+        <div xml:id="ppr-l8-Dd1e3744">
+          <head xml:id="ppr-l8-Hncefea">
+            <supplied>Nova conclusio et rationes: quod fides elevat animam</supplied>
+          </head>
+          <p xml:id="ppr-l8-eqpscv">
+            ex qua conclusione infertur 
+            <lb ed="#PV"/>alia conclusio quod fides elevat potentiam roborat et illuminat super omnes 
+            <lb ed="#PV"/>habitus naturaliter acquisitos Ex qua 
+            <lb ed="#PV"/>sequitur contra <name ref="#Averroes">Averroy</name> in prologo 
+            <lb ed="#PV"/>3ii <title>physicorum</title> dicentem quod <choice><orig>instruccio</orig><reg>instructio</reg></choice> 
+            <lb ed="#PV"/>in aliqua lege est impedi<lb ed="#PV"/>tum 
+            veritatis etc probatur ergo 
+            <lb ed="#PV"/>conclusio principalis quod fides ele<lb ed="#PV"/>vat 
+            etc probatur per effectum quia 
+            <lb ed="#PV"/>facit veritatem arduissimam per assensum 
+            <lb ed="#PV"/><choice><orig>actingere</orig><reg>attingere</reg></choice> quia dictum est <title ref="#is">ysaiae</title> <quote xml:id="ppr-l8-Qd1e3796">nisi 
+            <lb ed="#PV"/>credideritis non intelligetis hoc</quote>
+          </p>
+          <p xml:id="ppr-l8-aiaesa">
+            <lb ed="#PV"/>Ad idem arguitur ratione primo quia est supre<lb ed="#PV"/>ma 
+            dispositio supremae Intelligentiae 
+            <lb ed="#PV"/>sive <choice><orig>potenciae</orig><reg>potentiae</reg></choice> intellectus reddens 
+            <lb ed="#PV"/>ipsum virtuosissimum igitur antecedens probatur 
+            <lb ed="#PV"/>quia maximus vigor intellectus 
+            <lb ed="#PV"/>implicatur incredibilium dispositione 
+            <lb ed="#PV"/>quae est <choice><orig>ex cellentissima</orig><reg>excellentissima</reg></choice>
+          </p>
+          <p xml:id="ppr-l8-ifeqqa">
+            <lb ed="#PV"/>Item 
+            <lb ed="#PV"/>fides est lumen expulsivissimum[?] ig<lb ed="#PV"/>norantiae 
+            interius[?] igitur consequentia tenet quia 
+            <lb ed="#PV"/>iuxta <choice><orig>proporcionem</orig><reg>proportionem</reg></choice> obiectorum est <choice><orig>proporcio</orig><reg>proportio</reg></choice>
+            <pb ed="#PV" n="12-va"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>habituum
+          </p>
+          <p xml:id="ppr-l8-ifaaid">
+            <lb ed="#PV"/>Item si habitus fidei annec<lb ed="#PV"/>titur 
+            spirituali assistentiae divinae ergo etc
+          </p>
+          <p xml:id="ppr-l8-iftete">
+            Item quinto fides tollit motivitatem 
+            <lb ed="#PV"/>rationum sophisticarum circa summum 
+            <lb ed="#PV"/>bonum et felicitatem varios er<lb ed="#PV"/>rores 
+            <choice><orig>inducencium</orig><reg>inducentium</reg></choice> ergo est habitus 
+            <lb ed="#PV"/>nobilissimus tenet consequentia quia non 
+            <lb ed="#PV"/>est parvum bonum tollere rationes so<lb ed="#PV"/>phisticas 
+            circa felicitatem
+          </p>
+          <p xml:id="ppr-l8-qacfcp">
+            <g ref="#pilcrow"/>6to 
+            <lb ed="#PV"/>iuxta scripturae testimonium non 
+            <lb ed="#PV"/>solum inclinat ad assensum 
+            <lb ed="#PV"/>sed ad amorem ergo etc
+          </p>
+        </div>
+        <div xml:id="ppr-l8-Dd1e3904">
+          <head xml:id="ppr-l8-Hlalala"><supplied>Languores animae</supplied></head>
+          
+          <p xml:id="ppr-l8-cvqrpa">
+            pro[?] cuius[?] 
+            <lb ed="#PV"/>materiae[?] intellectum clariori videndum 
+            <lb ed="#PV"/>est qui sunt languores animae 
+            <lb ed="#PV"/>quae per fidem curari habent 
+            <lb ed="#PV"/>ubi advertendum est quod primaria[?] 
+            <lb ed="#PV"/>radix est <choice><orig>pena</orig><reg>poena</reg></choice> originalis cul<lb ed="#PV"/>pae 
+            et causa est peccatum originale
+          </p>
+          <div xml:id="ppr-l8-Dd1e3932">
+            <head xml:id="ppr-l8-Hplddid"><supplied>Primus languor: deformatio imaginis Dei</supplied></head>
+            <p xml:id="ppr-l8-pelmis">
+              primus 
+              <lb ed="#PV"/>ergo languor est poena per quam 
+              <lb ed="#PV"/>anima est <choice><orig>ymago</orig><reg>imago</reg></choice> dei <choice><orig>difformatur</orig><reg>deformatur</reg></choice> 
+              <lb ed="#PV"/>et post perdit vigorem per quem sensum 
+              <lb ed="#PV"/>deberet dominare quia in homine 
+              <lb ed="#PV"/>bene dis<g ref="#dbdash"/>posito anima debet domina<lb ed="#PV"/>ri 
+              corpori divino despotico[?] 
+              <lb ed="#PV"/>Nunc econverso si non sit dei 
+              <lb ed="#PV"/>gratia specialis ex poena peccati 
+              <lb ed="#PV"/>originalis dominaret mutatur 
+              <lb ed="#PV"/>ita quod est subiectio ad sensum 
+              <lb ed="#PV"/>ipsius animae</p> 
+            
+            <p xml:id="ppr-l8-pelrdt">
+              prima pars vocaretur me<lb ed="#PV"/>moria 
+              quae proportionatur patri 
+              <lb ed="#PV"/>in divinis
+            </p>
+        
+            <p xml:id="ppr-l8-slvaot">
+              2us languor vel 2a 
+              <lb ed="#PV"/>pars est quia per huiusmodi perdit rationem 
+              <lb ed="#PV"/>rectitudinis acceptando tempora<lb ed="#PV"/>lia 
+              et in hoc <choice><orig>difformatur</orig><reg>deformatur</reg></choice> intelligentia 
+              <lb ed="#PV"/>per culpam originalem obmis<lb ed="#PV"/>cendo[?] 
+              quae pars <choice><orig>ymaginacionis</orig><reg>imaginationis</reg></choice> 
+              <lb ed="#PV"/>correspondet filio intantum quod per quen<lb ed="#PV"/>dam 
+              similitudinem sicut infirmus 
+              <lb ed="#PV"/>iudicat amarum dulce sic 
+              <lb ed="#PV"/>etiam econverso anima infirmatur iudican<lb ed="#PV"/>do 
+              malum bonum et econverso iuxta illud 
+              <lb ed="#PV"/>ve qui iudcati malum bonum etc 
+              <lb ed="#PV"/>et istum languorem sentientes 
+              <lb ed="#PV"/>philosophi dixerunt animam[?] inebricum[?] 
+              <lb ed="#PV"/>et dicit <name>macrobius</name> quod ita est in ista 
+              vita et istas languores incurrit
+              <cb ed="#PV" n="b"/> <!-- 12rb -->
+              <lb ed="#PV"/>anima nisi ex speciali dei <choice><orig>gracia</orig><reg>gratia</reg></choice>
+            </p>
+            <p xml:id="ppr-l8-itaqat">
+              <!-- possible omission here -->
+              <lb ed="#PV"/>et in hoc deturpatur <choice><orig>ymago</orig><reg>imago</reg></choice> spiritus 
+              <lb ed="#PV"/>sancti
+            </p>
+          
+          </div>
+          <div xml:id="ppr-l8-Dd1e4063">
+            <head xml:id="ppr-l8-Hslslsl"><supplied>Secundus languor</supplied></head>
+            
+            <p xml:id="ppr-l8-spissd">
+              <sic>3us</sic> languor principalis 
+              <lb ed="#PV"/>est ex parte humanae complexionis Nam 
+              <lb ed="#PV"/>in statu innocentiae non fuisset 
+              <lb ed="#PV"/>defectus in humana complexione 
+              <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> viguisset ratione per totum 
+              <lb ed="#PV"/>tempus vitae suae nam in infu<lb ed="#PV"/>sione 
+              animae primaria ipsa anima 
+              <lb ed="#PV"/>caret ratione sive usu rationis et post 
+              <lb ed="#PV"/>nativitatem et sic corpus non 
+              <lb ed="#PV"/>arguat animam non dico de ex<lb ed="#PV"/>emptis 
+              ut casto[?] et aliis et hoc 
+              <lb ed="#PV"/>ex culpa originali et ista complexio 
+              <lb ed="#PV"/>terminatur ad brutorum complexionem 
+              <lb ed="#PV"/>et ascendit per gradus remissio<lb ed="#PV"/>nis
+            </p>
+            <p xml:id="ppr-l8-eihsis">
+              Et sic dicitur circa hoc 
+              <lb ed="#PV"/>quod staret esse hominem qui non 
+              <lb ed="#PV"/>haberet nisi unum sensum scilicet tac<lb ed="#PV"/>tum 
+              et quod non potest uti aliis sensibus 
+              <lb ed="#PV"/>nec exterioribus nec interiori<lb ed="#PV"/>bus 
+              nec intellectione de factu sunt 
+              <lb ed="#PV"/>aliqui non habentes auditum eciam 
+              <lb ed="#PV"/>non habentes visum nec requiritur 
+              <lb ed="#PV"/>gustus quia puer in utero 
+              <lb ed="#PV"/>matris capit cibum et non per 
+              <lb ed="#PV"/>gustum et sic eciam alia vegetabilia 
+              <lb ed="#PV"/>et ideo possibile est quod sic aliquis homo 
+              <lb ed="#PV"/>qui non exerceat nisi vim tactus 
+              <lb ed="#PV"/>sic quod alias <choice><orig>operaciones</orig><reg>operationes</reg></choice> non exerce<lb ed="#PV"/>at 
+              nec eciam <choice><orig>operaciones</orig><reg>operationes</reg></choice> superiores 
+              <lb ed="#PV"/>Confirmatur quia forma substantialis 
+              <lb ed="#PV"/>posset educi sub aliqua dispositione 
+              <lb ed="#PV"/>sub qua non posset debite exercere 
+              <lb ed="#PV"/>omnes suas <choice><orig>operaciones</orig><reg>operationes</reg></choice>
+            </p>
+            <div xml:id="ppr-l8-Dd1e4170">
+              <head xml:id="ppr-l8-Hapapap"><supplied>Aliquae propositiones</supplied></head>
+              
+              <p xml:id="ppr-l8-uchqav">
+                Circa 
+                <lb ed="#PV"/>hoc dicuntur duo prima propositio non 
+                <lb ed="#PV"/>facit formam substantialem esse in materia 
+                <lb ed="#PV"/>cum dispositione quin possit cum illa 
+                <lb ed="#PV"/>aliqualiter[?] operationem exercere patet quia 
+                <lb ed="#PV"/>maxime esset <choice><orig>ociosum</orig><reg>otiosum</reg></choice> in natura 
+                <lb ed="#PV"/>si <choice><orig>nichil</orig><reg>nihil</reg></choice> operaretur et natura abhor<lb ed="#PV"/>ret 
+                vacuum simpliciter
+                <!-- possible break point -->
+                2a <choice><orig>dispo<lb ed="#PV"/>sicio</orig><reg>dispo<lb ed="#PV"/>sitio</reg></choice> 
+                sub qua sufficit aliquam 
+                <lb ed="#PV"/>suarum <choice><orig>operacionum</orig><reg>operationum</reg></choice> exercere sufficit 
+                <lb ed="#PV"/>ad eius <corr><del rend="expunctuated">eductionem hoc</del></corr> conser<lb ed="#PV"/>vationem 
+                et eductionem hoc 
+                <lb ed="#PV"/>videmus in elementis Nam aqua 
+                <cb ed="#PV" n="12va"/><lb ed="#PV"/>diu stat sub dispositione sibi con<lb ed="#PV"/>venienter 
+                etiam in generatione ele<lb ed="#PV"/>mentarum
+                <!-- possible break point -->
+                Ex ista radice posset 
+                <lb ed="#PV"/>fundari quod complexio seu dispositio sub 
+                <lb ed="#PV"/>qua creatur forma anima humana 
+                <lb ed="#PV"/>illa est immediata dispositioni sub qua 
+                <lb ed="#PV"/>est forma bruti vel vegetabilis patet 
+                <lb ed="#PV"/>quia stat quod forma educatur 
+                <lb ed="#PV"/>sub minima[?] operatione humana scilicet 
+                <lb ed="#PV"/>dispositione tactiva et ista est minima 
+                <lb ed="#PV"/>pro rationabili creatura vel forte vegetabili 
+                <lb ed="#PV"/>si non sit ordo <choice><orig>essencialis</orig><reg>essentialis</reg></choice> ergo 
+                <lb ed="#PV"/>quaecumque minor debetur illa est 
+                <lb ed="#PV"/>brutalis
+              </p>
+              <p xml:id="ppr-l8-eirsci">
+                Sequitur primo quod 
+                <lb ed="#PV"/>ex gradibus <choice><orig>operacionum</orig><reg>operationum</reg></choice> cognos<lb ed="#PV"/>cendi 
+                specifice distinctis contentis 
+                <lb ed="#PV"/>sub intellectis non concluditur 
+                <lb ed="#PV"/>quod possint esse multae species 
+                <lb ed="#PV"/>aut diversae sub specie humana 
+                <lb ed="#PV"/>vel potest sic dici non concluditur 
+                <lb ed="#PV"/>diversitas specifica creaturarum 
+                <lb ed="#PV"/>rationabilium producibilium sub specie 
+                <lb ed="#PV"/>humana Aliqui voluerunt 
+                <lb ed="#PV"/>dicere quod <choice><orig>ymaginabilis</orig><reg>imaginabilis</reg></choice> esset 
+                <lb ed="#PV"/>creatura quae intelligeret con<lb ed="#PV"/>fuse 
+                solum Alia componendo 
+                <lb ed="#PV"/>et dividendo solum Alia <choice><orig>sy<lb ed="#PV"/>logizando</orig><reg>sy<lb ed="#PV"/>llogizando</reg></choice> 
+                ita quod essent gradus 
+                <lb ed="#PV"/>specifici[?] sub specie humana creabi<lb ed="#PV"/>les 
+                ita quod ex illis <choice><orig>operacionibus</orig><reg>operationibus</reg></choice> 
+                <lb ed="#PV"/>essent diversae species quod non 
+                <lb ed="#PV"/>dicendum quia istae possunt 
+                <lb ed="#PV"/>esse in eadem specie <choice><orig>ymmo</orig><reg>immo</reg></choice> de 
+                <lb ed="#PV"/>facto aliqua conclusio est demonstrabilis 
+                <lb ed="#PV"/><name ref="#Sortes">sorti</name> quae non <name ref="#Plato">platoni</name> et hoc so<lb ed="#PV"/>lum 
+                ratione complexionis orga<lb ed="#PV"/>nicae 
+                et sic magis reducenda 
+                <lb ed="#PV"/>est talis diversitas specifica 
+                <lb ed="#PV"/>ad diversitatem complexionum orga<lb ed="#PV"/>norum 
+                etc Ex quo patet quod falsum 
+                <lb ed="#PV"/>est quod potest communicari alicui esse 
+                <lb ed="#PV"/>voluntarium non cognoscitionem[?]
+              </p>
+              <p xml:id="ppr-l8-eqpsec">
+                <lb ed="#PV"/>Sed diceres esse intellectum est superius 
+                <lb ed="#PV"/>vel diceres sic esse intellectivum 
+                <lb ed="#PV"/>et esse volitivum cognitivum sunt 
+                <lb ed="#PV"/>subordinata ergo unum potest 
+                <lb ed="#PV"/>alicui communicari sine altero dicitur 
+                <cb ed="#PV" n="12vb"/><lb ed="#PV"/>quod non habet ordine <choice><orig>ymmo</orig><reg>immo</reg></choice> non 
+                <lb ed="#PV"/>sunt subordinata quia omne vo<lb ed="#PV"/>litivum 
+                est intellectivum et econverso 
+                <lb ed="#PV"/>unde esse volitivum non est nisi esse appe<lb ed="#PV"/>titivum 
+                intellectualiter et sic non stat 
+                <lb ed="#PV"/>unum communicari sine alio sed 
+                <lb ed="#PV"/>forte volitivum habet rationem passionis 
+                <lb ed="#PV"/>et intellectum subiecti sed quidquid 
+                <lb ed="#PV"/>sit de hoc dicitur quod istae <choice><orig>de<lb ed="#PV"/>nominaciones</orig><reg>de<lb ed="#PV"/>nominationes</reg></choice> 
+                sunt convertibiles 
+                <lb ed="#PV"/>et ista infirmitas provenit 
+                <lb ed="#PV"/>ex peccato originali et habuissemus 
+                <lb ed="#PV"/>organa bene disposita si man<lb ed="#PV"/>sissemus 
+                in statu naturae integre 
+                <lb ed="#PV"/>et sic ista est multis causa ignorandi
+              </p>
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l8-Dd1e4442">
+          <head xml:id="ppr-l8-Htltltl">
+            <supplied>Tertius languor</supplied>
+          </head>
+          <p xml:id="ppr-l8-tlarqa">
+            <lb ed="#PV"/>3us languor est consuetudo audiendi 
+            <lb ed="#PV"/>errores <ref><name ref="#Averroes">Comentator</name> 3ii <title ref="#PhysicsCommentary">physicorum</title></ref> dicit 
+            <lb ed="#PV"/>quod consuetudo audiendi falsa 
+            <lb ed="#PV"/>est impedimentum in <choice><orig>acquisicione</orig><reg>acquisitione</reg></choice> 
+            <lb ed="#PV"/>veritatis vel dicitur quod numerabiliter[?] 
+            <lb ed="#PV"/>impedit veritatem quia propter 
+            <lb ed="#PV"/>confirmationem quandoque creduntur et dicit 
+            <lb ed="#PV"/>hoc <ref><name ref="#Averroes">commentator</name> in prologo 3ii <title ref="#PhysicsCommentary">physicorum</title></ref> 
+            <lb ed="#PV"/>et <name ref="#Cicero">tullius</name> in <title ref="#TuscanDisputations">de tusscolnis quaestionibus</title> 
+            <lb ed="#PV"/>natura tales nos genuit 
+            <lb ed="#PV"/>ut si ipsam intueremur nos du<lb ed="#PV"/>ceret 
+            ad vitam beatam sed illos 
+            <lb ed="#PV"/>igniculos[?] quos nobis dedit natura 
+            <lb ed="#PV"/>mala consuetudine extinguimus et ista 
+            <lb ed="#PV"/>fuit causa <choice><orig>ydolatriae</orig><reg>idolatriae</reg></choice> apud filios 
+            <lb ed="#PV"/>ysraliel et postea semper continuate[?] 
+            <lb ed="#PV"/>et sic inducitur quod periculosum 
+            <lb ed="#PV"/>est are malum exemplum quia 
+            <lb ed="#PV"/>contingit quod in perpetuum continuetur 
+            <lb ed="#PV"/>Et articulos[?] docuit ne Iuvenes male 
+            <lb ed="#PV"/><choice><orig>asuescerent</orig><reg>assuescerent</reg></choice>
+          </p>
+        </div>
+        <div xml:id="ppr-l8-Dd1e4536">
+          <head xml:id="ppr-l8-Hd1e4538"><supplied>Quartus languor</supplied></head>
+          <p xml:id="ppr-l8-qianem">
+            4a infirmitas est 
+            <lb ed="#PV"/>affectio praevia quae est sui obiecti 
+            <lb ed="#PV"/>offensiva sub ratione boni quia 
+            <lb ed="#PV"/>amor et odium pervertunt Iudicium 
+            <lb ed="#PV"/>Et ergo <ref><name ref="#Boethius">boecius</name> primo <title ref="#Consolation">de consolatione</title></ref> 
+            <lb ed="#PV"/>iubet passiones tolli si intellectus 
+            <lb ed="#PV"/>debeat bene iudicare et <ref><title ref="#sap">sapientia</title> 
+            <lb ed="#PV"/>2o</ref> <quote xml:id="ppr-l8-Qd1e4571" ana="#sap2_21">malicia excaecavit eos</quote> Et 
+            <lb ed="#PV"/>psalmista <quote xml:id="ppr-l8-Qd1e4576">Iniquitates meae supergressae 
+            <lb ed="#PV"/>sunt caput meum et lumen 
+            <lb ed="#PV"/>oculorum meorum non est mecum</quote>
+          </p>
+        </div>
+        <div xml:id="ppr-l8-Dd1e4584">
+          <head xml:id="ppr-l8-Hacacac"><supplied>Aliquae conclusiones</supplied></head>
+          <p xml:id="ppr-l8-ipsdda">
+            Istis igitur praemissis ut aliqualiter <note type="marginal-note" place="margin-bottom">deveniatur ad materiam <!-- indication of quarto change?? --></note> 
+            <cb ed="#PV" n="13ra"/>
+            <lb ed="#PV"/>deveniatur ad materiam principalem 
+            <lb ed="#PV"/>Una propositio anima cum <choice><orig>influencia</orig><reg>influentia</reg></choice> 
+            <lb ed="#PV"/>dei generali plus movetur <choice><orig>apparenciis</orig><reg>apparentiis</reg></choice> 
+            <lb ed="#PV"/>sophisticis quam veritatis vel apparentia 
+            <lb ed="#PV"/>veritatis <g ref="#slash"/>ita quod falsitas plus movet 
+            <lb ed="#PV"/>quam veritas exceptis saltem eviden<lb ed="#PV"/>tissimis 
+            veritatibus <g ref="#slash"/>Ex hoc satis 
+            <lb ed="#PV"/>tangit <ref><name ref="#Aristotle">philosophus</name> in <title ref="#Topics">topicis</title></ref> dicens 
+            <lb ed="#PV"/>Quaedam falsa quibusdam veris 
+            <lb ed="#PV"/>sunt probabiliora et hoc excue[?] 
+            <lb ed="#PV"/>corruptela quia verum quantum est 
+            <lb ed="#PV"/>ex se non movet nisi ad assensum 
+            <lb ed="#PV"/>et quaelibet falsitas quantum est ex se mo<lb ed="#PV"/>vet 
+            ad discensum[?] Sed est in nobis 
+            <lb ed="#PV"/>quantum ad hoc sicut de <choice><orig>in firmo</orig><reg>infirmo</reg></choice> 
+            <lb ed="#PV"/>iudicare dulce amarum
+          </p>
+          <p xml:id="ppr-l8-scamic">
+            <g ref="#dbslash"/>2a 
+            <lb ed="#PV"/>propositio attenta animae vulneratione et la<lb ed="#PV"/>boribus 
+            ipsa in humana <choice><orig>investi<lb ed="#PV"/>gacione</orig><reg>investi<lb ed="#PV"/>gatione</reg></choice> 
+            indiget quadam fide 
+            <lb ed="#PV"/>vel proportionale fidei rum[?] permio[?] 
+            <lb ed="#PV"/>elementorum oportet addiscentem credere 
+            <lb ed="#PV"/>Similiter in <choice><orig>phlosophya</orig><reg>phlosophia</reg></choice> quaedam principia 
+            <lb ed="#PV"/>recipiuntur quadam fide et non 
+            <lb ed="#PV"/>sunt de se evidentia <g ref="#slash"/><choice><orig>Eciam</orig><reg>Etiam</reg></choice> petitiones 
+            <lb ed="#PV"/>assumuntur in mathematica et geo<lb ed="#PV"/>metria 
+            quae <corr><add place="aboveLine">non</add></corr> sunt evidentes 
+            <lb ed="#PV"/>similiter <name ref="#Ptolemy">ptollomeus</name> in <title ref="#Almagest">almagesti</title> prae<lb ed="#PV"/>supponit 
+            ecentricos[?] et <choice><orig>epiciclos</orig><reg>epicyclos</reg></choice> 
+            <lb ed="#PV"/>quae tamen non fuit diutite[?] esse
+          </p>
+          <p xml:id="ppr-l8-eqssda">
+            <lb ed="#PV"/>dici potest corelarie[?] est quod maxime 
+            <lb ed="#PV"/>pars scientiae humanitus iuvente est quaedam 
+            <lb ed="#PV"/>fides ex defectu rationum ad illa 
+            <lb ed="#PV"/>quibus assentimus fide et ex 
+            <lb ed="#PV"/>defectu rationi ad contrarium ex debilitate 
+            <lb ed="#PV"/>humanae <sic>in se vestigationis</sic> et sic 
+            <lb ed="#PV"/>intellectus indiget fide 
+          </p>
+          <p xml:id="ppr-l8-eqsdaf">
+            Ex quo sequitur 
+            <lb ed="#PV"/>quod de quacumque de infinitum 
+            <lb ed="#PV"/>plus ignoramus quam scimus 
+            <lb ed="#PV"/>Conclusio quod cognoscere se meri<lb ed="#PV"/>tum 
+            cognoscere est cognoscere 
+            <lb ed="#PV"/>maximum cognoscibilium quia est 
+            <lb ed="#PV"/>propositio disponens ad fidem et tollit 
+            <lb ed="#PV"/>superbia unde de caelo venit 
+            <lb ed="#PV"/>note[?] solitos[?]
+          </p>
+          <p xml:id="ppr-l8-uhivms">
+            et <choice><orig>ymmo</orig><reg>immo</reg></choice> ad hanc 
+            <lb ed="#PV"/>veniens maximos philosophus repu<lb ed="#PV"/>tatur 
+            Unde <name ref="#Socrates">socrates</name> hoc unum 
+            <lb ed="#PV"/>scio quod nescio
+          </p>
+          <p xml:id="ppr-l8-duqipi">
+            <g ref="#slash"/>dicitur ulterius 
+            <cb ed="#PV" n="b"/> <!-- 13rb -->
+            <lb ed="#PV"/>quod licet geometria sit de quantitate 
+            <lb ed="#PV"/>continua quia maxime faciliter 
+            <lb ed="#PV"/>est cognoscibilis tamen humanitus non 
+            <lb ed="#PV"/>et[?] est proprie et praescientiae scibile de aliqua 
+            <lb ed="#PV"/>re quanta sit <g ref="#slash"/>et per consequens geome<lb ed="#PV"/>tria 
+            fundat se super principia ig<lb ed="#PV"/>nota 
+            <corr>probatur</corr> si sic <g ref="#slash"/>vel hoc esset 
+            <lb ed="#PV"/>per aliam mensuram vel aliam quan<lb ed="#PV"/>titatem 
+            <g ref="#slash"/>et hoc non quia non 
+            <lb ed="#PV"/>potest constare quod inter a quantitatem 
+            <lb ed="#PV"/>et <c>b</c> non sit excessus quia 
+            <lb ed="#PV"/>non est medium concludendi quia 
+            <lb ed="#PV"/>una non excedet aliam quia non 
+            <lb ed="#PV"/>sequitur non percipitur excessus 
+            <lb ed="#PV"/>ergo non est <g ref="#slash"/>quia forte indivisibiliter 
+            <lb ed="#PV"/>unum excedat aliud <g ref="#slash"/>Item si dicatur 
+            <lb ed="#PV"/>quod quantitas sit nota <g ref="#slash"/>quaeritur quomodo sit 
+            <lb ed="#PV"/>nota si dicatur est de se nota 
+            <lb ed="#PV"/>quia pluries est percepta probo 
+            <lb ed="#PV"/>quia non sufficit sed semper 
+            <lb ed="#PV"/>per aliam et nulla est ex se nota 
+            <lb ed="#PV"/>quia detur illa per quam dicis per 
+            <lb ed="#PV"/>se notam <g ref="#slash"/>et sit <g ref="#dot"/><c>a</c><g ref="#dot"/> <g ref="#slash"/> pono ca<lb ed="#PV"/>sum 
+            quod omnes res mundi praeter 
+            <lb ed="#PV"/>istam duplentur <g ref="#slash"/>tunc stante 
+            <lb ed="#PV"/>isto casu intellectus iudicabit quia 
+            <lb ed="#PV"/>ista res sit <g ref="#dot"/><c>a</c><g ref="#dot"/> sit subduplata 
+            <lb ed="#PV"/>quia supponitur quod huiusmodi <choice><orig>sub<lb ed="#PV"/>duplacio</orig><reg>sub<lb ed="#PV"/>duplatio</reg></choice> 
+            aliarum rerum lateat
+            <!-- break -->
+            <lb ed="#PV"/>Alius casus subduplentur omnes 
+            <lb ed="#PV"/>aliae res ipsa non subduplatur 
+            <lb ed="#PV"/>quia iudicabitur duple quantitatis 
+            <lb ed="#PV"/>in ordine ad quantitatem secundum quam 
+            <lb ed="#PV"/>prius iudicabitur
+            <!-- break -->
+            3us casus 
+            <lb ed="#PV"/>ipsa duplata et similiter aliis eciam 
+            <lb ed="#PV"/>ipsa reputaretur aequalis sicut 
+            <lb ed="#PV"/>prius maneat ergo tantae quantitatis 
+            <lb ed="#PV"/>et aliae omnes subduplentum[?] tunc 
+            <lb ed="#PV"/>intellectus iudicabit <g ref="#dot"/><c>a</c><g ref="#dot"/> esse maius 
+            <lb ed="#PV"/>et subponitur quod semper lateat <choice><orig>du<lb ed="#PV"/>placio</orig><reg>du<lb ed="#PV"/>platio</reg></choice> 
+            vel <choice><orig>subduplacio</orig><reg>subduplatio</reg></choice> Etiam 
+            <lb ed="#PV"/>potest exemplificari de motu aug<lb ed="#PV"/>mentationis 
+            et motu locali 
+            <lb ed="#PV"/>ymmo de velocitate et tarditate 
+            <lb ed="#PV"/>ponamus quod omnes motus mundi 
+            <lb ed="#PV"/>veloci[?]r[?] insensibiliter apud me 
+            <lb ed="#PV"/>staret quod <name ref="#Sortes">sortem</name> iudicaret vixisse 
+            <cb ed="#PV" n="13va"/><lb ed="#PV"/>per valde modicum tempus et 
+            <lb ed="#PV"/>tamen vixisset per valde magnum 
+            <lb ed="#PV"/>tempus
+            <!-- break -->
+            tt sicut nunc fit per <choice><orig>yma<lb ed="#PV"/>ginationem</orig><reg>ima<lb ed="#PV"/>ginationem</reg></choice> 
+            una <choice><orig>revolucio</orig><reg>revolutio</reg></choice> fieret 
+            <lb ed="#PV"/>semper centum revolutiones vel 
+            <lb ed="#PV"/>ponatur quod retardaretur et sic potest 
+            <lb ed="#PV"/>salvari per homines diutius vive<lb ed="#PV"/>rent 
+            per talem velocitatem motus 
+            <lb ed="#PV"/>caeli quia melius conservaretis 
+            <lb ed="#PV"/>et potest iuxta illud dici de <choice><orig>peryodis</orig><reg>periodis</reg></choice> 
+            <lb ed="#PV"/>et sicut potest salvari quod aliqui fuerunt 
+            <lb ed="#PV"/>velociores et hoc per retardationem 
+            <lb ed="#PV"/>motuum et quod fuerunt melius com<lb ed="#PV"/>plexionati 
+            propter velocitatem motuum 
+            <lb ed="#PV"/>caeli et sicut intellectus potest infinitis mo<lb ed="#PV"/>dis 
+            falli et indiget quadam credulitate
+            <!-- break -->
+            Ex praedictis patet de in<lb ed="#PV"/>firmitate 
+            humani intellectus et postea vide<lb ed="#PV"/>bitur 
+            de anima
+          </p>
+        </div>
+        <div xml:id="ppr-l8-Dd1e5038">
+          <head xml:id="ppr-l8-Hd1e5040">Circa textum</head>
+          <p xml:id="ppr-l8-d1e5043">
+            Circa textum patrem 
+            <lb ed="#PV"/>posset generare filium et filium non posse 
+            <lb ed="#PV"/>generare non dicit aliquam perfectionem 
+            <lb ed="#PV"/>in patre vel aliquam perfectionem in fi<lb ed="#PV"/>lio 
+            quia filius est tota <choice><orig>perfeccio</orig><reg>perfectio</reg></choice> 
+            <lb ed="#PV"/>quae est patre Unde generare fi<lb ed="#PV"/>lium 
+            est proprietas personalis et ista 
+            <lb ed="#PV"/><choice><orig>nichil</orig><reg>nihil</reg></choice> perfectionis super addit
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

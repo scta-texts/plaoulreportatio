@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 17, De fide [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 17, De fide [Palatine Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="23-r"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio17">
+        <head xml:id="ppr-l17-Hd1e3723">Lectio 17, De Fide [Palatine Transcription]</head>
+        <div xml:id="ppr-l17-Dd1e3726">
+          <head xml:id="ppr-l17-Hqdsste">[Quomodo Deus subiectum theologiae est]</head>
+          <p xml:id="ppr-l17-seqshs">
+            <lb ed="#PV"/>In illa lectione
+            <lb ed="#PV"/>Dictum est prius quod deus est 
+            <lb ed="#PV"/>subiectum theologiae sub quadam 
+            <lb ed="#PV"/>ratione secundum quam potest elici immediate 
+            <lb ed="#PV"/>iudicium quod deus est universaliter perfectus 
+            <lb ed="#PV"/>et hoc potest contingere temporaliter<!-- tripliciter --> vel quia
+            <pb ed="#PV" n="23-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>conceptus quem habemus de deo 
+            <lb ed="#PV"/>est complexus quod est <choice><orig>inmensae</orig><reg>immensae</reg></choice> 
+            <lb ed="#PV"/>perfectionis vel est <sic>connotativus</sic> 
+            <lb ed="#PV"/>vel quia de natura sua sic pri<lb ed="#PV"/>marie 
+            est existens <unclear>simplicis</unclear>
+          </p>
+        </div>
+        <div xml:id="ppr-l17-Dd1e3777">
+          <head xml:id="ppr-l17-Hdpddpd">[De praedicatis Dei]</head>
+          <p xml:id="ppr-l17-ueacnc">
+            ubi
+            <lb ed="#PV"/>advertendum quod deus nisi a se 
+            <lb ed="#PV"/>ipso est comprehensibilis et ideo 
+            <lb ed="#PV"/>non est aliquis conceptus 
+            <lb ed="#PV"/>nobis possibilis adaequate et suf<lb ed="#PV"/>ficienter 
+            simpliciter deum repraesentans 
+            <lb ed="#PV"/>sed praedicata <unclear>creaturis</unclear> attributa 
+            <lb ed="#PV"/>nobis nota ad ipsam transfe<lb ed="#PV"/>remus 
+            per quandam similitudinem 
+            <lb ed="#PV"/>scilicet quia videmus creaturam 
+            <lb ed="#PV"/>esse attribuimus deo et sic intelligere 
+            <lb ed="#PV"/>et velle et aliis praedicatis perfectio<lb ed="#PV"/>nalibus 
+            attributis creaturis et 
+            <lb ed="#PV"/>hoc est propter penuriam prae<lb ed="#PV"/>dicatorum 
+            deo propter conpetentium 
+            <lb ed="#PV"/>Advertendum quod aliqua praedicata 
+            <lb ed="#PV"/>dicunt perfectionem simpliciter et alia per<lb ed="#PV"/>fectionem 
+            limitatam scilicet mixtam 
+            <lb ed="#PV"/>cum <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> unde <name><unclear>anshelmus</unclear></name> 
+            <lb ed="#PV"/>perfectum simpliciter dicitur quod est 
+            <lb ed="#PV"/>melius ipsum quam non ipsum 
+            <lb ed="#PV"/>Et <unclear>expraemitur</unclear> sic negando quod perfectionem 
+            <lb ed="#PV"/>simpliciter vocat denominationem perfectionis 
+            <lb ed="#PV"/>simpliciter
+           <!-- probably some sort of homoteleuton here -->
+            Tunc intelligitur quod 
+            <lb ed="#PV"/>illud praedicatum dicitur perfectionale simpliciter 
+            <lb ed="#PV"/>quod sic se habet quod eo ipso quod conpe<lb ed="#PV"/>tit 
+            alicui illud arguitur esse melius 
+            <lb ed="#PV"/>quam si non competeret vel arguitur 
+            <lb ed="#PV"/>quolibet alio esse melius cui 
+            <lb ed="#PV"/>non conpetit
+          </p>
+          <!-- reconsider break -->
+          <p xml:id="ppr-l17-vgetmp">
+            ut esse vivens 
+            <lb ed="#PV"/>est praedicatum perfectionale simpliciter 
+            <lb ed="#PV"/>quia etc Alia dicunt limita<lb ed="#PV"/>tam 
+            perfectionem scilicet speciei vel generis 
+            <lb ed="#PV"/>ut esse hominem esse animal
+            <!-- possible break point; corresponds to "advertendum est igitur quod huiusmodi" in other text -->
+            Adver<lb ed="#PV"/>tendum 
+            quod ipsa vocabula vel ista 
+            <lb ed="#PV"/>praedicata quae sic dicuntur de crea<lb ed="#PV"/>turis 
+            non dicuntur de deo nisi 
+            <lb ed="#PV"/>secundum quandam in propriam 
+            <lb ed="#PV"/>translationem supponitur pro praesenti et postea 
+            <lb ed="#PV"/>probabitur etc
+          </p>
+          <div xml:id="ppr-l17-Dd1e3894">
+            <head xml:id="ppr-l17-Hcdpfid">[Cur diversas praedicatas Dei sunt: contra aliqui ponentes formalitates in Deo]</head>
+            <p xml:id="ppr-l17-uhispc">
+              Ex isto consideratur 
+              <lb ed="#PV"/>limitatio ingenii et imperfectio 
+              <lb ed="#PV"/>et infinitas <choice><orig>in mensitatis</orig><reg>immensitatis</reg></choice> dei 
+              <cb ed="#PV" n="b"/> <!-- 23rb -->
+              <lb ed="#PV"/>In isto fundata est opinio forma<lb ed="#PV"/>litatum 
+              Nam deus existens 
+              <lb ed="#PV"/><choice><orig>ydempticus</orig><reg>identicus</reg></choice> idem ens etc quia 
+              <lb ed="#PV"/>non possumus uno conceptu 
+              <lb ed="#PV"/>concipere Ita crediderunt aliqui 
+              quod sicut est nobis <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> propter 
+              <lb ed="#PV"/>incomprehensibilatem divinae perfectionis 
+              <lb ed="#PV"/>uti variis vocabulis deo attri<lb ed="#PV"/>butis 
+              quod ita necessitas proveniat 
+              <lb ed="#PV"/>ex parte alicuius varietatis ex parte 
+              <lb ed="#PV"/>rei
+            </p>
+            <!-- odd break; something might be missing here -->
+            <p xml:id="ppr-l17-ebuipo">
+              sicut in modo concipiendi 
+              <lb ed="#PV"/>diversos habemus <sic>conceptos</sic> 
+              <lb ed="#PV"/>habentes <corr>ordinem<del>s</del></corr> scilicet ens id est unum 
+              <lb ed="#PV"/>et diversa praedicata etc ita <choice><orig>yma<lb ed="#PV"/>ginati</orig><reg>ima<lb ed="#PV"/>ginati</reg></choice> 
+              sunt quod realiter in 
+              <lb ed="#PV"/>deo ponendae sunt diversae 
+              <lb ed="#PV"/>formalitates videlicet alia forma<lb ed="#PV"/>litas 
+              intelligendi alia volendi etc
+            </p>
+            <p xml:id="ppr-l17-ipnfpf">
+              pro nunc dico quod ista <choice><orig>ymagina<lb ed="#PV"/>tio</orig><reg>imagina<lb ed="#PV"/>tio</reg></choice> non sit vera unde ipsi 
+              <lb ed="#PV"/>non invenerunt aliquem unum 
+              <lb ed="#PV"/>compositum totius immensitatis 
+              <lb ed="#PV"/>divinae expressivum Ideo posue<lb ed="#PV"/>runt 
+              formalitates ita quod hoc 
+              <lb ed="#PV"/>est fundamentum
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l17-Dd1e4011">
+          <head xml:id="ppr-l17-Hnpdnpd">[Nomen proprium Dei]</head>
+          <p xml:id="ppr-l17-eiiipl">
+            Sequitur 
+            <lb ed="#PV"/>quod omne nomen sine aequivocatione 
+            <lb ed="#PV"/>de deo dictum est omne et simpliciter 
+            <lb ed="#PV"/>singulare unde <name>wilhelmis parysi<lb ed="#PV"/>ensis</name> 
+            infert consequenter quod esse 
+            <lb ed="#PV"/>in primaria sermone est terminus singularis et infert hoc in <unclear>sin?</unclear> 
+            <title>de dei <unclear>nominali</unclear> magisterio</title> Et dicit 
+            <lb ed="#PV"/>ibidem quod esse in primaria 
+            <lb ed="#PV"/>sermone est terminus singularis 
+            <lb ed="#PV"/>et mere deo conveniens et intitu<lb ed="#PV"/>latur 
+            ille liber aliter <title>de trini<lb ed="#PV"/>tate</title> 
+            unde dicit quod quaelibet 
+            <lb ed="#PV"/>conceptus dei sibi proprius formali<lb ed="#PV"/>ter 
+            includit esse unde <choice><orig>ymagina<lb ed="#PV"/>tur</orig><reg>imagina<lb ed="#PV"/>tur</reg></choice> 
+            quod conceptus dei si debeat 
+            <lb ed="#PV"/>esse dei realiter et formaliter 
+            <lb ed="#PV"/>includit esse et existere cum ex<lb ed="#PV"/>clusione 
+            possibilitatis non existen<lb ed="#PV"/>di
+          </p>
+          <p xml:id="ppr-l17-eipeim">
+            Cum <name>moyses</name> interrogabat
+            <cb ed="#PV" n="24-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>Respondit <quote xml:id="ppr-l17-Qd1e4090" ana="#ex3_14">ego sum qui sum</quote> Nam 
+            <lb ed="#PV"/>hoc est sibi proprium dicit <name>wilhelm</name> 
+            <lb ed="#PV"/>Etiam <quote xml:id="ppr-l17-Qd1e4101" ana="#3_14">qui est misit me</quote> et sic 
+            <lb ed="#PV"/>ipsemet usus est isto vocabulo 
+            <lb ed="#PV"/>tamquam sibi proprio sic quod fuit 
+            <lb ed="#PV"/><unclear reason="blackedout">sibi proprium nomen connotans negationem <choice><orig>inperfectionis</orig><reg>imperfectionis</reg></choice> et affirma<lb ed="#PV"/>tionem 
+            actus pmoi[?] cum exclusione 
+            <lb ed="#PV"/>meliorationis</unclear>
+          </p>
+        </div>
+        <div xml:id="ppr-l17-Dd1e4125">
+          <head xml:id="ppr-l17-Hciseee">[Conclusio: in solo Deo est idem esse et essentia]</head>
+          <p xml:id="ppr-l17-ciqpip">
+            Sequitur 
+            <lb ed="#PV"/>quod in solo deo idem est esse et 
+            <lb ed="#PV"/>essentia secundum istum doctorem 
+            <lb ed="#PV"/>nomen solum ad rem sed etiam 
+            <lb ed="#PV"/>quem ad modum concipiendi sic 
+            <lb ed="#PV"/>quod non potest eius essentia concipi 
+            <lb ed="#PV"/>sine existentia <name ref="#Boethius">Boetius</name> 
+            <lb ed="#PV"/>in libro <title>de problematibus</title> tenet quod 
+            <lb ed="#PV"/>in creatis esse et essentia disting<lb ed="#PV"/>uuntur 
+            similiter <name>Sanctus thomas</name> 
+            et <name>wilhelm parisiensis</name>
+          </p>
+          <div xml:id="ppr-l17-Dd1e4165">
+            <head xml:id="ppr-l17-Hdmieed">[Duo modi imaginandi quod esse et essentia distinguuntur]</head>
+            <p xml:id="ppr-l17-elierd">
+              iste modus potest 
+              <lb ed="#PV"/>dupliciter <choice><orig>ymaginari</orig><reg>imaginari</reg></choice>
+            </p>
+            <p xml:id="ppr-l17-umetdf">
+              unus modus 
+              <lb ed="#PV"/>quod esse et essentia <corr><del>secundum istum doc<lb ed="#PV"/>torum 
+              rationem solum ad rem</del></corr> 
+              <lb ed="#PV"/>different ad modum quo ponuntur 
+              <lb ed="#PV"/>distinctiones formalitatum nam 
+              <lb ed="#PV"/>distinctio formalitatum non 
+              <lb ed="#PV"/>ponit distinctionem realem ut 
+              <lb ed="#PV"/>bonitas et sapientia in deo sunt 
+              <lb ed="#PV"/>idem secundum rem differunt tamen 
+              <lb ed="#PV"/>formaliter
+            </p>
+            <p xml:id="ppr-l17-amemii">
+              Alius modus <name>wilhelmi 
+              <lb ed="#PV"/>parisiensis</name> unde <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> 
+              quod creatura quantum est de se est 
+              <lb ed="#PV"/>omnino <unclear>fluxida</unclear> et insufficiens 
+              <lb ed="#PV"/>ad esse nostrum quod requirit 
+              <lb ed="#PV"/>quandam <unclear>in timitationem[?]</unclear> dei ma<lb ed="#PV"/>iorem 
+              quam sit formae ad materiam
+              <!-- possible break -->
+              <lb ed="#PV"/>Et <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod esse creaturae 
+              <lb ed="#PV"/>est deus sic quod creatura denominatur 
+              <lb ed="#PV"/>extrinsece esse a deo recte sicut 
+              <lb ed="#PV"/>cognitio denominat intellectum 
+              <lb ed="#PV"/>cognoscere ita <unclear>in timitas</unclear> et 
+              <lb ed="#PV"/>principalitas denominant creaturas 
+              <lb ed="#PV"/>esse
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l17-Dd1e4266">
+          <head xml:id="ppr-l17-Hndssga">[Notum de simplicitas omnis concepti Dei et de complexe significabili <name ref="#Rimini">Gregorii Ariminensis</name>]</head>
+          <p xml:id="ppr-l17-seqsup">
+            Sequitur quod omnis conceptus 
+            <lb ed="#PV"/>deo proprius <unclear>sit</unclear> esse et per consequens 
+            <lb ed="#PV"/>dato quod sit simplex realiter in se 
+            <!-- repeats for half column then pickus up below -->
+            <cb ed="#PV" n="b"/> <!--24rb -->
+            <lb ed="#PV"/>Respondet ego sum quia sum Nam 
+            <lb ed="#PV"/>hoc est sibi proprium dicit <name>wilhelm</name> 
+            <lb ed="#PV"/>Etiam qui est misit me et sic 
+            <lb ed="#PV"/>ipse met usus est isto vocabulo 
+            <lb ed="#PV"/>tamquam proprio <unclear>nomen</unclear> conno<lb ed="#PV"/>tans 
+            negationem inperfectionis 
+            <lb ed="#PV"/>et affirmationem actus <unclear>puri<lb ed="#PV"/>tum</unclear> 
+            exclusione meliorationis
+            <lb ed="#PV"/>Sequitur quod in solo deo idem 
+            <lb ed="#PV"/>est esse et essentia secundum istum 
+            <lb ed="#PV"/>doctorum nomen solum ad <corr><del>a</del>rem</corr> 
+            <lb ed="#PV"/>sed etiam quem ad modum con<lb ed="#PV"/>cipiendi 
+            sic <g ref="#dot"/> quod non potest eius
+            <!-- end of repeated section -->
+            <lb ed="#PV"/><g ref="#carrot"/>cum aequivalet conceptu <unclear>quodammodo</unclear> proportionali 
+            et sic 
+            <lb ed="#PV"/>potest <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod aliqua no<lb ed="#PV"/>titia 
+            est simplex et aequivalenter 
+            <lb ed="#PV"/>complexa si esset ad principium perfecte 
+            <lb ed="#PV"/>reputationis omnes veritates 
+            <lb ed="#PV"/>repraesentaret
+          </p>
+          <p xml:id="ppr-l17-dseief">
+            et sic subiectum theologiae omnes 
+            <lb ed="#PV"/>veritates repraesentat consideratas 
+            <lb ed="#PV"/>in theologia et sic potest vocari notitia 
+            <lb ed="#PV"/><unclear>kategorica yppothetica</unclear> affirmativa et negativa
+          </p>
+        </div>
+        <div xml:id="ppr-l17-Dd1e4373">
+          <head xml:id="ppr-l17-Husndst">[Utrum sit notitia contingens de subiecto theologiae?]</head>
+          <p xml:id="ppr-l17-uaspvf">
+            <lb ed="#PV"/>Sed utrum contingentes veritates repraesen<lb ed="#PV"/>tet 
+            est aliqua quaestio dicunt aliqui 
+            <lb ed="#PV"/>doctores quod in deo est contingentia 
+            <lb ed="#PV"/>sic quod est signum alicuius contingentis 
+            <lb ed="#PV"/>complexi veri et sic deus potest 
+            <lb ed="#PV"/><choice><orig>ymaginari</orig><reg>imaginari</reg></choice> propositio contingens aut 
+            <lb ed="#PV"/>contingenter deus est notitia 
+            <lb ed="#PV"/>huius antichristus erit et sic est 
+            <lb ed="#PV"/>contingens notitia per modum 
+            <lb ed="#PV"/>signi Et sic per modum propositionis 
+            <lb ed="#PV"/>posset concedi quod esset assensus 
+            <lb ed="#PV"/>respectu alicuius contingentis quia 
+            <lb ed="#PV"/>capitur <mentioned>contingens</mentioned> prout est differentia 
+            <lb ed="#PV"/>propositionis unde deus est iudicium alicuius respectu quod <del rend="strikethrough">non</del> 
+            <lb ed="#PV"/>potest fore vel non fore 
+            Cum hoc 
+            <lb ed="#PV"/>stat quod deus sit summa necessitas 
+            <lb ed="#PV"/>et quod in ea nulla sit contingentia 
+            prout immediate respicit res prout 
+            <lb ed="#PV"/>res distinguitur a signo
+            dico 
+            <lb ed="#PV"/>quod ille conceptus qui ponitur sub<lb ed="#PV"/>iectum 
+            theologiae apud nos non potest 
+            <lb ed="#PV"/>haberi nisi cum adiutorio 
+            <lb ed="#PV"/>luminis fidei et diligentia mag<lb ed="#PV"/>na 
+            quia in illo relucet divina 
+            <lb ed="#PV"/>bonitas et inclinat ille con<lb ed="#PV"/>ceptus 
+            ad maiorem cognitionem 
+            <lb ed="#PV"/>dei cuius conceptus carentia causa 
+            <lb ed="#PV"/>multorum errorum quia consequenter labimur 
+            <lb ed="#PV"/>in varios errores
+          </p>
+          <p xml:id="ppr-l17-eqspie">
+            quod <choice><orig>solicitu<lb ed="#PV"/>do</orig><reg>sollicitu<lb ed="#PV"/>do</reg></choice> 
+            debet adhiberi ad habendum 
+            <lb ed="#PV"/>huiusmodi conceptum et consequenter 
+            <lb ed="#PV"/>tutum est procedere per actus 
+            <lb ed="#PV"/>reflexos Et huiusmodi conceptus 
+            <lb ed="#PV"/><space extent="oneWordLength"/> ignorantia defecerunt 
+            <lb ed="#PV"/>philosophi et ceciderunt in errores 
+            <lb ed="#PV"/>varios Quidam posuerunt 
+            <lb ed="#PV"/>eum solum liberum libertate 
+            <lb ed="#PV"/>complacentiae et agere necessitate 
+            <lb ed="#PV"/><unclear>naturae</unclear> unde si concepisset 
+            <lb ed="#PV"/>ipsum simpliciter perfectum aliter iudi<lb ed="#PV"/>cassent 
+            de eo 
+            <!-- break -->
+            Sed ipsi non 
+            <lb ed="#PV"/>dixissent esse perfectionis simpliciter 
+            esse liberum libertate contradictionis 
+            <lb ed="#PV"/>sed esse rationabiliter limitatum secundum quod 
+            <lb ed="#PV"/>congruit naturae et universo
+          </p>
+          <p xml:id="ppr-l17-cchldi">
+            <lb ed="#PV"/>Et ideo <name>averrois</name> 12o <title>methaphysicae</title> 
+            <lb ed="#PV"/>negat ipsum ad extra se cognos<lb ed="#PV"/>cere 
+            unde si concepisset ipsum ut 
+            <lb ed="#PV"/>universaliter perfectum bene concepisset etc
+            <!-- break here -->
+            <lb ed="#PV"/>Epicurus et sui sequaces 
+            <lb ed="#PV"/>deficiunt qui dicunt deum 
+            <lb ed="#PV"/><choice><orig>nichil</orig><reg>nihil</reg></choice> curare quia dicunt 
+            <lb ed="#PV"/>licet cognoscat creaturas tamen 
+            <lb ed="#PV"/><choice><orig>nichil</orig><reg>nihil</reg></choice> curat quomodo regantur 
+            <lb ed="#PV"/>et si divinam providentiam cog<lb ed="#PV"/>novissent 
+            non negassent Et 
+            <lb ed="#PV"/>dixerunt omnia fieri secundum casum 
+            <lb ed="#PV"/>Et quod deus non irascitur 
+            <lb ed="#PV"/>de peccatis hominum et sic negant 
+            <lb ed="#PV"/>omnem divinam providentiam
+            <lb ed="#PV"/><name>Lactantius</name> fecit de deo contra <name>epicurus</name> 
+            unum librum et suos sequaces 
+            <lb ed="#PV"/>unde deus dicitur irasci quando disponit pro delictis
+          </p>
+          <p xml:id="ppr-l17-ceecds">
+            Notandum 
+            quod in <sic>nullo</sic> <title>de civitate dei</title> 
+            <lb ed="#PV"/>tractatur de contingentia et de 
+            <lb ed="#PV"/>facto 
+          </p>
+          <p xml:id="ppr-l17-uensep">
+            Notandum quod quanto conceptu 
+            <cb ed="#PV" n="b"/> <!-- 24vb -->
+            <lb ed="#PV"/>theologiae subiectum esset perfectior tan<lb ed="#PV"/>to 
+            ad plures conclusiones esset aptus
+          </p>
+          <!-- <p xml:id="ppr-l17-aespcm"> seems absent -->
+          <p xml:id="ppr-l17-sencfn">
+            <g ref="#pilcrow"/>Concessa divina omni<lb ed="#PV"/>potentia 
+            facile est inducere quod <sic>dei</sic> 
+            <lb ed="#PV"/>est quod potuit creare in mundum 
+            <lb ed="#PV"/>quia est <choice><orig>in mensa</orig><reg>immensa</reg></choice> illa potentia 
+            <lb ed="#PV"/>creatio mundi ille effectus est in 
+            <lb ed="#PV"/>infinitum minor
+            <!-- break -->
+            Item facile 
+            <lb ed="#PV"/>est inducere conversionem panis 
+            <lb ed="#PV"/>in corpus christi passionem christi 
+            <lb ed="#PV"/>in eius est resurrectionem habito con<lb ed="#PV"/>ceptu 
+            bono de deo omnes articuli sunt valde facilis adhae<lb ed="#PV"/>sionis 
+            scilicet habita <choice><orig>inmensitate</orig><reg>immensitate</reg></choice> 
+            <lb ed="#PV"/>suae potentiae Et si est illa po<lb ed="#PV"/>tentia 
+            mirabilis non mirum 
+            <lb ed="#PV"/>si habeat mirabiles proprieta<lb ed="#PV"/>tes 
+            et operationes
+          </p>
+          <p xml:id="ppr-l17-suqeip">
+            Sequitur 
+            <lb ed="#PV"/>error <unclear>manecii</unclear> ponentis unum 
+            <lb ed="#PV"/>principium contrarium deo scilicet unum 
+            <lb ed="#PV"/>principem lucis et alium tenebrarum 
+            <lb ed="#PV"/>vel unum principem malorum 
+            <lb ed="#PV"/>et alium bonorum unde si po<lb ed="#PV"/>suisset 
+            ipsum <choice><orig>in mensum</orig><reg>immensum</reg></choice> 
+            <lb ed="#PV"/>concessisset quod <choice><orig>nichil</orig><reg>nihil</reg></choice> posset sibi 
+            <lb ed="#PV"/>residere
+          </p>
+          <!-- <p xml:id="ppr-l17-ebdste"> seems missing -->
+        </div>
+        <div xml:id="ppr-l17-Dd1e4683">
+          <head xml:id="ppr-l17-Hd1e4685">Circa textum</head>
+          <p xml:id="ppr-l17-d1e4688">
+            Circa textum prima 
+            <lb ed="#PV"/>conclusio Spiritus sanctus 
+            <lb ed="#PV"/>non solum procedit a patre et 
+            <lb ed="#PV"/>filio temporaliter sed etiam a se ipso 
+            <lb ed="#PV"/>unde ista processio non est nisi 
+            <lb ed="#PV"/>quadam gratificatio et sic dicitur 
+            <lb ed="#PV"/>descendere non quia movetur 
+            <lb ed="#PV"/>sed quia sanctificatio creaturae 
+            <lb ed="#PV"/>est a spiritu sancto effective opera 
+            <lb ed="#PV"/><unclear>terniis</unclear> sunt ad extra indistincta
+          </p>
+          <p xml:id="ppr-l17-d1e4712">
+            <lb ed="#PV"/>2a conclusio filius fiat visibiliter mis<lb ed="#PV"/>sus 
+            et istam missionem <sic>operare</sic> 
+            <lb ed="#PV"/>sunt omnes tres personae ita 
+            <lb ed="#PV"/>quod est unio factus per totam 
+            <lb ed="#PV"/>trinitatem sed terminus unionis 
+            <lb ed="#PV"/>non est nisi unum et una persona 
+            <lb ed="#PV"/>et sic <sic>operare</sic> sunt ad filium 
+            <lb ed="#PV"/>voluerunt incarnari
+          </p>
+          <p xml:id="ppr-l17-d1e4738">
+            <choice><orig>3a</orig><reg>terta</reg></choice> conclusio
+            <pb ed="#PV" n="25-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>etiam filius <choice><orig>in visibiliter</orig><reg>invisibiliter</reg></choice> <g ref="#dot"/> 
+            <lb ed="#PV"/>mittitur ad bonum sensum quia 
+            <lb ed="#PV"/>sanctificat
+          </p>
+          <p xml:id="ppr-l17-d1e4766">
+            <choice><orig>4a</orig><reg>quarta</reg></choice> conclusio quod 
+            <lb ed="#PV"/>pater non propter hoc dicitur 
+            <lb ed="#PV"/>maior quia procedit filius et 
+            <lb ed="#PV"/>eemanat ab ipso quia filius pro<lb ed="#PV"/>cedendo 
+            et emanando capit 
+            <lb ed="#PV"/>totam perfectionem
+            conceditur tamen 
+            <lb ed="#PV"/>quod filius minor est patre videlicet secundum 
+            <lb ed="#PV"/>humanitatem unde christus met 
+            <lb ed="#PV"/>dicit quod pater maior me est 
+            <lb ed="#PV"/>secundum humanitatem
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

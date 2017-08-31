@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 9, de Fide [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 9, de Fide [Erlangen Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="11-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio9">
+        <head xml:id="ppr-l9-Hd1e3723">Lectio 9, de Fide [Erlangen Transcription]</head>
+        <div xml:id="ppr-l9-Dd1e3726">
+          <head xml:id="ppr-l9-Hrlprlp">[Recapitulatio lectionis praecedentis]</head>
+          <p xml:id="ppr-l9-seqcpt">
+            <lb ed="#E"/>Alia lectio 
+            <lb ed="#E"/>De quantitate continua dictum fuit quod non habemus aliquod medium concludendi quanta sit res prae<lb ed="#E"/>stie[?] 
+            nam quacumque data ipsam non esset nota nisi per aliam et alia per aliam et alia per 
+            <lb ed="#E"/>aliam sic quod solum cognoscimus quantitatem relative ad aliam et sic non possumus 
+            <lb ed="#E"/>concludere etc quia excessus potest esse imperceptibilis a nobis nec similiter erit chri?ma[?] da<lb ed="#E"/>ta 
+            nota simpliciter quia sic ipsa A[?] staret quod ipsa manens sub eadem quantitate a p?am[?] continue 
+            <lb ed="#E"/>decrescere
+          
+            Etiam staret quod augmentaretur usque ad mille duplum et tamen non iu<lb ed="#E"/>dicare 
+            <lb ed="#E"/>maior quam prius declarator illud per exempla primum ponamus quod omnes 
+            <lb ed="#E"/>aliae res crescant usque ad duplum ista remanente eadem ponantur divinis aliae 
+            <lb ed="#E"/>minime apparebit a continue maior quia ex quo omnis aliae res continue servabant ean<lb ed="#E"/>dem 
+            proportionem inter se non iudicabit intellectus quod augmentarentur
+          
+            Tertius casus ubi
+            <lb ed="#E"/>A continue augeretur et non apparet vel continue minueretur et non appareret universaliter 
+            
+            Si quantitas a data continue augeretur etc aliae continue augerentur Vel sua continue mi?<lb ed="#E"/>no?aretur 
+            et omnes aliae res etiam et sic staret quod digitus hominis continue augeretur et non 
+            <lb ed="#E"/>perciperetur patet quia non percipitur quantitas nisi in proportione ad aliam si ergo etc
+            
+            Et sicut posset concedi 
+            <lb ed="#E"/>quod homo potest augeri usque ad tantam distancaim sicut est caelum super nos et non perciperetur videlicet si 
+            <lb ed="#E"/>aliae res proportionaliter augerentur a deo et non laterent[latent?] 
+            Etiam non potest constaret quantitate 
+            <lb ed="#E"/>durationis quia potest ymaginari quod omnes motus velocitarentur Ita quod posset fieri 
+            <lb ed="#E"/>2ae revoluciones in spatio ymaginario quo fit modo una Unde si placeret dei[?] revo<lb ed="#E"/>luntati 
+            posset variari motus caelestes Et verisimilem est quod ita sic fatum quia fuit val<lb ed="#E"/>de 
+            multae v?tes[?] per <name>ptolemeum de motum ordine <choice><orig>spere</orig><reg>sphere</reg></choice></name> Quia vidit primo quod in 100 annis 
+            <lb ed="#E"/>non movebatur nec uno gradu et post ea invenit quod plus et sic dicit eciam de quibusdam 
+            <lb ed="#E"/>stellis et versimilem est quod desu hoc fecerat propter bonam et meliorem conservationem creaturae 
+            <lb ed="#E"/>Unde dabo eis celum[?] ferecum[?] id est non influens Unde dixit <name>magister petrus</name> Qui volotio<lb ed="#E"/>nes 
+            essent magis commentes et vegetabilia essent melioris dispositionis Unde 
+            <lb ed="#E"/>staret quod aliquis[?] vixisset cot[?] annos videlicet tot revolutionibus caeli et non tanto spatis 
+            <lb ed="#E"/>durationis ymaginario[?]
+          </p>
+          <!--
+          Not present
+          <div>
+            <head xml:id="ppr-l9-Hcercer">[conclusio ex recapitulatione]</head>
+            <p xml:id="ppr-l9-eiefhs"> doesn't seem present 
+          </div> -->
+        </div>
+        <div xml:id="ppr-l9-Dd1e3968">
+          <head xml:id="ppr-l9-Hpipipi">[Plures infirmitates]</head>
+          <p xml:id="ppr-l9-pisiid"> 
+            Item notandum quod praeter infirmitates alias tactus est 
+            <lb ed="#E"/>alia scilicet de modis tempta[?]o
+          </p>
+          <p xml:id="ppr-l9-eetsiv">
+            Etiam curisitas quae vocatur quadam adhaesio ad 
+            <lb ed="#E"/>varitates[?] inpertinentes ultimatae perfectionis Hic est advertendum ad intencionem <name>wilhelmi 
+            <lb ed="#E"/>parisiensis</name> quod intellectus habet primam veritatem tamquam suam sponsam et omnis alia veritas 
+            <lb ed="#E"/>solum est amplexanda in ordine ad illam primam veritatem alias[?] non perficit debite 
+            <lb ed="#E"/>intellectum Et si non referat[?] ad primam tunc est fornicatio spiritualis ipsius ingenii
+          </p>
+        </div>
+        <div xml:id="ppr-l9-Dd1e4011">
+          <head xml:id="ppr-l9-Hdpdpdp">[Duae propositiones]</head>
+          <p xml:id="ppr-l9-epiaca">
+            Prima propositio quod respectum temporalium non naturaliter cognoscibilium vero[?] respectu eritatum pollitice 
+            <lb ed="#E"/>ne?arum[?] esset uti fide quadam patet ??e[?] depressionis ipsius intellectus Etiam patet de me 
+            <lb ed="#E"/>dico qui credit puero ducenti propositioni[?] ergo ordo est quod oportet credere ubi est defectus patienciae 
+            <lb ed="#E"/>Etiam patet ex testimonio <name>aristotelis</name> in <title>perhermino</title> me??ce[?] <quote>Sicut oculus nocticoratis se habet</quote> etc
+          </p>
+          <p xml:id="ppr-l9-cimnei">
+            <pb ed="#E" n="12-r"/>
+            <lb ed="#E"/>Dico ulterius quod debilitate ingenii experimur extra naturam fidei patet incertis propositionibus geo<lb ed="#E"/>metris 
+            et sophismatibus ubi reperimur propositiones ita difficiles sicut est articulus trinitatis 
+            <lb ed="#E"/>ut in materia insolubili
+          
+            Unde de isto <name>sortes</name> dicit falsum supposito casu conuum[?] difficultas oritur 
+            <lb ed="#E"/>in[?] intellectum propter circulationem nam intellectus iudicando de veritate considerat obiectum 
+            <lb ed="#E"/>id est rem significatam et considerat qualiter se habet et qualiter propositio <choice><orig>enuncciat</orig><reg>enuntiat</reg></choice> et si sit debita proportio 
+            <lb ed="#E"/>rei ad modum enuntiandi propositionis propositio dicitur vera et si non falsa modo si velim con<lb ed="#E"/>siderare 
+            de praedicta propositione nccum[?] sit vera oportet reverti ad propositionem et sic intellectus non habet 
+            <lb ed="#E"/>modum inposciendi[?] an illa propria sit vera vel falsa  <g ref="#dbslash"/> Propositio
+          </p>
+        </div>
+        <div xml:id="ppr-l9-Dd1e4120">
+          <head xml:id="ppr-l9-Hapapap">[Aliquae propositiones]</head>
+          <!-- <p xml:id="ppr-l9-edeaap"> doesn't seem present -->
+          <p xml:id="ppr-l9-peqsdd">
+            Stat quod <name>sortes</name> non <corr><del>potest</del><add place="marginRight">post?r[?]</add></corr> haec 
+            <lb ed="#E"/>nisi fidem de propositione scita aplone[?] Nam capiamus unam quam excedit totam latitudinem scibi<lb ed="#E"/>lium 
+            ab ipso <name>sorte</name> et sit <name>plato</name> nobilioris ingenii tunc patet propositio quia si <choice><orig>noticiam</orig><reg>notitiam</reg></choice> illius debet 
+            <lb ed="#E"/>habere indiget fide vel si assensum illius debet habere
+            
+            Sequitur quod multae propositiones sunt demonstrabiles 
+            <lb ed="#E"/>angelo vel homini complexinato[?] quae non caperentur a comminu[?] homine nec fide et ergo in 
+            <lb ed="#E"/>mreum[?] si solum de deo habeamus notitiam per fidem
+                    
+            Sequitur quod in vita pollittica sunt 
+            <lb ed="#E"/>aliquae propositiones ad quas quis obligatur et tamen non potest pervenire ad intelligendum eas
+          </p>
+          <p xml:id="ppr-l9-suqads">
+            <lb ed="#E"/>Sequitur quod in regiminibus <sic>polliccitis</sic> periculosum est inniti iudicio humano Sequitur quod maxime apud 
+            <lb ed="#E"/>polliccicos consulenda est theologia di?cus[?] acquisita seu sacra scriptura patet quia illam 
+            <lb ed="#E"/>nittitur[?] iudicio infallibili patet quia ipsa bene resoluta continet quidquid admo?us[?] spectat 
+            
+            <lb ed="#E"/>Unde <name ref="#Anselm">acelinus</name> et <name>augustinus</name> omnes virtutes expresse sunt in sacra scriptura
+          </p>
+          <p xml:id="ppr-l9-suqetc">
+            Sequitur non 
+            <lb ed="#E"/>est licitum modis inniti legibus romanorum saltim quo a donis quia in aliquibus innituntur 
+            <lb ed="#E"/>debili fundamento quia aliquis leges cenuerunt per vim quod est verisimiliter
+          </p>
+          <p xml:id="ppr-l9-stqfad">
+            Sequitur quod magibilibus[?] 
+            <lb ed="#E"/>omnibus suae tangentibus regimen plurimum sine unius etc invocari debet divinum auxilium et istud non 
+            <lb ed="#E"/>permitteret hominem deviare saltem in credendis[?] necessariis ad salutem
+          </p>
+          <p xml:id="ppr-l9-suqeoc">
+            Sequitur quod formido veri<lb ed="#E"/>tatis 
+            opinative est effectus culpae originalis
+          </p>
+          <p xml:id="ppr-l9-suqnhl">
+            Sequitur quod omnis sophisticato[?] eset effectus culpae origi<lb ed="#E"/>nalis
+            
+            Sequitur quod omnis error est effectus etc Sequitur quod si status innocenciae mansisset nulla fuisset 
+            <lb ed="#E"/>inter homines sophisti?o[?]
+          </p>
+          <p xml:id="ppr-l9-seqnff">
+            Item nulla fuisset opinionum contrarietas ymmo nulla fuisset opinio 
+            <lb ed="#E"/>causa quia opinio est semper cum formidine
+          </p>
+          <p xml:id="ppr-l9-suqhne">
+            Sequitur quod nulla fuisset ratio probabilis ca?do sicut cne[?] 
+            <lb ed="#E"/>de modo cognoscendi possemus ymaginari in statu <choice><orig>innocenciae</orig><reg>innocentiae</reg></choice> quod respectu cuiuscumque veritatis 
+            <lb ed="#E"/>quantum consideraret habere evidenciam nisi de credibilibus per fidem
+          </p>
+          <div xml:id="ppr-l9-Dd1e4367">
+            <head xml:id="ppr-l9-Hoauper">[Obiecto ad ultimam propositionem et responsiones]</head>
+            <p xml:id="ppr-l9-stdcsd">
+              Sed contra cognovisset a dum[?] 
+              <lb ed="#E"/>omnia respondere negando consequentiam Unus modus cognoscendi quod quaelibet veritas quantum 
+              <lb ed="#E"/>est de se est immediate cognoscibilis patet de eo[?] ita quod non est essentialis ordo pu?a[?] sed solum 
+              <lb ed="#E"/>ex def?[?] personae quod notitia conclusionum dependet ex <choice><orig>noticia</orig><reg>notitia</reg></choice> pu?orum[?] ergo probabile est 
+              <lb ed="#E"/>quod <name>adam</name> habuit habitum per quem potuit exire ni?te[?] ad cognoscendum veritas ita<lb ed="#E"/>que 
+              respectu cuiuscumque sibi occurrentis habuit assensum ex suo habitur[?]
+              <!-- possible break point; parallel to section starting with "Aliae autem" -->
+              Alius modus diceretur quod 
+              <lb ed="#E"/>Adam quantum ad illa quae exant adderorem[?] sui status ipse habuit notitiam
+            </p>
+            <p xml:id="ppr-l9-scseec">
+              Contra si <name>adam</name> 
+              <lb ed="#E"/>non habuit omnium veritatum noticiam ergo aliqua veritas fuit omnino sibi ignota et quam 
+              <lb ed="#E"/>non potuit habere si ergo proposita fuisset potuisset fecisse rationem pro et contra et per consequens habuisset 
+              <lb ed="#E"/>opinionem
+            </p>
+            <p xml:id="ppr-l9-ruedss">
+              Responsio v[?] in isto casu habuit certam latitudinem veritatum et quod respectu 
+              <lb ed="#E"/>cuiuscumque illarum potuit in actum assendi vel cognoscendi et respectu aliarum sic se habuit quod 
+              <lb ed="#E"/>infinite sibi latuerunt in hoc gaudebat Sed proportio est de beato qui infirmitas veritates 
+              <lb ed="#E"/>habet et cognoscit quod in deo multae veritates quas non pater habere[?] in hoc g?det[?] quia cognoscit 
+              <pb ed="#E" n="12-v"/>
+              <lb ed="#E"/>se habere talem deum et sic de adam quia cognovit quod tales non fuerunt de sua perfectione
+            </p>
+            <p xml:id="ppr-l9-srpivi">
+              <lb ed="#E"/>Alia responsio quod etiam respectu cuiuslibet veritatis quia non pono lumen actuale sed habituale 
+              <lb ed="#E"/>et sic omnem veritatem potuisset cognovisse si sibi occurasset exceptis illis quas 
+              <lb ed="#E"/>habuit ex fide
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l9-Dd1e4520">
+          <head xml:id="ppr-l9-Hd1e4522">Circa Textum</head>
+          <p xml:id="ppr-l9-d1e4525">
+            Circa textum conclusio deus proprie dicitur esse Advertendum 2m quod dicit <name ref="#Boethius">Bo</name> 
+            7o[?] <title>de consolatio</title> aliud durare aeternaliter et aliud temporaliter[?] Unde dato quod mundus semper fo<lb ed="#E"/>ret 
+            et semper d?et[?] non vecaretur[?] propter hoc aeterno Unde illa res dicitur aeterna 
+            <lb ed="#E"/>quae est et taliter est quod suum fore non potest seperari id est ne? abesse Ita quod sicut est ita erit ita 
+            <lb ed="#E"/><choice><orig>inpossibile</orig><reg>impossibile</reg></choice> est unum separari ab alio[?] scilicet quod <choice><orig>inpossibile</orig><reg>impossibile</reg></choice> est quod non est et non erit vel quod[?] est et non fuerit 
+            <lb ed="#E"/>vel erit et non fuit vel fuit et non erit Sed illa res est successiva vel temporalis vel di??lis[?] 
+            <lb ed="#E"/>quae sic se habet quod esse cuius potest separari a fore scilicet per verificationem et si non potest tunc illa duratio 
+            <lb ed="#E"/>vocaretur aeternitas unde circa istud ymaginemur unam lineam infinitam nullo cuius 
+            <lb ed="#E"/>puncto corruptae confluere ad unum <corr>p<del>i</del><add>u</add>ctum</corr> Et quod ista ymaginatio posset stare patet quia 
+            <lb ed="#E"/>quasi simile ymaginamur de corpere christi quia in quo libet puncto totum corpus et 
+            <lb ed="#E"/>sic de trinitate quia sicut suum esse est suum fuisse et non potest unum separari ab alio 
+            <lb ed="#E"/>Aliter potest dici quod aeternitas est duratio alicuius rei actualissime cui repungant aliud 
+            <lb ed="#E"/>non habere quod dicat perfectionem Sic quod una perfectio sic se habens quod <choice><orig>nichil</orig><reg>nihil</reg></choice> perfectionis 
+            <lb ed="#E"/>potest acquirere vel deperdere Alia conclusio deus est innumberabilis et inmobilis sequitur 
+            <lb ed="#E"/>ex dictis quod sic <choice><orig>eciam</orig><reg>etiam</reg></choice> aliud potest aliud perdere et non haberet totam suam perfectionem simul
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

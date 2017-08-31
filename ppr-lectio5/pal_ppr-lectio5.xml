@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 5, de Fide [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>A SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+            <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-03-25" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="7-r"/><cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio5">
+        <head xml:id="ppr-l5-Hd1e3722">Lectio 5, de Fide [Palatine Transcription]</head>
+        <div xml:id="ppr-l5-Dd1e3725">
+          <head xml:id="ppr-l5-Hprpier"><supplied>Plus rationes pro secunda instantia et responsiones</supplied></head>
+          <div xml:id="ppr-l5-Dd1e3731">
+            <head xml:id="ppr-l5-Htrtrtr"><supplied>Tres rationes</supplied></head>
+            <p xml:id="ppr-l5-caqsef">
+              <lb ed="#PV"/><hi rend="largeFont">In alia lectione</hi> 
+              <lb ed="#PV"/>Tanta est rectitudo fidei quod non 
+              <lb ed="#PV"/>contingit aliquem per cuius assensum 
+              <lb ed="#PV"/>decipi <choice><orig>ymmo</orig><reg>immo</reg></choice> quilibet talis est 
+              <lb ed="#PV"/>in moralis veritatis <choice><orig>ymmo</orig><reg>immo</reg></choice> <choice><orig>neccessarius</orig><reg>necessarius</reg></choice> 
+              <lb ed="#PV"/>licet sit respectu futuri contingentis 
+              <lb ed="#PV"/>propter cuius necessariam 
+              <lb ed="#PV"/>habitudinem ipsius
+            </p>
+            <p xml:id="ppr-l5-psppim">
+              <lb ed="#PV"/>ad primam 
+              <lb ed="#PV"/>veritatem <name rend="#Abraham">Abraham</name> credi<lb ed="#PV"/>dit 
+              quod verbum dei Incarnabitur 
+              <lb ed="#PV"/>quia dicit <name ref="#Abraham">abraham</name> Exulta<lb ed="#PV"/>vit 
+              ut videret diem[?] meum 
+              <lb ed="#PV"/>vidit et gavisus[?] est tunc sic 
+              <lb ed="#PV"/><name ref="#Abraham">abraham</name> credidit ex <corr><del>videt</del></corr> 
+              <lb ed="#PV"/>fide quod christus incarnabitur 
+              <lb ed="#PV"/>ponamus quod christus non incar<lb ed="#PV"/>nabitur 
+              quia sicut dicit <name ref="#Augustine">augustinus</name> 
+              <lb ed="#PV"/>christus patuit aliter redimere 
+              <lb ed="#PV"/>prima pars est necessaria scilicet quod 
+              <lb ed="#PV"/><name ref="#Abraham">abraham</name> credidit etc quia 
+              <lb ed="#PV"/>transivit in praeteritum et secundam 
+              <lb ed="#PV"/>contingens et cum non incar<lb ed="#PV"/>nabitur 
+              igitur false credidit 
+              <lb ed="#PV"/>ergo fidei potest sub esse falsum
+              <!-- possible break -->
+              Item 
+              <lb ed="#PV"/>prius argumentum est 
+              <lb ed="#PV"/>de <choice><orig>ymolatione</orig><reg>immolatione</reg></choice> filii <name ref="#Abraham">abrahae</name> 
+              <lb ed="#PV"/>quia credidit filium suum esse 
+              <lb ed="#PV"/><choice><orig>ymolandum</orig><reg>immolandum</reg></choice> et non fuit <choice><orig>ymolandus</orig><reg>immolandus</reg></choice> 
+              <cb ed="#PV" n="7rb"/><lb ed="#PV"/>et credidit ex fide
+                <!-- possible break point -->
+              <g ref="#dbslash"/><choice><orig>3o</orig><reg>tertio</reg></choice> sic Item 
+              <corr><del>articulus</del><add place="marginRight">argumentum</add></corr> fuit spiritus sanctus qui 
+              <lb ed="#PV"/>est summe bonus de facto currit 
+              <lb ed="#PV"/>respectu erroris et respectu falsi 
+              <lb ed="#PV"/>et fides non est maioris rectitu<lb ed="#PV"/>dinis 
+              quam spiritus sanctus igitur 
+              <lb ed="#PV"/>antecedens patet quia si aliqua res 
+              positive producatur oportet quod spiritus sanctus 
+              <lb ed="#PV"/>concurrat 
+              <g ref="#slash"/>Item argutum fuit 
+              <lb ed="#PV"/>fides in <choice><orig>potencia</orig><reg>potentia</reg></choice> obedientali etc
+            </p>
+            <p xml:id="ppr-l5-usapce">
+              <lb ed="#PV"/>Arguitur aliter fides inclinat ad 
+              <lb ed="#PV"/>conformiter credendum praelato 
+              <lb ed="#PV"/>ecclesiae et deo et tamen prae<lb ed="#PV"/>latus 
+              potest decipere quia econverso 
+              <lb ed="#PV"/>potest decipi quia potest cedere 
+              <lb ed="#PV"/>quod pater in divinis esset maior 
+              <lb ed="#PV"/>et perfectior filio quia potest <corr><del>cre<lb ed="#PV"/>deret 
+              quod pater in divinis esset ma<lb ed="#PV"/>ior 
+              et</del></corr> producere aliquem quem 
+              <lb ed="#PV"/>non filius et potest ulterius praedi<lb ed="#PV"/>care 
+              aliis et sic crederet sibi una 
+              <lb ed="#PV"/>vetula habens fidem infusam
+              <!-- possible break -->
+              <choice><orig>Eciam</orig><reg>Etiam</reg></choice> de ecclesia arguitur 
+              <lb ed="#PV"/>quod potest errare in communi carum[?] de 
+              <lb ed="#PV"/>meanim[?] ut si quis occultae con<lb ed="#PV"/>traheret 
+              cum aliqua et chris<lb ed="#PV"/>tum 
+              alia in facie eccleisae 
+              <lb ed="#PV"/>tunc eciam ecclesia cum compellit 
+              <lb ed="#PV"/>stare cum 2a <g ref="#slash"/> et tamen deberet 
+              staret cum prima
+            </p>
+            <p xml:id="ppr-l5-idpeli">
+              <g ref="#slash"/>Item de deo 
+              <lb ed="#PV"/>probatur quod potest decipere creaturam <g ref="#slash"/> 
+              <lb ed="#PV"/>quia potest facere quod non inplicat 
+              <lb ed="#PV"/>contradictionem <g ref="#slash"/>quia potest facere 
+              <lb ed="#PV"/>quod creatura assentiat falso <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+              <lb ed="#PV"/>hoc non videretur impli?letur curdic<lb ed="#PV"/>tionem 
+              <!-- possible break -->
+              Item <name ref="#Jeremiah">Ieremias</name> loquens de 
+              <lb ed="#PV"/>deo dicit decepisti me <g ref="#slash"/>Item 
+              <lb ed="#PV"/>christus finxit se comedere <g ref="#slash"/>et non com<lb ed="#PV"/>medit 
+              <g ref="#slash"/>quia non habuit cor<lb ed="#PV"/>pus christum[?] <choice><orig>commedere</orig><reg>comedere</reg></choice> <g ref="#slash"/>Quantum 
+              <lb ed="#PV"/>ad primum punctum ultimi argumenti 
+              <lb ed="#PV"/>de vetuala credente praelato in ista 
+              <lb ed="#PV"/>materia egregie loquitur <name ref="#WilliamOfAuxerre">wilhelmus 
+              <lb ed="#PV"/>anticiodoresnis</name> ponendo istam conclusionem 
+              <cb ed="#PV" n="7va"/>
+              <lb ed="#PV"/>sicut non potest facere aliquis contra 
+              caritatem quando peccet ita non potest 
+              <lb ed="#PV"/>cli[?] quis agere contra fidem 
+              <lb ed="#PV"/>quando peccet mortaliter et ergo 
+              <lb ed="#PV"/>in isto casu peccaverit mortaliter
+            </p>
+          </div>
+          <div xml:id="ppr-l5-Dd1e4045">
+            <head xml:id="ppr-l5-Hrrrrrr">
+              <supplied>Responsio</supplied>
+            </head>
+            <p xml:id="ppr-l5-iurdii">
+              <lb ed="#PV"/>Ad rationem respondent quod creatura 
+              <lb ed="#PV"/>rationalis habet multitudinem praelatorum 
+              <lb ed="#PV"/>primus et summus est deus 
+              <lb ed="#PV"/>continue assistens animae et ipsam 
+              <lb ed="#PV"/>dirigens et manens et conversum 
+              est ex parte sui illuminans
+              <!-- break ? -->
+              <g ref="#slash"/>Et dicit 
+              <lb ed="#PV"/>ulterius quod creaturae <choice><orig>in natum</orig><reg>innatum</reg></choice> 
+              <lb ed="#PV"/>est cognoscere deum <g ref="#slash"/>et ideo vetula 
+              <lb ed="#PV"/>si non sit inculpa <g ref="#slash"/>glorificat 
+              <lb ed="#PV"/>deum et deus illuminat eam <g ref="#slash"/>quia 
+              tanta est divina sollicitudo <g ref="#slash"/>quod 
+              <lb ed="#PV"/>non permittit demare et seu non 
+              <lb ed="#PV"/>credit <g ref="#slash"/>et si crederet non ex fide 
+              <lb ed="#PV"/>et hoc deo illuminante <g ref="#slash"/>et sic in 
+              <lb ed="#PV"/>isto casu non crederet suo prae<lb ed="#PV"/>lato 
+              et sic dicit <name ref="#Paul">apostolus</name> si an<lb ed="#PV"/>gelus 
+              de caelo aliud dogma<lb ed="#PV"/>tisaret 
+              scilicet a fide scilicet[?] deffensum fi<lb ed="#PV"/>dei 
+              anathema <g ref="#slash"/>sit de ecclesia 
+              <lb ed="#PV"/>in casu posito dicitur <g ref="#slash"/>quod ecclesia 
+              <lb ed="#PV"/>in suo regimine habet aliqua quae 
+              <lb ed="#PV"/>sunt mere spiritualia Alia quae 
+              <lb ed="#PV"/>sunt <choice><orig>pollitica</orig><reg>politica</reg></choice> et alia 
+              <lb ed="#PV"/>quae sunt mixta
+            </p>
+            <p xml:id="ppr-l5-qediis">Quantum 
+              <lb ed="#PV"/>ad prima quae tangunt fidem 
+              <lb ed="#PV"/>et illa quae tangunt salutem 
+              <lb ed="#PV"/>ipsa non potest errare quia dirigitur 
+              <lb ed="#PV"/>a spiritu sancto et vivificans <g ref="#slash"/> Si 
+              <lb ed="#PV"/>vero factum sit <choice><orig>polliticum</orig><reg>politicum</reg></choice> ipsa 
+              <lb ed="#PV"/>unit[?] quodammodo <choice><orig>pollitice</orig><reg>politice</reg></choice> et potest 
+              <lb ed="#PV"/>errare de mixtis 
+              <lb ed="#PV"/>dico quod ex<lb ed="#PV"/>communicatione 
+              pono aliquod spirituale 
+              <lb ed="#PV"/><corr><del>cone</del></corr> etiam ad hoc non spirituale 
+              <lb ed="#PV"/>quantum ad influxionem <choice><orig>penae</orig><reg>poenae</reg></choice> 
+              ad extra factum ecclesiae est quodammodo 
+              <lb ed="#PV"/>politicum sed quantum ad interi<lb ed="#PV"/>ora 
+              est spirituale Etiam non potest er<lb ed="#PV"/>rare 
+              quantum ad illa quae con<lb ed="#PV"/>siderat 
+              statum <corr><del rend="strikethrough">hominis</del></corr> spiritualem 
+              <lb ed="#PV"/>hominis
+            </p>
+            <p xml:id="ppr-l5-qedehd">
+              <lb ed="#PV"/>Quantum est de erro<lb ed="#PV"/>re 
+              consilii generalis quantum ad 
+              <cb ed="#PV" n="7vb"/><lb ed="#PV"/>spiritualia non potest errare et si ad 
+              <lb ed="#PV"/>tempore erraret deus provideret 
+              <lb ed="#PV"/>quod semper veritas crederetur fidei 
+              <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> licet esset omnes infi<lb ed="#PV"/>deles 
+              propheta erat vellent nol<lb ed="#PV"/>lent 
+              veritatem <!-- dbcheck line break -->
+              <lb ed="#PV"/>unde alias in concilio generali 
+              <lb ed="#PV"/>quodammodo papa et omnes 
+              <lb ed="#PV"/>erraverunt excepto uno 
+              <lb ed="#PV"/>scilicet <name>hylario</name> qui quasi erat 
+              <lb ed="#PV"/>moris reputationi inter omnes 
+              <lb ed="#PV"/>et tandem venit ad conspectum 
+              <lb ed="#PV"/>collegii papae in praesentia papae 
+              <lb ed="#PV"/>et pependit mantellum super 
+              <lb ed="#PV"/>super radium solarem ex mira<lb ed="#PV"/>culo 
+              quod deus super ipsum fecit 
+              <lb ed="#PV"/>ad reducendum ecclesiam ad veritatem 
+              <lb ed="#PV"/>fidei
+            </p>
+            <!-- appears missing  <p xml:id="l5-sdqdie"> -->
+            <p xml:id="ppr-l5-qatafc">
+              Quantum ad tertium utrum 
+              <lb ed="#PV"/>deus potest decipere creaturam unde 
+              <lb ed="#PV"/>quiddam omnipotens causa cum sit cum nec 
+              <lb ed="#PV"/>mentiri nec fallere posset et sic dicitur 
+              quod non probatur quia sicut 
+              <lb ed="#PV"/>suae bonitati <choice><orig>in mensae</orig><reg>immensae</reg></choice> repugnat 
+              <lb ed="#PV"/>facere creaturam
+            </p>
+            <p xml:id="ppr-l5-sadpnd">
+              Et si arguitur quia deus 
+              <lb ed="#PV"/>de facto concurrit ad errorem ergo 
+              <lb ed="#PV"/>decipit consequentia non valet quia non 
+              <lb ed="#PV"/>sequitur deus produceret cursum 
+              <lb ed="#PV"/>ergo currit vel facit comedere 
+              ergo comedit sic non sequitur 
+              <lb ed="#PV"/>in proposito
+            </p>
+          </div>
+          <div xml:id="ppr-l5-Dd1e4299">
+            <head xml:id="ppr-l5-Harpier">[Alia ratio pro secunda instantia et responsio]</head>
+            <p xml:id="ppr-l5-strvaf">
+              <!-- also contains <p xml:id="l5-reqdnf"> and <p xml:id="l5-ipupad">-->
+              Sed dubitatur utrum 
+              <lb ed="#PV"/>posset se solo producere 
+              <lb ed="#PV"/>errorem nulla alia creatura concurrente teneo 
+              <lb ed="#PV"/>quod non quia si sic <choice><orig>eciam</orig><reg>etiam</reg></choice> deciperet Alia 
+              <lb ed="#PV"/>difficultas quaeritur utrum deus pos<lb ed="#PV"/>sit 
+              se solo causare assensum de 
+              <lb ed="#PV"/>futuro contingenti quem producet 
+              <lb ed="#PV"/>ratio probabilis dicitur probabiliter 
+              <lb ed="#PV"/>quod non vel saltem est sustinibile 
+              <choice><orig>ymmo</orig><reg>immo</reg></choice> nec assensum verum respectu 
+              <lb ed="#PV"/>futuri contingentis scilicet eiusdem speciei cum 
+              <lb ed="#PV"/>assensu producto a ratione probabili
+              <lb ed="#PV"/>sic ita quod deus se solo causet 
+              <lb ed="#PV"/>in <name ref="#Sortes">sorte</name> talem assensum et tran<lb ed="#PV"/>siverit 
+              in praeteritum tunc <choice><orig>neccesse</orig><reg>necesse</reg></choice> 
+              <lb ed="#PV"/>est quod causaverit et supponitur 
+              <cb ed="#PV" n="8ra"/><lb ed="#PV"/>quod non sit de assensibus fidei et 
+              <lb ed="#PV"/>supponitur quod assensus respectu istius 
+              <lb ed="#PV"/>antichristus erit tunc <g ref="#slash"/>sic iste as<lb ed="#PV"/>sentit 
+              quod antichristus ponamus 
+              <lb ed="#PV"/>tunc secundam scilicet illam antichristus 
+              <lb ed="#PV"/>iam non erit tunc sic iste 
+              <lb ed="#PV"/>assentit quod antichristus erit et 
+              <lb ed="#PV"/>antichristus non erit et ille assensus 
+              <lb ed="#PV"/>est et solo deo causatus ergo 
+              <lb ed="#PV"/>dicitur creaturam
+            </p>
+            <p xml:id="ppr-l5-trechd">
+              Tunc respondetur 
+              <lb ed="#PV"/>ad aliquas rationes quod in ista lectione 
+              <lb ed="#PV"/>et etiam in lectione <choice><orig>in mediate</orig><reg>immediate</reg></choice> 
+              <lb ed="#PV"/>praecedente primo ad auctoritatem 
+              <lb ed="#PV"/><name ref="#Jeremiah">Ieremiae</name> dicentem <quote xml:id="ppr-l5-Qd1e4405">domine decepisti</quote> etc 
+              Respondetur quod uno modo quod ipse <name>Ieremias</name> 
+              <lb ed="#PV"/>non loquitur in persona propria 
+              <lb ed="#PV"/>sed in persona <name>zephat</name> loquentis 
+              <lb ed="#PV"/>nugaciter et false Aliter exponitur 
+              <lb ed="#PV"/>quod intelligebatur quantum 
+              ad opinionem populi quod populus credebat 
+              <lb ed="#PV"/>quod dominus deceperat <name>Ieremiam</name>
+            </p>
+            <p xml:id="ppr-l5-asassp">Ad aliam 
+              <lb ed="#PV"/>quando dicitur quod finxit se comedere et non com<lb ed="#PV"/>edit 
+              dicitur quod veraciter comedit 
+              <lb ed="#PV"/>licet cibus non fuerit conversus 
+              <lb ed="#PV"/>unde comestio non convertur[?] conver<lb ed="#PV"/>sionem 
+              cibi in alitum ita quod huiusmodi 
+              <lb ed="#PV"/>conversio non est de integritate 
+              <lb ed="#PV"/>comestionis Et dicitur quod postea 
+              <lb ed="#PV"/>panis vel cibus fuit resolu<lb ed="#PV"/>tus 
+              in materiam secundam quod sibi pla<lb ed="#PV"/>cuit
+            </p>
+            <p xml:id="ppr-l5-aaqica">
+              <!-- or <p xml:id="l5-aaqica"> -->
+              Quantum ad illud quando 
+              <lb ed="#PV"/>dixit <quote xml:id="ppr-l5-Qd1e4459">fixit se longius</quote> etc per 
+              <lb ed="#PV"/>hoc voluit duo innuere primo 
+              <lb ed="#PV"/>quod discipuli recedebant realiter 
+              <lb ed="#PV"/>ab eo scilicet quibus loquebatur
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l5-Dd1e4472">
+          <head xml:id="ppr-l5-Hrarpsi"><supplied>Responsio ad rationes pro secunda instantia</supplied></head>
+          <p xml:id="ppr-l5-trrrpf">
+            <lb ed="#PV"/>Ita quod ipsi dubitabant de eius re<lb ed="#PV"/>surrectione 
+            <choice><orig>2o</orig><reg>secundo</reg></choice> voluit innuere 
+            <lb ed="#PV"/>suam ascensionem Ad alias rationes 
+            <lb ed="#PV"/>prius factas</p> 
+          
+          <p xml:id="ppr-l5-apdiav">ad primam 
+            <lb ed="#PV"/>de spe Respondet <name ref="#WilliamOfAuxerre">anticiodorensis</name> quod 
+            <lb ed="#PV"/>fides et spes sint virtutes unde 
+            <lb ed="#PV"/>spes est sine praesumptione et 
+            <lb ed="#PV"/>ideo numquam inclinat absolute 
+            ad habendam vitam aeternam sed 
+            <lb ed="#PV"/>debet sic esse in universali si quis perse<lb ed="#PV"/>veraverit 
+            usque ad finem etc. 
+            <cb ed="#PV" n="8rb"/><lb ed="#PV"/>Et probabiliter de simplici si ego usque ad 
+            <lb ed="#PV"/>finem vice eo in gratia et sic habebo 
+            <lb ed="#PV"/>vicam aeternam etc sic decessero 
+            <lb ed="#PV"/>in gratia sic quod spes non est habitus 
+            <lb ed="#PV"/><choice><orig>kathegoricus</orig><reg>categoricus</reg></choice> sed condicionalis nec saltem sic 
+            <lb ed="#PV"/>facta a deo <choice><orig>revelacio</orig><reg>revelatio</reg></choice>
+          </p>
+          <p xml:id="ppr-l5-asreif">Ad aliam 
+            <lb ed="#PV"/>videlicet ad <choice><orig>2am</orig><reg>secundam</reg></choice> factam <choice><orig>in mediate</orig><reg>immediate</reg></choice> 
+            <lb ed="#PV"/>in quaestione praecedenti de receptione 
+            <lb ed="#PV"/>corporis christi Dicitur quod fides 
+            <lb ed="#PV"/>non inclinat ad credendum 
+            <lb ed="#PV"/>quod ibi sit corpus christi sed <corr><del>etiam</del></corr> ex 
+            <lb ed="#PV"/>suppositione scilicet si est vera <choice><orig>consecracio</orig><reg>consecratio</reg></choice> 
+            <name>petris</name> utrum esset ex credendo 
+            <lb ed="#PV"/><sic>katholice</sic> potest dici quod non red<lb ed="#PV"/>dit 
+            hominem multum culpabilem 
+            <lb ed="#PV"/>fides tamen numquam exiret 
+            <lb ed="#PV"/>in talem actum propter excellentiam 
+            <lb ed="#PV"/>eius</p>
+            
+          <p xml:id="ppr-l5-atdmip">
+            Ad <choice><orig>3m</orig><reg>tertium</reg></choice> de assensu ante in<lb ed="#PV"/>carnationem 
+            christi quia aliqui 
+            <lb ed="#PV"/>assentiebant isti christus incarnabitur 
+            <lb ed="#PV"/>et continuetur usque ad instans 
+            <lb ed="#PV"/>incarnationis tunc erit falsus 
+            <lb ed="#PV"/>Responditur distinguendo de huiusmodi 
+            <lb ed="#PV"/>assensu ratione temporis quia vel 
+            <lb ed="#PV"/>potest quod debebat praesciri 
+            <lb ed="#PV"/>a fidelibus illius temporis secundum 
+            <lb ed="#PV"/>descriptionem prophetarum quia 
+            <lb ed="#PV"/>erat descriptum appraehentis[?] licet 
+            <lb ed="#PV"/>non forte ita praecise si tempus multum 
+            <lb ed="#PV"/>distabat quod non patuit elici 
+            <lb ed="#PV"/>vel concludi ex dictis prophetarum 
+            <lb ed="#PV"/>fides inclinabat ad credendum 
+            <lb ed="#PV"/>quod christus incarnabitur sed proprie 
+            <lb ed="#PV"/>quando non potuit concludit quod non 
+            <lb ed="#PV"/>esset natus tunc debebat concludere 
+            ex fide castus est incar<lb ed="#PV"/>natus 
+            vel incarnabitur 
+            <lb ed="#PV"/>et sic assensuus fidei semper est verus
+            <lb ed="#PV"/>quia <choice><orig>quam diu</orig><reg>quamdiu</reg></choice> poterit con<lb ed="#PV"/>staret 
+            etc inclinabat etc et quando 
+            <lb ed="#PV"/>dicitur ponatur etc dicitur quod non 
+            <lb ed="#PV"/>est possibilis dicens[?] conservetur ille assensus dicitur 
+            <lb ed="#PV"/>quod ille assensus in tempore quo christus 
+            <lb ed="#PV"/>erat venturus et putaret con<lb ed="#PV"/>staret 
+            etc tunc inclinabat etc 
+            <lb ed="#PV"/>ad primum et consequenter ad illam 
+            <cb ed="#PV" n="8va"/>disiunctivam vel dicitur quod non est 
+            <lb ed="#PV"/>possibile illam conservari in esse assensus 
+            <lb ed="#PV"/>quia suae naturae repugnat
+          </p>
+        </div>
+        <div xml:id="ppr-l5-Dd1e4673">
+          <head xml:id="ppr-l5-Hd1e4675">Circa textum</head>
+          <p xml:id="ppr-l5-cthnep">
+            Circa texta 
+            <lb ed="#PV"/>haec est concedenda deus genuit 
+            <lb ed="#PV"/>deum patet in symbolo lumine de lumine 
+            <lb ed="#PV"/>deum verum de deo vero tamen non concedendum 
+            <lb ed="#PV"/>quod genuit se deum quia nulla 
+            <lb ed="#PV"/>res potest se ipsam generare quia oportet 
+            <lb ed="#PV"/>quod inter gignens et genitum sit 
+            <lb ed="#PV"/>differentia unde illa res potest generare 
+            <lb ed="#PV"/>se ut sit haec est neganda deus ge<lb ed="#PV"/>nuit 
+            deum qui est pater Ista est 
+            <lb ed="#PV"/>concedenda deus genuit deum qui 
+            <lb ed="#PV"/>non est pater
+          </p> 
+          <p xml:id="ppr-l5-nqcncv">
+            Nota <g ref="#dot"/> quod <name ref="#Chatton">cathon[?]</name> numquam 
+            <lb ed="#PV"/>respondet ad propositionem in materia trinitatis nisi 
+            <lb ed="#PV"/>fuerit resoluta dicit enim vel intelligit 
+            <lb ed="#PV"/>sic vel sic dixit <name>magister petrus</name> 
+            in hoc approbando <name>Magister</name> <title>sententiarum</title> dicit 
+            <lb ed="#PV"/>quod pater genuit filium natura unde pater 
+            <lb ed="#PV"/>genuit filium natura voluntate comitati 
+            <lb ed="#PV"/>unde si <choice><orig>ymaginemur</orig><reg>imaginemur</reg></choice> quod in divinis 
+            <lb ed="#PV"/>natura et voluntas debent realiter 
+            <lb ed="#PV"/>distincte Tunc pater diceret genera<lb ed="#PV"/>re 
+            filium natura seu secundum fecundi<lb ed="#PV"/>tatem 
+            suae natura et est in alia 
+            <lb ed="#PV"/>productio a voluntate concomitante 
+            <lb ed="#PV"/>natura ut si <choice><orig>ymaginaremur</orig><reg>imaginaremur</reg></choice> 
+            sicut prius et voluntas produceret amo<lb ed="#PV"/>rem 
+            concomitante natura ut sic per 
+            <lb ed="#PV"/>modum amoris producitur spiritus sanctus ab 
+            <lb ed="#PV"/>utroque et sic patet quod in divinis 
+            <lb ed="#PV"/>est duplex productio scilicet una a 
+            <lb ed="#PV"/>voluntate concomitante natura et alia 
+            <lb ed="#PV"/>a natura concomitante voluntate
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

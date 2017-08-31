@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 16, de Fide [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev-master">
+          <title>Lectio 16, de Fide [Erlangen Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="18-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio16">
+        <head xml:id="ppr-l16-Hd1e3723">Lectio 16, de Fide [Erlangen Transcription]</head>
+        <div xml:id="ppr-l16-Dd1e3726">
+          <head xml:id="ppr-l16-Hccfsps">[Conclusio: cum fide, lumen naturale in infinitum plures veritates potest pertingere quam se solo posset scientifice]</head>
+          <p xml:id="ppr-l16-seqsps">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>In quadam lectione fuit tactum quod <sic>vigori</sic> luminis fidei intellectus potest <unclear>in venire</unclear> modos 
+            <lb ed="#E"/>investigandi multo breviores quam sit communis modus Prima propositio quamvis fi<lb ed="#E"/>des 
+            sit cognitio aenigmatica vigore tamen sui luminis in infinitum plures virtutes 
+            <lb ed="#E"/>potest lumen naturale pertingere quam se solo scientifice
+          </p> 
+          <p xml:id="ppr-l16-ppcsag">
+            prima pars patet ex dictis apostoli 
+            <lb ed="#E"/>nam fides est non apparentium ergo de ratione fidei quod sit cognitio aenigmatica et hoc ex 
+            <lb ed="#E"/>pro visione divina ut per <unclear>causam</unclear> meremur quia non haberet meritum <unclear>vero</unclear> esset evidentia 
+            <lb ed="#E"/>secundum <name>gregorius</name>
+          </p>
+          <p xml:id="ppr-l16-spctnp">
+            Secunda pars patet nam se solo potest a pauca quia naturalis investigatio 
+            <lb ed="#E"/>non <unclear>iuta</unclear> in paucissimas veritates potest <choice><orig>ymmo</orig><reg>immo</reg></choice> in errores sed adiuta fide 
+            <lb ed="#E"/>in veritates naturaliter deducibiles potest et etc in alias infintas non contentius sub 
+            <lb ed="#E"/>latitudine veritatum naturaliter deducibilium sine adiutorio speciali unde possumus 
+            <lb ed="#E"/><choice><orig>ymaginari</orig><reg>imaginari</reg></choice> duas latitudines veritatum unam naturalium et aliam extra illam 
+            <lb ed="#E"/>et in illam potest theologus
+          </p>
+        </div>
+        <div xml:id="ppr-l16-Dd1e3846">
+          <head xml:id="ppr-l16-Hd1e3848">[Corollaria]</head>
+          <div xml:id="ppr-l16-Dd1e3851">
+            <head xml:id="ppr-l16-Hpteosp">[Primum: theologia est omnium scientiarum perfectiva]</head>
+            <p xml:id="ppr-l16-eqpsee">
+              Ex quo patet ipsam theologiam esse perfectissimam extensive 
+              <lb ed="#E"/>quia multa plura potest etiam intensive qui perfectiori et nobiliori modo cognosctur 
+              <lb ed="#E"/>quaecumque veritas quam per quamcumque aliam scientiam
+            </p>
+            <p xml:id="ppr-l16-usdpqe">
+              Imaginandum est quod est ordo veritatum 
+              <lb ed="#E"/>in cognoscendo et dependentia quantum ad nos consequenter ut quod <unclear>ni</unclear> conclusio non potest sciri 
+              <lb ed="#E"/>nisi praesciantur <unclear>io</unclear> ut ab <unclear>?etc</unclear> et una alia conclusio nisi praesciantur centum Sed 
+              <pb ed="#E" n="19-r"/>
+              <lb ed="#E"/>iste ordo et processus non est nec ex defectu <unclear>merei</unclear> intellectus quia quantum est de se qualibet 
+              <lb ed="#E"/>veritas relucet in suis principiis ergo si augeatur vigor intellectus et lumen eius 
+              <lb ed="#E"/>per fidem potest in illam veritatem cum paucioribus mediis et sic patet quod non est ordo 
+              <lb ed="#E"/>essentialis in tali latitudine processus
+            </p>
+            <p xml:id="ppr-l16-pmthad">
+              <g ref="#pilcrow"/>Pro intellectu dicendorum ponatur ista diffinitio 
+              <lb ed="#E"/>theologiae Theologia est habitus scientificus cognoscendi diu in se et in habitudine 
+              <lb ed="#E"/>ad suas creaturas specialiter rationales maxime ad hominem ut felicitabilem Sci<lb ed="#E"/>entificus 
+              autem in consequentia in lumine naturali cum adiutorio fidei
+              <!-- possible break -->
+              Ista descriptio sumit 
+              <lb ed="#E"/>originem ex nominis interpretatione unde dicitur a theos
+            </p>
+            <p xml:id="ppr-l16-pcicdn">
+              <!-- homeoteleuton or omission in E here -->
+              pro infimo gradu theologiae[?] 
+              <lb ed="#E"/>unde theologiae multiplex est gradus unus est simpliciter incomprehensibilis et est 
+              <lb ed="#E"/>ipsa met divina scientia de qua exclamando dicit <name ref="#Paul">paulus</name> <quote>O altitudo divitiarum</quote> 
+              <lb ed="#E"/>etc Unde ille est supremus gradus latitudinis theologiae
+              
+              Secundus gradus est theologia 
+              <lb ed="#E"/>animae christi unde ipse fuit doctor theologorum primus <unclear>id est</unclear> summus secundum humanitatem 
+              <lb ed="#E"/>et ego loquar de scientia creata etc 2us gradus aequalis in multitudine cognoscibilium 
+              <lb ed="#E"/>cum primo gradu Nam sicut dicit <name>magister</name> Anima christi novit omnia quae verum Ita quod 
+              <lb ed="#E"/>notitia animae cristi est notitia omnium veritatum de deo etiam de creaturis et sic christus 
+              <lb ed="#E"/>secundum suam humanitatem habet vel habuerit perfectissimam theologiam creatam dispar 
+              <lb ed="#E"/>tamen <choice><orig>inperfectione</orig><reg>imperfectione</reg></choice> nam huiusmodi actus vel habitus primo est creatus et dependens quodammodo 
+              <lb ed="#E"/>accidens in infinitum <unclear>defi??ns</unclear> a com??dae divinae veritatis apparet mihi quod dicendum est divinae theologiae
+            </p>
+          </div>
+          <div xml:id="ppr-l16-Dd1e4065">
+            <head xml:id="ppr-l16-Hsctdgt">[Secundum: circa theologiam Christi et diversos gradus theologiae]</head>
+            <p xml:id="ppr-l16-uaeead">
+              <lb ed="#E"/>Advertendum quod multum refert cognoscere recte 2m omnia praedicata de ipsa <choice><orig>enunt<lb ed="#E"/>tiabilia</orig><reg>enunt<lb ed="#E"/>iabilia</reg></choice> 
+              et ipsam comprehendere Ita quod non sequitur anima christi cognoscit deum secundum 
+              <lb ed="#E"/>omnem praedicatum dicibile de deo ergo comprehendit deum quia ad conp?ndum[?] rem non solum 
+              <lb ed="#E"/>requiritur ipsam cognoscere 2m omne praedicatum <unclear>dora</unclear> dicibile sed ultra <unclear>re?niritur</unclear> 
+              <lb ed="#E"/>quod cognitio sit ita perfecta in esse cognitionis sicut res cognoscibilis est in se vel <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+              <lb ed="#E"/>obiectum est in se et quia obiectum est absolute <choice><orig>inmensum</orig><reg>immensum</reg></choice> intensive et ergo 
+              <lb ed="#E"/>nulla creatura potest esse <unclear>t</unclear> sed sola divina notitia est de dei comprehensiva 
+              Alii 
+              <lb ed="#E"/>gradus possunt poni in latitudine scientiarum ultimum scilicet beatorum unde infinitae sunt tales 
+              <lb ed="#E"/>species cognitionum de eadem re subordinatae una perfectior alia
+            </p>
+            
+            <p xml:id="ppr-l16-ieacsb">
+              <g ref="#pilcrow"/>Ista consequentia non 
+              <lb ed="#E"/>valet Anima christi cognoscit omnia in verbo ergo habet omnem notitiam creabilem quia 
+              <lb ed="#E"/>data aliqua visione dei aliquantae perfectionis esset dare aliam maioris <unclear>perfectioris</unclear> 
+              <lb ed="#E"/>et sic in infinitum 
+              Credo verum quod possent esse infinitae species cognitionis quarum 
+              <lb ed="#E"/>quaelibet esset omnium veritatum <unclear>praesentativam</unclear> et tamen quaelibet perfectior alia esset Et per consequens 
+              <lb ed="#E"/>ex hoc quod anima christi haberet theologiam <unclear>repraesentatiam[?]</unclear> omnium veritatum non sequitur 
+              <lb ed="#E"/>quod haberet supremum gradum quia etc
+              Et non intelligitur quantum ad multitudinem sed quantum 
+              <lb ed="#E"/>ad modum praesentandi
+              Sed propter auctoritatem doctorum dicendum quod in latitudine theologicarum 
+              <lb ed="#E"/>communicalium anima christi habet supremam possibilem non solum quantum ad multitudinem sed etiam quan<lb ed="#E"/>tum 
+              ad perfectionem Unde <name>magister</name> deus contulit sibi quicquid potuit et per consequens quicquid <unclear>contiut[?]</unclear> 
+              <lb ed="#E"/>statum beatitudinis et per consequens speciem in illa latitudine supremam
+            </p>
+            
+            <p xml:id="ppr-l16-eqsqps">
+              Sequitur <unclear>corrolarie</unclear> quod sub 
+              <lb ed="#E"/>theologia animae christi sunt infinitae possibiles quarum quaelibet etc
+            </p>
+            
+            <p xml:id="ppr-l16-asgmms">
+              Alii sunt gradus
+              <pb ed="#E" n="19-v"/>
+              <lb ed="#E"/>Theologiae qui non omnium veritatum sunt repraesentari nec secundum multitudinem obiectorum 
+              <lb ed="#E"/>nec secundum perfectionis modum cognoscendi
+            </p>
+            <p xml:id="ppr-l16-agpmif">
+              posset <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod si angelus relinque<lb ed="#E"/>retur 
+              suae naturae vel alia creatura <del rend="strikethrough">acte</del> excedens nos ex sua naturali perfectione et lumine 
+              <lb ed="#E"/>suo naturali posset in veritates altiores quam nos quia esset perfectorum speciei sua cognitio 
+              <lb ed="#E"/>quam <name>adae</name> in statu innocentiae Etiam statu praesenti sunt multi gradus 2m inten<lb ed="#E"/>tionem 
+              fidei ut in homine consequenter disposito secundum quod fides magis intenditur tanto quantum 
+              <lb ed="#E"/>ad effectum lumen naturale vigorative
+            </p>
+          </div>
+          <div xml:id="ppr-l16-Dd1e4303">
+            <head xml:id="ppr-l16-Htcedcd">[Tertium corollarium: ex diversos gradus theologiae ad diversos conceptus Dei]</head>
+            <p xml:id="ppr-l16-eispda">
+              Sequitur quod 2m diversitatem huiusmodi graduum diver<lb ed="#E"/>si 
+              conceptus <del>con</del> correspondent isti termino <mentioned>deus</mentioned> scilicet nam secundum primum gradum correspondet 
+              <lb ed="#E"/>conceptus simpliciter et absolute et <choice><orig>inmensus</orig><reg>immensus</reg></choice> et ipsius dei adaequate repraesentativus et sic proportionaliter 
+              <lb ed="#E"/>de aliis
+            </p>
+            <p xml:id="ppr-l16-astcdd">
+              Ulterius 2m alios gradus correspondent alii conceptus quidam communissimus 
+              <lb ed="#E"/>alius specialis quidam connotativi veri et quidem falsi quidam habuerunt conceptum 
+              <lb ed="#E"/>talem qui <unclear>servbat</unclear> deum esse corporalem Alii conceptum <unclear>connotatem</unclear> aliquid deo re<lb ed="#E"/>pugnans 
+              scilicet quod sit potentiae finitae et <choice><orig>neccessario</orig><reg>necessario</reg></choice> movens 
+              Et sic patet quod omnis affirmativa 
+              <lb ed="#E"/>formata ab illis sic deum cognoscentibus scilicet conceptu connotativo alicuius sibi repug<lb ed="#E"/>nantis 
+              fuit simpliciter falsa
+            </p>
+            <p xml:id="ppr-l16-uaesid">
+              Credo quod <unclear>articulos</unclear> habuit conceptum utrum de deo licet ma<lb ed="#E"/>le 
+              diffinivit Unde ista consequentia non valet <name>sortes</name> habet conceptum in cuius diffinitione ponit repug<lb ed="#E"/>nans 
+              igitur habet conceptum falsum quia stat quod erraret diffiniendo et sic staret de 
+              <lb ed="#E"/>articulo quod habuisset conceptum <unclear>verum</unclear> de deo scilicet deus est et tamen male <unclear>diffinisset[?]</unclear>
+            </p>
+            <p xml:id="ppr-l16-ipdaid">
+              Dico 
+              <lb ed="#E"/>quod conceptus dei prout est considerationis theologicae vel connotat vel est medium <choice><orig>inmediate</orig><reg>immediate</reg></choice> 
+              <lb ed="#E"/>inferendi quod deus est summum bonum universaliter perfectum vel quia connotat vel complexus 
+              <lb ed="#E"/>est vel ex modo suo vel naturaliter potest esse causa inferendi quod deus est summum bonum
+              <!-- possible break -->
+              <lb ed="#E"/>Sic dico <unclear>cn[?]</unclear> quod iste terminus <mentioned>deus</mentioned> est subiectum in theologia nam sibi <choice><orig>conpetivit</orig><reg>competivit</reg></choice> omnes 
+              <lb ed="#E"/>conditiones subiecti secundum <unclear>qucque[?]</unclear> vel 2m communem modum dicendi de 
+              <lb ed="#E"/>subiecto Quidquid enim consideratur hoc est in ordine ad ipsum
+            </p>
+          </div>
+          <div xml:id="ppr-l16-Dd1e4486">
+            <head xml:id="ppr-l16-Hqcppnt">[Quartum corollarium: primum principium nostrae theologiae]</head>
+            <p xml:id="ppr-l16-suqnql">
+              Sequitur quod deum esse
+              <lb ed="#E"/>est primum principium <unclear>in?</unclear> theologiae 
+              Advertendum quod de habendo huiusmodi conceptu fuit 
+              <lb ed="#E"/>maxima difficultas apud antiquos intantum quod <name>Rabi moises</name> tenet qud deus non potest 
+              <lb ed="#E"/>concipi nec conceptu negativo <unclear>eom?odo[?]</unclear> <choice><orig>inperfectiones</orig><reg>imperfectiones</reg></choice> creaturarum scilicet quod deus non est muta<lb ed="#E"/>bilis
+              <!-- break -->
+              Et istius opinionis videtur esse <name>santus thomas</name> in <title>summa</title> in prima parte 
+              <lb ed="#E"/><title>contra gentiles</title> dicit ulterius <name>Rabi moises</name> quod fuit unicum nomen apud gen<lb ed="#E"/>tiles 
+              scilicet nomen Tetragramaton <g ref="#slash"/> sed fuit paucis nomen non quod sit istud nomen 
+              <lb ed="#E"/>sed non 4or <unclear>l?arum[?]</unclear>
+            </p>
+            <p xml:id="ppr-l16-ueiasc">
+              Sequitur quod habere conceptum vere theologicum dei non potest quis sine fide 
+              <lb ed="#E"/>vel sine adiutorio speciali et quia deum esse est simpliciter primum sequitur quod omnis ve<lb ed="#E"/>ritas 
+              cuiuscumque scientiae et omne principium est theologicae considerationis 
+              <g ref="#pilcrow"/>Advertendum quod 
+              <lb ed="#E"/>sic dicitur in naturali philosophia eadem res consideratur per <unclear>metaphysicum</unclear> et per naturalem Ad propositum 
+              <lb ed="#E"/>dicitur quod primum principium dicitur esse <del rend="strikethrough">p</del> uno modo <unclear>consideratum</unclear> ut est quidam conformitas 
+              <lb ed="#E"/>ad principium scientiae theologicae <unclear>Alio modo</unclear> ut est directum intellectus ad suam beatitudinem 
+              <lb ed="#E"/>utroque modo est de se considerare theologiae et sic de qualibet alia veritate 
+              <lb ed="#E"/>unde quaelibet potest considerari ut directiva creaturae in deum etiam quaelibet 
+              <pb ed="#E" n="20-r"/>
+              <lb ed="#E"/>ut exemplata divina veritate in reducibilis tamqua in fine totius boni et cum 
+              <lb ed="#E"/>quaelibet habeat ad diu huiusmodi habitudinem
+            </p>
+            <p xml:id="ppr-l16-uieapv">
+              sequitur quod est considerans theologicae Con<g ref="#dbdash"/>sideramus 
+              theologica est de deo secundum sequitur suas proprietas et suas creaturas voluntas sicut dicit 
+              <lb ed="#E"/><name>augustinus</name> quolibet bono creato debet uti ad habitudinem ad bonum increatum Ita intellectus 
+              <lb ed="#E"/>qualibet veritate debet uti in habitudine ad primam veritatem
+            </p>
+          </div>
+          <div xml:id="ppr-l16-Dd1e4650">
+            <head xml:id="ppr-l16-Hmcmcmc">[Minora corollaria]</head>
+            <p xml:id="ppr-l16-seihai">
+              <g ref="#pilcrow"/><unclear>directo</unclear> theologia nullae scientiae 
+              <lb ed="#E"/><seg type="correction">sub<subst><del>ordinatur</del><add>alternatur</add></subst></seg> nec ipsa proprie alias subalternat et causa est ex suo modo considerandi 
+              <lb ed="#E"/>quia nulla alia sic considerat
+            </p>
+            <p xml:id="ppr-l16-suqdgs">
+              Sequitur quod plures sunt <unclear>invenibiles</unclear> scientiae non habentes 
+              <lb ed="#E"/>ordinem inter se quam iam sint inventae patet quia solus modus considerandi <unclear>variat</unclear> scientiam
+            </p>
+            <p xml:id="ppr-l16-suqcsn">
+              <lb ed="#E"/>Sequitur licet omne verum sit theologicum non tamen omnem est fidei patet quia iuxta <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> 
+              <lb ed="#E"/><name>auticiodorensis</name> fides est <unclear>praescire</unclear> circa veritates concernentes speciale regimine generis 
+              <lb ed="#E"/>humani quo ad sanitatem
+              <!-- probably needs to be a break here -->
+              Sequitur quod minus bene dictum est fidem se extendere ad propositiones conting<lb ed="#E"/>gentes 
+              concernentes creaturas quae sunt <choice><orig>inpertinentes</orig><reg>inpertinentes</reg></choice> veritatibus pertinentibus 
+              <lb ed="#E"/>ad salutem
+            </p>
+        
+            <p xml:id="ppr-l16-torpid">
+              Sed contra Capiamus unam propositionem contingentem ut ponatur quod deus praecipiat 
+              <lb ed="#E"/><name>sorti</name> levare festucam etiam ex fide tenetur credere quod teneatur ad levandum festucam 
+              Tunc sic ista fides declinat nunc ad istam veritatem ergo prius patet quod non mu<lb ed="#E"/>tatur 
+              propter adveniens praeceptum Respondetur quod non est inconveniens aliquam veritatem 
+              <lb ed="#E"/>de novo subiacere fidei quia incipit habere aliquam rationem quam christus non habebat
+            </p>
+            <p xml:id="ppr-l16-suqeae">
+              <lb ed="#E"/>Sequitur quod quaelibet res perfectius cognoscitur per theologiam quam per quamcumque aliam scientiam 
+              <lb ed="#E"/>patet quia <unclear>philosophus</unclear> naturalis non cognoscit rem perfecte nec modum suae productionis 
+              <lb ed="#E"/>quia nescit quod ab agente libere producatur nescit quod continue conservatur in esse et 
+              <lb ed="#E"/>dependet specialiter a deo nescit quod est variabilis modus suus nescit quod applicato 
+              <lb ed="#E"/>agente potest non agere nescit quod activitantem eius potest suspendere
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l16-Dd1e4799">
+          <head xml:id="ppr-l16-Hccccca">[Confirmatio conclusionis contra Averroes]</head>
+          <p xml:id="ppr-l16-eipspn">
+            Patet ex isto error 
+            <lb ed="#E"/><name>Averroys</name> dicens quod instructio in lege est destructio philosophiae et quia fides et theologia 
+            <lb ed="#E"/>illuminant intellectum
+          </p>
+        </div>
+        <div xml:id="ppr-l16-Dd1e4817">
+          <head xml:id="ppr-l16-Hd1e4819">Circa textum</head>
+          <p xml:id="ppr-l16-d1e4822">
+            Circa textum scilicet 14tam distinctionem spiritus sanctus procedit a patre 
+            <lb ed="#E"/>et a filio aeternaliter Ita etiam mittitur ad creaturam temporaliter Pater et filius mittunt spiritum 
+            <lb ed="#E"/>santum ad iustificationem creaturae sed difficultas est utrum spiritus sanctus formaliter 
+            <lb ed="#E"/>posset esse ista tractabitur in distinctione 17ma
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

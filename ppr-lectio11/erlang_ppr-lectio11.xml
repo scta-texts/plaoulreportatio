@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 11, de Fide [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2011.10-dev-master">
+          <title>Lectio 11, de Fide [Erlangen Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="13-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio11">
+        <head xml:id="ppr-l11-Hd1e3724">Lectio 11, de Fide [Erlangen Transcription]</head>
+        <div xml:id="ppr-l11-Dd1e3727">
+          <head xml:id="ppr-l11-Hcddcaf">[Conclusio de debilitate intellectus: nihil concludere potest contra articulos fidei]</head>
+          <p xml:id="ppr-l11-cmdcaf">
+            <lb ed="#E"/>Continuando materiam inceptam conclusio Quamvis intellectus humanus ratione suae infirmitatis 
+            <lb ed="#E"/>plus <sic>movatur</sic> in falsum quam in verum processum tamen artis <choice><orig>nichil</orig><reg>nihil</reg></choice> concluditur contra articulos fidei
+          </p>
+          <p xml:id="ppr-l11-pphbea">
+            Prima pars patet quia sicut est degestu[?] reali sic est degestu spirituali sed infremus corporaliter 
+            <lb ed="#E"/>iudicat esse dulce amarum igitur Item probatur quod post statim naturae lapsae appetitiva plus 
+            <lb ed="#E"/>inclinatur in creaturam avertendo a deo quam ante ergo etc sic erit dem?t?tu? proportionaliter quod plus 
+            <lb ed="#E"/>etc et hoc cum influentia dei generali In ista radice fundatur positio doctorum 
+            <lb ed="#E"/>sanctorum quod creatura rationalis ex puris naturalibus non potest bene moraliter operari scilicet sine 
+            <lb ed="#E"/>fide et caritate si forte sine gratia gratificante tamen requiritur aliqua gratia spiritualis sicut patet 
+            <lb ed="#E"/><name ref="#Bradwardine">Braguuordim</name> et <name ref="#Rimini">gregorium</name>
+          </p>
+          <p xml:id="ppr-l11-spcsss">
+            <sic>Tertia<!-- dbcheck --></sic> pars concluditur[?] probatur quia ars non supponit aliquod principium 
+            <lb ed="#E"/>falsum alias enim non esset ars igitur <choice><orig>nichil</orig><reg>nihil</reg></choice> infert falsum con?aa[?] quia ex vero nis[?]v[?] verum 
+            <lb ed="#E"/>Si ergo aliquid concluditur contra fidem vel non sunt principia artis vel consequentia non valet
+          </p>
+        </div>
+        <div xml:id="ppr-l11-Dd1e3834">
+          <head xml:id="ppr-l11-Hacacac">[aliqua corollaria]</head>
+          <p xml:id="ppr-l11-eiiovc">
+            Sequitur quod nulla 
+            <lb ed="#E"/>veritas intentionis humanae repugnat sacrae fidei seu theologicae quia omne verum vero 
+            <lb ed="#E"/>consonat etiam numquam verum vero repugnat
+          </p>
+          <p xml:id="ppr-l11-sccepi">
+            Sequitur contra <name ref="#Holcot">halkot</name> quod articuli fidei non sunt 
+            <lb ed="#E"/>contra rationem naturalem sicut diu incarnari et virgunt parere quia dicit quod concedendo rationem 
+            <lb ed="#E"/>naturalem oppositum[?] concluderetur Ideo si concluditur contra hoc assumendo principia vera fit deceptio 
+            <lb ed="#E"/>in concludendo[?] Sequitur quod fit contra fidem
+          </p>
+          <p xml:id="ppr-l11-suqovc">
+            Sequitur quod istae propositiones mundus fuit ab aeterno 
+            <lb ed="#E"/>et ab eodem uniformiter se habente non possunt diversi effectus immediate produci non 
+            <lb ed="#E"/>sunt phisce[?], <choice><orig>ymmo</orig><reg>immo</reg></choice> contra philosophiam Sed sunt falsae et <sic>praesumptuose</sic> asserte absque hoc
+            <lb ed="#E"/>quod sint assumptive pu? con?s[?] Principaliter 2a propositio <sic>praesumptuose</sic> assumpta est quia 
+            <lb ed="#E"/>illud est fundatum causativum[?] omnium errorum in philosophia quia per hoc dixerunt quod deus 
+            <lb ed="#E"/>non esset liber libertate contradictionis quia ab antiqua[?] voluntate non praecedit nova 
+            <lb ed="#E"/>actio Unde concessa libertate conceditur quod possit creare et quod ponit mundum de novo producere 
+            <lb ed="#E"/>Propter istum errorem <name ref="#Avicenna"><sic>Avicena</sic></name> posuit quod deus solum producit vel produxit unam 
+            <lb ed="#E"/>intelligentiam De isto videbitur in materia trinitatis Sequitur quod falsum est unam propositionem esse veram 
+            <lb ed="#E"/>secundum philosophiam et falsam 2m aliam scientiam
+          </p>
+          <p xml:id="ppr-l11-suqsld">
+            Sequitur quod omnes leges humanae legi divinae con<lb ed="#E"/>sonant 
+            et sunt conformes patet quia leges humanae non sortiuntur denominationem legis 
+            <lb ed="#E"/>nec sint consonae christi et quia ratio semper consonat legi divinae igitur unde <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> 
+            <lb ed="#E"/>est quod sicut creaturam non stat esse causam respectu effectus sive prima causa sic 
+            <pb ed="#E" n="14-r"/><lb ed="#E"/>non stat aliquam legem creatam habere rationem legis nisi deus sit lex respectu eiusdem 
+            <lb ed="#E"/>et nisi sit conformis etc Tres sunt leges subordinatae prima divina secunda ratio hu<lb ed="#E"/>mana 
+            tria lex humana positiva primae semper est obediendum etiam secundae quia conformatur 
+            <lb ed="#E"/>primae in casu tali si crederetur[?] esse rationale et appareret quod non conformaret se legi 
+            <lb ed="#E"/>divinae standum esset primae et non secundae Secundae ubi lex humana positiva distarparet[?] 
+            <lb ed="#E"/>a ratione non esset parendum sibi auctoritas principis non ligat ubi obviat rationi
+          </p>
+          <p xml:id="ppr-l11-uvihsv">
+            <lb ed="#E"/>Sed in casu quo unum staret cum ratione sicut aliud ita quod unum non plus obviaret rationi 
+            <lb ed="#E"/>quia aliud ergo sic quod utrumque stare cum ratione tunc voluntas principis est causa sufficiens ad legandum 
+            <lb ed="#E"/>Adhuc tamen in illo casu d?ivatur[?] lex illa a ratione quia ratio delinquit voluntati principis
+          </p>
+          <p xml:id="ppr-l11-suqqcr">
+            <lb ed="#E"/>Sequitur quod omnes leges humanae consonant inter se patet quia omnes consonant rationi
+          </p>
+          <p xml:id="ppr-l11-suqets">
+            Sequitur quod in secta <name>machometi</name> sunt plures traditiones quae nullae legi sunt consonae et sic 
+            <lb ed="#E"/>patet de tyrannis quod faciunt multa quae sunt contra lege De <name>machameto</name> per <sic>per</sic> <name>avicenam</name> 
+            <lb ed="#E"/>qui fuit de sacra sua et de genere unde dicit <name>avicenna</name> propheta noster bene des[?] bona 
+            <lb ed="#E"/>corporis scilicet voluptates sed non bona animae sed magnae theologi
+          </p>
+          <p xml:id="ppr-l11-suqpmc">
+            Sequitur conclusio quod lex huma<lb ed="#E"/>na 
+            aliter consonat legi naturali quam lex divina <g ref="#slash"/> Advertendum quod lex divina humana 
+            <lb ed="#E"/>positiva dirivatur a lege naturali et quasi consequens respectu legis naturalis
+          </p>
+          <div xml:id="ppr-l11-Dd1e4144">
+            <head xml:id="ppr-l11-Hslnsln">[Significatio legis naturalis]</head>
+            <p xml:id="ppr-l11-pcilhp">
+              Item ad<lb ed="#E"/>vertendum 
+              quod lex naturalis potest capi tripliciter uno modo pro instinctu naturali ad bonum et ista 
+              <lb ed="#E"/>lex seu istud vis est commune omnibus et animalibus brutis Alio modo strictius prout perti<lb ed="#E"/>net 
+              ad intellectum practicum humanum et est lumen innatum quo me?ce[?] aliquis assentit 
+              <lb ed="#E"/>principiis moralibus ex quibus insunt conclusiones Tertio modo capitur pro illis principiis Quarto modo 
+              <lb ed="#E"/>pro conclusionibus elicits et illa sunt dictamina cre[?] rationis et ab istis debent derivari 
+              <lb ed="#E"/>leges humanae positivae
+            </p>
+            <p xml:id="ppr-l11-viisaa">
+              Apparet[?] tunc satis conclusio quia lex divina non potest sic derivari 
+              <lb ed="#E"/>a lege naturae quia non possumus ex illis assingere ad articulos fidei nec possunt ex 
+              <lb ed="#E"/>eis deduci Et per consequens licet sit consonantia legis divinae ad legem naturalem tamen 
+              <lb ed="#E"/>non sequitur sic sicut lex <corr><del>divina</del></corr> humana Dico tamen consequenter quod lex naturalis est dispositio 
+              <lb ed="#E"/>quadam prima licet non sit sufficiens ad legem divinam tamen si quis disponeret se secundum 
+              <lb ed="#E"/>legem naturalem deus posset infundere <corr>gratiam sibi</corr> sic quod est quaedam dispositio vel 
+              <lb ed="#E"/>tei?us[?] dico quod viceversa vis naturale continetur in mere divino et est consequens ad iud[?] divinum 
+              <lb ed="#E"/>Quia <name>gratianus</name> expresse dicit quod ius naturale iu??[?] continetur etiam quidque ius 
+              <lb ed="#E"/>naturale praecipit hoc ius divinum perfectius praecipit Sequitur quod ius humanum positivum 
+              <lb ed="#E"/>sequitur ex utroque mere quia quicquid sequitur ad consequens sequitur ad antecedens
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l11-Dd1e4259">
+          <head xml:id="ppr-l11-Hrpepni">[Rationes pro erroribus de miraculis in processu naturalis investigationis]</head>
+          <p xml:id="ppr-l11-eppiea">
+            Sequitur quod peccat in 
+            <lb ed="#E"/>processu naturalis investiga?[?] concludens virginem non posse parere unde aliunde 
+            <lb ed="#E"/>peccat primo quia peccat praesumptuose contra divinam potentiam quia dicere 
+            <lb ed="#E"/>non sum expertus ergo ego nego quod deus potest est peccatum praesumptuosus[?] unde habemus 
+            <lb ed="#E"/>dubitare de proprietate herbae nisi viderimus quod non possit etc
+          </p>
+          <p xml:id="ppr-l11-idqphf">
+            Et inpossibile est philosophum 
+            <lb ed="#E"/>experiri istam negationem haec creatura non habet nis istam materiam unde magnes 
+            <lb ed="#E"/>trahit ferrum cum praesente magnete non trahit ferrum et hoc est ex sua secreta natura 
+            <lb ed="#E"/>Etiam forte multa esent passa in quae huiusmodi herba data posset agere ad quae tamen applicavit[?] 
+            <lb ed="#E"/>Et sic phe?tur[?] non habet negare naturas quas habet creatura ergo nec naturas dei 
+            <pb ed="#E" n="14-v"/><lb ed="#E"/>ergo non est assentiendum philosopho
+          </p>
+          <p xml:id="l11-ipnmvp">
+            Advertendum quod potestas naturae seu activitas est primum 
+            <lb ed="#E"/>quod congruit deceri[?] universi et divinae providentiae patet nam capiamus alicui vel 
+            <lb ed="#E"/>aliquod agens ad repletionem vacui subito dundit[?] Credo quod si non esset nec[?] una multipliciter 
+            <lb ed="#E"/>illa pareret <choice><orig>ymmo</orig><reg>immo</reg></choice> philosophus hoc haberet concedere Etiam philosophus habet dicere quod si omnes homines 
+            <lb ed="#E"/>perirentur[?] cursus superioris haberent producere alium Philosophus non habuit negare quin virgo 
+            <lb ed="#E"/>potuit parere non tamen volo dicere quin fuerit partus cuius <sic>immaculosus</sic> <name>Valerius</name> recitat 
+            <lb ed="#E"/>de puero filio magni regis inuco[?] qui videns quod interficeretur locutus est quia 
+            <lb ed="#E"/>inimici eius in bello ceperunt eum et ipsi videntes quod non voluit loqui nisi 
+            <lb ed="#E"/>sunt interficere et sic natura in[?] vivit[?] et ita natura quandoque operatur numerabiliter Patet ex dictis quod articuli 
+            <lb ed="#E"/>fidei speciales sunt relinquendi apud bene philosophantem neuter quia non sunt 
+            <lb ed="#E"/>investigabiles per ipsum quia non occurrit sibi medium aptum ad concludendum</p>
+          <!-- seems missing <p xml:id="l11-aehapn"/> can't find parallel for this -->
+        </div>
+        <div xml:id="ppr-l11-Dd1e4413">
+          <head xml:id="ppr-l11-Hcdpcdp">[Conclusiones de philosophia]</head>
+          <p xml:id="ppr-l11-eppeiq">
+            Sequitur quod vere philosophando essent valde paucae propositiones scitae extra methaphicam[?] 
+            <lb ed="#E"/>ut in naturali philosophia Ita quod scientia naturalis esset quasi ex <choice><orig>ypothesi</orig><reg>hypothesi</reg></choice> videlicet ponendo materiam 
+            <lb ed="#E"/>primam salvantur melius generationes etc quam secundum illas quae aliter locuti sunt 
+            <lb ed="#E"/>utque ponendo corpora <choice><orig>athamalia</orig><reg>atomalia</reg></choice>
+          </p>
+          <p xml:id="ppr-l11-sfqevp">
+            Sequitur ad vere philosophandum iuvat theologia
+          </p>
+        </div>
+        <div xml:id="ppr-l11-Dd1e4467">
+          <head xml:id="ppr-l11-Hd1e4469">Circa textum</head>
+          <p xml:id="ppr-l11-d1e4472">
+            <lb ed="#E"/>Circa textum 
+            <lb ed="#E"/>Conclusio spiritus sanctus est amore sive caritas sive dilectio qua pater et filius se invi<lb ed="#E"/>cem 
+            diligunt duo sunt principia principialia activa et nobilissima 2m duas nobilissimas conditiones possibiles existere prima esse intellectuale et esse intellectivum
+            <lb ed="#E"/>Secunda esse volitivum Et omnis operatio mundi excellens et nobilis vel est per modum 
+            <lb ed="#E"/>intellectus vel voluntatis et agentia naturalia agunt tamquam rememorata 
+            <lb ed="#E"/>etc et sic actio eorum quodammodo participat illam rationem volitivam vel intellectivam 
+            <lb ed="#E"/>licet non sit in se sed in alio et ergo ista debent convenire divinae naturae Ita quod sit 
+            <lb ed="#E"/>una emanatio per modum amoris quia amore est res delectabilissima et delica<lb ed="#E"/>tissima 
+            Alia emanatio per modum intellectus Unde dixit <name>magister petrus</name> quod deus non 
+            <lb ed="#E"/>esset summae perfectionis nec in trinitate et sic trinitas non ponit aliquam inperfectionem in divinis 
+            <lb ed="#E"/>Dilectio est essentialis et etiam notionalis sicut etiam verum ut est verum est notionale productivum[?] 
+            <lb ed="#E"/>Aliquando essentialiter et sic pater est verum et filius et spiritus sanctus Et sic etiam ly <mentioned>amore</mentioned> ut est 
+            <lb ed="#E"/>notio quaedam et ut producitur et sic dicitur esse spiritus sanctus Quare non conceditur quod pater 
+            <lb ed="#E"/>sapit sapientia genita sicut amat amore producta r??ce[?] advertendum quod 
+            <lb ed="#E"/>2m diversitatem temporum et personarum modi loquendi fuerunt varii Ita quod in aliquo tempore dicere 
+            <lb ed="#E"/>quod pater sapit sapientia genita fuit haeresis propter haeresim currentem et sic sunt intro<lb ed="#E"/>ducti 
+            propter evitationem erroris et nos propter Reverentiam ecclesiae debemus uti illud modis 
+            <lb ed="#E"/>loquendi Secundo aliqua sunt ex providentia divina et latent nos unde in 
+            <lb ed="#E"/><title>ozee</title> dominus non vocabis non balim sed vestrae[?] ius et tamen sunt idem <!-- probably quote here --> Tunc dicatur 
+            <lb ed="#E"/>quod proprie loquendo amore habet alium habitudinem quam sapientiam quia sapientia quanto 
+            <lb ed="#E"/>dicit magis in trinitatem et sic dicere quod pater sapit sapientia genita innueretur vel saltem 
+            <lb ed="#E"/>videretur innui quod non esset sapiens ex se sed amore est quodammodo uniculum aliquorum 
+            <lb ed="#E"/>et sit non dicit creatum incunsitatem[?]
+          </p>
+          <p xml:id="ppr-l11-d1e4650">
+            Alia conclusio hoc nomen creaturis attribuitur spiritui sancto principaliter
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

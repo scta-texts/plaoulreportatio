@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 12, de Fide [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2011.10-dev-master">
+          <title>Lectio 12, de Fide [Erlangen Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+      <change when="2011-10-04" status="draft" n="0.0.0">
+        <p>File Started for the first time.</p>
+      </change>
+    </listChange>
+  </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="15-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="lectio12">
+        <head xml:id="ppr-l12-Hd1e3723">Lectio 12, de Fide [Erlangen Transcription]</head>
+        <div xml:id="ppr-l12-Dd1e3726">
+          <head xml:id="ppr-l12-Hd1e3728">
+            <supplied>Conclusio</supplied>
+          </head>
+          <p xml:id="ppr-l12-sfqpqs">
+            <pb ed="#E" n="15-r"/>
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Sequitur quod humana investigatio ex praedictis nec debite nec sufficienter dirigit 
+            <lb ed="#E"/>intellectum practicum nec speculativum patet ex praedictis quod patet etiam ab effectu de 
+            <lb ed="#E"/>intellectu practico
+          </p>
+          <p xml:id="ppr-l12-dipvas">
+            <lb ed="#E"/>primo nam circa felicitatem tot fere fuerunt opiniones quot <unclear>philosophantes</unclear> 
+            <lb ed="#E"/>unde <name>augustinus</name> 19 <title>de civitate dei</title> capitulo primo dicit <name><sic>Verronem</sic></name> quid alibi vocat subtilissimam 
+            <lb ed="#E"/>recitasse centum et octaginta octe sectas varias philosophorum de felicitate humana 
+            <lb ed="#E"/>et hoc provenit ex caecitate et debilitate investigantium quia unicus est modus atti<lb ed="#E"/>gendi 
+            significatum[?] <g ref="#slash"/>
+          </p>
+          <p xml:id="ppr-l12-qaepdd">
+            quantum ad intellectum speculativum patet sicut dicit <name>sanctus thomas</name> in libro de angelis 
+            <lb ed="#E"/>primi philosophantes in corpore non poterant intelligere Nescio si habeam dictum <unclear>scilicet thomae</unclear> 
+            <lb ed="#E"/>in forma unde prima principia posuerunt corpora et illa aliquando vocaverunt deos 
+            <lb ed="#E"/>ut aquam dius et ita poeta proportionaliter finxerunt unde aliqui tamquam primum principium 
+            <lb ed="#E"/>aquam et vocaverunt occeanum et secundum eos est nomen dei et alii <unclear>thetim</unclear> Aliud po<lb ed="#E"/>suerunt 
+            ad principium litem et amicitiam
+          </p>
+        </div>
+        <div xml:id="ppr-l12-Dd1e3847">
+          <head xml:id="ppr-l12-Hd1e3849">[Alia conclusio]</head>
+          <p xml:id="ppr-l12-echseh">
+            Circa hoc ponitur conclusio Quia investigatio 
+            <lb ed="#E"/>humana non iuta seu adiuta fide vel auctoritate vel <unclear>consin?ene[?]</unclear> vel gratia speciali non 
+            <lb ed="#E"/>concluderet circa sensibilia <unclear>quidquam</unclear> existere Ista conclusio sequitur ex praedictis
+          </p>
+        </div>
+        <div xml:id="ppr-l12-Dd1e3878">
+          <head xml:id="ppr-l12-Hd1e3880">[Objectio]</head>
+          <p xml:id="ppr-l12-sciuip">
+            Obicitur de <name>socrate</name> 
+            <lb ed="#E"/>et <name>platone</name> et <name>aristotele</name> quia sequendo humanam investigationem posuerunt unum deum 
+            <lb ed="#E"/>Nam reprehendidit <name>socrates</name> Atheniensis quod coluerunt plures deos quia tandem 
+            <lb ed="#E"/>propter hoc oportuit eum recipere venenum Item <name>plato</name> etiam Ad idem <name>aristoteles</name> in 12o <title>metaphysicae</title> 
+            <lb ed="#E"/>ponit unum solum principem entia nolunt male disponi
+          </p>
+        </div>
+        <div xml:id="ppr-l12-Dd1e3934">
+          <head xml:id="ppr-l12-Hd1e3936">
+            <supplied>Responsio</supplied>
+          </head>
+          <p xml:id="ppr-l12-retuds">
+            In tenendo conclusionem ut prius 
+            <lb ed="#E"/>Notandum secundum quod dicit <name>Iosephus</name> in libro <title>antiquitatum</title> Caldaei et gentiles in principio sicut 
+            <lb ed="#E"/>non cognoverunt nisi creaturas adoraverunt aliqui stellas etc et sic <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> 
+            <lb ed="#E"/>quod illi qui fuerunt derelicti proprie investigationi non coluerunt nis creaturas cne[?] et aliqui 
+            <lb ed="#E"/>postea coluerunt deum verum quia aliunde adiuti fuerunt
+          </p>
+          <p xml:id="ppr-l12-snqabc">
+            Secundo <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> est 
+            <lb ed="#E"/>quod ne dum ex consuetudine audiendi sed etiam ex scriptura quod multi libri erant ante 
+            <lb ed="#E"/><corr><del>viliam</del></corr> bibliam in quibus facta fuit mentio de colendo unum solum deum ut 
+            <lb ed="#E"/>dicit etiam <name>Iosephus</name>
+          </p>
+          <p xml:id="ppr-l12-tpqidg">
+            <unclear>Secundo<!-- dbcheck, if correct, add <sic> --></unclear> potest dici quod deus voluit specialiter concurrere cum philosophis 
+            <lb ed="#E"/>ad hoc ut crederent unum solum deum et sic non ex pura investigatione huma<lb ed="#E"/>na 
+            et forte terminus nominati habuerunt fidem quae sufficiebat pro illo statu
+          </p>
+          <p xml:id="ppr-l12-efnefs">
+            Circa quod 
+            notat <name>Nicolaus de lyra</name> quod ante adventum christi sufficiebat populo gentili credere 
+            <lb ed="#E"/>duobus articulis scilicet deum esse et ipsum toti mundo providere
+          
+            Et quando dicitur nullus salva<lb ed="#E"/>bitur 
+            nisi in fide ihesu christi respondet quod non oportuit in speciali gentiles habere 
+            <lb ed="#E"/>notitiam articuli de incarnatu sed sufficit quod habuerunt articulum generalem sub quo 
+            <lb ed="#E"/>ille continebatur scilicet deum providere toti mundo
+            
+            Et si dicatur ipsi erraverunt 
+            <lb ed="#E"/>in aliquibus articulis specialibus Ita dico quod aliqui nunc errant saltem secundum opiniones 
+            <lb ed="#E"/>inter multa est conversia inter doctores <name>Aristoteles</name> dicit in <title>topicis</title> quod est <unclear>propleum[?]</unclear> mundus 
+            <lb ed="#E"/>est aeternus 
+            
+            <g ref="#pilcrow"/>Narratur de <name>socrate</name> quod habuit spiritum familiarem sed non debet intelligi 
+            <lb ed="#E"/>ad mlaum sed de intellectu agente scilicet deo Sicut dicit <name>commentatorem</name> 3o <title>de anima</title> quod intellectus 
+            <lb ed="#E"/>humanus intelligit per intellectum agentem modo ille ponitur deus scilicet per modum 
+            <pb ed="#E" n="15-v"/>
+            <lb ed="#E"/>vitalis immutationis intellectus divinus aliquibus est intellectus mere[?] speciali 
+            
+            Etiam consimiliter dicit 
+            <lb ed="#E"/><name>albertus magnus</name> in 12o <title>metaphysicae</title> Etiam <name>augustinus</name> quod non perfecte cognoscimus nisi per etc
+          </p>
+        </div>
+        <div xml:id="ppr-l12-Dd1e4152">
+          <head xml:id="ppr-l12-Hd1e4154">[Corollaria]</head>
+          <p xml:id="ppr-l12-sepear"> 
+            Sequitur quod ab initio 
+            <lb ed="#E"/>fides fuit intentionis humanae directiva et quod sine ipsa non fuisset aliqui <unclear>scitum[?]</unclear> de multis specia<lb ed="#E"/>libus 
+            veritatibus
+          </p>
+          <p xml:id="ppr-l12-equami">
+            Sequitur ulterius quod fidei debet subiacere humana investigatio per medum 2m unde 
+              <lb ed="#E"/>duae sunt conditiones secundum prima quod malum esset scilicet sibi non subiaceretur quia sin non tunc erra<lb ed="#E"/>ret 
+            Secunda <corr><del>condo</del></corr> conditio quod debet obedire patet istum in <choice><orig>polliccitis</orig><reg>pollicitis</reg></choice>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

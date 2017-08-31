@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 1, de Fide</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 1, de Fide</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a critical edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="2-r"/><cb ed="#PV" n="a"/>
+        <pb ed="#E" n="1-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio1">
+        <head>Lectio 1, de Fide</head>
+        <p xml:id="ppr-l1-cpspfs">
+          Circa prologum quaeritur utrum 
+          in causa iudiciali fidei contra 
+          <choice><orig>tradicionem</orig><reg>traditionem</reg></choice> pure humanitus adinventam 
+          iudex idoneus pro fide 
+          ferret sententiam.
+        </p>
+        <p xml:id="ppr-l1-eipdlt">
+          Prima conclusio quod non 
+          subicitur fides 
+          <app>
+            <lem type="conjecture-corrected"><corr>iudicio rationis humanae</corr></lem>
+            <rdg wit="#PV">iudicio rationis</rdg>
+            <rdg wit="#E">rationi humanae</rdg>
+          </app> 
+          quare quia fides est donum dei excedens iudicium rationis 
+          humanae immediate 
+          <cit>
+            <quote ana="#iac1_17">
+            descendens a Patre 
+            luminum per gratiam 
+            </quote>
+            <bibl>Iacobus 1:17</bibl>
+          </cit>. 
+          Alia conclusio 
+          quam arguit <name>Cordig</name>: Singula 
+          <app>
+            <lem n="singula"/>
+            <rdg wit="#PV" type="variation-present">homini</rdg>
+          </app> 
+          in statu <choice><orig>innocenciae</orig><reg>innocentiae</reg></choice> fuerunt subiecta.
+          Et hoc habetur ex <title ref="#gen">Genesis</title> unde <name>Magister Petrus</name> 
+          qui dixit <name>Cordig</name> quod 
+          positio sua non fuit fundata  
+          ipse multiplicatur 
+          <app>
+            <lem>probavit</lem>
+            <rdg wit="#E">declaravit</rdg>
+          </app> 
+          eam, et primo 
+          assumpsit illum quod dictum 
+          est.
+        </p>
+        <!-- where i left off 2017-04-25 -->
+        <p xml:id="ppr-l1-isgmsn">Item superiora gubernant 
+          inferiora igitur in statu innocenciae 
+          homo habuit regimen et regimen[?] 
+          non solum morale sed naturale </p>
+        
+        <p xml:id="ppr-l1-ihfsie">Item homo factus est ad ymaginem 
+          dei ergo in statu innocentiae etc</p>
+        
+        <p xml:id="ppr-l1-spppoe">Sed propter peccatum obiecta fuit 
+          <cb ed="#PV" n="b"/> <!-- 2rb -->
+          soluta sequitur quod imperium <name ref="#Adam">Adae</name> 
+          fuit super omnes vires suas 
+          Ex quo sequitur quod gravitas 
+          non impedivisset motum sursum 
+          et sic iste motus fuisset naturalis 
+          <g ref="#dbslash"/>Salva igitur reverentia ponentis 
+          oppositum etc</p>
+        
+        <p xml:id="ppr-l1-iipica">Item ista positio 
+          fundata et per <name ref="#WilliamOfParis">guuilhelm parisiensis</name> 
+          in libro <title>de universo</title> ubi dicit 
+          si quaeritur eciam nulla enim poterat 
+          resistere potestatequi?si[?] con[?] se Imperaretur 
+          Imperium cursum adimpleret</p>
+        
+        <p xml:id="ppr-l1-indiep">Item ne dum hanc veritatem 
+          katholicus sed et <name ref="#Philosophers">philosophus</name> unde primo 
+          <title>pollictice</title> in rebus in animatis 
+          est principatus et dominum Et reperiunt 
+          in natura ut in armonia mixtum 
+          movetur secundum naturam elementi 
+          in eo praedominantis</p>
+        
+        <p xml:id="ppr-l1-iiaarp">Item 
+          in animali reperitur principatus</p>
+        
+        <p xml:id="ppr-l1-ieicmc">Item eciam in homine et hoc dicit 
+          <name>philosophus</name> in bene dispositis maximae 
+          una pars obedit alteri ut corpus 
+          animae excludendo malam naturae complexionem 
+          et eciam con?trus[?] malam 
+          consuetudinem</p>
+        
+        <p xml:id="ppr-l1-cpgrac">Consequenter 
+          ponit <name>guuilhelmus</name> credo tamen 
+          quod <name ref="#Aristotle">aristoteles</name> primo <title>pollite</title> <corr><g ref="#carrot"/><add>dangunt[?]</add></corr> duplicem 
+          principatum unum rationis 
+          super sensum et vocatur regalis 
+          et pollitcus alium rationis super 
+          corpus scilicet super vires non sensitivas 
+          et vocatur dispositus quando 
+          scilicet dominus adnutum utitur servo 
+          seu subdito et ista est habitudo 
+          dominii ad servum simpliciter 
+          et est racionis ad corpus</p>
+        
+        <p xml:id="ppr-l1-eqsspp">Ex 
+          quo sequitur quod corpori habet magis 
+          Imperare quam viribus sensitivis 
+          ex quo sequitur propositum principale</p>
+        
+        <p xml:id="ppr-l1-iaprdc">Item arguitur per raciones et sunt conclusiones 
+          praemittendae Prima 
+          quod operacio motus et effectus 
+          <pb ed="#PV" n="2-v"/><cb ed="#PV" n="a"/>qui veniunt a substantiis corporalibus 
+          a substantiis intellectualibus fuit 
+          ab Imperio divino et praecipue motus 
+          localis est ex imperio efficaci causae 
+          Imperantis et ad illud resolvitur 
+          divina causalitas</p>
+        
+        <p xml:id="ppr-l1-scqqio"><choice><orig>2a</orig><reg>secunaa</reg></choice> conclusio 
+          quod res habent diversos fines 
+          in quos diriguntur quasi in 
+          opposita</p>
+        
+        <p xml:id="ppr-l1-cqdame">Circa quod dicitur  
+          quod res magis appetunt bonum 
+          universi quam bonum proprium sicut 
+          apparet de vacui replecione et 
+          est magis naturale quia natura incinat 
+          magis et hoc applicatur quod non 
+          est negandum quando anima haberet 
+          Imperium super corpus in statu 
+          innocentiae et per hoc solventur 
+          raciones quae fiebant convertum 
+          ad materiam exteriorem</p>
+        
+        <p xml:id="ppr-l1-esrnms">Ex 2a radice 
+          scilicet secunda conclusione quia 
+          res magis obiediunt universali naturae ideo 
+          quia anima videtur habere ordinem videtur 
+          quod alia debebant sibi obedire 
+          et sic videtur fuisse naturale moveri 
+          sursum</p>
+        
+        <p xml:id="ppr-l1-uacerr">unde <name ref="#Albert">albertus</name> credo 
+          <lb ed="#E"/>super libro <title>de generatione</title> nutrimento[?] gravi[?] 
+          est naturale quod ascendit ex Imperio 
+          dato animae ex rationali regimine</p>
+        
+        <p xml:id="ppr-l1-iemmgn">Item 
+          elementa moventur sursum ad 
+          mixtorum generationem naturaliter</p>
+
+        <p xml:id="ppr-l1-eqsinp">Ex quo sequitur quod naturalis 
+          motus potest sumi praeter naturalem 
+          inclinationem naturae particularis</p>
+        
+        <p xml:id="ppr-l1-pprsnl">Pro probatione 
+          revelationis principalis 
+          meae arguitur de facto in statu naturae 
+          lapsae quia nam[?] movet coprus 
+          non obstante rebellione virium 
+          inferiorum nec videmus excessum 
+          domini in statu innocenciae 
+          ad excessum domini in statu
+          naturae lapsae</p>
+        
+        <p xml:id="ppr-l1-ivdfmm">Item videmus de facto 
+          quod manus movetur ad Imperium 
+          voluntantis et dominum quod habuit 
+          <name>adam</name> fuit multo magis </p>
+        
+        <p xml:id="ppr-l1-icpfms">Item capitur proportio gravitatis aeris 
+          et aquae mota compereamus densitatem 
+          <cb ed="#PV" n="b"/> <!-- 2vb -->
+          aquae ad densitatem aeris et dominum 
+          ad dominum Item si corpus esset 
+          reductu ad tempermentum ponderis 
+          <lb ed="#E"/>tunc aequaliter movetur 
+          sursum et deorsum modo <name>adam</name> 
+          fuit optime complexionatus 
+          ergo fuit <name>adae</name> valde difficile 
+          facile moveri sursum</p>
+        
+        <p xml:id="ppr-l1-iappno">Item <name>adam</name> 
+          potuit velle moveri quaeritur 
+          igitur utrum obediebat sibi gravitas 
+          vel non In statu innocenciae potentia 
+          regetativa obediebat <name>adae</name> 
+          ergo vis vegetativa erat subiecta 
+          voluntate antecedens patet per <name ref="#Augustine">augustinum</name> 
+          quare ergo aliae potentiae non 
+          obedissent</p>
+        
+        <p xml:id="ppr-l1-immivo">Item moventur 
+          multi sursum per saltum 
+          ergo vis Imperativo poterat sursum 
+          etc Item methaphysic concedunt 
+          quod viribus sensitivis 
+          obediunt etc ergo in statu Innocentiae 
+          debeant Imperio 
+          voluntatis obedire</p>
+        
+        <p xml:id="ppr-l1-iabepa">Item anima 
+          bene disposita praeter naturam 
+          exteriorem altera est per am??nam[?]</p>
+        
+        <p xml:id="ppr-l1-usaafe">Prima conclusio fides est 
+          donum dei supernaturali patet quia 
+          est error pelagii oppositum dicentis 
+          quia ex puris naturalibus 
+          ad notitiam articulorum fidei 
+          aliquis possit pertingere Item spiritu 
+          sancto locuit sunt sancti dei omnes 
+          et paulus fides est substantia rerum 
+          sperandarum argumentum non apparencium 
+          dicit notanter[?] quod est 
+          argumentum ad probandum particulares 
+          virtutes mtheolo??[?] 
+          et non dicit converso[?] quod fides non 
+          concluditur ex aliquo sed ex 
+          ea habita multa concluduntur 
+          et cognoscuntur saltem illa fides 
+          de qua In proposito unde[?] sicut 
+          karitas[?] dirigit voluntatem 
+          ad diligendum deum propter 
+          se ita proportionabiliter fides 
+          <pb ed="#PV" n="3-r"/>
+          <cb ed="#PV" n="a"/>inclinat intellectum ad credendum 
+          deo et purae veritati immediate 
+          habitus fidei abnegat omnes apparencias et sophistica 
+          ymo omnes rationes naturales repudeat[?] 
+          et est fr???or quam 
+          assensus primi principii et per rationem 
+          sophisticam possit aliquis 
+          dubitari primum principium</p>
+        
+        <p xml:id="ppr-l1-uaqriv"><choice><orig>3s</orig><reg>tres</reg></choice> 
+          sunt opiniones de fide quaedam 
+          dicit quod habetur sicut dictum 
+          est per infusione quia donum 
+          dei supernaturale. alia opinio est 
+          ipsius <name ref="#Holcot">holkot</name> dicentis quod ipsa 
+          habetur per solam <choice><orig>racionem</orig><reg>rationem</reg></choice></p>
+        
+        <p xml:id="ppr-l1-tempea"><g ref="#dbslash"/><choice><orig>3a</orig><reg>tertia</reg></choice> est media dicens quod habetur 
+          assensus fidei seu qui fides dicitur 
+          per voluntatem et rationem seu <choice><orig>apparenciam</orig><reg>apparentiam</reg></choice> 
+          unde <name ref="#Holcot">holgot</name> per rationem 
+          intelligit apparentiam staret quod 
+          sortes crederet articulis fide videlicet per 
+          <choice><orig>raciones</orig><reg>rationes</reg></choice> et miracula et saepe exi<del rend="strikethrough">e</del>ret 
+          in actum et tamen esset 
+          infidelis quia non haberet habitum 
+          illum quem ponimus fidem videlicet[?] 
+          infusum tamen talis habitus 
+          acquisitus per rationes et miracula 
+          esset sibi bonus quia praeservaret[?] eum 
+          adhaesi.</p>
+        
+        <p xml:id="ppr-l1-ctindr">Sed dices si sic fides 
+         haberetur solum per infusionem 
+         tunc rationes probabiles <sic>fuerent</sic> 
+         frustra.</p>
+        
+        <p xml:id="ppr-l1-qrpcdi">dicitur quod proficiunt non 
+         ad productionem talis habitus effective 
+         qui dicitur fides sed quia 
+         sunt quandoque fantastica per inductione
+          <choice><orig>dyaboli</orig><reg>diaboli</reg></choice> et illius obviatur
+          per rationes probabiles</p>
+        
+        <p xml:id="ppr-l1-ssqfes"><choice><orig>eciam</orig><reg>etiam</reg></choice> stat 
+          quod aliquis praemio inducatur 
+          ad credendum articulos fidei per 
+          <choice><orig>raciones</orig><reg>rationes</reg></choice> probabiles <corr><del rend="strikethrough">etiam stat</del></corr> 
+          et postea deus infundat sibi 
+          verum habitum fidei et fiat 
+          postea valde fidelis.</p>
+        
+        <p xml:id="ppr-l1-sqfppa">Sequitur 
+          quod fides est proprie sanitas 
+          <cb ed="#PV" n="b"/> <!-- 3rb -->
+          intellectus quia intellectus mi[?] fidem 
+          est inferius et pronus ad 
+          falsitatem per fidem sanatur 
+          <choice><orig>Eciam</orig><reg>Etiam</reg></choice> fides est aspera in principio 
+          quia queumadmodum[?] dicit hominem a tirreis[?] 
+          et <choice><orig>negociis</orig><reg>negotiis</reg></choice> temporalibus ergo 
+          multi contempnunt eum[?] quod est 
+          aspera patet per <name ref="#Paul">apostolum</name></p>
+        
+        <p xml:id="ppr-l1-acfefv">Conclusio 
+          fides est realiter meritoria ita 
+          quod est formaliter meritum ita 
+          quod est formaliter meritum patet 
+          scripturam quia quis per credere 
+          meretur ut patet de Abraham 
+          quia per credere iustus reputabitur 
+          vicem crediderit quod debet <choice><orig>ymolari</orig><reg>immolari</reg></choice> 
+          filium suum.</p>
+        
+        <p xml:id="ppr-l1-pqeqra"><g ref="#dbslash"/>Nota replices sunt 
+          actus animae aliqui sunt qui solum 
+          sunt cognitivi ut intellectiones 
+          Alii sunt qui sunt solum appetitivi
+          seu deliberativi ut sunt volitiones 
+          Alii sunt mixti scilicet cognitivi 
+          et appetitivi sive volitivi. unde 
+          actus fidei est realiter appetitivus 
+          seu cognitivus et <sic>dilectus</sic> magis 
+          quam cognitivus dixit <name>magister 
+          petrus</name> quod ad <choice><orig>augmentacionem</orig><reg>augmentationem</reg></choice> caritatis 
+           augmentaretur fides.</p>
+        
+        <p xml:id="ppr-l1-scosec">Contra 
+          In daemonibus est fides et tamen 
+          non est ibi caritas et vita. Item 
+          fides est mortua cum peccatoribus[?] 
+          et est auctoritas <name ref="#James">Iacob</name>. Item 
+          <name ref="#Paul">apostolus</name> si caritatem non habeam 
+          <choice><orig>nichil</orig><reg>nihil</reg></choice>.</p>
+        
+        <p xml:id="ppr-l1-airqip">Respondetur <choice><orig>ymaginando</orig><reg>imaginando</reg></choice> 
+          duplicem <add place="aboveLine">fidem</add> vitam unam per rationem 
+          probabilem acquisitam vel 
+          forte derelictam ex actibus credendi 
+          verae fide prius habiti per 
+          modum vestigii et ista staret 
+          cum peccato et talis acquisita 
+          per rationes est in daemonibus.</p>
+        
+        <p xml:id="ppr-l1-ampeno">
+          <pb ed="#PV" n="3-v"/>
+          <cb ed="#PV" n="a"/>
+          Aliter <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> possumus 
+          quod fides habet multi<add place="aboveLine">pliciter</add><del rend="strikethrough">tudinem</del> habitudinem 
+          ad subiectum in quo est scilicet habitudinem 
+          afficiendi seu appetendi 
+          seu per modum appetitus.  <choice><orig>2o</orig><reg>secundo</reg></choice> 
+          per modum cognitionis <choice><orig>3o</orig><reg>tertio</reg></choice> habet 
+          aliam habitudinem per modum 
+          inhaesionis et sic dicitur quod staret 
+          quod maneret substantiam fidei quando dicitur 
+          tum ad <choice><orig>terciam</orig><reg>tertiam</reg></choice> habitudinem 
+          et non convertum ad duas primas 
+          vi[?] creatura ?o?li[?] existente in peccato 
+          et sic esset mortua quia non 
+          staret in illo convertum[?] ad <choice><orig>operaciones</orig><reg>operationes</reg></choice> 
+          suas nobiles quia forte 
+          pro eo pro tunc scilicet qud esset homo 
+          hiis fidem in peccato non vellet 
+          deus ex?e[?] cum habitu fide.</p>
+        
+        <p xml:id="ppr-l1-qailaa">In actum convertum ad duas 
+          primas habitudines dixit 
+          <name>magister petrus</name> non esse possibile, <choice><orig>ymo</orig><reg>immo</reg></choice> nec
+          probabile quod <choice><orig>eciam</orig><reg>etiam</reg></choice> <choice><orig>agencia</orig><reg>agentia</reg></choice> naturalium  
+          haberet instinctualem modum  proportionalem 
+          libertati Itaque applicato 
+          combustibili[?] et stantibus omnibus 
+          requisitis stare in instinctu ignis 
+          agere vel non agere.</p>
+        
+        <p xml:id="ppr-l1-apaeis">Etiam 
+          dixit magister <name>Richardus</name> hac 
+          idem tenuisse in suis principiis 
+          habitus fidei id est non praecise nedum 
+          elevat intellectum, <choice><orig>ymo</orig><reg>immo</reg></choice> <choice><orig>eciam</orig><reg>etiam</reg></choice> 
+          reddit intellectum vigorosior 
+          et potentionem[?] et sic est in qualitatibus 
+          naturalibus ut coprus humanum 
+          quomodo est sub dispositionibus, si sic convenientibus[?] 
+          est sa??[?] quae si tollentur efficitur 
+          inf??? Et ideo <choice><orig>racionabile</orig><reg>rationabile</reg></choice> 
+          est quod <choice><orig>eciam</orig><reg>etiam</reg></choice> ita sit 
+          de fide et sic fides fortificat 
+          intellectum respectu quantumcumque 
+          virtutum quia fides est qualis 
+          convenientissima intellectus tollens 
+          omnem <choice><orig>disposicionem</orig><reg>dispositionem</reg></choice> contrariam 
+          et sic fides intensa facit rationes 
+          suas apparere <del rend="strikethrough">quod quando aliquis</del> 
+          demonstrativas.</p>
+        
+        <p xml:id="ppr-l1-eehnhf">Sequitur quod redarguendus 
+          est <name ref="#Averroes">averroiis</name> quod quando[?] 
+          <cb ed="#PV" n="b"/> <!-- 3vb -->
+          aliquis est imbutus[?] in lege est Impedimentum 
+          intellectus quia fides 
+          est sanitas intellectus Et 
+          negligentia fidelium est quod non magis 
+          acqurivit[?] <choice><orig>sciencias</orig><reg>scientias</reg></choice> p??tas[?] ad 
+          inventas</p>
+       
+        <p xml:id="ppr-l1-qeeppn">Nota de apparentiis quod aliqua apparentia est ex parte obiectit 
+          eius modi et ita communiter[?] est in lumine 
+          naturali quia est sensibilius disc??us 
+          et elicius[?] con??ones[?] in naturalibus. Alia est 
+          apparentia quae habetur non ab 
+          obiecto ut est divina quia nam[?] 
+          non habet ex parte obiecti sed ex se ut 
+          per prius habuit[?] <choice><orig>apparenciam</orig><reg>apparentiam</reg></choice> de 
+          ante christo quam[?] ante christus erat[?]. Et sic 
+          potest dici de fide ita quod <choice><orig>apparencia</orig><reg>apparentia</reg></choice> 
+          fidei est ex intrinseco ergo dici <name ref="#Paul">apostolus</name> 
+          quod sit non apparentium scilicet ex parte obiecti 
+          et sic fies habet modicum divinae 
+          rep[?] seu tancionis[?] et non dependet 
+          ab obiecto di?[?] praedicta ponitur 
+          a <name ref="#Aristotle">philosopho</name> <choice><orig>2o</orig><reg>secundo</reg></choice> <title ref="#Metaphysics">metaphysicae</title> et non est de novo[?] 
+          Iuventa deus sic scit au??m[?] 
+          fore et tamen non potest non fore unde 
+          dixit quod scientia non dependet 
+          ex ante christum fore vel non fore 
+          <g ref="#dbslash"/>Sacramenta legis novae sunt signa 
+          gratiae nedum signa sed eciam conferunt 
+          christi vi gratia Sunt duo 
+          aequaliter de noti[?] omnino et non 
+          baptisati tunc habeunt gravum 
+          eius debitam ratione denominationes 
+          et sacerdos baptizet unum 
+          et non velit alium baptisare 
+          Qio[?] quod posterius baptisatus 
+          habet maiorem gravum sed sacramenta 
+          veteris legis non constulerunt 
+          gravum.</p>
+        
+        <p xml:id="ppr-l1-ctffsi">Circum textum fava[?] est 
+          aliquid diligere finaliter seu 
+          ultimate propter se unum[?] quid 
+          volo frui[?] victoria[?] ??? uti 
+          Intelligitur quod voluit procedere 
+          ad alia seu ad illacionem aliorum 
+          malorum. Sed uti est diligere 
+          aliquam rem finaliter propter 
+          <pb ed="#PV" n="4-r"/>
+          <cb ed="#PV" n="a"/>
+          aliud et sic diligimus creaturas 
+          deus utitur creaturis et fruitur sui 
+          ipsius.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

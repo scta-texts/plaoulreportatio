@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 15, de Fide [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 15, de Fide [Palatine Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="21-r"/>
+        <cb ed="#PV" n="b"/> 
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio15">
+        <head xml:id="ppr-l15-Hd1e3726">Lectio 15, de Fide [Palatine Transcription]</head>
+        <p xml:id="ppr-l15-d1e3729">
+          <lb ed="#PV"/><hi rend="largeFont">Alia lectio in qua 
+          <lb ed="#PV"/>valde modicum legit quia erat aggre<lb ed="#PV"/>tatio 
+          universita<lb ed="#PV"/>tis ad conferendum 
+          <lb ed="#PV"/>aliquod beneficium</hi>
+        </p>
+        <div xml:id="ppr-l15-Dd1e3744">
+          <head xml:id="ppr-l15-Hrdpdpc">[Recapitulatio duarum praedictarum conclusionum]</head>
+          <div xml:id="ppr-l15-Dd1e3749">
+            <head xml:id="ppr-l15-Hcpcnsc">[Circa primam conclusionem: opinio quod actus fidei actus scientificus non sunt compossibiles]</head>
+            <p xml:id="ppr-l15-ecppss">
+              Conclusio quia licet actus
+              <lb ed="#PV"/>fidei credendi et sciendi sunt com<lb ed="#PV"/>passibiles
+              quo ad esse simul non tum[?]
+              <lb ed="#PV"/>quo ad in?ure[?]
+            </p>
+          </div>
+          <div xml:id="ppr-l15-Dd1e3764">
+            <head xml:id="ppr-l15-Hopdpdc">[Opinio Petri de Candia]</head>
+            <p xml:id="ppr-l15-ncmani">
+              <g ref="#slash"/>pro illo <choice><orig>ymaginat</orig><reg>imaginat</reg></choice> 
+              <lb ed="#PV"/><name>de candia</name>
+            </p>
+          </div>
+          <div xml:id="ppr-l15-Dd1e3785">
+            <head xml:id="ppr-l15-Hrapcrc">[Responsio ad opinionem Petri de Candia: quattuor conclusiones circa rationem cognitionis]</head>
+            <p xml:id="ppr-l15-cicimc">
+              <unclear>prima<!-- primo ?? --></unclear> cognitio 
+              <lb ed="#PV"/>non est intrinsece et essentialiter cognitio[?] 
+              <lb ed="#PV"/>probatur quod circumscriptis potentia 
+              <lb ed="#PV"/>in absolutam non mineret cognitio 
+              <lb ed="#PV"/>quia si non esse potentia 
+              <lb ed="#PV"/>cognitiva non esset cognitio Si 
+              <lb ed="#PV"/>esset sibi cognitio cum esset 
+              <lb ed="#PV"/>extra potentiam[?] et obiectum tunc esset 
+              <lb ed="#PV"/>in se formaliter vita quod videtur 
+              <lb ed="#PV"/>absurdum
+            </p>
+            <p xml:id="ppr-l15-spcsqq">
+              Item si oppositum 
+              <lb ed="#PV"/>staret videtur quod viveret cum cognoscere 
+              <lb ed="#PV"/>pertinet ad vitam
+            </p>
+            <p xml:id="ppr-l15-taippp">
+              <g ref="#slash"/>3o si poneretur 
+              <pb ed="#PV" n="21-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/><seg type="correction">mihi</seg> lapide et esset intrinsece cognitio 
+              <lb ed="#PV"/>non faceret lapidem intelligere 
+              <lb ed="#PV"/>quod est inpossibile patet consequentia ex qua 
+              <lb ed="#PV"/>esset intrinsece cognitio et sic diceret 
+              <lb ed="#PV"/>de volitione et sic de aliis potentiis 
+              <lb ed="#PV"/>praeceptis
+            </p>
+          </div>
+          <div xml:id="ppr-l15-Dd1e3847">
+            <head xml:id="ppr-l15-Hsccpua">[Secunda conclusio: cognitio non dicitur "cognitio" ex habitudine potentiae ut activa]</head>
+            <p xml:id="ppr-l15-scnicv">
+              Item <g ref="#dbslash"/> 2o dicitur quod non 
+              <lb ed="#PV"/>dicitur cognitio ex habitudine po<lb ed="#PV"/>tentiae 
+              ut activa est probatur quia 
+              <lb ed="#PV"/>est prior quam cognitio et sic staret 
+              <lb ed="#PV"/>quod produceret et tamen non perciperet
+            </p>
+            <p xml:id="ppr-l15-sncapc">
+              Item sequitur quod sic esset de omni 
+              <lb ed="#PV"/>notitia quod est falsum de notitia di<lb ed="#PV"/>vina
+            </p>
+          </div>
+          <div xml:id="ppr-l15-Dd1e3874">
+            <head xml:id="ppr-l15-Htccpur">[Tertia conclusio: cognitio non dicitur "cognitio" ex habitudine potentiae ut receptiva]</head>
+            <p xml:id="ppr-l15-tccsis">
+              <g ref="#slash"/>3o quod non dicitur co?gtio[?] 
+              <lb ed="#PV"/>in habitudine subiecti ut <choice><orig>sicud</orig><reg>sicut</reg></choice> so<lb ed="#PV"/>lum 
+              receptivum probatur quia doi[?] cog<lb ed="#PV"/>nitio 
+              non est in aliquo subiecto
+            </p>
+            <p xml:id="ppr-l15-spccee">
+              <lb ed="#PV"/><g ref="#slash"/>Confirmatur quia si poneretur 
+              <lb ed="#PV"/>in lapide haberet illam habitudinem
+              <!-- possible hometeleuton here -->
+            </p>
+          </div>
+          <div xml:id="ppr-l15-Dd1e3907">
+            <head xml:id="ppr-l15-Hqccevi">[Quarta conclusio: cognitio dicitur "cognitio" ex habitudine ad suam potentiam ut perceptivam et vitaliter immutabilem]</head>
+            <p xml:id="ppr-l15-qccasp">
+              <!-- possible hometeleuton here -->
+              <lb ed="#PV"/>ad potentiam ut perceptivam est 
+              <lb ed="#PV"/>et vitaliter immutabilia 
+              patet quia non 
+              <lb ed="#PV"/>dicitur cognitio in habitudine 
+              <lb ed="#PV"/>ad potentiam ut activa est etiam non 
+              <lb ed="#PV"/>ut passiva nec intrinsece quare 
+              <lb ed="#PV"/>relinquendum ultimum
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l15-Dd1e3932">
+          <head xml:id="ppr-l15-Hcccccc">[Corollaria circa cognitionem]</head>
+          <div xml:id="ppr-l15-Dd1e3937">
+            <head xml:id="ppr-l15-Hthpasc">[Triplex habitudo potentiae ad suam cognitionem]</head>
+            <p xml:id="ppr-l15-eppdah">
+              <!-- also includes <p xml:id="l15-eipncb"> -->
+              unde tres 
+              <lb ed="#PV"/>sunt habitudines una subiec<lb ed="#PV"/>tiva 
+              <g ref="#slash"/>alia activa <g ref="#slash"/>alia quod per eam 
+              <lb ed="#PV"/>apprehendit <g ref="#slash"/>et secundum ultimum 
+              <lb ed="#PV"/>dicitur cognitio et sic si sic esset 
+              <lb ed="#PV"/>ex potentiam non diceretur cognitio[?] et sic de aliis 
+              <lb ed="#PV"/>dicitur communiter quod istae habitudines 
+              <lb ed="#PV"/>sunt ab invicem separabiles
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l15-Dd1e3970">
+          <head xml:id="ppr-l15-Hd1e3972">Circa textum</head>
+          <p xml:id="ppr-l15-d1e3975">
+            <lb ed="#PV"/>Quod dixit <name>magister petrus</name> circa 
+            <lb ed="#PV"/>textum ??per se proprie dicta circa 
+            <lb ed="#PV"/>textum in praecedenti lectione non sp[?] scripsi 
+            <lb ed="#PV"/>ex ore eius istud quod immediate 
+            <lb ed="#PV"/>praecedit sed quasi totum postea 
+            <lb ed="#PV"/>ponitur vicem in una lectione 
+            <lb ed="#PV"/>vicem quae incipit visum est quod 
+            <lb ed="#PV"/>quaelibet creatura potest concurrere ob<lb ed="#PV"/>iective 
+            et potest etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

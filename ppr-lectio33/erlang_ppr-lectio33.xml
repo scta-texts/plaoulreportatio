@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 33, de Notitia [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-03">March 03, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>A SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="Erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-03" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="45-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio33">
+        <head xml:id="ppr-ppr-l33-Hldnldn">Lectio 33, de Notitia [Erlangen Transcription]</head>
+        <div>
+          <head xml:id="ppr-l33-Hcraarp">Continuatio responsionis ad rationes principales</head>
+          <p xml:id="ppr-l33-craanc">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Consequenter solvendae sunt rationes 
+          </p>
+          <div>
+            <head xml:id="ppr-l33-Hsrpsrp">Sexta ratio principalis</head>
+            <p xml:id="ppr-l33-easnee">
+              unde arguebatur quod notitia dei sit incompossibilis 
+              <lb ed="#E"/>creaturae quia si sic esset infinita igitur Quod esset infinita probatur nam illa notitia 
+              <lb ed="#E"/>esset perfectior quam notitia infinitorum aliorum obiectorum et cuiuslibet illorum distincte sed secundum 
+              <lb ed="#E"/>esset infinita <sic>in</sic> <unclear>consequentia tenet</unclear> quia prima esset infiniti obiecti 
+            </p>
+            <p xml:id="ppr-l33-airoop">
+              Respondet <name ref="#Wodeham">adam</name> et 
+              <lb ed="#E"/>concedit quod si daretur aliqua notitia talis scilicet infinitorum obiectorum et cuiuslibet per se 
+              esset infinita et negat consequentiam quod ergo notitia de deo esset infinita si haberetur causa est 
+              <lb ed="#E"/>quia notitia de deo non est ipsius ita perfecte repraesentativa sicut deus est in se et ideo quia infinitum 
+              <lb ed="#E"/>deficit illa notitia a perfectione dei quam non valet Et si illo modo repraesentaret verum <!-- possible homoteleuton here --> 
+              <lb ed="#E"/><sic>verum</sic> quod ipse quod ipse dicit quod antecedens est incompossibile unde in <ref target="http://scta.info/resource/wodehamabbreviatio"><name ref="#Wodeham">adam</name> <title>abbreviatio</title></ref> notatum 
+              <pb ed="#E" n="46-r"/>
+              <lb ed="#E"/>est in margine <!-- SUPER COOL, what manuscript/manifestation has a marginal note here --> quod notitia singularis quantum est ex parte sui aequaliter potest est plurium repraesenta<lb ed="#E"/>tiva 
+              sicut unius et distinctiva plurium ut si infinita <unclear>ova</unclear> similia praesentarentur intellectus 
+              per notitiam singularem aequaliter omnia apprehenderet
+            </p>
+            <p xml:id="ppr-l33-aector">
+              Advertendum est pro illo puncto 
+              <lb ed="#E"/>quod dicit quantum est ex parte notitiae creatae non repugnat quod sit distinctorum obiectorum 
+              <lb ed="#E"/>notitia et distincte cuiuslibet illorum
+              <!-- possible place for para break -->
+              Resolvenda est divisio animalis tacta quod quaedam sunt notitiae 
+              <lb ed="#E"/>supernaturales aliae <choice><orig>in mediate</orig><reg>immediate</reg></choice> causatae ab obiectis et diversae proprietates competunt huiusmodi notitiis 
+              <!-- possible break -->
+              <lb ed="#E"/>Circa quod advertendum de notitiis adhaesivis supernaturalibus quod aliquae licet sunt res 
+              <lb ed="#E"/><sic>vade</sic> <choice><orig>inperfecte</orig><reg>imperfecte</reg></choice> essentialiter et valde modicae perfectionis essentialis habent tamen aliquos modos perfectionis 
+              eis extrinsecos qui sunt modi perfectionis <seg type="correction"><add place="above-line">im</add>mense</seg> scilicet infallibilitas notitiae respectu futuri con<lb ed="#E"/>tingentis 
+              scilicet quod potest aliter venire unde distincte repraesentare infinitus est modus sequens 
+              <lb ed="#E"/>modum <choice><orig>in mensum</orig><reg>immensum</reg></choice> 
+              <!-- possible break point -->
+              Consequenter de simplicibus notitiis supernaturalibus illae habent modum <choice><orig>in<lb ed="#E"/>mensum</orig><reg>im<lb ed="#E"/>mensum</reg></choice> 
+              sicut notitia animae christi licet sit valde modicae perfectionis essentialiter habet tamen modum immensum 
+              <!-- possible break point -->
+              <lb ed="#E"/>Opinio doctoris quod anima christi cognoscit omnia quae verbum distincte Notitia singularis supernaturalis 
+              <lb ed="#E"/>potest repraesentare quod non repraesentabat ante et potest non repraesentare quod repraesentabat Sed 
+              <lb ed="#E"/>notitia singularis creata ab obiecto est repraesentativa illius obiecti quod obiective influit ad ipsius 
+              <lb ed="#E"/>causationem et ideo secundum quod obiectum taliter concurrit ad ipsius causationem 2m hoc 
+              <lb ed="#E"/>est talis obiecti repraesentativa
+            </p>
+            <p xml:id="ppr-l33-eqsena">
+              sequitur quod non stat aliquam notitiam singularem causatam 
+              <lb ed="#E"/>ab obiecto sensibili esse <unclear>plurum</unclear> repraesentativam distincte Unde non est repraesentativa nisi illius ad<lb ed="#E"/>aequatae 
+              quod causat ipsam Ita quod si sint <name>sortes</name> et <name>plato</name> et quilibet eorum concurrat ad causandum 
+              <lb ed="#E"/>notitiam quilibet causabit notitiam sui et non unus alterius alias non esset propria
+            </p>
+            <p xml:id="ppr-l33-iseanc">
+              Et sic 
+              <lb ed="#E"/>apparet satis 2m dictum esse falsum scilicet quod stat aliquam notitiam singularem esse repraesentativorum 
+              <lb ed="#E"/>infinitorum obiectorum et cuiuslibet eorum distincte ut positum est de ovis unde si notitia sit unica 
+              <lb ed="#E"/>certum est quod est confusa sicut est notitia infinitarum partium continui concurrentium simul ad productionem 
+              <lb ed="#E"/>notitiae confusae et si causaretur infinite notitiae non est ad propositum quia non est una notitia 
+              <lb ed="#E"/>Vel ergo oportet dicere quod causabitur notitia confusa omnium illorum simul repraesentativa vel quod quodlibet 
+              <lb ed="#E"/>causabit suam notitiam distincte et sic essent infinite vel oporteret dicere quod ex limitatione causarum 
+              <lb ed="#E"/>superiorum causaret notitiam unius et non omnium quia non stat potentiam esse capacem 
+              <lb ed="#E"/>infinitarum notitiarum simul
+              <!-- paragraph break point -->
+              Quantum ad hoc concedit <name ref="Wodeham">Adam</name> quod non est aliqua talis 
+              <lb ed="#E"/>notitia creata infinitorum obiectorum repraesentativa distincte non forte sit ex parte potentiae 
+              <lb ed="#E"/>ut si daretur suprema creatura ut suprema intelligentia qua nulla potest esse 
+              <lb ed="#E"/>creatura perfectior non esset inconveniens quod haberet notitiam valde perfectam huius obiecti et cuiuslibet 
+              <lb ed="#E"/>eiusdem speciei distincte repraesentativam De notitiis creatis a deo obiective supernaturalibus non 
+              <lb ed="#E"/>videtur inconveniens quod unica sit infinitorum distincte repraesentativa ut patet de notitia animae christi 
+              <lb ed="#E"/>quae <unclear>ratione</unclear> concursus obiecti habet modum valde nobilem et capit illum modum ab obiecto 
+              <!-- possible paragraph break -->
+              Consequenter 
+              <lb ed="#E"/>conceditur quod possibilis est aliqua notitia quae infinitorum est repraesentativa et negatur quod ergo sit infi<lb ed="#E"/>nita 
+              essentialiter <del rend="expunctuation">Secunda responsio</del> ut notitia animae christi quae est infinitorum repraesentativa 
+              <lb ed="#E"/>et tamen finita essentialiter 
+              <!-- possible break point -->
+              <lb ed="#E"/>2a responsio ad rationem dato quod <unclear>ista</unclear> ita esset quod notitia crea<lb ed="#E"/>ta 
+              si daretur esset infinitorum repraesentativa et diceretur infinita non tamen sequitur quod esset 
+              ita perfecta sicut notitia dei sicut dictum est in solutione rationis praecedentis et sunt ibi tacti multi<lb ed="#E"/>modi
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l33-Hsepsrp">Septima ratio principalis</head>
+            <p xml:id="ppr-l33-srelsp">
+              Ad rationem 2am rationem probantem quod non est possibile etc quia vel apparet bonum in<lb ed="#E"/>finitum 
+              vel praecise finitum Prima facie probaretur per istud argumentum quod notitia de deo 
+              <lb ed="#E"/>non est possibilis non potest dici quod apparet praecise finitum quia aliter apparet quem 
+              <lb ed="#E"/>esset nec infinitum quia si sic tunc creatura cognosceret <unclear>cum</unclear> secundum totam latitudinem 
+              <lb ed="#E"/>suae bonitatis.
+            </p>
+            <p xml:id="ppr-l33-hsvptn">
+              De isto sunt varii modi dicendi Primo potest dici quod deus clare et immediate 
+              <lb ed="#E"/>visus nec apparet bonum finitum nec infinitum quod non finitum clarum est quia alias elicere<lb ed="#E"/>tur 
+              ex notitia intuitiva <choice><orig>in mediata</orig><reg>immediata</reg></choice> iudicium finitum Quod nec apparet apparet bonum infinitum Similiter 
+              potest nam deus potest clare videri et tamen quod non ostendat se secundum a rationem nec secundum <c>b</c> rationem 
+              <lb ed="#E"/>et sic de aliis per quas realiter ponuntur intrinsece perfectiones in ipso et sic non posset 
+              <lb ed="#E"/>elici quod esset sapientissimus ergo stat quod videatur et non secundum rationem secundum quam 
+              <lb ed="#E"/>dicitur bonum infinitum
+            </p>
+            <p xml:id="ppr-l33-apddid">
+              Aliter potest dici et communius quod licet per notitiam intuitivam quia illa est 
+              simplex intellectus non iudicet quod sit bonum finitum vel infinitum tamen mediante illa notitia 
+              statim elicitur illud iudicium evidens quod deus est simpliciter bonum infinitum Si sic bacu<lb ed="#E"/>lus 
+              per apparentiam simplicem apparet fractus et intellectus elicit iudicium complexum evidens quod esset 
+              <lb ed="#E"/>fractus si intellectus non esset aliunde destructus Ad particularisandum et intelligendum quid 
+              <lb ed="#E"/>est dicere deus est bonum infinitum
+            </p>
+            <p xml:id="ppr-l33-apdnui">
+              Notandum primo 2m opinionem <name ref="#Ripa">magister iohannes de ripa</name> Quod secundum 
+              rationes formales in deo qui dicunt perfectiones simpliciter et sunt ordinata secundum 
+              <lb ed="#E"/>praedicata essentialia <pc type="virgula">/</pc> deum videre ut infinitum vel ut appareat ut bonum infini<lb ed="#E"/>tum 
+              dupliciter intelligitur uno modo quia videretur secundum omnem rationem intrinsecam sibi ut quod appa<lb ed="#E"/>reret 
+              ens vivens et sic de aliis ex quibus omnibus resultat ratio deitatis et sic videre ipsum ut 
+              <lb ed="#E"/>bonum infinitum esset videre ipsum sub ratione deitatis
+              <!-- break -->
+              Alio modo quod solum secundum unam rationem 
+              <lb ed="#E"/>ita quod non secundum aliam ut inesse entis absque hoc quod inesse sapientiae Ponamus quod solum 
+              <lb ed="#E"/>2m unicam videatur utrum appareret bonum infinitum dicitur quod sic quia quaelibet ratio in deo 
+              <lb ed="#E"/>dicit infinitam rationem formalem Sed proprie loquendo non apparet bonum immensum quia 
+              <lb ed="#E"/>bonum immensum dicit perfectionem tam intensive quam extensive vel immensitas 
+              <lb ed="#E"/>dicit perfectionem intensivam et etiam extensivam Et sic oportet si debeat apparere ut bonum 
+              <lb ed="#E"/><choice><orig>in mensum</orig><reg>immensum</reg></choice> quod appareret 2m omnem perfectionem intrinsecam sibi et sic stat quod videatur ut 
+              <lb ed="#E"/>bonum infinitum et non ut bonum <choice><orig>in mensum</orig><reg>immensum</reg></choice>
+            </p>
+            <p xml:id="ppr-l33-vetpid">
+              Aliter potest exponi quod deus apparet 
+              <lb ed="#E"/>bonum immensum vel infinitum Et sunt plures modi Primus modus quod videns deum 
+              eo ipso quod videret posset immediate elicere iudicium de qualitate perfectionis quae deo competit 
+              <lb ed="#E"/>et affirmare quodlibet praedicatum perfectionale de deo et non oportet quod quilibet videns deum isto modo 
+              videat ipsum nec oportet quod quilibet beatus vi illius visionis sive discursu immediate quodlibet 
+              <lb ed="#E"/>tale attribuat deo
+            </p>
+            <p xml:id="ppr-l33-iapsvd">
+              Alio modo quod vi visionis <unclear>simplicis</unclear> quam habet aliquis de deo sive in via 
+              <lb ed="#E"/>ut <name ref="#Paul">paulus</name> et <name ref="#Moses">moyses</name> sive in patria ut beatus eliciat iudicium 
+              <lb ed="#E"/>quod deus habeat infi<lb ed="#E"/>nitas 
+              perfectiones etiam latentes ipsum scilicet quas non videt ita quod iudicet ipsum habere 
+              <lb ed="#E"/>omnes perfectiones supereminens et quod vi illius visionis iudicet ipsum non esse visum 
+              ab eo secundum omnem modum suae perfectionis
+            </p>
+            <p xml:id="ppr-l33-esdilp">
+              Et sic ex hoc non sequitur quod conprehensive 
+              <lb ed="#E"/>cognoscat quia non oportet quod secundum omnem praedicatum vel illa cognitio non esset 
+              <lb ed="#E"/>ita perfecta in esse cognitionis sicut obiectum in se
+            </p>
+            <div>
+              <head xml:id="ppr-l33-Hraoaor">Responsio ad octavam rationem</head>
+              <p xml:id="ppr-l33-arqeir">
+                Aliae rationes confundantur in comparatione sensus 
+                <lb ed="#E"/>ad intellectum reducuntur ad tria puncta Aliquae procedunt et deficiunt quia sensus 
+                <lb ed="#E"/>utitur organo corporeo intellectus autem non ideo sensus limitatur modo sibi proportio<lb ed="#E"/>nato 
+                <!-- break -->
+                Aliae procedunt et deficiunt quia obiectum corporale non potest applicari sensui 
+                <lb ed="#E"/>sicut obiectum spirituale intellectui quia obiectum corporale requisit certam distantiam et 
+                <lb ed="#E"/>patet de visibili respectu visus ad causandum certum angulum in oculo et sic divina essentia 
+                applicatur aliter intellectui quod obiectum sensibile sensui
+              </p>
+              <p xml:id="ppr-l33-iadcid">
+                <!-- break -->
+                Item aliqui deficiunt quia probant 
+                <pb ed="#E" n="47-r"/><lb ed="#E"/>quod deus non est cognoscibilis simpliciter vel quod non est comprehensibilis hoc bene conceditur
+                <!-- break -->
+                <lb ed="#E"/>Item fuerunt adductae auctoritates quia dicitur deum nemo vidit et <name ref="#Paul">apostolus</name> deus inhabitat 
+                <del rend="strikethrough">l</del> lucem in accessibile
+              </p>
+              <p xml:id="ppr-l33-aiacid">
+                primo possunt intelligi de cognitione comprehensiva et sic bene conceditur quia 
+                <lb ed="#E"/>nemo vidit deum unquam comprehensive quia non est cognitio creaturae ita perfecta inesse 
+                notitiae sicut obiectum inesse suae cognoscibilitatis
+              </p>
+              <p xml:id="ppr-l33-sdqide">
+                <!-- break -->
+                <lb ed="#E"/>Secundo omnes possunt intelligi Nemo <unclear>deum</unclear> vidit Et  
+                <lb ed="#E"/>inhabitat lucem inaccessibilem intelligitur beatifice et hoc ex puris naturalibus et sive gratia 
+                speciali dei et specialiter elevante Unde deus inhabitat lucem inaccessibilem semper 
+                <lb ed="#E"/>per viam naturae Et hoc non solum est de cognitione beatifica <choice><orig>ymmo</orig><reg>immo</reg></choice> probabiliter potest dici quod ad 
+                <lb ed="#E"/>conceptum simplicem dei prout est theologicae considerationis per pura naturalia non 
+                <lb ed="#E"/>potest homo attingere
+              </p>
+            </div>
+            <div>
+              <head xml:id="ppr-l33-Hrananr">Responsio ad nonam rationem</head>
+              <p xml:id="ppr-l33-uaqfee">Ultimo arguebatur quod deus non potest cognosci quia deum esse 
+                <lb ed="#E"/>traditur per modum articuli quod non esset si posset eius notitia haberi
+              </p>
+              <p xml:id="ppr-l33-airsit">
+                Primo respondere negando 
+                <lb ed="#E"/>consequentiam quia <unclear>licet<!-- possibily corrected --></unclear> scientifice cognoscatur stat tamen quod etiam per fidem quia ut prius 
+                <lb ed="#E"/>patuit quam est de scientia et fide nec habitus habitui nec actus actui repugnat unde 
+                <lb ed="#E"/>actus fidei est aenigmaticus et tamen non est contrarius actui clare ut possibile est quod christus <unclear>aliqua</unclear> 
+                <lb ed="#E"/>videat in verbo et etiam in proprio genere et sit satis rationabiliter traditur ad credendum Quia 
+                per hoc quod homo exit in actum aenigmaticum ipse meretur sumpto quod sit in caritate
+              </p>
+              <p xml:id="ppr-l33-acamaf">
+                <lb ed="#E"/><name ref="#Aquinas">Beatus thomas</name> assignat alias causas
+              </p>
+              <p xml:id="ppr-l33-uecone">
+                Prima est defectus ingenii quia licet sit scitum 
+                <lb ed="#E"/>deum esse tamen hoc non est nisi ab ingeniosis quia non a simplicibus potest forte scientifice 
+                attingi quia non sunt capaces metaphysicae et philosophiae
+              </p>
+              <p xml:id="ppr-l33-scesns">
+                <lb ed="#E"/>Secunda Causa propter negligentiam licet 
+                esset quilibet satis ingeniosus 
+              </p>
+              <p xml:id="ppr-l33-tceant">
+                Tertia propter paupertatem quia forte homo non habet 
+                <lb ed="#E"/>unde pro se quilibet esset ingeniosus et diligens
+              </p>
+              <p xml:id="ppr-l33-qnmcde">
+                Item propter moram quia quam cito 
+                <lb ed="#E"/>est adultus obligatur ad fidem et sic necessarium est quod <unclear>ministretur</unclear> sibi per modum fidei 
+                quia requiritur magna mora antequam informaretur in methaphysica
+              </p>
+              <!-- seems missing 
+                <p xml:id="ppr-l33-eictac">Ex istis causis apparet quod quamvis evidenter 
+                <lb ed="#R"/>possit demonstrari 'Deum',  nihilominus tamen expedit 
+                <lb ed="#R"/>quod tradatur ad credendum per modum articuli fidei. Ideo 
+                <lb ed="#R"/>consequentia non valet: 'potest scientifice demonstrari, ergo non debet 
+                <lb ed="#R"/>tradi ad credendum'.</p> 
+              -->
+            </div>
+            <div>
+              <head xml:id="ppr-l33-Hconsio">Conclusio</head>
+              <p xml:id="ppr-l33-edsevd">
+                <!-- includes <p xml:id="ppr-l33-eiafne"> 
+                and <p xml:id="ppr-l33-eqpdad">
+                -->
+                Sequitur quod humana 
+                <lb ed="#E"/>investigatio indiget fide et theologia et dirigentibus ipsam nam humana investigatio 
+                <lb ed="#E"/>sic pure derelicta non iuta fide vel gratia spirituali non attingeret ad dei notitiam 
+                <lb ed="#E"/>ergo oporteret quod dirigatur Primo <title ref="#Ethics">ethicorum</title> recitatur de triplici via unus qui sufficit 
+                etiam ad hoc quod dirigat alios 
+                <!-- break -->
+                Alius sufficit vel aptus est ut dirigatur Tertius 
+                <lb ed="#E"/>qui nec sufficit dirigere nec aptus est dirigi et talem est in utilis et sic fides et theologia 
+                <lb ed="#E"/>repraesentant primum virum humana investigatio directa ab illis tertium unde theologia 
+                est directiva omnium scientiarum <ref><name>Paulus</name> <title>ad ephesios</title> 4to</ref> <quote ana="#eph4_17"> <!-- and eph4_18 -->non amplius ambuletis sicut gen<lb ed="#E"/>tes 
+                ambulant in vanitate sensus sui tenebris obscuratum habentes intellectum</quote> 
+                <lb ed="#E"/>Sed 2m illud <ref><title ref="#is">ysaie</title> 8vo</ref> 
+                <quote>ponam</quote> etc Et sic habemus istud primum principium theologicum 
+                <lb ed="#E"/>quod deus est summum bonum 
+              </p>
+              <p xml:id="ppr-l33-sefpss">
+                Et <ref><name ref="#Bradwardine">vvraguodini</name> in prima parte <title>summa</title> suae</ref> infert 
+                <lb ed="#E"/>multas <subst><del rend="strikethrough">proprietates</del> <add place="in-line">propositiones</add></subst> de illo primo principio theologico
+              </p>
+              <p xml:id="ppr-l33-eiansa">
+                Et sic patet quod testes sunt falsi 
+                <lb ed="#E"/>et insipientes qui dicunt quod non est deus et per consequens non sunt audiendi Etiam 
+                pro alia parte <unclear>adducerentur</unclear> testes magis ydonei
+              </p>
+              <p xml:id="ppr-l33-esfcfe">
+                et sic est finis istius materiae sex articulorum 
+                praemissorum postea videbitur de materia fruitionis
+              </p>
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l33-Dctctct">
+          <head xml:id="ppr-l33-Hctctct">Circa textum</head>
+          <p xml:id="ppr-l33-cdtint">
+            Circa distinctionem 31am 
+            <lb ed="#E"/>Aequalitas non reperitur nisi inter illa inter 
+            quae est aliqualis distinctio Et <name ref="#Lombard">Magister</name> 
+            quod aequalitas prout attribuitur personis divinis non debet teneri nisi privative
+            <lb ed="#E"/><choice><orig>Ymmo</orig><reg>Immo</reg></choice> <unclear>magistri</unclear> dicunt oppositum scilicet quod positive sunt aequales unde <name ref="#Lombard">magister</name> dicit 
+            <lb ed="#E"/>quod quando dicitur quod sunt aequales non ponitur aliquid sed intelligitur privatio scilicet quod 
+            unus non est maior alio nec unus minori alio <name>magister</name> in isto non tenetur
+          </p>
+          <p xml:id="ppr-l33-idumpe">
+            <pb ed="#E" n="47-v"/>
+            <lb ed="#E"/>Item dicitur ulterius quod pater et filius et spiritus sanctus sunt aequales magis propter essentiam
+          </p>
+          <p xml:id="ppr-l33-idmipp">
+            Item dicitur <name ref="#Lombard">magister</name> uni<lb ed="#E"/>tas patri attribuitur quia habet praevenitatem aequalitas filio quia primo reperitur in eo aequalis <!-- possible ommision in PV here --> 
+            <lb ed="#E"/>quia non diceretur pater aequalis nisi produceret aliud Quando dicit christus ego et pater unum sumus 
+            <lb ed="#E"/>per quod dicit ego innuit <sic>unitate</sic> essentiae per hoc quod dicit sumus innuit <sic>pluralitatem</sic> personarum
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

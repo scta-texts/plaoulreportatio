@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 14, de Fide [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 14, de Fide [Erlangen Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+  <front>
+    <div xml:id="include-list">
+      <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+      <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+    </div>
+    <div xml:id="starts-on">
+      <pb ed="#E" n="16-v"/>
+    </div>
+  </front>
+  <body>
+      <div xml:id="ppr-lectio14">
+        <head xml:id="ppr-l14-Hd1e3726">Lectio 14, de Fide [Erlangen Transcription]</head>
+        <div xml:id="ppr-l14-Dd1e3729">
+          <head xml:id="ppr-l14-Hrpcdic">[Recapitulatio praedicta conclusio: cum fide, ratio naturalis potest devenire in cognitionem
+            articulorum fidei]</head>
+          <p xml:id="ppr-l14-iplimi">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Fuit tactum qualiter fides habet roborare intellectum augere eius activitatem et illumina<lb ed="#E"/>re 
+            quantum adexire in actum intantum intellectus sit intus potest devenire ad cognitionem 
+            <lb ed="#E"/>articulorum fidei uno <unclear>modo[?]</unclear> per media extrinseca Alio modo per media intrinseca silicet illa 
+            <lb ed="#E"/>quae habent ordinem per modum processus scientifici a principiis ad conclusiones scilicet per media 
+            <lb ed="#E"/>eiusdem generis cum conclusionibus et ex terminis consimilibus terminis conclusionum Per media extrinseca 
+            <lb ed="#E"/>secundum quod dictum fuit prius de triangulo vel quia ab auctoritate scilicet quia dicitur quod <name>euclidum</name> 
+            <lb ed="#E"/>demonstravit vel etiam licet aliquando exivi et pro nunc non occurrit medium recor<lb ed="#E"/>dor 
+            tamen quod alias demonstravi et tunc arguerem sic quicquid est scitum a me alias vel 
+            <lb ed="#E"/>demonstrari mihi alias est verum sed etiam igitur Ita potest esse de articulis fidei primo quod aliquae sunt 
+            <lb ed="#E"/>qui realiter non relucent in creatura ut est de articulo incarnationis Alii sunt qui 
+            <lb ed="#E"/>habent habitudinem <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> tamquam causa ad effectum sicut deum esse quia est 
+            <lb ed="#E"/>habitudo creaturae ad deum et ergo potest ex creaturis concludi deum esse et potest 
+            <lb ed="#E"/>concludi non ut currit respectu productionis creaturarum ut essentia sed ut trinitas 
+            <lb ed="#E"/>et ideo effectus habet habitudinem ad causam tamquam ad causam trinam Et ideo rationaliter 
+            <lb ed="#E"/>dicitur quod articulus fidei relucet in natura ita quod lumen naturale adiutum fide potest deducere 
+            <lb ed="#E"/>articulum sic quod intellectus adiutus lumine fidei potest roborari id est quantum ad cuius activi<lb ed="#E"/>tatem 
+            quod etc Dico ista solum probabiliter et credo quod non debeat alicui imputari 
+            <lb ed="#E"/>ad malum si loquatur solum probabiliter vel asserendo cum sobrietate et humilitate
+          </p>
+        </div>
+        <div xml:id="ppr-l14-Dd1e3891">
+          <head xml:id="ppr-l14-Hmepppf">[Media extrinseca per quae potest probari fides]</head>
+          <p xml:id="ppr-l14-riivrc">
+            <lb ed="#E"/>Restat adducere media extrinseca ex quibus habet probari fides primum medium quod 
+            <lb ed="#E"/>tangit <name>wilhelm parisiensis</name> in libro <title>de universo</title> Nam ab initio mundi ante?ssitem[?] 
+            <lb ed="#E"/>promulgationem fidei fuerunt facta miracula in attestationem veritatis fidei et 
+            <lb ed="#E"/>denaverunt[?] miracula apud iudaeos quam diu non recesserunt a lege unde 
+            <lb ed="#E"/>christus <quote>non veni solvere legem sed ad inplere</quote> sed postquam recesserunt a fide 
+            <lb ed="#E"/>non fuerunt per eos facta <corr>miracula</corr> et illa miracula apud nos sunt continuata 
+            <lb ed="#E"/>quamdiu fides indiguit et quam diu non fuit saltem promulgata
+          </p>
+        </div>
+        <div xml:id="ppr-l14-Dd1e3961">
+          <head xml:id="ppr-l14-Hrosapf">[Ratio octo Scoti ad probandum fidem]</head>
+          <p xml:id="ppr-l14-smaqhc">
+            <name ref="#Scotus">Doctor 
+            <pb ed="#E" n="17-r"/>
+            <lb ed="#E"/>subtilis</name> in prologo suo ponit alia media quae debent merito movere quod ista fides sic 
+            <lb ed="#E"/>saluberrima
+          </p>
+          <p xml:id="ppr-l14-prpqhc">
+            primum medium firma prophetia evidentur[?] quia multa dixe<lb ed="#E"/>runt 
+            prophetae quae postea facta sunt evidenta
+          </p>
+          <p xml:id="ppr-l14-srecfn">
+            Secundum per istam concordantia doctorum 
+            <lb ed="#E"/>distantium ab invicem distantia locali sibi sicut sunt per <name>moysen</name> et concorditer 
+            <lb ed="#E"/>locuti sunt quantumcumque distarent omnes de christo nostro salvatore quamvis aliqui 
+            <lb ed="#E"/>obs?us[?] et aliqui clarius et erat tota expectatio in deorum sed quando venit refutaverunt
+          </p>
+          <p xml:id="ppr-l14-trefpe">
+            Tertium avots[?] scribentium si videamus quales fuerunt in vita et mori<lb ed="#E"/>bus 
+            etc Unde aliqui exposuerunt se morti ergo bonitas morum excludit fallaciam 
+            <lb ed="#E"/>seductionis ergo non erunt suspecti de mendacio <name>Aristoteles</name> 4to <title>ethicorum</title> <quote>omne <sic>man<lb ed="#E"/>dacium</sic> 
+            de se pravum <!-- ethics 4.7 --> </quote> Secundo mendacium est totius religionis subversivum non ne<lb ed="#E"/>phandissimum 
+            est et ideo non potest stare in hominibus bonorum morum mendacium impedit 
+            <lb ed="#E"/>optimam conditionem hominum inditam <unclear>homini[?]</unclear> scilicet quod unus credit alteri
+          </p>
+          <p xml:id="ppr-l14-qrsead">
+            Quartum simplicitas 
+            <lb ed="#E"/>promulgentium si per magnos philosophos et <unclear>rethoros</unclear> secus esset quia forte <choice><orig>inputaretur</orig><reg>imputaretur</reg></choice> 
+            <lb ed="#E"/>prudentiae licet hoc non sed per simplices utque de facto <name>petro</name> qui fuit grossus et antiquus 
+            <lb ed="#E"/>piscator promulgavit coram potentibus prudentibus et sapientibus itaque cepit 
+            <lb ed="#E"/>ignaros ad fidei altissime divulgationem Ergo signum quod ille deus fuit ex quo tales 
+            <lb ed="#E"/>simplices ita illistravit
+          </p>
+          <p xml:id="ppr-l14-qredca">
+            <unclear>Quantum<!-- quintum --></unclear> medium sollicitudo recipientium quia 
+            <lb ed="#E"/>spiritu sancto docente erant multi libri scripti resecati[?]
+          </p>
+          <p xml:id="ppr-l14-srlpfm">
+            Sextum motivum limpiditas 
+            <lb ed="#E"/>miraculorum et de isto tactum est in principio
+          </p>
+          <p xml:id="ppr-l14-esomdm">
+            Si obicitur de miraculis gentilium <name>Lactan<lb ed="#E"/>tius</name> 
+            bene responsionem dicit enim quod daemones libenter seducunt genus humanum iam 
+            <lb ed="#E"/>aliquando faciunt miracula ut adorentur et sicut legitur in legenda <name>sancti anthonus</name> ipsi 
+            <lb ed="#E"/>scivit applicare aliqua laesiva et postea removeret illa et sic videntur curare 
+            Secundo licet aliquando apud gentiles fuerint visa mirabilia tamen non ad fidem 
+            <lb ed="#E"/>sed ad alium finem etiam semper fuerunt facta per malos dico no?liter[?] mirabilia et 
+            <lb ed="#E"/>non miracula
+          </p>
+          <p xml:id="ppr-l14-srepem">
+            Septimum rationabilitas concentorum quia ista lex nihil praecipit 
+              <lb ed="#E"/>nisi rationale et prohibet esse malum
+          </p>
+          <p xml:id="ppr-l14-aemeip">
+            Advertendum quod difficultas credendorum est inper<lb ed="#E"/>tinens 
+            ad agibilia si credamus in particulari quod deus est trinus et unus qui sic ponit uno 
+            <lb ed="#E"/>culto tolit essentiam et trinitatem Istud non est contra moralia et ideo apud quemcumque 
+            <lb ed="#E"/>philosophum approbaretur fides nostra <name>Avicenna</name> in libro suo ult?is[?] <title>metaphysicae</title> dicit quod felicitatem 
+            <lb ed="#E"/>corporis optime tradidit <name>machametus propheta noster</name> felicitatem animae alterius[?] theo<lb ed="#E"/>logi 
+            <name>machametus</name> praedicavit voluptates sed naturalis philosphus non Et dici <name>avicenna</name> 
+            <lb ed="#E"/>Quia evitando et faciendo contra legem cor?tis[?] anima efficitur quadammodo[?] seculum[?] intelligentiae et 
+            <lb ed="#E"/>reputatum totius universi 
+            Et sic <name>avicenna</name> videtur dicere de meis[?] theologis licet non 
+            <lb ed="#E"/>ita expresse
+          </p>
+          <p xml:id="ppr-l14-oretam">
+            Octavum est stabilitas ecclesiae bene ipsa fuit introducta quando potentia 
+            <lb ed="#E"/>fuit maxima maiores Unde exiit edcm[?] acesare[/} augusto et fuit introduca 
+            <lb ed="#E"/>per simplices
+          </p>
+        </div>
+        <div xml:id="ppr-l14-Dd1e4317">
+          <head xml:id="ppr-l14-Hprmppf">[Plus rationes morales pro probandum fidem]</head>
+          <p xml:id="ppr-l14-mesdfn">
+            Item in materia moralino[?] semper oportet habere demonstrationem Secundum <name>al<g ref="#dbdash"/>phorabium</name> 
+            <lb ed="#E"/>multi sunt modi probandi fidem per testes <title>actis</title> primo exitis[?] in[?] 
+            <lb ed="#E"/>testes per legem sicut christus met arguit contra dyabolum Scriptum est non temptans 
+            <lb ed="#E"/>per pactum permamentum[?] perveratem[?] Affectio vehemens ad bona temporalia tollit 
+            <pb ed="#E" n="17-v"/>
+            <lb ed="#E"/>affectionem spiritualium
+          </p>
+        </div>
+        <div xml:id="ppr-l14-Dd1e4365">
+          <head xml:id="ppr-l14-Hccassf">[Corollaria contra aliquos, qui dicunt quod theologia est scientia superior fide]</head>
+          <p xml:id="ppr-l14-seitsc">
+            <name>Magister henricus de eucha</name> dicit quod theologia 
+            <lb ed="#E"/>est scientia et est supra fidem Sed di?e[?] quod habitus fidei est nobilior et debet poni superior
+          </p>
+          <p xml:id="ppr-l14-esdenc">
+            <lb ed="#E"/>dicitur tamen contra quod habitus theologiae est clarior et declarabiior igitur tenet consequentia quia 
+            <lb ed="#E"/>quanto in aliqua latitudine aliquid magis appropinquat ad summum tanto esset altioris 
+            <lb ed="#E"/>speciei modo ista est clarior materia scilicet fides est aenigmatica Respondetur quod aliquae sunt per<lb ed="#E"/>fectiones 
+            essentiales et quaedam modales modales quae non habent se tamquam proprie 
+            <lb ed="#E"/>passiones ille non communicantur prophetice <choice><orig>sicud</orig><reg>sicut</reg></choice> essentiales Et stat bene quod denominatio 
+            <lb ed="#E"/>modalis communicetur inferiori speciei et sic theologia quantum ad aliqua materialem 
+            <lb ed="#E"/>denominationem magis imitatur deum ergo est superioris speciei negatur consequentia
+          </p>
+          <p xml:id="ppr-l14-ecisve">
+            Item 
+            <lb ed="#E"/><name>eutha</name> ponit quod theologia est scientia et tamen praesuponit fidem Istud non stat quia nulla 
+            <lb ed="#E"/>conclusio potest esse evidentior principiis ex quibus etc Quia sicut conclusio demonstrata vel credatur 
+            <lb ed="#E"/><subst><del rend="strikethrough">ad</del><add place="aboveLine">et</add></subst> aliquod principium est dubium conclusio non erit scita
+          </p>
+          <p xml:id="ppr-l14-estial">
+            ergo si theologia praesupponit fidem vel 
+            <lb ed="#E"/>in modo arguendi supponit semper unum articulum non habebit maiorem evidentiam 
+            <lb ed="#E"/>Contra <name>Aureolim</name> dicentem quod est solum habitus declaratius et non adhaesivus 
+            <lb ed="#E"/>Contra alios dicentes quod theologia non est nisi una notitia consequentiarum ita quod non est 
+            <lb ed="#E"/>nisi habitus quo unus scit consequenter loqui Istud est falsum quia tunc non esset 
+            <lb ed="#E"/>una pars logice scilicet ars obligatoria et sic theologus nichil cognosceret as<lb ed="#E"/>sensive 
+            Etiam <name>claudianus</name> fuisset theologus et hoc non quia fuit paganus 
+            <lb ed="#E"/>dicit multa de christo
+          </p>
+        </div>
+        <div xml:id="ppr-l14-Dd1e4511">
+          <head xml:id="ppr-l14-Hdcdcdc">[Duae conclusiones]</head>
+          <div xml:id="ppr-l14-Dd1e4516">
+            <head xml:id="ppr-l14-Hpcsscs">[Prima conclusio: scientia et fides sunt compossibiles simul]</head>
+            <p xml:id="ppr-l14-ediese">
+              Infero duas conclusiones prima Scientia et fides sunt compossibiles 
+              <lb ed="#E"/>de eadem adaequate <g ref="#slash"/> patet capiamus istum articulum deus est de isto est fides et cum 
+              <lb ed="#E"/>hoc scientia verum est doctores faciunt difficultatem ut de eodem simul stat evidentia 
+              <lb ed="#E"/>et enigma <name>Gregorius</name> tenet op?tum[?]
+            </p>
+            <!-- dbcheck break -->
+            <div xml:id="ppr-l14-Dd1e4548">
+              <head xml:id="ppr-l14-Hpoeapc">[Prima objectio et responsio ad primam conclusionem]</head>
+              <p xml:id="ppr-l14-aipaee">
+                Si ita esset quod aliquis simul haberet actum sci<lb ed="#E"/>endi 
+                et actum fidei sequeretur contradictio quia evidenter assentiret eidem et 
+                <lb ed="#E"/>non assentiret igitur alias quia bene sequitur iste assentit per fidem ergo non 
+                <lb ed="#E"/>evidenter Et ultra iste assentit scientifice igitur evidenter et per consequens 
+                <lb ed="#E"/>idem assetit evidenter et non evidenter
+              </p>
+              <p xml:id="ppr-l14-airair">
+                Respondetur concedendo istas duas <name>Sortes</name> 
+                <lb ed="#E"/>assentit evidenter <c>a</c> et <name>sortes</name> non evidenter assentit <c>a</c> Nec sunt de praedicatis 
+                <lb ed="#E"/><seg type="correction">contra<add place="aboveLine">dicto</add>riis</seg> quia ly assentit includit suum parti?m ut bene conceditur quod <name>sortes</name> videt hominem et 
+                <lb ed="#E"/><name>sortes</name> videt non hominem et sic concedo ambas Et ultra ergo sequitur quod <name>sortes</name> evidenter 
+                <lb ed="#E"/>assentit et <name>sortes</name> non evidenter assentit Si negatio est infirmitas concedo quod simul stant 
+                <lb ed="#E"/>ut homo est alias et non homo est alias si teneatur neganter in illa non evidenter assentit 
+                <lb ed="#E"/>etc est falsa etc negatur ista consequentia <name>sortes</name> assentit non evidenter ergo non evidenter 
+                <lb ed="#E"/>assentit <name>sortes</name> bene actus sciendi est actus clarus et evidens et actus fidei est ob<lb ed="#E"/>scurus 
+                modo non est inconvenines quod christis vidit <name>sortes</name> in vero et etiam per sensum et tamen una est infinitum 
+                <lb ed="#E"/>clarior Et potest dici de positis sicut est simplicibus ut quod christus <c>a[?]</c> conclusionem sciret in 
+                <lb ed="#E"/>verbo et etiam scire <c>a</c> conclusionem in proprio genere Item stat quod aliquam rem videam <choice><orig>in<lb ed="#E"/>mediate</orig><reg>im<lb ed="#E"/>mediate</reg></choice> 
+                per radios rectos et eandem simul in speculo per radios reflexos modo una est clarior 
+                <lb ed="#E"/>quam alia
+              </p>
+            </div>
+            <div xml:id="ppr-l14-Dd1e4690">
+              <head xml:id="ppr-l14-Hsetoer">[Secunda et tertio objectio et responsio]</head>
+              <p xml:id="ppr-l14-saaspf">
+                Si argueretur per <name>apostolum</name> <quote>fides est non apparentium</quote> ergo veritas fidei non apparet 
+                <lb ed="#E"/>debet intelligi quod non est apparentium per eam ita quod obiectum non escenditur evidenter 
+                <lb ed="#E"/>per fidem ita quod fides est habitus aenigmaticus et sic licet non apparet per eam ergo 
+                <pb ed="#E" n="18-r"/>
+                <lb ed="#E"/>non apparet vel non est apparentium nego consequentiam <name>Augustinus</name> dicit quod non vides debet 
+                <lb ed="#E"/>intelligi per fidem
+              </p>
+              <p xml:id="ppr-l14-taicip">
+                Secundo sic pari ratione in puera[?] posset ese actus fidei tamen clara 
+                <lb ed="#E"/>dei visione hoc est falsum et contra <name>augustinus</name> <title>de doctrina christiana</title> et <name>apostolum</name> quia solum 
+                <lb ed="#E"/>remanet caritas
+              </p>
+              <p xml:id="ppr-l14-airvte">
+                primo dicitur quod de potentia dei ordinata est quod fides non remanet 
+                <lb ed="#E"/>ergo non potest negatur consequentia 
+                <!-- possible break -->
+                Aliter dicitur quod non remanet actus vel quo ad actum sed unde quo 
+                <lb ed="#E"/>ad habitum et hoc tenent multi doctores ulterius dico quod non est inconveniens concedere 
+                <lb ed="#E"/>quod maneat quo ad actum quia est actus nobilissimus et ergo ponere ibi[?] ad decorem 
+                <lb ed="#E"/>universi
+              </p>
+              <p xml:id="ppr-l14-esdoep">
+                <g ref="#pilcrow"/>Contra arguit clara dei visio repugnat aenigmatice Responsio 
+                <lb ed="#E"/>quod de potentia dei absoluta contraria possunt simul stare Aliter dicitur quod non contrariantur ut 
+                <lb ed="#E"/>declaratum est Tertio arguit sic quod fides non staret cum cognitione sensitiva  ergo distinctio[?] aliquid 
+                <lb ed="#E"/>est falsum <choice><orig>ymo</orig><reg>immo</reg></choice> staret cum cognitione sensitiva et intellectiva Alii doctores dicunt quod 
+                <lb ed="#E"/>habitus scientificus bene stat cum actu fidei et etiam habitus cum habitur et quod consideramus 
+                <lb ed="#E"/>scilicet probatur primum nam sic aliquis habituatus credendo quod deus est postea fiet demonstratio tunc habi<lb ed="#E"/>tus 
+                credendi stat in actu sciendi quia habitus illo non subito corrumpitur 
+                <lb ed="#E"/>Totum dictum eorum stat in hoc quod actus non est compassibilis actui Et ego superaddo quod actus 
+                <lb ed="#E"/>est compassibilis actui quia possibile est quod illos habitus exeant in actus
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l14-Dd1e4876">
+            <head xml:id="ppr-l14-Hsclcaf">[Secunda conclusio: lumen naturale in infinitum procedit cum adiutorio fidei]</head>
+            <p xml:id="ppr-l14-sclisp">
+              Secunda conclusio 
+              <lb ed="#E"/>lumen naturale infinitum procedit ascendendo peer latitudinem veritatum a principiis distantium unde 
+              <lb ed="#E"/>lumen naturale non intum[?] est valde parvae efficaciae sed me?te[?] etc sicut dictum est prius
+            </p>
+            <p xml:id="ppr-l14-cqmdep">
+              Circa 
+              <lb ed="#E"/>quod <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> posset quod daretur alias gradus luminis naturalis quo dato variaretur 
+              <lb ed="#E"/>modus communis investigationis verbi gratia eadem propositio potest valde diversimode sciri utque de converta
+              <lb ed="#E"/>propter <name>euclidis</name> quae dicitur fuga miserorum quae difficulter demonstratur ab <name>euclide</name> Sed <name>Brag<g ref="#dbdash"/>uuordin</name> 
+              valde faciliter demonstrant[?] causa Ita quod dabitur unus gradus in lumine naturali per quem 
+              <lb ed="#E"/>exieret in actum sive discursum unde aliqui sunt ita depressi quod non intelligunt vel non 
+              <lb ed="#E"/>capiunt istud principium Si ab?oqualibet[?] aequalia demantur <!-- earlier demonstratur might be demantur -->remanentia erunt aequalia 
+              <lb ed="#E"/>Confertur quia principium et discursus non requiritur nisi per defectum luminis sed fiunt[?] discursus ut 
+              <lb ed="#E"/>acquiratur lumen ergo si lumen esset sufficiens habens ipsum immediate exieret in actum sive discursum 
+              <lb ed="#E"/><g ref="#pilcrow"/>Unde in lectione sequenti moderationem aliquorum iam dictorum utque in conclusione de actibus in dendi 
+              <lb ed="#E"/>et sciendi
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l14-Dd1e4997">
+          <head xml:id="ppr-l14-Hd1e4999">Circa textum</head>
+          <p xml:id="ppr-l14-d1e5002">
+            Circa textum conclusio Spiritus factus non procedit prius aut post tertius a patre quam 
+            <lb ed="#E"/>a filio unde posset alias <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod pater produceret me?ce[?] filio ex quo est ibi or<lb ed="#E"/>do 
+            dicitur licet quod pater est prior ordine quia producti filium tamen pater et filius respectu spiritus 
+            <lb ed="#E"/>sancti habent se aequae evae[?] ita quod unus non prius aut posterius Ulterius notandum 
+            <lb ed="#E"/>est pro intellectum aliquorum conclusionum sequentium in textu quod filius dei procedere a 
+            <lb ed="#E"/>patre per modum naturae et spiritus sanctus dicitur procedere vel spirrare per modum voluntatis 
+            <lb ed="#E"/>unde generare est procedere Item spiritus sanctus procedit a patre non q?o[?] natus sed quo?[?] 
+            <lb ed="#E"/>datus id est non procedit per modum generationis
+          </p>
+          <p xml:id="ppr-l14-d1e5069">
+            Alia conclusio Spiritus sanctus non dicitur 
+            <lb ed="#E"/>fieri quia non generatur
+          </p>
+          <p xml:id="ppr-l14-d1e5077">
+            Alia conclusio quicquid nascitur procedit Dconimus[?] 
+            <lb ed="#E"/>dicit spiritum sanctum ingenitum pro quo notandum quod ingenitum capitur uno modo[?] id est non genitum 
+            <lb ed="#E"/>alio modo[?] capitur prout inpertat[?] qndam[?] proprietatem positivarum et sic solum Cove?t[?] patri
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

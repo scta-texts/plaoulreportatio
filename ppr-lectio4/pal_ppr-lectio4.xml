@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 4, de Fide [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2011.10-dev-master">
+          <title>Lectio 4, de Fide [Palatine Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress</publisher>
+        <pubPlace>Boston, MA</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2011-03-25">March 23rd, 2011</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <!--<xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include> -->
+      </div>
+    </front>
+    <body>
+      <div xml:id="lectio4">
+        <head subtype="title">Lectio 4, de Fide [Palatine Transcription]</head>
+        <div>
+          <head xml:id="ppr-l4-Hfecami"><supplied>Fides est conformis divino iudicio: solutiones ad multas instantias</supplied></head>
+            <p xml:id="ppr-l4-seqtoa">
+              <lb ed="#PV"/><hi rend="largeFont">Lectio quinta</hi> 
+              <lb ed="#PV"/>Ex <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> de fide possunt 
+              <lb ed="#PV"/>solvi multae raciones et dif<lb ed="#PV"/>ficultates 
+              quibus involvuntur 
+              <lb ed="#PV"/>alii tenentes communem modum
+            </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l4-Hpipipi"><supplied>Prima instantia</supplied></head>
+          <p xml:id="ppr-l4-upaneu">
+            Prima difficultas utrum 
+            <lb ed="#PV"/>aequali certitudine ex fide 
+            <lb ed="#PV"/>credatur futuro contingenti sicut 
+            <lb ed="#PV"/>neccessario verbi gratia Resurrectio 
+            <lb ed="#PV"/>mortuorum erit et huic deus 
+            <lb ed="#PV"/>est trinus et <corr><del>aeternus</del></corr> unus
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l4-Hrapapi"><supplied>Responsio ad prima instantia</supplied></head>
+          <p xml:id="ppr-l4-beiqnv">
+            videtur 
+            <lb ed="#PV"/>quod non quia unum est neces<lb ed="#PV"/>sariam 
+            esse et necesse et aliud 
+            est contingens licet iudicium 
+            <lb ed="#PV"/>futurorum posset non fore tamen 
+            <lb ed="#PV"/>assensus fide est tantae certitudinis 
+            quod non potest falli fides non habet 
+            <lb ed="#PV"/>suam apparenciam ex parte obiecti 
+            <lb ed="#PV"/>sed ex se
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l4-Hsieier"><supplied>Secunda instantia et rationes</supplied></head>
+          <p xml:id="ppr-l4-ptqsef">
+            <g ref="#slash"/>Contra arguitur 
+            probando quod praedictam non sit 
+            <lb ed="#PV"/>vera <choice><orig>ymo</orig><reg>immo</reg></choice> quod fidei possit sub 
+            <lb ed="#PV"/>esse falsum
+          </p>
+          <p xml:id="ppr-l4-pqdpem">
+            quia spei de facto 
+            sub est falsum <g ref="#slash"/>igitur fidei tenet consequentia 
+            <lb ed="#PV"/>quia spes videtur etc antecedens probatur 
+            <lb ed="#PV"/>de praescito <g ref="#slash"/>qui habet spem quae 
+            <lb ed="#PV"/>est quaedam assensus quo assentit 
+            <lb ed="#PV"/>se habiturum vitam aeternam 
+            <lb ed="#PV"/>et non habebit
+          </p>
+          <p xml:id="ppr-l4-cqpcrc">
+            <g ref="#slash"/><choice><orig>2o</orig><reg>secundo</reg></choice> quia hoc 
+            potest accedere in isto casu po<lb ed="#PV"/>sito 
+            quod aliquis existens 
+            <lb ed="#PV"/>in extrema necessitate debeat 
+            <lb ed="#PV"/>accipere corpus christi <g ref="#slash"/>et pe<lb ed="#PV"/>tatur 
+            ab eo utrum credat hoc 
+            <lb ed="#PV"/>esse corpus christi Respondet quod credo 
+            et isti potest sub esse falsum 
+            <choice><orig>ymmo</orig><reg>immo</reg></choice> possibile est quod illud non sit 
+            <lb ed="#PV"/>corpus christi ymmo quod non 
+            <lb ed="#PV"/>sit debita facta consecratio
+          </p>
+          <p xml:id="l4-tcaiaf">
+            <g ref="#slash"/><choice><orig>3o</orig><reg>tertio</reg></choice> accipiamus aliquem qui ex habitu 
+            <cb ed="#PV" n="6va"/><lb ed="#PV"/>fidei transeat in actum aliquem 
+            <lb ed="#PV"/>istius enunciabilis quod christus incarna<lb ed="#PV"/>bitur 
+            <g ref="#slash"/>vel quod unus antiquus 
+            <lb ed="#PV"/>pater habuerit et continuet usque 
+            <lb ed="#PV"/>ad instans incarnationis <g ref="#slash"/>tunc 
+            <lb ed="#PV"/>esset falsus quia in illo instan<lb ed="#PV"/>ti 
+            non est unum dicere quod christus in<lb ed="#PV"/>carnabitur 
+            ymmo est incarna<lb ed="#PV"/>tus
+          </p>
+          <p xml:id="ppr-l4-qdaeam">
+            <lb ed="#PV"/>Item <name ref="#Abraham">abraham</name> de facto 
+            meruit fide et tamen per illam 
+            <lb ed="#PV"/>credidit falsum quia credidit 
+            <lb ed="#PV"/>filium factum esse ymolandum qui 
+            <lb ed="#PV"/>non erat ymo laudus et illi fidei 
+            <lb ed="#PV"/>subfuit falsum
+          </p>
+          <p xml:id="ppr-l4-qaacep">
+            Item spiritus sanctus 
+            <lb ed="#PV"/>potest concurrere active ab assensum 
+            <lb ed="#PV"/>propositionis false igitur fides tenet consequentia 
+            <lb ed="#PV"/>quia fides non est maior 
+            <lb ed="#PV"/>dignitatis et rectitudinis 
+            <lb ed="#PV"/>quam spiritus sanctus antecedens patet 
+            <lb ed="#PV"/>quia <corr><add place="aboveLine">nichil</add><del rend="strikethrough">circa</del></corr> potest produci adextra 
+            <lb ed="#PV"/>quando deus concurat et spiritus 
+            <lb ed="#PV"/>sanctus
+          </p>
+          <p xml:id="ppr-l4-ssffee">
+            Item fides est in potentia 
+            <lb ed="#PV"/>obedienciali respectu cuiuscumque 
+            <lb ed="#PV"/>deus voluerit ipsam assumere 
+            <lb ed="#PV"/>ergo deus potest ipsam assumere 
+            <lb ed="#PV"/>ad assentiendum falso
+          </p>
+        </div>
+        <div>
+          <head xml:id="l4-Hohohoh"><supplied>Opinio Holcot</supplied></head>
+                
+          <p xml:id="l4-ucdnmh">
+            <!-- might also include or skip <p xml:id="l4-ariqth"> -->
+            <g ref="#dbslash"/><name rend="#Holcot">hokot</name> dicit 
+            <lb ed="#PV"/>quod inquam intellectus credit 
+            <lb ed="#PV"/>propositioni nisi <choice><orig>neccessitatus</orig><reg>necessitatus</reg></choice> fuerit per 
+            assensum ad hoc et rationem et ex<lb ed="#PV"/>cludit 
+            habitum fidei sed hoc non 
+            <lb ed="#PV"/>videtur vim quia teneo quod ac<lb ed="#PV"/>tus 
+            fidei non est in potestate 
+            <lb ed="#PV"/>animae vel voluntatis nisi mediate 
+            <lb ed="#PV"/>habitu habitus infusus in 
+            <lb ed="#PV"/>baptismo se solo non sufficit 
+            <lb ed="#PV"/>exire in actum utque de puero 
+            <lb ed="#PV"/>baptisato merito inter sarrace<lb ed="#PV"/>nos 
+            <!-- break -->
+            Sed tunc petitur quae est 
+            <lb ed="#PV"/>differentia dicitur quod iste qui habet habitum 
+            facilius disponitur ab habendum 
+            <lb ed="#PV"/>actum fidei quam qui non 
+            <lb ed="#PV"/>habet habitum quia si uterque facit 
+            <lb ed="#PV"/>diligentiam tunc in habituato intenditur 
+            <lb ed="#PV"/>caritas ex quo est in <choice><orig>gracia</orig><reg>gratia</reg></choice> 
+            et in alio non quia non est in gratia 
+            <cb ed="#PV" n="6vb"/><lb ed="#PV"/>unde requiritur ultra quod sit diligentia 
+            <lb ed="#PV"/>odium mali et amor boni
+          </p>
+          <p xml:id="ppr-l4-vqhmie">
+            <!-- no clear paralle here-->
+            videtur 
+            <lb ed="#PV"/>quod <name ref="#Holcot">holcot</name> <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> de fide quod 
+            <lb ed="#PV"/>sit unus habitus acquisitivus 
+            <lb ed="#PV"/>vel unus habitus oppinativus
+            <!-- possibl break -->
+            <lb ed="#PV"/>Timendum est quod quam plures 
+            <lb ed="#PV"/>credunt non ex fide <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> 
+            ad salutem sed ex fide gravata 
+            <lb ed="#PV"/>per rationes probabiles vel quod <unclear>penis</unclear> 
+            <lb ed="#PV"/>est per habitum oppinativum scilicet 
+            <lb ed="#PV"/>qui est cum formidine Argumentum 
+            <lb ed="#PV"/><name ref="#Holcot">holcot</name> credo non est in potestate 
+            <lb ed="#PV"/>mea sine motivo assentire propositioni 
+            <lb ed="#PV"/>unde propositis duabus una evi<lb ed="#PV"/>denti 
+            et alia non <g ref="#slash"/> tunc illa in<lb ed="#PV"/>evidenti 
+            non passum assentire 
+            <lb ed="#PV"/>sine motivo seu racione 
+            <lb ed="#PV"/>modo in articulo trinitatis est maxime 
+            <lb ed="#PV"/><choice><orig>in evidencia</orig><reg>inevidentia</reg></choice>
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l4-Hrarrdh">
+            <supplied>Responsio ad rationes de Holcot</supplied>
+          </head>
+          <p xml:id="l4-aehrma">
+            <!-- also includes <p xml:id="l4-iiasei"> -->
+            Advertendum tamen 
+            <lb ed="#PV"/>quod lata seu magna differentia est 
+            <lb ed="#PV"/>inter propositiones indifferentes et omnino inper<lb ed="#PV"/>tinentes 
+            ad finis humani con<lb ed="#PV"/>secutionem 
+            <add place="aboveLine">et</add> videlicet inter illas quae sunt 
+            <lb ed="#PV"/>de necessitate salutis et ita est 
+            <lb ed="#PV"/>in rebus polliticis quia natura 
+            <lb ed="#PV"/>Indidit homini quod sit alias civile 
+            <lb ed="#PV"/>vel civile et ergo eciam rationale 
+            <lb ed="#PV"/>quod homo plus inclinetur 
+            ad propositionem quae est de neccessitate 
+            <lb ed="#PV"/>salutis quam ad aliam indifferen<lb ed="#PV"/>tem 
+            et inpertinentem
+            <!-- possible break point -->
+            <g ref="#slash"/>Ex ista ra<lb ed="#PV"/>dice 
+            patet quod quaelibet creatura 
+            <lb ed="#PV"/>rationalis habet instinctum ad deum 
+            <lb ed="#PV"/>tam in affectu quam in intellectu 
+            <lb ed="#PV"/>In affectu quantum ad diligere 
+            <lb ed="#PV"/>in Intellectu quo ad cognoscere 
+            <lb ed="#PV"/>provenit omnis <choice><orig>ydolatria</orig><reg>idolatria</reg></choice> ex 
+            istis
+          </p>
+          <p xml:id="ppr-l4-epheda">
+            Tunc ad rationem <name ref="#Holcot">holkot</name> 
+            <lb ed="#PV"/>dicitur quod non est similem de propositionibus 
+            <lb ed="#PV"/>indifferentibus et habentibus necessariam 
+            <lb ed="#PV"/>habitudinem ad finem humanum
+          </p>
+         <p xml:id="ppr-l4-eaease">
+            Aliter potest 
+            <lb ed="#PV"/>solvi quod fides habet alium modum 
+            respectu sui obiecti quam aliquando habitus <corr><add place="marginRight">quia</add></corr> 
+            <cb ed="#PV" n="7ra"/><lb ed="#PV"/>non habet apparenciam ex parte 
+            <lb ed="#PV"/>sui obiecti sed diceretur quod oportet 
+            <lb ed="#PV"/>quod obiectum intellectus sit apparens 
+            <lb ed="#PV"/>verum conceditur vel quod ibi sit apparentia 
+            ex parte obiecti vel alterius modo 
+            <lb ed="#PV"/>dicitur quod fides ex sua immensitate[?] 
+            <lb ed="#PV"/>est apparentia
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l4-Hctctct">Circa textum</head>
+          <p xml:id="ppr-l4-nctpma">Nota circa textum 
+            <lb ed="#PV"/>quod quando dicitur de partibus <choice><orig>ymagi<lb ed="#PV"/>natiis</orig><reg>imagi<lb ed="#PV"/>natiis</reg></choice> 
+            memoria non capitur 
+            <lb ed="#PV"/>pro memoria sensitiva sed pro actua<lb ed="#PV"/>tione 
+            per speciem intelligibilem 
+            <lb ed="#PV"/>et habet se tamquam primum produ<lb ed="#PV"/>cens 
+            et operans comparatur et inde 
+            <lb ed="#PV"/>producitur intellectio quae comparatur 
+            <lb ed="#PV"/>filio et ista duo quae diligunt 
+            se producunt spiritum sanctum per 
+            <lb ed="#PV"/>modum amoris
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

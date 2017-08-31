@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 10, de Fide [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 10, de Fide [Palatine Transcription]</title>
+          <date when="2011-10-04">October 04, 2011</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="15-r"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio10">
+        <head xml:id="ppr-l10-Hlpslps">Lectio 10, de Fide [Palatine Transcription]</head>
+        <div xml:id="ppr-l10-Dd1e3726">
+          <head xml:id="ppr-l10-Hpedddi">Plus evidentia de debilitate intellectus</head>
+          <p xml:id="ppr-l10-d1e3731">
+            <lb ed="#PV"/>Alia lectio undecima 
+            <lb ed="#PV"/>Circa materiam lectionis praecedentis 
+            <lb ed="#PV"/>inducitur ratio quam adducit 
+            <lb ed="#PV"/><name>zeno</name> in libro <title>physicorum</title> probando 
+            <lb ed="#PV"/>quod nihil potest moveri dicit enim 
+            <lb ed="#PV"/>quod <choice><orig>inpossibile</orig><reg>inpossibile</reg></choice> est aliquid moveri 
+            <lb ed="#PV"/>localiter quia sequitur impossibile quia 
+            <lb ed="#PV"/>equus non potest attingere formi<lb ed="#PV"/>cam 
+            <!-- break -->
+            Sed pro maiori declaratione 
+            <lb ed="#PV"/>suppono quod aliud corpus <choice><orig>speri<lb ed="#PV"/>cum</orig><reg>spheri<lb ed="#PV"/>cum</reg></choice> 
+            moveatur super plano et pro 
+            <lb ed="#PV"/>maiori declaratione materiae supponatur 
+            <lb ed="#PV"/>quod tangat ipsum solum secundum 
+            <lb ed="#PV"/>punctum et moveatis sic quod 
+            <lb ed="#PV"/>faciat unum circulum Isto 
+            <lb ed="#PV"/>casu posito volo probare quod per 
+            <lb ed="#PV"/>nullam potentiam potest velocius 
+            <lb ed="#PV"/>moveri quam moveatur <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+            <lb ed="#PV"/>nec tardius quia quilibet 
+            <lb ed="#PV"/>punctus vel <choice><orig>spera</orig><reg>sphera</reg></choice> circuli tetigit 
+            <lb ed="#PV"/>punctum spatii et etc solum per in<lb ed="#PV"/>stans 
+            et sic nec velocius nec 
+            <lb ed="#PV"/>tardius non tardius quia si fu<lb ed="#PV"/>isset 
+            diutius quam per instans 
+            <lb ed="#PV"/>tunc fuisset incorruptio et tunc 
+            <lb ed="#PV"/><sic>quiesteret</sic> quia non velocius 
+            <lb ed="#PV"/>patet quia quodlibet punctum <choice><orig>sperici</orig><reg>spherici</reg></choice> 
+            <lb ed="#PV"/>tangit quodlibet <choice><orig>spera</orig><reg>sphera</reg></choice> punctis spatii 
+            <lb ed="#PV"/>et non potuit velocius quia semper 
+            <lb ed="#PV"/>nisi per instans Consequenter 
+            <lb ed="#PV"/>possumus <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> unam 
+            <lb ed="#PV"/>circumferentiam circuli quantumcumque mo<lb ed="#PV"/>dicam 
+            quae in sua revolutione 
+            <lb ed="#PV"/>movetur velociter maior sicut 
+            <lb ed="#PV"/>equinoxialis sicut in figura 
+            <lb ed="#PV"/>sequenti <c>A</c> punctus ita cito ve<lb ed="#PV"/>niat 
+            ad <c>c</c> punctum sicut <c>b</c> ad <c>d</c> 
+            <lb ed="#PV"/>vel econtra videlicet faciendo unam revo<lb ed="#PV"/>lutionem
+            <!-- likely includes or is missing: <p xml:id="ppr-l10-spqacm">, <p xml:id="ppr-l10-esieco"> -->
+            <!-- identification of nota section difficult -->
+            Nota si bene considera<lb ed="#PV"/>tur 
+            per istud probabitur quod 
+            <lb ed="#PV"/>pars proprie polum non movetur 
+            <lb ed="#PV"/>tardius quam pars mul<lb ed="#PV"/>tum 
+            distans a polo quia pars proprie 
+            <lb ed="#PV"/>polum tantum spatium <choice><orig>yma<lb ed="#PV"/>ginarium</orig><reg>ima<lb ed="#PV"/>ginarium</reg></choice> 
+            pertransit in aequali 
+            <lb ed="#PV"/>tempore saltem punctum signatus 
+            <lb ed="#PV"/>in ea <space extent="threeLines"/>
+          </p>
+          <!-- seems missing <p xml:id="ppr-l10-esieco">; could include above, or empty space could be indicator that this section is missing -->
+          <p xml:id="ppr-l10-aedasb">
+            <cb ed="#PV" n="b"/><!-- 15rb -->
+            <space extent="oneThirdColumn"/>
+            <lb ed="#PV"/>Item habere actum sine propositionem men<lb ed="#PV"/>talem 
+            hoc per actum reflexum 
+            <lb ed="#PV"/>est difficultatis et hoc experimur val<lb ed="#PV"/>de 
+            in nobis fiat igitur tanta 
+            <lb ed="#PV"/>reflexio minus propositionis ad aliam 
+            <lb ed="#PV"/>quod tandem deveniatur ad aliquam 
+            <lb ed="#PV"/>ad quam intellectus non potest habere actum 
+            <lb ed="#PV"/>reflexum tunc illa denratio[?] ne<lb ed="#PV"/>dum 
+            est durabilis illi <choice><orig>ymmo</orig><reg>immo</reg></choice> nec 
+            <lb ed="#PV"/>intellectus est capax illius
+          </p>
+          <p xml:id="ppr-l10-ciassc">
+            Item de 
+            <lb ed="#PV"/>numberis[?] quod stat numerum[?] tantum multi<lb ed="#PV"/>plicari 
+            quod non est capax illius
+          </p>
+        </div>
+        <div xml:id="ppr-l10-Dd1e3963">
+          <head xml:id="ppr-l10-Hapsaps">Aliquae propositiones sequentes</head>
+          <p xml:id="ppr-l10-seasgd">
+            <lb ed="#PV"/>etiam aliquae propositiones tantum distant 
+            <lb ed="#PV"/>a primis principiis quod non faciles 
+            <lb ed="#PV"/>nobis sciri
+          </p>
+          <!-- <p xml:id="l10-ehsssg"> seems missing -->
+          <p xml:id="ppr-l10-eqstre">
+            Et ergo si ad <choice><orig>yma<lb ed="#PV"/>ginationem</orig><reg>ima<lb ed="#PV"/>ginationem</reg></choice> 
+            creatura poneretur esse 
+            <lb ed="#PV"/>deus adhuc oportet habere fidem 
+            <lb ed="#PV"/>de illa ut si sol poneretur super 
+            <lb ed="#PV"/><corr><del>homines</del></corr> omnes adhuc haberet mul<lb ed="#PV"/>tas 
+            influentias latentes
+          </p>
+          <p xml:id="ppr-l10-eqshna">
+            <supplied>omitted <!-- present in E but not PV --></supplied>
+          </p>
+          <p xml:id="ppr-l10-suqsda">
+            Sequitur quod ponere  
+            <lb ed="#PV"/>quod aliquis ex puris naturaibus pos<lb ed="#PV"/>sit 
+            attingere ad notitiam articulorum 
+            <lb ed="#PV"/>fidei est favere errore <name>pellagii</name>
+          </p>
+        </div>
+        <div xml:id="ppr-l10-Dd1e4018">
+          <head xml:id="ppr-l10-Hupcdaf">Utrum philosophi cognoverint de articulis fide</head>
+          <p xml:id="ppr-l10-suqsic">
+            Sequitur quod philosophi loquentes de 
+            <lb ed="#PV"/>fide sicut <name>hermes</name> et alii saltem 
+            <lb ed="#PV"/>ductum <corr><del>k</del></corr> naturalis rationationis 
+            <lb ed="#PV"/>non habent actum sed alium 
+            <lb ed="#PV"/>intellectum qm[?] dur[?] habere
+          </p>
+          <p xml:id="ppr-l10-sdadfd">
+            di<lb ed="#PV"/>ceret 
+            aliquis navi[?] <corr><del>aget</del><add place="aboveLine">Augustinus</add></corr> in libro VIIo 
+            <lb ed="#PV"/><title>confessionum</title> capitulo IXo dicit se le<lb ed="#PV"/>gisse 
+            in libro <name>platonis</name> <title>evangelium 
+            <lb ed="#PV"/>Iohannis</title> usque ibi verbum caro factum est
+            <pb ed="#PV" n="15-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>ergo etc Respondetur dupliciter primo quia 
+            <lb ed="#PV"/>si <choice><orig>phylosophi</orig><reg>philosophi</reg></choice> tractaverunt antequam de materia 
+            <lb ed="#PV"/>trinitatis hoc tamen ad alium intellectum 
+            <lb ed="#PV"/>non concordando nobiscum in sententia 
+            <lb ed="#PV"/>licet prima facie appareant tam[?] 
+            <lb ed="#PV"/>non intenderunt de trinitate loqui 
+            <lb ed="#PV"/>2a via quod <choice><orig>phy</orig><reg>philosophi</reg></choice> etiam poetae fidem 
+            <lb ed="#PV"/>naturam realiter descripserunt tamen 
+            <lb ed="#PV"/>non intellexerunt 2rium ad prophe<lb ed="#PV"/>tice 
+            loquendum non requiritur 
+            <lb ed="#PV"/>sci?s[?] unde numeri[?] <name>balam</name> prophetavit non 
+            <lb ed="#PV"/>obstante quod malus nec erat 
+            <lb ed="#PV"/>iudaeus sed gentilis magicus etc 
+            <lb ed="#PV"/>faciens dyabolo c??gium et sic 
+            <lb ed="#PV"/>prophetavit voluit noluit Et 
+            <lb ed="#PV"/><name>augustinus</name> dicit conveniam vos in 
+            <lb ed="#PV"/>quam o Iudaei retitat[?] deuabugo[?] 
+            <lb ed="#PV"/>doiso[?] quae dixit se vidisse filium 
+            <lb ed="#PV"/>quia dixit quartum esse silem[?] fi<lb ed="#PV"/>lio 
+            dei et tamen non intendedat 
+            <lb ed="#PV"/>prophetiam
+          </p>
+          <p xml:id="ppr-l10-scpimc">
+            similiter de <name>Caypha</name> quae 
+            <lb ed="#PV"/>prophetavit et non intellexit nec 
+            <lb ed="#PV"/>fuit sanctus
+          </p>
+          <p xml:id="ppr-l10-cdqavi">
+            consequentur <name>virgilius</name> 
+            <lb ed="#PV"/>in <title>bolucutis</title> Iam redit et virgo etc 
+            <lb ed="#PV"/>et fuit realiter prophetia licet non 
+            <lb ed="#PV"/>intendebat ad ?anum[?] quia inten<lb ed="#PV"/>debat 
+            loqui de filio etc
+          </p>
+          <p xml:id="ppr-l10-amsvpe">
+            Alius 
+            <lb ed="#PV"/>modus potest esse semper salvando 
+            <lb ed="#PV"/>quod numquam ex puris naturalibus etc 
+            <lb ed="#PV"/>quod philosophum vi?? etc disponebant 
+            <lb ed="#PV"/>se quantum in eis fuit et ergo 
+            <lb ed="#PV"/>deus infudit eis etc <name>augustinus</name> 
+            Ioe[?] de trinitate dicit quod credit quod 
+            <lb ed="#PV"/>illi qui fecerunt illud quid in se 
+            <lb ed="#PV"/>fuit fuerunt salvati Et ergo si 
+            <lb ed="#PV"/><choice><orig>phy</orig><reg>philosophi</reg></choice> vixerunt sicut praedicaverunt 
+            <lb ed="#PV"/>esse vivendum quod deus contulit 
+            <lb ed="#PV"/>eis gra?num[?] et fidem Alios modos 
+            <lb ed="#PV"/>tangit <name>Bachon</name> in <title>epistola ad 
+            <lb ed="#PV"/>clementem</title> et <name>magister henricus de 
+            <lb ed="#PV"/>hassia</name> in tractatu quodam
+          </p>
+        </div>
+        <div xml:id="ppr-l10-Dd1e4211">
+          <head xml:id="ppr-l10-Hd1e4213">Circa textum</head>
+          <p xml:id="ppr-l10-d1e4216">
+            Circa 
+            <lb ed="#PV"/><unclear>textum</unclear> filius est genitus a patre 
+            <lb ed="#PV"/>ergo alius a patre quia oportet 
+            <lb ed="#PV"/>quod inter gignens et genitum sit ali<lb ed="#PV"/>qualis
+            dria[?] disiunctio vel ali<lb ed="#PV"/>qua 
+            non <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> Ideo <name>augustinus</name> 
+            <lb ed="#PV"/>nihil generat se ut si unde oportet 
+            <lb ed="#PV"/>quod sit in aliqua prioritas et pos<lb ed="#PV"/>terioritas
+          </p>
+          <p xml:id="ppr-l10-actepm">
+            Alia conclusio ??m[?] 
+            <lb ed="#PV"/>patrem nominas[?] sive dicis filium 
+            <cb ed="#PV" n="b"/> <!-- 15vb -->
+            <lb ed="#PV"/>etiam nominas sive dicis cum animo 
+            <lb ed="#PV"/>sunt idem in masculio[?] genere[?] 
+            <lb ed="#PV"/>et hoc est ex natura relativorum 
+            <lb ed="#PV"/>Circa hoc dubium ultimum 
+            <lb ed="#PV"/>una persona possit videre sine 
+            <lb ed="#PV"/>alia utraque pars probabilis cum 
+            <lb ed="#PV"/>salvator videtur hoc innuere 
+            <lb ed="#PV"/>scilicet partem[?] affirmativam <name>philippa</name> 
+            <lb ed="#PV"/><quote xml:id="ppr-l10-Qd1e4275">qui videt me videt et patrem meum</quote>
+          </p>
+          <p xml:id="ppr-l10-d1e4279">
+            <lb ed="#PV"/>Alia conclusio generatio filii dei est 
+            <lb ed="#PV"/><choice><orig>in effabilis</orig><reg>ineffabilis</reg></choice> unde nulla creatura 
+            <lb ed="#PV"/>est plene cognoscibilis a nobis saltem 
+            <lb ed="#PV"/>hic in via ergo non est ni?eum[?] de 
+            <lb ed="#PV"/>verbo
+          </p>
+          <p xml:id="ppr-l10-d1e4297">
+            Alia conclusio filius semper 
+            <lb ed="#PV"/><sic>gingnitur</sic> a patre quia deus 
+            <lb ed="#PV"/>mensuratur instanti aeternitatis 
+            <lb ed="#PV"/>ita quod deus habet taliter esse quod nulla 
+            <lb ed="#PV"/>est successio ita quod non est <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> 
+            <lb ed="#PV"/>quod deus habuit esse et prius fuis<lb ed="#PV"/>se 
+            et post fore sed <choice><orig>ymaginemur</orig><reg>imaginemur</reg></choice> 
+            <lb ed="#PV"/>quod <sic>dotum</sic> cuius praesens praeteritum 
+            <lb ed="#PV"/>et futurum concurrant ad instans <choice><orig>ydemp<lb ed="#PV"/>titate</orig><reg>iden<lb ed="#PV"/>titate</reg></choice> 
+            praesens si ad <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> deus desineret modo esse numquam 
+            <lb ed="#PV"/>fuisset quia habet talem modum essendi et non contrahit aliquam 
+            <lb ed="#PV"/>praeteritionem Sed de creatura necesse 
+            <lb ed="#PV"/>est sic esse quia est articulus parisiensis 
+            <lb ed="#PV"/>et ad hoc et sic generatio est continue in<lb ed="#PV"/>fieri 
+            et illud est perfectissimum quia 
+            <lb ed="#PV"/>habet suum factum esse perfectissimum 
+            <lb ed="#PV"/>non quod fit successiva et ista est vera <corr><del>s</del></corr> via 
+            <lb ed="#PV"/>de praescientia quia scientia dei non 
+            <lb ed="#PV"/>subicitur praeteritioni unde pen?[?] 
+            <lb ed="#PV"/>conceptuum et vocum facit nos loqui 
+            <lb ed="#PV"/>de deo per verba praeteriti temporis 
+            <lb ed="#PV"/>unde patet de filio dicit hodie genui te pro praeterito te pro praesenti
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
