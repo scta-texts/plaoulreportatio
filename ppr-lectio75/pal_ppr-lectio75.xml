@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 75, de Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 75, de Trinitate [Palantine Transcription]</title>
+          <date when="2017-09-02">September 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-09-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="137-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio75">
+        <head xml:id="ppr-l75-Hldtldt">Lectio 75, de Trinitate [St. Victor Transcription]</head>
+        <div>
+          <head xml:id="ppr-l75-Hcapdid">Contra aliqui ponentes distinctiones in divinis</head>
+          <p xml:id="ppr-l75-edarss">
+            <lb ed="#PV"/>In alia lectione
+            <lb ed="#PV"/>Ex dictis patet quod in praesenti materia 
+            <lb ed="#PV"/>plures excedunt artem vel re<lb ed="#PV"/>gulis 
+            artis obligatoriae fidei primi 
+            <lb ed="#PV"/>sunt <unclear>positores</unclear> diversarum distinctionum scilicet 
+            <lb ed="#PV"/><sic>proprietatis</sic> a persona etiam personae ab 
+            <lb ed="#PV"/>essentia Contra quos est regula 
+            <lb ed="#PV"/>anselmi quae est in divinis nulla 
+            <lb ed="#PV"/>est praeter relativam ponenda distinctio 
+            <lb ed="#PV"/>huiusmodi distinctiones repungnat 
+            <lb ed="#PV"/>summe simplicitati
+          </p>
+          <p xml:id="ppr-l75-srsqef">
+            Item repellendi 
+            <lb ed="#PV"/>sint positores plurium absolutorum 
+            <lb ed="#PV"/>Advertendum quod quidam posuerunt 
+            <lb ed="#PV"/>personas divinas esse quaedam <subst><del rend="strikethrough">essentia</del><add place="margin-center">entia</add></subst>
+            <lb ed="#PV"/>absoluta quamquam ista positio potest multipliciter 
+            inpugnari Ex regula fidei sequitur 
+            <lb ed="#PV"/>evidenter quod personae non possunt 
+            <lb ed="#PV"/>esse entia absoluta eo quod non 
+            <lb ed="#PV"/>potest esse realis distinctio inter 
+            <lb ed="#PV"/>essentiam et talia
+          </p>
+          <p xml:id="ppr-l75-tsqndp">
+            Sequitur 
+            <lb ed="#PV"/>contra separantes materiam trinitatis 
+            <lb ed="#PV"/>a formis sylogisticis non consi<lb ed="#PV"/>derantis 
+            quid <sic>virtutis</sic> habeant 
+            <lb ed="#PV"/>dici de omni Nam considerato 
+            <lb ed="#PV"/><name ref="#Aristotle">aristotelis</name> processu nulla alia ars est 
+            <lb ed="#PV"/>tradenda pro praesenti materia qui ars 
+            <lb ed="#PV"/>tradita a <name rend="#Aristotle">philosopho</name> Omnis syllogismus 
+            <lb ed="#PV"/>existens in debitis modo et figuram regu<lb ed="#PV"/>latus 
+            debite per dici de omni scilicet sic 
+            <lb ed="#PV"/>affirmativa et dico de nullo si sit 
+            <lb ed="#PV"/>negativus tenet evidenter in materia tri<lb ed="#PV"/>nitatis 
+            Ibi notat <name>gregorius</name> quod circa illius 
+            <lb ed="#PV"/>textum <name ref="#Aristotle">aristoteles</name> <name>averois commentator</name>
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/><unclear>not?iu</unclear> differentiam inter propositionem universalem et 
+            <lb ed="#PV"/>propositionem de dici de omni vel de dici de 
+            <lb ed="#PV"/>nullo Nam ad hoc quod aliqua propositio 
+            <lb ed="#PV"/>secundum communem modum sit universalis 
+            <lb ed="#PV"/>sufficit quod praedicatum dicatur de quolibet 
+            <lb ed="#PV"/>termino <unclear>subiecto</unclear> tanto sub termino communi 
+            <lb ed="#PV"/>qui est subiectum sive sint singulare vagum 
+            <lb ed="#PV"/>sive determinatum <!-- possible para break?? --> Ad hoc quod propositio sit 
+            <lb ed="#PV"/>de dici de omni requiritur nedum 
+            <lb ed="#PV"/>verificatio singularium propositionum sed etiam 
+            <lb ed="#PV"/>quod praedicatum possit verificari 
+            <lb ed="#PV"/>de quolibet de quo subiectum verifica<lb ed="#PV"/>tur 
+            vel potest verificari Exemplum ista est 
+            <lb ed="#PV"/>universalis 2m communem modum loquendi 
+            <lb ed="#PV"/>omnis essentia divina est pater et 
+            <lb ed="#PV"/>semper propositio singularium esset vera quemcumque 
+            <lb ed="#PV"/>essentia divina daretur Si autem 
+            <lb ed="#PV"/>vellemus uti sub?ate prout requiritur 
+            <lb ed="#PV"/>ad sufficienter reddendum propositionem de omni 
+            <lb ed="#PV"/>et de hoc quia illa sit nata esse 
+            <lb ed="#PV"/>praemissa in prima figura ipsa esset 
+            <lb ed="#PV"/>falsa quia habet essentia <unclear><!-- possible correction -->?e</unclear> verificatur 
+            <lb ed="#PV"/>de aliquo de quo non verificatur 
+            <lb ed="#PV"/>praedicatum illius propositionis scilicet ly pater ergo 
+            <lb ed="#PV"/>si sit de omni singulariter et absolute syllogismus 
+            <lb ed="#PV"/>est optimus scilicet omnis essentia divina 
+            <lb ed="#PV"/>a pater et filius etiam sed tunc maior 
+            <lb ed="#PV"/>est falsa Consequenter circa egredien<lb ed="#PV"/>tes 
+            huiusmodi materiam notavi alios 
+            <lb ed="#PV"/><unclear>quoniam deo</unclear> deceptiones scilicet tractando 
+            <lb ed="#PV"/>materiam trinitatis alibi forte postea 
+            <lb ed="#PV"/>tangam
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l75-Hcgacga">Circa generationem aeternam</head>
+          <p xml:id="ppr-l75-pmivpl">
+            Pro maiori intellectu 
+            <lb ed="#PV"/>aeternae generationis inducam rationem 
+            <name ref="#Arius">arrii</name> contra <name>victorium</name> arguit sic filius 
+            <lb ed="#PV"/>non potest procedere a patre per quemcumque 
+            <lb ed="#PV"/>viam generationis igitur fictio est 
+            <lb ed="#PV"/>dicere quod procedat quin dicatur quod haec 
+            <lb ed="#PV"/>sit eum distinctione essentiae unius 
+            ab alio declarat antecedens per inductionem
+            <pb ed="#PV" n="138-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>quia non procedit sicut linea a puncto 
+            <lb ed="#PV"/>fluente quia secundum mathematicos si 
+            <lb ed="#PV"/>punctus fluenter <unclear>causat? <!-- looks like causatum but that doesn't seem right --></unclear> lineam
+          </p>
+          <p xml:id="ppr-l75-sfnias">
+            2o 
+            <lb ed="#PV"/>non sicut <choice><orig>in pressio</orig><reg>impressio</reg></choice> figurae a sigillo
+          </p>
+          <p xml:id="ppr-l75-tfncie">
+            <lb ed="#PV"/>3o non sicut radius a sole et sic con<lb ed="#PV"/>sequenter 
+            inducit concludit finaliter 
+            <lb ed="#PV"/>quod impossibile est <subst><del rend="strikethrough">flium</del><add place="in-line">filium</add></subst> a patre producere 
+            <lb ed="#PV"/><del rend="strikethrough">dere</del> cum ydemptitate substantiae
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l75-Hcontio">Confirmatio</head>
+          <div>
+            <head xml:id="ppr-l75-Hpriimo">Primo</head>
+            <p xml:id="ppr-l75-cqgqcg">
+              <lb ed="#PV"/>Confir<lb ed="#PV"/>matur 
+              nam generatio est indita 
+              <lb ed="#PV"/>rebus propter individuorum cor<lb ed="#PV"/>ruptionem 
+              quae individuo non possunt 
+              <lb ed="#PV"/>confirmari ergo natura indidit quod in specie 
+              <lb ed="#PV"/>conservarentur utque per <name>aristotelem</name> 2o 
+              <lb ed="#PV"/><title>de generatione</title> verbi <name>philosophus</name> innuit quod 
+              <lb ed="#PV"/>nam indidit generationem ut res secundum 
+              <lb ed="#PV"/>speciem conserventur In signum huius 
+              <lb ed="#PV"/>substantiae separatae non habent vim generativam 
+              <lb ed="#PV"/>quia incorruptibiles sunt ideo conditio 
+              <lb ed="#PV"/>generationis longe est a divinis 
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l75-Hsecndo">Secundo</head>
+            <p xml:id="ppr-l75-saopef">
+              <lb ed="#PV"/>Item omnis generatio asismilant geni<lb ed="#PV"/>tum 
+              ipsi generanti in proprietatibus 
+              <lb ed="#PV"/>et conditionibus igitur si filius 
+              <lb ed="#PV"/>procedit a patre per viam generationis 
+              <lb ed="#PV"/>etiam filius et generativus et generabit 
+              <lb ed="#PV"/>alium et sic in infinitum et per consequens 
+              <lb ed="#PV"/>infiniti filii ponendi sunt nec 
+              <lb ed="#PV"/>valet fundamentum pluries inductum 
+              <lb ed="#PV"/>scilicet quod radix est summa fecunditas 
+              <lb ed="#PV"/>et summe bonitas <choice><orig>habundantia</orig><reg>abundantia</reg></choice> 
+              <lb ed="#PV"/>quia ex hoc sequitur quod cuicumque com<lb ed="#PV"/>petit 
+              huiusmodi summa fecunditas 
+              <lb ed="#PV"/>et summe bonitatis <choice><orig>habundantia</orig><reg>abundantia</reg></choice> 
+              <lb ed="#PV"/>Illi etiam competit generare vel pro<lb ed="#PV"/>ducere 
+              et per consequens spiritus sanctus potest productive 
+              <lb ed="#PV"/>ad suppositum producere Consequenter 
+              <lb ed="#PV"/>arguitur de spiritu sancto scilicet quod per<lb ed="#PV"/>spirationem 
+              non procedit ab utroque 
+              <lb ed="#PV"/>primo quia dictum est quod relationes 
+              <lb ed="#PV"/>in divinis sunt met personalitates
+            </p>
+            <p xml:id="ppr-l75-eehprd">
+              <lb ed="#PV"/>ex hoc sequitur quod pater et filius non 
+              <lb ed="#PV"/>producunt spiritum sanctum Nam spiratio activa 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>est alia realiter in filio quam generatio 
+              <lb ed="#PV"/>passiva ergo in filio sunt duae per<lb ed="#PV"/>sonae
+            </p>
+            <p xml:id="ppr-l75-eehpid">
+              Similiter in patre quia alia 
+              <lb ed="#PV"/>est relatio quae est generatio activa ad 
+              <lb ed="#PV"/>filium et alia est relativa quae est spi<lb ed="#PV"/>ratio 
+              activa ad spiritum sanctum igitur 
+              <lb ed="#PV"/>erunt realiter duae personae etiam fi<lb ed="#PV"/>lius 
+              et duae personae et sic erunt 
+              <lb ed="#PV"/>quinque personae in divinis. Etiam spi<lb ed="#PV"/>ratio 
+              est consequens filio igitur erit persona 
+              <lb ed="#PV"/>est sic erutn sex
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l75-Htertio">Tertio</head>
+            <p xml:id="ppr-l75-tasnvs">
+              Item probatur 
+              <lb ed="#PV"/>quod non procedit a filio Nam in con<lb ed="#PV"/>silio 
+              nyceno quod fuit magis auten<lb ed="#PV"/>ticum 
+              et magis gravae et maioris auctoritatis 
+              <lb ed="#PV"/><choice><orig>ex presse</orig><reg>expresse</reg></choice> ponitur quod a patre quod procedit 
+              <lb ed="#PV"/><unclear>solo</unclear> scilicet in symbolo quod <unclear>causat</unclear> in missa 
+              <lb ed="#PV"/>et in fine additur anathematis <unclear>su?am</unclear> 
+              <lb ed="#PV"/><unclear>quantumque</unclear> aliquid subtraxerit vel ad 
+              <lb ed="#PV"/>addiderit Istud reperitur in ca<lb ed="#PV"/>nonibus 
+              <name ref="#IsidoreOfSeville">ysideri</name> Tunc arguit 
+              <lb ed="#PV"/>illud consilium fuit tantae auctoritatis 
+              <lb ed="#PV"/>quod numquam aliquod consilium nisi saltem 
+              <lb ed="#PV"/>esset generaliter celebratum potuit 
+              <lb ed="#PV"/>ad aequalitate auctoritatis attingere 
+              <lb ed="#PV"/>igitur quemcumque alia determinatio 
+              <lb ed="#PV"/>absolute suspecti ymmo incurrat 
+              primam anathematis et per consequens latini 
+              <lb ed="#PV"/>incurrunt ex communicationis sententiam 
+              <!-- possible para break -->
+              <lb ed="#PV"/>Advertendum quod in consilio generali 
+              <lb ed="#PV"/>ubi materia de processu spiritus sancti 
+              <lb ed="#PV"/>fuit tractata nec graeci inter <unclear>feoer</unclear>
+              <lb ed="#PV"/>nec vitae fuerunt ergo consilium pro 
+              <lb ed="#PV"/>tunc non erat sufficienter conno<lb ed="#PV"/>tatum 
+              ergo non habuit auctoritatem consilii 
+              <lb ed="#PV"/>generalis sed solum particularius 
+              <lb ed="#PV"/>collegii quod non potest procedere 
+              contra auctoritatem tanti consilii et sic graeci 
+              <lb ed="#PV"/>habent repraesentare nos <del rend="strikethrough">athe</del> anathe<lb ed="#PV"/>matizatos 
+              et excommunicatos quia 
+              <lb ed="#PV"/>consilium solum fuit latinorum
+            </p>
+            <p xml:id="ppr-l75-eciaph">
+              <lb ed="#PV"/>Circa istam materiam possit induci 
+              <lb ed="#PV"/>materia de auctoritate consilii generalis
+              Et primo facie videtur quod consi<lb ed="#PV"/>lium 
+              possit deviare saltem in hiis 
+              <lb ed="#PV"/>quae tangunt spiritualia scilicet sacramenta 
+              <lb ed="#PV"/>et sacramentorum <choice><orig>aministratione</orig><reg>administratione</reg></choice> unde 
+              pro nunc scilicet aliqui modernorum alligans 
+              <lb ed="#PV"/>pluralitatis unius partis igitur generale re<lb ed="#PV"/>ducitur 
+              ad humanam sapientiam 
+              <lb ed="#PV"/>vel potentiam vel ad multitudinem 
+              <lb ed="#PV"/>votum vel alia quae sunt huma<lb ed="#PV"/>na 
+              ergo non dirigitur a spiritu sancto 
+              <lb ed="#PV"/>in suis determinationibus et sic de proces<lb ed="#PV"/>su 
+              spiritus sancti a patre et filio una partium determinavit alia non <unclear>va?ta</unclear>
+            </p>
+          </div>
+        </div>
+        <div>
+          <head xml:id="ppr-l75-Hcaacaa">Circa argumentum <name>Arrii</name></head>
+          <p xml:id="ppr-l75-caaich">
+            <lb ed="#PV"/>Circa argumentum <name ref="#Arius">arrii</name> notandum 
+            <lb ed="#PV"/>pro solutione quod cum erroris <name>arrii</name> 
+            <lb ed="#PV"/>ut tangit <name ref="#Boethius">boetius</name> fuit quod per 
+            <lb ed="#PV"/>similitudinem creaturarum processit ad 
+            <lb ed="#PV"/>concludendum proprietates dei ut 
+            <lb ed="#PV"/>prius dictum est ut sortes est homo 
+            <lb ed="#PV"/>et plato est homo et cicero est homo 
+            <lb ed="#PV"/>igitur sortes plato et cicero sunt 3s 
+            <lb ed="#PV"/>homines Et proportionaliter arguit de deo 
+            <lb ed="#PV"/>pater est deus filius est deus et spiritus sanctus 
+            <lb ed="#PV"/>est deus ergo sunt tres dii et non 
+            <lb ed="#PV"/>sequitur sed magis sequitur ergo sunt 
+            <lb ed="#PV"/>unicus deus unde <name ref="#Arius">arrius</name> igno<lb ed="#PV"/>ravit 
+            principium scilicet divinae in<lb ed="#PV"/>mensitatis 
+            perfectionem
+          </p>
+          <p xml:id="ppr-l75-pdaaid">
+            <lb ed="#PV"/>Ad argumentum 
+            <lb ed="#PV"/>suum dicitur quod licet ex parte creatura 
+            <lb ed="#PV"/>non inveniatur omnimoda similitudo 
+            <lb ed="#PV"/>consequentia tamen est neganda quia 
+            <lb ed="#PV"/>fundatur in malo principio 
+            <lb ed="#PV"/>quia non est similitudo quantum ad 
+            <lb ed="#PV"/>modos producendi in deo et in 
+            <lb ed="#PV"/>creaturis
+          </p>
+          <p xml:id="ppr-l75-sdqeii">
+            2o dicitur quod subti<lb ed="#PV"/>liter 
+            considerando productionem 
+            <lb ed="#PV"/>creatarum acceptando quod est perfectionis 
+            <lb ed="#PV"/>et sequestrando quod est imperfectionis 
+            <lb ed="#PV"/>satis possumus productionem ad intra 
+            <lb ed="#PV"/>suae <del rend="expunctuation">causae</del> ymaginanti Exemplum 
+            <lb ed="#PV"/>ignis producit splendorem coaeve 
+            sic
+          </p>
+          <p xml:id="ppr-l75-ihpipc">
+            et sic perfectio est in effectu scilicet esse 
+            <lb ed="#PV"/>coaevum suae causae homo producit 
+            <lb ed="#PV"/>hominem non secundum coaevitate quia 
+            <lb ed="#PV"/>praecedit tempore sed producit tantum 
+            <lb ed="#PV"/>secundum aequalitatem 
+            <!-- probably needs paragraph break here to match the 2o in the next paragraph -->
+            In prima quantum 
+            <lb ed="#PV"/>ad coevitatem est perfectio in effectu 
+            <lb ed="#PV"/>quantum ad <choice><orig>in aequalitatem</orig><reg>inaequalitatem</reg></choice> est imperfectio 
+            <lb ed="#PV"/>deinde inproductionem hominis quod 
+            <lb ed="#PV"/>effectus sit aequalis suae causae est 
+            <lb ed="#PV"/>perfectionis in effectu et quod sit pos<lb ed="#PV"/>teriori 
+            est imperfectionis tollatur ergo 
+            <lb ed="#PV"/>illud quod est imperfectionis et po<lb ed="#PV"/>nantur 
+            simul illa quae sunt 
+            <lb ed="#PV"/>perfectionis scilicet effectum esse coaevum 
+            et aequalem huiusmodi productio 
+            <lb ed="#PV"/>nullam dicit imperfectionem et illo modo 
+            <lb ed="#PV"/>productio potest esse in divinis Istud 
+            <lb ed="#PV"/>tangit <ref><name ana="#AlexanderOfHales">allexander de hallis</name> 33a distinctione 
+            <lb ed="#PV"/>primi</ref>
+          </p>
+          <p xml:id="ppr-l75-sneiif">
+            2o advertendum quod non 
+            <lb ed="#PV"/>est de ratione intrinseca productionis 
+            <lb ed="#PV"/>passive habere suae productionis 
+            <lb ed="#PV"/>in istum scilicet de non esse ad esse 
+            <lb ed="#PV"/>patet nam multi doctores con<lb ed="#PV"/>cedunt 
+            quod absolute deus po<lb ed="#PV"/>tuit <unclear><!-- text looks corrupted --> creaturam</unclear> ab aeterno secum produ<lb ed="#PV"/>cere 
+            in quo casu creatura esset 
+            <lb ed="#PV"/>coaeva deo
+          </p>
+          <p xml:id="ppr-l75-tneapp">
+            ulterius advertendum 
+            <lb ed="#PV"/>quod licet reperiatur aliqua similitu<lb ed="#PV"/>do 
+            in creaturis productio tamen 
+            verbi nullominus est communicabilis creaturae 
+            <lb ed="#PV"/>nec per quamcumque potentiam 
+            <lb ed="#PV"/>est reperibilis in creatura Advertendum 
+            <lb ed="#PV"/>pro illo quod licet ymaginati fsunt aliquam 
+            <lb ed="#PV"/>creaturam posse existere et tamen 
+            <lb ed="#PV"/>tempora realiter non coexistere 
+            <lb ed="#PV"/>impossibile est tamen creaturam esse 
+            <lb ed="#PV"/>aeternam vel aeterna productione pro<lb ed="#PV"/>duci
+          </p>
+          <p xml:id="ppr-l75-dpnaea">
+            <lb ed="#PV"/>Quantum ad primum adver<lb ed="#PV"/>tendum 
+            quod sicut creatura potest esse 
+            <lb ed="#PV"/>in aliquo situ et non tamen com<pb ed="#PV" n="139-r"/><cb ed="#PV" n="a"/><lb ed="#PV"/>mensurative 
+            adaequate alicui 
+            <lb ed="#PV"/>loco utque de sacramento Ita dicunt 
+            <lb ed="#PV"/>aliqui quod possibile est creaturam realiter 
+            <lb ed="#PV"/>existere et semper et tamen tempori 
+            <lb ed="#PV"/>non existere vel commensurari 
+            <lb ed="#PV"/>Quo casu stante non sequitur 
+            <lb ed="#PV"/>quod huiusmodi creatura esset aeterna 
+            <lb ed="#PV"/>vel quod instanti aeternitatis men<lb ed="#PV"/>surae 
+            quod esset adhuc intrinseca suc<lb ed="#PV"/>cessio 
+            quia potest non fore ymmo 
+            <lb ed="#PV"/>dicere esset ab invicem separabiles
+          </p>
+          <p xml:id="ppr-l75-spdqtm">
+            igitur 
+            <lb ed="#PV"/>non sequitur haec creatura et causaliter 
+            <lb ed="#PV"/>existit et semper et tempori non 
+            <lb ed="#PV"/>coexistit igitur est aeterna
+          </p>
+          <p xml:id="ppr-l75-eiscep">
+            Se<lb ed="#PV"/>quitur 
+            <lb ed="#PV"/>ex isto quod <unclear>c</unclear> emanatio qualis 
+            <lb ed="#PV"/>est ad intra est proprietas in morte 
+            <lb ed="#PV"/>consurgens ex <choice><orig>in mensa</orig><reg>immensa</reg></choice> fe<lb ed="#PV"/>cunditate 
+            et perfectione et est proprietas cuius.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
