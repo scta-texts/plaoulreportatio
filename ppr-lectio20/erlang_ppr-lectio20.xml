@@ -2,7 +2,6 @@
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml"
   schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- this needs to be changed to the diplomatic schema when it gets created -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -37,7 +36,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2011-11-18" status="draft" n="0.0.0">
+        <change when="2017-12-08" status="draft" n="0.0.0">
           <p>File Started for the first time.</p>
         </change>
       </listChange>
