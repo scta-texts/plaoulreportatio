@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 24, de Notitia [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 24, de Notitia [Erlangen Transcription]</title>
+          <date when="2017-12-30">December 30, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-12-30" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="32-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio24">
+        <head>Lectio 24, de Notitia [Erlangen Transcription]</head>
+        <div>
+          <head xml:id="ppr-l24-Hiplipl">In praecedent lectione . . </head>
+          <p xml:id="ppr-l24-iploua">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>In alia lectione fuit dictum unde notitia praecipue intuitiva habeat quod sit talis obiecti 
+            <lb ed="#E"/>notitia Et quantum est de notitia beatifica creata dictum fuit quod ipsa est quodammodo ad pla<lb ed="#E"/>citum 
+            dei significativa Et ex consequenti pro declaratione materiae dicebatur quod deus concurrit dupliciter ad cau<lb ed="#E"/>sandum 
+            huiusmodi notitiam et ex diversitate sui modi causa agendi diversificatur effectus
+          </p>
+          <p xml:id="ppr-l24-qedaos">
+            Et 
+            <lb ed="#E"/>uno modo concurrit pure effective et quantum ad hoc dat ei Alio modo concurrit obiective 
+            <lb ed="#E"/>et sic potest facere quod idem actus nunc plura nunc pauciora repraesentet semper indivisibiliter 
+            <lb ed="#E"/>tamen concurrit unde tota radix quarum notitia beatifica creata repraesentat hoc 
+            <lb ed="#E"/>vel id ex divina libertate Et ista est natura actuum <subst><del rend="expunctuation">relativorum</del> <add place="in-line">revelatorum</add></subst> super<lb ed="#E"/>naturalium 
+            <choice><orig>ymitantium</orig><reg>imitantium</reg></choice> quodammodo divinam notitiam <choice><orig>ymmo</orig><reg>immo</reg></choice> de facto ista est de actibus beati<lb ed="#E"/>ficis 
+            et etiam ex fide unde beatus iudicat aliqua fore et tamen potest nunquam ita iudicasse et sic 
+            <lb ed="#E"/>sine mutatione potest esse iudicium quod <unclear>antichristus</unclear> erit et sine sui mutatione potest ita fore quod nunquam 
+            <lb ed="#E"/>erit
+          </p>
+          <p xml:id="ppr-l24-echirv">
+            <pc ana="#pilcrow"/>prius notatum fuit quod aliquae notitiae dependent a suis obiectis Etiam aliquae 
+            <lb ed="#E"/>veritates unde ab eo quod <seg type="correction">est res <!-- word order inverted to "res est"--></seg> vel non est etc sed sic non est in notitiis supernaturalibus 
+            <lb ed="#E"/>Consequenter dicebatur quod possibile esset quod idem actus specificus quo omnes essent 
+            <lb ed="#E"/>beati et sic salvaretur quod latitudo accidentium esset simpliciter finita quantum ad speciem
+            <lb ed="#E"/>
+            <note type="marginal-note" place="margin-bottom">c De Capacitate animae</note>
+            Salvaretur etiam de capacitate animae quia <sic>consuuevit</sic> introduci ex finitate capa<lb ed="#E"/>citatis 
+            animae quod posset tantum mereri quod non posset plus <unclear>praemiari</unclear> nam eadem est species actuum 
+            <lb ed="#E"/>et quod est plurimum vel pauciorum repraesentativus est ex libertate divina et sic per eundem actum 
+            <lb ed="#E"/>infinita posset cognoscere Consequenter salvaretur quod absque successione vel productione novorum 
+            <lb ed="#E"/>activum vel novi actus possent fieri novae revelationes quia idem actus possent nunc 
+            <lb ed="#E"/>repraesentari quod nunquam ante
+            <!-- possible paragraph break -->
+            <note type="marginal-note" place="margin-bottom">D De Actu beatifico</note>
+            Consequenter salvaretur quod actus beatificus repraesentaret primo divinam 
+            <lb ed="#E"/>essentiam solum et consequenter unam creaturam Consequenter idem actus potest repraesentare verum et etiam 
+            <lb ed="#E"/>se ipsum et etiam possibile est quod repraesentaret verum et non seipsum Et sic consequenter <unclear>viis</unclear> actus 
+            <lb ed="#E"/>esset rectus et reflexus
+          </p>
+          <p xml:id="ppr-l24-idqsns">
+            Advertendum quod probabile est dicere quod actus beatificus 
+            <lb ed="#E"/>est simplex dei apprehensio etiam esset sui apprehensio et cognitio non solum incomplexa <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+            <lb ed="#E"/>complexa non solum affirmativa <choice><orig>ymmo</orig><reg>immo</reg></choice> etiam negativa unde esset affirmativa cuiuscumque per<lb ed="#E"/>fectionis 
+            in deo saltis super eminenter et negativa cuiuscumque habitudinis repungnantis 
+            <lb ed="#E"/>deo scilicet dependentiae etc Non est tamen concedendum quod huiusmodi actus sit sibi contradictorius quia 
+            <lb ed="#E"/>sic certum est quod esset propositio inpossibilis quia esset aequivalenter copulativa inpossibilis et sic esset 
+            <lb ed="#E"/>aequivalenter actus successive esse iudicium <subst><del rend="strikethrough">dictorum</del> <add place="in-line">duorum</add></subst> contradictoriorum ad invicem 
+            <lb ed="#E"/>Nam primo quod <name>sortes</name> est et postea non est sed non simul utriusque iudicium
+          </p>
+        </div>
+        <div>
+          <head xml:id="d3a1l22Hrangcu">Reditio ad notitias abstractivas: duo genera conceptuum universalium</head>
+          <p xml:id="ppr-l24-qaagse">
+            <lb ed="#E"/>
+            <note type="marginal-note" place="margin-bottom">E De modis causandi notitias abstractivas univerales et dicentes perfectiones simpliciter</note>
+            Quantum ad notitias abstractivas fuerunt aliqua notata et circa hoc fuerunt
+            <pb ed="#E" n="32-v"/>
+            <lb ed="#E"/>multi modi dati causandi notitias abstractivas unus modus dato conceptu 
+            <lb ed="#E"/>mere singulari cum connotationibus extrinsicis etc potest intrinsecus inmediate elicere conceptum 
+            <lb ed="#E"/>singularem determinatum 
+            <!-- why no paragraph break --> 
+            Advertendum circa modum causandi conceptus universalis quod quidam 
+            <lb ed="#E"/>sunt conceptus universales dicentes perfectionem simpliciter sine limitatione Alii sunt limitati 
+            <lb ed="#E"/>ad certam perfectionem et quandoque cum inclusione inperfectionis sicut sunt genera sub alterna 
+            <lb ed="#E"/>et species specialissimae in genere substantiae <unclear>vina</unclear> excepta
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l24-Hpcudps">Primus conceptus universalis: circa conceptus universales dicentes perfectionem simpliciter</head>
+          <p xml:id="ppr-l24-cpdpsp">
+            Ulterius advertendum circa modum 
+            <lb ed="#E"/>causandi huiusmodi conceptus quod causantur a convenientiis generalibus rerum unde 
+            <lb ed="#E"/><choice><orig>ymaginemur</orig><reg>imaginemur</reg></choice> unam speciem infinitam quae percipiet solum cum deo secundum esse ab illa 
+            <lb ed="#E"/>convenientia formatur conceptus generalissimus conveniens sibi et deo et cuilibet 
+            <lb ed="#E"/>convenienti in hac perfectione Deinde capiatur secunda species illa convenit cum deo in aliqua 
+            <lb ed="#E"/>minori quam prima et ab illa convenientia capitur alia denominatio quae non 
+            <lb ed="#E"/>convenit in fine speciei 
+            <note type="marginal-note" place="margin-bottom">f de ordine praedicatorum essentialium et processum in infinitum potentia infinita non poest terminari ad maximum finitum</note>
+            Et sic consequenter a tertia specie vel a convenientia qua convenit a deo 
+            <lb ed="#E"/>capitur aliud praedicatum vel alia <subst><del rend="expunctuation">condempnatio</del> <add place="in-line">denominatio</add></subst> conveniens et illi speciei 
+            <lb ed="#E"/>sed non duabus primus et sic consequenter de aliis et sic est ordo in praedicatis essentialibus et sic ascen<lb ed="#E"/>dendo 
+            sunt infinite producibiles
+          </p>
+          <p xml:id="ppr-l24-essvls">
+            Quia ex quo deus est potentia infinita ipsa 
+            <lb ed="#E"/>non potest terminari ad aliquod maximum finitum quia si sic non esset infinita 
+            Et sic nulla esset producibiles quin deus posset ultra illam producere aliam Et sic quot sunt 
+            <lb ed="#E"/>species producibiles tot sunt conceptus causabiles specifici essentiales dicentes <del rend="strikethrough"><unclear>corationem</unclear></del> 
+            <lb ed="#E"/>perfectionem simpliciter et absolute
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l24-Hscucul">Secundus conceptus universalis: circa conceptus universales limitatos</head>
+          <p xml:id="ppr-l24-aemeap">
+            <lb ed="#E"/>Alius modus secundum limitationem generum subalternorum 
+            <lb ed="#E"/>Secundum subordinationem terminorum positorum in praedicamento substantiae secundum quod patet in arbore 
+            <lb ed="#E"/><name ref="#Porphyry">porphyrii</name>
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l24-Huecdps">Ulterior explicatio circa conceptus universales dicentes perfectionem simpliciter</head>
+          <p xml:id="ppr-l24-cmpicc">
+            Circa primum modum advertendum quod a quolibet conceptu dicente denominationem 
+            <lb ed="#E"/>perfectionis simpliciter potest abstrahi unus conceptus excludens omnino quamcumque inperfectionem 
+            <lb ed="#E"/>possibilem sicut ab infima specie et convenientia <unclear>cuius</unclear> cum deo causatur conceptus entis Et ab illo 
+            <lb ed="#E"/>conceptu potest capi conveniens soli deo excludens omnem limitatam perfectionem 
+            Et quod supponeret pro perfectione <choice><orig>inmensa</orig><reg>immensa</reg></choice> dicendo ens <choice><orig>inmensum</orig><reg>immensum</reg></choice> ens omnino perfectum 
+            <lb ed="#E"/>et sic de quolibet praedicatorum dictorum a quolibet potest praedicatum capi deo proprium
+            <!-- parallel point of division in this paragraph and next is unclear -->
+          </p>
+          <p xml:id="ppr-l24-esedpe">
+            <!-- parallel point of division in this paragraph and next is unclear -->
+            Et sic  
+            <lb ed="#E"/>in infinitum contingit huiusmodi latitudinem reperire Secundum quod sunt conceptus communes reperibi<lb ed="#E"/>les 
+            deo et creaturae convenientes Et sic consequenter ex quolibet istorum potest elici aliter 
+            <lb ed="#E"/>quia quibus illorum exprimit limitate ut primus exprimit solum esse et sic possumus 
+            <lb ed="#E"/>ab illo formare esse inmensum conveniens soli deo Aliud praedicatum esse vivens 
+            <lb ed="#E"/>quod convenit deo et creaturae Et attribuimus deo propter penuriam terminorum deo attributorum 
+            <lb ed="#E"/>Et ab illo potest capi istud praedicatum vivens inmensum
+          </p>
+          <p xml:id="ppr-l24-etcpid">
+            Consequenter posset inveniri 
+            <lb ed="#E"/>unus conceptus repraesentativus omnium illorum et esset proprius deo Utrum in via sit invenibilis 
+            <lb ed="#E"/>credo quod non sed in patria est huiusmodi Patet quomodo plures conceptus possent esse simplices quorum 
+            <lb ed="#E"/>quilibet pro deo supponeret
+          </p>
+          <p xml:id="ppr-l24-eiadec">
+            <!-- parallel paragraph division is a little fuzzy -->
+            Sed iterum ex omnibus conceptibus deo propriis scilicet esse divinum vivens 
+            <lb ed="#E"/><sic>divinum</sic> etc Ex illis possent elici conceptus mere absoluti etc et etiam esset ordo inter illos conceptus 
+            <lb ed="#E"/>et quanto conceptus absolutus ex pluribus talibus conceptibus <unclear>connotativis</unclear> formaretur tanto esset per<lb ed="#E"/>fectior 
+            Et secundum hoc essent processus in infinitum ascendendo per potentias 
+            <lb ed="#E"/>semper magis perfectas
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l24-Hueccul">Ulterior explicatio circa conceptus universales limitatos</head>
+          <p xml:id="ppr-l24-aeipmp">
+            <note type="marginal-note" place="margin-bottom">G notitia creaturae est apta concurrere ad notitiam abstractivam de deo</note>
+            Alius est modus abstrahendi conceptus non solum 
+            <lb ed="#E"/>modum tactum sed ex conceptibus limitatis ad creaturarum Dico circa hoc quod quaelibet
+            <pb ed="#E" n="33-r"/>
+            <lb ed="#E"/>notitia creaturae quantum est de se est inmediate apta nata ad concurrendm et ad causandum 
+            <lb ed="#E"/>notitiam abstractivam de deo nam sicut creaturae habent ordinem ad deum Ita notitiae crea<lb ed="#E"/>turarum 
+            habent ordinem ad notitiam dei et sic notitiae creaturarum sunt quaedam modo <unclear>lumina</unclear> apta 
+            <lb ed="#E"/>nata concurrere ad productionem notitiae dei ymaginandum quod ex unica notitia non potest 
+            <lb ed="#E"/>ut plurimum in nobis <unclear>creari</unclear> notitia dei vel conceptus et hoc propter de factum vel debilitatem 
+            <lb ed="#E"/>potentiae abstractivae
+            
+            Et ex hoc consurgit quod posset nunc ex pluribus notitiis nunc ex pau<lb ed="#E"/>cioribus 
+            aliquando cum concursu discursus et secundum haec resultant diversi conceptus 
+            <lb ed="#E"/>dei et magis vel minus perfecti Et ideo inter operationes animae vis abstractive est multum no<lb ed="#E"/>bilis 
+            excellens et intellectum perficiens
+          </p>
+          <p xml:id="ppr-l24-edhiia">
+            Et propter hoc quod fuerunt valde multi modi de deo 
+            <lb ed="#E"/>apud antiquos formandi conceptus Ars abstractiva esset multum utilis si esset 
+            <lb ed="#E"/>tradita sed non sunt datae regulae et est multum difficile propter latentiam intellectus <choice><orig>ymo</orig><reg>immo</reg></choice> 
+            dixerunt aliqui philosophi quod per modum abstractum intellectus patet devenire in notitiam intuiti<lb ed="#E"/>vam 
+            dei quia secundum hoc quod notitiae abstrahuntur diversimode et a pluribus aliis tanto 
+            <lb ed="#E"/>sunt perfectiores et quando intellectus ad hoc deveniret quod vetaretur intellectus adeptus
+          </p>
+          <p xml:id="ppr-l24-uchsid">
+            Advertendum 
+            <lb ed="#E"/>est quod consideranda est certa habitudo et combinatio notitiarum Unde ex ista combinatione 
+            <lb ed="#E"/>notitiarum creaturarum sensibilium inter se quasi per modum speciei repraesentatur deus ita quod ex illa 
+            <lb ed="#E"/>combinatione consurgit quaedam armonia et quaedam habitudo quae habet se per modum speciei 
+            scilicet ex tota illa congerie notitiarum et tunc intellectus elicit notitiam dei Ita quod nulla illarum 
+            <lb ed="#E"/>sufficit sed omnes vel nulla est notitia vel omnes simul <choice><orig>Sicud</orig><reg>Sicut</reg></choice> in armoniis ex uno solo 
+            <lb ed="#E"/>non causatur armonia sed ex congerie multorum Ita quod ex multis conbinatis con<lb ed="#E"/>surgit 
+            armonia et sic recte sicut in combinatione qualitatum primarum secundum variationem 
+            <lb ed="#E"/>producitur forma substantialis magis vel minus perfecta ita secundum varias species huiusmodi 
+            <lb ed="#E"/>notitiarum et secundum variam conbinationem specierum huiusmodi notitiarum formantur conceptus 
+            <lb ed="#E"/>nobilioris et altioris speciei etiam secundum <sic>abilitatem</sic> intellectus Pono tamen quod licet huiusmodi 
+            <lb ed="#E"/>conbinatio teneat vicem speciei non tamen est proprie species nec causat eius speciem
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l24-Hohdhdh">Opinio Henrici de Oyta</head>
+          <p xml:id="ppr-l24-eehfee">
+            Et ex hoc apparet 
+            <lb ed="#E"/>quod <name ref="#Oyta">magister henricus de Eutha</name> non videtur multum bene dicere de notitia sensitiva unde ipse ymaginatur 
+            <lb ed="#E"/>quod ex duabus speciebus simul scilicet duorum obiectorum causatur tertia species unde ex concursu speciei 
+            <lb ed="#E"/>lucis et ex <sic>opato</sic> in iride causatur rubedo Non est sic Nam sensus in hoc potest val<lb ed="#E"/>de 
+            bene decipi Sicut pono de calore Nam si praesentetur alicui in rase <sic>consuueto</sic> praesen<lb ed="#E"/>tari 
+            farinam intellectus sive sensus non exibit in actum nisi iudicando de farina 
+            <lb ed="#E"/>nec causabitur species farinae
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l24-Hrahhdh">Responsio ad Henricum de Huta</head>
+          <p xml:id="ppr-l24-rduecc">
+            Contra ibi causatur actus cognitionis cognoscendi fa<lb ed="#E"/>rinam 
+            negatur sed causatur realiter notitia actualis calcis
+          </p>
+          <p xml:id="ppr-l24-sdqcre">
+            Secundo dico quod licet pro<lb ed="#E"/>duceretur 
+            actualis notitia farinae hoc tamen non esset per speciem calcis nisi quasi extrinsece 
+            <lb ed="#E"/>moventem ad concordationem speciei farinae et sic stat
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l24-Hrpnncd">[Resolutio: possibilitas notitiae circa Deum]</head>
+          <p xml:id="ppr-l24-eissde">
+            <pc ana="#pilcrow"/>Patet qualiter multipliciter potest haberi 
+            <lb ed="#E"/>conceptus abstractivus de deo mere simplex et sibi proprius primo <unclear>nunc</unclear> <unclear>abstractivus</unclear> et sibi proprius 
+            <lb ed="#E"/>secundum quod abstrahitur a denominationibus convenientibus sibi et creaturis
+          </p>
+          <p xml:id="ppr-l24-spepii"> <!-- this paragraph is highly related to ppr-l24-eippne -->
+            Secundo potest esse 
+            <lb ed="#E"/>qui ab huiusmodi conceptibus sibi propriis abstrahitur et quanto a pluribus tanto est perfectior et est processus 
+            <lb ed="#E"/>in infinitum
+          </p>
+          <p xml:id="ppr-l24-tecnri"> <!-- this paragraph is highly related to ppr-l24-eippne -->
+            <sic>2o</sic> ex combinatione notitiarum creaturarum et secundum 
+            infinitos modos combi<lb ed="#E"/>nandi 
+            infiniti conceptus simplices possunt causari <name>Rabi moises</name> dicit quod deus non est cog<lb ed="#E"/>noscibilis 
+            a nobis nisi removendo inperfectiones
+          </p>
+          <p xml:id="ppr-l24-ctppfe">
+            Circa textum post praedictorum Ista 
+            <lb ed="#E"/>est distinctio 22a prima conclusio Quod nomini divinorum sunt sex differentiae quaedam singulis propria
+            <pb ed="#E" n="34-v"/>
+            quaedam sunt essentialia et nulli propria convenientia tamen cuilibet personarum quaedam dicuntur personaliter 
+            <lb ed="#E"/>et non relative ut incarnatus Aliud dicitur de omnibus simul et non de aliquo solo ut trinitas 
+            <lb ed="#E"/>et hii tres simul tamen non est aliqua res deus quae nec sit pater nec filius nec spiritus sanctus unde 
+            <lb ed="#E"/>non est sanum concedere trinitas est illa res quae est pater et filius et spiritus sanctus 
+          </p>
+          <p xml:id="ppr-l24-scnsve">
+            Secunda conclusio 
+            <lb ed="#E"/>nomina singulis perfectius propria sunt relativa et non substantialia vel essentialia
+          </p>
+          <p xml:id="ppr-l24-tcndqp">
+            Tertia conclusio nomina substantialia 
+            <lb ed="#E"/>dicuntur de essentia et de qualibet persona
+          </p>
+          <p xml:id="ppr-l24-qcqgse">
+            Quarta conclusio quodlibet nomen relativum dicitur ad aliquid et non est 
+            <lb ed="#E"/>commune tribus ut generare spirare
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
