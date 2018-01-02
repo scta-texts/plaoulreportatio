@@ -86,7 +86,11 @@
               <assertion property="isRelatedTo" target="http://scta.info/resource/l25-scatep"/>
             </assertions>
           </p>
-          <!-- 3o seems skipped  <p xml:id="ppr-l25-tcaaid">-->
+          <p xml:id="ppr-l25-tcaaid">
+            <assertions>
+              <assertion property="isRelatedTo" target="http://scta.info/resource/l25-tcaaid"/>
+            </assertions>
+          </p>
           <p xml:id="ppr-l25-qvaaae">
             <assertions>
               <assertion property="isRelatedTo" target="http://scta.info/resource/l25-qvaaae"/>

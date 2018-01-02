@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 25, de Notitia [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 25, de Notitia [Erlangen Transcription]</title>
+          <date when="2018-01-01">January 01, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-01-01" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="33-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio25">
+        <head>Lectio 25, de Notitia [Erlangen Transcription]</head>
+        <div>
+          <head xml:id="ppr-l25-Hoaoaoa">Opinio Averröeis</head>
+          <p xml:id="ppr-l25-pmassv">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>
+            <note type="marginal-note" place="margin-bottom">B De modo abstractionis commentatoris per intellectum agentem cuius inventor quidem <unclear>maurus philosophus</unclear></note>
+            Praeter modos abstractivos prius tactus est alius modus <name ref="#Averroes">averrois</name> scilicet per intellectum 
+            <lb ed="#E"/>agentem cuius <choice><orig>ymaginationis</orig><reg>imaginationis</reg></choice> ipse non fuit primus inventor quem ponit intelligentiam 
+            <lb ed="#E"/>secundum aliquos supremam vel deum et secundum aliquos infimam videtur tamen ex intensione 
+            <lb ed="#E"/>sua quod intelligat deum per intellectum agentem unde quidam philosophus <unclear>maurus <!-- likely name --></unclear> inventor fuit 
+            <lb ed="#E"/>illius ymaginationis ut dicunt <name ref="#Albert">albertus</name> et <name ref="#Maimonides">rabbi moyses</name> unde <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod intellectus 
+            <lb ed="#E"/>possibilis est capax cuiuscumque notitiae non subiective sed vitaliter
+          </p>
+          <p xml:id="ppr-l25-ivaaei">
+            <!-- also seems to parallel ppr-l25-eimapr; and crosses a division in other text -->
+            et intellectus agens est lumen 
+            <lb ed="#E"/>in quo relucent cognoscibilia deinde fantasmata habent unum modum potentialem 
+            <lb ed="#E"/><unclear>vel</unclear> actualem et secundum hoc inmutant sensum ad singulariter cognoscendum 
+            Aliquando habent habitu<lb ed="#E"/>alem 
+            ita in notitia sensitivam in specie multiplicata ab obiecto relucet rebus universalem sed non <choice><orig>inmediate</orig><reg>immediate</reg></choice> 
+            <lb ed="#E"/>vigore illius speciei et sic illam potentialitatem reducit intellectus agens ad actum Ex 
+            <lb ed="#E"/>consequenti illi de illa opinione habent dicere quod intellectus non cognoscit singularia nisi per accidens 
+            <lb ed="#E"/>scilicet <del rend="strikethrough">quod</del> secundum quod perfecte cognoscit universale quia intellectus agens non est ipse deus saltis 
+            <lb ed="#E"/>quod videtur innuere Ipse ponit deus nichil ad extra agit et sic videtur quod non actuet 
+            <lb ed="#E"/>intellectum possibilem per consequens videtur quod <name ref="#Averroes">commentator</name> contradicat sibi ipsi
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l25-Hsmpcdd">Sex modis possumus habere conceptum de Deo</head>
+          <p xml:id="ppr-l25-edacdd">
+            <note type="marginal-note" place="margin-bottom">C De modis cognoscendi deum</note>
+            Ex praedictis sequitur 
+            <lb ed="#E"/>saltem in lectionibus praesentibus quod sex modus conceptum possumus habere <del rend="strikethrough">con</del> de deo
+          </p>
+          <div>
+            <head xml:id="ppr-l25-Hpmpmpm">Primus modus</head>
+            <p xml:id="ppr-l25-pmesie">
+              primus modus est 
+              <lb ed="#E"/>per viam ab negationis scilicet ponendo negationem <sic>infinitantem</sic> ad praedicata dicentia 
+              <lb ed="#E"/>expresse inperfectionem ut dependens dicit inperfectionem dicamus non dependens et ita 
+              <lb ed="#E"/>non mutabilis et sic de aliis Et si sint generalia quae dicuntur de omni creatura ut 
+              <lb ed="#E"/>esse creabile tunc per modum regulae quod <seg type="correction">no<del>m</del><add place="above-line">men</add></seg> infinitum tali <unclear><!-- possible correction from modi -->nomine</unclear> generali correspondens 
+              <lb ed="#E"/>adaequate supponit pro deo quia sicut sine negatione est proprium deo <name ref="#Maimonides">Rabi moyses</name> 
+              <lb ed="#E"/><name ref="#Aquinas">beatus thomas</name> et multi tales tenuerunt istum modum
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l25-Hsmsmsm">Secundus modus</head>
+            <p xml:id="ppr-l25-amhcee">
+              Secundus modus per hoc quod habetur conceptus 
+              <lb ed="#E"/>communis scilicet entis
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l25-Htmtmtm">Tertius modus</head>
+            <p xml:id="ppr-l25-ametmp">
+              Tertius modus componendo plures simul ut addendo aliquam determinationem 
+              <lb ed="#E"/>ad praedicatum communem deo et creaturae ut dicendo ens primum unde nullum illorum praedicatorum 
+              <lb ed="#E"/>convertitur cum deo sed totum aggregatum Ex istis sunt modi inperfecti cognoscendo deum
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l25-Hramope">Reditio ad materiam de ordine praedicatorum essentialium</head>
+            <p xml:id="ppr-l25-cqphpe">
+              <note type="marginal-note" place="margin-bottom">D</note>
+              Et
+              <lb ed="#E"/>dicunt aliqui quod non est alio modo est nobis cognoscibilis Sed sunt alii tres
+            </p>
+            <p xml:id="ppr-l25-cqasle">
+              Advertendum 
+              <lb ed="#E"/>quod tot sunt praedicata absoluta essentialia subordinata quot sunt species vel saltem sunt <choice><orig>yma<lb ed="#E"/>ginabilia</orig><reg>ima<lb ed="#E"/>ginabilia</reg></choice> 
+              et semper priora procedendo ab inferioribus dicunt minorem perfectionem vel alia maiorem 
+              <lb ed="#E"/>unde ab existentia capitur conceptus simplex scilicet ens communis deo et creaturae et nullam inperfectionem inpor<lb ed="#E"/>tat 
+              alias non competeret deo ut si esset aliqua species quae praecise haberet esse illi compe<lb ed="#E"/>teret 
+              ille conceptus et nullum aliud praedicatum dicens perfectionem simpliciter et illud praedicatum 
+              <lb ed="#E"/>etiam competeret cuilibet speciei perfectiori
+            </p>
+            <p xml:id="ppr-l25-esciss">
+              Secundo <choice><orig>ymaginemur</orig><reg>imaginemur</reg></choice> <!-- good example of where pal lat offers a choice between imaginatur and imaginemur --> secundam speciem quae addit 
+              <lb ed="#E"/>aliquam perfectionem et ab illa vel a convenientia quae convenit cum deo et aliis superioribus
+              <pb ed="#E" n="34-r"/>
+              <lb ed="#E"/>abstrahitur conceptus generalis supponens pro omni re habente illam perfectionem illud praedicatum non 
+              <lb ed="#E"/>est ita generale quia excludit primam speciem seu infimam unde quot sunt species producibiles 
+              <lb ed="#E"/>tot sunt praedicata fabricabilia dicentia perfectionem simpliciter sed gramatici non posuerunt <choice><orig>ymmo</orig><reg>immo</reg></choice> apparet 
+              <lb ed="#E"/>huiusmodi esse maximum <unclear>mathematicum</unclear> quia oporteret eum cognoscere proprietates specierum Et si suprema 
+              <lb ed="#E"/>species est producibilis tunc supremum praedicatum est sibi fabricabile et multum ultra illud et illud 
+              <lb ed="#E"/>praedicatum non extendit se nisi ad duo scilicet ad illam et ad deum unde si capiamus a suprema 
+              <lb ed="#E"/>specie praedicatum conveniens sibi praecise se extendunt ad duo Si capiamus praedicatum inmediatum 
+              <lb ed="#E"/>convenit solum <unclear>tribus</unclear> speciebus
+            </p>
+            <p xml:id="ppr-l25-esirhp">
+              et sic <unclear>descendendo</unclear> secundum substantiam a suprema secundum hoc erit numerus praedica<lb ed="#E"/>torum 
+              et numerus suppositorum addito semper uno supposito scilicet deo
+            </p>
+            <p xml:id="ppr-l25-ecvrpi">
+              Econverso contingit incipiendo 
+              <lb ed="#E"/>a extremo inferiori Ista ymaginatio proficit ad multa
+            </p> 
+            <p xml:id="ppr-l25-peisai">
+              primo indicat ordinem rerum
+            </p>
+            <p xml:id="ppr-l25-scatep">
+              <lb ed="#E"/>Secundo confert ad notitiam perfectionis specierum
+            </p>
+            <!-- hometelueton in pal here -->
+            <p xml:id="ppr-l25-tcaaid">
+              3o confert ad sciendum nomina dei et praedicata 
+              <lb ed="#E"/>sibi convenientia ymmo ex istis antiqui philosophi processerunt ad notitiam dei quia quicquid perfectionem 
+              <lb ed="#E"/>dicit attribuerunt sibi
+            </p>
+            <p xml:id="ppr-l25-qvaaae">
+              Quarto valet ad intellectum materiae ydearum tam secundum theo<lb ed="#E"/>logos 
+              quam secundum platonicos <name ref="#Plato">plato</name> realiter ymaginatus est quod deus habeat aliquam 
+              <lb ed="#E"/>diversitatem in se 
+              <!-- fifth -->
+              Item valet ad intelligendum materiam de formalitatibus unde ymaginatur 
+              <lb ed="#E"/>quod esse est eiusdem rationis in omnibus postea vivere distinctum a parte rei abesse concurrit tamen ydemp<lb ed="#E"/>tice 
+              Ita quod sit distinctio ex natura et sunt maiores vel minores Esse et vita in <name>sorte</name> 
+              <lb ed="#E"/>distinguuntur aliqualiter sive secundum quid scilicet formaliter sed non personaliter vel simpliciter
+            </p>
+            <!-- 5 and 6 seem missing or somehow in above number 4 -->
+          </div>
+          <div>    
+            <head xml:id="ppr-l25-Hqmpesd">Quartus modus: primus modus abstrahendi conceptum proprium et singularem Dei</head>
+            <!-- review division -->
+            <p xml:id="ppr-l25-napprf">
+              Ad propositum <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> 
+              <lb ed="#E"/>est secundum illa praedicata quod a quolibet istorum abstrahitur conceptus singularis proportionalis 
+              <lb ed="#E"/>tamen ad praedicatum a quo abstrahitur quod ly <mentioned>ens</mentioned> principalius convenit creaturae vel <unclear>significat</unclear> creaturam ab illo 
+              <lb ed="#E"/>potest abstrahi conceptus conveniens soli deo
+            </p>
+            <p xml:id="ppr-l25-echsss">
+              Alio modo potest esse <sic>annologia</sic> viceversa 
+              <lb ed="#E"/>ut quod esse primo convenit deo et sic est terminus singularis et convenit creaturis per posterius et 
+              <lb ed="#E"/>sic de aliis praedicatis dicentibus perfectionem simpliciter
+            </p>
+            <p xml:id="ppr-l25-eshdqn">
+              Et si capiatur prout deo primo 
+              <lb ed="#E"/>convenit et est terminus singularis respectu dei et terminus communis respectu aliorum et ita habent ordinem inter se praedicata 
+              <lb ed="#E"/>convenientia deo ut esse primo postea vivens unde ab illo praedicato vivens conveniens 
+              <lb ed="#E"/>deo et creaturis capitur conceptus significans deum in esse vitae nunc significatur et perfectiori modo 3m 
+              <lb ed="#E"/>praedicatur intelligens 4m volens et iste est primus modus abstrahendi conceptus proprios 
+              <lb ed="#E"/>dei et mere simplices et est processus in infinitum in istis sicut in aliis communibus datur 
+              <lb ed="#E"/>ulterius absolute ille est perfectissimus conveniens deo Sed utrum <unclear>talis</unclear> possit a nobis abstrahi dico 
+              <lb ed="#E"/>quod non ergo non pono illum in numero abstrahendorum
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l25-Hqmsesd">Quintus modus: secundus modus abstrahendi conceptum proprium et singularem Dei</head>
+            <p xml:id="ppr-l25-smapca">
+              Secundus modus est a pluribus con<lb ed="#E"/>ceptibus 
+              communibus simul mentis scilicet combinando plures simul ut esse vivens intelligens etc Et ille quanto 
+              <lb ed="#E"/>a pluribus denominationibus abstrahitur tanto erit perfectior Et forte daretur maximus 
+              numerus conceptuum communium quem intellectus posset habere et ille conceptus qui abstraheretur ab illis 
+              <lb ed="#E"/>est perfectissimus nobis possibilis sine speciali adiutorio
+            </p>
+          </div>   
+          <div> 
+            <head xml:id="ppr-l25-Hsmtesd">Sextus modus: tertius modus abstrahendi conceptum proprium et singularem Dei</head>
+            <p xml:id="ppr-l25-tmadsa">
+              Tertius modus datus 
+              <lb ed="#E"/>conceptibus pluribus complexis ex ipsis potest elici conceptus dei unde <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> quod licet non quilibet 
+              <lb ed="#E"/>sufficeret quia non gerit <unclear>sufficienter</unclear> vicem speciei tamen bene tota congeries licet non sit proprie 
+              <lb ed="#E"/>species dicit scriptura a specie creaturae potest cognosci
+            </p>
+            <!-- review this division  -->
+            <p xml:id="ppr-l25-essrec">
+              Tunc potest dici quod quaelibet notitia 
+              <lb ed="#E"/>creata quantum est de se est sufficiens concurrere ad productionem notitiae forte quod simplex
+              <pb ed="#E" n="34-v"/>
+              <lb ed="#E"/>sufficeret in angelo licet non in nobis Unde secundum quod variatur proportio tam ex 
+              <lb ed="#E"/>parte potentiae quam ex parte aliorum concurrentium 
+              ad productionem variatur 
+              conceptus
+            </p>
+          </div>
+        </div>
+        <div>
+          <head xml:id="ppr-l25-Hcnluso">Conclusio</head>
+          <p xml:id="ppr-l25-eiaafe">
+            Advertendum quod huiusmodi abstractio verisimiliter non esse possibilis nec iuvante fi<lb ed="#E"/>de 
+            et elevante et ideo fides in talibus est luminis naturalis directiva
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l25-Hrairai">[Responsio ad instantias]</head>
+          <p xml:id="ppr-l25-asigge">
+            Arguitur contra 
+            <lb ed="#E"/>dicta quia si ita esset sequeretur quod non possent inveniri <unclear>demonstrationes</unclear> et diffinitiones specierum in<lb ed="#E"/>finite 
+            distantium
+          </p>
+          <p xml:id="ppr-l25-airncs">
+            Respondetur quod nulla species distat sic infinite quia quaelibet creatura 
+            <lb ed="#E"/>est finita et ergo per viam divisionis contingit ad quamlibet devenire  
+          </p>
+          <p xml:id="ppr-l25-srqcds">
+            Secundo dicitur 
+            <lb ed="#E"/>quod dato quod non per viam divisionis possemus devenire tamen per operationem posset intellectus ab<lb ed="#E"/>strahere 
+            conceptum proprium illi speciei et sic capere differentiam et genus
+          </p>
+          <p xml:id="ppr-l25-tdqcii">
+            Tertio dicitur quod non oportet tran<lb ed="#E"/>sire 
+            per omnia sed potest fieri saltus ut dicimus homo est animal rationalis Certum est tamen quod aliquae 
+            <lb ed="#E"/>sunt convenientiae inter hominem et aliqua bruta a quibus possent capi aliqua praedicata et non 
+            <lb ed="#E"/><choice><orig>in mediate</orig><reg>immediate</reg></choice> oporteret capere hoc genus animalis per quae tamen praedicata non <unclear>descendimus</unclear> ad illam speciem 
+            <lb ed="#E"/>homo
+          </p>
+          <p xml:id="ppr-l25-qdqand">
+            Quarto dico quod licet in huiusmodi denominationibus proceditur in infinitum tamen investigando 
+            <lb ed="#E"/>diffinitionem non procedimus in talibus praedicatis sed dividendo quia ut entium aliud finitum 
+            <lb ed="#E"/>aliud infinitum et finitorum aliud corporale aliud incorporale
+          </p>
+          <p xml:id="ppr-l25-ccuang">
+            <pc ana="#pilcrow"/>Item dictum est prius 
+            <lb ed="#E"/>quod quaelibet creatura ad repraesentandum deum habet talem naturam et per consequens species causabit 
+            <lb ed="#E"/>aliam speciem et sic in infinitum Advertendum quod <unclear>alchidus <!-- alkindi --></unclear> in quodam tractatur superstitio<lb ed="#E"/>so 
+            tamen ponit quod quaelibet res causat radios quantumcumque sit accidens vel substantia 
+            <lb ed="#E"/>ymmo <unclear>lumine</unclear> causatum per radios rectos causat lumen scilicet ad latus infinitum remittendo 
+            <lb ed="#E"/>procedendo tamen ad non gradum Aliter dicitur quod non est processus in infinitum et tamen quaelibet res 
+            <lb ed="#E"/>concurrit obiective ad intellectum datum quia sic concurrere est communicare intellectui nostro 
+            <lb ed="#E"/>esse ad sensum dictum et sic notitia est notitia intellectui nostro et obiectum unde non <unclear>re<lb ed="#E"/>notatur</unclear> 
+            in dubium quin notitia beatifica sit notitia sui Probari potest sic 
+            de qualibet dici quantum 
+            <lb ed="#E"/>est de se sed intellectus non faciliter inmutatur per eam <name ref="#Ripa">magister Ioannes de ripa</name> dicit quod notitia est 
+            <lb ed="#E"/>principaliter notitia sui Dico oppositum quod per prius repraesentat obiectum deinde se ex hoc quod intellectus 
+            convertit se ad notitiam et sic forte habebimus complexam et concurrit obiective non causando speciem 
+            <lb ed="#E"/>dictam sed gerendo vicem speciei et obiecti
+          </p>
+        </div>
+        <div>
+          <head>Circa textum</head>
+          <p xml:id="ppr-l25-ctedvm">
+            Circa textum 23am distinctionem Advertendum quod ly <mentioned>persona</mentioned> 
+            <lb ed="#E"/>nec est nomen pure essentiale nec nomen relativum nec notionale quia non connotat aliquam ema<lb ed="#E"/>nationem 
+            sed est nomen suppositale non tamen relativum sicut ly <mentioned>homo</mentioned> sicut si tres personae assumerunt 
+            <lb ed="#E"/>tres naturas humanas essent tres homines et vetatur ly <name>persona</name> essentiale prout distinguuntur 
+            <lb ed="#E"/><unclear>con</unclear> notionale
+          </p>
+          <p xml:id="ppr-l25-scneeu">
+            Secunda conclusio non dicimus ibi esse tres deos unde nomen dei 
+            <lb ed="#E"/>capitur a forma quae est ergo unitum 
+          </p>
+          <p xml:id="ppr-l25-titdvm">
+            Tertia in trinitate non est diversitas vel multipli<lb ed="#E"/>citas
+            etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
