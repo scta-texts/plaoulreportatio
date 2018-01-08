@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 26, de Notitia [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 26, de Notitia [Erlangen Transcription]</title>
+          <date when="2018-01-04">January 04, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-01-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="34-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio26">
+        <head>Lectio 26, de Notitia [Erlangen Transcription]</head>
+        <div>
+          <head xml:id="ppr-l26-Hddiiea">De differentia inter notitiam intuitivam et abstractivam</head>
+          <p xml:id="ppr-l26-sqddso">
+            <lb ed="#E"/>
+            <note type="marginal-note" place="margin-bottom">b non de abstractionibus conceptuum tam dei quam creaturarum</note>
+            Quantum ad secundum articulum in quo videndum est de differentia notitiarum 
+            <lb ed="#E"/>intuitive et abstractive Advertendum quod diversae sunt opiniones de notitia intuitiva 
+            et abstractiva
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l26-Hocaoca">Opinio Campsale</head>
+          <p xml:id="ppr-l26-epcaie">
+            primo quidam anglicus scilicet <name ref="#Campsall">Compsale</name> potest Adaequate eadem res est 
+            <lb ed="#E"/>successive notitia intuitiva et notitia abstractiva unde <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod notitia aliqua 
+            <lb ed="#E"/>praesente obiecto vocatur intuitiva et hoc connotat vocabulum quia praesentiam obiecti connotat 
+            qua notitia remanente et absente obiecto ipsa <sic>ipsa</sic> eadem vocatur abstractiva
+            <!-- possible place for paragraph break --> 
+            Iste 
+            <lb ed="#E"/>doctor fundat se in isto principio quae etiam <name ref="#Ockham">ockam</name> consuevit uti quod non est ponendo plurali<lb ed="#E"/>tas 
+            sine <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> Ita quod quandocumque propositio affirmativa verificatur sufficienter ad positionem unius cum 
+            <lb ed="#E"/>alio non oportet tertium ponere sic vult in proposito de notitia abstractiva quia ad verificationem 
+            <lb ed="#E"/>istius <name ref="#Sortes">sortis</name> cognoscit et abstractive non oportet ponere aliam notitiam removeatur 
+            <pb ed="#E" n="35-r"/>
+            <lb ed="#E"/>obiectum conservata illa notitia priori
+          </p>
+          <p xml:id="ppr-l26-dqrnvt">
+            Illa regula potest dupliciter intelligi uno modo sic quod non 
+            <lb ed="#E"/>est ponenda pluralitas nisi adducatur ratio cogens intellectum demonstrative ad ponendum Etiam 
+            <lb ed="#E"/>regula est falsa quia ad ponendum conceptum substantialem si constitutum ex materia et forma non oportet habere de<lb ed="#E"/>nominationem 
+            Ita de visione et oculo quia ponendo quod visio esset oculus non posset demonstrative inprobari
+            <lb ed="#E"/>Item non oportet habere rationem denominativam ad hoc quod anima humana intelligat intellectione super<lb ed="#E"/>addita 
+            quia salvabile apparet absque contradictione quod omnis anima esset omnis sua operatio
+          </p>
+          <p xml:id="ppr-l26-eieiea">
+            Alio modo potest intelligi quod non est ponenda pluralitas sine etc id est <unclear>non</unclear> sit apparentia sufficiens intellectui 
+            <lb ed="#E"/>bene disposito et isto modo per hoc principium dictum suum non est bene fundatum <choice><orig>ymmo</orig><reg>immo</reg></choice> est apparentia sufficiens 
+            ad hoc quod debet poni notitia distincta
+          </p>
+          <!-- <p xml:id="ppr-l26-eibipd">
+            doesn't seem present
+          </p> -->
+          <p xml:id="ppr-l26-aicnea">
+            Arguitur primo sic in probando suam opinionem Quia 
+            <lb ed="#E"/>ponamus quod <name ref="#Sortes">sortes</name> cognoscat abstractive <c>B</c> obiectum et maneat illa notitia eodem modo 
+            <lb ed="#E"/>immutans <name ref="#Sortes">sortem</name> et sit ita quod deus non concurrat cum <name ref="#Sortes">sorte</name> ad aliter cognoscendum et praesentetur 
+            <lb ed="#E"/><c>B</c> obiectum <name ref="#Sortes">sorti</name> tunc cognoscit intuitive quia est praesentia obiecti Et hoc sufficit ut dicit illa opinio 
+            <lb ed="#E"/>ergo habet dicere quod simul et semel eadem notitia est intuitiva et abstractiva
+          </p>
+          <p xml:id="ppr-l26-sasdin">
+            Secundo arguitur noti<lb ed="#E"/>tia 
+            intuitiva et notitia abstractiva sunt sensitivae notitiae habentes diversa organa ergo <choice><orig>distingwuntur</orig><reg>distinguuntur</reg></choice> 
+            specifice consequentia patet quia per hoc probamus diversitatem specificam sensitivam antecedens patet 
+            <lb ed="#E"/>quia organum notitiae intuitivae vel est sensus exterior vel sensus communis interior Sed 
+            <lb ed="#E"/>organum notitiae abstractivae est aliud quia vel est organum ymaginative vel aestimative
+          </p>
+          <!--<p xml:id="ppr-l26-eidive"> 
+            not present </p> -->
+        </div>
+        <div>
+          <head xml:id="ppr-l26-Hoscosc">Opinio Scoti</head>
+          <p xml:id="ppr-l26-iimipo">
+            <lb ed="#E"/>Alia opinio est <name ref="#Scotus">Scoti</name> alia <name ref="#Aureoli">aureoli</name> alia <name ref="#Ockham">ockham</name> et alia <name ref="#Rimini">gregorii</name> <name ref="#Scotus">Scotus</name> ponit quod generaliter 
+            <lb ed="#E"/>quaelibet notitia intuitiva requirit praesentiam obiecti et hoc consistit ratione notitiae intuitivae
+          </p>
+          <p xml:id="ppr-l26-cqdcnf">
+            <lb ed="#E"/>Contra illam opinionem arguitur quia deus ab aeterno cognovit creaturam et tamen non ab 
+            <lb ed="#E"/>aeterno fuit Et <unclear>quaeritur</unclear> de illa utrum est intuitiva non potest negare et tamen non habet de facto 
+            <lb ed="#E"/>cuiuslibet rei cognitae praesentiam quia multae tales non sunt et sunt
+          </p> 
+          <p xml:id="ppr-l26-iiieps">
+            Item arguitur de notitia beatifica 
+            <lb ed="#E"/>creata quia beatus videt in verbo Antichristum scilicet intuitive vel aliam rem producibilem 
+            et tamen non est obiecti praesentia igitur
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l26-Hoauoau">Opinio Aureoli</head>
+          <p xml:id="ppr-l26-aeopio">
+            <name ref="#Aureoli">Aureolus</name> dicit primo quod non requiritur praesentia obiecti ad notitiam 
+            <lb ed="#E"/>intuitivam 2o dicit quod requiritur praesentia esse perspicui ipsius obiecti ipse <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> unum 
+            <lb ed="#E"/>satis extraneum unde <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> in notitia intuitiva praeter potentiam potest notitiam 
+            <lb ed="#E"/>et praeter obiectum quoddam modo esse perspicuum praesens intellectui in quod <choice><orig>in mediate</orig><reg>immediate</reg></choice> fertur potentia 
+            <lb ed="#E"/>et in quo causatur relucet
+          </p>
+          <p xml:id="ppr-l26-eipnni">
+            Arguitur contra illam quia quaeritur utrum id esse perspicuum sit 
+            <lb ed="#E"/>substantia vel accidens et si accidens cui inhaeret quia non videtur aliud quam ipsamet notitia 
+            <lb ed="#E"/>ipsius obiecti vel species in qua obiectum relucet
+          </p>
+          <p xml:id="l26-heamep">
+            Advertendum quod difficultas habendi actum re<lb ed="#E"/>flexum 
+            super actum <subst><del rend="strikethrough">proprium</del> <add place="in-line">rectum</add></subst> fuit causa multorum errorum unde ex hoc quod intellectus difficulter 
+            <lb ed="#E"/>habet actum reflexum super actum proprium contingit
+          </p> 
+          <p xml:id="ppr-l26-perdas">
+            primo quod reflectendo se super noti<lb ed="#E"/>tiam 
+            aliquando loco notitiae capit obiectum et ex isto multi erraverunt per reflexionem
+            <!-- possible homoteleuton here -->
+            <lb ed="#E"/>quia credebant cognoscere obiectum ubi cognoverunt notitiam et ista est causa quare 
+            <lb ed="#E"/>multi posuerunt universalia distincta a superioribus
+          </p>
+          <p xml:id="ppr-l26-eeioec">
+            Sequitur quod aliquando ex intentione alicuius actus In 
+            <choice><orig>ymaginativa</orig><reg>imaginativa</reg></choice> vel in aestimativa creditur quod sit obiectum praesens sicut patet de hominibus 
+            <lb ed="#E"/>qui illuduntur quia nescivit se praecise concipere notitiam
+          </p>
+          <p xml:id="ppr-l26-ecvdan">
+            <lb ed="#E"/>Consequenter alius 
+            <lb ed="#E"/>error accedit non distinguendo inter obiectum et notitiam quia aliquando obiectum percipitur 
+            <lb ed="#E"/>et creditur percipi notitia et hoc consurgit obiectum esse in anima sed non est ita ymmo 
+            <lb ed="#E"/>est met notitia
+          </p>
+          <p xml:id="ppr-l26-icqisf">
+            <lb ed="#E"/>et ita credo quod <name ref="#Aureoli">aureolus</name> <choice><orig>distingweret</orig><reg>distingueret</reg></choice> inter perspicuum et notitiam 
+            <pb ed="#E" n="35-v"/>
+            <lb ed="#E"/>Sed non distinguitur a notitia et sic opinio sua est fictitia Unde possunt inquiri utrum 
+            <lb ed="#E"/>est visio etc
+          </p>
+          <p xml:id="ppr-l26-edeicc">
+            <!-- dbcheck division -->
+            Ex consequenti arguitur de deo Et petitur utrum cognoscit creaturas in esse perspicuo et sic 
+            <lb ed="#E"/>etiam non inmediate cognoscit creaturas sed in alio
+          </p>
+          <p xml:id="ppr-l26-issnce">
+            Item illud esse perspicuum ab aeterno 
+            <lb ed="#E"/>fuisset quia ab aeterno <choice><orig>neccessario</orig><reg>necessario</reg></choice> cognovit et ergo etiam ab aeterno <choice><orig>neccessario</orig><reg>necessario</reg></choice> fuisset huius esse perspicuum
+          </p> 
+          <!-- <p xml:id="ppr-l26-iscfhp">
+            doesn't appear to have parallel
+            </p> -->
+        </div>
+        <div>
+          <head xml:id="ppr-l26-Hookook">Opinio Okam</head>
+          <p xml:id="ppr-l26-aepapp">
+            <lb ed="#E"/><name ref="#Ockham">Ockham</name> dicit quod notitia simplex et incomplexa intuitiva est illa virtute cuius potest <choice><orig>in mediate</orig><reg>immediate</reg></choice> elici 
+            <lb ed="#E"/>iudicium evidens rei quod res est evidens si ipsa sit vel non est si ipsa non sit unde ymaginatur 
+            <lb ed="#E"/>quod illa notitia incomplexa est quaedam evidentia simplex immediate causative notitiae complexae 
+          </p>
+          <p xml:id="ppr-l26-snavne">
+            <lb ed="#E"/>Sed abstractiva est talis quod virtute ipsius non potest elici <choice><orig>inmediate</orig><reg>immediate</reg></choice> iudicium quod res sit vel 
+            <lb ed="#E"/>non sit et sic huiusmodi notitia abstractiva est de re absente ut de sorte vel platone quia habens 
+            <lb ed="#E"/>eam non potest <choice><orig>inmediate</orig><reg>immediate</reg></choice> elicere etc et ita generaliter 
+            de omnibus
+          </p>
+          <p xml:id="ppr-l26-eippie">
+            Ista opinio videtur prima facie satis 
+            <lb ed="#E"/>probabilis Contra opinionem praecipue contra secundam partem quia dicit ex quo <choice><orig>inmediate</orig><reg>immediate</reg></choice> res non existens 
+            <lb ed="#E"/>apparet non existens unde licet de existentia bene concedetur non tamen de non existentia quia capiamus 
+            <lb ed="#E"/>notitiam intuitivam albedinis vel alterius scilicet <name ref="#Sortes">sortis</name> et habeat <name ref="#Plato">plato</name> huiusmodi notitiam ex illa 
+            <lb ed="#E"/>potest bene elicere quod <name ref="#Sortes">sortes</name> est conservaretur illa notitia per dei potentiam et corrumpatur <name ref="#Sortes">sortes</name> 
+            <lb ed="#E"/>et sequitur quod non erit oppositi obiecti productiva vel oppositi iudicii ergo erit eiusdem causativa 
+            <lb ed="#E"/>vel saltis non oppositi Item bene consurgeret quod inmediate posset causare iudicium negativum 
+            <lb ed="#E"/>quod res non est Item per dei potentiam ipsa potest conservari obiecto non existente et eodem modo 
+            <lb ed="#E"/>movere potentiam sicut ante ergo sicut <unclear>ante</unclear> concurrebat ad productionem iudicii affirmativi 
+            <lb ed="#E"/>ita modo supponitur quod deus eodem modo concurrat sicut ante et sic positio non videtur posse stare
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l26-Hogrogr">Opinio Gregorii</head>
+          <p xml:id="ppr-l26-aeofai">
+            <lb ed="#E"/><name ref="#Rimini">Gregorius</name> resolvit se ad duo saltem apparenter prima facie Primo omnis notitia 
+            vel terminatur <choice><orig>inmediate</orig><reg>immediate</reg></choice> ad aliquod obiectum ad extra vel ad aliquod repraesentativum seu ad 
+            <lb ed="#E"/>aliquam similitudinem huius obiecti primo modo illa notitia vocatur intuitiva ut quando albedo obicitur ipsa 
+            <lb ed="#E"/><choice><orig>in mediate</orig><reg>immediate</reg></choice> se ipsa terminat visionem Ipse <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod remanent species et sic ex absentia 
+            <lb ed="#E"/>obiecti causatur notitia quae terminatur realiter ad speciem vel ad similitudinem vel ad tale 
+            <lb ed="#E"/>repraesentatum et non ad obiectum
+          </p>
+          <p xml:id="ppr-l26-tcevie">
+            Contra istam opinionem arguitur primo sicut fuit ante tactum 
+            <lb ed="#E"/>quod divina essentia est notitia intuitiva creaturae et tamen <choice><orig>in mediate</orig><reg>immediate</reg></choice> terminatur <unclear>ad</unclear> se vel <choice><orig>in <lb ed="#E"/>mediatius</orig><reg>im<lb ed="#E"/>mediatius</reg></choice> 
+            quam ad creaturam quia videndo se videt creaturam Eodem modo arguitur de notitia 
+            <lb ed="#E"/>beatifica creaturae quae <choice><orig>inmediate</orig><reg>immediate</reg></choice> terminatur ad verbum et sic inmediatius <sic>verbi verbum</sic> quam 
+            <lb ed="#E"/>creatura
+          </p>
+          <!-- review break, currently disagreement between witness transcriptions -->
+          <p xml:id="ppr-l26-veqmid">
+            Possit dici quod realiter creatura est inmediatum obiectum cognitionis in verbo 
+            <lb ed="#E"/>Quia <name ref="#Wodeham">adam</name> dicit quod non videtur in verbo tamquam in speculo sed sunt <choice><orig>inmediata</orig><reg>immediata</reg></choice> obiec<lb ed="#E"/>ta  
+            et qui vellet hoc dicere salvaret bene <name ref="#Rimini">gregorius</name> quamvis non influant et non concurrant 
+            <lb ed="#E"/>obiective causaliter sed solum quo ad terminare obiective diceretur
+          </p>
+          <p xml:id="ppr-l26-icgrie">
+            Item alia ratio 
+            <lb ed="#E"/>contra <name ref="#Rimini">eundem</name> nam quod species reservata posset esse obiectum vel quod notitia terminetur 
+            <lb ed="#E"/>ad speciem non oportet dicere quia valde bene posset terminari ad rem et diceretur ab<lb ed="#E"/>stractiva 
+            quia non sub ratione existentis vel non existentis quia abstrahitur et species con<lb ed="#E"/>curreret 
+            per modum obiecti sed non per modum habitus et effective concurreret
+          </p>
+          <p xml:id="ppr-l26-itsrie">
+            Item illa species 
+            <lb ed="#E"/>est res insensibilis quia non cadit sub aliquo quinque sensuum ergo non videtur quod possit <choice><orig>in<lb ed="#E"/>mediate</orig><reg>im<lb ed="#E"/>mediate</reg></choice> 
+            videri
+          </p> 
+        </div>
+        <div>
+          <head xml:id="ppr-l26-Hoplopl">Opinio Plaoul</head>
+          <p xml:id="ppr-l26-pdtdnb">
+            Pro declaratione praesentis materiae advertendum quod duplex est genus vel species vel 
+            <lb ed="#E"/>modus notitiarum intuitivarum quaedam sunt posteriores suis obiectis et quasi dependen<lb ed="#E"/>tes 
+            <choice><orig>inmediate</orig><reg>immediate</reg></choice> a suis obiectis et causantur ab eis Istud docet experientia de omnibus 
+            <lb ed="#E"/>notitiis obiectorum sensibilium quia agunt et inmutant sensum Alia est
+            <pb ed="#E" n="36-r"/>
+            <lb ed="#E"/>notitia intuitiva quae non sic se habet ymmo habet rationem prioritatis respectu obiectorum verbi gratia 
+            <lb ed="#E"/>notitia divina non dependet ab obiecto et sic notitia beatifica de creatura non dependet <!--likel homeoteluton here in Pal --> 
+            <lb ed="#E"/>ab obiecto Causa est quia est notitia exemplaris ideo terminantur magis ad causam et ideo magis 
+            <lb ed="#E"/>habet rationem exemplaris et per consequens prioris Tamen notitia qua beatus cognoscit deum habet rationem 
+            <lb ed="#E"/>posterioris
+          </p>
+          <div>
+            <head xml:id="ppr-l26-Hpmnmni">Prima modus notitiae intuitivae</head>
+            <p xml:id="ppr-l26-lvdqre">
+              De primis notitiis potest dici quod sunt illae quae inmediate causantur ab 
+              <lb ed="#E"/>influxa obiectivo obiecti concurrentis virtute cuius potest elici evidens iudicium quod res est
+            </p>
+            <p xml:id="ppr-l26-esisco">
+              <!-- large section of omitted text here -->
+              Dico quod dictum meum potest intelligi naturaliter et sic dicit <name ref="#Ockham">ockan</name> Aliter dico quod notitia in<lb ed="#E"/>tuitiva 
+              necessaria dependentia dependet ab obiecto ita quod non stat eam esse de hoc genere 
+              <lb ed="#E"/>quando realiter obiectum inquantum ad hoc quod <choice><orig>inmediate</orig><reg>immediate</reg></choice> concurrat influat obiective
+            </p>
+            <p xml:id="ppr-l26-uaqtnr">
+              Advertendum 
+              <lb ed="#E"/>quantum ad hoc quod licet deus quemlibet effectum posset se solo inmediate producere et quamlibet no<lb ed="#E"/>titiam 
+              intuitivam etiam conservare non tamen se solo posset conservare notitiam intuitivam 
+              <lb ed="#E"/>quia eo ipso quo est notitia intuitiva est inmediate ab obiecto et est <add place="above-line">in</add> potentia unde capit suam 
+              <lb ed="#E"/>rationem et conditionem ab huiusmodi conditione obiectali Et ergo cessante conditione obiectali cessat 
+              <lb ed="#E"/>esse notitia intuitiva quia non habet ex sua ratione intuitiva sed ex concursu individuali cum 
+              <lb ed="#E"/>vel tali ipsius obiecti satis probabile est
+            </p>
+            <p xml:id="ppr-l26-esdcps">
+              <pc ana="#pilcrow"/>Contra quia sonus auditur quando non est breviter est 
+              <lb ed="#E"/>negandum et quod res videatur dum non est intuitive sine in sensu sive in intellectu unde 
+              <lb ed="#E"/>deus non potest influere inmutando sensum quia si sic tunc esset sensibilis quod non est 
+              <lb ed="#E"/>verum
+            </p>
+            <p xml:id="ppr-l26-eshrss">
+              <!-- division uncertain -->
+              unde potest sic diffiniri notitia intuitiva scilicet quae est posterior est notitia quae <choice><orig>in<lb ed="#E"/>mediate</orig><reg>im<lb ed="#E"/>mediate</reg></choice> 
+              causatur ab obiecto et est nata esse causa formando iudicium evidens quod res est
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l26-Hsmnmni">Secunda modus notitiae intuitivae</head>
+            <p xml:id="ppr-l26-aenrse">
+              <lb ed="#E"/>Alia est notitia intuitiva in deo et de illa habet locum diffinitio <name ref="#Ockham">ockam</name> quia illa est huiusmodi scilicet 
+              <lb ed="#E"/>illa quae non est posterior sed prior quia virtute illius <choice><orig>inmediate</orig><reg>immediate</reg></choice> potest elici iudicium de 
+              <lb ed="#E"/>existentia vel de non existentia unde de deo non est dubium ymmo est met notitia et 
+              <lb ed="#E"/>iudicium Patet etiam de notitia beati in verbo quae est notitia simplex etc talis quod beatus potest elicere 
+              <lb ed="#E"/>quod res est si sit vel quod non est si non sit 
+            </p>
+            <p xml:id="ppr-l26-eqvrns">
+              Et potest dari diffinitio generalis notitiae intuitivae 
+              <lb ed="#E"/>addendo ad praedictam diffinitionem <name ref="#Ockham">ockam</name> per modum disiunctionis sic quod est notitia inmediate 
+              <lb ed="#E"/>ab obiecto creata posterior ipso obiecto mediate qui <choice><orig>inmediate</orig><reg>immediate</reg></choice> potest elici iudicium de existentia 
+              <lb ed="#E"/>rei si sit et non existentia si non sit
+            </p>
+            <!-- <p xml:id="ppr-l26-atqpap"> Seem missing </p> -->
+            <p xml:id="ppr-l26-ppqnei">
+              Ponitur propositio quamvis non possit per suam essentiam 
+              <lb ed="#E"/>vel in se cognoscere intuitive in ipso tamen aliquid potest cognosci abstractive a creatura 
+              <lb ed="#E"/>primum patet quia quamcumque rem naturae statim habet de illa iudicium evidens quia illa res 
+              <lb ed="#E"/>est vel quod non est si non sit unde omnis talis est intuitiva Secundum probatur quod non videtur 
+              <lb ed="#E"/>inpossibile quod deus causet aliquam notitiam in beato absque hoc quod res videatur absque habitu<lb ed="#E"/>dine 
+              quod possit <choice><orig>in mediate</orig><reg>immediate</reg></choice> elici iudicium de existentia etc 
+            </p>
+            <p xml:id="ppr-l26-ttqaie">
+              unde potest dici quod deus repraesentando creaturam 
+              <lb ed="#E"/>haberet se per modum speciei vel obiecti moventis ut species movet licet non esset notitia ita quod 
+              <lb ed="#E"/>sit concurreret quod repraesentaret creaturam et non se per modum speciei et sic adhuc <choice><orig>inaequaliter</orig><reg>inaequaliter</reg></choice> esset 
+              <lb ed="#E"/>species respectu <subst><del>duerum</del> <add place="in-line">diversorum</add></subst> beatorum quia adhuc posset repraesentare plura vel pauciora secundum 
+              <lb ed="#E"/>quod sibi placeret et sic huiusmodi notitia esset abstractiva
+            </p>
+            <p xml:id="ppr-l26-qedoce">
+              dixit <name ref="#peter-plaoul">magister petrus <!-- dbcheck ref--></name> Quod licet doctores 
+              <lb ed="#E"/>moveant de notitiis circa istam materiam tamen non habet principaliter hoc locum et sic stant in illo quid 
+              <lb ed="#E"/>nominis sed magis spectaret movere tales dubitationes utrum stat <unclear>videre</unclear> divinam essentiam 
+              <lb ed="#E"/>non videndo creaturam etc et ergo quando occurrit de talibus notitiis debet fieri resolutio quid nominis
+            </p>
+          </div>
+        </div>
+        <div>
+          <head>Circa textum</head>
+          <p xml:id="ppr-l26-cthpud">
+            <lb ed="#E"/>Circa textum hic diligenter inquiri oportet ibi est distinctio 24a prima conclusio Cum dicitur deus 
+            <lb ed="#E"/>est unus excluditur pluralitas essentialis deorum propter unitatem deitatis
+          </p>
+          <p xml:id="ppr-l26-scqesp">
+            Secunda conclusio 
+            <pb ed="#E" n="36-v"/>
+            tres personae sunt unus deus excluditur solitudo personarum
+          </p>
+          <p xml:id="ppr-l26-tcdend">
+            Tertia cum dicitur 
+            <lb ed="#E"/>distinctae partes sunt unus deus excluditur confusio personarum unde aliqui dixerunt 
+            <lb ed="#E"/>confusionem esse in personis et non distinctionem
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

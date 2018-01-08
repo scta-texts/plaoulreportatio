@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 28, de Notitia [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 28, de Notitia [Erlangen Transcription]</title>
+          <date when="2018-01-07">January 07, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-01-07" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="37-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio28">
+        <head>Lectio 28, de Notitia [Erlangen Transcription]</head>
+        <div>
+          <head xml:id="ppr-l28-Hudragp">Utrum Deus reponatur in aliquo praedicamento vel in aliquo genere praedicamentorum</head>
+          <p xml:id="ppr-l28-iirig">
+            <lb ed="#E"/>Quantum ad 4m articulum videndum est utrum deus reponatur in aliquo genere quantum ad hoc 
+            <lb ed="#E"/>non debet esse magna difficultas utrum loquar de re vel de termino unde terminus ponitur principaliter 
+            <lb ed="#E"/>et res 2ariae Etiam aliqui posuerunt praedicamenta realia
+          </p>
+          <p xml:id="ppr-l28-cimpdp">
+            De ista materia variae sunt opinio<lb ed="#E"/>nes 
+            <name ref="#Ockham">Ockam</name> <name ref="#Rimini">Gregorius</name> <name ref="#Holcot">halkot</name> et alii moderni plures dixerunt quod deus reponitur 
+            <lb ed="#E"/>in praedicamento significatur <unclear>per termen</unclear> repositum in praedicamento et per consequens ipse est deus Etiam 
+            <lb ed="#E"/>in praedicamento relationis secundum <name ref="#Ockham">ockam</name> quia terminos diversorum praedicamentorum potest significari Et in 
+            <lb ed="#E"/>praedicamento actionis quia agit vel est agens
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l28-Hoooooo">Opinio Ockham</head>
+          <p xml:id="ppr-l28-uciopa">
+            Quando quaeritur utrum reponitur in praedicamento 
+          </p>
+          <p xml:id="ppr-l28-pqgmss">
+            <lb ed="#E"/>ipse notat primo quod genus est conceptus communis significans multa differentia specie
+          </p>
+          <p xml:id="ppr-l28-spqctp">
+            Secundo notat aliquid 
+            <lb ed="#E"/>esse in genere dupliciter uno modo tamquam conceptum alio modo tamquam significatum per conceptum
+          </p>
+          <p xml:id="ppr-l28-tardba">
+            Tertio dicit quod re<lb ed="#E"/>spondendum 
+            est quod sic quia terminus ipsum significans reponitur in praedicamento probat quia quod deus conci<lb ed="#E"/>piatur 
+            per aliquem conceptum et significetur per aliquem tantum repositum in praedicamento non 
+            <lb ed="#E"/>detrahit a sua perfectione quia ad hoc non sequitur compositio in deo nec finitas nec aliqua 
+            inperfectio verum es ipse respondet ad auctoritas antiquorum doctorum qui <unclear>videntur</unclear> innuere 
+            <lb ed="#E"/>quod deus non reponitur in aliquo praedicamento Unus dicit quod est articulus ad hoc Dicere deum in praedicamento 
+            <lb ed="#E"/>error
+          </p>
+          <p xml:id="ppr-l28-orqcep">
+            <name ref="#Ockham">Ockam</name> respondet quod capiebant praedicamentum aliter quam consequenter capitur Ita quod capiebant 
+            <lb ed="#E"/>genus sic quod habet rationem partis realiter et sic esse in genere est esse tanquam partem 
+            <lb ed="#E"/>conpositi et sic bene conceditur quod deus non est in genere
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l28-Hcococo">Contra Okam</head>
+          <p xml:id="ppr-l28-cipgie">
+            Contra istam propositionem arguitur sicut visum 
+            <lb ed="#E"/>est deus non est univocabilis cum creatura quia non potest univoce significari cum 
+            <lb ed="#E"/>creatura ratione distantiae et modi essendi quia deus magis excedit substantiam creatam 
+            <lb ed="#E"/>quam substantia accidens Etiam substantia creata magis indiget deo manente quam accidens 
+            <lb ed="#E"/>substantiam et propter hoc quod accidens sic distat a substantia et indigt substantia non est univocatio substantiae et 
+            <lb ed="#E"/>accidentis igitur sicut prius dictum est
+          </p>
+          <p xml:id="ppr-l28-sapdes">
+            Secundo probatur quod conceptus dei non sit in aliquo genere quia si sic 
+            <lb ed="#E"/>cum omnis conceptus specificus sit aptus natus praedicari de pluribus sequeretur quod etiam posset saltim ex 
+            <lb ed="#E"/>modo suae significationis non sic repugnaret et per consequens conceptus dei non excluderet pluralitatem 
+            <lb ed="#E"/>deorum Similiter dicitur quod tamquam individuum appareret ibi esse plura individuata similia 
+            <lb ed="#E"/>et per consequens erunt plures dii
+          </p>
+          <p xml:id="ppr-l28-taseig">
+            Tertio supponendo secundum <name ref="#Scotus">doctorem subtilem</name> <unclear>quod diffinitio</unclear> conceptus specifici 
+            <lb ed="#E"/>repositi in genere talis est quod non repugnat sibi in primo modo dicendi per se vel 2o modo quod dicere 
+            <lb ed="#E"/>dicunt realitates distinctas vel supponant realiter pro diversis realitatibus sed hoc repugnat 
+            <lb ed="#E"/>deo ratione suae simplicitatis et angelo non Dicit tamen quod diffinitio angeli componitur ex certis differentiis 
+            <lb ed="#E"/>licet essent absolute impossibile necessariae tamen non repugnat diffinitioni angeli quod in primo modo et 2o modo dicere realiter 
+            <lb ed="#E"/>supponant pro diversis realitatibus sed hoc aliunde nec conpetit sibi primo et per se ut diffiniendo 
+            <lb ed="#E"/>animam tamen huic diffinitioni non repugnat primo et per se quod sint realitates distinctae licet forte 
+            <lb ed="#E"/>per accidens repugnat <unclear>vicem<!-- videlicet --></unclear> ex quadam alia realitate quia idem est modo sic non est de deo 
+            <lb ed="#E"/>quia quaelibet differentia esset actualissima ita quod quaelibet debet ipsum repraesentare ut necesse esse 
+            <lb ed="#E"/>et ideo quia diffinitioni eius repugnat esse in genere per consequens diffinito ideo diffinitum 
+            <lb ed="#E"/>non potest esse in genere
+          </p>
+          <p xml:id="ppr-l28-icsegg">
+            Item conceptus substantiae non plus sibi convenit ut est genus nec plus 
+            <lb ed="#E"/>supponit pro deo quam conceptus sapientiae prout reponitur in praedicamento qualitatis sed prout reponitur sapientia 
+            <lb ed="#E"/>in praedicamento qualitatis non dicitur de deo quia si sic tunc esset generalissimum et sic deus esset accidens 
+            <lb ed="#E"/>quia esset qualitas
+          </p>
+        </div>
+        <div>
+        <head xml:id="ppr-l28-Haoaoao">Alia opinio</head>
+          <p xml:id="ppr-l28-saoesc">
+            Alia opinio scilicet <name>doctoris subtilis</name> ponit istam propositionem 
+            <lb ed="#E"/>quasi describendo genus quod genus est illud subtranscendente est praedicabile 
+            <lb ed="#E"/>in quid et de pluribus differentibus specie quorum nulli repugnat per se ex diffinitione sua specifica 
+            <lb ed="#E"/>quod in eo sit compositio
+          </p>
+          <p xml:id="ppr-l28-dstisi">
+            Et ens et omnia illa praedicata perfectionalia de quibus animalis mentio sunt 
+            <lb ed="#E"/>extra genus Et videtur mihi compositio magis theologica nec sunt genera secundum modum accipiendi apud 
+            <lb ed="#E"/>eos ideo genus debet diffiniri sicut iam dictum est unde angelo et animae non repugnat per se ex 
+            <lb ed="#E"/>sua diffinitione specifica compositio
+          </p>
+          <!-- odd sub division here -->
+          <div>
+            <head xml:id="ppr-l28-Hcrcrcr">Conclusio responsalis</head>
+            <p xml:id="ppr-l28-eqscie">
+              Sequitur contra ipsam opinionem conclusio responsalis 
+              <lb ed="#E"/>quod deo repungnat esse in genere <unclear>praedicamentali <!-- principali ?? --></unclear> ex sua simplicitate necessitate unitate et infinitate Sim<lb ed="#E"/>plicitate 
+              quia diffinitio sua specifica componitur ex praedicatis nullum potentialitatem dicentibus 
+              <lb ed="#E"/>quia quaelibet dicit purum actum et simplicem In aliis est ordo quoad modum concipiendi quia 
+              <lb ed="#E"/>dicere generales sunt quodam modo semper potentionales respectu spiritualium Et ista deduci potest de aliis 
+              <lb ed="#E"/>scilicet unitate et necessitate Generaliter quilibet terminus positus in diffinitione dei significat <choice><orig>in mediate</orig><reg>immediate</reg></choice> <sic>inmensitem</sic> 
+              <lb ed="#E"/>et actum purum et ideo quantum ad hoc non debet esse ordo talis sicut in aliis
+            </p>
+          </div>
+        </div>
+        <div>
+          <head xml:id="ppr-l28-Hoididr">Opinio Ioannes de Ripa</head>
+          <p xml:id="ppr-l28-saoafe">
+            Opinio <name ref="#Ripa">magister ioannes de 
+            <lb ed="#E"/>ripa</name> absolute negat deum posse univocari in quocumque praedicamento <name ref="#Scotus">Scotus</name> bene in transcendente 
+            <lb ed="#E"/>quia ibi non includitur infinitas Ideo consequenter <name ref="#Ripa">magister Ioannes de ripa</name> habet respondere quod non 
+            <lb ed="#E"/>est in aliquo genere communi in quo creaturam quia genus univoce debet praedicari de suis 
+            <lb ed="#E"/>speciebus unde esse dei est alterius rationis et est esse infinitum sic non est de creatura
+          </p>
+          <p xml:id="ppr-l28-spisip">
+            <pb ed="#E" n="38-v"/>
+            <lb ed="#E"/>Secunda Conclusio Creaturae univocantur secundum praedicata perfectionalia quae 
+            <lb ed="#E"/>vocamus transcendentia communiter univocantur in qua <unclear>univocatione</unclear> perfecta quia 
+            <lb ed="#E"/>conveniunt in eadem ratione ut omnia entia in esse et omnia viventia in vivere et sic consequenter
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l28-Hoadoad">Opinio aliorum doctorum</head>
+          <p xml:id="ppr-l28-aeorip">
+            <lb ed="#E"/>Alia opinio scilicet <name ref="#Augustine">Augustini</name> dicit quod non est in aliquo genere etiam <name ref="#Lombard">magister</name> sententiarum unde 
+            <lb ed="#E"/>omnes doctores antiqui quasi scilicet <name ref="#HenryOfGhent">gandavensis</name> <name ref="#Aquinas">sanctus thomas</name> concordant quod deus non est 
+            <lb ed="#E"/>in aliquo genere <name ref="#HenryOfGhent">Gandavensis</name> allegat <ref><name ref="#Avicenna">avicennam</name> in sua <title>metaphysica</title> in pluribus locis</ref> 
+            Etiam 
+            <lb ed="#E"/>aliqui voluerunt elicere ex dictis <name ref="#Averroes">commentatoris</name> quod omnia incorporalia sunt extra genus 
+            <lb ed="#E"/><name ref="#Ripa">magister ioannes de ripa</name> dicit res inmateriales non reponuntur in aliquo genere sicut intelligentiae 
+            <ref><name ref="#HenryOfGhent">Gandevensis</name> et 20tu quaestione articulo 2o</ref> Alii dicunt <ref>primo primae partis summae suae</ref> ponit rationes 
+            ad probandum quod deus non est in aliquo genere nec in praedicamento unde dicit sic deus re non 
+            <lb ed="#E"/>est res alicuius praedicamenti sed illa quae sunt ab eo per participationem sunt in generibus unde ens 
+            <lb ed="#E"/>dividitur primo in ens creatum et ens increatum ulterius ens creatum est <sic>annologum</sic> 
+            <lb ed="#E"/>ad 10 genera Increatum non est in genere Ens creatum dicitur annologico de 10 praedicamentis 
+            <lb ed="#E"/>ut dicit <name ref="#Porphyry">porphreius</name> Etiam <name ref="#Aristotle">aristoteles</name> dicit quod ens dicitur annologice et substantia et accidentibus ipse 
+            <lb ed="#E"/>allegat <ref><name ref="#Augustine">augustinus</name> <title>de fide ad petrum</title></ref>
+          </p>
+          <p xml:id="ppr-l28-ssgerd">
+            Secundo arguit genus habet suas species distinctas 2m 
+            <lb ed="#E"/>esse super additum genus habet se per modum materiae et differentia per modum formae Et sic <name ref="#HenryOfGhent">iste 
+            <lb ed="#E"/>doctor sollempnis</name> videtur ymaginari quod realiter a parte rei et obiecti debet esse quaedam 
+            <lb ed="#E"/>potentialitas in genere ita quod genus est quaedam quiditas potentialiter Et differentia per modum esse se habet 
+            <lb ed="#E"/>quod cum super additur generi constituitur una species ex additione alterius alia species 
+            <lb ed="#E"/>unde ipse <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod esse distinguuitur ab essentia
+          </p>
+          <p xml:id="ppr-l28-taseip">
+            Tertio arguitur quod deus 
+            <lb ed="#E"/>non est accidens nec substantia ergo non est in aliquo genere quia non est accidens patet quod non est 
+            <lb ed="#E"/>substantia quia de ratione substantiae sunt duae conditiones Prima in subiecto non esse scilicet 
+            <lb ed="#E"/>quod non inhaereat alicui Secundo quod sit apta nata subici ideo vocatur substantia 
+            <lb ed="#E"/>modo quantum ad secundum modum ista conditio repungnat deo ergo deus non est substantia Postea 
+            <lb ed="#E"/>allegat <ref><name><sic>Avicennam <!-- contains accusative ending --></sic></name> 2o <title>metaphysicae</title></ref> suae dicentem de universitas habet principium quod est <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse non 
+            <lb ed="#E"/>contentum sub genere videtur iste <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod deus sit exemplar rerum et quod omnia 
+            <lb ed="#E"/>sint ab eo exemplata primo substantiae de inde a substantis quasi emanant accidentia quia 
+            <lb ed="#E"/>ista genera debent esse exemplata Ipse tamquam principium primum ponitur supra deinde 
+            <lb ed="#E"/>substantiae deinde accidentia
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l28-Hrdprdp">Responsio de Plaoul</head>
+          <p xml:id="ppr-l28-pcapqd">
+            Pro declaratione antiquorum aliqua sunt attendenda primo  
+            <lb ed="#E"/>quod praedicamenta sunt artificaliter inventa causa doctrinae et facilitatis doctrinae Ex hoc 
+            <lb ed="#E"/>sequitur quod variae potuerunt institui
+          </p>
+          <p xml:id="ppr-l28-qapdir">
+            Primo instituta fuerunt per simplicitatem rerum 
+            <lb ed="#E"/>propter finitatem modorum concipiendi ideo valde utile fuit reducere omnes conceptus 
+            <lb ed="#E"/>ad 10
+          </p>
+          <p xml:id="ppr-l28-qapvaq">
+            <!-- also related to "l28-adrrsa-->
+            non sic <unclear>quando</unclear> potuissent fuisse plura non tamen ita commode nec pauciora unde 
+            <lb ed="#E"/>simplicissimus quidam recitat aliquos philosophos qui reduxerunt praedicamenta <name ref="#Aristotle">aristotelis</name> ad duo 
+            <lb ed="#E"/>scilicet esse absolutum et esse respectum scilicet esse substantiam et esse aliqualiter ita quod unum essentiale et aliud 
+            <lb ed="#E"/>accidentali
+          </p>
+          <p xml:id="ppr-l28-avcseq">
+            Alii consideraverunt totam latitudinem vel congeriem omnium rerum illi fu<lb ed="#E"/>erunt 
+            diversi quidam praecise substantiam et qualitatem Istius opinionis fuit <name ref="#Ockham">ockam</name> dicit 
+            <lb ed="#E"/>quantitatem esse substantiam vel rem quantam quantum est de relationibus dicitur quod non differunt 
+            <lb ed="#E"/>ab extremis de motu quod est mobile
+          </p>
+          <p xml:id="ppr-l28-appapp">
+            Alii ponunt plura
+          </p>
+          <p xml:id="ppr-l28-avpqeq">
+            alii tria quia ponunt quantitatem distinctam
+          </p>
+          <p xml:id="ppr-l28-avpqqa">
+            alii ultra relationem
+          </p>
+          <p xml:id="ppr-l28-asmasm">
+            Alii ultra actionem et passionem et dicunt quod actio non est 
+            <lb ed="#E"/>illa res quae progreditur ab agente nec passio quae recipitur a passo
+          </p>
+          <p xml:id="ppr-l28-avpiie">
+            <!-- also seems connected to ppr-l28-aetaap -->
+            <name ref="#Scotus">Scotus</name> ponit 
+            <lb ed="#E"/>10 Notandum ulterius tenebo opinionem <name ref="#Scotus">scoti</name> quod si ens est terminus univocus tunc quaelibet 
+            <pb ed="#E" n="39-r"/>
+            <lb ed="#E"/>res est in praedicamento et per consequens deus omnes formae quae possent absolute significari reponerentur 
+            <lb ed="#E"/>in primo genere doctores aequivocant de hoc nomine substantia quia qui dicunt quod deus 
+            <lb ed="#E"/>non est substantia volunt quod substantia aliquid connotet scilicet inperfectionem Subtilius locuntur qui dicunt 
+            <lb ed="#E"/>quod deus non reponitur in genere quia praedicamenta traduntur ab antiquis 2m rationes exprimentes 
+            <seg type="correction">naturam<del rend="strikethrough">s</del></seg> rerum propriam pro quibus supponunt et ordines et habitudines illarum Ideo forte 
+            <lb ed="#E"/>quia antiqui inmediate induxerunt iuvenes in conceptus altissimos ut melius postea 
+            <lb ed="#E"/>conciperent
+          </p>
+          <p xml:id="ppr-l28-pieeas">
+            pro intellectu antiquorum <unclear>d</unclear> quomodo genus est materia et differentia forma vel genus 
+            <lb ed="#E"/>est <sic>quiditas</sic> Advertendum quod moderni glosant ipsos de terminis scilicet quod genus ingreditur 
+            <lb ed="#E"/>diffinitionem et additur differentia
+          </p>
+          <!-- dbcheck division -->
+          <p xml:id="ppr-l28-ssddrf">
+            sed ista non est intentio antiquorum sed resolvunt se ad rem vocan<lb ed="#E"/>do 
+            genus rem et ponunt quod est quodam quiditas
+          </p>
+          <p xml:id="ppr-l28-pcinat">
+            pro cuius intellectu ponitur exemplum de anima 
+            <lb ed="#E"/>licet sit res indivisibilis tamen habet multas operationes et multas particulares inclinationes vel naturas 
+            <lb ed="#E"/>ut ita loquar primo infimum modum suae perfectionis et est existere et ista conditio prima operatio 
+            <lb ed="#E"/>sua est appetere sic <seg type="corrections">e<del>x</del><add place="above-line">t</add></seg> ista conditio <del rend="expunctuation">prima</del> in omnibus est generalis deinde ascendendo ipsa 
+            <lb ed="#E"/>habet varias operationes habet influere formaliter et constituere aliquo modo conceptum Deinde habet inclinationem 
+            <lb ed="#E"/>quod sic in loco scilicet quod corpus quod informat sic supra terram vel in loco sibi naturali etiam 
+            <lb ed="#E"/>quod complexio sua sit reducta ad debitum temperamentum ita aeterna et alia elementa et sic 
+            <lb ed="#E"/>tandem quod erit vegativa postea sensitiva postea intellectiva Anima ergo considerata secundum 
+            <lb ed="#E"/>naturam suam infimam ut ita loquar vel conditionem habet rationem generalissimi obiectivo et 
+            <lb ed="#E"/>ascendendo per suas operationes ipsa significatur per terminos minus generales et tandem venien<lb ed="#E"/>do 
+            ad naturam suam perfectissimam ipsa significatur per speciem <unclear>speciessima</unclear> et semper prima est 
+            <lb ed="#E"/>potentialitas respectu sequentis Et ideo phylosophi imposuerunt terminos quasi proportionaliter loquendo
+          </p>
+          <p xml:id="ppr-l28-iipfot">
+            Item potest 
+            <lb ed="#E"/>reduci ad subordinationem formarum substantialium et si non sic ita tamen <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice> est 
+            <lb ed="#E"/>quod secundum ordinem illorum praedicatorum sint formae ita quod per primam ponatur in esse solum et 
+            <lb ed="#E"/>illa erit multum potentialis et illa ulterius recipit aliam et sic consequenter et sic salvabitur 
+            <lb ed="#E"/>modus antiquorum vel possemus ponere secundum ymaginationem <name ref="#WilliamOfParis">wilhelmi parisiensis</name> 
+            <lb ed="#E"/>unde yamginatur quod creatura est sua essentia sed non est suum esse sed deus est esse creaturae 
+            <lb ed="#E"/>et secundum quod <unclear>actuatur</unclear> variis speciebus actuationis in vivere etc etiam secundum hoc possemus 
+            <lb ed="#E"/>ponere ordinem
+          </p>
+          <p xml:id="ppr-l28-aevmpf">
+            Alia <sic>vio</sic> ponendo distinctionem realem inter esse et essentiam cum <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> 
+            <lb ed="#E"/>reali sicut proportionabiliter formalitatibus <name ref="#Ripa">magister ioannes de ripa</name> dicit quod realiter est vera 
+            <lb ed="#E"/>compositio in qualibet reposita in praedicamento unde <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod ratio formalis essendi est 
+            <lb ed="#E"/>prima a qua sumitur praedicamentum 
+          </p>
+          <p xml:id="ppr-l28-avrtnu">
+            <!-- parallel unclear; possible parallel with  <p xml:id="l28-aeocti"> -->
+            Alia vivendi ratio est quae est conponitur cum prima concurrunt 
+            <lb ed="#E"/>tamen mere unitive 
+          </p>
+          <p xml:id="ppr-l28-aevrip">
+            Alii posuerunt universalia correspondentia ex parte rei Reputo primum 
+            <lb ed="#E"/>modum magis probabilem quia consonat theologiae philosophiae et veritati Appareat finaliter 
+            <lb ed="#E"/>consonanter doctoribus quod non reponitur in genere
+          </p>
+          <p xml:id="ppr-l28-etaiae">
+            Ad rationem si diceretur saltim est in genere 
+            <lb ed="#E"/>relationis dicitur quod non quia ut <unclear>dicitur</unclear> genus <unclear>relatorum</unclear> ut <unclear>dicitur</unclear> de creaturis dicit aliquam 
+            <lb ed="#E"/>limitationem perfectionis repungnantis deo et si reponitur hoc est per quandam annologiam 
+            <lb ed="#E"/>et quandam super eminentiam et non secundum proprium modum secundum quam puta sunt <subst><del>instita</del> 
+            <lb ed="#E"/><add>instituta</add></subst> <del rend="strikethrough">de</del> ad significandum
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l28-Hctctct">Circa textum</head>
+          <p xml:id="ppr-l28-ctdsvs">
+            <pc ana="#pilcrow"/>Circa textum de proprietatibus personarum distinctionem 26am prima conclusio 
+            <lb ed="#E"/>hoc nomen ypostasis dicitur de qualibus persona singulariter et de omnibus similiter pluraliter ypostasis 
+            <lb ed="#E"/>id est suppositum vel subsistentia
+          </p>
+          <p xml:id="ppr-l28-scaesp">
+            Secunda conclusio aliqua sunt nomina propria singularum personarum 
+            <lb ed="#E"/>exprimentia suas proprietates
+          </p>
+          <p xml:id="ppr-l28-tqnnss">
+            Tertia conclusio non omne quod dicitur de deo dicitur secundum substantiam et non 
+            <lb ed="#E"/>omne quod dicitur secundum substantiam dicitur ex tempore quia relativa dicuntur non secundum substantiam Clara est 
+            <lb ed="#E"/>quod relativa ab aeterno dicuntur non secundum substantiam
+          </p>
+          <p xml:id="ppr-l28-acfedt">
+            Alia conclusio filius dei dicitur 
+            <pb ed="#E" n="39-v"/>
+            <lb ed="#E"/>aeternaliter filius dei etiam per gratiam potest vocari filius ad optimus Item spiritus sanctus dicitur donum 
+            <lb ed="#E"/>et aliqualiter dicuntur plura dona et est donum in se ad intra aeternaliter et donatum temporaliter
+          </p>
+          <p xml:id="ppr-l28-actqap">
+            Alia conclusio 
+            <lb ed="#E"/>trinitas potest dici spiritus sanctus <choice><orig>ad vertendum</orig><reg>advertendum</reg></choice> quod ly spiritus sanctus potest capi uno modo generaliter at<lb ed="#E"/>tribuitur 
+            cuilibet personae et sic quaelibet persona dicitur spiritus et sancta Sed si capitur a proprietate tunc negetur 
+            <lb ed="#E"/>de qualibet alia persona etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
