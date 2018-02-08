@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,7 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -46,18 +46,15 @@
   </teiHeader>  
   <text>
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#PV" n="48-v"/><cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
       <div xml:id="ppr-lectio30">
-        <head xml:id="ppr-ppr-l30-Hldnldn">Lectio 30, de Notitia [Palantine Transcription]</head>
-        <div>
+        <head xml:id="ppr-l30-Hldnldn">Lectio 30, de Notitia [Palantine Transcription]</head>
+        <div xml:id="ppr-l30-Dd1e4017">
           <head xml:id="ppr-l30-Hudedeu">Utrum demonstrabile est 'Deum esse unicum'</head>
           <!-- not present <p xml:id="ppr-l30-camilp"></p> -->
           <p xml:id="ppr-l30-qahdeu">
@@ -73,7 +70,7 @@
             <lb ed="#PV"/>est plures esse deos
           </p>
         </div>
-        <div>
+        <div xml:id="ppr-l30-Dd1e4045">
           <head xml:id="ppr-l30-Hqdeuis">Quod Deum esse unum in specie</head>
           <p xml:id="ppr-l30-pcqend">
             probatur quia si 
@@ -104,7 +101,7 @@
           <lb ed="#R"/>perfectius B per praecedentem rationem, ergo etc.</p> 
           -->
         </div>
-        <div>
+        <div xml:id="ppr-l30-Dd1e4111">
           <head xml:id="ppr-l30-Hqdeuin">Quod Deum esse unum in numero</head>
           <p xml:id="ppr-l30-dpqsna">
             deinde 
@@ -177,7 +174,7 @@
             <lb ed="#PV"/>rationes videas si placet 
           </p>
         </div>
-        <div>
+        <div xml:id="ppr-l30-Dd1e4281">
           <head xml:id="ppr-l30-Hdaccir">Duo argumenta contra istam rationem</head>
           <p xml:id="ppr-l30-ctiier">
             Contra 
@@ -201,7 +198,7 @@
             <lb ed="#PV"/>infinitum bonum
           </p>
         </div>
-        <div>
+        <div xml:id="ppr-l30-Dd1e4334">
           <head xml:id="ppr-l30-Hrapapa">Responsio ad primum argumentum</head>
           <p xml:id="ppr-l30-airavm">
             Ad primum dicitur 
@@ -221,7 +218,7 @@
             quantum 
             <lb ed="#PV"/>est de <name ref="#Aristotle">aristotele</name> ex a quibus videtur 
             <lb ed="#PV"/>innumere quod deus est mere libere quia 
-            <lb ed="#PV"/>in <ref>12o <title ref="#Metaphysics">metaphysicae</title></ref> attribuit sibi omnem 
+            <lb ed="#PV"/>in <ref xml:id="ppr-l30-Rd1e4378">12o <title ref="#Metaphysics">metaphysicae</title></ref> attribuit sibi omnem 
             <lb ed="#PV"/>denominationem perfectionis simpliciter 
             <lb ed="#PV"/>et per consequens libertatem
           </p>
@@ -233,7 +230,7 @@
             <lb ed="#PV"/>sine voluntate <del rend="strikethrough">necessaria</del> nostra concurrit 
           </p>
           <p xml:id="ppr-l30-iipsps">
-            Item <ref><name ref="#Aristotle">aristoteles</name> 4o <title ref="#Physics">physicorum</title></ref> videtur quod per 
+            Item <ref xml:id="ppr-l30-Rd1e4412"><name ref="#Aristotle">aristoteles</name> 4o <title ref="#Physics">physicorum</title></ref> videtur quod per 
             <lb ed="#PV"/>subtiliationem medii in infinitum 
             <lb ed="#PV"/>potest velocitari motus et per consequens 
             <lb ed="#PV"/>deus 2m <name ref="#Aristotle">aristotelem</name> potest agere contra 
@@ -254,7 +251,7 @@
             <lb ed="#PV"/>agit et non naturaliter
           </p>
         </div>
-        <div>
+        <div xml:id="ppr-l30-Dd1e4467">
           <head xml:id="ppr-l30-Hrasasa">Responsio ad secundum argumentum</head>
           <p xml:id="ppr-l30-aarpmc">
             Ad aliam dicitur 
@@ -312,448 +309,448 @@
             ut infinita
           </p>
         </div>
-      </div>
-      <div>
-        <head xml:id="ppr-l30-Hdsecis">De subordinatione essentiali causarum inter se</head>
-        <p xml:id="ppr-l30-sedspc">
-          Sequitur 
-          <lb ed="#PV"/>quod tamen genere causae efficientis 
-          <lb ed="#PV"/>quam finalis est infinitus 
-          <cb ed="#PV" n="b"/>
-          <lb ed="#PV"/><unclear>doctores</unclear> dixerunt de essentiali 
-          <lb ed="#PV"/>ordine causarum unde causae 
-          <lb ed="#PV"/>vocantur essentialiter subordinate 
-          <lb ed="#PV"/>quando sic se habent quod 2a nullomodo 
-          <lb ed="#PV"/>potest agere nisi in virtute primae 
-          <lb ed="#PV"/>prima dirigente et cogente Isto 
-          <lb ed="#PV"/>modo describendo dicendum 
-          <lb ed="#PV"/>est quod nulla causa secunda potest 
-          <lb ed="#PV"/>alteri causae secundum subordinari 
-          <lb ed="#PV"/>loquor de essentialiter subordinatis 
-          <lb ed="#PV"/>patet quia quaelibet potest agere 
-          <lb ed="#PV"/>alia non coagente quia quibus<lb ed="#PV"/>cumque 
-          datis una potest conservari 
-          <lb ed="#PV"/>alia destructa et deus mediate illa 
-          <lb ed="#PV"/>potest agere sed praecise primae causae 
-          quaelibet 2a causa subordinatur
-        </p>
-        <div>
-          <head xml:id="ppr-l30-Hoadceo">Obiectio ad definitionem causae essentialiter ordinatae</head>
-          <p xml:id="ppr-l30-esdeie">
-            <lb ed="#PV"/>Sed arguitur contra capiamus 
-            <lb ed="#PV"/>primam causam et 2am concurrentes 
-            <lb ed="#PV"/>ad alicuius effectus productionem 
-            <lb ed="#PV"/>tamen 2a causa ponit illam rem in esse 
-            <lb ed="#PV"/>ponamus quod deus subtrahat 
-            <lb ed="#PV"/>influxum suum quo ad produceretur 
-            <lb ed="#PV"/>et quod solum conservet tunc 
-            <lb ed="#PV"/>videtur quod illa secunda causa po<lb ed="#PV"/>nat 
-            effectum quia realiter pone<lb ed="#PV"/>bat 
-            vel posuisset ponamus ergo 
-            <lb ed="#PV"/>quod conservetur tunc producet dicitur 
-            <lb ed="#PV"/>quod cuiuscumque effectus productio 
-            <lb ed="#PV"/>requirit immensitatem causae 
-            <lb ed="#PV"/>effectivae
-          </p>
-        </div>
-        <div>
-          <head xml:id="ppr-l30-Hrrrrrr">[Responsio]</head>
-          <p xml:id="ppr-l30-stphrd">
-            Ad rationem dicitur dupliciter
-          </p>
-          <p xml:id="ppr-l30-pqepae">
-            <lb ed="#PV"/>uno modo dato quod ita fieret quod deus 
-            <lb ed="#PV"/>subtraheret influxum suum effec<lb ed="#PV"/>tivum 
-            et influeret solum con<lb ed="#PV"/>servando 
-            illam secundam causam 
-            <lb ed="#PV"/>quod non sufficeret quia requiritur 
-            <lb ed="#PV"/>infinita causa infinite agens
-          </p>
-          <p xml:id="ppr-l30-sdqscc">
-            2o 
-            <lb ed="#PV"/>dicitur quod ex ordine essentiali 
-            <lb ed="#PV"/>2ae ad primam impossibile est quod secunda 
-            <lb ed="#PV"/>influat effective ad alicuius 
-            <lb ed="#PV"/>effectus <choice><orig>produxionem</orig><reg>productionem</reg></choice> sine influxu 
-            <lb ed="#PV"/>effectivo primae causae quia est 
-            <pb ed="#PV" n="52-v"/>
-            <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>subordinata in eodem genere 
-            <lb ed="#PV"/>essentialiter verum quod quandoque capitur magis 
-            <lb ed="#PV"/>communiter proportionaliter tamen ad primam 
-            <lb ed="#PV"/>acceptionem ita quod causae vocantur 
-            <lb ed="#PV"/>essentialiter subordinatae quia 2a non 
-            <lb ed="#PV"/>potest agere nisi prima coagente 
-            <lb ed="#PV"/>secundum cursum statutum et secundum 
-            <lb ed="#PV"/>hoc corpora superiora subordinan<lb ed="#PV"/>tur 
-            intelligentiis et intelligentiae 
-            <lb ed="#PV"/>deo <unclear>et</unclear> hoc est bene verum de causis 
-            <lb ed="#PV"/>naturalibus sed quantum est de acti<lb ed="#PV"/>bus 
-            causarum liberarum dicitur quod <choice><orig>in<lb ed="#PV"/>mediate</orig><reg>im<lb ed="#PV"/>mediate</reg></choice> 
-            subordinantur deo Sed 
-            <lb ed="#PV"/>in naturalibus dicendum quod sic ut 
-            <lb ed="#PV"/>homo subordinatur soli quan<lb ed="#PV"/>tum 
-            ad productionem hominis 
-            <lb ed="#PV"/>et sic etiam illa inferiora <unclear>enu<lb ed="#PV"/>?but</unclear> 
-            superioribus 
-          </p>
-          <p xml:id="ppr-l30-uaotvg">
-            <!-- paragraph div in ordinatio "l30-uaotvg" should be reconsidered; first four lines up to "sed quantum" might be better in the previous paragraph -->
-            unde quantum 
-            <lb ed="#PV"/>ad operationes pure naturales citra 
-            <lb ed="#PV"/>liberum arbitrium subordinantur 
-            <lb ed="#PV"/>causis superioribus <name ref="#Scotus">Scotus doc<lb ed="#PV"/>tor subtilis</name> 
-            et <name ref="#Ockham">ockham</name> late trac<lb ed="#PV"/>tant 
-            hanc materiam
-          </p>
-        </div>
-        <div>
-          <head xml:id="ppr-l30-Hdcfdcf">De causis finalibus</head>
-          <p xml:id="ppr-l30-esdnei">
-            Sicut 
-            <lb ed="#PV"/>dictum est de causis efficien<lb ed="#PV"/>tibus 
-            ita de causis finalibus 
-            <lb ed="#PV"/>unde non stat aliquid concur<lb ed="#PV"/>rere 
-            per modum finis sine con<lb ed="#PV"/>cursu 
-            dei ita quod deus est primus 
-            <lb ed="#PV"/>finis et prima causa effectiva 
-            <lb ed="#PV"/>unde media quae sunt ad finem 
-            <lb ed="#PV"/>ultimum sunt omnino contingentia 
-            <lb ed="#PV"/>habitudo autem creaturae ad suum 
-            <lb ed="#PV"/>finem ultimum est omnino insolubilis
-          </p>
-        </div>
-        <div>
-          <head xml:id="ppr-l30-Hurssed">Utrum ratione Scoti est demonstrativa</head>
-          <p xml:id="ppr-l30-qaeeaa">
-            <lb ed="#PV"/>de ratione <name ref="#Scotus">scoti</name> qui reputavit 
-            <lb ed="#PV"/>valde apparens unde arguit 
-            <lb ed="#PV"/>sic aliquid est effectibile et 
-            <lb ed="#PV"/>non a se igitur etc Si dicatur 
-            <lb ed="#PV"/>processum esse in infinitum 
-            <lb ed="#PV"/>in causis <choice><orig>nichilominus</orig><reg>nihilominus</reg></choice> conti<lb ed="#PV"/>nuat 
-            suam rationem sicut prius 
-            <lb ed="#PV"/>patuit doctores
-          </p>
-          <p xml:id="ppr-l30-cimned">
-            circa istam 
-            <lb ed="#PV"/>materiam multa notant et dicunt 
-            <lb ed="#PV"/>plures quod ista ratio non est de<cb ed="#PV" n="b"/><lb ed="#PV"/>monstrativa
-          </p>
-          <p xml:id="ppr-l30-pqnssf">
-            quia diceretur quod non 
-            <lb ed="#PV"/>est evidens quin sit processus in 
-            <lb ed="#PV"/>infinitum in causis quia de 
-            <lb ed="#PV"/>facto est processus in infinitum 
-            <lb ed="#PV"/>in causis accidentaliter subordinatis 
-            <lb ed="#PV"/>et sic etiam in aliis posset argui
-          </p>
-          <p xml:id="ppr-l30-sdqdna">
-            <lb ed="#PV"/>Alii arguunt quod licet realiter 
-            <lb ed="#PV"/>aliquid de novo sit vel inci<lb ed="#PV"/>piat 
-            tamen non est absolute evidens 
-            <lb ed="#PV"/>Nam antiqui <choice><orig>phylosophi</orig><reg>philosophi</reg></choice> plures posu<lb ed="#PV"/>erunt 
-            rerum aeternitatem sicut <unclear>an</unclear> 
-            <lb ed="#PV"/>ex agoras qui nec materiam nec 
-            <lb ed="#PV"/>formam ponit Etiam illi qui lo<lb ed="#PV"/>quuntur 
-            de <sic>athomalibus</sic> 
-          </p>
-          <p xml:id="ppr-l30-tdqqes">
-            <sic>2o</sic> dicunt 
-            <lb ed="#PV"/>quod non est evidens quin aliquid 
-            <lb ed="#PV"/>fiat a se primo <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice> 
-            <lb ed="#PV"/>est quia ponatur casus quod ali<lb ed="#PV"/>qua 
-            res producatur subito in 
-            <lb ed="#PV"/>instanti tunc in eodem in stanti 
-            <lb ed="#PV"/>in quo est producta adaequate 
-            <lb ed="#PV"/>ipsa potest concurrere effective ad 
-            <lb ed="#PV"/>aliam rem puta ad alium 
-            <lb ed="#PV"/>angelum et ponatur casus 
-            <lb ed="#PV"/>de angelo Iste angelus scilicet <c>a</c> 
-            <lb ed="#PV"/>producit <c>b</c> omnino sibi simile 
-            <lb ed="#PV"/>igitur potest producere se ipsum quare 
-            <lb ed="#PV"/>enim non potest habere actum volendi 
-            <lb ed="#PV"/>quo velit se producere et ponatur 
-            <lb ed="#PV"/>quod habeat volitionem et deus velit 
-            <lb ed="#PV"/>illam volitionem esse causam produc<lb ed="#PV"/>tionis
-            
-            Item <c>a</c> producit <c>b</c> ergo 
-            <lb ed="#PV"/>potest producere <del rend="strikethrough">nam effectum alicuius 
-            <lb ed="#PV"/>speciei</del> <c>a</c> tenet consequentia quia quantumcumque vera 
-            <lb ed="#PV"/>causa potest producere unum effec<lb ed="#PV"/>tum 
-            alicuius speciei pro eodem 
-            <lb ed="#PV"/>instanti potest alium producere 
-            <lb ed="#PV"/>eiusdem speciei
-            
-            Item ponamus 
-            <lb ed="#PV"/>quod pro isto instanti velit 
-            
-            Item 
-            <lb ed="#PV"/><c>b</c> potest producere <c>a</c> ergo se tenet 
-            <lb ed="#PV"/>consequentia quia suam causam in qua 
-            <pb ed="#PV" n="53-r"/>
-            <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>est virtualiter ergo quaelibet istarum 
-            <lb ed="#PV"/>causarum scilicet <c>a</c> et <c>b</c> producet se 
-            
-            <lb ed="#PV"/>Ex istis sequitur quod positiones de 
-            <lb ed="#PV"/>ista materia sunt neutrae 
-            
-            Item dicunt 
-            <lb ed="#PV"/>alii quod non est evidens quod aliqui 
-            <lb ed="#PV"/>producatur creatura ab alio unde 
-            <lb ed="#PV"/>diceretur quod incipit esse a casu 
-            <lb ed="#PV"/>sicut isti philosophi qui negaverunt 
-            <lb ed="#PV"/>intentionem agentium contrarium non 
-            <lb ed="#PV"/>eset evidens sed est consuetum 
-          </p>
-          <p xml:id="ppr-l30-cdppns">
-            Con<lb ed="#PV"/>sequenter de processu in infini<lb ed="#PV"/>tum 
-            non est evidens quin 
-            <lb ed="#PV"/>sit processus in infinitum Quando 
-            <lb ed="#PV"/>arguit <name ref="#Scotus">scotus</name> ista multitudo 
-            <lb ed="#PV"/>est creata dicunt quod non potest 
-            <lb ed="#PV"/>significari adaequate
-            <!-- should there be a break here -->
-            Item dato quod 
-            <lb ed="#PV"/>significaretur etc quando dicitur tota 
-            <lb ed="#PV"/>multitudo est creata disting<lb ed="#PV"/>uunt 
-            quia vel ly tota capitur 
-            <lb ed="#PV"/>kathegorematice vel sinkathegorematice si sinkathegorematice  
-            <lb ed="#PV"/>conceditur quod quaelibet pars ab 
-            <lb ed="#PV"/>aliquo data est et tamen quaelibet 
-            <lb ed="#PV"/>pars <sic>inullo</sic> creata est sed capien<lb ed="#PV"/>do 
-            kathegorematice non conceditur quia non 
-            <lb ed="#PV"/>potest significari a quo
-          </p>
-        </div>
-        <div>
-          <head xml:id="ppr-l30-Hrndrnd">Responsio: Natura demonstrationis</head>
-          <p xml:id="ppr-l30-henemp">
-            Notandum 
-            <lb ed="#PV"/>quod secundum aliquos aliquid est de<lb ed="#PV"/>monstrativum 
-            sicut alias fuit dictum 
-            <lb ed="#PV"/>debet attendi penes intellectum 
-            <lb ed="#PV"/>dispositum
-            <!-- should there be a break here -->
-            2o advertendum 
-            <lb ed="#PV"/>quod mere debent recipi secundum quod 
-            <lb ed="#PV"/>sunt unde evidentia est ma<lb ed="#PV"/>ior 
-            in uno genere sciendi quam 
-            <lb ed="#PV"/>in alio ut patet de mathematicis 
-            <lb ed="#PV"/>et aliis patet <name ref="#Aristotle">philosophus</name> etiam in <name ref="#Ethics">ethicis</name> 
-            in una quaque scientia sufficit pro<lb ed="#PV"/>cedere 
-            secundum materiam subiectam
-            <!-- a paragraph break appropriate here -->
-            <lb ed="#PV"/>Ad propositum quia deus est 
-            <lb ed="#PV"/>res abstractiva infinite per<lb ed="#PV"/>fectionis 
-            et insensibilis a nobis 
-            <lb ed="#PV"/>ideo evidentiae et demonstrationes 
-            <lb ed="#PV"/>de ipso sunt alterius rationis 
-            <lb ed="#PV"/>et sic non sunt eiusdem generis <unclear>den?o?is</unclear> 
+        <div xml:id="ppr-l30-Dd1e4603">
+          <head xml:id="ppr-l30-Hdsecis">De subordinatione essentiali causarum inter se</head>
+          <p xml:id="ppr-l30-sedspc">
+            Sequitur 
+            <lb ed="#PV"/>quod tamen genere causae efficientis 
+            <lb ed="#PV"/>quam finalis est infinitus 
             <cb ed="#PV" n="b"/>
-            <lb ed="#PV"/>cum mathematicis unde tenendum 
-            <lb ed="#PV"/>est quod ratio <name ref="#Scotus">scoti</name> est evidens nec 
-            <lb ed="#PV"/>sequitur respondens potest se de<lb ed="#PV"/>fendere 
-            a contradictione ergo ratio non 
-            <lb ed="#PV"/>concludit <choice><orig>ymmo</orig><reg>immo</reg></choice> demonstrationes 
-            <lb ed="#PV"/>mathematicae possent defensari 
-            <lb ed="#PV"/>absque contradictione vel oppositum 
-            <lb ed="#PV"/>et ergo qui nolunt capere scilicet pertinen<lb ed="#PV"/>tes 
-            vel sunt pertinaces vel defici<lb ed="#PV"/>unt 
-            sic quod non habent intellectum 
-            <lb ed="#PV"/>bene dispositum
-            <!-- also related to l30-eqsdii, ppr-l30-uqedac, l30-idhibd -->
+            <lb ed="#PV"/><unclear>doctores</unclear> dixerunt de essentiali 
+            <lb ed="#PV"/>ordine causarum unde causae 
+            <lb ed="#PV"/>vocantur essentialiter subordinate 
+            <lb ed="#PV"/>quando sic se habent quod 2a nullomodo 
+            <lb ed="#PV"/>potest agere nisi in virtute primae 
+            <lb ed="#PV"/>prima dirigente et cogente Isto 
+            <lb ed="#PV"/>modo describendo dicendum 
+            <lb ed="#PV"/>est quod nulla causa secunda potest 
+            <lb ed="#PV"/>alteri causae secundum subordinari 
+            <lb ed="#PV"/>loquor de essentialiter subordinatis 
+            <lb ed="#PV"/>patet quia quaelibet potest agere 
+            <lb ed="#PV"/>alia non coagente quia quibus<lb ed="#PV"/>cumque 
+            datis una potest conservari 
+            <lb ed="#PV"/>alia destructa et deus mediate illa 
+            <lb ed="#PV"/>potest agere sed praecise primae causae 
+            quaelibet 2a causa subordinatur
           </p>
-          <p xml:id="ppr-l30-esdrsi">
-            Quando dicitur 
-            <lb ed="#PV"/>non est evidens satis habenti in<lb ed="#PV"/>tellectum 
-            bene dispositum utrum 
-            <lb ed="#PV"/>de potentia dei absoluta aliqua 
-            <lb ed="#PV"/>posset se producere est impertinens 
-            <lb ed="#PV"/>mere quia non sequitur aliquid 
-            <lb ed="#PV"/>de potentia dei absoluta potest se pro<lb ed="#PV"/>ducere 
-            igitur <choice><orig>nichil</orig><reg>nihil</reg></choice> producitur 
-            <lb ed="#PV"/>ab alio et sic est evidens evidentia 
-            <lb ed="#PV"/>sufficienti apud intellectum bene 
-            <lb ed="#PV"/>dispositum 
-            <!-- possible break here -->
-            Tertium est quod deus 
-            <lb ed="#PV"/>potest facere quod aliqua res produceret 
-            <lb ed="#PV"/>se per communicationem <!-- possible correction here --> ydeomatum ut 
-            <lb ed="#PV"/>christus genuisset se ipsum po<lb ed="#PV"/>namus 
-            quod genuisset more naturali 
-            <lb ed="#PV"/>et <unclear>communi</unclear> de muliere et in instanti 
-            <lb ed="#PV"/>infusionis animae assumpsisset huius<lb ed="#PV"/>modi 
-            naturam in unitate supponitur 
-            <lb ed="#PV"/>ipse esset ille puer qui generatur 
-            <lb ed="#PV"/>et tamen generaret se et esset pater et 
-            <lb ed="#PV"/>filius suus
-            <!-- possible break -->
-            Sed quaeritur 2m in<lb ed="#PV"/>tellectum 
-            <name ref="#Augustine">augustini</name> utrum posset 
-            <lb ed="#PV"/>se generare ut sic dicitur quod non 
-            <lb ed="#PV"/>quia licet posset se ipsum generare 
-            <lb ed="#PV"/>non tamen ut sic quia in casu 
-            <lb ed="#PV"/>posito non faceret se esse quia <unclear>c?scus</unclear> 
-            <lb ed="#PV"/>prius fuit et sic nulla res potest se pro<lb ed="#PV"/>ducere 
-            ut sic quia si sic tunc 
-            <lb ed="#PV"/>realiter haberet prioritatem naturalem 
-            <lb ed="#PV"/>respectu sui ipsius
-          </p>
-          <p xml:id="ppr-l30-pcdnpe">
-            <name ref="#Scotus">Scotus</name> <choice><orig>yma<lb ed="#PV"/>ginatur</orig><reg>ima<lb ed="#PV"/>ginatur</reg></choice> 
-            instantia naturae 
-            <pb ed="#PV" n="53-v"/>
-            <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>et sic licet quandoque causa et effectus 
-            <lb ed="#PV"/>sunt simul tempore tamen non 
-            <lb ed="#PV"/>simul <unclear>natura</unclear> tunc capiamus pri<lb ed="#PV"/>mum 
-            instans naturae ut dicit <name ref="#Scotus">sco<lb ed="#PV"/>tus</name> 
-            in illos non est effectus et tamen 
-            <lb ed="#PV"/>causa est in illo secundum <choice><orig>ymagina<lb ed="#PV"/>tionem</orig><reg>imagina<lb ed="#PV"/>tionem</reg></choice>
-          </p>
-          <p xml:id="ppr-l30-etapie">
-            
-            Tunc ad rationem ponamus 
-            <lb ed="#PV"/>quod producatur nunc angelus in 
-            <lb ed="#PV"/>eodem instanti adaequate <c>A</c> 
-            <lb ed="#PV"/>potest prodcuere <c>b</c> angelum admitto 
-            <lb ed="#PV"/>tamquam possibile consequenter ponitur quod 
-            <lb ed="#PV"/>velit realiter se producere <unclear>admitt?tis</unclear> 
-            <lb ed="#PV"/>quando ponitur ista volito sit realite 
-            <lb ed="#PV"/>causa productiva ipsius dico 
-            <lb ed="#PV"/>quod hoc est ponere contradictionem in terminis 
-            <lb ed="#PV"/>quia causalitas ista <del rend="strikethrough">est</del> quae 
-            <lb ed="#PV"/>est nolitio est posterior ad esse 
-            <lb ed="#PV"/>angelum 
-            <!-- possible break -->
-            Quando dicitur ponitur 
-            <lb ed="#PV"/>quod viceversa <c>b</c> producit <c>a</c> casus 
-            <lb ed="#PV"/>est impossibilis Nam ex habitudine 
-            <lb ed="#PV"/>causae ad effectum revertitur 
-            <lb ed="#PV"/>prioritas <c>b</c> respectu <c>a</c> et sic sequitur 
-            <lb ed="#PV"/>quod idem esset prius et posterius 
-            <lb ed="#PV"/>respectu eiusdem 
-            <!-- possible break -->
-            Quid dicitur 
-            <lb ed="#PV"/><c>a</c> producit <c>b</c> effectum ergo quodlibet 
-            <lb ed="#PV"/>individuum eiusdem speciei potest 
-            <lb ed="#PV"/>nego consequentiam quia potest habere rationem 
-            <lb ed="#PV"/>prioritatis respectu alicuius et 
-            <lb ed="#PV"/>non respectu cuiuscumque quia 
-            <lb ed="#PV"/>non respectu sui ipsius 
-          </p>
-          <p xml:id="ppr-l30-sqdsic">
-            <!-- no parallel -->
-            Sequitur 
-            <lb ed="#PV"/>quod duo effectus omnino similes 
-            <lb ed="#PV"/>producuntur et a concurrat ad unum 
-            <lb ed="#PV"/>scilicet ad <c>b</c> et non potest ad alium scilicet 
-            <lb ed="#PV"/>ad se ipsum concurrere
-          </p>
-          <p xml:id="ppr-l30-sqcpae">
-            <!-- no parallel -->
-            Sequitur 
-            <lb ed="#PV"/>quod concursus <c>a</c> ad <c>b</c> impe<lb ed="#PV"/>dit 
-            concursum <c>b</c> ad <c>a</c> quia nulla 
-            <lb ed="#PV"/>est repugnantia in primo 
-            <lb ed="#PV"/>et tamen quia a concurrit im<lb ed="#PV"/>peditur 
-            viceversa illa unde illa unde illa 
-            <lb ed="#PV"/>habitudine ablata est in eadem 
-            <lb ed="#PV"/>instanti <c>b</c> potest producere <c>a</c> etc 
-            <cb ed="#PV" n="b"/> 
-          </p>
-          <p xml:id="ppr-l30-qamuie">
-            <!-- no parallel -->
-            <lb ed="#PV"/>Quantum ad materiam de processu in 
-            <lb ed="#PV"/>infinitum Advertendum quod in 
-            <lb ed="#PV"/>aliquibus stat esse terminum et 
-            <lb ed="#PV"/>in aliquibus non dato quod mundus 
-            <lb ed="#PV"/>esset aeternus non esset dare terminum 
-            <lb ed="#PV"/>quia quaeritur de illa multitudine 
-            <lb ed="#PV"/>Notandum quod aliqua multitudo 
-            <lb ed="#PV"/>potest esse taliter ordinata quod denotatur 
-            <lb ed="#PV"/>nullus esse terminus respectu illius 
-            <lb ed="#PV"/>verbi gratia si esset bona intelligentia 
-            <lb ed="#PV"/>et illa generare aliam et illa illarum etc 
-            <lb ed="#PV"/>in infinitum sic quod quaelibet eius 
-            <lb ed="#PV"/>esset pater nec nulla esset <unclear>genui <c>a</c></unclear> 
-            <lb ed="#PV"/>non <sic>gingnens</sic> quaelibet esse pater 
-            <lb ed="#PV"/>et esset processus in infinitum
-            <!-- possible break -->
-            <lb ed="#PV"/>In aliquibus est processus in infi<lb ed="#PV"/>nitum 
-            christi datur terminus ymagi<lb ed="#PV"/>nemur 
-            totam latitudinem creatorum 
-            <lb ed="#PV"/>et causantium quantum ad illa quae 
-            <lb ed="#PV"/>sunt creata est infinita lati<lb ed="#PV"/>tudo 
-            et datur terminus huius mul<lb ed="#PV"/>titudinis 
-            eo quod est alterius rationis 
-            <lb ed="#PV"/>ut inter extrema
-          </p>
-          <p xml:id="ppr-l30-iestim">
-            <!-- no parallel -->
-            Item ex semi<lb ed="#PV"/>dyametro 
-            et circumferentia datur 
-            <lb ed="#PV"/>maximus angulus possibilis 
-            <lb ed="#PV"/>causari et tamen est processus 
-            <lb ed="#PV"/>in infinitum ad illum per minores 
-            <lb ed="#PV"/>Etiam si darentur infinite 
-            <lb ed="#PV"/>creaturae adhuc daretur in<lb ed="#PV"/>fima 
-            et suprema tota multitu<lb ed="#PV"/>do 
-            infinita clauditur <unclear>terminis</unclear> 
-            <lb ed="#PV"/>ad extra
-            Sed esset linea circularis 
-            <lb ed="#PV"/>infinita igitur terminaretur duobus 
-            <lb ed="#PV"/>terminus et esset infinita et si 
-            <lb ed="#PV"/>circumferentia illius poneretur 
-            <lb ed="#PV"/>super lineam rectam ipsa cau<lb ed="#PV"/>saret 
-            angulum contingentiae acu<lb ed="#PV"/>tissimum
-            <name ref="#Wodeham">Adam</name> et <name ref="#Oyta">magister henricus de heutha</name> 
-            <lb ed="#PV"/>diffuse et bene tractant istam 
-            <lb ed="#PV"/>materiam
-          </p>
-        </div>
-        <div>
-          <head>Circa textum</head>
-          <p xml:id="ppr-l30-ctsepp">
-            <pb ed="#PV" n="54-r"/>
-            <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>Circa textum scilicet distinctionem 
-            <lb ed="#PV"/>28am praeterea considerare <unclear>ad</unclear> prima 
-            <lb ed="#PV"/>conclusio hac nomen ingeni<lb ed="#PV"/>tus 
-            est nomen relatum et non prae<lb ed="#PV"/>dicatur 
-            essentialiter sed relative  in 
-            <lb ed="#PV"/>ordine ad non genitum unde 
-            <lb ed="#PV"/>ingenitum capitur dupliciter uno modo 
-            <lb ed="#PV"/>pure negative <unclear>et</unclear> dicitur quasi 
-            <lb ed="#PV"/>non genitum et sic competiti spiritui 
-            <lb ed="#PV"/>sancto Alio modo capitur posi<lb ed="#PV"/>tive 
-            et sic se habet quasi positiva 
-            <lb ed="#PV"/>proprietas sicut innascibilitas 
-            <lb ed="#PV"/>et sic esset proprium patri
-          </p>
-          <p xml:id="ppr-l30-scneam">
-            2a conclusio 
-            <lb ed="#PV"/>non est idem dicere patrem esse 
-            <lb ed="#PV"/>pronum et praemium esse ingenitum 
-            <lb ed="#PV"/>quia uno modo convertitur cum patre 
-            <lb ed="#PV"/>et alio modo
-          </p>
-          <p xml:id="ppr-l30-acltae">
-            Alia conclusio 
-            <lb ed="#PV"/>licet sic concedendum alium esse 
-            <lb ed="#PV"/><unclear>praemium</unclear> etc non tamen aliud etc
-          </p>
-          <p xml:id="ppr-l30-acsoiv">
-            <lb ed="#PV"/>Alia conclusio sicut solus filius 
-            <lb ed="#PV"/>dicitur genitus verbum <choice><orig>yma<lb ed="#PV"/>go</orig><reg>ima<lb ed="#PV"/>go</reg></choice> 
-            sapientia nata aliquando tamen 
-            <lb ed="#PV"/>capiuntur mere essentialiter et sic pater 
-            <lb ed="#PV"/>dicitur verbum et sic capitur cum 
-            <lb ed="#PV"/>dicitur quod omnia cognoscit 
-            <lb ed="#PV"/>omnia in verbo
-          </p>
+          <div xml:id="ppr-l30-Dd1e4652">
+            <head xml:id="ppr-l30-Hoadceo">Obiectio ad definitionem causae essentialiter ordinatae</head>
+            <p xml:id="ppr-l30-esdeie">
+              <lb ed="#PV"/>Sed arguitur contra capiamus 
+              <lb ed="#PV"/>primam causam et 2am concurrentes 
+              <lb ed="#PV"/>ad alicuius effectus productionem 
+              <lb ed="#PV"/>tamen 2a causa ponit illam rem in esse 
+              <lb ed="#PV"/>ponamus quod deus subtrahat 
+              <lb ed="#PV"/>influxum suum quo ad produceretur 
+              <lb ed="#PV"/>et quod solum conservet tunc 
+              <lb ed="#PV"/>videtur quod illa secunda causa po<lb ed="#PV"/>nat 
+              effectum quia realiter pone<lb ed="#PV"/>bat 
+              vel posuisset ponamus ergo 
+              <lb ed="#PV"/>quod conservetur tunc producet dicitur 
+              <lb ed="#PV"/>quod cuiuscumque effectus productio 
+              <lb ed="#PV"/>requirit immensitatem causae 
+              <lb ed="#PV"/>effectivae
+            </p>
+          </div>
+          <div xml:id="ppr-l30-Dd1e4691">
+            <head xml:id="ppr-l30-Hrrrrrr">[Responsio]</head>
+            <p xml:id="ppr-l30-stphrd">
+              Ad rationem dicitur dupliciter
+            </p>
+            <p xml:id="ppr-l30-pqepae">
+              <lb ed="#PV"/>uno modo dato quod ita fieret quod deus 
+              <lb ed="#PV"/>subtraheret influxum suum effec<lb ed="#PV"/>tivum 
+              et influeret solum con<lb ed="#PV"/>servando 
+              illam secundam causam 
+              <lb ed="#PV"/>quod non sufficeret quia requiritur 
+              <lb ed="#PV"/>infinita causa infinite agens
+            </p>
+            <p xml:id="ppr-l30-sdqscc">
+              2o 
+              <lb ed="#PV"/>dicitur quod ex ordine essentiali 
+              <lb ed="#PV"/>2ae ad primam impossibile est quod secunda 
+              <lb ed="#PV"/>influat effective ad alicuius 
+              <lb ed="#PV"/>effectus <choice><orig>produxionem</orig><reg>productionem</reg></choice> sine influxu 
+              <lb ed="#PV"/>effectivo primae causae quia est 
+              <pb ed="#PV" n="52-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>subordinata in eodem genere 
+              <lb ed="#PV"/>essentialiter verum quod quandoque capitur magis 
+              <lb ed="#PV"/>communiter proportionaliter tamen ad primam 
+              <lb ed="#PV"/>acceptionem ita quod causae vocantur 
+              <lb ed="#PV"/>essentialiter subordinatae quia 2a non 
+              <lb ed="#PV"/>potest agere nisi prima coagente 
+              <lb ed="#PV"/>secundum cursum statutum et secundum 
+              <lb ed="#PV"/>hoc corpora superiora subordinan<lb ed="#PV"/>tur 
+              intelligentiis et intelligentiae 
+              <lb ed="#PV"/>deo <unclear>et</unclear> hoc est bene verum de causis 
+              <lb ed="#PV"/>naturalibus sed quantum est de acti<lb ed="#PV"/>bus 
+              causarum liberarum dicitur quod <choice><orig>in<lb ed="#PV"/>mediate</orig><reg>im<lb ed="#PV"/>mediate</reg></choice> 
+              subordinantur deo Sed 
+              <lb ed="#PV"/>in naturalibus dicendum quod sic ut 
+              <lb ed="#PV"/>homo subordinatur soli quan<lb ed="#PV"/>tum 
+              ad productionem hominis 
+              <lb ed="#PV"/>et sic etiam illa inferiora <unclear>enu<lb ed="#PV"/>?but</unclear> 
+              superioribus 
+            </p>
+            <p xml:id="ppr-l30-uaotvg">
+              <!-- paragraph div in ordinatio "l30-uaotvg" should be reconsidered; first four lines up to "sed quantum" might be better in the previous paragraph -->
+              unde quantum 
+              <lb ed="#PV"/>ad operationes pure naturales citra 
+              <lb ed="#PV"/>liberum arbitrium subordinantur 
+              <lb ed="#PV"/>causis superioribus <name ref="#Scotus">Scotus doc<lb ed="#PV"/>tor subtilis</name> 
+              et <name ref="#Ockham">ockham</name> late trac<lb ed="#PV"/>tant 
+              hanc materiam
+            </p>
+          </div>
+          <div xml:id="ppr-l30-Dd1e4815">
+            <head xml:id="ppr-l30-Hdcfdcf">De causis finalibus</head>
+            <p xml:id="ppr-l30-esdnei">
+              Sicut 
+              <lb ed="#PV"/>dictum est de causis efficien<lb ed="#PV"/>tibus 
+              ita de causis finalibus 
+              <lb ed="#PV"/>unde non stat aliquid concur<lb ed="#PV"/>rere 
+              per modum finis sine con<lb ed="#PV"/>cursu 
+              dei ita quod deus est primus 
+              <lb ed="#PV"/>finis et prima causa effectiva 
+              <lb ed="#PV"/>unde media quae sunt ad finem 
+              <lb ed="#PV"/>ultimum sunt omnino contingentia 
+              <lb ed="#PV"/>habitudo autem creaturae ad suum 
+              <lb ed="#PV"/>finem ultimum est omnino insolubilis
+            </p>
+          </div>
+          <div xml:id="ppr-l30-Dd1e4846">
+            <head xml:id="ppr-l30-Hurssed">Utrum ratione Scoti est demonstrativa</head>
+            <p xml:id="ppr-l30-qaeeaa">
+              <lb ed="#PV"/>de ratione <name ref="#Scotus">scoti</name> qui reputavit 
+              <lb ed="#PV"/>valde apparens unde arguit 
+              <lb ed="#PV"/>sic aliquid est effectibile et 
+              <lb ed="#PV"/>non a se igitur etc Si dicatur 
+              <lb ed="#PV"/>processum esse in infinitum 
+              <lb ed="#PV"/>in causis <choice><orig>nichilominus</orig><reg>nihilominus</reg></choice> conti<lb ed="#PV"/>nuat 
+              suam rationem sicut prius 
+              <lb ed="#PV"/>patuit doctores
+            </p>
+            <p xml:id="ppr-l30-cimned">
+              circa istam 
+              <lb ed="#PV"/>materiam multa notant et dicunt 
+              <lb ed="#PV"/>plures quod ista ratio non est de<cb ed="#PV" n="b"/><lb ed="#PV"/>monstrativa
+            </p>
+            <p xml:id="ppr-l30-pqnssf">
+              quia diceretur quod non 
+              <lb ed="#PV"/>est evidens quin sit processus in 
+              <lb ed="#PV"/>infinitum in causis quia de 
+              <lb ed="#PV"/>facto est processus in infinitum 
+              <lb ed="#PV"/>in causis accidentaliter subordinatis 
+              <lb ed="#PV"/>et sic etiam in aliis posset argui
+            </p>
+            <p xml:id="ppr-l30-sdqdna">
+              <lb ed="#PV"/>Alii arguunt quod licet realiter 
+              <lb ed="#PV"/>aliquid de novo sit vel inci<lb ed="#PV"/>piat 
+              tamen non est absolute evidens 
+              <lb ed="#PV"/>Nam antiqui <choice><orig>phylosophi</orig><reg>philosophi</reg></choice> plures posu<lb ed="#PV"/>erunt 
+              rerum aeternitatem sicut <unclear>an</unclear> 
+              <lb ed="#PV"/>ex agoras qui nec materiam nec 
+              <lb ed="#PV"/>formam ponit Etiam illi qui lo<lb ed="#PV"/>quuntur 
+              de <sic>athomalibus</sic> 
+            </p>
+            <p xml:id="ppr-l30-tdqqes">
+              <sic>2o</sic> dicunt 
+              <lb ed="#PV"/>quod non est evidens quin aliquid 
+              <lb ed="#PV"/>fiat a se primo <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice> 
+              <lb ed="#PV"/>est quia ponatur casus quod ali<lb ed="#PV"/>qua 
+              res producatur subito in 
+              <lb ed="#PV"/>instanti tunc in eodem in stanti 
+              <lb ed="#PV"/>in quo est producta adaequate 
+              <lb ed="#PV"/>ipsa potest concurrere effective ad 
+              <lb ed="#PV"/>aliam rem puta ad alium 
+              <lb ed="#PV"/>angelum et ponatur casus 
+              <lb ed="#PV"/>de angelo Iste angelus scilicet <c>a</c> 
+              <lb ed="#PV"/>producit <c>b</c> omnino sibi simile 
+              <lb ed="#PV"/>igitur potest producere se ipsum quare 
+              <lb ed="#PV"/>enim non potest habere actum volendi 
+              <lb ed="#PV"/>quo velit se producere et ponatur 
+              <lb ed="#PV"/>quod habeat volitionem et deus velit 
+              <lb ed="#PV"/>illam volitionem esse causam produc<lb ed="#PV"/>tionis
+              
+              Item <c>a</c> producit <c>b</c> ergo 
+              <lb ed="#PV"/>potest producere <del rend="strikethrough">nam effectum alicuius 
+              <lb ed="#PV"/>speciei</del> <c>a</c> tenet consequentia quia quantumcumque vera 
+              <lb ed="#PV"/>causa potest producere unum effec<lb ed="#PV"/>tum 
+              alicuius speciei pro eodem 
+              <lb ed="#PV"/>instanti potest alium producere 
+              <lb ed="#PV"/>eiusdem speciei
+              
+              Item ponamus 
+              <lb ed="#PV"/>quod pro isto instanti velit 
+              
+              Item 
+              <lb ed="#PV"/><c>b</c> potest producere <c>a</c> ergo se tenet 
+              <lb ed="#PV"/>consequentia quia suam causam in qua 
+              <pb ed="#PV" n="53-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>est virtualiter ergo quaelibet istarum 
+              <lb ed="#PV"/>causarum scilicet <c>a</c> et <c>b</c> producet se 
+              
+              <lb ed="#PV"/>Ex istis sequitur quod positiones de 
+              <lb ed="#PV"/>ista materia sunt neutrae 
+              
+              Item dicunt 
+              <lb ed="#PV"/>alii quod non est evidens quod aliqui 
+              <lb ed="#PV"/>producatur creatura ab alio unde 
+              <lb ed="#PV"/>diceretur quod incipit esse a casu 
+              <lb ed="#PV"/>sicut isti philosophi qui negaverunt 
+              <lb ed="#PV"/>intentionem agentium contrarium non 
+              <lb ed="#PV"/>eset evidens sed est consuetum 
+            </p>
+            <p xml:id="ppr-l30-cdppns">
+              Con<lb ed="#PV"/>sequenter de processu in infini<lb ed="#PV"/>tum 
+              non est evidens quin 
+              <lb ed="#PV"/>sit processus in infinitum Quando 
+              <lb ed="#PV"/>arguit <name ref="#Scotus">scotus</name> ista multitudo 
+              <lb ed="#PV"/>est creata dicunt quod non potest 
+              <lb ed="#PV"/>significari adaequate
+              <!-- should there be a break here -->
+              Item dato quod 
+              <lb ed="#PV"/>significaretur etc quando dicitur tota 
+              <lb ed="#PV"/>multitudo est creata disting<lb ed="#PV"/>uunt 
+              quia vel ly tota capitur 
+              <lb ed="#PV"/>kathegorematice vel sinkathegorematice si sinkathegorematice  
+              <lb ed="#PV"/>conceditur quod quaelibet pars ab 
+              <lb ed="#PV"/>aliquo data est et tamen quaelibet 
+              <lb ed="#PV"/>pars <sic>inullo</sic> creata est sed capien<lb ed="#PV"/>do 
+              kathegorematice non conceditur quia non 
+              <lb ed="#PV"/>potest significari a quo
+            </p>
+          </div>
+          <div xml:id="ppr-l30-Dd1e5106">
+            <head xml:id="ppr-l30-Hrndrnd">Responsio: Natura demonstrationis</head>
+            <p xml:id="ppr-l30-henemp">
+              Notandum 
+              <lb ed="#PV"/>quod secundum aliquos aliquid est de<lb ed="#PV"/>monstrativum 
+              sicut alias fuit dictum 
+              <lb ed="#PV"/>debet attendi penes intellectum 
+              <lb ed="#PV"/>dispositum
+              <!-- should there be a break here -->
+              2o advertendum 
+              <lb ed="#PV"/>quod mere debent recipi secundum quod 
+              <lb ed="#PV"/>sunt unde evidentia est ma<lb ed="#PV"/>ior 
+              in uno genere sciendi quam 
+              <lb ed="#PV"/>in alio ut patet de mathematicis 
+              <lb ed="#PV"/>et aliis patet <name ref="#Aristotle">philosophus</name> etiam in <name ref="#Ethics">ethicis</name> 
+              in una quaque scientia sufficit pro<lb ed="#PV"/>cedere 
+              secundum materiam subiectam
+              <!-- a paragraph break appropriate here -->
+              <lb ed="#PV"/>Ad propositum quia deus est 
+              <lb ed="#PV"/>res abstractiva infinite per<lb ed="#PV"/>fectionis 
+              et insensibilis a nobis 
+              <lb ed="#PV"/>ideo evidentiae et demonstrationes 
+              <lb ed="#PV"/>de ipso sunt alterius rationis 
+              <lb ed="#PV"/>et sic non sunt eiusdem generis <unclear>den?o?is</unclear> 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>cum mathematicis unde tenendum 
+              <lb ed="#PV"/>est quod ratio <name ref="#Scotus">scoti</name> est evidens nec 
+              <lb ed="#PV"/>sequitur respondens potest se de<lb ed="#PV"/>fendere 
+              a contradictione ergo ratio non 
+              <lb ed="#PV"/>concludit <choice><orig>ymmo</orig><reg>immo</reg></choice> demonstrationes 
+              <lb ed="#PV"/>mathematicae possent defensari 
+              <lb ed="#PV"/>absque contradictione vel oppositum 
+              <lb ed="#PV"/>et ergo qui nolunt capere scilicet pertinen<lb ed="#PV"/>tes 
+              vel sunt pertinaces vel defici<lb ed="#PV"/>unt 
+              sic quod non habent intellectum 
+              <lb ed="#PV"/>bene dispositum
+              <!-- also related to l30-eqsdii, ppr-l30-uqedac, l30-idhibd -->
+            </p>
+            <p xml:id="ppr-l30-esdrsi">
+              Quando dicitur 
+              <lb ed="#PV"/>non est evidens satis habenti in<lb ed="#PV"/>tellectum 
+              bene dispositum utrum 
+              <lb ed="#PV"/>de potentia dei absoluta aliqua 
+              <lb ed="#PV"/>posset se producere est impertinens 
+              <lb ed="#PV"/>mere quia non sequitur aliquid 
+              <lb ed="#PV"/>de potentia dei absoluta potest se pro<lb ed="#PV"/>ducere 
+              igitur <choice><orig>nichil</orig><reg>nihil</reg></choice> producitur 
+              <lb ed="#PV"/>ab alio et sic est evidens evidentia 
+              <lb ed="#PV"/>sufficienti apud intellectum bene 
+              <lb ed="#PV"/>dispositum 
+              <!-- possible break here -->
+              Tertium est quod deus 
+              <lb ed="#PV"/>potest facere quod aliqua res produceret 
+              <lb ed="#PV"/>se per communicationem <!-- possible correction here --> ydeomatum ut 
+              <lb ed="#PV"/>christus genuisset se ipsum po<lb ed="#PV"/>namus 
+              quod genuisset more naturali 
+              <lb ed="#PV"/>et <unclear>communi</unclear> de muliere et in instanti 
+              <lb ed="#PV"/>infusionis animae assumpsisset huius<lb ed="#PV"/>modi 
+              naturam in unitate supponitur 
+              <lb ed="#PV"/>ipse esset ille puer qui generatur 
+              <lb ed="#PV"/>et tamen generaret se et esset pater et 
+              <lb ed="#PV"/>filius suus
+              <!-- possible break -->
+              Sed quaeritur 2m in<lb ed="#PV"/>tellectum 
+              <name ref="#Augustine">augustini</name> utrum posset 
+              <lb ed="#PV"/>se generare ut sic dicitur quod non 
+              <lb ed="#PV"/>quia licet posset se ipsum generare 
+              <lb ed="#PV"/>non tamen ut sic quia in casu 
+              <lb ed="#PV"/>posito non faceret se esse quia <unclear>c?scus</unclear> 
+              <lb ed="#PV"/>prius fuit et sic nulla res potest se pro<lb ed="#PV"/>ducere 
+              ut sic quia si sic tunc 
+              <lb ed="#PV"/>realiter haberet prioritatem naturalem 
+              <lb ed="#PV"/>respectu sui ipsius
+            </p>
+            <p xml:id="ppr-l30-pcdnpe">
+              <name ref="#Scotus">Scotus</name> <choice><orig>yma<lb ed="#PV"/>ginatur</orig><reg>ima<lb ed="#PV"/>ginatur</reg></choice> 
+              instantia naturae 
+              <pb ed="#PV" n="53-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>et sic licet quandoque causa et effectus 
+              <lb ed="#PV"/>sunt simul tempore tamen non 
+              <lb ed="#PV"/>simul <unclear>natura</unclear> tunc capiamus pri<lb ed="#PV"/>mum 
+              instans naturae ut dicit <name ref="#Scotus">sco<lb ed="#PV"/>tus</name> 
+              in illos non est effectus et tamen 
+              <lb ed="#PV"/>causa est in illo secundum <choice><orig>ymagina<lb ed="#PV"/>tionem</orig><reg>imagina<lb ed="#PV"/>tionem</reg></choice>
+            </p>
+            <p xml:id="ppr-l30-etapie">
+              
+              Tunc ad rationem ponamus 
+              <lb ed="#PV"/>quod producatur nunc angelus in 
+              <lb ed="#PV"/>eodem instanti adaequate <c>A</c> 
+              <lb ed="#PV"/>potest prodcuere <c>b</c> angelum admitto 
+              <lb ed="#PV"/>tamquam possibile consequenter ponitur quod 
+              <lb ed="#PV"/>velit realiter se producere <unclear>admitt?tis</unclear> 
+              <lb ed="#PV"/>quando ponitur ista volito sit realite 
+              <lb ed="#PV"/>causa productiva ipsius dico 
+              <lb ed="#PV"/>quod hoc est ponere contradictionem in terminis 
+              <lb ed="#PV"/>quia causalitas ista <del rend="strikethrough">est</del> quae 
+              <lb ed="#PV"/>est nolitio est posterior ad esse 
+              <lb ed="#PV"/>angelum 
+              <!-- possible break -->
+              Quando dicitur ponitur 
+              <lb ed="#PV"/>quod viceversa <c>b</c> producit <c>a</c> casus 
+              <lb ed="#PV"/>est impossibilis Nam ex habitudine 
+              <lb ed="#PV"/>causae ad effectum revertitur 
+              <lb ed="#PV"/>prioritas <c>b</c> respectu <c>a</c> et sic sequitur 
+              <lb ed="#PV"/>quod idem esset prius et posterius 
+              <lb ed="#PV"/>respectu eiusdem 
+              <!-- possible break -->
+              Quid dicitur 
+              <lb ed="#PV"/><c>a</c> producit <c>b</c> effectum ergo quodlibet 
+              <lb ed="#PV"/>individuum eiusdem speciei potest 
+              <lb ed="#PV"/>nego consequentiam quia potest habere rationem 
+              <lb ed="#PV"/>prioritatis respectu alicuius et 
+              <lb ed="#PV"/>non respectu cuiuscumque quia 
+              <lb ed="#PV"/>non respectu sui ipsius 
+            </p>
+            <p xml:id="ppr-l30-sqdsic">
+              <!-- no parallel -->
+              Sequitur 
+              <lb ed="#PV"/>quod duo effectus omnino similes 
+              <lb ed="#PV"/>producuntur et a concurrat ad unum 
+              <lb ed="#PV"/>scilicet ad <c>b</c> et non potest ad alium scilicet 
+              <lb ed="#PV"/>ad se ipsum concurrere
+            </p>
+            <p xml:id="ppr-l30-sqcpae">
+              <!-- no parallel -->
+              Sequitur 
+              <lb ed="#PV"/>quod concursus <c>a</c> ad <c>b</c> impe<lb ed="#PV"/>dit 
+              concursum <c>b</c> ad <c>a</c> quia nulla 
+              <lb ed="#PV"/>est repugnantia in primo 
+              <lb ed="#PV"/>et tamen quia a concurrit im<lb ed="#PV"/>peditur 
+              viceversa illa unde illa unde illa 
+              <lb ed="#PV"/>habitudine ablata est in eadem 
+              <lb ed="#PV"/>instanti <c>b</c> potest producere <c>a</c> etc 
+              <cb ed="#PV" n="b"/> 
+            </p>
+            <p xml:id="ppr-l30-qamuie">
+              <!-- no parallel -->
+              <lb ed="#PV"/>Quantum ad materiam de processu in 
+              <lb ed="#PV"/>infinitum Advertendum quod in 
+              <lb ed="#PV"/>aliquibus stat esse terminum et 
+              <lb ed="#PV"/>in aliquibus non dato quod mundus 
+              <lb ed="#PV"/>esset aeternus non esset dare terminum 
+              <lb ed="#PV"/>quia quaeritur de illa multitudine 
+              <lb ed="#PV"/>Notandum quod aliqua multitudo 
+              <lb ed="#PV"/>potest esse taliter ordinata quod denotatur 
+              <lb ed="#PV"/>nullus esse terminus respectu illius 
+              <lb ed="#PV"/>verbi gratia si esset bona intelligentia 
+              <lb ed="#PV"/>et illa generare aliam et illa illarum etc 
+              <lb ed="#PV"/>in infinitum sic quod quaelibet eius 
+              <lb ed="#PV"/>esset pater nec nulla esset <unclear>genui <c>a</c></unclear> 
+              <lb ed="#PV"/>non <sic>gingnens</sic> quaelibet esse pater 
+              <lb ed="#PV"/>et esset processus in infinitum
+              <!-- possible break -->
+              <lb ed="#PV"/>In aliquibus est processus in infi<lb ed="#PV"/>nitum 
+              christi datur terminus ymagi<lb ed="#PV"/>nemur 
+              totam latitudinem creatorum 
+              <lb ed="#PV"/>et causantium quantum ad illa quae 
+              <lb ed="#PV"/>sunt creata est infinita lati<lb ed="#PV"/>tudo 
+              et datur terminus huius mul<lb ed="#PV"/>titudinis 
+              eo quod est alterius rationis 
+              <lb ed="#PV"/>ut inter extrema
+            </p>
+            <p xml:id="ppr-l30-iestim">
+              <!-- no parallel -->
+              Item ex semi<lb ed="#PV"/>dyametro 
+              et circumferentia datur 
+              <lb ed="#PV"/>maximus angulus possibilis 
+              <lb ed="#PV"/>causari et tamen est processus 
+              <lb ed="#PV"/>in infinitum ad illum per minores 
+              <lb ed="#PV"/>Etiam si darentur infinite 
+              <lb ed="#PV"/>creaturae adhuc daretur in<lb ed="#PV"/>fima 
+              et suprema tota multitu<lb ed="#PV"/>do 
+              infinita clauditur <unclear>terminis</unclear> 
+              <lb ed="#PV"/>ad extra
+              Sed esset linea circularis 
+              <lb ed="#PV"/>infinita igitur terminaretur duobus 
+              <lb ed="#PV"/>terminus et esset infinita et si 
+              <lb ed="#PV"/>circumferentia illius poneretur 
+              <lb ed="#PV"/>super lineam rectam ipsa cau<lb ed="#PV"/>saret 
+              angulum contingentiae acu<lb ed="#PV"/>tissimum
+              <name ref="#Wodeham">Adam</name> et <name ref="#Oyta">magister henricus de heutha</name> 
+              <lb ed="#PV"/>diffuse et bene tractant istam 
+              <lb ed="#PV"/>materiam
+            </p>
+          </div>
+          <div xml:id="ppr-l30-Dd1e5599">
+            <head xml:id="ppr-l30-Hd1e5601">Circa textum</head>
+            <p xml:id="ppr-l30-ctsepp">
+              <pb ed="#PV" n="54-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>Circa textum scilicet distinctionem 
+              <lb ed="#PV"/>28am praeterea considerare <unclear>ad</unclear> prima 
+              <lb ed="#PV"/>conclusio hac nomen ingeni<lb ed="#PV"/>tus 
+              est nomen relatum et non prae<lb ed="#PV"/>dicatur 
+              essentialiter sed relative  in 
+              <lb ed="#PV"/>ordine ad non genitum unde 
+              <lb ed="#PV"/>ingenitum capitur dupliciter uno modo 
+              <lb ed="#PV"/>pure negative <unclear>et</unclear> dicitur quasi 
+              <lb ed="#PV"/>non genitum et sic competiti spiritui 
+              <lb ed="#PV"/>sancto Alio modo capitur posi<lb ed="#PV"/>tive 
+              et sic se habet quasi positiva 
+              <lb ed="#PV"/>proprietas sicut innascibilitas 
+              <lb ed="#PV"/>et sic esset proprium patri
+            </p>
+            <p xml:id="ppr-l30-scneam">
+              2a conclusio 
+              <lb ed="#PV"/>non est idem dicere patrem esse 
+              <lb ed="#PV"/>pronum et praemium esse ingenitum 
+              <lb ed="#PV"/>quia uno modo convertitur cum patre 
+              <lb ed="#PV"/>et alio modo
+            </p>
+            <p xml:id="ppr-l30-acltae">
+              Alia conclusio 
+              <lb ed="#PV"/>licet sic concedendum alium esse 
+              <lb ed="#PV"/><unclear>praemium</unclear> etc non tamen aliud etc
+            </p>
+            <p xml:id="ppr-l30-acsoiv">
+              <lb ed="#PV"/>Alia conclusio sicut solus filius 
+              <lb ed="#PV"/>dicitur genitus verbum <choice><orig>yma<lb ed="#PV"/>go</orig><reg>ima<lb ed="#PV"/>go</reg></choice> 
+              sapientia nata aliquando tamen 
+              <lb ed="#PV"/>capiuntur mere essentialiter et sic pater 
+              <lb ed="#PV"/>dicitur verbum et sic capitur cum 
+              <lb ed="#PV"/>dicitur quod omnia cognoscit 
+              <lb ed="#PV"/>omnia in verbo
+            </p>
+          </div>
         </div>
       </div>
     </body>
