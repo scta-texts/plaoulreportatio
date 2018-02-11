@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 31, de Notitia [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 31, de Notitia [Erlangen Transcription]</title>
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>A SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="include-list">
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="43-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio31">
+        <head xml:id="ppr-l31-Hldnldn">Lectio 31, de Notitia [Palantine Transcription]</head>
+        <div>
+          <head>Responsio ad rationes principales: quod Deus non sit a nobis cognoscibilis</head>
+          <p xml:id="ppr-l31-affnro">
+            <lb ed="#E"/>Alia lectio 
+            <lb ed="#E"/>Solvuntur rationes probantes quod deus non est cognoscibilis a nobis et sunt perfecte 
+            <lb ed="#E"/>in una lectione ante quae incepit <!-- underline is this a ref?? --> visum est quomodo fides non subiacet <!-- end underline --> <pc type="virgula">/</pc> Quantum 
+            <lb ed="#E"/>ad 6tm articulum et ultimum in quo solvendae sunt rationes introductae ad probandum 
+            <lb ed="#E"/>quod non sit deus
+            <!--- possible need for break here in this edition and ordinatio -->
+            Primo arguebatur quod inpossibile sit habere notitiam de deo quia vel est 
+            proportionata illa notitia obiecto et sic est infinita et si potentiae erit proportionata obiecto et non erit 
+            <lb ed="#E"/>notitia de deo
+          </p>
+          <div>
+            <head xml:id="ppr-l31-Drapapr">Responsio ad primam rationem</head>
+            <p xml:id="ppr-l31-rpdneo">
+              Respondetur primo dicendo quod non reperitur proprie aliqua proportio secundum proprium 
+              <lb ed="#E"/>modum loquendi inter potentiam et obiectum etiam notitiam et obiectum scilicet nec proportio quae 
+              <lb ed="#E"/>est in quantitatibus sicut in motivis quae comparantur  in quantitatibus ad similitudinem vel in numerus 
+              <lb ed="#E"/>Dico quod inter potentiam et eius obiectum vel inter potentiam et eius actum et actum et 
+              <lb ed="#E"/>obiectum eius non reperitur talis proportio
+            </p>
+            <p xml:id="ppr-l31-sdqrcc">
+              Dicta doctorum debent intelligi quod obiectum 
+              <lb ed="#E"/>est conveniens potentiae et bonum quae est de per se vel inclinativum 
+              Ita quod in proposito deus est 
+              <lb ed="#E"/>obiectum beatificum et finis ultimatus igitur optimum creaturae et per consequens proportiona<lb ed="#E"/>tissimum
+              Et ideo in hoc creatura quiescit et omnes inclinationes quae sunt per modum creaturae 
+              <lb ed="#E"/>cessant
+            </p>
+            <p xml:id="ppr-l31-spqmie">
+              Sequitur primo quod quanto deus magis excedit potentiam perceptivam tanto magis est 
+              <lb ed="#E"/>sibi proportionatus nam nisi excederet inmense non haberet rationem <unclear>sim?bilis</unclear> sufficientem 
+              <lb ed="#E"/>ergo non haberet sufficientem proportionem secundum modum expressum unde ratione suae immensitatis 
+              <lb ed="#E"/>conpetit sibi illa ratio scilicet quietationis
+            </p>
+            <p xml:id="ppr-l31-sdapee">
+              Sequitur de actu quod quanto actus inter obiectum 
+              <lb ed="#E"/>et potentiam magis excedit facultatem naturalem potentiae tanto est sibi magis
+              <pb ed="#E" n="43-v"/>
+              <lb ed="#E"/>proportionatus unde in huiusmodi latitudine quanto actus sunt nobiliores tanto magis 
+              <lb ed="#E"/>excedunt facultatem naturalem intellectus et tanto magis quietant creaturam et 
+              <lb ed="#E"/>delectant et per consequens magis proportionata
+            </p>
+            <p xml:id="ppr-l31-eqshqh">
+              Sequitur quod huiusmodi proportio non consisteret in aliquo 
+              <lb ed="#E"/>gradu quantum ad speciem nam tota latitudo actuum beatificorum est talis quod in huiusmodi 
+              <lb ed="#E"/>latitudine quilibet gradus est proportionatus et conveniens et ascendendo continue <unclear>datur</unclear> semper <del rend="strikethrough">commune</del> 
+              <lb ed="#E"/>convenientior quantum ad speciem et forte quod non est dandus supremus de potentia 
+              <lb ed="#E"/>dei ordinata <unclear>sed <!-- possibily corrected --></unclear> de potentia dei ordinata forte ita est quod communicavit christo seu animae 
+              <lb ed="#E"/>christi et dicitur actus summe proportionatus Sed esset verum de omnibus aliis a christo scilicet puris 
+              <lb ed="#E"/>viatoribus quia nullus alius attinget sicut christus
+            </p>
+            <p xml:id="ppr-l31-suqrit">
+              Sequitur quod nullum obiectum finitum est summe 
+              <lb ed="#E"/>proportionatum potentiae creatae intellectivae quia nullum est quod sibi summe conveniat vel 
+              <lb ed="#E"/>eius appetitum summe <sic>quietatat</sic> unde omnis causalitas finalitatis reperta in crea<lb ed="#E"/>turis 
+              reducitur ad ipsum deum nulla potest se ipsa esse causa filius respectu alicuius in ipsum ordi<lb ed="#E"/>nabilis 
+              sed oportet ulterius in deum <name ref="#Augustine">Augustinus</name> <quote>inquietum est cor nostrum donec requiescat in te</quote>
+            </p>
+            <p xml:id="ppr-l31-usqpee">
+              sequitur quod nullae potentia proportionatum est obiectum sibi simile vel ipsum met deo solo excepto 
+              <lb ed="#E"/>nam quaelibet alia ordinatur ad illud disproportionatum et dissimilissimum sibi
+            </p>
+            <p xml:id="ppr-l31-eqscbc">
+              Sequitur 
+              <lb ed="#E"/>quod ex diversitate magis consurgit proportio convenientiae quam ex similitudine Similiter reperitur in naturalibus 
+              <lb ed="#E"/>nam materia est proportionatissima forte et econtra <!-- possible correction here --> tamen habet oppositas conditiones quia materia est 
+              <lb ed="#E"/>potentia pura et forma actus ergo propositum habent tamen ordinem inter se et ex illo ordine consur<lb ed="#E"/>git 
+              bonum convenientiae
+            </p>
+            <p xml:id="ppr-l31-suqfnq">
+              Sequitur quod dependenti independens et indigenti indigens est proportio<lb ed="#E"/>natum
+            </p>
+            <p xml:id="ppr-l31-suqtia">
+              Sequitur ad esse proportionatum sicut ponitur potentia ad obiectum non requiritur aequalis 
+              <lb ed="#E"/>convenientia patet ex dictis nam sicut esse proportionatum magis consurgit ex oppositis rationibus quam 
+              <lb ed="#E"/>ex convenientia aequali Sed est magis convenientia ordinis quae habet ad illud et secundum quod coniungitur bene 
+              <lb ed="#E"/>est sibi
+            </p>
+            <p xml:id="ppr-l31-suqrss">
+              Similiter quod proprie loquendo non requiritur similitudo inter actum et obiectum quia non competit 
+              <lb ed="#E"/>notitiae ratione similitudinis quod repraesentat obiectum sed ex concursu obiectivo quantum ad notitiam intui<lb ed="#E"/>tivam 
+              vel ex concursu primo notitiarum intuitivarum quantum ad notitiam abstractivam et sic 
+              <lb ed="#E"/>patet solutio primae rationis 
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l31-Hrasasr">Responsio ad secundam rationem</head>
+            
+            <p xml:id="ppr-l31-spaiee">
+              Ad 2am arguentem quod inpossibile est de deo habere notitiam ratione infi<lb ed="#E"/>nitatis 
+              distantiae obiecti a potentia quia mobile infinite distans a loco non potest moveri 
+              <lb ed="#E"/>ad locum nisi per formam infinitam vel virtute infinite movente
+            </p>
+            <p xml:id="ppr-l31-heneie">
+              Advertendum quod licet ad 
+              <lb ed="#E"/>essentialem perfectionem sit distantia infinita non tamen quantum ad propositum spectat Nam divina essentia 
+              <lb ed="#E"/>non distat infinite cognoscibiliter a potentia intellectivam unde sic superficies et linea yma<lb ed="#E"/>ginatae 
+              abstractae quantum est ex parte essentialis perfectionis non distat infinite quantum ad 
+              <lb ed="#E"/>habitudinem quantificativam Et in proposito quantum est de essentiali convenientia est infinita distantia 
+              <lb ed="#E"/>Ymmo quodlibet obiectum potest percipere
+            </p>
+            <!-- odd break here -->
+            <p xml:id="ppr-l31-sdqcab">
+              2o dicitur quod si esset aliquis color in argumento vel 
+              <lb ed="#E"/>apparentia esset ad probandum quod impossibile esset attingere divinam essentiam comprehensive 
+              <lb ed="#E"/>per potentiam perceptivam <unclear>creatam</unclear> nam ad comprehensive cognoscere oportet habere notitiam 
+              <lb ed="#E"/>ita perfectam in esse notitiae sicut obiectum in se cuius est notitia huiusmodi modo concedendum 
+              <lb ed="#E"/>quod ad comprehendendum divinam essentiam requiritur notitia immensa modo creatura non est capax 
+              <lb ed="#E"/>illius notitiae <choice><orig>ymmo</orig><reg>immo</reg></choice> solus deus sic se ipsum percipit comprehensive
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l31-Hratatr">Responsio ad tertiam rationem</head>
+            <p xml:id="ppr-l31-trpoia">
+              Ad tertiam 
+              <lb ed="#E"/>quando dicitur sensus non potest cognitive attingere intellectum igitur nec intellectus <unclear>diu</unclear> quia maior 
+              <lb ed="#E"/>distantia est intellectus ad deum quam sensus ad intellectum
+            </p>
+            <p xml:id="ppr-l31-reqcie">
+              Respondetur quod huiusmodi excessus quantum 
+              <lb ed="#E"/>est ad propositum est omnino inpertinens unde visus habet obiectum suum circa lucem 
+              <lb ed="#E"/>et non potest in saporem in quem gustus et gustus non potest in lucem unde sensus sunt 
+              <pb ed="#E" n="44"/>limitati secundum organa Et intellectus non est virtus organica nec corporea Ideo 
+              <lb ed="#E"/>sufficit intellectui quod habeat intelligibile circa quod versetur et ergo non est ex intrinseca 
+              <lb ed="#E"/>limitatione quod sensus non potest in hoc vel in illud sed extrinseca quia fertur in suum subiectum 
+              <lb ed="#E"/>secundum diversas complexiones et diversa organa sed intellectus saltem ut sic non limitatur 
+              <lb ed="#E"/>per huiusmodi organa ergo quodlibet cognoscibile habet indifferenter pro obiecto
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l31-Hraqaqr">Responsio ad quartam rationem</head>
+            <p xml:id="ppr-l31-qaesdr">
+              Ad 4tam rationem 
+              <lb ed="#E"/>vel esset met divina essentia vel qualitas creata Non divina essentia quia 
+              <lb ed="#E"/>si sic esset immensa notitia et immenso modo repraesentans Nec potest dici quod creata quia 
+              <lb ed="#E"/>deus est omnino circumscriptibilis et inmensus etc
+            </p>
+            <p xml:id="ppr-l31-irtidr">
+              Argumentum tangit difficultatem tractandam circa 
+              <lb ed="#E"/><ref>distinctionem 17am</ref> Et est tamen probabile et sustinibile licet <name ref="#Lombard">magister</name> non <unclear>teneatur</unclear> in commune
+            </p>
+            <p xml:id="ppr-l31-uchdai">
+              Tunc respon<lb ed="#E"/>detur 
+              et potest concedi quod deus potest esse notitia creaturae sic quod potest vitaliter inmutare potentiam 
+              <lb ed="#E"/>absque creatione cuiuscumque actus
+            </p>
+            <p xml:id="ppr-l31-tarrvo">
+              Quando dicitur etiam sequeretur quod creatura infinite cognosceret 
+              <lb ed="#E"/>negetur consequentia ad probationem quia est realiter notitia inmensa incognoscit inmense consequentia 
+              <lb ed="#E"/>non valet quia deus mere libere communicat se tamquam notitia secundum quemcumque gradum 
+              <lb ed="#E"/>limitatum sibi placet rectae sicut ad extra producit communicando tantam vel tantam 
+              <lb ed="#E"/>perfectionem
+            </p>
+            <p xml:id="ppr-l31-accqsp">
+              Ad rationem nam arguitur sic et apparenter nam quantum una species notitiae est perfectior 
+              <lb ed="#E"/>tanto perfectius inmutat et sic ascendendo sed illa notitia quae est deus esset <sic>esset</sic> supra 
+              <lb ed="#E"/>latitudinem etiam <sic>infinitorum</sic> specierum creabilium ergo perfectiori modo inmutabit nego consequentiam 
+              <lb ed="#E"/>quia huiusmodi notitiae qui creatae sunt inmediate ab obiecto sunt agentia naturalia et in<lb ed="#E"/>mutant 
+              sensum ultimum suae potentiae et staret quod notitia creata faceret perfectius 
+              <lb ed="#E"/>cognoscere obiectum quam deus concurrens ut notitia <name ref="#Ripa">Magister Ioannes de ripa</name> respondet 
+              <lb ed="#E"/>Si deus sit notitia creaturae ipse est infinita notitia quantum ad speciem et infinita 
+              <lb ed="#E"/>quantum ad gradum
+            </p>
+            <p xml:id="ppr-l31-eqsvtc">
+              <!-- might also include ppr-l31-eaitqg, l31-siuisr -->
+              Istud non potest stare quia licet deus absolute sit notitia infinita 
+              <lb ed="#E"/>ipse tamen est notitia creaturae secundum eandem denominationem specificam studium quam notitia creata 
+              <lb ed="#E"/>esset notitia creaturae unde secundum aliam speciem est sibi notitia et secundum aliam creaturae quia 
+              <lb ed="#E"/>si esset modus <choice><orig>inmensus</orig><reg>immensus</reg></choice> secundum quem 
+              est notitia creaturae ratio demonstraret quia infinite repraesentaret 
+              <lb ed="#E"/>et si illa esset superior illa inmensum plus immutaret quam suprema species notitiarum 
+              <lb ed="#E"/>creaturarum unde sicut illud notitiae est demonstratio extrinseca ita quod extrinsecum et sibi quod sit talis 
+              <lb ed="#E"/>speciei 
+            </p>
+            <p xml:id="ppr-l31-uchnvg">
+              Sed cuius speciei erit divina essentia quando erit notitia creaturae
+            </p>
+            <p xml:id="ppr-l31-eqsvip">
+              Respondetur quod erit 
+              <lb ed="#E"/>illius speciei notitiae cuius notitiae gerit vicem et ita sequitur quod potest esse infinitarum specierum 
+              <lb ed="#E"/>notitiarum et sic reponitur in tot speciebus in esse notitiae quot sunt species notitiarum quas supplet 
+              <lb ed="#E"/>quia aequaliter secundum speciem et secundum gradum inmutat adaequate et ideo quantum ad hoc 
+              <lb ed="#E"/>esset eiusdem speciei cum notitia cuius vicem gerit quia est sibi accidentale quod sit notitia unde 
+              in quacumque <unclear>proporare</unclear> notitia creata movet deus ut notitia potest movere et non est 
+              <lb ed="#E"/>de ratione notitiae quod inhaereat
+            </p>
+            <p xml:id="ppr-l31-resdie">
+              <lb ed="#E"/>Quantum ad secundam viam dicitur quod per notitiam creata 
+              <lb ed="#E"/>potest deus agnosci quando dicitur deus <unclear>cui mensus</unclear> igitur nulla notitia creata potest sufficienter repraesen<lb ed="#E"/>tare 
+              negatur consequentia Si intelligitur quod nulla potest sic quod repraesentet ita sufficienter sicut est in se concedetur 
+              <lb ed="#E"/>Sed bene possibile est quod per aliquam notitiam creatam cognoscatur ut summum bonum 
+              <lb ed="#E"/>et summe quietativum et quod sit obiectum infinitum de notitia animae christi ipsa est realiter 
+              <lb ed="#E"/>tamquam exemplar divinae essentiae etc est quasi mundus archithipus in quo relucent 
+              <lb ed="#E"/>omnia et tamen non est ita clara notitia sicut deus est licet omnia repraesentet
+            </p>
+            <!-- reason for break is unclear -->
+            <p xml:id="ppr-l31-stdapn">
+              Dicit <name ref="#Wodeham">adam</name> penes 
+              <lb ed="#E"/>quid attenditur perfectio notitiae
+            </p>
+            <p xml:id="ppr-l31-refhic">
+              iuxta hoc <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> est ponatur quod sint duae 
+              <lb ed="#E"/>notitiae una repraesentet deum et alia et deum sed clarius licet <choice><orig>nichil</orig><reg>nihil</reg></choice> plus sit
+              <pb ed="#E" n="44-v"/>
+              <lb ed="#E"/>quod est lux superioris speciei unde dicit <name ref="#Adam">Adam</name> si <name>sortes</name> et <name>plato</name> cognoscerent quod trian<lb ed="#E"/>gulus 
+              habet tres <add place="above-line">etc</add> etiam aeque perfecte unus cognoscit sicut alter et ita perfecte <name>sortes</name> sicut deus 
+              <lb ed="#E"/>quia deus quantum ad hoc solum finite cognoscit scilicet quantum est ex parte huius <unclear>enunciationis</unclear> 
+              <lb ed="#E"/>adaequate Salva reverentia non bene stat quia licet non plura repraesentent tamen stat 
+              <lb ed="#E"/>quod sic alterius speciei lucis quia quicquid deus cognoscit hoc luce similiter inmensa cognoscit 
+              <lb ed="#E"/>et notitia quam <name>sortes</name> habet est valde debilis et lux remissi Dicit <name ref="#Adam">adam</name> consequenter continuando 
+              <lb ed="#E"/>materiam quod non est inconveniens concedere quod deus cognoscat contingenter ergo quod nec cognoscit finite 
+              <lb ed="#E"/>dicitur quod contingenter deus scit antichristum fore vel contingenter scit antichristum fore et scit tamen 
+              <lb ed="#E"/>inmutabiliter et immense unde mutabiliter quia non potest esse mutatio in deo 2o stat quod non 
+              <lb ed="#E"/>inevitabiliter et tamen non inmutabitur hoc stat in terminis
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l31-Dctctct">
+          <head xml:id="ppr-l31-Hctctct">Circa textum</head>
+          <p xml:id="ppr-l31-cdspae">
+            Circa distinctionem 29am prima conclusio 
+            <lb ed="#E"/>hoc nomen principium dicitur relative de qualibet persona spiritus sanctus est principium ad extra
+          </p>
+          <p xml:id="ppr-l31-scpppt">
+            Secunda conclusio 
+            <lb ed="#E"/>pater est principium principale trinitatis
+          </p>
+          <p xml:id="ppr-l31-tcpnae">
+            Tertia pater ab aeterno principium et filius sed spiritus sanctus non 
+            <lb ed="#E"/>quia non nisi ad extra
+          </p>
+          <p xml:id="ppr-l31-qlpefe">
+            Quarta licet pater sit principium creaturarum non tamen tria 
+            <lb ed="#E"/>principia Quinta pater et filius etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
