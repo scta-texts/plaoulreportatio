@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 36, de Fruitio [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 36, de Notitia [Palatine Transcription]</title>
+          <date when="2018-03-20">March 20, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-20" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="65-r"/><cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio36">
+        <head xml:id="ppr-l36-Hldfldf">Lectio 36, de Fruitione</head>
+        <div xml:id="ppr-l36-Dd1e87">
+          <head xml:id="ppr-l36-Huaparc">Utrum a parte obiecti aliquod bonum finitum sufficiat ultimate terminare appetitum rationalis creaturae?</head>
+          <p xml:id="ppr-l36-pfieas">
+            <lb ed="#PV"/>In alia lectione 4iia
+            <lb ed="#PV"/>Prius fuit adducta diffi<lb ed="#PV"/>cultas 
+            tangens finitatem 
+            <lb ed="#PV"/>humanae capacitatis quantum est 
+            <lb ed="#PV"/>ex parte potentiae 
+          </p>
+          <p xml:id="ppr-l36-nriarc">
+            Nunc restat 
+            <lb ed="#PV"/>inquirendum utrum a parte obiecti 
+            <lb ed="#PV"/>aliquod bonum finitum sufficiat 
+            <lb ed="#PV"/>terminare ultimate appetitum 
+            <lb ed="#PV"/>rationalis creaturae
+          </p>
+          <!--<p xml:id="ppr-l36-echnva"/>-->
+          <p xml:id="ppr-l36-pqgutf">
+            Advertendum 
+            <lb ed="#PV"/>pirmo quod generaliter omnis creatura 
+            <lb ed="#PV"/>sive cognitiva sive non appe<lb ed="#PV"/>tit 
+            summum bonum tamquam suum 
+            <lb ed="#PV"/>ultimum finem Istud est de inten<lb ed="#PV"/>tione 
+            <ref xml:id="ppr-l36-Rd1e119" corresp="#ppr-l36-Qbeqqoa"><name ref="#Aristotle">philosophi</name> primo <title ref="#Ethics">ethycorum</title></ref> <quote xml:id="ppr-l36-Qbeqqoa">Bo<lb ed="#PV"/>num 
+            est quod omnia appetunt</quote> 
+            <lb ed="#PV"/>et fuit antiqua descriptio 
+            <lb ed="#PV"/><name ref="#Eustratius">Eustratius</name> dicit <name>aristotelem</name> per 
+            <lb ed="#PV"/>bonum intellexisse deum ergo 
+            <lb ed="#PV"/>quaelibet creatura sive rationalis 
+            <lb ed="#PV"/>sive cognitiva sive non appetit 
+            <lb ed="#PV"/>illud patet aliunde
+          </p>
+          <p xml:id="ppr-l36-iesgau">
+            nam est sub<lb ed="#PV"/>ordinatio 
+            <lb ed="#PV"/>ordinatio finium ergo quilibet 
+            <lb ed="#PV"/>finis medius appetitur vel 
+            <lb ed="#PV"/>desideratur proportionaliter ultimum et per consequens 
+            <lb ed="#PV"/>magis ultimus appetitur vel 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>consideratur Et hoc potest dupliciter 
+            <lb ed="#PV"/>ymaginari uno modo resolvendo huius<lb ed="#PV"/>modi 
+            appetitum ad divinum et in<lb ed="#PV"/>frustrabile 
+            imperium nam per 
+            <lb ed="#PV"/>voluntatem deus nedum regit 
+            <lb ed="#PV"/>res existentes et dirigit ymmo 
+            <lb ed="#PV"/>etiam res quae non sunt obediunt 
+            <lb ed="#PV"/>Secundo modo potest ymaginari 
+            <lb ed="#PV"/>ut quantum in se est coniungantur 
+            <lb ed="#PV"/>suo principio effectivo huius<lb ed="#PV"/>odi 
+            appetitus 2m ymagi<lb ed="#PV"/>nationem 
+            <name>boetii</name> alias tactam Ad<lb ed="#PV"/>vertendum 
+            quod multiplex reperitur 
+            <lb ed="#PV"/>in rebus bonum Quaedam 
+            <lb ed="#PV"/>concurrit individuum aliud 
+            <lb ed="#PV"/>speciem aliud genus et aliud 
+            <lb ed="#PV"/>universum
+          </p>
+          <p xml:id="ppr-l36-qapuqg">
+            Quantum ad primum 
+            <lb ed="#PV"/>animalia ratione individui appetunt 
+            <lb ed="#PV"/>cibum qui est conservativus 
+            <lb ed="#PV"/>individui et est eis bonus et 
+            <lb ed="#PV"/><sic>commestio</sic> bona et hoc bono 
+            <lb ed="#PV"/>continente individuum Aliam 
+            <lb ed="#PV"/>appetunt etiam generationem propter 
+            <lb ed="#PV"/>bonum speciei quantum ad secundum 
+            <lb ed="#PV"/>nam generatio et coytus ordi<lb ed="#PV"/>nantur 
+            in speciem Tertium bonum 
+            <lb ed="#PV"/>generis est et istud est agentium 
+            <lb ed="#PV"/>aequivocorum sicut causarum superi<lb ed="#PV"/>orum 
+            respectu huius mundi in<lb ed="#PV"/>ferioris 
+            sic intelligentiae et corpora 
+            <lb ed="#PV"/>caelestia movent ista inferiora 
+            <lb ed="#PV"/>et dirigunt ad suas fines ratione 
+            <lb ed="#PV"/>boni generis quia non communicant 
+            <lb ed="#PV"/>secum in genere Aliud est bonum 
+            <lb ed="#PV"/>respectu totius universi et istud 
+            <lb ed="#PV"/>per quandam analogiam a deo 
+            <lb ed="#PV"/>et sit respectu totius mundi et 
+            <lb ed="#PV"/>sic bonum quanto communius tanto 
+            <lb ed="#PV"/>divinius 
+          </p>
+          <p xml:id="ppr-l36-naqpft">
+            Nunc advertendum 
+            <lb ed="#PV"/>nedum creaturae appetunt 
+            <lb ed="#PV"/>deum per obedientiam suae volun<lb ed="#PV"/>tatis 
+            sed etiam appetunt ipsum mutari
+            <pb ed="#PV" n="65-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>et sibi assimilari quantum possunt 
+            <lb ed="#PV"/>ideo actiones resolvunt in ultimum 
+            <lb ed="#PV"/>quantum possunt sibi assimilentur 
+            <lb ed="#PV"/>quia creatura rationalis ultra alia 
+            <lb ed="#PV"/>scilicet non intellectualia potest deo as<lb ed="#PV"/>similari 
+            eo quod ipsius est capax 
+            <lb ed="#PV"/>cognitive et dilective seu per 
+            <lb ed="#PV"/>amorem unde quasi in deum 
+            <lb ed="#PV"/>transformatur ideo singulariter 
+            <lb ed="#PV"/>creatura rationalis ipsum appetit 
+            <lb ed="#PV"/>omnibus gradibus appetendi 
+            <lb ed="#PV"/>repertis in aliis ita quod quot sunt 
+            <lb ed="#PV"/>species appetendi vel inclinationem 
+            <lb ed="#PV"/>in aliis ita in hominibus Con<lb ed="#PV"/>clusio 
+            responsiva Creatura 
+            <lb ed="#PV"/>rationalis non potest in aliquo bono 
+            <lb ed="#PV"/>finito quietari etc de potentia 
+            <lb ed="#PV"/>dei absoluta probabatur alias per 
+            <lb ed="#PV"/>aliquas rationes primo ex insuffi<lb ed="#PV"/>cientia 
+            creaturae quae nec fieri 
+            <lb ed="#PV"/>ad esse nec bene esse sufficit ergo 
+            <lb ed="#PV"/>nulli alteri creaturae potest sufficere 
+            <lb ed="#PV"/>2o ex habitudine causae finalis 
+            <lb ed="#PV"/>ad suum effectum quia sicut 
+            <lb ed="#PV"/>causa effectiva se habet ad effec<lb ed="#PV"/>tum 
+            producendum ita causa finalis 
+            <lb ed="#PV"/>ad terminandum quietative 
+            <lb ed="#PV"/>aliquem appetitum et sicut causa 
+            <lb ed="#PV"/>creata non potest esse prima causa 
+            <lb ed="#PV"/>respectu effectus producendi ita <unclear>nisi</unclear> 
+            <lb ed="#PV"/>causa finalis respectu alicuius 
+            <lb ed="#PV"/>effectus finibilis quia consimilis 
+            <lb ed="#PV"/>est habitudo hic et ibi
+          </p>
+          <!-- division difficult here, doesn't quite match division in later version -->
+          <p xml:id="ppr-l36-uveufc">
+            Et ex ne<lb ed="#PV"/>cessaria 
+            habitudine nisi ad suum 
+            <lb ed="#PV"/>finem solus deus est causa finalis 
+            <lb ed="#PV"/>omnium et singulariter rationalis 
+            <lb ed="#PV"/>creaturae
+          </p>
+        </div>
+        <div xml:id="ppr-l36-Dd1e253">
+          <head xml:id="ppr-l36-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l36-Dd1e258">
+            <head xml:id="ppr-l36-Hpcrsfd">Primum corollarium: res essentialiter perfectior est a suo fine dependentior</head>
+            <p xml:id="ppr-l36-eqcpcd">
+              primum correlarium res 
+              <lb ed="#PV"/>essentialiter perfectior est a suo fine 
+              <lb ed="#PV"/>dependentior Nam secundum gradus 
+              <lb ed="#PV"/>specificos sunt etiam gradus in<lb ed="#PV"/>clinationem 
+              diversarum in specie 
+              <lb ed="#PV"/>superiori ita quod tot graduum re<lb ed="#PV"/>clinationum 
+              est contentiva 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>quot graduum specificorum 
+              <lb ed="#PV"/>huius species est contentiva et sic 
+              <lb ed="#PV"/>est dependentior
+            </p>
+          </div>
+          <div xml:id="ppr-l36-Dd1e281">
+            <head xml:id="ppr-l36-Hsclcsa">Secundum corollarium: latitudo honestatis naturalis et essentialis perfectionis correspondent sibi adaequate</head>
+            <p xml:id="ppr-l36-sclsfd">
+              secundum corollarium 
+              <lb ed="#PV"/>quod latitudo naturalis honestatis 
+              <lb ed="#PV"/>et essentialis perfectionis correspon<lb ed="#PV"/>det 
+              <lb ed="#PV"/>sibi adaequate unde hones<lb ed="#PV"/>tas 
+              naturalis est habitudo rei ad suum 
+              <lb ed="#PV"/>finem et tendentia iuxta naturae 
+              <lb ed="#PV"/>capacitatem etiam de naturali iustitia 
+              <lb ed="#PV"/>legitur platonem scriipsisse plures 
+              <lb ed="#PV"/>libros in quibus naturalem iusti<lb ed="#PV"/>tiam 
+              vocat quando sunt omnia 
+              <lb ed="#PV"/>optime ordinata scilicet operationes 
+              <lb ed="#PV"/>naturales et quanto ratio est perfectior 
+              <lb ed="#PV"/>plures habent operationes naturales 
+              <lb ed="#PV"/>rectae ordinatas
+            </p>
+          </div>
+          <div xml:id="ppr-l36-Dd1e310">
+            <head xml:id="ppr-l36-tcqued">Tertium corollarium: quod res perfectior universaliter est dependentior</head>
+            <p xml:id="ppr-l36-stqtmd">
+              Sequitur 
+              <lb ed="#PV"/>ulterius quod res perfectior etc est 
+              <lb ed="#PV"/>generaliter dependentior Nam 
+              <lb ed="#PV"/>ex habitudine effectus ad cau<lb ed="#PV"/>sam 
+              efficientem et conservantem 
+              <lb ed="#PV"/>quanto res est perfectior tanto 
+              <lb ed="#PV"/>est dependentior Nam quanto 
+              <lb ed="#PV"/>ad eius productionem requirit 
+              <lb ed="#PV"/>maiorem influxum effectuum 
+              <lb ed="#PV"/>tanto ad eius conservationem 
+              <lb ed="#PV"/>requirit maiorem influxum 
+              <lb ed="#PV"/>conservativum
+            </p>
+          </div>
+          <div xml:id="ppr-l36-Dd1e329">
+            <head xml:id="ppr-l36-Hqcqrde">Quartum corollarium: quod ad subtractionem influxus causae finalis res desineret esse</head>
+            <p xml:id="ppr-l36-qsqasc">
+              Sequitur quod 
+              <lb ed="#PV"/>ad subtractionem influxus cau<lb ed="#PV"/>sae 
+              finalis effectus desinit esse 
+              <lb ed="#PV"/>vel res desineret esse probatur quia 
+              <lb ed="#PV"/>tanta est dependentia effectus 
+              <lb ed="#PV"/>ad causam finalem sicut ad 
+              <lb ed="#PV"/>causam agentem sed ad sub<lb ed="#PV"/>tractionem 
+              causae <del rend="expunctuation">finalis</del> agentis 
+              <lb ed="#PV"/>effectus non produceretur igitur 
+              <lb ed="#PV"/>ad subtractionem causae finalis 
+              <lb ed="#PV"/>effectus desineret esse unde 
+              <lb ed="#PV"/>si subtraheretur influxus causae 
+              <lb ed="#PV"/>finalis ipsa res esset pessima 
+              <lb ed="#PV"/>quia esset sine ordine et ideo
+              <pb ed="#PV" n="66-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>repugnat deo et naturae quod sit 
+              <lb ed="#PV"/>talis res
+            </p>
+          </div>
+          <div xml:id="ppr-l36-Dd1e355">
+            <head xml:id="ppr-l36-Hqcqnsd">Quintum corollarium: quod creatura non tendit in non-esse positive et tamen sibi derelicta in non-esse subito deflueret</head>
+            <p xml:id="ppr-l36-suqaee">
+              Sequitur ulterius quod crea<lb ed="#PV"/>tura 
+              non tendit in non esse 
+              <lb ed="#PV"/>positive tamen sibi derelicta 
+              <lb ed="#PV"/>in non esse subito deflueret 
+              <lb ed="#PV"/>patet quia tendit et inclina<lb ed="#PV"/>tur 
+              in summum esse scilicet deum 
+              <lb ed="#PV"/>ymmo necessaria quam diu 
+              <lb ed="#PV"/>est ergo non tendit in non esse 
+              <lb ed="#PV"/>sed magis in contrarium Causa fi<lb ed="#PV"/>nalis 
+              requiritur partim ad ser<lb ed="#PV"/>vandum 
+              etc causa effecti<lb ed="#PV"/>va 
+            </p>
+          </div>
+          
+          <div xml:id="ppr-l36-Dd1e377">
+            <head xml:id="ppr-l36-Hscqian">Sextum corollarium: quod illud <unclear>con[??]</unclear> dictum creaturae inclinatur ad non-esse</head>
+            
+            <p xml:id="ppr-l36-ehspsc">
+              Sequitur quod dictum 
+              <lb ed="#PV"/>commune scilicet creaturae inclinantur 
+              <lb ed="#PV"/>ad non esse debet intelligi 
+              <lb ed="#PV"/>passive ad istum intellectum 
+              <lb ed="#PV"/>quod creatura est talis naturae 
+              <lb ed="#PV"/>inperfecte quod sic derelicta <unclear>statim</unclear>
+              <lb ed="#PV"/>tenderet in non esse et hoc non est 
+              <lb ed="#PV"/>positive sed ex indigentia
+            </p>
+          </div>
+          <div xml:id="ppr-l36-Dd1e395">
+            <head xml:id="ppr-l36-Hscqiqc">Septimum corollarium: quod spiritualis creatura est indigentior quam corporalis</head>          
+            
+            <p xml:id="ppr-l36-seqiqc">
+              Sequitur 
+              <lb ed="#PV"/>quod dictum commune quanto creatura 
+              <lb ed="#PV"/>est perfectior tanto est indigen<lb ed="#PV"/>tior 
+              et habet inperfectionem si annexam 
+              <lb ed="#PV"/>Nam quanto est perfectior 
+              <lb ed="#PV"/>tanto magis habet dependentia 
+              <lb ed="#PV"/>et indigentia pro sui conser<lb ed="#PV"/>vatione
+            </p>
+          </div>
+          <div xml:id="ppr-l36-Dd1e408">
+            <head xml:id="ppr-l36-Hocqmec">Octavum corollarium: quod suprema intelligentia, si daretur, magis passive tenderet in nihilum quam mixtum ex contrariis</head>
+            <p xml:id="ppr-l36-seqadr">
+              Sequitur quod res spiritua<lb ed="#PV"/>lior 
+              est indigentior corporali
+            <!--- break here -->
+              <lb ed="#PV"/>Sequitur quod suprema intelligentia 
+              <lb ed="#PV"/>si esset creabilis quantum est de 
+              <lb ed="#PV"/>tendentia passiva magis 
+              <lb ed="#PV"/>tenderet in nichilum quam iux<lb ed="#PV"/>tum 
+              ex contrariis patet error dicen<lb ed="#PV"/>tium 
+              quod intelligentiae vel creaturae 
+              <lb ed="#PV"/>separatae a materia et incorporales sint 
+              <lb ed="#PV"/>necesse esse et provenit ille error ex 
+              <lb ed="#PV"/>malo intellectu habitudinis 
+              <lb ed="#PV"/>creaturae ad deum ymmo quantum 
+              <lb ed="#PV"/>est de se magis sunt aptae passi<lb ed="#PV"/>vae 
+              ad non esse quam mixtum 
+              <lb ed="#PV"/>ex contrariis
+              <!-- possible break -->
+              Sequitur quod res per<cb ed="#PV" n="b"/><lb ed="#PV"/>fectior 
+              est et nobilior magis 
+              <lb ed="#PV"/>subicitur deo et magis tenetur 
+              <lb ed="#PV"/>deo quam minus perfecta Nam 
+              <lb ed="#PV"/>magis indiget deo ergo magis 
+              <lb ed="#PV"/>debet humiliari <unclear>Si</unclear> consequenti su<lb ed="#PV"/>prema 
+              intelligentia creabilis 
+              <lb ed="#PV"/>si daretur tenetur esse summe 
+              <lb ed="#PV"/>humilis quia magis a deo reci<lb ed="#PV"/>peret 
+            </p>
+            <p xml:id="ppr-l36-eqpdeh">
+              et magis indigeret patet 
+              <lb ed="#PV"/>quod per nostra merita non debemus 
+              <lb ed="#PV"/>gloriari nec reputaris nos 
+              <lb ed="#PV"/>dignos apud deum quia 2m 
+              <lb ed="#PV"/><name>augustinum</name> super psalterum sunt 
+              <lb ed="#PV"/>dei dona et quanto plus ele<lb ed="#PV"/>vat 
+              tanto creatura est magis 
+              <lb ed="#PV"/>indigens quia sicut respectu 
+              <lb ed="#PV"/>naturae ponitur indigentia ita respectu 
+              <lb ed="#PV"/>operum virtuosorum 
+            </p>
+            <p xml:id="ppr-l36-eqpctv">
+              et sic est dementia 
+              <lb ed="#PV"/>et extrema ignorantia de operibus 
+              <lb ed="#PV"/>virtuosis vel elevatione intellec<lb ed="#PV"/>tus 
+              superbiae sed cum maiorem timo<lb ed="#PV"/>re 
+              deberet vivere
+            </p>
+          </div>
+          
+          <div xml:id="ppr-l36-Dd1e474">
+            <head xml:id="ppr-l36-Hncqesb">Nonum corollarium: quod demonstrationes necessario inclinatur in Deum tanquam in finem ultimum et summum bonum</head>
+            
+            <p xml:id="ppr-l36-sqdosf">
+              Sequitur 
+              <lb ed="#PV"/>quod daemones necessario inclinantur 
+              <lb ed="#PV"/>in deum tamquam in finem 
+              <lb ed="#PV"/>ultimum et supremum bonum patet quia 
+              <lb ed="#PV"/>non stat creaturam esse nisi in 
+              <lb ed="#PV"/>habitudine ad suam causam 
+              <lb ed="#PV"/>finalem modo non potest esse corrup<lb ed="#PV"/>ta 
+              talis habitudo vel inclina<lb ed="#PV"/>tio 
+              manente re Consequenter 
+              <lb ed="#PV"/>si daretur creatura male ha<lb ed="#PV"/>bituatus 
+              experiri posset inclina<lb ed="#PV"/>tionem 
+              in deum patet ex dictis 
+              <lb ed="#PV"/>quod est insolubilis habitudo rei 
+              <lb ed="#PV"/>ad deum quae non potest auferri 
+              <lb ed="#PV"/>nisi per desiderationem rei cum 
+              <lb ed="#PV"/>isto stat actus liberi arbitrii 
+              <lb ed="#PV"/>patet quia stat quod aliquis odiat 
+              <lb ed="#PV"/>deum et acquirat habitum 
+              <lb ed="#PV"/>odiendi qui erit contra naturalem 
+              <lb ed="#PV"/>inclinationem
+            </p>
+            <p xml:id="ppr-l36-seqqii">
+              Item stat quod creatura
+              <pb ed="#PV" n="66-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>quantum est ex parte actus voluntatis 
+              <lb ed="#PV"/>aliquid acceptet tamquam ultimum 
+              <lb ed="#PV"/>finem licet decepta quia stat 
+              <lb ed="#PV"/>quod aliqua creatura ignoret 
+              <lb ed="#PV"/>deum esse vel non credat et statu<lb ed="#PV"/>at 
+              aliquod temporale tamquam 
+              <lb ed="#PV"/>ultimum finem Et stat quod voluntas 
+              <lb ed="#PV"/>eius non quietetur quia naturalis 
+              <lb ed="#PV"/>inclinatio non quietatur sed non 
+              <lb ed="#PV"/>percipit illam motionem naturalis incli<lb ed="#PV"/>nationis 
+              propter hoc quod ad<lb ed="#PV"/>eptus 
+              est quod appetebat et 
+              <lb ed="#PV"/>sic staret quod aliquis crederet 
+              <lb ed="#PV"/>quod esset valde felix et esset valde 
+              <lb ed="#PV"/><unclear>nu?s</unclear> et sic patet quod creatura rationalis 
+              <lb ed="#PV"/>non potest quietari in aliquo bono 
+              <lb ed="#PV"/>finito licet crederet oppositum propter 
+              <lb ed="#PV"/>habitum deputatum fortiter <unclear>moventem</unclear>
+            </p>
+          </div>
+        </div>
+        <div>
+          <head>Conclusiones</head>
+          <p>
+            <lb ed="#PV"/>Circa distinctionem 34am haec 
+            <lb ed="#PV"/>propositio concedenda est tres personae sunt 
+            <lb ed="#PV"/>unus deus et una essentia
+          </p>
+          <p>
+            2a 
+            <lb ed="#PV"/>conclusio usus sanctorum est con<lb ed="#PV"/>cedere 
+            quod una essentia est rerum per<lb ed="#PV"/>sonarum 
+            et tres personae sunt unus 
+            <lb ed="#PV"/>essentiae Sed non conceditur quod unus 
+            <lb ed="#PV"/>dei etc quia si sic videretur ali<lb ed="#PV"/>qualis 
+            distinctio inter personas 
+            <lb ed="#PV"/>et deum et sic videretur quod ha<lb ed="#PV"/>beret 
+            unus deus tres personas 
+            <lb ed="#PV"/>sibi subiectas vel forte creasset 
+            <lb ed="#PV"/>vel fecisset
+          </p>
+          <p>
+            Tertia sicut divina 
+            <lb ed="#PV"/>essentia est tres personae et quaelibet 
+            <lb ed="#PV"/>earum ita divina sapientia et bonitas
+          </p>
+          <p>
+            <lb ed="#PV"/>4a potentia attribuitur patri 
+            <lb ed="#PV"/>sapientia filio bonitas spiritu 
+            <lb ed="#PV"/>sancto Nam in creaturis patres 
+            <lb ed="#PV"/>sunt communiter debiles ideo ad hoc 
+            <lb ed="#PV"/>removendum a patre in divinis 
+            <lb ed="#PV"/>attribuitur sibi potentia et iu<lb ed="#PV"/>vees 
+            communiter non sunt sapien<lb ed="#PV"/>tes 
+            ideo attribuitur etc Spi<lb ed="#PV"/>ritus 
+            videtur innuere <seg type="corrections">super<subst><del>fluum</del><add>biam</add></subst></seg> 
+            ideo sibi attribuitur 
+            <lb ed="#PV"/>bonitas et licet cuilibet sint 
+            <lb ed="#PV"/>propria tamen iste modus etc
+            <cb ed="#PV" n="b"/>Iste terminus <unclear>omousion</unclear> attri<lb ed="#PV"/>buitur 
+            personis id est consubstantia<lb ed="#PV"/>les 
+            id est minus <unclear>substantiae</unclear> contra <name>arian</name> di<lb ed="#PV"/>centem 
+            oppositum dixit eum 
+            <lb ed="#PV"/>quod substantialiter essent distinctae et in 
+            <lb ed="#PV"/>consilio niceno ista <unclear>veri?s</unclear> 
+            fuit determinata quod pater et filius et 
+            <lb ed="#PV"/>spiritus sanctus essent omosion <!-- homoousion-->
+            <lb ed="#PV"/>postea per unum imperatorem 
+            <lb ed="#PV"/>et paraanos fuerit indebite 
+            <lb ed="#PV"/>factum consilium in <name>arinis</name> <unclear>unde</unclear> 
+            <lb ed="#PV"/>oppositum fuit inductum etiam
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
