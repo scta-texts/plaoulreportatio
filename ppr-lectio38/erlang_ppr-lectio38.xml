@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 38, de Fruitio [Elrangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 38, de Notitia [Erlangen Transcription]</title>
+          <date when="2018-04-19">April 19, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-04-18" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="53-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio38">
+        <head xml:id="ppr-l38-ldfldf">Lectio 38, de Fruitione [Erlangen Transcription]</head>
+        <div xml:id="ppr-l38-Dd1e82">
+          <head xml:id="ppr-l38-Haaidfq">Additiones ad illud quod creatura rationalis non potest nisi in Deo finaliter quietari</head>
+          <p xml:id="ppr-l38-vpqapa">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Visum est quod creatura rationalis non potest nisi in deo finaliter quietari et hoc ex habitudine crea<lb ed="#E"/>turae 
+            ad deum quia non reperitur in creatura ratio finalis Pono contra <name>Eliphat</name> istam propositionem
+          </p>
+          <div xml:id="ppr-l38-Dd1e98">
+            <head xml:id="ppr-l38-Hppqrmb">Prima propositio: quod ratio quietationis in Deo non est ex hoc quod intellectus non reperit maius bonum</head>
+            <p xml:id="ppr-l38-pqrrmb">
+              Ratio 
+              <lb ed="#E"/>quietationis in deo non est ex hoc quia intellectus non reperit maius bonum
+            </p>
+            <!--- more or less collapsed in the above -->
+            <!--<p xml:id="ppr-l38-ehprmb">
+              </p>--> 
+            <p xml:id="ppr-l38-scsrit">
+              Nam valde bene 
+              <lb ed="#E"/>staret quod per errorem intellectus iudicaret <c>a</c> esse summum bonum et ultimate quietativum et quod ap<lb ed="#E"/>petitus 
+              rationalis nichil ultra peteret et tamen non esset illa creatura quieta quia adhuc esset 
+              <lb ed="#E"/>motio naturalis <name>Augustinus</name> in primo confessionum <quote xml:id="ppr-l38-Qd1e167" ana="#Augustine_Confessions_1_1_1_a">domine fecisti nos ad te et inquietum est cor nostrum 
+              <lb ed="#E"/>donec requiescat in te</quote>
+            </p> 
+            <p xml:id="ppr-l38-ulicnq">
+              unde quamvis non esset ibi inquietudo ex actu voluntatis tamen ex mo<lb ed="#E"/>tionibus 
+              naturalibus et ideo talis creatura esset <unclear>omnino <!-- animae ?? --></unclear> inquieta licet iudicaret se esse quietam et 
+              <lb ed="#E"/>haberet motus contrarios scilicet motum voluntatis et motum naturalem
+            </p>
+            <p xml:id="ppr-l38-usiiei">
+              Si <name ref="#Sortes">Sortes</name> velit non habere <c>a</c> et 
+              <lb ed="#E"/>habere <c>a</c> consurgit quod <c>a</c> est obiectum tristabile ideo talis creatura possit experiri aliquod male 
+              <lb ed="#E"/>esse vel experiretur licet non posset resolvere in causam et sic posset experiri quia esset inquietudo 
+              <lb ed="#E"/>resultans ex motibus contrariis et sic resultaret quoddam male esse quod creatura quasi posset 
+              <lb ed="#E"/>experiri licet nesciret resolvere in causam Salvatur ex hoc quod licet in bonis temporalibus 
+              <lb ed="#E"/>esset tanta affluentia quod contentaretur tamen experiretur quoddam tedium propter inclinationes opposi<lb ed="#E"/>tas
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e194">
+            <head xml:id="ppr-l38-Hsecdum">Secundum</head>
+            <p xml:id="ppr-l38-sdqcuv">
+              Dico 2o quod ex naturali habitudine dei ad creaturam licet non sub ratione absoluta competat 
+              <lb ed="#E"/>ipsi deo quod sit obiectum quietativum ultimate et secundum istam habitudinem dicitur esse obiectum felicitatem 
+              <lb ed="#E"/>scilicet sub ista ratione qua creatura est a deo causatur et deus dat sibi esse et terminat finaliter 
+              <lb ed="#E"/>et sufficienter appetitum eius
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e219">
+            <head xml:id="ppr-l38-Hterium">Tertium</head>
+            <p xml:id="ppr-l38-tdqset">
+              Tertio dico quod ex propria naturali conditione deus est huiusmodi Consequenter quod 
+              <lb ed="#E"/>natura sua est Pono istam propositionem 
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e233">
+            <head xml:id="ppr-l38-Hquatum">Quartum</head>
+            <p xml:id="ppr-l38-iqdfeq">
+              quod si daretur creatura omnino independens per impossibile nihilominus 
+              <lb ed="#E"/>cuius in deo quietaretur patet quia ex natura sua talis est Sequeretur si essent duo dii unus 
+              <lb ed="#E"/>unus frueretur alio et quod quilibet diligeret alium sicut se ipsum quia quilibet haberet rationem 
+              <lb ed="#E"/>summe quietativam Sequitur quod multiplex est ratio in deo propter quam est obiectum felicitativum scilicet ex habitudine 
+              <lb ed="#E"/>dicatur ex natura propria
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l38-Dd1e256">
+          <head xml:id="ppr-l38-Hadreof">Aegidius de Roma et tres causas quod Deus est obiectum felicitatis</head>
+          <p xml:id="ppr-l38-echatc">
+            Circa hoc <name ref="#GilesOfRome">aegidius de roma</name> in <title ref="#QuodlibetsGilesOfRome">quodlibetis</title> suis ponit plures causas
+          </p> 
+          <div xml:id="ppr-l38-Dd1e271">
+            <head xml:id="ppr-l38-Hpcpcpc">Prima causa</head>
+            <p xml:id="ppr-l38-paccid">
+              <lb ed="#E"/>Prima causa quia est causativus et conservativus omnis boni et quod talis naturae est quia nullum potest esse 
+              <lb ed="#E"/>bonum nisi ab eo Et quod quodlibet bonum ab ipso est bonum et ab ipso est bonum effective et conservative 
+              <lb ed="#E"/>Ipse dicit quod ymaginandum est quod deus se habet ad creaturam sicut figura sigilli non ad 
+              <lb ed="#E"/>ceram sed ad aquam quae figura requirit continuam praesentiam sigilli Ita ymaginandum quod deus est magis 
+              <lb ed="#E"/>intimus creaturae quam creatura sibi ipsi
+            </p>
+            <p xml:id="ppr-l38-udmepe">
+              Ideo consequenter creatura habet magis esse in deo 
+              <lb ed="#E"/>quam in se ipso <name>wilhelmus parisiensis</name> ponit quod deus est realiter esse creaturae Consequenter dicendum 
+              <lb ed="#E"/>est dicit ipse ut videtur dato quod de per se creatura magis diligeret se quam deum nichilominus 
+              <lb ed="#E"/>magis diceret diligere deum quia visa ista habitudine magis debet etc quia debet magis diligere 
+              <lb ed="#E"/>se non esse quam deum Causa est quia ad esse dei potest sequi esse creaturae et non ad esse 
+              <lb ed="#E"/>dei sequitur destructio creaturae et creatura non potest esse et licet creatura non esset vel esset <unclear>corrupta</unclear> 
+              <lb ed="#E"/>tamen adhuc remaneret in arte factiva esset destructa
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e340">
+            <head xml:id="ppr-l38-Hscscsc">Secunda causa</head>
+            <p xml:id="ppr-l38-svqtib">
+              Secunda via vel secunda causa quia 
+              <lb ed="#E"/>deus est totale bonum et creatura non est nisi bonum partiale bonum modo totum et pars habet talem habitudinem 
+              <lb ed="#E"/>quod pars exponit se pro toto ut maius pro toto et quod magis diligit totum quam se modo deus 
+              <lb ed="#E"/>est fons totius bonitatis ymmo totalitas et quaelibet creatura non est nisi quaedam participatio illius 
+              <lb ed="#E"/>bonitatis 
+            </p> 
+            <p xml:id="ppr-l38-eivssb">
+              Ita creatura non diligitur nisi tamquam quaedam umbra bonitatis et ergo illa summa 
+              <lb ed="#E"/>bonitas plus diligitur et creatura est tenuissima perceptio bonitatis
+            </p>
+            <p xml:id="ppr-l38-ieatqs">
+              Item ex habitudine partis 
+              <lb ed="#E"/>ad totum aliqua relinquit locum proprium ne sit vacuum quia vacuum esset malum toti 
+              <lb ed="#E"/>universo ita quod pars semper magis diligit totum quam se 
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e383">
+            <head xml:id="ppr-l38-Htctctc">Tertia causa</head>
+            <p xml:id="ppr-l38-tcqqci">
+              Tertio quia est essentialiter talis naturae 
+              <lb ed="#E"/>quod ipse est pure honestas pura pulchritudo et purum <unclear>ablectum?</unclear> et omne bonum 
+              <pb ed="#E" n="54-r"/>
+              <lb ed="#E"/>quod potest explicari reperitur in eo <sic>inmense</sic> et ideo in ipso est summa ratio diligibilitatis
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l38-Dd1e401">
+          <head xml:id="ppr-l38-Hdsqpsd">Difficultas sub qua ratione est proprie sic diligibilis</head>
+          <p xml:id="ppr-l38-seesdf">
+            <lb ed="#E"/>Tunc est difficultas sub qua ratione est proprie sic diligibilis et sub qua ratione beatus sic diligit 
+            <lb ed="#E"/>fruitum
+          </p> 
+          <p xml:id="ppr-l38-epderd">
+            <name ref="#Ripa">De ripa</name> dicit quod deus sub unica ratione vel duabus vel solum finitis ostensus 
+            <lb ed="#E"/>non est obiectum fruibile unde ipse ymaginatur in deo distinctionem formalitatum secundum distinctionem 
+            <lb ed="#E"/>praedicatorum essentialium Ita quod si deus videretur in esse entis bene videretur ut infinitus et tamen 
+            <lb ed="#E"/>ut sic non esset obiectum fruibile nec proprie usus sed esset actus medius Dicit de divina essentia 
+            <lb ed="#E"/>quod ipsa apprehendens se secundum unicam rationem formalem vel solum secundum finitas non 
+            <lb ed="#E"/>est ratio formalis fruendi et consequenter dicere habet quod ratio formalis fruendi resultat ex 
+            <lb ed="#E"/>omnibus rationibus in deo existentibus
+          </p>
+          <p xml:id="ppr-l38-scqiir">
+            Sed arguitur contra Quia non oportet concedere quod quilibet 
+            <lb ed="#E"/>beatus deum videat secundum omnem rationem etc quia stat  quod <unclear>sciret</unclear> quodlibet praedicatum dicens perfectionem 
+            simpliciter evidenter dici de deo et sic unus non plus cognosceret quam alter et sic unus 
+            <lb ed="#E"/>quasi non esset magis beatus quam alter quia formalis beatitudo principalis in illis consistit 
+          </p> 
+          <p xml:id="ppr-l38-eichob">
+            <lb ed="#E"/>dicitur ergo aliter<!-- possible correction here --> quod quicumque videt deum intuitive videt eum sub ratione fruibilis et summi boni 
+            <lb ed="#E"/>Unde dato quod ponantur rationes formalitatum ex visione unius potest statim elici quod 
+            <lb ed="#E"/>omnis perfectio in eo et quod est summum bonum et potest elici quod non videtur secundum omnem rationem 
+            sed quod sunt infinitae aliae perfectiones secundum quas non videtur ab illo
+          </p>
+          <p xml:id="ppr-l38-strpsc">
+            Secundo tales rationes formales 
+            <lb ed="#E"/>non oportet ponere Ideo ratio summi boni stat in hoc quod clare videatur quantumcumque pauca vi<lb ed="#E"/>dantur 
+            in eo ymmo licet nulla creatura videretur in eo ymmo quantumcumque remissive vel 
+            <lb ed="#E"/>secundum quantumcumque pauca praedicata perfectionalia sibi convenientia
+          </p> 
+          <p xml:id="ppr-l38-scdqit">
+            Contra <name ref="#Durandus">durandum</name> ponitur 
+            <lb ed="#E"/>quod habere deum vel habitio dei non est obiectum quietativum Nam istud scilicet habitio dei refertur 
+            <lb ed="#E"/>ad creaturam quia habitio dei est eius visio quia dicere quod visio dei etc est dicere quod utrum 
+            <lb ed="#E"/>deo et fruimur visione et est realiter statuere creaturam pro fine ultimato Et sic non dicitur diligitur 
+            <lb ed="#E"/>ipse deus nec propter visionem
+          </p>
+        </div>
+        <div xml:id="ppr-l38-Dd1e511">
+          <head xml:id="ppr-l38-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l38-Dd1e516">
+            <head xml:id="ppr-l38-Hpcqspd">Primum corollarium: quod in Deo sit plenitudo divini</head>
+            <p xml:id="ppr-l38-sepqss">
+              Ex superioribus dictis ex habitudine dei ad creaturas sequitur 
+              <lb ed="#E"/>quod in eo esset plenitudo deum super creaturas sic quod non potest se ipsum abdicare nec per corruptionem 
+              <lb ed="#E"/>creaturae quia creatura non potest esse quin deus ducetur sibi
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e534">
+            <head xml:id="ppr-l38-Hscqapv">Secundum corollarium: quod Deus iuste potest quos vult ad praedestinationem vocare</head>
+            <p xml:id="ppr-l38-ehsmee">
+              Sequitur quod iuste potest quos vult 
+              <lb ed="#E"/>ad aeternum regnum acceptare vel approbare et quos vult refutare vel reprobare quia habet 
+              <lb ed="#E"/>plenitudinem <sic>dominii</sic> Et hoc tangit <name ref="#Paul">apostolus</name> <title>Romanos</title> 9 in materia de reprobatione et praedesti<lb ed="#E"/>natione 
+              dicit quod figulus qui <unclear>duantur</unclear> vasis suis ad nutum eis potest uti unum potest ponere 
+              <lb ed="#E"/>ad honorem et <del rend="strikethrough">ad</del> contumeliam
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e562">
+            <head xml:id="ppr-l38-Htcqeec">Tertium corollarium: quod dominari non est ita essentiali Deo sicut subici est essentiale creaturae</head>
+            <p xml:id="ppr-l38-suqeaa">
+              Sequitur quod habitudo divini in deo in divinum dei non 
+              <lb ed="#E"/>est ita essentiale sicut subici essentiale est creaturae quia nullo modo stat creaturam esse quin habeat 
+              <lb ed="#E"/>talem habitudinem et sic non est de deo unde licet non potest abdicare dominum ipsis remanentibus 
+              <lb ed="#E"/>potest tamen per corruptionem
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e586">
+            <head xml:id="ppr-l38-Hqcqiqe">Quartum corollarium: quod creatura est magis Deo subiecta quam sit in se ipsa quaedam essentia</head>
+            <p xml:id="ppr-l38-suqisf">
+              Sequitur quod creatura est magis deo subiecta quam sit in se ipsa quaedam essentia 
+              <lb ed="#E"/>Quia secundum totam suam essentiam est deo subiecta et secundum infinitas habitudines videt ut pa<lb ed="#E"/>tiatur 
+              ut <seg type="correction">mov<add place="above-line">e</add>atur</seg> et sic de aliis et sic quoddam modo infinite est subiecta deo licet sit in se finita
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e606">
+            <head xml:id="ppr-l38-Hqcqehs">Quintum corollarium: quod nullius creaturae ad aliam est essentialis habitudo subiectionis</head>
+            <p xml:id="ppr-l38-suqmsn">
+              Sequitur quod 
+              <lb ed="#E"/>nullius creaturae mere accidentaliter competit divinum
+            </p>
+          </div>
+          <div xml:id="ppr-l38-Dd1e870">
+            <head xml:id="ppr-l38-Hd1e872">Conlusiones</head>
+            <p xml:id="ppr-l38-d1e875">
+              <pc type="#pilcrow"/>Circa distinctionem 36tam Prima 
+              <lb ed="#E"/>conclusio licet omnia dicuntur deo praesentia quia sunt in cuius cognitione etc et sic nichilominus tamen in eius essentia 
+              <lb ed="#E"/>secundum communem opinionem exponitur hoc ultimum sic quod deus ab aeterno est ars factiva omnium pro<lb ed="#E"/>ducibilium 
+              et ita relucent in eo
+            </p>
+            <p xml:id="ppr-l38-d1e901">
+              Secunda conclusio licet deus cognoscat omnia tam bona quam mala 
+              <lb ed="#E"/>bona tamen per beneplacitum et approbationem et mala non sed tamquam apprehensa 
+            </p>
+            <p xml:id="ppr-l38-d1e914">
+              3a 
+              <lb ed="#E"/>omnia dicuntur esse per ipsum deum ex ipso et in ipso quia facit res et conservat eas
+            </p>
+            <p xml:id="ppr-l38-d1e923">
+              <lb ed="#E"/>Advertendum quod peccata secundum quod dicuntur peccata vel dicunt positive unde nichil dicunt
+              <pb ed="#E" n="54-v"/>
+              <lb ed="#E"/>nisi non conformitatem ad legem
+            </p>
+            <p xml:id="ppr-l38-d1e935">
+              4ta ex ipso intelligitur pater per ipsum filius etc nihilominus 
+              <lb ed="#E"/>cuiuslibet conpetit aeque primo respectu creaturarum
+            </p>
+            <p xml:id="ppr-l38-d1e947">
+              Quinta non omne quod est ex deo est de 
+              ipso unde ly <mentioned>de</mentioned> denotat habitudinem partis et ly ex habitudine causae efficientis
+            </p>
+            <p xml:id="ppr-l38-d1e972">
+              Sexta in dei 
+              <lb ed="#E"/>cognitione vel praescientia sunt omnia bona et omnia mala bona sunt <unclear>incognita</unclear> bene pla<lb ed="#E"/>cita
+              et approbata unde quando dicitur deus malum non novit id est non approbat ut dicit <name>magister</name> in ista distinctione
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

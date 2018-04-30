@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 39, de Fruitio [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 39, de Notitia [Palatine Transcription]</title>
+          <date when="2018-04-27">April 27, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-04-27" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="71-r"/><cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio39">
+        <head xml:id="ppr-l39-Hldfldf">Lectio 39, de Fruitione</head>
+        <div xml:id="ppr-l39-Dd1e90">
+          <head xml:id="ppr-l39-Hqsirdd">Quae sit intrinseca ratio diligibilitatis Dei?</head>
+          <p xml:id="ppr-l39-poecad">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>Postquam in praecedentibus osten<lb ed="#PV"/>sum 
+            est quae sit intrinseca 
+            <lb ed="#PV"/>ratio diligibilitatis dei nunc 
+            ostendendum est quare per effec<lb ed="#PV"/>tum 
+            et ex radicibus praedictis 
+            scilicet ex habitudine creaturae ad 
+            <lb ed="#PV"/>deum etc.
+          </p>
+          <div xml:id="ppr-l39-Dd1e107">
+            <head xml:id="ppr-l39-Hqcaesp">Quod creaturae ad Deum et viceversa est summa propinquitas</head>
+            <p xml:id="ppr-l39-echetd">
+              prima suppositio  quae sequitur 
+              <lb ed="#PV"/>ex praedictis quod creaturae ad 
+              <lb ed="#PV"/>deum et viceversa est summa 
+              <lb ed="#PV"/>propinquitas ex qua debet consurgere 
+              <lb ed="#PV"/>summa ratio diligibilitatis resol<lb ed="#PV"/>vendo 
+              materiam si pater carnalis 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>quia est causa filii aliquo modo 
+              <lb ed="#PV"/>ex quo censeatur propinquius 
+              <lb ed="#PV"/>filio scilicet quod dat filio esse in infi<lb ed="#PV"/>nitum 
+              magis debet deus dici propin<lb ed="#PV"/>quus 
+              creaturae ratione productionis 
+              <lb ed="#PV"/>et ratione conservationis
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e126">
+            <head xml:id="ppr-l39-Hqiiqpc">Quod in infinitum in Deo reperitur maior causalitas paterna et materna superna amicitae beneficientiae, et purae honestatis, delectabilis, et utilis quam in quocumque Patre carnali</head>
+            <p xml:id="ppr-l39-eqsimo">
+              Sequitur quod in 
+              <lb ed="#PV"/>infinitum plus reperitur habitu<lb ed="#PV"/>do 
+              licite amicitia amoris 
+              <lb ed="#PV"/>honesti delectabilis quam in creatura 
+              <lb ed="#PV"/>quia creatura valde modicum 
+              <lb ed="#PV"/>facit ad hoc ymmo effectus 
+              <lb ed="#PV"/>vel creatura potuit produci 
+              <lb ed="#PV"/>a solo deo Ita quod in deo est 
+              <lb ed="#PV"/>plena causalitas et sic omnis 
+              <lb ed="#PV"/>habitudo <unclear>m?na</unclear> reperitur in 
+              <lb ed="#PV"/>deo in infinitum perfectiori 
+              <lb ed="#PV"/>modo quam in creatura Ita 
+              <lb ed="#PV"/>quod omnes habitudines licite 
+              <lb ed="#PV"/>amicitiae vel amoris repri<lb ed="#PV"/>untur 
+              in deo maxime respectu 
+              <lb ed="#PV"/>generis humani Sicut dicit 
+              <lb ed="#PV"/><name>magister lactantius</name> et aliis quod deus 
+              <lb ed="#PV"/>totum residium fecit propter 
+              <lb ed="#PV"/>hominem etiam angelos unde 
+              <lb ed="#PV"/>creavit angelum ut homo 
+              <lb ed="#PV"/>ministraret licet quo ad speciem 
+              <lb ed="#PV"/>est superior amicitia ostendit 
+              <lb ed="#PV"/>quia factus est homo nobis<lb ed="#PV"/>cum 
+              quantum est de beneficentia 
+              sua patet in opere creationis 
+              <lb ed="#PV"/>de onestate pulchritudine 
+              <lb ed="#PV"/>deletabilitate et utilitate patet 
+              <lb ed="#PV"/>quia in eo est status omnium 
+              <lb ed="#PV"/>bonorum cogregatione perfectius 
+              <lb ed="#PV"/>patet ex hoc quod congrue dicitur 
+              <lb ed="#PV"/>in oratione <unclear>dominica</unclear> pater noster quia 
+              <lb ed="#PV"/>in infinitum est nobis pater mor<lb ed="#PV"/>si 
+              comparere ly pronior quam sit 
+              <lb ed="#PV"/>pater carnalis qui nos genuit
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e185">
+            <head xml:id="ppr-l39-Hqnoisu">
+              Quo nos omnes essemus nobiles nisi sponte degeneraretur et sponte reduceretur in <unclear>servitudinem[?]</unclear> ultimam
+            </head>
+            <p xml:id="ppr-l39-suqmbp">
+              <lb ed="#PV"/>Sequitur quod omnes essemus nobi<lb ed="#PV"/>les 
+              nisi sponte de generaremus
+              <pb ed="#PV" n="71-v"/>
+              <cb ed="#PV" n="a"/>
+              et redigeremus nos in vilissimam 
+              <lb ed="#PV"/>servitutem patet quia habemus 
+              <lb ed="#PV"/>patrem nobilissimum Actuum 
+              7o <unclear>ipsius</unclear> in genus sanius nos 
+              <lb ed="#PV"/>id est sumus de genere ipsius
+              <!-- paragraph break?? --> 
+              Sequitur 
+              <lb ed="#PV"/>admiranda peccati turpitudo 
+              <lb ed="#PV"/>scilicet relinquendo genera nobilitate 
+              <lb ed="#PV"/>et vis hereditarium ad regnum 
+              <lb ed="#PV"/>infinitum servissime iustitiae sub<lb ed="#PV"/>iciendo 
+              nos servituti et hoc 
+              <lb ed="#PV"/>in eius contemptum
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e228">
+            <head xml:id="ppr-l39-Hqommei">Quod omnis malus est ignorans</head>
+            <p xml:id="ppr-l39-suqiqq">
+              Sequitur 
+              <lb ed="#PV"/>ulterius quod valde pulchre dictum 
+              <lb ed="#PV"/>est ab <name ref="#Aristotle">aristotele</name> quod omnis malus 
+              <lb ed="#PV"/>est ignorans quia nisi esset 
+              <lb ed="#PV"/>ignorantia numquam aliquis 
+              <lb ed="#PV"/>relinqueret generis sui nobilitatem 
+              <lb ed="#PV"/>et libertatem et subiceret vilissi<lb ed="#PV"/>me 
+              servituti convertendo si 
+              <lb ed="#PV"/>ad rem habentem oppositas con<lb ed="#PV"/>ditiones 
+              nisi quam quaerit quia 
+              <lb ed="#PV"/>nec rem boni nec pulchri 
+              <lb ed="#PV"/>nec honesti et sic de aliis est in 
+              <lb ed="#PV"/>peccato ymmo in peccato est ratio 
+              <lb ed="#PV"/>mali tristabilis et sic de aliis conditionibus 
+              <lb ed="#PV"/>oppositis conditionibus repertis 
+              <lb ed="#PV"/>in deo In omni peccato est quid 
+              <lb ed="#PV"/>tristia scilicet vel naturalis vel ydemptice 
+              <lb ed="#PV"/><unclear>cum</unclear> natura
+            </p>
+            <!-- dbcheck paragraph parallel --> 
+            <p xml:id="ppr-l39-uaqnpt">
+              Advertendum quod semper 
+              <lb ed="#PV"/>ex inclinatione una ab una 
+              <lb ed="#PV"/>parti et alia ab alia consurgit 
+              <lb ed="#PV"/>quaedam tristitia et ideo omne peccatum 
+              <lb ed="#PV"/>habet rationem tristabilis et hoc potest 
+              <lb ed="#PV"/>dupliciter ymaginari uno modo quod 
+              <lb ed="#PV"/>generaliter ex repugnantia 
+              <lb ed="#PV"/>inclinationem consurgit aliqua 
+              <lb ed="#PV"/>tristitia quasi naturalis per modum 
+              <lb ed="#PV"/>primi motus 2o modo potest ymaginari 
+              <lb ed="#PV"/>quia licet non consurgeret ex inclina<lb ed="#PV"/>tionem 
+              repugnantia aliqua tris<lb ed="#PV"/>titia 
+              quae esset accidens distinctum 
+              <lb ed="#PV"/>ab huius substantia potest tamen ymaginari 
+              <lb ed="#PV"/>quod per sensum naturae participat tristabiliter
+            </p>
+      
+            <p xml:id="ppr-l39-uaqlnp">
+              <lb ed="#PV"/>ut dicit <name ref="#WilliamOfParis">wilhelmus parysiensis</name> 
+              <lb ed="#PV"/>unde praeter quinque sensus  
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>exteriores etiam interiores et 
+              <lb ed="#PV"/>potentiam intellectivam et 
+              <lb ed="#PV"/>volitivam ponitur instinctus naturalis 
+              <lb ed="#PV"/>qui ponitur esse per modum aequiva<lb ed="#PV"/>lentis 
+              conditionis ad alium sensum 
+              <lb ed="#PV"/>et vocatur sensus naturae in<lb ed="#PV"/>stinctualis 
+              per quem res perci<lb ed="#PV"/>pit 
+              aliud sibi disconveniens 
+              <lb ed="#PV"/>Iuxta quam ymaginationem 
+              <lb ed="#PV"/>salvatur quod <name>sortes</name> percipit inimi<lb ed="#PV"/>cum 
+              alia perceptione quam perceptione 
+              <lb ed="#PV"/>sensus scilicet ex terroris vel in 
+              <lb ed="#PV"/>terroris et quandoque insurgit er<lb ed="#PV"/>ror 
+              per modum effectus vel 
+              <lb ed="#PV"/>ad sensum naturae Aliquando experientia 
+              <lb ed="#PV"/>docuit quod huius sensus insit brutis 
+              <lb ed="#PV"/>ut percipiendo obiectum terri<lb ed="#PV"/>ile 
+              et sic ex talibus incli<lb ed="#PV"/>nationibus 
+              sensus naturae 
+              <lb ed="#PV"/>percipit tristitiam quae est insen<lb ed="#PV"/>su 
+              naturae vel tristiti quae conse<lb ed="#PV"/>quenter 
+              causatur in sensu cogni<lb ed="#PV"/>tivo 
+              in bene disposito
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e318">
+            <head xml:id="ppr-l39-Hqneten">Quod nihil ex nobis possumus tamquam ex nobis.</head>
+            <p xml:id="ppr-l39-suqead">
+              Sequitur 
+              <lb ed="#PV"/>quod ex nobis nichil possumus 
+              <lb ed="#PV"/>tamquam ex nobis patet <name>apostolum</name> 
+              <lb ed="#PV"/>nihil etc patet etiam ex habitudine 
+              <lb ed="#PV"/>quam habemus ad deum quod cre<lb ed="#PV"/>atura 
+              nichil sufficit per se
+              
+              Ita quod deus est nostrum esse 
+              <lb ed="#PV"/>reperari etc saltem causabiliter pro 
+              <lb ed="#PV"/>intellectu doctoris advertendum 
+              <lb ed="#PV"/>quod aliqua <unclear>dicuntur</unclear> fieri secundum 
+              <lb ed="#PV"/>communem cursum naturae proportionaliter 
+              <lb ed="#PV"/>sicut in politiis sunt ministri 
+              <lb ed="#PV"/>et illa quae fiunt per eas 2m 
+              <lb ed="#PV"/>exigentiam minorum officiorum 
+              <lb ed="#PV"/>suorum dicuntur fieri <del rend="strikethrough">cor</del> naturaliter 
+              <lb ed="#PV"/>et secundum communem cursum naturae 
+              <lb ed="#PV"/>et sibi variaretur illa institu<lb ed="#PV"/>tio 
+              vocatur super naturalis 
+            </p>
+            <!-- paragraph break needs review, some of above might belong below, not sure -->
+            <p xml:id="ppr-l39-esppls">
+              Circa 
+              <lb ed="#PV"/>hoc restat dubium utrum
+              <pb ed="#PV" n="72-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>ex puris naturalibus scilicet secundum 
+              <lb ed="#PV"/>institutionem naturalem creatura possit 
+              <lb ed="#PV"/>aliquid per se agere videtur quod non 
+              <lb ed="#PV"/>adiuncto peccato originali patet 
+              <lb ed="#PV"/>quia per illud genus humanum 
+              <lb ed="#PV"/>est quasi <unclear>incarcereatum</unclear> et <unclear>per postea</unclear> 
+              <lb ed="#PV"/>fundabo quod creatura non potest ali<lb ed="#PV"/>quid 
+              nec de gratia
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e385">
+            <head xml:id="ppr-l39-Hqoeavs">
+              Quod optima est habitudo subiectionis creaturae per actus virium superiorum
+            </head>
+            <p xml:id="ppr-l39-suqoid">
+              Sequitur 
+              <lb ed="#PV"/>quod optima est habitudo subiecti<lb ed="#PV"/>ones 
+              creaturae per actus virium 
+              <lb ed="#PV"/>superiores patet quia talis optime 
+              <lb ed="#PV"/>se habet regnum animae quin ibi est pax 
+              <lb ed="#PV"/>illarum si inclinationes sunt 
+              <lb ed="#PV"/>conformes tunc est pax
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e409">
+            <head xml:id="ppr-l39-Hqsdern">Quod sic Deo subici est realiter nobilitari</head>
+            <p xml:id="ppr-l39-suqeen">
+              Sequitur 
+              <lb ed="#PV"/>quod sic duo subici est realiter no<lb ed="#PV"/>bilitari 
+              patet quia realiter hoc est 
+              <lb ed="#PV"/>effici filium dei et per consequens iuxta 
+              <lb ed="#PV"/>dictum <name>apostoli</name> est effici heredem 
+              <lb ed="#PV"/>regni etc
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e427">
+            <head xml:id="ppr-l39-Hqicqhd">Quod in creatura habitudo subiectionis est nobilior quam habitudo denominationis</head>
+            <p xml:id="ppr-l39-sqihdh">
+              Sequitur quod in creatura 
+              <lb ed="#PV"/>habitudo subiectionis est nobi<lb ed="#PV"/>lior 
+              quam habitudo <unclear>dominationis</unclear> 
+              <lb ed="#PV"/>unde creatura potest habere duplicem 
+              <lb ed="#PV"/>habitudinem
+            </p>
+            <p xml:id="ppr-l39-uarped">
+              unam ad res 
+              <lb ed="#PV"/>infra se inquibus ducuntur 
+              <lb ed="#PV"/>etiam iuste et quos dirigit 
+              in suos fines 
+            </p>
+            <p xml:id="ppr-l39-ahafpe">
+              aliam ad deum 
+              <lb ed="#PV"/>ut ei subicitur 
+              <!-- break -->
+              Sed huius ha<lb ed="#PV"/>bitudo 
+              creaturae ad deum est 
+              <lb ed="#PV"/>nobilior quia ex illa consur<lb ed="#PV"/>git 
+              summa perfectio in creatura 
+              <lb ed="#PV"/>et sic non est de alia
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e462">
+            <head xml:id="ppr-l39-Hqmeudu">Quod melius est animae Christi Deo plene subici quam toti mundo dominari vel hypostatica unione Deo uniri</head>
+            <p xml:id="ppr-l39-sqmsse">
+              Similiter 
+              <lb ed="#PV"/>quod melius est animae christi per plene 
+              <lb ed="#PV"/>deo subici quam toti mundo 
+              <lb ed="#PV"/>et uniri deo ypostatice non sunt 
+              <lb ed="#PV"/>de intrinseca ratione felicitatis 
+              <lb ed="#PV"/>Ita quod si esset praecise unita 
+              <lb ed="#PV"/>deo <del rend="strikethrough">pos</del> ypostatica et esset <unclear>dua</unclear> 
+              <lb ed="#PV"/>aliarum creaturarum non esset 
+              <lb ed="#PV"/>felix
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e487">
+          <head xml:id="ppr-l39-Hqneqac">Quod nobilius est servire quam dominari quantum ad creaturam</head>
+            <p xml:id="ppr-l39-sqnadc">
+              Sequitur quod nobilius 
+              <lb ed="#PV"/>est servire quam dominari et 
+              <lb ed="#PV"/>hoc quantum ad creaturam ideo
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>dicitur servire deo est regnare 
+              <lb ed="#PV"/>id est excellentissimus modus 
+              <lb ed="#PV"/>et perfectissimus
+              <!-- break -->
+              Sequitur quod reg<lb ed="#PV"/>nare 
+              non habet proprie nobilitate 
+              <lb ed="#PV"/>nisi ex subiectione scilicet respectu 
+              <lb ed="#PV"/>dei
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e506">
+            <head xml:id="ppr-l39-Hqspqen">Quod secundum proportionem subiectionis creaturae ad Deum quantificatur eius nobilitas</head>
+            <p xml:id="ppr-l39-suqern">
+              Sequitur quod secundum proportionem 
+              <lb ed="#PV"/>subiectionis creaturae ad deum 
+              <lb ed="#PV"/>quantificatur eius nobilitas sic 
+              <lb ed="#PV"/>quod quanto magis deo subicitur 
+              <lb ed="#PV"/>tanto est nobilior et hoc quantum 
+              <lb ed="#PV"/>ad nobilitatem radicale Sed 
+              <lb ed="#PV"/>principes aliquando denominantur 
+              <lb ed="#PV"/>nobiles Sed alia est nobilis 
+              <lb ed="#PV"/>radicalis
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e526">
+            <head xml:id="ppr-l39-Hqpegso">Quod praelati et doctores ad maiorem gradum subiectionis obligantur</head>
+            <p xml:id="ppr-l39-sqpoem">
+              Sequitur quod praelati 
+              <lb ed="#PV"/>et doctores ad maiorem gradum 
+              <lb ed="#PV"/>subiectionis obligari quam 
+              <lb ed="#PV"/>alii inferiores doctoris inquantum 
+              <lb ed="#PV"/>ex gradu et notitia Nam 
+              <lb ed="#PV"/>ex cognitione dei et habitudine 
+              <lb ed="#PV"/>ipsius ad deum consurgit 
+              <lb ed="#PV"/>subiectio praelati obligantur 
+              <lb ed="#PV"/>officio seu ratione offici et ma<lb ed="#PV"/>ioris 
+              et docti ratione cognitionis
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e552">
+            <head xml:id="ppr-l39-Hqsvvgs">Quod sunt varii gradus subiectionis</head>
+            <p xml:id="ppr-l39-uaecad">
+              <lb ed="#PV"/>Advertendum quod sunt varii 
+              <lb ed="#PV"/>gradus amoris dei et sub<lb ed="#PV"/>iectionis 
+              ad ipsum
+            </p>
+            <p xml:id="ppr-l39-pgesda">
+              primus et 
+              <lb ed="#PV"/>supremus est actualiter et <unclear>ino?ti<lb ed="#PV"/>ime</unclear> 
+              velle sustinere quidquid 
+              <lb ed="#PV"/>deo placeret etiam anichilationem 
+              <lb ed="#PV"/>etiam perpetuum cruciatum vel 
+              <lb ed="#PV"/>quod cumque aliud ymaginabile 
+              <lb ed="#PV"/>penale et continue esse in huiusmodi 
+              <lb ed="#PV"/>actu et diversificaretur secundum 
+              <lb ed="#PV"/>intentionem actus volendi quia 
+              <lb ed="#PV"/>sic volendo staret quod intensius 
+              <lb ed="#PV"/>et intensius continue vellet susti<lb ed="#PV"/>nere 
+              etc Et per nolitione alterius 
+              <lb ed="#PV"/>specei
+            </p>
+            <p xml:id="ppr-l39-sqesgo">
+              Sed quantum est ex parte 
+              <lb ed="#PV"/>obiecti <del rend="strikethrough">e</del> iste est supremus gradus 
+              <lb ed="#PV"/>infimus gradus est velle facere 
+              <pb ed="#PV" n="72-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>quidquid deus praecipit vitari vicem 
+              <lb ed="#PV"/>omne quod tenetur facere et vitae 
+              <lb ed="#PV"/>causaliter illud quod tenetur vita<lb ed="#PV"/>re 
+              et ad istud quilibet homo ob<lb ed="#PV"/>ligatur 
+              ex praecepto Consequenter 
+              <lb ed="#PV"/>secundum gradus statuum <unclear>augetur</unclear> 
+              <lb ed="#PV"/>obligatio praelati et docti plus 
+              <lb ed="#PV"/>obligatur etiam religiosi ratione 
+              <lb ed="#PV"/>suae professionis Consequenter 
+              <lb ed="#PV"/>summus pontifex ad summum ob<lb ed="#PV"/>ligatur
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e621">
+            <head xml:id="ppr-l39-Hqadpgs">Quod ad Deum diligendum fruitione in via non obligamur in primo modo nec ad primum gradum subiectionis</head>
+            <p xml:id="ppr-l39-sqaess">
+              Sequitur quod ad deum 
+              <lb ed="#PV"/>diligendum fruitive non obli<lb ed="#PV"/>gamur 
+              primo modo nec obligamur 
+              <lb ed="#PV"/>ad primum gradum quia nus<lb ed="#PV"/>quam 
+              in sacra scriptura hoc 
+              <lb ed="#PV"/>reperitur Advertendum quod sibi 
+              <lb ed="#PV"/>occurrat talis materia scilicet iuxta 
+              <lb ed="#PV"/>primum modum homo debet se su<lb ed="#PV"/>spendere 
+              ad illa et debet eam tollere 
+              <lb ed="#PV"/>et non iudicare ita quod non obli<lb ed="#PV"/>gatur 
+              ad habendum in illa 
+              <lb ed="#PV"/>materia aliquem actum electivum 
+              <lb ed="#PV"/>sed potius suspensivum
+            </p>
+            <!-- review break -->
+            <p xml:id="ppr-l39-sdqmds">
+              tamen 
+              <lb ed="#PV"/>si haberet huius actum volendi 
+              <lb ed="#PV"/>esset valde meritorium sed non 
+              <lb ed="#PV"/>est tutum elicere tales actus
+            </p>
+          </div>
+          <div xml:id="ppr-l39-Dd1e660">
+            <head xml:id="ppr-l39-Hqeaccd">Quod electio adnihilationis vel perpetui cruciatus contingit dupiliciter</head>
+            <p xml:id="ppr-l39-uaqdsh">
+              Ad<lb ed="#PV"/>vertendum 
+              quod cum electione huius 
+              anichilationis vel cum volitione 
+              <lb ed="#PV"/>suscipiendi perpetuum cruciatum 
+              <lb ed="#PV"/>contingit dupli creaturam 
+              <lb ed="#PV"/>se habere
+            </p>
+            <p xml:id="ppr-l39-umaemp">
+              uno modo quod absque re<lb ed="#PV"/>morsu 
+              virium superiorum et in<lb ed="#PV"/>feriorum 
+              huius habeat volitionem
+            </p>
+            <p xml:id="ppr-l39-amqcfm">
+              <lb ed="#PV"/>Alio modo staret quod esset aliqua 
+              <lb ed="#PV"/>rebellio in viribus inferio<lb ed="#PV"/>ribus 
+              et sic stat in caritate 
+              <lb ed="#PV"/>quod aliquis habeat motus contrarios 
+              <lb ed="#PV"/>et tamen talis creatur habeat 
+              <lb ed="#PV"/>efficacem volitionem
+            </p>
+        
+          <!--
+            doesn't seem to have parallel 
+            <p xml:id="ppr-l39-edvshr">
+            et deus vellet elementum 
+            corrumpi, tamen deus ordinavit quod elementum, quantum 
+            possit, Resistat suae corruptioni, sicut etiam possumus 
+            <cb ed="#SV" n="246ra"/>esse in caritate, licet in nobis sit huius Rebellio.
+            </p>
+          -->
+        
+          <p xml:id="ppr-l39-supcsr">
+            utrum aliquas 
+            <lb ed="#PV"/>possit esse quae posset sic velle 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>absque remorsu quocumque vel 
+            <lb ed="#PV"/>inclinatione naturali
+            Tenendum 
+            <lb ed="#PV"/>est quod sic ut patet de anima cristi quia 
+            <lb ed="#PV"/>ibi omnia conformabatur divinae 
+            <lb ed="#PV"/>inclinatione 
+            Item ibi fuit plena 
+            <lb ed="#PV"/>obedientia virium inferiorum 
+            <lb ed="#PV"/>respectu superiorum virium christi 
+            <lb ed="#PV"/>sic quod vires inferiores non 
+            <lb ed="#PV"/>potuerunt exire in actu 
+            <lb ed="#PV"/>nisi secundum subordinationem ad 
+            <lb ed="#PV"/>superiores utque quomodo deus est 
+            <lb ed="#PV"/>summe diligendus ex habitudine 
+            <lb ed="#PV"/>intrinseca et extrinseca
+          </p> 
+        
+        <!--doesn't seem to have parallel 
+          <p xml:id="ppr-l39-espdee">
+            Et sic patet qualiter creatura debet esse deo subiecta et 
+            quomodo tenetur eum diligere, quia tenetur facere quidquid praecipit 
+            et vitare quod prohibet, nec Reperitur altior gradus 
+            subiectionis in isto statu, tamen ad plura quam simplices obligantur 
+            praelati et doctores ut supra dictum est, etc.
+          </p>
+        -->
+          </div>
+        </div>
+        <div xml:id="ppr-l39-Dd1e947">
+          <head xml:id="ppr-l39-Hd1e949">Conclusiones</head>
+          <p xml:id="ppr-l39-d1e952">
+            Circa 
+            <lb ed="#PV"/>distinctionem 37am prima hoc deus 
+            <lb ed="#PV"/>est in omnino natura essentialiter 
+            <lb ed="#PV"/>principaliter et <unclear>p?onaliter</unclear> et non incipit 
+            <lb ed="#PV"/>noviter esse in aliqua nisi per 
+            <lb ed="#PV"/>accidens scilicet quia incipit esse 
+            <lb ed="#PV"/>in eo unde dici <name>Brag<lb ed="#PV"/>wardini</name> 
+            quod deus est in spatio 
+            <lb ed="#PV"/>infinito ymaginario extra 
+            <lb ed="#PV"/>caelum
+          </p>
+          <p xml:id="ppr-l39-d1e980">
+            2a deus est in spiri<lb ed="#PV"/>tibus 
+            et animabus per gratiam 
+            <lb ed="#PV"/>et maxime in anima christi unde 
+            <lb ed="#PV"/>ibi dicitur esse magis ubi magis 
+            <lb ed="#PV"/>operatur sicut anima humana 
+            <lb ed="#PV"/>plus operatur in una parte 
+            <lb ed="#PV"/>quam in alia et nobiliori modo
+          </p>
+          <p xml:id="ppr-l39-d1e996">
+            <lb ed="#PV"/>3a conclusio ubicumque deus 
+            <lb ed="#PV"/>inhabitat ibi est et non econtra 
+            <lb ed="#PV"/>unde in habitare est speciali modo 
+            <lb ed="#PV"/>se habere sicut in sanctis
+          </p>
+          <p xml:id="ppr-l39-d1e1007">
+            4a 
+            <lb ed="#PV"/>conclusio deus antequam res 
+            <lb ed="#PV"/>essent erat in se ipso quia semper 
+            <lb ed="#PV"/>fuit
+          </p>
+          <p xml:id="ppr-l39-d1e1017">
+            <lb ed="#PV"/>Quinta conclusio deus 
+            <lb ed="#PV"/>est habitator quorundam non 
+            <lb ed="#PV"/>cognoscentiam ipsum patet de 
+            <lb ed="#PV"/>a parvulis baptizatis unde virtute 
+            <pb ed="#PV" n="73-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>sacramenti infunduntur virtutes 
+            <lb ed="#PV"/>theologicae cuilibet baptizato
+          </p>
+          <p xml:id="ppr-l39-d1e1037">
+            Sexta 
+            <lb ed="#PV"/>conclusio licet deus sit ubique non 
+            <lb ed="#PV"/>tamen sordibus rerum inquinatur 
+            sicut declarat <name>magister</name> in littera de ra<lb ed="#PV"/>diis 
+            solaribus
+          </p>
+          <p xml:id="ppr-l39-d1e1049">
+            7m non est 
+            <lb ed="#PV"/>dimensive et circumscriptive 
+            <lb ed="#PV"/>in loco
+          </p>
+          <p xml:id="ppr-l39-d1e1056">
+            Octava deus nullo modo 
+            <lb ed="#PV"/>est nobilis nec localiter etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
