@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 40, de Fruitio [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 40, de Notitia [Palatine Transcription]</title>
+          <date when="2018-05-11">May 11, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-11" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="55-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio40">
+        <head xml:id="ppr-l40-Hldfldf">Lectio 40, de Fruitione</head>
+        <div xml:id="ppr-l40-Dd1e83">
+          <head xml:id="ppr-l40-Hqeqdnp">
+            Quod ea quae tacta fuerunt quantum ad materiam nobilitatis non sunt intelligenda de nobilitate politica
+          </head>
+          <p xml:id="ppr-l40-aecldn">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Advertendum circa dicta in alia lectione quod ea quae tacta fuerunt quantum ad materiam nobilitatis 
+            <lb ed="#E"/>non sunt intelligenda de materia pollittica secundum communem usum quia illa subiectio de qua 
+            <lb ed="#E"/>dictum est non sufficit ad talem nobilitatem de qua agitur in materia pollittica quia ista di<lb ed="#E"/>lectio 
+            non est nisi amor dei et voluntas obediendi ei offerendo se totum deo et non reflectendo 
+            <lb ed="#E"/>ad se dicit <ref><name ref="#Augustine">augustinus</name> 2o <title ref="#CityOfGod">de civitate dei</title> capitulo 14o</ref> <quote source="http://scta.info/resource/adcd-l14">duas civitates fecerunt duo amores<!-- book 14, c. 28 --></quote> 
+            <lb ed="#E"/>de hoc dictum fuit circa principium Et huiusmodi obiectio non sufficit ad nobilitatem polliticam
+          </p>
+          <p xml:id="ppr-l40-dsqecl">
+            De secundo quod ab umbra eius nobilitas pollitica sumpsit originem Nam gentiles 
+            <lb ed="#E"/>virtuosos constituerunt principes suos
+          </p>
+          <p xml:id="ppr-l40-tdqpfn">
+            Item ad nobilitatem polliticam ultra virtutem 
+            <lb ed="#E"/>apparentem vel existentem requiritur applicatio ad conferentiam pollitiae Requiritur ulterius lon<lb ed="#E"/>ga 
+            continuatio nam propter unum factum non repraesentaretur quis nobilis sed ex pluribus 
+            <lb ed="#E"/>circa pollitiae regimen
+          </p>
+          <p xml:id="ppr-l40-idccnd">
+            dico consequenter quod servitus peccati non tollit nobilitatem polliticam 
+            <lb ed="#E"/>dummodo non nimis diu continuetur
+          </p>
+          <p xml:id="ppr-l40-idqpni">
+            dico ulterius quod non tollitur per peccatum habi<lb ed="#E"/>tudo 
+            dominii Dicit scriptura obediendum dominis licet <sic>discolis</sic> 
+          </p>
+        </div>
+        <div xml:id="ppr-l40-Dd1e187">
+          <head xml:id="ppr-l40-Hmpddfo">Materia principalis: diffinitio fruitionis ordinatae</head>
+          <p xml:id="ppr-l40-vamdps">
+            <pc type="#pilcrow"/>veniendo ad 
+            <lb ed="#E"/>materiam satis apparet quod deus est solum obiectum licite fruitionis seu obiectum beatificum quia in nulla 
+            <lb ed="#E"/>creatura reperitur ratio fruibilis vel terminantis vel satiantis fruitio dei ordinata est 
+            <lb ed="#E"/>dilectio dei ad dilectionem dei licet minus principaliter propter se
+          </p>
+          <div xml:id="ppr-l40-Dd1e206">
+            <head xml:id="ppr-l40-Hobines">Obiectiones</head>
+            <p xml:id="ppr-l40-scaeim">
+              <pc type="#pilcrow"/>Contra arguitur ex dictis in praecedente quaestione
+              <pb ed="#E" n="56-r"/>
+              <lb ed="#E"/>in una ratione tacta Nam deus est diligendus propter beneficia igitur beneficia magis sunt diligenda 
+            </p>
+            <p xml:id="ppr-l40-iacnvc">
+              <lb ed="#E"/>Item contra illud propter se quia vel capitur negative vel positive Si negative tunc etiam creatura 
+              <lb ed="#E"/>est fruendum etiam fruendi est virtutibus quia sic frui est diligere sine relatione 
+              <lb ed="#E"/>in aliud modo licet non sequeretur melius ad virtutes deberemus eas diligere et per consequens eis 
+              <lb ed="#E"/>frui 1o modo capiendo ly <mentioned>propter se</mentioned> Si positive vel hoc est quia huiusmodi dilectio per se teneat 
+              <lb ed="#E"/>se tamquam pars obiecti vel quia huiusmodi dilectionem praecedit alius amor dei per quem huiusmodi 
+              <lb ed="#E"/>amor causatur et elicitur neutrum potest dici Si dicitur primum sequitur quod realiter deus erit  
+              <lb ed="#E"/>bis obiectum eiusdem dilectionis Si 2m sequeretur quod numquam staret habere unum actum dili<lb ed="#E"/>gendi 
+              deum sed semper requirerentur duo 
+            </p>
+            <p xml:id="ppr-l40-arprof">
+              Aliae difficultates possent adduci quia 
+              <lb ed="#E"/>videtur quod persona in causa personali non habet rationem obiecti fruibilis quia si sic tunc essent plures tales 
+              <lb ed="#E"/>quia tunc opporterent quaerere qua ratione pater diligeret filium
+            </p>
+            <!-- paragraph alignment needs review -->
+            <p xml:id="ppr-l40-iqqnrb">
+              Item de ratione totius 
+              <lb ed="#E"/>trinitatis in esse pluralitatis personarum qua ratione diligibilitatis 
+              deberet diligi
+            </p>
+            <p xml:id="ppr-l40-eqdsde">
+              Item de formalitatibus
+            </p>
+            <p xml:id="ppr-l40-iaqpoe">
+              <lb ed="#E"/>Item idem actus est visus et fruitio ordinata sit ille actus <c>A</c> tunc <c>A</c> habet creaturam pro obiecto 
+              <lb ed="#E"/>et sic aliud a deo est obiectum actus fruitionis
+            </p>
+          </div>
+          <div xml:id="ppr-l40-Dd1e316">
+            <head xml:id="ppr-l40-Hraorao">Responsiones ad obiectiones</head>
+            <div xml:id="ppr-l40-Dd1e321">
+              <head xml:id="ppr-l40-Hapapap">Ad primum</head>
+              <p xml:id="ppr-l40-aprnof">
+                Ad primum respondendum est scilicet de dilectione dei 
+                <lb ed="#E"/>propter beneficia quod beneficia multipliciter possunt concurrere ad dilectionem dei fruitivam primo ut ostensivo rationis 
+                <lb ed="#E"/>diligibilitatis scilicet ex diffinitione bonitatis ad extra arguitur interior bonitas ideo beneficia sunt indi<lb ed="#E"/>cativa 
+                bonitatis divinae Isto modo beneficia divina arguunt ad intra <sic>in mensam</sic> largitatem 
+                <lb ed="#E"/>bonitatem et fecunditatem modo ex hoc quod inducunt vel indicant huiusmodi non arguitur quod conclusio habeant 
+                <lb ed="#E"/>rationem obiecti <subst><del rend="expunctuation">formalis</del> <add place="in-line">fruibilis</add></subst>
+              </p>
+              <p xml:id="ppr-l40-speici">
+                Secundo concurrunt ut causa rememorativa quia faciunt 
+                <lb ed="#E"/>occurrere materiam obiecti fruibilis 
+              </p>
+              <p xml:id="ppr-l40-tpcddf">
+                Tertio concurrent allective scilicet alliciendo et movendo potentiam 
+                <lb ed="#E"/>Nam ex receptione beneficiorum creatura redditur promptior et voluntas abilior unde
+                <lb ed="#E"/>beneficia abilitatis potentiam volitivam et reddunt eam promptiorem
+              </p>
+              <p xml:id="ppr-l40-qpcgce">
+                Quarto in genere causae 
+                <lb ed="#E"/><unclear>quaedam modae</unclear> efficientis possunt concurrere
+              </p>
+              <p xml:id="ppr-l40-qpcqdd">
+                5to in genere causa <subst><del rend="strikethrough">funla</del> <add>finalis</add></subst> sed non essentialiter 
+                <lb ed="#E"/>ordinatae ut iste intellectus est magis ad propositum in ista materia ad istum intellectum quod realiter 
+                <lb ed="#E"/>per modum finis beneficia aliquo modo moveat ad productionem dilectionis dei super omnia non habitudine 
+                <lb ed="#E"/>essentiali quia non est essentialis habitudo huiusmodi finis ad illum sed si revolvatur erit habitudine
+                <lb ed="#E"/>essentialis nec etiam amores huiusmodi obiectorum habent ordinem essentialem sed mere accidentalem Ideo 
+                <lb ed="#E"/>non sequeretur quod magis diligantur quia non est ordo essentialis obiecti ad obiectum sed beneficii 
+                <lb ed="#E"/>ad deum vel quod amore beneficii sit prior essentialiter ad amorem dei Realiter exprimitur quod non 
+                <lb ed="#E"/>diligo principaliter propter beneficia vel beneficium et sic apparet quod ly <mentioned>propter</mentioned> diversimode capitur Et potest 
+                <lb ed="#E"/>dicere habitudinem diversam
+              </p>
+            </div>
+            <div xml:id="ppr-l40-Dd1e417">
+              <head xml:id="ppr-l40-Hasasas">Ad secundum</head>
+              <p xml:id="ppr-l40-qaspnr">
+                Quantum ad secundum de dilectione propter se dicitur quod positive capitur 
+                <lb ed="#E"/>et non negative quia si negative tunc oportet dicere quod non referretur positive in aliud 
+                <lb ed="#E"/>Et tunc est difficultas in modo exprimendi <name ref="#Ockham">Ockam</name> dicit in ista materia quod deus di<lb ed="#E"/>ligitur 
+                propter se quia diligitur et propter nullum aliud nec diligitur nec actum nec habitum secundum rectam 
+                <lb ed="#E"/>rationem et quodlibet aliud propter ipsam diligitur loquendo semper de dilectione ordinata
+              </p>
+              <p xml:id="ppr-l40-seasod">
+                Advertendum 
+                <lb ed="#E"/>quod in dilectione fruitiva dei concurrunt duae causae una est praeceptum legis Alia est 
+                <lb ed="#E"/>ratio particularis sub sumpta verbi gratia Solus deus est super omnia diligendus <c>A</c> est deus ergo <c>a</c> est etc 
+                <lb ed="#E"/>super omnia diligendus hic assumitur maior quae est legis et accepto illa per fidem minor assumitur 
+                <lb ed="#E"/>Et est ratio particularis et deus sumitur vel aliud supponens pro deo concluditur quod <c>a</c> est super omnia 
+                <lb ed="#E"/>diligendus Advertendum quod ly <mentioned>propter</mentioned> refertur ad maiorem vel ad medium 
+                <lb ed="#E"/>quod subicitur in minore minor dicitur quid ad medium Et resolvendo clarius non est aliud nisi 
+                <lb ed="#E"/>quia consideratio de istis est medium concludendi in syllogismo practico quod deus est super 
+                <pb ed="#E" n="56-v"/>
+                <lb ed="#E"/>omnia diligendus 
+              </p>
+              <p xml:id="ppr-l40-eivsod">
+                Istam propositionem ponit <name ref="#Chatton">Schaton</name> dicit ulterius quod non dicit ly <mentioned>propter se</mentioned> 
+                teneat se aperte obiecti quia hoc non est verum vel quia praecedit alius amor sed quia 
+                <lb ed="#E"/>praecedit una maior cui assentitur propter fidem et praecedit una minor cuius subiectum supponit 
+                <lb ed="#E"/>pro deitate ideo propter se id est principaliter ex consideratione sui <!-- break point ? --> <pc type="virgula">//</pc> Sed obicitur contra se quaestio assentimus 
+                <lb ed="#E"/>conclusioni quia oportet habere volitionem respectu <seg type="correction">maior<del>is</del></seg> dicitur quod non quia ex lege quilibet 
+                <lb ed="#E"/>apprehensa illa quod deus est super omnia diligendus statim assentit ei sed sic non est in aliis 
+                <lb ed="#E"/>quia in aliis oportet habere desiderium respectu maioris <unclear>animalis</unclear> non formaret actum conformem illi dictamen 
+                <lb ed="#E"/>et per consequens nec respectu conclusionis formaret electionem conformem verbi gratia Ponamus alias 
+                qui non sit infirmus tunc assumatur sibi ista maior Omne remedium pro sanitate est 
+                <lb ed="#E"/>acquirendum ipse non assentit illi et sic sola consideratio deitatis est illud propter quod deus di<lb ed="#E"/>ligitur 
+                etc
+              </p>
+            </div>
+            <div>
+              <head>Conclusiones</head>
+              <p>
+                <pc type="#pilcrow"/> <pc type="#pilcrow"/>Circa distinctionem 38vam prima conclusio Res futurae sunt futurae quia praescitae 
+                sunt a deo
+              </p>
+              <p>
+                Secunda conclusio si res non essent futuro deus non staret eas
+              </p>
+              <p>
+                Tertia praescientia dei non potest falli etc
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </body>
+  </text>
+</TEI>
