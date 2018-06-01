@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 43, de Fruitio [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 43, de Notitia [Erlangen Transcription]</title>
+          <date when="2018-05-31">May 31, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-31" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="59-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio43">
+        <head xml:id="ppr-l43-Hldfldf">Lectio 43, de Fruitione</head>
+        <div xml:id="ppr-l43-Dd1e85">
+          <head xml:id="ppr-l43-Hqqoueo">Quod quamvis omnis fruitio sit amore et etiam omnis usus sit amore, aliquis tamen usus est odium</head>
+          <p xml:id="ppr-l43-pcivta">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Pro clariori intellectu istorum terminorum usus et fruitio Sciendum quod quamvis omnis 
+            <lb ed="#E"/>fruitio sit amor et omnis <subst><del rend="expunctuation">amor</del> <add place="in-line">usus</add></subst> sit amor aliquis tamen usus est odium nam mala propter 
+            <lb ed="#E"/>deum odiuntur etiam ordinate Ex istoo patet quod fruitio debet describi per amorem per velle diligere 
+            <lb ed="#E"/>et prosequi per acceptare vel assumere propter se Secundo patet quia usus sub distinctione debet describi 
+            <lb ed="#E"/>scilicet per velle vel nolle diligere prosequi et sic de aliis propter aliud Ideo in descriptione usus debet poni 
+            <lb ed="#E"/>dilectio vel odium vel aliqui termini aequivalentes scilicet aliqui terminorum enumeratorum
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e116">
+          <head xml:id="ppr-l43-Hqiauef">Quod idem actus est usus et fruitio</head>
+          <p xml:id="ppr-l43-suirvr">
+            Sequitur iuxta viam 
+            <lb ed="#E"/><name ref="#Wodeham">Adae</name> et <name ref="#Ockham">ockam</name> quod est odium est dilectio patet quia omne odium est propter aliud ex eo quod nulla res 
+            <lb ed="#E"/>potest se ipsa immediate odiri non enim oditur nisi propter aliud et cum non sit processus in infinitum 
+            <lb ed="#E"/>oportet quod denominatur ad finem qui maxime diligitur
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e137">
+          <head xml:id="ppr-l43-Hqpavsn">Quod primus actus voluntatis sit nolitio</head>
+          <p xml:id="ppr-l43-sqorvr">
+            Sequitur 2o quod omnis nolitio est volitio nam nolitio 
+            <lb ed="#E"/>alicuius mali est volitio boni propter quod creatura vult ut ita loquar vel respuit illud malum 
+            <lb ed="#E"/>et sic nolitio est volitio eiusdem rei propter quam malum refutatur
+          </p>
+          <p xml:id="ppr-l43-dcqrim">
+            dicitur consequenter quod cum isto stat
+            <lb ed="#E"/>quod primus actus voluntatis sit volitio sic quod non procedit aliqua volitio prior ad illam volitionem 
+            <lb ed="#E"/>Nam licet nulla sit volitio nisi propter bonum volitum stat quod deus sit idem actus adaequate 
+            <lb ed="#E"/>quo respuitur malum propter bonum et sit volitio illius boni verbi gratia <unclear>poneretur</unclear> <name>sorti</name> aliquod malum 
+            <lb ed="#E"/>qui <name>sortes</name> non habet de facto aliquem actum voluntatis et deus operetur cum eo ipse potest elicere actum 
+            <lb ed="#E"/>volendi propter deum ergo illa volitio vel ille actus erit fuga mali et prosecutio boni et per consequens 
+            <lb ed="#E"/>nolitio non requirit aliquam volitionem de bono propter quod respuitur malum saltem primam ad illum actum 
+            <lb ed="#E"/>vel illam volitionem quae simul est volitio
+          </p> 
+          <p xml:id="ppr-l43-csquef">
+            Sequitur quod omnis usus mundi sive licitus sive illi<lb ed="#E"/>citus 
+            sive ordinatus sive inordinatus est fruitio patet primo de usu ordinato ex dictis nam 
+            <lb ed="#E"/>dilectio creaturae propter deum est fruitio dei usus inordinatus est dilectio creatura propter aliam 
+            <lb ed="#E"/>vel igitur in illa statuit finem vel datur alia et non est processus in infinitum si stetur ibi tunc 
+            <lb ed="#E"/>erit fruitio respectu illius
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e199">
+          <head xml:id="ppr-l43-Hqaesao">Quod amor est superius ad odium</head>
+          <p xml:id="ppr-l43-sedorm">
+            Sequitur quod amor est superius ad odium ita quod omne odium est amor sed non 
+            <lb ed="#E"/>econtra Primum patet quia omne odium alicuius mali est amor boni propter quod illud malum oditur 
+            <lb ed="#E"/>Secundum patet de fruitione ordinata aliqua quae non est odium ut esset fruitio beati quae haberet solum 
+            <lb ed="#E"/>deum pro obiecto
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e227">
+          <head xml:id="ppr-l43-Hcqdeui">Contra quemdam doctorem qui ponit quod idem actus est fruitio illius quod contingit ordinate frui, et tamen est usus inordinatus</head>
+          <p xml:id="ppr-l43-sucfpd">
+            Sequitur ulterius contra quoddam doctorem qui ponit istam propositionem informa 
+            <lb ed="#E"/>idem actus est fruitio illius quo contingit ordinate frui et tamen est usus inordinatus 
+            <lb ed="#E"/>Contrarium teneo unde sensus illius corollarii est quod sit aliquis usus qui habeat realiter obiectum 
+            <lb ed="#E"/>fruibile debitum et tamen huiusmodi usus inordinatus probat corollarium per istum modum stat quod 
+            <lb ed="#E"/>aliquis velit propter deum formari quo <seg type="correction">stante casu <!--inversion marks --></seg> iste habet unum actum usus qui habet debitum 
+            <lb ed="#E"/>obiectum fruibile scilicet debitum et tamen est usus inordinatus 
+          </p>
+          <p xml:id="ppr-l43-hrtiep">
+            Respondeo quod nullus est talis usus 
+            <lb ed="#E"/>quo habet obiectum etc quin sit licitus et ordinatus ad <unclear>motivum</unclear> ipsius Ipse ponit casum
+            <pb ed="#E" n="60-r"/>
+            <lb ed="#E"/>quod aliquis velit fornicari propter deum dicitur quod casus est simpliciter impossibilis nisi ly propter dicit con<lb ed="#E"/>temptum 
+            dei et sic deus non est obiectum fruibile sed obiectum usus et obiectum illius fruitionis 
+            <lb ed="#E"/>esset creatura Sed si ly propter dicat finem ultimum tunc casus est possibilis ut videtur saltem nisi fornicari 
+            <lb ed="#E"/>caderet sub praecepto vel dispensatione ut in <title>osseae</title> <quote xml:id="ppr-lectio43-Qd1e261" ana="#os1_2">vade et fac filios fornicationem</quote> unde 
+            <lb ed="#E"/>deus est dominus super talia et ergo potest dispensare et in illo casu fornicari etc esset usus valde 
+            <lb ed="#E"/>ordinatus et licitus Sed patet quod ratio et fundamentum istius doctoris non valet Arguo contra positionem 
+            <lb ed="#E"/>quia repugnat quod eodem actu contempnatur deus et voneretur et ita esset in proposito quia 
+            <lb ed="#E"/>talis creatura veneraretur deum quia dilectio dei est maxime dei honorativa unde non potest 
+            <lb ed="#E"/>plus creatura venerari deum quam per diligere deum Etiam eodem actu contempneret deum quia 
+            <lb ed="#E"/>transgrederetur 
+          </p>
+          <p xml:id="ppr-l43-iceier">
+            Item conversio et aversio respectu eiusdem obiecti non sunt compossibiles eodem actu et 
+            <lb ed="#E"/>in eadem potentia unde quod idem actus moveat ad contraria simul et semel videtur inpossibile Actus 
+            <lb ed="#E"/>fruitionis movet sursum et actus fornicationis ad oppositum
+          </p>
+          <p xml:id="ppr-l43-ifiecs">
+            Item fruitio in esse fruitionis 
+            <lb ed="#E"/>quae est dei <del rend="strikethrough">per se</del> propter se ultimate et propter suam bonitatem scilicet secundum illum modum est quaedam 
+            <lb ed="#E"/>rectitudo et sic ille actus in quantum esset fruitio esset licitus quia ex illa habitudine afficeret 
+            <lb ed="#E"/><unclear>deitatem</unclear> et non esset inordinatus in esse fruitionis 
+          </p>
+          <p xml:id="ppr-l43-cnsdps">
+            Confirmatur nam si istae habitudines essent ad 
+            <lb ed="#E"/>imaginationem ad invicem separatae quarum una esset velle fornicari propter deum quae <subst><del rend="strikethrough">est</del> <add place="margin-right">esset</add></subst> fruitio 
+            <lb ed="#E"/>etc et haberetur una alia quae praecise esset fruitio in eadem potentia tunc secunda non erit inordina<lb ed="#E"/>ta 
+            propter primam et sic una habitudo illarum non erit inordinata propter aliam
+          </p>
+          <p xml:id="ppr-l43-iipnav">
+            Item iudaei propter
+            <lb ed="#E"/>zelum legis volentes christum prosequi credebant frui deo et tamen non fruebantur quia non 
+            <lb ed="#E"/>erat zelus debite ordinatus In istis casibus nisi alias per actus viciosus credit frui deo decipitur 
+            <lb ed="#E"/>quia habet aliquem alium finem latentem respectu christi unde propter difficultatem resolutionis <unclear>voluntatis<!-- possible correction --></unclear> 
+            ad causas suas et reflexiones super actus suos et cognitionis earum creatura quandoque utitur 
+            <lb ed="#E"/>deo et credit eo frui
+          </p>
+          <p xml:id="ppr-l43-iiipmc">
+            Ideo dicendum Quod in isto casu iudaei licet credebant obsequium praestare 
+            <lb ed="#E"/>deo nichilominus tamen propter cupiditatem suam vel <sic>manem <!-- probably should be "vanam" --></sic> gloriam vel aliam causam pecca<lb ed="#E"/>bant 
+            Omnis fruitio est dilectio dei super omnia ergo in casu nostro iste frueretur deo ergo 
+            <lb ed="#E"/>diligeret deum super omnia et ultra ergo non est in peccato quia intendo tenere istam viam 
+            <lb ed="#E"/>quod non stat quod aliquis sit in peccato et diligit deum super omnia
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e416">
+          <head xml:id="ppr-l43-Hqouvam">Quod omnis usus ordinatus est vitae aeternae meritorius</head>
+          <p xml:id="ppr-l43-cdibem">
+            Consequenter infero quod omnis usus 
+            <lb ed="#E"/>ordinatus est vitae aeternae meritorius multi doctores modum tenent contrarium nego offendam 
+            <lb ed="#E"/>recito probabiliter patet quod omnis talis est fruitio dei ergo est dilectio dei super omnia semper loquor 
+            <lb ed="#E"/>de actibus de liberatis unde vel est odium creaturae propter deum vel dilectio ergo fruitio patet ex 
+            <lb ed="#E"/>istis dictis
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e442">
+          <head xml:id="ppr-l43-Hqoamef">Quod omnis actio meritoria est fruitio</head>
+          <p xml:id="ppr-l43-isqdpo">
+            Sequitur quod omnis actio meritoria proprie dicta scilicet quae est elicita a voluntate est 
+            <lb ed="#E"/>fruitio patet quia omnis talis vel est dilectio vel odium creaturae in relatione ad deum propter se 
+            <lb ed="#E"/>et sic sive sit dilectio dei sive odium creaturae propter deum est fruitio quia sic est usus licitus 
+            <lb ed="#E"/>quia omnis talis habet deum pro obiecto dilecto et non odito sed malum oditur et eodum actu deus 
+            <lb ed="#E"/>diligitur
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e469">
+          <head xml:id="ppr-l43-Hqcmdeo">Quod cuiuslibet meritoriae actionis Deus est obiectum</head>
+          <p xml:id="ppr-l43-sqcidr">
+            Sequitur quod cuiuslibet meritoriae actionis deus est obiectum patet quia omnis talis 
+            <lb ed="#E"/>actio est fruitio ergo habet deum pro obiecto Ex istis patet quod debet esse magna sollicitudo ad referendum 
+            <lb ed="#E"/>actus omnes in deum quia si quis non referat in deum fruitur creatura Et secundum <name ref="#Augustine">augustinum</name> 
+            <lb ed="#E"/>est maxima diversitas non referre in deum <ref xml:id="ppr-l43-Rd1e491" corresp="#ppr-l43-Qsmsdgf"><name ref="#Paul">Apostolus</name> scribit <title ref="#Icor">ad corintheos</title> 10</ref> <quote xml:id="ppr-l43-QBsmsdgf" ana="#Icor10_31">sive mandu<lb ed="#E"/>catis 
+            sive bibitis vel quid aliud facitis omnia in dei gloriam facite</quote> unde praecipit omnis actus 
+            <lb ed="#E"/>interiores referri in deum hoc enim est deum ex toto corde diligere scilicet habere respectu cuiuscumque operationis 
+            <lb ed="#E"/>intentionem ultimi finis sit quod cor nihil statuat sibi qui finaliter referat ad deum
+          </p>
+          <p xml:id="ppr-l43-isaoae">
+            <ref xml:id="ppr-l43-Rd1e521" corresp="#ppr-l43-Qicrioc"><title ref="#IIcor">Secundo ad corintheos</title> 10</ref> <quote xml:id="ppr-l43-Qicrioc" ana="#IIcor10_5">in captivitatem redigentes omnem intellectum in obsequium 
+            <pb ed="#E" n="60-v"/>
+            <lb ed="#E"/>christi</quote> etc ibi dicitur ex toto corde id est referat etc sicut dictum est 
+            <!-- possible break point -->
+            Secundo dicitur ibi ex toto men<lb ed="#E"/>te 
+            id est ad fidem scilicet quod credat credenda iuxta ordinationes ecclesiae Et licet evidentia maxima esset 
+            <lb ed="#E"/>ad contrarium debet captivare suum intellectum et assentire
+          </p> 
+          <p xml:id="ppr-l43-egqoae">
+            Etiam 3o generaliter omnem suam affectionem 
+            <lb ed="#E"/>in deum dirigat <ref xml:id="ppr-l43-Rd1e557" corresp="#ppr-l43-QBccncnu"><title ref="#IIcor">2o Ad Corinthios</title> 5o capitulo</ref> <quote xml:id="ppr-l43-QBccncnu" ana="#IIcor5_14">Caritas christi urget nos</quote> Postillae glosant 
+            <lb ed="#E"/>quod caritas christi debet nos sic artare quod nullam habemus affectionem nisi ex caritate et sic operationes 
+            <lb ed="#E"/>exteriores debent fieri ex caritate et hoc tunc ex fortitudine unde actus fortitudinis stant in executione
+            <lb ed="#E"/>operum adextra
+          </p>
+        </div>
+        <div xml:id="ppr-l43-Dd1e587">
+          <head xml:id="ppr-l43-Hrectio">Recapitulatio</head>
+          <p xml:id="ppr-l43-redpnm">
+            Resumendo ergo diligimus deum super omnia quando ex toto corde id est dum tota inten<lb ed="#E"/>tio 
+            fertur in deum ex tota mente propter continuam considerationem et spontaneam absque etiam qua<lb ed="#E"/>cumque 
+            apparentia propter deum ex tota anima sic quod tota affectio in deum dirigatur 
+          </p>
+        </div>
+        <div xml:id="ppr-lectio43-Dd1e471">
+          <head xml:id="ppr-lectio43-Hd1e473">Conclusiones</head>
+          <p xml:id="ppr-lectio43-d1e476">
+            Circa distinctionem 41 Prima conclusio infima quod nullus meretur suam praedestinationem patet quia antequam sumus 
+            <lb ed="#E"/>nati vel sumus praedestinati vel praestiti
+          </p>
+          <p xml:id="ppr-lectio43-d1e481">
+            Secunda conclusio creatura non potest mereri suam <unclear>reparationem</unclear> 
+            <lb ed="#E"/>patet quia aeterna est tamen eius effectus bene meretur quia creatura meretur deferri et obdu<lb ed="#E"/>rari
+          </p>
+          <p xml:id="ppr-lectio43-d1e491">
+            Tertia conclusio deus elegit ab aeterno quos voluit non elegit quia fideles sed quia 
+            <lb ed="#E"/>elegit fideles ita quod a gratia praedestinationis procedunt bona opera Dixit <name ref="#peter-plaoul">magister petrus de pleu</name> 
+            quod tenendum est quod indifferenter quilibet potest salvari ita quod nulla necessitatem ista praedestinatio ponit 
+            <lb ed="#E"/>unde dicit <ref xml:id="ppr-lectio43-Rd1e500" corresp="#ppr-lectio43-Qd1e504"><name ref="#Paul">apostolus</name></ref> <quote xml:id="ppr-lectio43-Qd1e504" ana="#Itim2_4">deus vult omnes salvos fieri</quote>
+          </p>
+          <p xml:id="ppr-lectio43-d1e508">
+            Quarta conclusio quod fuit antiquorum opinio 
+            <lb ed="#E"/>quod animae fuerunt creatae in caelo et quia peccaverunt superius ponuntur hic incorporibus 
+            <lb ed="#E"/>ut hic patiantur miserias dicit <name ref="#Lombard">magister</name> quod istud non est verum quia simul creantur et vivun<lb ed="#E"/>tur 
+            corpori Ultimo dicit <name ref="#Lombard">magister</name> quod deus semel scivit semper scit sic non est verum quia 
+            aliquando scivit nullam creaturam esse et mundum fore producendum sed debet intelligi quod nichil 
+            <lb ed="#E"/>desinit cognoscere quia eandem notitiam habet de futuritione mundi sed non assensum
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
