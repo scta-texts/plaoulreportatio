@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,13 +30,12 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+        
       </div>
     </front>
     <body>
         <div xml:id="ppr-lectio78">
-          <head xml:id="l78-Hldtldt" subtype="title">Lectio 77, de Trinitate [Erlangen Transcription]</head>
+          <head xml:id="ppr-l78-Hldtldt" subtype="title">Lectio 78, de Trinitate [Erlangen Transcription]</head>
           <p xml:id="ppr-l78-safaap">
             <lb ed="#E"/>In Alia leccione 
             <lb ed="#E"/>Ut protestatus sum non intedo loqui de scismate nec de potestate papae Sed solummodo 
@@ -123,7 +119,7 @@
             <lb ed="#E"/>declaratione advertendum quod pro bono speciei et specialiter humanae sunt plures instinctus venientes[?] 
             <lb ed="#E"/>ex parte naturae universalis primus est appetitus civiliter congregandi quia homo se solo non sufficeret 
             <lb ed="#E"/>vivere ideo natura universalis <corr><del rend="expunctuated">non</del></corr> indidit sibi naturaliter inclinari ad civiliter conversandum Ideo 
-            <lb ed="#E"/>dicit <name>philosophus</name> primo <title>polliticae</title> <quote>homo est animalis naturaliter polliticum et civile</quote> ubi intendit quod civilitas 
+            <lb ed="#E"/>dicit <name>philosophus</name> primo <title>polliticae</title> <quote xml:id="ppr-l78-Qd1e286" ana="#Aristotle_Politica_1_a">homo est animalis naturaliter polliticum et civile</quote> ubi intendit quod civilitas 
             <lb ed="#E"/>est simpliciter naturalis et sic homo est animalis coniugule et civile et sociale. Etiam est animalis coniugabile 
             <lb ed="#E"/>quod inclinare ad coniugium causa prolis procreandae Etiam ex hoc consurgit ordo pollit<lb ed="#E"/>tisandi[?] 
             istud tangit <name>aristotelis</name> in <title>pollita</title>
@@ -179,7 +175,7 @@
           </p>
           <p xml:id="ppr-l78-pimaae">
             Et pono istam propositionem quod spiritum procedere a fine[?] sufficienter 
-            <lb ed="#E"/>deducitur ex scriptura Istam deducit <ref><name>almachius</name> in sexto libro <title>quaestionibus armenorum</title></ref> 
+            <lb ed="#E"/>deducitur ex scriptura Istam deducit <ref xml:id="ppr-l78-Rd1e379"><name>almachius</name> in sexto libro <title>quaestionibus armenorum</title></ref> 
             <lb ed="#E"/>ubi inducit plurimas auctoritas unde pluries legitur spiritus sanctus missus a filio quae habitudo 
             <lb ed="#E"/>non ocncederetur nisi esset emanatio unius ab alio
           </p>
@@ -232,7 +228,7 @@
             <lb ed="#E"/>quod non sit evidenter expressum sed aliter id eset repugnans 
           </p>
           <p xml:id="ppr-l78-eaaspd">
-            eciam <title>ad galthas</title> primo <quote>Si quis 
+            eciam <title>ad galthas</title> primo <quote xml:id="ppr-l78-Qd1e542">Si quis 
             <lb ed="#E"/>nobis evangelizaverit praeter id[?] quod vos accepistis anathema sit</quote> unde doctos theologus non prohibetur 
             <lb ed="#E"/>veritates decere quae vero sunt expresse in articulis fidei <choice><orig>ymmo</orig><reg>immo</reg></choice> officiam eius docere veritates 
             <pb ed="#E" n="106v"/><lb ed="#E"/>Multum distantes a principiis articulis sed non debent docere aliud id est <choice><orig>repungnans</orig><reg>repugnans</reg></choice> 
