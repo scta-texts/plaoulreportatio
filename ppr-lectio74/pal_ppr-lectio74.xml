@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,8 +25,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -45,10 +41,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#PV" n="135-r"/>
         <cb ed="#PV" n="a"/>
@@ -57,7 +50,7 @@
     <body>
       <div xml:id="ppr-lectio74">
         <head xml:id="ppr-l74-Hldtldt">Lectio 74, de Trinitate [St. Victor Transcription]</head>
-        <div>
+        <div xml:id="ppr-l74-Dd1e4124">
           <head xml:id="ppr-l74-Hdmimit">De modo imaginando Trinitatem</head>
           <p xml:id="ppr-l74-dmiatc">
             <lb ed="#PV"/>In alia lectione
@@ -69,7 +62,7 @@
             <lb ed="#PV"/>ymaginandi huiusmodi trinitatem 
             <lb ed="#PV"/>recitandi sunt modi falsi ut ex<lb ed="#PV"/>cludantur
           </p>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4151">
             <head xml:id="ppr-l74-Hpmpmpm">Primus Modus</head>
             <p xml:id="ppr-l74-upmisc">
               unam viam 
@@ -147,7 +140,7 @@
               <lb ed="#PV"/>sit creatura etiam spiritus sanctus 
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4329">
             <head xml:id="ppr-l74-Hsmsmsm">Secundus Modus</head>
             <p xml:id="ppr-l74-smipef">
               <lb ed="#PV"/>2us modus sup<lb ed="#PV"/>ponendo 
@@ -206,7 +199,7 @@
               <lb ed="#PV"/>personalis
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4470">
             <head xml:id="ppr-l74-Htmtmtm">Tertius modus</head>
             <p xml:id="ppr-l74-aeipev">
               Alia est ymaginatio 
@@ -244,7 +237,7 @@
               <lb ed="#PV"/>inter essentiam et personas
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4550">
             <head xml:id="ppr-l74-Hqrmqrm">Quartus modus</head>
             <p xml:id="ppr-l74-qmeavi">
               <lb ed="#PV"/>Alia ymaginatio ponendo 
@@ -264,7 +257,7 @@
               <lb ed="#PV"/>sacrae scripturae est satis in oppositum
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4594">
             <head xml:id="ppr-l74-Hqnmqnm">Quintus modus</head>
             <p xml:id="ppr-l74-qiefhv">
               <lb ed="#PV"/>Alia est ymaginatio appropin<lb ed="#PV"/>quans 
@@ -281,7 +274,7 @@
               <name>magister</name> distinctione <unclear>24</unclear> primi
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4636">
             <head xml:id="ppr-l74-Hsxmxm">Sextus modus</head>
             <p xml:id="ppr-l74-suphpf">
               Ultima positio 
@@ -334,11 +327,11 @@
             </p>
           </div>
         </div>
-        <div>
+        <div xml:id="ppr-l74-Dd1e4767">
           <head xml:id="ppr-l74-Hcorria">Corollaria</head>
           <!-- doesn't seem present <p xml:id="ppr-l74-eiiiic"><g ref="#dbslash"/>Ex istis inferuntur 
             corollaria.</p> -->
-          <div>
+          <div xml:id="ppr-l74-Dd1e4774">
             <head xml:id="ppr-l74-Hpcmpcm">Primum corollarium</head>
             <p xml:id="ppr-l74-peqnea">
               primum corollarium male dicunt 
@@ -371,7 +364,7 @@
               <lb ed="#PV"/>una non est alia
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4854">
             <head xml:id="ppr-l74-Hsccium">Secundum corollarium</head>
             <p xml:id="ppr-l74-scqrte">
               <lb ed="#PV"/>Sequitur 2o 
@@ -410,9 +403,9 @@
               <lb ed="#PV"/>rei <choice><orig>in mense</orig><reg>immense</reg></choice>
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e4958">
             <head xml:id="ppr-l74-Htcmtcm">Tertium corollarium</head>
-            <p>
+            <p xml:id="ppr-l74-d1e4963">
               <!-- no parallel -->
               Sequitur <sic>2o</sic> <!-- might suggest that the above second corollary division is a mistake and the "3m" in the SV et al. edition is a mistake -->
               <lb ed="#PV"/>contra <name ref="#Scotus">scotum</name> contra <title ref="#Ripa">de ripa</title> contra 
@@ -490,7 +483,7 @@
               superaddita
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e5189">
             <head xml:id="ppr-l74-Hqrcqrc">Quartum corollarium</head>
             <p xml:id="ppr-l74-qcqspp">
               Sequitur quod prorprie<lb ed="#PV"/>tates 
@@ -502,7 +495,7 @@
               <lb ed="#PV"/>quod sit proprietas patris
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e5211">
             <head xml:id="ppr-l74-Hqncqnc">Quintum corollarium</head>
             <p xml:id="ppr-l74-qspqsf">
               Sequitur 
@@ -517,7 +510,7 @@
               <lb ed="#PV"/>quod personae distinguuntur suis proprie<lb ed="#PV"/>tatibus
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e5248">
             <head xml:id="ppr-l74-Hsxcsxc">Sextum corollarium</head>
             <p xml:id="ppr-l74-scqvic">
               Sequitur ulterius quod tales 
@@ -541,7 +534,7 @@
               <lb ed="#PV"/>ut essentia et omnis essentia
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e5298">
             <head xml:id="ppr-l74-Hspcspc">Septimum corollarium</head>
             <p xml:id="ppr-l74-scqeep">
               Se<lb ed="#PV"/>quitur quod sinkategorematica reddentia propositines de 
@@ -561,7 +554,7 @@
               <lb ed="#PV"/>haec propter materiam divinarum
             </p>
           </div>
-          <div>
+          <div xml:id="ppr-l74-Dd1e5353">
             <head xml:id="ppr-l74-Hocmocm">Octavum corollarium</head>
             <p xml:id="ppr-l74-ocitad">
               Sequitur 
