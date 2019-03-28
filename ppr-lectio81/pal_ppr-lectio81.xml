@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 81, de Caritate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 81, de Caritate [Palantine Transcription]</title>
+          <date when="2019-03-26">March 26, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="148-v"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio81">
+        <head xml:id="ppr-l81-Hldcldc">Lectio 81, de Caritate [Palantine Transcription]</head>
+        <div xml:id="ppr-l81-Dd1e85">
+         <head xml:id="ppr-l81-Hpcgcgc">Propositio circa generatio caritatis</head>
+          <p xml:id="ppr-l81-pdmavo">
+            <lb ed="#PV" n="3"/>In alia lectione
+            <lb ed="#PV"/>Pro aliquali declaratione materiae 
+            <lb ed="#PV"/>caritatis quae tangit totum ne<lb ed="#PV"/>gotium 
+            theologicum primo a generalibus 
+            <lb ed="#PV"/>incipiendo ponam istam propositionem
+            <lb ed="#PV"/>Quamvis creatae caritatis do<lb ed="#PV"/>num 
+            non sit absolute neccessariam 
+            <lb ed="#PV"/>viatori pro salute consequenda 
+            <lb ed="#PV"/>tamen secundum legem nunc statu<lb ed="#PV"/>tam 
+            requiritur aliquod donum 
+            <lb ed="#PV"/>creatum concurrere in triplici genere 
+            <lb ed="#PV"/>causae in regno animae principaliter
+            <lb ed="#PV"/>influxiva et cum hoc essentialiter
+            <lb ed="#PV"/>requisita ad virtuose operandum
+          </p>
+          <div xml:id="ppr-l81-Dd1e93">
+            <head xml:id="ppr-l81-Hrppppp">Rationes pro prima parte</head>
+            <p xml:id="ppr-l81-pppamo">
+              <lb ed="#PV"/>prima pars probatur supponendo 
+              <lb ed="#PV"/>quod quaelibet <subst><del>substantia</del><add place="above-line">forma</add></subst> unita suo subiecto 
+              <lb ed="#PV"/>unitur ut motor vel motrix 
+              <lb ed="#PV"/>etiam ut actus inhaerens quantum 
+              <lb ed="#PV"/>ad habitudinem forma ad subiectum 
+              <lb ed="#PV"/>ut est motrix constat quod spiritus sanctus 
+              <lb ed="#PV"/>vel deus potest supple Nam 
+              <lb ed="#PV"/>omnem operationem quam potest habere 
+              <lb ed="#PV"/>forma spiritus sanctus potest habere ex eo quod 
+              <lb ed="#PV"/>hoc reducitur ad genus causae 
+              <lb ed="#PV"/>efficientis 
+              
+              unde spiritus sanctus se solo suf<lb ed="#PV"/>ficit 
+              inclinare producere actum 
+              <lb ed="#PV"/>solum quem producit <unclear>me?nte</unclear>
+              <lb ed="#PV"/>animam
+            </p>
+            <!-- seems like "secundo" is not present in PV. V seems to make a partial skip here -->
+            <!-- <p xml:id="ppr-l81-sssspa">
+              Secundo spiritus sanctus potest producere actum se solo, qui immediate 
+              ab anima mediante caritate producitur, igitur quantum ad totam causalitatem 
+              quam haberet caritas respectu animae spiritus sanctus 
+              se solo sufficeret, igitur ex parte actuum non Requiritur 
+              donum creatum <unclear>quoniam[?]</unclear> per spiritum sanctum possit adimpleri.
+            </p>-->
+            <p xml:id="ppr-l81-tdapsc">
+              Item divina acceptatio quae 
+              <lb ed="#PV"/>est actus interior dei est causa 
+              <lb ed="#PV"/>sufficiens ad hoc quod creatura consequatur 
+              <lb ed="#PV"/>saltum nam eo ipso quod creaturam 
+              <lb ed="#PV"/>vult deus esse dignam vel habetur 
+              <lb ed="#PV"/>vitam aeternam digna est Sed 
+              <lb ed="#PV"/>voluntas divina non dependet 
+              <lb ed="#PV"/>ab alio creato nec est alicui 
+              <lb ed="#PV"/>creato allegatur quando sufficiat 
+              <lb ed="#PV"/>dare creaturae vitam aeternam
+              <pb ed="#PV" n="149-r" />
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>absque hoc quod creaturae habeat 
+              <lb ed="#PV"/>aliquem habitum <unclear>purae</unclear> caritatis 
+              <lb ed="#PV"/>vel alterius doni creatae ymmo 
+              <lb ed="#PV"/>sola voluntate potest acceptare 
+              <lb ed="#PV"/>creaturam quae est sufficiens se so<lb ed="#PV"/>la
+            </p>
+            <p xml:id="ppr-l81-qadssd">
+              Item ante determinationem ecclesiae 
+              <lb ed="#PV"/>quod infunduntur fides spes et caritas 
+              <lb ed="#PV"/>non concludebatur sufficienter 
+              <lb ed="#PV"/>ex scriptura quod esset alia caritas 
+              <lb ed="#PV"/>quam spiritus sanctus ymmo plures 
+              <lb ed="#PV"/>videbantur auctoritates ad hoc quod nullum 
+              <lb ed="#PV"/>donum creatum esset caritas <unclear>utque</unclear> 
+              <lb ed="#PV"/><ref><name ref="#Lombard">Magister</name> 17 distinctione primi</ref> Ex istis 
+              <lb ed="#PV"/>patet <unclear>quod</unclear> de potentia dei absoluta possibile 
+              <lb ed="#PV"/>est creaturam esse in statu salutis 
+              <lb ed="#PV"/>absque dono creato quocumque
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e123">
+            <head xml:id="ppr-l81-Hrpspsp">Rationes pro secunda parte</head>
+            <p xml:id="ppr-l81-sppdpp">
+              <lb ed="#PV"/>probatur 2a pars vicem  
+            </p>
+            <div xml:id="ppr-l81-Dd1e131">
+              <head xml:id="ppr-l81-Hppptgc">
+                Prima pars pro secunda parte: 
+                quod secundum legem nunc statutum requiritur 
+                aliquod donum creatum concurrere in triplici genere causae
+              </head>
+              <p xml:id="ppr-l81-peqrap">
+                quod secundum legem 
+                <lb ed="#PV"/>nunc statutam requiritur adhuc 
+                <lb ed="#PV"/>donum creatum concurrere intrinsici 
+                <lb ed="#PV"/>genere causae in regno animae et cum 
+                <lb ed="#PV"/>hoc Inordinatum essentia respectum 
+                <lb ed="#PV"/>omnium actuum et habituum virtuosorum 
+                <lb ed="#PV"/>producibilium in anima
+              </p> 
+              <p xml:id="ppr-l81-spasec">
+                primo quod rquir<lb ed="#PV"/>atur 
+                aliquis habitus creatus 
+                <lb ed="#PV"/>vel donum creatum adhoc est expresse 
+                <lb ed="#PV"/>decretalis dicens quod in baptismo 
+                <lb ed="#PV"/>infunditur donum creatum et gra<lb ed="#PV"/>tuitum 
+              </p>
+              <p xml:id="ppr-l81-sqrcem">
+                Item qua ratione fides 
+                <lb ed="#PV"/>et spes poneretur deo distincta 
+                <lb ed="#PV"/>eadem ratione de caritas
+              </p>
+              <p xml:id="ppr-l81-emacom">
+                Item accidentia 
+                <lb ed="#PV"/>ponuntur et ordinantur in operationes 
+                <lb ed="#PV"/>substantiarum generaliter licet forte apud 
+                <lb ed="#PV"/><unclear>protermentem</unclear> posset accidentia negari 
+                <lb ed="#PV"/>tamen doctrinaliter procedendo concedenda 
+                <lb ed="#PV"/>sunt accidentia conferentia adextra 
+                <lb ed="#PV"/><unclear>operationem substantialem</unclear> quae indiget accidentibus 
+                <lb ed="#PV"/>ad executionem suorum operationum 
+                <lb ed="#PV"/>ita in proposito requiratur accidens 
+                <lb ed="#PV"/>mobile puta caritas creata
+              </p>
+              <p xml:id="ppr-l81-qioprd">
+                Item
+                <cb ed="#PV" n="b"/> <!-- 149rb -->
+                iustitia originalis ponebatur 
+                <lb ed="#PV"/>quaedam qualitas distincta in sta<lb ed="#PV"/>tu 
+                et <sic>in nocentiae</sic> subiciens vires 
+                <lb ed="#PV"/>inferiores superioribus et eas con<lb ed="#PV"/>cordans 
+                Cum ergo caritas ponitur 
+                <lb ed="#PV"/>supplementum illius ipsa debet poni 
+                <lb ed="#PV"/>distincta
+              </p>
+            </div>
+            <div xml:id="ppr-l81-Dd1e157">
+              <head xml:id="ppr-l81-Hspptgc">Secunda pars pro secunda parte</head>
+              <head xml:id="ppr-l81-Hd1e166" type="question-title">Quod caritas reperiatur in triplici genere causae</head>
+              <p xml:id="ppr-l81-sqarov">
+                Sed quod concurrat intrinseci 
+                <lb ed="#PV"/>genere causae probatur primo de causa 
+                <lb ed="#PV"/>formali quia habet modum formae 
+                <lb ed="#PV"/>actuantis et vivificantis <name ref="#Augustine">augustinus</name> 
+                <lb ed="#PV"/>vocat eam vitari virtutum Ideo 
+                <lb ed="#PV"/>scriptura concordans cum proposito 
+                <lb ed="#PV"/>dicit fidem esse et mortuam quae 
+                <lb ed="#PV"/>est sine caritate igitur est veluti forma 
+                <lb ed="#PV"/>et vita omnino alias formas vivifi<lb ed="#PV"/>cans
+              </p>
+              <div xml:id="ppr-l81-Dd1e168">
+                <head xml:id="ppr-l81-Hqcsgcm" type="quesiton-title">Quod caritas se habeat in genere causae materialis</head>
+                <p xml:id="ppr-l81-sbgpbo">
+                  Unde <name ref="#GregoryGreat">gregorius</name> <quote xml:id="ppr-l81-Qd1e187">nihil 
+                  <lb ed="#PV"/>habet viriditatis ramus boni operis 
+                  <lb ed="#PV"/>nisi remaneat in radice caritatis</quote> 
+                  <lb ed="#PV"/>ita quod simile aliae virtutes sunt 
+                  <lb ed="#PV"/>sicut <unclear>rami</unclear> et carentes vita nisi 
+                  <lb ed="#PV"/>sint in radice caritatis
+                </p>
+                <p xml:id="ppr-l81-asagcm">
+                  Aliae sunt 
+                  <lb ed="#PV"/>auctoritates innumerabiles ad hoc quod 
+                  <lb ed="#PV"/>caritas est forma aliarum virtutum 
+                  <lb ed="#PV"/><unclear>ras</unclear> verificans ideo fides sine 
+                  <lb ed="#PV"/>caritate vacatur informis et per 
+                  <lb ed="#PV"/>consequens informa aliarum  
+                </p>
+              </div>
+              <div xml:id="ppr-l81-Dd1e183">
+                <head xml:id="ppr-l81-Hqcsgcf" type="question-title">Quod caritas se habeat in genere causae finalis</head>
+                <p xml:id="ppr-l81-daqasp">
+                  deinde 
+                  <lb ed="#PV"/>quod concurrat in genere causae <unclear>finalis</unclear>
+                  <lb ed="#PV"/>patet ex prioritate regiminis animae nam 
+                  <lb ed="#PV"/>sicut dux exercitus est finis <unclear>oi?m</unclear> 
+                  <lb ed="#PV"/>partium aliae virtutes subordinatur 
+                  <lb ed="#PV"/>sibi ad modum militum subor<lb ed="#PV"/>dinatorum 
+                  duci
+                </p>
+                <p xml:id="ppr-l81-shcvam">
+                  Item <name>apostolus</name>
+                  <lb ed="#PV"/>finis praeceptorum est dilectio ergo ca<lb ed="#PV"/>ritativa 
+                  dilectio est finis omnium 
+                  <lb ed="#PV"/>mandatorum legis
+                </p>
+              </div>
+              <div xml:id="ppr-l81-Dd1e198">
+                <head xml:id="ppr-l81-Hqcsgce" type="question-title">Quod caritas se habeat in genere causae efficientis</head>
+                <p xml:id="ppr-l81-tpqram">
+                  <lb ed="#PV"/>deinde qod con<lb ed="#PV"/>currat 
+                  effective patet quia generalis sicut 
+                  <lb ed="#PV"/>actus generant habitus ita vice<lb ed="#PV"/>versa 
+                  habitus morales possunt 
+                  <lb ed="#PV"/>producere actum
+                </p>
+                <p xml:id="ppr-l81-sampnc">
+                  <!-- also related to 
+                    <p xml:id="ppr-l81-unepcl">
+                    <p xml:id="ppr-l81-eqsisi">
+                    -->
+                  Item actus meritorii
+                  <pb ed="#PV" n="149-v"/>
+                  <cb ed="#PV" n="a"/>
+                  <lb ed="#PV"/>excedunt voluntatem naturalem 
+                  <lb ed="#PV"/>facultatem igitur requiritur concursus 
+                  <lb ed="#PV"/>supernaturalis scilicet ipsius caritatis solum 
+                  <lb ed="#PV"/>poneretur ad animae decorem. 
+                  <!-- should there be a break here?? -->
+                  Et sequitur 
+                  <lb ed="#PV"/>quod ex puris naturalibus posset communis 
+                  <lb ed="#PV"/>mereri vitam aeternam quo <unclear>sanum</unclear> 
+                  <lb ed="#PV"/>errori <name>pelagii</name> unde <name>pelagius</name> 
+                  <lb ed="#PV"/>non negat quando caritas facilitatem 
+                  <lb ed="#PV"/>animam ad exsecutionem operum meri<lb ed="#PV"/>toriorum 
+                  licet secundum ipsum non 
+                  <lb ed="#PV"/>requiritur caritas 
+                  
+                  et sic si conce<lb ed="#PV"/>deretur 
+                  quod nullo modo active concurreret 
+                  <lb ed="#PV"/>esset error superior animae habuit 
+                  <lb ed="#PV"/>in animae superius Imperium et simile 
+                  <lb ed="#PV"/>vires inferiores plene obe<lb ed="#PV"/>diebant 
+                  et in optima tali propor<lb ed="#PV"/>tione 
+                  consistit sanitas et pax 
+                  <lb ed="#PV"/>Sed ratione culpae originalis 
+                  <lb ed="#PV"/>sublata est iustitia originalis 
+                  <lb ed="#PV"/>quae servabat concordiam et intro<lb ed="#PV"/>ducta 
+                  est cupiditas cuius officium 
+                  <lb ed="#PV"/>est trahere portionem superiorem ad 
+                  <lb ed="#PV"/>obiectivam inferiorum et trahere 
+                  <lb ed="#PV"/>anima ad terrena contemplanda 
+                  
+                  <lb ed="#PV"/>Caritas est sanitas animae intellectiva 
+                  <lb ed="#PV"/>sursum et intellectiva virium 
+                  <lb ed="#PV"/>inferiorum ad obiediendum superi<lb ed="#PV"/>ori
+                </p>
+                <!--
+                  contained somewhere in above 
+                  <p xml:id="ppr-l81-unepcl">
+                  
+                  Ubi notandum est quod 
+                  <ref xml:id="ppr-l81-Rd1e244">
+                    <name ref="#Augustine">Augustinus</name> in libro 
+                    <title ref="#onNatureAndGrace">de natura et gratia</title>
+                  </ref>, 
+                  qui comparat animam sanitati. 
+                  Unde notat <ref xml:id="ppr-l81-Rd1e253">ibidem</ref> 
+                  quod status innocentiae habuit sanitatem omnium 
+                  virium in regno animae regimen illarum constituentem. 
+                  unde superior ratio habuit in anima 
+                  plenum imperium et singule vires prout oportuit 
+                  obediebant superiori portioni, sed ratione 
+                  culpae originalis sublata est iustitia originalis, 
+                  quae conservabit concordiam inter vires inferiores 
+                  ad superiorem et loco eius ponitur cupiditas 
+                  cuius effectus est oppositus et contrarius effectui 
+                  iustitiae originalis, ita quod officium cupiditatis 
+                  est trahere portionem superiorem ad obedientiam 
+                  virium inferiorum. 
+                  Unde officium portionis superiorum 
+                  erat contemplari spiritualia et caelestia et 
+                  per obedientiam ipsius ad vires inferiores trahitur 
+                  ad vacandum circa terrena nisi per caritatem liberetur.
+                </p>-->
+                <!--
+                  contained somewhere in above 
+                  <p xml:id="ppr-l81-eqsisi">
+                  Ex quo sequitur quod caritas est animae sanitas 
+                  et agit in anima, ut vires inferiores superiori 
+                  portioni seu rationi obediant, sed adhuc 
+                  caritas ultra addit puta roborationem 
+                  maiorem quam erit sanitas in statu innocentiae.
+                </p>-->
+                <p xml:id="ppr-l81-unsnl">
+                  Advertendum quod in statu 
+                  <lb ed="#PV"/>innocentiae animae vi suae sanitatis 
+                  <lb ed="#PV"/>licet potest exire in actum diligendi 
+                  <lb ed="#PV"/>deum super omnia non tamen 
+                  <lb ed="#PV"/>in actum eiusdem speciei cum actu 
+                  <lb ed="#PV"/>qui nunc elicitur caritate manente 
+                  <lb ed="#PV"/>loquor de specifica perfectione 
+                </p>
+              </div>
+            </div>
+          </div>
+         </div>
+        <div xml:id="ppr-l81-Dd1e240">
+         <head xml:id="ppr-l81-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l81-Dd1e245">
+            <head xml:id="ppr-l81-Hpcqosv">Primum Corollarium</head> 
+            <head xml:id="ppr-l81-Hd1e278" type="question-title">quod caritas evidenter potest denominari omnes species virtutis</head>
+            <p xml:id="ppr-l81-eqseqv">
+              <lb ed="#PV"/>Sequitur quod caritas potest evidenter 
+              <lb ed="#PV"/>denominari omnis speciei virtutis scilicet 
+              <lb ed="#PV"/>utrum sit evidenter prudentia 
+              <lb ed="#PV"/>fortitudo iustitia et temporantia
+              <lb ed="#PV"/>Et causaliter sufficienter et exeat in 
+              <lb ed="#PV"/>actum et sic intelligo dictum alias 
+              <lb ed="#PV"/>potest dici quod materia prima contineret 
+              <lb ed="#PV"/>omnes virtutes evidenter quia continet 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>animam quae est subiectum virtuti <unclear>robora?</unclear> 
+              <lb ed="#PV"/>istud per <ref xml:id="ppr-l81-Rd1e283"><name ref="#Augustine">augustinum</name> in libro <title>de mo<lb ed="#PV"/>ribus 
+              ecclesiae</title></ref> ubi potest caritatem 
+              <lb ed="#PV"/>vel maiore pro genere omnium virtu<lb ed="#PV"/>tum 
+              et ponit quod nobiliori <unclear>un</unclear> 
+              <lb ed="#PV"/>potest in actum quam alia virtus
+           </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e259">
+            <head xml:id="ppr-l81-Hd1e261">Secundum Corollarium</head>
+            <head xml:id="ppr-l81-Hd1e301" type="question-title">quod caritas sit realiter cognitio</head>
+            <p xml:id="ppr-l81-ssqddo">
+              <lb ed="#PV"/>Sequitur quod caritas sit realiter 
+              <lb ed="#PV"/>cognitio probatur quia caritas potest im<lb ed="#PV"/>mediate 
+              in actum prudentiae et 
+              <lb ed="#PV"/>hoc non esset nisi habitus cognitio<lb ed="#PV"/>nis 
+              cognitivus igitur caritas est 
+              <lb ed="#PV"/>huiusmodi ymmo sequitur quod potest vo<lb ed="#PV"/>cari 
+              prudentia scientiam sapientiam
+              <lb ed="#PV"/>unde <ref xml:id="ppr-l81-Rd1e266" corresp="#ppr-l81-Quddddo">scriptura in <title ref="#Iio">canonica iohannis</title></ref>
+              caritas est <quote xml:id="ppr-l81-Quddddo" ana="#Iio2_27">unctio docens de 
+              omnibus</quote> ita quod caritas dirigit 
+              <lb ed="#PV"/>intellectum practicum etc speculativum 
+              <lb ed="#PV"/>ideo est unctio docens
+              
+            </p> 
+           <!-- comparing with vat, it seemed like something might be left out here. dbcheck against sorb -->  
+           <!-- 
+             not clear if present, perhaps included in above
+             
+             <p xml:id="ppr-l81-endddo">
+             Et nedum dirigit affectu, 
+             sed intellectum practicum et speculativum, 
+             igitur est <unclear>uncio[?]</unclear> 
+             docens de omnibus.
+           </p>-->
+          </div>
+          <div xml:id="ppr-l81-Dd1e289">
+            <head xml:id="ppr-l81-Htcqrvc"><supplied>Tertium corollarium</supplied></head> 
+            <head xml:id="ppr-l81-Hd1e339" type="question-title"><supplied>Quod in habitu caritatis relucet veritas credendorum</supplied></head>
+            <p xml:id="ppr-l81-tsqcsa">
+              <!-- break ? -->
+              Sequitur 
+              <lb ed="#PV"/>quod in habitu caritatis relucent 
+              <lb ed="#PV"/>veritates credendorum Nam 
+              <lb ed="#PV"/>ipse potest in actum cuiuscumque 
+              <lb ed="#PV"/>virtutis igitur in actum credendi 
+              <lb ed="#PV"/>et licet ex ordinatione divina non 
+              <lb ed="#PV"/>exeat se sola scilicet sine spe et fide 
+              <lb ed="#PV"/>quia impossibile est fine fide placere 
+              <lb ed="#PV"/>deo ut patet per <name>apostolum</name> tamen quantum 
+              <lb ed="#PV"/>est ex parte sui potest exire in actum 
+              <lb ed="#PV"/>fidei <unclear>sive</unclear> fide Istud non est mi<lb ed="#PV"/>randum 
+              <unclear>???????</unclear> quod fides 
+              <lb ed="#PV"/>est amor
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e301">
+            <head xml:id="ppr-l81-Hqcqcho">Quartum Corollarium</head>
+            <head xml:id="ppr-l81-Hd1e367" type="question-title">Quod credendorum facilitas ex intensione caritatis habet originem</head>
+            <p xml:id="ppr-l81-qscmfa">
+              Sequitur quod credendi 
+              <lb ed="#PV"/>facilitas ex intentione caritatis 
+              <lb ed="#PV"/>maxime habet originem patet Nam 
+              <lb ed="#PV"/>caritas sit credendorum relucentia 
+              <lb ed="#PV"/>sequitur quod anima facilitetur ad creden<lb ed="#PV"/>dum 
+              ex intentione caritatis 
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e311">
+            <head xml:id="ppr-l81-Hqcqfda">Quintum Corollarium</head> 
+            <head xml:id="ppr-l81-Hd1e380" type="question-title">Quod caritas est medicina infirmorum circa fidei difficiles articulos</head>
+            <p xml:id="ppr-l81-qsqhsm">
+              <lb ed="#PV"/>Sequitur quod caritas sit medi<lb ed="#PV"/>cina 
+              inferiorum circa fidei articulos 
+              <lb ed="#PV"/>sic quod caritas recurrat ad deum 
+              <lb ed="#PV"/>sicut ad hoc sunt positae regulae 
+              <lb ed="#PV"/>nam est suprema medicina
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e320">
+            <head xml:id="ppr-l81-Hscqqap">Sextum corollarium</head> 
+            <head xml:id="ppr-l81-Hd1e392" type="question-title">Quod simplex persona caritate informata 
+              est magis virtuosa quam aliquis philosophus
+            </head>
+            <p xml:id="ppr-l81-ssqeis">
+              Sequitur 
+              <pb ed="#PV" n="150-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>quod simplex persona caritate informa
+              <lb ed="#PV"/>est magis virtuosa quam sint <name ref="#Socrates">so<lb ed="#PV"/>crates</name>
+              vel <name ref="#Seneca">seneca</name> posito quod nullus 
+              <lb ed="#PV"/>eorum habuit caritate quia est emi<lb ed="#PV"/>nentiori 
+              modo quaelibet virtus 
+              <lb ed="#PV"/>quem quaecumque data
+            </p>
+            <p xml:id="ppr-l81-sicvis">
+              Etiam extensior 
+              <lb ed="#PV"/>virtus quia res cuiuscumque meretur 
+              <lb ed="#PV"/>potest habere actum sed sic nam est de 
+              <lb ed="#PV"/>aliqua alia virtute ymmo potest 
+              <lb ed="#PV"/>inferri quod parvulus noviter 
+              <lb ed="#PV"/>baptizatus et non habens usum 
+              <lb ed="#PV"/>rationis sit magis virtuosus quam 
+              <lb ed="#PV"/>unquam fuerit aliquis philosophorum 
+              <lb ed="#PV"/>non habentem caritatem licet sint 
+              <lb ed="#PV"/>in parvulo impedimentum quantum 
+              <lb ed="#PV"/>ad executionem operationem scilicet propter 
+              <lb ed="#PV"/>impedimenta naturalia ut 
+              <lb ed="#PV"/>etiam patet de adultuo noviter 
+              <lb ed="#PV"/>converso qui difficiliter exit in bona 
+              <lb ed="#PV"/>opera propter repugnantias 
+              <lb ed="#PV"/>habitus virtuti infusae
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e338">
+            <head xml:id="ppr-l81-Hscqead">Septimum corollarium</head> 
+            <head xml:id="ppr-l81-Hd1e413" type="question-title">Quod pro quocumque regimine caritas est aptissima dispositio</head>
+            <p xml:id="ppr-l81-ssqset">
+              Sequitur 
+              <lb ed="#PV"/>ulterius quod pro quocumque regimine 
+              <lb ed="#PV"/>caritas est aptissima dispositio 
+              <lb ed="#PV"/>patet primo quia pro regimine 
+              <lb ed="#PV"/>animae ipsa est sufficientissima 
+              <lb ed="#PV"/><unclear>dogma</unclear> et reductiva Etiam 
+              <lb ed="#PV"/>ad regiminem politiae quia qui potest 
+              <lb ed="#PV"/>primo regem regiminem animae est 
+              <lb ed="#PV"/>aptior ad regiminem politiae 
+              <lb ed="#PV"/>Et quia <unclear>cop?as</unclear> non quaerit 
+              <lb ed="#PV"/>quae sua sunt sed quae christi 
+              <lb ed="#PV"/>et <unclear>pro?</unclear> deus est apptissima 
+              <lb ed="#PV"/>ad <unclear>re?</unclear> <unclear>???</unclear> maxime ex<lb ed="#PV"/>cludit 
+              tyrannidem quia tyrannus 
+              <lb ed="#PV"/>non regit propter bonum po<lb ed="#PV"/>litiae 
+              sed proprium et sic non est 
+              <lb ed="#PV"/>de habente caritatem Et si ita 
+              <lb ed="#PV"/>est in regimine politio maxime 
+              <lb ed="#PV"/>debet dicta esse in regimine speciali 
+              <lb ed="#PV"/>quia in debet quare illa quae sunt 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>ecclesiae et christi
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e351">
+            <head xml:id="ppr-l81-Hocqqaa">Octavum corollarium</head>
+            <head xml:id="ppr-l81-Hd1e427" type="question-title">Quod in regimine politico et spirituali 
+              debet attendi ad caritatem tam ad consilia quam ad quoscumque alios actus
+            </head>
+            <p xml:id="ppr-l81-eqoheo">
+              Sequitur quod in 
+              <lb ed="#PV"/>regimine politico et spirituali maxime 
+              <lb ed="#PV"/>debet ita esse attendi ad caritatem 
+              <lb ed="#PV"/>acceptandarum pro huiusmodi regimine 
+            </p>
+            <!-- confusing paragrahp separation in all manifestations; review; consider collapsing -->
+            <p xml:id="ppr-l81-eiderp">
+              <lb ed="#PV"/>unde caritas praesentat res secundum 
+              <lb ed="#PV"/>debitum ordinem 
+              scilicet deum tamquam 
+              <lb ed="#PV"/>summum et semper digniores res 
+              <lb ed="#PV"/>praeponit nisi sit specialis obli<lb ed="#PV"/>gatio 
+              ad contraria et per consequens per caritatem
+              <lb ed="#PV"/>faciliter faciunt consilia Cuius 
+              <lb ed="#PV"/>scilicet caritatis opinio est cupiditas 
+              <lb ed="#PV"/>et habet oppositas conditiones
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e368">
+            <head xml:id="ppr-l81-Hncqrae">Nonum corollarium</head>
+            <head xml:id="ppr-l81-Hd1e449" type="question-title">
+              Quod maxima dispositio cessandi schisma praesens 
+              esset habere caritatem et recurrere ad eam
+            </head>
+            <p xml:id="ppr-l81-nsqaas">
+              <lb ed="#PV"/>Sequitur quantum ad materiam scis<lb ed="#PV"/>matis 
+              quod maxima dispositio 
+              <lb ed="#PV"/>cedandi scisma esset recurrere ad 
+              <lb ed="#PV"/>caritatem Nam illa quae non quaerit 
+              <lb ed="#PV"/>quae sua sunt non est ambiti<lb ed="#PV"/>osa 
+              non quaerit in inimicorum <unclear>suppitationem</unclear>
+            </p>
+            <p xml:id="ppr-l81-epipei">
+              Et sic posset inferri 
+              <lb ed="#PV"/>quod ad cedandum universale <sic>cisma</sic> primo 
+              <lb ed="#PV"/>cedandum esset scisma regiminis animae
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e383">
+            <head xml:id="ppr-l81-Hdcqdar">
+              Decimum corollarium
+            </head>
+            <head xml:id="ppr-l81-Hd1e467" type="question-title">
+              Quod omnis deliberata actio non producta a caritate sortitur difformitatis aliqualem rationem
+            </head>
+            <p xml:id="ppr-l81-dsqmsv">
+              <lb ed="#PV"/>Sequitur quod omnis deliberata 
+              <lb ed="#PV"/>actio <del rend="strikethrough">i</del> non producta a caritate 
+              <lb ed="#PV"/>sortitur deformitis aliqualem 
+              <lb ed="#PV"/>rationum quia in toto regiminem 
+              <lb ed="#PV"/>debito ipsa essentialiter praeordinatur 
+              <lb ed="#PV"/>igitur quidquid fit praeter caritatem 
+              <lb ed="#PV"/>sit propter ordinem patet ex hoc 
+              <lb ed="#PV"/>quia omnis talis actio est pecctaum 
+              <lb ed="#PV"/>saltim veniale 
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e393">
+            <head xml:id="ppr-l81-Hucqasc">Undecimum corollarium</head>
+            <head xml:id="ppr-l81-Hd1e480" type="question-title">Quod operationes ex caritate 
+              procedentes vel nullum generat habitum vel generat habitum 
+              per illum voluntatis non existentis in actum sublata caritate
+            </head>
+            <p xml:id="ppr-l81-usqvph">
+              Sequitur quod opera<lb ed="#PV"/>tiones 
+              ex caritate procedentes 
+              <lb ed="#PV"/>vel nullum generant habitum 
+              <lb ed="#PV"/>vel talis habitus non exiret 
+              <lb ed="#PV"/>in actum sublata caritate ut si 
+              <lb ed="#PV"/><unclear>sortes</unclear> frequenter ex caritate eliciat 
+              <lb ed="#PV"/>actum diligendi deum dico quod 
+              <lb ed="#PV"/>huiusmodi actus non sunt sicut 
+              <lb ed="#PV"/>alii actus virtuosi quia non 
+              <lb ed="#PV"/>sunt fides essentialiter et non intelli<lb ed="#PV"/>gendo 
+              quantum ad <unclear>m??m</unclear> quia 
+              <pb ed="#PV" n=""/>
+              <lb ed="#PV" n="a"/>
+              <lb ed="#PV"/>de hoc non est dubium Et si habitus 
+              <lb ed="#PV"/>aliqui generarentur nam possunt 
+              <lb ed="#PV"/>in actus similes unde volumus 
+              <lb ed="#PV"/>non posset sublata caritate 
+              <lb ed="#PV"/>in actibus eiusdem speciei <unclear>sco</unclear>
+              <lb ed="#PV"/>cum caritate
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e408">
+            <head xml:id="ppr-l81-Hdcqpsc">Duodecimum corollarium</head>
+            <head xml:id="ppr-l81-Hd1e498" type="question-title">Quod difficultas cognoscendi 
+              se esse in caritate non consurgit ex eo quod habitus acquisiti 
+              per actus caritativos producunt actus similes primis sublata caritate
+            </head>
+            <p xml:id="ppr-l81-dsqeic">
+              Sequitur quod dif<lb ed="#PV"/>ficultas 
+              cognoscendi se esse 
+              <lb ed="#PV"/>in caritate non consurgit ex 
+              <lb ed="#PV"/>hoc quia habitus acquisiti 
+              <lb ed="#PV"/>per actus caritativos producunt 
+              <lb ed="#PV"/>similes actus sublata caritate
+              Sed consurgit ex parte cupiditatis 
+              <lb ed="#PV"/>et malorum habituum caritati 
+              <lb ed="#PV"/>impossibilium partum ex ignorantia 
+              <lb ed="#PV"/>relationum actuum quia stat quod 
+              <lb ed="#PV"/>aliquis credat actum esse vere 
+              <lb ed="#PV"/>fruitivum et tamen non est 
+              <lb ed="#PV"/>sed refert ad se et non potest 
+              <lb ed="#PV"/>habere actum reflexum super illum 
+              <lb ed="#PV"/>actum ad sciendum quantus 
+              <lb ed="#PV"/>sit 
+            </p>
+          </div>
+          <div xml:id="ppr-l81-Dd1e419">
+            <head xml:id="ppr-l81-Hdcqave">Decimumtertium corollarium</head> 
+            <head xml:id="ppr-l81-Hd1e512" type="question-title">Quod caritas non solum est animae sanatio, 
+              sed ultra gradum naturalis causalitatis augmentatio vel elevatio</head>
+            <p xml:id="ppr-l81-tsqicv">
+              Sequiturq uod caritas non 
+              <lb ed="#PV"/>solum est anima sanitas sed ultra 
+              <lb ed="#PV"/>gradum naturalis causalitatis animae est 
+              <lb ed="#PV"/>argumentatio vel elevatio 
+              <lb ed="#PV"/>quia voluntas in statu in<lb ed="#PV"/>nocentiae 
+              non <unclear>pro?at</unclear> in actum 
+              <lb ed="#PV"/>in quem non potest cum caritate 
+            </p>
+            <p xml:id="ppr-l81-epicls">
+              <lb ed="#PV"/>proportionaliter sicut in materia fidei fue<lb ed="#PV"/>runt 
+              illata correlativa de 
+              <lb ed="#PV"/>fide ita possent hic inferri 
+              <lb ed="#PV"/>de trinitate ymaginandum 
+              <lb ed="#PV"/>quod sicut fides est instrumentum 
+              <lb ed="#PV"/>liberi agentis scilicet spiritus sancti 
+              <lb ed="#PV"/>et conformae illae primo agenti 
+              <lb ed="#PV"/>ita trinitas
+              <!-- possible break point -->
+              Item sequitur quia 
+              <lb ed="#PV"/>caritas non potest exire in 
+              <lb ed="#PV"/>actum <unclear>hanc</unclear> legem
+            </p>
+         </div>
+        </div>
+        <div xml:id="ppr-l81-Dd1e435">
+          <head xml:id="ppr-l81-Hoqcvss">
+            Obiectio
+          </head>
+          <head xml:id="ppr-l81-Hd1e531" type="question-title">
+            Quod caritas non erit essentialiter subordinata primae veritati vel Spiritu Sancto
+          </head>
+          <p xml:id="ppr-l81-scasdf">
+            Sed contra 
+            <lb ed="#PV"/>subtrahatur spiritus sanctus asistentia ma<lb ed="#PV"/>nente 
+            qualitate et ponamus 
+            <lb ed="#PV"/>quod tunc ex caritate producat vo<lb ed="#PV"/>luntas 
+            aliquem actum ille actus 
+            <lb ed="#PV"/>erit peccatum et obliquitas quaedam 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>et per consequens caritas non esset essentialiter 
+            <lb ed="#PV"/>ordinata primae <unclear>inci?m</unclear> ista ratio 
+            <lb ed="#PV"/>fuit facta de fide et soluta
+          </p>
+          <p xml:id="ppr-l81-eiriec">
+            Ad 
+            <lb ed="#PV"/>rationem tamen admitto casum scilicet 
+            <lb ed="#PV"/>quod posset manere Sed dico quod non 
+            <lb ed="#PV"/>esset tales caritas 
+          </p>
+          <p xml:id="ppr-l81-sdqsab">
+            2o dico quod non 
+            <lb ed="#PV"/>staret quod tunc exiret in actum 
+            <lb ed="#PV"/>quia activitas caritatis est activitas 
+            <lb ed="#PV"/>supernaturales requirens spiritualem 
+            <lb ed="#PV"/>influxum spiritus sancti ita quod non oportet 
+            <lb ed="#PV"/>causare quando habeat causam 
+            <lb ed="#PV"/>superiorem concausantem speciali modo 
+            <lb ed="#PV"/>igitur non stat quod agat ad 
+            <lb ed="#PV"/>mali actus productionem et sine 
+            <lb ed="#PV"/>tali influentia non potest exire 
+            <lb ed="#PV"/>in actum sed spiritui sancto re<lb ed="#PV"/>pugnat 
+            oblique agere per 
+            <lb ed="#PV"/>concursu speciale
+          </p>
+       </div>
+      </div>
+    </body>
+  </text>
+</TEI>

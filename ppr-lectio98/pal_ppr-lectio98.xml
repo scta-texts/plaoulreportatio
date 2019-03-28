@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 98, De libertate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 98, De libertate [Palantine Transcription]</title>
+          <date when="2019-03-26">March 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-03-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="182-r"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio98">
+        <head xml:id="ppr-l98-Hldlldl">Lectio 98, De libertate [Palantine Transcription]</head>
+        <head xml:id="ppr-l98-Hcdpcdp" type="question-title">Circa divinam providentiam</head>
+        <p xml:id="ppr-l98-ehqmmd">
+          <lb ed="#PV" n="37"/>In alia lectione
+          <lb ed="#PV"/>Ex his quae dicta sunt circa 
+          <lb ed="#PV"/>divinam providentiam infero propositiones 
+          <lb ed="#PV"/>mere aliqualiter declarativas
+        </p>
+        <div xml:id="ppr-l98-Dd1e119">
+          <head xml:id="ppr-l98-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l98-Dd1e124">
+            <head xml:id="ppr-l98-Hpcmpcm">Primum corollarium</head>
+            <p xml:id="ppr-l98-ppeiei">
+              prima 
+              <lb ed="#PV"/>ex hiis propter quae magis admi<lb ed="#PV"/>ramur 
+              divinam providentiam vel sapientiam 
+              <lb ed="#PV"/>apud intellectum bene dispositum 
+              <lb ed="#PV"/>clarius appareat eius <sic>in mense</sic> 
+              <lb ed="#PV"/>bonitatis et sapientiae profunditas 
+              <lb ed="#PV"/>sunt enim aliqua contra 
+              <lb ed="#PV"/>quae intellectus male dispo<lb ed="#PV"/>situs 
+              numerat scilicet contra divinam 
+              <lb ed="#PV"/>sapientiam providentiam <unclear>propt?m</unclear>
+              <lb ed="#PV"/>bonorum etiam <unclear>prede</unclear> sanationem 
+              <lb ed="#PV"/>et ad nullam <unclear>?am</unclear> finitam 
+              <lb ed="#PV"/>resolvendo salvaretur ordo 
+              <lb ed="#PV"/>iustitiae ergo potest omnem regulam 
+              <lb ed="#PV"/>limitatam istud reducitur 
+              <lb ed="#PV"/>in aliam omnino <sic>in mensam</sic>
+            </p>
+          </div>
+          <div xml:id="ppr-l98-Dd1e153">
+            <head xml:id="ppr-l98-Hscmscm">Secundum corollarium</head>
+            <p xml:id="ppr-l98-scsasc">
+              <lb ed="#PV"/>2m corollarium sic male dispositis 
+              divina providentia est per accidens 
+              <lb ed="#PV"/>occasio Nam data sed <unclear>acceptatio</unclear>
+              <lb ed="#PV"/>desperationes et odii Ita viceversa 
+              <lb ed="#PV"/>bene dispositis est causa spe et amoris 
+              <lb ed="#PV"/>prima pars patet ex historiis Nam 
+              <lb ed="#PV"/>plures philosophi vel non negabant 
+              <lb ed="#PV"/>deum causae vel rebus providere 
+              <lb ed="#PV"/>2a pars probatur nam quidquid operatur 
+              <lb ed="#PV"/>divina providentia est directiva 
+              <lb ed="#PV"/>rei in suum finem debitum seu 
+              <lb ed="#PV"/>bonum et perfectionem ergo ex huiusmodi 
+              <lb ed="#PV"/><unclear>regimine</unclear> debet consurgere maior <unclear>regnum</unclear>
+              <lb ed="#PV"/>sic dirigentis et specialiter curantis
+            </p>
+          </div>
+          <div xml:id="ppr-l98-Dd1e162">
+            <head xml:id="ppr-l98-Htcmtcm">Tertium corollarium</head>
+            <p xml:id="ppr-l98-tcdtda">
+              <lb ed="#PV"/>3m corollarium divinae providentiae cognitio est 
+              <lb ed="#PV"/>maximum contra fortunae adversitatem 
+              <lb ed="#PV"/>remedium patet nam cognita 
+              <lb ed="#PV"/>divina providentia adversitates 
+              <lb ed="#PV"/>fortunae quae contingunt 
+              <lb ed="#PV"/>sunt realiter eligibiles et direc<lb ed="#PV"/>tive 
+              creaturae in suum finem
+              <pb ed="#PV" n="182-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>et perfectionem et secundum dictamen 
+              <lb ed="#PV"/>rectae rationis eligendi realiter 
+              <lb ed="#PV"/>ideo illa cognita fortunas aspera<lb ed="#PV"/>nus 
+              erit durior scilicet privatio 
+              <lb ed="#PV"/>sanitatis vel membrorum <ref ><name ref="#Cicero">Tulius</name>
+              <lb ed="#PV"/>in libro <title>de <sic>transquilans</sic> quaestionibus</title><!-- tuscan dispuatations --></ref> quod <quote source="http://scta.info/resource/akju8i">praedicta ymmo fa<lb ed="#PV"/>ma 
+              privatio non sunt mala</quote> 
+              etc sunt virtutis patientiae in<lb ed="#PV"/>ductam 
+              Exemplum nam aeger <unclear>aegertans</unclear> 
+              <lb ed="#PV"/>sciens evidenter meditum in<lb ed="#PV"/>fallibili 
+              posse curare gratanter 
+              <lb ed="#PV"/>recipit medicina purgativam 
+              <lb ed="#PV"/>et sufficit ergo proportionaliter causa huiusmodi 
+              <lb ed="#PV"/>adversitas fortunae sunt realiter 
+              <lb ed="#PV"/>tamquam medicinae et sanitatis 
+              <lb ed="#PV"/>spiritualis inductive sequitur quod sunt 
+              <lb ed="#PV"/>spiritualis inductive sequitur quod sunt 
+              <lb ed="#PV"/><sic>aplexandae</sic> et diligendae
+            </p>
+            <p xml:id="ppr-l98-eisaic">
+              Sequitur 
+              <lb ed="#PV"/>quod etiam in inferno peccata sustinentis 
+              <lb ed="#PV"/>dampnatae melior quam eius 
+              <lb ed="#PV"/>carentia patet quia licet non sit 
+              <lb ed="#PV"/>ad felicitate directiva quia 
+              <lb ed="#PV"/>dampnati sunt obstinati 
+              <lb ed="#PV"/>in malitia est tamen creaturae 
+              <lb ed="#PV"/>praeordinativa quantum cum <unclear>reatu</unclear> 
+              <lb ed="#PV"/>sit compossibile
+              
+            </p>
+          </div>
+          <div xml:id="ppr-l98-Dd1e186">
+          <head xml:id="ppr-l98-Hqucquc">Quartum corollarium</head>
+          <p xml:id="ppr-l98-qceisf">
+            Quartum corollarium est quod Deus non posset circa creaturam 
+            taliter ordinare quod deberet rationaliter turari 
+            vel male contentari de Deo. 
+            Patet quia omnis exsecutio divinae ordinationis est effectus 
+            divinae providentiae quae dirigit et ordinat creaturam in suum finem.
+          </p>
+        </div>
+        <div xml:id="ppr-l98-Dd1e196">
+          <head xml:id="ppr-l98-Hqncqnc">Quintum corollarium</head>
+          <p xml:id="ppr-l98-qcqfdo">
+            Quintum corollarium quod 
+            ceteris Remanentibus dampnati deberent rationaliter eligere 
+            tanto gradu cruciari nec minori et haec data 
+            occasione seu otione ut si daretur otio vel esset 
+            in potestate eorum Remanente indignitate quod poena <unclear>murmuretur[?]</unclear> 
+            secundum dictamen Rectae rationis deberent eligere quod non. 
+            patet quia quantitas poenae est creaturae Reformativa et 
+            dat ei quaedam modum dignitatis, et bene eundem 
+            quantum ad hoc igitur ratio Recta dictaret stante casu
+            <pb ed="#SV" n="317-v"/>
+            <cb ed="#SV" n="a"/>
+            damnationis remissione gradum esse fugiendum data otione.
+          </p>
+        </div>
+        <div xml:id="ppr-l98-Dd1e212">
+          <head xml:id="ppr-l98-Hsxcsxc">Sextum corollarium</head>
+          <p xml:id="ppr-l98-scqimv">
+            Sextum corollarium 
+            quod providentia non est nec esse potest respectu 
+            mali vel culpae immediate. 
+            Patet quia providentia est causa 
+            effectiva et ordinativa rei in suum finem. 
+            Sed peccatum est dispositio 
+            contraria deordinativa rei in summum bonum, 
+            igitur supra ipsum non cadit 
+            immediate executio divinae providentiae et pure se habet Deus 
+            permissive respectu culpae et quidquid sit de substantia actus utrum 
+            peccatum sit huiusmodi substantia vel sit quaedam actio quae dicit 
+            secundum quemdam quod non esset aliquid positivum commissionis probabile 
+            est tenere quod peccatum sit quaedam relatio vel quid respectus cuius 
+            Deus non est causa, sed solum permittit esse talem respectum et 
+            illud salvaretur apud illos qui ponunt quod relatio est res distincta 
+            a rebus absolutis. Nam isti dicerent quod relationes non 
+            sunt entitates, 
+            sed sunt quiddam modi rerum qui non requirunt causalitatem entitatis.
+          </p> 
+          <p xml:id="ppr-l98-sdiimv">
+            Simile de illis qui ponunt 
+            complexe significabilia, 
+            nam tales non ponunt ea esse entitates, 
+            immo ponunt quod sunt aeterna quae nullo modo 
+            dependent effective ab aliquo nec sunt producibilia nec 
+            indigent causa effectiva et sic diceretur de peccato quod dato 
+            quod ponatur actus inquantum ens non esset sub ratione deformitatis 
+            quia ut sic divina providentia esset eius causa 
+            immediata, nam ipsa immediate est peccatoris ordinativa 
+            ut ex hiis meliora eliciat quia dicit <name ref="#Augustine">Augustinus</name> 
+            quod expedit quosdam peccasse turpiter ut postea 
+            in peccatum superbiae ad quod proni erant non declinarent, 
+            et sic providentia divina elicit virtutes ut humilitatem 
+            post gravia peccata ideo dicebat <name ref="#Paul">Apostolus</name> quod 
+            <cit>
+              <quote xml:id="ppr-l98-Qd1e230" ana="#rom8_28">
+                diligentibus Deum omnia cooperantur in bonum
+              </quote>
+              <bibl>Ad Romanos 8:28</bibl>
+            </cit>, 
+            scilicet, electis qui 
+            diligunt Deum, nam recordatio peccatoris est humilitas 
+            inductio, et superbiae vitatio, et habuerunt punitionem 
+            et poenam quae sunt quaedam bona universi 
+            decorativa, nam ex malis elicit divina providentia 
+            multa bona ut poenam infligendo mala vitantur.
+          </p>
+        </div>
+        <div xml:id="ppr-l98-Dd1e239">
+          <head xml:id="ppr-l98-Hspcspc">Septimum corollarium</head>
+          <p xml:id="ppr-l98-cqdspd">
+            Septimum corollarium 
+            quod divina providentia non tollit libertatem arbitrii creati. 
+            Patet quia ipsa imponit legem libero arbitrio creato, 
+            igitur dat ei libertatem ad implendum legem vel praeceptum, 
+            nam dato contrario sequitur quod Deus esset peccati causa, 
+            quod est contra corollarium praecedens, 
+            immo si sic, 
+            Deus necessitaret creaturam ad peccandum. 
+            Patet quia si Deus det legem faciendi <c>a</c> vel <c>b</c> 
+            et necessitent voluntatem ad transgrediendum, 
+            tunc necessitat voluntatem ad peccandum, 
+            igitur divina providentia deordinat creaturam quod implicat, <!--<supplied>contradictionem</supplied> ?? --> 
+            nam haec repugnat summae veritati, 
+            nam divina providentia debet rem in suam perfectionem dirigere.
+          </p>
+          <p xml:id="ppr-l98-eqsihm">
+            Ex quo sequitur quod tamen lege posita stat voluntatis libertas, 
+            et sic divina providentia 
+            non tollit libertatem liberi arbitrii, 
+            immo potius ponit, 
+            nam istud concedunt mores et omnes philosophi, 
+            immo fides  
+            <cb ed="#SV" n="b"/> <!-- 317vb --> 
+            hoc habet concedere, 
+            et licet ratio in contrarium esset difficilis 
+            ad solvendum non propter hoc esset veritas neganda 
+            ut stat quod <name ref="#Sortes">Sortes</name> nesciat <c>a</c> propositionem a contradictione 
+            defendere consequentia tamen esse veram evidenter 
+            et quod nullo modo sciat solvere insolubile ad contrarium, 
+            et in talibus recurrendum est ad infirmitatem ingenii, 
+            et ita dicitur in proposito, 
+            quod licet materia futurorum contingentium, 
+            tamen magna difficultate possit salvari 
+            cum divina praedestinatione et praescientia nihilominus 
+            difficultas procedit ex duobus, 
+            vel haec est ex ignorantia artis diabolice vel sophistice vel ex 
+            debilitate ingenii vel ex duobus simul, 
+            et in illos casu proficenda est Dei veritas, 
+            nihilominus sufficienter solveretur argumentum 
+            quod communiter fit in hac materia.</p>
+        </div>
+        <div xml:id="ppr-l98-Dd1e269">
+          <head xml:id="ppr-l98-Hovcovc">Octavum corollarium</head>
+          <p xml:id="ppr-l98-ocqaep">
+            Octavum corollarium, 
+            quod divina providentia non tollit 
+            casum et fortunam in rebus, 
+            et huic additur quod nihil est fortuitum 
+            vel casuale respectu divinae providentiae. 
+            Secunda pars debet esse nota 
+            quia prima causa omnia universaliter 
+            cognoscit et nihil latet ei 
+            quia nihil agit quin cognoscit omnes habitudines effectus 
+            ad suas causas et per consequens nihil agit 
+            praeter propositionem vel intentum, 
+            et quidquid agit, agit cognoscendo 
+            omnes habitudines sui effectus, 
+            sed causa formata respectu sui effectus est agens ad propositionem non 
+            intendens effectum a sua operatione, 
+            ut <name ref="#Sortes">Sortes</name> vadens ad campos intentione colendi <unclear>agrum[?]</unclear> 
+            et reperit thezaurum illa repertio est 
+            praeter voluntatem <name ref="#Sortes">Sortis</name> 
+            quia finis operationis eius erat collere terram, 
+            et in illo loco latebat thezaurum inventum, 
+            nam a proposito egit <name ref="#Sortes">Sortes</name> 
+            et agendo accidit quod non proposuit, 
+            sed Deus cognoscit omnes habitudines et nihil agit quin sciat 
+            illud antequam agat, nec eius effectus est 
+            fortuitus respectu ipsius, nec est effectus causalis 
+            quia talis effectus est in agentibus extra propositionem.
+          </p>
+        </div>
+        <div xml:id="ppr-l98-Dd1e290">
+          <head xml:id="ppr-l98-Hncmncm">Nonum corollarium</head>
+          <p xml:id="ppr-l98-ncqeaf">
+            Nonum corollarium quod per immutationem divinae providentiae 
+            recedet causa formata ab effectu formato, 
+            nam stat voluntatem creatam tantum divinam providentiam 
+            <unclear>innuttari[?]</unclear> quod nihil <unclear>formatum[?]</unclear> posset ei contingere 
+            ut de anima Christi quae secundum 
+            <name ref="#Lombard">Magister</name> novit omnia quae verbum, 
+            igitur novit omnium rerum habitudines, 
+            igitur effectus formatus non contingeret ei 
+            quia ipsa cognoscit effectus antequam fiant.
+          </p>
+          <p xml:id="ppr-l98-eehacp">
+            Et ex hoc patet intellectus propositionis 
+            <ref xml:id="ppr-l98-Rd1e309" corresp="#ppr-l98-Qd1e320">
+              <name ref="#Aristotle">Philosophi</name> in libro <title>de bona 
+              fortuna</title>
+            </ref> 
+            dicentis quod 
+            <cit>
+              <quote xml:id="ppr-l98-Qd1e320">ubi est maximus intellectus ibi est minima fortuna</quote>
+              <bibl>
+                <name>Aristoteles</name>,
+                <title>De bona fortuna</title> 
+                <!-- 
+                  regarding the bona fortuna, see
+                  https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS394337&context=L&vid=Lirias&search_scope=Lirias&tab=default_tab&lang=en_US&fromSitemap=1
+                  "The treatise is in fact a combination of two chapters on eutuchia respectively 
+                  taken from the Magna Moralia (1206b30-1207b19) and the Eudemian Ethics (1246b37-1248b11)."
+                -->
+              </bibl>
+            </cit>, 
+            et ex hoc non oportet intelligere 
+            quod elevati philosophi habeant fortunam magis 
+            asperam quam alii, quia quanto elevatio est 
+            maior in intellectu tanto magis videt 
+            Rerum habitudines, et per consequens ea quae sunt
+            <pb ed="#SV" n="318-r"/>
+            <cb ed="#SV" n="a"/>
+            per accidens praevidet ubi depressus intellectus non videret 
+            et raro contingit ei aliquid a fortuna quia 
+            illud contingere esset  absque intentione et 
+            praevisione, et sic quantum ad hoc propter ignorantiam 
+            vulgus finxit fortunam esse minime et quamdam 
+            causam latentem quod non oportet dicere quia sufficit 
+            doctrina 
+            <ref xml:id="ppr-l98-Rd1e339">
+              <name ref="#Aristotle">Aristotelis</name> 
+              tradita in II 
+              <title ref="#Physics">Physicorum</title>
+            </ref> 
+            et in 
+            <ref xml:id="ppr-l98-Rd1e349">libro <title>De bona fortuna</title></ref>, 
+            nam ex ignorantia habitudinis 
+            rerum contingit quod agens agat fortuite, 
+            nihilominus est advertendum quod fortuna quandoque potest capi 
+            pro divina providentia licet effectus non sic fortuitus 
+            respectu divinae providentiae, est tamen fortuitus respectu causae particularum 
+            intentus tamen a deo, nam deus est causa per se quod voluntas 
+            agat per accidens, nam deus potest diligere <name ref="#Sortes">sortem</name> 
+            ut vadat ad agrum ut <unclear>ditetur[?]</unclear> etiam haec possibile quod duo homines concurrerent respectu eiusdem effectus 
+            et quod effectus esset fortuitus respectu unus et intentus 
+            respectu alterius ut si <name ref="#Plato">Plato</name> posuisset aurum in agrum 
+            sciens tamen locum et vellet quod <name ref="#Sortes">Sortes</name> Reperiret et 
+            haberet, modo si <name ref="#Sortes">Sortes</name> fodiat terram ratione culturae 
+            et Reperiat aurum, tunc Repertio illa esset effectus 
+            fortuitus respectu <name ref="#Sortes">Sortis</name> et intentus respectu <name ref="#Plato">Platonis</name>, et in 
+            ista materia possent multa dici ad particularia quomodo, 
+            scilicet, homines sunt fortuiti et tempora et loca, et 
+            haec omnia Resolvuntur ad causa particulares.
+          </p>
+          <p xml:id="ppr-l98-cdqaig">
+            Consequenter 
+            dicitur quod executio divinae providentiae respectu universi posset 
+            introduci sed illum Remittitur ad 
+            <ref xml:id="ppr-l98-Rd1e379" target="http://scta.info/resource/zxcvbn">
+              <name ref="#WilliamOfParis">Guillelmi Parisiensis</name> 
+              in libro <title ref="#deUniverso">De universo</title>
+            </ref> 
+            ubi introduxit quod divina providentia 
+            est diffusa in brutis et vegetationibus, 
+            nam ibidem inducit, quomodo aranea ita subtiliter texit 
+            fila sua et qua arte haec facit et quomodo ibi 
+            relucet divina sapientia, et de formica sibi 
+            providente in aestate pro <unclear>hyereme[?]</unclear> quae frangit gravium 
+            ne pullulet et de apibus quomodo apes habent 
+            regem sine aculeo et punctura, et haec signat 
+            quod non debet vigere tyrannis in regibus 
+            sed in eis debet esse clementia veritas et dilectio, 
+            et quomodo apes componunt sibi <unclear>domiculas[?]</unclear> 6 angelorum 
+            et est una figura quae est inter alias figuras <unclear>exagonus[?]</unclear> 
+            numeratur et talis figura replet locum ubicumque ponatur, 
+            et ideo docuit apes illam geometriam.
+          </p>
+          <p xml:id="ppr-l98-eicqis">
+            Ex istis concluditur providentia supremi Dei et eius cura 
+            certa universum et partis eius, et 
+            <ref xml:id="ppr-l98-Rd1e400">
+              <name ref="#Albert">Albertus Magnus</name> 
+              in libro <title>de animalibus</title>
+            </ref> 
+            hoc dicit vel quasi in <title>sententia</title>.
+          </p>
+        </div>
+      </div>
+        <div xml:id="ppr-l98-Dd1e415">
+          <head xml:id="ppr-l98-Hctafvd" type="question-title">
+            Circa tertia acceptione fatum vulgariter dictum <!--(Cf. lectio 95)-->
+          </head>
+          <p xml:id="ppr-l98-pmdaar">
+            Pro maiori declaratione heri dictorum 
+            sciendum est quod fatum vulgariter dictum in tertia acceptatione 
+            scilicet, pro enuntiato vel sententiato vel 
+            decreto a deabus vel daemonibus tempore nativitatis 
+            alicuius quod ista opinio potuit habere originem 
+            uno modo per modum demeriti vetularum quae ratione gravium 
+            peccatoris potuerunt etiam dignae illudi a diabolo 
+            et relinqui a deo ut diabolum colerent et divinum 
+            honorem subtraherent et daemonibus attribuerent et hoc 
+            contingit de casu peccati in peccatum quod tangit 
+            <cit>
+              <ref xml:id="ppr-l98-Rd1e426" ana="#rom1_23 #rom1_24 #rom1_25">
+                <name ref="#Paul">Apostolus</name> 
+                <title ref="#rom">Ad Romanos</title> 
+                primo
+              </ref>
+              <bibl>
+                <title>Ad Romanos</title> 1:23-25
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="ppr-l98-psqpan">
+            Sed quod ita fuit fatum historiae sunt plene, 
+            nam bibilia narrat fuisse magos idolatras 
+            <cit>
+              <quote xml:id="ppr-l98-Qpeapea" ana="#IIreg23_24">pythones et ariolos</quote>
+              <bibl><title>II Regum</title> 23:24</bibl>
+            </cit> 
+            <ref xml:id="ppr-l98-Rd1e456">
+              <supplied>secundi</supplied> 
+              <title ref="#IIreg">Regum</title> 
+              capitulo <num>23</num>
+            </ref> 
+            qui 
+            suis exigentibus demeritis fuerunt a deo relicti in manibus 
+            diaboli, et cum hoc testantur ista historiae gentilium 
+            nec reprobantur in hoc quod dicunt quod in idolis habitabant 
+            daemones et dabant responsa ut de idolo <name ref="#Apollo">apolinis</name> 
+            delfici quod fuit multum famosum idolum et in illo 
+            diabolus dabat Responsa et potuit ita esse quod daemones 
+            dixerunt aliqua de puris futura ut collerentur 
+            a vetulis et a parentibus et a nascentibus.
+          </p>
+          <p xml:id="ppr-l98-sievms">
+            Secundo iste error 
+            potuit habuisse originem ex libidine mentiendi vetularum 
+            nam illae potuerunt fingere quod haberent decreta deorum 
+            cuius penitus nihil erat, et experientia est ad hoc, vel 
+            secunda causa potest esse causa quaestus ut parentes aliquid darent 
+            huiusmodi vetulis, et ideo dicebant pueros esse fatatos 
+            ad prosperitatem et audisse decreta deorum, vel secunda causa 
+            est propter inanem gloriam ut Reputantur familiores deo 
+            nam se dicebant habere a diis certitudinem de prosperitate 
+            alicuius ut huiusmodi vetulae viderentur mira scire.
+          </p>
+          <p xml:id="ppr-l98-tphasm">
+            Tertio potuit habuere ista opinio originem ex deceptione vetularum 
+            quae deceptae crediderunt aliquando se audire responsa 
+            deorum et daemonum et nihil audiebant et hoc potest contingere 
+            pluribus modis, et inter alios modos est fortis et vehemens 
+            imaginatio quae potest esse tanta quod vix discretiva non sufficeret 
+            discernere inter actum et obiectum. Ita quod illud quod 
+            imaginatur creditur esse praesens et sic mulieres deceptae 
+            ex consuetudine audiendi potuerunt credere se audire 
+            Responsa a daemonibus. alii sunt modi.
+          </p>
+          <p xml:id="ppr-l98-spriot">
+            Sed prima radix deficit in hoc quia dato quod ita esset non debemus 
+            propter hoc ponere necessitatem fati quia daemon est mendax. 
+            Unde habetur 
+            <ref xml:id="ppr-l98-Rd1e481" corresp="#ppr-l98-Qiepepm">
+              <title ref="#io">Ioannem</title> 
+              <num>VIII</num></ref> 
+            quod 
+            <cit>
+              <quote xml:id="ppr-l98-Qiepepm" ana="#io8_44">
+                ipse est pater mendacii
+              </quote>
+              <bibl><title>Ioannes</title> 8:44</bibl>
+            </cit> 
+            et homicida,<!--<note>Cf. Augustine, De Mandacio, cap 6</note> -->
+            et ideo dictum diaboli non imponit necessitatem immo 
+            quod plus est dictum dei et Revelatio divina nullam penitus 
+            imponunt necessitatem igitur nec a fortiori sermo diaboli 
+            imponit necessitatem quia ipse 
+            <cit>
+              <quote xml:id="ppr-l98-Qaipaip" ana="#Iio3_8">
+                ab initio peccavit
+              </quote>
+              <bibl><title>I Ioannis</title> 3:8</bibl>
+            </cit>
+            ut habetur 
+            <ref xml:id="ppr-l98-Rd1e513" corresp="#ppr-l98-Qaipaip">
+              primae <title ref="#Iio">Ioannes</title> 
+              <num>III</num>
+            </ref>, 
+            et invidit humano generi 
+            quia invidia diaboli intravit in orbem terrarum.
+          </p>
+          <p xml:id="ppr-l98-qapsdm">
+            Quantum ad prosecutionem 
+            illorum peccatorum forte in alia lectione dicetur 
+            si Deus ministraverit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
