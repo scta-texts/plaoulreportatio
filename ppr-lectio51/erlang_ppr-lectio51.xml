@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 51, de Fruitione [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 51, de Fruitione [Erlangen Transcription]</title>
+          <date when="2019-04-09">April 09, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-02-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="71-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio51">
+        <head xml:id="ppr-l51-Hldfldf">Lectio 51, de Fruitione [Palantine Transcription]</head>
+      <!--<p xml:id="ppr-l51-cdiamt"></p>-->
+        <p xml:id="ppr-l51-itadqp">
+          <lb ed="#E" n="21"/>In alia lectione 
+          <lb ed="#E"/>fuit facta una ratio <sic>tanges</sic> materiam de fine naturali scilicet utrum deus sit finis naturalis crea<lb ed="#E"/>turae 
+          rationalis vel etiam cuiuslibet et utrum naturali tendentia quaelibet creatura tendit in ipsum 
+          <lb ed="#E"/>tanquam in summum bonum id est utrum quaelibet creatura iuxta suum modum et capacitatem fruatur 
+          <lb ed="#E"/>deo
+        </p>
+        <p xml:id="ppr-l51-ecisps">
+          Primo recitabo <name ref="#WilliamOfAuxerre">auticiodorensis</name> quam ponit in principio 2i unde ipse tenet istam 
+          <lb ed="#E"/>conclusionem quod dilectione naturali creatura diligit se propter se 
+        </p>
+        <p xml:id="ppr-l51-uctevt">
+          Consequenter tractando materiam de angelis 
+          <lb ed="#E"/>introducit expresse utrum dilectione naturali angelus dilexit deum super omnia Respondet 
+          <lb ed="#E"/>negative ymmo se semper propter se Consequenter quod <name ref="#Adam">adam</name> in statu innocentiae dilectione naturali dilexit se 
+          <lb ed="#E"/>propter se scilicet se esse  
+        </p>
+      <!-- unclear division here -->
+        <p xml:id="ppr-l51-eabmds">
+          et conservari et suam utilitatem id est conferentiam ad sui status perfectionem verum 
+          <lb ed="#E"/>est quod prima facie videtur istud esse contra <!-- possible deletion here --> <name ref="#Augustine">Augustinum</name> de duabus civitatibus quas fecerunt 
+          <lb ed="#E"/>duo amores de hoc alias dictum est circa principium et etiam postea ut tamen habeatur intellectus 
+          <lb ed="#E"/>ymaginationis istius doctoris distinguit tres modos diligendi se 
+        </p>
+        <p xml:id="ppr-l51-pmelud">
+          <lb ed="#E"/>Primus modus est propter utilitatem 
+          <lb ed="#E"/>iste modus includit quod diligit se esse et illa quae pertinent ad perfectionem sui status et ista est licita 
+        </p>
+        <p xml:id="ppr-l51-apetes">
+          <lb ed="#E"/>Alius est proprie excellentiae et ista dilectio est superbia Advertendum quod dilectio excellentiae 
+          <lb ed="#E"/>potest dupliciter considerare uno modo quantum requiritur ad integritatem sui status 2m modum illius 
+          <lb ed="#E"/>rei et sic est licita
+        </p>
+        <p xml:id="ppr-l51-aeapid">
+          Alio modo fit non debite videlicet si appeteret plus quam requiritur ad sui status 
+          <lb ed="#E"/>perfectionem et sic esset illicita et esset peccatum superbiae et hoc intendit iste doctor Tertia dilectio 
+          <lb ed="#E"/>est temporalium ut divitiarum et talis est illicita
+        </p>
+        <p xml:id="ppr-l51-cideuf">
+          Ego pono contrarium et arguo primo 
+          <lb ed="#E"/>contra dicta sua quia omnis dilectio et praecipue deliberata est usus vel fruitio ergo huiusmodi 
+          <lb ed="#E"/>dilectio quae est ad se si non referatur ad aliud est fruitio sui et per consequens est summa perversitas 
+          <lb ed="#E"/>secundum <name ref="#augustine">augustinum</name>
+        </p>
+        <p xml:id="ppr-l51-siidps">
+          Secundo ista ymaginatio procedit ex ignorantia habitudinis 
+          <pb ed="#E" n="71-v"/>
+          <lb ed="#E"/>creaturae <!-- homoteleuton starts here in E -->
+        </p>
+        <p xml:id="ppr-l51-isisac">
+          ad deum et movet ad contrarium illius ad quod movet dilectio naturalis et per 
+          <lb ed="#E"/>consequens condentia naturalis creaturae et tendentia caritatis haberent terminos incompossibiles
+        </p>
+        <p xml:id="ppr-l51-isqdei">
+          Item 
+          <lb ed="#E"/>sequeretur quod status innocentiae tam angelorum quam primi parentis fuisset inordinatus patet 
+          <lb ed="#E"/>nam quod aliqua dilectio terminetur ad creaturam quae non habet rationem terminantis est inordinatio 
+          <lb ed="#E"/>huiusmodi dilectionis quia non reperitur modus secundum quem movet et per consequens fuisset ibi inordinatio
+        </p>
+        <p xml:id="ppr-l51-isqpad">
+          <lb ed="#E"/>Item sequeretur quod beati quantumcumque essent per gratiam elevati violenter ferrentur in deum quia 
+          <lb ed="#E"/>natura tendit in contrarium scilicet ad se
+        </p>
+        <p xml:id="ppr-l51-icueif">
+          Item creatura non sufficit sibi ad esse nec alteri nam ad hoc quod crea<lb ed="#E"/>tura 
+          in esse producatur requiritur prima causa efficiens et etiam ad conservari requiritur prima causa 
+          <lb ed="#E"/>si ergo non sufficit adesse nec ad bene esse et sic non habet rationem finis quia finis habet rationem opti<lb ed="#E"/>mi 
+          et per consequens ista positio non est rationabiliter fundata
+        </p>
+        <p xml:id="ppr-l51-secimn">
+          pono ergo istam conclusionem Quod primarius naturae 
+          <lb ed="#E"/>impetus ad deum super omnia terminatur ultimate licet caritas incomparabiliter nobiliori 
+          <lb ed="#E"/>modo moveat ad se idem
+        </p>
+        <p xml:id="ppr-l51-sppcmq">
+          Secunda pars patet nam caritas elevat materiam supra se unde secundum doctores 
+          <lb ed="#E"/>Caritas gustum spiritualem <unclear>acuit</unclear> et perficit et reddit quod <unclear>dammodo</unclear> ipsum superioris speciei inperci<lb ed="#E"/>piendo 
+          quam natura in se est ideo ex caritate movetur creatura ad diligendum deum super omnia 
+        </p>
+        <p xml:id="ppr-l51-ppptsb">
+          prima 
+          <lb ed="#E"/>pars probatur primo quia natura agit directe ab intelligentia non errante igitur ordinatissime igitur quicquid 
+          <lb ed="#E"/>agit hoc agit propter finem et maxime illum qui habet rationem ultimi et per consequens propter deum Item 
+          <lb ed="#E"/>per diffinitionem boni <ref xml:id="ppr-l51-Rd1e344" corresp="#ppr-l51-Qobaoba">primo ethicorum</ref> <quote xml:id="ppr-l51-Qobaoba" ana="#Aristotle_Ethics_1_a">Bonum est quod omnia appetunt</quote>
+        </p>
+        <p xml:id="ppr-l51-euelse">
+          Item <ref target="http://scta.info/resource/hy7y6y-d1e67">auctoritate <name>Boecii</name> 3o <title ref="#Consolation">de consolatione</title></ref> 
+          <lb ed="#E"/>ubi ponit expresse quod semper recta est naturalis tendentia ubi deducit quod est unicus finis 
+          <lb ed="#E"/>ad quem omnia tendunt licet varii varios elegant colles eadem tamen felicitatem naturaliter in<lb ed="#E"/>tendunt 
+          licet statuant sibi varios fines Ideo dicit <ref xml:id="ppr-l51-Rd1e380" corresp="#ppr-l51-nalals"><name ref="#Boethius">boetius</name></ref>
+          <quote xml:id="ppr-l51-nalals" source="http://scta.info/resource/hy7y6y-d1e51">nihil antiqua lege solutum</quote>
+        </p>
+        <p xml:id="ppr-l51-aiedbf">
+          <lb ed="#E"/>Ad idem est <ref><name ref="#Aristotle">philosophus</name> in libro <title ref="#deBonaFortuna">de bona fortuna</title></ref>
+        </p>
+        <p xml:id="ppr-l51-aiedtq">
+          Ad idem <ref target="http://scta.info/resource/akju8i"><name ref="#Cicero">tullius</name> <title ref="#TuscanDisputations">de tusillanis quaestionibus</title></ref>
+        </p>
+        <p xml:id="ppr-l51-aigsee">
+          Ad idem <ref target="http://scta.info/resource/zxcvbn"><name ref="#WilliamOfParis">wilhelmus 
+          <lb ed="#E"/>parisiensis</name> in pluribus libros scilicet in libro <title ref="#OnFaithAndLaws">de universi</title></ref> et <ref target="http://scta.info/resource/mnbghj"><title>de fide et legibus</title></ref> dicit triplices virtu<lb ed="#E"/>tes 
+          2m quod exponit <ref xml:id="ppr-l51-Rd1e434" corresp="#ppr-l51-Qodoana">illud <title ref="#iac">iacobi</title></ref> <quote xml:id="ppr-l51-Qodoana" ana="#iac1_17">omne bonum optimum <sic>esursum</sic></quote>
+        </p>
+        <p xml:id="ppr-l51-udqfui">
+          Primum bonum seu 
+          <lb ed="#E"/>prima bona sunt <sic>sunt</sic> habitus supernaturaliter infusi dirigentes <sic>inmediate</sic> in deum scilicet 
+          <lb ed="#E"/>caritas fides etc.
+        </p>
+        <p xml:id="ppr-l51-asddpn">
+          Alia sunt bona pure naturalia scilicet virtutes naturales naturaliter nobis 
+          <lb ed="#E"/>innatae unde unicuique sunt datae inclinare iuxta capacitatem suae naturae et speciei
+        </p>
+        <p xml:id="ppr-l51-asdnes">
+          <lb ed="#E"/>Alia sunt bona quae sunt bona simpliciter et sunt virtutes consuetudinales et ibi <unclear>praestet</unclear> vir<lb ed="#E"/>tutes 
+          naturales virtutibus consuetudinaliubs
+        </p>
+        <p xml:id="ppr-l51-sfcdsd">
+          Forte argueretur quia si sic videretur sequi quod 
+          <lb ed="#E"/>aliquis ex puris naturalibus posset frui deo patet consequentia quia virtutes naturales nobis in<lb ed="#E"/>natae 
+          <lb ed="#E"/>inclinat fortius quam virtutes consuetudinales ergo potest ferri per illas
+        </p>
+        <p xml:id="ppr-l51-icfdqc">
+          Item 
+          <lb ed="#E"/>experientia est quod creatura faciliter fertur in dilectionem boni temporalis igitur faciliter fertur 
+          <lb ed="#E"/>in dilectionem summi boni <del rend="expunctuation">per se <!-- unclear if "se" is deleted --></del> propter se probatur consequentia quia ex quo virtutes naturales in<lb ed="#E"/>clinat 
+          naturaliter ad deum sequitur consequens illatum
+        </p>
+        <p xml:id="ppr-d148reqiid"> <!-- check id and change elsewhere -->
+          <lb ed="#E"/>Respondendum quod multiplex est causa quare 
+          <lb ed="#E"/>creatura rationalis facilius diligit bonum temporale quam deum non obstante naturali inclinatione 
+          <lb ed="#E"/>ad ipsum deum
+        </p>
+        <p xml:id="ppr-l51-pcqsdm">
+          Primo ad hoc quod feratur fruitive in deum requiritur consideratio et deliberatio 
+          <lb ed="#E"/>et cognitio divinae bonitatis quae non est sine difficultate magna
+        </p>
+        <p xml:id="ppr-l51-ahabep">
+          Sed ad hoc quod diligatur bonum 
+          <lb ed="#E"/>temporale non requiritur discursus non requiritur electio unde <name ref="#Origen">origenes</name> virtus est tar<lb ed="#E"/>da 
+          vitium vero princeps <ref><name ref="#Aristotle">philosophus</name> 2o <title>Ethicorum</title></ref> difficile est attingere signum unde ad peccandum 
+          <lb ed="#E"/>non requiritur deliberatio nam staret quod creatura teneretur ad deliberandum et non faceret et sic 
+          <lb ed="#E"/>vitium non requirit deliberationem ergo dicit <name ref="#Origen">origines</name> quod vitium est principes
+        </p>
+        <p xml:id="ppr-l51-ehadae">
+          Secundo ad diligendum 
+          <lb ed="#E"/>deum super omnia requiritur in hoc statu mentis elevatio sed ad diligendum temporale non 
+          <lb ed="#E"/>requiritur hoc ymmo voluntas se ipsa inmediate potest diligere temporale unde <ref xml:id="ppr-l51-Ridvwdg" corresp="#ppr-l51-Qavj3f3"><name ref="#Virgil">virgilius</name> 
+          <lb ed="#E"/>in sexto <title ref="#Eneads">eneydorum</title></ref> dicit <quote xml:id="ppr-l51-Qavj3f3" source="http://scta.info/resource/v8iu7y-d1e92">facilis decessus</quote> etc.
+        </p>
+        <p xml:id="ppr-l51-iqened">
+          quia dilectio fruitiva dei excedit humanam 
+          <pb ed="#E" n="72-r"/>
+          <lb ed="#E"/>facultatem non obstante inclinatione naturali difficile est deum diligere super omnia
+        </p>
+        <p xml:id="ppr-l51-tcemii">
+          Tertia causa 
+          <lb ed="#E"/>licet aliqualiter implicetur in priori bona temporalia intuitive et inmediate se ostendunt delectabilia 
+          <lb ed="#E"/>et alliciunt voluntatem deus autem non videtur sic in hac vita ut scriptum est deum nemo vidit unquam 
+          <lb ed="#E"/>et sic quia deus non movet obiective inmediate ibi etc et bona temporalia inmediate movent 
+          </p>
+          <p xml:id="ppr-l51-cqeiac">
+            Quarta 
+            <lb ed="#E"/>causa quae est potior est cupiditas vel fomes poena peccati scilicet originalis quae inclinat de directo 
+            <lb ed="#E"/>contra caritatem ad dilectionem sui ipsius scilicet diligentis propter se cuius activitas maior est quam sic 
+            <lb ed="#E"/>activitas inclinationis naturalis 
+          </p>
+        <div xml:id="ppr-l51-Dd1e591">
+          <head xml:id="ppr-l51-Hcorria">
+            <supplied>Corollaria</supplied>
+          </head>
+          <!-- not present <p xml:id="ppr-l51-eicsac"></p>-->
+          <div xml:id="ppr-l51-Dd1e601">
+            <head xml:id="ppr-l51-Hqmhdin" type="question-title">
+              <supplied>Quod moralis honestas pulchre describitur in natura</supplied>
+            </head>
+            <p xml:id="ppr-l51-pcenoa">
+              primum corollarium quod moralis honestas pulchre describitur 
+              <lb ed="#E"/>in natura patet nam ibi res ordinatissima dispositione quantum in eis est tendunt in summum bonum et 
+              <lb ed="#E"/>quicquid agunt hoc agunt gratia huius <name ref="#Boethius">Boetius</name> hominem solum <unclear>respius</unclear> actus
+            </p>
+            <p xml:id="ppr-l51-eqpnpd">
+              Patet qualiter ars debet  unitari 
+              <lb ed="#E"/>vel imitatur naturam nam natura regulatissime agit nam sequendo naturam non potest decipi 
+            </p>
+            <p xml:id="ppr-l51-tpqpbu">
+              Patet 
+              <lb ed="#E"/>etiam qualiter vita moralis relucet in natura nam licet leges naturales sunt positae scilicet grani 
+              <lb ed="#E"/>quod descendat deorsum tamen in casu speciali utitur <foreign>epyceia</foreign> nam in casu speciali non descendit 
+              <lb ed="#E"/>deorsum sed vel ascendit vel stat propter implere vacuum
+              <!-- para break here -->
+              Sequitur quod natura particularum videtur plus 
+              <lb ed="#E"/>diligere bonum commune quam proprium patet in casu posito quod natura particularum bonum proprium dimittit 
+              <lb ed="#E"/>et pro sequitur bonum communem
+            </p> 
+          </div>
+          <div xml:id="ppr-l51-Dd1e645">
+            <head xml:id="ppr-l51-qgdedg" type="question-title">
+              <supplied>Quod gradus dilectionis creaturae ad se propter Deum magis est 
+              ex divinae bonitatis statuto quam ex diligente creaturae</supplied>
+            </head>
+            <p xml:id="ppr-l51-suqoac">
+              Sequitur quod gradus dilectionis creaturae ad se propter deum magis 
+              <lb ed="#E"/>est ex divino statuto quam diligibilitate creatura nam enim ex diligibilitate quae sit maior 
+              <lb ed="#E"/>in creatura creatura se plus diligit sed totum consurgit ex divina obligatione quae 
+              <lb ed="#E"/>hoc dedit cuilibet creaturae quod sit plus sollicita de se ipsa cum etiam melius cognoscat 
+              <lb ed="#E"/>suas operationes proprias et consurgit ex commissione speciali
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e667">
+            <head xml:id="ppr-l51-Hqoacin" type="question-title">
+              <supplied>Quod omnis affectio commodi est contra inclinationem naturalem</supplied>
+            </head>
+            <p xml:id="ppr-l51-suqcin">
+              Sequitur quod omnis affectio 
+              <lb ed="#E"/>commodi est contra inclinationem naturalem 
+            </p> 
+            <p xml:id="ppr-l51-uaqeic">
+              <pc type="#pilcrow"/>Advertendum quod in homine tria concurrunt scilicet inclinatio 
+              <lb ed="#E"/>naturalis et inclinatio cupiditatis et huiusmodi sunt absolute et sunt ab homine separabiles Alia 
+              <lb ed="#E"/>est caritas 
+            </p> 
+            <p xml:id="ppr-l51-uicpsb">
+              Et est advertendum quod inclinatio cupiditatis quae vocatur habitualis dilectio 
+              <lb ed="#E"/>commodi semper inclinat creaturam ad diligendum se propter se et semper inclinatio naturalis est 
+              <lb ed="#E"/>in contrarium quia semper in ultimum finem
+            </p> 
+            <p xml:id="ppr-l51-etccac">
+              Et sic inclinatio cupiditatis est est formalior 
+              <lb ed="#E"/>quam illa naturalis et ideo sive gratia nullus pater bene operari quia inclinatio cupiditatis vincit liber<lb ed="#E"/>tatem 
+              arbitrii Ideo requiritur tertia inclinatio quae est prima adiutiva et elevativa scilicet inclinatio 
+              <lb ed="#E"/>caritatis quae est contraria inclinationem cupiditatis et est formalior Semper est in libertate 
+              <lb ed="#E"/>liberi arbitrii bene operari cum gratia et malum evitare et sic sequitur quod semper est victoria 
+              <lb ed="#E"/>caritatis ad cupiditatem nisi ex negligentia liber arbitrii unde spiritus iuvatur caritate 
+              <lb ed="#E"/>et caro cupiditate et iuxta hoc dicitur <quote ana="#gal5_17">spiritus adversus carnem</quote>
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e725">
+            <head xml:id="ppr-l51-Hqopsec" type="question-title">
+              <supplied>Quod omnes primi motus sunt ex cupidititate</supplied>
+            </head>
+            <p xml:id="ppr-l51-suqeec">
+              Sequitur ulterius quod omnes primi 
+              <lb ed="#E"/>motus sunt ex cupiditate nam caritas ad hoc quod exeat in actum praerequirit electionem 
+              <lb ed="#E"/>debitam id est dictamen practicum et intellectum scilicet deliberationem et per consequens omnis alia operatio 
+              <lb ed="#E"/>quae in voluntate producitur <unclear>producitur</unclear> ab obiecto et cupiditate ideo omnis primus motus est quodammodo 
+              <lb ed="#E"/>creaturae fruitio etc illicitus quia semper propter se diligentem quia voluntas et caritas 
+              <lb ed="#E"/>sic se habent quod non operatur caritas nisi voluntas agat deliberate Omnes aliae sunt 
+              <lb ed="#E"/>ex cupiditate et quaedam sunt culpabiles scilicet quando circa aliquod obiectum voluntas posset 
+              <lb ed="#E"/>deliberare et si tenetur sub peccata peccati mortalis est mortale si venialis est veniale 
+            </p>
+            <!--
+              Seems like this paragraph should be connected to above; text from reportatio is included in above 
+              without clear place for paragraph break 
+              <p xml:id="ppr-l51-ucotep">
+              Unde circa obiectum, quando voluntas non potest <sic>deberare</sic>, et non deliberat 
+              et tenetur deliberare et moveatur ab obiecto et cupiditate, 
+              tunc est peccatum.
+            </p>-->
+            <p xml:id="ppr-l51-eqpvuv">
+              <lb ed="#E"/>Patet quomodo gratia non corrumpit naturam ymmo perficit quia est conformissima inclinationibus
+              <lb ed="#E"/>naturalibus
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e768">
+            <head xml:id="ppr-l51-Hqsvrrn" type="question-title">
+              <supplied>Quod si voluntas esset conformis semper appetitui naturali, 
+              semper voluntas esset recta rectitudine naturali</supplied>
+            </head>
+            <p xml:id="ppr-l51-suqser">
+              Sequitur quod si appetitus rationalis seu voluntas semper esset conformis appetitui 
+              <lb ed="#E"/>naturali et inclinatione naturali semper esset recta vel rectus rectitudine naturali patet quia illa est 
+              <lb ed="#E"/>inobliquabilis et semper est recta et numquam peccaret
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e788">
+            <head xml:id="ppr-l51-Hqseeer" type="question-title">
+              <supplied>Quod si esse aliqua rationalis creatura libera quae esset essentialiter talis 
+              quod eius appetitus rationalis non posset esse difformis appetitui naturali quantum ad hoc, 
+              esset essentialiter recta</supplied>
+            </head>
+            <p xml:id="ppr-l51-seiser">
+              Sequitur quod si posset dari aliqua 
+              <lb ed="#E"/>creatura quae essentialiter esset talis scilicet cuius appetitus <!-- possible deletiong --> rationalis non posset esse 
+              <lb ed="#E"/>difformis appetitu naturali illa esset essentialiter recta et essentialiter iusta patet quia voluntas 
+              <pb ed="#E" n="72-v"/>
+              <lb ed="#E"/>eius non posset esse difformis secundae naturali
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e807">
+            <head xml:id="ppr-l51-Hqtnauf" type="question-title">
+              <supplied>Quod tota natura immobiliter adhaeret ultimo fine</supplied>
+            </head>
+            <p xml:id="ppr-l51-scqadu">
+              Sequitur ulterius quod tota natura immobiliter 
+              <lb ed="#E"/>adhaeret ultimo fini quasi fruitive patet quia inclinatio naturalis non est removibilis quia terminantur 
+              <lb ed="#E"/>ad deum obiective
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e826">
+            <head xml:id="ppr-l51-Hqaaadc" type="question-title">
+              <supplied>Quod ad appetitum rationalem est aliqua dei convictio</supplied>
+            </head>
+            <p xml:id="ppr-l51-suqfqc">
+              patet quod non stante aversione in dyabolo vel in dampnatis quantumque etiam in 
+              <lb ed="#E"/>voluntate sit aversio quantum est tamen ex parte inclinationis naturalis est quaedam cum suo fine coniuncto
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e841">
+            <head xml:id="ppr-l51-Hqqadaq" type="question-title">
+              <supplied>Quod quantum ad appetitum naturalem dampnait aliqualiter quietantur</supplied>
+            </head>
+            <p xml:id="ppr-l51-isqcev">
+              <lb ed="#E"/>Sequitur quod quantum ad appetitum naturalem dampnari aliqualiter in deo quietantur Consurgit tamen 
+              <lb ed="#E"/>inquietudo ex aliis quae sunt ad poenam dampnationis 
+            </p>
+          </div>
+          <div xml:id="ppr-l51-Dd1e857">
+            <head xml:id="ppr-l51-Hconsio">Conclusio</head>
+            <p xml:id="ppr-l51-aeqcsn">
+              <pc type="#pilcrow"/>Advertendum circa istam materiam fruitionis 
+              <lb ed="#E"/>quod obiectum illud summum est subiectum a quolibet fruibile iuxta capacitatem suae naturae
+            </p>
+            <p xml:id="ppr-l51-saeaio">
+              Secunda 
+              <lb ed="#E"/>divina voluntas absolute inmobiliter et neccessario fruitur huiusmodi obiecto nam quaelibet alia potest 
+              <lb ed="#E"/>averti
+            </p>
+            <p xml:id="ppr-l51-iaqfpa">
+              Tertio omnis appetitus naturalis iuxta suam naturam et capacitatem fruitur huiusmodi obiecto 
+              <lb ed="#E"/>Et consequenter quod solus appetitus rationalis et sola voluntas creata est quae est ab huiusmodi obiecto potest 
+              <lb ed="#E"/>averti etc
+            </p>
+            <!--
+              doesn't seem present 
+              <p xml:id="ppr-l51-qahfim">
+              Quantum ad hoc habebam aliquas rationes 
+              contra dicta, 
+              tamen possunt solvi ex dictis, 
+              et sic est finis istius materiae.
+            </p>-->
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
