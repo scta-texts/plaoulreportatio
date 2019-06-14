@@ -45,8 +45,6 @@
   <text xml:lang="la">
     <front>
       <div xml:id="includeList">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
       </div>
       <div xml:id="starts-on">
         <pb ed="#PV" n="2-r"/><cb ed="#PV" n="a"/>
@@ -201,8 +199,9 @@
         
         <p xml:id="ppr-l1-ivdfmm"><pc type="virgula">/</pc> Item videmus de facto 
           <lb ed="#PV"/>quod manus movetur ad Imperium 
-          voluntantis et dominum quod ha<lb ed="#PV"/>buit 
-          <name>adam</name> fuit multo magis <pc type="virgula">/</pc> </p>
+          <lb ed="#PV"/>voluntatis et dominum quod ha<lb ed="#PV"/>buit 
+          <name>adam</name> fuit multo magis <pc type="virgula">/</pc> \
+        </p>
         
         <p xml:id="ppr-l1-icpfms"><lb ed="#PV"/><pc type="virgula">/</pc> Item capitur proportio gravitatis aeris 
           <lb ed="#PV"/>et aquae mota compereamus densitatem 
@@ -232,14 +231,16 @@
           etc Item methaphysic con<lb ed="#PV"/>cedunt 
           quod viribus sensitivis 
           <lb ed="#PV"/>obediunt etc ergo in statu In<lb ed="#PV"/>nocentiae 
-          <lb ed="#PV"/>debeant Imperio 
-          <lb ed="#PV"/>voluntatis obedire</p>
-        
-        <p xml:id="ppr-l1-iabepa">Item anima 
+          debeant Imperio 
+          <lb ed="#PV"/>voluntatis obedire
+        </p>
+        <p xml:id="ppr-l1-iabepa">
+          Item anima 
           <lb ed="#PV"/>bene disposita praeter naturam 
-          exteriorem altera est per am??nam[?]</p>
-        
-        <p xml:id="ppr-l1-usaafe">Prima conclusio fides est 
+          <lb ed="#PV"/>exteriorem altera est per am??nam[?]
+        </p>
+        <p xml:id="ppr-l1-usaafe">
+          <lb ed="#PV"/>Prima conclusio fides est 
           <lb ed="#PV"/>donum dei supernaturali <pc type="virgula">/</pc> patet quia 
           <lb ed="#PV"/>est error pelagii oppositum di<lb ed="#PV"/>centis 
           quia ex puris naturalibus 
@@ -285,14 +286,15 @@
           <lb ed="#PV"/>sortes crederet articulis fide videlicet per 
           <lb ed="#PV"/><choice><orig>raciones</orig><reg>rationes</reg></choice> et miracula et saepe ex<lb ed="#PV"/>i<del rend="strikethrough">e</del>ret 
           in actum <pc type="virgula">/</pc> et tamen esset 
-          infidelis quia non haberet habitum 
+          <lb ed="#PV"/>infidelis quia non haberet habitum 
           <lb ed="#PV"/>illum quem ponimus fidem videlicet[?] 
           <lb ed="#PV"/>infusum tamen talis habitus 
           <lb ed="#PV"/>acquisitus per rationes et miracula 
           <lb ed="#PV"/>esset sibi bonus quia praeservaret[?] eum 
-          <lb ed="#PV"/>adhaesi.</p>
-        
-        <p xml:id="ppr-l1-ctindr">Sed dices si sic fides 
+          <lb ed="#PV"/>adhaesi.
+        </p>
+        <p xml:id="ppr-l1-ctindr">
+          Sed dices si sic fides 
          <lb ed="#PV"/>haberetur solum per infusionem 
          <lb ed="#PV"/>tunc rationes probabiles <sic>fuerent</sic> 
          <lb ed="#PV"/>frustra.</p>
@@ -326,7 +328,6 @@
         
         <p xml:id="ppr-l1-acfefv">Conclusio 
           <lb ed="#PV"/>fides est realiter meritoria ita 
-          <lb ed="#PV"/>quod est formaliter meritum ita 
           <lb ed="#PV"/>quod est formaliter meritum patet 
           <lb ed="#PV"/>scripturam quia quis per credere 
           <lb ed="#PV"/>meretur ut patet de Abraham 
@@ -427,7 +428,9 @@
           <lb ed="#PV"/>acqurivit[?] <choice><orig>sciencias</orig><reg>scientias</reg></choice> p??tas[?] ad 
           <lb ed="#PV"/>inventas</p>
        
-        <p xml:id="ppr-l1-qeeppn"><pc type="virgula">/</pc> Nota de apparentiis quod aliqua apparentia est ex parte obiectit 
+        <p xml:id="ppr-l1-qeeppn">
+          <pc type="virgula">/</pc> Nota de apparentiis quod 
+          <lb ed="#PV"/>aliqua apparentia est ex parte obiecti et 
           <lb ed="#PV"/>eius modi et ita communiter[?] est in lumine 
           <lb ed="#PV"/>naturali quia est sensibilius disc??us 
           <lb ed="#PV"/>et elicius[?] con??ones[?] in naturalibus. Alia est 
@@ -449,7 +452,7 @@
           <lb ed="#PV"/>ex ante christum fore vel non fore 
           <lb ed="#PV"/><g ref="#dbslash"/>Sacramenta legis novae sunt signa 
           <lb ed="#PV"/>gratiae nedum signa sed eciam con<lb ed="#PV"/>ferunt 
-          <lb ed="#PV"/>christi vi gratia Sunt duo 
+          christi vi gratia Sunt duo 
           <lb ed="#PV"/>aequaliter de noti[?] omnino et non 
           <lb ed="#PV"/>baptisati tunc habeunt gravum 
           <lb ed="#PV"/>eius debitam ratione denominationes 
@@ -472,7 +475,8 @@
           <cb ed="#PV" n="a"/>
           <lb ed="#PV"/>aliud et sic diligimus creaturas 
           <lb ed="#PV"/>deus utitur creaturis et fruitur sui 
-          <lb ed="#PV"/>ipsius.</p>
+          <lb ed="#PV"/>ipsius
+        </p>
       </div>
     </body>
   </text>
