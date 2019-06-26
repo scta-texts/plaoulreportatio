@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -240,7 +237,7 @@
                 <lb ed="#PV"/>causare assensum falsum se ipso in<lb ed="#PV"/>mediate 
                 in creatura ymmo quem<lb ed="#PV"/>cumque 
                 errorem etiam inpertinentem 
-                <lb ed="#PV"/>ad salutem et hoc ratione suae in<pb ed="#PV" n="85-v"/><cb ed="#PV" n="b"/>mensae 
+                <lb ed="#PV"/>ad salutem et hoc ratione suae in<pb ed="#PV" n="85-v"/><cb ed="#PV" n="a"/><lb ed="#PV"/>mensae 
                 bonitatis
                 <!-- possible break point -->
                 Sequitur 
@@ -250,19 +247,19 @@
               </p>
               <p xml:id="ppr-l46-eqpdec">
                 Sequitur quod non 
-                <lb ed="#PV"/>stat
-                <!-- left off here -->
-                Ex quo patet quod non stat 
-                stante casu actum fruitionis durare ultra <c>a</c> instans. patet, quia 
-                in toto Residuo post <c>a</c> huiusmodi fruitionis est 
-                prohibitus, ergo deus substrahit specialem suam assistentiam 
-                et coefficientiam, et etiam caritas, et sic talis actus desinit 
-                esse in <c>a</c> instanti. et sic voluntas creata non poterit continuare 
-                huiusmodi actum, quia non sufficit se sola, nisi concurrente prima 
-                causa per cuius substractionem desinit actus esse et sic apparet qualiter 
-                in isto casu creatura non fruetur nec poterit frui post <c>a</c> 
-                instans, quia deficiet sibi specialis assistentia dei et coefficentia 
-                dei et caritas.
+                <lb ed="#PV"/>stat huiusmodi actum fruitionis 
+                <lb ed="#PV"/>durare ultra <c>a</c> instans probatur 
+                <lb ed="#PV"/>clare quia in toto tempore post 
+                <lb ed="#PV"/><c>a</c> est prohibitus specialem effi<lb ed="#PV"/>cientiam 
+                et assistentiam etiam caritas 
+                <lb ed="#PV"/>ergo huiusmodi actus desunt 
+                <lb ed="#PV"/>esset et per consequens non erit in po<lb ed="#PV"/>testate 
+                voluntatis ipsum continuare 
+                <lb ed="#PV"/>quia liberum arbitrium non suf<lb ed="#PV"/>ficit 
+                vel continuare sive praedictis
+                <lb ed="#PV"/>Sic apparet qualiter in isto casu 
+                <lb ed="#PV"/>creatura non poterit frui deo 
+                <lb ed="#PV"/>per <c>a</c> instans
               </p>
             </div>
           </div>
@@ -271,88 +268,123 @@
             <div xml:id="ppr-l46-Dd1e444">
               <head xml:id="ppr-l46-Hapapap">Ad primam</head>
               <p xml:id="ppr-l46-etadec">
-                Et tunc ad primam rationem creatura non 
-                cognoscit distincta <c>a</c> instans, ergo poterit frui ultra <c>a</c>. ex 
-                dictis patet qualiter est Respondendum unde si distincte non cognoscit illud instans, 
-                tamen non concurrit ultra illud instans propter substractionem divinae 
-                assistentiae et coefficentiae et influentiae dei et caritatis.
+                Tunc ad rationem 
+                <lb ed="#PV"/>nam creatura non cognoscit 
+                <lb ed="#PV"/>distincte <c>a</c> instans ergo stat 
+                <lb ed="#PV"/>quod ultra <unclear>contumet</unclear> apparet solutio 
+                <lb ed="#PV"/>ex dictis sive cognoscat distincte 
+                <lb ed="#PV"/>huiusmodi instans ultra quaestio 
+                <lb ed="#PV"/>non licet frui deo sive non tamen 
+                <lb ed="#PV"/>non stat quod habeat huiusmodi 
+                <lb ed="#PV"/>actum ultra <c>a</c> instans per 
+                <lb ed="#PV"/>subtractionem specialis influ<lb ed="#PV"/>entiae 
+                dei et caritatis
               </p>
               <p xml:id="ppr-l46-uscnni">
-                Unde 
-                si creatura non posset <sic>non posset</sic> naturaliter distincte certificari, tamen 
-                sperare habet quod deus concurret secum ad continuandum actum usque 
-                ad tempus licitum et non ultra vel etiam posset per modum 
-                specialem certificari. Verbi gratia, si praecipiat deus <name ref="#Sortes">sorti</name> quod faciat 
-                aliquid  in <c>a</c> hora 
-                et non ultra poterit per aliquod extrinsecum certificari, ut 
-                per <sic>aurologium</sic> vel aliquod aliud. Et ista materia tangit 
-                utrum aliquis posset non mereri vocando non mereri. 
-                Et istam tangit 
-                <ref xml:id="ppr-l46-Rd1e381"><name ref="#Wodeham">adam</name></ref>, 
-                sed pro nunc nolo intrare.
+                Quantum 
+                <lb ed="#PV"/>est tamen de materia in se et 
+                <lb ed="#PV"/>creatura non certificaretur separare 
+                <lb ed="#PV"/>habet si facat quod in se est quod deus 
+                <lb ed="#PV"/>concurrat se cum ad continuandum 
+                <lb ed="#PV"/>actum per tempus licitum 
+                <lb ed="#PV"/>et non ultra vel etiam posset per 
+                <lb ed="#PV"/>aliquem metum sensibilem 
+                <lb ed="#PV"/>certificari ut per horologum 
+                <lb ed="#PV"/>posset certificari
               </p>
               <p xml:id="ppr-l46-atecap">
-                Advertendum tamen est quod casus 
-                posset sic poni quod Repugnaret legi ut si creatura 
-                de <c>a</c> instanti non posset certificari et obligaretur creatura ad 
-                continuare usque ad <c>a</c> et non ultra et deus nolet concurrere 
-                secum ad certitudinem instantis. tunc casus esset impossibilis, quia creatura 
-                cogeretur ad peccandum.
+                Advertendum 
+                <lb ed="#PV"/>ultra quod casus potest sic poni quod 
+                <lb ed="#PV"/>realiter repugnaret legi ut si 
+                <lb ed="#PV"/>poneretur quod creatura non posset distincte 
+                <lb ed="#PV"/>certificari de impletione et esset 
+                <lb ed="#PV"/>obligata continuare tunc casus 
+                <lb ed="#PV"/>repugnaret legi
               </p>
             </div>
             <div xml:id="ppr-l46-Dd1e525">
               <head xml:id="ppr-l46-asasas">Ad secundam</head>
               <p xml:id="ppr-l46-ascpie">
-                Ad secundam, creatura habet aequalem 
-                libertatem post <c>a</c>, sicut ante. ergo si ante poterat, ergo et post. 
-                conceditur quod creatura habet aequalem libertatem ante <c>a</c> et post, tamen 
-                illa caritas non sufficit ad illius actus productionem post 
-                <c>a</c> nec conservationem, sed Requirit specialem dei assistentiam 
-                et coefficientiam, et etiam caritas quibus substractis non est in potestate 
-                naturali voluntatis, ita producere, sicut non est in potestate 
-                naturale voluntatis, actum meritorium producere sine speciali dei productione. 
-                et sic quantum ad hoc apparet qualiter sit solvendum. ad 
-                aliam, si voluntas frueretur in <c>a</c> et non posset frui post 
-                <c>a</c>, tunc daretur ultimum instans Rei permanentis in esse.
+                Ad 2m quando dicitur 
+                <lb ed="#PV"/>nam creatura habet causalitatem
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>essentialem respectu sui actus 
+                <lb ed="#PV"/>post <c>a</c> sicut ante Breviter 
+                <lb ed="#PV"/>patet quid dicendum quia licet 
+                <lb ed="#PV"/>voluntas sit aequae libera et 
+                <lb ed="#PV"/>eiusdem potestatis quantum est 
+                <lb ed="#PV"/>ex se tamen sua causalitas non 
+                <lb ed="#PV"/>sufficit nec ad productionem 
+                <lb ed="#PV"/>nec continuationem sed requiritur 
+                <!-- break -->
+                <lb ed="#PV"/>Respondetur sicut non est in potestate 
+                <lb ed="#PV"/>naturali voluntatis sive speciali 
+                <lb ed="#PV"/>adiutorio dei actum meritorium 
+                <lb ed="#PV"/>producere vel actum dei fruitiva
+                <!-- break -->
+                <lb ed="#PV"/>Ad aliud de ultimo instanti
+                <lb ed="#PV"/>quando dicitur si voluntas frueretur 
+                <lb ed="#PV"/>in <c>a</c> et post numquam frueretur
+                <lb ed="#PV"/>tunc actus fruendi haberet 
+                <lb ed="#PV"/>ultimum instans 
               </p>
               <p xml:id="ppr-l46-hreeeu">
-                Hic respondendum est quod nullum videtur inconveniens quod Rei permanentis 
-                in esse sit dabile ultimum instans, quia hoc habent 
-                <cb ed="#SV" n="b"/> <!-- 254vb -->
-                concedere ponentes quod quantitas continua distinguitur a substantia, quia 
-                esset dabile ultimum instans pedalis quantitatis in Rarefactione, 
-                nam si aliquid Rarefit quod sit pedale, tunc quando incipit 
-                Rarefieri est dabile ultimum instans pedalis quantitatis 
-                habet ibi esse, nam in illo instanti est pedalis quantitas et in 
-                nullo post, ergo est ultimum.
+                Respondetur quod nullum 
+                <lb ed="#PV"/>videtur inconveniens quod nisi perma<lb ed="#PV"/>nentis 
+                detur ultimum sui esse 
+                <lb ed="#PV"/>nam hoc habent ponere <unclear>ponens</unclear> 
+                <lb ed="#PV"/>quod quantitas sit res distincta 
+                <lb ed="#PV"/>a substantia quanta nam si aliquid 
+                <lb ed="#PV"/>debeat rarefieri datur ul<lb ed="#PV"/>timum 
+                instans in quod haec 
+                <lb ed="#PV"/>pedalis quantitas habet esse etiam 
+                <lb ed="#PV"/>datur ultimum instans in quo 
+                <lb ed="#PV"/><!-- possible deletion -->haec pedalis quantitas<!-- end of possible deletion --> summe 
+                <lb ed="#PV"/>caliditatis scilicet quando incipit re<lb ed="#PV"/>mitti 
+                et sic etiam <name>burley</name> dicit de 
+                <lb ed="#PV"/>qualitatibus quia dicit quod in 
+                <lb ed="#PV"/>intentione caliditatis prior 
+                <lb ed="#PV"/>non manet cum posteriori 
+                <lb ed="#PV"/>Et si aliquis sit in caritate 
+                <lb ed="#PV"/>et incipiat successive peccare 
+                <lb ed="#PV"/>tunc peccat per remotionem 
+                <lb ed="#PV"/>de praesenti et istud est ultimum iustans 
+                <lb ed="#PV"/>esse in gratia et non peccat sed in<lb ed="#PV"/>mediate 
+                post non erit in gratia et pecca<lb ed="#PV"/>bit 
               </p>
               <p xml:id="ppr-l46-eidiqe">
-                et ita de caritate, nam si aliquis 
-                incipiat peccare et successive, tunc dabitur ultimum instans caritatis, 
-                quia in illo instanti successivo erit caritas, et immediate 
-                post illud non erit caritas. Et si <unclear>instetur</unclear> huiusmodi res 
-                corrumpitur, ergo in instanti in quo est.
+                Si instetur quomodo huiusmodi 
+                <lb ed="#PV"/>res <unclear>cor?tur</unclear> vel instanti in quo est 
+                <lb ed="#PV"/>vel in alio non in quo est 
+                <lb ed="#PV"/>nec in alio quia tunc esset 
+                <pb ed="#PV" n="86-r"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>instans inmediatum instans quod 
+                <lb ed="#PV"/>non est concedendum
               </p> 
               <p xml:id="ppr-l46-rqrppd">
-                Respondetur quod res potest 
-                vocari corrumpi, quando desinit esse, et sic Res corrumpitur quando est, 
-                scilicet, in instanti in quo ultimo est. secundo dicitur quod quando Res corrumpitur, 
-                non est dandum aliquod instans in quo verum sit dicere quod in isto 
-                instanti res corrumpitur, sicut valde bene staret quod <c>a</c> angelus, nunc 
-                non esset. et tamen immediate post deus enim produceret, et tamen 
-                non esset aliquod certum instans in quo produceret primo, quia 
-                tunc illud esset instans proximum primo dato.
+                Respondetur primo quod res 
+                <lb ed="#PV"/>potest dici corrumpi quando desunt 
+                <lb ed="#PV"/>esse super per remotionem de praesenti 
+                <lb ed="#PV"/>sive per potentiam et sic corrumpitur 
+                <lb ed="#PV"/>quando est 
+                
               </p>
             </div>
             <div xml:id="ppr-l46-Dd1e621">
               <head xml:id="ppr-l46-Hatatat">Ad tertiam</head>
               <p xml:id="ppr-l46-aanaas">
-                Ad aliam, 
-                nego istam consequentiam voluntas vult in hoc instanti, ergo 
-                volet post immo voluntas potest subito cessare ab 
-                actu suo verum est quod in volitionibus ad quas voluntas se sola 
-                cum influentia dei generali concurreret quod voluntas non posset 
-                subito cessare ab actu suo.
+                <!-- possible break --> 
+                Ad aliam et deberet esse 
+                <lb ed="#PV"/>ante conclusionem solutionem dictae 
+                <lb ed="#PV"/>rationis nego istam consequentiam 
+                <lb ed="#PV"/>voluntas creata vult in hoc 
+                <lb ed="#PV"/>instanti ergo volet nego quando 
+                <lb ed="#PV"/>possit subito cessare ab actu 
+                <lb ed="#PV"/>suo sed forte de communi lege 
+                <lb ed="#PV"/>staret de actu quem eliceret 
+                <lb ed="#PV"/>de concursu dei ergo quod non 
+                <lb ed="#PV"/>subito potest cessare
               </p>
             </div>
           </div>
@@ -364,193 +396,280 @@
           <div xml:id="ppr-l46-Dd1e647">
             <head xml:id="ppr-l46-Hd1e649">Ad rationem quartam, quintam, et sextum</head>
             <p xml:id="ppr-l46-auavss">
-              Ad unam aliam rationem 
-              quae 
-              <ref xml:id="ppr-l46-Rd1e658" target="http://scta.info/resource/l44-iceaap http://scta.info/resource/d1l44iiaadd">
-                fuit tacta prius
-              </ref>  
-              quod Deo est utendum et creatura fruendum 
-              et ponebatur casus de aggregato divinitatis et humanitatis in christo, 
-              quia illud aggregatum est magis diligendus quam pater vel spiritus 
-              sanctus.
+              <!-- seems to also include ppr-l46-ihcced -->
+              Ad aliam 
+              <lb ed="#PV"/>rationem quae fuit alias tacta ar<lb ed="#PV"/>guebatur 
+              de humanitate christi 
+              <lb ed="#PV"/>utendum est ergo christo ergo <unclear>deos</unclear>
+              
             </p>
-            <p xml:id="ppr-l46-iceade">
-              <!-- only appears in V -->
+            <!--<p xml:id="ppr-l46-iceade">
+              <!-\- only appears in V -\->
               Item christus est magis diligendus 
               Christus est magis diligendus 
               quam pater, quia ratione fraternitatis in christo ad<lb ed="#V"/>ditur 
               aliquid diligibilitatis, etc.
-            </p>
-            <p xml:id="ppr-l46-itcqds">
-              Item, <!--possible ref to <ref xml:id="ppr-l46-Rd1e678" target="lectio44.xml#l44-ipdede">lectio 44, para.</ref>--> 
+            </p>-->
+            <!--<p xml:id="ppr-l46-itcqds">
+              Item, <!-\-possible ref to <ref xml:id="ppr-l46-Rd1e678" target="lectio44.xml#l44-ipdede">lectio 44, para.</ref>-\-> 
               tota caelestis curia est magis diligenda quam deus 
               solus.
-            </p>
-            <p xml:id="ppr-l46-ihcced">
+            </p>-->
+            <!--<p xml:id="ppr-l46-ihcced">
+              <!-\- this argument seems to be above -\->
               Item, 
               humanitate Christi est utendum, ergo Christo, ergo Deo.
-            </p>
+            </p>-->
             <p xml:id="ppr-l46-ifhpci">
-              Item 
-              fruitio humanitatis christi est illicita, ergo fruitio dei est illicita 
-              per communicationem idiomatum.
+              <lb ed="#PV"/>Item probatur quod fruitio dei est 
+              <lb ed="#PV"/>illicita quia fruitio humanitatis 
+              <lb ed="#PV"/>christi est illicita ergo christi igitur
             </p>
             <p xml:id="ppr-l46-airdqd">
-              Ad ista, responsio de humanitate christi et verbo 
-              sicut communiter dicitur christus sumpsit pro verbo cognoscendo humanitatem sibi 
-              convictam. et tunc christo est fruendum nec christus est magis diligendus 
-              quam pater vel spiritus sanctus. nec ullus gradus diligibilitatis 
-              correspondet humanitati, nec ratione dei, quia deus est fons totius 
-              bonitatis et diligibilitatis, nec alia a deo sunt de se diligibilia, 
-              nisi inquantum reducuntur in deum, et per hoc apparet de caelesti curia incluso 
-              deo. unde dicitur quod agregatum ex deo et beatis non est 
-              magis diligendum quam Deus.
+              Respondetur 
+              <lb ed="#PV"/>de agregato ex humanitate 
+              <lb ed="#PV"/>christi et verbo sive de christo ly 
+              <lb ed="#PV"/>christus non supponit pro aggregato
+              <lb ed="#PV"/>sed supponit pro supposito con<lb ed="#PV"/>notando 
+              humanitate et sic eo 
+              <lb ed="#PV"/>est fruendum quia tota radix 
+              <lb ed="#PV"/>diligibilitatis est in deo et est communis 
+              <lb ed="#PV"/>personas et ideo nullus gradus 
+              <lb ed="#PV"/>competit humanitate nisi res 
+              <lb ed="#PV"/><!-- something wrong in iage here -->
+              <!-- a few missing lines here -->
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>patria quia totum agregatum 
+              <lb ed="#PV"/>non est magis diligendum quam deus 
             </p>
             <p xml:id="ppr-l46-scauef">
-              Sed contra arguitur illud aggregatum 
-              est diligendum et non usu, ergo fruitione.
+              <lb ed="#PV"/>Contra illud est diligendum ergo 
+              <lb ed="#PV"/>usu vel fruitione
             </p>
             <p xml:id="ppr-l46-rhqnef">
-              Responsio hic quod proprie illud 
-              aggregatum non est unicum obiectum rationabiliter diligendae, sed si illud agregatum 
-              est diligibile illud aggregatum propter Deum est diligibile usu, 
-              et tunc voluntas respectu illius multitudinis si Recte diligat 
-              eliciet et constituet sibi duo obiecta, quia eliciet fruitionem 
-              <cb ed="#SV" n="254ra"/>respectu dei, et usu respectu alterius multitudinis, vel dicitur quod huiusmodi 
-              multitudo potest esse obiectum usus terminati tamen ad deum, et sic 
-              ille usus est fruitio, et sic huiusmodi multitudo diligitur 
-               plusquam deus immo deus magis diligitur, quia 
-              huiusmodi multitudo diligitur per modum usus ordinati in deum, 
-              et sic deus diligitur fruitive. Et si dicatur tunc deus esset pars 
-              usus. Respondetur quod non est inconveniens quod deus sit pars usus in casu 
-              in quo usus ille est fruitio, sed bene esset inconveniens quod deus 
-              esset obiectum usus in casu quo ille usus non esset fruitio.
+              Si usu utere<lb ed="#PV"/>mur 
+              deo quod esset obiectum 
+              <lb ed="#PV"/>partiale Respondeo dico primo quod 
+              <lb ed="#PV"/>illud totius aggregatum non 
+              <lb ed="#PV"/>est obiectum unicum rationabiliter 
+              <lb ed="#PV"/>diligibile sed si ordinate di<lb ed="#PV"/>ligatur 
+              debet esse dilectio quae sit 
+              <lb ed="#PV"/>usus respectu totius multitudinis 
+              <lb ed="#PV"/>praeter deum si sit ordinata vel 
+              <lb ed="#PV"/>fruitio respectu dei et sic creatura 
+              <lb ed="#PV"/>constituet sibi duo obiecta 
+              <lb ed="#PV"/><unclear>alias</unclear> non esset dilectio ordinata
+              <!-- break --> 
+              <lb ed="#PV"/>2o modo potest dici quod huiusmodi 
+              <lb ed="#PV"/>ordine ad dum ita quod ordinatur 
+              <lb ed="#PV"/>oporteret concedere quod deus esset 
+              <lb ed="#PV"/>pars obiecti usus 
+              <!-- break --> 
+              Breviter 
+              respondendum est quod non est 
+              <lb ed="#PV"/>inconveniens quod sit partiale ob<lb ed="#PV"/>iectio 
+              usus ubi per eundem 
+              <lb ed="#PV"/>actum adaequate est obiectum 
+              <lb ed="#PV"/>fruitionis
             </p> 
             <p xml:id="ppr-l46-cqdceu">
-              Consequenter quando dicitur humanitate christi est utendum, ergo christo est utendum, 
-              nam bene sequitur <name ref="#Sortes">sortes</name> videt humanitatem christi, ergo videt christum. 
-              et <name ref="#Sortes">sortes</name> tangit humanitatem christi, ergo tangit christum, ergo ita bene 
-              sequitur humanitate christi est utendum, ergo christo est utendum.
+              Consequenter de 
+              <lb ed="#PV"/>humanitate christi arguitur quia illa est utendum 
+              <lb ed="#PV"/>ergo deo consequentia tenet per communicationem ut sequitur 
+              <lb ed="#PV"/>sortes videt humanitatem christi ergo 
+              <lb ed="#PV"/>christum tangit humanitatem christi ergo 
+              <lb ed="#PV"/>christum
             </p>
             <p xml:id="ppr-l46-reppci">
-              Respondetur 
-              est primo quod quamquam sic decet de obiecto usus vel fruitionis 
-              intelligendum est de obiecto per se usus et de obiecto per se fruitionis 
-              et sic solus deus est per se obiectum fruibile et non utile per se 
-              et immediate. unde si esset obiectum utile hoc esset per communicationem 
-              idiomatum.
+              Respondendum est primo quod quidquid 
+              <lb ed="#PV"/>est dictum de obiecto usus et frui<lb ed="#PV"/>tionis 
+              intelligitur de per se 
+              <lb ed="#PV"/>obiecto ita quod solus deus est 
+              <lb ed="#PV"/>per se obiectum fruibile et numquam 
+              <lb ed="#PV"/>obiectum utibile per se et inmediate 
+              <lb ed="#PV"/>unde quod diceretur obiectum utile 
+              <lb ed="#PV"/>hoc esset per communicationem ydeomatum
             </p>
             <p xml:id="ppr-l46-aeruef">
-              Alia est responsio melior scilicet negando quod sit communicatio
-              idiomatum quantum ad ista praedicata uti et frui.
+              <!-- something wrong with image; few lines missing -->
+              <pb ed="#PV" n="86-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>et uti
             </p>
             <p xml:id="ppr-l46-uaqend">
-              Ubi advertendum 
-              quod humanitas aliter se habet respectu cognitionis quae immediate causatur 
-              ab ea et respectu dilectionis. nam respectu cognitionis se habet obiective. 
-              concurabat enim obiective ad intuitivam sui visionem in potentia sensitiva 
-              vel intellectiva non autem concurrebat sic respectu dilectionis 
-              ordinatae, ideo non sequitur humanitas christi est immediatum obiectum 
-              respectu notitiae, ergo est sic immediatum obiectum respectu dilectionis, ideo licet 
-              ista praedicta videre tangi communicarentur verbo ratione humanitatis assumptae. 
-              non tamen sequitur quod diligi, et causa est, quia dilectio non 
-              est ita ab humanitate, sicut visio, quia videre est sibi magis 
-              intrinsecum quam diligi, quia videre concurrit effective principaliter 
-              et causat sui notitiam et sic est sibi intrinsecum, non autem 
-              sic concurrit ad diligi naturaliter et immediate, quia stat bene quod 
-              videatur et non diligatur.
+              <lb ed="#PV"/>Advertendum quod humanitas 
+              <lb ed="#PV"/>christi aliter se habet respectu visionis 
+              <lb ed="#PV"/>vel alterius cognitionis immediate 
+              <lb ed="#PV"/>obiective causatae ab ea quam 
+              <lb ed="#PV"/>respectu dilectionis circa primum se habet 
+              <lb ed="#PV"/>obiective et non sic respectu di<lb ed="#PV"/>lectionis
+              Ideo licet ista praedica<lb ed="#PV"/>tum 
+              diligi quia dilectio non 
+              <lb ed="#PV"/>ita <sic>in mediate</sic> et ab humanitate sicut 
+              <lb ed="#PV"/>visio ideo non est ita intrinsecum 
+              <lb ed="#PV"/>sibi quod diligatur sicut intrinse<lb ed="#PV"/>cum 
+              est sibi quod videatur quia 
+              <lb ed="#PV"/>ad videri concurrit principaliter 
+              <lb ed="#PV"/>et causat sui visionem et sic 
+              <lb ed="#PV"/>non est de diligere quia valde 
+              <lb ed="#PV"/>bene stat quod obiceat se et non 
+              concurrat ad actum dilectionis 
+              <lb ed="#PV"/>et sic oportet negare consequentiam 
+              <lb ed="#PV"/>si humanitas christi videtur verum videtur 
+              <lb ed="#PV"/>ergo si humanitas diligitur christum 
+              <lb ed="#PV"/>diligitur et sic patet quomodo
             </p>
             <p xml:id="ppr-l46-esnads">
-              Et sic neganda est consequentia humanitate 
-              est utendum, ergo christo, quia illud praedicatum, scilicet, uti non 
-              communicatur supposito, supposito quod communicaretur naturae assumptae. et ita 
-              non sequitur <name ref="#Sortes">sortes</name> fruitur, primo ergo fruitur humanitate, et 
-              causa est quia humanitas non immediate concurrit ad dilectionem 
-              sui.
+              Respondendum 
+              <lb ed="#PV"/>est ad ambo argumenta Istud 
+              <lb ed="#PV"/>praedicatum uit non communicatur supposito 
+              <lb ed="#PV"/>et ergo consequentia non valet non etiam 
+              <lb ed="#PV"/>sequitur sortes fruitur human<lb ed="#PV"/>nitate 
+              christi ergo fruitur deo 
+              <lb ed="#PV"/>vel christo
             </p>
             <p xml:id="ppr-l46-adachp">
-              Aliter dicunt alii quod vi communicationis idiomatum non oportet quod illa 
-              praedicata videre tangi communicentur verbo, tamen quia illud est contra scripturam, 
-              quia dicitur quod deus visus est, ideo non teneo illam viam 
-              tenendum est tamen illa consequentia est bona videt humanitatem christi, 
-              ergo christum. non tamen sequitur iste diligit christum fruitive, ergo 
-              diligit humanitatem Christi fruitione quia non communicantur huiusmodi 
-              praedicata.
+              Alii dicunt aliter 
+              <lb ed="#PV"/>quod non oportet quod ista praedica<lb ed="#PV"/>ta 
+              videri cognosci vi communica<lb ed="#PV"/>tionis 
+              ydeomatum competunt <unclear>non</unclear>
+              <!-- break -->
+              <lb ed="#PV"/>Sed non bene quia scriptura 
+              cogit nos quod deus videtur 
+              <lb ed="#PV"/>et visus est <unclear>materis</unclear> et sensitive 
+              <lb ed="#PV"/>cognitus est ideo bene sequitur iste videt 
+              <lb ed="#PV"/>humanitatem christ ergo deum <del>sed 
+              <lb ed="#PV"/>bene <unclear>soputur</unclear></del> per communicationem ydeo<lb ed="#PV"/>matum 
+              non tamen sequitur 
+              <lb ed="#PV"/>iste diligit humanitatem christi ergo 
+              <lb ed="#PV"/>deum sed bene sequitur si in antecedente ad<lb ed="#PV"/>datur 
+              ordinate 
             </p>
           </div>
           <div xml:id="ppr-l46-Dd1e853">
             <head xml:id="ppr-l46-Hauauau">Ad septimum</head>
             <p xml:id="ppr-l46-arffcc">
-              <ref xml:id="ppr-l46-Rd1e859" target="http://scta.info/resource/l44-icesod">Alia ratio</ref> 
-              fuit et ponebatur  quod 
-              angelus satanae transfiguratur se in angelum lucis, 
-              <cb ed="#SV" n="254rb"/>tunc aliquis credet quod angelus ille sit deus, immo conscientia sua dicabit 
-              quod est deus, ergo diligendus super omnia. et sic, si non fruatur, 
-              peccabit, quia faciet contra conscientiam.
+              ultima ratio 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>quam fecit <name ref="#Holcot">holkot</name> ponatur
+              <lb ed="#PV"/>quod angelus sathanae apareat 
+              <lb ed="#PV"/>deus et habeat ignorantiam 
+              <lb ed="#PV"/><sic>in vincibilem</sic> tunc credet quod 
+              <lb ed="#PV"/><c>a</c> est deus et eliciet actum frui<lb ed="#PV"/>tivum 
+              vel peccabit vel fruetur 
+              <lb ed="#PV"/>creatura merendo
             </p> 
             <p xml:id="ppr-l46-hdqpnt">
-              <ref xml:id="ppr-l46-Rd1e873" target="http://scta.info/resource/rh-l1q3-d1e144">
-                <name ref="#Holcot">holcot</name>
-              </ref>
-              dicit quod quis licite 
-              potest uti deo et frui creatura licite, quia in casu posito creatura 
-              mereri fruendo creatura, quia habet ignorantiam invincibilem, 
-              quod ille angelus esset deus. et sic meretur ac si deo frueretur.
-              et sic consequenter dicit quod si christus appareret alicui et crederet 
-              quod esset <name ref="#JudasIscariot">Iudas</name>, tunc odiendo Deum, dicit
-              <ref xml:id="ppr-l46-Rd1e895" target="http://scta.info/resource/rh-l1q3-d1e175">
-                <name ref="#Holcot">holcot</name>
-                <!--<note><bibl><author>Holcot</author>, q. 4, a. 3, concl. 6, f. ?b, U</bibl> -->
-              </ref>, 
-              iste meretur, 
-              quia materia de ignorantia est valde difficilis. et illa tractabitur 
-              in secundo, ideo nihil pro nunc tracto. tamen pro praesenti standum est magis 
-              cum doctoribus antiquis quod in nullo casu fruendum est creatura, 
-              et quod in nullo casu utendum est deo.
+              Breviter 
+              <lb ed="#PV"/>respondendum <ref xml:id="ppr-l46-Rd1e873" target="http://scta.info/resource/rh-l1q3-d1e144"><name ref="#Holcot">holkot</name></ref> et concedit 
+              <lb ed="#PV"/>quod aliquis potest licite uti deo 
+              <lb ed="#PV"/>et consequenter quod potest licite frui creatura 
+              <lb ed="#PV"/>nam in casu posito creatura 
+              <lb ed="#PV"/>meretur fruendo creatura Nam 
+              <lb ed="#PV"/>haberet ignorantiam <sic>in vincibilem</sic> 
+              <lb ed="#PV"/>ergo totaliter excusaretur ergo 
+              <lb ed="#PV"/>meretur ac si deo frueretur Et 
+              <lb ed="#PV"/>sic si christus appareret alicuius 
+              <lb ed="#PV"/>recederet ille quod esset <name>iudas</name> dicit 
+              <lb ed="#PV"/>quod odiendo aliquando mereretur quia 
+              <lb ed="#PV"/>crederet quod esset inimicus dei 
+              <lb ed="#PV"/>et sic meretur Ista materia de ig<lb ed="#PV"/>norantia 
+              solet tractum in secundo 
+              <lb ed="#PV"/>tamen in ista materia scilicet argumenti standum 
+              <lb ed="#PV"/>est magis cum doctoribus anti<lb ed="#PV"/>quis 
+              scilicet quod in nullo casu 
+              <lb ed="#PV"/>fruendum est creatura et in nullo casu 
+              dicendum est de deo
             </p>
             <p xml:id="ppr-l46-uaqofc">
-              Ubi advertendum quod fruitio 
-              creaturae est essentialiter deordinatio, sicut odium dei est essentialiter 
-              malum. non quod illa qualitas sit essentialiter mala, sed ad 
-              istum intellectum quod non stat creaturam odire Deum quoniam sit 
-              mala, ita non stat quod creatura fruatur creatura quoniam sit 
-              deordinatio et adversio a Deo et conversio ad creaturam.
+              Advertendum 
+              <lb ed="#PV"/>est quod fruitio creaturae est essentialiter 
+              <lb ed="#PV"/>ordinatio sicut odium dei est 
+              <lb ed="#PV"/><sic>de ordinatio</sic> non dico quod illa 
+              <lb ed="#PV"/>qualitas sit intrinsece et essentialiter 
+              <lb ed="#PV"/>de ordinatio 
             </p>
+            <p xml:id="ppr-lectio46-d1e1205">
+              <pc type="#pilcrow"/>Sed dico quod 
+              <lb ed="#PV"/>non stat creatam frui creatura 
+              <lb ed="#PV"/>sit de ordinatio patet quia est Aver<lb ed="#PV"/>sio 
+              a fine debito et conversio 
+              <lb ed="#PV"/>ad illud 
+            </p>
+            <!-- reason for paragraph break extremely unclear -->
             <p xml:id="ppr-l46-npdofc">
-              Nec 
-              posset Deus salvare quod esset debitus ordo fruendi creatura.
+              ymmo deus non potest 
+              <lb ed="#PV"/>facere quod creatura haberet debi<lb ed="#PV"/>tam 
+              rationem fruibilitas
             </p>
             <p xml:id="ppr-l46-ifeaec">
-              Item, fruitio est exhibitio summi honoris in quantum est ex parte 
-              creaturae fruentis modo quod summus honor exibeatur creaturae 
-              est idolatria et est malum creaturae et totius universi, et 
-              per consequens illud malum homo potest esse licitum. et sic quantum ad hoc 
-              magis tenendus est <name ref="#WilliamOfParis">Guillelmus Parisiensis</name> et antiqui doctores 
-              qui ponunt quod in nullo casu adoranda est creatura.
+              Item fruitio 
+              <lb ed="#PV"/>est exhibitio summi honoris 
+              <lb ed="#PV"/>quantum est ex parte creaturae modo 
+              <lb ed="#PV"/>quod honor summus attribuitur 
+              <lb ed="#PV"/>creaturae est <sic>de ordinatio</sic> universi
+              <pb ed="#PV" n="87-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>et est de ordinatio creaturae 
+              <lb ed="#PV"/>et sic illud non potest esse licitum 
+              <lb ed="#PV"/>ergo magis tenendus est <name>Wilhelmo 
+              <lb ed="#PV"/>parysiensis</name> et antiqui doctores 
             </p>
             <p xml:id="ppr-l46-nahdvc">
-              Nunc
-              ad <name ref="#Holcot">Holcot</name>, 
-              quando dicit stat quod aliquis habeat ignorantiam 
-              invincibilem, nec potest scire naturaliter, 
-              utrum hoc sit Deus vel creatura.
+              <lb ed="#PV"/>ad probationem ipsius <name>holkot</name> quando dicitur 
+              <lb ed="#PV"/>stat quod habeat ignorantiam invincibi<lb ed="#PV"/>lem 
+              et quod non sit in sua potestate 
+              <lb ed="#PV"/>cognoscere quod sit creatura
             </p>
             <p xml:id="ppr-l46-rqstic">
-              Respondetur quod stante ordinatione communi non est 
-              casus possibilis quod creatura habeat ignorantiam invincibilem 
-              de creatura quod sit deus. nam si creatura facit quod in se est 
-              deus non permittet eam in talem ignorantiam corruere. unde 
-              sicut deus non potest immediate decipere creaturam. Ita deus non 
-              permittet creaturam facientem quod in se est errare immo 
-              Revelabit sibi quid sit faciendum circa finem ultimum. 
-              ideo omnis casus <name ref="#Holcot">holcot</name> qui supponunt quod creatura posset 
-              habere ignorantiam invincibilem, fundantur in falso fundamento, 
-              quia deus non permitteret creaturam facientem quod in se est in 
-              talem ignorantiam corruere. ideo est negandum quod creatura posset 
-              habere talem ignorantiam invincibilem, et hoc nisi esset 
-              ex culpa sua praecedente. et sic talis creatura quae esset in culpa 
-              adorando creaturam peccaret. tamen si faceret quod in se est 
-              deus non permitteret eam in talem ignorantiam corruere, etc.
+              <pc type="#pilcrow"/>Respondetur 
+              <lb ed="#PV"/>quod lege stante non est casus possibilis 
+              <lb ed="#PV"/>scilicet quod creatura habeat ignorantiam 
+              <lb ed="#PV"/>invincibilem de alia creatura 
+              <lb ed="#PV"/>quod sit deus
+              <pc type="#pilcrow"/>Nam si creatura 
+              <lb ed="#PV"/>faciat quod in se est deus non 
+              <lb ed="#PV"/>permittit eam in <unclear>talem</unclear> <unclear>mise<lb ed="#PV"/>eriam</unclear> 
+              et ignorantiam <unclear>corruere</unclear>
+              <lb ed="#PV"/>quia sicut non potest in<lb ed="#PV"/>mediate 
+              decipere creaturam ita 
+              <lb ed="#PV"/>etiam non potest in proposito unde 
+              <lb ed="#PV"/>non permittit errare praecipue 
+              <lb ed="#PV"/>circa finem ultimum et ideo 
+              <lb ed="#PV"/>omnes casus sui fundantur 
+              <lb ed="#PV"/>super fundamento falso ita quod 
+              <lb ed="#PV"/>non stat quod habeat talem ignoran<lb ed="#PV"/>tiam 
+              quod sic <unclear>derivet</unclear> circa ultimum 
+              <lb ed="#PV"/>finem si faciat quod in se est 
+              <lb ed="#PV"/>et si non sit in peccato et si 
+              <lb ed="#PV"/>esset in peccato non frueretur meritorie 
+            </p>
+            <!-- conclusiones -->
+            <p xml:id="ppr-lectio46-d1e1335">
+              <lb ed="#PV"/>Circa distinctionem 44am prima 
+              <lb ed="#PV"/>conclusio deus potest facere 
+              <lb ed="#PV"/>alia quam fecerit et etiam me<lb ed="#PV"/>liora 
+              nam potestas sita non 
+              <lb ed="#PV"/>est evacuata et ideo inter supre<lb ed="#PV"/>mam 
+              creaturam nunc creatura 
+              <lb ed="#PV"/>infinite potest produci et creari
+            </p>
+            <p xml:id="ppr-lectio46-d1e1354">
+              <lb ed="#PV"/><pc type="#pilcrow"/>2a quod potest facere meliori modo 
+              <lb ed="#PV"/>et potuit quia posset ponere 
+              <lb ed="#PV"/>hominem in melioribus naturali<lb ed="#PV"/>bus 
+              et etiam in peccabile secundum 
+              <lb ed="#PV"/>cursum naturalem utrum simpliciter 
+              <lb ed="#PV"/>tenendum quod non quia esset 
+              <lb ed="#PV"/>eiusdem speciei nobiscum ergo 
+              <lb ed="#PV"/>absolute posset
+            </p>
+            <p xml:id="ppr-lectio46-d1e1375">
+              <pc type="#pilcrow"/>3a quidquid deus 
+              <lb ed="#PV"/>potuit potest et vult etc id est semper 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>manet aequalis potestas et aequalis 
+              <lb ed="#PV"/>voluntas etc.
             </p>
           </div>
         </div>
