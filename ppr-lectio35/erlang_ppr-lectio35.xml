@@ -1,23 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lectio 35, de Fruitio [Erlangen Transcription]</title>
+        <title>Lectio 35, De fruitione [Erlangen Transcription]</title>
         <author xml:id="PP">Petrus Plaoul</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Lectio 35, de Notitia [Erlangen Transcription]</title>
+          <title>Lectio 35, De fruitione [Erlangen Transcription]</title>
           <date when="2018-03-14">March 14, 2018</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -27,30 +28,28 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2018-03-13" status="draft" n="0.0.0">
+        <change when="2018-03-14" status="draft" n="0.0.0">
           <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      
       <div xml:id="starts-on">
         <pb ed="#E" n="49-r"/>
       </div>
     </front>
     <body>
       <div xml:id="ppr-lectio35">
-        <head xml:id="ppr-l35-Hldfldf">Lectio 35, de Fruitione [Erlangen Transcription]</head>
+        <head xml:id="ppr-l35-Hldfldf">Lectio 35, De fruitione [Erlangen Transcription]</head>
         <div xml:id="ppr-l35-Dd1e100">
           <head xml:id="ppr-l35-Hressio">Responsio</head>
           <p xml:id="ppr-l35-iritmt">

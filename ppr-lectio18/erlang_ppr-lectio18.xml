@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,17 +10,16 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0dev-master">
-          <title>Lectio 18, De fide [Erlangen Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Lectio 18, de Fide [Erlangen Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
-        <date when="2011-03-25">March 23rd, 2011</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,11 +28,9 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
-          guidelines for a diplomatic edition.
-        </p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -46,15 +43,11 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
         <pb ed="#E" n="25-r"/>
       </div>
-  </front>
-  <body>
+    </front>
+    <body>
       <div xml:id="ppr-lectio18">
         <head xml:id="ppr-l18-Hd1e3723">Lectio 18, De Fide [Erlangen Transcription]</head>
         <div xml:id="ppr-l18-Dd1e3726">
@@ -392,7 +385,8 @@
           </p>
           <p xml:id="ppr-l18-d1e5296">
             Quinta conclusio filius est minor patre secundum formam 
-            <pb ed="#E" n="23-v"/><lb ed="#E"/>assumptam etiam minore se ipso et sic non est de spiritu sancto quia sic non uni<lb ed="#E"/>vit 
+            <pb ed="#E" n="23-v"/>
+            <lb ed="#E"/>assumptam etiam minore se ipso et sic non est de spiritu sancto quia sic non uni<lb ed="#E"/>vit 
             sibi creaturam per illam missionem
           </p>
         </div>

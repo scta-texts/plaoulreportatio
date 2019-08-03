@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -8,30 +10,46 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2011.10-dev-master">
+        <edition n="0.0.0-dev">
           <title>Lectio 3, de Fide [Erlangen Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>LombardPress</publisher>
-        <pubPlace>Sacramento, CA</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-            <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
-        <date when="2011-03-25">March 23rd, 2011</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="E">Erlangen</witness>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="4-r"/>
+      </div>
+    </front>
     <body>
       <div xml:id="lectio3">
-        <head subtype="title">Lectio 3, De Fide [Erlangen Transcription]</head>
+        <head>Lectio 3, De Fide [Erlangen Transcription]</head>
         <div>
           <head><supplied>Conclusiones circa fidem</supplied></head>
           <p xml:id="ppr-l3-seqiaf">
@@ -48,7 +66,8 @@
           </p>
           <p xml:id="ppr-l3-iiqead">
             ymaginemur quod sortes cognoscat in vero obiective quod antichristus erit vel quod 
-            <pb ed="#E" n="4v"/><lb ed="#E"/>verbum sit sibi notitia illa noticia est conformis verbo et sic videt et assentit 
+            <pb ed="#E" n="4-v"/>
+            <lb ed="#E"/>verbum sit sibi notitia illa noticia est conformis verbo et sic videt et assentit 
             <lb ed="#E"/>ille assensus est deus met Et sic deus potest ?? unam qualitatem eodem modo repraesentem sicut verbum 
             <lb ed="#E"/>unde illa qualitas ad immensitatem divinae potentiae communicaretur non staret illam a divino 
             <lb ed="#E"/>iudicio difformari
@@ -167,7 +186,8 @@
               <lb ed="#E"/>sine gratia creata etc Sed deacceptatio non habet talem habitudinem ex quo est posterior 
               <lb ed="#E"/>actu malo quia deus non indignatur creaturae v[?] quia mala est sed acceptatio est realiter 
               <lb ed="#E"/>prior actu bono Acceptuere spectat addi?nam[?] pietatem sed deacceptatio non potest esse sine 
-              <pb ed="#E" n="5r"/><lb ed="#E"/>de merito quia esset nequissimum et non est attribuendum deo sed dyabolo Etiam licet 
+              <pb ed="#E" n="5-r"/>
+              <lb ed="#E"/>de merito quia esset nequissimum et non est attribuendum deo sed dyabolo Etiam licet 
               <lb ed="#E"/>concedentur quod deus acceptaret per impossibile adhuc non sequeretur quod huiusmodi creatura pec<lb ed="#E"/>caret 
               quia ad peccatum vel ad esse peccatum non concureant[?] scilicet actus libere elicitus contra 
               <lb ed="#E"/>legem et deacceptatio ergo[?] non sequitur quod posita deacceptatent[?] sine actu elicito contra legem 

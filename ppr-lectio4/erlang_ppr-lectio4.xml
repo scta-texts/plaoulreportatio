@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -8,44 +10,52 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2011.10-dev-master">
+        <edition n="0.0.0-dev">
           <title>Lectio 4, de Fide [Erlangen Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>LombardPress</publisher>
-        <pubPlace>Boston, MA</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
-        <date when="2011-03-25">March 23rd, 2011</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="E" n="erlangen">Erlangen</witness>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#E" n="5r"/>
+        <pb ed="#E" n="5-r"/>
       </div>
     </front>
     <body>
       <div xml:id="lectio4">
-        <head subtype="title">Lectio 4, de Fide [Erlangen Transcription]</head>
+        <head>Lectio 4, de Fide [Erlangen Transcription]</head>
         <div>
           <head xml:id="ppr-l4-Hfecami"><supplied>Fides est conformis divino iudicio: solutiones ad multas instantias</supplied></head>
           <p xml:id="ppr-l4-seqtoa">
             Ex <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> de fide possunt solvi multae rationes et difficultates quibus involvuntur[?] 
-            <lb ed="#E"/>alii tenentes communem modum.</p>
+            <lb ed="#E"/>alii tenentes communem modum.
+          </p>
         </div>
         <div>
           <head xml:id="ppr-l4-Hpipipi"><supplied>Prima instantia</supplied></head>
@@ -113,7 +123,8 @@
             <lb ed="#E"/>facilius disponitur ab habendum actum fidei quam qui non habet habitum Quia si 
             <lb ed="#E"/>uterque facit diligenciam tunc in habituato intenditur caritas ex quo est in gratia et 
             <lb ed="#E"/>in alio non quia non in gratia unde requiritur ultra quod sit diligencia odium 
-            <pb ed="#E" n="5v"/><lb ed="#E"/>mali et amor boni
+            <pb ed="#E" n="5-v"/>
+            <lb ed="#E"/>mali et amor boni
           </p>
           <p xml:id="ppr-l4-vqhmie">
             <!-- no clear paralle here-->

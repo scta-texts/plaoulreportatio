@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,15 +11,15 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
+          <title>Lectio 5, de Fide [Erlangen Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>A SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-            <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
-        <date when="2011-03-25">March 23rd, 2011</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -28,10 +28,9 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -44,10 +43,6 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
         <pb ed="#E" n="5-v"/>
       </div>
@@ -80,7 +75,8 @@
             </p>
             <p xml:id="ppr-l5-usapce">Arguitur aliter fides inclinat ad conformiter credendum praelato ecclesiae a deo et tamen 
               <lb ed="#E"/>praelato potest decipere quia etiam potest decipi quia posset c?dere[?] quod pater in divinis 
-              <pb ed="#E" n="6r"/><lb ed="#E"/>esset maior et perfectior filio et quia posset producere aliquae quem filius non posset 
+              <pb ed="#E" n="6-r"/>
+              <lb ed="#E"/>esset maior et perfectior filio et quia posset producere aliquae quem filius non posset 
               <lb ed="#E"/>et potest ulterius praedicare aliis et sic ac?deret[?] sibi una vetula habens fidem infusam
               <!-- break -->
               <lb ed="#E"/>Item de ecclesia probatur quia potest errare ut in casu connuri[?] denominatio[?] ut si aliquis occul<lb ed="#E"/>tus 
@@ -158,7 +154,8 @@
               <lb ed="#E"/>Alius difficultas quaeritur utrum deus potest se solo causare assensum de futuro contingenti quem 
               <lb ed="#E"/>producet ratio probabilis dicitur probabiliter[?] quod non vel saltem est sustinibile 
               <lb ed="#E"/>ymmo nec assensum verum respectu futuri contingentis scilicet eiusdem speciei 
-              <pb ed="#E" n="6v"/><lb ed="#E"/>Tum assensu producto ratione probabili
+              <pb ed="#E" n="6-v"/>
+              <lb ed="#E"/>Tum assensu producto ratione probabili
               Sit ita quod deus se solo causet 
               <lb ed="#E"/>in <name>sorte</name> talem assensum et transiverit in praeteritum tunc <choice><orig>neccesse</orig><reg>necesse</reg></choice> est quod causaverit et supponitur[?] 
               <lb ed="#E"/>quod non sit de assensibus fidei et supponitur[?] quod assensus respectu istius antichristus erit ponamus tunc <choice><orig>2am</orig><reg>secundam</reg></choice> 
@@ -239,7 +236,8 @@
             <lb ed="#E"/>in sine balo[?] lumine de lumine deum verum de deo vero Non tamen concedendum quod genuit se diu 
             <lb ed="#E"/>quia nulla res potest se generare quia oportet quod inter ginguens et genitum sit diversitas vera 
             <lb ed="#E"/>nulla res potest se generare ut sic Ista neganda deus genuit deum qui est pater <g ref="#dot"/> 
-            <pb ed="#E" n="7r"/><lb ed="#E"/>Haec concedenda deus genuit deum qui non est pater
+            <pb ed="#E" n="7-r"/>
+            <lb ed="#E"/>Haec concedenda deus genuit deum qui non est pater
           </p> 
           <p xml:id="ppr-l5-nqcncv">
             Nota quod cathe[?] numqua respecit 

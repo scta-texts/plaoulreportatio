@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,11 +16,9 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>A SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -30,10 +28,9 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -43,11 +40,9 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      <div xml:id="include-list">
-      </div>
       <div xml:id="starts-on">
         <pb ed="#E" n="43-r"/>
       </div>
@@ -65,7 +60,7 @@
             <lb ed="#E"/>quod non sit deus
             <!--- possible need for break here in this edition and ordinatio -->
             Primo arguebatur quod inpossibile sit habere notitiam de deo quia vel est 
-            proportionata illa notitia obiecto et sic est infinita et si potentiae erit proportionata obiecto et non erit 
+            <lb ed="#E"/>proportionata illa notitia obiecto et sic est infinita et si potentiae erit proportionata obiecto et non erit 
             <lb ed="#E"/>notitia de deo
           </p>
           <div>
@@ -179,7 +174,7 @@
               Respondetur quod huiusmodi excessus quantum 
               <lb ed="#E"/>est ad propositum est omnino inpertinens unde visus habet obiectum suum circa lucem 
               <lb ed="#E"/>et non potest in saporem in quem gustus et gustus non potest in lucem unde sensus sunt 
-              <pb ed="#E" n="44"/>limitati secundum organa Et intellectus non est virtus organica nec corporea Ideo 
+              <pb ed="#E" n="44-r"/>limitati secundum organa Et intellectus non est virtus organica nec corporea Ideo 
               <lb ed="#E"/>sufficit intellectui quod habeat intelligibile circa quod versetur et ergo non est ex intrinseca 
               <lb ed="#E"/>limitatione quod sensus non potest in hoc vel in illud sed extrinseca quia fertur in suum subiectum 
               <lb ed="#E"/>secundum diversas complexiones et diversa organa sed intellectus saltem ut sic non limitatur 

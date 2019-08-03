@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lectio 34, de Fruitio [Erlangen Transcription]</title>
+        <title>Lectio 34, de fruitione [Erlangen Transcription]</title>
         <author xml:id="PP">Petrus Plaoul</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Lectio 34, de Notitia [Erlange Transcription]</title>
+          <title>Lectio 34, de fruitione [Erlange Transcription]</title>
           <date when="2018-03-10">March 10, 2018</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -30,10 +28,9 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -43,12 +40,11 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      
       <div xml:id="starts-on">
-        <pb ed="#E" n="47-r"/>
+        <pb ed="#E" n="47-v"/>
       </div>
     </front>
     <body>
@@ -143,6 +139,7 @@
               <lb ed="#E"/>tamen et sic animalia dicuntur frui cibo et sic capitur saepe in scriptura sed non sic in proposito
             </p>
             <p xml:id="ppr-l34-smssra">
+              <pb ed="#E" n="48-r"/>
               <lb ed="#E"/>Secundo modo capitur magis stricte pro omni actu voluntatis quo aliquid diligitur propter 
               <lb ed="#E"/>se sine relatione actuali ad aliud et sic aliquis posset frui creaturis sicut dicitur 
               <lb ed="#E"/>ab aliquibus de virtutibus scilicet sine relatione actuali
