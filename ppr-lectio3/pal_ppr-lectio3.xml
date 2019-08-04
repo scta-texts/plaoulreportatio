@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -8,18 +10,16 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2011.10-dev-master">
+        <edition n="0.0.0-dev">
           <title>Lectio 3, de Fide [Palantine Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>LombardPress</publisher>
-        <pubPlace>Sacramento, CA</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-            <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
-        <date when="2011-03-25">March 23rd, 2011</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -27,8 +27,27 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="5-r"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
     <body>
       <div xml:id="ppr-lectio3">
         <head>Lectio 3, de Fide [Palantine Transcription]</head>
@@ -41,7 +60,8 @@
             <lb ed="#PV"/>Notandum quamquam fides 
             <lb ed="#PV"/>est intrinsece et essentialiter actus 
             <lb ed="#PV"/>existens in ordine essentiali 
-            <cb ed="#PV" n="5rb"/><lb ed="#PV"/>entium sub qualibet <unclear>sud?ei[?] <!-- specie --></unclear> habet 
+            <cb ed="#PV" n="b"/> <!-- 5rb -->
+            <lb ed="#PV"/>entium sub qualibet <unclear>sud?ei[?] <!-- specie --></unclear> habet 
             <lb ed="#PV"/>cum denominationem perfectionis 
             <lb ed="#PV"/>quaodammodo <add place="aboveLine">ad</add> modum Iudicii divini 
             <lb ed="#PV"/>quia sicut divinum Iudicium 
@@ -89,7 +109,9 @@
             <lb ed="#PV"/>ergo non est mirabile quod sit una 
             <lb ed="#PV"/>qualitas mirabilis scilicet fides 
             <lb ed="#PV"/>Dictum est prius si esset una 
-            <cb ed="#PV" n="5va"/><lb ed="#PV"/>intelligencia quae haberet naturam 
+            <pb ed="#PV" n="5-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>intelligencia quae haberet naturam 
             <lb ed="#PV"/>fidei etc illa esset inpeccabilis 
           </p>
         </div>
@@ -158,7 +180,7 @@
             <head>
               <supplied>Quinta ratio</supplied>
             </head>
-            <p xml:id="l3-ipqptc">
+            <p xml:id="ppr-l3-ipqptc">
               <lb ed="#PV"/>Item probatur quod potest errare 
               <lb ed="#PV"/>nam quod omnis essencia in<lb ed="#PV"/>trinsece 
               subiceretur praeteritori[?] 
@@ -178,7 +200,7 @@
             <head>
               <supplied>Ad primam</supplied>
             </head>
-            <p xml:id="l3-apqdve">Ad primam dicetur 
+            <p xml:id="ppr-l3-apqdve">Ad primam dicetur 
               <lb ed="#PV"/>secundum[?] aliquos vicet de liber<lb ed="#PV"/>tate 
               quod forte non esset libera 
               <lb ed="#PV"/>respectu quorumcumque actuum 
@@ -187,7 +209,8 @@
               <lb ed="#PV"/>sit libera et sit a[?] et arguitur etc. 
               <lb ed="#PV"/>Dici ergo aliter quod loquendum 
               <lb ed="#PV"/>esset de illa creatura sicut de beato 
-              <cb ed="#PV" n="5vb"/><lb ed="#PV"/>quia idem actum fieret 
+              <cb ed="#PV" n="b"/><!-- 5vb -->
+              <lb ed="#PV"/>quia idem actum fieret 
               <lb ed="#PV"/>de beato sicut de <add>??</add> anima christi et 
               <lb ed="#PV"/>sic dicitur quod casus non est compos<lb ed="#PV"/>sibilis 
               Adhuc non valet ista so<lb ed="#PV"/>lutio 
@@ -220,7 +243,7 @@
               <c>a</c> actum etc mutabit 
               <lb ed="#PV"/>eius inclinationem
             </p>
-            <p xml:id="l3-edsnfa">
+            <p xml:id="ppr-l3-edsnfa">
               sequitur quod so<lb ed="#PV"/>la 
               extrinsica legis posicio 
               <lb ed="#PV"/><add>??</add> vadat respectu eius speciem causalitatis
@@ -240,7 +263,9 @@
               Arguitur 
               <lb ed="#PV"/>probando quod ista creatura 
               <lb ed="#PV"/>possit peccare ponamus quod deus 
-              <cb ed="#PV" n="6ra"/><lb ed="#PV"/>suspendat suum concursum 
+              <pb ed="#PV" n="6-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>suspendat suum concursum 
               <lb ed="#PV"/>dicitur quod casus est impossibilis 
               <lb ed="#PV"/>quia non potest producere a nec 
               <lb ed="#PV"/>posset licet haberet mandatum
@@ -248,10 +273,10 @@
             </p>
           </div>
           <div>
-            <head xml:id="l3-Hasasas">
+            <head xml:id="ppr-l3-Hasasas">
               <supplied>Ad secundam</supplied>
             </head>
-            <p xml:id="l3-asrcof">
+            <p xml:id="ppr-l3-asrcof">
               <g ref="#slash"/>Ad 2m argumentum prius factum 
               <lb ed="#PV"/>negatur quod posset esse alteri recti<lb ed="#PV"/>tudo 
               et <add place="aboveLine">non</add> omnium[?] sibi
@@ -306,7 +331,7 @@
             </p>
           </div>-->
           <div>
-            <head xml:id="l3-Haqnaqn"><supplied>Ad quintam</supplied></head>
+            <head xml:id="ppr-l3-Haqnaqn"><supplied>Ad quintam</supplied></head>
             <p xml:id="ppr-l3-aaqcdi">
               Ad ultimum 
               <lb ed="#PV"/>dicitur quod talis noticia licet 
@@ -318,7 +343,8 @@
               <lb ed="#PV"/>assensus et ergo nullam neccessi<lb ed="#PV"/>tatem 
               contrahit ex hoc quod fuit 
               <lb ed="#PV"/>verum antichristum fore vel iudicium 
-              <cb ed="#PV" n="6rb"/>fore et ergo dictum est quod fides 
+              <cb ed="#PV" n="b"/><!-- 6rb -->
+              fore et ergo dictum est quod fides 
               <lb ed="#PV"/>habet modum aeternitatis vicem in esse 
               <lb ed="#PV"/>assensus et sic de tali creaturarum
             </p>

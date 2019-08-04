@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,7 +10,7 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="0.0.0-dev-master">
+        <edition n="0.0.0-dev">
           <title>Lectio 13, de Fide [Palatine Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
@@ -18,21 +18,19 @@
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
-          guidelines for a diplomatic edition.
-        </p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -45,13 +43,9 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="18-r"/>
-        <cb ed="#PV" n="a"/> <!-- dbcheck -->
+        <pb ed="#PV" n="17-v"/>
+        <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
@@ -75,7 +69,8 @@
                 Sed 
                 <lb ed="#PV"/>contra primum fides auget realiter 
                 <lb ed="#PV"/>causalitatem intellectus et reddit ipsam 
-                <cb ed="#PV" n="b"/> <!-- 18rb dbcheck --> 
+                <pb ed="#PV" n="18-r"/>
+                <cb ed="#PV" n="a"/> 
                 <lb ed="#PV"/>vigorosam et dominativam<!-- am vs. um is unclear -->
               </p>
               <!-- defense of this position in other edition comes directly after this assertion
@@ -164,7 +159,9 @@
               </p>
               <p xml:id="ppr-l13-incvvs">
                 et sic potest <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> 
-                <lb ed="#PV"/>quod fides connotat effective ad miracula et credo quod habeat certam 
+                <lb ed="#PV"/>quod fides connotat effective ad 
+                <cb ed="#PV" n="b"/><!--18rb -->
+                <lb ed="#PV"/>miracula et credo quod habeat certam 
                 <lb ed="#PV"/>magnitudinem et hoc incerto gradu 
                 <lb ed="#PV"/>secundum quos si se haberet esset virtus 
                 <lb ed="#PV"/>faciendi miracula saltem apti<lb ed="#PV"/>tudinaliter 
@@ -229,7 +226,7 @@
           </p>
           <p xml:id="ppr-l13-suqiel">
             Sequitur quod fides 
-            <pb ed="#PV" n="18v"/>
+            <pb ed="#PV" n="18-v"/>
             <cb ed="#PV" n="a"/>
             <lb ed="#PV"/>intantum posset augeri quod vigo<lb ed="#PV"/>rabit 
             intellectum proprie elevationem 

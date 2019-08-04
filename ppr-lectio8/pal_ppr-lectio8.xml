@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,26 +11,26 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
+          <title>Lectio 8, de Fide [Palatine Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="P" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-        guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -43,12 +43,8 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="12-r"/>
+        <pb ed="#PV" n="11-v"/>
         <cb ed="#PV" n="b"/>
       </div>
     </front>
@@ -95,7 +91,7 @@
             <lb ed="#PV"/>fides est lumen expulsivissimum[?] ig<lb ed="#PV"/>norantiae 
             interius[?] igitur consequentia tenet quia 
             <lb ed="#PV"/>iuxta <choice><orig>proporcionem</orig><reg>proportionem</reg></choice> obiectorum est <choice><orig>proporcio</orig><reg>proportio</reg></choice>
-            <pb ed="#PV" n="12-va"/>
+            <pb ed="#PV" n="12-r"/>
             <cb ed="#PV" n="a"/>
             <lb ed="#PV"/>habituum
           </p>
@@ -239,7 +235,9 @@
                 <lb ed="#PV"/>ad eius <corr><del rend="expunctuated">eductionem hoc</del></corr> conser<lb ed="#PV"/>vationem 
                 et eductionem hoc 
                 <lb ed="#PV"/>videmus in elementis Nam aqua 
-                <cb ed="#PV" n="12va"/><lb ed="#PV"/>diu stat sub dispositione sibi con<lb ed="#PV"/>venienter 
+                <pb ed="#PV" n="12-v"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>diu stat sub dispositione sibi con<lb ed="#PV"/>venienter 
                 etiam in generatione ele<lb ed="#PV"/>mentarum
                 <!-- possible break point -->
                 Ex ista radice posset 
@@ -292,7 +290,8 @@
                 <lb ed="#PV"/>et esse volitivum cognitivum sunt 
                 <lb ed="#PV"/>subordinata ergo unum potest 
                 <lb ed="#PV"/>alicui communicari sine altero dicitur 
-                <cb ed="#PV" n="12vb"/><lb ed="#PV"/>quod non habet ordine <choice><orig>ymmo</orig><reg>immo</reg></choice> non 
+                <cb ed="#PV" n="b"/><!-- 12vb -->
+                <lb ed="#PV"/>quod non habet ordine <choice><orig>ymmo</orig><reg>immo</reg></choice> non 
                 <lb ed="#PV"/>sunt subordinata quia omne vo<lb ed="#PV"/>litivum 
                 est intellectivum et econverso 
                 <lb ed="#PV"/>unde esse volitivum non est nisi esse appe<lb ed="#PV"/>titivum 
@@ -359,7 +358,8 @@
           <head xml:id="ppr-l8-Hacacac"><supplied>Aliquae conclusiones</supplied></head>
           <p xml:id="ppr-l8-ipsdda">
             Istis igitur praemissis ut aliqualiter <note type="marginal-note" place="margin-bottom">deveniatur ad materiam <!-- indication of quarto change?? --></note> 
-            <cb ed="#PV" n="13ra"/>
+            <pb ed="#PV" n="13-r"/>
+            <cb ed="#PV" n="a"/>
             <lb ed="#PV"/>deveniatur ad materiam principalem 
             <lb ed="#PV"/>Una propositio anima cum <choice><orig>influencia</orig><reg>influentia</reg></choice> 
             <lb ed="#PV"/>dei generali plus movetur <choice><orig>apparenciis</orig><reg>apparentiis</reg></choice> 
@@ -472,7 +472,9 @@
             <lb ed="#PV"/>ponamus quod omnes motus mundi 
             <lb ed="#PV"/>veloci[?]r[?] insensibiliter apud me 
             <lb ed="#PV"/>staret quod <name ref="#Sortes">sortem</name> iudicaret vixisse 
-            <cb ed="#PV" n="13va"/><lb ed="#PV"/>per valde modicum tempus et 
+            <pb ed="#PV" n="13-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>per valde modicum tempus et 
             <lb ed="#PV"/>tamen vixisset per valde magnum 
             <lb ed="#PV"/>tempus
             <!-- break -->

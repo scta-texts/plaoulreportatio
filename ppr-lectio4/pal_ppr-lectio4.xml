@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,45 +10,56 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2011.10-dev-master">
+        <edition n="0.0.0-dev">
           <title>Lectio 4, de Fide [Palatine Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>LombardPress</publisher>
-        <pubPlace>Boston, MA</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
-        <date when="2011-03-25">March 23rd, 2011</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2011-10-04" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <!--<xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include> -->
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="6-r"/>
+        <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
-      <div xml:id="lectio4">
-        <head subtype="title">Lectio 4, de Fide [Palatine Transcription]</head>
+      <div xml:id="ppr-lectio4">
+        <head>Lectio 4, de Fide [Palatine Transcription]</head>
         <div>
           <head xml:id="ppr-l4-Hfecami"><supplied>Fides est conformis divino iudicio: solutiones ad multas instantias</supplied></head>
-            <p xml:id="ppr-l4-seqtoa">
-              <lb ed="#PV"/><hi rend="largeFont">Lectio quinta</hi> 
-              <lb ed="#PV"/>Ex <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> de fide possunt 
-              <lb ed="#PV"/>solvi multae raciones et dif<lb ed="#PV"/>ficultates 
-              quibus involvuntur 
-              <lb ed="#PV"/>alii tenentes communem modum
-            </p>
+          <p xml:id="ppr-l4-seqtoa">
+            <lb ed="#PV"/><hi rend="largeFont">Lectio quinta</hi> 
+            <lb ed="#PV"/>Ex <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> de fide possunt 
+            <lb ed="#PV"/>solvi multae raciones et dif<lb ed="#PV"/>ficultates 
+            quibus involvuntur 
+            <lb ed="#PV"/>alii tenentes communem modum
+          </p>
         </div>
         <div>
           <head xml:id="ppr-l4-Hpipipi"><supplied>Prima instantia</supplied></head>
@@ -105,9 +116,11 @@
             <lb ed="#PV"/>corpus christi ymmo quod non 
             <lb ed="#PV"/>sit debita facta consecratio
           </p>
-          <p xml:id="l4-tcaiaf">
+          <p xml:id="ppr-l4-tcaiaf">
             <g ref="#slash"/><choice><orig>3o</orig><reg>tertio</reg></choice> accipiamus aliquem qui ex habitu 
-            <cb ed="#PV" n="6va"/><lb ed="#PV"/>fidei transeat in actum aliquem 
+            <pb ed="#PV" n="6-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>fidei transeat in actum aliquem 
             <lb ed="#PV"/>istius enunciabilis quod christus incarna<lb ed="#PV"/>bitur 
             <g ref="#slash"/>vel quod unus antiquus 
             <lb ed="#PV"/>pater habuerit et continuet usque 
@@ -144,9 +157,8 @@
           </p>
         </div>
         <div>
-          <head xml:id="l4-Hohohoh"><supplied>Opinio Holcot</supplied></head>
-                
-          <p xml:id="l4-ucdnmh">
+          <head xml:id="ppr-l4-Hohohoh"><supplied>Opinio Holcot</supplied></head>
+          <p xml:id="ppr-l4-ucdnmh">
             <!-- might also include or skip <p xml:id="l4-ariqth"> -->
             <g ref="#dbslash"/><name rend="#Holcot">hokot</name> dicit 
             <lb ed="#PV"/>quod inquam intellectus credit 
@@ -169,7 +181,8 @@
             <lb ed="#PV"/>diligentiam tunc in habituato intenditur 
             <lb ed="#PV"/>caritas ex quo est in <choice><orig>gracia</orig><reg>gratia</reg></choice> 
             et in alio non quia non est in gratia 
-            <cb ed="#PV" n="6vb"/><lb ed="#PV"/>unde requiritur ultra quod sit diligentia 
+            <cb ed="#PV" n="b"/><!-- 6vb -->
+            <lb ed="#PV"/>unde requiritur ultra quod sit diligentia 
             <lb ed="#PV"/>odium mali et amor boni
           </p>
           <p xml:id="ppr-l4-vqhmie">
@@ -199,7 +212,7 @@
           <head xml:id="ppr-l4-Hrarrdh">
             <supplied>Responsio ad rationes de Holcot</supplied>
           </head>
-          <p xml:id="l4-aehrma">
+          <p xml:id="ppr-l4-aehrma">
             <!-- also includes <p xml:id="l4-iiasei"> -->
             Advertendum tamen 
             <lb ed="#PV"/>quod lata seu magna differentia est 
@@ -230,11 +243,13 @@
             <lb ed="#PV"/>indifferentibus et habentibus necessariam 
             <lb ed="#PV"/>habitudinem ad finem humanum
           </p>
-         <p xml:id="ppr-l4-eaease">
+          <p xml:id="ppr-l4-eaease">
             Aliter potest 
             <lb ed="#PV"/>solvi quod fides habet alium modum 
-            respectu sui obiecti quam aliquando habitus <corr><add place="marginRight">quia</add></corr> 
-            <cb ed="#PV" n="7ra"/><lb ed="#PV"/>non habet apparenciam ex parte 
+            respectu sui obiecti quam aliquando habitus <corr><add place="marginRight">quia</add></corr>
+            <pb ed="#PV" n="7-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>non habet apparenciam ex parte 
             <lb ed="#PV"/>sui obiecti sed diceretur quod oportet 
             <lb ed="#PV"/>quod obiectum intellectus sit apparens 
             <lb ed="#PV"/>verum conceditur vel quod ibi sit apparentia 

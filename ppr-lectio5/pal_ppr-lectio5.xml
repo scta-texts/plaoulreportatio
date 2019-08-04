@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="file:/Users/jcwitt/Projects/lombardpress/lombardpress-schema/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -13,31 +11,31 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
+          <title>Lectio 5, de Fide [Palatine Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>A SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-            <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2011-03-25" status="draft" n="0.0.0">
+        <change when="2011-10-04" status="draft" n="0.0.0">
           <p>File Started for the first time.</p>
         </change>
       </listChange>
@@ -45,9 +43,9 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      
       <div xml:id="starts-on">
-        <pb ed="#PV" n="7-r"/><cb ed="#PV" n="a"/>
+        <pb ed="#PV" n="7-r"/>
+        <cb ed="#PV" n="a"/>
       </div>
     </front>
     <body>
@@ -91,10 +89,11 @@
               <lb ed="#PV"/>de <choice><orig>ymolatione</orig><reg>immolatione</reg></choice> filii <name ref="#Abraham">abrahae</name> 
               <lb ed="#PV"/>quia credidit filium suum esse 
               <lb ed="#PV"/><choice><orig>ymolandum</orig><reg>immolandum</reg></choice> et non fuit <choice><orig>ymolandus</orig><reg>immolandus</reg></choice> 
-              <cb ed="#PV" n="7rb"/><lb ed="#PV"/>et credidit ex fide
+              <cb ed="#PV" n="b"/><!-- 7rb -->
+              <lb ed="#PV"/>et credidit ex fide
                 <!-- possible break point -->
               <g ref="#dbslash"/><choice><orig>3o</orig><reg>tertio</reg></choice> sic Item 
-              <corr><del>articulus</del><add place="marginRight">argumentum</add></corr> fuit spiritus sanctus qui 
+              <subst><del>articulus</del><add place="marginRight">argumentum</add></subst> fuit spiritus sanctus qui 
               <lb ed="#PV"/>est summe bonus de facto currit 
               <lb ed="#PV"/>respectu erroris et respectu falsi 
               <lb ed="#PV"/>et fides non est maioris rectitu<lb ed="#PV"/>dinis 
@@ -144,7 +143,8 @@
               <lb ed="#PV"/>de vetuala credente praelato in ista 
               <lb ed="#PV"/>materia egregie loquitur <name ref="#WilliamOfAuxerre">wilhelmus 
               <lb ed="#PV"/>anticiodoresnis</name> ponendo istam conclusionem 
-              <cb ed="#PV" n="7va"/>
+              <pb ed="#PV" n="7-v"/>
+              <cb ed="#PV" n="a"/>
               <lb ed="#PV"/>sicut non potest facere aliquis contra 
               caritatem quando peccet ita non potest 
               <lb ed="#PV"/>cli[?] quis agere contra fidem 
@@ -206,7 +206,8 @@
             <p xml:id="ppr-l5-qedehd">
               <lb ed="#PV"/>Quantum est de erro<lb ed="#PV"/>re 
               consilii generalis quantum ad 
-              <cb ed="#PV" n="7vb"/><lb ed="#PV"/>spiritualia non potest errare et si ad 
+              <cb ed="#PV" n="b"/><!-- 7vb -->
+              <lb ed="#PV"/>spiritualia non potest errare et si ad 
               <lb ed="#PV"/>tempore erraret deus provideret 
               <lb ed="#PV"/>quod semper veritas crederetur fidei 
               <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> licet esset omnes infi<lb ed="#PV"/>deles 
@@ -265,7 +266,9 @@
               <lb ed="#PV"/>in <name ref="#Sortes">sorte</name> talem assensum et tran<lb ed="#PV"/>siverit 
               in praeteritum tunc <choice><orig>neccesse</orig><reg>necesse</reg></choice> 
               <lb ed="#PV"/>est quod causaverit et supponitur 
-              <cb ed="#PV" n="8ra"/><lb ed="#PV"/>quod non sit de assensibus fidei et 
+              <pb ed="#PV" n="8-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>quod non sit de assensibus fidei et 
               <lb ed="#PV"/>supponitur quod assensus respectu istius 
               <lb ed="#PV"/>antichristus erit tunc <g ref="#slash"/>sic iste as<lb ed="#PV"/>sentit 
               quod antichristus ponamus 
@@ -327,7 +330,8 @@
             ad habendam vitam aeternam sed 
             <lb ed="#PV"/>debet sic esse in universali si quis perse<lb ed="#PV"/>veraverit 
             usque ad finem etc. 
-            <cb ed="#PV" n="8rb"/><lb ed="#PV"/>Et probabiliter de simplici si ego usque ad 
+            <cb ed="#PV" n="b"/><!-- 8rb -->
+            <lb ed="#PV"/>Et probabiliter de simplici si ego usque ad 
             <lb ed="#PV"/>finem vice eo in gratia et sic habebo 
             <lb ed="#PV"/>vicam aeternam etc sic decessero 
             <lb ed="#PV"/>in gratia sic quod spes non est habitus 
@@ -378,7 +382,9 @@
             <lb ed="#PV"/>erat venturus et putaret con<lb ed="#PV"/>staret 
             etc tunc inclinabat etc 
             <lb ed="#PV"/>ad primum et consequenter ad illam 
-            <cb ed="#PV" n="8va"/>disiunctivam vel dicitur quod non est 
+            <cb ed="#PV" n="8-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>disiunctivam vel dicitur quod non est 
             <lb ed="#PV"/>possibile illam conservari in esse assensus 
             <lb ed="#PV"/>quia suae naturae repugnat
           </p>

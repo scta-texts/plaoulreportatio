@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
         <titleStmt>
@@ -18,17 +18,17 @@
         <publicationStmt>
           <authority>SCTA</authority>
           <availability status="free">
-            <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+            <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
           </availability>
         </publicationStmt>
         <sourceDesc>
           <listWit>
-            <witness xml:id="P" n="pal">Palatine</witness>
+            <witness xml:id="PV" n="pal">Palatine</witness>
           </listWit>
         </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -44,17 +44,13 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
         <pb ed="#PV" n="9-v"/>
         <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
-      <div xml:id="ppr-lectio1">
+      <div xml:id="ppr-lectio7">
         <head xml:id="ppr-l7-Hd1e99">Lectio 7, de Fide [Palatine Transcription]</head>
         <div xml:id="ppr-l7-Dd1e102">
           <head xml:id="ppr-l7-Hraccpc">Recapitulatio argumenti circa periculum credulitatis</head>
@@ -149,6 +145,7 @@
             </p>
             <p xml:id="ppr-l7-tpqpci">
                 Sequitur quod in 
+                <cb ed="#PV" n="b"/> <!-- 10rb -->
                 <lb ed="#PV"/>instanti incarnationis assensus respectu 
                 <lb ed="#PV"/>illius de futuro desiit esse primo 
                 <lb ed="#PV"/>patet quia in illo instanti non 

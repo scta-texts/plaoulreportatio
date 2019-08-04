@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,22 +18,19 @@
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
-          guidelines for a diplomatic edition.
-        </p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -46,10 +43,6 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
         <pb ed="#PV" n="15-v"/>
         <cb ed="#PV" n="b"/>
@@ -72,7 +65,7 @@
           <p xml:id="ppr-l11-pphbea">
             prima pars patet 
             <lb ed="#PV"/>quia sicut est de gestu reali sic esset 
-            <pb ed="#PV" n="16-ra"/>
+            <pb ed="#PV" n="16-r"/>
             <cb ed="#PV" n="a"/>
             <lb ed="#PV"/>de gestu spirituali sed infirmus corpora<lb ed="#PV"/>liter 
             iudicat dulce esse amarum 
@@ -137,7 +130,8 @@
             <lb ed="#PV"/>quia illud est fundamentum causa<lb ed="#PV"/>tivum 
             omnium errorum in <choice><orig>phylosophia</orig><reg>philosophia</reg></choice> 
             <lb ed="#PV"/>quia per hoc dixerunt quod deus non esset 
-            <cb ed="#PV" n="16rb"/><lb ed="#PV"/>liber libertate contradictionis quia 
+            <cb ed="#PV" n="b"/><!-- 16rb -->
+            <lb ed="#PV"/>liber libertate contradictionis quia 
             <lb ed="#PV"/>ab antiqua voluntate non praecedit 
             <lb ed="#PV"/>actio nova Unde concessa liber<lb ed="#PV"/>tate 
             conceditur quod possit creare et 
@@ -196,7 +190,9 @@
             <lb ed="#PV"/>in secta <name>machameti</name> sunt plures 
             <lb ed="#PV"/>traditiones quae nullae <sic>lege</sic> sunt 
             <lb ed="#PV"/>consonae et sic patet de tyrannis 
-            <cb ed="#PV" n="16va"/><lb ed="#PV"/>qui faciunt multa quae sunt contra 
+            <pb ed="#PV" n="16-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>qui faciunt multa quae sunt contra 
             <lb ed="#PV"/>legem <g ref="#slash"/>de <name>machameto</name> patet per 
             <lb ed="#PV"/><name>avicenam</name> quae fuit de secta sua 
             <lb ed="#PV"/>et de genere unde dicit <name>avicenna</name> 
@@ -262,8 +258,7 @@
         <div xml:id="ppr-l11-Dd1e4259">
           <head xml:id="ppr-l11-Hrpepni">[Rationes pro erroribus de miraculis in processu naturalis investigationis]</head>
           <p xml:id="ppr-l11-eppiea">
-            <pb ed="#PV" n="16-v"/> <!-- 16vb -->
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 16vb -->
             <lb ed="#PV"/>Sequitur quod peccat in processu naturalis 
             <lb ed="#PV"/>investigationis concludens virginem 
             <lb ed="#PV"/>non posse parere unde aliunde pec<lb ed="#PV"/>cat 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,7 +10,7 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2011.10-dev-master">
+        <edition n="0.0.0-dev">
           <title>Lectio 6, de Fide [Palatine Transcription]</title>
           <date when="2011-10-04">October 04, 2011</date>
         </edition>
@@ -18,20 +18,19 @@
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -44,12 +43,9 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        
+        <pb ed="#PV" n="8-v"/>
+        <cb ed="#PV" n="a"/>
       </div>
     </front>
     <body>
@@ -84,7 +80,8 @@
               <lb ed="#PV"/>peccatum praesumptuosum Aliter respondetur 
               <lb ed="#PV"/>negando consequentiam et concedendum antecedens Ad<lb ed="#PV"/>vertendum 
               quod spes est habitus 
-              <cb ed="#PV" n="8vb"/><lb ed="#PV"/>et eius actus est actus partim cogni<lb ed="#PV"/>tivus 
+              <cb ed="#PV" n="b"/><!-- 8vb -->
+              <lb ed="#PV"/>et eius actus est actus partim cogni<lb ed="#PV"/>tivus 
               et partim volitis et hoc quilibet 
               <lb ed="#PV"/>potest quasi experiri et ita de fide et cari<lb ed="#PV"/>tate 
               unde caritas supplet habitus 
@@ -152,13 +149,14 @@
             <supplied>Utrum credulitatis est periculosa in simplici</supplied>
           </head>
           <p xml:id="ppr-l6-duqude">
-              Dic<lb ed="#PV"/>tum 
-              est prius in alia lectione 
-              <lb ed="#PV"/>quod talis credulitas in simplici 
-              <lb ed="#PV"/>homine non est multum periculosa quia 
-              <cb ed="#PV" n="9ra"/>
-              <lb ed="#PV"/>ista credulitas non est fidei sed est hu<lb ed="#PV"/>mana
-            </p>
+            Dic<lb ed="#PV"/>tum 
+            est prius in alia lectione 
+            <lb ed="#PV"/>quod talis credulitas in simplici 
+            <lb ed="#PV"/>homine non est multum periculosa quia
+            <pb ed="#PV" n="9-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>ista credulitas non est fidei sed est hu<lb ed="#PV"/>mana
+          </p>
           <div xml:id="ppr-l6-Dd1e322">
             <head xml:id="ppr-l6-Hvqeemp">
               <supplied>Videtur quod est multum periculosa</supplied>
@@ -233,7 +231,8 @@
               <lb ed="#PV"/>terminant suas orationes ad <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> 
               <lb ed="#PV"/>et sic species debent adorari non 
               <lb ed="#PV"/>sicut corpus sed sicut reliquie[?] 
-              <cb ed="#PV" n="9rb"/><lb ed="#PV"/>et sicut crux et vasa sacra ex parte 
+              <cb ed="#PV" n="b"/><!-- 9rb -->
+              <lb ed="#PV"/>et sicut crux et vasa sacra ex parte 
               <lb ed="#PV"/>istius iudicii non sequitur aliqua 
               <lb ed="#PV"/><choice><orig>ydolatria</orig><reg>idolatria</reg></choice>
             </p>
@@ -327,7 +326,9 @@
               <p xml:id="ppr-l6-aigien">
                 Conclusio nulli licet 
                 <lb ed="#PV"/>asserere contra fidem vel sacram scripturam 
-                <cb ed="#PV" n="9va"/><lb ed="#PV"/>quantumcumque conclusio differt a principio <name ref="#WilliamOfAuxerre">wilhelmi 
+                <pb ed="#PV" n="9-v"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>quantumcumque conclusio differt a principio <name ref="#WilliamOfAuxerre">wilhelmi 
                 antisiodorensis</name> in principio dicit quod 
                 <lb ed="#PV"/><choice><orig>nichil</orig><reg>nihil</reg></choice> asserendum est in materia trinitatis 
                 <lb ed="#PV"/>quod est contra positionem fidei
