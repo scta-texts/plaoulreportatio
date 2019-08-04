@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -15,24 +15,21 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>A SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -42,15 +39,12 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="58-r"/><cb ed="#PV" n="a"/>
+        <pb ed="#PV" n="58-r"/>
+        <cb ed="#PV" n="a"/>
       </div>
     </front>
     <body>
@@ -105,7 +99,7 @@
             </p>
             <p xml:id="ppr-l33-aector">
               <lb ed="#PV"/>Advertendum est 
-              <cb ed="#PV" n="58"/>
+              <cb ed="#PV" n="b"/><!-- 58rb -->
               <lb ed="#PV"/>pro illo puncto quia dicit quantum 
               <lb ed="#PV"/>est ex parte notitiae creatae non 
               <lb ed="#PV"/>repugnat quod sit distinctorum 
@@ -203,7 +197,7 @@
               <lb ed="#PV"/>esset inconveniens quod haberet 
               <lb ed="#PV"/>notitiam valde perfectam huius 
               <lb ed="#PV"/>obiecti et cuiuslibet eiusdem speciei 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 58vb -->
               <lb ed="#PV"/>distincte repraesentativam de noti<lb ed="#PV"/>tiis 
               creatis a deo obiective super<lb ed="#PV"/>naturalibus 
               non videtur inconveniens 
@@ -304,7 +298,7 @@
               <!-- break -->
               <lb ed="#PV"/>Alio modo quod solum secundum unam 
               <lb ed="#PV"/>rationem ita quod non secundum aliam ut in 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 59rb -->
               esse entis absque hoc quod in esse 
               <lb ed="#PV"/>sapientiae ponamus quod solum secundum 
               <lb ed="#PV"/>unicam videatur utrum apparet 
@@ -350,7 +344,8 @@
               <lb ed="#PV"/>videt ita quod iudicet ipsum habere 
               <lb ed="#PV"/>omnem perfectiones supereminenter 
               <pb ed="#PV" n="59-v"/>
-              <cb ed="#PV" n="a"/>et quod in illius iudicet ipsum non 
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>et quod in illius iudicet ipsum non 
               <lb ed="#PV"/>esse visum ab eo secundum omnem 
               <lb ed="#PV"/>modum suae perfectionis
             </p>
@@ -411,7 +406,7 @@
                 <!-- break -->
                 2o omnes possunt 
                 <lb ed="#PV"/>intelligi nemo deum vidit 
-                <cb ed="#PV" n="b"/>
+                <cb ed="#PV" n="b"/><!-- 59vb -->
                 <lb ed="#PV"/>et deus inhabitat etc intelligitur 
                 <lb ed="#PV"/>beatifice et hoc ex puris naturalibus 
                 <lb ed="#PV"/>et sive gratia speciali dei et specialiter 
@@ -537,7 +532,7 @@
               </p>
               <p xml:id="ppr-l33-eiansa">
                 et sic patet quod testes sunt 
-                <cb ed="#PV" n="b"/>
+                <cb ed="#PV" n="b"/><!-- 60rb-->
                 <lb ed="#PV"/>falsi et insipientes qui dicunt 
                 <lb ed="#PV"/>quod non est deus et per consequens 
                 <lb ed="#PV"/>non sunt audiendi etiam pro alia 

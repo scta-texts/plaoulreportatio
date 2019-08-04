@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,42 +16,36 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2016-12-18" status="draft" n="0.0.0">
+        <change when="2017-01-11" status="draft" n="0.0.0">
           <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="40-r"/><cb ed="#PV" n="b"/>
+        <pb ed="#PV" n="40-r"/>
+        <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
@@ -170,7 +164,7 @@
               <lb ed="#PV"/>simplex scilicet ens communis deo et crea<lb ed="#PV"/>turae 
               et nullam imperfectionem <unclear>importat</unclear> 
               <lb ed="#PV"/>aliter non competeret ut si esset 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 40vb -->
               <lb ed="#PV"/>aliqua species quae praecise haberet 
               <lb ed="#PV"/>esse illi competeret ille conceptus 
               <lb ed="#PV"/>et nullum aliud praedicatum dicens 
@@ -224,7 +218,7 @@
             <p xml:id="ppr-l25-peisai">
               primo 
               <pb ed="#PV" n="41-r"/>
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="a"/>
               <lb ed="#PV"/>iudicat ordinem rerum
             </p>
             <p xml:id="ppr-l25-scatep">
@@ -286,7 +280,7 @@
               <lb ed="#PV"/>habent ordinem inter se praedicata 
               <lb ed="#PV"/>convenientia deo ut esse primo postea 
               <lb ed="#PV"/>vivens unde ab illo praedicato 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 41rb -->
               <lb ed="#PV"/>vivens conveniens deo et creaturis 
               <lb ed="#PV"/>capitur conceptus quamvis deum in esse 
               <lb ed="#PV"/>vitae nunc <unclear>s?t</unclear> <del rend="strikethrough">p</del> et perfectiori modo 
@@ -346,8 +340,7 @@
               <lb ed="#PV"/><unclear>verae?</unclear> potentiae quae <unclear>exemplo</unclear> aliorum concurrentium 
               <pb ed="#PV" n="41-v"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>
-              ad productionem variatur etc</p> 
+              <lb ed="#PV"/>ad productionem variatur etc</p> 
           </div>
         </div>
         <div>
@@ -412,7 +405,7 @@
             <lb ed="#PV"/>per consequens species causabit aliam speciem 
             <lb ed="#PV"/>et sic in infinitum Advertendum 
             <lb ed="#PV"/>quod <unclear>alchidus <!-- alkindi --></unclear> in quodam tractatur 
-            <cb ed="#PV"/>
+            <cb ed="#PV" n="b"/><!-- 41vb -->
             <lb ed="#PV"/>superstitioso tamen ponit quod quaelibet 
             <lb ed="#PV"/>res casat radios quantumcumque 
             <lb ed="#PV"/>sit accidens vel subiecto ymmo luminem 
@@ -443,7 +436,7 @@
         </div>
         <div>
           <head>Circa textum</head>
-          <p xmlid="ppr-l25-ctedvm">
+          <p xml:id="ppr-l25-ctedvm">
             Circa 
             <lb ed="#PV"/>textum et tertiam <unclear>4</unclear> Adverten<lb ed="#PV"/>dum 
             quod ly <mentioned>persona</mentioned> nec est non 
@@ -453,9 +446,14 @@
             sed est nomen suppo<lb ed="#PV"/>sitale 
             non tamen relatium sic ly <mentioned>homo</mentioned> 
             <lb ed="#PV"/>sicut si tres personae assumerent 
-            <lb ed="#PV"/>tres naturas humanas essent 3s 
+            <lb ed="#PV"/>tres naturas humanas essent 3s
+          </p>
+          <p xml:id="ppr-l25-scneeu">
+            <!--homeoteleuton here tres [homines]... [tres] deos -->
             <lb ed="#PV"/>deos unde nomen dei capitur 
-            <lb ed="#PV"/>a forma quae est deitas igitur unicum 
+            <lb ed="#PV"/>a forma quae est deitas igitur unicum
+          </p>
+          <p xml:id="ppr-l25-titdvm">
             <lb ed="#PV"/>3a in trinitate non est diversis 
             <lb ed="#PV"/>vel multiplicitas 
           </p>

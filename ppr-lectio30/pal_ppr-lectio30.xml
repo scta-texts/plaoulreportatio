@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -16,24 +16,21 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -43,12 +40,12 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      
       <div xml:id="starts-on">
-        <pb ed="#PV" n="48-v"/><cb ed="#PV" n="b"/>
+        <pb ed="#PV" n="51-r"/>
+        <cb ed="#PV" n="a"/>
       </div>
     </front>
     <body>
@@ -61,7 +58,7 @@
             <lb ed="#PV"/>In alia lectione 
             <lb ed="#PV"/>positum est prius quod demonstrabile est 
             <lb ed="#PV"/>deum esse nunc videndum est 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!--51rb -->
             <lb ed="#PV"/>de eius unitate
           </p>
           <p xml:id="ppr-l30-pqsped">
@@ -193,7 +190,7 @@
             <lb ed="#PV"/>sunt prae?sie finite ergo non pos<lb ed="#PV"/>sunt 
             inferri ex hoc aliquod 
             <lb ed="#PV"/>bonum infinitum ergo nec deus 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 51vb -->
             <lb ed="#PV"/>cum ponatur esse infinitus seu 
             <lb ed="#PV"/>infinitum bonum
           </p>
@@ -261,7 +258,8 @@
             <lb ed="#PV"/>est consequentia propter multiplicem causam
           </p>
           <p xml:id="ppr-l30-pqlapc">
-            <cb ed="#PV" n="b"/>
+            <pb ed="#PV" n="52-r"/>
+            <cb ed="#PV" n="a"/>
             <lb ed="#PV"/>primo licet creatura sit finita 
             <lb ed="#PV"/>tamen ad sui productionem 
             <lb ed="#PV"/>requirit potentiam simpliciter 
@@ -315,7 +313,7 @@
             Sequitur 
             <lb ed="#PV"/>quod tamen genere causae efficientis 
             <lb ed="#PV"/>quam finalis est infinitus 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 52rb -->
             <lb ed="#PV"/><unclear>doctores</unclear> dixerunt de essentiali 
             <lb ed="#PV"/>ordine causarum unde causae 
             <lb ed="#PV"/>vocantur essentialiter subordinate 
@@ -434,7 +432,7 @@
             <p xml:id="ppr-l30-cimned">
               circa istam 
               <lb ed="#PV"/>materiam multa notant et dicunt 
-              <lb ed="#PV"/>plures quod ista ratio non est de<cb ed="#PV" n="b"/><lb ed="#PV"/>monstrativa
+              <lb ed="#PV"/>plures quod ista ratio non est de<cb ed="#PV" n="b"/><!--52vb--><lb ed="#PV"/>monstrativa
             </p>
             <p xml:id="ppr-l30-pqnssf">
               quia diceretur quod non 
@@ -547,7 +545,7 @@
               <lb ed="#PV"/>ideo evidentiae et demonstrationes 
               <lb ed="#PV"/>de ipso sunt alterius rationis 
               <lb ed="#PV"/>et sic non sunt eiusdem generis <unclear>den?o?is</unclear> 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 53rb -->
               <lb ed="#PV"/>cum mathematicis unde tenendum 
               <lb ed="#PV"/>est quod ratio <name ref="#Scotus">scoti</name> est evidens nec 
               <lb ed="#PV"/>sequitur respondens potest se de<lb ed="#PV"/>fendere 
@@ -658,7 +656,7 @@
               viceversa illa unde illa unde illa 
               <lb ed="#PV"/>habitudine ablata est in eadem 
               <lb ed="#PV"/>instanti <c>b</c> potest producere <c>a</c> etc 
-              <cb ed="#PV" n="b"/> 
+              <cb ed="#PV" n="b"/> <!-- 53vb -->
             </p>
             <p xml:id="ppr-l30-qamuie">
               <!-- no parallel -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -15,24 +15,21 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>A SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -42,15 +39,12 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="56-r"/><cb ed="#PV" n="a"/>
+        <pb ed="#PV" n="56-r"/>
+        <cb ed="#PV" n="a"/>
       </div>
     </front>
     <body>
@@ -68,7 +62,7 @@
             <lb ed="#PV"/>huiusmodi notitia esset finita 
             <lb ed="#PV"/>vel infinita si finita aliqua 
             <lb ed="#PV"/>creata notitia potest esse ita perfecta
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 56rb -->
             <lb ed="#PV"/>si infinita tunc esset increata
           </p>
           <p xml:id="ppr-l32-qasidf">
@@ -166,7 +160,7 @@
             <lb ed="#PV"/>duplaretur quid esset hoc non 
             <lb ed="#PV"/>posset illud reperiri et sic procederet 
             <lb ed="#PV"/>argumentum super falsa <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 56vb -->
             <lb ed="#PV"/>unde species non possunt sic comparari
           </p>
           <p xml:id="ppr-l32-ampesp">
@@ -282,7 +276,7 @@
               <lb ed="#PV"/>de creatura esset ita perfecta essentialiter 
               <lb ed="#PV"/>sicut esset notitia dei demonstra<lb ed="#PV"/>ta 
               aliqua certa puta ista visione est 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 57rb -->
               <lb ed="#PV"/>Quantum est ex parto obiecti non re<lb ed="#PV"/>pugnat 
               creaturae quod quantumlibet 
               <lb ed="#PV"/>perfecte cognoscitur ideo aliqua 
@@ -382,7 +376,7 @@
             </p>
             <p xml:id="ppr-l32-ampncd">
               Septimo 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!--57vb -->
               <lb ed="#PV"/>perfectio notitiae posset attendi 
               <lb ed="#PV"/>in habitudine ad suum obiectum 
               <lb ed="#PV"/>id est penes modum repraesentandi ob<lb ed="#PV"/>iectum 

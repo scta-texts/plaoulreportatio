@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lectio 34, de Fruitio [Palatine Transcription]</title>
+        <title>Lectio 34, De fruitione [Palatine Transcription]</title>
         <author xml:id="PP">Petrus Plaoul</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Lectio 30, de Notitia [Palatine Transcription]</title>
+          <title>Lectio 34, De fruitione [Palatine Transcription]</title>
           <date when="2018-02-12">February 12, 2018</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -43,17 +40,18 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
       
       <div xml:id="starts-on">
-        <pb ed="#PV" n="60-r"/><cb ed="#PV" n="b"/>
+        <pb ed="#PV" n="60-r"/>
+        <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
       <div xml:id="ppr-lectio34">
-        <head xml:id="ppr-l34-Hldldld">Lectio 34, de Fruitione</head>
+        <head xml:id="ppr-l34-Hldldld">Lectio 34, De fruitione [Palatine Transcription]</head>
         <div xml:id="ppr-l34-Dd1e93">
           <head xml:id="ppr-l34-Hqinspf">Quod in nulla creatura sit ponenda felicitas</head>
           <p xml:id="ppr-l34-pqoapi">
@@ -76,7 +74,7 @@
             humana ita quod humana 
             <lb ed="#PV"/>investigatio numquam suffecit 
             <lb ed="#PV"/>ab initio inquirere in quo con<lb ed="#PV"/>sistit 
-            felicitas humana et idoe indi<lb ed="#PV"/>get 
+            felicitas humana et ideo indi<lb ed="#PV"/>get 
             theologica sapientia ipsam 
             <lb ed="#PV"/>dirigente Et istam materia tra<lb ed="#PV"/>dit 
             <name>magister</name> in prima distinctione 
@@ -86,7 +84,6 @@
           </p>
           <div xml:id="ppr-l34-Dd1e139">
             <head xml:id="ppr-l34-Hprprpr">Primo ratio</head>
-            
             <p xml:id="ppr-l34-eheabe">
               et hoc ex habitudine 
               <lb ed="#PV"/>creatura sit ponenda huiusmodi 
@@ -148,7 +145,7 @@
               Item de ratione ultimi 
               <lb ed="#PV"/>finis propter se diligibilis 
               <lb ed="#PV"/>est quod sit plenitudo causalitatis
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 60vb -->
               <lb ed="#PV"/>effective et finalis per modum 
               <lb ed="#PV"/>cuiusdam circularis habundantiae 
               modo nulla creatura est huiusmodi 
@@ -272,7 +269,7 @@
               <lb ed="#PV"/>eset et sic distinguitur contra ab 
               <lb ed="#PV"/>uti utrum sit idem actus 
               <lb ed="#PV"/>fruitio et usus scilicet quo diligitur 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 61rb -->
               <lb ed="#PV"/>deus et creatura non est theologum
             </p>
           </div>
@@ -399,7 +396,7 @@
               incipiat agere in hoc 
               <lb ed="#PV"/>instanti et antecedens non est in po<lb ed="#PV"/>testate 
               voluntatis humanae ergo 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 61vb -->
               <lb ed="#PV"/>nec consequens quod sequitur 
               <lb ed="#PV"/>patet quia alias voluntas dei 
               <lb ed="#PV"/>est frustrabilis quod non est 
@@ -522,7 +519,7 @@
               <lb ed="#PV"/>opiniones et utraque est probabilis 
               <lb ed="#PV"/>unde potest ymaginari quod in 
               <lb ed="#PV"/>esse capacitatis sit anima humana 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!--62rb -->
               infinita fortior ratio incontrarium 
               <lb ed="#PV"/>est ista quia esse perceptivum est deno<lb ed="#PV"/>minatio 
               perfectionis simpliciter ergo non 
@@ -615,7 +612,7 @@
               <lb ed="#PV"/>cuiuscumque effectus ad extra 
               <lb ed="#PV"/>producibilis non tamen ut in propria 
               <lb ed="#PV"/>virtute sufficienti quia hoc est impossibile 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!--62vb -->
               <lb ed="#PV"/>et sic illa denominatio non est essentialis 
               <lb ed="#PV"/>nec modalis propria sed modalis 
               <lb ed="#PV"/>accidentalis Restat difficultas 

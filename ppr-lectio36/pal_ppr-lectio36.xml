@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lectio 36, de Fruitio [Palatine Transcription]</title>
+        <title>Lectio 36, De fruitione [Palatine Transcription]</title>
         <author xml:id="PP">Petrus Plaoul</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Lectio 36, de Notitia [Palatine Transcription]</title>
+          <title>Lectio 36, De fruitione [Palatine Transcription]</title>
           <date when="2018-03-20">March 20, 2018</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -43,11 +40,12 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="65-r"/><cb ed="#PV" n="a"/>
+        <pb ed="#PV" n="65-r"/>
+        <cb ed="#PV" n="a"/>
       </div>
     </front>
     <body>
@@ -91,7 +89,7 @@
             <lb ed="#PV"/>finis medius appetitur vel 
             <lb ed="#PV"/>desideratur proportionaliter ultimum et per consequens 
             <lb ed="#PV"/>magis ultimus appetitur vel 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 65rb-->
             <lb ed="#PV"/>consideratur Et hoc potest dupliciter 
             <lb ed="#PV"/>ymaginari uno modo resolvendo huius<lb ed="#PV"/>modi 
             appetitum ad divinum et in<lb ed="#PV"/>frustrabile 
@@ -197,7 +195,7 @@
               diversarum in specie 
               <lb ed="#PV"/>superiori ita quod tot graduum re<lb ed="#PV"/>clinationum 
               est contentiva 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 65vb -->
               <lb ed="#PV"/>quot graduum specificorum 
               <lb ed="#PV"/>huius species est contentiva et sic 
               <lb ed="#PV"/>est dependentior
@@ -326,7 +324,7 @@
               ad non esse quam mixtum 
               <lb ed="#PV"/>ex contrariis
               <!-- possible break -->
-              Sequitur quod res per<cb ed="#PV" n="b"/><lb ed="#PV"/>fectior 
+              Sequitur quod res per<cb ed="#PV" n="b"/><!--66rb--><lb ed="#PV"/>fectior 
               est et nobilior magis 
               <lb ed="#PV"/>subicitur deo et magis tenetur 
               <lb ed="#PV"/>deo quam minus perfecta Nam 
@@ -445,7 +443,8 @@
             ideo sibi attribuitur 
             <lb ed="#PV"/>bonitas et licet cuilibet sint 
             <lb ed="#PV"/>propria tamen iste modus etc
-            <cb ed="#PV" n="b"/>Iste terminus <unclear>omousion</unclear> attri<lb ed="#PV"/>buitur 
+            <cb ed="#PV" n="b"/><!-- 66vb -->
+            <lb ed="#PV"/>Iste terminus <unclear>omousion</unclear> attri<lb ed="#PV"/>buitur 
             personis id est consubstantia<lb ed="#PV"/>les 
             id est minus <unclear>substantiae</unclear> contra <name>arian</name> di<lb ed="#PV"/>centem 
             oppositum dixit eum 

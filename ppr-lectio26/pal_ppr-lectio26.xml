@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,24 +16,21 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -46,12 +43,9 @@
   </teiHeader>  
   <text>
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="41-v"/><cb ed="#PV" n="b"/>
+        <pb ed="#PV" n="41-v"/>
+        <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
@@ -59,7 +53,6 @@
         <head>Lectio 26, de Notitia [Palantine Transcription]</head>
         <div>
           <head xml:id="ppr-l26-Hddiiea">De differentia inter notitiam intuitivam et abstractivam</head>
-          
           <p xml:id="ppr-l26-sqddso">
             <lb ed="#PV"/>Quantum 
             <lb ed="#PV"/>ad 2m in quo videndum est de 
@@ -73,7 +66,8 @@
         </div>
         <div>
           <head xml:id="ppr-l26-Hocaoca">Opinio Campsale</head>
-          <p xml:id="ppr-l26-epcaie">primo 
+          <p xml:id="ppr-l26-epcaie">
+            primo 
             <lb ed="#PV"/>quidam anglicus scilicet <name ref="#Campsall">campsale</name> potest 
             <lb ed="#PV"/>adaequate eadem res est successive 
             <lb ed="#PV"/>notitia intuitiva et notitia 
@@ -117,7 +111,7 @@
             Item 
             <lb ed="#PV"/>non<unclear> oporteret</unclear> habere rationem determinatam ad 
             <lb ed="#PV"/>hoc quod anima humana intelligat 
-            <lb ed="#PV"/>intellectione superaddita quia salva<cb ed="#PV" n="b"/><lb ed="#PV"/>bile 
+            <lb ed="#PV"/>intellectione superaddita quia salva<cb ed="#PV" n="b"/><!--42rb--><lb ed="#PV"/>bile 
             esset absque contradictione quod omnis 
             <lb ed="#PV"/>anima esset omnis sua operatio
           </p>
@@ -245,7 +239,7 @@
             <lb ed="#PV"/>verum cognoverunt notitiam et ista 
             <lb ed="#PV"/>est causa quare multi <seg type="correction">erra<del rend="expunctuated">rrans</del><lb ed="#PV"/>runt</seg> 
             per reflectionem posuerunt 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!--42vb -->
             <lb ed="#PV"/>universalia distincta contra singularia
           </p>
           <p xml:id="ppr-l26-eeioec">
@@ -367,7 +361,7 @@
             <lb ed="#PV"/>immediate se ipsa terminet visi<lb ed="#PV"/>onem 
             ipsa <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod re<lb ed="#PV"/>manet 
             species et ex absentia 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!--43rb -->
             <lb ed="#PV"/>obiecti causatur notitia quae terminatur 
             <lb ed="#PV"/>realiter ad speciem vel ad similitudinem 
             <lb ed="#PV"/>vel ad tale repraesentatum et non ad 
@@ -483,7 +477,7 @@
               immediate producere et quamlibet 
               <lb ed="#PV"/>notitiam intuitivam etiam conservare 
               <lb ed="#PV"/>non tamen se solo potest conservare 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!--43vb -->
               <lb ed="#PV"/>notitiam intuitivam quia eo ipso 
               <lb ed="#PV"/>quod est notitia intuitiva est 
               <lb ed="#PV"/>immediate ab obiecto et est in potentia 
@@ -593,7 +587,7 @@
               <lb ed="#PV"/>sed magis spectaret movere 
               <lb ed="#PV"/>tales dubitationes utrum statis 
               <lb ed="#PV"/>et sic stant in illoc <unclear>videre</unclear> divinam 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!-- 44rb-->
               <lb ed="#PV"/>essentiam non videndo creaturam etc 
               <lb ed="#PV"/>et ergo quando concurrit de talibus 
               <lb ed="#PV"/>notitiis debet fieri resolutio de 

@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lectio 39, de Fruitio [Palatine Transcription]</title>
+        <title>Lectio 39, De fruitione [Palatine Transcription]</title>
         <author xml:id="PP">Petrus Plaoul</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Lectio 39, de Notitia [Palatine Transcription]</title>
+          <title>Lectio 39, De fruitione [Palatine Transcription]</title>
           <date when="2018-04-27">April 27, 2018</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -40,11 +40,12 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="71-r"/><cb ed="#PV" n="a"/>
+        <pb ed="#PV" n="71-r"/>
+        <cb ed="#PV" n="a"/>
       </div>
     </front>
     <body>
@@ -71,7 +72,7 @@
               <lb ed="#PV"/>propinquitas ex qua debet consurgere 
               <lb ed="#PV"/>summa ratio diligibilitatis resol<lb ed="#PV"/>vendo 
               materiam si pater carnalis 
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!--71rb -->
               <lb ed="#PV"/>quia est causa filii aliquo modo 
               <lb ed="#PV"/>ex quo censeatur propinquius 
               <lb ed="#PV"/>filio scilicet quod dat filio esse in infi<lb ed="#PV"/>nitum 
@@ -187,7 +188,7 @@
             <p xml:id="ppr-l39-uaqlnp">
               <lb ed="#PV"/>ut dicit <name ref="#WilliamOfParis">wilhelmus parysiensis</name> 
               <lb ed="#PV"/>unde praeter quinque sensus  
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!--71vb -->
               <lb ed="#PV"/>exteriores etiam interiores et 
               <lb ed="#PV"/>potentiam intellectivam et 
               <lb ed="#PV"/>volitivam ponitur instinctus naturalis 
@@ -323,7 +324,7 @@
               Sequitur quod nobilius 
               <lb ed="#PV"/>est servire quam dominari et 
               <lb ed="#PV"/>hoc quantum ad creaturam ideo
-              <cb ed="#PV" n="b"/>
+              <cb ed="#PV" n="b"/><!--72rb -->
               <lb ed="#PV"/>dicitur servire deo est regnare 
               <lb ed="#PV"/>id est excellentissimus modus 
               <lb ed="#PV"/>et perfectissimus
@@ -465,7 +466,7 @@
           <p xml:id="ppr-l39-supcsr">
             utrum aliquas 
             <lb ed="#PV"/>possit esse quae posset sic velle 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 72vb -->
             <lb ed="#PV"/>absque remorsu quocumque vel 
             <lb ed="#PV"/>inclinatione naturali
             Tenendum 

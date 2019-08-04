@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,24 +16,21 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <authority>An SCTA Project</authority>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a 
-            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
-          </p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 License</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a diplomatic edition.</p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -43,15 +40,12 @@
         </change>
       </listChange>
     </revisionDesc>
-  </teiHeader>  
+  </teiHeader>
   <text>
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="46-r"/><cb ed="#PV" n="b"/>
+        <pb ed="#PV" n="46-r"/>
+        <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
@@ -170,7 +164,7 @@
             <lb ed="#PV"/>per se vel 2o modo quod dicere dicunt 
             <lb ed="#PV"/>realitates distinctus vel supponunt 
             <lb ed="#PV"/>realiter pro diversis realitatibus 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 46vb -->
             <lb ed="#PV"/>sed hoc repugnat deo ratione 
             <lb ed="#PV"/>suae simplicitatis et articulo non 
             <lb ed="#PV"/>dicit tamen quod diffinitio angeli componitur 
@@ -279,7 +273,7 @@
             <lb ed="#PV"/>in quo creaturam quia genus 
             <lb ed="#PV"/>univoce debet praedicari de suis speciebus 
             <lb ed="#PV"/>unde esse de est alterius rationis 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 47rb -->
             <lb ed="#PV"/>et est esse infinitum sic non est de creatura
           </p>
           <p xml:id="ppr-l28-spisip">
@@ -385,7 +379,7 @@
           </p>
           <p xml:id="ppr-l28-qapdir">
             primo instituta
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 47vb-->
             <lb ed="#PV"/>fuerunt propter finitatem rerum 
             <lb ed="#PV"/>modorum accipiendo ideo valde utile 
             <lb ed="#PV"/>fuit reducere omnes conceptus 
@@ -495,7 +489,7 @@
             <lb ed="#PV"/>inclinationem quod sit in loco 
             <lb ed="#PV"/>scilicet quod corpus quod informat 
             <lb ed="#PV"/>sit supra terram vel in loco sibi 
-            <cb ed="#PV" n="b"/>
+            <cb ed="#PV" n="b"/><!-- 48rb -->
             <lb ed="#PV"/>naturali Et quod complexio sua sit 
             <lb ed="#PV"/>reducta ad debitum <unclear>temperamen<lb ed="#PV"/>tum</unclear> 
             ita aeterna et alia elementa 
@@ -601,8 +595,8 @@
           </p>
           <p xml:id="ppr-l28-acfedt">
             Alia conclusio
-            <lb ed="#PV"/>filius dei ide aeternaliter filius dei 
-            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>filius dei <unclear>ide</unclear> aeternaliter filius dei 
+            <cb ed="#PV" n="b"/><!--48vb -->
             <lb ed="#PV"/>etiam per gratiam potest vocari filius 
             <lb ed="#PV"/>ad optimus Item spiritus sanctus 
             <lb ed="#PV"/>dicitur donum et aliqualiter 
