@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 82, de Caritate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 82, de Caritate [Erlangen Transcription]</title>
+          <date when="2019-08-07">August 07, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-08-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="110-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio82">
+        <head xml:id="ppr-l82-Hldcldc">Lectio 82, de Caritate [Erlangen Transcription]</head>
+        <div xml:id="ppr-l82-Dd1e105">
+          <head xml:id="ppr-l82-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l82-Dd1e110">
+            <head xml:id="ppr-l82-Hpqncal">Primum: quod non stat existentem in gratia ex ignorantia immobili adorare creaturam adoratione <unclear>latriae[?]</unclear></head>
+            <p xml:id="ppr-l82-eraial">
+              <lb ed="#E" n="4"/>In alia lectione
+              <lb ed="#E"/>Ex principatu caritatis respectu omnium virium animae et respectu omnium operum virtuosorum et operationum 
+              <lb ed="#E"/>deliberatarum Infertur consequenter quod non stat existentem in gratia ignorantia invincibili ad orare 
+              <lb ed="#E"/>creaturam ut in casu suo angelus sathanae transfiguratus esset in angelum lucis 
+            </p>
+            <p xml:id="ppr-l82-cneeii">
+              quia formaliter 
+              <lb ed="#E"/>repugnaret caritati ad hoc inclinare sicut dictum fuit de fide et sic per consequens si fieret adoratio 
+              <lb ed="#E"/>fieret ex culpa et fieret contra caritatem
+            </p>
+            <p xml:id="ppr-l82-sqciaa">
+              Secundo quia caritas est unctio de omnibus docens ideo 
+              <lb ed="#E"/>in illo casu causaret aliquod iudicium dubitativum vel suspensivum huius operis
+            </p>
+            <p xml:id="ppr-l82-ecreia">
+              Ex simili radice 
+              <lb ed="#E"/>respondendum est ad omnes casus qui solent poni de ignorantia vincibili quia numquam caritas 
+              <lb ed="#E"/>inclinaret ad actus malos ymmo ad contrarium ut de accidente ad alienam uxorem quam 
+              <lb ed="#E"/>crederet esse suam
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e143">
+            <head xml:id="ppr-l82-Hsqnidm">Secundum: quod non est possibile aliquem existentem in caritate esse perplexum inter duo mala</head>
+            <p xml:id="ppr-l82-ssqidm">
+              Sequitur quod non possibile talem in caritate existentem esse perplexum inter duo 
+              <lb ed="#E"/>mala
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e154">
+            <head xml:id="ppr-l82-Htqoarc">Tertium: quod omnis dilberata actio contra fidei articulos repugnat caritati</head>
+            <p xml:id="ppr-l82-tsqeei">
+              Sequitur quod omnis deliberata assentio contra fidei articulos repugnat caritati Nam 
+              <lb ed="#E"/>est unctio docens de omnibus igitur quia non inclinat ad malum sed sibi repugnat 
+              <lb ed="#E"/>modo deliberate assentire contra articulos fidei est peccare 
+            </p>
+            <!--<p xml:id="ppr-l82-niaass">
+              Nec inclinat ad assentiendum falso quia ipsa 
+              dirigitur immediate a spiritu sancto.
+            </p>-->
+          </div>
+          <div xml:id="ppr-l82-Dd1e169">
+            <head xml:id="ppr-l82-Hqchqet">
+              Quartum: contra Holcot dicentem quod stat aliquos cum sanctitate vitae errare in fide et non habere fidem ad quam expresse tenetur
+            </head>
+            <p xml:id="ppr-l82-qscnfs">
+              illud corollarium est contra <name>holkot</name> dicentem 
+              <lb ed="#E"/>quod cum sanctitate vitae stat aliquem errare in fide circa aliquod ad quod tenetur sicut <name>cyprianus</name> quidem alii
+            </p>
+            <p xml:id="ppr-l82-qrqpis">
+              <lb ed="#E"/>Respondetur quod si haereses tenuerunt contra fidei articulos pro tunc non erant in caritate et hoc potuit con<lb ed="#E"/>tingere 
+              ante sanctitatem sicut patet de sancto petro et david qui post habuerunt gloriam perpetuam
+            </p>
+            <p xml:id="ppr-l82-spdesi">
+              Secundo 
+              <lb ed="#E"/>dicitur quod forte non fuit assertio deliberata sed opinativa praecise ex aliqua apparentia
+              <lb ed="#E"/>sophistica et isto modo contingit aliquem habentem caritatem errare mortis materiis scilicet utrum 
+              <lb ed="#E"/>possit esse superna intelligentia creata possibilis quia talis opinio non inducit 
+              <lb ed="#E"/>moralem turpitudinem sed assertio esset illicita et ponit <name>auticiodorensis</name>
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e213">
+            <head xml:id="ppr-l82-Hqsshrc">
+              Quintum: sicut se habet caritas respectu virtutum aliarum, 
+              ita Spiritus Sanctus se habet respectu caritatis
+            </head>
+            <p xml:id="ppr-l82-qcseia">
+              Alia propositio 
+              <lb ed="#E"/>sicut se habet caritas respectu aliarum virtutum scilicet quia est forma et vita aliarum ab ipsa aliarum 
+              <lb ed="#E"/>virtutum effectus dependet Ista spiritus sanctus se habet respectu caritatis quia dirigit eam et est eius 
+              <lb ed="#E"/>vita et sine ipso caritas non potest exire in actum
+            </p>
+            <p xml:id="ppr-l82-eipmpa">
+              potest probari multipliciter
+            </p>
+            <p xml:id="ppr-l82-uassve">
+              primo <name>Ambrosius</name> 
+              super lucam super illo verba praeibit ante illum in spiritu et virtute <unclear>helie</unclear> dicit quod virtus et spiritus 
+              inseparabiliter coniunguntur Ita quod caritas semper habet spiritum sanctum ipsum vivificantem
+            </p>
+            <p xml:id="ppr-l82-speeei">
+              Item 
+              <lb ed="#E"/><name>Augustinus</name> in libro de natura et gratia quia per hoc 
+              differt sanitas medicina a sanitate spirituali quia 
+              <lb ed="#E"/>sanitate medici habita cessat eius operatio Et sic non est de sanitate spirituali vel 
+              de spiritu sancto 
+              <lb ed="#E"/>quia post sanitatem acquisitam vivificat et roborat subiectum
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e247">
+            <head xml:id="ppr-l82-Hsqpmei">Sextum: quod per carentiam assistentiae Spiritus Sanctus caritas redderetur mortua et informis</head>
+            <p xml:id="ppr-l82-ssqmei">
+              Sequitur primo quod per carentiam 
+              <lb ed="#E"/>assistentiae spirituales spiritus sancti caritas redderetur mortua et informis patet per similitudinem comparationis 
+              <lb ed="#E"/>fidei ad caritatem et caritatis ad spiritum sanctum quia per carentiam caritatis fides redditur mortua
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e259">
+            <head xml:id="ppr-l82-Hsnevda">Septimum: non est impossibile fieri vitiosum de virtuoso absque acquisitione vel deperditione alicuius</head>
+            <p xml:id="ppr-l82-eqsbai">
+              <lb ed="#E"/>Sequitur non esse impossibile de virtuoso fidei non vituosum ymmo vitiosum absque formae 
+              <lb ed="#E"/>habitus vel actus acquisitione vel deperditione quia stante tota latitudine caritatis et sublata assistentia 
+              <lb ed="#E"/>spiritus sancti caritas redderetur mortua et subiectum reddere vitiosum quia semper cupiditas 
+              <lb ed="#E"/>moveret et neccessitate ad terrena
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e271">
+            <head xml:id="ppr-l82-Hoqcrei">Octavum: quod caritatis essentia non absolute culpae repugnans et incompossibilis</head>
+            <p xml:id="ppr-l82-osqnev">
+              Sequitur quod caritatis essentia non absolute culpae repugnans 
+              <lb ed="#E"/>vel compossibilis quia subtracta assistentia speciali spiritus sancti et remanente illa caritate nullo modo 
+              <lb ed="#E"/>ipsa caritas repugnat culpae quia ut sic non est virtus
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e282">
+            <head xml:id="ppr-l82-Hnqnqqp">Nonum: quod non videtur repugnantia quod caritas semel habitu numquam <unclear>exudat[?]</unclear> quantumcumque quis peccaret</head>
+            <p xml:id="ppr-l82-nsqqca">
+              Sequitur non includere repugnantiam 
+              <lb ed="#E"/>quia caritas semel habita numquam excedat quantumcumque quis peccet non dico de lege ista tuta 
+              <lb ed="#E"/>sed intrinseca ratione caritatis non repugnat <unclear>revoco</unclear> in dubium unde <ref><name>sanctus bernardus</name> in libro <title>de dilectione 
+              <lb ed="#E"/>dei</title></ref> dicit ita de petro quod caritas obstipuit Et sic ex quo mortua esset nec posset exire 
+              <pb ed="#E" n="110-v"/>
+              <lb ed="#E"/>in actu non haberet illam denominationem scilicet quod diceretur caritas
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e309">
+            <head xml:id="ppr-l82-Hdqceei">Decimum: quod caritatem esse intrinsece divisibilem, extensive et intensive</head>
+            <p xml:id="ppr-l82-dsqier">
+              Sequitur causae sustinibili 
+              <lb ed="#E"/>caritatem intrinsece esse indivisibilem intensive etiam extensive omnis concedunt secundum scilicet 
+              <lb ed="#E"/>extensive primum etiam potest salvari nam eadem res scilicet caritas secundum proportionem maiorem vel minorum 
+              <lb ed="#E"/>assistentiae magis vel minus vivificatur ergo secundum hoc pater salvari scilicet secundum proportionem minorum 
+              vel maiorum vivificationis eius et sic non oporteret ponere eius intentionem 
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e319">
+            <head xml:id="ppr-l82-Huqqiva">Undecimum: quod quamquam caritas non realiter intendatur vel augeatur...</head>
+            <p xml:id="ppr-l82-usqcav">
+              Sequitur quod quamquam 
+              <lb ed="#E"/>non realiter intenderetur nec remitteretur eliciens tamen actum circa particularem materiam <unclear>determitatae</unclear> virtutis scilicet 
+              <lb ed="#E"/>temperantiae efficitur virtuosior promptior nedum respectu eiusdem materiae talis virtutis sed respectu 
+              <lb ed="#E"/>cuiuscumque alterius virtutis
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e328">
+            <head xml:id="ppr-l82-Hdqefvi">Duodecimo: quod exercendo caritatem circa materiam temperantiae aequaliter proficitur circa materiam fortitudinis vel iustitiae</head>
+            <p xml:id="ppr-l82-dsqabo">
+              Sequitur quod aliquis exercendo se caritative et virtuose circa materiam temperantiae 
+              <lb ed="#E"/>aequaliter proficit circa materiam fortitudinis vel iustitiae quia proficit in caritate et caritas redditur 
+              <lb ed="#E"/>promptior quae habet quamlibet <del rend="strikethrough">for</del> materiam virtutis pro obiecto et hoc est ex generali influxu caritatis
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e337">
+            <head xml:id="ppr-l82-Hdqlqio">Decimumtertium: quod licet caritas sit originalis iustitia perfectior, tamen cum influentia generali ipsa caritas minus perficeret potentiam quam iustitia originalis</head>
+            <p xml:id="ppr-l82-tsqqio">
+              Sequitur 
+              <lb ed="#E"/>quod licet caritas sit originali iustitia perfectior tamen cum influentia dei generali minus proficeret quam iustitia 
+              <lb ed="#E"/>originalis sufficit 
+            </p>
+            <p xml:id="ppr-l82-ppeana">
+              prima pars patet quia elevat ad nobliores actus quam iustitia originalis 
+            </p>
+            <p xml:id="ppr-l82-eisamo">
+              <lb ed="#E"/>nec in statu innocentiae iustitia originalis sufficit ad opera meritoria
+            </p>
+            <p xml:id="ppr-l82-sppqae">
+              Secunda pars patet nam cum 
+              <lb ed="#E"/>influentia dei generali iustitia originalis <del rend="strikethrough">deo</del> inclinaret inferiores potentias ad 
+              <lb ed="#E"/>obediendum superioribus et sic refrenaret passiones sensitivas moventes contra rationem et vinceret 
+              <lb ed="#E"/>caritas cum sola influentia dei generali esset mortua nec hoc dicit imperfectionem in caritate 
+              <lb ed="#E"/>sed perfectionem quia arguit ipsa esse causam super naturalem
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e355">
+            <head xml:id="ppr-l82-Hdqeeed">Decimumquartum: quod esse caritatis non est essentialis denominatio</head>
+            <p xml:id="ppr-l82-qsqdsc">
+              Sequitur quod esse caritate non 
+              <lb ed="#E"/>est essentialis denominatio sibi nam per solam extrinsecam assistentiae carentia deperderet denomina<lb ed="#E"/>ret 
+              caritatis nec denominaret subiectum carum
+            </p>
+          </div>
+          <div xml:id="ppr-l82-Dd1e368">
+            <head xml:id="ppr-l82-Hdqqecn">Decimumquintum: quod caritas non infert subiectum esse carum necessario</head>
+            <p xml:id="ppr-l82-qsqida">
+              Sequitur quod non infert esse carum talem qualitatem 
+              <lb ed="#E"/>informare subiectum aptum natum denominari carum potest addi quod nec econtra sequitur iste est carus 
+              <lb ed="#E"/>deo igitur habet caritatem patet quia per solam acceptationem esset cara creatura deo <unclear>patet</unclear> per dicta
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l82-Dd1e378">
+          <head xml:id="ppr-l82-Hcamcam">Positio Petri Aureoli</head>
+          <p xml:id="ppr-l82-eehapp">
+            contra 
+            <lb ed="#E"/><name>Aureolum</name> qui ponit quod caritas est intrinsece caritas et quod bene sequitur haec qualitas informat 
+            <lb ed="#E"/>subiectum etc igitur etiam carum et econtra deus diligit creaturam in creatura illa habet talem qualita<lb ed="#E"/>tem 
+            Ita quod deus non potest diligere creaturam rationalem quando habeat caritatem Ipse ponit duas 
+            <lb ed="#E"/>vel tres propositiones vel saltim dicta sua reducunt ad duas vel tres propositiones spiritus sancti
+          </p>
+          <div xml:id="ppr-l82-Dd1e394">
+            <head xml:id="ppr-l82-Htpatpa">Tertia propositiones Aureoli</head>
+            <p xml:id="ppr-l82-peqsdc">
+              prima aliqua est 
+              <lb ed="#E"/>forma creata quae ex natura rei et de neccessitate cadit sub dei complacentia 
+            </p>
+            <p xml:id="ppr-l82-sefenp">
+              Secunda propositio forma cuius ex<lb ed="#E"/>istentia 
+              in anima reddit animam deo gratam ex divina accep<del rend="expunctuation">ta</del>tione formaliter non procedit effective 
+            </p>
+            <p xml:id="ppr-l82-tpfpna">
+              <lb ed="#E"/>Tertia propositio forma qua redditur anima grata est habitualis dilectio nichiominus procedit effective 
+              <lb ed="#E"/>a deo et non potest ex puris naturalibus acquiri
+            </p>
+            <div xml:id="ppr-l82-Dd1e417">
+              <head xml:id="ppr-l82-Hppcppc">Probatio primae propositionis</head>
+              <p xml:id="ppr-l82-pcsdhc">
+                Primam conclusionem probat quia actus aeternus non fertur 
+                <lb ed="#E"/>noviter in aliquod obiectum mutabile nisi illud obiectum noviter participet aliquam rationem aeternam ergo 
+                <lb ed="#E"/>non stat quod <name>sortes</name> noviter diligatur a deo nisi ex nova participatione alicuius in quo deus semper 
+                aeternaliter complacet et hoc est caritas et non essentia divina ut notum est igitur est sibi noviter 
+                <lb ed="#E"/>aliquem collativum
+              </p>
+              <p xml:id="ppr-l82-sdniqd">
+                Secundo deus non potest odire aliquem nisi in eo sit positiva ratio displicentiae ergo 
+                <lb ed="#E"/>a simili non stat quod diligat aliquem nisi in eo sit ratio diligibilitatis et illa non est nisi caritas
+                <lb ed="#E"/>igitur
+              </p>
+              <div xml:id="ppr-l82-Dd1e437">
+                <head xml:id="ppr-l82-Hcontio">Confirmatio</head>
+                <p xml:id="ppr-l82-cqdanr">
+                  Confirmatur quia deus non facit aliquem sine rationabili motivo ergo non diligit aliquam 
+                  <lb ed="#E"/>nisi debite dispositivum et nullus eset debite dispositus nisi habeat caritatem ergo unde proverbiorum 
+                  <lb ed="#E"/>octavo inducitur modus debite diligendi dicitur enim ibidem diligentes me diligo 
+                  et sic deus necessario diligit diligentes se et oportet quod <unclear>re ametur</unclear>
+                </p>
+                <p xml:id="ppr-l82-scpied">
+                  Confirmatur <ref>ioannes</ref> 14o capitulo <quote xml:id="ppr-l82-Qsqdmde" ana="#io14_23">Si quis 
+                  <lb ed="#E"/>diligit me sermonem meum servabit</quote> et pater meus diliget eum
+                </p>
+                <p xml:id="ppr-l82-tqsmev">
+                  Tertio quia bene sequitur 
+                  <lb ed="#E"/>deus diligit virtutem igitur diligat participantem virtutem si quis sit talis et antecedens est neccessarium 
+                  <lb ed="#E"/>igitur neccessario diligit habentem virtutem 
+                </p>
+                <!--not present
+                  <p xml:id="ppr-l82-aiqdad">
+                  Apparet, igitur, quod conclusio tenet duo 
+                  puncta, scilicet, quod necessario Requiritur caritas ad 
+                  gratificandum creaturam et quod ipsa posita crea<cb ed="#SV" n="b"/><!-\-299vb-\->tura necessario diligitur a Deo.
+                </p>-->
+              </div>
+            </div>
+            <div xml:id="ppr-l82-Dd1e512">
+              <head xml:id="ppr-l82-Hpscpsc">Probatio secundae propositionis</head>
+              <p xml:id="ppr-l82-scpicv">
+                Tertio conclusio patet quia acceptatio divina est quodammodo posterior 
+                <lb ed="#E"/>nam a parte obiecti requiritur quidam ordo prioritatis et sic caritas quodammodo habet rationem prioritatis igitur
+              </p>
+            </div>
+            <div xml:id="ppr-l82-Dd1e528">
+              <head xml:id="ppr-l82-GHptcptc">Probatio tertiae propositionis</head>
+              <p xml:id="ppr-l82-tcpddc">
+                <lb ed="#E"/>Tertia conclusio patet quia omnis effectus mundi procedit a deo 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l82-Dd1e545">
+          <head xml:id="ppr-l82-Hrdaadw">
+            Positio de <name ref="#Wodeham">Adam de Wodeham</name>
+          </head>
+          <p xml:id="ppr-l82-ariedg">
+            Adam inducit aliam rationem si sit 
+            <lb ed="#E"/>ita quod sortes sicut nunc non deo gratus et parte possit fieri gratus absque gratia creata tunc 
+            <pb ed="#E" n="111-r"/>
+            <lb ed="#E"/>fieret transitus de contradicto ad contradictionem sive mutatione facta in re quod est contra articulo parisiensis 
+            <lb ed="#E"/>consequentia probatur nam ista est vera iste non est deo gratus et non fuit mutatio in deo quia immutabilis 
+            <lb ed="#E"/>est nec in creatura quia nichil deperdit vel nihil acquisivit 
+          </p>
+          <div xml:id="ppr-l82-Dd1e571">
+            <head xml:id="ppr-l82-contio">Confirmatio</head>
+            <p xml:id="ppr-l82-cepifp">
+              Solet confirmari per unam rationem 
+              <lb ed="#E"/><name>scoti</name> ad ponendum relationes nam si ad hoc quod creatura sit deo grata non requiritur caritas
+              <!-- break at "tunc sequitur quod quotienscumque -->
+              <lb ed="#E"/>sequitur quod quandocumque ponuntur deus et creatura quod etiam creatura erit deo grata unde ad veritatem 
+              <lb ed="#E"/>istius propositionis <c>a</c> est deo gratus non requiritur aliquid aliud ex parte rei igitur semper erit 
+              <lb ed="#E"/>vera quando formabitur positis deo et creatura nisi <del rend="strikethrough">quod</del> ponimus quod requiritur relatio distincta vel caritas 
+              <lb ed="#E"/>igitur oportet carae aliquem gratitudinem scilicet caritatem
+              <!-- break -->
+              Consequenter potest argui de attingente cari<lb ed="#E"/>tatem 
+              respectu omnium aliarum virtutum quia si sic caritas esset causa essentialiter prior in ordine causarum 
+              <lb ed="#E"/>igitur posset in effectu sine concursu causae inferioris quia illa est habitudo causarum essentialiter subordinatarum
+            </p>
+            <p xml:id="ppr-l82-sisnce">
+              <lb ed="#E"/>Item attendat <name>sortis</name> dilectionem sui usque ad gradum prohibitum et aliquis posset esse tantae intentionis 
+              <lb ed="#E"/>quod esset illicitus sicut forte fuit de peccato primi angeli scilicet quod dilexit se nimis intense 
+              <lb ed="#E"/>Intendat ergo sortes dilectionem sui continue donec sit gradus tantus quod non sit licitus 
+              <lb ed="#E"/>tunc arguitur sic vel tunc concurrit caritas ad peccatum vel prius non concurrebat sed voluntas non 
+              <lb ed="#E"/>sufficiebat prius in remissionem igitur nec post intentionem et ille erit primus qui est in peccato igitur <unclear>esset</unclear> 
+              <lb ed="#E"/>dicere quod numquam concurrit caritas effective vel quod concurrat ad peccatum
+            </p>
+            <p xml:id="ppr-l82-tssiam">
+              Item sequitur quod posset exire 
+              <lb ed="#E"/>in actum in carentibus usu rationis quia non dependet a voluntate et nullum est impedimentum 
+            </p>
+            <p xml:id="ppr-l82-qaquii">
+              <lb ed="#E"/>Item sequeretur quod stante uniformi conatu voluntatis in infinitum augeretur gratia patet nam 
+              <lb ed="#E"/>in eodem instanti in quo caritas concurrit ad productionem actus meritorii huiusmodi actus mereretur 
+              <lb ed="#E"/>vel anima <unclear>den?te</unclear> huiusmodi actu meretur augmentum gratiae et ille infunditur si aliquid additur 
+              <lb ed="#E"/>quod habet aliquem causalitatem aliquod additur gratiae et actus super actum praecedente et ratione illius 
+              <lb ed="#E"/>aliquod ultra additur per modum meriti igitur propositum
+            </p>
+            <p xml:id="ppr-l82-qacvab">
+              Item caritas est maioris perfectionis quam 
+              <lb ed="#E"/>cupiditas sed cupiditas necessitat voluntatem ad malum ergo caritas neccessitat voluntatem 
+              <lb ed="#E"/>ad bonum Sequitur etc
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
