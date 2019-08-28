@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 47, De fruitione [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 47, De fruitione [Erlangen Transcription]</title>
+          <date when="2019-08-25">August 25, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-08-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="65-v"/>
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio47">
+        <head xml:id="ppr-l47-Hldfldf">Lectio 47, de Fruitione</head>
+        <div xml:id="ppr-l47-Dd1e104">
+          <head xml:id="ppr-l47-Hrqdepn">Rationes quod Deo fruendum est probat ex puris naturalibus</head>
+          <p xml:id="ppr-l47-ptedps">
+            <lb ed="#E" n="12"/>Sequitur lectio alia 
+            <lb ed="#E"/>Prius tactum est quod fruitio dei semper est cum caritate etc semper meritoria saltem 
+            <lb ed="#E"/>in via et quod omnis usus ordinatus creaturae est fruitio dei et meritoria dilectio
+            <!-- break -->
+            <lb ed="#E"/>Arguitur contra hoc probando quod aliquis ex puris naturalibus possit deo frui et quin propter se 
+            <lb ed="#E"/>ultimate diligere 
+          </p>
+          <div xml:id="ppr-l47-Dd1e125">
+            <head xml:id="ppr-l47-Hprprpr">Prima ratio</head>
+            <p xml:id="ppr-l47-eappsc">
+              primo quod intellectus potest dictare ex puris naturalibus deo esse fruendum 
+              <lb ed="#E"/>et voluntas huic dictamini potest se conformare ergo voluntas potest deo frui sive gratia ex 
+              <lb ed="#E"/>puris naturalibus consequentia est clara prima pars antecedentis patet de puro philosopho qui ponit ex puris 
+              <lb ed="#E"/>naturalibus quod deus est finis omnium et summum bonum et in intellectu practico potest practice dictare 
+              quod deo fruendum est Secunda pars patet ex libertate voluntatis nam praesentato sibi aliquo bono 
+              <lb ed="#E"/>et dicatur sibi per intellectum quod illud bonum sit diligendum videtur quod possit se conformare illi 
+              <lb ed="#E"/>dictamini
+            </p>
+            <p xml:id="ppr-l47-ivncvn">
+              unde stante illo casu non neccessario difformabit si illi dictamini quia alias 
+              <lb ed="#E"/>voluntas neccessario peccaret et per consequens minor vera Confirmatur nam nisi voluntas posset se con<lb ed="#E"/>formare 
+              huiusmodi dictamini extra gratiam sequeretur quod creatura posset cognoscere evidenter 
+              <lb ed="#E"/>an esset in gratia vel ne patet consequentia quia si non posset actum conformem ad illud dictamen 
+              <lb ed="#E"/>elicere erit meritorium concludendi quod sit in gratia unde <ref xml:id="ppr-l47-Rd1e182" corresp="#ppr-l47-Qnpsads"><title ref="#qoh">ecclesiastes</title> IXo capitulo</ref> <quote xml:id="ppr-l47-Qnpsads" source="http://scta.info/resource/qoh9_1">nemo scit an odio 
+              vel amore dignus sit</quote>
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e203">
+            <head xml:id="ppr-l47-Hsrsrsr">Secunda ratio</head>  
+            <p xml:id="ppr-l47-sscnde">
+              Secundo circa finem ultimum sit sub ratione summi boni ostensum 
+              <lb ed="#E"/>voluntati voluntas potest habere aliquem actum et non neccessario ordinatum ergo inordinatum 
+              <lb ed="#E"/>Secunda pars patet quia cogeretur ad peccandum ut tactum est ergo ordinatum et ille actus 
+              <lb ed="#E"/>erit fruitio quia deus non diligitur ordinate nisi fruitur
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e228">
+            <head xml:id="ppr-l47-Htrtrtr">Tertia ratio</head>  
+            <p xml:id="ppr-l47-tctdso">
+              Tertio capiendo totam motivitatem 
+              <lb ed="#E"/>quam habet gratiam in simplici persona ut esset adultus qui haberet solum gratiam baptismalem 
+              <lb ed="#E"/>vel modicum amorem tunc huiusmodi caritas movet animam in certo gradu respectu dilectionis 
+              <lb ed="#E"/>dei sed aliqua cognitio potest esse ita clare in non habente gratiam et iudicium potest esse ita clarum 
+              <lb ed="#E"/>quod moveat magis quam huiusmodi gratia scilicet iudicium de potentia divina et eius bonitate 
+              <lb ed="#E"/>quo stante sequitur quod huiusmodi notitia de dei bonitate movebit quam alia caritas
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e260">
+            <head xml:id="ppr-l47-Hqrqrqr">Quarta ratio</head>
+            <p xml:id="ppr-l47-qaegie">
+              <lb ed="#E"/>Quarto arguitur fortiter de illo qui atteritur et disponit se ut liberetur a peccato iste 
+              <lb ed="#E"/>dolet de peccato suo et iste dolor debet esse licitus et per consequens debet esse volitio <del rend="strikethrough">dei</del> mali  
+              <lb ed="#E"/>scilicet peccati propter deum ergo erit fruitio dei unde habebit nolle refutativum peccati antequam 
+              <lb ed="#E"/>sit gratiae infusio
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e291">
+            <head xml:id="ppr-l47-Hqurqur">Quinta ratio</head>
+            <p xml:id="ppr-l47-saaosg">
+              Quinto arguitur apparenter nam existens in caritate per frequens actus fruitionis 
+              <lb ed="#E"/>acquirit aliquem habitum qui remanet cessante caritate ergo huiusmodi habitus sufficit 
+              <lb ed="#E"/>exire in similes actus quantum ad substantiam actuum licet non meritorios et cessante caritate 
+              <lb ed="#E"/>non subito corrumpitur ergo corrupta caritate sufficit exire in actum diligendi deum 
+              <lb ed="#E"/>super omnia licet non meritorie
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e317">
+            <head xml:id="ppr-l47-Hsextio">Sexta ratio</head>
+            <p xml:id="ppr-l47-ssiisd">
+              Sexto iudaeus paganus zelo suae sectae exponit 
+              <pb ed="#PV" n="66-r"/>
+              <lb ed="#E"/>se morti propter deum ergo fruitur deo nam magis diligit deum quam se ipsum quia praeponit deum vitae 
+              <lb ed="#E"/>suae licet erret sicut haeretici aliquando passi sunt morte propter haeresim credentes tamen suam sectam 
+              <lb ed="#E"/>esse salutarem et ad divinum cultum pertinentem ymmo neccessariam et sic videntur frui deo et 
+              <lb ed="#E"/>tamen non sunt in caritate ymmo in statu dampnationis 
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e347">
+            <head xml:id="ppr-l47-Hseptio">Septima ratio</head>
+            <p xml:id="ppr-l47-isahop">
+              Septima sit aliquis non baptizatus 
+              <lb ed="#E"/>meritus inter christianos qui forte credit baptizatus nec facit de hoc diligentiam iste 
+              <lb ed="#E"/>exibit in consimiles actus et non habebit caritatem nec disponit se debite et sic eodem modo colit 
+              <lb ed="#E"/>deum saltem quantum ad subiectis actuum in se sicut alii
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e382">
+            <head xml:id="ppr-l47-Hororor">Octava ratio</head>
+            <p xml:id="ppr-l47-iausfd">
+              Octavo quaelibet creatura circa suum finem 
+              <lb ed="#E"/>potest habere suam operationem perfectam unde omnia naturalia alia ab homine naturaliter operantur circa suam finem 
+              <lb ed="#E"/>producendo suos effectus scilicet ex movendo ad sua loca naturalia et sic de aliis ergo etc sic erit de rationali cre<lb ed="#E"/>atura 
+              <!-- unclear if 8, 9, 10, numbering of ratio applies here or is correct, since Item is used in both ordinatio and reportation versions -->
+              Item pars animae non cognitive seu quae non sunt cognitive id <add place="above-line">est</add> anima ut est operativa mere 
+              <lb ed="#E"/>naturaliter tendit in deum ergo volitiva <subst><del rend="expunctuation">non</del><add place="above-line">cum</add></subst> sit <unclear>nobilissima</unclear> potest tendere in ultimum finem non dico meri<lb ed="#E"/>torie 
+              et suum finem diligere
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e393">
+            <head xml:id="ppr-l47-Hnrnrnr">Nona ratio</head>
+            <p xml:id="ppr-l47-iisesr">
+              Item in statu Innocentiae potuisset anima naturaliter deo frui et eodem 
+              <lb ed="#E"/><del rend="expunctuation">debet</del> species seu eiusdem speciei est nunc anima rationalis ergo videtur quod illa operatio naturalis non sit 
+              <lb ed="#E"/>sibi remota
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e419">
+            <head xml:id="ppr-l47-Hdrdrdr">Decima ratio</head>
+            <p xml:id="ppr-l47-ianvem">
+              Item voluntas naturaliter potest frui et non neccessario inordinate alias videtur naturaliter mala
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e435">
+            <head xml:id="ppr-l47-Hundtio">Undecima ratio</head>
+            <p xml:id="ppr-l47-irnmpf">
+              <lb ed="#E"/>Item ratio naturalis dictat aliquid esse summe diligendum propter ordinem diligendorum et quod 
+              <lb ed="#E"/>magis diligibile magis movet ergo summe diligibile magis movet quam aliquod aliorum 
+              <lb ed="#E"/>ymmo maxime ergo voluntas naturaliter magis potest eo frui quam quocumque alio diligibile
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e459">
+            <head xml:id="ppr-l47-Hduotio">Duodecima ratio</head>
+            <p xml:id="ppr-l47-insiim">
+              Item 
+              <lb ed="#E"/>nisi sic hoc maxime esset quod non posset aliquid aliud magis diligere quam se hoc falsum 
+              <lb ed="#E"/>quia potest constituere sibi alium finem quam se Etiam fortis exponit se morti pro re publica 
+              <lb ed="#E"/>ergo magis diligit illud quam se et per consequens aliquod supra se
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l47-Dd1e488">
+          <head xml:id="ppr-l47-Htoiiim">Tres opiniones in ista materia</head>
+          <p xml:id="ppr-l47-aeqsto">
+            Advertendum quod in ista materia 
+            <lb ed="#E"/>sunt tres opiniones
+          </p>
+          <div xml:id="ppr-l47-Dd1e498">
+            <head xml:id="ppr-l47-Hpopopo">Prima opinio</head>
+            <p xml:id="ppr-l47-upqhea">
+              una ponit quod ex puris naturalibus quis potest deo frui propter rationes tactas 
+              <lb ed="#E"/>Quod ex puris naturalibus voluntas potest elicere actum virtuosum et bonum moraliter non tamen 
+              <lb ed="#E"/>meritorium sine caritate Istam positionem tenet <name>Adam</name> <name>holkot</name> et multi alii 
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e532">
+            <head xml:id="ppr-l47-Hsososo">Secunda opinio</head>
+            <p xml:id="ppr-l47-aeonns">
+              Alia opinio quod licet 
+              <lb ed="#E"/>ex puris naturalibus non possit creatura frui deo potest tamen sive gratia gratificante sed non 
+              <lb ed="#E"/>sine gratia gratis data unde gratia gratificans est illa virtus theologica quae realiter 
+              <lb ed="#E"/>elevat animam et iustificat eius <del rend="expunctuation">animam</del> actus et illa non stat cum peccato quia iustificat 
+              <lb ed="#E"/>et gratificat actus animae ymmo secundum aliquos nec est absolute possibile ipsam stare cum peccato quia 
+              <lb ed="#E"/>infunditur huiusmodi gratia in baptismo et in aliquibus postea intenditur Gratia gratis data aliquando 
+              <lb ed="#E"/>generantur vocatur esse donum dei in proposito dicitur aliquod speciale adiutorium ultra influentia 
+              <lb ed="#E"/>dei communem <unclear>isdem</unclear> est quasi medium inter influentiam communem et influentiam caritatis vel gratiae 
+              <lb ed="#E"/>gratificantis etc specialis motio vel directio in bonum quia spiritus sanctus ymmo tota trinitas 
+              <lb ed="#E"/>pulsat mentem illius qui est in peccato ut convertatur unde <ref xml:id="ppr-l47-Rd1e700">apocalypsis 2o</ref> sto ad ostium 
+              <lb ed="#E"/>et pulso ad ostium numquam animae ad detestandum peccatum et ad diligendum bonum et prosequendo 
+              <lb ed="#E"/>haec inquam motio quae vocatur gratia gratis data requiritur ad deo fruendum etiam extra caritatem 
+              <lb ed="#E"/>secundum istam 2m viam quia naturalia non sufficeret 
+            </p>
+          </div>
+          <div xml:id="ppr-l47-Dd1e600">
+            <head xml:id="ppr-l47-Htototo">Tertio opinio</head>
+            <p xml:id="ppr-l47-tvqeet">
+              Tertia via quam intendo tenere Ad 
+              <lb ed="#E"/>fruendum deo requiritur gratia gratificans elevans voluntatem a vivificans animam ad huiusmodi 
+              <lb ed="#E"/>nobilis actus productionem et conservationem et quia ista materia est pure theologica ideo non 
+              <lb ed="#E"/>patitur vehementem demonstrationem nec teneo eam per evidentiam rationum sed propter auctoritates sanctorum 
+              <lb ed="#E"/>quae de directo videntur hoc praetendere ymmo expressissime <name ref="#Augustine">Augustinus</name> et <name ref="#Anselm">Anshelmus</name> hoc 
+              <lb ed="#E"/>ponunt et exponunt sacram scripturam conformiter ad istum intellectum Auctoritates quasi 
+              <lb ed="#E"/><unclear>innumerabiles</unclear> sunt ad hoc unde opinio eorum videtur esse quod alia via faveat errare pelagii
+            </p>
+            <p xml:id="ppr-l47-pcpovc">
+              <pb ed="#E" n="66-v"/>
+              <lb ed="#E"/>Pro quaestione ista adduco rationem Nam si fruatur sortes deo illa fruitio est dilectio 
+              <lb ed="#E"/>dei super omnia qua stante non est compossibilis alia volitio dei contemptiva nam eo ipse 
+              <lb ed="#E"/>quod deus diligitur super omnia a creatura ipsa creatura aequivalenter vult sibi super omnia 
+              <lb ed="#E"/>obedire ergo excludit super omnes alios actus pravos voluntatis scilicet odiendi
+            </p> 
+            <!--
+              this paragraph some how included in above
+              <p xml:id="ppr-l47-ihdamv">
+              Item, huiusmodi <unclear>dilectio</unclear> <unclear>fruitiva</unclear> excludit omnes actus malos 
+              actus voluntatis.
+            </p>-->
+            <p xml:id="ppr-l47-iddqcg">
+              Item dilectio 
+              <lb ed="#E"/>dei super omnia est maxima dispositio creaturae ad deum ergo non stat sine gratia lege stan<lb ed="#E"/>te 
+              consequentia tenet quia quotiens creatura debite disponit se totiens confertur sibi gratia antecedens patet 
+              <lb ed="#E"/>quia inter omnes dispositiones quas creatura potest habere illa est nobilissima scilicet quod diligat 
+              <lb ed="#E"/>deum propter suam bonitatem super omnia modo cum maxima tali dispositione non stat lege stante 
+              <lb ed="#E"/>quin talis habeat gratiam et sit in gratia saltem <gap unit="chars" extent="8"/> quia non staret quin gratificaretur
+            </p>
+            <p xml:id="ppr-l47-ioasrt">
+              <lb ed="#E"/>Item inter omnis actus diligendi deum est summae nobilitatis et difficultatis ergo naturalis 
+              <lb ed="#E"/>facultas humana non se extendit ad illum actum alias gratia non esset neccessaria ad 
+              <lb ed="#E"/>productionem actuum meritoriorum Sed solum <unclear>esset<!--oportet--></unclear> <unclear>distinguui</unclear> inter <unclear>peccatores<!-- peccationem--></unclear> et non peccatorem 
+              <lb ed="#E"/>Ita quod arguitur sic Caritas requiritur ad productionem actus fruitivi et voluntas non est per se 
+              <lb ed="#E"/>sufficiens etc
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l47-Dd1e707">
+          <head xml:id="ppr-l47-Hcqfisi">Conclusio: quod fruitio hic in via est perfectior quam fuisset in statu innocentiae.</head>
+          <p xml:id="ppr-l47-pdmhiv">
+            Pro declaratione materiae advertendum quod triplex debet ymaginari status creaturae scilicet 
+            <lb ed="#E"/>status purae naturalis scilicet naturae integrae vel innocentiae Secundus est status naturae corruptae non 
+            <lb ed="#E"/>reformatae per gratiam vel caritatem et tertius est status gratiae et hoc in via
+          </p>
+          <p xml:id="ppr-l47-qapafd">
+            Quantum ad primum 
+            <lb ed="#E"/>potest concedi quod in statu innocentiae ex puris naturalibus poterat <name>adam</name> diligere deum frui<lb ed="#E"/>tive 
+            patet ex ordine diligendorum et habitudine et ex rectitudine potentiarum nam ordo diligendorum 
+            <lb ed="#E"/><del rend="expunctuation">et habitudine</del> erat primo parenti clarus et cognoscebat quod nulla creatura habebat rationem fruibilitatis 
+            <lb ed="#E"/>et quia voluntas habuit concordantiam ad omnes alias vires ergo conformiter eliciebat 
+          </p> 
+          <p xml:id="ppr-l47-isnsod">
+            <lb ed="#E"/>In statu naturae corruptae deordinatione facta est in regno animae ita quod vires inferiores 
+            <lb ed="#E"/>rebellant superioribus propter poenam peccati originalis et superiores subiciuntur inferio<lb ed="#E"/>ribus 
+            ideo est talis infirmitas quod anima sibi derelicta fruitur se ipsa ita quod inclinatur 
+            <lb ed="#E"/>ad contrarium deo et sic inclinatur ad se sicut grave naturae suae derelictum tendit deorsum 
+            <lb ed="#E"/>Ita est de voluntate quod ipsa sibi derelicta non stat ipsam tendere in deum et istam affec<lb ed="#E"/>tionem 
+            vocaverunt doctores affectionem commodi <pc type="virgula">/</pc> et sicut grave non potest ex se sursum ascendere 
+            <lb ed="#E"/>ita voluntas sibi derelicta non potest ex se ad deum ascendere 
+          </p>
+          <p xml:id="ppr-l47-sisdae">
+            In statu gratiae ymaginandum 
+            <lb ed="#E"/>quod gratia est medicina contra istum morbum quia habet elevare creaturam ad deum et quasi fa<lb ed="#E"/>cere 
+            recedere a centro rerum corporalium sicut levitas introduceretur in materiam gravis potest esse 
+            <lb ed="#E"/>in tanta <unclear>proportione</unclear> quod faceret moveri ipsam grave <unclear>quaecumlibet</unclear> velociter Ita de gratia respectu 
+            voluntatis In libro confessionum et de civitate deo <name>augustinus</name> facit istam operationem unde <name>augustinus</name> 
+            <lb ed="#E"/><quote xml:id="ppr-l47-Qd1e1007">amor meus pondus meum</quote>
+          </p>
+          <p xml:id="ppr-l47-ateqsi">
+            Advertendum tamen quod cum isto stat dei dilectio nam relatio ad 
+            <lb ed="#E"/>se quandoque non est evidenter perceptibilis sed realiter talis non est dilectio licita nec fruitio sed est 
+            <lb ed="#E"/>visus dei forte multi credunt frui deo et non fruuntur sed utuntur et credunt non re<lb ed="#E"/>ferre 
+            ad se sed stat tamen quod referant Secunda potest dici quod fruitio dei in hoc statu est perfectior 
+            <lb ed="#E"/>quam in statu innocentiae nulla erat penitus difficultas frui deo ex clara notitia 
+            <lb ed="#E"/>ordinis creaturam deum nec erat aliquis trahens ad contrarium unde notitia habitudinis 
+            creaturarum ad deum erat evidens in statu innocentiae et sic non est in hoc statu ymmo 
+            <lb ed="#E"/>contraria ergo etc Confirmatur quia realiter ista fruitio vicem in hoc statu est in beatitudine 
+            <lb ed="#E"/>motiva et beatitudinis meritoria in statu autem innocentiae non et hoc loquendo de illa quae in illo 
+            <lb ed="#E"/>statu ex puris naturalibus potuit elici unde <name>magister adam</name> non habuit unde etc et sic fruitio 
+            <lb ed="#E"/>in hoc statu est perfectior propter maiorem efficaciam et maiorem difficultatem 
+            
+            <!--
+            
+            illa dilectio dei esset 
+            illicita vel non esset meritoria, sed est usus dei. Et multi credunt 
+            frui deo, qui Realiter utuntur et diligunt eum, quia sperant bona 
+            a deo vel aliquod tale. et sic licet credant illam dilectionem 
+            non Refferre in se tamen Realiter  referunt in se et 
+            non in deum. secundo potest dici quod fruitio dei in hoc statu est 
+            perfectior quam in statu innocentiae. patet quia in statu innocentiae 
+            nulla erat difficultas frui deo ex clara notitia et certa 
+            habitudine credendorum et nullum erat impedimentum ad contrarium 
+            modo oppositum est hic quia non est clara notitia nec evidens 
+            habitudo Rerum ad deum et est impedimentum trahens ad 
+            oppositum, ideo status gratiae est nobilior quam status innocentiae.-->
+          </p>
+          <p xml:id="ppr-l47-iifisi">
+            <!-- this paragraph is hidden somewhere above -->
+            
+            <!--Item, ista fruitio quae nunc habetur ex gratia est vitae aeternae meritoria 
+            in illo, autem statu non, unde primus parens habebat unde 
+            stare poterat, sed non unde perficere posset, sicut dicit 
+            <cit>
+              <ref xml:id="ppr-l47-Rd2vv2z">
+                <name ref="#Lombard">Magister</name> 
+                in secundo
+              </ref>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                II, XXX
+              </bibl>
+            </cit>
+            cum illo stat quod primus parens poterat ex caritate 
+            vel gratia elicere actum fruitivum nobilioris et perfectioris speciei 
+            quam erat actus fruitivus quae ex puris naturalibus habebat. et sic propter 
+            difficultatem, fruitio hic in via est perfectior quam fuisset in statu 
+            innocentiae.-->
+          </p>
+        </div>
+        <div xml:id="ppr-l47-Dd1e849">
+          <head xml:id="ppr-l47-Hscogvc">Sed contra: opinio <name ref="#Wodeham">Adam Wodeham</name> quod Deo posset frui sine gratia vel caritate</head>
+          <p xml:id="ppr-l47-scifsc">
+            <name>Adam</name> 
+            <lb ed="#E"/>arguit contra istud quia tenet contrarium istius positionis una rationum suarum est quando 
+            <lb ed="#E"/>voluntas potest producere aliquem actum cum habitu potest illum producere sine habitu etc 
+            <pb ed="#E" n="67-r"/>
+            <lb ed="#E"/>verbi gratia habitus acquiritur per actus ergo Actus praecedunt ergo Voluntas 
+            <lb ed="#E"/>per propriis concurrit ad productionem actuum quam quod habitus concurrant secum igitur quemcumque actum potest 
+            <lb ed="#E"/>producere mediante habitu eundem potest sive habitu et sic in proposito si voluntas cum habitu carita<lb ed="#E"/>tis 
+            sufficit producere actum fruitivum etiam sive illo sufficit et per consequens sive caritate possibile est 
+            <lb ed="#E"/>quod fruatur deo
+            
+            <!--Sed contra illud arguit <name ref="#Wodeham">Adam</name> et inter 
+            illas rationes facit istam quando voluntas potest producere unum 
+            actum cum habitu potest producere eundem. vel similem sine habitu, 
+            sed in gratia habitus causantur per actus, ergo per prius voluntas 
+            concurrit ad actum quam ad habitum per talem actum generatum, 
+            ergo quaecumque actum potest producere cum habitu potest producere 
+            sine habitu, et per consequens ad propositum, si voluntas cum caritate 
+            poterit producere dilectionem dei super omnia poterit sine 
+            illa, et sic fruetur sine caritate.-->
+          </p>
+          <p xml:id="ppr-l47-baeshc">
+            Advertendum quod lata est differentia de actibus naturalibus naturaliter producibilibus et aliis 
+            <lb ed="#E"/>solum producibilibus cum adiutorio dei speciali unde voluntas habet aliquos a naturali sua 
+            <lb ed="#E"/>facultate et de illis bene habet veritatem illud dictum assumptum Ab <name>Adam</name> sed secus de 
+            <lb ed="#E"/>illis actibus qui excedunt facultatem voluntatis et ad quorum productionem requiritur altio<lb ed="#E"/>ris 
+            speciei causalitas quam ad illos alios nam caritas principalius concurrit quam voluntas 
+            <lb ed="#E"/>in productionem actuum fruitivorum iterum deus specialis quam caritas ubi noluntas esset 
+            <lb ed="#E"/>principalis causa sicut in habitibus naturaliter acquisitis forte ita esset sed in aliis voluntas non esset 
+            <lb ed="#E"/>principalior adhuc inter causas particulares ideo sublata principali causa non producitur effectus 
+            <!--
+            Breviter advertendum est 
+            hic quod lata est differentia de actibus naturaliter producibus et 
+            de actibus supernaturalibus, nam voluntas habet aliquas operationes 
+            in sua naturali potestate et de huiusmodi operationibus 
+            est verum quod quemcumque actum potest voluntas producere cum habitu 
+            potest producere vel similem sine habitu. sed secus est de illis 
+            ad quorum productionem Requiritur altior causalitas quam voluntas 
+            et ad huiusmodi habitus non Requiritur actus voluntatis, 
+            et ubi voluntas esset causa principalis forte esset verum 
+            quod dictum est sicut in actibus naturalibus et quia actus caritatis 
+            non est in potestate naturali voluntatis, quia caritas concurrit et 
+            etiam caritas producitur a solo deo. ideo ad diligendum 
+            deum super omnia Requirit voluntas actum caritatis et 
+            de illo non est verum quod possit illum producere sine habitu caritatis.-->
+          </p>
+          <p xml:id="ppr-l47-iaaoai">
+            <lb ed="#E"/>Item dicit quod deus posset dare praeceptum creaturae quod diligat deum fruitive absque caritate 
+            <lb ed="#E"/>nec deus infunderet caritatem tunc creatura posset conformiter ad praeceptum facere Respondendum 
+            <lb ed="#E"/>quod remotis omnibus specialibus adiutoriis et non ampliata causalitate voluntatis et stante 
+            <lb ed="#E"/>lege communi deus non posset praecipere creaturae ad diligendum deum fruitive patet quia obli<lb ed="#E"/>garet 
+            creaturam ad impossibile ut si creatura posset levare unum solum et praeciperet sibi 
+            <lb ed="#E"/>quod levaret 100 sive alio adiutorio non ampliata <unclear>eius<!--cuius--></unclear> causalitate obligaret ad 
+            <lb ed="#E"/>impossibile 
+            
+            <!--
+            
+            Item arguit <name ref="#Wodeham">Adam</name>, deus potest praecipere creaturae 
+            diligeret deum fruitive absque caritate, et tunc dicit quod posset 
+            conformiter diligere deum. breviter dicendum est quod non applicata 
+            causalitate voluntatis et deo non supplente vicem caritatis et Remanebit 
+            adiutoriis specialibus deus non posset stante lege praecipere 
+            creaturae quod diligeret eum fruitive, quia non obligaret eam ad 
+            impossibile ut si potentia levativa <name ref="#Sortes">sortis</name> solum esset ut unum 
+            et sibi praeciperetur quod levaret ponendus ut centum hic Repugnaret, 
+            quia dicit <name ref="#Ambrose">ambrosius</name> quod deus non potest aliquem obligare ad 
+            impossibile.-->
+          </p>
+          <p xml:id="ppr-l47-idatsp">
+            Item dicit voluntas non esset activa respectu fruitionis <del rend="expunctuation">naturae</del> negetur consequentia sed bene 
+            <lb ed="#E"/>conceditur quod non est principalis causa sicut potentia levativa sortis non potest sine adiutorio 
+            <lb ed="#E"/>nisi tantum pondus levare tamen cum adiutorio posset duplum triplum et sic in infinitum et sic vo<lb ed="#E"/>luntas 
+            non potest producere actum fruitivum sine adiutorio cum adiutorio tamen valde bene posset
+            <!--Item dicit <name ref="#Wodeham">adam</name>, tunc voluntas non esset activa fruitionis 
+            naturae licet non esset principaliter activa, tamen cum adiutoriis 
+            specialibus sufficeret exire in actum fruitionis 
+            ut si potentia levativa <name ref="#Sortes">sortis</name> non posset nisi in unum levare, 
+            tamen cum adiutorio duppli posset dupplum levare; et sic 
+            licet voluntas non posset se sola in fruitionem dei, cum adiutoriis 
+            tamen specialibus potest, etc.-->
+          </p>
+        </div>
+        <div xml:id="ppr-l47-Dd1e1275">
+          <head xml:id="ppr-l47-Hd1e1277">Conclusiones</head>
+          <p xml:id="ppr-l47-d1e1280">
+            <lb ed="#E"/>Circa distinctionem 45am Prima conclusio voluntas divina est met sua essentia Advertendum quod deus 
+            <lb ed="#E"/>ratione suae immensitatis idem est esse velle <add place="above-line">etc</add> sed intellectus noster non potest eum perfecte capere per unum praedicatum 
+            <lb ed="#E"/>Ideo quodammodo secundum partem ita eum concipit 2m modum cognoscendi creaturam quia 
+            <lb ed="#E"/>diversimode operando diversimode se habet per diversas potentias et diversa instrumenta et 
+            <lb ed="#E"/>quia non possumus sic de deo attribuamus talia praedicata deo licet totum sit idem in deo et omnia concurrat 
+            <lb ed="#E"/>ydemptitate et ratione difficultatis et modi concipiendi ista praedicata sunt sibi imposita ut per varios 
+            <lb ed="#E"/>conceptus possemus eum magis concipere et melius Et ista fuit radix ponendi for<lb ed="#E"/>malitates
+          </p>
+          <p xml:id="ppr-l47-d1e1343">
+            Secunda conclusio licet idem sit in deo esse et velle tamen non est idem vult et hoc est ex 
+            <lb ed="#E"/>modo significandi terminorum unde deus vult ante christum fore et tamen non est antichristum fore
+          </p>
+          <p xml:id="ppr-l47-d1e1359">
+            Tria conclusio 
+            <lb ed="#E"/>voluntas beneplaciti est voluntas positiva rerum in esse Aliter vocatur voluntas ut est 
+            <lb ed="#E"/>creatura obligativa et vocatur voluntas signi et non est nisi lex scripta Reducitur tamen ad volun<lb ed="#E"/>tatem 
+            efficacem quia deus vult efficaciter creaturam ad illam legem obligari Alii 
+            <lb ed="#E"/>voluntas dei vocatur permissio quia permittit aliqua fieri si vellet ea tollere non fierent
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
