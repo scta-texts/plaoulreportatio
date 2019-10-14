@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 134, De incarnatione [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 134, De incarnatione [Palantine Transcription]</title>
+          <date when="2019-10-12">October 12, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-10-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="259-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio134">
+        <head xml:id="ppr-l134-Hldildi">Lectio 134, de Incarnatione</head>
+        <div xml:id="ppr-l134-Dd1e109">
+          <head xml:id="ppr-l134-Hpavaim">Propositiones ad videndum habitudinem virginis gloriose ad incarnationis mysterium</head>
+          <p xml:id="ppr-l134-avhmpp">
+            <lb ed="#PV" n="36"/>In ultima lectione 
+            <lb ed="#PV"/>Ad videndum habitudinem vir<lb ed="#PV"/>ginis 
+            gloriose ad incarnati<lb ed="#PV"/>onis 
+            mysterium
+          </p> 
+          <div xml:id="ppr-l134-Dd1e117">
+            <head xml:id="ppr-l134-Hppoppo">Prima propositio</head>  
+            <p xml:id="ppr-l134-peqfpp">
+              Sit prima propositio 
+              <lb ed="#PV"/>Quamvis virgo benedicta 
+              <cb ed="#PV" n="b"/> <!-- 259vb -->
+              <lb ed="#PV"/>in aeterni verbi temporali conceptione 
+              <lb ed="#PV"/>infinitae concurrerit causaliter non fuit 
+              <lb ed="#PV"/>tamen possibile pro <unclear>eandem<!-- possibly corrected --></unclear> mensura 
+              <lb ed="#PV"/>ordinem naturae servare quantum ad 
+              <lb ed="#PV"/>superiorum primam productionem
+            </p>
+            <p xml:id="ppr-l134-ppacvg">
+              Prima pars probatur iuxta imaginationem 
+              <lb ed="#PV"/><ref xml:id="ppr-l134-Rd1e127"><name ref="#VincentOfBeauvais">vincencii</name> in suo <title ref="#SpeculumHistoriale">speculo his<lb ed="#PV"/>toriali</title> 
+              libro 7mo capitulo 77o</ref> ubi ponit 
+              <lb ed="#PV"/>quod spiritus sanctus superveniens 
+              <lb ed="#PV"/>in virginem gloriosam ei <unclear>in suo</unclear> 
+              <lb ed="#PV"/>mente contulit 4or actus producendi 
+              <lb ed="#PV"/>scilicet decisionem solidationem conver<lb ed="#PV"/>sionem 
+              et formationem Ita quod de 
+              <lb ed="#PV"/>ipsa materia fuit decisa solidata 
+              <lb ed="#PV"/>in <unclear>carnem</unclear> conversa et conformata
+              <lb ed="#PV"/>et ad haec quatuor concurrat virgo 
+              <lb ed="#PV"/>glosa pro declaratione sit haec propositio 
+              <lb ed="#PV"/>in eodem instanti adaequate 
+              <lb ed="#PV"/>caro christi fuit concepta et as<lb ed="#PV"/>sumpta 
+              ita quod non est ymaginandum 
+              <lb ed="#PV"/>quod prius fuit concepta deinde 
+              <lb ed="#PV"/>assumpta animalis virgo gloriosa non 
+              <lb ed="#PV"/>genuisset christum sed potius sumptum 
+              <lb ed="#PV"/>carnis pro disposite
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e138">
+            <head xml:id="ppr-l134-Hspospo">Secunda propositio</head>
+            <p xml:id="ppr-l134-pcdngc">
+              2a propositio 
+              <lb ed="#PV"/>in eodem instanti fuit caro 
+              <lb ed="#PV"/>assumpta et animata Et quo patet 
+              <lb ed="#PV"/>quod in eodem instanti totum incar<lb ed="#PV"/>nationis 
+              misterium fuit com<lb ed="#PV"/>pletum 
+              et celebratum et vel eodem 
+              <lb ed="#PV"/>instanti adaequate genus huiusmodi 
+              <lb ed="#PV"/>deo peccati et toti <unclear>c?avitati verus filiationem</unclear> 
+              <lb ed="#PV"/>haec enim est fidei positio quia nisi 
+              <lb ed="#PV"/>sic virgo gloriosa non fuisset nunc 
+              <lb ed="#PV"/>assumentis sed praeexistentis
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e147">
+            <head xml:id="ppr-l134-Htpotpo">Tertia propositio</head>
+            <p xml:id="ppr-l134-tpiasp">
+              3a 
+              <lb ed="#PV"/>propositio quae est declarativa primae 
+              <lb ed="#PV"/>partis Aliquid fieri subito quod 
+              <lb ed="#PV"/>naturaliter est solum successive factive 
+              <lb ed="#PV"/>est respectu potentiae facientis in<lb ed="#PV"/>finite 
+              vel vigoris infiniti quia tam 
+              <lb ed="#PV"/>naturaliter activa respectu habentis resistentiam 
+              <pb ed="#PV" n="260-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>non potest subito agere nisi virtus 
+              <lb ed="#PV"/>eius sit infinita Et sic ex hoc 
+              <lb ed="#PV"/>quod illa quae solum naturaliter erant successive 
+              <lb ed="#PV"/>factibilia virgo gloriosa concurrit in instanti 
+              <lb ed="#PV"/>ideo modo infinito
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e157">
+            <head xml:id="ppr-l134-Hqpoqpo">Quarta propositio</head>
+            <p xml:id="ppr-l134-qpdeqi">
+              quantum ad hoc 
+              <lb ed="#PV"/>et est prima pars <unclear>contri?is</unclear> pro declara<lb ed="#PV"/>tione 
+              2ae partis si ordo naturae 
+              <lb ed="#PV"/>est talis quod ex sanguitudine generatur 
+              <lb ed="#PV"/>materia scientialis et ex illa embrio 
+              <lb ed="#PV"/>cuius forma vegetativa 
+              
+              et consequenter 
+              <lb ed="#PV"/>alia sensitiva 
+              
+              et ultimate intellectiva 
+              <lb ed="#PV"/>sic quod priores non moveant 
+              <lb ed="#PV"/>cum sequenti tunc clarum 
+              <lb ed="#PV"/>est quod impossibile fuit hanc subito 
+              <lb ed="#PV"/>ex sanguitudine carnem humanam 
+              <lb ed="#PV"/>generare 
+            </p>
+            <div xml:id="ppr-l134-Dd1e171">
+              <head xml:id="ppr-l134-Hcorria">Corollaria</head>
+              <!-- precise point of parallel paragraph break is a bit unclear here -->
+              <p xml:id="ppr-l134-pescai">
+                patet quia tunc sequeretur 
+                <lb ed="#PV"/>quod in illos instanti generationis 
+                <lb ed="#PV"/>formae mediae essent et non essent quod 
+                <lb ed="#PV"/>essent 
+                patet quia generantur quod non oportet 
+                <lb ed="#PV"/>patet quia non stat servando ordinem 
+                <lb ed="#PV"/>naturae 
+                quod cum anima intellectiva rema<lb ed="#PV"/>neant 
+                vel ergo oportet quod fuerit 
+                <lb ed="#PV"/>transitus ab extremo ad extremum 
+                <lb ed="#PV"/>nam servato communi ordine ut 
+                <lb ed="#PV"/>immediate de sanguitudine facta fuerit 
+                <lb ed="#PV"/>caro vel quod formae mediae fue<lb ed="#PV"/>runt 
+                simul et subito productae 
+                <lb ed="#PV"/>ergo magis verisimils est inme<lb ed="#PV"/>diatus 
+                tam situs
+              </p>
+              <p xml:id="ppr-l134-eqssii">
+                Sequitur 
+                <lb ed="#PV"/>hanc copulativa esse possibilem continuitas 
+                <lb ed="#PV"/><c>a</c> ad <c>b</c> solvitur vel <c>a</c> separatur 
+                <lb ed="#PV"/><c>b</c> vel discontinuatur et tamen summe 
+                <lb ed="#PV"/>distat <c>a</c> <c>b</c> quia instanti in<lb ed="#PV"/>carnationis 
+                verbi a sanguitudine existente 
+                in capite separatur et generabatur 
+                <lb ed="#PV"/>caro in loco generationis et qua 
+                <lb ed="#PV"/>ratione darentur locus certe quantitas 
+                <lb ed="#PV"/>potest dari triple etc in infinitum 
+                <lb ed="#PV"/>et sic staret illatum
+              </p>
+              <p xml:id="ppr-l134-ssqaep">
+                Sequitur 
+                <lb ed="#PV"/>quod sanguis virginis gloriose
+                <cb ed="#PV" n="b"/><!--PV 260rb-->
+                <lb ed="#PV"/>convertitur in carnem et tamen 
+                <lb ed="#PV"/>in illo non est quia in transmutationibus 
+                <lb ed="#PV"/>subitis <del rend="strikethrough">pot</del> passo attribuitur ultimo 
+              </p>
+              <p xml:id="ppr-l134-tsvrsf">
+                <lb ed="#PV"/>Sequitur virgine gloriosam 
+                <lb ed="#PV"/>plus habere rationem parentis respectu 
+                <lb ed="#PV"/>verbi dei quam alia mater respectu 
+                <lb ed="#PV"/>sui filii patet quia iuvante spiritu 
+                <lb ed="#PV"/>sancto modo gloriosa etiam aliquo modo 
+                <lb ed="#PV"/>supplet effectivam causalitatem 
+                <lb ed="#PV"/>patrem seminis disponentis ad cor<lb ed="#PV"/>poris 
+                formationem ergo ultra communem 
+                <lb ed="#PV"/>cursum <del rend="strikethrough">mater</del> matrem habet 
+                <lb ed="#PV"/>specialiorem concursum quam alia 
+                <lb ed="#PV"/>mater respectu filii
+              </p>
+              <p xml:id="ppr-l134-saqcam">
+                Secundo nam ut 
+                <lb ed="#PV"/>tactum est virgo gloriosa concurrat 
+                <lb ed="#PV"/>altiori gradu <unclear>ymaeo</unclear> in infinitum 
+                <lb ed="#PV"/>quam quaecumque alia quia infinito 
+                <lb ed="#PV"/>modo et subito et aliquo gradu 
+                <lb ed="#PV"/>causalitatis non communicato alteri 
+                <lb ed="#PV"/>creaturae ergo scilicet magis debet attribui 
+                <lb ed="#PV"/>ratio parentis respectu sui filii
+              </p>
+              <p xml:id="ppr-l134-qsvfsg">
+                Sequitur 
+                <lb ed="#PV"/>quod virgo gloriosa dei et quod genuit 
+                <lb ed="#PV"/>deum quam quod aliqua nostro genuit 
+                <lb ed="#PV"/>suum filium quia ista denominatio 
+                <lb ed="#PV"/>genera est suppositibilis ergo compe<lb ed="#PV"/>tit 
+                filio dei igitur habet maiorem 
+                <lb ed="#PV"/>concursum virgo gloriosa quam 
+                <lb ed="#PV"/>quaecumque alia mater respectu sui 
+                <lb ed="#PV"/>filii 
+              </p>
+              <p xml:id="ppr-l134-eqatst">
+                patet haeresis nestorii quia 
+                <lb ed="#PV"/>concessit quod virgo gloriosa fuit mater 
+                <lb ed="#PV"/><del rend="strikethrough">v</del> negavit tamen quod essent mater 
+                <lb ed="#PV"/>dei quae in esse suam synodo <unclear>procur?o<lb ed="#PV"/>ve</unclear> 
+                sirillo hareticus fuit con<lb ed="#PV"/>dempnatus 
+                <name>damascenus</name> tertio 
+                <lb ed="#PV"/>suarum dicit hance esse negandam 
+                <lb ed="#PV"/>virgo gloriosa est christus <foreign>toctos</foreign> id est ge<lb ed="#PV"/>nitricem 
+                negat ad sensum <name>nesto<lb ed="#PV"/>rii</name> 
+                et contra eum et ideo non sunt qui sit
+                <pb ed="#PV" n="260-v"/>
+                <cb ed="#PV" n="a"/>
+                dei et est idem suppositum 
+                <lb ed="#PV"/>verbum dei et christus quia eadem 
+                <lb ed="#PV"/>persona Ideo dicit quod nedum 
+                <lb ed="#PV"/>virgo est christi <foreign>tocton</foreign> sed <foreign>theostocton</foreign>
+              </p>
+              <p xml:id="ppr-l134-eiapgh">
+                <lb ed="#PV"/>Sequitur quod partus virgineus con<lb ed="#PV"/>tinet 
+                evidenter totam residuam 
+                <lb ed="#PV"/>latitudinem humanae generationis 
+                <lb ed="#PV"/><ref xml:id="ppr-l134-Rd1e261" target="http://scta.info/resource/aristmet-l10">10 <title ref="#Metaphysics">metaphysicae</title></ref> omnia eiusdem igitur 
+                <lb ed="#PV"/>habent ad primum in illo modo iste 
+                <lb ed="#PV"/>concursus est infinitus igitur 
+                <lb ed="#PV"/>continet etc
+              </p>
+              <p xml:id="ppr-l134-ssqgcv">
+                Sequitur quod probabile 
+                <lb ed="#PV"/>est dicere quod virgo gloriosa infinitus 
+                amore genuerit deum vel filium suum 
+                <lb ed="#PV"/>vel concepit eum Clarum est 
+                <lb ed="#PV"/>de <unclear>agnore</unclear> aeterno de spiritu sancto 
+                <lb ed="#PV"/>quia spiritus sanctus conceptus est et ipso 
+                <lb ed="#PV"/>specialiter concurrente teste scripturam 
+                <lb ed="#PV"/>non tamen conceditur quod sit filium spiritum sanctum 
+                <lb ed="#PV"/>vel quod spiritus sanctus sit pater christus 
+                <lb ed="#PV"/>tamen dicitur genitus specialiter a spiritu 
+                <lb ed="#PV"/><unclear>sancto</unclear> ut excludatur concursus viri<lb ed="#PV"/>lis 
+                scilicet quod facta est haec generatio 
+                <lb ed="#PV"/>sine virili concursu
+              </p>
+              <p xml:id="ppr-l134-suapcs">
+                2o excludatur 
+                <lb ed="#PV"/>seditas concupiscentiae probatur quod ex 
+                <lb ed="#PV"/>amore filium suum produxerit <sic>produx<lb ed="#PV"/>erit</sic> 
+                ad hoc est <ref xml:id="ppr-l134-Rd1e286"><name ref="#HughOfStVictor">hugon de sancto 
+                <lb ed="#PV"/>victore</name></ref> et allegatur <name>bonaventura</name> Amor 
+                <lb ed="#PV"/><unclear>fing?tis</unclear> in corde virgine arde<lb ed="#PV"/>bat 
+                Ideo in carne eius mirabilia 
+                <lb ed="#PV"/>facebat Et sic <name>hugo</name> innuit quod 
+                <lb ed="#PV"/>amor quem habebat tantus erat 
+                <lb ed="#PV"/>quod immutabat et concurrebat ad hanc 
+                <lb ed="#PV"/>conversionem Circa hoc potest indu<lb ed="#PV"/>ci 
+                applicando ad statum inno<lb ed="#PV"/>centiae 
+                qualiter vegetativa obediat 
+                <lb ed="#PV"/>volitive rationali ideo quia fuit re<lb ed="#PV"/>ducta
+                <lb ed="#PV"/>obediebat sibi quia sint plena 
+                <lb ed="#PV"/>gratia et infinitae causalitatis 
+              </p>
+              <p xml:id="ppr-l134-osqsmc">
+                <lb ed="#PV"/>Sequitur quod influentialis radiatio 
+                <cb ed="#PV" n="b"/><!--260vb-->
+                <lb ed="#PV"/>planetarum in hac sacratissima 
+                <lb ed="#PV"/>conceptione non habuit locum quia 
+                <lb ed="#PV"/>fuit concursus supernaturalis requi<lb ed="#PV"/>rens 
+                causalitatem infinitam causalitatis 
+                <lb ed="#PV"/>active et quia sol et alii planetae 
+                <lb ed="#PV"/>non subito possunt effectum producere 
+                <lb ed="#PV"/>igitur nullomodo active concurrebant
+              </p>
+              <p xml:id="ppr-l134-snquad">
+                <lb ed="#PV"/>Sequitur quod <ref xml:id="ppr-l134-Rd1e315">testimonium <name>albuma<lb ed="#PV"/>sar</name></ref> 
+                a tam sacro misterio est 
+                <lb ed="#PV"/>repellendum ponit enim in 
+                <lb ed="#PV"/>sexta parte maioris introduc<lb ed="#PV"/>torii 
+                quod in signo virginis 
+                <lb ed="#PV"/>est puella lactans pueris cuius 
+                <lb ed="#PV"/>nomen habens quod <unclear>quus</unclear> signum 
+                <lb ed="#PV"/>erat in ostendente tempore na<lb ed="#PV"/>tivitatis 
+                christi Et de dicitur 
+                <lb ed="#PV"/>ex hoc quod probatur ex concursu istorum 
+                <lb ed="#PV"/>non tamen est admittendus 
+                <lb ed="#PV"/>quia falsum medium concludit veritatem 
+                <lb ed="#PV"/>quia dispositio caelestis non concurrebat 
+                <lb ed="#PV"/>ad hanc generationem dicit <name>halo</name> 
+                <lb ed="#PV"/>quod <name>albumasar</name> fuit historia 
+                <lb ed="#PV"/>graphus ideo finxit
+              </p>
+              <p xml:id="ppr-l134-dsqiat">
+                Sequitur quod vani<lb ed="#PV"/>tas 
+                est dicere quod <name ref="#Mercury">mercurius</name> sit 
+                <lb ed="#PV"/>signator christi  et suae legits et 
+                <lb ed="#PV"/>per accidens continuat quod signum virginis 
+                <lb ed="#PV"/>quod est domus <name>mercurii</name> 
+                <lb ed="#PV"/>erat in ascendente
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l134-Dd1e356">
+            <head xml:id="ppr-l134-Hqnoqno">Quinta propositio</head>
+            <p xml:id="ppr-l134-pqpscq">
+              Alia propositio 
+              <lb ed="#PV"/>declarativa materiae licet in eodem 
+              <lb ed="#PV"/>instanti fuerit perfectissime organizatus 
+              <lb ed="#PV"/>complexionatus et animatus ymmo 
+              <lb ed="#PV"/>christus homo perfectissimus nihilominus 
+              <lb ed="#PV"/>fuerit in illo instanti minime 
+              <lb ed="#PV"/>quantitatis unde debita proportio 
+              <lb ed="#PV"/>qualitatum etc non determinat sibi cer<lb ed="#PV"/>tam 
+              quantitatem
+            </p>
+            <p xml:id="ppr-l134-schcaf">
+              Contra arguitur auctoritate 
+              <lb ed="#PV"/><ref xml:id="ppr-l134-Rd1e366"><name ref="#Augustine">augustini</name></ref> qui super illo verbo matribus 
+              <lb ed="#PV"/>diebus reaedificabo templum
+              <pb ed="#PV" n="261-r"/>
+              <cb ed="#PV" n="a"/>hoc autem dicebat deceptio cor<lb ed="#PV"/>poris 
+              sui et iudaei 46 diereum 
+              <lb ed="#PV"/>est numerus designans perfectionem 
+              <lb ed="#PV"/>corporis christi et aeque perfectio for<lb ed="#PV"/>mationem 
+              ideo non ab instanti concepti<lb ed="#PV"/>onis 
+              fuit perfecte formatus 
+              <lb ed="#PV"/>sed tot diebus formabatur 
+              <lb ed="#PV"/>in utero 
+            </p>
+            <p xml:id="ppr-l134-ahradc">
+              <name>Augustinus</name> intelligit quantum 
+              <lb ed="#PV"/>ad augmentum suae qualitatis non quantum 
+              <lb ed="#PV"/>ad figurationem et bonam membrorum 
+              habitudinem
+            </p>
+            <p xml:id="ppr-l134-eqsdvv">
+              Sequitur quod christus 
+              <lb ed="#PV"/>secundum hominem fuit pulcerimus 
+              <lb ed="#PV"/>hominem quia turpitudo provenit 
+              <lb ed="#PV"/>ex defect materiae vel agentium 
+              <lb ed="#PV"/>vel applicatione causarum requi<lb ed="#PV"/>sitarum 
+              ad effectus productionem 
+              <lb ed="#PV"/>sed materia fuit excellentissima 
+              <lb ed="#PV"/>et agentia fuerunt spiritus sancti 
+              <lb ed="#PV"/>et virgo gloriosa concursu infinito 
+              <lb ed="#PV"/>Cum hoc stat quod <unclear>distortis</unclear> et 
+              <lb ed="#PV"/>male complexionatis vel viciatis 
+              <lb ed="#PV"/>non videbatur quia sicut potentia 
+              <lb ed="#PV"/>gustativa respectu gustandi ita etc
+            </p>
+            <p xml:id="ppr-l134-ssqevg">
+              <lb ed="#PV"/>Sequitur quod non esset ex prima 
+              <lb ed="#PV"/>collatione <name ref="#Gabriel">gabraelis</name> ad virginem 
+              <lb ed="#PV"/>ponam primam successivam generationem 
+              <lb ed="#PV"/>praecedente incarnationem verbi unde 
+              <lb ed="#PV"/>ymaginatio sunt aliqui quod a tempore 
+              <lb ed="#PV"/>collationis virginis cum angelo 
+              <lb ed="#PV"/>incipit esse decisio et dispositio ad 
+              <lb ed="#PV"/>conceptionem <unclear>celebundam</unclear> et in primo 
+              <lb ed="#PV"/>instanti assensus fuit deus in<lb ed="#PV"/>carnatus 
+              vel verbum caro factum 
+              <lb ed="#PV"/>et capitur in caro concretive pro homine 
+              <lb ed="#PV"/>quia causalitas eorum sufficit 
+              <lb ed="#PV"/>in instanti quod natura possit in tempore
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e412">
+            <head xml:id="ppr-l134-Hsxpsxp">Sexta propositio</head>
+            <p xml:id="ppr-l134-qpcspc">
+              Alia propositio christus fuit nobilior 
+              <cb ed="#PV" n="b"/> <!--PV61rb-->
+              <lb ed="#PV"/>quam si ex <name>Ioseph</name> fuisset natus 
+              <lb ed="#PV"/>et hoc secundum humanitatem quia concursus 
+              <lb ed="#PV"/>causalis positus loco patris fuit 
+              <lb ed="#PV"/>nobilior scilicet tam ex parte spiritus 
+              <lb ed="#PV"/>sancti quam virginis quia fuit 
+              <lb ed="#PV"/>infinitus et non infinitus applica<lb ed="#PV"/>tus 
+              modo ex hoc oritur effectus 
+              <lb ed="#PV"/>nobilitas hoc videtur dicere <name>da<lb ed="#PV"/>mascenus</name> 
+              in suo 3o <name>Crisostomus</name> quod in 
+              <lb ed="#PV"/>ea natum est de spiriu sancto est 
+              <lb ed="#PV"/>non materialiter sed effective
+            </p>
+            <p xml:id="ppr-l134-ehsdac">
+              Sequitur 
+              <lb ed="#PV"/>quod christus habuit omnem nobilitatis 
+              <lb ed="#PV"/>gradum plene ei summe <sic>Sa<lb ed="#PV"/>cundum</sic> 
+              quod multiplex fuit in eo 
+              <lb ed="#PV"/>nobilitas una naturalis et illa 
+              <lb ed="#PV"/>est ex dispositione complexionis et bona 
+              <lb ed="#PV"/>habitudine potentiarum inter se 
+              <lb ed="#PV"/>secundum <ref xml:id="ppr-l134-Rd1e451" target="http://scta.info/resource/aristpoli-l1"><name ref="#Aristotle">philosophum</name> primo <title ref="#Politics">politicae</title></ref> et 
+              <lb ed="#PV"/>natura aliquos genuit nobiles 
+              <lb ed="#PV"/>et bene dispositos secundum in<lb ed="#PV"/>tellectum 
+              et inferiores potentias 
+              <lb ed="#PV"/>alios servos sed certum est de christo 
+              <lb ed="#PV"/>quod fuit ec habuit bona moralia 
+              <lb ed="#PV"/>et gratuita habent etiam pa<lb ed="#PV"/>rentela 
+              nobilitatem de <name>david</name>
+              <lb ed="#PV"/>nobiliori modo quam per propagationem 
+              <lb ed="#PV"/>quia concurrant nobiliori influxu 
+              <lb ed="#PV"/>quam parentes concurrissent super 
+              <lb ed="#PV"/>est alia maior nobilitas scilicet di<lb ed="#PV"/>lectio 
+              quam habuit deus erga deum 
+              <lb ed="#PV"/>ut hominem vel eius humanitatem ut tali 
+              <lb ed="#PV"/>honore dignus est quem voluerit 
+              <lb ed="#PV"/>rex honorari Et quantum fieri potuit 
+              <lb ed="#PV"/>in ipsum se transformavit et 
+              <lb ed="#PV"/>rapuit et fecit participem deitatis 
+              <lb ed="#PV"/>quantum fuit possibile
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e470">
+            <head xml:id="ppr-l134-Hstpstp">Septima propositio</head>
+            <p xml:id="ppr-l134-spstem">
+              Alia propositio sta<lb ed="#PV"/>tus 
+              virginis fuit excellentior 
+              <lb ed="#PV"/>quod aliquis alius status ecclesiasticae 
+              <pb ed="#PV" n="261-v"/>
+              <cb ed="#PV" n="a"/><sic>gerarchiae</sic> patet quia fuit ex<lb ed="#PV"/>cellentior 
+              quantum ad statum 
+              <lb ed="#PV"/>quam sit in se status papalis 
+              <lb ed="#PV"/>probatur propositio cum corollario quia fuit in 
+              <lb ed="#PV"/>secreto consistorio trinitatis ubi 
+              <lb ed="#PV"/>revelata fuerunt sibi secreta 
+              <lb ed="#PV"/>tangentia providentiam divinam 
+              <lb ed="#PV"/><unclear>circa</unclear> regionem spirituale totius hu<lb ed="#PV"/>mani 
+              igitur quia erat spiritualis cum 
+              <lb ed="#PV"/>huius <unclear>medele</unclear> et regiminis spiritualis 
+              <lb ed="#PV"/>et quia non decuit quod unquam 
+              <lb ed="#PV"/>expelletur ab hoc consilio ideo 
+              <lb ed="#PV"/>remansit sibi revelatio illorum 
+              <lb ed="#PV"/>quae tangunt regimen ecclesiae sanctae 
+              <lb ed="#PV"/>probatur aliunde quia fuit modo capitis 
+              <lb ed="#PV"/>ecclesiae igitur ex hoc habuit quemdam 
+              <lb ed="#PV"/>praelationis <unclear>gaudium</unclear> quodammodo supra 
+              <lb ed="#PV"/>caput licet fuit inferior
+            </p>
+            <p xml:id="ppr-l134-tsmdad">
+              3o 
+              <lb ed="#PV"/>status maternitatis includit mu<lb ed="#PV"/>tuam 
+              dilectionem praecipute talis 
+              <lb ed="#PV"/><unclear>mudi?itatis</unclear> ubi non potest esse defectus 
+              <lb ed="#PV"/>vel error ergo dilectionem singularem 
+              <lb ed="#PV"/>virginis ad deum et econtra et hoc ex 
+              <lb ed="#PV"/>forma status quod non est in 
+              <lb ed="#PV"/>alio ministerio offiiali ut pa<lb ed="#PV"/>patus 
+              quia stat cum culpa er<lb ed="#PV"/>rore etc
+            </p>
+            <p xml:id="ppr-l134-qsishs">
+              4o status gerarchicus 
+              <lb ed="#PV"/>ad officiandum in ecclesia 
+              <lb ed="#PV"/>militante ordinatur ad statum 
+              <lb ed="#PV"/>gratificare specialiter <unclear>scitum</unclear> esse talem 
+              <lb ed="#PV"/>vel intrinsece talem ideo gratificus 
+              <lb ed="#PV"/>est nobilior Sed tals erat 
+              <lb ed="#PV"/>virginis quia includebat caritatem 
+              <lb ed="#PV"/>ex se quod non est de aliquo alio 
+              <lb ed="#PV"/>statu in via Et sic secundum propor<lb ed="#PV"/>tionem 
+              voluntatis gratuite deberi 
+              <lb ed="#PV"/>esse proportio graduum et statuum 
+              <lb ed="#PV"/>sed quia humanitus non potest constare 
+              <lb ed="#PV"/>ideo non est statutum quod servetur
+              <cb ed="#PV" n="b"/><!--261v-->
+              <lb ed="#PV"/>ordo
+            </p>
+            <p xml:id="ppr-l134-sfaavg">
+              diceretur quod papatus 
+              <lb ed="#PV"/>includit summum sacerdotium virga<lb ed="#PV"/>le 
+              divinum scilicet praevenientem absolutam 
+              et summitatem in tota latitudine 
+              <lb ed="#PV"/><del rend="strikethrough">perfectionis gratuite</del> christi animae 
+              <lb ed="#PV"/>viventium
+            </p>
+            <p xml:id="ppr-l134-aiblvg">
+              prima propositio quod in tota 
+              <lb ed="#PV"/>latitudine perfectionis gratuitae virgo 
+              <lb ed="#PV"/>gloriosa tenet supremum gradum 
+              <lb ed="#PV"/>patet per <ref xml:id="ppr-l134-Rd1e516"><name ref="#Anselm"><name>ancelmum</name></name></ref> et hoc tenet <ref xml:id="ppr-l134-Rd1e531"><name ref="#Albert">albertus</name> 
+              <lb ed="#PV"/>in libro <title>de laudibus virginis 
+              <lb ed="#PV"/>gloriose</title></ref>
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e549">
+            <head xml:id="ppr-l134-Hovpovp">Octava propositio</head>
+            <p xml:id="ppr-l134-opgtlr">
+              2a gratuita perfectio 
+              <lb ed="#PV"/>virginis erat in via maior 
+              <lb ed="#PV"/>quam tota residua perfectio universalis 
+              <lb ed="#PV"/>militantis ecclesaie patet per <name>albertum</name> 
+              <lb ed="#PV"/>quia in latitudine uniformiter 
+              <lb ed="#PV"/>difformi supremus gradus est 
+              <lb ed="#PV"/>nobilior residua latitudine 
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e561">
+            <head xml:id="ppr-l134-Hnponpo">Nona Propositio</head>
+            <p xml:id="ppr-l134-npvsoe">
+              <lb ed="#PV"/>3a propositio virgo gloriosa influit 
+              <lb ed="#PV"/>toti ecclesiae dona et virtutes saltis in<lb ed="#PV"/>petrative 
+              et meritorie ut sint 
+              <lb ed="#PV"/>tamquam eius filium 2a intelligentia 
+              <lb ed="#PV"/>vel habebat motum 2ae intellectiae 
+              <lb ed="#PV"/>et habeat disponere totum regimen 
+              <lb ed="#PV"/>ecclesiae militantis utrum effective 
+              <lb ed="#PV"/>non videtur impossibile <name>Albertus</name> comparat 
+              <lb ed="#PV"/>christum sibi qui ubique radiat et 
+              <lb ed="#PV"/>virgo recipiens lumen a sole usque 
+              <lb ed="#PV"/>radiat licet recipiat a sole hiis 
+              <lb ed="#PV"/>excellentiis et habitudine considerantis 
+              <lb ed="#PV"/>verisimiliter concluditur quod deus numquam 
+              <lb ed="#PV"/>promisit eam aliquo peccato <unclear>inquiam</unclear> 
+              <lb ed="#PV"/>quia supra omnes creaturas ipsa 
+              <lb ed="#PV"/>fuit dilecta et electa Ad hoc sunt 
+              <lb ed="#PV"/>auctoritates quam plurime quia in ea 
+              <lb ed="#PV"/>fuit celebratum ministerium incar<lb ed="#PV"/>nationis 
+              propter cuius praeconium 
+              <name>Iohannes</name> fuit sanctificatus in 
+              <lb ed="#PV"/>utero quod tunc debet fieri de ista 
+              <lb ed="#PV"/>virgine ex qua in qua et per quam 
+              <pb ed="#PV" n="262-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>hoc sacramentum fuit celebratum 
+              <lb ed="#PV"/>Ideo bene resolventi videtur cre<lb ed="#PV"/>dendum 
+              quod non fuit peccato aliquo 
+              <lb ed="#PV"/>nec originali nec actuali nec 
+              <lb ed="#PV"/><unclear>veniali</unclear> <unclear>comquata</unclear> Et dicitur quod 
+              <lb ed="#PV"/>virgo gloriosa habuit specialem pro<lb ed="#PV"/>gativam 
+              super papam et licet 
+              <lb ed="#PV"/>non fuerit sacerdos habuit tamen 
+              <lb ed="#PV"/>modum conversandi cum filio ex 
+              <lb ed="#PV"/>quo fuit praesens toti trinitati in in<lb ed="#PV"/>carnatione 
+              non est verisimile quod unquam 
+              <lb ed="#PV"/>ab ista visione discesserit et 
+              <lb ed="#PV"/>consequenter super choros ange<lb ed="#PV"/>lorum 
+              est exaltata etc
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e589">
+            <head xml:id="ppr-l134-consio">Conclusio</head>
+            <p xml:id="ppr-l134-esesdg">
+              <lb ed="#PV"/>Et sic est finis lectionis
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
