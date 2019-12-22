@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Principium I</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Principium I </title>
+          <date when="2019-11-26">November 26, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike  4.0  International  (CC  BY-NC-SA  4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-11-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-prI">
+        <head xml:id="prIHpriium">Principium I [Pal Lat Transcription]</head>
+        <p xml:id="prI-scpifh">
+          <pb ed="#PV" n="1-r"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV" n="1"/>Ponatur quod deus in prima
+          <lb ed="#PV"/>parte proportionali huius 
+          <lb ed="#PV"/>horae acceptet sortem 
+          <lb ed="#PV"/>in 2a deacceptat et sic conse<lb ed="#PV"/>quenter 
+          de omnibus partibus 
+          <lb ed="#PV"/>proportionibus Ita quod in omnibus partibus 
+          <lb ed="#PV"/>quae denominantur a <unclear>numero</unclear> In prima 
+          <lb ed="#PV"/>acceptet sortes Et in omnibus 
+          <lb ed="#PV"/>quae denominatur a <unclear>numero</unclear> pari 
+          <lb ed="#PV"/>de acceptet et sic praemium in<lb ed="#PV"/>stans 
+          non esse huius horae est 
+          <lb ed="#PV"/>primum instans non esse sortis
+        </p>
+        <p xml:id="prI-tqqdvs">
+          <lb ed="#PV"/>Tunc quaeritur utrum sortes 
+          <lb ed="#PV"/>salvabitur vel non  
+        </p>
+        <p xml:id="prI-ahdhlr">
+          dicitur quod stan<lb ed="#PV"/>te 
+          lege currente casus iste non 
+          <lb ed="#PV"/>est possibilis sed ponatur quod deus 
+          <lb ed="#PV"/>agat cum sorte Tunc dixit 
+          <lb ed="#PV"/>quod dubium est utrum salva<lb ed="#PV"/>bitur 
+          primo quia deus promp<lb ed="#PV"/>tior 
+          est ad salvandum quam 
+          <lb ed="#PV"/>ad dampnandum vel promp<lb ed="#PV"/>tior 
+          ad praemiandum quam 
+          <lb ed="#PV"/>ad praemiandum quam 
+          <lb ed="#PV"/>ad puniendum
+        </p>
+        <p xml:id="prIsdmaee">
+          2o quia bene 
+          <lb ed="#PV"/>sequitur sortes <add><unclear>??</unclear></add> non est et imme<lb ed="#PV"/>diate 
+          ante hoc fuit in gratia 
+          <lb ed="#PV"/>ergo salvabitur
+        </p>
+        <p>
+          Et signo 
+          <lb ed="#PV"/>primum instans non esse sortis 
+          <lb ed="#PV"/>sed etiam eodem modo probaretur 
+          <lb ed="#PV"/>quod immediate ante hoc fuit 
+          <lb ed="#PV"/>de acceptatus ut videtur salva 
+          <lb ed="#PV"/>sua reverentia
+        </p>
+        <p>
+          Nota differentiam 
+          <lb ed="#PV"/>inter statum cristi et statum 
+          <lb ed="#PV"/>innocentiae omnes vires seu 
+          <lb ed="#PV"/><unclear>sitive</unclear> omnino obediunt rationem 
+          <lb ed="#PV"/>sed ratio potuit deficere per?ve 
+          <lb ed="#PV"/>glientiam sed in statu cristi 
+          <lb ed="#PV"/>ratio non fuit negliens nec 
+          <lb ed="#PV"/>potuit esse negliens stante 
+          <lb ed="#PV"/>gratia sua seu plentitudine 
+          <lb ed="#PV"/>gratiae suae
+        </p>
+        <p>
+          Unus baccalarius 
+          <lb ed="#PV"/>legens sententias dixit quod 
+          <lb ed="#PV"/>homo assumptus an?bo posset 
+          <lb ed="#PV"/>assumi a patre et spirito sancto 
+          <lb ed="#PV"/>q?e quaelibet persona successive 
+          <cb ed="#PV" n="b"/>
+          <lb ed="#PV"/>potest assumere istam hominem et 
+          <lb ed="#PV"/>quia non repugnat ista vel 
+          <lb ed="#PV"/>non c?riantur sequitur quod etiam simul 
+          <lb ed="#PV"/>possunt
+        </p>
+        <p>
+          Respondet magister petrus 
+          <lb ed="#PV"/>quod non primo quia tota latitudo
+          <lb ed="#PV"/>illius humanitatis terminantur per 
+          <lb ed="#PV"/>suppositalitatem unius personae
+        </p>
+        <p>
+          <lb ed="#PV"/>2o dicitur quod pater non potest <unclear>humari</unclear>
+          <lb ed="#PV"/>quia humari est proprietas persona<lb ed="#PV"/>lis 
+          conveniens seu personae quae 
+          <lb ed="#PV"/>est filius
+        </p>
+        <p>
+          Item dixit <name>magister 
+          <lb ed="#PV"/>petrus</name> quod de potentia rei ab<lb ed="#PV"/>solute 
+          aliquis possset mereri 
+          <lb ed="#PV"/>sine gratia creata videlicet per 
+          <lb ed="#PV"/>solam acceptationem quia dicebat 
+          <lb ed="#PV"/>quod liberalitas in creata non est 
+          <lb ed="#PV"/>alligata alicui <unclear>accidenti</unclear>
+        </p>
+        <p>
+          Item 
+          <lb ed="#PV"/>dixit quod staret <c>a</c> et <c>d</c> habere 
+          <lb ed="#PV"/>aequales gratias et <subst><del rend="strikethrough">cum</del><add place="above-line">tamen</add></subst> a plus 
+          <lb ed="#PV"/>cognoscere et hoc per accep<lb ed="#PV"/>tationem
+        </p>
+        <p>
+          Contra si acceptatio 
+          <lb ed="#PV"/>sufficeret se quaeritur quod creatura 
+          <lb ed="#PV"/>ab aeterno fuisset beata 
+        </p>
+        <p>
+          Item 
+          <lb ed="#PV"/>quam bene esset creaturae per accepta<lb ed="#PV"/>tionem 
+          <del>deacceptat</del> tam <del>imple</del> 
+          <lb ed="#PV"/>esset sibi per de acceptationem 
+          <lb ed="#PV"/>de acceptant ergo deus petrum 
+          <lb ed="#PV"/>manibus aliis
+        </p>
+        <p>
+          Item dixit 
+          <lb ed="#PV"/>magister petrus pleu quod prius natura 
+          <lb ed="#PV"/>res est bona quem est vel prius 
+          <lb ed="#PV"/>est rem esse bonam quam ipsam 
+          <lb ed="#PV"/>esse
+        </p>
+        <p>
+          Contra sequitur quod ab 
+          <lb ed="#PV"/>aeterno fuisset bona
+        </p>
+        <p>
+          Item dixit 
+          <lb ed="#PV"/>magister petrus pleu quod adam 
+          <lb ed="#PV"/>in statu naturae integre ex suis 
+          <lb ed="#PV"/>naturalibus potuitevidenter 
+          <lb ed="#PV"/>cognoscere deum esse trium et 
+          <lb ed="#PV"/>unum quia cognovit animam 
+          <lb ed="#PV"/>suam esse trinam in potentiis 
+          <lb ed="#PV"/>scilicet memoriam intellectivam 
+          <lb ed="#PV"/>et volitivam et unum in essentia 
+          <lb ed="#PV"/>et ex hoc cconcludere potuit tri<lb ed="#PV"/>nitatem 
+          et unitatem in deo
+        </p>
+        <p>
+          <!-- below see: prIsnafpo -->
+          Item dixit 
+          <pb ed="#PV" n="1-v"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>magister petrus quod adam in statu in<lb ed="#PV"/>nocentiae 
+          sic se habuit saltem 
+          <lb ed="#PV"/>probabile est dicere quod vires sen<lb ed="#PV"/>sitive 
+          obdierunt <unclear>rationis</unclear> quod po<lb ed="#PV"/>tuissent 
+          se levasse sursum
+          <lb ed="#PV"/><unclear>pre a ea</unclear> quod generis non resatisset 
+          <lb ed="#PV"/>post hoc unus cond?ig? faciens 
+          <lb ed="#PV"/>principium suum <del>l</del> visus fuit 
+          <lb ed="#PV"/>hoc Improbare adducens plures 
+          <lb ed="#PV"/>rationes dicendo tandem quod visum 
+          <lb ed="#PV"/>sunt sibi quod positio magistri 
+          <lb ed="#PV"/>petri quo ad hoc non fuit bene 
+          <lb ed="#PV"/>fundata post hoc magister petrus 
+          <lb ed="#PV"/>incipiens legere fecit men<lb ed="#PV"/>tionem 
+          et fundana melius 
+          <lb ed="#PV"/>positione suam primo per 
+          <lb ed="#PV"/>auctoritate veteris testamenti 
+          <lb ed="#PV"/>in gen? quo deus constituit 
+          <lb ed="#PV"/>adam dum super singula anima<lb ed="#PV"/>lia 
+          etiam per aristotelem in polli<lb ed="#PV"/>ticis 
+          etiam in primo libro quod ratio 
+          <lb ed="#PV"/>in hominem <unclear>dominantur</unclear> et principiatur 
+          <lb ed="#PV"/>viribus sensitivis principatu 
+          <lb ed="#PV"/>regali seu pollicito et corpori 
+          <lb ed="#PV"/>principatu dispotico ergo magis 
+          <lb ed="#PV"/>dominantur corpori quam viribus
+        </p>
+        <p>
+          <lb ed="#PV"/>Item probavit doctum suum 
+          <lb ed="#PV"/>per <name>wilhelmum parysiensis</name> qui po<lb ed="#PV"/>nit 
+          in forma dictum magistri  
+          <lb ed="#PV"/>petri in libro de universo
+        </p>
+        <p>
+          Item in statu innocentiae adam 
+          <lb ed="#PV"/>habuit dominum super vegetati<lb ed="#PV"/>vam 
+          ita quod quando voluit habuit 
+          <lb ed="#PV"/><unclear>errectum</unclear> virgae et si illa 
+          <lb ed="#PV"/>obediunt etiam aliae potentiae antecedens 
+          <lb ed="#PV"/>patet per augustinum in pluribus 
+          <lb ed="#PV"/>locis 
+        </p>
+        <p>
+          Etiam alleganvit unum 
+          <lb ed="#PV"/>magistrum qui hoc alias tenuit 
+          <lb ed="#PV"/>ultra quindecum annos vicet 
+          <lb ed="#PV"/>per magistrum <unclear>roprotum</unclear>
+        </p>
+        <p>
+          Item per 
+          <lb ed="#PV"/>medicos dicentes quod ymagina<lb ed="#PV"/>tiva 
+          obediunt aestimativae <unclear>primae</unclear>
+          <lb ed="#PV"/>respectu <unclear>mulieris</unclear> et ord? quid quandoque 
+          <cb ed="#PV" n="b"/><!--PV 1vb-->
+          <lb ed="#PV"/>morbus qui vocatur amorpheos 
+          <lb ed="#PV"/>Cordig agn?ivebat sic sequeretur 
+          <lb ed="#PV"/>quod adam natasset cum pi?stibus 
+          <lb ed="#PV"/>in aquis 
+        </p>
+        <p>
+          Respondet magistrum petrum 
+          <lb ed="#PV"/>quod communis non est inconveniens quia 
+          <lb ed="#PV"/>hoc exprimitur de brutis ut in equo
+        </p>
+        <p>
+          <lb ed="#PV"/>2o sequitur quod adam habuisset 
+          <lb ed="#PV"/>dotem agilitatis
+        </p>
+        <p>
+          Respondebat quod 
+          <lb ed="#PV"/>consequens non est inconveniens quia 
+          <lb ed="#PV"/>multi sunt gradus agilitatis 
+          <lb ed="#PV"/>qui omnis sunt infra agilitatem 
+          <lb ed="#PV"/>beatorum unde unus homo est agilior 
+          <lb ed="#PV"/>alio
+        </p>
+        <p>
+          Et quia adam fuit multum 
+          <lb ed="#PV"/>bene dispositus non est in<lb ed="#PV"/>conveniens 
+          ipsum fuisse agiliorem 
+          <lb ed="#PV"/>de multo quam sit alius homo 
+          <lb ed="#PV"/>aliquis nunc existens nec opor<lb ed="#PV"/>tuisset 
+          concedere extra meam 
+          positionem quod fuisset mutatus 
+          <lb ed="#PV"/><unclear>instantame</unclear>
+        </p>
+        <p>
+          Item sequitur quod status 
+          <lb ed="#PV"/>adae non differet a statu <unclear>christi</unclear> 
+          <lb ed="#PV"/>dicitur quod status adae differentia est 
+          <lb ed="#PV"/>quia vires sensitivae adae po<lb ed="#PV"/>tuerunt 
+          transire In actum ratione 
+          <lb ed="#PV"/>non <unclear>instante</unclear> sed in christo nullo modo 
+          <lb ed="#PV"/>potuerunt exire in actum sine 
+          <lb ed="#PV"/>ratione concurrenti et imperante 
+        </p>
+        <p>
+          2a 
+          <lb ed="#PV"/>differentia est quia vires sensitive 
+          <lb ed="#PV"/>in adam licet obedieret In ordine 
+          <lb ed="#PV"/>ad communiter occurentia non tamen 
+          <lb ed="#PV"/>forte respectu ut<del>rum</del>sque uniuscumque 
+          <lb ed="#PV"/>obiecti terribilis sed in christo non fuit 
+          <lb ed="#PV"/>sic sed solum fecerunt quod ratio 
+          <lb ed="#PV"/>imperabat sive praecipuebat
+        </p>
+        <p>
+          Item 
+          <lb ed="#PV"/>sequeretur <unclear>qudo</unclear> posset solvere caelum 
+          <lb ed="#PV"/>et planetas sicut sibi placeret 
+          <lb ed="#PV"/>et etiam contra mixtum firmamenti 
+          <lb ed="#PV"/>vel alio modo quam nunc moveatur 
+          <lb ed="#PV"/>caelum
+        </p>
+        <p>
+          Respondetur quod imperium non fuit 
+          <lb ed="#PV"/>sibi datum efficaciter nisi respectu 
+          <lb ed="#PV"/>sui corporis et utrum sui corporis 
+          <lb ed="#PV"/>et sic dicebat quod de potentia dei 
+          <lb ed="#PV"/>absoluta non videt quando universale 
+          <pb ed="#PV" n="2-r"/>
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>regimen universi posset crea<lb ed="#PV"/>turae 
+          communicari unde ita pos<lb ed="#PV"/>set 
+          probabiliter dici de anima christi 
+          <lb ed="#PV"/>tamen ex hoc non sequitur 
+          <lb ed="#PV"/>quod posset movere caelum alio modo 
+          <lb ed="#PV"/>quam nunc movetur quia staret 
+          <lb ed="#PV"/>quod deus illo modo solum sibi com<lb ed="#PV"/>municaret 
+          movere caelum tamquam esset una causa sub ordinata deo 
+          <lb ed="#PV"/>et in mediatu
+        </p>
+        <p>
+          Item arguebat 
+          <lb ed="#PV"/>condig sequitur quod si adam fuisset in 
+          <lb ed="#PV"/>igne non fuisset combustus 
+          <lb ed="#PV"/>nec ignis laesisset eum si sibi 
+          <lb ed="#PV"/>non placuisset <unclear>quoniam</unclear> potuisset prae<lb ed="#PV"/>cepisse 
+          igni ne ageret in ipsum 
+          <lb ed="#PV"/>patet solutio ei dictis
+        </p>
+        <p>
+          <lb ed="#PV"/>Item sequeretur 
+          <lb ed="#PV"/>quod potuisset fecisse <unclear>grandiens</unclear>
+          et plumas etc
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

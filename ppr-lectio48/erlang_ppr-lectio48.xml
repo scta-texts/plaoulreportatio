@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 48, De fruitione [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 48, De fruitione [Palantine Transcription]</title>
+          <date when="2019-12-21">December 21, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-12-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="67-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio48">
+        <head xml:id="ppr-l48-Hldfldf">Lectio 48, de Fruitione [Erlangen Transcription]</head>
+        <div xml:id="ppr-l48-Dd1e104">
+          <head xml:id="ppr-l48-Hurqesg">Una ratio quod fruitio Dei posset esse sine gratia</head>
+          <p xml:id="ppr-l48-ccmege">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>Consequenter continuando materiam probatur quod fruitio dei stet cum culpa nam istud videtur 
+            <lb ed="#E"/>posse probari de opere obstitricum <ref xml:id="ppr-l48-Rd1e113" corresp="#l48-Qbeffdo #l48-Qd1e128"><title ref="#ex">exodi</title> 3o capitulo</ref> <quote xml:id="ppr-l48-Qbeffdo" source="http://scta.info/resource/ex1_20">Bene fecit dominus obstitricibus</quote> etc tamen erant 
+            <lb ed="#E"/>infideles et extra gratiam unde arguitur sic Opus earum fuit bonum et fuit circa creaturam 
+            <lb ed="#E"/>ergo fuit usus licitus creaturae ergo fuit fruitio dei
+          </p>
+          <!-- left off -->
+          <p xml:id="ppr-l48-carcfd">
+            <lb ed="#E"/>Confirmatur per actus <unclear>politiarum</unclear> romanorum 
+            <lb ed="#E"/>et etiam aliorum quia fecerunt aliqua bona et per consequens actus eorum fuerunt boni et ordinati
+            <pb ed="#E" n="67-v"/>
+            <lb ed="#E"/>in debitum finem et per consequens fuerunt actus fruitur 
+          </p>
+        </div>
+        <div xml:id="ppr-l48-Dd1e146">
+          <head xml:id="ppr-l48-Hcaqidc">Contra antecedens quod intellectus ex puris naturalibus potest dicare Deum esse summum bonum et voluntas poterat se illi dictamini conformare</head>
+          <p xml:id="ppr-l48-aradce">
+            Restat respondere ad rationes inductas 
+            <lb ed="#E"/>in prima probabitur quod voluntas ex puris naturalibus potest frui deo 
+          </p>
+          <div xml:id="ppr-l48-Dd1e160">
+            <head xml:id="ppr-l48-Hprqnsc">Prima ratio: quod investigatio humana non possunt pertingere praeter notitiam substantiarum corporearum</head>
+            <p xml:id="ppr-l48-adaacp">
+              Breviter ego stabo circa antecedens solum 
+              <lb ed="#E"/>unde secundum quod latius ante declaratum est creatura ex puris naturalibus non adiuta specialiter non 
+              <lb ed="#E"/>potest pertingere ad deo cognitionem <unclear>utque</unclear> de <unclear>philosophis</unclear> aliquibus qui non posuerunt nisi corporalia Caldei 
+              <lb ed="#E"/>nisi stellas <name>Aristoteles</name> in libros de secretis secretorum dicit quod philosophia fuit philosophis revelata et sic 
+              <lb ed="#E"/>antecedens posset negari nisi interveniret aliqua revelatio numquam posset quis ad dei cognitionem pertingere
+            </p>
+          </div>
+          <div xml:id="ppr-l48-Dd1e186">
+            <head xml:id="ppr-l48-Hsrsrsr">Secunda Ratio</head>
+            <p xml:id="ppr-l48-sdqdef">
+              <lb ed="#E"/>Secundo dato quod ratio naturalis et naturalis investigatio humana posset pertingere ad cognoscendum 
+              <lb ed="#E"/>quod deus est non tamen <del rend="strikethrough">posset</del> quod sit super omnia diligendus utque de multis philosophis qui posuerunt 
+              <lb ed="#E"/>deum esse et tamen non posuerunt in eo consistere summam felicitatem et sic non oportet quod cognoscens 
+              <lb ed="#E"/>deum esse cognoscat eum 2m quodlibet praedicatum de eo dicibile Et sic de isto praedicato quod est esse obiectum fruibile 
+              <lb ed="#E"/>non oportet si quis cognoscat deum esse quod illud praedicatum cognoscat sibi competere et sic negetur 
+              <lb ed="#E"/>ista consequentia philosophus potest cognoscere deum esse igitur ex puris naturalibus non est possibile etc cognoscere ipsum 
+              <lb ed="#E"/>esse obiectum fruibile et sic illud antecedens non est clarum quod ibi <unclear>assummitur</unclear> Patet illud satis circa va<lb ed="#E"/>rias 
+              sectas philosophorum ponentium felicitatem consistere in diversis quidem in honoribus aliqui in 
+              <lb ed="#E"/>divitiis etc et tamen cognoverunt deum esse et sic licet possent devenire ad cognoscendum deum esse 
+              <lb ed="#E"/>ex puris naturalibus
+            </p>
+          </div>
+          <div xml:id="ppr-l48-Dd1e198">
+            <head xml:id="ppr-l48-Htrtrtr">Tertia ratio</head>
+            <p xml:id="ppr-l48-tdqnpp">
+              Tertio diceretur quod licet intellectus quantum esset de se ex puris naturalibus 
+              <lb ed="#E"/>posset devenire ad istam veritatem quod deus est Sicut <name ref="#Paul">apostolus</name> primo ad Roma <pc type="#punctus"/> <quote xml:id="ppr-l48-Qd1e317" source="http://scta.info/resource/rom1_20">per ea quae 
+              <lb ed="#E"/>facta sunt</quote> etc tamen non sequitur ad propositum sicut tangit apostolus nam licet ad hoc devenisset et scivisset 
+              <lb ed="#E"/>quod deus esset summum bonum et fruibile tamen propter malitiam ipsorum non diu steterunt in hoc quod 
+              <lb ed="#E"/><del rend="strikethrough">pos</del> potuissent deliberate elicere actum fruendi Causa est quia licet deum cognoverunt tamen 
+              <lb ed="#E"/>non sicut deum coluerunt et sic non permanserunt in notitia quae esset sufficiens in voluntate ad 
+              <lb ed="#E"/>eliciendum dilectionem dei fruitivam nisi forte obiceretur quod pro illo tempore potuerunt diceretur quod pro illo 
+              <lb ed="#E"/>instanti quo habuerunt talem notitiam de deo obligati fuerunt ad eliciendum actum frui<lb ed="#E"/>tivum
+              sed propter malitiam non steterunt
+            </p>
+          </div>
+          <div xml:id="ppr-l48-Dd1e211">
+            <head xml:id="ppr-l48-Hqrqrqr">Quarta ratio</head>
+            <p xml:id="ppr-l48-sdqedr">
+              Secundo dicitur quod licet intellectus potest cognoscere 
+              <lb ed="#E"/>quod deus est et est fruibilis tamen peccatum inpedit fruitionem
+            </p>
+            <p xml:id="ppr-l48-pehebm">
+              primo ratione habitudinis potentiae intellectivae ad 
+              <lb ed="#E"/>volitivam voluntas movet intellectum et divertit ipsum a consideratione diligibilis
+            </p>
+            <p xml:id="ppr-l48-sqadbm">
+              Secundo quia 
+              <lb ed="#E"/>realiter affectio prava est quaedam apparentia de sic esse sicut voluntas afficitur ideo affec<lb ed="#E"/>tio 
+              prava depravat intellectum quantum ad iudicium et <unclear>obnubila<del rend="expunctuation">bi</del>t</unclear> et facit apparere de bo<lb ed="#E"/>no 
+              quod sit malum de malo quod sit bonum
+            </p>
+            <p xml:id="ppr-l48-esieof">
+              Et iuxta istud intelligitur quod amor et odium 
+              <lb ed="#E"/>pervertunt iudicium nam affectio prava facit apparere sicut voluntas afficitur Potest tamen probabiliter 
+              <lb ed="#E"/>satis dici quod malitia eorum inpedit ne possintt elicere actum fruitivum
+            </p>
+            <p xml:id="ppr-l48-acqisd">
+              Alia causa est 
+              <lb ed="#E"/>quia secundum ordinem potentiarum est ordo assistentiarum dei ad illas et per peccatum <unclear>diseritur</unclear> 
+              <lb ed="#E"/>creatura et sic non potest habere debitum iudicium relatum in deum
+            </p>
+            <!--
+              Not present 
+              <p xml:id="ppr-l48-ipiqnf">
+              ideo propter istas causas, quia aliquis non potest habere 
+              evidens iudicium ex depravatione nec potest habere evidens 
+              iudicium quod deus est, nisi esset in bona dispositione, et licet haberet 
+              Iudicium quod deus est diligendus, vel est diligendus propter beneficia, 
+              licet crederet referre dilectionem in deum, non tamen Referret. 
+              sed in se referret sicut multi credunt frui deo 
+              qui non fruuntur
+            </p>-->
+          </div>
+          <!-- not present
+            <div xml:id="ppr-l48-Dd1e239">
+            <head xml:id="ppr-l48-Hconsio">Conclusio</head>
+            <p xml:id="ppr-l48-esipmc">
+              Et sic illud antecedens, scilicet, quod intellectus ex puris 
+              naturalibus potest dicare quod deus est summum bonum et super omnia 
+              diligendum, et quod voluntas se potest illi dictamini conformare, 
+              potest multipliciter calumniari.</p>
+          </div>-->
+        </div>
+        <div xml:id="ppr-l48-Dd1e457">
+          <head xml:id="ppr-l48-Hd1e459">Conclusiones</head>
+          <p xml:id="ppr-l48-d1e462">
+            Circa distinctionem 46tam prima 
+            <lb ed="#E"/>conclusio voluntas dei semper adimpletur
+          </p>
+          <p xml:id="ppr-l48-d1e469">
+            Secunda non vult mala fieri quia deo autore nemo 
+            <lb ed="#E"/>deterior fit unde dicit <name>magister petrus pleu</name> quod deus permittit quod peccatum fiat et nec vult quantum ad hoc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

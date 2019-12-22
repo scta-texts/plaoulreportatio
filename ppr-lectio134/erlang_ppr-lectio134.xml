@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 134, De incarnatione [Erlang Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 134, De incarnatione [Erlang Transcription]</title>
+          <date when="2019-11-28">November 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-11-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="178-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio134">
+        <head xml:id="ppr-l134-Hldildi">Lectio 134, de Incarnatione [Erlangen Transcription]</head>
+        <div xml:id="ppr-l134-Dd1e109">
+          <head xml:id="ppr-l134-Hpavaim">Propositiones ad videndum habitudinem virginis gloriose ad incarnationis mysterium</head>
+          <p xml:id="ppr-l134-avhmpp">
+            <lb ed="#E" n="18"/>In ultima lectione 
+            <lb ed="#E"/>Ad habitudinem virginis gloriose ad incarnationis misterium
+          </p> 
+          <div xml:id="ppr-l134-Dd1e117">
+            <head xml:id="ppr-l134-Hppoppo">Prima propositio</head>  
+            <p xml:id="ppr-l134-peqfpp">
+              Sit prima propositio Quam<lb ed="#E"/>vis 
+              virgo benedicta in aeterni verbi temporali conceptione infinitae concurrit causaliter non fuit 
+              <lb ed="#E"/>tamen possibile pro eodem mensura ordinem naturae servare quantum ad superiorum primam productionem
+            </p>
+            <p xml:id="ppr-l134-ppacvg">
+              <lb ed="#E"/>Prima pars probatur iuxta imaginationem <ref xml:id="ppr-l134-Rd1e127"><name ref="#VincentOfBeauvais">vincencii</name> in suo <title ref="#SpeculumHistoriale">speculo hystoriali</title> libro 7o capitulo 
+              <lb ed="#E"/>17o</ref> ubi ponit quod spiritus sanctus superveniens in virginem gloriosam ei <unclear>in momento</unclear> contulit 
+              <lb ed="#E"/>4or actus producendi scilicet decisionem solidationem conversionem et formationem ita quod de ipsa materia 
+              <lb ed="#E"/>fuit decisa solidata in <unclear>carnem</unclear> conversa et formata et ad hoc concurrat virgo gloriosa 
+              <lb ed="#E"/>pro declaratione sit haec propositio in eodem instanti adaequate caro christi fuit concepta et assumpta 
+              <lb ed="#E"/>ita quod non est ymaginandum quod prius fuit concepta deinde assumpta animalis virgo gloriosa 
+              <lb ed="#E"/>non genuisset christum sed potius suppositum carnis <unclear>pro disposite</unclear>
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e138">
+            <head xml:id="ppr-l134-Hspospo">Secunda propositio</head>
+            <p xml:id="ppr-l134-pcdngc">
+              Secunda propositio in eodem instanti 
+              <lb ed="#E"/>fuit caro assumpta et animata Et quo patet quod in eodem instanti totum incarnationis misterium fuit 
+              <lb ed="#E"/>completum et celebratum et in eodem instanti adaequate genus humanum deo patri et toti trinitati 
+              <lb ed="#E"/>reconciliatum haec enim est fidei positio quia nisi sic virgo gloriosa non fuisset mater assumentis 
+              <lb ed="#E"/>sed praeexistentis
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e147">
+            <head xml:id="ppr-l134-Htpotpo">Tertia propositio</head>
+            <p xml:id="ppr-l134-tpiasp">
+              Tertia propositio quae est declarativa primae partis aliquem fieri subito quod naturaliter 
+              <lb ed="#E"/>est solum successive factibilem est respectu potentiae facientis infinitae vel vigoris infiniti 
+              <lb ed="#E"/>quia tam naturaliter activa respectu habentis resistentiam non potest subito agere nisi virtus eius 
+              <lb ed="#E"/>sit infinita Et sic ex hoc quod illa quae solum naturaliter erant successive factibilia virgo 
+              <lb ed="#E"/>gloriosa concurrit in instanti ideo modo infinito
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e157">
+            <head xml:id="ppr-l134-Hqpoqpo">Quarta propositio</head>
+            <p xml:id="ppr-l134-qpdeqi">
+              quantum ad hoc et est prima pars <unclear>conclusionis</unclear> pro de<lb ed="#E"/>claratione 
+              2ae partis si ordo naturae est talis quod ex sanguine generatur materia seminales 
+              <lb ed="#E"/>et ex illa embrio cuius forma vegetativa et consequenter alia sensitiva et ultimate intellectiva sic quod prio<lb ed="#E"/>res 
+              non moveant cum sequenti tunc clarum est quod inpossibile fuit hanc subito ex sanguine 
+              <lb ed="#E"/>carnem humanam generare 
+            </p>
+            <div xml:id="ppr-l134-Dd1e171">
+              <head xml:id="ppr-l134-Hcorria">Corollaria</head>
+              <!-- precise point of parallel paragraph break is a bit unclear here -->
+              <p xml:id="ppr-l134-pescai">
+                patet quia tunc sequeretur quod in illo instanti generationis formae mediae
+                <pb ed="#E" n="178-v"/><!-- image missing -->
+                <!-- left off -->
+                
+                essent et non essent quod essent 
+                patet quia generantur quod non oportet 
+                patet quia non stat servando ordinem 
+                naturae 
+                quod cum anima intellectiva remaneant 
+                vel ergo oportet quod fuerit 
+                transitus ab extremo ad extremum 
+                nam servato communi ordine ut 
+                immediate de sanguitudine facta fuerit 
+                caro vel quod formae mediae fuerunt 
+                simul et subito productae 
+                ergo magis verisimils est inmediatus 
+                tam situs
+              </p>
+              <p xml:id="ppr-l134-eqssii">
+                Sequitur 
+                hanc copulativa esse possibilem continuitas 
+                <c>a</c> ad <c>b</c> solvitur vel <c>a</c> separatur 
+                <c>b</c> vel discontinuatur et tamen summe 
+                distat <c>a</c> <c>b</c> quia instanti incarnationis 
+                verbi a sanguitudine existente 
+                in capite separatur et generabatur 
+                caro in loco generationis et qua 
+                ratione darentur locus certe quantitas 
+                potest dari triple etc in infinitum 
+                et sic staret illatum
+              </p>
+              <p xml:id="ppr-l134-ssqaep">
+                Sequitur 
+                quod sanguis virginis gloriose
+                <cb ed="#PV" n="b"/><!--PV 260rb-->
+                convertitur in carnem et tamen 
+                in illo non est quia in transmutationibus 
+                subitis <del rend="strikethrough">pot</del> passo attribuitur ultimo 
+              </p>
+              <p xml:id="ppr-l134-tsvrsf">
+                Sequitur virgine gloriosam 
+                plus habere rationem parentis respectu 
+                verbi dei quam alia mater respectu 
+                sui filii patet quia iuvante spiritu 
+                sancto modo gloriosa etiam aliquo modo 
+                supplet effectivam causalitatem 
+                patrem seminis disponentis ad corporis 
+                formationem ergo ultra communem 
+                cursum <del rend="strikethrough">mater</del> matrem habet 
+                specialiorem concursum quam alia 
+                mater respectu filii
+              </p>
+              <p xml:id="ppr-l134-saqcam">
+                Secundo nam ut 
+                tactum est virgo gloriosa concurrat 
+                altiori gradu <unclear>ymaeo</unclear> in infinitum 
+                quam quaecumque alia quia infinito 
+                modo et subito et aliquo gradu 
+                causalitatis non communicato alteri 
+                creaturae ergo scilicet magis debet attribui 
+                ratio parentis respectu sui filii
+              </p>
+              <p xml:id="ppr-l134-qsvfsg">
+                Sequitur 
+                quod virgo gloriosa dei et quod genuit 
+                deum quam quod aliqua nostro genuit 
+                suum filium quia ista denominatio 
+                genera est suppositibilis ergo competit 
+                filio dei igitur habet maiorem 
+                concursum virgo gloriosa quam 
+                quaecumque alia mater respectu sui 
+                filii 
+              </p>
+              <p xml:id="ppr-l134-eqatst">
+                patet haeresis nestorii quia 
+                concessit quod virgo gloriosa fuit mater 
+                <del rend="strikethrough">v</del> negavit tamen quod essent mater 
+                dei quae in esse suam synodo <unclear>procur?ove</unclear> 
+                sirillo hareticus fuit condempnatus 
+                <name>damascenus</name> tertio 
+                suarum dicit hance esse negandam 
+                virgo gloriosa est christus <foreign>toctos</foreign> id est genitricem 
+                negat ad sensum <name>nestorii</name> 
+                et contra eum et ideo non sunt qui sit
+                <pb ed="#PV" n="260-v"/>
+                <cb ed="#PV" n="a"/>
+                dei et est idem suppositum 
+                verbum dei et christus quia eadem 
+                persona Ideo dicit quod nedum 
+                virgo est christi <foreign>tocton</foreign> sed <foreign>theostocton</foreign>
+              </p>
+              <p xml:id="ppr-l134-eiapgh">
+                Sequitur quod partus virgineus continet 
+                evidenter totam residuam 
+                latitudinem humanae generationis 
+                <ref xml:id="ppr-l134-Rd1e261" target="http://scta.info/resource/aristmet-l10">10 <title ref="#Metaphysics">metaphysicae</title></ref> omnia eiusdem igitur 
+                habent ad primum in illo modo iste 
+                concursus est infinitus igitur 
+                continet etc
+              </p>
+              <p xml:id="ppr-l134-ssqgcv">
+                Sequitur quod probabile 
+                est dicere quod virgo gloriosa infinitus 
+                amore genuerit deum vel filium suum 
+                vel concepit eum Clarum est 
+                de <unclear>agnore</unclear> aeterno de spiritu sancto 
+                quia spiritus sanctus conceptus est et ipso 
+                specialiter concurrente teste scripturam 
+                non tamen conceditur quod sit filium spiritum sanctum 
+                vel quod spiritus sanctus sit pater christus 
+                tamen dicitur genitus specialiter a spiritu 
+                <unclear>sancto</unclear> ut excludatur concursus virilis 
+                scilicet quod facta est haec generatio 
+                sine virili concursu
+              </p>
+              <p xml:id="ppr-l134-suapcs">
+                2o excludatur 
+                seditas concupiscentiae probatur quod ex 
+                amore filium suum produxerit <sic>produxerit</sic> 
+                ad hoc est <ref xml:id="ppr-l134-Rd1e286"><name ref="#HughOfStVictor">hugon de sancto 
+                victore</name></ref> et allegatur <name>bonaventura</name> Amor 
+                <unclear>fing?tis</unclear> in corde virgine ardebat 
+                Ideo in carne eius mirabilia 
+                facebat Et sic <name>hugo</name> innuit quod 
+                amor quem habebat tantus erat 
+                quod immutabat et concurrebat ad hanc 
+                conversionem Circa hoc potest induci 
+                applicando ad statum innocentiae 
+                qualiter vegetativa obediat 
+                volitive rationali ideo quia fuit reducta
+                obediebat sibi quia sint plena 
+                gratia et infinitae causalitatis 
+              </p>
+              <p xml:id="ppr-l134-osqsmc">
+                Sequitur quod influentialis radiatio 
+                <cb ed="#PV" n="b"/><!--260vb-->
+                planetarum in hac sacratissima 
+                conceptione non habuit locum quia 
+                fuit concursus supernaturalis requirens 
+                causalitatem infinitam causalitatis 
+                active et quia sol et alii planetae 
+                non subito possunt effectum producere 
+                igitur nullomodo active concurrebant
+              </p>
+              <p xml:id="ppr-l134-snquad">
+                Sequitur quod <ref xml:id="ppr-l134-Rd1e315">testimonium <name>albumasar</name></ref> 
+                a tam sacro misterio est 
+                repellendum ponit enim in 
+                sexta parte maioris introductorii 
+                quod in signo virginis 
+                est puella lactans pueris cuius 
+                nomen habens quod <unclear>quus</unclear> signum 
+                erat in ostendente tempore nativitatis 
+                christi Et de dicitur 
+                ex hoc quod probatur ex concursu istorum 
+                non tamen est admittendus 
+                quia falsum medium concludit veritatem 
+                quia dispositio caelestis non concurrebat 
+                ad hanc generationem dicit <name>halo</name> 
+                quod <name>albumasar</name> fuit historia 
+                graphus ideo finxit
+              </p>
+              <p xml:id="ppr-l134-dsqiat">
+                Sequitur quod vanitas 
+                est dicere quod <name ref="#Mercury">mercurius</name> sit 
+                signator christi  et suae legits et 
+                per accidens continuat quod signum virginis 
+                quod est domus <name>mercurii</name> 
+                erat in ascendente
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l134-Dd1e356">
+            <head xml:id="ppr-l134-Hqnoqno">Quinta propositio</head>
+            <p xml:id="ppr-l134-pqpscq">
+              Alia propositio 
+              declarativa materiae licet in eodem 
+              instanti fuerit perfectissime organizatus 
+              complexionatus et animatus ymmo 
+              christus homo perfectissimus nihilominus 
+              fuerit in illo instanti minime 
+              quantitatis unde debita proportio 
+              qualitatum etc non determinat sibi certam 
+              quantitatem
+            </p>
+            <p xml:id="ppr-l134-schcaf">
+              Contra arguitur auctoritate 
+              <ref xml:id="ppr-l134-Rd1e366"><name ref="#Augustine">augustini</name></ref> qui super illo verbo matribus 
+              diebus reaedificabo templum
+              <pb ed="#PV" n="261-r"/>
+              <cb ed="#PV" n="a"/>hoc autem dicebat deceptio corporis 
+              sui et iudaei 46 diereum 
+              est numerus designans perfectionem 
+              corporis christi et aeque perfectio formationem 
+              ideo non ab instanti conceptionis 
+              fuit perfecte formatus 
+              sed tot diebus formabatur 
+              in utero 
+            </p>
+            <p xml:id="ppr-l134-ahradc">
+              <name>Augustinus</name> intelligit quantum 
+              ad augmentum suae qualitatis non quantum 
+              ad figurationem et bonam membrorum 
+              habitudinem
+            </p>
+            <p xml:id="ppr-l134-eqsdvv">
+              Sequitur quod christus 
+              secundum hominem fuit pulcerimus 
+              hominem quia turpitudo provenit 
+              ex defect materiae vel agentium 
+              vel applicatione causarum requisitarum 
+              ad effectus productionem 
+              sed materia fuit excellentissima 
+              et agentia fuerunt spiritus sancti 
+              et virgo gloriosa concursu infinito 
+              Cum hoc stat quod <unclear>distortis</unclear> et 
+              male complexionatis vel viciatis 
+              non videbatur quia sicut potentia 
+              gustativa respectu gustandi ita etc
+            </p>
+            <p xml:id="ppr-l134-ssqevg">
+              Sequitur quod non esset ex prima 
+              collatione <name ref="#Gabriel">gabraelis</name> ad virginem 
+              ponam primam successivam generationem 
+              praecedente incarnationem verbi unde 
+              ymaginatio sunt aliqui quod a tempore 
+              collationis virginis cum angelo 
+              incipit esse decisio et dispositio ad 
+              conceptionem <unclear>celebundam</unclear> et in primo 
+              instanti assensus fuit deus incarnatus 
+              vel verbum caro factum 
+              et capitur in caro concretive pro homine 
+              quia causalitas eorum sufficit 
+              in instanti quod natura possit in tempore
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e412">
+            <head xml:id="ppr-l134-Hsxpsxp">Sexta propositio</head>
+            <p xml:id="ppr-l134-qpcspc">
+              Alia propositio christus fuit nobilior 
+              <cb ed="#PV" n="b"/> <!--PV61rb-->
+              quam si ex <name>Ioseph</name> fuisset natus 
+              et hoc secundum humanitatem quia concursus 
+              causalis positus loco patris fuit 
+              nobilior scilicet tam ex parte spiritus 
+              sancti quam virginis quia fuit 
+              infinitus et non infinitus applicatus 
+              modo ex hoc oritur effectus 
+              nobilitas hoc videtur dicere <name>damascenus</name> 
+              in suo 3o <name>Crisostomus</name> quod in 
+              ea natum est de spiriu sancto est 
+              non materialiter sed effective
+            </p>
+            <p xml:id="ppr-l134-ehsdac">
+              Sequitur 
+              quod christus habuit omnem nobilitatis 
+              gradum plene ei summe <sic>Sacundum</sic> 
+              quod multiplex fuit in eo 
+              nobilitas una naturalis et illa 
+              est ex dispositione complexionis et bona 
+              habitudine potentiarum inter se 
+              secundum <ref xml:id="ppr-l134-Rd1e451" target="http://scta.info/resource/aristpoli-l1"><name ref="#Aristotle">philosophum</name> primo <title ref="#Politics">politicae</title></ref> et 
+              natura aliquos genuit nobiles 
+              et bene dispositos secundum intellectum 
+              et inferiores potentias 
+              alios servos sed certum est de christo 
+              quod fuit ec habuit bona moralia 
+              et gratuita habent etiam parentela 
+              nobilitatem de <name>david</name>
+              nobiliori modo quam per propagationem 
+              quia concurrant nobiliori influxu 
+              quam parentes concurrissent super 
+              est alia maior nobilitas scilicet dilectio 
+              quam habuit deus erga deum 
+              ut hominem vel eius humanitatem ut tali 
+              honore dignus est quem voluerit 
+              rex honorari Et quantum fieri potuit 
+              in ipsum se transformavit et 
+              rapuit et fecit participem deitatis 
+              quantum fuit possibile
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e470">
+            <head xml:id="ppr-l134-Hstpstp">Septima propositio</head>
+            <p xml:id="ppr-l134-spstem">
+              Alia propositio status 
+              virginis fuit excellentior 
+              quod aliquis alius status ecclesiasticae 
+              <pb ed="#PV" n="261-v"/>
+              <cb ed="#PV" n="a"/><sic>gerarchiae</sic> patet quia fuit excellentior 
+              quantum ad statum 
+              quam sit in se status papalis 
+              probatur propositio cum corollario quia fuit in 
+              secreto consistorio trinitatis ubi 
+              revelata fuerunt sibi secreta 
+              tangentia providentiam divinam 
+              <unclear>circa</unclear> regionem spirituale totius humani 
+              igitur quia erat spiritualis cum 
+              huius <unclear>medele</unclear> et regiminis spiritualis 
+              et quia non decuit quod unquam 
+              expelletur ab hoc consilio ideo 
+              remansit sibi revelatio illorum 
+              quae tangunt regimen ecclesiae sanctae 
+              probatur aliunde quia fuit modo capitis 
+              ecclesiae igitur ex hoc habuit quemdam 
+              praelationis <unclear>gaudium</unclear> quodammodo supra 
+              caput licet fuit inferior
+            </p>
+            <p xml:id="ppr-l134-tsmdad">
+              3o 
+              status maternitatis includit mutuam 
+              dilectionem praecipute talis 
+              <unclear>mudi?itatis</unclear> ubi non potest esse defectus 
+              vel error ergo dilectionem singularem 
+              virginis ad deum et econtra et hoc ex 
+              forma status quod non est in 
+              alio ministerio offiiali ut papatus 
+              quia stat cum culpa errore etc
+            </p>
+            <p xml:id="ppr-l134-qsishs">
+              4o status gerarchicus 
+              ad officiandum in ecclesia 
+              militante ordinatur ad statum 
+              gratificare specialiter <unclear>scitum</unclear> esse talem 
+              vel intrinsece talem ideo gratificus 
+              est nobilior Sed tals erat 
+              virginis quia includebat caritatem 
+              ex se quod non est de aliquo alio 
+              statu in via Et sic secundum proportionem 
+              voluntatis gratuite deberi 
+              esse proportio graduum et statuum 
+              sed quia humanitus non potest constare 
+              ideo non est statutum quod servetur
+              <cb ed="#PV" n="b"/><!--261v-->
+              ordo
+            </p>
+            <p xml:id="ppr-l134-sfaavg">
+              diceretur quod papatus 
+              includit summum sacerdotium virgale 
+              divinum scilicet praevenientem absolutam 
+              et summitatem in tota latitudine 
+              <del rend="strikethrough">perfectionis gratuite</del> christi animae 
+              viventium
+            </p>
+            <p xml:id="ppr-l134-aiblvg">
+              prima propositio quod in tota 
+              latitudine perfectionis gratuitae virgo 
+              gloriosa tenet supremum gradum 
+              patet per <ref xml:id="ppr-l134-Rd1e516"><name ref="#Anselm"><name>ancelmum</name></name></ref> et hoc tenet <ref xml:id="ppr-l134-Rd1e531"><name ref="#Albert">albertus</name> 
+              in libro <title>de laudibus virginis 
+              gloriose</title></ref>
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e549">
+            <head xml:id="ppr-l134-Hovpovp">Octava propositio</head>
+            <p xml:id="ppr-l134-opgtlr">
+              2a gratuita perfectio 
+              virginis erat in via maior 
+              quam tota residua perfectio universalis 
+              militantis ecclesaie patet per <name>albertum</name> 
+              quia in latitudine uniformiter 
+              difformi supremus gradus est 
+              nobilior residua latitudine 
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e561">
+            <head xml:id="ppr-l134-Hnponpo">Nona Propositio</head>
+            <p xml:id="ppr-l134-npvsoe">
+              3a propositio virgo gloriosa influit 
+              toti ecclesiae dona et virtutes saltis inpetrative 
+              et meritorie ut sint 
+              tamquam eius filium 2a intelligentia 
+              vel habebat motum 2ae intellectiae 
+              et habeat disponere totum regimen 
+              ecclesiae militantis utrum effective 
+              non videtur impossibile <name>Albertus</name> comparat 
+              christum sibi qui ubique radiat et 
+              virgo recipiens lumen a sole usque 
+              radiat licet recipiat a sole hiis 
+              excellentiis et habitudine considerantis 
+              verisimiliter concluditur quod deus numquam 
+              promisit eam aliquo peccato <unclear>inquiam</unclear> 
+              quia supra omnes creaturas ipsa 
+              fuit dilecta et electa Ad hoc sunt 
+              auctoritates quam plurime quia in ea 
+              fuit celebratum ministerium incarnationis 
+              propter cuius praeconium 
+              <name>Iohannes</name> fuit sanctificatus in 
+              utero quod tunc debet fieri de ista 
+              virgine ex qua in qua et per quam 
+              <pb ed="#PV" n="262-r"/>
+              <cb ed="#PV" n="a"/>
+              hoc sacramentum fuit celebratum 
+              Ideo bene resolventi videtur credendum 
+              quod non fuit peccato aliquo 
+              nec originali nec actuali nec 
+              <unclear>veniali</unclear> <unclear>comquata</unclear> Et dicitur quod 
+              virgo gloriosa habuit specialem progativam 
+              super papam et licet 
+              non fuerit sacerdos habuit tamen 
+              modum conversandi cum filio ex 
+              quo fuit praesens toti trinitati in incarnatione 
+              non est verisimile quod unquam 
+              ab ista visione discesserit et 
+              consequenter super choros angelorum 
+              est exaltata etc
+            </p>
+          </div>
+          <div xml:id="ppr-l134-Dd1e589">
+            <head xml:id="ppr-l134-consio">Conclusio</head>
+            <p xml:id="ppr-l134-esesdg">
+              Et sic est finis lectionis
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

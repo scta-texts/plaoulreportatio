@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Principium I</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Principium I </title>
+          <date when="2019-11-27">November 27, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike  4.0  International  (CC  BY-NC-SA  4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-11-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-prI">
+        <head xml:id="prIHpriium">Principium I [Erlangen Transcription]</head>
+        <p xml:id="prI-scpifh">
+          <pb ed="#E" n="1-r"/>
+          <lb ed="#E" n="1"/>Ponatur quod deus 
+          <lb ed="#E"/>in prima parte proportionali huius horae ac<lb ed="#E"/>ceptet 
+          sortem in 2a deacceptet et sic consequenter 
+          <lb ed="#E"/>de omnibus partibus proportionibus Ita quod in omnibus 
+          <lb ed="#E"/>partibus quae denominantur a numero imperari 
+          acceptet sortem et in omnibus quae denominatur 
+          <lb ed="#E"/>a numero pari deacceptet et sic praemium instans 
+          <lb ed="#E"/>non esse huius horae est primum instans non esse 
+          <lb ed="#E"/>sortis
+        </p>
+        <p xml:id="prI-tqqdvs">
+          Tunc quaeritur utrum sortes salvabitur 
+          <lb ed="#E"/>vel non  
+        </p>
+        <p xml:id="prI-ahdhlr">
+          dicitur quod stante lege currente casus 
+          <lb ed="#E"/>ille non est possibilis sed ponatur quod deus agat cum 
+          <lb ed="#E"/>sorte 
+          <!-- para break here -->
+          <pc type="#pilcrow"/>Tunc dixit quod dubium est utrum sal<lb ed="#E"/>vabitur 
+          vel non Alio modo dicitur secundum eundem 
+          <lb ed="#E"/>quod probabile est dicit quod salvabitur 
+          <!-- break ? -->
+          primo quia 
+          <lb ed="#E"/>deus promptior est ad salvandum quam ad dampnandum vel promptior 
+          <lb ed="#E"/>ad praemiandum quam ad puniendum
+        </p>
+        <p xml:id="prIsdmaee">
+          Secundo quia bene sequitur sortes nunc non 
+          <lb ed="#E"/>est et inmediate ante hoc fuit in gratia ergo salvabitur
+        </p>
+        <p>
+          Et signo primum instans non esse 
+          <lb ed="#E"/>sortis Sed etiam eodem modo probaretur quod immediate ante hoc fuit deac<lb ed="#E"/>ceptatus 
+          ut videtur salva sua reverentia
+        </p>
+        <p>
+          <pc type="#pilcrow"/>Nota differentiam inter statum christi 
+          <lb ed="#E"/>et statum innocentiae unde in statu innocentiae vires sensitive omnino obedie<lb ed="#E"/>bant 
+          rationem sed ratio potuit deficere per negligentiam Sed in statu christi ratio non 
+          <lb ed="#E"/>potuit esse negligens stante gratia sua seu plentitudine gratiae suae <pc type="#pilcrow"/> <pc type="#pilcrow"/> 
+        </p>
+        <p>
+          <lb ed="#E"/>Unus baccalarius legens sententias dixit quod homo assumptus a verbo 
+          <lb ed="#E"/>posset assumi a patre et spirito sancto Quia quaelibet persona successive potest assumere 
+          <lb ed="#E"/>illum hominem et quia non repugnant ista vel non contriantur sequitur quod etiam 
+          <lb ed="#E"/>simul possunt
+        </p>
+        <p>
+          Respondet magister petrus quod non primo quia tota latitudo illius humanitatis 
+          <lb ed="#E"/>terminantur per suppositalitatem unius personae
+        </p>
+        <p>
+          <lb ed="#E"/>2o dicitur probabiliter quod pater non potest humanari 
+          <lb ed="#E"/>quia humari est proprietas personalis conveniens soli personae quae est fi<lb ed="#E"/>lius
+        </p>
+        <p>
+          Item dixit <name>magister petrus</name> quod de potentia dei absoluta aliquis possset mereri sine gratia 
+          <lb ed="#E"/>creata videlicet per solam acceptationem Quia dicebat quod liberalitas in creata 
+          <lb ed="#E"/>non est alligata alicui accidenti
+        </p>
+        <p>
+          Item dixit quod staret <c>a</c> et <c>d</c> habere aequa<lb ed="#E"/>les 
+          gratias et tamen a plus cognoscere et hoc per acceptationem
+        </p>
+        <p>
+          <pc type="#pilcrow"/>Contra 
+          <lb ed="#E"/>si acceptatio sufficeret se quaeritur quod creatura ab aeterno fuisset beata 
+        </p>
+        <p>
+          Item quam bene 
+          <lb ed="#E"/>esset creaturae per acceptationem tam male esset sibi per deacceptationem Deac<lb ed="#E"/>ceptant 
+          ergo deus petrum manentibus aliis
+        </p>
+        <p>
+          Item dixit magister petrus plon quod 
+          <lb ed="#E"/>prius natura res est bona quam est vel prius est rem esse bonam quam ipsam esse
+        </p>
+        <p>
+          <lb ed="#E"/><pc type="#pilcrow"/>Contra sequitur quod ab aeterno fuisset bona
+          
+          <!-- para break -->
+          Item bonum videtur esse 
+          <lb ed="#E"/>propria passio entis
+        </p>
+        <p>
+          Item dixit magister petrus pleu quod adam in statu naturae integre ex 
+          <lb ed="#E"/>suis naturalibus potuit evidenter cognoscere deum esse trium et unum Quia 
+          <lb ed="#E"/>cognovit animam suam esse trinam in potentiis scilicet memoriam intellectivam
+          <pb ed="#E" n="1-v"/>
+          <lb ed="#E"/>et volitivam et unam in essentia Et ex hoc concludere potuit trinitatem et unitatem in deo
+        </p>
+        <p>
+          <!-- below see: prIsnafpo -->
+          Item 
+          <lb ed="#E"/>dixit magister petrus quod adam in statu innocentiae sic se habuit Saltem probabile est dicere quod 
+          <lb ed="#E"/>vires sensitive obdierunt <unclear>rationis</unclear> quod potuissent se levasse sursum per arca quod gravi<lb ed="#E"/>tas 
+          non restitisset
+          <!-- break -->
+          <pc type="#pilcrow"/>Post hoc unus condig? faciens principium suum visus fuit hoc inpro<lb ed="#E"/>bare 
+          adducens plures rationes dicendo tandem quod visum fuit sibi quod positio magistri petri ad hoc 
+          <lb ed="#E"/>non fuit bene fundata postea magister petrus incipiens legere fecit de hoc mentionem et funda<lb ed="#E"/>vit 
+          melius suam positionem primo per auctoritatem veteris testamenti in <unclear>gen</unclear> Quo <unclear>modo</unclear> deus 
+          <lb ed="#E"/>constituit adam dum super singula animalia Etiam per aristotelem in polliticis in primo libro 
+          <lb ed="#E"/>Quod ratio in hominem <unclear>dominantur</unclear> et principatur viribus sensitivis principatu regali seu pollici<lb ed="#E"/>to 
+          et corpori principatu dispotico ergo magis dominantur corpori quam viribus <unclear>scusitis</unclear>
+        </p>
+        <p>
+          Item 
+          <lb ed="#E"/>probavit dictum suum per <name>wilhelmum parysiensis</name> qui ponit in forma dictum magistri petri 
+          <lb ed="#E"/>in libro de universo
+        </p>
+        <p>
+          Item in statu innocentiae adam habuit dominium super vegetativam 
+          <lb ed="#E"/>ita quod quando voluit habuit <unclear>errectionem</unclear> virgae et si illa obediunt etiam aliae potentiae antecedens 
+          <lb ed="#E"/>patet per augustinum in pluribus locis 
+        </p>
+        <p>
+          Etiam allegavit unum magistrum qui hoc tenuit ultra 
+          <lb ed="#E"/>15 annos videlicet per magistrum <unclear>Robertum</unclear>
+        </p>
+        <p>
+          Item per medicos dicentes quod ymaginativa obediunt 
+          <lb ed="#E"/>aestimativae <unclear>fe</unclear> respectu <unclear>mulierum</unclear> et oritur quandoque quidem morbus qui vocatur amor eremus
+          <!-- break -->
+          <lb ed="#E"/><pc type="#pilcrow"/>Cordig arguebat sic sequeretur quod adam potuisset natasse cum piscibus in aquis 
+        </p>
+        <p>
+          <lb ed="#E"/>Respondet magistrum petrus quod consequens non est inconveniens quia hoc exprimitur de brutis ut in equo
+        </p>
+        <p>
+          2o 
+          <lb ed="#E"/>sequeretur quod adam habuisset dotem agilitatis
+        </p>
+        <p>
+          Respondebat quod consequens non est inconveniens Quia 
+          multi sunt gradus agilitatis qui omnis sunt infra agilitatem <unclear>beatorum</unclear> unde unus homo 
+          <lb ed="#E"/>est agilior alio
+        </p>
+        <p>
+          Et quia adam fuit multum bene dispositus non est inconveniens concedere 
+          <lb ed="#E"/>ipsum fuisse agiliorem de multo quam sit alius homo aliquis nunc existens nec oportuisset 
+          <lb ed="#E"/>concedere ex meam positione quod fuisset mutatus <unclear>instantatio</unclear>
+        </p>
+        <p>
+          Item sequeretur quod status adae non 
+          <lb ed="#E"/>differet a statu <unclear>christi</unclear> Dicitur quod status adae differentia est quia vires sensitivae adae potuerunt 
+          exire in actum ratione non imperante sed in christo nullo modo potuerunt exire in actum sine ratione concurrenti 
+          <lb ed="#E"/>et imperante 
+        </p>
+        <p>
+          Secunda differentia est quia vires sensitive in adam licet obedieret in ordine 
+          <lb ed="#E"/>ad communiter occurrentia non tamen <unclear>forte</unclear> respectu cuiuscumque obiecti terribilis sed in christo non fuit 
+          <lb ed="#E"/>sic sed solum fecerunt quod ratio praecipiebat
+        </p>
+        <p>
+          Item sequeretur quod posset volvere caelum et plane<lb ed="#E"/>tas 
+          sicut sibi placeret et etiam contra mixtum firmamenti vel etiam alio modo quam nunc moveatur 
+          <lb ed="#E"/>caelum
+        </p>
+        <p>
+          Respondetur quod imperium non fuit sibi datum efficaciter nisi respectu sui corporis et <unclear>un?</unclear> respectu 
+          <lb ed="#E"/>sui corporis Secundo dicebat quod de potentia dei absoluta non videt quando universale regimen 
+          <lb ed="#E"/>universi posset creaturae communicari unde ita posset probabiliter dici de anima christi tamen ex hoc 
+          <lb ed="#E"/>non sequeretur quod posset movere caelum per alium motum quam nunc movetur quia staret quod deus 
+          <lb ed="#E"/>illo modo solum sibi communicaret movere caelum tamquam esset una causa inmediate deo 
+        </p>
+        <p>
+          Item 
+          <lb ed="#E"/>arguebat Cordig sequitur quod si adam fuisset in igne non fuisset conbustus nec ignis lae<lb ed="#E"/>sisset 
+          eum si sibi non placuisset quibus potuisset praecepisse igni ne ageret in ipsum 
+          <lb ed="#E"/>patet solutio ex dictis
+        </p>
+        <p>
+          Item sequeretur quod potuisset fecisse <unclear>grandines</unclear> et plumas
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
