@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 50, De fruitione [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 50, De fruitione [Palantine Transcription]</title>
+          <date when="2020-01-02">January 02, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="69-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio50">
+        <head xml:id="ppr-l50-Hldfldf">Lectio 50, de Fruitione</head>
+        <div xml:id="ppr-l50-Dd1e104">
+          <head xml:id="ppr-l50-Hraprap">Responsiones ad plures rationes quod Deo posset frui ex puris naturalibus</head>
+          <!--
+            not present
+            <p xml:id="ppr-l50-lrpaam">
+            Licet rationes superius tactae includant multas 
+            difficultates, quae requirerent magnum processum, tamen 
+            pro nunc salventur omnes, ut veniam ad alias materias.
+          </p>-->
+          <div xml:id="ppr-l50-Dd1e112">
+            <head xml:id="ppr-l50-Hatratr">Ad tertiam rationem</head>
+            <p xml:id="ppr-l50-atqemi">
+              <lb ed="#E" n="3"/>In alia lectione 
+              <lb ed="#E"/>Ad tertiam rationem prius factam Arguebatur quod ex puris naturalibus quis posset frui deo 
+              <lb ed="#E"/>nam tota motivitatis gratiae est finita maxime in persona cuius virtutes non sunt multum 
+              <lb ed="#E"/>intense
+            </p>
+            <p xml:id="ppr-l50-stpepn">
+              sed tanta vel maior potest esse in puro philosopho ex apparentia divinae bonitatis igitur in philosopho 
+              <lb ed="#E"/>magis vel aeque bene sic in simplici persona ex caritate
+            </p>
+            <p xml:id="ppr-l50-eaieud">
+              Dicendum est primo quod illa reprobat 
+              <lb ed="#E"/>quod staret philosophum ex puris naturalibus magis diligere deum intensive quam vetula di<lb ed="#E"/>ligit 
+              <lb ed="#E"/>sed non fruitive sed per modum usus quia sicut dictum est quicquod fit extra caritatem 
+              <lb ed="#E"/>fit per relationem ad se quia ut dilectionis in sua cognitione facit vel alium finem ponit
+              <!-- break ?? -->
+              <lb ed="#E"/>Alio modo dicitur quod ex puris naturalibus non posset quis huiusmodi dictamen provenire quod deus 
+              <lb ed="#E"/>esset propter se diligendus
+            </p>
+            <p xml:id="ppr-l50-sdpefc">
+              Alio modo quod cognitio de deo quae habetur ex puris naturalibus realiter inflat 
+              <lb ed="#E"/>ergo operatur ad superbiam et magis ad fruitionem creaturae per quam deus contempnitur 
+              <lb ed="#E"/>realiter
+            </p>
+            <p xml:id="ppr-l50-tdssbi">
+              <lb ed="#E"/>Alio modo dicitur si daretur aliqua cognitio in intellectu practico etiam speculativo tantae perfectionis 
+              <lb ed="#E"/>in philosopho quod consurgeret ex puris naturalibus quod deus esset propter se diligendus diceretur quod esset 
+              <lb ed="#E"/>dispositio ad diligendum deum super omnia per istum modum quod si voluntas non poneret obicere 
+              <lb ed="#E"/>per malas voluntates infunderetur sibi gratia qua mediante posset elicere actum fruitivus 
+              <lb ed="#E"/>respectu dei Ante tamen gratiae infusione non posset quia voluntas deserta a gratia semper 
+              <lb ed="#E"/>tendit in se et recedit a summo bono incommutabili
+            </p>
+            <p xml:id="ppr-l50-qdmccp">
+              ultimo diceretur respondendo magis ad 
+              <lb ed="#E"/>formam rationis ex quo movet ista notitia videtur <add place="above-line">quod</add> magis movebitur voluntas talis puri 
+              <lb ed="#E"/>philosophi quam voluntas simplicis personae iuxta casum positum dicitur quod istae motivitates sunt 
+              <lb ed="#E"/>alterius speciei seu aliarum specierum scilicet in philosopho non perveniret ad <unclear>modum</unclear> motivitatis superioris 
+              <lb ed="#E"/>speciei scilicet intenderetur in philosopho quam in simplici sed ex hoc non sequitur quod posset pertingere ad totum perfectionem 
+              <lb ed="#E"/>sicut in persona simplici de qua positus est casus
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e156">
+            <head xml:id="ppr-l50-Haqraqr">Ad quartam rationem</head>
+            <p xml:id="ppr-l50-aqrqef">
+              <ref xml:id="ppr-l50-Rd1e165" target="http://scta.info/resource/ppr-l47-qaegie">Ad quartam</ref> quae est satis difficilis arguebatur in 
+              <lb ed="#E"/>sententia sit aliquis extra gratiam atteritur ergo debite diligit et per consequens fruitur quia omnis debita dilectio 
+              <lb ed="#E"/>est fruitio dei si dicitur quod non debite tunc attritio est peccatum et per consequens magis indisponeret crea<lb ed="#E"/>turam 
+              ad hoc quod refutaretur ad gratiam et per consequens melius esset non atteri
+            </p>
+            <p xml:id="ppr-l50-airsap">
+              <lb ed="#E"/>Respondet <name ref="#RobertHalifax">Eliphat</name> dicens 
+              <lb ed="#E"/>Quod detestatio peccati est displicentia de peccato et propositum de non committendo si voluntas 
+              <lb ed="#E"/>non fruatur actualiter creatura licet habitualiter sit dispositio sufficiens ad gratiae susceptionem Ideo 
+              <lb ed="#E"/><name ref="#RobertHalifax">Eliphat</name> concedit consequenter quod in attritione a creatura fruitur habitualiter creatura sed non actualiter
+            </p>
+            <p xml:id="ppr-l50-sirens">
+              <lb ed="#E"/>Sed ista responsio non potest stare nam capio actum detestativum peccati seu actum refutativum 
+              <lb ed="#E"/>peccati et velle numquam peccare seu actum <unclear>proponendi</unclear> numquam peccare qui requiruntur ad attritionem 
+              <lb ed="#E"/>quibus istorum actuum vel est actus ordinatus vel inordinatus
+              <!-- break --> 
+              Si est usus ordinatus 
+              <lb ed="#E"/>est fruitio dei actualiter 
+              <!-- break? -->
+              Si dicitur quod non est ordinatus sequitur quod est fruitio creaturae quia omnis 
+              <lb ed="#E"/>usus inordinatus est dilectio alicuius propter creaturam ergo creatura est obiectum ultimatum 
+              <lb ed="#E"/>fruibile <unclear>haec<!-- possible deletion --></unclear> respectu huius actus 
+            </p>
+            <p xml:id="ppr-l50-tevfet">
+              Tenendo ergo viam <name ref="#Augustine">augustini</name> et radicem prius acceptam scilicet 
+              <lb ed="#E"/>quod omnis actus mundi qui fit extra caritatem fit ex cupiditate et omnis bonus ex cari<lb ed="#E"/>tate 
+              Si ex cupiditate inclinat ad affectionem sui ipsius cuius huiusmodi actus est 
+              <!-- break -->
+              Advertendum 
+              <lb ed="#E"/>quod creatura carens gratia et existens in peccato habet aliqua peccata in pura sua liber<lb ed="#E"/>tate 
+              verbi gratia sicut laedere proximum furari
+            </p>
+            <p xml:id="ppr-l50-asatfc">
+              Alii sunt actus ad quos realiter obligatur 
+              <pb ed="#E" n="70-r"/>
+              <lb ed="#E"/>Creatura qui quidam actus non possunt bene fieri stante tali dispositione creaturae Verbi gratia 
+              <lb ed="#E"/>odium peccati propter se non potest fieri quin sit deordinatio quaedam nam creatura eo ipso quod 
+              <lb ed="#E"/>odit peccatum propter se ymmo aliquo modo fruitur creatura 
+            </p>
+            <p xml:id="ppr-l50-cabssi">
+              Consimiliter amor boni propter se 
+              <lb ed="#E"/>diligentem non potest fieri quin sit aliqua deordinatio ex eo quod semper in tali amore est 
+              <lb ed="#E"/>fruitio creaturae scilicet sui ipsius
+            </p>
+            <p xml:id="ppr-l50-auqria">
+              <pc type="#pilcrow"/>Advertendum ulterius quod ubi actus aliquis cadit sub praecepto 
+              <lb ed="#E"/>et cum hoc peccatum eliciendo non est aliqua de ordinatio nec aliquod malum nisi praecise quia propter 
+              <lb ed="#E"/>se diligentem elicitur huiusmodi actus talis non reputatur sibi ad demeritum quia cadit sub 
+              <lb ed="#E"/>praecepto et nullo modo potest evitare <seg type="correction">quin<del rend="strikethrough">i</del></seg> sit propter se id est diligente ideo deus parcit sibi Causa 
+              <lb ed="#E"/>est quia illa est suprema dispositio quam creatura potest habere in illo statu nam quantum posset 
+              <lb ed="#E"/>in illo statu implet praeceptum etiam quam potest evitat quemcumque actum malum elicitum 
+              <lb ed="#E"/>alium ab isto et cum hoc huiusmodi relatio est sibi neccessaria ita quod nullo modo potest evitare
+            </p>
+            <!-- reason for break is fuzzy -->
+            <p xml:id="ppr-l50-ueoqco">
+              ubi ergo omnes 
+              <lb ed="#E"/>circumstantiae evitanter praeter quod <add place="above-line">est</add> referre in se actus non reputatur ad demeritum et 
+              <lb ed="#E"/>quia non potest elicere quando referat in se ratione suae infirmitatis quae relatio est de necessitate sequitur 
+              ad suam infinitatem non reputatur sibi 
+              <!-- break? -->
+              Et sic attritio ex quo cadit sub praecepto et 
+              <lb ed="#E"/>non potest evitare quin sit propter se diligentem non possunt fieri quin sit aliqualis deordinatio 
+              <lb ed="#E"/>non tamen eius demeritum et maxime cum terminetur ad gratiam Et hoc proprie est facere quod in se est 
+              <lb ed="#E"/>scilicet ponere actus ad quos obligatur creatura tollendo omnem circumstantiam malitiae 
+              <lb ed="#E"/>quam creatura potest tollere 
+            </p>
+            <p xml:id="ppr-l50-esinep">
+              Et sic dicitur quod in illo casu creatura facit quod in se est et sic male 
+              <lb ed="#E"/>volitiones et operationes quae sunt in potestate voluntatis dicuntur obices Et sic 
+              <lb ed="#E"/>relatio talis quia non est in illo statu <unclear>removibilis</unclear> a creatura sic quod non est in sua potestate 
+              <lb ed="#E"/>illa circumstantia non vocatur obex <pc type="#punctus"/> motum cognoscendi est quia illam non posset 
+              <lb ed="#E"/>tollere et omnem aliam tollit Salvatur per istud quod attritio includit realiter fruitionem 
+              <lb ed="#E"/>creaturae sed non est demeritum et hoc ex divina misericordia non inputante sibi Et sic patet quid 
+              <lb ed="#E"/>sit ponere obicem id est malas volitiones vel omissiones liberas a movibiles 
+              <lb ed="#E"/>per voluntatem et quid est facere quod in se est et sic circumstantia quae est refutare peccatum 
+              <lb ed="#E"/>propter se et velle non peccare propter se ista non est removibilis sive gratia et sic quantum 
+              <lb ed="#E"/>subest vel subiacet suae libertate omnem <unclear>malam</unclear> circumstantiam tollit et quod non subiacet 
+              <lb ed="#E"/>sui libertati non est sibi reputandum 
+              <!-- break -->
+              Advertendum quod prout peccatum est aequaliter 
+              <lb ed="#E"/>deordinate agere concedendum est quod esset peccatum licet non demeritum nichilominus 
+              cadit sub electione non sub ratione peccati sed sub ratione boni quia movet in deum multi 
+              <lb ed="#E"/>tenent quod aliquid sit meritum et veniale peccatum ubi esset vitae aeternae meritorium 
+              <lb ed="#E"/>non caderet sub peccato 
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e257">
+            <head xml:id="ppr-l50-Hquinquin">Ad quintam rationem</head>
+            <p xml:id="ppr-l50-aqrqhc">
+              <ref xml:id="ppr-l50-Rd1e266" target="http://scta.info/resource/ppr-l47-saaosg">Ad aliam</ref> cuius difficultas non stetit in hoc Sit voluntas in cari<lb ed="#E"/>tate 
+              et elicit actus ex quibus generatur habitus in voluntate per quem postea facilitatur 
+              <lb ed="#E"/>exeundum in actus similes peccet postea et moveat habitus tunc exibit in actus et per consequens 
+              <lb ed="#E"/>aliquis existens in peccato fruitur deo
+            </p>
+            <p xml:id="ppr-l50-reqahc">
+              Respondetur admittendo quod in isto casu ex illis actibus generatur 
+              <lb ed="#E"/>habitus quae stat cum praetio sed negatur quod exibit in actus similes sicut in caritate Causa est quia 
+              <lb ed="#E"/>iste habitus existente caritate in voluntate et concurrente divina efficientia bene sufficiebat 
+              <lb ed="#E"/>ad producendum actus fruitionis dei et adhuc sufficeret cum illis sed non sufficeret cum aliis illis ex<lb ed="#E"/>clusis 
+              Ita quod non sufficit remota caritate nec sequitur cum caritate sufficiebat ergo ablata cari<lb ed="#E"/>tate 
+              sufficit quia requiritur concursus caritatis et coefficientia dei specialis Exemplum de moralibus 
+              <lb ed="#E"/>Capiamus habitum fortitudinis vel temperantiae quia cuius concursus requiritur in singulis 
+              
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l50-etpfvp">
+              ponamus 
+              <lb ed="#E"/>quod in virtuoso qui habet omnes virtutes cardinales auferatur habitus prudentiae
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l50-tqrcds">
+              <pb ed="#E" n="70-v"/>
+              <lb ed="#E"/>utrum habitus fortitudinis exibit in actum fortitudinis dicitur quod non exit nisi dirigente habitu 
+              <pb ed="#E" n="70-v"/>
+              <lb ed="#E"/>prudentiae et sic in proposito
+            </p>
+            <p xml:id="ppr-l50-stqmhm">
+              Tunc quaeritur ut sufficeret exire in aliquos actus Credere 
+              <lb ed="#E"/>quod non quia eius causalitas est respectu actuum fruitivorum et est subordinatus aliis 
+              <lb ed="#E"/>certis causis ut color non multiplicat nisi causa concursu luminis unde sublato lumine non 
+              <lb ed="#E"/>sufficit et sic eius causalitas non reduceretur ad actum nisi per applicationem ad caritatem
+              <lb ed="#E"/>Ex consequenti fortiter replicaretur probando quod non esset ponendus huiusmodi actus quia non 
+              <lb ed="#E"/>esset medium probandi quod esset post ponendus non <unclear>dirigente</unclear> caritas quia dicitur quod virtute 
+              <lb ed="#E"/>illius producitur huiusmodi actus quia sufficiet caritas nec extra caritatem quia tunc non possumus 
+              <lb ed="#E"/>experiri
+              <!-- break ? -->
+              Et ideo ego admisi causa argumenti diceretur quod ex actibus caritatis generantur 
+              <lb ed="#E"/>habitus meritorii et non productivi aliorum actuum et sic potest negari esse talis habitus
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e292">
+            <head xml:id="ppr-l50-Hasrasr">Ad sextam rationem</head>
+            <p xml:id="ppr-l50-arfeef">
+              <lb ed="#E"/><ref xml:id="ppr-l50-Rd1e301" target="http://scta.info/resource/ppr-l47-ssiisd">Ad aliam</ref> rationem de zelatore suae legis ille moritur propter legem suum et non ultimate propter illam 
+              <lb ed="#E"/>sed refert in deum ultimate ergo fruitur deo et ita de haereticis qui se exponunt morti propter 
+              <lb ed="#E"/>deum
+            </p>
+            <p xml:id="ppr-l50-rqidgv">
+              Respondendum quod in isto casu creatura realiter fruitur se et facit propter se nam ex igno<lb ed="#E"/>rantia 
+              facit hoc quae est ignorantia neccessariorum ad salutem ideo est in peccato et deseritur 
+              <lb ed="#E"/>a deo Et quia deseritur a deo utitur deo propter se vel quia gloriatur sustinendo huiusmodi poenam 
+              <lb ed="#E"/>quia apparet sibi quod sit sibi magna perfectio et non refert in deum licet refert vel facit 
+              <lb ed="#E"/>propter gloriam licet sibi latentem quia ut dictum est non posset evidenter constare utrum 
+              <lb ed="#E"/>talis relatio sit ad nos vel in deum Et ideo quando dicit sapiens nemo scit an amore 
+              <lb ed="#E"/>vel odio dignus ad timorem dei Et si talis sustinet mortem propter finem 
+              <lb ed="#E"/>temporalem licet nesciat scilicet vel propter gloriam vel propter obstinatam vel alium finem unde multi 
+              <lb ed="#E"/>Romani ut nomen eorum haberetur <unclear>gloriosum</unclear> post mortem voluerunt subire mortem
+            </p>
+            <p xml:id="ppr-l50-uaqcep">
+              Notandum 
+              <lb ed="#E"/>quod eidem iudaei in numero bene credentes ante adventum christi habuerunt zelum legis 
+              <lb ed="#E"/>ante huiusmodi adventum alterius speciei quem post habuerunt patet quia prius adventum obli<lb ed="#E"/>gabantur 
+              ad legem christi et sic mutaverunt zelum suae legis licet non perciperent 
+              <lb ed="#E"/>et sic post adventum christi habuerunt alium finem licet non cognoscebant quia propter actum 
+              <lb ed="#E"/>reflexum est magna difficultas Et communiter visum est quod haeretici erant purissimum 
+              <lb ed="#E"/>homines non sunt de virtutibus christi
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e319">
+            <head xml:id="ppr-l50-Hadsnem">Ad septimam rationem</head>
+            <p xml:id="ppr-l50-areebr">
+              <pc type="#pilcrow"/>Ad aliam rationem scilicet de non baptizato merito dicitur 
+              <lb ed="#E"/>quod non faceret similes actus quo ad interiores licet crederet bene referre ipse referret omnes 
+              <lb ed="#E"/>ad se 
+              <!-- break -->
+              si tamen faceret quod in se esset tunc deus infunderet sibi gratiam et tunc converteretur supra 
+              <lb ed="#E"/>se ad diligendum deum magis quam se 
+              <!-- break -->
+              Caritas habet tollere poenam peccati originalis scilicet 
+              <lb ed="#E"/>cupiditatem et secundum quod caritas crescit minuitur cupiditas unde <ref xml:id="ppr-l50-Rd1e966"><name>augustinus</name> 
+              <title>ad boni<lb ed="#E"/>facium</title></ref> <unclear>minuitur</unclear> cupidiens caritate crescente
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e341">
+            <head xml:id="ppr-l50-Hanranr">Ad nonam rationem</head>
+            <p xml:id="ppr-l50-areppp">
+              <pc type="#pilcrow"/><ref xml:id="ppr-l50-Rd1e350" target="http://scta.info/resource/ppr-l47-iisesr">Ad aliam rationem</ref> arguentem quod 
+              <lb ed="#E"/>natura humana esset male instituta quia non potest sicut aliae dicitur quod ista impossibi<lb ed="#E"/>litas 
+              et inordinatio <add place="above-line">non</add> consurgit ex naturali et primaeva institutione naturae sed ex culpa vel poena 
+              <lb ed="#E"/>peccati originalis
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e356">
+            <head xml:id="ppr-l50-Hadradr">Ad decimam rationem</head>
+            <p xml:id="ppr-l50-aaqenc">
+              <pc type="#pilcrow"/><ref xml:id="ppr-l50-Rd1e365" target="http://scta.info/resource/ppr-l47-ianvem">Ad aliam rationem</ref> quando dicitur creatura potest frui aliquo <add place="above-line">etc</add> dicitur quod 
+              <lb ed="#E"/>de necessitate fruitur inordinate stante lege ad bonum sensum scilicet quod haec consequentia neccessaria 
+              <lb ed="#E"/>fruitur etc igitur inordinate fruitur 
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e371">
+           <head xml:id="ppr-l50-Hauraur">Ad undecimam rationem</head>
+            <p xml:id="ppr-l50-aaqaod">
+              <ref xml:id="ppr-l50-Rd1e380" target="http://scta.info/resource/ppr-l47-irnmpf">Ad aliam rationem</ref> quia potest percipere ordinem ex puris 
+              <lb ed="#E"/>naturalibus etiam voluntas posset variare ordinem Respondetur quod dato adhuc quod clare videtur 
+              <lb ed="#E"/>intellectus ordinem adhuc voluntas non conformaret se propter corruptelam suam 
+              <lb ed="#E"/>secundum cupiditatem
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e386">
+            <head xml:id="ppr-l50-Hd1e388">Ad duodecimam rationem</head>
+            <p xml:id="ppr-l50-aaqfde">
+              <ref xml:id="ppr-l50-Rd1e395" target="http://scta.info/resource/ppr-l47-insiim">Finaliter dicebatur</ref> quod voluntas 
+              potest frui alio a se <name>Augustinus</name> et <name>Ans<lb ed="#E"/>helmus</name> dicunt quod quidquid diligit extra gratiam refert ad se sicut de illis romanis qui 
+              <lb ed="#E"/>non credebant vitam esse post istam voluerunt venerari post se videlicet quando non
+              essent et ille est finis affectionis commodi et cupiditatis
+            </p>
+          </div>
+          <div xml:id="ppr-l50-Dd1e405">
+            <head xml:id="ppr-l50-aaraar">Ad aliam rationem</head>
+            <p xml:id="ppr-l50-aadpbt">
+              <ref xml:id="ppr-l50-Rd1e414" target="http://scta.info/resource/ppr-l48-ccmege">Ad aliam rationem</ref> 
+              <lb ed="#E"/>romani meruerunt gloriam et divinum Item de obstetricibus quia aedificate fuerunt eis domus 
+              <lb ed="#E"/>per modum meriti Respondendum aliqui tenent quod sicut meritorium vitae aeternae est demeri<lb ed="#E"/>torium 
+              alicuius poenae temporalis propter aliquam circumstantiam sic aliquid esset demeritorium 
+              <lb ed="#E"/>vitae aeternae et esset meritorium alicuius boni temporalis 
+            </p>
+            <!-- reason fro break a little unclear -->
+            <!--- this paragraph seems included in above. not sure if break is justified in other version -->
+            <!--<p xml:id="ppr-l50-esdabt">
+              Et sic diceretur quod licet illi Romani essent mali, 
+              tamen meruerunt aliquod bonum temporale.
+            </p>-->
+            <p xml:id="ppr-l50-amdder">
+              Aliter dicitur quod nullum malum 
+              <lb ed="#E"/>est meritorium ut romani qui non ex caritate sed ex cupiditate fecerunt totum erat 
+              <lb ed="#E"/>peccatum quia semper malo zelo nec meruerunt bonum temporale verum tamen quod 
+              <lb ed="#E"/>tale bonum temporale potest vocari merces non per modum retributionis scilicet per modum intentionis
+              <lb ed="#E"/>scilicet quia hoc intendebat et occulto iudicio dei illud quod pro mercede intendebant rece<lb ed="#E"/>perunt 
+              et promissum est et sic expediens fuit ad tollendum peccata et sic fecerunt 
+              <lb ed="#E"/>romani et ideo ut illa alia vicia tollerentur deus voluit eis dare imperium
+            </p>
+            <p xml:id="ppr-l50-dodbff">
+              de obsti<lb ed="#E"/>tricibus 
+              dicitur quod forte fuerunt aliqui de hebraeis et ergo staret quod merentur vitam 
+              <lb ed="#E"/>aeternam et etiam ad hoc bonum temporale ut quis meretur et liberationem a poena vel dicitur 
+              <lb ed="#E"/>quod forte fuerunt converse vel forte <unclear>hebraei</unclear> oraverunt deum quod reciperent aliquod bonum 
+              et sic actus eorum non fuerunt meritorii
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l50-Dd1e1211">
+          <head xml:id="ppr-l50-Hd1e1213">Conclusiones</head>
+          <p xml:id="ppr-l50-d1e1216">
+            <pc type="#pilcrow"/><sic><pc type="#pilcrow"/></sic> Circa distinctionem 48am et ultimam libri primi 
+            <lb ed="#E"/>sententiarum prima conclusio voluntas nostra conformando se voluntati divinae in volito potest esse bona 
+            <lb ed="#E"/>et potest esse mala ut deus vult quod proximus moriatur et si ego hoc velim ego forte pecca<lb ed="#E"/>rem 
+            Etiam deus vult <c>a</c> actum odii fieri et si ego produco ego pecco
+          </p>
+          <p xml:id="ppr-l50-d1e1242">
+            Secunda conclusio voluntas 
+            <lb ed="#E"/>dei semper ad impletur voluntas dei idem actus et duplicis voluntatis scilicet beneplaciti et signi 
+            <lb ed="#E"/>Occisio christi ille actus erat meritorius christo et erat contra voluntatem dei signi respectu in<lb ed="#E"/>ferentium 
+            quando concurrunt duo actus unus prohibitive et alter etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
