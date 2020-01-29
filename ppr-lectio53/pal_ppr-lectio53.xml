@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 53, de Fruitione [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 53, de Fruitione [Palantine Transcription]</title>
+          <date when="2020-01-16">January 16, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="98-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="lectio53">
+        <head xml:id="ppr-l53-Hldfldf">Lectio 53, de Fruitione</head>
+        <div xml:id="ppr-l53-Dd1e110">
+          <head xml:id="ppr-l53-Hsarpem">Solutio ad rationem quod naturalis tendentia posset esse mala</head>
+          <p xml:id="ppr-l53-pffcod">
+            <lb ed="#PV" n="12"/>Alia lectio 62a
+            <lb ed="#PV"/>et fuerunt factae rationes ad proban<lb ed="#PV"/>dum
+            quod naturalis tendentia et 
+            <lb ed="#PV"/>primaeva rerum posset esse ma<lb ed="#PV"/>la 
+          </p>
+          <div xml:id="ppr-l53-Dd1e118">
+            <head xml:id="ppr-l53-Hapapap">Ad primam</head>
+            <p xml:id="ppr-l53-apcrso">
+              primo arguebatur quod natura 
+              <lb ed="#PV"/>humana ab adolescentia <unclear>et prona<lb ed="#PV"/>rum</unclear> 
+            </p>
+            <p xml:id="ppr-l53-psiars">
+              Advertendum pro solutione 
+              <lb ed="#PV"/>quod in statu naturae integre ius<lb ed="#PV"/>titia 
+              originalis se habebat 
+              <lb ed="#PV"/>tamquam habitus servans perfec<lb ed="#PV"/>tam 
+              obedientiam virium infe<lb ed="#PV"/>riorum 
+              tamen alium quam naturalium 
+              <lb ed="#PV"/>et eas subiciebat ad plenam 
+              <lb ed="#PV"/>obedientiam rationis ita quod erat 
+              <lb ed="#PV"/>in regno animae perfecta pax 
+              <lb ed="#PV"/>tranquillitas et obedientia 
+              <lb ed="#PV"/>Sed propter poenam peccati subla<lb ed="#PV"/>ta 
+              est huiusmodi iustitia et suc<lb ed="#PV"/>cesset 
+              <del>d</del> habitus de <unclear>directo</unclear> <unclear>concursus</unclear> 
+              <lb ed="#PV"/>scilicet cupiditas ponens rebellionem 
+              <lb ed="#PV"/>inter vires inferiores ad superi<lb ed="#PV"/>orem
+              inclinans quod <unclear>dominentur</unclear> super<lb ed="#PV"/>ior <pc type="#punctus"/>
+            </p>
+            <p xml:id="ppr-l53-uaqres">
+              Advertendum quod in viribus 
+              <lb ed="#PV"/>inferioribus duplex est inclina<lb ed="#PV"/>tio 
+              primaeva scilicet quae non tollitur 
+              <lb ed="#PV"/>et superveniens quem est fortior et 
+              <lb ed="#PV"/>vincit <unclear>una generandum</unclear> est quod in sta<lb ed="#PV"/>tu 
+              naturae lapsae vires inferiores 
+              <lb ed="#PV"/>habent illam inclinationem ad debite 
+              <lb ed="#PV"/>obediendum ratione tamquam superiori
+              <lb ed="#PV"/>quam habuerunt ab initio et sic nichil<lb ed="#PV"/>ominus 
+              cupiditas quasi tirannice 
+              <lb ed="#PV"/>dominas ei in regno animae cogit 
+              <cb ed="#PV" n="b"/> <!--98vb-->
+              <lb ed="#PV"/>eas scilicet vires inferiores ad rebel<lb ed="#PV"/>landum 
+              et tali inclinatione quae sufficit 
+              <lb ed="#PV"/>ad executionem operum hic habetur 
+              <lb ed="#PV"/>radix qualiter <unclear>natura</unclear> ab adolescentia 
+              <lb ed="#PV"/>est prona ad malum Nam inclinatio 
+              <lb ed="#PV"/>cupiditatis est fortior quam inclina<lb ed="#PV"/>tio 
+              naturalis et sic a proportione maioris 
+              <lb ed="#PV"/>in <unclear>elitatis</unclear> <unclear>sit</unclear> actio Consequenter 
+              <lb ed="#PV"/>dicendum quod tanta est pronitas 
+              <lb ed="#PV"/>ad malum quod totum regnum animae 
+              <lb ed="#PV"/>semper male regitur etiam <unclear>necessa alio</unclear> 
+              <lb ed="#PV"/>ut ita loquor nisi aliunde Iuvetur 
+              <lb ed="#PV"/>quia cupiditas semper inclinat 
+              <lb ed="#PV"/>nisi inclinatio naturalis iuvetur caritate
+              <lb ed="#PV"/>quae est de directo est contraria cupiditati 
+              <lb ed="#PV"/>et adiutiva inclinationum naturalium 
+              <lb ed="#PV"/>et tunc illa inclinatio sit vita 
+              <lb ed="#PV"/>caritate sufficit etc
+            </p>
+            <p xml:id="ppr-l53-pthmsr">
+              et sic patet ad illam 
+              <lb ed="#PV"/>rationem posset dubitare hic utrum 
+              <lb ed="#PV"/>ista tyrranis et de ordinatio fuerit 
+              <lb ed="#PV"/>solum in homine Quantum ad hoc 
+              <lb ed="#PV"/>potest probabiliter dici quod non solum in 
+              <lb ed="#PV"/>homine fuit huiusmodi cupiditas 
+              <lb ed="#PV"/>sed in toto regimine corporalis naturae 
+              <lb ed="#PV"/>praecipue corruptibilis infra concavum 
+              <lb ed="#PV"/>orbis lumine Et variata fuit 
+              <lb ed="#PV"/>armonia Nam sicut vires sen<lb ed="#PV"/>sitivae 
+              <lb ed="#PV"/>rebelles sunt rationi ita 
+              <lb ed="#PV"/>animalia hominum et obedivissent 
+              <lb ed="#PV"/>homini vero modo rebellant
+            </p>
+            <p xml:id="ppr-l53-iqaset">
+              Etiam quantum 
+              <lb ed="#PV"/>ad sanctificationem terrae ipsa male 
+              <lb ed="#PV"/>dicta fuit Sed in statu naturae 
+              <lb ed="#PV"/>integre optima produxisset 
+            </p>
+            <p xml:id="ppr-l53-iieftm">
+              <lb ed="#PV"/>Etiam sic est de elementis unde 
+              <lb ed="#PV"/>fuisset optima dispositio Sed 
+              <lb ed="#PV"/><unclear>minus</unclear> insurgunt pestilentiae et alia 
+              <lb ed="#PV"/>mala et sic non solum regimen 
+              <lb ed="#PV"/>animae fuit immutatum ymmo etc sicut 
+              <lb ed="#PV"/>dictum est
+            </p>
+            <p xml:id="ppr-l53-srasic">
+              Aliud dubium utrum 
+              <lb ed="#PV"/>inclinationes purae naturales in statu 
+              <lb ed="#PV"/>naturae lapsae sint aeque intensae
+              <lb ed="#PV"/>sicut fuerunt in statu naturae integre 
+              <lb ed="#PV"/>apparet quod non quomodo homo quandoque non ex<lb ed="#PV"/>peritur 
+              se inclinare nisi 2m cupiditatem 
+              <pb ed="#PV" n="99-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>Breviter utrumque potest dici primo 
+              <lb ed="#PV"/>quod sunt remissae in aliquo gradu 
+              <lb ed="#PV"/>licet non sublate unde doctores 
+              <lb ed="#PV"/>videntur dicere unam vulnera<lb ed="#PV"/>tionem 
+              quantum ad inclinationes 
+              <lb ed="#PV"/>naturales ita quod sunt remissae bonae in<lb ed="#PV"/>clinationes 
+              <!-- break -->
+              Alio modo potest dici quod 
+              <lb ed="#PV"/>non sunt remissae et quod non oportet 
+              <lb ed="#PV"/>nisi ymaginari intensionem 
+              <lb ed="#PV"/>vel remissionem cupiditatis unde 
+              <lb ed="#PV"/>staret cupiditatem est ita intensam 
+              <lb ed="#PV"/>quod nullo modo perciperemus motum 
+              <lb ed="#PV"/>inclinationis naturalis
+            </p>
+            <p xml:id="ppr-l53-eeeqin">
+              Ex isto satis 
+              <lb ed="#PV"/>apparet quod natura humana scilicet dere<lb ed="#PV"/>licta 
+              semper corrueret ad malum et esset 
+              <lb ed="#PV"/>prona ad ipsum 
+            </p> 
+            <p xml:id="ppr-l53-sifism">
+              sed iterum <unclear>fortior</unclear> est 
+              <lb ed="#PV"/>caritas quam cupiditas et vin<lb ed="#PV"/>cit 
+              cupiditatem et ergo cum caritate 
+              <lb ed="#PV"/>bene operatur et sic caritas crescti 
+              <lb ed="#PV"/>quantum ad effectum ut dicit <name>Augustinus</name> 
+              <lb ed="#PV"/>minuitur cupiditas crescente 
+              sed iterum <unclear>fortior</unclear> est 
+              <lb ed="#PV"/>caritas quam cupiditas et vin<lb ed="#PV"/>cit 
+              cupiditatem et ergo cum caritate 
+              <lb ed="#PV"/>bene operatur et sic caritas crescti 
+              <lb ed="#PV"/>quantum ad effectum ut dicit <name>Augustinus</name> 
+              <lb ed="#PV"/>caritate
+            </p>
+          </div>
+          <div xml:id="ppr-l53-Dd1e173">
+            <head xml:id="ppr-l53-Hasrasr">Ad secundam rationem</head>
+            <p xml:id="ppr-l53-sassep">
+              2o ratio fuit ista si 
+              <lb ed="#PV"/>natura inclinaret ad bonum sequeretur 
+              <lb ed="#PV"/>quod ex puris naturalibus aliquis 
+              <lb ed="#PV"/>posset attingere deum et suam felici<lb ed="#PV"/>tatem 
+              consequens est error <name ref="#Pelagius">palagii</name>
+            </p>
+            <p xml:id="ppr-l53-reqmva">
+              Respondendum 
+              <lb ed="#PV"/>est primo dato quod natura non esset corrup<lb ed="#PV"/>ta 
+              et quod inclinationes naturales 
+              <lb ed="#PV"/>haberent suum effectum respectu 
+              <lb ed="#PV"/>finis ultimi et <unclear>mediores</unclear> nichil<lb ed="#PV"/>ominus 
+              huiusmodi opera non essent 
+              <lb ed="#PV"/>meritoria nec fruitio dei ex 
+              <lb ed="#PV"/>huiusmodi elicita esset vitae aeternae 
+              <lb ed="#PV"/>meritoria et sic illo dato scilicet 
+              <lb ed="#PV"/>quod natura esset integra et haberet 
+              <lb ed="#PV"/>omnem <del rend="strikethrough">quem</del> effectum quem posset 
+              <lb ed="#PV"/>non meretur vitam aeternam
+            </p>
+            <p xml:id="ppr-l53-sdqsii">
+              <lb ed="#PV"/>2o homo non potest naturaliter attingere 
+              <lb ed="#PV"/>ad quod natura inclinat ut dato quod 
+              <lb ed="#PV"/>inclinaret ad finem et ad medium 
+              <lb ed="#PV"/>non sequitur quod posset mereri vitam 
+              <lb ed="#PV"/>aeterna ex puris naturalibus quia non 
+              <lb ed="#PV"/>potest sequi illam inclinationem per cupi<lb ed="#PV"/>ditas 
+              vincit et inclinat ad op<lb ed="#PV"/>timum 
+              <del rend="strikethrough">l</del> sicut si aliquod corpus 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>ratione alicuius levitatis remissae et in<lb ed="#PV"/>clinaretur 
+              ad sursum et esset ibi 
+              <lb ed="#PV"/>in quadruplo plus de gravitate 
+              <lb ed="#PV"/>tunc etc
+            </p>
+            <p xml:id="ppr-l53-tdqnad">
+              3o dico quod inclinatio 
+              <lb ed="#PV"/>naturalis licet semper sit recta non 
+              <lb ed="#PV"/>tamen est recta respectu cuiuscumque 
+              <lb ed="#PV"/>obiecti puta quod versum est incar<lb ed="#PV"/>natum 
+              quia hoc excedit limites 
+              <lb ed="#PV"/>naturae nec inclinat ad regratiandum 
+              de passione etc quae tamen sunt 
+              <lb ed="#PV"/>necessaria ad salutem consequen<lb ed="#PV"/>dam 
+              et sic licet hanc potest sequi 
+              <lb ed="#PV"/>tamen non sufficit inclinatio 
+              <lb ed="#PV"/>naturalis ad omnia quae requiruntur 
+              <lb ed="#PV"/>ad salutem quia non inclinet 
+              <lb ed="#PV"/>ad omnia
+            </p>
+            <p xml:id="ppr-l53-qdqaea">
+              4to dicitur quod adme<lb ed="#PV"/>rendum 
+              requiritur caritas quod 
+              <lb ed="#PV"/>totaliter est supra naturae facilitatem 
+              <lb ed="#PV"/>ideo nec natura inclinat ad eam 
+              <lb ed="#PV"/>nec potest ad eam attingere 
+            </p>
+            <p xml:id="ppr-l53-qdqsam">
+              5to 
+              <lb ed="#PV"/>dato quod natura ad animam necessaria 
+              <lb ed="#PV"/>ad salutem inclinaret tamen 
+              <lb ed="#PV"/>hoc quod sufficeret ad illa creden<lb ed="#PV"/>da 
+              si essent credenda vel operan<lb ed="#PV"/>da 
+              si adhuc non sequitur quod homo 
+              <lb ed="#PV"/>sequendo sic naturam meretur vitam 
+              <lb ed="#PV"/>aeternam causa est quia non videtur 
+              <lb ed="#PV"/>magna implicatio quod aliquis 
+              <lb ed="#PV"/>crederet omnes articulos fidei et 
+              <lb ed="#PV"/>diligeret deum super omnia et opera<lb ed="#PV"/>retur 
+              iuxta mandata et tamen 
+              <lb ed="#PV"/>non meretur quia staret quod omnia 
+              <lb ed="#PV"/>ista faceret sine caritate sicut forte 
+              <lb ed="#PV"/>in statu innocentiae homo potuit 
+              <lb ed="#PV"/>diligere deum super omnia Con<lb ed="#PV"/>cedunt 
+              doctores quod ex puris naturali<lb ed="#PV"/>bus 
+              quis potest diligere deum super 
+              <lb ed="#PV"/>omnia <unclear>non</unclear> huiusmodi speciei cum actu 
+              <lb ed="#PV"/>meritorio et tamen non meretur 
+              <lb ed="#PV"/>et sic consequentia esset negandam ista scilicet natura 
+              <lb ed="#PV"/>inclinat et sufficit quantum 
+              <lb ed="#PV"/>ad <unclear>suba?m</unclear> operationum igitur quod requi<lb ed="#PV"/>ritur 
+              etiam caritas
+            </p> 
+            <p xml:id="ppr-l53-idqcea">
+              
+              ulterius dicitur 
+              <pb ed="#PV" n="99-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>quod dato quod natura sufficeret ad cari<lb ed="#PV"/>tatem 
+              tamen propter hoc non suffi<lb ed="#PV"/>ceret 
+              ad moritum quia caritas 
+              <lb ed="#PV"/>liberum arbitrium fides et aliae virtu<lb ed="#PV"/>tes 
+              creatae concurrentes cum intellectu 
+              <lb ed="#PV"/>et liber arbitrio non sufficit 
+              <lb ed="#PV"/>ad merendum vitam aeternam 
+              <lb ed="#PV"/>patet quia requiritur unum multo 
+              <lb ed="#PV"/>nobilius quam sit aliquod illorum 
+              <lb ed="#PV"/>scilicet divina acceptatio etiam divinam 
+              <lb ed="#PV"/><sic>asistentia</sic> respectu actus meri<lb ed="#PV"/>torii 
+              quae etiam est nobilior quam 
+              <lb ed="#PV"/>aliquod <unclear>em?atorio</unclear> ymmo sola 
+              <lb ed="#PV"/>acceptio divina sufficeret <unclear>sine</unclear> 
+              <lb ed="#PV"/>aliis et sic non est in potestate 
+              <lb ed="#PV"/>alicuius illorum vel omnium doctorum
+              <lb ed="#PV"/>Sed divina clementia et accep<lb ed="#PV"/>tatio 
+              reddit actum meritorium 
+              <lb ed="#PV"/>vitae aeternae et sic patet ad rationem 
+              <lb ed="#PV"/>quod non concludit
+            </p>
+          </div>
+          <div xml:id="ppr-l53-Dd1e218">
+            <head xml:id="ppr-l53-atratr">Ad tertiam rationem</head>
+            <p xml:id="ppr-l53-taiser">
+              Ad tertium 
+              <lb ed="#PV"/>arguebatur sic inclinatio 
+              <lb ed="#PV"/>naturalis est libere a deo ergo deus potest 
+              <lb ed="#PV"/>eam mutare et tollere et per 
+              <lb ed="#PV"/>consequens deus potest creaturam absolvere 
+              <lb ed="#PV"/>ab illa et sic potest creaturam 
+              <lb ed="#PV"/>inclinare ad aliud tamquam 
+              <lb ed="#PV"/>in ultimum finem et per consequens 
+              <lb ed="#PV"/>erit deordinatio naturalis 
+            </p>
+            <p xml:id="ppr-l53-reqiuf">
+              Respondetur 
+              <lb ed="#PV"/>quod visa habitudine creaturae 
+              <lb ed="#PV"/>ad deum deus de potentia 
+              <lb ed="#PV"/>sua absolutus non potest facere 
+              <lb ed="#PV"/>quando creatura tenderet in ipsum 
+              <lb ed="#PV"/>ipsa creatura existente cum hoc 
+              <lb ed="#PV"/>stat quod potest facere quod non tenderet 
+              <lb ed="#PV"/>in ipsum <unclear>scilicet si</unclear> ea anicholaret 
+              <lb ed="#PV"/>Causa dicta est quia sicut non 
+              <lb ed="#PV"/>potest tendere de non esse ad esse 
+              <lb ed="#PV"/>nisi deo concurrente sit non potest 
+              <lb ed="#PV"/>manere sine adhaesione et inhaesi<lb ed="#PV"/>one 
+              ad ultimum finem Quantum 
+              <lb ed="#PV"/>est de meris finibus tactum 
+              <lb ed="#PV"/>fuit in alia lectione quia illa ten<lb ed="#PV"/>dentia 
+              est mere ex ordinatione 
+              <lb ed="#PV"/>dei et sic de illo potest dici quod potest 
+              <lb ed="#PV"/>inclinari ad alium finem sed <unclear>hab?de?</unclear>
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>ipsius creaturae ad deum est simpliciter 
+              <lb ed="#PV"/>necessaria et sic patet ad rationem 
+            </p>
+          </div>
+          <div xml:id="ppr-l53-Dd1e240">
+            <head xml:id="ppr-l53-Haqraqr">Ad quartam rationem</head>
+            <p xml:id="ppr-l53-qreiei">
+              <lb ed="#PV"/>Alia ratio scilicet quarta fuit appeti<lb ed="#PV"/>tus 
+              rationalis scilicet voluntatis potest 
+              <lb ed="#PV"/>esse in aliud a deo ergo naturalis 
+              <lb ed="#PV"/>consequentia videtur bona quia appetitus 
+              <lb ed="#PV"/>rationalis videtur esse superioris generis 
+              <lb ed="#PV"/>et potentiae ad naturalem igitur 
+              <lb ed="#PV"/>si de rationali conceditur etiam de naturali 
+              <lb ed="#PV"/>concedendum est 
+              
+              Breviter advertendum 
+              <lb ed="#PV"/>quantum ad principia istarum inclinationum 
+              <lb ed="#PV"/>scilicet quod immediatum principium inclinationis 
+              <lb ed="#PV"/>male voluntatis patet quia primae 
+              <lb ed="#PV"/>inclinationis immediatum principium 
+              <lb ed="#PV"/>inclinationis naturalis est multo 
+              <lb ed="#PV"/>nobilius quam immediatum principium 
+              <lb ed="#PV"/>inclinationis male voluntatis 
+              <lb ed="#PV"/>patet quia primae inclinationes immediatum 
+              <lb ed="#PV"/>principium est ipse deus quasi omnes 
+              <lb ed="#PV"/>creaturas quantum ad hoc vivifi<lb ed="#PV"/>cans 
+              et conservans et inclinare 
+              <lb ed="#PV"/>creaturam sicut ad se est eam conservire 
+              <lb ed="#PV"/>et istum habitudine habet tamquam 
+              <lb ed="#PV"/>recte essent deus anima vel forma 
+              <lb ed="#PV"/>creaturarum non tamen quod sit proprie 
+              <lb ed="#PV"/>forma 
+            </p> 
+            <p xml:id="ppr-l53-uliaso">
+              Elucidarius satis theologicus
+              <lb ed="#PV"/>ponit expresse quod elementa 
+              <lb ed="#PV"/>percipiunt quod <unclear>a modo </unclear> deum et plato 
+              <lb ed="#PV"/>posuit deum animam mundi saltem 
+              <lb ed="#PV"/>generale universi <ref xml:id="ppr-l53-Rd1e261"><name ref="#Aristotle">aristoteles</name> primo <title ref="#deCaelo">caeli</title></ref> 
+              <lb ed="#PV"/>ab ipso datum <quote xml:id="ppr-l53-Qd1e268">est omnibus esse</quote> 
+              <lb ed="#PV"/><ref xml:id="ppr-l53-Rd1e271"><name ref="#Virgil">virgilius</name> in 4o <title ref="#Eneads">eneydas</title></ref> spiritus 
+              <lb ed="#PV"/>inquit errat etc <!-- likely end of quote here -->
+            </p> 
+            <p xml:id="ppr-l53-esipsb">
+              non sic est de ac<lb ed="#PV"/>tibus 
+              voluntatis grave Nam 
+              <lb ed="#PV"/>voluntas est particularis causa 
+              <lb ed="#PV"/>immediata quae non habet aliam immediate 
+              <lb ed="#PV"/>concurrentem et ideo deus non concurrit 
+              <lb ed="#PV"/>nisi remississimo gradu quo 
+              <lb ed="#PV"/>concurrere potest nec se ipso faceret 
+              <lb ed="#PV"/>nisi voluntas se aplicaret quan<lb ed="#PV"/>tum 
+              est de potentia ipsa passiva se 
+              <lb ed="#PV"/>habet ad inclinationes naturales
+              <!-- break --> 
+              2o 
+              <lb ed="#PV"/>diceretur quod inclinationes naturales 
+              <lb ed="#PV"/>non essent nobiles quod non concedo
+              <pb ed="#PV" n="100-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>sicut inclinationes voluntatis 
+              <lb ed="#PV"/>pravae sed bonae possent esse ita no<lb ed="#PV"/>biles 
+            </p> 
+            <p xml:id="ppr-l53-ehnasf">
+              unde quantum ad inclinationes 
+              <lb ed="#PV"/>naturales inclinans est nobilissimum
+              <lb ed="#PV"/>et rectissimum et sic non est de alio agente 
+              <lb ed="#PV"/><unclear>ymmo</unclear> est <unclear>?alli?le</unclear> quantum est de actibus 
+              <lb ed="#PV"/>purae voluntatis ymmo sunt im<lb ed="#PV"/>perfectissimi 
+              et sic non sequitur
+            </p>
+          </div>
+          <div xml:id="ppr-l53-Dd1e289">
+            <head xml:id="ppr-l53-aququ">Ad quintam rationem</head>
+            <p xml:id="ppr-l53-qaesdc">
+              Ad 
+              <lb ed="#PV"/>quintam rationem creatura naturaliter tendit 
+              <lb ed="#PV"/>in non esse igitur non in deum 
+              <lb ed="#PV"/>quia deus est pater esse 
+            </p> 
+            <p xml:id="ppr-l53-nqcsdc">
+              Respondetur negando 
+              <lb ed="#PV"/>quod tendat in non esse ymmo summe 
+              <lb ed="#PV"/>fugit non esse quod tendit ad 
+              <lb ed="#PV"/>esse scilicet deum et illa tendentia 
+              <lb ed="#PV"/>est fuga ipsius non est <del>q</del> ad probationem 
+              <lb ed="#PV"/>quia sibi derelicta desunt esse 
+              <lb ed="#PV"/>et fluit et non esse naturae consequentia quia 
+              <lb ed="#PV"/>quod creatura non conservata desunt 
+              <lb ed="#PV"/>esse non extendentia in non esse 
+              <lb ed="#PV"/>sed ex defectu quia non habet suffi<lb ed="#PV"/>cientiam 
+              resistendi nec potest 
+              <lb ed="#PV"/>resistere verbi gratia scilicet aliquis reci<lb ed="#PV"/>pit 
+              beneficium per quod bene est per 
+              <lb ed="#PV"/>subtractionem illius cadit in pauper<lb ed="#PV"/>tatem 
+              et tamen non tendit in illam 
+              <lb ed="#PV"/>nec appetit illam pater tamen 
+              <lb ed="#PV"/>votari tendentia passiva sic 
+              <lb ed="#PV"/>quod sibi derelicta patitur corrumpitur
+            </p>
+          </div>
+          <div xml:id="ppr-l53-Dd1e306">
+            <head xml:id="ppr-l53-Hasxasx">Ad sextam rationem</head>
+            <p xml:id="ppr-l53-saeame">
+              <lb ed="#PV"/>Ad sextam illa tangit specialem 
+              <lb ed="#PV"/>difficultate de qua alias dicam
+            </p>
+          </div>
+          <div xml:id="ppr-l53-Dd1e317">
+            <head xml:id="ppr-l53-Haspasp">Ad septimam rationem</head>
+            <p xml:id="ppr-l53-satmis">
+              <lb ed="#PV"/>Ad septimam illa tangit de ma<lb ed="#PV"/>litia 
+              planetarum 
+            </p> 
+            <p xml:id="ppr-l53-hfoqno">
+              Advertendum 
+              <lb ed="#PV"/>quod fuit opinio cuiusdam philosophi qui 
+              <lb ed="#PV"/>vocatur <name>plotinus</name> qui fecit 
+              <lb ed="#PV"/>quemdam librum qui intitulatur quae as<lb ed="#PV"/>tra 
+              faciunt ubi ponit quod astra 
+              <lb ed="#PV"/>et stellationes nichil operantur 
+              <lb ed="#PV"/>hic inferius sed sunt praecise 
+              signa bonorum vel malorum 
+              <lb ed="#PV"/>scilicet secundum ordinationem divinam re<lb ed="#PV"/>praesentant 
+              qualis erit iste vel 
+              <lb ed="#PV"/>iste
+            </p> 
+            <p xml:id="ppr-l53-aaclag">
+              Alii astrologi declarantes 
+              <lb ed="#PV"/>contra fidem et philosophiam et mo<lb ed="#PV"/>res 
+              dicunt quod astra realiter 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>sunt causae naturales et <del rend="strikethrough">a</del> necessate 
+              <lb ed="#PV"/>omnium effectuum hic inferius contin<lb ed="#PV"/>gentia 
+              etiam effectuum liberi arbitrii
+            </p>
+            <p xml:id="ppr-l53-uapihd">
+              <lb ed="#PV"/>unde <name ref="#Alkindi">alkindus</name> omnes praesentes 
+              <lb ed="#PV"/>praeteriti et futuri individualiter 
+              <lb ed="#PV"/>relucent in caelo et <unclear>st? pti</unclear> sunt 
+              <lb ed="#PV"/>et sic infert quod etiam omnia possibilia 
+              <lb ed="#PV"/>in caelo relucent etc quia non est 
+              <lb ed="#PV"/>differentia inter possibile et futurum quia 
+              <lb ed="#PV"/>omne possibile est vel erit et non potest 
+              <lb ed="#PV"/>non produci ymmo omne de neccessitate
+              <lb ed="#PV"/>eveniet Sed dicitur possibile quantum 
+              <lb ed="#PV"/>ad nos quia videmus causas rerum 
+            </p>
+            <p xml:id="ppr-l53-sipafd">
+              <lb ed="#PV"/>Ista positio est contra fidem omnem 
+              <lb ed="#PV"/>legem et philosophiam et contra astrolo<lb ed="#PV"/>giam 
+              Nam periti astrologi inter 
+              <lb ed="#PV"/>quos <unclear>maxime</unclear> reputandus <name>ptolomeus</name> 
+              <lb ed="#PV"/>ponit quod corpora celestia nullam 
+              <lb ed="#PV"/>penitus inducunt necessitatem 
+             
+              <lb ed="#PV"/>unde <name>ptolomeus</name> in principio centiloquius 
+              <lb ed="#PV"/>dicit quod Iudicia astrologi sunt 
+              <lb ed="#PV"/>media inter possibile et neccessarium ita quod 
+              <lb ed="#PV"/>sunt contingentia unde licet 
+              <lb ed="#PV"/>esset dispositio ad mortalitatem 
+              
+              <lb ed="#PV"/>tamen propter bonum regimen 
+              <lb ed="#PV"/>potest <unclear>praevenam</unclear> 
+            </p> 
+            <p xml:id="ppr-l53-ippimf">
+              Item in eodem dicit 
+              <lb ed="#PV"/>quod bonus astrologus potest impe<lb ed="#PV"/>dire 
+              mala sic bonus agricola 
+              <lb ed="#PV"/>quantum ad culturam terrae quia sumus 
+              <lb ed="#PV"/>deum actuum uroris unde licet 
+              <lb ed="#PV"/><name>sortes</name> esset inclinatus ad furtum 
+              <lb ed="#PV"/>vel alia vicia posset se refre<lb ed="#PV"/>vare
+            </p>
+            <!-- fuzzy para alignmnet -->
+            <p xml:id="ppr-l53-atdevh">
+              Advertendum quod omnes 
+              <lb ed="#PV"/>planetae sunt simpliciter <unclear>bm</unclear> 
+              <lb ed="#PV"/>et si inclinent inclinant ad bo<lb ed="#PV"/>num 
+              <name>macrobius</name> notat pro 
+              <lb ed="#PV"/>responsione ad argumentum 
+              <lb ed="#PV"/>quod sol et luna principaliter nutriunt 
+              <lb ed="#PV"/>et vegetant hominem
+            </p>
+            <p xml:id="ppr-l53-upphmr">
+              <ref xml:id="ppr-l53-Rd1e385"><name>aristoteles</name> 2o 
+              <lb ed="#PV"/><title ref="#Physics">physicorum</title></ref> homo generat hominem et sol 
+              <lb ed="#PV"/>patet de sole quia per accessum sol 
+              <lb ed="#PV"/>videmus omnia pullulare 
+              <lb ed="#PV"/>et per recessum omnia cadere ut solia etc
+              <pb ed="#PV" n="100-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>de luna etiam experimur quod habet opera<lb ed="#PV"/>tiones 
+              respectu inferiorum modo 
+              <lb ed="#PV"/>ita est quod Iupiter habet valde mag<lb ed="#PV"/>nam 
+              similitudinem quantum ad influ<lb ed="#PV"/>entiam 
+              suam cum sole ita quod 
+              <lb ed="#PV"/>iuvat solem Ideo vocatur for<lb ed="#PV"/>tuna 
+              venus assimilatur lunae 
+              <lb ed="#PV"/>et quia luna regit corpus huma<lb ed="#PV"/>num 
+              et humores ipsa dicitur 
+              <lb ed="#PV"/>2a fortuna Saturnus habet in<lb ed="#PV"/>luentiam 
+              suam cum soli fri<lb ed="#PV"/>gidium 
+              Et mars nimis <unclear>acutam</unclear> 
+              <lb ed="#PV"/>ideo vocatur saturnus et mars 
+              <lb ed="#PV"/><unclear>malvioli</unclear> planetae et non influ<lb ed="#PV"/>unt 
+              in mediate in animam 
+              <lb ed="#PV"/>sed solum disponunt vel in dispo<lb ed="#PV"/>nunt 
+              corpora non quia incli<lb ed="#PV"/>nent 
+              inmediate ad vicia vel 
+              <lb ed="#PV"/>ad alia <!-- break -->Secundum hoc <name>macro<lb ed="#PV"/>bius</name> respondit
+            </p> 
+            <p xml:id="ppr-l53-esppnm">
+              et potest dici quod univer<lb ed="#PV"/>sum 
+              habet varias rerum species 
+              <lb ed="#PV"/>et variarum complexionum scilicet 
+              <lb ed="#PV"/>in concavo orbis lunae et aliqui pla<lb ed="#PV"/>netae 
+              sunt convenientissimi per 
+              <lb ed="#PV"/>una specie et alii pro alia Sol 
+              <lb ed="#PV"/>et luna iupiter et venus sunt 
+              <lb ed="#PV"/>maxime pro complexione huma<lb ed="#PV"/>na 
+              et saturnus pro alia speciei et sic de aliis 
+              <lb ed="#PV"/>Et sic planetam esse fortunam non 
+              <lb ed="#PV"/>dicitur respective nisi ad aliquod 
+              <lb ed="#PV"/>speciem Item respectu eiusdem 
+              <lb ed="#PV"/>hominis quia componitur ex diversis 
+              <lb ed="#PV"/>membris ideo indiget diversis 
+              <lb ed="#PV"/>unde <unclear>cornatribuitur</unclear> soli deinde 
+              <lb ed="#PV"/>epar dicitur gubernari a Iove 
+              <lb ed="#PV"/>et est sibi que?s felli dominatur mars <!-- something in margin -->
+              <lb ed="#PV"/>quae sunt membra non ita patri 
+              <lb ed="#PV"/><unclear>cip</unclear> alia 
+            </p>
+            <p xml:id="ppr-l53-udqeaa">
+              Ultimo dico quod realiter 
+              <lb ed="#PV"/>saturnus est optimus et nobilissi<lb ed="#PV"/>mus 
+              planetarum et quantum est 
+              <lb ed="#PV"/>de per se scilicet aliquid operaretur 
+              <lb ed="#PV"/>respectu animae illustraret respeciti 
+              <lb ed="#PV"/>partem concupiscibilem scilicet in volun<lb ed="#PV"/>tate 
+              mars irascibilem 
+              
+              et isti 3s 
+              <lb ed="#PV"/>sunt optimi et fortificant corpus 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>et non immediate respiciunt tales partes 
+              <lb ed="#PV"/>sed disponendo corpus ad exercendum 
+              <lb ed="#PV"/>Iupiter disponit ad amorem etiam 
+              <lb ed="#PV"/>superioris mars forti<lb ed="#PV"/>ficat vim 
+              <lb ed="#PV"/>irascibilem ad aggrediendum et exercendum 
+              <lb ed="#PV"/>fortia ut actus activorum sunt in 
+              <lb ed="#PV"/>patiente praedisposito
+            </p>
+            <!-- fuzzy para alignment -->
+            <p xml:id="ppr-l53-essmpi">
+              Ita quod influ<lb ed="#PV"/>entia 
+              saturni ubi reperit materiam 
+              <lb ed="#PV"/>dispositam inclinat de per accidens 
+              <lb ed="#PV"/>ad mala scilicet ad fraudes traditiones 
+              <lb ed="#PV"/>et sic de per accidens dicitur malus 
+              <lb ed="#PV"/>etiam mars de per accidens quandoque incli<lb ed="#PV"/>nat 
+              ad mala Ex quo patet quod primae<lb ed="#PV"/>va 
+              intentio planetarum est valde 
+              <lb ed="#PV"/>bona 
+            </p>
+          </div>
+          <div xml:id="ppr-l53-Dd1e439">
+            <head xml:id="ppr-l53-Haoraor">Ad octavam rationem</head>
+            <p xml:id="ppr-l53-duappl">
+              De ultimo argumento 
+              <lb ed="#PV"/>quando dicitur Si daretur praeceptum 
+              <lb ed="#PV"/>dico quod naturalis inclinatio numquam 
+              <lb ed="#PV"/>est contra praeceptum unde ymaginandum 
+              <lb ed="#PV"/>est quod sicut in statu innocentiae 
+              <lb ed="#PV"/>natura obediebat rationi intantum 
+              <lb ed="#PV"/>quod grave erat aptum natum ascendere 
+              <lb ed="#PV"/>ita natura et eius inclinatio semper 
+              <lb ed="#PV"/>sequenter regulam et finem direc<lb ed="#PV"/>tivam 
+              quantum est de se nec potest 
+              <lb ed="#PV"/>contra ire et ideo nego casum esse 
+              <lb ed="#PV"/>possibilem etc
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
