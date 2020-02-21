@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 56, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 56, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-02-20">February 20, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-02-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="105-r"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio56">
+        <head xml:id="ppr-l56-Hldtldt">Lectio 56, de Trinitate</head>
+        <div>
+          <head xml:id="ppr-l56-Hrqdeup">Rationes quod Deus non est universaliter perfectus</head>
+          <p xml:id="ppr-l56-smtedd">
+            <lb ed="#PV" n="43"/>Alia lectio de materia 
+            <lb ed="#PV"/>trinitatis et praemittit 
+            <lb ed="#PV"/>aliquas rationes spec<lb ed="#PV"/>tans 
+            aliqualiter 
+            <lb ed="#PV"/>ad materiam tactam 
+            <lb ed="#PV"/>Circam 3am distinctionem rectifi<lb ed="#PV"/>cata 
+            est investigatio humana 
+            <lb ed="#PV"/>circa materiam primae distinctionis 
+            <lb ed="#PV"/>quantum ad felicitatem et dei dili<lb ed="#PV"/>gibilitatem 
+          </p>
+          <p xml:id="ppr-l56-ncccpd">
+            nunc consequenter ut magis 
+            <lb ed="#PV"/>appareat obiecti diligibilis conditio 
+            <lb ed="#PV"/>inducendae sunt aliquae rationes 
+            <lb ed="#PV"/>ex parte investigationis hu<lb ed="#PV"/>manae 
+            ad inducendum quod deus 
+            <lb ed="#PV"/>non est bonum universaliter perfectum
+          </p>
+          <div>
+            <head xml:id="ppr-l56-Hqdness">Quod Deus non est summe simplex</head>
+            <p xml:id="ppr-l56-epaadm">
+              <lb ed="#PV"/>Arguitur primo sic deus non 
+              <lb ed="#PV"/>est universaliter perfectus igitur antecedens probatur 
+              <lb ed="#PV"/>quia deus non est summe simplex 
+              <lb ed="#PV"/>igitur non est summe perfectus 
+              <lb ed="#PV"/>consequentia tenet quia summa simplicitas dicit 
+              <lb ed="#PV"/>perfectionem antecedens probatur multipliciter
+            </p>
+            <p xml:id="ppr-l56-pqdipp">
+              <lb ed="#PV"/>primo quia deus est muta<lb ed="#PV"/>bilis 
+              igitur antecedens probatur multipliciter 
+              <lb ed="#PV"/>primo nam deus est generalis 
+              <lb ed="#PV"/>igitur mutabilis consequentia tenet pro 
+              <lb ed="#PV"/>tanto quia generatio est species mu<lb ed="#PV"/>tationis 
+              utque 3o physicorum et in post 
+              <lb ed="#PV"/><ref><title ref="#Categories">praedicamentis</title></ref>
+            </p>
+            <p xml:id="ppr-l56-sdercd">
+              2o deus est realiter uni<lb ed="#PV"/>bilis 
+              ergo mutabilis antecedens probatur quia 
+              <lb ed="#PV"/>de facto est naturae humanae vi
+              <lb ed="#PV"/>cuius <del rend="strikethrough">oi</del> unionis per modum 
+              <lb ed="#PV"/>naturae recipit concretivas denomina<lb ed="#PV"/>tiones 
+            </p>
+            <!-- reason for para break unclear -->
+            <p xml:id="ppr-l56-escess">
+              Et sicut conceditur quod ad intra 
+              <lb ed="#PV"/>potest esse ergo ita videtur quod potest 
+              <lb ed="#PV"/>concedi quod potest esse adextra per modum 
+              <lb ed="#PV"/>formae communicatio ergo non est sit 
+              <lb ed="#PV"/>summe simplex
+            </p>
+            <p xml:id="ppr-l56-tdeeop">
+              3o deus est 
+              <lb ed="#PV"/>plures res distinctae et non 
+              <lb ed="#PV"/>est summe simplex consequentia tenet quia
+              <pb ed="#PV" n="105-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>summa simplicitas excludit omnem 
+              <lb ed="#PV"/>distinctionem et pluralitatem
+            </p>
+            <p xml:id="ppr-l56-qdviaf">
+              4o deus 
+              <lb ed="#PV"/>videtur constitui ex essentia et 
+              <lb ed="#PV"/>proprietate relativa ergo non est summe 
+              <lb ed="#PV"/>simplex antecedens probatur quia pater non 
+              <lb ed="#PV"/>potest differe a filio nisi per 
+              <lb ed="#PV"/>quandam differentiam ipsius con<lb ed="#PV"/>stitutionis 
+              quia si esset praecise 
+              <lb ed="#PV"/>essentia nullo modo differet a filio 
+              <lb ed="#PV"/>ergo oporteret ponere in eo aliquod 
+              <lb ed="#PV"/>distinctum ergo non est summe simplex
+            </p>
+            <p xml:id="ppr-l56-qeviss">
+              <lb ed="#PV"/>Quinto ex variis modis 
+              <lb ed="#PV"/>principiendi ad intra concluditur distinctio 
+              <lb ed="#PV"/>formaliter inter principia elicitiva 
+              <lb ed="#PV"/>scilicet inter intellectum et voluntatem 
+              <lb ed="#PV"/>et qua ratione inter intellectum 
+              <lb ed="#PV"/>et voluntatem eadem ratione inter 
+              <lb ed="#PV"/>omnia alia attributa et per consequens 
+              <lb ed="#PV"/>in ipso est infinita diversitas 
+            </p>
+            <!-- doesn't seem present 
+              <p xml:id="ppr-l56-irsqmo">
+              Istae rationes sunt inductae 
+              pro materia praesenti, et aliae introducentur secundum quod materiae occurrent.
+            </p>-->
+          </div>
+        </div>
+        <div>
+          <head xml:id="ppr-l56-Hipdpda">Invocatio pro divino auxilio</head>
+          <p xml:id="ppr-l56-ipdsre">
+            <lb ed="#PV"/>Invocato divino auxilio pro<lb ed="#PV"/>testando 
+            quod non intendo aliquod 
+            <lb ed="#PV"/>asserere pertinaciter immo nichil 
+            <lb ed="#PV"/>intendo asserere nisi sit in 
+            <lb ed="#PV"/>scriptura sacra et a doctoribus 
+            <lb ed="#PV"/>positum sed solum probabiliter 
+            <lb ed="#PV"/>disputare
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l56-Hdqdqdq">Divisio Quaestionis</head>
+          <p xml:id="ppr-l56-cimsip">
+            Et primo praemittam 
+            <lb ed="#PV"/>quaedam generalia praesenti materia 
+            <lb ed="#PV"/>conferentia etiam materia de praesentia
+            <lb ed="#PV"/>2o particularibus tractabo 
+            <lb ed="#PV"/>de divina simplicitate et eius perfectis<lb ed="#PV"/>sima 
+            cognitione 3o osten<lb ed="#PV"/>dam 
+            productionem personarum 
+            <lb ed="#PV"/>ex radice summae nobilitatis et 
+            <lb ed="#PV"/>perfectionis procedere etc
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l56-Htptptp">Tria principia</head>
+          <p xml:id="ppr-l56-qapomt">
+            Quantum 
+            <lb ed="#PV"/>ad primum praemittenda sunt tria 
+            <lb ed="#PV"/>alias tacta quibus debet uti theo<lb ed="#PV"/>logus 
+            et ad quae debet resolvere 
+            <lb ed="#PV"/>materias quasi omnis
+          </p> 
+          <p xml:id="ppr-l56-ppeeip">
+            primum principium 
+            <lb ed="#PV"/>est quod deus est simpliciter in<lb ed="#PV"/>mensus 
+            et inmensae perfectionis 
+          </p> 
+          <p xml:id="ppr-l56-seqvhi">
+            <lb ed="#PV"/>2m quod valde fragilis est virtus 
+            <lb ed="#PV"/>humanae investigationis
+          </p>
+          <p xml:id="ppr-l56-teqqmr">
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>3m quod praemittit <ref><name ref="#Boethius">boecius</name> <title ref="#deTrinitateBoethius">de 
+            <lb ed="#PV"/>trinitate</title></ref> tractaturus scilicet erudi 
+            <lb ed="#PV"/>hominis est secundum unumquodque 
+            <lb ed="#PV"/>genus materiam habere vult dicere 
+            <lb ed="#PV"/>quod in unoquoque genere sciendi 
+            <lb ed="#PV"/>est veritatem investigandi debitus 
+            <lb ed="#PV"/>inquisitor debet inquirere secundum 
+            <lb ed="#PV"/>quod materia requirit etiam contentari 
+            <lb ed="#PV"/>de possibili modo cognoscendi 
+            <lb ed="#PV"/>veritates in tali genere 
+          </p>
+          <p xml:id="ppr-l56-ehpeis">
+            hoc idem 
+            <lb ed="#PV"/>ponit <ref><name>philosophus</name> primo ethicorum
+            <lb ed="#PV"/>2o capitulo</ref> sub istis verbis disci<lb ed="#PV"/>plinati 
+            enim est in tamen certitudinem 
+            <lb ed="#PV"/>inquirere 3m unumquodque genus 
+            <lb ed="#PV"/>et natura rei recipit proximum enim 
+            <lb ed="#PV"/>videtur mathematicum persuadentem 
+            <lb ed="#PV"/><unclear>Coevus</unclear> inquisitionis mathematicae 
+            <lb ed="#PV"/>requirit evidentem demonstra<lb ed="#PV"/>tionem 
+            <unclear>materia</unclear> moralis quia est de 
+            <lb ed="#PV"/>actibus nostris non patitur 
+            <lb ed="#PV"/>tantum evidentiam <name>aristotelis</name> <unclear>2oce In 
+            <lb ed="#PV"/>sumit</unclear> quaere acrobologiam <unclear>id est</unclear> cer<lb ed="#PV"/>titudinem 
+            mathematicam est impedimentum 
+             
+            sub istis verbis, 
+            <unclear>discipliciti</unclear> enim est in tantum creationem inquirere 
+            secundum quod unumquodque genus et materia Rei Requirit seu 
+            Recipit. proximum enim videtur mathematicum demonstrationes acceptare, 
+            et Rhetoricum persuasiones expectare. Unde in moralibus 
+            non debent Requiri et expectari demonstrationes mathematicae, 
+            sicut in mathematicis non sufficiunt persuasiones rhetorice 
+            et qui aliqua persuasione vel probatione in mathematica 
+            esset contentus non esset sufficiens mathematicus, sicut etiam in moralibus 
+            non debent Requiri demonstrationes mathematicae et qui illas 
+            <cb ed="#SV" n="b"/><!--266vb-->
+            in moralibus requireret non esset sufficiens moralis. Ideo dicit 
+            <name ref="#Aristotle">philosophus</name> in singulis expetere <sic>atribologiam</sic> 
+            mathematicam est impeditum sciendi
+          </p>
+          <p xml:id="ppr-l56-ubcidg">
+            <lb ed="#PV"/><del rend="strikethrough">denus</del> Circa hoc Boetius intro<lb ed="#PV"/>ducit 
+            qualiter philosophi ex propriis 
+            <lb ed="#PV"/>sic argumentatur sortes est homo plato 
+            <lb ed="#PV"/>et cicero sunt tres distincti 
+            <lb ed="#PV"/>homines modus arguendi est 
+            <lb ed="#PV"/>valde bonus in hac materia Sed 
+            <lb ed="#PV"/>non sic debet argui in materia divina 
+            <lb ed="#PV"/>sed sic pater est <del rend="strikethrough">filius</del> deus filius 
+            <lb ed="#PV"/>est deus et spiritus sanctus est deus 
+            <lb ed="#PV"/>ergo non sunt tres dii sed unicus 
+            <lb ed="#PV"/>deus Ecce quomodo contrariis modis 
+            <lb ed="#PV"/>arguitur in diversis modis inquiren<lb ed="#PV"/>di 
+            
+            Ex hoc <name>arrius</name> et <name>sabellius</name> 
+            <lb ed="#PV"/>erraverunt sex defectum modorum 
+            <lb ed="#PV"/>inquirendi variorum in diversis 
+            <lb ed="#PV"/>generibus
+          </p> 
+          <!-- fuzzy parallel -->
+          <p xml:id="ppr-l56-upaihe">
+            <name>Arrius</name> arguit sic 
+            <lb ed="#PV"/>pater est deus filius est deus spiritus 
+            <lb ed="#PV"/>sanctus est deus ergo pater filius et spiritus sanctus 
+            <pb ed="#PV" n="106-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>sunt tres dii distincto ergo decep<lb ed="#PV"/>tus 
+            est ex <sic>falsitudine</sic> creaturarum et 
+            <lb ed="#PV"/>non considerans quod secundum diversi<lb ed="#PV"/>tatem 
+            <unclear>nostrarum</unclear> oporteret variare processu 
+            <lb ed="#PV"/>cecidit in errorem istum scilicet quilibet personarum 
+            <lb ed="#PV"/>distinguitur essentialiter ab alia unde ymaginabatur 
+            <lb ed="#PV"/>quod solus pater habuit divinitatem etc
+            <lb ed="#PV"/>ymaginabatur filium creaturam 
+            <lb ed="#PV"/>nobilissimam tantum post deum et 
+            <lb ed="#PV"/>spiritum sanctum
+          </p>
+          <p xml:id="ppr-l56-svpsms">
+            3o loco posuit 
+            <lb ed="#PV"/>nobiliem <name>Sabellius</name> posuit 
+            <lb ed="#PV"/>confusionem personarum et non po<lb ed="#PV"/>suit 
+            eas distinctas unde arguitur 
+            <lb ed="#PV"/>haec natura divina est pater et haec est 
+            <lb ed="#PV"/>filius et haec scilicet natura divina 
+            <lb ed="#PV"/>est spiritus sanctus igitur non disting<lb ed="#PV"/>uuntur 
+            unde in creaturis 
+            <lb ed="#PV"/>bene valeret talis modus 
+            <lb ed="#PV"/>arguendi
+          </p>
+        </div>
+        <div>
+          <head xml:id="ppr-l56-Hppgpgi">Propositiones pro generali introductione</head>
+          <p xml:id="ppr-l56-cpgmpa">
+            Et sic a simili arguit 
+            <lb ed="#PV"/>in divinis et sic dicit quod non est 
+            <lb ed="#PV"/>differentia nisi vocabulorum et sic sunt 
+            <lb ed="#PV"/>una persona pater filius et spiritus 
+            <lb ed="#PV"/>sanctus <!-- break ?? -->pro generale de<lb ed="#PV"/>claratione 
+            materiae maiori ad concipiendum 
+            <lb ed="#PV"/>illud quod inceptum est
+          </p>
+          <!-- fuzzy break -->
+          <p xml:id="ppr-l56-pephdp">
+            praemitto 
+            <lb ed="#PV"/>propositionem quod finitum et infinitum 
+            <lb ed="#PV"/>in eadem specie diversificantur 
+            <lb ed="#PV"/>quantum ad proprietates et proprias 
+            <lb ed="#PV"/>conditiones quasi eis intrinsecas 
+            <lb ed="#PV"/>ut ita loquar seu quantum ad 
+            <lb ed="#PV"/>proprias passiones de ipsis etc 
+            <lb ed="#PV"/>probatur primo quia de linea 
+            <lb ed="#PV"/>recta finita demonstratur quod potest 
+            <lb ed="#PV"/>basis duorum laterum aequalium 
+            <lb ed="#PV"/>vel trianguli aequelatori ista est 
+            <lb ed="#PV"/>talis conditionis et proprietatis 
+            <lb ed="#PV"/>tamen linea infinita non habet istam 
+            <lb ed="#PV"/>proprietatem Et sic stat duo indivi<lb ed="#PV"/>dua 
+            esse eiusdem speciei differentia 
+            <lb ed="#PV"/>praecise penes finitum et infinitum 
+            <lb ed="#PV"/>et tamen realiter habent diversas 
+            <lb ed="#PV"/>proprietas demonstrabiles de ipsis 
+          </p>
+          <p xml:id="ppr-l56-isqesd">
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>Item supposito quod unum infinitum 
+            <lb ed="#PV"/>non sit maius alio tamen istud 
+            <lb ed="#PV"/>principium falsificatur omne totum 
+            <lb ed="#PV"/>est maius sua parte
+          </p>
+          <p xml:id="ppr-l56-spiera">
+            2o principaliter 
+            <lb ed="#PV"/>probatur ymaginando quod puncta realiter 
+            <lb ed="#PV"/>possunt componere lineam sicut 
+            <lb ed="#PV"/>ymaginatur <name ref="#Grosseteste">linconiensis</name> et 
+            <lb ed="#PV"/>multi alii ymaginati sunt tunc 
+            <lb ed="#PV"/>finita puncta possent componere 
+            <lb ed="#PV"/>lineam vel causare patet 6o physicorum 
+            <lb ed="#PV"/>Etiam patet per geometriam 
+            <lb ed="#PV"/>evidenter tamen possunt infinita 
+            <lb ed="#PV"/>secundum opinionem antiquorum 
+            <lb ed="#PV"/>philosophorum ergo variae sunt proprietates 
+            <lb ed="#PV"/>finiti et infiniti in eadem specie 
+          </p>
+          <p xml:id="ppr-l56-iemesr">
+            <lb ed="#PV"/>Item ex finitis mutationibus 
+            <lb ed="#PV"/>subitis vel instantaneis numquam 
+            <lb ed="#PV"/>causaretur successio sed ex in<lb ed="#PV"/>finitis 
+            potest 2m patet in rarifac<lb ed="#PV"/>tione 
+            scilicet si aliquod corpus 
+            <lb ed="#PV"/>rarefiat uniformiter et quod 
+            <lb ed="#PV"/><unclear>quantitas<!--quantitatis--> prae?os</unclear> non maneat omni 
+            <lb ed="#PV"/>sequenti tunc <unclear>quibus</unclear> acquisitio et 
+            <lb ed="#PV"/>deperditio ut subita et tamen 
+            <lb ed="#PV"/>ex illis a causabitur successive 
+            <lb ed="#PV"/>mutatio 
+          </p>
+          <p xml:id="ppr-l56-ierecp">
+            Item eadem res finita 
+            <lb ed="#PV"/>potest fieri infinita et tunc habebit 
+            <lb ed="#PV"/>proprietates omnino alias patet de albe<lb ed="#PV"/>dine 
+            decem gradum pedali 
+            <lb ed="#PV"/>quae sit cubita et ponatur 
+            <lb ed="#PV"/>quod sit sua quantitas capiatur 
+            <lb ed="#PV"/>unus gradus pedalis secundum 
+            <lb ed="#PV"/>intensionem et extensionem 
+            <lb ed="#PV"/>erit pedalis extrahatur et addatur 
+            <lb ed="#PV"/>primae unde quilibet gradus est 
+            <lb ed="#PV"/>unius pedis ergo si remanente 
+            <lb ed="#PV"/>eadem quantitate superarentur et extra<lb ed="#PV"/>hatur 
+            unus extra alium et ad<lb ed="#PV"/>iungantur 
+            ad latus fiet ma<lb ed="#PV"/>lus 
+            et maius et sic nullus ad<lb ed="#PV"/>dito 
+            et nullus remotus et sic in 
+            <lb ed="#PV"/>infinitum et sic induit proprietates
+            <pb ed="#PV" n="106-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>contrarias venio
+          </p>
+          <p xml:id="ppr-l56-eiepat">
+            ex istis ad propo<lb ed="#PV"/>situm 
+            quia essentia divina 
+            <lb ed="#PV"/>nedum est infinita in sed etiam 
+            <lb ed="#PV"/>quo ad speciem et excedens totam 
+            <lb ed="#PV"/>latitudinem omnium creabilium 
+            <lb ed="#PV"/>specierum Et sic habet duplicem modum 
+            <lb ed="#PV"/>infinitatis quia omnem aliam 
+            <lb ed="#PV"/>rem excedit etiam quantum in se est 
+            <lb ed="#PV"/>non ergo mirandum si habeat 
+            <lb ed="#PV"/>alias proprietates quam res creatae 
+            <lb ed="#PV"/>finitae et sic est infinitus exces<lb ed="#PV"/>sus 
+            quantum ad alia et est ibi 
+            <lb ed="#PV"/>infinita quantum ad gradum 
+            <lb ed="#PV"/>unde habet rectae proprietates 
+            <lb ed="#PV"/>contrarias ad alia quia est indepen<lb ed="#PV"/>dens 
+            Et est ibi sufficientissima 
+            <lb ed="#PV"/>creatura autem non Nam sicut 
+            <lb ed="#PV"/>moreatur quaelibet eset unica 
+            <lb ed="#PV"/>persona ita in divinis essentia 
+            <lb ed="#PV"/>erit plures personae ratione istarum 
+            <lb ed="#PV"/>proprietatum Ideo visis habitudini<lb ed="#PV"/>bus 
+            rerum inter se et creaturarum 
+            <lb ed="#PV"/>etiam quod creatura habet rationem finitatis 
+            <lb ed="#PV"/>quilibet potest persuadere ymaginabilitatem 
+            <lb ed="#PV"/>articuli trinitatis 
+          </p> 
+          <p xml:id="ppr-l56-peecat">
+            patet quia ex de<lb ed="#PV"/>fectu 
+            3ii principii vel ex prae<lb ed="#PV"/>sumptione 
+            ingenii contra 
+            2m principium vel exigentia
+            <lb ed="#PV"/>divinae inmensitatis contra primum 
+            <lb ed="#PV"/>consurgit turbatio in articulo 
+            <lb ed="#PV"/>trinitatis ad credendum
+          </p> 
+          <p xml:id="ppr-l56-itcric">
+            Nam 
+            <lb ed="#PV"/>illis tribus consideratis non 
+            <lb ed="#PV"/>est difficile ymaginari quod illa natura 
+            <lb ed="#PV"/>est ita nobilium proprietatum quae 
+            <lb ed="#PV"/>nullo modo reperiuntur in creaturis
+          </p> 
+          <p xml:id="ppr-l56-eehefp">
+            Sequitur quod excellentiores <unclear>phy</unclear> 
+            sunt melius dispositi ad re<lb ed="#PV"/>cipiendum 
+            fidem quam simplices 
+            <lb ed="#PV"/>consideratis illis habitudinibus
+          </p>
+          <p xml:id="ppr-l56-ssqeie">
+            <lb ed="#PV"/>Sequitur quia illa praedicata 
+            <lb ed="#PV"/>quae vulgo viderentur divinae perfectioni 
+            <lb ed="#PV"/>repugnare <unclear>max</unclear> divinam perfectionem 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>et inmensiilitatem exprimunt 
+          </p>
+          <p xml:id="ppr-l56-uaeeip">
+            aliqua sunt 
+            <lb ed="#PV"/>communia deo et creaturis et illa licet 
+            <lb ed="#PV"/>exprimunt perfectionem sive inperfectione 
+            <lb ed="#PV"/>tamen non possunt esse medium 
+            <lb ed="#PV"/>concludendi rem cui competunt 
+            <lb ed="#PV"/>esse infinite perfectam
+          </p>
+          <p xml:id="ppr-l56-asqide">
+            Alia immediate 
+            <lb ed="#PV"/>exprimunt immensitatem perfectionis 
+            <lb ed="#PV"/>scilicet esse infallibile respectu futuri 
+            <lb ed="#PV"/>contingentis etc et illa maxime 
+            <lb ed="#PV"/>exprimunt vel explicant divinam 
+            <lb ed="#PV"/>perfectionem 
+          </p>
+          <p xml:id="ppr-l56-apipgp">
+            Et ita posset inferri de 
+            <lb ed="#PV"/>aliis articulis scilicet vel de neccessitate 
+            <lb ed="#PV"/>vel de incarnatione vel corpore 
+            <lb ed="#PV"/>christi unde potest persuaderi faciliter 
+            <lb ed="#PV"/><unclear>consi?tis</unclear> tribus praedictis scilicet immen<lb ed="#PV"/>sitate 
+            divinae perfectionis ratione cuius 
+            <lb ed="#PV"/>debentur sibi aliae proprietates 
+            <lb ed="#PV"/>quam creaturis maxime sublata 
+            <lb ed="#PV"/>praesumptione etc <del rend="vacat">Sicut tactum 
+            <lb ed="#PV"/>fuit in lectione praecedenti trinitas perso<lb ed="#PV"/>nalis 
+            est una</del> 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
