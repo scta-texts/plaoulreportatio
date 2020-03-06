@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 57, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 57, De Trinitate [Erlangen Transcription]</title>
+          <date when="2020-03-05">March 05, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-03-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="79-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="lectio57">
+        <head xml:id="ppr-l57-Hldtdlt">Lectio 57, de Trinitate [Erlangen Transcription]</head>
+        <div xml:id="ppr-l57-Dd1e109">
+          <head xml:id="ppr-l57-Hpsdpsp">Propositio: sola divina natura summe identice[?] est omnis perfectio sibi possibilis</head>
+          <p xml:id="ppr-l57-stepec">
+            <lb ed="#E" n="7"/>Alia lectio
+            <lb ed="#E"/>Sicut tactum fuit in lectione praecedenti Trinitas personalis est una de conditio<lb ed="#E"/>nibus 
+            propriis naturae inmensae et in eadem specie res infinita habet aliam proprietatem 
+            <lb ed="#E"/>quam finita et ergo non mirandum si huiusmodi naturae competant proprietates numerabiles et infinitae
+          </p>
+          <!-- not present
+            <p xml:id="ppr-l57-chncam">
+            Continuando hanc materia 
+            ponam unam propositionem 
+            ex qua inferam aliqua corollaria <unclear>aperitiva</unclear> 
+            materiae.
+          </p>-->
+          <p xml:id="ppr-l57-peipph">
+            <lb ed="#E"/>Ponitur ista propositio quod sola divinae naturae summae ydemptitate est omnis perfectio sua sibi possibilis 
+            <lb ed="#E"/>cum hoc est quaelibet perfectio inmensa Quantum ad principalem partem satis patet ex trac<lb ed="#E"/>tatis 
+            circa 3am distinctionem quod ibi dictum est quod deus est inmensae perfectionis et simpliciter et universaliter perfectus 
+            <lb ed="#E"/>ita quod quidquid est dignitatis et perfectionis est sibi attribuendum et hoc est magnae perfectionis scilicet habere 
+            <lb ed="#E"/>omnem perfectionem sibi possibilem ergo sibi competit quia obiectum includit inperfectionem et caren<lb ed="#E"/>tiam
+          </p> 
+          <p xml:id="ppr-l57-eeipis">
+            et sic ibi deducebatur quod inpossibilis est pluralitas deorum quia de ratione dei est quod habeat 
+            <lb ed="#E"/>omnem summam perfectionem possibilem 
+          </p> 
+          <p xml:id="ppr-l57-sspfnc">
+            Secunda pars patet scilicet quod nulla alia res etc patet ex comparatione 
+            <lb ed="#E"/>creaturarum ad causas efficientes finales formales et materiales nam quaelibet creatura indiget 
+            causa efficiente et ab alio recipit suam perfectionem et indiget conservatione
+          </p>
+          <p xml:id="ppr-l57-icmdae">
+            Iterum creaturam maxime 
+            <lb ed="#E"/>perficitur per sui finis adeptionem et cum res non sit suus finis sequitur quod non habet omnem perfectionem 
+            sibi possibilem 
+          </p>
+          <p xml:id="ppr-l57-ipmmef">
+            Etiam perfectio materiae est forma
+          </p>
+          <p xml:id="ppr-l57-ipiapa">
+            Et perfectio creaturae intellectualis est cognitio 
+            Sed deus est sibi ipsi finis et est sibi cognitio nec aliqua perfectio potest sibi acquiri 
+          </p>
+          <p xml:id="ppr-l57-uchqmc">
+            Dixerunt 
+            <lb ed="#E"/>aliqui doctores quod realiter quaelibet creatura est composita etiam intelligentia est divisibilis et de po<lb ed="#E"/>tentia 
+            dei absoluta 
+          </p>
+        </div>
+        <div xml:id="ppr-l57-Dd1e160">
+          <head xml:id="ppr-l57-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l57-Dd1e165">
+            <head xml:id="ppr-l57-Hpcnosp">Primum corollarium</head>
+            <head xml:id="ppr-l57-Hd1e170" type="question-title">Nulla creatura esset omnis sua perfectio</head>
+            <p xml:id="ppr-l57-pcdsfu">
+              primum corollarium dato quod gratia virtutes dona gratuita est formalis 
+              <lb ed="#E"/>beatitudo concurrerent ydemptice in trinitate essentialiter cum subiecta alicuius intelligentiae 
+              <lb ed="#E"/>nichilominus ipsa non esset omnis sua perfectio patet quia indigeret fine ipsam felicitatem
+            </p>
+            <p xml:id="ppr-l57-ihcqec">
+              <lb ed="#E"/>Item ipsa creatura non esset sua duratio quia ab eius esse esset separabile eius fore 
+              <lb ed="#E"/>scilicet quod ly erit possit de ea negari 
+            </p>
+            <!--
+              doesn't seem present 
+              <p xml:id="ppr-l57-icqtes">
+              Item, 
+              creatura quanto est perfectio tanto dependentior, 
+              ut tactum est supra.
+            </p>-->
+          </div>
+          <div xml:id="ppr-l57-Dd1e186">
+            <head xml:id="ppr-l57-Hsceppc">Secundum corollarium</head>
+            <head xml:id="ppr-l57-Hd1e191" type="question-title">Esse simplex proprie causando non est ad extra proprie praedicatum communcabile</head>  
+            <p xml:id="ppr-l57-scesri">
+              <del rend="expunctuation">Tertium corollarium</del> Secundum corollarium Esse simplex proprie loquendo 
+              <lb ed="#E"/>non est praedicatum adextra communicabile patet quia non potest dari aliqua creatura quin ha<lb ed="#E"/>beat 
+              habitudinem dependentiae et conpositionis licet non realis tamen propter inmensum quaedam 
+              <lb ed="#E"/>ex quo consurgit repugnantia simplicitatis sic quod esse simpliciter est de praedicatis perfectio<lb ed="#E"/>nalibus 
+              deo propriis inmediate dicentibus inmensitatem perfectionis Ita quod quaelibet tale 
+              <lb ed="#E"/>est medium concludendi quod sit inmensae perfectionis etc 
+            </p> 
+            <!-- fuzzy break; some of this para could be in the above 
+            <p xml:id="ppr-l57-eqsdps">
+              Ex quo sequitur quod esse simplex proprie 
+              et stricte capiendo est de praedicatis 
+              perfectionalibus deo propriis immediate dicentibus perfectionem 
+              immensam et quodlibet tale praedicatum est talis naturae quod illud 
+              cui competit potest immediate concludi esse summe perfectum. non 
+              sic autem est de istis praedicatis vivens, intelligens, licet 
+              dicant perfectionem simpliciter.
+            </p>-->
+          </div>
+          <div xml:id="ppr-l57-Dd1e201">
+            <head xml:id="ppr-l57-Htcsigp">Tertium corollarium</head>
+            <head xml:id="ppr-l57-Hd1e206" type="question-title">Supremum gradum est omnino indivisibils gradus perfectionis</head>
+            <p xml:id="ppr-l57-tcqmcv">
+              Tertium corollarium Quamvis in qualibet 
+              <lb ed="#E"/>creatura supra materiam primam semper ascendendo posset concedi quod reperiatur maior 
+              <lb ed="#E"/>latitudo dependetur et potentialitatis supra tamen supremum gradum est omnino indivisibilis 
+              <lb ed="#E"/>gradus perfectionis prima pars patet quia quanta res est dependentior tanto est potentialior 
+              <lb ed="#E"/>id est tanto habet plures potentias quodammodo specifice distinctas patet nam species superiores percipiant 
+              <lb ed="#E"/>naturam inferioris ut species humana participat naturam non viventium ut anima est forma 
+              <lb ed="#E"/>Etiam ad modum vegetabilium nutrit corpus et hoc non est nutritive et cum angelis parti<lb ed="#E"/>cipat 
+              nutritive et sicut sunt gradus in natura corporali ita in spirituali unde licet angelus 
+              <lb ed="#E"/>non inhaereat non tamen est negandum quin sit inhaesivus etiam quin sit vegetativus 
+              <lb ed="#E"/>sed ex statuto divino et quia non congruit ordini universi non exercent talia 
+            </p>
+            <!-- doesn't seem present or is somehwere above 
+            <p xml:id="ppr-l57-eecvse">
+              Et etiam cognoscit sensitive, cum brutis et 
+              intelligit cum intelligentiis intellectus, et sicut sunt gradus 
+              in natura corporali, ita in spirituali. unde licet intellectus non inhaereat, 
+              non tamen est negandum quin sit inhaesivus et vegetivus et sensitivus 
+              et quin habeat potentias aptas ad vegetandum, sentiendum, et nutriendum 
+              et quanto est perfectior tanto habet 
+              <app>
+                <lem n="habet="/>
+                <rdg wit="#SV" type="correction-deletion">
+                  <del rend="strikethrough">h</del>
+                </rdg>
+              </app> 
+              aptitudinem ad plures potentias, 
+              tamen ex statuto divino quia hoc non congruit universo, 
+              non exercet operationes vegetiva, sensitivam, etc.
+            </p> 
+            -->
+            <p xml:id="ppr-l57-spddai">
+              Secunda 
+              <lb ed="#E"/>pars scilicet quod extra huiusmodi latitudinem etc patet de deo unde ymaginator quod non est de deo 
+              <pb ed="#E" n="80-r"/>
+              <lb ed="#E"/>sicut de creatura Ideo omnes potentiae et actus ad intra sunt formaliter idem quia totum intellectuale 
+              <lb ed="#E"/>et formaliter lux quia nisi sic non esset simplicissimus ymmo haberet aliquas conditiones 
+              <lb ed="#E"/>limitatas quod non est sibi attribuendum 
+            </p>
+          </div>
+          <div xml:id="ppr-l57-Dd1e230">
+            <head xml:id="ppr-l57-Hqcgtlc">Quartum corollarium</head>
+            <head xml:id="ppr-l57-Hd1e235" type="question-title">Gradus divinae perfectionis excedit immense totam latitudinem creabilium</head>
+            <p xml:id="ppr-l57-qcltlc">
+              Quartum corollarium licet sit unicus gradus indivisi<lb ed="#E"/>bilissimus 
+              immense tamen excedit totum latitudinem creabilium patet de deo
+            </p>
+          </div>
+          <div xml:id="ppr-l57-Dd1e247">
+            <head xml:id="ppr-l57-Hqcatii">Quintum corollarium</head>
+            <head xml:id="ppr-l57-Hd1e252" type="question-title">Aeternitas excedit in duratione totam latitudinem temporis imaginarii infinitam</head>
+            <p xml:id="ppr-l57-qcqeda">
+              Quintum corollarium quam<lb ed="#E"/>vis 
+              aeternitas sit duratio simpliciter indivisibilis excedit tamen coram latitudine temporis ymagi<lb ed="#E"/>narii 
+              a parte ante et a parte post etiam <unclear>indu?</unclear> Quantum aeternitas sit duratio omnino simulta<lb ed="#E"/>nea 
+              simplicissima patet per <ref xml:id="ppr-l57-Rd1e257" corresp="#ppr-l57-Qaeitsp"> <name ref="#Boethius">Boetium</name> 5to <title ref="#Consolation">de consolatione</title></ref> <quote xml:id="ppr-l57-Qaeitsp" source="http://scta.info/resource/hy7y6y-d1e83-d1e316">Aeternitas est interminabilis vitae 
+              <lb ed="#E"/>tota simul possessio</quote> Ibi ponit ad propositum quod aliud esset semper mundo coexistisse et 
+              <lb ed="#E"/>coexistere deo in futurum quam mundum esse aeternum <ref xml:id="ppr-l57-Rd1e283"><name ref="#Anselm">Anselmus</name></ref> deus sua duratione 
+              <lb ed="#E"/>est ante creaturas et est post creaturas perpetue durattio non quidem temporali duratione 
+              <lb ed="#E"/>sed in infinitum perfectiori modo quam sit successiva duratio Advertendum quod huiusmodi duratio posset 
+              <lb ed="#E"/>ymaginari esse tempus licet non sit similitudo sufficiens dato etiam quod semper fuit tempus yma<lb ed="#E"/>ginemur 
+              quod per modum lineae infinitae et concurrat ad punctam sic de corpore christi quod punctualiter 
+              <lb ed="#E"/>concurrit sub quolibet puncto hostiae Et potest ymaginari quod concurret cum omnimoda 
+              <lb ed="#E"/>simplicitate sic quod sit indivisibile quod unum corpus infinitum transsubstantiaretur in corpus finitum 
+              <lb ed="#E"/>sicut corpus christi realiter in infinitum contineretur sub quolibet puncto temporis finiti 
+            </p>
+            <p xml:id="ppr-l57-scqpes">
+              Sequitur 
+              <lb ed="#E"/>quod si deus ab aeterno produxisset intelligentiam perpetuo duraturam illa non esset aeterna 
+              <lb ed="#E"/>Causa est quia sua duratio esset divisibilis quia consequens potest separari a futuro Ita quod in aeternitate 
+              <lb ed="#E"/>totum est simul sic quod non potest fore separari ab esse et sic aeternitas includit totum simul et 
+              <lb ed="#E"/>inseparabiliter scilicet esse fore et fuisse et sic non est de duratione cuiuscumque creaturae quia quaelibet 
+              <lb ed="#E"/>potest non esse et sua duratio est <del rend="expunctuation">passiblis</del> partibilis et potest non esse
+            </p>
+          </div>
+          <div xml:id="ppr-l57-Dd1e301">
+            <head xml:id="ppr-l57-Hscqigi">Sextum corollarium</head>
+            <head xml:id="ppr-l57-Hd1e306" type="question-title">Quod Pater et Filius sunt idem gradus perfectionis simpliciter et sunt idem gradus indivisibilis</head>
+            <p xml:id="ppr-l57-suqiei">
+              sequitur ulterius quod pater et filius et 
+              <lb ed="#E"/>spiritus sanctus sunt idem gradus perfectionis summa identitate et idem gradus indivisibilis Ita 
+              <lb ed="#E"/>quod tres personae non sunt nisi unica simplicissima perfectio et indivisibilis licet tamen in<lb ed="#E"/>mensa 
+            </p>
+            <p xml:id="ppr-l57-suqdsp">
+              Sequitur quod pater et filius et spiritus sanctus habent eandem durationem et aeternitatem et per consequens 
+              <lb ed="#E"/>filius aeque primo est sicut pater quia quaelibet persona est aeterna et aeternitas et illa non 
+              <lb ed="#E"/>est partibilis et per consequens filius et spiritus sanctus aeque primo sunt sicut pater durative
+            </p>
+            <p xml:id="ppr-l57-eqspct">
+              <lb ed="#E"/>Sequitur 
+              <lb ed="#E"/>quod in divinis non debet ponit prioritas originis quo ad signa vel instantia sicut doctor 
+              <lb ed="#E"/>subtilis ymaginatur unde ymaginatur quod quia adintra est emanatio personarum oportet quod 
+              <lb ed="#E"/>servetur ordo naturae et naturalis prioritas pater debet considerari in primo signo et 
+              <lb ed="#E"/>quia filius emanat patre filius consideratur tamquam secundum signum seu instans et 3o 
+              <lb ed="#E"/>spiritus sanctus Istud non stat quia eadem duratio adaequate correspondet cuilibet ergo absolute 
+              <lb ed="#E"/>aequae primo quilibet eorum est 
+            </p>
+            <p xml:id="ppr-l57-iioepa">
+              Item instans originis quodcumque signetur illud est idem cum 
+              <lb ed="#E"/>instanti aeternitatis et est formaliter aeternitas igitur est omnium trium personarum 
+              <lb ed="#E"/>mensura vel capiamus 2m instans quod mensurat personam filii oportet quod sit aeternitas 
+              <lb ed="#E"/>ergo erit communis omnium personarum mensura 
+            </p>
+            <p xml:id="ppr-l57-isinea">
+              Item sequeretur quod aeternitas praecederet filium 
+              <lb ed="#E"/>aliquo modo et esset prior filio quia aeternitas mensurat patrem pro primo signo ergo 
+              <lb ed="#E"/>est ymaginabilis aeternitas quae est extra durationem filii
+            </p>
+            <p xml:id="ppr-l57-isqfee">
+              Item sequeretur quod filius 
+              <lb ed="#E"/>in primo instanti haberet potentiale esse quia in primo instanti originis non haberet esse ymmo 
+              inciperet esse quia tunc non esset et hoc post foret quod videtur repugnare divinae immensitati 
+            </p>
+            <p xml:id="ppr-l57-ipnips">
+              <lb ed="#E"/>Item in primo signo non esset pater quia in primo signo non producit filium ergo etc
+            </p>
+          </div>
+          <div xml:id="ppr-l57-Dd1e347">
+            <head xml:id="ppr-l57-Hscpvem">Septimum corollarium</head>
+            <head xml:id="ppr-l57-Hd1e352" type="question-title">Productio personarum divinarum <unclear>naturam</unclear> poni <unclear>potentialitatem</unclear> successivam vel etiam mutationem</head>
+            <p xml:id="ppr-l57-scpidi">
+              Septimum 
+              <lb ed="#E"/>corollarium productio divinarum personarum nullam ponit potentialitatem successionem 
+              <lb ed="#E"/>vel mutationem patet quia licet filius producatur a patre nichilominus est aeque cito sicut pater 
+              <lb ed="#E"/>aeque perfectus et aeque aeternus ymmo eadem perfectione cum patre
+            </p>
+            <p xml:id="ppr-l57-eqsecv">
+              sequitur quod filius est ydemptitate 
+              <pb ed="#E" n="80-v"/>
+              <lb ed="#E"/>illa perfectio et excellentia quia pater potest producere filium patet quia omnis paterna 
+              <lb ed="#E"/>et excellentia est filius ergo si sit alicuius dignitatis posse producere filium illa est infinitio etc
+            </p>
+          </div>
+          <div xml:id="ppr-l57-Dd1e379">
+            <head xml:id="ppr-l57-Hocltae">Octavum corollarium</head>
+            <head xml:id="ppr-l57-Hd1e384" type="question-title">Licet divina essentia sit ad intra communicabilis, non tamen ad extra</head>
+            <p xml:id="ppr-l57-oclpam">
+              <lb ed="#E"/>Octavum corollarium licet divina essentia sit ad intra communicabilis non tamen adextra 
+            </p>
+            <p xml:id="ppr-l57-cpuicp">
+              Consequenter propter difficultatem tantam in uno argumento de productione filii ex quo producitur a patre videtur 
+              <lb ed="#E"/>imitari Advertendum quod productio vel generatio in creaturis multa importat de communi 
+              <lb ed="#E"/>concursu scilicet modum agendi limitatum et inceptione rei quae producatur etiam indigentiam 
+              <lb ed="#E"/>et dependentiam effectus a sua causa etiam communicationem perfectionis
+            </p> 
+            <p xml:id="ppr-l57-unqspc">
+              Breviter omnes habitudines dicentes 
+              <lb ed="#E"/>inperfectionem in creaturis debent removeri et sic idem quod remanet scilicet communicare perfectionem 
+              <lb ed="#E"/>non tamen indigenti non dicit inperfectionem ubi recipiens non est indigens et ubi communicans 
+              <lb ed="#E"/>communicat illam perfectionem quam habet Radius dependet a sole et licet sol communicet radio 
+              <lb ed="#E"/>perfectionem non tamen perfectionem conservativam si tamen communicaret radio perfectionem conservativam sui 
+              <lb ed="#E"/>in illo casu radius non dependeret a sole sed haberet sufficientem virtutem et perfectionem et sic licet pater 
+              <lb ed="#E"/>producat continue filium filius tamen non est indigens quia est aeque primo perfectus sicut pater quia 
+              <lb ed="#E"/>est summe sufficiens et habet totam nobilitatem patris ideo non dependet a patre et non indiget 
+              <lb ed="#E"/>perfectione quia habet eam unde indigentia non est nisi respectu boni existentis in alio non habenti 
+              <lb ed="#E"/>ab indigente et sic res non dicitur dependere ab alio nisi quod caret bono existente in alio 
+              <lb ed="#E"/>non habito a dependente Ad emanationem tamen requiritur productio et illa non includit conditionem 
+              <lb ed="#E"/>quamcumque inperfectionis quia omnis perfectio est <unclear>infinito</unclear> quae est in patre cum hoc quod producitur 
+              <lb ed="#E"/>et sic non oportet filium mutari nec dependere Ideo respondetur quod filius non est mutabilis nec 
+              <lb ed="#E"/>dependens quia tota auctoritas in patre quae dicit perfectionem est in filio etc
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
