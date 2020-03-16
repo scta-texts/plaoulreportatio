@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 58, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 58, De Trinitate [Erlangen Transcription]</title>
+          <date when="2020-03-15">March 15, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-03-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="80-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio58">
+        <head xml:id="ppr-l58-Hldtldt">Lectio 58, de Trinitate</head>
+        <div xml:id="ppr-l58-Dd1e109">
+          <head xml:id="ppr-l58-Hqcsspp">Quomodo cum simplicitate divinae essentiae stat pluralitas personarum</head>
+          <p xml:id="ppr-l58-aqtrah">
+            <lb ed="#E" n="21"/>In alia lectione
+            <lb ed="#E"/>Articulus qui tractatur est principalis et fundamentalis totius christianae religionis inter alias 
+            <lb ed="#E"/>nam in multis aliis conveniunt sectae et aliae leges nobiscum sed non in isto Secunda principalitas 
+            <lb ed="#E"/>quia multi alii derivantur ab isto unde tota difficultas resolvitur
+          </p>
+          <p xml:id="ppr-l58-ebccpt">
+            ad istum punctum scilicet quomodo 
+            <lb ed="#E"/>salvatur quod cum unitate et simplicitate essentiae stat pluralitas personarum <ref xml:id="ppr-l58-Rd1e121"><name>Boecius</name> qui librum <title>de trinitate</title></ref> 
+            <lb ed="#E"/>edidit non nititur nisi principaliter ostendere simplicitatem et unitatem essentiae
+          </p> 
+          <p xml:id="ppr-l58-eaisig">
+            <ref xml:id="ppr-l58-Rd1e136"><name>Augustinus</name> in primo <title>de trinitate</title></ref> 
+            <lb ed="#E"/>recitat tres causas errandi in trinitate primo quia deo attribuimus illud quod experimur in 
+            <lb ed="#E"/>re corporali Secunda causa quia etiam deo attribuimus illud quod reperimus in creatura spirituali 
+            <lb ed="#E"/>Tertia causa quia aliqui praesumptuose attribuunt deo quod nulli conpetit scilicet quod deus posset 
+            <lb ed="#E"/>se ipsum gignere 
+          </p> 
+          <p xml:id="ppr-l58-qaddes">
+            Quantum ad duos primos modos errandi removentur per primum principium 
+            <lb ed="#E"/>positum scilicet <add place="above-line">quod</add> deus est inmensus unde quamvis non sit omnia simile potest tamen applicari <ref xml:id="ppr-l58-Rd1e152"><name>Aristoteles</name> 
+            <lb ed="#E"/>primo <title>physicorum</title></ref> Inpugnans opinionem <del rend="expunctuation">opinionem</del> <name>anaxagorae</name> qui ponit infinitatem 
+            <lb ed="#E"/>principiorum dicit quod infinitum secundum quod infinitum est ignotum et sic eo ipso quod divina essentia 
+            <lb ed="#E"/>est infinita suae proprietates sunt ignotae Considerato 3o principio posito <unclear>removetur</unclear> 3a causa 
+            <lb ed="#E"/>scilicet quod in singulis procedendum est 2m materiam subiectam in hiis quae sunt dei et tangunt 
+            <lb ed="#E"/>eius essentiam loquendum est sobrie cum humilitate sine praesumptione Si esset aliqua causa in<lb ed="#E"/>finite 
+            causalitatis et concederentur solum est infiniti effectus producibiles adhuc non esset 
+            <lb ed="#E"/>negandum quin illa haberet mirabiles proprietates et sic philosophus non habet negare quod essentia dei 
+            <lb ed="#E"/>consistit in tribus suppositis et per consequens articulus non <del rend="strikethrough">esset</del> est evidenter impossibilis Sed quia 
+            <lb ed="#E"/>hoc non sufficit oportet eundem articulum fundare et suadere et maxime insistendum est circa 
+            <lb ed="#E"/>divinae essentiae simplicitatem 
+          </p>
+        </div>
+        <div xml:id="ppr-l58-Dd1e203">
+          <head xml:id="ppr-l58-Htdrdra">tria de ratione aeternitatis</head>
+          <p xml:id="ppr-l58-cemdst">
+            <pc type="#pilcrow"/> Continuando materiam de duratione divina et 
+            <lb ed="#E"/>aliqualiter iugendo de locabilitate eiusdem Advertendum quod de ratione aeternitatis sunt 
+            <lb ed="#E"/>tria 
+          </p>
+          <p xml:id="ppr-l58-peqane">
+            primum quod non est mensura alicuius potentialitatis id est quod non mensurat aliquod quod
+            <pb ed="#E" n="81-r"/>
+            <lb ed="#E"/>possit non esse 
+          </p>
+          <p xml:id="ppr-l58-sdrish">
+            Secundo de ratione aeternitatis quod sit universalis mensura id est quod mensuret 
+            <lb ed="#E"/><seg type="correction"><del>ali</del>qualis</seg> intrinsece est vel potest esse et quidquid est in ea et potest esse in ea
+          </p>
+          <p xml:id="ppr-l58-tdrnpa">
+            Tertio de ratione eius est quod ipsa 
+            <lb ed="#E"/>sit omnis alterius mensurae durative effectiva et originativa et quod sit simpliciter in genere men<lb ed="#E"/>surarum 
+            <lb ed="#E"/>prima <ref xml:id="ppr-l58-Rd1e221"><name>dionysius</name> 5to capitulo <title>de divinis nominibus</title></ref> vocat aeternitatem saeculum temporum et 
+            <lb ed="#E"/>mensuram saeculorum <name>Anselmus</name> vocat aeternitatem in <ref xml:id="ppr-l58-Rd1e236">libro <title>proslogion</title> 20 capitulo</ref> saeculum saeculorum 
+            <lb ed="#E"/>Concluditur quod omnes durationes aliae sunt effectus aeternitatis <ref xml:id="ppr-l58-Rav3kka" corresp="#ppr-l58-Qvm3dad"><name>Augustinus</name> in libro <title>confessionum</title></ref> 
+            <lb ed="#E"/>stans dicit omnia <quote xml:id="ppr-l58-Qvm3dad" source="http://scta.info/resource/aconf-l11-d1e168">futura praeterita tempora et non aeternitas</quote>
+          </p>
+        </div>
+        <div xml:id="ppr-l58-Dd1e264">
+          <head xml:id="ppr-l58-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l58-Dd1e269">
+            <head xml:id="ppr-l58-Hpcmpcm">Primum corollarium</head>
+            <p xml:id="ppr-l58-pcsocp">
+              Corollarium si instans temporis efficere<lb ed="#E"/>tur 
+              fixum et inmobile et neccessario esset adhuc non esset aeternitas quia sibi non compe<lb ed="#E"/>terent 
+              omnes conditiones praedictae
+            </p> 
+          </div>
+          <div xml:id="ppr-l58-Dd1e278">
+            <head xml:id="ppr-l58-Hscmscm">Secundum corollarium</head>
+            <p xml:id="ppr-l58-sciqit">
+              Secundum corollarium instans aeternitatis infinitum est 
+              <lb ed="#E"/>simplicius et actualius quam instans temporis 
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e287">
+            <head xml:id="ppr-l58-Htcmtcm">Tertium corollarium</head>
+            <p xml:id="ppr-l58-tcreii">
+              Tertium corollarium Repugnantia est in aeternitate 
+              <lb ed="#E"/>contradictoria verificari patet quia repugnat quod contradictoria verificetur in instanti temporis modo instans 
+              <lb ed="#E"/>aeternitatis est infinitum indivisibilius 
+            </p>
+            <p xml:id="ppr-l58-eqpamt">
+              Ex isto patet quod nostrae enuntiationes affirmationes et nega<lb ed="#E"/>tiones 
+              referuntur ad mensuram temporalem
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e302">
+            <head xml:id="ppr-l58-Hqcmqcm">Quartum corollarium</head>
+            <p xml:id="ppr-l58-qcnsac">
+              Aliud corollarium nova aeternitatis 
+              <lb ed="#E"/>ad instans temporis coexistentia non arguit aeternitas successionem vel mutabilitatem 
+              <lb ed="#E"/>sed solum temporis successionem Si daretur aliquis punctus fixus motus lineae circa punctum 
+              <lb ed="#E"/>non mutaret propter hoc punctum
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e316">
+            <head xml:id="ppr-l58-Hqcrqcr">Quintum corollarium</head>
+            <p xml:id="ppr-l58-qclepi">
+              Quintum corollarium licet aeternitas vel instans aeternitatis 
+              <lb ed="#E"/>sic quoddam modo ante tempus et etiam post et simul in tempore non tamen oportet quod cuilibet parti temporis coexistit nam 
+              <lb ed="#E"/>ad coexistentiam requiritur nedum aeternitatis praesentia sed etiam instantis temporis coexistentia Sal<lb ed="#E"/>vator 
+              dicit ad denotandum prioritatem instantis aeternitatis respectu temporis antequam abraham fieret 
+              <lb ed="#E"/>ego sum et sic ad modum nostrum admittitur de deo quod fuit vel erit sed tamen proprie solum attri<lb ed="#E"/>buitur 
+              sibi quod est
+            </p>
+            <p xml:id="ppr-l58-scanfp">
+              Arguitur contra quia si aeternitas sit actualiter haberet prioritatem respectu temporis 
+              <lb ed="#E"/>sequeretur quod posset vi illius aeternitatis facere quod mundus numquam fuisset factus quia praecedit 
+              <lb ed="#E"/>et est eius causalitas scilicet mundi unde quia est causa totalis mundi ipsa potest facere 
+              <lb ed="#E"/>quod mundus numquam fuit et hoc patet quia huiusmodi tempus praeteritum est quoddam modo posterius respectu aeternitatis 
+              <lb ed="#E"/>et aeternitas causa eius ut notum est ergo aeternitas potest facere quod illud tempus numquam fuit quia causa 
+              <lb ed="#E"/>est quae est prior suo effectu semper potest illum effectum non producere  
+            </p>
+            <p xml:id="ppr-l58-pderei">
+              <name>Petrus Damyam</name> concedit 
+              <lb ed="#E"/>consequens ubi movet utrum deus posset reparare virginem unde quantum ad gratiam et quantum ad re<lb ed="#E"/>parandum 
+              naturalia virginis non est difficultas Sed utrum sic posset facere quod numquam fuisset 
+              <lb ed="#E"/>corrumpta fuisset <del rend="strikethrough">quod s</del> tenet quod sic Sed articulus parisiensis est ad contrarium dicitur quod ex parte dei non 
+              <lb ed="#E"/>est repugnantia sed ex parte rei quia natura sua talis est quod labitur in praeteritum 
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e392">
+            <head xml:id="ppr-l58-Hsxmsxm">Sextum corollarium</head>
+            <p xml:id="ppr-l58-apeeaa">
+              Alia propositio 
+              <lb ed="#E"/>essentia divina et quaelibet personarum et omnes simul sicut sunt unicus gradus perfectionis ita 
+              <lb ed="#E"/>sunt eadem aeternitas adaequate
+            </p>
+            <p xml:id="ppr-l58-eqspei">
+              Ex isto sequitur contra <name>magistrum iohannem de rippa</name> quod suppositum etiam in esse personali 
+              <lb ed="#E"/>mensuratur aeternitate et <del rend="expunctuation strikethrough">sic dico quod persona in esse personali</del> ut sic est aeternitas formaliter 
+              <lb ed="#E"/>quia licet sit suppositorum distinctio est tamen eadem perfectio et eadem trinitas ymaginatur tamen <name><unclear>de ripa</unclear></name>
+              <lb ed="#E"/>quod aeternitas est formaliter mensura rei inmensae Consequenter ymaginatur quod suppositum 
+              <lb ed="#E"/>vel etiam persona ut sic non ponit inmensitatem simpliciter tamen dico quod mediate mensuratur 
+              <lb ed="#E"/>aeternitate et sic dico quod persona in esse personali est inmensa formaliter
+            </p>
+            <p xml:id="ppr-l58-seqema">
+              Sequitur quod productio 
+              <lb ed="#E"/>verbi dei mensuratur aeternitate etiam spiratio spiritus sancti Patet causa quaere verbum dei 
+              <lb ed="#E"/>licet sit productum tamen semper producitur causa est inmensitas perfectionis et aeternitatis quia ibi non 
+              <lb ed="#E"/>potest esse successio 
+            </p>
+            <p xml:id="ppr-l58-ehscad">
+              Ex isto sequitur quod non consurgit ex inperfectione productionis quod dicitur quod continue producitur 
+              <lb ed="#E"/>sicut esset in creatura quia ibi videretur esse ex imperfectione causae quia non posset dare 
+              <lb ed="#E"/>sibi totam perfectionem et sic esset opposita conditio divinae immensitatis ad conditiones creaturarum 
+            </p>
+            <p xml:id="ppr-l58-atuele">
+              <lb ed="#E"/>Advertendum quod licet sic loquamur quod dicimus aeternitatem esse mensuram tamen a parte rei nichil 
+              <pb ed="#E" n="181-v"/>
+              <lb ed="#E"/>aliud est quam ipse deus inmensus et sicut videbitur post ista praedicata sunt imposita propter de<lb ed="#E"/>bilitatem 
+              nostri modi concipiendi Aeternitas nichil ponit nisi deum consideratum ut 
+              <lb ed="#E"/>actum simplicissimum et purissimum includentem actualiter et neccessario omnem inmensam 
+              <lb ed="#E"/>perfectionem et excludentem omnem potentialitatem ad aliquod acquirendum vel de perdendum et ubi est omnis 
+              <lb ed="#E"/>plenitudo bonitatis inmensae ita proportionaliter dicendum est de locabilitate.
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l58-Dd1e434">
+          <head xml:id="ppr-l58-Hprones">Propositiones</head>
+          <p xml:id="ppr-l58-pcddim">
+            Pro cuius materiae de<lb ed="#E"/>claratione 
+            pono propositiones quia <name>Boecius</name> discurrit per singula praedicata investigando istam 
+            <lb ed="#E"/>materiam
+          </p>
+          <div xml:id="ppr-l58-Dd1e445">
+            <head xml:id="ppr-l58-Hpritio">Prima propositio</head>
+            <p xml:id="ppr-l58-sehilo">
+              Prima propositio quanto creatura est perfectior tanto nata est maiorem locum occupare  
+              <lb ed="#E"/>creaturae tamquam spiritualis quia de corporali non oportet quod perfectior occupet maiorem 
+              <lb ed="#E"/>locum sed res corporales occupant maiorem locum quam perfectior utque de terra respectu hominis 
+              <lb ed="#E"/>proprie patet nam sicut creatura magis imitatur deum in essentiali perfectione ideo quantum ad loci occupationem
+            </p>
+            <p xml:id="ppr-l58-eqsoil">
+              Sequitur corollarie quod si daretur suprema intelligentia creabilis infinitum spatium extra caelum occuparet 
+              <lb ed="#E"/>patet nam si 2m proportionem perfectionis sit perfectio magnitudinis loci cum huiusmodi intelligentia in infinitum excederet 
+              <lb ed="#E"/>omnem aliam intelligentiam quantum ad perfectionem sequitur quod etiam in infinitum excederet quantum 
+              <lb ed="#E"/>ad loci occupationem 
+            </p>
+            <p xml:id="ppr-l58-squppo">
+              Sed quaeritur utrum creatura spiritualis de terminat sibi secundum quantitatem 
+              <lb ed="#E"/>suae perfectionis quantitatem loci quem occupat potest tamen de potentia dei absoluta maiorem vel minorem 
+              <lb ed="#E"/>occupare utrum detur terminus non distinctio pro praesenti Patet de anima humana et eius productione quae successive 
+              <lb ed="#E"/>maiorem partem informat ita quod in infinitum parvam partem primo informat et post magnum 
+              <lb ed="#E"/>corpus informet et occupat 
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e460">
+              <head xml:id="ppr-l58-Hspospo">Secunda propositio</head>
+            <p xml:id="ppr-l58-apdesr">
+              Alio propositio deus non est proprie in loco sed locus est in ipso non dico 
+              <lb ed="#E"/>circumscriptive quia de hoc nullus dubitat hic stat difficultas pro ista propositione sunt multae auctoritates 
+              <lb ed="#E"/>primo auctoritates <name>augustini</name> ut patet per <ref xml:id="ppr-l58-Rd1e472"><name>magistrum</name> distinctione <sic>2a</sic></ref> Etiam 
+              <ref xml:id="ppr-l58-Rd1e483"><name>augustinus</name> in libro 83m quaestionum</ref> dicit 
+              <lb ed="#E"/>quod deus non est alicubi sed in eo sunt res
+            </p>
+            <p xml:id="ppr-l58-sqessr">
+              Ex hoc sequitur quod ex hoc quod deus est in diversis sitibus 
+              <lb ed="#E"/>eo modo quo comeditur esse in loco tamen simul tempore sive successive 2m quod res sibi invicem succedunt 
+              <lb ed="#E"/>non arguitur mutatio in eo nec potentialitas sed solum in rebus
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e496">
+            <head xml:id="ppr-l58-Htpotpo">Tertia propositio</head>
+            <p xml:id="ppr-l58-aplrcs">
+              Alia propositio locus vel situs 
+              <lb ed="#E"/>ymaginarius ut divisibilis et creaturae capax infinite recedit a divina capacitate Istud 
+              <lb ed="#E"/>aliqualiter difficile est ad ymaginandum et tamen ibi est punctus huius difficultatis unde ymaginandum 
+              <lb ed="#E"/>est quod deus ratione suae inmensitatis est spera intellectualis cuius centrum est ubique et circumferentia 
+              <lb ed="#E"/>nusquam 
+              <!-- fuzzy break here -->
+              deinde ymaginandum quod ex inmensitate dei consurgit aptitudo recipiendi creaturas
+            </p>
+            <!-- fuzzy break; reconsider -->
+            <p xml:id="ppr-l58-peispi">
+              et sic est quodam modo ymaginandum per modum spatii separati sicut ponebant aliqui 
+              <lb ed="#E"/>antiqui philosophi in quo dicebant mundum esse receptum et productum ymaginandum est quod spatium 
+              <lb ed="#E"/>ymaginarium est infinitum minimus perfectum in recipiendo res et locabilia quam deus quod 
+              <lb ed="#E"/>spatium etiam recipit creaturas et etiam deus est capax nobilissimo modo dictum spatium 
+              <lb ed="#E"/>quia spatium ymaginarium receptivum creaturarum recipi ab ipso deo ita quod deus 
+              <lb ed="#E"/>recipit et creaturas et spatium ymaginarium qua propter videtur quod ipse sit multo magis et per<lb ed="#E"/>fectus 
+              receptivus creaturarum quam huiusmodi spatium ymaginarium ita quod derivatur a divina in<lb ed="#E"/>mensitate 
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e519">
+            <head xml:id="ppr-l58-Hqpoqpo">Quarta propositio</head>
+            <p xml:id="ppr-l58-apicvn">
+              Alia propositio inmensus locus intellectualis potest solum divinam essentiam locare 
+              <lb ed="#E"/>ymaginandum quod licet sit idem a parte rei adaequate aeternitas et deus et dictum est supra 
+              <lb ed="#E"/>Ita etiam locabilitas dei deus Et sicut consideramus quod aeternitas est mensura dei 
+              <lb ed="#E"/>Ita ymaginandum est quod illa locabilitas solum locat illam divinitatem et natura divina sub 
+              <lb ed="#E"/>illa ratione qua vocatur aeternitati mensuratur divinam essentiam Et ad hoc propositum satis conformiter 
+              <lb ed="#E"/>descripserunt deum dicit quod deus est spera intellectualis cuius centrum est ubique circumferen<lb ed="#E"/>tiam 
+              autem nusquam et est optime et proprissime dictum
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e538">
+            <head xml:id="ppr-l58-Hqaoqao">Quinta propositio</head>
+            <p xml:id="ppr-l58-apqadl">
+              Alia propositio Quanto aliquis est perfectior tan<lb ed="#E"/>to 
+              magis intimatur deo
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e558">
+            <head xml:id="ppr-l58-Hsxosxo">Sexta propositio</head>
+            <p xml:id="ppr-l58-aplidi">
+              Alia propositio licet creaturae variae intimentur deo et diversimode <unclear>locetur</unclear> 
+              <pb ed="#E" n="82-r"/>
+              <lb ed="#E"/>in eo deus tamen inmense intimatur creaturae quantum est ex parte sui Nam sicut conceditur 
+              <lb ed="#E"/>quod deus unico gradu adequate ad extra omnis effectus Ita etiam quantum ad locabilitatem 
+              <lb ed="#E"/>concedi potest quod unico gradu inmense locat omnia
+            </p>
+          </div>
+          <div xml:id="ppr-l58-Dd1e567">
+            <head xml:id="ppr-l58-Hsmpsmp">Septima propositio</head>
+            <p xml:id="ppr-l58-apdmid">
+              Alia propositio quae est de intimatione dei ad crea<lb ed="#E"/>turas 
+              ex gratificatione creaturarum deus non magis intimatur creaturae in gratificatione crea<lb ed="#E"/>turae 
+              quam ante sed potius econtra magis intima deo et ratione illius maioris <unclear>intimationis</unclear> creaturae 
+              in deum potest creatura in aliquas operationes in quas non potuit ante gratificationem Prima pars huius 
+              <lb ed="#E"/>propositionis patet quia deus semper inmense est intimus creaturae ergo uno tempore non magis intimatur crea<lb ed="#E"/>turae 
+              quam alio tempore 
+            </p>
+            <!-- fuzzy break; some of above might go better in this paragraph -->
+            <p xml:id="ppr-l58-idnmid">
+              et sic deberet dici quod creatura vidit in deum sed quia non propriis viribus ideo 
+              <lb ed="#E"/>dicimus quod deus trahit creaturam 
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l58-Dd1e581">
+          <head xml:id="ppr-l58-Hconsio">Conclusio</head>
+          <p xml:id="ppr-l58-edpfpe">
+            Et sic ex praedictis patet de proprietatibus dei quantum ad ea quae 
+            <lb ed="#E"/>concurrunt duo puncta scilicet ubi et quando Sed dicit <ref xml:id="ppr-l58-Rd1e593"><name>boetius</name></ref> et etiam est dictum superius quod deus non est in 
+            <lb ed="#E"/>aliquo punctorum nec est subiecta proprie sed est quid perfectus substantia etiam ipsa est causa loci quia locat 
+            <lb ed="#E"/>et est causa successionis quantum ad tempus et sic non est ibi Potest tamen dici quod inproprie est in praedicamento substantiae 
+            <lb ed="#E"/>et relationis sed in aliis est omnino per supereminentiam quia ut dictum est iam ipse non est in loco 
+            <lb ed="#E"/>sed potius aeque locus est in ipse et ita de aliis proportionaliter potest dici etc 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
