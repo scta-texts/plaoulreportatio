@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 59, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 59, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-03-19">March 19, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-03-19" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="110-r"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio59">
+        <head xml:id="ppr-l59-Hldfldf">Lectio 59, de Trinitate</head>
+        <div xml:id="ppr-l59-Dd1e109">
+          <head xml:id="ppr-l59-Hpcdcds">Propositiones contra divinam simplicitatem</head>
+          <p xml:id="ppr-l59-qcmtid">
+            <lb ed="#PV"/>Alia lectio 58
+            <lb ed="#PV"/>Circa materiam trinitatis maxime
+            <lb ed="#PV"/>attendi debet divina simplicitas 
+            <lb ed="#PV"/>et unitas ideo quantum ad materiam 
+            <lb ed="#PV"/>divinae simplicitatis aliqua videtur 
+            <lb ed="#PV"/>ab esse quae tamen consequenter a docto<lb ed="#PV"/>ribus 
+            conceduntur quod probatur 
+            <lb ed="#PV"/>aliquibus rationibus
+          </p>
+          <div xml:id="ppr-l59-Dd1e117">
+            <head xml:id="ppr-l59-Hpqnirf">Prima</head>
+            <head type="question-title">Quod non est identitas rationum formalium</head>
+            <p xml:id="ppr-l59-pidess">
+              Primo arguitur sic 
+              <lb ed="#PV"/>nam individua essentia est non 
+              <lb ed="#PV"/>ydemptitas sed multiplicitas rationum 
+              <lb ed="#PV"/>formalium inter se formaliter
+              <pb ed="#PV" n="110-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>et realiter distinctarum circumscripta
+              <lb ed="#PV"/>operatione vel consideratione
+              <lb ed="#PV"/>intellectus ergo sequitur quod ibi non est 
+              <lb ed="#PV"/>summa simplicitas quoniam summa 
+              <lb ed="#PV"/>simplicitas excludit omnem multiplicitatem
+              <lb ed="#PV"/>et pluralitatem
+            </p>
+          </div>
+          <div xml:id="ppr-l59-Dd1e126">
+            <head xml:id="ppr-l59-Hsqieap">Secunda</head>
+            <head type="question-title">sQuod in divinis est distinctio essentiae ad personam</head>
+            <p xml:id="ppr-l59-iidraa">
+              2o arguitur sic in divinis 
+              <lb ed="#PV"/>est distinctio essentiae ad personam
+              <lb ed="#PV"/>ergo ibi est quaedam essentiae et personae 
+              <lb ed="#PV"/>compositio et per consequens ibi non est 
+              <lb ed="#PV"/>omnimoda simplicitas antecedens ex eo 
+              <lb ed="#PV"/>quia de essentia et de personis 
+              <lb ed="#PV"/>verificantur contradictoria verbi gratia 
+              <lb ed="#PV"/>essentia est 3s personae quia de essentia 
+              unde est dicere quod est pater filius et spiritus sanctus 
+              et tamen de patre negatur quod sit 
+              <lb ed="#PV"/>tres personae et quod sit filius et 
+              <lb ed="#PV"/>ita de aliis personis modo maximum 
+              <lb ed="#PV"/>medium ad probandum distinctionem 
+              inter res est quod aliquid convenit via 
+              quod removetur ab alio 
+            </p>
+          </div>
+          <div>
+            <head xml:id="ppr-l59-Htidepi">Tertia</head>
+            <head type="question-title">in Deo est pluralitas idearum</head>
+            <p xml:id="ppr-l59-tidaef">
+              3o arguitur 
+              <lb ed="#PV"/>in deo est pluralitas ydearum 
+              <lb ed="#PV"/>et realis distinctio earum ergo in 
+              <lb ed="#PV"/>deo non est omnimoda simplicitas 
+              <lb ed="#PV"/>ymmo in deo est ydearum infini<lb ed="#PV"/>tas 
+              distinctarum unde <ref xml:id="ppr-l59-Rva3akj" corresp="#l59-Qva3akj"> <name ref="#Augustine">augustinus</name> 
+              <lb ed="#PV"/><title ref="#deDiversisQuaestionibus">83 quaestionum</title> 80a</ref> ponit quod <quote xml:id="ppr-l59-Qva3akj" source="http://scta.info/resource/a83-q46-d1e111" type="paraphrase">alia rationi 
+              <lb ed="#PV"/>equus et alia asinus</quote> ergo sequitur 
+              <lb ed="#PV"/>quod in deo sunt variae ydeae 
+              <lb ed="#PV"/>variarum specierum formative 
+              <lb ed="#PV"/>et factive adextra 
+            </p>
+            <p xml:id="ppr-l59-aiceer">
+              ad idem con<lb ed="#PV"/>cordant 
+              multi doctores apud 
+              <lb ed="#PV"/>deum esse pluralitatem ydearum 
+              <lb ed="#PV"/>et hoc exprimunt sub aliis verbis 
+              <lb ed="#PV"/><unclear>dicit apostolus</unclear> deum sunt rerum mensurae 
+              <lb ed="#PV"/>rationes producibilium et regulae ful<lb ed="#PV"/>gores 
+              et origines et causae rerum
+            </p>
+            <p xml:id="ppr-l59-uatdcb">
+              <lb ed="#PV"/>unde etiam <ref xml:id="ppr-l59-Rd1e175"><name ref="#Augustine">augustinus</name> 3o <title ref="#deTrinitate">de trinitate</title> 
+              <lb ed="#PV"/>capitulo 66o</ref> dicit <quote xml:id="ppr-l59-Qd1e190" source="http://scta.info/resource/adt-l3-d1e444">quod penes deum 
+              <lb ed="#PV"/>sunt mensurae numera et pon<lb ed="#PV"/>dera</quote> Ex <ref xml:id="ppr-l59-Rd1e203"> 41o capitulo <title ref="#deTrinitate">de trinitate</title></ref> dicit 
+              <lb ed="#PV"/><quote xml:id="ppr-l59-Qd1e211" source="http://scta.info/resource/adt-l14-d1e1656">apud deum esse regulas aeternas 
+              <lb ed="#PV"/>quae scriptae sunt in libro lucis 
+              <lb ed="#PV"/>quae est veritas</quote> Et <ref xml:id="ppr-l59-Rd1e226">sexto <title ref="#deTrinitate">de trinitate</title></ref> 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>dicit quod <quote xml:id="ppr-l59-Qd1e234" source="http://scta.info/resource/adt-l6-d1e826">filius est ars omnipotentis 
+              <lb ed="#PV"/>plena rationum viventium</quote> Et <ref xml:id="l59-Rd1e249"> <name ref="#Dionysius">dyo<lb ed="#PV"/>nisius</name> 
+              in <title ref="#deCaelestiHierarchia">de caelesti gerarchia</title></ref> 
+              <lb ed="#PV"/>vocat ydeas fulgores capitulo 2o 
+              <lb ed="#PV"/>Et <ref xml:id="l59-Rd1e261"><name ref="#Ambrose">ambrosius</name> in <title ref="#Hexameron">exameron</title></ref> 
+              <lb ed="#PV"/>vocat ideas origines et causas 
+              <lb ed="#PV"/>rerum
+            </p>
+          </div>
+        </div>
+        <div xml:id="l59-Dd1e274">
+          <head xml:id="l59-Hrppppa">Rationes pro prima propositio: probatio antecedentis</head>
+          <p xml:id="l59-srafid">
+            Sed iterum redio ad 
+            <lb ed="#PV"/>primum antecedens probandum scilicet de pluralitate 
+            formalitatum  
+          </p>
+          <div xml:id="l59-Dd1e282">
+            <head xml:id="l59-Hprprpr">Prima ratio</head>
+            <p xml:id="l59-epaepn">
+              et primo arguam 
+              <lb ed="#PV"/>probando hoc rationibus scoti 
+              <lb ed="#PV"/>unde scotus vult probare quod sit 
+              <lb ed="#PV"/>aliqua non ydemptitas inter 
+              <lb ed="#PV"/>divinam sapientiam et divinam 
+              bonitatem et ita de aliis deo at<lb ed="#PV"/>tributis 
+              Et addit sic Si in<lb ed="#PV"/>finita 
+              sapientia essentialiter infinita 
+              <lb ed="#PV"/>bonitas tunc sapientia in communi 
+              <lb ed="#PV"/>esset etiam simpliciter bonitas in 
+              <lb ed="#PV"/>communi Ista ratio est aliqualiter ob<lb ed="#PV"/>scura 
+              tamen exponetur insol<lb ed="#PV"/>vendo 
+              ipsam resolvendo 
+              ad sensum clariorem et ideo 
+              <lb ed="#PV"/>de ea nichil pro nunc amplius 
+              <lb ed="#PV"/>dicam Sed tamen arguitur probando 
+              <lb ed="#PV"/>alium vicem quod si infinita sapientia 
+              <lb ed="#PV"/>esset formaliter infinita bo<lb ed="#PV"/>nitas 
+              etc quia infinitum 
+              alicui additum non variat 
+              <lb ed="#PV"/>rationem illius cui additur Sed 
+              <lb ed="#PV"/>consequens falsum quod probatur quia si sic 
+              <lb ed="#PV"/>tunc in diffinitione quidditiva sapientiae 
+              <lb ed="#PV"/>bonitas poneretur tamquam 
+              <lb ed="#PV"/>pars nihil vel esset met eius diffinitio 
+              <lb ed="#PV"/>quidditiva
+            </p>
+          </div>
+          <div xml:id="l59-Dd1e298">
+            <head xml:id="l59-Hsrsrsr">Secunda ratio</head>
+            <p xml:id="l59-sasiev">
+              2o arguit <name>scotus</name> sic 
+              <lb ed="#PV"/>distinctio emanationum personarum divinarum 
+              <lb ed="#PV"/>ad intra neccessario praesupponit distinctionem 
+              <lb ed="#PV"/>principiorum elicitivorum et non 
+              <lb ed="#PV"/>distinctionem rationis tantum quia illa 
+              <lb ed="#PV"/>est inpertinens nec realem similiter 
+              quia una negetur de alia 
+              <lb ed="#PV"/>ergo formalem prima pars patet quia non 
+              <pb ed="#PV" n="111-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>videtur vide esse diversitas 
+              <lb ed="#PV"/>emanationum ad intra nisi esset 
+              <lb ed="#PV"/>diversitas principiorum elicitivorum 
+              <lb ed="#PV"/>illius emanationis Etiam non 
+              <lb ed="#PV"/>videretur quomodo salvaretur quod filius 
+              <lb ed="#PV"/>procederet modo naturae et non 
+              <lb ed="#PV"/>spiritus sanctus nisi poneretur aliqua 
+              <lb ed="#PV"/>distinctio in deo 
+            </p>
+          </div>
+          <div xml:id="l59-Dd1e307">
+            <head xml:id="dT57Htrtrtr">Terta ratio</head>
+            <p xml:id="l59-tqeiaa">
+              3o arguit 
+              <lb ed="#PV"/>sic Quidquid est ex se formaliter 
+              <lb ed="#PV"/>idem existens principium produ<lb ed="#PV"/>cendi 
+              infinita patet quia si eadem 
+              <lb ed="#PV"/>modo se habendi adaequate potest 
+              <lb ed="#PV"/>in duo eadem ratione potest 
+              <lb ed="#PV"/>in tria et in quatuor et sic in 
+              <lb ed="#PV"/>infinitum ex quo cum ydemptitate 
+              <lb ed="#PV"/>et eodem modo se habendi adaequate 
+              <lb ed="#PV"/>stat quod producat duo sequitur 
+              <lb ed="#PV"/>quod potest in tria ut tactum est 
+              <lb ed="#PV"/>Et huius exemplum est satis in agenti<lb ed="#PV"/>bus 
+              naturalibus unde si ignis 
+              <lb ed="#PV"/>eodem modo se habens producat du<lb ed="#PV"/>os 
+              ignes tunc etiam potest producere 
+              <lb ed="#PV"/>tres et quatuor et sic ulterius 
+              <lb ed="#PV"/>et ita etiam in agentibus aequivocis 
+            </p>
+            <p xml:id="l59-isspcn">
+              <lb ed="#PV"/>Item spiritus sanctus producitur 
+              <lb ed="#PV"/>libere et filius naturaliter et ista 
+              <lb ed="#PV"/>varietas non oritur ex modo 
+              <lb ed="#PV"/>actuum sicut patet exemplum de actu voluntatis 
+              <lb ed="#PV"/>qui licet sit liber tamen hanc 
+              <lb ed="#PV"/>denominationem recipit a principio 
+              <lb ed="#PV"/>suo effectivo quia huiusmodi 
+              <lb ed="#PV"/>actus naturaliter et intrinsece non est 
+              <lb ed="#PV"/>liber igitur ad simili si aliqua 
+              <lb ed="#PV"/>productio in divinis sit libera 
+              <lb ed="#PV"/>oportet quod sit ex parte principii 
+              <lb ed="#PV"/>producentis et sic oporteret ut videtur 
+              <lb ed="#PV"/>quod huiusmodi diversitas pro<lb ed="#PV"/>ducendi 
+              vicet filium naturaliter 
+              <lb ed="#PV"/>et spiritus sanctus libere proveniat et oriatur 
+              <lb ed="#PV"/>ex hoc quod est diversitas in 
+              <lb ed="#PV"/>principiis productivas 
+            </p>
+            <p xml:id="l59-iaaenc">
+              Quinto 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>arguit sic aliqua competunt 
+              <lb ed="#PV"/>divinae voluntati quae non com<lb ed="#PV"/>petunt 
+              divinae intellectui et econtra 
+              <lb ed="#PV"/>nam voluntas determinat se respectu 
+              <lb ed="#PV"/>cuiuscumque positionis effectus 
+              <lb ed="#PV"/>in esse mere libere et intellectus 
+              <lb ed="#PV"/>non quia intellectus divinus etiam 
+              <lb ed="#PV"/>neccessario respectu cuiuscumque intel<lb ed="#PV"/>lectio 
+            </p>
+            <p xml:id="l59-evanvm">
+              Et etiam aliqua attribuuntur 
+              <lb ed="#PV"/>intellectu dummodo quae non voluntati 
+              <lb ed="#PV"/>Nam intellectus intelligit 
+              <lb ed="#PV"/>mala et voluntas non vult 
+              <lb ed="#PV"/>mala ergo ibi est aliqua distinctio 
+              <lb ed="#PV"/>inter eos 
+            </p>
+            <p xml:id="l59-aiaqef">
+              Ad idem propositum 
+              <lb ed="#PV"/>arguit magister Iohannes de ripa Et primo
+              <lb ed="#PV"/>arguit sic divina essentia est 
+              <lb ed="#PV"/>ab aliquo participabilis in esse et 
+              <lb ed="#PV"/>ab eodem non participatur 
+              <lb ed="#PV"/>in esse viate ergo in deo est aliqualis 
+              <lb ed="#PV"/>distinctio inter esse et esse vitae 
+              <lb ed="#PV"/>Nam si participatio dei in esse 
+              <lb ed="#PV"/>a parte obiecti esset idem et unicus 
+              <lb ed="#PV"/>gradus cum participatione in esse 
+              <lb ed="#PV"/>vitae tunc non esset distinctio 
+              <lb ed="#PV"/>in deo inter esse et esse vitae et per 
+              <lb ed="#PV"/>consequens quidquid participaret 
+              <lb ed="#PV"/>ipsum in esse vitae et sic materia 
+              <lb ed="#PV"/>prima esset vita eo quod participat 
+              <lb ed="#PV"/>deum in esse et cum idem sit 
+              <lb ed="#PV"/>per adversarium participare deum 
+              <lb ed="#PV"/>in esse et in esse vitae sequitur 
+              <lb ed="#PV"/>intentum 
+            </p>
+            <p xml:id="l59-issqpi">
+              3o arguit sic sequeretur 
+              <lb ed="#PV"/>quod in rebus non esset diversis  
+              <lb ed="#PV"/>specifica sed res different 
+              <lb ed="#PV"/>secundum intensum et remissum 
+              <lb ed="#PV"/>praecise probatur consequentia quia ex 
+              <lb ed="#PV"/>quo res participant eandem 
+              <lb ed="#PV"/>rationem formalem in deo sequere<lb ed="#PV"/>tur 
+              quod quantum ad hoc nulla 
+              <lb ed="#PV"/>erit distinctio inter res nisi 
+              <lb ed="#PV"/>quod una res intensius participat
+              <pb ed="#PV" n="111-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>huiusmodi formalitatem et alia 
+              <lb ed="#PV"/>remissius et per consequens ex hoc inci<lb ed="#PV"/>dendum 
+              esset in errorem hunc 
+              <lb ed="#PV"/>quod omnes res vivendi essent 
+              <lb ed="#PV"/>eiusdem speciei
+              <!-- break --> 
+              Alias rationes 
+              <lb ed="#PV"/>facit <name>magister iohannes de rippa</name> de quibus 
+              pro praesenti super se deo Sed consequenter 
+              <lb ed="#PV"/>tractando materiam eas meliori 
+              <lb ed="#PV"/>modo quo potero introducam 
+              2m quod materia requiret
+            </p>
+          </div>
+        </div>
+        <div xml:id="l59-Dd1e339">
+          <head xml:id="l59-Hraootp">Rationes ad oppositum trium propositionum</head>
+          <p xml:id="l59-aoiepd">
+            Ad oppositum 
+            <lb ed="#PV"/>omnium istorum trium simul arguitur 
+            <lb ed="#PV"/>auctoritate <name ref="#Dionysius">beati dionysii</name> dicentis 
+            <lb ed="#PV"/>quod circa divina non est aliquid asse<lb ed="#PV"/>rendum 
+            nisi quod divina docent 
+            <lb ed="#PV"/>eloquia et per consequens cum non ha<lb ed="#PV"/>beamus 
+            ex sacra scriptura 
+            <lb ed="#PV"/>vel ex determinatione ecclesiae 
+            <lb ed="#PV"/>nec ex eo auctoritate ligante nec etiam 
+            <lb ed="#PV"/>ratione communicente quod sic humana 
+            <lb ed="#PV"/>distinctio rationum formalium 
+            <lb ed="#PV"/>vel etiam ydearum ponenda in 
+            <lb ed="#PV"/>divinis sequitur quod nullo modo 
+            <lb ed="#PV"/>est ponendo considerata etiam regula 
+            <lb ed="#PV"/><name>anselmi</name> dicentis quod in divinis
+            <lb ed="#PV"/>omnia sunt idem inter se ubi 
+            <lb ed="#PV"/>non obviat relationis opposi<lb ed="#PV"/>tio 
+            ergo praecise inter per scientias 
+            <lb ed="#PV"/>relative ponenda distinctio
+          </p>
+          <p xml:id="l59-iasddm">
+            <lb ed="#PV"/>Item positio distinctionis for<lb ed="#PV"/>malitatum 
+            est difficilior quam 
+            <lb ed="#PV"/>distinctio personarum divinarum 
+            <lb ed="#PV"/>inter se igitur sequitur quod non 
+            <lb ed="#PV"/>est ponenda cum fides nos 
+            <lb ed="#PV"/>non astringat ad hoc antecedens patet 
+            <lb ed="#PV"/>nam mirabilitas positionis 
+            <lb ed="#PV"/>trinitatis est ex hoc quod ponit 
+            <lb ed="#PV"/>et asserit distinctionem morem 
+            <lb ed="#PV"/>realem quam sit distinctio 
+            <lb ed="#PV"/>essentialis ponit enim quod argui dis<lb ed="#PV"/>tinguatur 
+            ab alio sic quod haec 
+            <lb ed="#PV"/>res fuit haec essentia modo 
+            <lb ed="#PV"/>distinctio formalitatum secundum ipsas 
+            <lb ed="#PV"/>formalitates ponentes esset adhuc 
+            <lb ed="#PV"/>minor quam sit distinctio personarum 
+            <lb ed="#PV"/>quia huiusmodi distinctio formalita<lb ed="#PV"/>tum 
+            multo plus recedit a 
+            <lb ed="#PV"/>distinctione essentiae quam facit 
+            <lb ed="#PV"/>distinctio personarum inter se Si 
+            <lb ed="#PV"/>igitur distinctio personarum 
+            <lb ed="#PV"/>inter se habet sit nobis difficilis 
+            <lb ed="#PV"/>et mirabilis ad concipiendum 
+            <lb ed="#PV"/>sequitur quod multo plus erit 
+            <lb ed="#PV"/>difficile ad concipiendum 
+            <lb ed="#PV"/>huiusmodi distinctionem formlaitatum 
+            <lb ed="#PV"/>inter se Attento igitur quod fi<lb ed="#PV"/>des 
+            non astringat nos ad 
+            <lb ed="#PV"/>ponendum huiusmodi formalitatis in deo 
+            <lb ed="#PV"/>maxime cum aeque bene 
+            <lb ed="#PV"/>potest trinitas salvari non ponendo 
+            <lb ed="#PV"/>illas sed ponendo ymmo per 
+            <lb ed="#PV"/>eas nichil salvatur in divinis 
+            <lb ed="#PV"/>quando aeque bene vel melius 
+            <lb ed="#PV"/>possit salvari ipsas non ponendo 
+            <lb ed="#PV"/>ergo sequitur quod non debemus 
+            <lb ed="#PV"/>huiusmodi formalitates ponunt 
+            <lb ed="#PV"/>in divinis
+          </p>
+        </div>
+        <div xml:id="l59-Dd1e357">
+          <head xml:id="l59-Hdraatp">Divisio responsionis ad tres propositiones</head>
+          <p xml:id="l59-cttams">
+            Circa nunc tacta 
+            <lb ed="#PV"/>erunt tria puncta cum ad<lb ed="#PV"/>iutorio 
+            divino per tractanda 
+          </p> 
+          <p xml:id="l59-pedmsit">
+            <lb ed="#PV"/>primum erat de formalitatibus 
+            <lb ed="#PV"/>et quid intellexerunt doctores 
+            <lb ed="#PV"/>de formalitatibus variae lo<lb ed="#PV"/>quentes 
+            et varias vias po<lb ed="#PV"/>nentes 
+            viam meliorem proba<lb ed="#PV"/>biliorem 
+            iuxta posse eliciendo
+          </p> 
+          <p xml:id="l59-sedeep">
+            <lb ed="#PV"/>2m erit de distinctione alia quam 
+            <lb ed="#PV"/>vocant doctores distinctionem 
+            <lb ed="#PV"/>ex natura rei utrum vicem inter personas 
+            <lb ed="#PV"/>et essentiam sit aliqualis distinctio 
+          </p>
+          <p xml:id="l59-tedise">
+            <lb ed="#PV"/>Circa 3m punctum erit de 
+            <lb ed="#PV"/>ydeis quomodo et per quem modum 
+            <lb ed="#PV"/>sunt ponenda in deo et utrum 
+            <lb ed="#PV"/>habeant aliqualem distinctionem inter se
+          </p>
+        </div>  
+      </div>
+    </body>
+  </text>
+</TEI>
