@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 60, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 60, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-03-25">March 25, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-03-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="110-r"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio60">
+        <head xml:id="ppr-l60-Hldfldf">Lectio 60, de Trinitate</head>
+        <div xml:id="ppr-l60-Dd1e109">
+          <head xml:id="ppr-l60-Hcppfid">Circa prima propositio: formalitates in Deo</head>
+          <p xml:id="ppr-l60-qamsda">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>doctores faciunt multas dif<lb ed="#PV"/>ficultates 
+            de formalitatibus quaerentes 
+            <pb ed="#PV" n="112-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>utrum in deo etiam in creaturis 
+            <lb ed="#PV"/>sunt distinctae scilicet utrum in deo 
+            <lb ed="#PV"/>divina sapientia et divina bonitas 
+            <lb ed="#PV"/>sunt idem formaliter et sic de aliis 
+          </p>
+          <!--
+            not present
+            <p xml:id="ppr-l60-esmcpp">
+            Et sunt multae alia opiniones 
+            et difficultates quas reducam ad clara pro posse.
+          </p>-->
+          <div xml:id="ppr-l60-Dd1e130">
+            <head xml:id="ppr-l60-Hoididr">Opinio <name ref="#Ripa">Iohannes de Rippa</name></head>
+            <p xml:id="ppr-l60-protef">
+              recita<lb ed="#PV"/>bo 
+              primo opinionem <name ref="#Ripa">magistri Iohannis de rip<lb ed="#PV"/>pa</name>
+              deinde <name>doctoris subtilis</name> 
+            </p>
+            <p xml:id="ppr-l60-qapidr">
+              <lb ed="#PV"/>notandum quod circumscripta 
+              <lb ed="#PV"/>operatione intellectus quia de 
+              <lb ed="#PV"/>distinctione rationum modicum est 
+              <lb ed="#PV"/>quia eadem res potest concipi 
+              <lb ed="#PV"/>diversis conceptibus in ve<lb ed="#PV"/>niuntur 
+              quatuor modi distinc<lb ed="#PV"/>tionum 
+              secundum <name>magistrum Iohannes de ripa</name> 
+            </p> 
+            <p xml:id="ppr-l60-pmeemd">
+              <lb ed="#PV"/>primus modus est essentiarum 
+              <lb ed="#PV"/>scilicet quando sunt duae essentiae et 
+              <lb ed="#PV"/>una est alia et illa est maxima 
+              <lb ed="#PV"/>distinctionum 
+            </p> 
+            <p xml:id="ppr-l60-aempet">
+              Alia est minor 
+              <lb ed="#PV"/>scilicet realis et non essentialis quando 
+              <lb ed="#PV"/>scilicet aliquae res sunt eadem es<lb ed="#PV"/>sentia 
+              et tamen una non est 
+              <lb ed="#PV"/>alia ista distinctio est minor 
+              <lb ed="#PV"/>prima quia stat cum unitate 
+              <lb ed="#PV"/>essentiae communicat cum alia in
+              <lb ed="#PV"/>hoc quod una res non est alia 
+              <lb ed="#PV"/>et differet ab alia quia licet 
+              <lb ed="#PV"/><c>a</c> non est <c>b</c> tamen <c>a</c> et <c>b</c> <del>i</del> communi<lb ed="#PV"/>cant 
+              in essentia et istae distinc<lb ed="#PV"/>tiones 
+              conceduntur ab omnibus 
+              <lb ed="#PV"/>theologis unde prima con<lb ed="#PV"/>ceditur 
+              inter creaturas  
+            </p>
+            <!-- collapse paragraphs -->
+            <p xml:id="ppr-l60-scacat">
+              et secunda 
+              <lb ed="#PV"/>conceditur ab omnibus fidelibus 
+              <lb ed="#PV"/>theologis sicut distinctio divina<lb ed="#PV"/>rum 
+              personarum quia pater et 
+              <lb ed="#PV"/>filius et spiritus sanctus sunt tres 
+              <lb ed="#PV"/>res et nulla illarum est alia et 
+              <lb ed="#PV"/>tamen quaelibet illarum est idem 
+              <lb ed="#PV"/>cum alia quia eadem essentia 
+              <lb ed="#PV"/>et sic pater et filius et spiritus sanctus 
+              <lb ed="#PV"/>sunt idem in neutro genere 
+            </p> 
+            <p xml:id="ppr-l60-tgedms">
+              3us 
+              <lb ed="#PV"/>gradus est distinctio requiret 
+              <lb ed="#PV"/>formalium quae distinctius minor
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>est praedictis quia in ista nec naturae 
+              <lb ed="#PV"/>essentia de essentia nec res de re 
+              <lb ed="#PV"/>nisi cum aliquo addito verbi gratia 
+              <lb ed="#PV"/>capiamus bonitatem divinam 
+              <lb ed="#PV"/>et eius iustitiam vel sapientiam 
+              <lb ed="#PV"/>certum est quod sunt eadem essentia 
+              <!-- break --> 
+              <lb ed="#PV"/>Contra primam distinctionem 
+              <lb ed="#PV"/>et contra secundarium sunt idem 
+              <lb ed="#PV"/>sic quod bonitas est sapientia 
+              <lb ed="#PV"/>quod non quod conceditur in 2a 
+              <lb ed="#PV"/>distinctione quia non conceditur 
+              <lb ed="#PV"/>quod pater sit filius est tamen ali<lb ed="#PV"/>qualis 
+              distinctio ex parte quia 
+              <lb ed="#PV"/>cum addito conceditur unum 
+              <lb ed="#PV"/>negari de alio Conceditur quod 
+              <lb ed="#PV"/>bonitas non est formaliter sapientia 
+              <lb ed="#PV"/>quocumque conceptu certum scripto 
+              <lb ed="#PV"/>Ita quod ex parte bonitas non 
+              <lb ed="#PV"/>est sapientia nec intellectivus 
+              <lb ed="#PV"/>divinus non est formaliter vo<lb ed="#PV"/>luntas 
+              <del>q</del> ita quod secundum ordinem 
+              <lb ed="#PV"/>praedicatorum essentialium est ordo 
+              <lb ed="#PV"/>talium formalitatum ut primo 
+              <lb ed="#PV"/>potest sumi conceptus entis 
+              <lb ed="#PV"/>communis deo et creaturae etiam 
+              <lb ed="#PV"/>convenientia secundae speciei cum deo potest 
+              <lb ed="#PV"/>sumi conceptus consequens illi et deo 
+              <lb ed="#PV"/>et quia processus est in infini<lb ed="#PV"/>tum 
+              secundum hoc in deo est propor<lb ed="#PV"/>tionales 
+              diversitas a parte rei 
+            </p>
+            <!-- fuzzy break and parallel -->
+            <p xml:id="ppr-l60-iiqdro">
+              <lb ed="#PV"/>non tamen quod in illius distinc<lb ed="#PV"/>tionis 
+              unum negetur de reli<lb ed="#PV"/>quo 
+              absolute unde nos pos<lb ed="#PV"/>semus 
+              formare conceptum 
+              <lb ed="#PV"/>entis praecise convenientem deo sed 
+              <lb ed="#PV"/>non habemus praedicata impo<lb ed="#PV"/>sita 
+              a gramaticis ideo attribuimus 
+              <lb ed="#PV"/>deo praedicatum entis communie sibi et nobis 
+              <lb ed="#PV"/>ita breviter quod est diversitas ob<lb ed="#PV"/>iectalis 
+              in deo et in creaturis secundum 
+              <lb ed="#PV"/>diversitatem praedicatorum eius 
+              <lb ed="#PV"/>attributorum Sicut si capiamus
+              <pb ed="#PV" n="112-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>conceptum significationem deum 
+              <lb ed="#PV"/>praecise esse isti conceptu cor<lb ed="#PV"/>respondet 
+              in deo ratio obiectalis 
+              <lb ed="#PV"/>et alius est conceptus secundum quem 
+              <lb ed="#PV"/>deus dicitur sapientia et secundum hoc 
+              <lb ed="#PV"/>etiam est in deo alia ratio obeictalis 
+              <lb ed="#PV"/>proportionaliter et sic consequenter Et ideo 
+              <lb ed="#PV"/>aliter se habet deus in esse entis 
+              <lb ed="#PV"/>et est alia formalitas in eo quam 
+              <lb ed="#PV"/>in esse vitae ymaginemur nisi 
+              <lb ed="#PV"/>vitam multitudinem huiusmodi 
+              <lb ed="#PV"/>praedicamentorum deinde sic a parte 
+              <lb ed="#PV"/>rei convertuntur et supponunt 
+              <lb ed="#PV"/>pro eodem tamen est varietas 
+              <lb ed="#PV"/>quantum ad modum inmutan<lb ed="#PV"/>di 
+              ita realiter est alia et alia ratio 
+              <lb ed="#PV"/>obiectalis formalis Advertendum 
+              <lb ed="#PV"/>quod licet huiusmodi formalitates 
+              <lb ed="#PV"/>sic formaliter sumptae <del>sui</del> vel 
+              <lb ed="#PV"/>sic sumptae secundum proprias rationes 
+              <lb ed="#PV"/>formales concurrunt ydemptitate 
+              <lb ed="#PV"/>duobus primis modis nichil<lb ed="#PV"/>omnius 
+              manet aequalis distinctio 
+              <lb ed="#PV"/>sicut dictum est
+            </p>
+            <p xml:id="ppr-l60-qgdaqh">
+              Quartus 
+              <lb ed="#PV"/>gradus est minor praedictis 
+              quia est plurium graduum eiusdem 
+              <lb ed="#PV"/>rationis formalis aliqualiter 
+              <lb ed="#PV"/>distinctorum simul unitive concur<lb ed="#PV"/>rentium 
+              unde ymaginatur 
+              <lb ed="#PV"/>iste doctor quod ratio obiectiva entis 
+              <lb ed="#PV"/>secundum suam rationem formalem 
+              <lb ed="#PV"/>se intensior uni quam altri 
+              <lb ed="#PV"/>ymaginatur quod tota ratio entis 
+              <lb ed="#PV"/>secundum suam rationem formalem 
+              <lb ed="#PV"/>est idem in omnibus creaturarum 
+              <lb ed="#PV"/>Ita quod esse sortis in esse formali 
+              <lb ed="#PV"/>est omnino eiusdem rationis essentialis 
+              <lb ed="#PV"/>cum esse asini est tamen esse in<lb ed="#PV"/>tensius 
+              in homine quam in 
+              <lb ed="#PV"/>asino et sic terminus transcentibus 
+              <lb ed="#PV"/>et denominationibus essentialibus cor<lb ed="#PV"/>respondet 
+              rationes formalitates 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>compositae ex gradibus Ita quod 
+              <lb ed="#PV"/>nobiliorem modum essendi habet 
+              <lb ed="#PV"/>angelus quam homo 
+            </p> 
+            <p xml:id="ppr-l60-ehqrvf">
+              quantum 
+              <lb ed="#PV"/>ad gradus sed sunt omnino eiusdem 
+              <lb ed="#PV"/>rationis formalis et sic non 
+              <lb ed="#PV"/>distinguuntur formaliter sed dis<lb ed="#PV"/>tinguuntur 
+              sicut gradus eiusdem 
+              <lb ed="#PV"/>qualitatis intensibilis qui ponit 
+              <lb ed="#PV"/>unitive concurrere exemplum de 2o 
+              <lb ed="#PV"/>gradu ut si possunt ydemp<lb ed="#PV"/>tificari 
+              gradus albedinis stan<lb ed="#PV"/>te 
+              multitudine ipsorum et ipsas 
+              <lb ed="#PV"/>remanentibus vel sub aliis 
+              <lb ed="#PV"/>verbis sicut si gradus quantitatis 
+              <lb ed="#PV"/>eiusdem rationis speciei concurrerent 
+              <lb ed="#PV"/>unitive ipsis remanentibus 
+              <lb ed="#PV"/>exemplum de 2o gradu ut si ydempti<lb ed="#PV"/>ficentur 
+              albedo et nigredo etc
+              <lb ed="#PV"/>exemplum de 3o ut si triangulus 
+              <lb ed="#PV"/>et quadrangulus ydemptificentur 
+              <lb ed="#PV"/>substantialiter et realiter et nichilominus 
+              <lb ed="#PV"/>quilibet eorum remaneat in suo 
+              <lb ed="#PV"/>esse distinctio scilicet in esse figurae 
+              <lb ed="#PV"/>et sic una essentia esset alia 
+            </p> 
+          </div>
+          <div xml:id="ppr-l60-Dd1e197">
+            <head xml:id="ppr-l60-Hcididr">Conclusiones Iohannis de Rippa</head>
+            <p xml:id="ppr-l60-iiepsc">
+              <lb ed="#PV"/>Consequenter <name ref="#Ripa">magister iohannes de ripa</name> 
+              <lb ed="#PV"/>ponit conclusiones 
+            </p>
+            <div xml:id="ppr-l60-Dd1e208">
+              <head xml:id="ppr-l60-Hpcdfed">Prima conclusio <name ref="#Ripa">de Rippa</name></head>
+              <head xml:id="ppr-l60-Hd1e215" type="question-title">In qualibet creatura reperitur multitudo graduum eiusdem rationis formalis et denominationis</head>
+              <p xml:id="ppr-l60-peimqa">
+                prima quod 
+                <lb ed="#PV"/>in qualibet creatura reperitur mul<lb ed="#PV"/>titudo 
+                graduum eiusdem rationis 
+                <lb ed="#PV"/>formalis et denominationis quia 
+                <lb ed="#PV"/>de esse entis in qualibet creatura 
+                <lb ed="#PV"/>secundum quod est perfectionis speciei 
+                <lb ed="#PV"/>secundum hoc habet plures gradus 
+                <lb ed="#PV"/>entis Ita est 2m quod est perfectior 
+                <lb ed="#PV"/>secundum hoc habet plures gradus 
+                <lb ed="#PV"/>in esse vitae et sic de aliis Infert ex hoc 
+                <lb ed="#PV"/>quod in qualibet creatura sunt infiniti 
+                <lb ed="#PV"/>gradus unitive concurrentes qui 
+                <lb ed="#PV"/>nec realiter nec formaliter disting<lb ed="#PV"/>uuntur 
+              </p>
+            </div>
+            <div xml:id="ppr-l60-Dd1e222">
+              <head xml:id="ppr-l60-Hscdard">Secunda conclusio <name ref="#Ripa">de Rippa</name></head> 
+              <head xml:id="ppr-l60-Hd1e229" type="question-title">Distinctio gradus rationis formaliter et adaequate repugnat Deo<!--<note>double check</note>--></head>
+              <p xml:id="ppr-l60-acduiv">
+                2a conclusio distinctio quarti 
+                <lb ed="#PV"/>gradus omnino repugnat deo 
+                <pb ed="#PV" n="113-r"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>quia ubicumque reperitur latitudo 
+                <lb ed="#PV"/>graduum quantumcumque unitive 
+                <lb ed="#PV"/>concurrentium ibi datur intensius 
+                <lb ed="#PV"/>et remissius et hoc repugnet 
+                <lb ed="#PV"/>divinae essentiae inmensitati In<lb ed="#PV"/>fert 
+                ex hoc quod minor distinctio repugnat 
+                <lb ed="#PV"/>simplicitati ubi maior non 
+                <lb ed="#PV"/>repugnat quia distinctio 
+                <lb ed="#PV"/>quarti repugnat et distinctio 
+                <lb ed="#PV"/>primi gradus non
+              </p>
+            </div>
+            <div xml:id="ppr-l60-Dd1e240">
+              <head xml:id="ppr-l60-tcdrdf">Tertia conclusio <name ref="#Ripa">de Rippa</name></head>
+              <head xml:id="ppr-l60-Hd1e247" type="question-title">Quod sicut in Deo, ita in creatura reperitur distinctio formalis</head>
+              <p xml:id="ppr-l60-acsdfi">
+                Alia conclusio 
+                <lb ed="#PV"/>sicut in deo ita in creaturis 
+                <lb ed="#PV"/>reperitur formalis distinctio unde sicut 
+                <lb ed="#PV"/>tactum ymaginatur quod secundum numerum 
+                <lb ed="#PV"/>praedicatorum essentialium adextra 
+                <lb ed="#PV"/>communicalium est numeris rationum formalium 
+                <lb ed="#PV"/>unitive in deo concurrentium ita etiam 
+                <lb ed="#PV"/>in deo creatura radix sua eset nam 
+                <lb ed="#PV"/>aliqua creatura assimilantur deo 
+                <lb ed="#PV"/>in esse solum et alia solum in esse 
+                <lb ed="#PV"/>vitae quia video esse et esse vitae 
+                <lb ed="#PV"/>modo si in deo nulla sit distinctio 
+                <lb ed="#PV"/>tunc sequitur ista creatura 
+                <lb ed="#PV"/>assimilantur deo in esse vitae quia 
+                <lb ed="#PV"/>in deo esse et esse vitae sunt idem for<lb ed="#PV"/>maliter 
+              </p>
+            </div>
+            <div xml:id="ppr-l60-Dd1e258">
+              <head xml:id="ppr-l60-Hacddcr">Quarta conclusio <name ref="#Ripa">de Rippa</name></head> 
+              <head xml:id="ppr-l60-Hd1e265" type="question-title">De distinctione causalium rationum</head>
+              <p xml:id="ppr-l60-acpipi">
+                Aliam conclusionem ponit 
+                <lb ed="#PV"/>de distinctione rationum creabilium 
+                <lb ed="#PV"/>a rationibus formalibus ista 
+                <lb ed="#PV"/>tangit de ydeis ideo transio etc
+              </p> 
+              <!--not present 
+                <p xml:id="ppr-l60-eisidr">
+                Et ista materia est bene difficilis ad intelligendum, 
+                ideo ista introducto pro iuvenibus, 
+                et ista sunt in generali de opinione 
+                <name ref="#Ripa">Magistri Iohannis de Rippa</name>, 
+                et cetera.
+              </p>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
