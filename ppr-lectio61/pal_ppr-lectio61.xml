@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 61, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 61, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-03-31">March 31, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-03-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="113-r"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio61">
+        <head xml:id="ppr-l61-Hldtldt">Lectio 61, de Trinitate</head>
+        <div xml:id="ppr-l61-Dd1e109">
+          <head xml:id="ppr-l61-Hcmdmdf">Continuandum materia de formalitatibus</head>
+          <p xml:id="ppr-l61-imdced">
+            <lb ed="#PV" n="29"/>Alia lectio 70
+            <lb ed="#PV"/>materia de formalitatibus con<lb ed="#PV"/>tinet 
+            duo puncta primum est habere
+            <lb ed="#PV"/>radicem ymaginationis doc<lb ed="#PV"/>torum 
+            loquentium in ista materia 
+            et sine illo non habetur 2m 
+            <lb ed="#PV"/>punctum scilicet de particularibus diffi<lb ed="#PV"/>cultatibus 
+            contingentibus 
+          </p>
+          <div xml:id="ppr-l61-Dd1e119">
+            <head xml:id="ppr-l61-Hppdpdr">Plus propositiones de Rippa</head>
+            <p xml:id="ppr-l61-ecpidr">
+              circa 
+              <lb ed="#PV"/>istam materiam ut habeatur yma<lb ed="#PV"/>ginatio 
+              et fundamentum materiae 
+              <lb ed="#PV"/>pono propositiones secundum <name>magistrum iohannes de ry</name>
+            </p>
+            <div xml:id="ppr-l61-Dd1e130">
+              <head xml:id="ppr-l61-Hppoppo">Prima propositio:</head>
+              <p xml:id="ppr-l61-ppcaps">
+                <lb ed="#PV"/>prima propositio cuilibet denominationi 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>perfectionis simpliciter <del rend="vacat">est eius vel esse 
+                <lb ed="#PV"/> tunc a parte obiecti ymagi<lb ed="#PV"/>nandum 
+                est quod quidquid significa</del>
+                <lb ed="#PV"/>absolute correspondet ratio obiec<lb ed="#PV"/>talis 
+                eiusdem rationis verbi gratia 
+                <lb ed="#PV"/>prima denominatio perfectionis simpliciter 
+                est ens vel esse ens tunc a parte 
+                <lb ed="#PV"/>obiecti ymaginandum est quod 
+                <lb ed="#PV"/>quidquid significatur per vivens 
+                <lb ed="#PV"/>in quantum vivens <unclear>utercumque</unclear> 
+                <lb ed="#PV"/>reperitur in creaturis est semper 
+                <lb ed="#PV"/>eiusdem rationis a parte rei et sic 
+                <lb ed="#PV"/>de esse intellectum et sic de aliis
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e139">
+              <head xml:id="ppr-l61-Hspospo">Secunda propositio</head>
+              <p xml:id="ppr-l61-sphpao">
+                2a 
+                <lb ed="#PV"/>propositio huiusmodi ratio obiectalis 
+                <lb ed="#PV"/>in iifnitum varie potest creaturis 
+                <lb ed="#PV"/>commutari Nam sicut in infinite 
+                <lb ed="#PV"/>sunt species producibiles per dei potentiam 
+                <lb ed="#PV"/>in esse secundum hoc esse creaturis 
+                <lb ed="#PV"/>correspondet vel communicatur nam 
+                <lb ed="#PV"/>infinite speciei communicatur esse in aliquo 
+                <lb ed="#PV"/>gradu et superiori speciei in gradu 
+                <lb ed="#PV"/>perfectiori et sic ascendendo Et 
+                <lb ed="#PV"/>sicut dicatur de primo praedica<lb ed="#PV"/>to 
+                ita proportionaliter de quolibet alio 
+                <lb ed="#PV"/>ut vivere communicatur superiori in 
+                <lb ed="#PV"/>perfectiori vel superiori gradu 
+                <lb ed="#PV"/>eiusdem rationis cum primo
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e152">
+              <head xml:id="ppr-l61-Htpotpo">Tertia propositio</head>
+              <p xml:id="ppr-l61-eeipve">
+                <lb ed="#PV"/>Sequitur ex hoc quod homo 
+                <lb ed="#PV"/>est perfectior in esse seu secundum 
+                <lb ed="#PV"/>rationem essendi quam asinus Ita 
+                <lb ed="#PV"/>quod homo perfectius participat esse 
+                <lb ed="#PV"/>quam asinus ponitur exemplum 
+                <lb ed="#PV"/>viam dictum per impossibile 
+                <lb ed="#PV"/>Capiamus per ymaginationem 
+                <lb ed="#PV"/>quod homo deperdat successive de<lb ed="#PV"/>nominationes 
+                posteriores prima 
+                <lb ed="#PV"/>auferatur esse volitivum deinde 
+                <lb ed="#PV"/>esse et rationale deinde esse sensitivum 
+                <lb ed="#PV"/>deinde esse unum quo usque maneat 
+                <lb ed="#PV"/>solum esse scilicet prima denominatio 
+                <pb ed="#PV" n="113-v"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>tunc illud quod remanet par<lb ed="#PV"/>ticipat 
+                perfectiori modo ese quam 
+                <lb ed="#PV"/>species inferior ad speciem humana 
+                <lb ed="#PV"/>vel quam <unclear>infinita</unclear> esse scilicet materia prima 
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e162">
+              <head xml:id="ppr-l61-Hqpoqpo">Quarta propositio</head>
+              <p xml:id="ppr-l61-eispgi">
+                <lb ed="#PV"/>Sequitur quod in esse sunt gradus 
+                <lb ed="#PV"/>ponendi et in ratione obiectali cor<lb ed="#PV"/>respondente 
+                illi praedicato patet 
+                <lb ed="#PV"/>quia illud quod remanet in casu 
+                <lb ed="#PV"/>posito per impossibile habet esse et est eiusdem 
+                <lb ed="#PV"/>rationis cum quolibet alio esse 
+                <lb ed="#PV"/>et est tamen perfectius quam esse in<lb ed="#PV"/>ferioris 
+                speciei ergo est intensius 
+                <lb ed="#PV"/>vel habet perfectius esse perfectione 
+                <lb ed="#PV"/>graduali intensiva
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e171">
+              <head xml:id="ppr-l61-Hqapqap">Quinta propositio</head>
+              <p xml:id="ppr-l61-ascidr">
+                3a propositio 
+                <lb ed="#PV"/>sicut conceptus correspondens 
+                <lb ed="#PV"/>denominationi perfectionali priori 
+                <lb ed="#PV"/>est prior et alterius speciei est praedicamentalis 
+                tamen de posteriori Ita proportionaliter 
+                <lb ed="#PV"/>correspondet sibi a parte obiecti ratio obiectalis 
+                <lb ed="#PV"/>prior possibilis tamen concurrere uni<lb ed="#PV"/>tive 
+                tum reali ratione obiectali 
+                <lb ed="#PV"/>correspondenti posteriori denomina<lb ed="#PV"/>tioni 
+                huiusmodi denominationes 
+                <lb ed="#PV"/>habent habitudines unam quod sunt 
+                <lb ed="#PV"/>alterius speciei ut conceptus entis 
+                <lb ed="#PV"/>quam <unclear>vivi</unclear> et cum hoc praedicantur 
+                <lb ed="#PV"/>de se in vicem Ita ratio essendi 
+                <lb ed="#PV"/>a parte rei est alterius rationis seu 
+                <lb ed="#PV"/>speciei a ratione vivendi Et sicut 
+                <lb ed="#PV"/>conceptus entis est praedicabilis de con<lb ed="#PV"/>ceptu 
+                vivendi Item ratio obiectalis 
+                <lb ed="#PV"/>essendi est in potentia ad hoc 
+                <lb ed="#PV"/>quod concurrat unitive et quasi re<lb ed="#PV"/>cipiunt 
+                rationem vitae per modum 
+                <lb ed="#PV"/>quasi actus posterioris Ita quod 
+                <lb ed="#PV"/>est habitudo rationum quoddam modo sicut 
+                <lb ed="#PV"/>conceptum Et sic ratio vitae est 
+                <lb ed="#PV"/>alterius speciei ab esse vel rationi 
+                <lb ed="#PV"/>cognitivus et est in potentia ad concurrendum 
+                <lb ed="#PV"/>unitive id est effici realiter unum 
+                <lb ed="#PV"/>Et etiam istis conversibus causantur 
+                <lb ed="#PV"/>rerum species 2m eum 
+              </p>
+              <!-- fuzzy parallel -->
+              <p xml:id="ppr-l61-secuae">
+                Si sequitur 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>istam viam sic quod per quandam 
+                habitudinem et similitudinem <del>habemus</del> 
+                <lb ed="#PV"/>conceptum capiamus habitudinem 
+                <lb ed="#PV"/>rationum obiectalium a parte rei habemus 
+                <lb ed="#PV"/>modum agendi duas <del>scilicet</del> distinctiones 
+                <lb ed="#PV"/>specifice differentes Ista ymaginatione 
+                <lb ed="#PV"/>habita totius processus in tractatu 
+                <lb ed="#PV"/>de perfectione specierum est satis fa<lb ed="#PV"/>cilis 
+                Et istae rationes obiectales 
+                <lb ed="#PV"/>vocantur formalitates distinctae 
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l61-Dd1e189">
+            <head xml:id="ppr-l61-Hppdpsr">Plus propositiones de Rippa</head>
+            <p xml:id="ppr-l61-eiiiap">
+              <lb ed="#PV"/>Infert <name>magister Iohannes de ripa</name> propositiones
+            </p>
+            <div xml:id="ppr-l61-Dd1e200">
+              <head xml:id="ppr-l61-Hpappap">Prima propositio</head>
+              <p xml:id="ppr-l61-peqhpg">
+                <lb ed="#PV"/>primo quanto res est perfectior 
+                <lb ed="#PV"/>tanto compositor est et magis com<lb ed="#PV"/>posita 
+                patet primo de composi<lb ed="#PV"/>tione ex gradibus pluribus 
+                <lb ed="#PV"/>eiusdem rationis
+              </p>
+              <p xml:id="ppr-l61-sechcc">
+                2o est compositior 
+                <lb ed="#PV"/>quantum ad formales rationes corre<lb ed="#PV"/>spondentes 
+                denominationibus perfec<lb ed="#PV"/>tionalibus 
+                quia quanto res est 
+                <lb ed="#PV"/>perfectior tanto pluries formales 
+                <lb ed="#PV"/>rationes competunt tali rei 
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e216">
+              <head xml:id="ppr-l61-Hsapsap">Secunda propositio</head>
+              <p xml:id="ppr-l61-siqfic">
+                Sequitur 
+                <lb ed="#PV"/>ex isto quod quanto creatura est actualior 
+                <lb ed="#PV"/>tanto est potentialior patet quia 
+                <lb ed="#PV"/>per acquisitionem novarum rationum 
+                <lb ed="#PV"/>obiectalium redditur magis poten<lb ed="#PV"/>tialior 
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e225">
+              <head xml:id="ppr-l61-Htaptap">Tertia propositio</head>
+              <p xml:id="ppr-l61-apipas">
+                Alia propositio infinita suppre<lb ed="#PV"/>ma 
+                intelligentia si daretur 
+                <lb ed="#PV"/>ipsa esset intrinsece infinita potentialitatis 
+                <lb ed="#PV"/>quia haberet infinitas rationes 
+                <lb ed="#PV"/>constitutivas quarum quaelibet 
+                <lb ed="#PV"/>esset inpotentia ad alia et essent 
+                <lb ed="#PV"/>actualitates proportionaliter eriorem.
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e235">
+              <head xml:id="ppr-l61-Hqtpqtp">Quarta propositio</head>
+              <p xml:id="ppr-l61-apsmve">
+                Alia propositio sola 
+                <lb ed="#PV"/>ultima ratio obiectalis ultimo 
+                <lb ed="#PV"/>constitutiva suppremae intelligentiae 
+                <lb ed="#PV"/>esset cui repugnaret potentiali<lb ed="#PV"/>tas 
+                ad ulterius recipiendum 
+                <lb ed="#PV"/>per istam ymaginationem multi 
+                <lb ed="#PV"/>antiquorum dicta intelligerentur 
+                <lb ed="#PV"/>unde per istam viam ymaginabilis
+                <pb ed="#PV" n="114-r"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>esset satis positio antiquorum 
+                <lb ed="#PV"/>de distinctione universalium a singula<lb ed="#PV"/>ribus 
+                nam ymaginabantur 
+                <lb ed="#PV"/>quod realiter secundum ordinem conceptuum 
+                <lb ed="#PV"/>inter se esset aliqualis correspon<lb ed="#PV"/>dentia 
+                rerum et utrum illa multi<lb ed="#PV"/>plicentur 
+                ad individua vel 
+                <lb ed="#PV"/>non dixerunt quod non Consimiliter 
+                <lb ed="#PV"/>positio et distinctio de esse et es<lb ed="#PV"/>sentia 
+                cum yndemptitate tamen essentiali 
+                <lb ed="#PV"/>Etiam per istam viam intelligere 
+                <lb ed="#PV"/>positio angeli ex actu et potentia 
+                <lb ed="#PV"/>Similiter ymaginatio ydearum 
+                <lb ed="#PV"/>scilicet quod realiter esset una in se 
+                <lb ed="#PV"/>incorruptibilis et tamen concurrent 
+                <lb ed="#PV"/>ydemptice cum corruptibili 
+              </p>
+            </div>
+            <div xml:id="ppr-l61-Dd1e247">
+              <head xml:id="ppr-l61-Hqnpqnp">Quinta propositio</head>
+              <p xml:id="ppr-l61-cearid">
+                Conti<lb ed="#PV"/>nuando 
+                et applicando aliqualiter 
+                <lb ed="#PV"/>materiam quantum est de distinctione quae 
+                <lb ed="#PV"/>est etiam gradibus eiusdem rationis 
+                <lb ed="#PV"/>illa nullo modo in deo est reperibiliter 
+                <lb ed="#PV"/>quia gradus remissior impor<lb ed="#PV"/>tat 
+                quandam imperfectionem 
+                <lb ed="#PV"/>2o habitudo istarum rationum 
+                <lb ed="#PV"/>obiectalium potentialitatis prioritatis 
+                et posterietatis non habet etiam locum
+                <lb ed="#PV"/>in deo
+              </p>
+              <p xml:id="ppr-l61-qapers">
+                ymaginandum est quod ratio essendi 
+                <lb ed="#PV"/>in deo est unicus simplicissimus 
+                <lb ed="#PV"/>gradus simpliciter inmense et infinite 
+                <lb ed="#PV"/>nobilitatis et perfectionis sed in creatura 
+                <lb ed="#PV"/>est aliter sicut dictum est Consequenter 
+                <lb ed="#PV"/>ponitur quod apparet clare quomodo <unclear>unitatite</unclear> 
+                <lb ed="#PV"/><unclear>secundum</unclear> creatura quia omnia entia sunt 
+                <lb ed="#PV"/>eiusdem rationis in esse et omnia 
+                <lb ed="#PV"/>quae univocantur in aliquo 
+                <lb ed="#PV"/>sunt eiusdem rationis specificae
+              </p>
+              <p xml:id="ppr-l61-qassav">
+                <lb ed="#PV"/>quantum ad hoc non est ymaginandum 
+                <lb ed="#PV"/>quod ratio essendi in deo sit poten<lb ed="#PV"/>tialis 
+                respectu rationis vitae Sed 
+                <lb ed="#PV"/>ymaginandum quod omnes rationes concurrant 
+                <lb ed="#PV"/>unitive aeque primo in deo absque 
+                <lb ed="#PV"/>ordine potentialitatis vel actualitatis 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>in unam simplicissima unitate 
+                <lb ed="#PV"/>in essentia divina absque ordine 
+                <lb ed="#PV"/>quantum ad perfectionem Et dicunt 
+                <lb ed="#PV"/>consequenter quod pluralitas formalitatum 
+                <lb ed="#PV"/>non arguit contra simplicitatem
+                <lb ed="#PV"/>Advertendum est quod sicut post so<lb ed="#PV"/>cratem 
+                <unclear>discipuli</unclear> ens de socratis 
+                <lb ed="#PV"/>opinione varia senserunt
+              </p>
+            </div>
+          </div>
+          <!-- doesn't seem present -->
+          <!--<div xml:id="ppr-l61-Dd1e269">
+            <head xml:id="ppr-l61-Hrprrpr">Ratio pro repetitione</head>
+            <p xml:id="ppr-l61-qpmdff">
+              Quia praesens materia difficilis 
+              est ad capiendum specialiter iuvenibus et non assuetis, 
+              Ideo recitatis opinionibus doctorum et aliqualiter declaratis 
+              faciam finem.
+            </p>
+          </div>-->
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
