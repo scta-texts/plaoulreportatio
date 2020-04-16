@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 63, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 63, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-04-11">April 11, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-04-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="115-r"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio63">
+        <head xml:id="ppr-l63-Hldtldt">Lectio 63, de Trinitate</head>
+        <div xml:id="ppr-l63-Dd1e109">
+          <head xml:id="ppr-l63-Hcdmmss">Conclusio de materia formalitatum sentiendum sit</head>
+          <p xml:id="ppr-l63-pipepd">
+            <lb ed="#PV" n="56"/>In alia lectione
+            <lb ed="#PV"/>Postquam in praecedentibus 
+            <lb ed="#PV"/>aliqualiter declarata fuit ymaginatio 
+            ponentium distinctionem formalitatum 
+            <lb ed="#PV"/>in deo et in creaturis videndum 
+            <lb ed="#PV"/>est nunc quod sic de materia sentiendum Quantum 
+            <lb ed="#PV"/>ad hoc sit haec conclusio quod in divinis 
+            <lb ed="#PV"/>praeter relativam vel personalem 
+            <lb ed="#PV"/>nulla est ponenda 
+          </p>
+          <div xml:id="ppr-l63-Dd1e117">
+            <head xml:id="ppr-l63-Hprprpr">Prima ratio</head>
+            <p xml:id="ppr-l63-ipmess">
+              distinctio probatur 
+              <lb ed="#PV"/>multipliciter primo per <ref xml:id="ppr-l63-Rd1e126">regulam <name ref="#Anselm">Anselmi</name></ref> 
+              <lb ed="#PV"/>quae etiam est quasi omnium doctorum quod 
+              <lb ed="#PV"/>in divinis omnia sunt idem ubi 
+              <lb ed="#PV"/>non obviat relationis oppositio Ita 
+              <lb ed="#PV"/>quod omnes termini supponentes pro 
+              <lb ed="#PV"/>divinis vel deo verificantur de se 
+              <lb ed="#PV"/>invicem nisi in relativis
+            </p>
+          </div>
+          <div xml:id="ppr-l63-Dd1e138">
+            <head xml:id="ppr-l63-Hsrsrsr">Secunda ratio</head>
+            <p xml:id="ppr-l63-ssnide">
+              2o 
+              <lb ed="#PV"/>probatur nam <sic>nam</sic> ut tactum fuit 
+              <lb ed="#PV"/>alias distinctio formalitatum et etiam ex 
+              <lb ed="#PV"/>natura rei <unclear>creaturis</unclear> est difficilior 
+              <lb ed="#PV"/>et magis distans ab apparentiis quam distinctio 
+              <lb ed="#PV"/>termini <unclear>personarum</unclear> individual essentia 
+              <lb ed="#PV"/>et per consequens difficilior et mirabi<lb ed="#PV"/>lior 
+              et tamen et <unclear/> hoc non <unclear>astrin<lb ed="#PV"/>gat</unclear> 
+              nos fides catholica nec aliqua 
+              <lb ed="#PV"/>ratio vehemens nos inducit vel 
+              <lb ed="#PV"/>cogit 
+            </p> 
+            <p xml:id="ppr-l63-ppapee">
+              probatur primum scilicet quod recedat 
+              <lb ed="#PV"/>magis appropriari rationis quia iuxta 
+              <lb ed="#PV"/>illam ymaginationem est eadem essentia 
+              <lb ed="#PV"/>ponere distinctionem quanto est minor 
+              <pb ed="#PV" n="115-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>tanto est magis recedens a ratione 
+              <lb ed="#PV"/>et appropinquans ad contradictionem
+            </p>
+            <p xml:id="ppr-l63-sppefs">
+              <lb ed="#PV"/>Sed secunda pars scilicet quod fides katholica 
+              <lb ed="#PV"/>ad hoc nos non astringat clara 
+              <lb ed="#PV"/>est quod nullus est articulus ad hoc 
+              <lb ed="#PV"/>nec etiam docet oppositum <unclear>distinctionis</unclear> for<lb ed="#PV"/>malitatum 
+              Etiam omnis ratio 
+              <lb ed="#PV"/>qua videtur facere pro ipsis 
+              <lb ed="#PV"/>ponendis est faciliter solubilis
+            </p> 
+          </div>
+          <div xml:id="ppr-l63-Dd1e156">
+            <head xml:id="ppr-l63-Htrtrtr">Tertia ratio</head>
+            <p xml:id="ppr-l63-tstedp">
+              <lb ed="#PV"/>3o tanta debet poni ydemptitas
+              <lb ed="#PV"/>in divinis quanta potest salva fide 
+              <lb ed="#PV"/>et etiam ratione et ergo debet poni omnimoda 
+              <lb ed="#PV"/>ydemptitas excepta distinctione personali 
+             <!-- pal lat ends here and begins lecture 64 but erlan keeps going --> 
+            </p> 
+            <!--<p xml:id="ppr-l63-ppncee">
+              Primum patet 
+              nam salvando divinam simplicitatem 
+              et identitatem non habemus multiplicare entitates in divina 
+              essentia quae prima facie viderentur divinam simplicitatem 
+              inquinare vel Impedire sed quod salva fide patet, nullus enim 
+              dubitat quod fides non astringat ad ponendum distinctionem 
+              formalem inter divinam sapientiam et eius bonitatem 
+              et sic de aliis, ergo salva fide possumus salvare in divina essentia 
+              omnimoda simplicitatem et identitatem nisi quantum ecclesia 
+              docet quae solum docet distinctionem personarum et non formalitatum, 
+              vel saltem est nobis dubium an talis distinctio deo 
+              competat, ergo etc.
+            </p>
+          </div>
+          <div xml:id="ppr-l63-Dd1e169">
+            <head xml:id="ppr-l63-Hqrarar">Quarta ratio</head>
+            <p xml:id="ppr-l63-qssefp">
+              Quarto sic sequeretur quod deitas vel divina 
+              <pb ed="#SV" n="274-v"/>
+              <cb ed="#SV" n="a"/>
+              essentia non esset formaliter immensa probatio, 
+              nam capiamus rationem formalem obiectivam deitatis. et peto 
+              utrum sit formaliter sapientia vel non. si sic, pari ratione 
+              erit formaliter bonitas, et ita de aliis perfectionibus 
+              deo convenientibus, 
+              et per consequens est eadem formalitas adaequate 
+              essendi et vivendi et intelligendi et ita 
+              de singulis deo attributis. si non, ergo propria ratio divinitatis 
+              non est formaliter sapientia, iustitia, et sic de aliis 
+              perfectionibus deo competentibus, ipsa carebit infinitis perfectionibus 
+              simpliciter, ergo non erit deus formaliter.
+            </p> 
+            <p xml:id="ppr-l63-cnsefp">
+              Confirmatur, 
+              nam secundum sic opinantes, capio ratione formalem essendi in 
+              deo. et quaero utrum huiusmodi formalitas sit formaliter 
+              cognitio vel non. si sic pari ratione erit formaliter iustitia, 
+              sapientia, et bonitas, et sic de aliis singulis deo attributis, 
+              et per consequens non erit distinctio formalitatum in deo. si non 
+              sit formaliter cognitio sequuntur inconvenientia. primum est quod 
+              ratio essendi ipsius dei in sua formalitate est res minus perfectam 
+              quam asinus, quia in sua formalitate, nec est formaliter vivens, 
+              nec formaliter percipiens, nec est intellectiva nec volitiva, 
+              ergo asinus formaliter participans huiusmodi rationes erit formaliter 
+              perfectior.
+            </p>
+            <p xml:id="ppr-l63-cesdae">
+              Confirmatur et satis apparenter, quia ratio essendi 
+              est formaliter cognitiva vel non. 
+              Si sic, habeo propositum. 
+              Si non, ergo non est formaliter exemplar <unclear>cognitionum</unclear> entitatis creatae 
+              quod est contra eum, 
+              immo ex hoc sequitur quod impossibile est deum 
+              cognoscere rationem entitatis creatae formaliter, 
+              vel hoc esset per rationem entitatis exemplantis ad intra, 
+              et hoc non 
+              quia ipsa non est formaliter cognitiva vel per formalitatem cognoscendi, 
+              et si sic, 
+              tunc ipsa esset formaliter repraesentativa essendi 
+              creaturae, ergo formalis ratio cognoscendi ad intra esset formaliter 
+              exemplar factivum entis derivati ad extra.
+            </p> 
+            
+            <p xml:id="ppr-l63-cnsefi">
+              Confirmatur, 
+              nam si ratio essendi ad intra se sola adaequate communicaretur 
+              per plenitudinem ad extra creatura eam per plenitudinem 
+              sic esset formaliter minus perfecta quam asinus, et etiam 
+              in fine specie, ergo illa ratio ad intra essendi est imperfecta, 
+              quia si communicaretur tota illa latitudo essendi per modum formae, 
+              sicut concedit <name ref="#Ripa">de Rippa</name> quod deus potest communicari ad extra per 
+              modum formae. tamen vi illius communicationis creatura non esset 
+              vivens nec cognitiva nec intellectiva, et sic de aliis, 
+              ergo divina essentia in suo esse est formaliter imperfecta.
+            </p>
+          </div>
+          <div xml:id="ppr-l63-Dd1e197">
+            <head xml:id="ppr-l63-Hqnrqnr">Quinta ratio</head>
+            <p xml:id="ppr-l63-ieeefo">
+              Item, 
+              et est ratio satis apparens 
+              quia isti doctores ponentes 
+              huiusmodi formalitates supponunt quod non posset esse 
+              diversitas in creaturis quin Reducatur ad aliquam diversitatem 
+              et distinctionem in deo. modo ex illa imaginatione 
+              arguo contra eos, 
+              et capio rationem essendi <name ref="#Sortes">sortis</name> et 
+              rationem essendi <name ref="#Plato">Platonis</name>. 
+              Istae sunt distinctae Res realiter 
+              quaero ergo utrum in deo etiam correspondeant diversae rationes 
+              <cb ed="#SV" n="b"/><!-\-SV274vb-\->
+              formales, vel utrum sit unica. Ideo exemplativa istorum duroum 
+              in esse productio. si non est eadem, ergo sunt infinitae rationes essendi 
+              in creaturis distinctae <unclear>correspondenter</unclear> non eidem rationem formali in deo, 
+              quia infinitae sunt creaturae producibiles et quaelibet habet infinitas 
+              partes quarum quaelibet habet esse distinctum ab alia, ergo in deo 
+              erunt infinitae rationes essendi contra <name ref="#Ripa">Iohannes de Rippa</name>. si sit eadem 
+              ratio essendi in deo exemplativa <name ref="#Sortes">Sortis</name> et <name ref="#Plato">platonis</name> in esse, ergo 
+              cum diversitate obiectorum stat in deo unitas exemplarum in 
+              deo et qua ratione de duobus eadem ratione de tribus et sic 
+              in infinitum, ergo sicut habent concedere quod deus per eandem rationem 
+              formalem adaequate erit exemplar factivum duorum in esse 
+              eadem ratione habent concedere quod deus per eadem rationem formalem 
+              adaequate erit exemplar factivum omnium.
+            </p>
+          </div>
+          <div xml:id="ppr-l63-Dd1e228">
+            <head xml:id="ppr-l63-Hsxrsxr">Sexta ratio</head>
+            <p xml:id="ppr-l63-isddre">
+              Item, 
+              si dicant 
+              quod cuilibet rei distinctae in deo correspondeat distincta ratio exemplativa.
+            </p>
+          </div>
+          <div xml:id="ppr-l63-Dd1e237">
+            <head xml:id="ppr-l63-Hsprspr">Septima ratio</head>
+            <p xml:id="ppr-l63-aaovid">
+              Aliter arguo ostendendo quod illud sit impossibile, immo 
+              ex isto sequitur quod nulla ratio exemplativa correspondeat alicui 
+              Rei quia vel correspondet entitati in esse entis quod est 
+              divisibile vel indivisibile. si divisibile sit, gratia exempli 
+              quod <name ref="#Sortes">sortes</name> in esse entis correspondeat aliqua ratio essendi 
+              in deo ipsius exemplativa, vel ergo illa ratio in deo exemplativa 
+              <name ref="#Sortes">sortis</name> in esse entitatis est unica respectu <name ref="#Sortes">sortis</name> et sic 
+              habetur propositum, scilicet, quod erit unica ratio exemplativa in deo 
+              respectu infinitorum distinctorum quod <name ref="#Sortes">sortes</name> est infinitae partis quarum 
+              nulla est alia, vel illa ratio exemplativa in deo habebit 
+              obiectum indivisibile et hoc non, quia quaeque latitudo entitatis 
+              participetur ad extra est infinitorum graduum, quia <name ref="#Ripa">Iohannes de 
+              Rippa</name> in qualibet creatura quae est suum esse semper est compositum 
+              ex infinitis gradibus. et consequenter videtur innuere quod quaelibet 
+              Res singulariter significata in deo habet rationem ipsius <sic>exemplactivam</sic>, 
+              quaero ergo de ratione exemplativa in deo respectu esse <name ref="#Sortes">sortis</name> 
+              utrum habeat diversitatem vel non non potest dici quod non, 
+              quia quaecumque latitudo entitatis habet plures conceptus, immo infinitas, 
+              etc. si sic ergo est unica ratio in deo essendi quae est infinitorum 
+              distinctorum exemplativa, 
+              et per consequens non ad multitudinem 
+              obiectorum sequitur multitudo rationum obiectialium in deo. 
+              Alias rationes 
+              facit 
+              <name ref="#Rimini">Gregorius</name>, 
+              et <name ref="#Ockham">Okam</name>, 
+              et <name ref="#Wodeham">Adam</name>, 
+              sed istae videntur mihi magis 
+              efficaces. aliae tamen possunt videri in doctoribus.
+            </p>
+            </div>
+            </div>
+          <div xml:id="ppr-l63-Dd1e278">
+            <head xml:id="ppr-l63-Hd1e280">Corollaria</head>
+            <div xml:id="ppr-l63-Dd1e283">
+              <head xml:id="ppr-l63-Hpcqdro">Primum corollarium</head>
+              <head xml:id="ppr-l63-Hd1e288" type="question-title">quod diversitas conceptuum <unclear>attributabilium</unclear> non semper oritur ex diversitate rationum <unclear>obiectialium</unclear></head>
+              <p xml:id="ppr-l63-eccsro">
+                Ex conclusione 
+                consuis probationibus sequitur quod diversitas conceptuum 
+                <unclear>attributibilium</unclear> non semper oritur 
+                ex diversitate rationum obiectialium. 
+                Patet quia non est negandum quin in patria beati possint 
+                habere diversos conceptus intuitivos de divina essentia, tunc 
+                specifice distinctos, et tamen est idem obiectum adaequate, ergo diversitas 
+                conceptuum intuitivorum immediate causatorum ab obiecto 
+                etiam se solo non arguit diversitatem specificam rationum 
+                obiectialium.
+              </p>
+            </div>
+            <div xml:id="ppr-l63-Dd1e303">
+              <head xml:id="ppr-l63-Hsncsnc">Secundum corollarium</head>
+              <p xml:id="ppr-l63-scdsds">
+                Secundum corollarium: 
+                diversitas huiusmodi conceptuum 
+                nec ab obiecto, nec a diversitate rationis obiectialis sumit 
+                <cb ed="#SV" n="275ra"/>
+                diversitatem specificam.
+              </p>
+            </div>
+            <div xml:id="ppr-l63-Dd1e314">
+              <head xml:id="ppr-l63-Htmctmc">Tertium corollarium</head>
+              <p xml:id="ppr-l63-suqsip">
+                Sequitur ulterius quod diversitas huiusmodi 
+                notitiarum resolvitur tanquam in causam infecunditatem libere motionis 
+                obiective. 
+                Ubi est advertendum quod diversitas effectuum procedentium 
+                ab eadem causa effectiva adaequate eodem modo se habente non capiebatur 
+                a philosophis. ideo tenebant quod semper ad inquantum idem semper est 
+                natum facere idem. 
+                Et propter hoc <name ref="#Avicenna">Avicenna</name> posuit talem 
+                emanationem intelligentiarum quod prima intelligentia producit unicam 
+                inteligentiam nec potest aliam producere immediate. considerando 
+                ergo immensitatem fecunditatem perfectionem causae mere libere 
+                agentis ex hoc consurgit possibilitas eiusdem causae eodem modo 
+                se habentis adaequate respectu diversorum effectivum quantum est ex parte 
+                sui deus eodem modo se habet, immo per idem formaliter producit lapidem 
+                et hominem, sed cur lapidem et non asinum illud non Resolvitur 
+                nisi ad immensitatem divinae fecunditatis, quae ratione suae libertatis 
+                potest producere lapidem et non asinum, eodem modo tamen se habendo adaequate 
+                quantum est ex parte sui. modo proportionaliter sicut dicitur de causalitate 
+                activa. Ita potest dici de ratione movente obiecitve. 
+                Et ideo licet, 
+                deus sit idem obiectum adaequate cum identitate tamen obiecti potest 
+                varios conceptus et notitias intuitivas se solo immediate producere.
+              </p>
+              <p xml:id="ppr-l63-eqidro">
+                Ex quo infertur contra quamdam opinionem quam recitat <name ref="#Scotus">Scotus</name> 
+                quod diversitas attributorum divinorum non semper oritur per relationem 
+                ad creaturas. imaginatur praedicta opinio quod quare deus concipiatur in esse 
+                iustitiae hoc est per comparationem ad creaturam quam sic 
+                debite regit et sic de singulis deo attributis. dicitur contrarium, 
+                scilicet, quod huiusmodi conceptus possunt haberi absque horum respectu ad creatura, 
+                ita quod bene habent actum aliquem mediante quo iudicant deum 
+                esse, iustum, bonum, et sic de aliis sine quocumque respectu ad creaturas. 
+                ex hoc patet contra <name ref="#Rimini">Gregorium</name> ponentes quod diversitas conceptuum 
+                provenit ex diversitate rationum obiectialium.
+              </p>
+            </div>
+            <div xml:id="ppr-l63-Dd1e335">
+            <head xml:id="ppr-l63-Hqcqnad">Quartum corollarium</head>
+            <head xml:id="ppr-l63-Hd1e340" type="question-title">Quod pluralitas rationum formalium et cognitionum quae Deo attribuuntur debet referri ad creaturas et non ad Deum</head>
+              <p xml:id="ppr-l63-suqera">
+                Sequitur ulterius 
+                quod pluralitas rationum formalium et cognitionum quae deo attribuuntur 
+                debet Referri ad creaturas et non ad deum, ut 
+                cum dicitur <mentioned>verbum dei esse plenum rationum viventium</mentioned> 
+                et quod deus est exemplaria rerum et huiusmodi 
+                quia doctorum aliquando 
+                sic loquuntur in plurali, 
+                illud non debet referri ad deum, 
+                sed ad effectus, 
+                deus est exemplaria rerum, 
+                id est deus est exemplar 
+                factivum plurium effectuum non quod sit in se sic aliqua 
+                pluralitas, sed est simplex unitas a qua omnis diversitas procedit. 
+                Tamen doctores secundum modum ponendi formalitates 
+                in deo facilius exprimunt ea quae sibi attribuuntur, 
+                quia considerando deum sic adaequate omnino eodem modo se habendo quo modo 
+                posset huiusmodi diversitas producere. hoc est difficilius 
+                quam considerando quod habeant alium et alium modum se habendi 
+                respectu unius et respectu alterius.
+              </p>
+            </div>
+          </div>
+        <div xml:id="ppr-l63-Dd1e351">
+          <head xml:id="ppr-l63-Hardrdr">Ad rationes de Rippa</head>
+          <p xml:id="ppr-l63-acpadg">
+            Alia corollaria possent inferri, 
+            sed venio ad rationes <name ref="#Ripa">de Rippa</name>, 
+            enim vult omnino probare quod alia sit formalitas, 
+            ratio essendi in deo et 
+            alia vivendi, etc., quia stat quod aliquis accedat ad deum in esse 
+            et non in esse vitae, ergo etc. antecedens probatur, nam materia accedit 
+            <cb ed="#SV" n="b"/><!-\-274rb-\->
+            ad deum et assimilatur deo in esse et non in esse vitae, quia 
+            alias materia prima esset vivens etc., 
+            ista ratio posset retorqueri 
+            contra ipsum, quia ita argueretur de gradibus essendi, quia 
+            ipse ponit quod ratio essendi in deo est simpliciter simplex. Et 
+            tunc arguatur sic: aliquis imitatur deum in esse duorum graduum 
+            et non in esse trium nec quattuor etc., 
+            ergo in deo est aliqualis distinctio gradualis.
+          </p>
+          <p xml:id="ppr-l63-iraeve">
+            Ideo respondeo ambabus rationibus 
+            quando sic arguit quod aliquis participat et imitatur deum 
+            in esse et non in esse vitae etc.
+          </p>
+          <p xml:id="ppr-l63-pdqepi">
+            Primo dico quod ad hoc quod 
+            aliquis imitetur deum in esse vel in esse vitae, 
+            et sic de aliis 
+            oportet quod extrema participent in eadem 
+            denominatione communi et ex hoc patet quod, 
+            licet sit idem adaequate respectu 
+            unius esse et esse vitae non tamen respectu alterius 
+            quia alteri non competit istud praedicatum sive ista denominatio esse vivens, 
+            et ideo licet sit defectus ex parte imitantis,
+            non tamen est defectus ex parte imitabilis.
+          </p>
+          <p xml:id="ppr-l63-sdqlpt">
+            Secundo dico quod creatura quae participat 
+            esse dei participat etiam vitam dei, non quod istud praedicatum esse vivens 
+            propter hoc sibi competat. et istud probaretur per syllogismum 
+            expositorium, quia ista consequentia est bona et optima esse dei 
+            participatur a creatura, ergo vivere et intelligere dei participatur 
+            a creatura ab eodem ad idem. et quod etiam tota Trinitas et 
+            essentia divina participatur a creatura. Ita quod omnes huiusmodi 
+            propositiones sunt verae et concedendae de vi logicae. et tunc neganda 
+            est ista consequentia: materia prima assimilatur deo in esse vitae seu 
+            participat in esse vitae dei, ergo materia prima est vivens, quia 
+            participat esse dei in aliquo gradu, ita remisso quod per illum 
+            non sufficit denominari esse vivens nec esse intelligens 
+            etc. Et ideo difficultas in hoc non est, nisi in modo exprimendi 
+            et in talibus homo non debet ligari per terminos.
+          </p>
+          <p xml:id="ppr-l63-asrsed">
+            Ad 
+            secundam rationem quia diversis effectibus correspondent diversae rationes 
+            causales, quia alias non posset salvari eorum diversitas.
+          </p>
+          <p xml:id="ppr-l63-iiapde">
+            Item inter <c>a</c> et <c>b</c> deus distinguit, ergo alia est 
+            ratio cognoscendi alia, et alia ratio cognoscendi <c>b</c> 
+            quia si per eandem rationem cognosceret <c>a</c> et <c>b</c> non videtur 
+            quomodo cognosceret <c>a</c> non esse <c>b</c>. 
+            Ista ratio est in radice satis soluta, 
+            nam sicut dictum est eadem causalitate et eodem 
+            gradu causalitatis adaequate agit intensum et remissum, 
+            ita quod aequali gradu deus agit producendo supremam 
+            intelligentiam, si ipsa produceretur et producendo verissime quantum 
+            est in se. Ita concedendum est quod eadem notitia dei est notitia et 
+            <c>b</c> et <c>a</c> et quod <c>a</c> non est <c>b</c>, 
+            et sic de singularis ratione 
+            immensitatis notitiae absque distinctione notitiae quacumque, 
+            et ideo non oportet ponere distinctionem cognitionum 
+            propter distinctionem obiectorum, 
+            sicut <unclear>exemplificatum[?]</unclear> est de causalitate, 
+            scilicet quod eadem speciei causalitatis et 
+            eodem gradu concurrit deus producendo intensum et remissum 
+            etiam secundum <name ref="#Ripa">Ioahnnem de Rippa</name> in eadem formalitate, 
+            sicut in ratione formali essendi concedit quod ratio formalis essendi in 
+            deo est unica et simplicissima, 
+            et tamen ipsa producit intensum 
+            <pb ed="#SV" n="275-v"/>
+            <cb ed="#SV" n="a"/>
+            et remissum in illa latitudine 
+            quia aliqui effectus participant intensius illam latitudinem et aliqui remissius, 
+            sicut prius dictum est.
+          </p> 
+          <p xml:id="ppr-l63-espidr">
+            Et sic patet 
+            quid sit dicendum ad istas rationes. 
+            In istis tamen rationibus 
+            videtur se principaliter fundare 
+            <name ref="#Ripa">Magistri Iohnnis de Rippa</name>.
+          </p>
+        </div>
+        <div xml:id="ppr-l63-Dd1e433">
+          <head xml:id="ppr-l63-Harsars">Ad rationes Scoti</head>
+          <p xml:id="ppr-l63-asrrds">
+            Aliae sunt rationes <name ref="#Scotus">Doctoris Subtilis</name>.
+          </p>
+          <p xml:id="ppr-l63-prsica">
+            Prima 
+            ratio <name ref="#Scotus">scoti</name>: sapientia in communi non est bonitas in communi formaliter, 
+            ergo sapientia infinita non est formaliter bonitas infinita. probatur consequentia 
+            quia ratio infiniti non variat rationem formalem illius cui additur.
+          </p>
+          <p xml:id="ppr-l63-irecnh">
+            Ista ratio est multum obscura. credo tamen quod in ista ratione velit 
+            dicere quod ista non est per se bonitas est sapientia de terminis communibus, 
+            ergo si utrobique addatur li 'infinita' subiecto et praedicato non erit per se, 
+            ergo ista non erit per se bonitas infinita est sapientia infinita. patet 
+            consequentia quia ratio infiniti non tollit rationem formalem illius cui additur. 
+            hic est considerandum 
+            primo quantum ad illud quod dicit de ratione infiniti quod non 
+            tollit rationem formalem illius cui additur. Dicendum est quod sicut tactum 
+            est in principio huius materiae, quod ratio infiniti in eadem specie variat 
+            proprietates et proprias passiones de finito et infinito demonstrabiles. 
+            Ita quod <c>a</c> et <c>b</c> eiusdem speciei eo ipso quod <c>a</c><add place="aboveLine">infinitum</add> efficitur 
+            variatur eius proprietas et proprie passiones de ipso demonstrabiles, 
+            licet non varietur secundum propriam naturam specificam essentialem, 
+            sicut <unclear>exemplificatum[?]</unclear> est alias de linea finita et de linea infinita. 
+            eiusdem tamen speciei 
+            quia linea finita potest esse vasis alicuius trianguli, 
+            et ista est 
+            <cit>
+              <ref xml:id="ppr-l63-Rd1e468">prima propositio <name ref="#Euclid">Euclid</name></ref>
+              <bibl>XXX</bibl>
+            </cit>, 
+            et tamen linea infinita non potest esse basis trianguli 
+            quia duae lineae rectae non possunt <unclear>collorarip[?]</unclear> 
+            super lineae infinitae duas extremitates cum non habeant.
+          </p>
+          <p xml:id="ppr-l63-sdqdtd">
+            Secundo, 
+            dicitur quod ista ratio deficit in alio quia praesumpsit 
+            quod isti termini sapientia bonitas dicantur univoce 
+            de sapientia et bonitate creata et 
+            de sapientia et bonitate infinita et increata, 
+            et illud est falsum, 
+            sicut patuit ex determinatione tertiae distinctionis.
+          </p>
+          <p xml:id="ppr-l63-tdqqnp">
+            Tertio, 
+            dico quod ista 
+            ratio nihil penitus probat nisi de perseitate primi modi 
+            logicali propositum. et ista ratio reduceretur ad imaginationem 
+            ipsius 
+            <cit>
+              <ref xml:id="ppr-l63-Rd1e490"><name ref="#Chatton">Chaton</name></ref>
+              <bibl>XXX</bibl>
+            </cit>, 
+            qui probat quod ista non est per se in primo modo dicendi 
+            per se <mentioned>deus est sapientia</mentioned>. 
+            Et ad hoc dicendum est, sicut in 
+            praecedenti dicebatur lectione, quia dupliciter aliqua propositio 
+            dicitur esse vera. in primo modo dicendi per se. 
+            Uno modo vocatur propositio 
+            in primo modo dicendi per se 
+            quia illud quod importatur per subiectum 
+            convenit praedicato per suam essentiam, 
+            et tamen hoc de necessitate sibi competit. 
+            Alio modo dicitur esse in primo modo dicendi per se 
+            ex modo significandi terminorum secundum modum loquendi 
+            <name ref="#Aristotle">Aristotelis</name> 
+            quando praedicatur diffinitio vel pars diffinitionis de diffinito vel 
+            genus vel differentia de diffinito. 
+            Et sic dicendum est quod secundum unum 
+            modum ista est per se bonitas divina est sapientia divina, 
+            scilicet secundum primum modum. 
+            Et secundum alium modum non et secundum iudicium 
+            meum sine dubio doctores aliquando non distinguunt 
+            inter quidditates rerum et praedicata quidditativa, sed quasi 
+            permixtum loquuntur, 
+            ideo involvunt se propter hoc in 
+            <cb ed="#SV" n="b"/><!-\-SV275vb-\->
+            talibus 
+            quia quantum est ex parte rei est omnimoda simplicitas 
+            quantum est ex parte terminorum baptizare 
+            possumus secundum quod nobis placet.
+          </p>
+        </div>
+        <div xml:id="ppr-l63-Dd1e510">
+          <head xml:id="ppr-l63-Hraaaar">Response ad alia rationes</head>
+          <p xml:id="ppr-l63-aernad">
+            Alia est ratio quae fundat se in auctoribus. 
+            Et dicendum est quod 
+            aliquando doctores utuntur in plurali numero 
+            ut dicendo deus est rationes rectae 
+            Rerum et huiusmodi. 
+            Ad omnes huiusmodi auctoritates 
+            non Respondeo aliter pro praesenti nisi quod doctores aliquando sic locuntur 
+            in plurali numero propter faciliorem modum exprimendi ea quae deo 
+            attribuimus huiusmodi tamen pluralitas debet Referri ad effectus 
+            non ad deum.
+          </p> 
+          <p xml:id="ppr-l63-artvlp">
+            Alia ratio tangebat istam difficultatem, nam ex 
+            diversis modis agendi arguuntur diversa  elicitiva principia 
+            sicut ex distinctione generationis filii et processione spiritus sancti 
+            oritur diversitas principiorum elicitivorum, scilicet, intellectus et voluntas, nam 
+            spiritus procedit non quomodo natus, sed quomodo datus, sed filius non 
+            quomodo datus, sed quomodo natus. Ita quod filius producitur naturaliter 
+            per modum intellectus, et spiritus sanctus per modum voluntatis libere 
+            producitur.
+          </p>
+        <p xml:id="ppr-l63-hrardp">
+          Hic respondet <name ref="#Wodeham">Adam</name> 
+          quod loquendo de emanationibus passivis 
+          concedit bene quod praesupponunt diversa principia, quia ad spirationem 
+          spiritus sancti requiritur quid filius praeexistat tanquam principium productivum 
+          generatio autem filii non requirit filium vel spiritus sancti tanquam productionum 
+          principium, sed praecise patrem, et sic conceditur quod ad generationem 
+          filii et processionem spiritus sancti requiruntur diversa principia 
+          relativa et non essentialia, id est, requiruntur diversae personae, 
+          nam duae personae requiruntur concurrere active ad emanationem 
+          spiritus sancti, ut sic loquar, et non ad generationem filli, sed 
+          praecise requiritur una persona concurrens active, et sic emanatio 
+          passiva bene requirit diversa principia.
+        </p>
+          <p xml:id="ppr-l63-qednup">
+            Quantum est de emanationibus 
+            activis non requiruntur distincta principia, quia non est 
+            nisi unicum principium.
+          </p>
+          <p xml:id="ppr-l63-vacvei">
+            Veniendo ad confirmationem, quando dicitur quomodo 
+            salvabitur quod filius procedit per modum naturae et spiritus sanctus 
+            non nisi ponatur distinctio principiorum elicitivorum, sicut voluntas et intellectus.
+          </p>
+          <p xml:id="ppr-l63-reiipa">
+            Respondendum est iuxta praedicta quod idem est adaequate voluntas divina et 
+            intellectus divinus, tamen divina essentia eadem existens. et idem principium adaequate 
+            potest diversos effectus producere, immo etiam secundum diversos modos 
+            exemplum quia necessario producit ad intra et contingenter ad extra, 
+            et tamen est idem principium adaequate.
+          </p>
+          <p xml:id="ppr-l63-ipepmv">
+            Item pater est idem principium adaequate 
+            et eadem natura respectu filii et spiritus sancti, nec est impossibile quod pater 
+            unum producat libere non dico libere contingenter et alium 
+            naturaliter per eandem essentiam adaequate. exemplum posset poni etiam 
+            de anima nostra quae respectu eiusdem effectus adaequate concurrit. 
+            et etiam in eadem genere libere et cum hoc naturaliter patet istud 
+            de volitione tenendo quod intellectus in esse intellectus consurgit cum intensione 
+            naturaliter ad productionem volitionis, ut intellectus, et cum 
+            hoc voluntas concurrit libere. et tunc in isto casu eadem anima 
+            est quae concurrit respectu volitionis naturaliter ut intellectus et libere 
+            ut appetitus seu voluntas rationabilis. Ita quod non est impossibile 
+            quod eadem causa diversimode concurrat in eodem genere et 
+            maxime de illa quae est immensa et immense 
+            <cb ed="#SV" n="276ra"/>perfecta non ab eodem principio filius dicitur produci per modum naturae quia 
+            procedit ut genitus, et spiritus sanctus non quia procedit 
+            non ut genitus, sed ut spiratus. per idem enim formaliter 
+            pater concurrit ad productionem filii et spiritus sancti quia 
+            non oportet ponere in patre distinctionem respectu filii et spiritus sancti, 
+            qui Reddant ipsum in esse principii, ideo diversitas principiorum 
+            Reducitur ad libertate et fecunditatem immensitatis divinae 
+            quae eodem modo se habendo potest diversitos effectus et respectu unius 
+            potest dici intellectus, et respectu alterius voluntas. et sic ad 
+            omnes tales rationes dicendum quod nulla probat distinctionem 
+            principiorum, sed solum distinctionem in modo  producendi et sub aliis 
+            verbis solent doctores Respondere, quia dicere quod filius producitur 
+            per modum naturae et spiritus sanctus per modum voluntatis 
+            non est aliud dicere nisi quod filius producitur a patre solum et 
+            spiritus sanctus a duobus et propter quasdam similitudines filius 
+            dicitur produci per modum intellectus et spiritus sanctus per modum 
+            voluntatis.
+          </p>
+          <p xml:id="ppr-l63-arespn">
+            Alia ratio erat quia si aliquod principium per idem 
+            sui posset producere duas personas ita tres et sic in infinitum 
+            quia si posset respectu duorum effectuum ita respectu trium etc. 
+            <name ref="#Rimini">Gregorius</name> respondet quod nulla divina necessario consistit in tribus et 
+            non potest in pluribus sistere, 
+            et ista responsio debet sufficere pro nunc.
+          </p>
+          <p xml:id="ppr-l63-uraect">
+            Ultima ratio aliquid attribuitur intellectui divino quod non 
+            attribuitur voluntati divinae. dicitur quod nihil attribuitur intellectui 
+            divino quin attribuatur eius voluntati. 
+            Ita quod si intellectus divinus intelligat mala, concedendum est 
+            quod voluntas divina intelligit mala, 
+            et sic voluntas intelligit mala, 
+            et tamen non conceditur quod voluntas 
+            velit mala nec intellectus divinus vult mala propter verba 
+            quae significant aliter et aliter 
+            quia aliud importat velle aliud intelligere, 
+            ideo hoc provenit ex cognitione terminorum.
+          </p> 
+          <p xml:id="ppr-l63-arcvni">
+            Aliter 
+            respondet 
+            <cit>
+              <ref xml:id="ppr-l63-Rd1e555"><name ref="#Chatton">Chaton</name></ref>
+              <bibl>XXX</bibl>
+            </cit> 
+            ne dicit ipse tales propositiones offendant 
+            possunt distingui tales intellectus non vult et voluntas 
+            vult mala ad hunc intellectum quod si intellectus divinus et voluntas 
+            distinguerentur per impossibile voluntas non intelligeret.
+          </p> 
+          <p xml:id="ppr-l63-varevd">
+            Vel aliter respondetur resolvendo istud ad perseitatem 
+            quia licet intellectus 
+            et voluntas supponant pro eodem tamen ista esset per se 
+            intellectus intelligit et ista non voluntas intelligit, 
+            et sic a parte rei non <unclear>probares</unclear> aliquam distinctionem 
+            inter intellectum divinum et voluntatem divinam.
+          </p> 
+          <p xml:id="ppr-l63-ipqpre">
+            Ideo patet qualiter sit respondendum ad 
+            omnes praedicatas rationes, etc., et cetera, etc.
+          </p>--></div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
