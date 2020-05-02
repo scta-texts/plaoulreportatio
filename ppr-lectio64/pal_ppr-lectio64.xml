@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 64, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 64, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-04-23">April 23, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-04-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="115-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio64">
+        <head xml:id="ppr-l64-ldtldt">Lectio 64, de Trinitate</head>
+        <div xml:id="ppr-l64-Dd1e109">
+          <head xml:id="ppr-l64-Hrdfrdf">Recapitulatio de formalitatibus</head>
+          <p xml:id="ppr-l64-ialhei">
+            <lb ed="#PV"/>In aliis lectionibus visum est 
+            <lb ed="#PV"/>quod non sit ponenda distinctio 
+            <lb ed="#PV"/>formalis in deo propter eius 
+            <lb ed="#PV"/>summam simplicitatem quod scilicet ad aliquem 
+            <lb ed="#PV"/>verum sensum videatur doctores 
+            <lb ed="#PV"/>distinctionem formaliter intelligunt 
+            <lb ed="#PV"/>resolvendo ad sensum logicalem
+            <lb ed="#PV"/>scilicet ad non perseitatem primi modi 
+            <lb ed="#PV"/>enuntiationis unius extremitatis 
+            <lb ed="#PV"/>de altera 
+          </p>
+          <p xml:id="ppr-l64-ergpap">
+            Et si ex parte rei haec 
+            <lb ed="#PV"/>est improbatum Radix improba<lb ed="#PV"/>tionis 
+            erat tripartita primo 
+            <lb ed="#PV"/>ex inmensa simplicitate dei 2o 
+            <lb ed="#PV"/>ex <ref xml:id="ppr-l64-Rd1e127">regula <name ref="#Anselm">anselmi</name></ref> et 3o pro 
+            <lb ed="#PV"/>fundamento hominis supponere 
+            <lb ed="#PV"/>quod ratione summae simplicitatis nihil 
+            <lb ed="#PV"/>est affirmandum de uno attribui<lb ed="#PV"/>torum 
+            quando affirmatum de alio nec 
+            <lb ed="#PV"/>negandum quin negetur de alio ubi 
+            <lb ed="#PV"/>fides non astringit nec auctoritas 
+          </p>
+        </div>
+        <div xml:id="ppr-l64-Dd1e138">
+          <head xml:id="ppr-l64-Hqccidp">Quinque Conclusiones circa distinctiones inter divinas personas<!--<note>Note should be included to indicate that this begins the second part of the division mentioned in lectio 55</note>--></head>
+          <div xml:id="ppr-l64-Dd1e144">
+            <head xml:id="ppr-l64-Hpcpcpc">Prima conclusio</head>
+            <p xml:id="ppr-l64-eqiupt">
+              <lb ed="#PV"/>Infero consequenter quod inter essentiam 
+              <lb ed="#PV"/>divinam tanta ydemptitate a parte 
+              <lb ed="#PV"/>rei est idem tum essentia sicut 
+              <lb ed="#PV"/>est idem sibi etc 
+            </p>
+            <p xml:id="ppr-l64-siqria">
+              Infero secundum 
+              <lb ed="#PV"/>quod deus est omnium producibilium 
+              <lb ed="#PV"/>una simplex ydea ymmo sim<lb ed="#PV"/>plicissima 
+              ita quod propter diversitatem 
+              <cb ed="#P" n="b"/>
+              <lb ed="#PV"/>producibilium non oportet ponere immediate
+              <lb ed="#PV"/>divinam distinctionem rationem ydealium 
+              <lb ed="#PV"/>nam ista simplicitas consur<lb ed="#PV"/>git 
+              ex inmensitate naturae sic quod 
+              <lb ed="#PV"/>ipsa unica existens est etc.
+            </p>
+            <p xml:id="ppr-l64-icqpci">
+              Infero 
+              <lb ed="#PV"/>consequenter quod deus non potest formaliter 
+              <lb ed="#PV"/>influere id est non potest adextra communicari 
+              <lb ed="#PV"/>realiter creaturae per modum formae 
+              <lb ed="#PV"/>informantis et actuantis quia 
+              <lb ed="#PV"/>hoc repugnat summe immen<lb ed="#PV"/>sitati 
+              et simplici quod informare annexa 
+              <lb ed="#PV"/>est quaedam <unclear>perscualitas</unclear> quae 
+              <lb ed="#PV"/>summae simplicitati repugnat 
+              <lb ed="#PV"/>Etiam creatura non est caparum
+              <lb ed="#PV"/>inmensae perfectionis vel sui in<lb ed="#PV"/>fluxus
+            </p>
+            <!-- fuzzy break; needs review -->
+            <p xml:id="ppr-l64-qeidss">
+              Et istam ultimam 
+              <lb ed="#PV"/>materiam primo de ducam quia ista 
+              <lb ed="#PV"/>materia est pertinens ad divinam 
+              <lb ed="#PV"/>simplicitatemut divina simplicitas salvetur.
+            </p>
+            <p xml:id="ppr-l64-seiefi">
+              Sit ergo prima 
+              <lb ed="#PV"/>conclusio Non stat inmensae 
+              <lb ed="#PV"/>simplicitatis essentiam formaliter 
+              <lb ed="#PV"/>influere 
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e177">
+            <head xml:id="ppr-l64-Hscscsc">Secunda conclusio</head>
+            <p xml:id="ppr-l64-scnfis">
+              <lb ed="#PV"/>2a conclusio non stat 
+              <lb ed="#PV"/>inmensae simplicitatis <del rend="strikethrough">essentia</del>
+              <lb ed="#PV"/><del rend="strikethrough">tante</del> eminentiam tantae formae 
+              <lb ed="#PV"/>formalem influxum influere
+              <lb ed="#PV"/>supplere
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e186">
+            <head xml:id="ppr-l64-Htctctc">Tertia conclusio</head>
+            <p xml:id="ppr-l64-tpdstt">
+              3a propositio dato quod possit 
+              <lb ed="#PV"/>non staret tamen unam personam 
+              <lb ed="#PV"/>sine alia formaliter influere 
+              <lb ed="#PV"/>ita quod non esset communicabilis secundum 
+              <lb ed="#PV"/>unam personam quando secundum trini<lb ed="#PV"/>tatem
+              
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e195">
+            <head xml:id="ppr-l64-Hqcqcqc">Quarta conclusio</head>
+            <p xml:id="ppr-l64-qpdrfe">
+              4a conclusio <del rend="s">ita</del> divina 
+              <lb ed="#PV"/>essentia non potest tanta perceptiva 
+              <lb ed="#PV"/>vitlaiter immutare licet tamen contrarium 
+              <lb ed="#PV"/>non repugnet fidei evidenter
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e205">
+            <head xml:id="ppr-l64-Hqncqnc">Quinta conclusio</head>
+            <p xml:id="ppr-l64-qpdaiv">
+              <lb ed="#PV"/>Quinta propositio dato quod divina 
+              <lb ed="#PV"/>essentia posset vitaliter immu<lb ed="#PV"/>tare
+              non staret tamen unam 
+              <lb ed="#PV"/>personam sine alia vitaliter immu<lb ed="#PV"/>tare 
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l64-Dd1e226">
+          <head xml:id="ppr-l64-Hprcprc">Probatio conclusionum</head>
+          <div xml:id="ppr-l64-Dd1e231">
+            <head xml:id="ppr-l64-Hpppppc">Probatio pro prima conclusione</head>
+            <p xml:id="ppr-l64-ppqipm">
+              Prima conclusio probatur multipliciter 
+            </p>
+            <p xml:id="ppr-l64-pcncfv">
+              <lb ed="#PV"/>primo nam si deus posset formaliter
+              <pb ed="#P" n="116-r"/>
+              <cb ed="#P" n="a"/>
+              <lb ed="#PV"/>influere sequitur primo quod deus 
+              <lb ed="#PV"/>esset recens consequens est contra aucto<lb ed="#PV"/>rem 
+              scripturae probatur consequentia quia quaelibet 
+              <lb ed="#PV"/>forma communicat suo formabili 
+              <lb ed="#PV"/>denominatione concretivam quae sibi 
+              <lb ed="#PV"/>scilicet formae competit in abstracto 
+              <lb ed="#PV"/>si ergo deus communicaretur per modum 
+              <lb ed="#PV"/>formae communicaret suo formabili 
+              <lb ed="#PV"/>vel suo constituto esse deum et cum 
+              <lb ed="#PV"/>omnis creatura sit de nono pro<lb ed="#PV"/>ducta 
+              sequitur propositum
+            </p>
+            <p xml:id="ppr-l64-sneebo">
+              <lb ed="#PV"/>2o advertendum nam ex illa positione 
+              <lb ed="#PV"/>sequeretur quod materia prima posset 
+              <lb ed="#PV"/>esset deus et tunc ex consequenti 
+              <lb ed="#PV"/>sequitur quod potest esse res intellectiva 
+              <lb ed="#PV"/>et quod potest beatificari etiam consequenter be<lb ed="#PV"/>atificare 
+              nam haberet plenitudinem 
+              <lb ed="#PV"/>deitatis sibi communicate et esset deus 
+              <lb ed="#PV"/>ergo est ulterius finis et beatitudinis 
+              <lb ed="#PV"/>obiectum etc 
+            </p>
+            <p xml:id="ppr-l64-isqiea">
+              Item sequeretur quod 
+              <lb ed="#PV"/>materia prima posset esse aeterna et in<lb ed="#PV"/>dependens 
+              vel etiam alia res pro<lb ed="#PV"/>ducta 
+              posset esse talis probatur consequentia nam 
+              <lb ed="#PV"/>esse independens esse necessarium
+              <lb ed="#PV"/>et esse aeternum sunt proprie passio<lb ed="#PV"/>nes 
+              convertibiles cum suo subiecto quia 
+              <lb ed="#PV"/>subiectum scilicet deus dicitur esse creatura 
+              <lb ed="#PV"/>igitur proprie passiones 
+            </p>
+            <p xml:id="ppr-l64-isqeed">
+              Item sequitur 
+              <lb ed="#PV"/>quod posset esse plures dii nam qua 
+              <lb ed="#PV"/>ratione deus potest communicare per modum 
+              <lb ed="#PV"/>formae alicui creaturae eadem ratione 
+              <lb ed="#PV"/>aliter et tamen vi huiusmodi communi<lb ed="#PV"/>cationis 
+              competit creaturae dici deus 
+              <lb ed="#PV"/>et cum infinite sint creaturae 
+              <lb ed="#PV"/>formales sequitur propositum
+            </p> 
+            <p xml:id="ppr-l64-isqetp">
+              Item 
+              <lb ed="#PV"/>sequitur quod creatura posset esse trinitas 
+              <lb ed="#PV"/>personarum
+            </p>
+            <p xml:id="ppr-l64-iofsss">
+              Item omnis forma 
+              <lb ed="#PV"/>quae communicatur communicat suas opera<lb ed="#PV"/>tiones 
+              scilicet suo subiecto sit acci<lb ed="#PV"/>dentalis 
+              et constituto vel compo<cb ed="#P" n="b"/><lb ed="#PV"/>sito 
+              sit substantialis Si ergo divina 
+              <lb ed="#PV"/>essentia conceditur alicui per modo 
+              <lb ed="#PV"/>formae communicabit sibi suas operationes 
+              <lb ed="#PV"/>ergo creatura producet filium ad intra 
+              <lb ed="#PV"/>et spirabit spiritum sanctum unde inpossibile 
+              <lb ed="#PV"/>est quod forma communicetur alicui 
+              <lb ed="#PV"/>quando communicetur secundum omnem suam 
+              <lb ed="#PV"/>operationem et sic creatura posset 
+              <lb ed="#PV"/>generare filium in divinis et spi<lb ed="#PV"/>rare 
+              spiritum sanctum
+            </p> 
+            <p xml:id="ppr-l64-ecqcsp">
+              Confirmatur 
+              <lb ed="#PV"/>quia influxus formalis est 
+              <lb ed="#PV"/>naturalis licet anima intellectiva sit formaliter 
+              <lb ed="#PV"/>libera non tamen quantum ad communi<lb ed="#PV"/>cationem 
+              suam qua communicatur corpori 
+              <lb ed="#PV"/>ymmo quantum ad haec communicatur 
+              <lb ed="#PV"/>secundum ultimum sui posse ergo sic deus 
+              <lb ed="#PV"/>communicatur etiam communicatur secundum ple<lb ed="#PV"/>nitudine 
+              omnis suae perfectionis 
+              <lb ed="#PV"/>et consequenter operationis
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e268">
+            <head xml:id="ppr-l64-Hppspsc">Probatio pro secundo conlusione</head>
+            <p xml:id="ppr-l64-scdcis">
+              2a conclusio 
+              <lb ed="#PV"/>quae dicit quod non stat inmensae 
+              <lb ed="#PV"/>finitatis essentiam creaturae formae 
+              <lb ed="#PV"/>formalem fluxum supplere quia 
+              <lb ed="#PV"/>influxus formalis est naturalis 
+              <lb ed="#PV"/>ergo est secundum ultimum posset formae 
+              <lb ed="#PV"/>communicantis ergo non stat quod deus 
+              <lb ed="#PV"/>communicetur secundum remissum gradum 
+              <lb ed="#PV"/>formae cuius vicem supplet
+            </p>
+            <p xml:id="ppr-l64-sdnusp">
+              2o 
+              <lb ed="#PV"/>deus non potest supplere influxum 
+              <lb ed="#PV"/>causae efficientis creaturae igitur probatur 
+              <lb ed="#PV"/>antecedes quia habet duplicem sensum 
+              <lb ed="#PV"/>unum unum et alium falsum Sen<lb ed="#PV"/>sus 
+              falsus est quod deus non posset 
+              <lb ed="#PV"/>effectum quod ducere se solo absque 
+              <lb ed="#PV"/>concursu causae secundae sed suppletur 
+              <lb ed="#PV"/>influxum causae efficientis tantae 
+              <lb ed="#PV"/>est concurrere proportionali concursu sicut causa 
+              <lb ed="#PV"/>2a concurrebat vel concurreret Sed 
+              <lb ed="#PV"/>alias probatur quod deus non posset nisi 
+              <lb ed="#PV"/>infinite agere adextra ergo non potest
+              <pb ed="#P" n="116-v"/>
+              <cb ed="#P" n="a"/>
+              <lb ed="#PV"/>respectu alicuius effectus in eadem 
+              <lb ed="#PV"/>proportione qua causa limitata 
+              <lb ed="#PV"/>agit vel concursit ratione suae inmen<lb ed="#PV"/>sitatis 
+              ergo si non potest immersi quia 
+              <lb ed="#PV"/>influxus formalis est naturalis 
+              <lb ed="#PV"/>et influxus effectivus est libere 
+              <lb ed="#PV"/>potest 
+            </p>
+            <p xml:id="ppr-l64-isqesp">
+              si sic sequeretur quod eadem res potest fieri 
+              <lb ed="#PV"/>omnium specierum successiva consequens 
+              <lb ed="#PV"/>est inconveniens et contra artem 
+              <lb ed="#PV"/>demonstrativam de propriis passio<lb ed="#PV"/>nibus 
+              et diffinitionibus probatur consequentia 
+              <lb ed="#PV"/>nam suppleat deus vicem in 
+              <lb ed="#PV"/>fine formae tunc constituitur 
+              <lb ed="#PV"/>infima species utrum illa species 
+              <lb ed="#PV"/>agregatum deo et materia vel solum 
+              <lb ed="#PV"/>materia non <unclear>cuo</unclear>
+            </p>
+            <p xml:id="ppr-l64-dreose">
+              deinde respectu eiusdem 
+              <lb ed="#PV"/>materiae suppleat vicem formae in<lb ed="#PV"/>mediate 
+              superioris tunc vel illa 
+              <lb ed="#PV"/>species erit materia vel agregatum 
+              <lb ed="#PV"/>ex materia et deo Et breviter erti 
+              <lb ed="#PV"/>eadem res quae prius et sic con<lb ed="#PV"/>sequenter 
+              de omnibus essentialibus 
+              <lb ed="#PV"/>speciebus
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e300">
+            <head xml:id="ppr-l64-Hpptptc">Probatio pro tertia conclusione</head>
+            <p xml:id="ppr-l64-dpcena">
+              3a conclusio quae dicit 
+              <lb ed="#PV"/>quod dat quod inmensae simplicitatis 
+              <lb ed="#PV"/>essentia potest tantae formae for<lb ed="#PV"/>male
+              fluxum supplere tamen non 
+              <lb ed="#PV"/>staret unam personam sine alia 
+              <lb ed="#PV"/>formaliter influere pro primo 
+              <lb ed="#PV"/>quod influxus formalis videtur 
+              <lb ed="#PV"/>aequae vel magis influxus adextra 
+              <lb ed="#PV"/>quam efficiens et tamen de effi<lb ed="#PV"/>ciente 
+              negamus quod una per<lb ed="#PV"/>sona 
+              possit aliquem efficere 
+              <lb ed="#PV"/>sine alia igitur nec de formali 
+              <lb ed="#PV"/>quae est sui communicativa
+            </p>
+            <p xml:id="ppr-l64-snsqca">
+              2o non 
+              <lb ed="#PV"/>stat quod fiat unio creaturae ad deum 
+              <lb ed="#PV"/>quando fiat mutatio in creatura 
+              <lb ed="#PV"/>ergo illam mutationem facit tota 
+              <lb ed="#PV"/>trinitas dico quod ponam illam conclusionem 
+              <cb ed="#P" n="b"/>
+              <lb ed="#PV"/>contra unum alias legente in istis 
+              <lb ed="#PV"/>scolis dicit quod staret unam personam 
+              <lb ed="#PV"/>formaliter influere sine alia <unclear>sermo</unclear>
+              <lb ed="#PV"/>abseque hoc
+              <lb ed="#PV"/>illud est falsum tamen quia non stat 
+              <lb ed="#PV"/>quod una persona influet formaliter 
+              <lb ed="#PV"/>quando <del rend="strikethrough">a</del> alia quia opus influen<lb ed="#PV"/>di 
+              indistinctum est adextra tamen quia non 
+              <lb ed="#PV"/>stat quod fiat huiusmodi unius quin 
+              <lb ed="#PV"/>tota trinitas influat effective 
+            </p>
+            <p xml:id="ppr-l64-insnbs">
+              <lb ed="#PV"/>Item data ista oppinione <unclear>non cogemur</unclear>
+              dicere quod tota trinitas effectisset 
+              <lb ed="#PV"/>unionem yppostaticam quia sicut per 
+              <lb ed="#PV"/>adversarium ex hoc quod creaturae 
+              <lb ed="#PV"/>unientur per modum formae non 
+              <lb ed="#PV"/>requiritur comparatio aliarum per<lb ed="#PV"/>sonarum 
+              ita periformiter de uni<lb ed="#PV"/>one 
+              ypostatica quae terminantur 
+              <lb ed="#PV"/>ad unam personam modo diceretur 
+              <lb ed="#PV"/>hoc de unione ypostatica credo 
+              <lb ed="#PV"/>quod non bene sonaret
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e346">
+            <head xml:id="ppr-l64-Hppqpqc">Probatio pro quarta conclusione</head>
+            <p xml:id="ppr-l64-dpaipp">
+              4a conclusio 
+              <lb ed="#PV"/>quae dicit quod divina essentia non 
+              <lb ed="#PV"/>potest tantam perceptivam vitaliter 
+              <lb ed="#PV"/>inmutare 
+            </p>
+            <p xml:id="ppr-l64-pqooqp">
+              probatur primo sic quia 
+              <lb ed="#PV"/>omnis cognitio vel volitio est 
+              <lb ed="#PV"/>operatio potentiae perceptivae sed 
+              <lb ed="#PV"/>deo repugnat quod sit operatio 
+              <lb ed="#PV"/>passiva alicuius creaturae vel 
+              <lb ed="#PV"/>motio igitur
+            </p>
+            <p xml:id="ppr-l64-squned">
+              2o nam ut videtur 
+              <lb ed="#PV"/>omnis aequales in naturalibus esset 
+              <lb ed="#PV"/>aequae beati nam potentia 
+              <lb ed="#PV"/>esset eadem cognitio esset eodem 
+              <lb ed="#PV"/>obiectum esset idem ergo non videtur unde 
+              <lb ed="#PV"/>proveniret diversitas
+            </p> 
+            <p xml:id="ppr-l64-ideeic">
+              Item vel divina 
+              <lb ed="#PV"/>essentia esset sic videmus infi<lb ed="#PV"/>nite 
+              visio vel finite tantum vel etiam 
+              <lb ed="#PV"/>cognitio alia vel volitio Si 
+              <lb ed="#PV"/>finite tantum ergo prius est in se fini<lb ed="#PV"/>ta 
+              notitia quod sit aliter quia non potest esse
+              <pb ed="#P" n="117-r"/>
+              <cb ed="#P" n="a"/>
+              <lb ed="#PV"/>notitia aliter aliqualiter nisi prius 
+              <lb ed="#PV"/>sit talis in se unde oportet 
+              <lb ed="#PV"/>quod forma prius habeat cognitionem 
+              <lb ed="#PV"/>in se forma prius habeat cognitionem 
+              <lb ed="#PV"/>in se quam communicat eandem Si dicitur 
+              <lb ed="#PV"/>quod est infinite hoc est impossibile quia 
+              <lb ed="#PV"/>creatura non est infinite notitiae 
+              <lb ed="#PV"/>capax sic quod infinite per eam 
+              <lb ed="#PV"/>cognoscat
+            </p>
+            <p xml:id="ppr-l64-qaveie">
+              Item 4a actuatio vi<lb ed="#PV"/>talis 
+              praesupponit realem informatio<lb ed="#PV"/>nem 
+              nam sola praesentia non 
+              <lb ed="#PV"/>sufficit deus enim est nobis 
+              <lb ed="#PV"/>praesens et potentiae cognitivae Si 
+              <lb ed="#PV"/>ergo praesentia sola sufficeret in vitaliter 
+              <lb ed="#PV"/>semper inmutaret
+            </p>
+            <p xml:id="ppr-l64-seiice">
+              Quinto proportionaliter 
+              <lb ed="#PV"/>quanto aliqua species notitiae est 
+              <lb ed="#PV"/>in se perfectior tanto perfectius in<lb ed="#PV"/>mutat 
+              potentiam patet discurrendo per 
+              <lb ed="#PV"/>totam latitudinem notitiarum 
+              <lb ed="#PV"/>quantum ad species cum ergo sit proces<lb ed="#PV"/>sus 
+              in infinitum in noticiis cau<lb ed="#PV"/>sabilibus 
+              quarum quaestionbius perfectius 
+              <lb ed="#PV"/>immutat et divinam essentia est 
+              <lb ed="#PV"/>supra totam illam latitudinem 
+              <lb ed="#PV"/>igitur infinite inmutaret quod 
+              <lb ed="#PV"/>non est concedendum saltis quantum ad crea<lb ed="#PV"/>turam
+            </p>
+          </div>
+          <div xml:id="ppr-l64-Dd1e389">
+            <head xml:id="ppr-l64-Hppqpqn">Probatio pro quinta conclusione</head>
+            <p xml:id="ppr-l64-ucpani">
+              Quinta conclusio et ultima 
+              <lb ed="#PV"/>quae est dato quod divinam essentia potest 
+              <lb ed="#PV"/>vitaliter immutare non staret tamen 
+              <lb ed="#PV"/>unam personam sine alia vitaliter 
+              <lb ed="#PV"/>inmutare <unclear>et hoc</unclear> in esse suo personali 
+              
+              
+            </p> 
+            <p xml:id="ppr-l64-pphiae">
+              <lb ed="#PV"/>probatur quia opera trinitatis adextra sunt in<lb ed="#PV"/>divisa
+            </p>
+            <p xml:id="ppr-l64-sppvss">
+              2o ponamus per adver<lb ed="#PV"/>sarum 
+              quod filius immutet potentiam 
+              <lb ed="#PV"/>intellectivam creatam in esse sapientiae 
+              <lb ed="#PV"/>vel notitiae tunc illa notitia 
+              <lb ed="#PV"/>inmensa quare aliter actuet sor<lb ed="#PV"/>tem 
+              dicitur a patre ergo pater non est 
+              <lb ed="#PV"/>omnis sapientia in mensa quia 
+              <lb ed="#PV"/>ista notitia non est pater scilicet quae in<lb ed="#PV"/>mutat 
+              sortem quia inmutat in 
+              <lb ed="#PV"/>esse personale filii et secundum hoc non 
+              <cb ed="#P" n="b"/>
+              <lb ed="#PV"/>est pater ergo pater non est omnis inmensa 
+              <lb ed="#PV"/>sapientia pari ratione arguitur de amare 
+              <lb ed="#PV"/>spiritus sancti et de potentia respectu patris 
+            </p> 
+            <p xml:id="ppr-l64-ismnss">
+              <lb ed="#PV"/>Item si sic vitaliter inmutare videtur respicere 
+              <lb ed="#PV"/>opus adextra magis quam terminare 
+              <lb ed="#PV"/>obiective ut magis esse visionem 
+              <lb ed="#PV"/>quam videri ergo una persona sine 
+              <lb ed="#PV"/>alia potest esse visio formalis potest 
+              <lb ed="#PV"/>etiam esse obiectalis ponamus quod unum 
+              <lb ed="#PV"/>immutet aliquem in esse personali et 
+              <lb ed="#PV"/>concurrat in esse obiectali tunc 
+              <lb ed="#PV"/>iste beneficabitur et tamen non vide<lb ed="#PV"/>bit 
+              divinam essentiam.
+            </p>
+            <p xml:id="ppr-l64-iicahp">
+              Item in casu 
+              <lb ed="#PV"/>nostro ubi spiritus sanctus esset formaliter 
+              <lb ed="#PV"/>amor et non essentia vel pater vel 
+              <lb ed="#PV"/>filius quaeritur utrum pater sit huiusmodi 
+              <lb ed="#PV"/>amor Si non ergo patri deficit 
+              <lb ed="#PV"/>alias amor infinitus et inmensus 
+            </p>
+            <p xml:id="ppr-l64-iquott">
+              <lb ed="#PV"/>Item quaeritur utrum pater possit concurrere 
+              <lb ed="#PV"/>in esse amoris in suo esse personaliter
+              <lb ed="#PV"/>Si non tunc pater non est formaliter 
+              <lb ed="#PV"/>amor ymmo <add place="above-line">non</add> diligit se amore 
+              <lb ed="#PV"/>intrinseco Et sequitur eodem modo quod non sit 
+              <lb ed="#PV"/>sapientia intrinseca ymmo solus 
+              <lb ed="#PV"/>filius etc modo illa sunt contra divinam 
+              <lb ed="#PV"/>maiestatem
+            </p> 
+          </div>
+          <!-- doesn't seem present 
+            <div xml:id="ppr-l64-Dd1e446">
+            <head xml:id="ppr-l64-Hrdrrdr">Rationes de Rippa</head>
+            <p xml:id="ppr-l64-cicial">
+              Circa istas conclusiones sunt rationes 
+              <name ref="#Ripa">De Rippa</name>, 
+              quae inducentur in aliis lectionibus, 
+              et cetera.
+            </p>
+          </div>-->
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
