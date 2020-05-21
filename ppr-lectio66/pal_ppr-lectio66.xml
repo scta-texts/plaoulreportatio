@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 66, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 66, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-05-16">May 16, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-05-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="118-v"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio66">
+        <head xml:id="ppr-l66-Hldtldt">Lectio 66, de Trinitate</head>
+        <div xml:id="ppr-l66-Dd1e109">
+          <head xml:id="ppr-l66-Hudesdc">Utrum divina essentia possit communicare suas denominationes concretivas?</head>
+          <p xml:id="ppr-l66-avasdc">
+            <lb ed="#PV" n="47"/>In alia lectione
+            <lb ed="#PV"/>Antequam veniam ad solutionem 
+            <lb ed="#PV"/>rationum aliquid est dicendum de 
+            <lb ed="#PV"/>materia in se scilicet de informatione 
+            <lb ed="#PV"/>utrum divinae essentiae possit com<lb ed="#PV"/>petere 
+            et unde consurgunt con<lb ed="#PV"/>cretive 
+            denominationes 
+          </p>
+        </div>
+        <div xml:id="ppr-l66-Dd1e118">
+          <head xml:id="ppr-l66-Hhvhvhv">Habitudines unibilium</head>
+          <p xml:id="ppr-l66-pqsemh">
+            Adverten<lb ed="#PV"/>dum 
+            quod unibilium inter se multiplex 
+            <lb ed="#PV"/>est habitudo 
+          </p>
+          <p xml:id="ppr-l66-peppec">
+            prima est praesentiae et coexistentiae
+          </p> 
+          <p xml:id="ppr-l66-shpess">
+            <lb ed="#PV"/>2a potest esse subiective dependentiae 
+            <lb ed="#PV"/>nam licet ab agente praecipue 
+            <lb ed="#PV"/>primo effectus posset totaliter con<lb ed="#PV"/>servari 
+            scilicet forma ex institutione 
+            <lb ed="#PV"/>divino quolibet forma habet quamdam 
+            <lb ed="#PV"/>de providentiaem respectu sui obiecti
+          </p>
+          <p xml:id="ppr-l66-thedpm">
+            <lb ed="#PV"/>3a habitudo est potentiae educ<lb ed="#PV"/>tivae 
+            unde forma substantiales etiam 
+            <lb ed="#PV"/>accidentales praeter intellectivam realiter edu<lb ed="#PV"/>cuntur 
+            de potentiae materiae
+          </p>
+          <p xml:id="ppr-l66-aehcis">
+            Alia 
+            <lb ed="#PV"/>est habitudo unitarum per modum 
+            <lb ed="#PV"/>partium eiusdem rationis scilicet divinorum 
+            <lb ed="#PV"/>graduum albedinis vel caliditatis 
+            <lb ed="#PV"/>in eodem subiecto adaequate vel 
+            <lb ed="#PV"/>duarum partium continui
+          </p>
+          <p xml:id="ppr-l66-aehhes">
+            Alia est per 
+            <lb ed="#PV"/>modum impressionis et actuationis 
+            <lb ed="#PV"/>sicut sigillium respectu pure liquidi 
+            <lb ed="#PV"/>actuat ipsum secundum figuram 
+            <lb ed="#PV"/>propriam et <sic>caracterizat</sic> in eodem 
+            <lb ed="#PV"/>subiecto adaequate ita foram 
+            <lb ed="#PV"/>suum subiectum <sic>carecterisat</sic> Et per 
+            <lb ed="#PV"/>subtractionem sigilii aliquod nullum 
+            <lb ed="#PV"/>remanet vestigium sigilli Ita de 
+            <lb ed="#PV"/>forma vel subtractione formae 
+            <lb ed="#PV"/>respectu sui subiecti
+          </p>
+          <p xml:id="ppr-l66-sheias">
+            Sexta 
+            <lb ed="#PV"/>est immensa vel <unclear>intentiae</unclear> in aliquod 
+            <lb ed="#PV"/>subsistentiam
+          </p> 
+        </div>
+        <div xml:id="ppr-l66-Dd1e149">
+          <head xml:id="ppr-l66-Hpchchm">Propositiones circa hanc materiam</head>
+          <p xml:id="ppr-l66-ipppdm">
+            Istis praelibatis 
+            <lb ed="#PV"/>pono propositiones pro declaratione materiae.
+          </p>
+          <div xml:id="ppr-l66-Dd1e157">
+            <head xml:id="ppr-l66-Hprpprp">Prima propositio</head>
+            <p xml:id="ppr-l66-peliss">
+              <lb ed="#PV"/>prima est licet quaelibet forma tantae 
+              <lb ed="#PV"/>communicetur vi suae unionis quantae est 
+              <pb ed="#PV" n="119-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>in sua essentia nulla tamen 
+              <lb ed="#PV"/>forma communicat suo <!-- deletion here? --> formabili 
+              <lb ed="#PV"/>omnis suas denominationes sibi intrin<lb ed="#PV"/>secas 
+            </p>
+            <p xml:id="ppr-l66-ppdrmq">
+              prima pars patet de substantialibus 
+              <lb ed="#PV"/>formis nam penes eas quanti<lb ed="#PV"/>ficatur 
+              gradus perfectionis rerum 
+              <lb ed="#PV"/>compositorum ergo forma communicat 
+              <lb ed="#PV"/>se secundum latitudinem suae essentiae 
+              <lb ed="#PV"/>et sic de <seg type="correction">forma<del rend="strikethrough">li</del></seg> essentiali quia secundum 
+              <lb ed="#PV"/>intensione qualitatis subiectum 
+              <lb ed="#PV"/>redditur magis tale 
+            </p>
+            <p xml:id="ppr-l66-iiflse">
+              unde in<lb ed="#PV"/>fluxus 
+              formalis est naturalis 
+              <lb ed="#PV"/>igitur communicat se secundum totam 
+              <lb ed="#PV"/>latitudinem suae essentiae
+            </p>
+            <p xml:id="ppr-l66-ieqdec">
+              Item 
+              <lb ed="#PV"/>ex hoc est pars constituti videtur 
+              <lb ed="#PV"/>quod constitutum <unclear>teneat</unclear> totam perfectionem 
+              <lb ed="#PV"/>partis 2a pars propositionis patet quia vi 
+              <lb ed="#PV"/>unionis animae ad materiam homo denomina<lb ed="#PV"/>tur 
+              vivens liber et sic de aliis 
+              <lb ed="#PV"/>multis quae forte competunt 
+              <lb ed="#PV"/>animae ad materiam non tamen omnes 
+              <lb ed="#PV"/>communicantur homini quae compe<lb ed="#PV"/>tunt 
+              animae quia anima intellec<lb ed="#PV"/>tiva 
+              realiter est indivisibilis 
+              <lb ed="#PV"/>et spiritualis et tamen non communicat 
+              <lb ed="#PV"/>hoc partum suo constituto quia 
+              et tamen non communicat 
+              <lb ed="#PV"/>hoc partum suum constitutum est divisibile 
+              <lb ed="#PV"/>et corporale
+            </p>
+            <p xml:id="ppr-l66-iannea">
+              Item animae non 
+              <lb ed="#PV"/>communicat suam propriam denominationem 
+              <lb ed="#PV"/>constituto quia ipusm non est 
+              <lb ed="#PV"/><del rend="strikethrough">corporale</del> anima
+            </p>
+            <p xml:id="ppr-l66-isasid">
+              Item si anima rema<lb ed="#PV"/>neret 
+              denominatio concretiva quae 
+              <lb ed="#PV"/>est suppositibilis scilicet esse animam non 
+              <lb ed="#PV"/>communicaret suo constituto 
+            </p>
+            <p xml:id="ppr-l66-cpsspp">
+              Corollarium 
+              <lb ed="#PV"/>potest poni quod vi unionis in nullo 
+              <lb ed="#PV"/>eodem communicant materialiter anima Nam 
+              <lb ed="#PV"/>aliud est vivere hominis et aliud 
+              <lb ed="#PV"/>animae Non dico quando anima sit pars 
+              <lb ed="#PV"/>hominis sed dico praedicationem remoti<lb ed="#PV"/>onis 
+              unius de <sic>altre</sic> scilicet sic quod 
+              <lb ed="#PV"/>vivere hominis non est vivere animae
+              <!-- break -->
+              <lb ed="#PV"/>Istud corollarium est contra multos quae po<cb ed="#PV" n="b"/><lb ed="#PV"/>nunt 
+              quod vi unionis animae ad materiam 
+              <lb ed="#PV"/>et unitas ad constitutum realiter totum 
+              <lb ed="#PV"/>compositis scilicet homo est anima et 
+              <lb ed="#PV"/>est idem vivere hominis et animae 
+              <lb ed="#PV"/>et quod homo est suus intellectus et anima 
+              <lb ed="#PV"/>ut videtur dicere <name ref="#HughOfStVictor">hugo de sancto 
+              <lb ed="#PV"/>victore</name> et <name ref="#WilliamOfParis">wilhelmus parisiensis</name> 
+              <lb ed="#PV"/>dicentes <name ref="#Aristotle">aristotelem</name> fuisse illius opi<lb ed="#PV"/>nionis 
+              10 <title ref="#Ethics">ethicorum</title> <name ref="#Wyclif">Wicliff</name>
+              fecit de hoc tractatum ex isto 
+              <lb ed="#PV"/>multa inconvenientia sequeretur
+              <lb ed="#PV"/>sed non prosequor pro praesenti 
+            </p>
+            <p xml:id="ppr-l66-suqneh">
+              Sequitur 
+              <lb ed="#PV"/>ulterius quod ex unione informa<lb ed="#PV"/>tiva 
+              non consurgit tanta communi<lb ed="#PV"/>catio 
+              quanta consurgit ex unione 
+              <lb ed="#PV"/>ypostica patet nam si angelus 
+              <lb ed="#PV"/>informaret materiam non communicaret 
+              <lb ed="#PV"/><unclear>supposito</unclear> suam propriam denomina<lb ed="#PV"/>tionem 
+              scilicet esse angelum et tamen 
+              <lb ed="#PV"/>si uniretur vero communicaret sibi suam 
+              <lb ed="#PV"/>communicationem quia verum esse angelus 
+            </p>
+          </div>
+          <div xml:id="ppr-l66-Dd1e220">
+            <head xml:id="ppr-l66-Hspspsp">Secunda propositio</head>
+            <p xml:id="ppr-l66-uppcsf">
+              ulterius 
+              <lb ed="#PV"/>pono istam propositionem quod de ratione 
+              <lb ed="#PV"/>informationis est carere ratione 
+              <lb ed="#PV"/>suppositali licet tamen huiusmodi
+              <lb ed="#PV"/>rationem non communicet suo formali
+            </p>
+            <p xml:id="ppr-l66-sspsea">
+              <lb ed="#PV"/>2m satis patet quia in exemplo 
+              <lb ed="#PV"/>iam posito de angelo informante 
+              <lb ed="#PV"/>materiam constituendo composi<lb ed="#PV"/>tum 
+              non communicat sibi suam de<lb ed="#PV"/>nominationem
+              propriam 
+            </p>
+            <p xml:id="ppr-l66-ppnaai">
+              prima pars 
+              <lb ed="#PV"/>patet quia eo ipso quod angelus 
+              <lb ed="#PV"/>informaret desineret esse persona 
+              <lb ed="#PV"/>vel suppositum unde anima separata
+              <lb ed="#PV"/>dicitur esse non suppositum ex appe<lb ed="#PV"/>titu 
+              informationis 
+            </p>
+            <p xml:id="ppr-l66-iehdes">
+              Et istis patet 
+              <lb ed="#PV"/>quod deus non potest formaliter in<lb ed="#PV"/>fluere 
+              vel non potest informare 
+              <lb ed="#PV"/>quia si informaret iam desineret 
+              <lb ed="#PV"/>esse suppositum 
+            </p>
+          </div>
+          <div xml:id="ppr-l66-Dd1e247">
+            <head xml:id="ppr-l66-Htptptp">Tertia propositio</head>
+            <p xml:id="ppr-l66-apdsrs">
+              Alia propositio denominatio 
+              <lb ed="#PV"/>concretiva vi informationis 
+              <lb ed="#PV"/>tendit in subsistentiam et rationem 
+              <lb ed="#PV"/>suppositalem formalis vel 
+              <pb ed="#PV" n="119-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>constituit et non proprie in subiectum 
+              <lb ed="#PV"/>vel formale quod in mente infor<lb ed="#PV"/>mat 
+              patet nam inmediate a causa vi 
+              <lb ed="#PV"/>informationis ad materiam non 
+              <lb ed="#PV"/>communicat materiae quod sit homo licet realiter 
+              <lb ed="#PV"/>informet et actuet ut de per se 
+              <lb ed="#PV"/>toti naturae humanae Nam in natura 
+              <lb ed="#PV"/>humana quem non est sibi subsistentia 
+              <lb ed="#PV"/>ipsa non recipit huiusmodi 
+              <lb ed="#PV"/>denominationem sed subsistentia eius 
+              <lb ed="#PV"/>recipit huiusmodi denominationem 
+              <lb ed="#PV"/>scilicet verum dei igitur subsistentia recipit igitur
+            </p> 
+            <p xml:id="ppr-l66-eisers">
+              <lb ed="#PV"/>Sequitur contra magistrum <name ref="#Ripa">magistrum Iohannem 
+              <lb ed="#PV"/>de rippa</name> quod licet deus informaret 
+              <lb ed="#PV"/>suam humanitatem et communicaretur 
+              <lb ed="#PV"/>per modum informationis tamen 
+              <lb ed="#PV"/>illa humanitas propter hoc non 
+              <lb ed="#PV"/>denominaretur deus per essentiam 
+              <lb ed="#PV"/>sua et etiam per accidens temporaliter 
+              <lb ed="#PV"/>scilicet per denominationem deitatis no<lb ed="#PV"/>viter 
+              sibi competentem patet quia 
+              <lb ed="#PV"/>denominationes concretive non 
+              <lb ed="#PV"/>sistunt informalibus sed tendit 
+              <lb ed="#PV"/>in subsistentiam ut materia non 
+              <lb ed="#PV"/>est intellectiva nec cognitiva licet 
+              <lb ed="#PV"/>formetur a tali potentia 
+            </p>
+            <p xml:id="ppr-l66-suqasa">
+              Sequitur 
+              <lb ed="#PV"/>quod communicatio huiusmodi denomina<lb ed="#PV"/>tionis 
+              concretive nunc est intrinsece 
+              <lb ed="#PV"/>limitata ad <unclear>aliquid</unclear> absolute patet 
+              <lb ed="#PV"/>quia denominatio concretiva con<lb ed="#PV"/>tingenter 
+              <lb ed="#PV"/>communicatur unde licet 
+              <lb ed="#PV"/>vi unionis animae ad materiam 
+              <lb ed="#PV"/>in <name ref="#Sortes">sorte</name> communicetur quod sit 
+              <lb ed="#PV"/>homo hoc tamen est contingenter 
+              <lb ed="#PV"/>vel contingens quia illa hu<lb ed="#PV"/>manitas 
+              potest assumi a verbo quo 
+              <lb ed="#PV"/>facto perdet suam denominationem 
+              <lb ed="#PV"/>et ulterius potest dimitti a verbo et 
+              <lb ed="#PV"/>assumi iterum a patre et iterum di<lb ed="#PV"/>mitti 
+              et assumi ab angelo et sic 
+              <lb ed="#PV"/>semper perdet denominationem priorem 
+            </p> 
+            <p xml:id="ppr-l66-suqrfc">
+              <lb ed="#PV"/>Sequitur ulterius quod si unio 
+              <lb ed="#PV"/>ypostatica dei ad humanitatem 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>reducatur ad formale tunc 
+              <lb ed="#PV"/>humanitas habebit magis rationem formae 
+              <lb ed="#PV"/>quam formabilis patet quia verbum reci<lb ed="#PV"/>pit 
+              tamquam subsistentia deno<lb ed="#PV"/>minationem 
+              vi humanitatis sibi communica<lb ed="#PV"/>tae 
+              et verbum nullam communicat denomina<lb ed="#PV"/>tionem 
+              humanitati sed recipit ergo 
+              <lb ed="#PV"/>habet rationem subsistentiae et humanitatis 
+              <lb ed="#PV"/>quantum ad hoc magis habet respectum 
+              <lb ed="#PV"/>communicantis 
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l66-Dd1e279">
+          <head xml:id="ppr-l66-Hpprppr">Plus propositiones</head>
+          <p xml:id="ppr-l66-upiuis">
+            ulterius per maiori 
+            <lb ed="#PV"/>declaratione materiae ponuntur propositiones 
+            <lb ed="#PV"/>quae satis posset sequi etiam dictis sed 
+            <lb ed="#PV"/>applicando ad materiam 
+          </p>
+          <div xml:id="ppr-l66-Dd1e287">
+            <head xml:id="ppr-l66-Hpmppmp">Prima propositio</head>
+            <p xml:id="ppr-l66-peqdav">
+              prima 
+              <lb ed="#PV"/>sit ista quod ratione coexistentiae 
+              <lb ed="#PV"/>vel praesentiae non consurgunt 
+              <lb ed="#PV"/>denominationes concretive nec 
+              <lb ed="#PV"/>communicantur alicui praesentium sic 
+              <lb ed="#PV"/>quod <unclear>alias</unclear> anima separata existens 
+              <lb ed="#PV"/>in aere denominaret aerem vivere
+            </p>
+            <p xml:id="ppr-l66-cdquaa">
+              <lb ed="#PV"/>Consequenter quod nec ex habitudine 
+              <lb ed="#PV"/>2a vel 3a scilicet subiective vel educative 
+              <lb ed="#PV"/>potentiae quia staret quod anima vel 
+              <lb ed="#PV"/>alia forma a solo deo con<lb ed="#PV"/>servaretur 
+              et removentur omnia 
+              <lb ed="#PV"/>alia dependentia et a solo deo pro<lb ed="#PV"/>duceretur 
+              vel crearetur ymmo 
+              <lb ed="#PV"/>de facto est ita de anima humana 
+              <lb ed="#PV"/>quae non conservatur a materia 
+              <lb ed="#PV"/>nichilominus communicat denominationem 
+              <lb ed="#PV"/>concretivam constituto 
+            </p>
+            <p xml:id="ppr-l66-neuuaa">
+              nec ex 
+              <lb ed="#PV"/>unione plurium inter se con<lb ed="#PV"/>surgit 
+              denominatio unius ad alterum 
+            </p>
+          </div>
+          <div xml:id="ppr-l66-Dd1e305">
+            <head xml:id="ppr-l66-Hsapsap">Secunda propositio</head>
+            <p xml:id="ppr-l66-apeaei">
+              <lb ed="#PV"/>Alia propositio ex duabus ultimis 
+              <lb ed="#PV"/>habitudinibus consurgit communi<lb ed="#PV"/>catio 
+              denominationis concretive 
+              <lb ed="#PV"/>scilicet ex actuatione et in <seg type="correction">visu<del>i</del></seg>
+            </p>
+            <p xml:id="ppr-l66-ueasqs">
+              <lb ed="#PV"/>Advertendum quod ex actuatione 
+              <lb ed="#PV"/>formae tum materia et consequenter erat 
+              <lb ed="#PV"/>ex visu utriusque in altrum 
+              <lb ed="#PV"/>scilicet constitutum consurgit 
+              <lb ed="#PV"/>denominatio concretiva competens illi 
+              <pb ed="#PV" n="120-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>in quod pariter unibilia tendunt 
+              <lb ed="#PV"/>ultimate patet illud aliqualiter 
+              <lb ed="#PV"/>ex dictis patet etiam discurrendo per 
+              <lb ed="#PV"/>omnes habitudines quas possunt 
+              <lb ed="#PV"/>habere universalia inter se quia istis ultimis 
+              <lb ed="#PV"/>duabus positis sequitur denominatio 
+              <lb ed="#PV"/>concretiva unde sola actuatio 
+              <lb ed="#PV"/>non sufficit quia forma materiam 
+              <lb ed="#PV"/>actuat realiter et tamen non 
+              <lb ed="#PV"/>communicat sibi denominatione concre<lb ed="#PV"/>tivam 
+              scilicet vivere vel esse unum sed 
+              <lb ed="#PV"/>communicat illi denominationem concretivam 
+              <lb ed="#PV"/>cui unica nituntur tamquam 
+              <lb ed="#PV"/>subsistentiae quam ultimate subsistit 
+            </p>
+            <p xml:id="ppr-l66-suqhdc">
+              <lb ed="#PV"/>Sequitur quod si per impossibile materia 
+              <lb ed="#PV"/>prima esset suppositum vel subsisten<lb ed="#PV"/>tia 
+              totius agregati ex ipsa 
+              <lb ed="#PV"/>materia et anima ipsa denominaretur 
+              <lb ed="#PV"/>homo et non illud agregatum 
+              <lb ed="#PV"/>patet quia vi actuationis intrinsece 
+              <lb ed="#PV"/>et visus ad se tamquam ad sub<lb ed="#PV"/>sistentiam 
+              <lb ed="#PV"/>consurgunt huiusmodi
+              <lb ed="#PV"/>denominationes
+            </p>
+            <p xml:id="ppr-l66-suqscd">
+              Sequitur ulterius 
+              <lb ed="#PV"/>quod receptio denominationem concre<lb ed="#PV"/>tivarum 
+              dicit actualitatem 
+              <lb ed="#PV"/>et perfectionem potius quam 
+              <lb ed="#PV"/>potentialitatem Et dare denominationem 
+              <lb ed="#PV"/>dicit potentialitatem et imperfectionem patet quia 
+              <lb ed="#PV"/>recipere huiusmodi denominationem 
+              <lb ed="#PV"/>est eo finem et subsistentiam 
+              <lb ed="#PV"/>unibilium inquam tendunt ul<lb ed="#PV"/>timate 
+              Et dare huiusmodi 
+              <lb ed="#PV"/>denominationem licet includat 
+              <lb ed="#PV"/>aliquam perfectionem tamen etiam 
+              <lb ed="#PV"/>includit inniti et tendere in sub<lb ed="#PV"/>sistentiam 
+              cui communicat denomina<lb ed="#PV"/>tionem 
+              concretivam
+            </p>
+            <p xml:id="ppr-l66-usqtei">
+              Sequitur 
+              <lb ed="#PV"/>quod licet deus vi alicuius unionis 
+              <lb ed="#PV"/>possit recipere denominationes 
+              <lb ed="#PV"/>concretivas tamen nullo modo 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>potest dare patet quia primum dicit 
+              <lb ed="#PV"/>omnino perfectionem ita quod nullam 
+              <lb ed="#PV"/>imperfecitonem et secundum dicit imperfectionem 
+              <lb ed="#PV"/>scilicet in visum quae non potest deo 
+              <lb ed="#PV"/>competere eo quod deus est puris<lb ed="#PV"/>simus 
+              actus 
+            </p>
+            <p xml:id="ppr-l66-ehpqdi">
+              Ex isto patet 
+              <lb ed="#PV"/>quod positio <name ref="#Ripa">magistri Iohannis de Rippa</name> in 
+              <lb ed="#PV"/>ista materia est falsa scilicet quod deus potest 
+              <lb ed="#PV"/>creaturae realiter communicari per modum 
+              <lb ed="#PV"/>formae actuantis Et falsum est quod 
+              <lb ed="#PV"/>humanitas christi in illius unionis 
+              <lb ed="#PV"/>sit deus unde ratione ymaginatur 
+              <lb ed="#PV"/>quod sicut humanitas communicat deo vel 
+              <lb ed="#PV"/>deitati quod sit homo ita econtra 
+              <lb ed="#PV"/>deitas communicat humanitati 
+              <lb ed="#PV"/>quod sit deus primum non potest 
+              <lb ed="#PV"/>deo competere quia includit in<lb ed="#PV"/>perfectionem
+            </p>
+            <p xml:id="ppr-l66-edqmff">
+              2o dico quod dato quod 
+              <lb ed="#PV"/>actuatio <del rend="strikethrough">d</del> illa competeret hu<lb ed="#PV"/>manitati 
+              per deitatem non tamen 
+              <lb ed="#PV"/>sibi communicaretur denominatio deitatis 
+              <lb ed="#PV"/>inconcreto quia huiusmodi 
+              <lb ed="#PV"/>denominatio concretiva non potest com<lb ed="#PV"/>petere 
+              <lb ed="#PV"/>nisi subsistentiae etc <unclear>est finis</unclear>
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
