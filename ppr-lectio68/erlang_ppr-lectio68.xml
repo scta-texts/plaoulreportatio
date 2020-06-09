@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 68, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 68, De Trinitate [Erlangen Transcription]</title>
+          <date when="2020-06-07">June 07, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-06-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="91-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio68">
+        <head xml:id="ppr-l68-Hldtldt">Lectio 68, de Trinitate</head>
+        <div xml:id="ppr-l68-Dd1e109">
+          <head xml:id="ppr-l68-Hrarcds">Responsiones ad rationes contra divina simplicitas</head>
+          <p xml:id="ppr-l68-depicf">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>Dictum est prius quod divinae simplicitati repugnat influxus formalis vel etiam 
+            <lb ed="#E"/>materialis Restat solvere rationes
+          </p>
+          <div xml:id="ppr-l68-Dd1e117">
+            <head xml:id="ppr-l68-Harparp">Ad rationes philosophorum</head>
+            <p xml:id="ppr-l68-epogcf">
+              primo occurrunt rationes philosophorum volentium quod deus respectu 
+              <lb ed="#E"/>omnium quae fiunt concurrit in triplici genere causae vel quadruplici Etiam videt esse opinio magis ponentis 
+              <lb ed="#E"/>quod omnia mutabilia formantur ab immutabili forma etiam <name>Linconiensis</name> et maioris auctoritatis 
+              <lb ed="#E"/>videntur sonare quod deus sit forma rerum et sic concurrit in genere causae formalis 
+            </p>
+            <p xml:id="ppr-l68-aipnrc">
+              primo dico 
+              <lb ed="#E"/>quod in hac materia auctoritas philosophorum non est multum ponderanda quia sicut alias dictum est primi 
+              <lb ed="#E"/>philosophantes non posuerunt aliquod ultra sensibilia et sic quidem aliquam quaedem aerem quidem 
+              <lb ed="#E"/>caelum etc deum vocaverunt
+            </p>
+            <p xml:id="ppr-l68-dcqrpc">
+              Secundo dicitur quod illi qui vel relatione quod adiutorio divino deum cogno<lb ed="#E"/>verunt 
+              non tamen sicut deum coluerunt ideo lapsi sunt in errorem intantum ydola coluerunt 
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l68-Dd1e151">
+          <head xml:id="ppr-l68-Hpgppmd">Propositiones generales pro maiori declaratione</head>
+          <p xml:id="ppr-l68-patagp">
+            <lb ed="#E"/>Tamen pro declaratione materiae sit haec 
+          </p>
+          <!-- fuzzy break -->
+          <div xml:id="ppr-l68-Dd1e159">
+            <head xml:id="ppr-l68-Hppoppo">Prima Propositio</head>
+            <p xml:id="ppr-l68-pplmvf">
+              prima propositio licet deus sit simpliciter et absolute primum rerum principium 
+              <lb ed="#E"/>non tamen est principium in genere causae materialis vel formalis
+            </p>
+            <p xml:id="ppr-l68-ipeapa">
+              Istam ponit <ref xml:id="ppr-l68-Rd1e171"><name ref="#Avicenna">Avicenna</name> 8vo <title ref="#AvicennaMetaphysics">me<lb ed="#E"/>thaphysicae</title> 
+              suae</ref> Nam licet absolute concedetur de deo quod est absolute prima causa non tamen in origine causae causa 
+              <lb ed="#E"/>est quia non sequitur in genere causae materialis est aliquod principium scilicet in 2o genere ergo est aliquod primum 
+              <lb ed="#E"/>absolute
+            </p>
+          </div>
+          <div xml:id="ppr-l68-Dd1e186">
+            <head xml:id="ppr-l68-Hspospo">Secunda Propositio</head>
+            <p xml:id="ppr-l68-splsap">
+              Secunda propositio licet deus labilem creaturam sustinet et in se contineat tamen non in ordine 
+              <lb ed="#E"/>ad aliud nec per hoc est sibi aliqua creatura perfectio
+            </p>
+            <p xml:id="ppr-l68-pppnip">
+              prima pars patet <ref xml:id="ppr-l68-Rd1e200"><title ref="#hebr">ad hebraeos</title> primo</ref> ubi dicitur 
+              <lb ed="#E"/>quod est <quote xml:id="ppr-l68-Qpovvvs" source="http://scta.info/resource/hebr1_3">portans omnia verbo virtutis</quote> suae ergo est quasi suppositio creaturae et quasi subsistentia 
+              <lb ed="#E"/>quaedam Etiam <name ref="#Paul">apostolum</name> <title>ad Romanos</title> <quote xml:id="ppr-l68-Qeipiso" source="http://scta.info/resource/rom11_36">Ex ipso per ipsum et in ipso sunt omnia</quote> ergo videtur habere habitudinem 
+              <lb ed="#E"/>quaedam continue similem ad habitudinem materiae quantum ad aliquid <ref xml:id="ppr-l68-Rd1e223"><name ref="#Boethius">Boecius</name> 3o <title ref="#Consolation">de consolatione</title></ref> vocat deum quasi 
+              <lb ed="#E"/>talium fugientes creaturas <ref xml:id="ppr-l68-Rd1e239" target="http://scta.info/resource/aristmet-l1"><name ref="#Aristotle">aristoteles</name> primo <title ref="#Metaphysics">metaphysicae</title></ref> ab ipso dependet caelum et natura 
+            </p>
+            <p xml:id="ppr-l68-iqsrcu">
+              <lb ed="#E"/>Si deus subtraheret respectu caeli suam influentiam caelum desineret esse etc necessitas caeli non 
+              <lb ed="#E"/>oritur ex intrinseco sed ratione dei
+            </p>
+            <p xml:id="ppr-l68-spciee">
+              Secunda pars patet quia tendere et per aliud perfici sunt duae 
+              <lb ed="#E"/>conditiones omnino deo repugnans quia deus est omnino inmensa perfectio sibi similis possiblis 
+              <lb ed="#E"/>actualiter et semper Item non potest ordinari sed omnia in ipsum
+            </p>
+            <div xml:id="ppr-l68-Dd1e260">
+              <head xml:id="ppr-l68-Hcorium">Corollarium</head>
+              <p xml:id="ppr-l68-pccldc">
+                Primum corollarium est contra 
+                <pb ed="#E" n="92-r"/>
+                <lb ed="#E"/><name ref="#Epicurus">epicurum</name> qui expresse ponit quod deus est principium materiale omnium Testimonia <ref xml:id="ppr-l68-Rd1e272"><name ref="#Albert">Alberti magni</name> 
+                <lb ed="#E"/>in libro <title ref="#AlbertCommentOnCauses">de causis</title></ref> ubi ponit quod opinio <name>epicuri</name> fuit quod deus est realiter materia Causa 
+                <lb ed="#E"/>apparentiae huius fallaciae fuit semper subsistentiam rerum mutabilium et illam conditionem dicit esse ipsius 
+                <lb ed="#E"/>materiae et sicut concedimus de materia quae contineat formas in se Ita quoddam modo deus continentia 
+                <lb ed="#E"/>et sic est subsistentia rerum et cum hoc continet eas Causa defectus huius fallaciae est quia non considerat 
+                <lb ed="#E"/>alias conditiones materiae quarum una est perfici per formam <!-- break ? --> alia tendere in formam et illae conditiones 
+                <lb ed="#E"/>non possunt esse dei unde dicit <name>albertus</name> deus igitur qui omnibus praebet vim subsistendi per omnia diffu<lb ed="#E"/>sus 
+                in esse videtur Et est suam opinionis <name>epicuri</name> unde 2m <name>epicurum</name> deus consideratus 
+                <lb ed="#E"/>ut primum principium similiter est natura Et consideratus ut diffundit se in diversos effectus vocatur noys 
+                <lb ed="#E"/>id est mens vivificans
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l68-Dd1e328">
+            <head xml:id="ppr-l68-Htpotpo">Tertia propositio</head>
+            <p xml:id="ppr-l68-apqead">
+              Tertia propositio quamvis deus sit fons summae bonitatis et effluat in varias 
+              <lb ed="#E"/>rerum species a qualibet tamen earum inmense dicitur 
+            </p> 
+            <p xml:id="ppr-l68-ppeera">
+              prima pars clara est ex communi theologia 
+            </p> 
+            <p xml:id="ppr-l68-eqsied">
+              2a 
+              <lb ed="#E"/>pars et nota est Sequitur falsitas aliquorum philosophorum <name ref="#Apollinis">Apolinis</name> <name ref="#Trismegistus">trimegesti</name> et <name ref="#Trismegistus">hermetis</name> dicentium 
+              <lb ed="#E"/>quod <mentioned>deus est omne quod est</mentioned> Causae apparentiae est prima pars conclusionis et deus suam bonitatem effluit 
+              <lb ed="#E"/>ydemptice Ideo dicunt deum dupliciter considerari primo in se et sic vocatur deus Alio modo in suo opere 
+              <lb ed="#E"/>et sic est mundus et emanata inmediate unde <name>virgilius</name> 6to eneydos monas id est unitas 
+              <lb ed="#E"/>dei in se considerata gignit monadem id est mundum et in se reflectit ardorem id est propter 
+              <lb ed="#E"/>se gignit mundum Causa defectus est mala consideratio quia non fluit ydemptice sicut 
+              <lb ed="#E"/>rivulus a fonte Cuius <sic>sequatos</sic> dixerunt rationem esse omnia id est deum
+            </p>
+            <p xml:id="ppr-l68-avdeip">
+              Alii materiam primam 
+              <lb ed="#E"/>Alii dixerunt palladem esse quicquid est fuit erit ut recitat <name>albertus</name> in libro allegato 
+              <lb ed="#E"/>scilicet de causis In istis duobus radicibus habuit ortum ydolatria quae fuit inter philosophos
+            </p> 
+            <!-- fuzzy break; no need for break here -->
+            <p xml:id="ppr-l68-endfsi">
+              et inter <sic>loycos</sic>
+              licet <name ref="#Trismegistus">heremes</name> fuerit inter antiquos philosophos valde ingeniosus adoravit tamen mundum 
+              <lb ed="#E"/>tamquam dei filium Advertendum istum errorem procesisse ex malo intellectu sacrarum 
+              <lb ed="#E"/>scripturarum et revelationum factarum antiquis patribus nam articuli fidei aliqui trahuntur ex 
+              <lb ed="#E"/>scriptura patrum et doctrina tractata est ad sensum perversum et quia quantum ad articulum 
+              <lb ed="#E"/>trinitatis nesciverunt capere productionem ad intra traxerunt ad alium sensum ut facti sunt 
+              <lb ed="#E"/>ydolatriae 
+            </p>
+          </div>
+          <div xml:id="ppr-l68-Dd1e425">
+            <head xml:id="ppr-l68-Hqpoqpo">Quarta propositio</head>
+            <p xml:id="ppr-l68-apldei">
+              Quarta propositio licet deus sit omnium specierum omnipotens artifex non tamen agit per 
+              <lb ed="#E"/>exemplaria ab eo distincta ydemptificata speciebus productis Ista propositio tangit opinionem 
+              <lb ed="#E"/><name ref="#Plato">platonis</name> de ydeis quae concurrunt ydemptice cum speciebus productis et 2m alios cum deo 
+              <lb ed="#E"/>Cuius ymaginationem alii secuti primo posuerunt deum patrem post <sic>moym</sic> et est talis 
+              <lb ed="#E"/>ymaginatio in generali quod deus ratione suae bonitatis et fecunditatis producit exemplaria 
+              <lb ed="#E"/><unclear>factiva</unclear> omnium rerum et etiam repraesentativa et vocantur noys id est dei filius ab antiquis philosophis 
+              <lb ed="#E"/>deinde ex patre noym generantur anima mundi dispersa et vivificans omnia et secundum hoc 
+              <lb ed="#E"/>concurrit deus in genere causae formalis sed anima mundi et non noys Et ista ymaginatio 
+              <lb ed="#E"/>oritur ex articulo trinitatis male intellecto versimile est quod haeresis arriana ex hoc 
+              <lb ed="#E"/>sumpsit originem nam <name>arrius</name> sumpsit intellectum philosophorum et ponit realem distinctionem inter 
+              <lb ed="#E"/>patrem et spiritum sanctum et posuit distinctionem essentialem et sic errores philosophorum sumpserunt 
+              <lb ed="#E"/>originem a dictis sanctorum patrum male intellectis
+            </p>
+          </div>
+          <div xml:id="ppr-l68-Dd1e511">
+            <head xml:id="ppr-l68-Hqupqupo">Quinta propositio</head>
+            <p xml:id="ppr-l68-aplmpc">
+              Alia propositio licet deus <quote xml:id="ppr-l68-Qonppm" source="http://scta.info/resource/sap11_21">omnia in pondere 
+              <lb ed="#E"/>et in numero in <seg type="correction">mensura<del rend="strikethrough">tur</del></seg></quote> formaverit numquam tamen in genere causae formalis vel materialis concurrere
+              <lb ed="#E"/>potuit
+            </p>
+            <!--
+              doesn't seem present; review break 
+              <p xml:id="ppr-l68-spsped">
+              Secunda pars satis patet ex dictis.
+            </p>-->
+            <p xml:id="ppr-l68-ppeqif">
+              Advertendum quod scriptura sacra et doctores concedunt saepe <subst><del rend="strikethrough">deus</del> <add place="in-line">deum</add></subst> esse formam 
+              <lb ed="#E"/>incommunicabilem sed evocatio est in vocabulo nam format dei quandoque formativa Etiam forma 
+              <lb ed="#E"/>est quoddam modo terminativa et sic attribuitur causae finali forma habet certas operationes et in<lb ed="#E"/>mmanentes 
+              <del rend="expunctuation">et extra euntes</del> et etiam transeuntes quae reducuntur ad genus causae efficientis 
+              <lb ed="#E"/>etiam aliquas quae reducuntur ad genus causae formalis sed eminenter finalis reperiuntur
+              <pb ed="#E" n="92-v"/>
+              <lb ed="#E"/>in genere causae finalis
+            </p>
+            <!-- fuzzy breakk -->
+            <p xml:id="ppr-l68-idvafe">
+              et sic deus dicitur forma 
+            </p> 
+            <p xml:id="ppr-l68-uchssa">
+              <ref xml:id="ppr-l68-Rd1e544"><name ref="#Grosseteste">linconiensis</name></ref> ponit exemplum ad declarandum non 
+              <lb ed="#E"/>inquit ponimus quod deus sit forma realiter constitutiva materiae vel informativa sed ad modum sigil<lb ed="#E"/>li 
+              applicat materiae fluidae cuius voluntas sit efficax respectu materiae fluidae eo ipso quod vult materiam flui<lb ed="#E"/>dam 
+              applicari applicatur a materia taliter vel taliter disponitur Eodem modo deus ymaginatur 
+              <lb ed="#E"/>forma rerum quia est figura per artificium ad intra et habet voluntatem omnipotente et materiam 
+              <lb ed="#E"/>fluidam scilicet creaturam sibi plene obedientem ideo quando vult materiam formari formatur in 
+              <lb ed="#E"/>eo quo vult
+            </p>
+            <p xml:id="ppr-l68-aesace">
+              Secundo advertendum quod <ref xml:id="ppr-l68-Rd1e557"><name ref="#WilliamOfParis">wilhelmus parisiensis</name></ref> videtur expresse dicere quod deus est 
+              <lb ed="#E"/>esse rerum non quod concurrat ydemptice cum rebus ad intellectum <name>Boetii</name> quia si per quamdam similitudinem 
+              <lb ed="#E"/>sicut accidens non potest per se subsistere et quod subiectum est quodam modo suum esse
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l68-cieeqx">
+              ita de deo respectu creatu<lb ed="#E"/>rarum 
+              quod est esse creaturarum et hoc debet intelligi quasi causaliter et illo modo habet ratione formae 
+              <!-- break --> 
+              <lb ed="#E"/>Secundo potest intelligi quod deus sit forma rerum quia deus vivificat res 2m suas species pro<lb ed="#E"/>portionaliter 
+              2m ordinem specierum universi est ordo assistentiarum dei 
+            </p>
+            <!-- fuzzy break  -->
+            <p xml:id="ppr-l68-amrnst">
+              et ita quod concurrit quantum ad effectum 
+              <lb ed="#E"/>unde deus aliquo modo concurrit respectu in fine speciei et operationum suarum et perfectiori modo con<lb ed="#E"/>currit 
+              respectu superioris speciei ideo ratione proportionalis assistentiae ad operationes formae 
+              <lb ed="#E"/>deus dicitur esse forma vel quia operatio iudicat formam et quia in operationibus magis 
+              <lb ed="#E"/>relucet quam formae <!-- break --> Ideo dicitur esse forma unde plures negaverunt esse aliquas formas 
+              <lb ed="#E"/>sed posuerunt deum producere et exercere operationes et
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
