@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 69, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 69, De Trinitate [Erlangen Transcription]</title>
+          <date when="2020-06-20">June 20, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-06-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="92-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio69">
+        <head xml:id="ppr-l69-Hldtldt">Lectio 69, de Trinitate</head>
+        <div xml:id="ppr-l69-Dd1e109">
+          <head xml:id="ppr-l69-Hcrapad">Continuando responsio ad opiniones philosophorum: ad duo confert pro ampliorem declarationem</head>
+          <p xml:id="ppr-l69-aeqevc">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Advertendum quod materia praecedentis lectionis scilicet de opinione philosophorum inter alia et duo 
+            <lb ed="#E"/>confert 
+          </p>
+          <p xml:id="ppr-l69-paeaae">
+            primo ad exercitationem intellectus circa materiam trinitatis 2o ad retorquendum contra philosophos 
+            <lb ed="#E"/>gentiles inpugnantes nostram fidem quia magis impossibilia ponunt apud intellectum humanum 
+            <lb ed="#E"/><sic>Inpingentibus</sic> nobis philosophis quod ponamus aliquam rem ydemptice ab alia emanere 
+          </p>
+          <p xml:id="ppr-l69-iprhqp">
+            ita retorquere 
+            <lb ed="#E"/>possumus contra opinionem <name>epicuri</name> <name>hermetis</name> et aliorum
+          </p>
+          <p xml:id="ppr-l69-iepdfi">
+            Ad rationes prius inductas
+          </p>
+        </div>
+        <div xml:id="ppr-l69-Dd1e136">
+          <head xml:id="ppr-l69-Hrarrar">Responsio ad rationes</head>
+          <div xml:id="ppr-l69-Dd1e141">
+            <head xml:id="ppr-l69-Hapapap">Ad primam</head>
+            <p xml:id="ppr-l69-prscee">
+              <lb ed="#E"/>prima ratio stat in hoc in uno quaque genere causae videtur esse prima causa simpliciter igitur est prima 
+              <lb ed="#E"/>causa in genere causae formalis praecipue quia <unclear>primo</unclear> influere in aliquo genere est esse primam causam 
+              <lb ed="#E"/>in illo genere et hoc est independenter causare igitur nulla causa secunda hoc potest ergo deus principaliter concurrit 
+              <lb ed="#E"/>in genere causae formalis
+            </p>
+            <p xml:id="ppr-l69-airfvm">
+              Responderi potest per primam propositionem lectionis praecedentis ubi dicitur quod 
+              <lb ed="#E"/>non sequitur deus absolute est prima causa igitur in genere causae formalis est prima causa
+            </p>
+            <p xml:id="ppr-l69-sdqeii">
+              Secundo dicitur 
+              <lb ed="#E"/>quod nulla est <sic>concenatio</sic> essentialis vel subordinatio causarum formalium vel etiam materialium 
+              <lb ed="#E"/>nam huiusmodi causae sunt similiter intrinsice concurrentes ad alicuius constitutionem nec ad huiusmodi constitutionem 
+              <lb ed="#E"/>requiritur nisi una simplex causa in suo genere et ad hominis constitutionem concurrit unica causa formalis 
+              <lb ed="#E"/>scilicet anima etiam unica materia ex qua cum forma sit compositum Ideo ratio fundatur super falsa yma<lb ed="#E"/>ginatione 
+              scilicet super hoc quod sit ordo inter illas causas sicut inter alias
+            </p>
+            <p xml:id="ppr-l69-tahiic">
+              Tertio dici potest admittendo 
+              <lb ed="#E"/>huiusmodi ordine causarum formalium et materialium inter se et intelligendo via resolutionis 
+              <lb ed="#E"/>quia a nobis notioribus resolvendo ad ultimam semper proceditur ad imperfectius cuius oppositum est 
+              <lb ed="#E"/>in causis finalibus et efficientibus quod significemus causam efficientem 2am illa agit virtute 
+              <lb ed="#E"/>alterius perfectionis et sic consequenter et eandem datur independens Contrarium est in subordinatione 
+              <lb ed="#E"/>formarum concurrentium ad constitutionem nam in homine anima intellectiva est perfectissima
+            </p>
+            <p xml:id="ppr-l69-daeqmp">
+              deinde alia su<lb ed="#E"/>perius 
+              ordinata est forma animalitatis scilicet sensitiva minoris perfectionis et sic semper ascendendo 
+              <lb ed="#E"/>proceditur ad imperfectius igitur ex termino huiusmodi processus non reperitur idem independens quia semper 
+              <lb ed="#E"/>ultimum est imperfectissimum proportionaliter de materialibus nam signata materia ex qua inmediate constituitur 
+              <lb ed="#E"/>homo illa resolvitur in elementa deinde elementa in materiam primam et semper posteriora 
+              <lb ed="#E"/>sunt minus perfecta quia elementa realiter manent in mixto 2m istum modum et sunt perfectiora 
+              <lb ed="#E"/>quam materia prima 
+            </p>
+            <p xml:id="ppr-l69-iiqqdr">
+              quia processus naturae non est animus perfectus ita quod priora sunt minus perfecta 
+              <pb ed="#E" n="93-r"/>
+              <lb ed="#E"/>et sic licet admiteretur subordinatio formalium et materialium inpossibile est tamen deum tenere primum gradum 
+              <lb ed="#E"/>ex quo est inperfectissimus
+            </p>
+            <p xml:id="ppr-l69-cqtivf">
+              Consequenter quia tangitur de primo influere quia tunc defluere independenter 
+              <lb ed="#E"/>possit quod soli deo conpetit dicitur quod inpossibile est aliquam causam secundam in quocumque genere primo 
+              <lb ed="#E"/>influere quin eius defluxus dependeat ab influxu dei in eodem genere vel in alio superiori 
+              <lb ed="#E"/>continente primum ut totum reducitur ad influxum effectivum vel finalem Ideo inpossibile 
+              <lb ed="#E"/>est quod aliquid influat in genere causae formalis vel materialis quando concurrat influxus eiusdem generis 
+              <lb ed="#E"/>vel alterius superioris 
+            </p> 
+            <p xml:id="ppr-l69-eiifed">
+              Sequitur quod influxus formalis etiam materialis dependet ab influxu effectivo 
+              <lb ed="#E"/>vel finali essentiali dependentia 
+            </p>
+            <p xml:id="ppr-l69-iqnfvm">
+              et quia huiusmodi influxus reperiuntur in deo etc unde influxus 
+              <lb ed="#E"/>eius effectivus vel finalis evidenter in se continet influxus alios
+            </p>
+            <p xml:id="ppr-l69-eeipce">
+              Sequitur falsitas cuiusdam opi<lb ed="#E"/>nionis 
+              dicit quod stat aliquam personam divinam formaliter influere et totam trinitatem nec formaliter 
+              <lb ed="#E"/>nec effective influere Quia licet concederetur per inpossibile tamen quod staret aliquam personam influere 
+              <lb ed="#E"/>formaliter aliis non influentibus formaliter non tamen concedendum esset quin alia influeret influxu 
+              <lb ed="#E"/>effectivo ordine quodam naturali nam est subordinatio essentialis huiusmodi causalitatum Ita quod tota lati<lb ed="#E"/>tudo 
+              causalitatum ita quod tota latitudo causalitatum materialium et formalium praeexigit sibi 
+              <lb ed="#E"/>causalitatem effectivam
+            </p>
+            <p xml:id="ppr-l69-ilchcf">
+              licet causalitas effectiva non dicat imperfectionem essentialiter tamen praere<lb ed="#E"/>quirit 
+              causalitatem effectivam igitur et sic de aliis
+            </p>
+            <p xml:id="ppr-l69-cnsars">
+              Confirmatur nam non staret deum formaliter influere quin 
+              <lb ed="#E"/>creatura mutetur modo omnis mutatio adextra est quaedam operatio igitur est communis toti trinitati quia 
+              <lb ed="#E"/>in quolibet genere causae effectus dicitur mutari modo omnis mutatio adextra tota trinitas est causa ergo non 
+              <lb ed="#E"/>stat etc quin tota trinitas concurrat active saltem
+            </p> 
+            <!--
+              not present 
+              <p xml:id="ppr-l69-pqpeai">
+              Primo quia 
+              procedendo in latitudine causarum formalium et materialium non 
+              proceditur ad perfectum et per consequens non proceditur ad deum, 
+              sed ad contrarium ut declaratum est.
+            </p>-->
+            <!--
+              not present
+              <p xml:id="ppr-l69-enpape">
+              Etiam non probatur independentia 
+              influxus materialis vel formalis ut <unclear>primi[?]</unclear> in illo genere, 
+              quia essentialiter praerequirit aliam causam et alium influxum. 
+              et sic non salvatur quod in genere causae materialis 
+              vel formalis sit prima causa, quia semper praerequirit 
+              aliam perfectionem essentialiter.
+            </p>-->
+          </div>
+          <div xml:id="ppr-l69-Dd1e217">
+            <head xml:id="ppr-l69-Hasasas">Ad secundam</head>
+            <p xml:id="ppr-l69-arsddc">
+              Ad aliam rationem informatio dicit suae bonitatis 
+              <lb ed="#E"/>communicationem igitur debet summae divinae essentiae competere
+            </p> 
+            <p xml:id="ppr-l69-reqpfi">
+              Respondendum est quod ista ratio satis potest esse 
+              <lb ed="#E"/>soluta ex prius tactis quia licet informatio dicit aliquo modo perfectionem non tamen similiter quia de ratione sua 
+              <lb ed="#E"/>intrinseca dicit inperfectionem scilicet evidentiam in subsistentiam alicuius vel constituti vel sustentantis 
+              <lb ed="#E"/>constitutum quia ergo informatio licet includat ad perfectionis tamen de sua integritate etiam includit ten<lb ed="#E"/>dentiam 
+              in subsistentiam huiusmodi constituti
+              <!-- break -->
+              2o dicit quod tollit personalitatem informantis et 
+              <lb ed="#E"/>hoc repugnat deo 
+            </p>
+            <p xml:id="ppr-l69-sdqncd">
+              Tertio dico quod quantum ad illud quod est perfectionis in forma illud reperitur evidenter 
+              <lb ed="#E"/>in deo nam informa perfectionis est seipsam communicare et suam bonitatem et hoc reperitur in divina 
+              <lb ed="#E"/>essentia quia communicatur ad intra per plenitudinem omnibus tribus personis et in hoc forte est similitudo 
+              <lb ed="#E"/>ad genus causae formalis non tamen sequitur quod possit esse causa formalis Sicut esse intellectum 
+              <lb ed="#E"/>in specie humana dicit aliquam perfectionem sed limitatam quod repugnat deo ergo deus non potest esse 
+              <lb ed="#E"/>intellectus hominis 
+            </p>
+          </div>
+          <div xml:id="ppr-l69-Dd1e232">
+            <head xml:id="ppr-l69-Hd1e234">Ad tertiam</head>
+            <p xml:id="ppr-l69-ephtpi">
+              <pc type="#pilcrow"/> Per hoc patet solutio sequentis rationis Quia sequens ratio stat in hoc 
+              <lb ed="#E"/>tollendo omnes inperfectiones formae scilicet inhaerere materiae esse partem constituti et sic de aliis 
+              di<lb ed="#E"/>centibus <del rend="expunctuation">partem inperfectionis</del> imperfectionem stat quod deus habeat habitudinem quod solum dicit perfectionem 
+              <lb ed="#E"/>Responsum est prius quod licet informare non includit huiusmodi inperfectiones iam datas nichilominus 
+              <lb ed="#E"/>habet alias inperfectiones sibi annexas et haec intrinsecas scilicet tendere in subsistentiam et tollere personalitatem
+            </p>
+            <p xml:id="ppr-l69-spdiif">
+              <lb ed="#E"/>2o dicitur quod huiusmodi in habitudines gratiose admittuntur responsione et gratae aliquando ratione maioris explicationis 
+              <lb ed="#E"/>sunt tamen inseparabiles quantum ad aliquod saltem quantum ad inhaerere et constituere in formis 
+              <lb ed="#E"/>substantialibus nam diceret adversarius quia formaliter inhaesio est informatio et inhaesio cum materia 
+              <lb ed="#E"/>est formaliter constitutio modi tamen sunt diversi ad exprimendum clarius eandem rem ut deum ex<lb ed="#E"/>primus 
+              variae ut latius eum concipiamus patet quia quicquid est positivum deus potest se solo producere Etiam
+              <lb ed="#E"/>quicquid positivum habet forma vel facit vel causat deus potest ponere non tamen influxu eiusdem 
+              <lb ed="#E"/>formae Nec sequitur deus potest ponere omnem effectum quam forma potest ergo potest esse causa 
+              <lb ed="#E"/>formalis et sic de materia unde de ratione influxus materiae est educere de potentia materiae 
+              <!-- break? --> 
+              Sequitur 
+              <pb ed="#E" n="93-v"/>
+              <lb ed="#E"/>quod deus non potest facere se <sic>solom</sic> quidquid potest facere cum causae secunda patet quia non potest informare 
+              <lb ed="#E"/>se solo licet in genere causae efficientis possit effectum ponere 
+            </p>
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l69-eqpspp">
+              Sequitur quod proprie loquendo deus non potest supplere 
+              <lb ed="#E"/>influxum causae formalis nec efficientis quia supplere influentiam causae secundae proprie loquendo 
+              <lb ed="#E"/>est eodem modo concurrere sicut concurrit causae secunda modo deus non potest finite nec remisse concurrere ergo 
+              <lb ed="#E"/>non potest adaequate concurrere influentia simili influentiae qua concurrit ignis licet tamen adaequate 
+              <lb ed="#E"/>deus posset ponere eundum effectum
+            </p>
+          </div>
+          <div xml:id="ppr-l69-Dd1e251">
+            <head xml:id="ppr-l69-Haqraqr">Ad quartam rationem</head>
+            <p xml:id="ppr-l69-arpgcm">
+              Ad aliam rationem persona divina est unibilis alicui creaturae 
+              <lb ed="#E"/>ergo divina essentia Respondetur quod dato persona divina sit unibilis non tamen in aliquo genere causae 
+              <lb ed="#E"/>Non enim in genere causae materialis vel etiam formalis quia quod verbum recipit denominationem 
+              <lb ed="#E"/>concretiva vi huiusmodi unionis ex hoc non arguitur habere rationem materiae quia haec est de ratione subsistentiae ulti<lb ed="#E"/>mate 
+              scilicet recipere denominationes concretivas et sic ratio non concludit quia videtur supponere uni<lb ed="#E"/>atur 
+              in genere causae materialis vel formalis 
+            </p>
+            <p xml:id="ppr-l69-sdesed">
+              Secundo dicitur quod consequentia non valet persona divina est 
+              <lb ed="#E"/>sic ypostatice unibilis ergo essentia inmediate causa est nam de ratione terminum huius unionis est 
+              <lb ed="#E"/>formaliter causae subsistentiam ita quod unio debet esse <unclear>suscentificata</unclear> modo sic est de persona scilicet verbo 
+              <lb ed="#E"/>non tamen essentia est formalis terminus unionis ut si ymaginemur aliquam distinctionem personae ad essentiam 
+              <lb ed="#E"/>diceremus quod persona esset terminus illius unionis et non essentia 
+            </p>
+            <p xml:id="ppr-l69-sdqhch">
+              ulterius dico dato quod essentia 
+              <lb ed="#E"/>immediate uni creaturae uniretur non tamen influeret formaliter quia nullo modo reducitur ad influxum formalem 
+            </p>
+          </div>
+          <div xml:id="ppr-l69-Dd1e281">
+            <head xml:id="ppr-l69-Haqnaqn">Ad quintam rationem</head>
+            <p xml:id="ppr-l69-arqpec">
+              <lb ed="#E"/>Ad aliam rationem quae iam aliquantulum est tacta quia divina essentia est per plenitudinem adintra communicabilis 
+            </p>
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l69-rbeqdi">
+              ergo etiam adextra potest participari per plenitudinem dicitur quod repungnat adextra divinam essentiam per 
+              <lb ed="#E"/>informationem communicari quia informatio includit perfectionem
+            </p>
+            <p xml:id="ppr-l69-sieess">
+              Secundo non est possibile ipsam communicari adextra 
+              <lb ed="#E"/>quia oporteret quod produceret inmensae
+            </p>
+            <p xml:id="ppr-l69-tdqlcn">
+              Tertio dato quod divina essentia quantum ex parte sui est posset ad<lb ed="#E"/>extra 
+              communicari repugnaret tamen creaturae quae nullo modo est capax influxus inmensi et non potest esse in<lb ed="#E"/>mensa 
+              quia est sub limitibus circumscripta
+            </p>
+          </div>
+          <div xml:id="ppr-l69-Dd1e299">
+            <head xml:id="ppr-l69-Hasrasr">Ad sextam rationem</head>
+            <p xml:id="ppr-l69-ardhsm">
+              Ad aliam rationem nam inplicat contradictionem dico quod inplicat 
+              <lb ed="#E"/>contradictionem sufficienter mihi licet non evidentissime
+            </p>
+          </div>
+          <div xml:id="ppr-l69-Dd1e308">
+            <head xml:id="ppr-l69-Haspasp">ad septimam rationem</head>
+            <p xml:id="ppr-l69-aarcac">
+              Ad aliam quando probatur quod deitas potest formaliter 
+              <lb ed="#E"/>influere quia verbum est communicatum humanitati verbi secundum plenitudinem deitatis <ref xml:id="ppr-l69-Rd1e315"><title ref="#col">Ad colonenses</title></ref> In 
+              <lb ed="#E"/>christo <quote xml:id="ppr-l69-Qipdpdc" source="http://scta.info/resource/col2_9">inhabitat plenitudo deitatis corporaliter</quote> et per hoc quod dicit corporaliter videtur excludere dona 
+              <lb ed="#E"/>illapsa animae
+            </p>
+            <p xml:id="ppr-l69-reuisc">
+              Respondet ut prius tenendo propositionem et dicitur quod vero illa non petit nisi ex positionem 
+              <lb ed="#E"/>auctoritatis <name ref="#Augustine">augustini</name> ponit et recitat <ref xml:id="ppr-l69-Rd1e341"><name ref="#Lombard">magister</name> in 3o libro distinctione 13a</ref> Cuius sententia stat in hoc 
+              <lb ed="#E"/>ymaginandum est inquit <name ref="#Augustine">augustinus</name> quod christus secundum humanitatem sit caput ecclesiae et sic tota ecclesia debet 
+              <lb ed="#E"/>ymaginari unum corpus 
+            </p> 
+            <p xml:id="ppr-l69-epsphu">
+              consequenter sicut in capite sunt omnes quinque sensus et in membris aliis in quae 
+              <lb ed="#E"/>capit influit non reperiuntur omnes sensus nisi ille qui est necessarius scilicet tactus Ita proportionaliter dicitur 
+              <lb ed="#E"/>de christo qui sit vere caput totius corpus id est ecclesiae et quod omnia dona et virtutes sunt realiter 
+              <lb ed="#E"/>in ipso Et deitas omnia dona communicavit christo et sic influit huiusmodi dona membris limitate 
+              <lb ed="#E"/>scilicet dona necessaria tam in viam quam in patria Ideo debet intelligi quod ecclesia est unum totum corpus 
+              <lb ed="#E"/>et christus est caput et deitas communicatur corpori quantum ad caput scilicet christum non quod huma<lb ed="#E"/>nitas 
+              christi per intrinsecam rationem informetur deitatis  
+            </p>
+            <p xml:id="ppr-l69-pispai">
+              Erant inductae auctoritates quod videntur dicere 
+              <lb ed="#E"/>quicquid sibi deus habet per naturam humanitatem christi habet per gratiam et per consequens tota <del rend="strikethrough">deitas</del> divinitas plenitudo 
+              <lb ed="#E"/>est intrinsece communicata humanitati christi Alias non haberet omnipotentiam ut tenet <name>Richardus</name> in 3o 
+              <lb ed="#E"/>Ita quod omnis intrinseca perfectio est humanitati christi communicata et hoc non nisi esset deitas communicata 
+              <lb ed="#E"/>per modum formae  
+            </p> 
+            <p xml:id="ppr-l69-iasppd">
+              Breviter istae auctoritates et rationes solvuntur a <name>magistro</name> Advertendum quod licet verbum ab aeter<lb ed="#E"/>no 
+              fuit tamen temporaliter incepit esse homo et ex gratia id est ex sua benignitate 
+            </p>
+            <!-- fuzzy parallel-->
+            <p xml:id="ppr-l69-iqieoe">
+              Sequitur ex hoc quod realiter 
+              <lb ed="#E"/>idem et verbum dei aeternum et <del>hoc</del> homo christus et ideo factum est vi illius unionis quod homo 
+              <lb ed="#E"/>est inmensus infinitus deitas tota perfectio deitatis
+            </p> 
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l69-rsqvss">
+              Ad istum intellectum dicuntur ista omnia 
+              <lb ed="#E"/>de homine sic scilicet quod dicuntur de deo qui est homo ymaginando quod realiter verbum incepit esse homo 
+              <lb ed="#E"/>ita quod christus et homo supponunt pro vero et ideo vi unionis factum est quod omnia illa praedicata attribuuntur
+              <pb ed="#E" n="94-r"/>
+              <lb ed="#E"/>isti termino homo et sic vi unionis inceperunt verificari de isto termino homo 
+            </p>
+          </div>
+          <div xml:id="ppr-l69-Dd1e397">
+            <head xml:id="ppr-l69-Hacracr">Ad octavam rationem</head>
+            <p xml:id="ppr-l69-arfnha">
+              ultima ratio 
+              <lb ed="#E"/>fuit ista tanta est unio humanitatis ad deum quanta est deitatis ad humanitatem vel econtra sed ratione unionis 
+              <lb ed="#E"/>humanitatis ad deum vel verbum denominatur homo igitur econtra humanitas denominabitur deus 
+              <lb ed="#E"/>Ista ratio modica est si bene inspiciatur quia licet eadem sit unio istorum extremorum adaequate 
+              <lb ed="#E"/>inter se tamen non sequitur quod si praedicata concretiva unius extremi competant uni quod econtra quia unica 
+              <lb ed="#E"/>est unio formae ad materiam et econtra et tamen subiectum denominatur concretive et forma non Albedo et suum 
+              <lb ed="#E"/>subiectum uniuntur eadem unione igitur consequentia non valet
+            </p>
+            <p xml:id="ppr-l69-sqirmp">
+              Secundo dicitur sicut dictum est quod huiusmodi 
+              <lb ed="#E"/>uniio non est de genere unibilium formaliter vel materialiter ideo ratio nihil probat
+            </p>
+            <p xml:id="ppr-l69-tqpnhc">
+              Tertio dicitur 
+              <lb ed="#E"/>quod ponere huiusmodi unionem talem quod vi ipsius humanitas denominaretur deus nihil penitus 
+              <lb ed="#E"/>per hoc salvaretur in materia incarnationis sed materia magis obscuratur et sic oporteret concedere quod 
+              <lb ed="#E"/>humanitas christi esset homo et hoc non conceditur a doctoribus unde ibi sunt plures homines sed de<lb ed="#E"/>nominatio 
+              communicatur verbo et sic humanitas perdit suam denominationem 
+            </p>
+            <p xml:id="ppr-l69-usidqb">
+              Etiam si concederetur quod 
+              <lb ed="#E"/>humanitas esset deus sequeretur quod deus posset peccare dampnari esse miserrimus et annihilari 
+              <lb ed="#E"/>quia illa humanitas posset peccare et dampnari et anichilari quia potest dimitti 
+            </p>
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l69-ttisif">
+              Advertendum 
+              <lb ed="#E"/>quod positio ponens quod realiter posset formaliter influere abstrahit omnem habitudinem inperfectionis 
+              <lb ed="#E"/>et manet solum habitudo dicens perfectionem sive aliis 
+            </p> 
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l69-utqasm">
+              et illo dato non videtur magnum inconveniens 
+              <lb ed="#E"/>et posset deo competere et sic humanitas denominaretur extrinsce deus et non diceretur realiter deus 
+              <lb ed="#E"/>et sic non esset inconveniens concedere quod illo modo essent plures dii et sic concederetur vel non 
+              <lb ed="#E"/>esset inconveniens concedere quod aliqua creatura participans deum extrinsece denominaretur deus scilicet quae 
+              <lb ed="#E"/>creatura non esset deitas
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
