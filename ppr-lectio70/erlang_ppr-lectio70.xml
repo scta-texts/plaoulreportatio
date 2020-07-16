@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 70, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 70, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-07-14">July 14, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="94-r"/>
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio70">
+        <head xml:id="ppr-l70-Hldtldt">Lectio 70, de Trinitate</head>
+        <div xml:id="ppr-l70-Dd1e109">
+          <head xml:id="ppr-l70-arqpvi">Ad rationem qua probatur deum potentiam perceptivam vitaliter immutare</head>
+          <p xml:id="ppr-l70-srqpdc">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>Solutis rationibus quibus probabatur deum posse formaliter influere Restat una qua probatur deum posse 
+            <lb ed="#E"/>vitaliter perceptivam inmutare quia posset absolvi omnes habitudines dicentes inperfectionem scilicet 
+            <lb ed="#E"/>inhaesiones informationis et dependentiae et quia habitudo vitalis immutationis non dicit im<lb ed="#E"/>perfectionem 
+            sequitur quod deo potest conpetere
+          </p>
+        </div>
+        <div xml:id="ppr-l70-Dd1e122">
+          <head xml:id="ppr-l70-Hd1e124">Conclusio</head>
+          <p xml:id="ppr-l70-pshvii">
+            Pro responsione pono hanc propositionem Sola divina essentia 
+            <lb ed="#E"/>sit intrinsece et essentialiter notitia non potest tamen perceptivam creatam inmediate vitaliter immutare
+          </p>
+          <div xml:id="ppr-l70-Dd1e130">
+            <head xml:id="ppr-l70-Hd1e132">Probatio primae partis</head>
+            <p xml:id="ppr-l70-ppenen">
+              prima 
+              <lb ed="#E"/>pars patet nam quod divina essentia sit essentialiter notitia non revocatur in dubium nam sui ipsius est essentialiter 
+              <lb ed="#E"/>notitia et omnium factibilium est essentialiter ars factiva Et quod nulla creatura sit essentialiter notitia 
+              <lb ed="#E"/>patet nam quacumque notitia creata data ipsa potest esse sine subiecto et per consequens non esset
+            </p>
+            <p xml:id="ppr-l70-sienen">
+              tunc 
+              <lb ed="#E"/>notitia Item in subiecto non vitali potest esse et per consequens non intrinsece esset notitia
+            </p>
+            <p xml:id="ppr-l70-tqpqiv">
+              Item 
+              <lb ed="#E"/>per prius producitur in subiecto quam immutet vitaliter ergo posterius potest absolvi a priori ergo 
+              <lb ed="#E"/>staret quod esset in subiecto et non exiret in actum
+            </p>
+          </div>
+          <div xml:id="ppr-l70-Dd1e145">
+            <head xml:id="ppr-l70-Hd1e147">Probatio secundae partis</head>
+            <div xml:id="ppr-l70-Dd1e150">
+              <head xml:id="ppr-l70-Hd1e152">Prima ratio</head>
+              <p xml:id="ppr-l70-spcpip">
+                Secunda pars probatur quia divina essentia per idem 
+                <lb ed="#E"/>adaequate formaliter est sibi notitia et alteri dato quod esset alteri ergo sicut immense notitia est sibi 
+                <lb ed="#E"/>notitia etiam erit illi alteri inmensa notitia sed quod creatura inmense cognoscat inplicat 
+                <lb ed="#E"/>contradictionem.
+              </p>
+            </div>
+            <div xml:id="ppr-l70-Dd1e162">
+              <head xml:id="ppr-l70-Hd1e164">Secunda ratio</head>
+              <p xml:id="ppr-l70-salein">
+                Secundo arguitur quod limitatio obiecti cogniti non tollit quin notitia eiusdem in verbo 
+                <lb ed="#E"/>scilicet divina essentia quae est illius notitia sit absolute eius notitia inmensa Ideo ex hoc quod esset 
+                <lb ed="#E"/>creaturae notitia non tolleretur quin esset inmensa notitia quia intrinsece est talis unde obiectum 
+                <lb ed="#E"/>adextra non tollit immensitatem notitiae
+              </p>
+            </div>
+            <div xml:id="ppr-l70-Dd1e183">
+              <head xml:id="ppr-l70-Hd1e185">Tertia ratio</head>
+              <p xml:id="ppr-l70-tasivr">
+                Tertio arguitur iuxta unam radicem opinantium contrarium 
+                <lb ed="#E"/>nam adversarius concedit quod divina essentia non potest esse intensius vel remissius forma informativa 
+                <lb ed="#E"/>quia divina perfectione non est latitudo gradualis sed deus est simplex et unicus gradus immensus 
+                <lb ed="#E"/>et sic non potest 2m se totum per eandem radicem arguo quod in esse notitiae est unicus 
+                <pb ed="#E" n="94-v"/>
+                <lb ed="#E"/>gradus indivisibilis et inmensus igitur non potest esse notitia nisi 2m illum unicum gradum inmensum 
+                <lb ed="#E"/>unde inesse notitiae est gradus similiter inmensus igitur non potest creaturae inesse perceptivo communicari 
+                <lb ed="#E"/>subesse remisso
+              </p>
+            </div>
+            <div xml:id="ppr-l70-Dd1e210">
+              <head xml:id="ppr-l70-Hd1e212">Quarta ratio</head>
+              <p xml:id="ppr-l70-qreqem">
+                Quarto esse notitia est deo aequae essentiale vel magis quam esse aeternitatem 
+                <lb ed="#E"/>nam istud praedicatum videtur esse essentialius sed creaturi non potest mensurari aeternitate igitur nec posset cog<lb ed="#E"/>noscere 
+                tali notitia 
+              </p>
+            </div>
+            <div xml:id="ppr-l70-Dd1e220">
+              <head xml:id="ppr-l70-Hd1e222">Quinta ratio</head>
+              <p xml:id="ppr-l70-qaqcep">
+                Quinto pari ratione divina posset esse posse creaturae et causalitas creaturae 
+                <lb ed="#E"/>Nam istud attribuitur sibi esse cognitionem ita videtur de attributo patris ita deus erit creaturae potentia
+                <lb ed="#E"/>et causalitas consequens falsum quia si sic tunc causalitas creaturae sufficeret aliquem effectum producere sine 
+                <lb ed="#E"/>indigentia alterius esse prioris secum concurrentis consequentia tenetur quia causalitas infrustrabilis est sibi communi<lb ed="#E"/>cata 
+                ymmo eadem cum prima causa ergo non requirit aliam causalitatem
+              </p>
+              <p xml:id="ppr-l70-cqdeop">
+                Confirmatur deus 
+                <lb ed="#E"/>non est alia causalitas ab hac causalitate igitur nullam aliam requirit ad alicuius effectus productionem 
+                <lb ed="#E"/>igitur est similiter creatura scilicet actione non dependente ab alia actione
+              </p>
+            </div>
+            <div xml:id="ppr-l70-Dd1e232">
+              <head xml:id="ppr-l70-Hd1e234">Sexta ratio</head>
+              <p xml:id="ppr-l70-saapvi">
+                6to Ista positio satis 2m <unclear>ana<lb ed="#E"/>quos</unclear>
+                sequentes fundatur in hoc quod divina essentia non posset movere perceptivam potentiam 
+                <lb ed="#E"/>seu inmutare potentiam vitalem in eadem proportione in qua notitia creata movet igitur etc
+              </p>
+              <div xml:id="ppr-l70-Dd1e240">
+                <head xml:id="ppr-l70-Haieesa">Aliqua inconvenientia ex sexto argumento</head>
+                <p xml:id="ppr-l70-sehhsi">
+                  Sed ista 
+                  <lb ed="#E"/>radix est falsa ymmo sequitur ex ea inconvenientia
+                </p>
+                <p xml:id="ppr-l70-pqdeip">
+                  primo sequitur quod divina essentia inperfectissime et remis<lb ed="#E"/>sissime 
+                  potest potentiam vitale immutare patet quia quantumcumque remissa qualitas creata et in qua<lb ed="#E"/>cumque 
+                  <del rend="expunctuation">productione</del> proportione potest inmutare etiam divina essentia potest sed infinite 
+                  remissa aliqua creata notitia 
+                  <lb ed="#E"/>potest igitur 
+                </p>
+                <p xml:id="ppr-l70-siqehf">
+                  Secundo sequitur quod divina essentia posset esse realiter fides et cognitio aenigmatica probatur consequentia 
+                  <lb ed="#E"/>quia in eadem proportione potest inmutare et movere potentiam adaequatam in qua fides movet Et 
+                  <lb ed="#E"/>sicut arguitur de habitu ita de actu fidei et sic divina essentia quae est notitia inmensa erit aenigmatica 
+                  <lb ed="#E"/>quod est absurdum
+                </p>
+                <p xml:id="ppr-l70-tiqfea">
+                  Item sequeretur quod posset esse error ymmo haeresis nam capiamus talem actum ymmo haec 
+                  <lb ed="#E"/>errorem vel haeresim inmutantem potentiam deus in eadem proportione potest movere potentiam errantem vel haere<lb ed="#E"/>ticantem 
+                  ergo si immutatio vitalis reducitur ad causam effectivam vel exemplantem sequitur propositum 
+                </p>
+                <p xml:id="ppr-l70-qiqqea">
+                  Item 
+                  <lb ed="#E"/>qua ratione concedetur de actibus intellectus eadem ratione concedendum est de actibus voluntas et sic dicunt adversarii quod posset 
+                  <lb ed="#E"/>esse de divina essentia quantum ad volitivam sed quantum ad intellectivam Ex isto sequitur quod potest esse volitio
+                  <lb ed="#E"/>prava ymmo odium suum vel sui et peccatum Nam capiamus volitionem pravam quae realiter inmutat 
+                  <lb ed="#E"/>potentiam volitivam deus in eadem proportione potest movere potentiam volitivam et <add place="above-line">in</add> eadem aversione ab ipso 
+                  <lb ed="#E"/>denominatur odium quia odium denominatur praecise a vitali <unclear>inmutatione</unclear> quam habet in movendo in oppositum
+                </p>
+              </div>
+            </div>
+            <!-- fuzzy break but i think it is correct -->
+            <div xml:id="ppr-l70-Dd1e267">
+              <head xml:id="ppr-l70-Hsprspr">Septima ratio</head>
+              <p xml:id="ppr-l70-sppiab">
+                <lb ed="#E"/>Tandem potest argui quod ex illa radice videtur posse inferri quod posset inplere motionem sensationum seu 
+                <lb ed="#E"/>notitiarum sensitivarum quia ille magis reducuntur ad causalitatem effectivam et sic habitudo 
+                <lb ed="#E"/>huiusmodi vitalis inmutationis reducitur ad causam <unclear>efficientem</unclear> et sic consequenter posset esse notitia ab animalibus 
+                <lb ed="#E"/>brutis
+              </p>
+            </div>
+            <div xml:id="ppr-l70-Dd1e279">
+              <head xml:id="ppr-l70-Hocrocr">Octava ratio</head>
+              <p xml:id="ppr-l70-arqccf">
+                ultimo videtur quod cognitio in creaturis reducatur ad <unclear>intimitatem</unclear> <unclear>quadam<!-- corr from "quamdam"??--></unclear> scilicet informationis 
+                <lb ed="#E"/>vel ad operationem potentiae nam omnem cognoscere est aliquid operari et etiam omne velle quia 
+                <lb ed="#E"/>in istis consistit operatio quae est felicitas ergo cum cognitio et volitio sint realiter operationes 
+                <lb ed="#E"/>quaedam et actualiter denominantes et emanantes sequitur quod haec repungnat divinae essentiae quia ipsa 
+                <lb ed="#E"/>non posset sic creaturae intrinsecari formaliter
+              </p>
+            </div>
+            <div xml:id="ppr-l70-Dd1e294">
+              <head xml:id="ppr-l70-Hnnrnnr">Nona ratio</head>
+              <p xml:id="ppr-l70-nrpeni">
+                Item pari ratione diceretur quod obiectum praesentatum 
+                <lb ed="#E"/>sufficienter absque quacumque specie multiplicata et absque alia notitia esset notitia sui et tamen praesentia obiecti 
+                <lb ed="#E"/>non sufficit ergo oportet ponere intrinsecam notitiam seu cognitionem et huiusmodi cognitio sit quaedam operatio potentiae et quidem 
+                <lb ed="#E"/>eius effectus
+              </p>
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l70-Dd1e308">
+          <head xml:id="ppr-l70-Hcqsieg">Corollarium</head>
+          <head xml:id="ppr-l70-Hcd4v4" type="question-title">Quod Spiritus Sanctus in esse personali tantum non potest voluntatem creatam vitaliter immutare et <unclear>gratuite</unclear></head>
+          <p xml:id="ppr-l70-eqshpp">
+            Sequitur quod spiritus sanctus in suo esse personali praecise non potest creatam voluntatem gratifi<lb ed="#E"/>ce 
+            vitaliter immutare patet quia non potest 2m essentiam ergo minus 2m personalitatem antecedens est satis 
+            <lb ed="#E"/>probatum 
+            <!-- fuzzy break; shouldn't this be moved below -->
+            probatur istud
+          </p> 
+          <p xml:id="ppr-l70-ispcfc">
+            <!-- probatur istud should be moved here -->
+            idem corrollarium nam caritas est approbata spiritus sanctus sed caritatem est commune 
+            <lb ed="#E"/>tribus personis quia quaelibet eorum est caritas sapientia et potentia et quamvis sit approbata sibi 
+            <lb ed="#E"/>tamen non est sibi propria et sic de potentia respectu patris et sapientia respectu filii ergo caritas vel gratitudo 
+            <pb ed="#E" n="95-r"/>
+            <lb ed="#E"/>non est propria spiritus sancti et per consequens inesse personali suo non potest communicare creaturae etiam gratitudo 
+            <lb ed="#E"/>non est propria spiritus sancti igitur non potest sibi praecise conpetere consequentia tenet quia praedicata communica non sunt sic uni
+            <lb ed="#E"/>soli conpetere Et per consequens licet concederetur quod divina essentia posset etc et non tamen sequeretur quod aliqua persona 
+            <lb ed="#E"/>inesse personali posset sic potentia creata vitaliter inmutare Implicat quod filius in divinis 
+            <lb ed="#E"/>aliquam creaturam sapientem reddat quin etiam pater et spiritus sanctus et sic etiam patet quod male intelligunt 
+            <lb ed="#E"/><ref><name>magistrum</name> in 11a distinctione primi</ref> Quia vocatur spiritum sanctum caritatem quod hoc est inesse personali sic 
+            <lb ed="#E"/>quod ipse praecise gratificet nam dicitur cum dicitur quod spiritus sanctus gratificat tota trinitas operatur et 
+            <lb ed="#E"/>operatur ut tota trinitas habet tamen effectum appropriatum spiritus sancti et tamen illa operatio non est sibi propria unde dicere quod potentia 
+            <lb ed="#E"/>est propria patri est haereticum licet hoc nomen potentia sit sibi appropriatum
+          </p>
+          <p xml:id="ppr-l70-tscesh">
+            Tertio si spiritus sanctus etc sequeretur 
+            <lb ed="#E"/>quod eodem modo filius in esse personali potest creaturarum illustrare et sic in esse suo personali se solo 
+            <lb ed="#E"/>potest instruere intellectum et reddere ipsum scientificum Cum filio attribuitur sapientiam et sic reciperet intellectus 
+            <lb ed="#E"/>suam beatitudinem formalem a concursu patris vel spiritus sancti quod est fidei dissonum et sapit haeresim
+          </p>
+        </div>
+        <div xml:id="ppr-l70-Dd1e334">
+          <head xml:id="ppr-l70-Hcotame">
+            Contra opinio Thomae
+          </head>
+          <head xml:id="ppr-l70-Hvf4vav" type="question-title">
+            quod lumen gloriae vel species divinae essentiae 
+            est realiter essentia actuans memoriam eius
+          </head>
+          <p xml:id="ppr-l70-eirias">
+            Ex 
+            <lb ed="#E"/>prima radice infero Contra <ref xml:id="ppr-l70-Rd1e343"> <name ref="#Aquinas">sanctam thomam</name> in prima parte <del rend="strikethrough">suae</del> <title ref="#SummaTheologica">summae</title> circa primum articulum</ref> ubi ponit 
+            <lb ed="#E"/>quod lumen gloriae et species divinae essentiae praemia ad notitiae formationem est divina essentia vel 
+            <lb ed="#E"/>sub aliis verbis lumen gloriae est realiter divina essentia Cuius ratio est deus inquit est <unclear>incircumscriptibilis</unclear> 
+            <lb ed="#E"/>et incomprehensibilis ergo nulla species creata vel qualitas potest esse species ipsius scilicet dei sufficienter 
+            <lb ed="#E"/>repraesentativa nam nulla qualitas potest sic rem intensam circumscribere et esse eius adaequata similitudo 
+          </p> 
+          <p xml:id="ppr-l70-rdqemd">
+            <lb ed="#E"/>Ratio illa defuit nam per idem probaretur quod actus videndi beatificus esset met deus nam actus 
+            <lb ed="#E"/>videndi vel visio ex quo habet obiectum similiter inmensum non potest esse res finita ex quo repraesentat 
+            <lb ed="#E"/>sibi species et per consequens nullus actus similiter finitus potest deum sufficienter repraesentare ergo ponendum est 
+            <lb ed="#E"/>quod actus beatificus sit ipse met deus
+          </p>
+          <p xml:id="ppr-l70-ireenc">
+            Respondendum est pro utroque unde quantum ad rationem suam 
+            <lb ed="#E"/>conceditur quod deus est simpliciter inmensus incomprehensibilis et incircumscriptibilis igitur nulla species creata 
+            <lb ed="#E"/>nego consequentiam 
+          </p>
+          <p xml:id="ppr-l70-sdqeqv">
+            Dico secundo quod nulla species creata comprehensive repraesentans et aeque perfecte in esse repraesentativa 
+            <lb ed="#E"/>sicut est obiectum in se <del rend="strikethrough">si</del> hoc conceditur sine dubio nullus actus creatus potest esse qui sit ita per<lb ed="#E"/>fectus 
+            in esse actus sicut est <seg type="correction">e<del rend="expunctuation">n</del>ssentia</seg> divina ymmo solum talis actus est ipse met essentia 
+          </p>
+          <p xml:id="ppr-l70-sreass">
+            Secunda 
+            <lb ed="#E"/>ratio sua stat in hoc species sensibilis non potest repraesentare creaturam puta animam intellectivam 
+            <lb ed="#E"/>quae est minime perfectionis inter omnes substans intellectuales sed quaelibet species creata magis 
+            <lb ed="#E"/>distat ab essentia divina quam quaecumque ab anima nostra igitur si nulla species sensibilis potest repraesentare animam 
+            <lb ed="#E"/>nostram et sic quaecumque species creata divinam essentiam vel arguitur sic species sensibilis minus distat ab anima nostra 
+            <lb ed="#E"/>quam species intelligibilis creata ab essentia divina sed anima intellectiva non est repraesentabilis per quamcumque 
+            <lb ed="#E"/>speciem sensibilem ergo nec divina essentia per quamcumque speciem intelligibilem 
+          </p>
+          <p xml:id="ppr-l70-irepdc">
+            Ista ratio est sophistica 
+            <lb ed="#E"/>nam probaretur per eam quod anima intellectiva nullo modo posset cognoscere deum arguitur in aliis terminis potentia 
+            <lb ed="#E"/>sensitiva est propinquior <add place="above-line">ad</add> animam intellectivam quam anima intellectiva ad deum sed anima intellectiva non potest
+            <lb ed="#E"/>percipere ab anima sensitiva ergo nec deus ab anima intellectiva Comparando ergo deum ad animam intellectivam deus 
+            <lb ed="#E"/>plus excedit animam intellectivam quam anima intellectiva potentiam bruti
+          </p>
+          <p xml:id="ppr-l70-irdpen">
+            sed etiam Ista ratio 
+            <lb ed="#E"/>deficit ex hac quod hic variatur genus et obiectorum et potentiarum et notitiarum 
+          </p>
+          <p xml:id="ppr-l70-unepis">
+            Advertendum quod non est eadem 
+            <lb ed="#E"/>proportio obiectorum cognoscibilium sicut potentiarum inter se verbi gratia anima intellectiva modicum excedit 
+            <lb ed="#E"/>supremam speciem brutorum scilicet speciem sibi inmediatam tamen ratione illius excessus latitudo obiectorum 
+            <lb ed="#E"/>cognoscibilium est simpliciter infinita nam eo ipso quod aliqua potentia est in latitudine ipsa ponitur  
+            <lb ed="#E"/>ex genus quantumcumque modicus excessus cadit extra totam latitudinem unde capiamus 
+            <lb ed="#E"/>intellectivam quae est inmediate supra latitudinem sensitivarum et forte modice excedit 
+            <lb ed="#E"/>intrinsece supremam sensitivam et tamen ratione illius excessus habet quodlibet cognoscibile sub 
+            <pb ed="#E" n="95-v"/>
+            <lb ed="#E"/>suo obiecto unde anima intellectiva et suprema species creabilis si daretur haberent idem obiectum scilicet deum
+          </p>
+          <p xml:id="ppr-l70-sqaear">
+            <lb ed="#E"/>Ad formam argumenti quando dicitur notitia vel species sensibilis non potest repraesentare rem spiritualem scilicet 
+            <lb ed="#E"/>animam concedo ergo nulla creata species posset repraesentare divinam essentiam nego consequentiam Ad probationem 
+            <lb ed="#E"/>quando dicitur quod divina essentia magis excedit etc nego consequentiam quia huiusmodi repraesentabilitas non 
+            <lb ed="#E"/>oritur ex proportione potentiarum inter se nec notitiarum inter se quantum ad excessus quia 
+            <lb ed="#E"/>species valde remissa est repraesentans divinam essentiam etiam species immensa
+          </p>
+          <p xml:id="ppr-l70-eqspvb">
+            Sequeretur 
+            <lb ed="#E"/>ulterius quod deus non sit vel posset esse creaturae formalis visio beatifica in patria nec dilectio 
+            <lb ed="#E"/>Cuius contrarium tenent aliqui doctores fundantes se super <ref xml:id="ppr-l70-Rd1e391" corresp="#ppr-l70-Qnetils">illud <title ref="#is">ysa</title> 60</ref> <quote xml:id="ppr-l70-Qnetils" source="http://scta.info/resource/is60_19">non erit <del rend="strikethrough">ci</del> tibi 
+            <lb ed="#E"/>inquit amplius sol ad lucendum per diem nec splendor lunae illuminabit te sed erit tibi dominus in luce 
+            <lb ed="#E"/>sempiternam</quote> et sic videtur <title>ysa</title> innuere quod evacuabitur quod ex parte est Et deus erit lux inmediate 
+            <lb ed="#E"/>illuminans Et splendor lunor non illuminabit te id est evacuabitur omnis notitia creata
+          </p>
+          <p xml:id="ppr-l70-saseli">
+            <lb ed="#E"/>Ad idem <ref xml:id="ppr-l70-Rd1e410" corresp="#l70-Qcdieea"><title ref="#ap">apoca</title> <num>21o</num> capitulo</ref> ubi loquitur de illa civitate sancta scilicet de patria caelesti et statu beatorum 
+            <lb ed="#E"/><quote xml:id="ppr-l70-Qcdieea" source="http://scta.info/resource/ap21_23">claritas dei illuminabit eam et lucerna eius est <sic>augnus</sic></quote> scilicet christus deus igitur christus erit formalis 
+            <lb ed="#E"/>lucerna beatorum et lux illuminans immediate ipsorum perceptivam 
+          </p>
+          <p xml:id="ppr-l70-tahfho">
+            Item adhuc <ref xml:id="ppr-l70-Rd1e428"><name ref="#Augustine">augustinus</name> videtur esse
+            <lb ed="#E"/>locis innumerabilibus libro de civitate 4o capitulo libro</ref> <!-- space --> <quote xml:id="ppr-l70-Qd1e439" source="http://scta.info/resource/adt-l1-d1e27">Regulae illae iustitiae quibus 
+            <lb ed="#E"/>sit iustum vel iniustum cognoscitur non sunt scriptae nisi in libro lucis quae veritas dicitur Et unde 
+            <lb ed="#E"/>omnis lux iusta describitur</quote> Alia multae sunt auctoritates eius ad idem scilicet deus nedum in patria 
+            <lb ed="#E"/>sed etiam in viam est lux realiter
+          </p>
+          <p xml:id="ppr-l70-ehiass">
+            Similiter <ref xml:id="ppr-l70-Rd1e462"><name ref="#HughOfStVictor">venerbilis hugo</name> in libello <title ref="#deSapientiaAnimaeChristi">de sapientia animae christi</title></ref> dicit 
+            <lb ed="#E"/>quod divina essentia est anima christi sua sapientia Item <ref xml:id="ppr-l70-Rd1e477"><name ref="#Lombard">magister</name> in 18 distinctione</ref> ponit multas auctoritates quod spiritus sanctus 
+            <lb ed="#E"/>sit formaliter caritas verum est <name ref="#Lombard">magister</name> capit spiritus sanctus pro tota trinitate
+          </p>
+          <p xml:id="ppr-l70-ahanlr">
+            Breviter ad istas auctoritates primo respondendum 
+            <lb ed="#E"/>est primo unde licet ex arbitrio a veritate sacrae scripturae dicitur ergo quod verum est quod deus erit lux beatorum 
+            <lb ed="#E"/>obiectiva haec tamen est mediante qualitate realiter distincta ab illa luce quae est deus est ut lux solis videtur a nobis 
+            <lb ed="#E"/>et tamen species in oculo existens non est lux et sic de aliis Etiam posset dici quod debet intelligi effective quia 
+            <lb ed="#E"/>deus vel divina essentia efficiet notitiam lucis quae deus est repraesentativam.
+          </p>
+          <p xml:id="ppr-l70-aaared">
+            Quantum ad auctoritates 
+            <lb ed="#E"/><name ref="#Augustine">Augustini</name> et aliorum doctorum Respondendum est dupliciter
+          </p>
+          <p xml:id="ppr-l70-pqiace">
+            primo quod ipse glosando sunt de causalitate 
+            <lb ed="#E"/>obiective vel effectiva vel exemplari Si deus sit nobis regulam iustitiae dicitur quod hoc est effective 
+            <lb ed="#E"/>quia efficit in nobis iustitiam de agendum et etc quantum speculabilia Et notitia vocatur 
+            <lb ed="#E"/>quaedam lux Et quia divina essentia efficit illam vocatur nobis lux 
+            <!-- break --> 
+            Alii doctores 
+            <lb ed="#E"/>ponunt quod habet se in ratione cognoscendi non solum obiective nec effective nec formaliter sed 
+            <lb ed="#E"/>se habet quoddam modo sicut species quae non est cognitio nec obiectum secundum ratio id est quoddam <unclear>medium<!-- corrected to "modum" ?? --></unclear> ad cognoscendum 
+            <lb ed="#E"/>non quod sit proprie species sed habent aliam habitudinem quam reducunt ad exemplarem quae non 
+            <lb ed="#E"/>reducitur 2m eos ad aliquam causalitatem potest tamen reduci ad effectivam 
+          </p>
+          <p xml:id="ppr-l70-amdena">
+            Aliter dicitur quod fuerunt 
+            <lb ed="#E"/>istius opinionis quod deus realiter posset esse notitia
+          </p>
+          <p xml:id="ppr-l70-scdecr">
+            Et dicendum consequenter quod in hac materia 
+            <lb ed="#E"/>speculativa quo non est modis quia sive ponatur unum sive aliud nihil variatur 
+            <lb ed="#E"/>quantum ad mores et vitam et ideo non eis credendum nisi inquantum rationabiliter loquimur saltem 
+            <lb ed="#E"/>non obligamur unde <ref><name>augustinus</name> in epistola ad <unclear>ierominum</unclear></ref> Et hoc idem <unclear>alle</unclear> in <ref>prima parte decreti 
+            <lb ed="#E"/>distinctione 11</ref> <!--quote--> Solis illis scripturis quae canonice appollantur scilicet soli bibliae et determinatio<lb ed="#E"/>nibus 
+            consiliorum credendum est propter se etiam quantumcumque viderentur esse contra rationem 
+          </p>
+          <p xml:id="ppr-l70-aaceof">
+            in eis autem scriptis 
+            <lb ed="#E"/>credendum si et inquantum rationibus fulciuntur Et ego addo quod eis etiam credendum est ubi sunt 
+            <lb ed="#E"/>concordes in exponendo scripturam
+          </p>
+          <p xml:id="ppr-l70-suresd">
+            Sequitur una ratio <name ref="Ripa">magistri Iohannis de ripa</name> ad probandum quod oportet 
+            <lb ed="#E"/>divina essentia esse notitiam in patria praesupponit duo
+          </p>
+          <p xml:id="ppr-l70-pseurd">
+            prima suppositio est descriptio dei quae 
+            <lb ed="#E"/>nedum datur a theologis scilicet etiam a philosophis scilicet deus est spera intellectualis infinita cuius 
+            <lb ed="#E"/>centrum est ubique et circumferentia nusquam Ita quod per infinitum spatium ymaginarium 
+            <pb ed="#E" n="96-r"/>
+            <lb ed="#E"/>etiam reperitur
+          </p>
+          <p xml:id="ppr-l70-ssqqit">
+            Secunda suppositio quod circumferentia huius spere est locus spiritualis animarum 
+            <lb ed="#E"/>et proprius ad quietandum animas probatur per illud <ref xml:id="ppr-l70-Rd1e540"><title ref="#Revalations">apocalypsis</title> 21 capitulo</ref> ubi dicitur <quote xml:id="ppr-l70-Qddttie" source="http://scta.info/resource/ap21_22">dominus deus templum illius est</quote> 
+            <lb ed="#E"/>et animae beatae et quasi locus quietus <ref xml:id="ppr-l70-Rdv2vda" corresp="#ppr-l70-QPicnqit"><name ref="#Augustine">augustinus</name></ref> <quote xml:id="ppr-l70-QPicnqit" source="http://scta.info/resource/aconf-l1-d1e102">inquietum est cor nostrum donec</quote> etc
+          </p> 
+         <p xml:id="ppr-l70-eqheep">
+           Tunc arguit 
+           <lb ed="#E"/>sic ex quo cuiuslibet creaturae spiritualis ad huiusmodi circumferentia est infinita distantia 
+           <lb ed="#E"/>sequitur quod huiusmodi distantia non posset pertransiri vel attingi nisi per formam infinitam exemplum 
+           <lb ed="#E"/>est in naturalibus scilicet concavum orbis lunae infinitum distaret ab igne tunc ignis non 
+           <lb ed="#E"/>potest attingere ipsum per levitatem finitam ergo a simili ex quo circumferentia divinae essentiae 
+           <lb ed="#E"/>infinitae creaturae non potest attingere huiusmodi spiritualem locum nisi per infinitam potentiam
+         </p>
+        </div>
+        <div xml:id="ppr-l70-Dd1e574">
+          <head xml:id="ppr-l70-qirpac">Quod ista ratio bene probat quod Deus non potest attingi comprehensive</head>
+          <p xml:id="ppr-l70-hedcdp">
+            <lb ed="#E"/>Respondendum est quod ista ratio bene probat quod deus non potest attingi comprehensive a creatura 
+            <lb ed="#E"/>sed nichil plus probat <unclear>videlicet</unclear> non potest sic attingi comprehensive a creatura quod nichil 
+            <lb ed="#E"/>plus restet de ipso scilicet deo attingendum et sic nec anima christi divinam essentiam attingit 
+            <lb ed="#E"/>comprehensive
+          </p>
+          <p xml:id="ppr-l70-sdqdpa">
+            Secundo dicitur licet naturalis distantia sit finita non tamen quantum ad 
+            <lb ed="#E"/>gratuita id est creatura ex puris naturalibus etiam si in infinitum ascendere per latitudinem 
+            <lb ed="#E"/>mere naturalium numquam posset attingere locum illius quietis 
+            <!-- dbcheck here in pal -->
+            Secundo dicitur quod non est infinita 
+            <lb ed="#E"/>distantia in statu gratuito quia gratia est forma sufficiens ad movendum creaturam 
+            <lb ed="#E"/>in huiusmodi locum
+          </p>
+          <p xml:id="ppr-l70-tdqili">
+            3o dicitur quod non est infinita huiusmodi distantia infinita et huiusmodi difficul<lb ed="#E"/>tas 
+            attingendi reducitur in causam effectivam scilicet deum unde quantumcumque quod esset infinita 
+            <lb ed="#E"/>visio fruitio et caritas creata non esset beata nisi deus per amorem quasi ipsum transferetur 
+            <lb ed="#E"/>quia dona gratuita non sufficiunt principaliori principaliter agente
+          </p>
+          <!--
+            not present in erlang, but present in pal 
+            <p xml:id="ppr-l70-qdqaee">
+            Quarto dicitur 
+            quod huiusmodi distantia infinita reducitur in causam 
+            effectivam moventem creaturam  et quantumcumque infinita sit distantia 
+            caritatis potest movere creaturam in suum locum infinitum, 
+            sed illa non sufficeret ad creaturam beatificandum, nec 
+            esset beata, nisi deus eam in ipsum per amorem transformaret. 
+            nam si esset distantia infinita ad locum 
+            creaturae, illa tamen posset ipsum attingere absque forma 
+            infinita, scilicet, per extrinsecam potentiam activam agentis, ut 
+            apparet in exemplo ignis. et sic dicitur quod distantia loci 
+            quietis latitudinis non est necesse, quod acquiratur a creatura 
+            spirituali per formam mediam, nec per dona, quia non 
+            sufficerent, sed hoc esset per potentiam activam extrinsecam etc.
+          </p>-->
+         </div>
+       </div>
+    </body>
+  </text>
+</TEI>
