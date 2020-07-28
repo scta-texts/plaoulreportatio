@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 71, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 71, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-07-24">July 24, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="96-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio71">
+        <head xml:id="ppr-l71-Hldtldt">Lectio 71, de Trinitate</head>
+        <div xml:id="ppr-l71-Dd1e109">
+          <head xml:id="ppr-l71-Hdarfer">
+            Duae aliae rationes quod Deum posse formaliter influere se fundant et responsiones
+          </head>
+            <p xml:id="ppr-l71-sqspio">
+              <lb ed="#E"/>Restat solvere duas alias rationes quibus fundant se 
+            </p>
+          <div xml:id="ppr-l71-Dd1e117">
+            <head xml:id="ppr-l71-Hprprpr">Prima ratio</head>
+            <p xml:id="ppr-l71-pefciae">
+              primo arguunt quia forma 
+              <lb ed="#E"/>habet triplicem habitudinem ad materiam dicentem inperfectionem prima est quia educibilis 
+              <lb ed="#E"/>est de potentia materiae 2a quia inhaeret Tertia quia dependet a materia Et quantum ad istas 
+              <lb ed="#E"/>habitudines deus nullo modo potest gerere vicem formae quia quaelibet repugnat deo habet tamen 
+              <lb ed="#E"/>aliam quae non dicit inperfectionem scilicet quod bonitatem suam alteri communicat et illa non 
+              <lb ed="#E"/>repugnat deo ergo illam deus potest supplere vel deus potest gerere vicem formae quantum 
+              <lb ed="#E"/>ad illam habitudinem Et illa habitudo exprimitur per informare prout informatio excludit omnes 
+              <lb ed="#E"/>habitudines inperfectionales
+            </p>
+          </div>
+          <div xml:id="ppr-l71-Dd1e126">
+            <head xml:id="ppr-l71-Hsrsrsr">Secunda ratio</head>
+            <p xml:id="ppr-l71-srence">
+              Secunda ratio aliorum est quia deus vel divina essentia quae in se 
+              <lb ed="#E"/>est formaliter notitia potest in eadem proportione movere potentiam perceptivam creatam in qua 
+              <lb ed="#E"/>notitia <seg type="correction">movet creata<!-- dashes to indicate inversion --></seg> 
+            </p>
+          </div>
+          <div xml:id="ppr-l71-Dd1e135">
+            <head xml:id="ppr-l71-Hrapapr">Responsio ad primam rationem</head>
+            <p xml:id="ppr-l71-hreqfn">
+              Respondendum est quod prima ratio praesupponit aliqua fundamenta 
+              <lb ed="#E"/>quae <sic>facilime</sic> negantur
+            </p> 
+            <p xml:id="ppr-l71-qapdpm">
+              Quantum ad primum concedendum quod stat habitudinem informationis 
+              <lb ed="#E"/>esse absque hoc forma educatur de potentia materiae et sic non est de integritate informationis 
+              <lb ed="#E"/>educi etc utque de anima intellectiva 
+            </p> 
+            <p xml:id="ppr-l71-sdaehd">
+              Etiam patet de accidentibus supernaturalibus quae 
+              <lb ed="#E"/>creantur licet informant materiam dico tamen quod probabiliter potest dici quod inhaesio et dependentia aliqualis 
+              <lb ed="#E"/>ad subiectum et ab ipso subiecto sunt de integritate influxus formalis Ideo in hoc quod supponit 
+              <lb ed="#E"/>huiusmodi habitudines esse ad invicem separabiles et omnes ab habitudine informationis 
+              <lb ed="#E"/>supponit quod deberet probare naturae sibi unde ymaginandum quod inhaerere sit omnino idem 
+              <lb ed="#E"/>quod informare et non sunt habitudines distincte
+            </p>
+            <p xml:id="ppr-l71-sdqsip">
+              Secundo ymaginandum dato quod inhaerere et informare essent 
+              <lb ed="#E"/>habitudines distincte nihilominus sunt partes integrantes influxum formalem 
+            </p> 
+            <p xml:id="ppr-l71-rqetif">
+              Et si seques<lb ed="#E"/>trentur 
+              tunc capiamus secundam habitudinem scilicet informationis et ponamus quod deus suppleat 
+              <pb ed="#E" n="96-v"/>
+              <lb ed="#E"/>dicitur quod ex illa habitudine sic supra non integraretur influxus formalis <del rend="expunctuation">quia realiter</del> nec 
+              <lb ed="#E"/>communicarentur denominationes concretive Ideo licet deus posset habere huiusmodi habitudinem non tamen con<lb ed="#E"/>cederetur 
+              quia influeret formaliter
+            </p>
+          </div>
+          <div xml:id="ppr-l71-Dd1e162">
+            <head xml:id="ppr-l71-Hrasasr">Responsio ad secundum rationem</head>
+            <p xml:id="ppr-l71-asrdnp">
+              Ad 2am deus potest in eadem proportione etc negetur illud intelligendo 
+              <lb ed="#E"/>in eodem genere motionis influxus formalis quia realiter inducitur ad causalitatem formalem 
+              <lb ed="#E"/>motio de genere causae formalis sicut forma movet et sic negatur quod in eadem proportione potest quia deus in nullo 
+              <lb ed="#E"/>gradu potest concurrere in huiusmodi motione formali licet bene in superiori scilicet in genere causae efficientis 
+              <lb ed="#E"/>unde quantumcumque deus concurreret non potest facere aliquod esse album sint albedine quicquid tamen efficit albedo 
+              deus posset etiam quaecumque 
+              <!-- should break be here? -->
+              <pc type="#pilcrow"/> ut habeatur ymaginatur positionis 
+            </p> 
+            <p xml:id="ppr-l71-eumeif">
+              <!-- possible break point -->
+              Advertendum quod ponunt 
+              <lb ed="#E"/>differentiam inter immutationem vitalem et influxum formalem 
+            </p> 
+            <p xml:id="ppr-l71-udnmce">
+              unde de istis negandum ad animam christi 
+              <lb ed="#E"/>sed etiam ad carnem dicitur secundum eos realis unio Ita quod caro christi in triduo erat deus 
+              <lb ed="#E"/>et recipiebat influxum formalem de istis quando tamen huiusmodi carni non fuit unica anima christi 
+              <lb ed="#E"/>consequenter licet formaliter non tamen vitaliter informative Isti habent concedere aliqua corollaria
+            </p>
+            <p xml:id="ppr-l71-peqevi">
+              <lb ed="#E"/>primum hoc consequentia non valet <c>a</c> deus igitur a intelligit vel cognoscit vel vult Aliquid posset 
+              <lb ed="#E"/>de carne christi et materia prima quae propter communicationem deitatis est deus et tamen non intelligit 
+              <lb ed="#E"/>nam habitudo vitalis inmutationis est totaliter inpertinens ad hoc ymmo haec consequentia non valet 
+              <lb ed="#E"/>anima est deus ergo intelligit quia staret quod realiter esset unica et non cognosceret
+            </p>
+            <p xml:id="ppr-l71-sqpdsc">
+              Item 
+              <lb ed="#E"/>haec consequentia non valet 2m illos <c>a</c> est intellectivum igitur <c>a</c> potest intelligere Credo quod istud sequatur 
+              <lb ed="#E"/>ex eorum principiis nam licet concederetur de materia prima vel carne christi quod esset deus propter 
+              <lb ed="#E"/>hoc non efficitur res vitalis et perceptiva intrinsece est tamen perceptiva intrinsece per formam extrinsice sibi communicationem 
+              <lb ed="#E"/>Ita haec consequentia non valet <c>a</c> est animatum scilicet in prima ergo vivit vel potest vivere et sic materia prima 2m illam 
+              <lb ed="#E"/>opinionem non potest intelligere licet si intellectiva extrinseca denominatione communicata tamen per intrinsecam 
+              <lb ed="#E"/>actuationem
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l71-Dd1e209">
+          <head xml:id="ppr-l71-Hdiheif">
+            Differentia inter habitudinem vitalem immutationem et influxum formalem
+          </head>
+          <p xml:id="ppr-l71-uchpad">
+            <lb ed="#E"/>Circa huiusmodi scilicet habitudines vitalis inmutationis et informationis ponunt differentias 
+          </p>
+          <p xml:id="ppr-l71-peqesd">
+            prima differentia 
+            <lb ed="#E"/>quod esse formale per informationem nullam penitus dicit perfectionem nec dicit aliquid propositum quia esse 
+            <lb ed="#E"/>formabile dicit magis potentiam mere passivam quam activam ut dicit positum infinite for<lb ed="#E"/>malitatis 
+            et esset infinita perfectio viceversa est deesse perceptivum quia dicit positivum 
+          </p>
+          <p xml:id="ppr-l71-sdqicc">
+            <lb ed="#E"/>Secunda differentia conditio percipiendi vitaliter limitate conpetit creaturae quia quaelibet limita<lb ed="#E"/>te 
+            percipit Sed esse formabile infinite competit creaturae 
+          </p>
+          <p xml:id="ppr-l71-tqpria">
+            Tertia differentia est ex parte actuantium nam 
+            <lb ed="#E"/>per informationem communicatur esse intrinsicum formabili non per esse <unclear>actuatum</unclear> vel vitaliter in<lb ed="#E"/>mutatum
+          </p>
+          <p xml:id="ppr-l71-qidnhi">
+            Quarta differentia illa quae communicatur formabili per informationem per prius 
+            <lb ed="#E"/>conveniunt ipsi formae ut prius anima est in se vivens saltem in abstracto quod constituat 
+            <lb ed="#E"/>ad unum et per prius anima humana est quoddam rationalem quam constituat compositum rationale non 
+            <lb ed="#E"/>sic est de forma vitali nam posterius denominatur quia forma vitalis alia a deo non 
+            <lb ed="#E"/>est intrinsece cognitio sed recipitur denominationem illam a potentia in comparatione ad obiectum
+          </p>
+          <p xml:id="ppr-l71-qdqppm">
+            Quinta differentia 
+            <lb ed="#E"/>forma quae communicatur per informationem communicatur per plenitudinem communicatur 2m pleni<lb ed="#E"/>tudinem 
+            suae essentiae vel secundum se totam nec potest intensius vel remissius sed forma 
+            <lb ed="#E"/>vitalis potest intensius vel remissius 
+          </p>
+          <p xml:id="ppr-l71-eiaeep">
+            apparet aliqualiter in quibus consistit eorum ymaginatio 
+            <lb ed="#E"/>et qualiter potest suam positionem probabiliter a contradictione defensare nichilominus probabilior 
+            <lb ed="#E"/>est positio et magis concors cum divina simplicitate quae negat talia et distinctionem formalitatum 
+            <lb ed="#E"/>unde nullam debemus ponere distinctionem in deo vel multiplicitatem nisi fides non astringit 
+            <lb ed="#E"/>non habemus ponere nisi distinctionem personalem 
+          </p> 
+          <p xml:id="ppr-l71-erioro">
+            et quantum ad unionem nisi ypostaticam quia nec fides 
+            <lb ed="#E"/>nec ratio astringit ad aliam <name ref="#Anselm">Anshelmus</name> in divinis omnia sunt idem etc id est non est ponenda 
+            <lb ed="#E"/>distinctio aliqua in divinis nec inter personas
+          </p>
+        </div>
+        <div xml:id="ppr-l71-Dd1e255">
+          <head xml:id="ppr-l71-Hcdrdri">Circa distinctio rationum idealium</head>
+          <div xml:id="ppr-l71-Dd1e260">
+            <head xml:id="ppr-l71-qdrine">Quod distinctio rationum idealium neganda est</head>
+            <p xml:id="ppr-l71-sqisre">
+              Sequitur quod in deo neganda est distinctio rationum ydealium 
+              <lb ed="#E"/>id est non sunt ponendae ydeae distincte realiter <unclear>factive</unclear> rerum et exemplaria etc
+            </p>
+            <p xml:id="ppr-l71-dtcced">
+              <pb ed="#E" n="97-r"/>
+              <lb ed="#E"/>difficultas in ista materia consurgit ex duobus
+            </p>
+            <p xml:id="ppr-l71-peeuta">
+              primo ex auctoritatibus ut alia ratione factus est 
+              <lb ed="#E"/>homo ut dicit <ref xml:id="ppr-l71-Rd1e287"><name ref="#Augustine">augustinus</name></ref>
+            </p>
+            <p xml:id="ppr-l71-seanvc">
+              Alia difficultas ad solvendum diversitatem rerum 
+              <lb ed="#E"/>producibilium quia quod unus res eodem modo se habens adaequate et idem exemplar producat res 
+              <lb ed="#E"/>ita diversas videtur impossibile
+            </p>
+            <p xml:id="ppr-l71-qaipsd">
+              <pc type="#pilcrow"/> Si considerentur duo principia alias praemissa satis faciliter 
+              <lb ed="#E"/>solvitur 
+            </p>
+            <p xml:id="ppr-l71-ueiseu">
+              scilicet inmensitas divinae naturae ex qua consurgit quod omnes conceptus universales et singulares 
+              <lb ed="#E"/>possunt ydemptice in deo concurrere ut capiamus totam latitudinem illorum quantum ad illud 
+              <lb ed="#E"/>quod est perfectionis concurrant ydemptice per idem adaequate erit conceptus hominis asini etc et erit 
+              <lb ed="#E"/><unclear>omnino</unclear> distincte repraesentativu et univeraliter et singulariter aequivalenter 
+            </p> 
+            <p xml:id="ppr-l71-ephdec">
+              Et per illud salvabitur de ratione factiva 
+              <lb ed="#E"/>quia per eundem conceptum adaequate et per eandem artem et hoc est ratione inmensitatis artis increatae 
+              <lb ed="#E"/>Ideo per quam simplicissimam unitatem concurrit ad omnia Et eodem modo ratione suae inmensitatis 
+              <lb ed="#E"/>posset diversa producere et sic non est ibi pluralitas ydearum vocatur tamen in respectu effectus causatur 
+              <lb ed="#E"/>plures ydeae et hoc causali denominatione ut sol denominatur calidus quia est causalitatis 
+              <lb ed="#E"/>effectivus Et sic deus est plures ydeae id est plurium ydeabilium effectivus per eandem tamen ydeam 
+              <lb ed="#E"/>adaequate
+            </p>
+          </div>
+          <div xml:id="ppr-l71-Dd1e319">
+            <head xml:id="ppr-l71-Hodcdri">Opiniones Doctorum circa distinctionem rationum idealium</head>
+            <p xml:id="ppr-l71-pmdsod">
+              de ista materia ydearum tangendae sunt opiniones aliquorum doctorum
+            </p>
+            <div xml:id="ppr-l71-Dd1e327">
+              <head xml:id="ppr-l71-Hoaoaoa">Opinio Augustini</head>
+              <p xml:id="ppr-l71-uneirf">
+                Advertendum quod 
+                <lb ed="#E"/><ref xml:id="ppr-l71-Rd1e336" corresp="#ppr-l71-QX1e336"><name ref="#Augustine">augustinus</name> dicit in libro <title ref="#deDiversisQuaestionibus">83m quaestionum</title> quaestione <sic>36ta</sic></ref> <quote xml:id="ppr-l71-QX1e336" source="http://scta.info/resource/a83-q46-d1e111" type="paraphrase" synch="1-43">ydea valet tantum sicut forma vel species et non sicud 
+                <lb ed="#E"/>ratio quia ratio in graeco non valet ydea sed logos nichilominus congrue possumus uti hoc vocabulo 
+                <lb ed="#E"/>ratio et vocare eam rationem factivam</quote>.
+              </p>
+              <p xml:id="ppr-l71-uapilp">
+                Consequenter ponuntur conditiones ydearum
+              </p>
+              <p xml:id="ppr-l71-peqsqa">
+                prima conditio ydea est quid 
+                <lb ed="#E"/>actuale Ex infertur quod omne quod habet forma in materia ante sui productionem non est eius ydea quia 
+                <lb ed="#E"/>de ratione ydearum est esse quid actuale
+              </p>
+              <p xml:id="ppr-l71-scqeri">
+                ydeae est quod sit quid intellectuale per hoc excluditur 
+                <lb ed="#E"/>quod ratio causalis in agentibus naturalibus naturaliter agentibus formas sibi similes 
+                <lb ed="#E"/>vel alias res non est ydea producibilium quia non est quid intellectuale saltem ut sic
+              </p>
+              <p xml:id="ppr-l71-tcifse">
+                Tertio conditio ydeae quod 
+                <lb ed="#E"/>debet esse quid factivum ydeatu per hoc excluditur creatura quae in suo esse non est sua 
+                <lb ed="#E"/>ydea cuius contrarium videtur dicere <ref xml:id="ppr-l71-Rd1e367"><name ref="#Ockham">ockam</name></ref> et <ref xml:id="ppr-l71-Rd1e377"><name ref="#Durandus">durandus</name></ref> quia creatura non est factiva sui esse
+              </p>
+              <p xml:id="ppr-l71-qcieia">
+                4ta 
+                <lb ed="#E"/>ydea debet esse quid incommunicabile per hoc excluditur esse quod creatura habet in intellectum meo 
+                <lb ed="#E"/>unde res habent esse intellectu nostro scilicet quia species et conceptus rei est in intellectu nostro secundum quod dicitur 
+                <lb ed="#E"/><ref xml:id="ppr-l71-Rd1e385">3o <title ref="#deAnima">de anima</title></ref> 
+              </p>
+              <p xml:id="ppr-l71-qciapi">
+                Quinta conditio ydea debet esse quod primum et principale per hoc excluditur omne quod habet 
+                <lb ed="#E"/>creatura in intelligentiis et motoribus orbium <ref xml:id="ppr-l71-Rd1e404">Auctor <title ref="#Proclus">De causis</title></ref> et <ref xml:id="ppr-l71-Rd1e413"><name ref="#Boethius">boecius</name></ref> intelligentiae 
+                <lb ed="#E"/>sunt plene formis rerum etiam factius quia motores orbium quidquid agunt per intellectum 
+                <lb ed="#E"/>agunt 2m <name rend="#Aristotle">aristotelem</name>
+              </p>
+              <p xml:id="ppr-l71-uvsvip">
+                Sequuntur verba <name ref="#Augustine">augustini</name> de praedicationibus in forma hac Ipse 
+                <lb ed="#E"/>namque sunt principales tangitur 5ta conditio quaedam formae quo ad primam conditionem Rationes 
+                <lb ed="#E"/>rerum quo ad secundam stabiles atque incommutabiles quo ad quartam quae ipse formatae 
+                <lb ed="#E"/>non sunt Et cum ipse neque oriantur neque inter erant secundum eas tamen formari 
+                <lb ed="#E"/>dicitur esse quod oriri vel <unclear>intelligere</unclear> potest
+              </p>
+              <p xml:id="ppr-l71-eeiqei">
+                Ex istis considerationibus et conditionibus 
+                <lb ed="#E"/>ydearum positis ab <name>augustino</name> apparet quod ydeam non sit aliquod adextra sed est ratio posita a deo 
+                <lb ed="#E"/>et ars sufficiens ad effectus productionem etc ipse deus Quandoque vocantur artes factivae huma<lb ed="#E"/>nae 
+                <lb ed="#E"/>ut <ref>7o metaphysicae</ref> domus materialis fit a domo quae est in mente 
+              </p>
+            </div>  
+            <div xml:id="ppr-l71-Dd1e432">
+              <head xml:id="ppr-l71-Hooeoed">Opinio Okam et Durandi</head>
+              <p xml:id="ppr-l71-unedri">
+                Advertendum tamen quod <ref xml:id="ppr-l71-Rd1e441"><name ref="#Ockham">okam</name></ref> 
+                <lb ed="#E"/>et <ref xml:id="ppr-l71-Rd1e451"><name ref="#Durandus">durandus</name></ref> ponunt ydeas esse ipsas met creaturas factibiles maxime moti propter 
+                <lb ed="#E"/>auctoritates <ref xml:id="ppr-l71-Rd1e461"><name ref="#Augustine">augustini</name></ref> et doctorum Quia alia ratione factus est homo etc et non potest poni in mente 
+                <lb ed="#E"/>divina igitur etc ymaginatio eorum est quod essentia divina est concipiens rem ut conceptibilem 
+                <lb ed="#E"/>et illa concepta a deo ut scilicet <del rend="expunctuation">illa</del> <unclear>concepta</unclear> 2m suam propriam rationem quidditativam est ydea 
+                <lb ed="#E"/>Ita quod ly ydea supponit pro re connotando quod concipiatur Et secundum istam rationem 
+                <lb ed="#E"/>est factibilis sic a deo adextra ponunt consequenter quod est pluralitas ydearum alia ratione
+                <pb ed="#E" n="97-v"/>
+                <lb ed="#E"/>etc id est aliud est obiectum relatum ad divinam mentem 2m quam factus est homo et sic de aliis
+              </p>
+              <p xml:id="ppr-l71-svqnsc">
+                Salva 
+                <lb ed="#E"/>eorum reverentia ipsi vadunt totaliter contra intentionem <name ref="#Augustine">augustini</name> utque per conditiones positas Etiam 
+                <lb ed="#E"/>dicit <name>augustinus</name> quod sine ydeis nemo potest fieri sapiens et in ipsius videtur ponere beatitudinem
+              </p>
+              <p xml:id="ppr-l71-siipfc">
+                2o ista 
+                <lb ed="#E"/>ymaginatio videtur praesupponere quod divina ars factiva dependet ab obiecto et sic quoddam modo posterior ad 
+                <lb ed="#E"/>obiecta factibili et quasi dependeat unde per prius deus est ratio et ars factiva quam res 
+                <lb ed="#E"/>sit factibilis etc
+              </p>
+              <p xml:id="ppr-l71-tnoigc">
+                2o quod oporteret fingere propter glosam auctoritatum quia saepe doctores utuntur ad 
+                <lb ed="#E"/>modum causalitatis effective ut quod sol est calidus quia effectivus <del>causalitatis</del> caliditatis 
+              </p>
+            </div>
+            <!-- slightly fuzzy break -->
+            <div xml:id="ppr-l71-Dd1e493">
+              <head xml:id="ppr-l71-Hodrodr">Opinio De Rippa</head>
+              <p xml:id="ppr-l71-aeoipd">
+                <lb ed="#E"/>Et etiam creatura non est factiva sui et ydea est factiva Opinio <name>magistri iohannis de ripa</name> ponentis 
+                <lb ed="#E"/>quod sicut sunt diversae creaturae ita sunt diversae rationes factivae rerum aliae a formalitatibus //
+              </p>
+            </div>
+            <div xml:id="ppr-l71-Dd1e513">
+              <head xml:id="ppr-l71-Hosiosi">Opinio Scoti</head>
+              <p xml:id="ppr-l71-upesds">
+                <lb ed="#E"/><ref xml:id="ppr-l71-Rd1e522"><name ref="#Scotus">Scotus</name></ref> satis numeraliter ymaginatur credo quod nititur ad modum platonis unde ipse 
+                <lb ed="#E"/><name>scotus</name> ymaginatur duo signa vel instantia 
+              </p> 
+              <p xml:id="ppr-l71-ipsaau">
+                in primo <unclear>signo</unclear> divina essentia praesentatur 
+                <lb ed="#E"/>divino intellectu ut species intelligibilis sui ipsius tamquam obiecti primarii Ita quod divina essentia 
+                <lb ed="#E"/>est species primarium sui ipsius et est primarium obiectum ipsius ut species est Tunc ymaginatur quod paternus 
+                <lb ed="#E"/>intellectus producit verbum sibi adaequatum et consequenter producitur amor ex utroque semper in <del>principio</del> primo signo
+              </p> 
+              <p xml:id="ppr-l71-diidip">
+                <lb ed="#E"/>deinde ymaginatur quod secunda divina essentia obicitur ut secundaria species et respectu secundarii obiecti 
+                <lb ed="#E"/>scilicet respectu creaturarum divina essentia considerata in suis 3bus suppositis Et in isto 2o signo ymaginatur 
+                <lb ed="#E"/><name>scotus</name> quod deus producit unum verbum expressivum creaturarum et non sui et <unclear>diminutum</unclear> ydemp<lb ed="#E"/>tiam 
+                tamen sibi essentialiter et istud est esse intelligibile creaturarum productivum a deo ab aeter<lb ed="#E"/>no 
+                et ydeae creaturarum ita quod sunt in esse intelligibilis tot quot sunt producibiles
+              </p>
+              <p xml:id="ppr-l71-ipeidf">
+                Ista ymaginatio 
+                <lb ed="#E"/>est mirabilis tamen prima facie non videtur stare quia non oportet recurrere nisi ad inmensitatem divinae 
+                <lb ed="#E"/>essentiae
+              </p> 
+              <p xml:id="ppr-l71-eicies">
+                Arguo contra istam positionem primo sic trinitas sufficit inmediate se sola ad cuiuslibet 
+                <lb ed="#E"/>effectus productionem igitur non oporteret ponere medium consequentia nota antecedens similiter
+              </p>
+              <p xml:id="ppr-l71-sqseca">
+                Item sequeretur quod esset quater<lb ed="#E"/>nitas 
+                in divinis nam illud verbum divinitum est productum igitur dicitur a producente si pater produ<lb ed="#E"/>cat 
+                dicitur a patre et non est filius nec spiritus sanctus igitur est 4tum distinctum quia nichil producit se ut sit 
+                <lb ed="#E"/>per regulam <ref xml:id="ppr-l71-Rd1e560"><name ref="#Augustine">augustini</name> primo de trinitate</ref>
+              </p>
+              <p xml:id="ppr-l71-tqsfaa">
+                Item sequitur infinitas rerum realiter distinctarum adextra 
+                <lb ed="#E"/>ab aeterno productarum nam quaelibet ydea est aliqua res et ipsius ydeae est <unclear>distinctio</unclear> ad deum igitur etiam 
+                <lb ed="#E"/>distinguuntur ab <del rend="strikethrough">ins</del> invicem igitur fuerit realiter distincte infinite et quaelibet cuius deus
+              </p>
+              <p xml:id="ppr-l71-qpisid">
+                <lb ed="#E"/>Item ponere plures productiones ad intra quam generationem et spirationem videtur in fide vale periculosum
+              </p>
+              <p xml:id="ppr-l71-qipisp">
+                <lb ed="#E"/>Item ista positio non salvat <name ref="#Augustine">augustinum</name> nam in ipsis ydeis 2m ipsum ponitur esse beatitudo 
+                <lb ed="#E"/>ergo in illis pater beatificaretur et sunt quid distinctum a patre ergo pater beatificatur in aliquo distincto ab ipso 
+              </p> 
+              <p xml:id="ppr-l71-epctme">
+                <lb ed="#E"/>Ideo in deo nulla est ponenda distincta nisi personarum et anima salvari possunt per divinam 
+                <lb ed="#E"/>inmensitatem non ponendae talia etc Sequitur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
