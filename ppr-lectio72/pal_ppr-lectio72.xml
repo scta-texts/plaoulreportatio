@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 72, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 72, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-07-31">July 31, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-07-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="131-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio72">
+        <head xml:id="ppr-l72-Hldtldt">Lectio 72, de Trinitate</head>
+        <div xml:id="ppr-l72-Dd1e109">
+          <head xml:id="ppr-l72-Hquepsp">Quod una est igitur res simplex quae habet omnes perfectiones sibi possibiles</head>
+          <p xml:id="ppr-l72-emdpsp">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>Tractandum est nunc de divina 
+            <lb ed="#PV"/>simplicitate quo potest sic describi 
+            <lb ed="#PV"/>esse summam simplicitatem
+            <lb ed="#PV"/>est esse actualiter et necessario 
+            <lb ed="#PV"/>quamlibet inmensam perfectionem 
+            <lb ed="#PV"/>possibilem Ista description est prius 
+            <lb ed="#PV"/>declarata quia illud quod esset 
+            <lb ed="#PV"/>in potentia ad aliquam perfectionem 
+            <lb ed="#PV"/>habendam non esset summe simplex
+            <!-- break -->
+            <lb ed="#PV"/>Item illud quod <unclear>hra</unclear> in eadem 
+            <lb ed="#PV"/>specie potentiam ad pluralitatem 
+            <lb ed="#PV"/>individuorum non esse summi
+            <lb ed="#PV"/>simplex una est ergo simplex 
+            <lb ed="#PV"/>habens omnes perfectiones sibi possibiles
+          </p>
+        </div>
+        <div xml:id="ppr-l72-Dd1e121">
+          <head xml:id="ppr-l72-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l72-Dd1e126">
+            <head xml:id="ppr-l72-Hpcqamm">Primum corollarium</head>
+            <head xml:id="ppr-l72-Hd1e131" type="question-title">
+              Quod impossibile est divinam essentiam summe simplicem aliquo modo multiplicari
+            </head>
+            <p xml:id="ppr-l72-eqsess">
+              <lb ed="#PV"/>Sequitur corollarie quod impossibile est esse 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>divinam essentiam aliquo modo 
+              <lb ed="#PV"/>multiplicari istud sequitur evidenter 
+              <lb ed="#PV"/>quia eo ipso quod multiplicaretur 
+              <lb ed="#PV"/>ullam haberet omnem inmensam 
+              <lb ed="#PV"/>perfectionem ymmo cuilibet inmensa 
+              <lb ed="#PV"/>perfectio deficeret
+            </p>
+          </div>
+          <div xml:id="ppr-l72-Dd1e138">
+            <head xml:id="ppr-l72-Hscenpp">Secundum corollarium: essentia divina simplicissima a nullo potest produci</head>
+            <p xml:id="ppr-l72-scedep">
+              2m corollarium essentia 
+              <lb ed="#PV"/>simplicissima a nullo capit vel capere 
+              <lb ed="#PV"/>potest originem productive id est nullo 
+              <lb ed="#PV"/>potest produci patet quia non a superiori 
+              <lb ed="#PV"/>quia non habet nec habere potest <del rend="strikethrough">originem 
+              <lb ed="#PV"/>productive</del> ab aequali ut <del>necretius</del> 
+              <lb ed="#PV"/>est nec a se per <name rend="#Augustine">augustinum</name> nichil
+              <lb ed="#PV"/>producit se ut sic Item <name rend="#Augustine">augustinus</name> <unclear>il</unclear> 
+              <lb ed="#PV"/>tres errores reputat maximum 
+              <lb ed="#PV"/>errorem istum scilicet quod producat aliquod 
+              <lb ed="#PV"/>se ut sic utque primo de trinitate 
+              <lb ed="#PV"/>unde nec reperitur in deo nec 
+              <lb ed="#PV"/>in creatura
+            </p>
+          </div>
+          <div xml:id="ppr-l72-Dd1e150">
+            <head xml:id="ppr-l72-Htcandi">Tertium corollarium: aliquod est suppositum naturae divinae inproductum</head>
+            <p xml:id="ppr-l72-tcacip">
+              3m corollarium aliquod <add place="above-line">est</add> suppositum 
+              <lb ed="#PV"/>simplicissime naturae scilicet divinae inproduc<lb ed="#PV"/>tum 
+              patet quia ipsa est inproducta 
+              <lb ed="#PV"/>et consistit in aliquo supposito 
+              <lb ed="#PV"/>vel aliquibus ergo datur aliquod 
+              <lb ed="#PV"/>eius suppositum non productum 
+              <lb ed="#PV"/>quia esset circulatio alias
+            </p>
+          </div>
+          <div xml:id="ppr-l72-Dd1e162">
+            <head xml:id="ppr-l72-Hqcscvp">Quartum corollarium</head>
+            <head xml:id="ppr-l72-Hd1e167" type="question-title">
+              Summa simplicitas non potest in unico supposito consistere vel persistere
+            </head>
+            <p xml:id="ppr-l72-qcsedr">
+              4m 
+              <lb ed="#PV"/>corollarium summa simplicitas non potest 
+              <lb ed="#PV"/>in unico supposito consistere 
+              <lb ed="#PV"/>vel persistere probatur ex duplici 
+              <lb ed="#PV"/>radice 
+            </p>
+            <p xml:id="ppr-l72-pqsmic">
+              primo quia summa sim<lb ed="#PV"/>plicitas 
+              ut dictum est inmensa 
+              <lb ed="#PV"/>fecunditas ergo est communicativa et 
+              <lb ed="#PV"/>summe ergo ad aequalitatem et 
+              <lb ed="#PV"/>non multitudo essentiam quia 
+              <lb ed="#PV"/>non est multiplicabilis propter 
+              <lb ed="#PV"/>simplicitatem ergo etc
+            </p>
+            <p xml:id="ppr-l72-cqeqds">
+              Confirmatur 
+              <lb ed="#PV"/>nam esse diffusum est denominatio 
+              <lb ed="#PV"/>perfectionis simpliciter ergo competit deo 
+              <pb ed="#PV" n="132-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>non dum simpliciter sed tum ista 
+              <lb ed="#PV"/>additione inmense igitur deus 
+              <lb ed="#PV"/>est inmense diffusivus sui et hoc 
+              <lb ed="#PV"/>non potest esse nisi habeat 2m immen<lb ed="#PV"/>sum 
+              quia per creaturam non in<lb ed="#PV"/>mense 
+              se diffundit ergo hoc 
+              <lb ed="#PV"/>erit generando aliam subsis<lb ed="#PV"/>tentia 
+              quae erit eadem essentia 
+              <lb ed="#PV"/>et quae est diffusivus diffudit 
+              <lb ed="#PV"/>quia in aeternis idem est esse 
+              <lb ed="#PV"/>et posse esse 
+            </p>
+          </div>
+          <div xml:id="ppr-l72-Dd1e184">
+          <head xml:id="ppr-l72-Hqcppdg">Quintum corollarium</head>
+          <head xml:id="ppr-l72-Hd1e189" type="question-title">Prima diffusio in divinis verissime potest dici generatio</head>
+            <p xml:id="ppr-l72-qcpacp">
+              Quintum corollarium prima 
+              <lb ed="#PV"/>diffusio vel productio in divinis 
+              <lb ed="#PV"/>procedens a persona non producta 
+              <lb ed="#PV"/>verissime potest dici generatio ymmo 
+              <lb ed="#PV"/>verissime est generatio patet 
+              <lb ed="#PV"/>quia vivens producit aliud vivens 
+              <lb ed="#PV"/>et producit aquale sibi per omnia 
+              <lb ed="#PV"/>modo haec est generatio proprie dicta 
+              <lb ed="#PV"/>mere unica ex quo producens 
+              <lb ed="#PV"/>et productum sunt eiusdem naturae 
+              <lb ed="#PV"/>modo prima productio non cau<lb ed="#PV"/>sans 
+              essentiam sua est vivens 
+              <lb ed="#PV"/>et 2a est vivens et est eadem essentiam 
+              <lb ed="#PV"/>igitur est realiter generatio
+              <lb ed="#PV"/>unde ad generationem requiritur 
+              <lb ed="#PV"/>quod extrema scilicet ginguens et ge<lb ed="#PV"/>nitum 
+              sunt viventia
+              <!-- break --> 
+              2o quia 
+              <lb ed="#PV"/>convenit in natura et sunt similia 
+              <lb ed="#PV"/>et per modum naturae unum praecedit 
+              <lb ed="#PV"/>aliud 
+            </p>
+          </div>
+          <div xml:id="ppr-l72-Dd1e205">
+            <head xml:id="ppr-l72-Hscqdvf">Sextum corollarium</head>
+            <head xml:id="ppr-l72-Hd1e210" type="question-title">
+              Quod persona producens et non producta proprie loquendo 
+              debet vocari Pater et persona producta debet vocari Filius
+            </head>
+            <p xml:id="ppr-l72-scqpcc">
+              Sequitur quod persona divina 
+              <lb ed="#PV"/>producens et non producta propri<lb ed="#PV"/>issime 
+              loquendo debet vocari pater 
+              <lb ed="#PV"/>Sequitur consimiliter quod persona pro<lb ed="#PV"/>ducta 
+              debet vocari filius et quia 
+              <lb ed="#PV"/>haec non est in vita vegetabili
+              <lb ed="#PV"/>vel sensitiva sed intellectuali per<lb ed="#PV"/>sona 
+              quae est filius debet dici verum 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>nam in vita vegetativa sortitur 
+              <lb ed="#PV"/>denominationem filii ita quod ly filius 
+              <lb ed="#PV"/>est nomen commune sed quia est intellectuale 
+              <lb ed="#PV"/>quod generat genitum <unclear>divinum</unclear> et est non 
+              <lb ed="#PV"/>filii per modum intellectualis pro<lb ed="#PV"/>cedentis 
+              quia est expressivum <unclear>notatur</unclear> divinae 
+              <lb ed="#PV"/>et <unclear>omnium</unclear> in illa natura relucentium 
+            </p>
+            <p xml:id="ppr-l72-caqenp">
+              Et 
+              <lb ed="#PV"/>ideo etiam debet vocari ymago patris quia 
+              <lb ed="#PV"/>est verum mentale ex primens totam 
+              <lb ed="#PV"/>naturam patris seu esse aeternum et totam 
+              <lb ed="#PV"/>naturam essentiae divinae unde 
+              <lb ed="#PV"/>exructavit cor meum verbum bonum 
+              <lb ed="#PV"/>apparet quare filio attribuitur 
+              <lb ed="#PV"/>quod est speculum et ymago patris 
+              <lb ed="#PV"/>quia procedit per modum verbi 
+            </p>
+            <p xml:id="ppr-l72-eqaips">
+              <lb ed="#PV"/>Ex istis apparet quod pluralitas divinarum 
+              <lb ed="#PV"/>personarum non repugnat summe 
+              <lb ed="#PV"/>simplicitati immo sequitur quod plura<lb ed="#PV"/>litas 
+              divinarum personarum est proprie<lb ed="#PV"/>tas 
+              summae simplicitatis et inmense 
+              <lb ed="#PV"/>et eam sequens tamquam eius 
+              <lb ed="#PV"/>propria conditio patet error illorum 
+              <lb ed="#PV"/>qui propter simplicitatem divinam 
+              <lb ed="#PV"/>neutra pluralitatem personarum 
+              <lb ed="#PV"/>negant pluralitatem personarum 
+              <lb ed="#PV"/>quia inferunt contrarium illius 
+              <lb ed="#PV"/>quod <unclear>deductio</unclear> <unclear>naturam</unclear> est inferri
+            </p>
+          </div>
+          <div xml:id="ppr-l72-Dd1e227">
+            <head xml:id="ppr-l72-Hscqsvt">Septimum corollarium</head>
+            <head xml:id="ppr-l72-Hd1e232" type="question-title">Quod non est ad extra communicabile creaturae quod una essentia sit plures personae vel subsistentiae vel Trinitas</head>
+            <p xml:id="ppr-l72-scqnae">
+              sequitur 
+              <lb ed="#PV"/>quod non est adextra communicabile scilicet creaturae 
+              <lb ed="#PV"/>quia una essentia sit plures 
+              <lb ed="#PV"/>personae vel subsistentiae vel 
+              <lb ed="#PV"/>supposita quia esse plura supposita 
+              <lb ed="#PV"/>est propria conditio summae simplicitatis
+              <lb ed="#PV"/>ut deductum est non nego quin 
+              <lb ed="#PV"/>staret eandem creaturam pluribus 
+              <lb ed="#PV"/>subsistentiis subsistere extrinsece 
+              <lb ed="#PV"/>et <unclear>alii</unclear> non esset aliquod illorum ut 
+              <lb ed="#PV"/>si tres personae assumere ut simul 
+              <lb ed="#PV"/>eandem humanitatem
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l72-Dd1e243">
+          <head xml:id="ppr-l72-Htpfamt">Tres propositiones fidei et tria genera propositiones ad quae reducuntur omnes propositiones pertinentis ad materiam Trinitatis</head>
+          <p xml:id="ppr-l72-pmtamt">
+            pro materiae 
+            <pb ed="#PV" n="132-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>trinitatis licet sit ineffabilis tamen 
+            <lb ed="#PV"/>pro declaratione praesuppositis prin<lb ed="#PV"/>cipiis 
+            alias positis de inmensitate 
+            <lb ed="#PV"/>praemittam propositiones ex quibus pate<lb ed="#PV"/>bit 
+            in quibus consistit positio 
+            <lb ed="#PV"/>dei deinde addam tres modos 
+            <lb ed="#PV"/>ad quos reducuntur omnes propositiones 
+            <lb ed="#PV"/>pertinentis ad materiam trinitatis <unclear>primo</unclear> 
+            <lb ed="#PV"/>fidei consistit in istis tribus propositioni<lb ed="#PV"/>bus 
+          </p>
+          <div xml:id="ppr-l72-Dd1e254">
+            <head xml:id="ppr-l72-Htpftpf">Tres propositiones fidei</head>
+            <div xml:id="ppr-l72-Dd1e259">
+              <head xml:id="ppr-l72-Hprpprp">Prima propositio</head>
+              <p xml:id="ppr-l72-ppfids">
+                prima unica natura vel essentia 
+                <lb ed="#PV"/>summa est res distincte personae 
+                <lb ed="#PV"/>ypostases supposita vel subsis<lb ed="#PV"/>tentiae
+                <lb ed="#PV"/>quarum una <add place="above-line">non</add> est alia et 
+                <lb ed="#PV"/>essentia divina est quaelibet illarum 
+                <lb ed="#PV"/>supponitur tamquam proprietates naturae inmen<lb ed="#PV"/>sae 
+              </p>
+            </div>
+            <div xml:id="ppr-l72-Dd1e278">
+              <head xml:id="dT70Hsapsap">Secunda propositio</head>
+              <p xml:id="ppr-l72-spuqnp">
+                2a propositio fidei una persona 
+                <lb ed="#PV"/>producit aliam et non producitur 
+                <lb ed="#PV"/>et ambae producunt 3am quae 
+                <lb ed="#PV"/>non producit et loquor semper 
+                <lb ed="#PV"/>ad intra
+              </p>
+            </div>
+            <div xml:id="ppr-l72-Dd1e287">
+              <head xml:id="ppr-l72-Htpotpo">Tertia propositio</head>
+              <p xml:id="ppr-l72-tpesnr">
+                3a propositio exprimenda 
+                <lb ed="#PV"/>est praesens materia 2m modum a spiritu sancto 
+                <lb ed="#PV"/>nobis per scripturam et ecclesiam 
+                <lb ed="#PV"/>istorum patrum et etiam doctorum 
+                <lb ed="#PV"/>doctrinam nobis traditam ut 
+                <lb ed="#PV"/>prima producto vacetur generatio 
+                <lb ed="#PV"/>unde licet sic rationes ad probandum 
+                <lb ed="#PV"/>melius est in primo reducetur 
+                <lb ed="#PV"/>ad fidem unde prima persona 
+                <lb ed="#PV"/>producens vocatur pater secunda persona 
+                <lb ed="#PV"/>dicitur genito et vocatur filius 
+                <lb ed="#PV"/>et tamen 2a productio dicitur 
+                <lb ed="#PV"/>esse spiratio et 3a persona non produ<lb ed="#PV"/>ctionis 
+                sed producta dicitur esse spiritus sanctus amor 
+                <lb ed="#PV"/>vel donum vel caritas et sic ista 
+                <lb ed="#PV"/>sunt nobis data spiritu sancto <unclear>revela<lb ed="#PV"/>ta</unclear>
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l72-Dd1e299">
+            <head xml:id="ppr-l72-Htgpimt">Tria genera propositionum concurrentium communiter in materia Trinitatis</head>
+            <p xml:id="ppr-l72-stgimt">
+              Circa istam materia sunt 
+              <lb ed="#PV"/>tres latitudines propositionum 
+            </p> 
+            <p xml:id="ppr-l72-pehvvv">
+              prima est propositionum habentium difficultatem 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>ex usu vocabuli
+            </p> 
+            <p xml:id="ppr-l72-sgeapr">
+              2a latitudo est 
+              <lb ed="#PV"/>propositionum habentium difficultatum ex 
+              <lb ed="#PV"/>difficultate a parte rei 
+            </p>
+            <p xml:id="ppr-l72-tpqpit">
+              3a propositionum 
+              <lb ed="#PV"/>quae nichil addunt super articulum 
+              <lb ed="#PV"/>principalem
+              <!-- break ? --> 
+              prima latitudo reducitur 
+              <lb ed="#PV"/>ad 2am per potentiam vocabulorum 
+              <lb ed="#PV"/>et resolutionem ad bonos conceptus 
+              <lb ed="#PV"/>2a reducitur ad 3am 
+              
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l72-Dd1e318">
+          <head xml:id="ppr-l72-Hmannes">Manuductiones</head>
+          <p xml:id="ppr-l72-avarat">
+            Antequam 
+            <lb ed="#PV"/>veniam ad reductionem difficultatum 
+            <lb ed="#PV"/>particularum circa ista tria genera 
+            <lb ed="#PV"/>propositionum Sunt prius aliquem manu<lb ed="#PV"/>ductiones 
+            adducendae iuxta 
+            <lb ed="#PV"/>instructionem <name>dyonisii</name> et <name>augustini</name>
+            <lb ed="#PV"/>inducam auctoritates veteris testamenti 
+            <lb ed="#PV"/>contra iudaeos ad ostendendum 
+            <lb ed="#PV"/>quod in veteri testamenta reluce<lb ed="#PV"/>at 
+            huiusmodi articulus trinitatis 
+          </p> 
+          <div xml:id="ppr-l72-Dd1e332">
+            <head xml:id="ppr-l72-Havtavt">Auctoritates veteris testamenti</head>
+            <p xml:id="ppr-l72-epsqai">
+              <lb ed="#PV"/>primo arguitur sic nam articulus trinitatis 
+              <lb ed="#PV"/>est articulus fidei principalis ergo ad illum <!-- illum=articulus -->
+              <lb ed="#PV"/>obligantur iudaei consequentia licet quia 
+              <lb ed="#PV"/>est de articulis principalibus et non de illis qui 
+              <lb ed="#PV"/>ex tempore sumpserunt originem 
+              <lb ed="#PV"/>ut circa sacra novae legis
+            </p>
+            <p xml:id="ppr-l72-saiiat">
+              Item 
+              <lb ed="#PV"/>testimonio christi qui dicit expresse 
+              <lb ed="#PV"/>iudaeis <quote xml:id="ppr-l72-Qd1e346" source="http://scta.info/resource/io5_39">scrutamini scripturas 
+              <lb ed="#PV"/>in quibus putatis vitam habere</quote>
+              et hoc loquendo de sua divinita<lb ed="#PV"/>te 
+              et emanatione eius in patre 
+              <lb ed="#PV"/>Et ideo si diligenter scrutentur 
+              <lb ed="#PV"/>scripturas reperirent quod in veteri 
+              <lb ed="#PV"/>testamento reluceat huiusmodi 
+              <lb ed="#PV"/>articulus trinitatis
+            </p>
+            <p xml:id="ppr-l72-taiptp">
+              Item alibi <unclear>salvator</unclear> 
+              <lb ed="#PV"/>dicit<quote xml:id="ppr-l72-Qd1e358" source="http://scta.info/resource/io5_46"><name ref="#Moses">moyses</name> etiam scripsit <sic>divinae<!-- clear mistake in ms, should be "de me"--></sic></quote>
+              <lb ed="#PV"/>Circa istam materiam <ref xml:id="ppr-l72-Rd1e367"><name ref="#Lombard">Magister</name> in 2a 
+              <lb ed="#PV"/>distinctione</ref> adducit multas auctoritates 
+              <lb ed="#PV"/><name ref="#NicholasOfLyra">magister de lyra</name> in ista 
+              <lb ed="#PV"/>materia etiam adducit multa et concludit 
+              <pb ed="#PV" n="133-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>finaliter quod sufficienter deducitur 
+              <lb ed="#PV"/>sed non evidenter scilicet ex veteri testamento 
+              <lb ed="#PV"/>contradico sibi quantum ad hoc et 
+              <lb ed="#PV"/>dico quod evidenter deducitur Adver<lb ed="#PV"/>tendum 
+              quod evidentia deductionis 
+              <lb ed="#PV"/>non debet attendi nisi quantum ad 
+              <lb ed="#PV"/>illum qui sapit scripturam et intelligit 
+              <lb ed="#PV"/>patet quia nisi sic ex <ref xml:id="ppr-l72-Rd1e386">commento 
+              <lb ed="#PV"/><unclear>campan?m</unclear></ref> non habetur evidenter 
+              <lb ed="#PV"/>quod super lineam datam contingit 
+              <lb ed="#PV"/>triangulum collocare Et ideo intelligitur 
+              <lb ed="#PV"/>quia intellectum sit bene dispositus 
+              <lb ed="#PV"/>et intelligit naturam unde haec consequentia 
+              <lb ed="#PV"/>non valet Solam esse maiorem 
+              <lb ed="#PV"/>tota terra non est demonstrabile 
+              <lb ed="#PV"/>rustico
+              <!-- braek --> Circa istam materiam 
+              <lb ed="#PV"/>ponitur <unclear>exemplicatio</unclear> ad probandum 
+              <lb ed="#PV"/>et ostendendum qoud evidenter apud 
+              <lb ed="#PV"/>iudicem non male dispositum 
+              <lb ed="#PV"/>deduceretur articulus trinitatis ex veteri 
+              <lb ed="#PV"/>testamento unde sub <name>papa silvester</name>
+              <lb ed="#PV"/>regnante <unclear>constavit</unclear> <del rend="strikethrough">rgii</del> certantibus 
+              <lb ed="#PV"/>iudaeis cum christianis causa 
+              <lb ed="#PV"/>tuti fuerunt duo iudices indifferen<lb ed="#PV"/>tes 
+              scilicet duo philosophi qui audiverunt 
+              <lb ed="#PV"/>deductiones iudaeorum et christianorum 
+              <lb ed="#PV"/>detulerunt sententiam et sic non est dubium 
+              <lb ed="#PV"/>quin ita sit positio fidei et istud suf<lb ed="#PV"/>ficat 
+              pro fundamento 
+            </p>
+          </div>
+          <div xml:id="ppr-l72-Dd1e421">
+            <head xml:id="ppr-l72-Hdmcdmc">Duae manudcutiva <name ref="#Chatton">Chatton</name></head>
+            <p xml:id="ppr-l72-dstcss">
+              Adver<lb ed="#PV"/>tendum 
+              circa istam materiam <ref xml:id="ppr-l72-Rd1e432"><name ref="#Chatton">Scha<lb ed="#PV"/>ton</name> 
+              supra sententias</ref> ponit manuduc<lb ed="#PV"/>tiva
+            </p> 
+            <p xml:id="ppr-l72-uiqpea">
+               primum ymaginandum dicit quod 
+              <lb ed="#PV"/>sunt duae res repugnantes 
+              <lb ed="#PV"/>relative inter se realiter quod nullo 
+              <lb ed="#PV"/>modo in tali habitudine una possit 
+              <lb ed="#PV"/>esse alia
+            </p>
+            <p xml:id="ppr-l72-siqrac">
+              <pc type="virgula">/</pc> postea ymaginandum quod ille 
+              <lb ed="#PV"/>duo res respectu unus alterius 
+              <lb ed="#PV"/>rei non habeant huiusmodi repugnan<lb ed="#PV"/>tiam 
+              immo quod uni alteri possit 
+              <lb ed="#PV"/>ydemptificari ut sic essentia
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>nuda ad quam non habeant 
+              <lb ed="#PV"/>repungnantiam relativam scilicet ponamus 
+              <lb ed="#PV"/>quod <c>a</c> et <c>b</c> concurrant ydemptice cum 
+              <lb ed="#PV"/><c>c</c> hoc est ymaginabile quia nec <c>a</c> 
+              <lb ed="#PV"/>nec <c>b</c> habent repugnantiam formalem 
+              <lb ed="#PV"/>respectu <c>c</c> quin possit ydemptificari 
+              <lb ed="#PV"/>tunc erit <c>c</c> etiam <c>b</c> erit <c>c</c> <unclear>tamen</unclear> adhuc 
+              <lb ed="#PV"/>remanebit distinctio et repugnantia 
+              <lb ed="#PV"/>relativa vel talis habitudo quod 
+              <lb ed="#PV"/>numquam possit esse una alia 
+              <lb ed="#PV"/>et respectu illius 3ae scilicet respectu <c>c</c> 
+              <lb ed="#PV"/>non habet habitudinem repugnare 
+              <lb ed="#PV"/>quam habet inter se 
+            </p>
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l72-eiinae">
+              unde tanta 
+              <lb ed="#PV"/>ydemptitate pater est idem cum essentia 
+              <lb ed="#PV"/>sicut cum se ipso quia ad essentiam 
+              <lb ed="#PV"/>nullam habet causam intrinsecam 
+              <lb ed="#PV"/>distinctiones ad filium habet Et sicut in exemplo 
+              <lb ed="#PV"/>praedicto patet ponitur de duabus tribus
+              <lb ed="#PV"/>ita ymagine videtur de tribus et habebitur 
+              <lb ed="#PV"/>ymaginatio trinitatis
+            </p>
+            <p xml:id="ppr-l72-sicene">
+              2a ymaginatio 
+              <lb ed="#PV"/>sua est ista ipse ymaginatur 
+              <lb ed="#PV"/>quod sunt duo genera distinctionum 
+              <lb ed="#PV"/>realium realiter distincta Ita quod 
+              <lb ed="#PV"/>relativa distinctio est unus modus distinctionis 
+              <lb ed="#PV"/>et essentialis distinctio est alius modus 
+              <lb ed="#PV"/>in eadem re et ymaginemur 
+              <lb ed="#PV"/>quod isti modi vel istae distinctiones 
+              <lb ed="#PV"/>sunt realiter res diversae ergo stat quod 
+              <lb ed="#PV"/>inter distincta tam relative 
+              <lb ed="#PV"/>quam essentialiter tollatur distinctus essentialis 
+              <lb ed="#PV"/>remanente alia distinctione scilicet relativa 
+              <lb ed="#PV"/>quo dato habetur ymaginatio trinitatis
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
