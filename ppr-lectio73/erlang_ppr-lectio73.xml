@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 73, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 73, De Trinitate [Erlangen Transcription]</title>
+          <date when="2020-08-05">August 5, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-08-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="99-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio73">
+        <head xml:id="ppr-l73-Hldtldt">Lectio 73, de Trinitate [Erlangen Transcription]</head>
+        <div xml:id="ppr-l73-Dd1e109">
+          <head xml:id="ppr-l73-Hdmdmdm">Decima manuductiones</head>
+          <p xml:id="ppr-l73-cmcsma">
+            <lb ed="#E"/>Sequitur Alia lectione
+            <lb ed="#E"/>Consequenter continuando materiam inceptam ad formationem intellectus circa apprehensionem 
+            <lb ed="#E"/>misterii trinitatis sunt adducendae manuductiones
+          </p>
+          <p xml:id="ppr-l73-pesoit">
+            prima est <name ref="#WilliamOfParis">magistri wilhelmi parisiensis</name> 
+            <lb ed="#E"/>Considerando animam 2m triplicem habitudinem primo ut est in se quaedam vita intrinseca Secundo ex hoc 
+            <lb ed="#E"/>oritur quod sit est apprehensiva vel intellectiva et 3o ex duobus illis oritur quod sit affectiva et quantum 
+            <lb ed="#E"/>ad hoc intrinsece repraesentatur in ea quid ordo increatae trinitatis
+          </p>
+          <p xml:id="ppr-l73-smeiai">
+            Secunda manuductio iuxta aliquorum 
+            <lb ed="#E"/>ymaginationem quod potentiae animae sunt realiter inter se distinctae et quod nichilominus concurrunt ydemptice cum ipsa anima 
+            <lb ed="#E"/>scilicet quod substantia animae est realiter potentia quae est memorativa et est specierum intelligibilium deinde 
+            <lb ed="#E"/>est potentia realiter intellectiva deinde volitiva Isti ymaginantur quod huiusmodi potentiae realiter 
+            <lb ed="#E"/>inter se distinguantur Ita quod memoria realiter non est intellectiva nec intellectiva vis volitiva licet concurrant 
+            <lb ed="#E"/>ydemptice cum anima et sic quantum ad hoc esset magna similitudo trinitatis Nam sic in trinitate 
+            <lb ed="#E"/>ponamus patrem per modum speciei intelligibilis et est realiter idem cum essentia deinde secunda persona 
+            <lb ed="#E"/>est idem cum essentia et est intelligentia vel verbum per modum notitiae productum consequenter spiritum sanctum ponimus 
+            <lb ed="#E"/>amorem distinctum a qualibet aliarum personarum Et sic est magna similitudo quia una potentia non producit 
+            <lb ed="#E"/>realiter aliam sicut in divinis Sed tamen quantum ad modum capiendi quod una res sit tres similitudo 
+            <lb ed="#E"/>est congrua et conveniens
+          </p>
+          <p xml:id="ppr-l73-tmcipa">
+            Tertio possumus manuduci ex actibus potentiarum animae Nam primo anima 
+            <lb ed="#E"/>recipit speciem intelligibilem et per eam actualiter et ab illa specie procedit cognitio vel notitia de re cuius 
+            <lb ed="#E"/>est species in potentia et formaliter proportionaliter de eodem obiecto cognitio deinde ex specie intelligibili 
+            <lb ed="#E"/>et cognitione procedit affectio vel voluntas boni praesentati per hunc hoc modum vel rei praesentate vel 
+            <lb ed="#E"/>cognitae ex isto modo et praecedente simul iunctis habetur congrua similitudo trinitatis
+          </p>
+          <p xml:id="ppr-l73-qmieit">
+            Quartus 
+            <lb ed="#E"/>modus potest esse ymaginando quod accidentia diversa et diversarum specierum ex inhaeseione et subiecto realiter 
+            <lb ed="#E"/>ydemptificentur sicut multi tenuerunt de qualibus forma mundi quod vi unionis sit ydemp<lb ed="#E"/>tificatio 
+            sic quod unum realiter sit reliquum Consequenter ymaginatur de anima tria accidentia scilicet speciem 
+            <lb ed="#E"/>intelligibilem alicuius obiecti notitiam illius obiecti procedente ad huiusmodi specie et amorem consequenter Et si yma<lb ed="#E"/>ginemur 
+            quod concurrant ydemptice cum subiecto et vi unionis consurgat ydemptificatio habetur 
+            <lb ed="#E"/>ymaginatio et sic habemus speciem intelligibilem quae realiter esset anima et cognitionem et amorem quorum 
+            <lb ed="#E"/>accidentium quodlibet realiter esset anima et ista accidentia non uniuntur inter se et ergo negantur 
+            <lb ed="#E"/>de se invicem et sic modus iste est declarativus ymaginationis trintiatis quia ponimus patrem 
+            <lb ed="#E"/>et filium et spiritum sanctum realiter distingui et concurrere ydemptice cum essentia 
+          </p>
+          <p xml:id="ppr-l73-qmseca">
+            Iste modus ymaginandi 
+            <lb ed="#E"/>ydemptitate aliquod cum distinctione et iste supponendo quod eadem materia possit esse in diversis locis 
+            <lb ed="#E"/>etiam forma patet de corpore christi et conceditur consequenter in theologia ponamus casum quod <name>sortes</name> 
+            <lb ed="#E"/>applicet se ad cognitionem filii deinde in instanti decisionis <unclear>scivis</unclear> tota materia sortis ponatur sub 
+            <lb ed="#E"/>forma seminis ita quod tota materia eadem sit in sorte et in semine consequenter usque ad animae intellective 
+            <lb ed="#E"/>productionem deinde quando est sufficienter organisata quod realiter anima sortis ponatur in huiusmodi 
+            <pb ed="#E" n="99-v"/>
+            <lb ed="#E"/>materia ipsa tamen cum haec remanente in sorte tunc sortes et filius suus sunt 
+            <lb ed="#E"/><sic>sunt</sic> eadem essentia quia sunt eadem materia et eadem forma et tamen remanent inter 
+            <lb ed="#E"/>sortem et platonem distinctio relativa quia unus est filius et alter pater et sic oportet quod sit ibi oppositio 
+            <lb ed="#E"/>ratione habitudinis relative tollens affirmationem praedicatorum de se invicem et tamen sunt eadem 
+            <lb ed="#E"/>quiditas ergo oportet quod ibi sit in alia distinctio alias idem generet se quod est contra <name ref="#Augustine">augustinum</name>.
+          </p>
+          <p xml:id="ppr-l73-sieeee">
+            6ta 
+            <lb ed="#E"/>supponendo unam opinionem Quam recitat <name ref="#Lombard">magister</name> in 3o de unione ypostatica et est una opinio 
+            <lb ed="#E"/>inter 3es ibi recitatas videlicet quod illa unio fiat realiter per ydemptificationem naturae assumptae a 
+            <lb ed="#E"/>supposito sustentificante sic ergo una natura quae assumatur gratia exempli a tribus angelis 
+            <lb ed="#E"/><unclear>personaliter</unclear> realiter et essentialiter distinctis tunc ista natura erit <c>a</c> angelus <c>b</c> et <c>c</c> et unus angelus 
+            <lb ed="#E"/>propter hoc non erit aliter et tamen sunt una natura et ad hoc sunt distinctae personae licet sit eadem 
+            <lb ed="#E"/>quiditas et eadem entitas
+          </p>
+          <p xml:id="ppr-l73-smehit">
+            Septimus modus ymaginandi est ponendo quod unus angelus 
+            <lb ed="#E"/>sit realiter in tribus locis tunc habet aliam ubertatem ut ita loquor in uno situ et aliam 
+            <lb ed="#E"/>in alio et tertiam adhuc in alia ponamus quod huiusmodi ubertates locabilitates sint relationes 
+            <lb ed="#E"/>distinctae concurrentes tamen ydemptice cum angelo unde aquae facile est ymaginari de relationibus 
+            <lb ed="#E"/>sicut de locationibus vel sitibus et habetur casus satis similis.
+          </p>
+          <p xml:id="ppr-l73-ompsss">
+            Octavus casus ponatur quod 
+            <lb ed="#E"/>sit aliqua intelligentia creata quae sit per sui essentiam superius cognitiva et etiam aliorum 
+            <lb ed="#E"/>et hoc  per suam essentiam et etiam sit dilectiva per suam essentiam illo tamen non obstante possit 
+            <lb ed="#E"/>tamen notitiam a se distantiam sibi inhaerentem producere et etiam volitionem quae sunt adaequate 
+            <lb ed="#E"/>notitia vel volitio illorum quae cognoscit vel vult per suam essentiam producat ergo notitiam 
+            <lb ed="#E"/>repraesentativam sui ipsius et aliorum etiam producat amorem superadditum per quem diligatt 
+            illa quae per essentiam ponatur ulterius quod ydenptificentur cum essentia tunc habetur 
+            <lb ed="#E"/>ymaginatur et ratione originatoris erit <unclear>distinctio</unclear> et tamen erit concursus ydempticus quod erit distinctio patet quia unum 
+            <lb ed="#E"/>producit aliud <name ref="#WilliamOfParis">wilhelmus parisisensis</name> in libro de divinali misterio ponit
+          </p>
+          <!-- bad break... needs review -->
+          <p xml:id="ppr-l73-nmedis">
+            aliam manuductionem secundum istam 
+            <lb ed="#E"/>ut videbatur <name>magister p pleu</name> non multum approbavit unde dicit <name>wilhelmus</name> quod in triangulo sunt 
+            <lb ed="#E"/>tres angeli distincti et tamen non est nisi una superficies ergo tres anguli licet sint tres quilibet tamen 
+            <lb ed="#E"/>est eadem superficies 2m suam quiditatem
+          </p>
+          <p xml:id="ppr-l73-deqpeh">
+            Alia manuductio ex dictis philosophorum maxime ex positione 
+            <lb ed="#E"/><name>platonis</name> et <name>heremeticis</name>
+          </p>
+          <p xml:id="ppr-l73-npppci">
+            <name>plato</name> posuit quod species est communis quiditas omnium suorum individuorum et non 
+            <lb ed="#E"/>loquitur de terminis quia de illis ideo esset difficultas sed loquitur a parte rei ponendo hominem 
+            <lb ed="#E"/>qui est essentia sortis et platonis et tamen sortes non est plato unde 2m platonem sortes plato 
+            <lb ed="#E"/>et cycero sunt eadem quiditas humana et ergo positio platonica ponit proportionaliter ad yma<lb ed="#E"/>ginationem 
+            trinitatis et ponit quod quidditas hominis est simpliciter incorruptibilis ymmo ista positio 
+            <lb ed="#E"/>platonis est difficilior quam ymaginationem trinitatis quia eandem quiditatem ponit rem aeternam 
+            <lb ed="#E"/>et rem corruptibile quia est illa quiditas quae est incorruptibilis annichilabilis etc
+          </p>
+          <p xml:id="ppr-l73-htpdnp">
+            <lb ed="#E"/> <name>hermes trismegesti</name> ponit quod deus est quiditative mundus et ratione productionis dicitur deus a mundo 
+            <lb ed="#E"/>realiter et personaliter et tamen mundus est eadem quiditas quae est deus et quae est mundus Et 
+            <lb ed="#E"/>illud valet nobis ad defensandum articulum contra gentiles quia sui mirabiliora ponunt
+          </p>
+        </div>
+        <div xml:id="ppr-l73-Dd1e284">
+          <head xml:id="ppr-l73-Hnotlia">Notabilia</head>
+          <p xml:id="ppr-l73-cppepn">
+            Circa praedicta 
+            <lb ed="#E"/>pro maiori evidentia vel faciliori conceptione naturae praesentis dico aliqua per modum notabilium
+          </p>
+          <div xml:id="ppr-l73-Dd1e292">
+            <head xml:id="ppr-l73-Hprimum">Primum</head>
+            <p xml:id="ppr-l73-pqeimp">
+              primum 
+              <lb ed="#E"/>rationale quod negatio mutua christianorum actualiter existentium non infert unum non esse essentiam 
+              <lb ed="#E"/>alterius verbi gratia si sit naturae terminorum vel extremorum huiusmodi mutua negatio non infert unum non 
+              <lb ed="#E"/>esse essentiam alterius unde quod <c>a</c> non est <c>b</c> non infert essentiam a non esse essentiam <c>b</c> patet 
+              <lb ed="#E"/>in materia opinionis platonis ut sortes non est plato et tamen sunt eadem essentia ut secundum 
+              <lb ed="#E"/>platonem nam sequitur sortes non est plato ergo essentia sortis non est essentia platonis
+            </p>
+          </div>
+          <div xml:id="ppr-l73-Dd1e342">
+            <head xml:id="ppr-l73-Hsecdum">Secundum</head>
+            <p xml:id="ppr-l73-sneiep">
+              Secundum 
+              <lb ed="#E"/>notabile Affirmationes oppositae huiusmodi negationibus non praecise denominant ydemptitatem 
+              <lb ed="#E"/>essentialem nam si sic ista esset vera sortes est plato scilicet si sortes denominaretur praecise quod essen<lb ed="#E"/>tia 
+              sortis esset essentia platonis ipsa esset vera secundum platonem Et sic de ista pater in divinis est 
+              <lb ed="#E"/>filius in divinis si praecise affirmaret ydemptitatem essentiae et sic ista esset vera pater in divinis
+              <pb ed="#E" n="100-r"/>
+              <lb ed="#E"/>est filius in divinis quae est heretica
+            </p>
+          </div>
+          <div xml:id="ppr-l73-Dd1e357">
+            <head xml:id="ppr-l73-Hterium">Tertium</head>
+            <p xml:id="ppr-l73-eqsnep">
+              Sequitur 3o quod per huiusmodi affirmativa denotatur suppo<lb ed="#E"/>sitalis
+              vel personalis ydemptitas
+            </p>
+          </div>
+          <div xml:id="ppr-l73-Dd1e367">
+            <head xml:id="ppr-l73-Hquatum">Quartum</head>
+            <p xml:id="ppr-l73-qnqpss">
+              Quartum notabile quod esse sortem vel platonem vel 2m indivi<lb ed="#E"/>dualem 
+              rationalem denominari non consurgit inmediate ex absoluta et essentiali ratione quidditativa 
+              <lb ed="#E"/>patet quia sortes et plato habent eundem rationem quidditativam ymmo omnis competens uni competit 
+              <lb ed="#E"/>alteri Ita consequenter diceretur de huiusmodi denominationibus scilicet esse patrem esse filium Quia si 2m denominationem 
+              <lb ed="#E"/>essentialem tunc cuicumque competeret talis quiditas esset pater et filius quod non est dicendum
+            </p>
+          </div>
+          <div xml:id="ppr-l73-Dd1e391">
+            <head xml:id="ppr-l73-Hquitum">Quintum</head>
+            <p xml:id="ppr-l73-qdreea">
+              Quinto 
+              <lb ed="#E"/>notabile quod de ratione essentiali materiae et absolute sumpta non est aliqua negatio vel negationis inclusio 
+              <lb ed="#E"/>Sequitur quod non repungnat essentiali rationi sortis quando sortes et plato sunt eadem quiditas Istud sequitur 
+              <lb ed="#E"/>ex praedictis quia ratio quiditatis nullam includit negationem nec esse sortis prout est esse huiusmodi individui 
+              <lb ed="#E"/>sumitur ex ratione absoluta
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l73-Dd1e416">
+          <head xml:id="ppr-l73-Hmitmit">Modi imaginandi Trinitatem</head>
+          <p xml:id="ppr-l73-eqsass">
+            Sequitur quod non est evidens repugnantia ex parte quidditatum quod sortes non 
+            <lb ed="#E"/>est plato sed est ex rationibus individualibus descendendo consequenter et veniendo ad personas divinas quia 
+            <lb ed="#E"/>tactum est ex parte essentialis rationis non repungnat diversas personas ydemptice concurrere ut 
+            <lb ed="#E"/>quod pater et filius sint eius quiditas et tamen pater non est filius quia sunt rationes personales Ita quod non 
+            <lb ed="#E"/>est de ratione essentiae quod sit pater <subst><del rend="strikethrough">et</del> <add place="above-line">vel</add></subst> filius patet ex praedictis quod simplicitate et unitate essen<lb ed="#E"/>tiarum 
+            stat pluralitas personarum etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
