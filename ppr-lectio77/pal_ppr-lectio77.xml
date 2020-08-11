@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -9,56 +10,75 @@
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2012.09-dev-master">
+        <edition n="0.0.0-dev">
           <title>Lectio 77, de Trinitate [Palatine Transcription]</title>
           <date when="2012-09-22">September 22, 2012</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>An SCTA Project</authority>
         <availability status="free">
           <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
-        <date when="2012-09-22">September 22, 2012</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV">PV</witness>
+          <witness xml:id="PV" n="pal">Palantine</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2012-09-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="141-r"/>
+        <cb ed="#PV" n="b"/>
       </div>
     </front>
     <body>
-      <div xml:id="lectio77">
-        <head xml:id="l76-Hldtldt" subtype="title">Lectio 77, de Trinitate [Palatine Transcription]</head>
-        <p>
+      <div xml:id="ppr-lectio77">
+        <head xml:id="ppr-l77-Hldtldt">Lectio 77, de Trinitate [Palatine Transcription]</head>
+        <p xml:id="ppr-l77-cmipdc">
           <lb ed="#PV"/><hi rend="largeFont">In alia Lectione</hi> 
           <lb ed="#PV"/>Ad aequaliter continuandum 
           <lb ed="#PV"/>materiam alias inceptam ponam 
           <lb ed="#PV"/>propositionem et inferam corollaria
         </p>
-        <p>
+        <p xml:id="ppr-l77-peinvo">
           propositio est 
           <lb ed="#PV"/>ista sicut ex gratuita dei providentia 
           <lb ed="#PV"/>scriptura non fuit sufficienter 
           <lb ed="#PV"/>evidens ad subiectum est infinitae 
           <lb ed="#PV"/>capacitatis et continentiae Sic christi 
-          <lb ed="#PV"/>sponsa ecclesia est infinitae fecun<lb ed="#PV"/>ditatis 
+          <lb ed="#PV"/>sponsa ecclesia est infinitae fecun<lb ed="#PV" break="no"/>ditatis 
           ad declarandum infinitas 
           <lb ed="#PV"/>conclusiones secundum infinitos casus 
           <lb ed="#PV"/>possibiles occurrere sensus propositionis est 
-          <lb ed="#PV"/>quod sicut scriptura sacra est infi<lb ed="#PV"/>nitae 
+          <lb ed="#PV"/>quod sicut scriptura sacra est infi<lb ed="#PV" break="no"/>nitae 
           continenciae et infinitas continet 
           <lb ed="#PV"/>veritates sicut sponsa christi ecclesia 
-          <lb ed="#PV"/>est <choice><orig>in finita</orig><reg>infinita</reg></choice> fecunditatis ad decla<lb ed="#PV"/>randum 
-          eas prima pars probatur 
-          <cb ed="#PV" n="141va"/>
+          <lb ed="#PV"/>est <choice><orig>in finita</orig><reg>infinita</reg></choice> fecunditatis ad decla<lb ed="#PV" break="no"/>randum 
+          eas 
+        </p>
+        <p xml:id="ppr-l77-ppesid">
+          prima pars probatur 
+          <pb ed="#PV" n="141-v"/>
+          <cb ed="#PV" n="a"/>
           <lb ed="#PV"/>ex auctoritate <name ref="#Augustine">augustini</name> in <title>de doctrina christiana</title> 
           <lb ed="#PV"/>quae communiter allegatur scilicet quidquid 
           <lb ed="#PV"/>in aliis scriptis <choice><orig>in venitur</orig><reg>invenitur</reg></choice> et si 
@@ -68,8 +88,8 @@
           <lb ed="#PV"/>in sacra scriptura et si <choice><orig>in utilia</orig><reg>inutilia</reg></choice> 
           <lb ed="#PV"/>dampnantur
         </p>
-        <p>
-          <lb ed="#PV"/>3a pars probatur primo ex im<lb ed="#PV"/>mensa 
+        <p xml:id="ppr-l77-spaqag">
+          <lb ed="#PV"/>3a pars probatur primo ex im<lb ed="#PV" break="no"/>mensa 
           fecunditate sponsi qui 
           <lb ed="#PV"/>perfecte <sic>convictus</sic> suae sponsae Ad 
           <lb ed="#PV"/>declarandum veritates filiis ecclesiae 
@@ -78,11 +98,11 @@
           <lb ed="#PV"/>tales sed etiam regulas honestatis 
           <lb ed="#PV"/>ad effectus rectificationem
         </p>
-        <p>
+        <p xml:id="ppr-l77-eppeif">
           Ex 
           <lb ed="#PV"/>prima parte infero primo quod licet 
           <lb ed="#PV"/>scripturae continentia et ecclesiae 
-          <lb ed="#PV"/>fecunditas aliquid alicui re<lb ed="#PV"/>ducta 
+          <lb ed="#PV"/>fecunditas aliquid alicui re<lb ed="#PV" break="no"/>ducta 
           quia scripturae continentia 
           <lb ed="#PV"/>est respectu omnium veritatum tangentium 
           <lb ed="#PV"/>gratuitu regimen ecclesiae et humanae 
@@ -90,58 +110,58 @@
           <lb ed="#PV"/>veritatem sed fecunditas ecclesiae non 
           <lb ed="#PV"/>actualiter reducta est ad cuiuscumque 
           <lb ed="#PV"/>veritatis cognitionem sicut ante determinationem 
-          <lb ed="#PV"/>spiritus sancti procederet a filio non fuerit ac<lb ed="#PV"/>tualiter 
+          <lb ed="#PV"/>spiritus sancti procederet a filio non fuerit ac<lb ed="#PV" break="no"/>tualiter 
           informata de illa veritate 
           <lb ed="#PV"/>licet illa veritas continebatur 
-          <lb ed="#PV"/>in ea est tamen sufficiens ad de<lb ed="#PV"/>clarandum 
+          <lb ed="#PV"/>in ea est tamen sufficiens ad de<lb ed="#PV" break="no"/>clarandum 
           eas propter sponsum 
           <lb ed="#PV"/>scilicet spiritum sanctum natum revelare 
           <lb ed="#PV"/>tres veritates
         </p>
-        <p>
+        <p xml:id="ppr-l77-scmris">
           <lb ed="#PV"/>2m corollarium <sic>maiore</sic> 
           <lb ed="#PV"/>scripturae continentia et altior quam 
           <lb ed="#PV"/>sit angeli notitia beatificata 
           <lb ed="#PV"/>non scriptura est contentiva 
           <lb ed="#PV"/>infinitarum veritatum angelus <unclear>so<lb ed="#PV"/>lum <!-- possible corrected --></unclear> 
           finitas percipit veritates patet a signo 
-          <lb ed="#PV"/>nam licet incarnationis mis<lb ed="#PV"/>terium 
+          <lb ed="#PV"/>nam licet incarnationis mis<lb ed="#PV" break="no"/>terium 
           esset in sacra scriptura 
           <lb ed="#PV"/>descriptum nihilominus tamen 
           <lb ed="#PV"/>latuit angelos sicut habetur <title>ysa</title>
-          <cb ed="#PV" n="b"/>
+          <cb ed="#PV" n="b"/><!-- 141vb-->
           <lb ed="#PV"/>ipsi admirantes dixerunt quis 
-          <lb ed="#PV"/>est iste qui venit de edam potest 
-          <lb ed="#PV"/>ipsi inferri
+          <lb ed="#PV"/>est iste qui venit de edam
         </p>
-        <p>
+        <p xml:id="ppr-l77-iptiss">
+          potest 
+          <lb ed="#PV"/>ipsi inferri
           <lb ed="#PV"/>3o quod maior est scripturae 
           <lb ed="#PV"/>continencia quam sit tota notitia 
           <lb ed="#PV"/>caelestis paradiso sub christo et nostrae eius 
           <lb ed="#PV"/>Ita quod totum residuum circa christum et 
           <lb ed="#PV"/>mentem eius propter reverentiam 
           <lb ed="#PV"/>ipsius non tantum et cognoscat in 
-          <lb ed="#PV"/>verbo quod relucent iustitia scrip<lb ed="#PV"/>tura 
+          <lb ed="#PV"/>verbo quod relucent iustitia scrip<lb ed="#PV" break="no"/>tura 
           vel continentur
         </p>
-        <p>
+        <p xml:id="ppr-l77-qcsomr">
           4m corollarium 
           <lb ed="#PV"/>sicut sacra scripturam principaliter fuit 
           <lb ed="#PV"/>edita propter spiritualem matrimonium 
           <lb ed="#PV"/>sponsi ad sponsam sic solus 
           <lb ed="#PV"/>sponsus etiam cepit plenarie
-        </p>
-        <p>
+          <!-- potential break -->
           <lb ed="#PV"/>prima pars patet Nam finis circa deum 
           <lb ed="#PV"/>totius spiritualis regiminis et divinae 
           <lb ed="#PV"/>providentiae fuit incarnatio verbi meritorium 
           <lb ed="#PV"/>spirituale christi ad sponsam Ita quod 
-          <lb ed="#PV"/>habemus <unclear>meritum</unclear> divinae provi<lb ed="#PV"/>dentiae 
+          <lb ed="#PV"/>habemus <unclear>meritum</unclear> divinae provi<lb ed="#PV" break="no"/>dentiae 
           et spiritualis regiminis ante 
-          <lb ed="#PV"/>verbi incarnationem et habemus consumma<lb ed="#PV"/>tionem 
+          <lb ed="#PV"/>verbi incarnationem et habemus consumma<lb ed="#PV" break="no"/>tionem 
           illius in incarnatione 
           <lb ed="#PV"/>et in passione et haec fuit intentio 
-          <lb ed="#PV"/>prophetarum unde <name>salomon</name> oscu<lb ed="#PV"/>letur 
+          <lb ed="#PV"/>prophetarum unde <name>salomon</name> oscu<lb ed="#PV" break="no"/>letur 
           me osculo omnis sui et licet 
           <lb ed="#PV"/>matrimonium esset inceptum non erat 
           <lb ed="#PV"/>tamen consummatum  per osculando 
@@ -150,28 +170,29 @@
           <lb ed="#PV"/>ecclesiae in fide et sic sponsus numquam 
           <lb ed="#PV"/>permitteret deficeret quando ipsa 
           <lb ed="#PV"/>sit fecunditas veritate in hiis 
-          <lb ed="#PV"/>quae tangunt fidem et bonos mo<lb ed="#PV"/>res 
+          <lb ed="#PV"/>quae tangunt fidem et bonos mo<lb ed="#PV" break="no"/>res 
           <!-- break -->
           2a pars patet nam sacra 
           <lb ed="#PV"/>scriptura est infinitae continentiae 
           <lb ed="#PV"/>et continet infinitas altissimas 
-          <lb ed="#PV"/>veritates sed nulli creaturae est communica<lb ed="#PV"/>ta 
+          <lb ed="#PV"/>veritates sed nulli creaturae est communica<lb ed="#PV" break="no"/>ta 
           infinita notitia circa humanitate 
-          <lb ed="#PV"/>christi unde solus christus habet plena<lb ed="#PV"/>riam 
+          <lb ed="#PV"/>christi unde solus christus habet plena<lb ed="#PV" break="no"/>riam 
           notitiam quo ad omnes 
           <pb ed="#PV" n="142-r"/>
-          <cb ed="#PV" n="a"/>modos repraesentandi
+          <cb ed="#PV" n="a"/>
+          <lb ed="#PV"/>modos repraesentandi
         </p>
-        <p>
-          <lb ed="#PV"/>ubi adver<lb ed="#PV"/>tendum 
+        <p xml:id="ppr-l77-uneiei">
+          <lb ed="#PV"/>ubi adver<lb ed="#PV" break="no"/>tendum 
           quod incarnatione verbi 
           <lb ed="#PV"/>humanitas christi primo legit in 
           <lb ed="#PV"/>vero omnem veritatem et quidquid 
           <lb ed="#PV"/>in sacra scriptura continetur 
-          <lb ed="#PV"/>et legendo intellexit plena<lb ed="#PV"/>rie 
+          <lb ed="#PV"/>et legendo intellexit plena<lb ed="#PV" break="no"/>rie 
           secundum <name ref="#Lombard">magistrum</name> <title>sententiarum</title> in 
-          <lb ed="#PV"/>eodem instanti anima christi intel<lb ed="#PV"/>lexit 
-          omnia quae verbum ple<lb ed="#PV"/>narie 
+          <lb ed="#PV"/>eodem instanti anima christi intel<lb ed="#PV" break="no"/>lexit 
+          omnia quae verbum ple<lb ed="#PV" break="no"/>narie 
           et ratione ydoneitatis christus 
           <lb ed="#PV"/>consecratus est in sacerdote 
           <lb ed="#PV"/>et regalem dignitate ymo 
@@ -180,7 +201,7 @@
           <lb ed="#PV"/>humanum in eadem instanti scilicet 
           incarnationis
         </p>
-        <p>
+        <p xml:id="ppr-l77-qclans">
           Quintum corollarium 
           <lb ed="#PV"/>licet omnes veritates ut dictum 
           <lb ed="#PV"/>est contineantur in sacra scriptura 
@@ -189,11 +210,11 @@
           infinitas librorum non sufficeret 
           <lb ed="#PV"/>ad explicandum <choice><orig>misteria</orig><reg>mysteria</reg></choice> in 
           <lb ed="#PV"/>sacra scriptura contenta ideo etc 
-          <lb ed="#PV"/>Nam ad hoc requireretur infi<lb ed="#PV"/>nita 
+          <lb ed="#PV"/>Nam ad hoc requireretur infi<lb ed="#PV" break="no"/>nita 
           multitudo voluminum nec 
           <lb ed="#PV"/>sufficeret
         </p>
-        <p>
+        <p xml:id="ppr-l77-scepsf">
           2a causa potest esse ut
           <lb ed="#PV"/>sponsa christi sub timore viveret 
           <lb ed="#PV"/>et cum devotione adiutorium spiritus sancti 
@@ -202,17 +223,17 @@
           <lb ed="#PV"/>recurreret ad spiritum sanctum tanquam ad sponsum ut generaret veritas ex sua 
           sponsa <choice><orig>neccessariis</orig><reg>necessariis</reg></choice> ad subiectum
         </p>
-        <p>
+        <p xml:id="ppr-l77-scqimo">
           <lb ed="#PV"/>Sequitur ulterius quod in sacra 
           <lb ed="#PV"/>scriptura omnes leges iustae 
           <lb ed="#PV"/>et omnes <unclear>regine</unclear> morales vere 
           <lb ed="#PV"/>et plene continentur patet ex dictis
           <lb ed="#PV"/>et probatione prius tacta Nam 
           <lb ed="#PV"/>probatio <name ref="#Augustine">augustini</name> est adhuc in 
-          <lb ed="#PV"/>principio istius lectionis tactae Con<lb ed="#PV"/>similem 
+          <lb ed="#PV"/>principio istius lectionis tactae Con<lb ed="#PV" break="no"/>similem 
           ne dum de moralibus 
           <lb ed="#PV"/><unclear>eosdem</unclear> etiam de speculabilibus unde <name>Ioseph</name>
-          <cb ed="#PV" n="b"/>
+          <cb ed="#PV" n="b"/><!-- 142rb -->
           <lb ed="#PV"/><name>Batan</name> et <name>raby moyses</name> tenent 
           <lb ed="#PV"/>quod singulae artes in sacra scriptura 
           <lb ed="#PV"/>continentur alio et alio typo 
@@ -225,25 +246,23 @@
           <lb ed="#PV"/>quod spiritus erat in rotis id est intelligentia 
           <lb ed="#PV"/>movens orbem
         </p>
-        <p>
+        <p xml:id="ppr-l77-eqpeae">
           et sic scriptura 
           <lb ed="#PV"/>est omnis veritatis tam practicae 
           <lb ed="#PV"/>quam speculativae realiter contentiva 
-          <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> debet <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> velud exem<lb ed="#PV"/>plar 
+          <lb ed="#PV"/><choice><orig>ymmo</orig><reg>immo</reg></choice> debet <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> velud exem<lb ed="#PV" break="no"/>plar 
           et <title>liber ad extra</title> communicatum in quo 
           <lb ed="#PV"/>continetur totum quod est in libro 
           <lb ed="#PV"/>vitae ad intra licet sub nubilo
         </p>
-        <p>
+        <p xml:id="ppr-l77-ocqpsi">
           <lb ed="#PV"/>Sequitur quod prophetae non plene 
           <lb ed="#PV"/>suas prophetias intellexerunt 
           <lb ed="#PV"/>nec moyses qui conscripsit 
           <lb ed="#PV"/>patet quia in scriptura sua infinitae 
           <lb ed="#PV"/>veritates relucent quamvis non 
           <lb ed="#PV"/>cepit
-        </p>
-        <!-- this is probably number corollary 9 I don't know actualy. consequenter sounds like a more distinct new proposition.-->
-        <p>
+          <!-- this is probably number corollary 9 I don't know actualy. consequenter sounds like a more distinct new proposition.-->
           <lb ed="#PV"/>Sequitur quod infinitum 
           <lb ed="#PV"/>altiora conscripsit quam intellexit 
           <lb ed="#PV"/>et sic non fuit nisi purum organum 
@@ -251,8 +270,8 @@
           <lb ed="#PV"/>intellexit illa quae fuerunt 
           <lb ed="#PV"/><choice><orig>neccessaria</orig><reg>necessaria</reg></choice> pro regimine populi
         </p>
-        <p>
-          Con<lb ed="#PV"/>sequenter 
+        <p xml:id="ppr-l77-ciqanv">
+          Con<lb ed="#PV" break="no"/>sequenter 
           potest inferri esse probabile 
           <lb ed="#PV"/>quod quinque libri <name ref="#Moses">moysi</name> realiter 
           <lb ed="#PV"/>continent totum novum testamentum 
@@ -273,7 +292,7 @@
           <lb ed="#PV"/>usque ad perfectionem tam suam aetatem 
           <lb ed="#PV"/>et sic quantum ad formalem partem 
           <lb ed="#PV"/>non perficitur tamen quantum 
-          <lb ed="#PV"/>ad aliquid perficitur sic in proposi<lb ed="#PV"/>to 
+          <lb ed="#PV"/>ad aliquid perficitur sic in proposi<lb ed="#PV" break="no"/>to 
           veritates magis explicatae 
           <lb ed="#PV"/>sunt licet in scriptura sacra 
           <lb ed="#PV"/>continebantur et sic dicuntur <unclear>crescere</unclear> 
@@ -284,7 +303,7 @@
           <lb ed="#PV"/>non per generationem novae veritatis 
           <lb ed="#PV"/>sed per exemplificationem eius
         </p>
-        <p>
+        <p xml:id="ppr-l77-dsqavs">
           <lb ed="#PV"/>Sequitur 
           <lb ed="#PV"/>quod scriptura sacra sufficeret 
           <lb ed="#PV"/>pro plenaria instructione vitae 
@@ -297,56 +316,57 @@
           <lb ed="#PV"/>licet indigeat ex processione 
           <lb ed="#PV"/>et sponso declarante
         </p>
-        <p>
+        <p xml:id="ppr-l77-eqscme">
           Sequitur 
           <lb ed="#PV"/>quod urgentibus necessitatibus 
-          <lb ed="#PV"/>circa regimen ecclesiae et sicut mor<lb ed="#PV"/>bi 
-          ecclesiae ibi tanguntur ita et re<lb ed="#PV"/>media
+          <lb ed="#PV"/>circa regimen ecclesiae et sicut mor<lb ed="#PV" break="no"/>bi 
+          ecclesiae ibi tanguntur ita et re<lb ed="#PV" break="no"/>media
         </p>
-        <p>
+        <p xml:id="ppr-l77-dspees">
           Sequitur quod peccatum 
-          negligentiae medicorum quae con<lb ed="#PV"/>currunt 
-          ad libros <sic>humanitos</sic> ad in<lb ed="#PV"/>ventos 
-          quorum finis est bonum tem<lb ed="#PV"/>porale 
+          negligentiae medicorum quae con<lb ed="#PV" break="no"/>currunt 
+          ad libros <sic>humanitos</sic> ad in<lb ed="#PV" break="no"/>ventos 
+          quorum finis est bonum tem<lb ed="#PV" break="no"/>porale 
           praecise in quibus non 
           <lb ed="#PV"/>est vita nec salus
         </p>
-        <p>
+        <p xml:id="ppr-l77-tsqqaf">
           Aliud corollarium in infinitum maior est 
           <lb ed="#PV"/>sponsi praesentia ad ecclesiam quam 
           <lb ed="#PV"/>sit eius experientia Nam sponsus 
           <lb ed="#PV"/>scilicet christus respectu ecclesiae infinitae 
           <lb ed="#PV"/>assistit et fecundat ecclesiam quantum 
+          <cb ed="#PV" n="b"/> <!-- 142vb -->
           <lb ed="#PV"/>ex parte sui respectum cuiuscumque 
           <lb ed="#PV"/><unclear>venibilis</unclear> veritatis neccessariae pro salute 
           <lb ed="#PV"/>et respectu veritatis fecundat ecclesiam 
-          <lb ed="#PV"/>quantum est ex parte sui sed in<lb ed="#PV"/>fluentia 
+          <lb ed="#PV"/>quantum est ex parte sui sed in<lb ed="#PV" break="no"/>fluentia 
           tamen reperitur secundum 
           <lb ed="#PV"/>dispositionem membrorum ecclesiae ex 
-          <lb ed="#PV"/>bonitate morum vel studio sa<lb ed="#PV"/>crarum 
+          <lb ed="#PV"/>bonitate morum vel studio sa<lb ed="#PV" break="no"/>crarum 
           scripturarum vel ex ambobus 
           <lb ed="#PV"/>simul
         </p>
-        <p>
+        <p xml:id="ppr-l77-qsqecv">
           aliud corollarium 
           <lb ed="#PV"/>ecclesia eciam circa fidei veritates 
           <lb ed="#PV"/>vel regulas honestatis nullum 
-          <lb ed="#PV"/>potest generare monstrum quia spon<lb ed="#PV"/>sus 
-          est veritas summa et bo<lb ed="#PV"/>nitas 
-          summa quae realiter red<lb ed="#PV"/>dit 
+          <lb ed="#PV"/>potest generare monstrum quia spon<lb ed="#PV" break="no"/>sus 
+          est veritas summa et bo<lb ed="#PV" break="no"/>nitas 
+          summa quae realiter red<lb ed="#PV" break="no"/>dit 
           sponsam <choice><orig>in maculatam</orig><reg>immaculatam</reg></choice> 
           <lb ed="#PV"/>ideo a sponso et a sponsa realiter 
-          <lb ed="#PV"/><choice><orig>in maculatis</orig><reg>immaculatis</reg></choice> non potest error proce<lb ed="#PV"/>dere 
+          <lb ed="#PV"/><choice><orig>in maculatis</orig><reg>immaculatis</reg></choice> non potest error proce<lb ed="#PV" break="no"/>dere 
           vel moralitas pravitas
           <lb ed="#PV"/><del>r??</del>
         </p>
-        <p>
+        <p xml:id="ppr-l77-qsqepr">
           Aliud corollarium quamvis 
-          <lb ed="#PV"/>sine monstro vel monstruo<lb ed="#PV"/>sitate 
+          <lb ed="#PV"/>sine monstro vel monstruo<lb ed="#PV" break="no"/>sitate 
           sint multa capita in 
           <lb ed="#PV"/>corpore sponsae scilicet ecclesiae ad unum 
           <lb ed="#PV"/>tamen ordinata hic in via praeter 
-          <lb ed="#PV"/>illud tamen <choice><orig>capud</orig><reg>caput</reg></choice> <choice><orig>ymo</orig><reg>ymmo</reg></choice> ab<lb ed="#PV"/>stracto 
+          <lb ed="#PV"/>illud tamen <choice><orig>capud</orig><reg>caput</reg></choice> <choice><orig>ymo</orig><reg>ymmo</reg></choice> ab<lb ed="#PV" break="no"/>stracto 
           adhuc manent vita 
           <lb ed="#PV"/>ecclesiae et eius integritas sine 
           <lb ed="#PV"/>monstro prima pars patet nam 
@@ -359,7 +379,7 @@
           <lb ed="#PV"/>ad unum caput quod est praesul 
           <lb ed="#PV"/><sic>ramanus</sic>
         </p>
-        <p>
+        <p xml:id="ppr-l77-sdqecu">
           dico 2o quod subtractio 
           capitis vel principalis cuiuscumque 
           <lb ed="#PV"/>ipsorum non tollit vitam ecclesiae 
@@ -367,7 +387,7 @@
           <lb ed="#PV"/>in fide vivit et in caritate et est 
           <lb ed="#PV"/>eius unio formalis et principalis
         </p>
-        <p>
+        <p xml:id="ppr-l77-tcieem">
           <pb ed="#PV" n="143-r"/>
           <cb ed="#PV" n="a"/>
           <lb ed="#PV"/>Item caput influens vitam 
@@ -376,9 +396,9 @@
           <lb ed="#PV"/>principali capite non tollitur vita 
           <lb ed="#PV"/>nec est monstruosa
         </p>
-        <p>
+        <p xml:id="ppr-l77-qsscse">
           Item vacante 
-          <lb ed="#PV"/>sede apostolica ecclesia non esset mor<lb ed="#PV"/>tua 
+          <lb ed="#PV"/>sede apostolica ecclesia non esset mor<lb ed="#PV" break="no"/>tua 
           aut monstruosa <choice><orig>ymmo</orig><reg>immo</reg></choice> 
           <lb ed="#PV"/>adhuc manet quantum et caritatem in quibus 
           <lb ed="#PV"/>consistit eius unitas ideo non 
@@ -387,15 +407,14 @@
           <lb ed="#PV"/>cum capit principali et sic non redditur 
           <lb ed="#PV"/>acephalo
         </p>
-        <p>
-          Sequitur quod licet uni<lb ed="#PV"/>tas 
+        <p xml:id="ppr-l77-sdscga">
+          Sequitur quod licet uni<lb ed="#PV" break="no"/>tas 
           capitis sequatur ex sacra 
-          <lb ed="#PV"/>scriptura etiam scilicet christum quod de<lb ed="#PV"/>beat 
+          <lb ed="#PV"/>scriptura etiam scilicet christum quod de<lb ed="#PV" break="no"/>beat 
           esse solus unius papa 
           <lb ed="#PV"/>sp?m tamen non videtur esse dicendum 
           <lb ed="#PV"/>proprie contra fidem
-        </p>
-        <p>
+          <!-- break -->
           <lb ed="#PV"/>Advertendum quod ex usu doctorum lata est differentia 
           <lb ed="#PV"/>dicere ista propositio repugnat alicui 
           <lb ed="#PV"/>propositioni sequenti ex fide et ista 
@@ -422,13 +441,13 @@
           <lb ed="#PV"/>est contra fidem 
           <cb ed="#PV" n="b"/>
           <lb ed="#PV"/>quia non est determinatum per ecclesiam 
-          <lb ed="#PV"/>Et de isto usu habemus nos ne<lb ed="#PV"/>cessario 
+          <lb ed="#PV"/>Et de isto usu habemus nos ne<lb ed="#PV" break="no"/>cessario 
           iuvare etiam quantum ad unam 
           <lb ed="#PV"/>propositionem <name>magistro Iohanam de montesano</name> <!-- reference to John of montesano see Sullivan, volume II, index p. 620 -->
         </p> 
-        <p>
-          Con<lb ed="#PV"/>sequenter 
-          potest inferre quod ex provisi<lb ed="#PV"/>one 
+        <p xml:id="ppr-l77-cpipce">
+          Con<lb ed="#PV" break="no"/>sequenter 
+          potest inferre quod ex provisi<lb ed="#PV" break="no"/>one 
           naturae et sollicitudine circa 
           <lb ed="#PV"/>humanam speciem et ex gratuita 
           <lb ed="#PV"/>dei providentia posset fundari 

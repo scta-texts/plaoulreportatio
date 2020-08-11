@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 79, De Trinitate [Palantine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 79, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-08-10">August 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palantine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-08-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="145-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio79">
+        <head xml:id="ppr-l79-Hldtldt">Lectio 79, de Trinitate</head>
+        <div xml:id="ppr-l79-Dd1e109">
+          <head xml:id="ppr-l79-Hrectio">Recapitulatio</head>
+          <p xml:id="ppr-l79-vsrppg">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>visa solutione rationis factae circa 
+            <lb ed="#PV"/>materiam consilii nycem pro parte 
+            <lb ed="#PV"/>graecorum
+          </p>
+          <p xml:id="ppr-l79-svqfec">
+            viso etiam quod intentio 
+            <lb ed="#PV"/>consilii non fuit tollere constitu<lb ed="#PV"/>tiones 
+            factas <del rend="strikethrough">u</del> sed <unclear>revocare</unclear> contrarias 
+            <lb ed="#PV"/>et falsas errores et etiam ad ex<lb ed="#PV"/>cludendum 
+            opinionem dicentium quod spiritus sanctus 
+            <lb ed="#PV"/>erat creatam non oportuit determinarum 
+            <lb ed="#PV"/>nisi quod a patre subtiliter produceret 
+            <lb ed="#PV"/>ideo excludebatur ille scilicet quod spiritus 
+            <lb ed="#PV"/>sanctus erat creatura per hoc quod a patre
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>consubstantialiter <del rend="strikethrough">produceret</del> procedit et obscurus 
+            <lb ed="#PV"/>fuisset si fuisset dictum quod etiam proce<lb ed="#PV"/>deret 
+            consubstantialiter a filio quia ipso 
+            <lb ed="#PV"/>dixerunt etiam filium esse creaturam 
+          </p>
+          <p xml:id="ppr-l79-tvqpau">
+            <lb ed="#PV"/><unclear>Consi?to</unclear> 3o quod antiqui dixerunt 
+            <lb ed="#PV"/>scilicet quod procedere a filio
+          </p>
+          <p xml:id="ppr-l79-vqqces">
+            4o quod sequitur 
+            <lb ed="#PV"/>ex scriptura
+          </p>
+          <p xml:id="ppr-l79-vqqbto">
+            <unclear>Consi?to</unclear> <sic>conclusio<!-- erroneously conclusion instead of 5o --></sic> quod solus 
+            papa potuit et brevitas temporis 
+            Viso quinto quod ex auctoritate summi pontificis 
+            hoc potuit fieri 
+            ut tangit 
+            <cit>
+              <ref xml:id="ppr-l79-Rd1e134"><name ref="#Anselm">Anselmus</name></ref>
+              <bibl>XXX</bibl>
+            </cit> 
+            <unclear>quin</unclear> papa 
+            potest determinare ubi necessitas et brevitas temporis occurrunt.
+          </p>
+          <p xml:id="ppr-l79-scpalc">
+            Sexto considerata praelatorum auctoritate et approbatione 
+            <name>lundunensis consilii</name>.
+          </p>
+        </div>
+        <div xml:id="ppr-l79-Dd1e153">
+          <head xml:id="ppr-l79-Harqvtp">Ad rationem quod si spiratio activa et <unclear>[???]</unclear> activa in Filio distingueretur, Filius esset duae vel tres personae</head>
+          <p xml:id="ppr-l79-rvdadp">
+            Restat videre de responsione ad 
+            unam rationem qua dicebatur 
+            quia, scilicet spiritus sanctus procederet 
+            a filio, sequitur quod spiratio activa et relatio activa in 
+            filio distingueretur inter se et distingueretur a generatione passiva, 
+            igitur filius esset duae vel tres personae, 
+            et ita argueretur de patre.
+          </p>
+          <p xml:id="ppr-l79-ecqesp">
+            Et confirmatur 
+            quia spiratio activa si poneretur 
+            esset quaedam notio communis patri et filio conveniens, 
+            et per consequens essent 6 personae.
+          </p>
+          <p xml:id="ppr-l79-hdeqne">
+            Hic dicitur ex radice pluriens 
+            dicta quod relatio filii ad patrem, 
+            scilicet generatio et spiratio, 
+            quae est relatio spiritus sancti ad patrem et filium sunt omnimode 
+            idem formaliter a parte rei. 
+            Patet ex 
+            <cit>
+              <ref xml:id="ppr-l79-Rd1e171">
+                regula <name ref="#Anselm">Anselmi</name>
+              </ref>
+              <bibl>XXX</bibl>
+            </cit> 
+            prius allegata, 
+            nam in divinis non debet esse distinctio nisi inter 
+            <unclear>relative[?ae?]</unclear> opposita,
+            modo generatio passiva in filio et spiratio 
+            passiva in spiritu sancto non opponunt inter se, 
+            igitur sequitur quod non distinguitur, 
+            nam tanta identitas concedenda 
+            est in divinis quanta fides catholica patitur, 
+            modo inter illa 
+            non est oppositio relativa, 
+            igitur ibi non est aliqua distinctio, 
+            nec fides non astringit ad hoc, 
+            scilicet 
+            <app>
+              <lem>ad</lem>
+              <rdg wit="#SV" type="correction-addition">
+                <add place="aboveLine">ad</add>
+              </rdg>
+            </app> 
+            ponendum huiusmodi 
+            distinctionem, igitur. 
+            Et per consequens apparet quod ratio procedit ex fundamento 
+            falso imaginando quod in filio sint duae relationes 
+            distinctae quod negandum est.
+          </p>
+        </div>
+        <div xml:id="ppr-l79-Dd1e198">
+          <head xml:id="ppr-l79-Hcorium">Corollarium</head>
+          <div xml:id="ppr-l79-Dd1e203">
+            <head xml:id="ppr-l79-Hpcmpcm">Primum corollarium:</head>
+            <p xml:id="ppr-l79-ppsrci">
+              Prima propositio 
+              sequens est ista quod aliquae sunt relationes quae transeunt 
+              in omnimodam identitatem tertii. et non 
+              possunt concurrere inter se realiter et identice, nec 
+              identice concurrere sibi mutuo. et huiusmodi 
+              relationes sunt constitutivae personarum, 
+              id est, personae distinctae
+              <cb ed="#SV" n="296-r"/>
+              <cb ed="#SV" n="a"/>
+              nec generatio passiva et spiratio activa concurrunt 
+              identice in essentiam, 
+              non tamen inter se et hoc ratione 
+              repugnantiae habitudinis inter relationes quae non opponunt 
+              adinvicem mutuo. et istis non repugnat concursus 
+              identicus, nec realis nec accidentalis, et licet sint 
+              relationes eis, tamen non repugnant concurrere identice.
+            </p>
+            <p xml:id="ppr-l79-eqcass">
+              Et quamquam concedantur quattuor relationes 
+              in divinis, et quinque motiones, 
+              non sunt tamen ibi nisi tres personae, 
+              nec sunt ibi tres res <sic>res</sic> essentialiter distinctae. 
+              Prima pars apparet 
+              quia sunt ibi duo extrema, 
+              ergo oportet quod 
+              habeant quattuor terminos, 
+              ut generatio, quae provenit active 
+              a patre et terminatur ad filium et spiratio procedit 
+              a patre et filio tamquam ab uno termino et terminantur ad 
+              spiritum sanctum.
+            </p>
+            <p xml:id="ppr-l79-seussp">
+              Sed est una alia notio, quae convenit patri, 
+              scilicet, <unclear>innascibilitas[?]</unclear> utrum sic notio bene est difficultas 
+              inter doctores, sed haec non discutitur pro praesenti. unde 
+              secundum habitudinem numerorum in <unclear>arismeticis[?]</unclear>. illa dicitur quod 
+              tres notiones conveniunt patri, scilicet generatio activa 
+              spiratio activa <unclear>innascibilitas[?]</unclear>. et duae conveniunt 
+              filio, scilicet, generatio passiva et spiratio activa, et 
+              unica notio convenit spiritu sancto, scilicet spiratio passiva.
+            </p>
+          </div>
+          <div xml:id="ppr-l79-Dd1e234">
+            <head xml:id="ppr-l79-Hscmscm">Secundum corollarium: </head>
+            <p xml:id="ppr-l79-scoapp">
+              Sequitur contra opinionem dicentium quod generatio activa in 
+              patre et spiratio activa in illo sunt distinctae relationes, 
+              et tamen sunt idem realiter inter se. 
+              Unde imaginatio 
+              quorumdam fuit quod relationes concurrerent identice 
+              in patre, quia plures sunt et dicebant quod relationes 
+              in patre erant inter se distinctae et licet concurrant identice 
+              in patre, distinctio tamen consurgit ex relationibus 
+              terminorum, quia generationis activae est alius terminus, et etiam 
+              spirationis activae est alius, scilicet spiritus sanctus, ideo generatio 
+              activa distinguitur in esse relativo ab spiratione, et 
+              tamen sunt idem in patre. et patet quod ista positio est falsa, quia 
+              multiplicare huiusmodi <sic>i</sic> distinctione, nisi fides non 
+              nos astringit est occultare difficultatem quae debet aperiri. 
+              Etiam hoc patet ex 
+              <cit>
+                <ref xml:id="ppr-l79-Rd1e246">regula <name ref="#Anselm">Anselmi</name></ref>
+                <bibl>XXX</bibl>
+              </cit> 
+              prius posita. 
+              secundo nam ponere huiusmodi distinctiones impedit 
+              veritates inquisitionem circa materiam trinitatis.
+            </p>
+          </div>
+          <div xml:id="ppr-l79-Dd1e257">
+            <head xml:id="ppr-l79-Htcmtcm">Tertium corollarium</head>
+            <p xml:id="ppr-l79-eqsame">
+              Ex quo sequitur 
+              quod probabile est dicere quod non sunt, 
+              nisi tres relationes 
+              in divinis a parte rei, 
+              licet sint plures aequivalentes quantum ad referendum modum, 
+              nam in patre relatio ad filium 
+              et relatio ad spiritum sanctum sunt idem, 
+              non tamen ex eodem modo 
+              referendi consurgit realis distinctio, 
+              ut eadem albedine adaequate <name ref="#Sortes">Sortes</name> 
+              est similis <name ref="#Plato">Platoni</name> et dissimilis <name ref="#Cicero">Ciceroni</name>, 
+              nec oportet ponere distinctionem, 
+              nisi quantum ad modum exprimendi.
+            </p>
+          </div>
+          <div xml:id="ppr-l79-Dd1e275">
+            <head xml:id="ppr-l79-Hqcmqcm">Quartum corollarium: </head>
+            <p xml:id="ppr-l79-qcsess">
+              Quartum corollarium sequitur quod licet daretur 
+              in divinis duarum oppositionum relativarum quattuor extrema 
+              quorum unum non esset reliquum, non sequitur tamen 
+              quod ibi sint quattuor res realiter distinctae. nec quod 
+              sit in divinis quaternitas rerum, ut paternitas non 
+              est filiatio, etiam generatio activa non est generatio 
+              passiva in patre, nec spiratio activa in filio est 
+              spiratio passiva in spiritu sancto, nec spiratio 
+              <cb ed="#SV" n="b"/><!--296rb-->
+              activa prout supponit pro patre et filio est spiratio 
+              in spiritu sancto, quia licet spiratio activa non sit spiritus sanctus, 
+              haec tamen nihil addit ultra illam pater non est spiritus sanctus.</p>
+          </div>
+          <div xml:id="ppr-l79-Dd1e288">
+            <head xml:id="ppr-l79-Hqncqnc">Quintum corollarium: </head>
+            <p xml:id="ppr-l79-qsqcmop">
+              Quinto sequitur quod sunt plures negationes non coincidentes in 
+              divinis quam sit ibi res distinctae.
+              Patet quia primo sunt 
+              ibi tres negationes, 
+              pater non est filius, 
+              filius non est 
+              spiritus sanctus, 
+              pater non est spiritus sanctus, 
+              et a parte varietatis 
+              ponenda sunt duo extrema in eodem, 
+              cum dicitur pater 
+              et filius non sunt spiritus sanctus, 
+              ponenda tria extrema 
+              variandae erunt combinationes non coincidentes usque ad 21, 
+              et tamen non variatur numeris personarum.
+            </p>
+            <div xml:id="ppr-l79-Dd1e296">
+              <head xml:id="ppr-l79-Hcowcow">Contra opinio Wyclif</head>
+              <p xml:id="ppr-l79-epfpid">
+                Et sic patet fatuitas 
+                <cit>
+                  <ref xml:id="ppr-l79-Rd1e305">
+                    <name ref="#Wyclif">Wyclif</name>
+                  </ref>
+                  <bibl>XXX</bibl>
+                </cit>, 
+                qui ex combinationibus negationis 
+                concludit numerum septenarium personarum in divinis.
+              </p>
+              <p xml:id="ppr-l79-shvcmp">
+                sed hoc videtur falsum primo 
+                quia ex multitudine propositionum negativarum 
+                non concluditur multitudo personarum
+              </p>
+              <p xml:id="ppr-l79-sqscsn">
+                Secundo, quia si 
+                voluisset concludere numerum personarum ex multitudine propositionum 
+                negativarum non debuisset stetisse in numero septenario, 
+                immo debuisset procedere usque ad 21a combinationem 
+                seu numerum.
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l79-Dd1e324">
+            <head xml:id="ppr-l79-Hsxcsxc">Sextum corollarium: </head>
+            <p xml:id="ppr-l79-sufcmr">
+              <g ref="#dbslash"/>Sequitur ulterius falsum esse sit aliqua res in 
+              dictis quae nec sit pater nec filius nec spiritus sanctus nec 
+              ista consequentia valet trinitas non est pater nec filius 
+              nec spiritus sanctus, ergo aliqua est res in divinis quae nec 
+              est pater nec filius nec spiritus sanctus causa est, quia licet unitas 
+              non sit nec pater nec filius nec spiritus 
+              sanctus est tamen aliqua res quae est pater est etiam aliqua 
+              res qui est filius et est etiam aliqua res quae 
+              est spiritus sanctus, et ideo illa non plus valet quam ista 
+              <!--<cb ed="#V" n="?b"/>-->
+              deitas est aliqua res. Item si concederetur quod esset 
+              aliqua res. Item si concederetur quod esset aliqua res 
+              in divinis non concluditur multitudo rerum.
+            </p>
+            <p xml:id="ppr-l79-sneeur">
+              <choice><orig>2o</orig><reg>secundo</reg></choice> 
+              nam ex combinationibus huiusmodi negationum voluisset 
+              concludere pluralitas rerum in divinis non debuisset 
+              sistere in sexternario numero, sed debuisset misse usque 
+              ad 21, et ideo defecit ex utraque radice.
+            </p>
+          </div>
+          <div xml:id="ppr-l79-Dd1e346">
+            <head xml:id="ppr-l79-Hspcspc">Septimum corollarium: </head>
+            <p xml:id="ppr-l79-sfenep">
+              Sequitur falsum esse quod aliquae res sint 
+              in divinis quae nec sint pater, nec filius, nec spiritus sanctus. 
+              nec sequitur trinitas non est pater, nec filius, nec spiritus 
+              sanctus, igitur aliqua res est in divinis, quae non est pater, nec filius, 
+              nec spiritus sanctus. causa est, quia licet trinitas non sit pater, 
+              nec filius, nec spiritus sanctus, tamen ipsa est res quae est 
+              pater et filius et spiritus sanctus. nec sequitur deitas 
+              est aliqua Res, quae non est pater, ergo deitas non est pater.
+            </p>
+            <p xml:id="ppr-l79-taqimp">
+              Tertio arguitur, quia si ex pluralitate relationum concluditur multitudo 
+              personarum, tunc sequitur quod in divinis erit numerus quaternarius 
+              quod est haereticum. Et videtur sequi ex dictis quod relationes 
+              multiplicatae in divinis quantum ad terminos et nostrum modum 
+              considerandi non inferunt multitudinem personarum.
+            </p>
+          </div>
+          <div xml:id="ppr-l79-Dd1e358">
+            <head xml:id="ppr-l79-Hcontio">Confirmatio</head>
+            <p xml:id="ppr-l79-acqitd">
+              Ad confirmationem, 
+              quia generatio prout est communis patris et filii, patri 
+              convenit active filio passive et constitutiva alicuius, et non 
+              erit constitutiva patris nec filii nec spiritus sancti, ergo unius 
+              personae realiter ab illis tribus distinctae.
+            </p>
+            <p xml:id="ppr-l79-sncapr">
+              Secundo nunc confirmatur 
+              quia conceditur ab ecclesia quod pater et filius sunt unum 
+              principium spiritus sancti, modo principium non supponit pro essentia quia 
+              essentia non spirat spiritum sanctum, ergo sumit pro constituto quodquod 
+              habebit habitudinem relationis, quae erit una persona ab aliis 
+              tribus distincta, hic dicitur quod nulla est ponenda distinctio 
+              in divinis, nec aliqua proprietas personarum aliquid constituit, 
+              sed ipsa est essentia et persona formaliter absque distinctione a parte 
+              rei.
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l79-Dd1e371">
+          <head xml:id="ppr-l79-Harqpss">Ad rationem quod Pater et Filius unum principium Spiritus Sancti</head>
+          <p xml:id="ppr-l79-etdqct">
+            Et tunc dicitur ad rationem quod pater et filius discuntur 
+            unum principium spiritus sancti, id est, quod uniformiter spirant 
+            spiritum sanctum. ideo dicuntur duo principia, sed unum tantum, unde 
+            in causationibus Rerum creatarum numquam duae causae possent 
+            uniformiter et adaequate concurrere ad eundem effectum 
+            producendum. ideo illae res dicuntur duo principia. modo 
+            modus communis loquendi est quod si duae res sint 
+            duo principia illa concurrunt diversimode respectu principiati 
+            <cb ed="#SV" n="296va"/>et ista fuit Radix quare determinatum fuit per ecclesiam quod 
+            pater et filius sunt unum principium spiritus sancti, quia ad hoc ponendum 
+            oportet quod uniformiter spirando spiritum sanctum. ideo ecclesia determinavit 
+            quod ipsum producunt tamquam unum principium et non 
+            duo principia, quia oporteret quod concurrerent deformiter spirando. 
+            Aliter dicit, dicens 
+            <cit>
+              <ref xml:id="ppr-l79-Rd1e382"><name ref="#Bonaventure">Bonaventura</name></ref>
+              <bibl>XXX</bibl>
+            </cit>, 
+            quod pater et filius 
+            vocantur unum principium, quia <unclear>unica[??]</unclear> voluntate et 
+            fecunditate producunt spiritum sanctum, nec sequitur quod ibi sit 
+            relatio quae constituit tertium.
+          </p>
+        </div>
+        <div xml:id="ppr-l79-Dd1e396">
+          <head xml:id="ppr-l79-Hopoopo">Opinio Ockham</head>
+          <p xml:id="ppr-l79-neqdit">
+            Notandum est quod opinio 
+            <cit>
+              <ref xml:id="ppr-l79-Rd1e405"><name ref="#Ockham">Okam</name></ref>
+              <bibl>XXX</bibl>
+            </cit> 
+            in hac materia fuit quod spiratio activa sit realiter 
+            una notio ab aliis distincta, et vere constitutiva 
+            alicuius. consequens tamen patri et filio coniunctim, et dicitur de 
+            illis tantum.
+          </p>
+          <p xml:id="ppr-l79-scissi">
+            Sed contra illud arguitur quia si sic, sequeretur 
+            quod in divinis esset veraciter quaternitas. patet consequentia, 
+            quia spiritus sanctus distingueretur a notione activa, 
+            scilicet, a spiratione. et non distinguitur essentialiter, 
+            igitur tanquam a persona vel personaliter, igitur illa notio est persona 
+            et non est pater et filius nec spiritus sanctus, 
+            quia non praedicatur de patre ad extra nec de filio nec de 
+            spiritu sancto, igitur.
+          </p>
+          <p xml:id="ppr-l79-sqpncf">
+            Secundo arguitur per relatam 
+            <cit>
+              <ref xml:id="ppr-l79-Rd1e421"><name ref="#Anselm">Anselmi</name></ref>
+              <bibl>XXX</bibl>
+            </cit> 
+            quia concedere aliquod constitutum in divinis quod nec est pater 
+            nec filius nec spiritus sanctus est concedere unam distinctionem, 
+            quae nec est ex fide nec consonat fidei.
+          </p>
+          <p xml:id="ppr-l79-tronss">
+            Tertio relationes 
+            oppositae non possunt identitate concurrere, 
+            nisi in essentiam cuiusmodi sunt relationes patris et 
+            filii et spiritus sancti. 
+            Nam si aliter possent unitive concurrere, 
+            illae non haberent formalem repugnantiam, 
+            sic quin pater esset filius formaliter et econverso, 
+            et filius esset formaliter spiritus sanctus. unde 
+            ista opinio non solum ponit quod paternitas et 
+            filiatio concurrant identice cum essentia, sed etiam 
+            concurrunt ad constitutionem alicuius quod nec est pater 
+            nec filius nec spiritus sanctus.
+          </p>
+          <p xml:id="ppr-l79-qqcpti">
+            Quarto quia constitutum 
+            non est essentiale videtur quod sit personale. modo ibi non 
+            est concursus essentialis, igitur ille est personalis vel suppositibilis, 
+            et per consequens pater et filius concurrunt identice et 
+            sunt eadem persona quod est falsum, quia si sic, sequeretur quod 
+            essent identitas <unclear>unita[?]</unclear>, nec esset Repugnantia 
+            inter patrem et filium relative, immo relationes 
+            coinciderent et rediret error <name ref="#Sabellius">Sabellii</name>, scilicet, 
+            quod ibi esset solum distinctio secundum modum considerandi 
+            nostrum expressum per tres relativos.
+          </p>
+          <p xml:id="ppr-l79-qihsdp">
+            Quinto in hac 
+            materia <name ref="#Ockham">Okam</name> excessit limites articuli, 
+            quia secundum 
+            articulum non oportet fingere huiusmodi constitutiones, sed oportet 
+            resolvere materiam ad claros terminos <unclear>quin[?]</unclear> pater 
+            et filius producunt spiritum sanctum uniformiter 
+            et si hoc non diceretur vocarentur duo principia 
+            nec oportet Resolvere materiam ad difficultatem vocabuli, 
+            quia pater et filius uniformiter concurrunt 
+            ad spirationem spiritus sancti absque quacumque difformitate 
+            et relatione uniformitatis dicuntur 
+            unicum principium. Et ita in materia trinitatis doctores 
+            multas propositiones admittunt mirabiliores quam 
+            sit articulus, sed ars obligatoria fidei haec non exigit, patet 
+            igitur quod naturalis investigatio in materia trinitatis nihil habet contra fidem, 
+            immo per <unclear>eam[?]</unclear> ipsa investigatio naturalis dirigitur et elevatur. 
+            et si non ponant obicem capiet articulum trinitatis 
+            et defendet suas propositiones, quia articulus trinitatis est magis 
+            sustinibilis quam positio <name ref="#Plato">platonis</name> de ideis, 
+            et positio <name ref="#Trismegistus">Hermetis</name> de 
+            generatione mundi, nam considerata deitatis immensitate 
+            et ratione suae infinitatis deus habet diversas proprietates quae 
+            non reperiuntur in creaturis. et non est mirum, si in deo 
+            sit unica essentia et plures personae, quia in creatura sunt 
+            plures essentiae, scilicet, materialis et formalis, et tamen ibi est 
+            <unclear>unica[?]</unclear> subsistentia, igitur non est mirandum, si res infinita 
+            habeant oppositas proprietates et contrarias proprietatibus creaturarum, 
+            quia ipsa infinite excedit omnia alia ab ipsa, si ergo 
+            natura corporalis est plures essentiae quid mirum, si summa 
+            res est unica essentia, et sic illi Rei summae convenit 
+            seipsam diffundi et non potest se multiplicare essentialiter, 
+            igitur se diffundit personaliter.
+          </p>
+          <p xml:id="ppr-l79-idqass">
+            Item dicitur quod conditio 
+            necessitatis ad diffundendum se ad intra non dicit imperfectionem 
+            sed potius bonitatem secundam, sed agere ad extra 
+            convenit ei contingenter, et si hoc esset necessario hoc 
+            diceret imperfectionem, et ideo deus necessario diligit se, et 
+            contingenter creaturas, 
+            multas rationes fecit 
+            <cit>
+              <ref xml:id="ppr-l79-Rd1e469"><name ref="#RichardOfStVictor">Ricardus de sancto victore</name></ref>
+              <bibl>XXX</bibl>
+            </cit> 
+            credens demonstrare articulum trinitatis. 
+            sed alio modo posset probari per medium extrinsecum, 
+            scilicet ex auctoritate 
+            sacrae scripturae.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
