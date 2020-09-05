@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 84, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 84, De Trinitate [Erlangen Transcription]</title>
+          <date when="2020-09-03">September 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="112-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio84">
+        <head xml:id="ppr-l84-Hldcldc">Lectio 84, de Caritate</head>
+        <div xml:id="ppr-l84-Dd1e109">
+          <head xml:id="ppr-l84-Hqacsda">Quod ad creaturam esse carum non requiritur aliqua caritas seu donum creatum sed sufficit divina acceptatio</head>
+          <p xml:id="ppr-l84-cmtsda">
+            <lb ed="#E"/>Alia lectione 
+            <lb ed="#E"/>Tactum est circa materiam caritatis quod ad creaturam esse caram non requiritur caritas 
+            <lb ed="#E"/>creata ad hoc quod contra <name>Aureolum</name> sed sufficienter divina acceptatio
+          </p> 
+        </div>
+        <div xml:id="ppr-l84-Dd1e118">
+          <head xml:id="ppr-l84-Hobitio">Obiectio</head>
+          <p xml:id="ppr-l84-sciedc">
+            Contra hoc arguitur Nam divina 
+            <lb ed="#E"/>acceptatio est actus aeternus in deo ergo omnes praedestinati sicut deo cari consequentia tenet parte quia denominatio 
+            <lb ed="#E"/>concretiva quae est esse carum communicatur ex sola divina acceptatione sine concursu cuiuscumque 
+            <lb ed="#E"/>qualitatis creatae
+            <!-- break -->
+            Et sequitur quod parvuli ante baptisimum sunt deo cari
+          </p>
+          <p xml:id="ppr-l84-ssqeic">
+            Et etiam quantumcumque 
+            <lb ed="#E"/>vilis peccator est deo carus et est in caritate
+          </p> 
+          <p xml:id="ppr-l84-tsqrvt">
+            Sequitur tertio quod parvuli praesciti in 
+            <lb ed="#E"/>baptismo non recipiunt gratiam nec sunt deo cari patet quia ibi de est istud quod est formale
+            <pb ed="#E" n="112-v"/>
+            <lb ed="#E"/>scilicet divina acceptatio et hoc videtur esse haereticum et contra ecclesiae determinationem scilicet quod non recipiunt 
+            <lb ed="#E"/>gratiam et sic videtur <ref xml:id="ppr-l84-Rd1e133">opinio <name ref="#Aureoli">aureoli</name></ref> esse tenenda
+          </p>
+        </div>
+        <div xml:id="ppr-l84-Dd1e144">
+          <head xml:id="ppr-l84-Hsacsac">Sensus acceptationis</head>
+          <p xml:id="ppr-l84-pimica">
+            Pro <unclear>emuliatione</unclear> materiae <del rend="strikethrough">coneu</del> dicendum 
+            <lb ed="#E"/>est de acceptatione unde deum acceptare creaturam multipliciter intelligitur 
+            primo modo id est velle 
+            <lb ed="#E"/>aliquando sibi dare vitam aeternam vel simpliciter vel cum dignitate habendi Et utrumque dubiorum 
+            <lb ed="#E"/>vel scilicet determinato tempore vel taliter ad qualiter velle sequitur creaturam recipere huiusmodi donum 
+            <lb ed="#E"/>unde ista propositio deus vult sorti dare vitam aeternam unus sensus est quod habet <sic>praefixum</sic> 
+            <lb ed="#E"/>tempus in quo vult dare Alius sensus est id est taliter vult sibi dare quod ex sic velle sequitur 
+            <lb ed="#E"/>quod habet ut deus vult creare ante christum unus sensus est quod deus vult creare ante christum hoc 
+            <lb ed="#E"/>tempore praefixo
+          </p>
+          <p xml:id="ppr-l84-sseelv">
+            Alius sensus est quod deus vult taliter creare ante christum scilicet quod ex sic velle sequitur 
+            <lb ed="#E"/>ante christum esse Ita quod commodus est efficax ad ponendum rem in esse Et utrumque scilicet primo modo
+            <lb ed="#E"/>sive secunda potest intelligi dupliciter uno modo cum dignitate habendi unde isti effectus 
+            <lb ed="#E"/>sunt distincti vel ut distincti conceptibiles scilicet creaturam frui deo et esse tutam de sic perma<lb ed="#E"/>nendo 
+            perpetuo Et habere dignitatem ad sic esse ita quod istae habitudines ab invicem 
+            <lb ed="#E"/>separabiles 
+          </p> 
+          <p xml:id="ppr-l84-csdelv">
+            Etiam sic de praesenti iustitia potest dici quod deus posset acceptare crea<lb ed="#E"/>turam 
+            ad statum gratitudinis et velle eam esse gratam 2m primum modum 
+            <lb ed="#E"/>exponendi ly <mentioned>velle</mentioned> vel secundum secundum modum 
+          </p>
+          <p xml:id="ppr-l84-uneica">
+            prima propositio quod primum acceptare sive ad 
+            <lb ed="#E"/>gloriam sive ad gratiam nullam ponit perfectionis gradum in creatura accepta
+          </p>
+          <p xml:id="ppr-l84-pmivac">
+            patet 
+            quia est mere sibi extrinsecum et stat cum quacumque culpa et quantacumque malitia ymmo absolute 
+            <lb ed="#E"/>loquendo <del rend="strikethrough">q</del> cum tota <name>luciferi</name> nequitia quia <name>lucifer</name> posset salvari ymmo possibile est quod haec persona 
+            <lb ed="#E"/>scilicet <name>lucifer</name> salvetur si forte ly <mentioned><name>lucifer</name></mentioned> connotaret malum sicut non connotat ut videtur 
+          </p>
+          <p xml:id="ppr-l84-smadve">
+            Et 
+            <lb ed="#E"/>sic etiam <del rend="expunctuation">acceptandum</del> dicendum est respectu acceptionis gratiae quod nullum ponit gradum perfectionis 
+            <lb ed="#E"/>Secundo modo acceptare id eset velle taliter dare quod ad sic velle sequitur habere vel sequitur gratum 
+            <lb ed="#E"/>esse Isto modo dico quod sola divina acceptatio sufficit ad gratifactionem creaturae nam eo ipso quod 
+            <lb ed="#E"/>deus vult creaturam esse digna est digna Et etiam alias explicatur scilicet quia <unclear>ut patet</unclear> 
+            <lb ed="#E"/>quod deus vult creaturam ideo est dingna esse dingnam absque infusione cuiuscumque doni Istud 
+            <lb ed="#E"/>potest collocari nam omnes concedunt in communi scola quod ad merendum et ad hoc quod creatura 
+            <lb ed="#E"/>sit in bono statu concurrit acceptatio divina et reliqua non sufficiunt scilicet liberum arbitrium 
+            <lb ed="#E"/>gratia virtus et actus eorum unde creaturam esse dignam vita aeterna est quoddam modo supernatural 
+            <lb ed="#E"/>facultatem et sic est ex summa dei clementia et bonitate quod aliquid sit dignus vita aeterna 
+          </p>
+        </div>
+        <div xml:id="ppr-l84-Dd1e203">
+          <head xml:id="ppr-l84-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l84-Dd1e208">
+            <head xml:id="ppr-l84-Hpcspvo">Primum corollarium</head>
+            <head xml:id="ppr-l84-Hd1e213" type="question-title">Stat praedestinatum esse perfectissimum viatorem omnium</head>
+            <p xml:id="ppr-l84-pcsnpi">
+              <lb ed="#E"/>Sequitur primo quod stat praescitum esse perfectissimum viatorum omnium nam sicut dictum est quod praedestinatio 
+              <lb ed="#E"/>aeterna nullum ponit perfectionis gradum in creatura ita nec praescientia vel reprobatio igitur 
+              <lb ed="#E"/>staret quod creatura esset praescita et tamen esset acceptata
+              <!-- break ?? -->
+              Secundo modo qui potuit perfectionem 
+              <lb ed="#E"/>quia staret quod alias esset praescitus et tamen esset in summa caritate et in statu et in quo si 
+              <lb ed="#E"/>decederet haberet vitam aeternam
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e224">
+            <head xml:id="ppr-l84-Hscqnad">Secundum corollarium</head> 
+            <head xml:id="ppr-l84-Hd1e229" type="question-title">Quod male dicunt quid quod <unclear>praescitis</unclear> confertur gratia seu acceptatio creata, sed non acceptatio divina</head>
+            <p xml:id="ppr-l84-ssqanm">
+              Sequitur ultra quod male dicunt quidam quod <unclear>praescitis<!-- need global check praescitis vs praestitis --></unclear> confirmatur 
+              <lb ed="#E"/>gratia creata sed non acceptatio divina patet primo quia gratia creata non sufficeret reddere 
+              <lb ed="#E"/>creaturam gratam nec dignam <pc type="virgula">/</pc> secundo quia non sufficit ad merendum et tamen non est dubium 
+              <lb ed="#E"/>quin opus illius esset meritorium vitae aeternae ergo oportet quod concurrat divina acceptatio
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e239">
+            <head xml:id="ppr-l84-Htccnap">Tertium corollarium</head> 
+            <head xml:id="ppr-l84-Hd1e244" type="question-title">Contra alios dicentes Spiritum Sanctum non assistere praescitis</head>
+            <p xml:id="ppr-l84-tcerag">
+              Sequitur 
+              <lb ed="#E"/>contra alias dicentes spiritus sanctus non assistere praescitis unde ymaginantur aliqui quod spiritus sanctus assistit 
+              <lb ed="#E"/>gratiae et voluntati in praedestinatis vivificando utrumque sed in praescitis non Contra dico 
+              <lb ed="#E"/>quia deus quantum ad hoc non est acceptor personarum
+            </p> 
+          </div>
+          <div xml:id="ppr-l84-Dd1e251">
+            <head xml:id="ppr-l84-Hqcciip">Quartum corollarium</head> 
+            <head xml:id="ppr-l84-Hd1e256" type="question-title">Contra ponentes gratiam minus <unclear>praescientiam</unclear> alterius speciei infundi in praescitis</head>
+            <p xml:id="ppr-l84-qccusa">
+              Sequitur contra ponentes gratiam 
+              <lb ed="#E"/>alterius speciei infundi praescitis a gratia quae infunditur praedestinatis ita quod gratia unius 
+              <lb ed="#E"/>perfecta infunditur praescitis vel reprobatis quam praedestinatis Cuius contrarium apparet 
+              <lb ed="#E"/>nam in sacramento baptismi sint duo parvuli non habentes <del rend="strikethrough">rationem</del> usum rationis unus praescitus 
+              <lb ed="#E"/>alter praedestinatus Isti quantum est ex parte sui sunt aeque bene dispositi et sacramentum 
+              <lb ed="#E"/>est aeque efficax igitur infunditur aequalis gratia
+            </p>
+            <p xml:id="ppr-l84-snbses">
+              Item non consonaret bene 
+              <pb ed="#E" n="113-r"/>
+              <lb ed="#E"/>ecclesiae quod ibi esset omnino dispositio similis personarum reciperet aequaliter sacramentum et gratiam
+            </p> 
+            <p xml:id="ppr-l84-smpses">
+              Item 
+              <lb ed="#E"/>meritum passionis christi quantum ad efficacia sacramentorum et gratiae collationem fuit generale 
+              <lb ed="#E"/>et eius redemptio quantum in se fuit generalis Ita quod pro quolibet est nisi quis ponat met 
+              <lb ed="#E"/>obicem unde paulus <quote xml:id="ppr-l84-Qd1e278" source="http://scta.info/resource/Itim2_4">deus vult omnes salvos fieri</quote> unde praescientiam nullam ponit necessitatem 
+              <lb ed="#E"/>quia quilibet eam potest salvari quantum est ex institutione sacramentorum passione christi 
+              <lb ed="#E"/>sed aliqui ponunt obicem 
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e285">
+            <head xml:id="ppr-l84-Hqcqsdc">Quintum corollarium</head>
+            <head xml:id="ppr-l84-Hd1e290" type="question-title">Quod licet ex hoc quod aliquis est praescitus, ipse non sit determinor Christo</head>
+            <p xml:id="ppr-l84-qcqrep">
+              Sequitur quod licet ex hoc quod aliquis sit praescitus non sit deterior <del rend="strikethrough">ex</del> 
+              <lb ed="#E"/>christo cum secundum communicationem ydeomatum repugnat esse praescitum 
+            </p>
+            <p xml:id="ppr-l84-ppenic">
+              prima pars est satis probata 
+              <lb ed="#E"/>quia illud quod est totaliter extrinsecum ergo nec dignificat nec indignificat creaturam
+            </p>
+            <p xml:id="ppr-l84-spacen">
+              2a pars patet 
+              <lb ed="#E"/>quia sequitur iste est praescitus ergo dampnabitur nam licet antecedens sit contingens et etiam consequens 
+              <lb ed="#E"/>tamen illa est neccessaria 
+            </p> 
+            <p xml:id="ppr-l84-uipsec">
+              unde ista sortes est praescitus includit unam de futuro scilicet quod ita erit quod sortes 
+              <lb ed="#E"/>dampnabitur
+              <!-- break; another corollary or continuation of this argument ? -->
+              Sequitur hanc consequentiam non valeret deus unit sibi naturam praescitam igitur deus 
+              <lb ed="#E"/>est praescitus unde dato sicut concedo esse possibile quod deus assumeret naturam alicuius quam postea 
+              <lb ed="#E"/>dimitteret et illa peccaret et dampnaretur ex hoc tamen non dampnaretur christus praescitus 
+              <lb ed="#E"/>quia licet praescitum esse non infert esse malum tamen infert fore malum quia summam mi<lb ed="#E"/>seriam 
+              non solum poenae sed etiam culpae
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e312">
+            <head xml:id="ppr-l84-Hsxcsxc">Sextum corollarium</head>
+            <p xml:id="ppr-l84-eqsdep">
+              Sequitur quod propter unionem ypostaticam haec 
+              <lb ed="#E"/>consequentia non est infringenda A est praescitum ergo a dampnabitur Ista consequentia concessa a doctori<lb ed="#E"/>bus 
+              et <unclear>communi</unclear> scola non est infringenda quia instantia inducta est frivola quia licet deus 
+              <lb ed="#E"/>assumeret talem naturam ex hoc non esset praescitus unde non sequitur deus assumit naturam pecca<lb ed="#E"/>bile 
+              igitur est peccabilis Advertendum quod <unclear>praedicabilia</unclear> et suppositalia quae includunt 
+              <lb ed="#E"/>difformitatem nullo modo possunt communicationem ydeomatum verbo competere quia natura assumpta 
+              peccativa et tamen christus nullo modo Sed alia praedicata quae <unclear>poenam</unclear> inportat bene attribuuntur verbo Et ideo 
+              <lb ed="#E"/>ex assumptione naturae praescitus peccabilis non arguitur assumens peccabilis  ita ex assumptione 
+              <lb ed="#E"/>naturae praescitae non arguitur praescitus assumus quia ex esse praescitum arguitur miseria non solum poenae 
+              <lb ed="#E"/>sed etiam culpae
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e335">
+            <head xml:id="ppr-l84-Hspcspc">Septimum corollarium: </head>
+            <p xml:id="ppr-l84-ssqadc">
+              Sequitur quod magis essentiale esset volitioni dei de qua vult creaturam 
+              esse gratam etiam creaturam denominare gratum concretive quam sit cuicumque qualitati in<lb ed="#E"/>formanti 
+              vel inhaerenti comparatio tamen est abusiva Causa corollarii est quia essentiale est voluntati 
+              <lb ed="#E"/>divinae quod eo ipso quod vult creaturam esse gratam consequentia non est necessaria quod sit grata Ex quo patet 
+              <lb ed="#E"/>quod volitio divina quia vult se esse sicut significatur per istam propositionem sortes est gratus habet quamdam 
+              <lb ed="#E"/>similitudinem quo ad denominare respectum causae formalis licet non informet
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e350">
+            <head xml:id="ppr-l84-Hoccocc">Octavum corollarium</head>
+            <p xml:id="ppr-l84-osqicd">
+              Sequitur quod huiusmodi 
+              <lb ed="#E"/>volitio denominat creaturam bonam in summo gradu <del rend="expunctuation">caritatis</del> bonitatis <del rend="expunctuation">creaturae communicabilis</del> 
+              <lb ed="#E"/>quia pure honestatis nam inter omnes latitudines bonitatis creaturae communicabiles
+            </p>
+            <!--fuzzy parallel -->
+            <p xml:id="ppr-l84-ptqicd">
+              istud genus est supremum scilicet primo ad latitudinem bonitatis per conformitatem ad iudicium rationis etc 
+              <lb ed="#E"/>ad habitus morales et habitus theologos per ista creatura dicitur esse bona et sunt gradus 
+              <lb ed="#E"/>etiam ad gradum quia habetur per formalem cognitionem dei etiam intuitivam unde primo quod 
+              <lb ed="#E"/>huiusmodi volitio est supremus gradus patet quia cum omnibus aliis gradibus staret inperfectio quia staret 
+              <lb ed="#E"/>cum primo quod esset deacceptio
+            </p>
+            <p xml:id="ppr-l84-tdqsor">
+              et etiam staret quod aliquis conformiter operaretur ad caritatem et tamen deac<lb ed="#E"/>ceptaret
+            </p>
+            <p xml:id="ppr-l84-qdqere">
+              nec videtur absolute implicare quod creatura clare videret deum et tamen non esset accep<lb ed="#E"/>tata 
+              ergo vel absoluta rectificat creaturam essentialiter nisi acceptatio divina sed volitio quia deus 
+              <lb ed="#E"/>vult creaturam esse rectam est essentialis rectitudo creaturae et illo modo exprimitur nec stat cum 
+              <lb ed="#E"/>obliquitate <del rend="expunctuation">quia</del> et quaelibet alia absolute loquendo bene staret vel non implicat et sic nulla alia est 
+              <lb ed="#E"/>essentialiter recta
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e368">
+            <head xml:id="ppr-l84-Hd1e370">Nonum corollarium</head>
+            <p xml:id="ppr-l84-nsqadr">
+              Sequitur quod stat duos habere aequalem caritatem et tamen quod unus sit magis gratus 
+              <lb ed="#E"/>carior dignior rectior et melior patet cum aequalitate duorum stat quod deus velit unam 
+              <lb ed="#E"/>creaturam esse magis dignam Etiam staret quod unus haberet infinitam caritatem et alius 
+              <lb ed="#E"/>nullam et tamen nullam habens est magis scilicet per acceptationem divinam 
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e381">
+            <head xml:id="ppr-l84-Hdcmdcm">Decimum corollarium</head>
+            <p xml:id="ppr-l84-cdppep">
+              Consequenter inferri potest quod cum aequalitate 
+              <pb ed="#E" n="113-v"/>
+              <lb ed="#E"/>formalis latitudinis stat inaequalitas statuum beatorum <unclear>posset</unclear> probari aliunde Nam datis 
+              <lb ed="#E"/>duabus visionibus eiusdem <unclear>intensionis</unclear> potentia perfectior est magis beata sed istud non est ad meum propositum 
+              <lb ed="#E"/>nam intelligo quod datis potentiis aequalibus et naturalibus et beatitudinibus formalibus existentibus aequalibus 
+              <lb ed="#E"/>secundum intentionem stat quod habeat inaequales <del rend="expunctuation">gradus</del> status quia deus magis acceptat unam 
+              <lb ed="#E"/>quam aliam et vult unam esse magis dignam quae volitio est maxima pars beatitudinis
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e391">
+            <head xml:id="ppr-l84-Hudcudc">Undecimum corollarium</head>
+            <p xml:id="ppr-l84-usqass">
+              Sequitur quod 
+              <lb ed="#E"/>dignitas est omnino inpertinens ad primum patet quia stat quod deus velit creaturam esse dignissimam 
+              <lb ed="#E"/>et optimam et quod velit dare praemium et istud est de potentia dei absoluta possibile Sed de potentia 
+              <lb ed="#E"/>dei ordinata dicendum est quod sunt gradus proportionales dignitatis in ordine ad gradus praemii
+            </p>
+            <p xml:id="ppr-l84-schrem">
+              <lb ed="#E"/>Obicem contra dictum quia si acceptatio divina redderet creaturam iustam tunc deacceptio redderet 
+              <lb ed="#E"/>creaturam malam
+            </p>
+            <p xml:id="ppr-l84-rncpvo">
+              Respondetur negando consequentiam causa est quia est deacceptio divina est quasi totum 
+              <lb ed="#E"/>iustificans vel principale et deacceptio non sed actus prohabitus commissus vel obmissus contra praeceptum 
+              <lb ed="#E"/>unde deacceptio est parva pars eorum quia integrunt difformitatem peccati 
+            </p>
+            <p xml:id="ppr-l84-sdqasm">
+              2a radix est 
+              <lb ed="#E"/>quia in hiis quae rectificant creaturam acceptatio divina habet rationem priorum et est principalis causaliter et 
+              <lb ed="#E"/>prima et sic non est de deacceptione nam actus prohibitus prius natura fit contra legem quam deaccept<lb ed="#E"/>ur 
+              creatura et sic non deacceptat nisi prius natura male agat quia oppositum repugnat eius 
+              <lb ed="#E"/>bonitati
+            </p>
+            <p xml:id="ppr-l84-tdqped">
+              Tertio quia omnibus aliis concurrentibus cessantibus deus potest acceptare creaturam et 
+              <lb ed="#E"/>non potest deacceptare nisi concurrente actu malo sicut non potest fallere decipere immediate et 
+              <lb ed="#E"/>mentiri quia esset deordinatio
+            </p>
+            <p xml:id="ppr-l84-qdccic">
+              Quarto dico quod deacceptatio dato quod daretur per se non 
+              <lb ed="#E"/>tamen est tota ratio mali sed acceptatio est tota ratio boni vel iusti id est ratio sufficiens ad integrandum 
+              <lb ed="#E"/>rationem iustitiae vel bonitatis Sed forte deacceptatio reduceretur ad penalitatem et non 
+              <lb ed="#E"/>ad culpam Concedo tamen secundo quod deacceptio nichilominus est aeque mala creaturae sicut aliqua partium 
+              <lb ed="#E"/>integrantium culpam unde ad integritatem culpae requiritur liberum arbitrium lex obligatoria 
+              <lb ed="#E"/>etiam requiritur actus positio in commissione saltem et nullum illorum quantum est de se est malum sed 
+              <lb ed="#E"/>deacceptio in se et de se habet rationem fugibilis ideo in se considerata est peyor quam etc 
+            </p>
+            <p xml:id="ppr-l84-scaqsp">
+              Contra 
+              <lb ed="#E"/>ponamus casum quod cessat deacceptatio in <name>lucifero</name> et cessat acceptatio in <name>sancto petro</name> et cum hoc sit 
+              <lb ed="#E"/>deacceptatio it quod deus deacceptet omnia opera <name>sancti petri</name> nec ipsum acceptet et per oppositum 
+              <lb ed="#E"/>de <name>lucifero</name> videtur sequi quod status <name>luciferi</name> esset minus fugibilis quam status sancti petri
+            </p>
+            <p xml:id="ppr-l84-rqiacg">
+              <lb ed="#E"/>Respondetur primo quod casus est inpossibilis scilicet quod deus deacceptet petrum cum actibus quos habet circa deum 
+              <lb ed="#E"/>sine peccato et si ponatur concurrere peccatum status sancti petri esse deterior quia esset sta<lb ed="#E"/>tus 
+              culpae et licet lucifer faceret opera contra legem non tamen esset demeritoria quia non 
+              <lb ed="#E"/>deacceptarentur et deacceptatio est de integritate demeriti 
+            </p>
+            <p xml:id="ppr-l84-ssfacg">
+              Sed ponat quod sanctus petrus 
+              <lb ed="#E"/>non peccet <subst><del rend="strikethrough">de</del> <add place="above-line">et</add></subst> deus deacceptet petrum sine peccato et tollat deacceptationem respectu actus lu<lb ed="#E"/>ciferi 
+              et reatum scilicet quod non deacceptet luciferum tunc diceretur probabiliter quod deacceptatio sancti petri 
+              <lb ed="#E"/>esset peyor quam quodcumque opus <name>luciferi</name> non deacceptatum unde non videtur implicare quod deus 
+              <lb ed="#E"/>de potentia sua absoluta circa aliquam creaturam nullum eius actum deacceptet vel deaccepta<lb ed="#E"/>ret 
+              vel imputaret et sic quodam modo licite operaretur eo quod non deacceptaretur nec imputaretur sibi actus 
+              <lb ed="#E"/>suus ad malum Sicut non videtur repugnantia quod deus odium suum acceptaret ad aliquod praemium 
+              <lb ed="#E"/>et pro illo vellet dare aliquod praemium Concludo ex dictis quod sola acceptatio divina est sufficiens 
+              <lb ed="#E"/>ad ratificandum creaturam et nulla alia est sufficiens etc 
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 84, De Trinitate [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 84, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-09-04">September 04, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="154-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio84">
+        <head xml:id="ppr-l84-Hldcldc">Lectio 84, de Caritate</head>
+        <div xml:id="ppr-l84-Dd1e109">
+          <head xml:id="ppr-l84-Hqacsda">Quod ad creaturam esse carum non requiritur aliqua caritas seu donum creatum sed sufficit divina acceptatio</head>
+          <p xml:id="ppr-l84-cmtsda">
+            <lb ed="#PV"/>In alia lectione
+            <lb ed="#PV"/>Tactum est circa materiam caritatis 
+            <lb ed="#PV"/>quod ad creaturam esse caram non 
+            <lb ed="#PV"/>requiritur caritas creata ad 
+            <lb ed="#PV"/>hoc quod contra <name>aureolum</name> sed sufficit 
+            <lb ed="#PV"/>divina acceptatio
+          </p> 
+        </div>
+        <div xml:id="ppr-l84-Dd1e118">
+          <head xml:id="ppr-l84-Hobitio">Obiectio</head>
+          <p xml:id="ppr-l84-sciedc">
+            Contra hoc 
+            <lb ed="#PV"/>arguitur Nam divina acceptatio  
+            <lb ed="#PV"/>est actus aeternus in deo ergo omnes 
+            <lb ed="#PV"/>praedestinati sicut deo creati <del rend="strikethrough">sicut</del> 
+            <lb ed="#PV"/>consequentia tenet parte <unclear>quia</unclear> denominationes 
+            <lb ed="#PV"/>communicabilia quae est esse carum communicatur 
+            <lb ed="#PV"/>ex sola divina acceptatione 
+            <lb ed="#PV"/>sine concursu cuiuscumque qualitatis 
+            <lb ed="#PV"/>creatae
+            <!-- break -->
+            Et sequitur quod parvuli 
+            <lb ed="#PV"/>ante baptissimum sunt deo cari
+          </p>
+          <p xml:id="ppr-l84-ssqeic">
+            <lb ed="#PV"/>Et etiam quantumcumque vilis peccator 
+            <lb ed="#PV"/>est deus carus et est in caritate
+          </p> 
+          <p xml:id="ppr-l84-tsqrvt">
+            <lb ed="#PV"/>Sequitur 3o quod parvuli praesciti 
+            <lb ed="#PV"/>in baptismo non recipiunt 
+            <lb ed="#PV"/>gratiam nec sunt deo cari 
+            <lb ed="#PV"/>patet quia ibi de est istud quod
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>est formale scilicet divina acceptatio 
+            <lb ed="#PV"/>et hoc videtur esse haereticum et contra 
+            <lb ed="#PV"/>ecclesiae determinationem scilicet quod non recipiunt 
+            <lb ed="#PV"/>gratiam et sic videtur <ref xml:id="ppr-l84-Rd1e133">opinio 
+            <lb ed="#PV"/><name ref="#Aureoli">aureoli</name></ref> esse tenenda
+          </p>
+        </div>
+        <div xml:id="ppr-l84-Dd1e144">
+          <head xml:id="ppr-l84-Hsacsac">Sensus acceptationis</head>
+          <p xml:id="ppr-l84-pimica">
+            Pro 
+            <lb ed="#PV"/><unclear>emultatione</unclear> materiae dicendum est 
+            <lb ed="#PV"/>de acceptatione unde deum accep<lb ed="#PV"/>tare 
+            creaturam multipliciter intelligitur 
+            <lb ed="#PV"/>primo modo id est velle aliquando sibi 
+            <lb ed="#PV"/>dare vitam aeternam vel simpliciter 
+            <lb ed="#PV"/>vel cum dignitate habendi 
+            <lb ed="#PV"/>Et utrumque dubiorum vel scilicet 
+            <lb ed="#PV"/>determinato tempore vel taliter 
+            <lb ed="#PV"/>ad qualiter velle sequitur 
+            <lb ed="#PV"/>creaturam recipere huiusmodi donum 
+            <lb ed="#PV"/>unde ista propositio deus vult sorti 
+            <lb ed="#PV"/>dare vitam aeternam unus sensus 
+            <lb ed="#PV"/>est quod habet <sic>profixum</sic> tempore in 
+            <lb ed="#PV"/>quo vult dare alius sensus 
+            <lb ed="#PV"/>est quod deus vult creare ante hoc 
+            <lb ed="#PV"/>tempore praefixo 
+          </p>
+          <p xml:id="ppr-l84-sseelv">
+            Alius sensus 
+            <lb ed="#PV"/>est scilicet quod deus vult taliter 
+            <lb ed="#PV"/>creare ante christum scilicet quod ex sic velle 
+            <lb ed="#PV"/>sequitur ante christum esse ita quod 
+            <lb ed="#PV"/>erit commodus est efficax ad ponendum 
+            <lb ed="#PV"/>rem in esse Et utrumque scilicet primo 
+            <lb ed="#PV"/>modo vel secundo modo potest intelligi 
+            <lb ed="#PV"/>dupliciter uno modo cum dignitate 
+            <lb ed="#PV"/>habendi unde isti effectus 
+            <lb ed="#PV"/>sunt distincti vel ut distincti 
+            <lb ed="#PV"/>conceptibiles scilicet creaturam frui 
+            <lb ed="#PV"/>deo et esse tutam de sic permanendo 
+            perpetuo et habere dignitatem ad 
+            <lb ed="#PV"/>sic esse Ita quod istae habitudines 
+            <lb ed="#PV"/>sunt ab invicem separabiles 
+          </p> 
+          <p xml:id="ppr-l84-csdelv">
+            Et sic de praesenti iustitia potest 
+            <lb ed="#PV"/>dici quod deus posset acceptare 
+            <lb ed="#PV"/>creaturam ad statum gratitudinis 
+            <pb ed="#PV" n="155-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>et velle eam esse gratam 2m 
+            <lb ed="#PV"/>primum modum exponendi in <mentioned>velle</mentioned> 
+            <lb ed="#PV"/>vel secundum 2m modum 
+          </p>
+          <p xml:id="ppr-l84-uneica">
+            prima propositio 
+            <lb ed="#PV"/>quod primum acceptare sive ad glo<lb ed="#PV"/>riam 
+            sive ad gratiam nullam 
+            <lb ed="#PV"/>ponit perfectionis gradum in creatura 
+            <lb ed="#PV"/><unclear>accepta</unclear>
+          </p>
+          <p xml:id="ppr-l84-pmivac">
+            patet quia est mere sibi 
+            <lb ed="#PV"/>extrinsecum et stat cum quacumque 
+            <lb ed="#PV"/>culpa et quantacumque malitia 
+            <lb ed="#PV"/>ymmo absolute loquendo cum tota 
+            <lb ed="#PV"/><name>luciferi</name> nequitia quia <name>lucifer</name> 
+            <lb ed="#PV"/>posset salvari ymmo possibile est 
+            <lb ed="#PV"/>quod haec persona scilicet <name>lucifer</name> 
+            <lb ed="#PV"/>salvetur <sic>sy</sic> forte ly <mentioned><name>lucifer</name></mentioned> con<lb ed="#PV"/>notaret 
+            malum sicut non connotat 
+            <lb ed="#PV"/>ut videtur 
+          </p>
+          <p xml:id="ppr-l84-smadve">
+            Et sic etiam dicendum 
+            <lb ed="#PV"/>est respectu acceptionis gratiae 
+            <lb ed="#PV"/>vel sequitur <del rend="strikethrough">gradum</del> gratum 
+            <lb ed="#PV"/>esse Isto modo dico quod sola divina 
+            <lb ed="#PV"/>acceptatio sufficit ad gratifac<lb ed="#PV"/>tionem 
+            creaturae nam eo ipso 
+            <lb ed="#PV"/>quod deus vult creaturam esse dig<lb ed="#PV"/>nam 
+            est digna Et etiam alias 
+            <lb ed="#PV"/>explicatur scilicet quia ut patet quod deus 
+            <lb ed="#PV"/>vult creaturam ideo est digna 
+            <lb ed="#PV"/>esse dignam absque confusione 
+            <lb ed="#PV"/>cuiuscumque doni Istud potest col<lb ed="#PV"/>locari 
+            nam omnes concedunt 
+            <lb ed="#PV"/>in communi scola quod ad merendum 
+            <lb ed="#PV"/>et ad hoc quod creatura sit in bono 
+            <lb ed="#PV"/>statu concurrit acceptatio divina 
+            <lb ed="#PV"/>et reliqua non sufficiunt sed
+            <lb ed="#PV"/>liberum arbitrium gratia virtus et actus 
+            <lb ed="#PV"/>eorum unde creaturam esse dignam 
+            <lb ed="#PV"/>vita aeterna est quod distinguuntur 
+            <lb ed="#PV"/>supernaturale excedens totam naturae 
+            <lb ed="#PV"/>facultatem et sic est extensum dei cle<lb ed="#PV"/>mentia 
+            et bonitate quod aliquis sit 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>dignus vita aeterna
+          </p>
+        </div>
+        <div xml:id="ppr-l84-Dd1e203">
+          <head xml:id="ppr-l84-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l84-Dd1e208">
+            <head xml:id="ppr-l84-Hpcspvo">Primum corollarium</head>
+            <head xml:id="ppr-l84-Hd1e213" type="question-title">Stat praedestinatum esse perfectissimum viatorem omnium</head>
+            <p xml:id="ppr-l84-pcsnpi">
+              Sequitur 
+              <lb ed="#PV"/>primo quod stat praescitum esse perfectis<lb ed="#PV"/>simum 
+              viatorum omnium nam sicut 
+              <lb ed="#PV"/>dictum est quod praedestinatio aeterna 
+              <lb ed="#PV"/>nullum potest perfectionis gradum 
+              <lb ed="#PV"/>in creatura ita nec praescientia 
+              <lb ed="#PV"/>vel reprobatio igitur staret quod creatura 
+              <lb ed="#PV"/>esset praescita et tamen esset accep<lb ed="#PV"/>tata
+              <!-- break ?? -->
+              2o modo qui potuit per<lb ed="#PV"/>fectionem 
+              quia staret quod aliquis 
+              <lb ed="#PV"/>esset praescitus et tamen esset in 
+              <lb ed="#PV"/>summa caritate et in statu 
+              <lb ed="#PV"/>et in quo si decederet 
+              <lb ed="#PV"/>haberet vitam aeternam
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e224">
+            <head xml:id="ppr-l84-Hscqnad">Secundum corollarium</head> 
+            <head xml:id="ppr-l84-Hd1e229" type="question-title">Quod male dicunt quid quod <unclear>praescitis</unclear> confertur gratia seu acceptatio creata, sed non acceptatio divina</head>
+            <p xml:id="ppr-l84-ssqanm">
+              Sequitur 
+              <lb ed="#PV"/>ultra quod male dicunt quidam 
+              <lb ed="#PV"/>quod <unclear>praescitis<!-- need global check praescitis vs praestitis --></unclear> confertur gratia creata 
+              <lb ed="#PV"/>sed non acceptatio divina patet 
+              <lb ed="#PV"/>primo quia gratia creata non 
+              <lb ed="#PV"/>sufficeret reddere creaturam gratam 
+              <lb ed="#PV"/>nec dignam 2o quia non 
+              <lb ed="#PV"/>sufficit ad merendum et tamen 
+              <lb ed="#PV"/>non est dubium quin opus illius 
+              <lb ed="#PV"/>esset meritorium vitae aeternae 
+              <lb ed="#PV"/>ergo oportet quod concurrat divina 
+              <lb ed="#PV"/>acceptatio
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e239">
+            <head xml:id="ppr-l84-Htccnap">Tertium corollarium</head> 
+            <head xml:id="ppr-l84-Hd1e244" type="question-title">Contra alios dicentes Spiritum Sanctum non assistere praescitis</head>
+            <p xml:id="ppr-l84-tcerag">
+              Sequitur contra 
+              <lb ed="#PV"/>alios dicentes spiritus sanctus non assistere 
+              <lb ed="#PV"/>praescitis unde ymaginantur 
+              <lb ed="#PV"/>aliqui quod spiritus sanctus assistit gratiae 
+              <lb ed="#PV"/>et voluntati in praedestinatis vivi<lb ed="#PV"/>ficando 
+              utraque sed in praescitis 
+              <lb ed="#PV"/>non Contra dico quia deus 
+              <lb ed="#PV"/>quantum ad hoc non est acceptor 
+              <lb ed="#PV"/>personarum
+            </p> 
+          </div>
+          <div xml:id="ppr-l84-Dd1e251">
+            <head xml:id="ppr-l84-Hqcciip">Quartum corollarium</head> 
+            <head xml:id="ppr-l84-Hd1e256" type="question-title">Contra ponentes gratiam minus <unclear>praescientiam</unclear> alterius speciei infundi in praescitis</head>
+            <p xml:id="ppr-l84-qccusa">
+              Sequitur contra ponen<lb ed="#PV"/>tes 
+              gratiam alterius speciei infundi 
+              <lb ed="#PV"/>praescitis a gratia quae infunditur 
+              <lb ed="#PV"/>praedestinatis ita quod gratia <unclear>minus</unclear> 
+              <lb ed="#PV"/>perfecta infunditur praescitis 
+              <lb ed="#PV"/>vel reprobatis quam praedestinatis 
+              <lb ed="#PV"/>Cuius contrarium apparet nam in sacramento 
+              <pb ed="#PV" n="155-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>baptismi sint duo parvuli non 
+              <lb ed="#PV"/>habentes usum rationis unus 
+              <lb ed="#PV"/>praescitus alter praedestinatus Isti 
+              <lb ed="#PV"/>quantum est ex parte sui sunt aeque bene 
+              <lb ed="#PV"/>dispositi et sacramentum est aeque 
+              <lb ed="#PV"/>efficax igitur infunditur 
+              <lb ed="#PV"/>aequalis gratia
+            </p>
+            <p xml:id="ppr-l84-snbses">
+              Item non consonaret 
+              <lb ed="#PV"/>bene ecclesiae quod ibi esset omnino dispositio 
+              <lb ed="#PV"/>similis personarum reciperet aequaliter 
+              <lb ed="#PV"/>sacramentum et gratiam
+            </p> 
+            <p xml:id="ppr-l84-smpses">
+              Item meritum 
+              <lb ed="#PV"/>passionis christi quantum ad effi<lb ed="#PV"/>cacia 
+              sacramentorum et gratiae col<lb ed="#PV"/>lationem 
+              fuit generale et eius re<lb ed="#PV"/>demptio 
+              quantum in se fuit generalis 
+              <lb ed="#PV"/>Ita quod pro quolibet est nisi quis 
+              <lb ed="#PV"/>ponat met obicem unde 
+              <lb ed="#PV"/>paulus <quote xml:id="ppr-l84-Qd1e278" source="http://scta.info/resource/Itim2_4">deus vult omnes sal<lb ed="#PV"/>vos 
+              fieri</quote> unde praescientiam nul<lb ed="#PV"/>lam 
+              ponit necessitatem quia 
+              <lb ed="#PV"/>quilibet eam potest salvari quantum 
+              <lb ed="#PV"/>est ex institutione sacramentorum 
+              <lb ed="#PV"/>passione christi sed aliqui ponunt 
+              <lb ed="#PV"/>obicem 
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e285">
+            <head xml:id="ppr-l84-Hqcqsdc">Quintum corollarium</head>
+            <head xml:id="ppr-l84-Hd1e290" type="question-title">Quod licet ex hoc quod aliquis est praescitus, ipse non sit determinor Christo</head>
+            <p xml:id="ppr-l84-qcqrep">
+              Sequitur quod licet ex hoc 
+              <lb ed="#PV"/>quod aliquis sit praescitus non sit 
+              <lb ed="#PV"/>deterior christo cum secundum communicationem 
+              <lb ed="#PV"/>ydeomatum repugnat esse praescitum 
+            </p>
+            <p xml:id="ppr-l84-ppenic">
+              prima pars est probata quia illud 
+              <lb ed="#PV"/>quod est totaliter extrinsecum 
+              <lb ed="#PV"/>ergo nec dignificat nec indigni<lb ed="#PV"/>ficat 
+              creaturam
+            </p>
+            <p xml:id="ppr-l84-spacen">
+              2a pars patet 
+              <lb ed="#PV"/>quia sequitur iste est praescitus 
+              <lb ed="#PV"/>ergo dampnabitur nam licet antecedens 
+              <lb ed="#PV"/>sit contingens et etiam consequens tamen 
+              <lb ed="#PV"/>illa est neccessaria 
+            </p> 
+            <p xml:id="ppr-l84-uipsec">
+              unde ista sortes 
+              <lb ed="#PV"/>est praescitus includit unam de fu<lb ed="#PV"/>turo 
+              scilicet quod ita erit quod sortes damp<lb ed="#PV"/>nabitur
+              <!-- break; another corollary or continuation of this argument ? -->
+              Sequitur hanc consequentiam 
+              <lb ed="#PV"/>non valere deus unit sibi naturam 
+              <lb ed="#PV"/>praescitam igitur deus est praescitus 
+              <lb ed="#PV"/>unde dato sicut concedo esse possibile 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>quod deus assumeret naturam alicuius 
+              <lb ed="#PV"/>quam postea dimitteret et 
+              <lb ed="#PV"/>illa peccaret et dampnaretur 
+              <lb ed="#PV"/>ex hoc tamen dampnaretur christus 
+              <lb ed="#PV"/>praescitus quia licet praescitum 
+              <lb ed="#PV"/>esse non infert esse malum tamen 
+              <lb ed="#PV"/>infert fore malum quia summam 
+              <lb ed="#PV"/>miseriam non solum poenae sed 
+              <lb ed="#PV"/>etiam culpae
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e312">
+            <head xml:id="ppr-l84-Hsxcsxc">Sextum corollarium</head>
+            <p xml:id="ppr-l84-eqsdep">
+              Sequitur quod propter 
+              <lb ed="#PV"/>unionem ypostaticam haec consequentia 
+              <lb ed="#PV"/>non est infringenda <c>a</c> est praesci<lb ed="#PV"/>tum 
+              ergo a dampnabitur Ista consequentia 
+              <lb ed="#PV"/>concessa a doctoribus et <unclear>communi</unclear> scola 
+              <lb ed="#PV"/>non est infringenda quia instan<lb ed="#PV"/>tia 
+              inducta est frivola quia licet 
+              <lb ed="#PV"/>deus assumeret talem naturam ex 
+              <lb ed="#PV"/>hoc non esset praescitus unde 
+              <lb ed="#PV"/>non sequitur deus assumit 
+              <lb ed="#PV"/>naturam peccabilem igitur est pecca<lb ed="#PV"/>bilis 
+              Advertendum quod praedicata <unclear>perdicabilia</unclear> vel 
+              <lb ed="#PV"/>suppositalia quae includunt 
+              <lb ed="#PV"/>difformitatem nullo modo possunt 
+              <lb ed="#PV"/>communicationem ydeomatum verbo com<lb ed="#PV"/>petere 
+              quia natura assumpta est 
+              <lb ed="#PV"/>peccativa et tamen christus nullo modo 
+              <lb ed="#PV"/>Sed alia praedicata quae <unclear>poenam</unclear> im<lb ed="#PV"/>portat 
+              bene attribuuntur verbo 
+              <lb ed="#PV"/>et ideo ex <sic>asusmpitione</sic> naturae praescitae 
+              <lb ed="#PV"/>non arguitur assumens praesci<lb ed="#PV"/>tus 
+              quia ex esse praescitum 
+              <lb ed="#PV"/>arguitur miseria non solum 
+              <lb ed="#PV"/>ponae sed etiam culpae
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e335">
+            <head xml:id="ppr-l84-Hspcspc">Septimum corollarium: </head>
+            <p xml:id="ppr-l84-ssqadc">
+              Sequitur 
+              <lb ed="#PV"/>quod magis essentiale esset volitionem 
+              <lb ed="#PV"/>dei quam vult creaturam esse 
+              <lb ed="#PV"/>gratam eam creaturam denomina<lb ed="#PV"/>re 
+              gratum concretive quam 
+              <lb ed="#PV"/>sit cuicumque qualitati informanti 
+              <lb ed="#PV"/>vel inhaerenti comparatio tamen est 
+              <lb ed="#PV"/>abusiva Causa corollarii est quia essentiale 
+              <pb ed="#PV" n="155-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>est voluntati divinae quod eo ipso 
+              <lb ed="#PV"/>quod vult creaturam esse gratam 
+              <lb ed="#PV"/>consequentia non est neccessaria quod sit grata 
+              <lb ed="#PV"/>Ex quo patet quod volitio divina 
+              <lb ed="#PV"/>qua vult se esse sicut significatur 
+              <lb ed="#PV"/>per istam propositionem sortes est gratus 
+              <lb ed="#PV"/>habet quamdam similitudinem quo 
+              <lb ed="#PV"/>ad denominare respectum causae for<lb ed="#PV"/>malis 
+              licet non informet
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e350">
+            <head xml:id="ppr-l84-Hoccocc">Octavum corollarium</head>
+            <p xml:id="ppr-l84-osqicd">
+              <lb ed="#PV"/>Sequitur quod huiusmodi volitio 
+              <lb ed="#PV"/>denominat creaturam bonam in summo 
+              <lb ed="#PV"/>gradu bonitatis quia purae 
+              <lb ed="#PV"/>honestatis nam inter omnes la<lb ed="#PV"/>titudines 
+              bonitatis creaturae 
+              <lb ed="#PV"/>communicabiles
+            </p>
+            <!--fuzzy parallel -->
+            <p xml:id="ppr-l84-ptqicd">
+              Istud genus est 
+              <lb ed="#PV"/>supremum scilicet primo ad latitudinem 
+              <lb ed="#PV"/>bonitatis per conformitatem ad iudicium 
+              <lb ed="#PV"/>rationis etc ad habitus morales 
+              <lb ed="#PV"/>et habitus theologos per ista 
+              <lb ed="#PV"/>creatura dicitur esse bona et sunt 
+              gradus etiam ad gradum quia ha<lb ed="#PV"/>betur 
+              per formalem cognitionem 
+              <lb ed="#PV"/>dei etiam intuitivam unde po<lb ed="#PV"/>no 
+              quod huiusmodi volitio est 
+              <lb ed="#PV"/>supremus gradus patet quia cum 
+              <lb ed="#PV"/>omnibus aliis gradibus staret 
+              <lb ed="#PV"/>inperfectio quia staret cum primo 
+              <lb ed="#PV"/>quod esset deacceptio
+            </p>
+            <p xml:id="ppr-l84-tdqsor">
+              Et etiam sta<lb ed="#PV"/>ret 
+              quod aliquis conformiter 
+              <lb ed="#PV"/>operaretur ad caritatem et tamen de<lb ed="#PV"/>acceptaret
+            </p>
+            <p xml:id="ppr-l84-qdqere">
+              nec videtur absolute 
+              <lb ed="#PV"/>implicare quod creatura clare vi<lb ed="#PV"/>deret 
+              deum et tamen non esset accep<lb ed="#PV"/>tata 
+              ergo vel absoluta rectificat 
+              <lb ed="#PV"/>creaturam essentialiter nisi acceptatio 
+              <lb ed="#PV"/>divina sed volitio qua deus 
+              <lb ed="#PV"/>vult creaturam esse rectam est 
+              <lb ed="#PV"/>essentialis rectitudo creaturae 
+              <lb ed="#PV"/>et illo modo exprimitur nec stat
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>cum obliquitate et quaelibet alia absolute 
+              <lb ed="#PV"/>loquendo bene staret vel non 
+              <lb ed="#PV"/>implicat et sic nulla <del rend="strikethrough">alia stat</del> 
+              <lb ed="#PV"/>est essentialiter recta
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e368">
+            <head xml:id="ppr-l84-Hd1e370">Nonum corollarium</head>
+            <p xml:id="ppr-l84-nsqadr">
+              Sequitur quod stat 
+              <lb ed="#PV"/>duos habere aequalem caritatem 
+              <lb ed="#PV"/>et tamen quod unus sit magis 
+              <lb ed="#PV"/>gratus carior dignior rectior 
+              <lb ed="#PV"/>et melior patet cum aequalitate 
+              <lb ed="#PV"/>duorum stat quod deus velit unam 
+              <lb ed="#PV"/>creaturam esse magis dignam Etiam 
+              <lb ed="#PV"/>staret quod unus haberet infinitam 
+              <lb ed="#PV"/>caritatem et alius nullam et nullus 
+              <lb ed="#PV"/>habens nullam est magis super accep<lb ed="#PV"/>tationem 
+              divinam 
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e381">
+            <head xml:id="ppr-l84-Hdcmdcm">Decimum corollarium</head>
+            <p xml:id="ppr-l84-cdppep">
+              Consequenter 
+              <lb ed="#PV"/>inferri potest quod cum aequalitate 
+              <lb ed="#PV"/>formalis latitudinis stat in<lb ed="#PV"/>aequalitas 
+              statuum beatorum <unclear>posset</unclear> 
+              <lb ed="#PV"/>probari aliunde nam intelligo 
+              <lb ed="#PV"/>quod datis potentiis aequalibus 
+              <lb ed="#PV"/>et naturalibus et beatitudinibus 
+              <lb ed="#PV"/>formalibus existentibus aequalibus 
+              <lb ed="#PV"/>secundum intentionem stat quod habeat 
+              <lb ed="#PV"/>inaequales status quia deus 
+              <lb ed="#PV"/>magis acceptat unam quam aliam 
+              <lb ed="#PV"/>et vult unam esse magis dig<lb ed="#PV"/>nam 
+              quae volitio est maxima 
+              <lb ed="#PV"/>pars beatitudinis 
+            </p>
+          </div>
+          <div xml:id="ppr-l84-Dd1e391">
+            <head xml:id="ppr-l84-Hudcudc">Undecimum corollarium</head>
+            <p xml:id="ppr-l84-usqass">
+              Sequitur 
+              <lb ed="#PV"/>quod dignitas est omnino inpertinens 
+              <lb ed="#PV"/>ad primum patet quia stat quod 
+              <lb ed="#PV"/>deus velit creaturam esse dignissi<lb ed="#PV"/>mam 
+              et optimam et quod velit 
+              <lb ed="#PV"/>dare praemium et istud est de potentia 
+              <lb ed="#PV"/>dei absoluta possibile Sed de potentia 
+              <lb ed="#PV"/>dei ordinata dicendum est quod sunt 
+              <lb ed="#PV"/>gradus proportionales dignitatis 
+              <lb ed="#PV"/>in ordine ad gradus praemii
+            </p>
+            <p xml:id="ppr-l84-schrem">
+              <lb ed="#PV"/>Obicitur contra dictum quia si acceptatio 
+              <pb ed="#PV" n="156-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>divina redderet caritatem iustam tunc 
+              <lb ed="#PV"/>deacceptio redderet creaturam malam
+            </p>
+            <p xml:id="ppr-l84-rncpvo">
+              <lb ed="#PV"/>Respondetur negando consequentiam causa est quia 
+              <lb ed="#PV"/>est deacceptio divina est quasi 
+              <lb ed="#PV"/>totum iustificans vel principale 
+              <lb ed="#PV"/>et deacceptio non sed actus pro<lb ed="#PV"/>habitus 
+              commissus vel ob<lb ed="#PV"/>missus 
+              contra praeceptum unde 
+              <lb ed="#PV"/>deacceptio est parva pars eorum 
+              <lb ed="#PV"/>quia integrunt difformitatem 
+              <lb ed="#PV"/>peccati 
+            </p>
+            <p xml:id="ppr-l84-sdqasm">
+              2a radix est quia in 
+              <lb ed="#PV"/>hiis quae rectificant creaturam 
+              <lb ed="#PV"/>acceptatio divina habet rationem prioris 
+              <lb ed="#PV"/>et est principalis causaliter 
+              <lb ed="#PV"/>prima et sic non est de acceptione 
+              <lb ed="#PV"/>nam actus prohibitus prius 
+              <lb ed="#PV"/>natura fit contra legem quam deac<lb ed="#PV"/>ceptio 
+              <lb ed="#PV"/>tota creatura et sic non deac<lb ed="#PV"/>ceptat 
+              nisi prius natura male 
+              <lb ed="#PV"/>agat quia <unclear>oppositum</unclear> repugnat 
+              <lb ed="#PV"/>eius bonitati
+            </p>
+            <p xml:id="ppr-l84-tdqped">
+              3o quia omni<lb ed="#PV"/>bus 
+              aliis concurrentibus cessan<lb ed="#PV"/>tibus 
+              deus potest acceptare crea<lb ed="#PV"/>turam 
+              et non potest deacceptare 
+              <lb ed="#PV"/>nisi concurrente actu malo sed 
+              <lb ed="#PV"/>non potest fallere decipere inmediate 
+              <lb ed="#PV"/>et mentiri quia esset deordi<lb ed="#PV"/>natio
+            </p>
+            <p xml:id="ppr-l84-qdccic">
+              quarto dico quod deac<lb ed="#PV"/>ceptatio 
+              dato quod daretur per se non 
+              <lb ed="#PV"/>tamen est tota ratio mali sed 
+              <lb ed="#PV"/>acceptatio est tota ratio boni vel 
+              <lb ed="#PV"/>iusti id est ratio sufficiens ad inte<lb ed="#PV"/>grandum 
+              rationem iustitiae vel bonitatis 
+              <lb ed="#PV"/>sed forte deacceptatio redu<lb ed="#PV"/>ceretur 
+              ad penalitatem et non ad 
+              <lb ed="#PV"/>culpam Concedo tamen secundo 
+              <lb ed="#PV"/>quod deacceptio nichilominus est 
+              <lb ed="#PV"/>aeque mala creaturae sicut 
+              <lb ed="#PV"/>aliqua partium integrantium 
+              <lb ed="#PV"/>culpam unde ad integritatem 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>culpae requiritur liberum arbitrium 
+              <lb ed="#PV"/>lex obligatoria etiam requiritur 
+              <lb ed="#PV"/>actus positio in commissione saltem 
+              <lb ed="#PV"/>et nullum illorum quantum est de se est 
+              <lb ed="#PV"/>malum Sed deacceptio in se 
+              <lb ed="#PV"/>etiam de se habet rationem fugibilis ideo 
+              <lb ed="#PV"/>in se constituta est prior quam 
+              <lb ed="#PV"/>talis
+            </p>
+            <p xml:id="ppr-l84-scaqsp">
+              Contra ponamus casum quod 
+              <lb ed="#PV"/>cessanti acceptatio a lucifero et
+              <lb ed="#PV"/>cessat acceptatio in <name>sancto petro</name> 
+              <lb ed="#PV"/>et cum hoc sit deacceptatio deus 
+              <lb ed="#PV"/>deacceptet omnia opera <name>sancti 
+              <lb ed="#PV"/>petri</name> nec ipsum acceptet et per 
+              <lb ed="#PV"/>oppositum de <name>lucifero</name> videtur 
+              <lb ed="#PV"/>sequi quod status <name>luciferi</name> esset 
+              <lb ed="#PV"/>minus fugibilis quam status sancti 
+              <lb ed="#PV"/>petri
+            </p>
+            <p xml:id="ppr-l84-rqiacg">
+              Respondetur primo quod casus est 
+              <lb ed="#PV"/>impossibilis scilicet quod deus deacceptet 
+              <lb ed="#PV"/>sanctum petrum cum actibus 
+              <lb ed="#PV"/>quos habet circa deum sine peccato 
+              <lb ed="#PV"/>et si ponatur concurrere peccatum 
+              <lb ed="#PV"/>status sancti petri esse deterior 
+              <lb ed="#PV"/>quia esset status culpae et licet 
+              <lb ed="#PV"/>lucifer faceret opera contra legem 
+              <lb ed="#PV"/>tamen non essent demeritoria 
+              <lb ed="#PV"/>quia de non acceptarentur et de<lb ed="#PV"/>acceptatio 
+              est de integritate 
+              <lb ed="#PV"/>demeriti 
+            </p>
+            <p xml:id="ppr-l84-ssfacg">
+              Sed ponat quod sanctus 
+              <lb ed="#PV"/>petrus non peccet et deus 
+              <lb ed="#PV"/>deacceptet petrum sine peccato 
+              <lb ed="#PV"/>et tollat deacceptationem respectu 
+              <lb ed="#PV"/>actus luciferi et reatum scilicet quod non 
+              <lb ed="#PV"/>deacceptet luciferum tunc diceretur 
+              <lb ed="#PV"/>probabiliter quod deacceptatio sancti 
+              <lb ed="#PV"/>petri esset peyor quam quodcumque 
+              <lb ed="#PV"/>opus <name>luciferi</name> <del rend="strikethrough">d</del> non deaccep<lb ed="#PV"/>tatum 
+              unde non videtur impli<lb ed="#PV"/>care 
+              quod deus de potentia sua absoluta 
+              <pb ed="#PV" n="157-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>circa aliquam creaturam nullum 
+              <lb ed="#PV"/>eius actum deacceptet vel 
+              <lb ed="#PV"/>deacceptaret vel imputet 
+              <lb ed="#PV"/>et sic quodam modo licite operaretur 
+              <lb ed="#PV"/>eo quod non deacceptaretur nec 
+              <lb ed="#PV"/>imputaretur sibi actus suus 
+              <lb ed="#PV"/>ad malum Sicut non videtur 
+              <lb ed="#PV"/>repugnantia quod deus odium 
+              <lb ed="#PV"/>suum acceptaret ad aliquod 
+              <lb ed="#PV"/>praemium Concludo ex dictis 
+              <lb ed="#PV"/>quod sola acceptatio divina est 
+              <lb ed="#PV"/>sufficiens ad ratifficandum cre<lb ed="#PV"/>aturam 
+              et nulla alia est sufficiens 
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
