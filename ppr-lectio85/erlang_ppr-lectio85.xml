@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 85, De Trinitate [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 85, De Trinitate [Erlangen Transcription]</title>
+          <date when="2020-09-05">September 10, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="113-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio85">
+        <head xml:id="ppr-l85-Hldcldc">Lectio 85, de Caritate</head>
+        <div xml:id="ppr-l85-Dd1e109">
+          <head xml:id="ppr-l85-Hpsafir">Prima Solutio ad argumentum quod potest fieri transitus de contradictio in contradictioni sine mutatione facta in re</head>
+          <p xml:id="ppr-l85-cmdpas">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>Circa materiam de divina acceptatione Restat solvere argumentum de transitu contradictio <del rend="strikethrough">iud</del> in contradicorium
+            <lb ed="#E"/>sine mutatione rei Pro intellectu
+          </p>
+          <div xml:id="ppr-l85-Dd1e117">
+          <head xml:id="ppr-l85-Hsupnes">Suppositiones</head>
+            <div xml:id="ppr-l85-Dd1e122">
+              <head xml:id="ppr-l85-Hpsopso">Prima suppositio</head>
+              <p xml:id="ppr-l85-peqssm">
+                prima propositio sicut ex immensitate divinae perfectionis consurgit quod 
+                <lb ed="#E"/>uniformiter se habendo deus producat aliquid noviter ymmo effectus oppositos sic concedi potest
+                <pb ed="#E" n="114-r"/>
+                <lb ed="#E"/>quod incipit sortes acceptare et postea desinit loquendo de acceptatione quae est modum inferendi sortem 
+                <lb ed="#E"/>esse gratum deo
+              </p>
+              <p xml:id="ppr-l85-pparpi">
+                prima pars patet quia idem inquantum idem non est etc unde numquam ab eodem eodem 
+                <lb ed="#E"/>modo se habente proveniunt diversi effectus nisi ratione inmensitatis agentis 
+              </p>
+              <p xml:id="ppr-l85-spaidp">
+                <lb ed="#E"/>sed ratione inmensitatis dei 
+                <lb ed="#E"/>potest concedi quod deus nunc primo acceptat sortem et ante non acceptavit et desinit acceptare 
+                <lb ed="#E"/>et pluries acceptabit eodem modo se habendo sicut adaequate et secundum eandem rationem causalitatis 
+                <lb ed="#E"/>ad producendum mundum et sortes et asinum vel albedinem et magnitudinem et consurgit illud ex 
+                <lb ed="#E"/>inmensitate abissalis divinae perfectionis quae est tota radix illius
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e143">
+              <head xml:id="ppr-l85-Hssosso">Secunda suppositio</head>
+              <p xml:id="ppr-l85-spqaad">
+                Secunda propositio quamvi deus 
+                <lb ed="#E"/>acceptare aliquem se sola scilicet creatura non concurrente ad eius dignificationem 
+                <lb ed="#E"/>non tamen deacceptare se solo 
+              </p> 
+              <!--fuzzy break-->
+              <p xml:id="ppr-l85-ppagbi">
+                nam ex libertate inmense contingit absque quocumque motivo bene<lb ed="#E"/>ficiium 
+                inferre
+              </p>
+              <!--fuzzy break-->
+              <p xml:id="ppr-l85-spapsd">
+                Et ad summam bonitatem pertinet quod non possit malum inferre nec 2m dispositionem 
+                <lb ed="#E"/>respicientis
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e158">
+              <head xml:id="ppr-l85-Htsotso">Tertia suppositio</head>
+              <p xml:id="ppr-l85-tpetdp">
+                Tertia propositio sicut acceptatio posset esse meritum exigentibus stante lege ad hoc 
+                <lb ed="#E"/>ista deacceptatio posset esse demeritis aliorum exigentibus aliquali tamen dispositione passi
+              </p>
+              <p xml:id="ppr-l85-ppanhe">
+                <lb ed="#E"/>prima pars patet quia quantum ad hoc deserviunt preces ecclesiae 
+              </p>
+              <p xml:id="ppr-l85-spatpa">
+                2a pars tenetur nam ex peccato 
+                <lb ed="#E"/>alicuius potest indignificari nedum ipse sed ampliqualiter alius ab eo patet primo in penaibus nam 
+                <lb ed="#E"/>filius portat bene penam patris Ideo ymaginabile est quod per peccatum primi parentis totum 
+                <lb ed="#E"/>genus humanum fuit indignificatum et iustitia originali privatum etiam infectum per cupi<lb ed="#E"/>ditatem 
+                et laesum multipliciter quantum ad vires superiores etiam inferiores et hoc potest esse dispositio 
+                <lb ed="#E"/>sufficiens ad acceptationem totius posterioritatis adae
+              </p> 
+              <p xml:id="ppr-l85-eeiesd">
+                Ex ista ymaginatione sequitur probatas vel 
+                <lb ed="#E"/>probabilis modus ponentium peccatum originale principiorum consistere in deacceptatione divina quae
+                <lb ed="#E"/>licet non posset esse primo respectu alicuius nisi dispositio prima praecedit praecessit tamen sufficiens dispositio scilicet primi 
+                <lb ed="#E"/>parentis peccato iustitiae originalis privatio cupiditatis positio naturalium virium illaeso et in hoc consisteret 
+                <lb ed="#E"/>formalis ratio peccati originalis scilicet in deacceptatione
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l85-Dd1e184">
+            <head xml:id="ppr-l85-Hrafafr">Responsio ad formam rationis</head>
+            <p xml:id="ppr-l85-rraeim">
+              Restat tamen respondere ad formam 
+              <lb ed="#E"/>rationis qua arguebatur quod impossibili est creaturam gratificari per solam divinam deacceptationem 
+              <lb ed="#E"/>quia esset transitus 
+              <!-- perhaps something missing in ms here -->
+            </p>
+            <p xml:id="ppr-l85-pninsn">
+              Ista propositio scilicet quod non potest esse transitus etc varietur glossa a doctoribus 
+              <lb ed="#E"/>primo de instantias contra eam ostendendo quod prima facie non est neccessario concedenda
+            </p>
+            <p xml:id="ppr-l85-pisaev">
+              primo 
+              <lb ed="#E"/>sicut alias dictum fuit de hac propositione deus incipit producere mundum ponamus quod successive incipiat 
+              <lb ed="#E"/>producere mundum et tamen numquam ante iudicabat et sic est transitus etc et nulla tamen mutatio 
+              <lb ed="#E"/>est quia non mutatio mundi quia supponitur <add place="above-line">quod</add> successive deus incipiat producere mundum etc in 
+              <lb ed="#E"/>illis exponitur per remotionem de praesenti et sic haec est vera deus incipit producere mundum et eius contradictoria 
+              <lb ed="#E"/>ante ab aeterno ante erat vera in mente divinam 
+              <!-- missing text in E here?? -->
+            </p> 
+            <p xml:id="ppr-l85-sfacma">
+              Forte diceretur quod sufficit quod incipit esse mutatio 
+              <lb ed="#E"/>et sic est in proposito quia propositio est de incipit capio ergo alia Pro quo sit
+            </p>
+            <!--
+              not present
+              
+              <p xml:id="ppr-l85-aippap">
+              Alia instantia ponitur, et pro eius declaratione 
+              praeponuntur aliquae propositiones.
+            </p>--> 
+          </div>
+          <div xml:id="ppr-l85-Dd1e218">
+            <head xml:id="ppr-l85-Hsuppes">Suppositiones</head>
+            <div xml:id="ppr-l85-Dd1e223">
+              <head xml:id="ppr-l85-prsprs">Prima suppositio</head>
+              <p xml:id="ppr-l85-pehahs"><!-- missing in PV -->
+                prima suppositio quod haec 
+                <lb ed="#E"/>consequentia est bona <c>a</c> non fuit ante instans hoc demonstrando instans prius ergo neccesse est <c>a</c> non fuisse consequentia tenet 
+                <lb ed="#E"/>per articulum quae id quod est praeteritum neccessario est praeteritum 
+              </p><!-- missing in PV -->
+              <p xml:id="ppr-l85-iieahs">
+                patet in <ref xml:id="ppr-l85-Rd1e246"><name ref="#Aristotle">Philosophi</name> in 8vo <title ref="#Ethics">uthicorum</title></ref> ubi allegatur 
+                <lb ed="#E"/><sic>agathon</sic> <unclear>dicit</unclear> hoc solo deum privatum
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e261">
+              <head xml:id="ppr-l85-Hsassas">Secunda suppositio</head>
+              <p xml:id="ppr-l85-ssbqnf">
+                Secunda suppositio consequentia non est bona <c>a</c> non fuit ante hoc ergo 
+                <lb ed="#E"/>neccesse est <c>a</c> fuisse ante hoc Item sequitur ex prima quia visa prima radice patet quod consequentia est opti<lb ed="#E"/>ma 
+                nam si eo ipso quod positus est effectus in esse trahit necessitatem ad fuisse Ita consimiliter eo 
+                <lb ed="#E"/>ipso quod non est positus pro aliqua mensura trahit necessitatem ad non fuisse pro illa
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e276">
+              <head xml:id="ppr-l85-Htastas">Tertia suppositio</head>
+              <p xml:id="ppr-l85-tsarpp">
+                Tertia suppositio 
+                <lb ed="#E"/>Ante mundi creationem fuit ymaginaria duratio significabilis patet dupliciter primo quia sicut extra situm 
+                <lb ed="#E"/>in quo est mundus est alius situs ymaginarius in quo posset alius produci ita est 
+                <lb ed="#E"/>ymaginanda duratio in qua deus potuisset produxisse mundum
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e288">
+              <head xml:id="ppr-l85-Hqasqas">Quarta suppositio</head>
+              <p xml:id="ppr-l85-qsiqei">
+                Quarta suppositio 
+                <lb ed="#E"/>idem instans non posset ab illo instanti signato vocabuli vel ymaginario plus vel minus distare 
+                <lb ed="#E"/>verbi gratia significatis duobus instantibus in tempore ymaginario unam horam ymaginariam ter<lb ed="#E"/>minantibus 
+                <lb ed="#E"/>non posset magis distare alias hora posset extendi in duplo in triplo
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l85-Dd1e302">
+            <head xml:id="ppr-l85-Hrafraf">Responsio ad formam rationis</head>
+            <div xml:id="ppr-l85-Dd1e307">
+              <head xml:id="ppr-l85-Hpriima">Prima</head>
+              <p xml:id="ppr-l85-isifii">
+                Infero aliqua primo signando aliquod instans quod praecessit per horam instans creationis 
+                <pb ed="#E" n="114-v"/>
+                <lb ed="#E"/>mundi in illo haec propositio fuit falsa deus <add place="above-line">potest</add> producere mundum ante <c>b</c> instans quia 
+                <lb ed="#E"/>ponitur quod illud instans vocetur <c>b</c> et ab aeterno fuit vera ante sequitur quod in illo instanti ipsa incipit esse 
+                <lb ed="#E"/>falsa igitur mundo non producto et nulla penitus facta mutatione fuit transitus de contradictorio in contradictorium 
+                <lb ed="#E"/>et absque cuiuscumque mutationis inceptione
+                <!-- possible break here -->
+                Sequitur quod in quolibet instanti propositio significans deum posse facere mundum 
+                <lb ed="#E"/>ante ipsum desinit esse vera in illo instanti incipit esse falsa
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e319">
+              <head xml:id="ppr-l85-Hsecnda">Secunda</head>
+              <p xml:id="ppr-l85-ssqena">
+                Sequitur quod ad verificandum duo contradictoria 
+                <lb ed="#E"/>sibiin vicem contradicentia non requiritur realis successio patet quia ante mundi productionem 
+                <lb ed="#E"/>fuit successio ymaginaria et non realis et fuit tamen verificatio contradictorium successive unde 
+                <lb ed="#E"/>causa nihil erat nisi aeternitas et deus
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e328">
+              <head xml:id="ppr-l85-Htertia">Tertia</head>
+              <p xml:id="ppr-l85-tsqrae">
+                Sequitur quod productio divinarum personarum ad intra non habet 
+                <lb ed="#E"/>maiorem apparentiam contra primum principium quam habitudo rei ad res adextra istud sequitur ex 
+                <lb ed="#E"/>ymaginatione tacta
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e337">
+              <head xml:id="ppr-l85-Hquarta">Quarta</head>
+              <p xml:id="ppr-l85-qsqedi">
+                Sequitur quod non oportet ponere quod deus ab aeterno acceptavit creaturam ex dei im<lb ed="#E"/>mutabilitate
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e347">
+              <head xml:id="ppr-l85-Hquinta">Quinta</head>
+              <p xml:id="ppr-l85-qsqpsm">
+                Sequitur quod si inpossibile esset aliqua creatura immutabilis non videtur repugnantia 
+                <lb ed="#E"/>quod noviter acceptaretur quia novitas acceptationis non dicit quantum est de se nec arguit mutationem 
+                <lb ed="#E"/>nec in acceptante nec in acceptato
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e360">
+              <head xml:id="ppr-l85-Hsexxta">Sexta</head>
+              <p xml:id="ppr-l85-ssquaa">
+                Sequitur quod propter novam acceptationem creaturae vel veri<lb ed="#E"/>ficationem 
+                illius quodam modo creatura et noviter accepta non oportet fingere novos respectus distinctos 
+                <lb ed="#E"/>a rebus absolutis patet quia istud resolvitur in aliam causam scilicet quod in rebus mirabiliter factis 
+                <lb ed="#E"/>tota potentia facientis et ratio facti resolvitur in divinam inmensitatem cuius modus est taliter 
+                <lb ed="#E"/>adextra agere
+              </p>
+            </div>
+            <div xml:id="ppr-l85-Dd1e372">
+              <head xml:id="ppr-l85-Hsepima">Septima</head>
+              <p xml:id="ppr-l85-ipvsec">
+                Sequitur infirmitas rationis quam dicunt esse <name ref="#Achilles">achillem</name> scilicet ponentium respectus 
+                <lb ed="#E"/><unclear>distinctas</unclear> et est <name ref="#Scotus">scoti</name> et suorum sequantium ponentium res respectivas distinctas realiter a rebus absolutis 
+                <lb ed="#E"/>praemittunt tamquam principium quod quando propositio affirmativa de praesenti verificatur pro rebus tunc datis rebus quae 
+                <lb ed="#E"/>non sufficiunt ad eius <del rend="expunctuation">productionem</del> verificationem esset praeter illas ponere aliquod aliud distinctum Ista 
+                <lb ed="#E"/>propositio videtur habere magnam apparentiam et evidentiam ad propositum <seg type="correction"><unclear>sin<del rend="expunctuation">i</del>t</unclear></seg> ergo deus et sortes 
+                <lb ed="#E"/>et haec sit affirmativa deus acceptat sortem ad verificationem illius non sufficiunt deus et sortes ergo propter 
+                <lb ed="#E"/>suppositionem oportet ponere aliquam aliam ergo oportet ponere habitudinem relativam vel caritatem <unclear>creatam</unclear> vel aliqua 
+                <lb ed="#E"/>aliam rem respectivam ratione cuius taliter se habet deus ad creaturam scilicet quod acceptet eam ex quo 
+                <lb ed="#E"/>non sufficiunt ad hoc deus et creatura Et eadem difficultas erit de unione caritatis ad animam 
+                <lb ed="#E"/>quia vel sufficiunt caritas et anima et si sic tunc si caritas esset romae et sortis hic sortes esset <unclear>carus</unclear> deo 
+                <lb ed="#E"/>quod non est dicendum ergo oportet ponere aliam habitudinem 
+              </p>
+              <p xml:id="ppr-l85-sahpad">
+                unde ad conservandum radium a sole vel ad hoc 
+                <lb ed="#E"/>radius conservetur a sole sol et radius non sufficiunt igitur praeter illa requiritur res <del rend="strikethrough">s</del> respectiva 
+                <lb ed="#E"/>quae est habitudo solis ad radium Et sic respectu cuiuscumque causae dicunt requiri aliquod distinctum ab extre<lb ed="#E"/>mis 
+                scilicet habituine relativam distinctam ab huiusmodi extremis quia extrema non sufficiunt ad verificationem 
+                <lb ed="#E"/>propositionis
+              </p>
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l85-Dd1e416">
+          <head xml:id="ppr-l85-Htsltsl">Tertia solutio</head>
+          <p xml:id="ppr-l85-arqprh">
+            Alia radix quia praedicamenta negandum sunt vocalia sed etiam habent a parte rei cor<lb ed="#E"/>respondentia 
+            sed ista ratio modicum ligat quia praedicamenta sunt terminorum et conceptuum 
+            <!-- break? -->
+            Advertendum 
+            quod varie sed sunt duo modi magis principales 
+          </p> 
+          <p xml:id="ppr-l85-uadaas">
+            Aliqui ponunt quod res relativa realiter componit 
+            <lb ed="#E"/>cum suo fundamento sic quod albedo et similitudo constituunt quod est terminus relationis ad aliud sibi similem 
+            <lb ed="#E"/>ita quod constituunt compositionem extremorum fundamenti cum relatione 
+          </p> 
+          <p xml:id="ppr-l85-apqnec">
+            Alii dicunt quod res respectiva 
+            <lb ed="#E"/>non componit cum aliquo extremorum sed est habitudo media non componens et iste modus videtur 
+            <lb ed="#E"/>magis probabilis Etiam <name>durandus</name> ponit istum modum
+            <!--- break -->
+            prima via non staret quia proprie loquendo 
+            <lb ed="#E"/>ad relationem non est mutatio vel motus utque per <name>aristotelem</name> nec compositio
+          </p>
+          <!-- fuzzy break; needs review -->
+          <p xml:id="ppr-l85-segmbi">
+            ponamus quod ratione generetur 
+            <lb ed="#E"/>albedo et sit sortes praecise albus alius albedo quod generatur album romae tunc si sic scilicet si prima via 
+            <lb ed="#E"/>staret Sequitur quod in albedine sortis parisius existentis acquireretur res respectiva realiter 
+            <lb ed="#E"/>componens consequens falsum quia agens non potest agere ad omnem distantiam ergo licet producat albedinem 
+            <lb ed="#E"/>romae tamen non producit hic parysius aliquod nichilominus potest poni habitudo media illorum quae sic 
+            <lb ed="#E"/>ad invicem referuntur unde ad verificandum istam propositionem forma inhaeret materiae non sufficiunt 
+            <lb ed="#E"/>materia et forma igitur requiritur habitudo media quae est res respectiva pro sustinendo illam 
+            <pb ed="#E" n="115-r"/>
+            <lb ed="#E"/>viam secundum 
+          </p>
+          <p xml:id="ppr-l85-neqdnc">
+            advertendum quod distinguendi sunt gradus entis ita quod ens primo et principaliter significat substantiam 
+            <lb ed="#E"/>Secundo per modum annologiae significant accidentia realia scilicet qualitates et quantitates etc Tertio adhuc 
+            <lb ed="#E"/>per modum inferiorum gradus anologie ly <mentioned>ens</mentioned> nedum significat substantias et talia accidentia realia 
+            <lb ed="#E"/>sed etiam significat modos rerum et isti aliquo modo possunt dici res licet inproprie sed accidentia inproprie dicuntur 
+            <lb ed="#E"/>entia Et ad istum tertium modum <name>durandus</name> Reducit res respectivas ita quod modi rerum sunt 
+            <lb ed="#E"/>res distincti a rebus primo et secundo modo dictis tamen ex habitudine causae ad effectus nullo modo oportet ponere 
+            <lb ed="#E"/>aliquid fundamentum quando est aliqua propositio affirmativa quare principium quod repraesentat primum est saltem est exponendo 
+            <lb ed="#E"/>per ly <mentioned>sufficere</mentioned> Sed non qualitercumque se habens sed si sic intelligatur quod sit medium concludendi 
+            <lb ed="#E"/>illam proportionem esse veram dico quod non sufficiunt et <unclear>quin infertur</unclear> Si intelligitur sic quod nulla 
+            <lb ed="#E"/>alia res requiritur dico quod sufficiunt et quando infertur ergo oportet ponere tertiam rem nego consequentiam scilicet 
+            <lb ed="#E"/>quod ex hoc quod deus est et sortes est non concluditur veritas istius deus acceptet sortem ergo etc 
+            <lb ed="#E"/>nego consequentiam quod ergo aliqua alia res requiritur et sic non oportet ponere res respectivas 
+          </p>
+          <p xml:id="ppr-l85-eiaara">
+            Et propter 
+            <lb ed="#E"/>transitum contradictorio in contradictorium non oportet ponere mutationem in deo vel in creatura sed sufficit lapsus 
+            <lb ed="#E"/>temporis verus vel ymaginarius dato quod nullum esset tempus
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
