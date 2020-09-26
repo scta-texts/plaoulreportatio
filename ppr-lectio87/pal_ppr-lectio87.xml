@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 87, De Trinitate [Palatine Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 87, De Trinitate [Palantine Transcription]</title>
+          <date when="2020-09-18">September 18, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-09-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="161-v"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio87">
+        <head xml:id="ppr-l87-Hldcldc">Lectio 87, de Caritate</head>
+        <div xml:id="ppr-l87-Dd1e109">
+          <head xml:id="ppr-l87-Hdhsmqg">De habitudine Spiritus Sancti ad mentem quam gratificat</head>
+          <p xml:id="ppr-l87-aaamqg">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>Antequam veniam ad particu<lb ed="#PV"/>larum 
+            modum influendi cari<lb ed="#PV"/>tatem 
+            respectu aliorum virtutum 
+            <lb ed="#PV"/>videndum est de habitudine spiritus sancti ad 
+            <lb ed="#PV"/>mentem
+          </p>
+          <div xml:id="ppr-l87-Dd1e117">
+            <head xml:id="ppr-l87-Hppqsam">Prima propositio: quod habitudo Spiritus Sancti non est per intrinsecam informationem ipsius Spiritus Sancti ad mentem</head>
+            <p xml:id="ppr-l87-eqagcf">
+              Quantum ad hac su<lb ed="#PV"/>prema 
+              propositio negativa habitudo spiritus sancti 
+              <lb ed="#PV"/>ad mentem creatam quam gratificat 
+              <lb ed="#PV"/>non est per intrinsecam informationem 
+              <lb ed="#PV"/>Ista propositio fuit prius probata 
+              <lb ed="#PV"/>ubi inquirebatur an staret deum 
+              <lb ed="#PV"/>actuare in genere causae formalis
+            </p>
+          </div>
+          <div xml:id="ppr-l87-Dd1e126">
+            <head xml:id="ppr-l87-Hspqvia">Secunda propositio: quod habitus Spiritus Sancit non est vitalis immutatio actualis</head>
+            <p xml:id="ppr-l87-sphrde">
+              <lb ed="#PV"/>2a propositio habitudo spiritus sancti ad mentem 
+              <lb ed="#PV"/>spiritus sancti quam gratificat non est vitalis 
+              <lb ed="#PV"/>inmutatio actualis patet sicut alias 
+              <lb ed="#PV"/>dictum est quia divina essentia 
+              <lb ed="#PV"/>non potest esse actus cognoscendi 
+              <lb ed="#PV"/>ipsi creaturae et eadem ratione 
+              <lb ed="#PV"/>nec actus volendi tamen quia 
+              <lb ed="#PV"/>in se est inmensus actus igitur 
+              <lb ed="#PV"/>non potest esse remisse actus alicui 
+              <lb ed="#PV"/>creaturae Cum quia omnis vo<lb ed="#PV"/>litio 
+              etiam cognitio est quaedam 
+              <lb ed="#PV"/>operatio potentiae quod repugnat 
+              <lb ed="#PV"/>divinae essentiae
+            </p>
+          </div>
+          <div xml:id="ppr-l87-Dd1e135">
+            <head xml:id="ppr-l87-Htpscqg">Tertia propositio: Spiritus Sanctus nullum habet operationem respectu creaturae quam gratificat</head>
+            <p xml:id="ppr-l87-tpsfei">
+              3a propositio spiritus sanctus nullum 
+              <lb ed="#PV"/>habet effectum respectu creaturae quod 
+              <lb ed="#PV"/>gratifficat quin sit communis cuilibet 
+              <lb ed="#PV"/>trium personarum seu toti trinitati 
+              <pb ed="#PV" n="162-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>nam omnis effectus adextra 
+              <lb ed="#PV"/>qui non reducitur ad subsistentiam 
+              <lb ed="#PV"/>personalem praecise est communis cuilibet 
+              <lb ed="#PV"/>personarum Et tamen gratificatio 
+              <lb ed="#PV"/>creaturae non sit eius ypostatica 
+              <lb ed="#PV"/>suscensio sequitur quod est communis 
+              <lb ed="#PV"/>Etiam incarnatio est communis quantum 
+              <lb ed="#PV"/>ad efficere sed sola persona fi<lb ed="#PV"/>lii 
+              est incarnata
+            </p>
+          </div>
+          <div xml:id="ppr-l87-Dd1e151">
+            <head xml:id="ppr-l87-Hqpoqpo">Quarta propositio: spiritus sanctus non causatur personaliter</head>
+            <p xml:id="ppr-l87-qphsha">
+              4a propositio hoc 
+              <lb ed="#PV"/>complexum spiritus sanctus non capitur persona<lb ed="#PV"/>liter 
+              et ut est proprium 3ae personae 
+              <lb ed="#PV"/>in divinis sed magis tamquam 
+              <lb ed="#PV"/>appropriatum propter effectum beni<lb ed="#PV"/>volentiae 
+              et benignitatis quae 
+              <lb ed="#PV"/>licet sit communis cuilibet personarum 
+              <lb ed="#PV"/>tamen quia procedit per modum 
+              <lb ed="#PV"/>amoris ideo sibi appropriatur 
+              <lb ed="#PV"/>secundum hanc acceptationem
+            </p>
+          </div>
+          <div xml:id="ppr-l87-Dd1e163">
+            <head xml:id="ppr-l87-Hqpqace">Quinta propositio: quod probabilius influxus spiritus sancti reducitur ad causalitatem effectivam</head>
+            <p xml:id="ppr-l87-qplace">
+              Quinta 
+              <lb ed="#PV"/>propositio licet concedi posset spiritum sanctum esse 
+              <lb ed="#PV"/>creaturae habituale dei dilectionem 
+              <lb ed="#PV"/>probabilius tamen reducitur ad 
+              <lb ed="#PV"/>causalitatem effectivam
+            </p> 
+            <div xml:id="ppr-l87-Dd1e171">
+              <head xml:id="ppr-l87-Hppqpqp">Prima pars quintae propositionis</head>
+              <p xml:id="ppr-l87-cppvpv">
+                Circa 
+                <lb ed="#PV"/>primam partem advertendum 
+                <lb ed="#PV"/>quod licet anima humana sit essentialiter 
+                <lb ed="#PV"/>indivisibilis et <unclear>impartibilius</unclear> 
+                <lb ed="#PV"/>simpliciter nichilominus quia habet 
+                <lb ed="#PV"/>diversas operationes ipsa 
+                <lb ed="#PV"/>vocatur diversae potentiae scilicet 
+                <lb ed="#PV"/>ut <sic>negetiva</sic> ut intellectiva etc 
+                <lb ed="#PV"/>Et hoc tripliciter Nam conside<lb ed="#PV"/>ratur 
+                ut actuata vel ut ac<lb ed="#PV"/>tuabilis 
+                se intelligibilis mediante qua 
+                <lb ed="#PV"/>ipsa est productiva <unclear>communicationis</unclear> 
+                <lb ed="#PV"/>et sic vocatur notitia actualis 
+                <lb ed="#PV"/>et sic vocatur memoria et inquantum 
+                <lb ed="#PV"/>est productiva cognitionis vocatur 
+                <lb ed="#PV"/>intelligentia et inquantum amoris 
+                <lb ed="#PV"/>vocatur volitiva 
+              </p>
+              <p xml:id="ppr-l87-nchmsi">
+                <unclear>sicut potentia</unclear> 
+                <lb ed="#PV"/>intellectiva dividitur in me<lb ed="#PV"/>moriam 
+                et intelligentiam unde memoria 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>est cognitiva habitualiter non pro<lb ed="#PV"/>ut 
+                distinguitur <unclear>qui</unclear> actualiter particulare 
+                <lb ed="#PV"/>nam informata specie intelligibili 
+                <lb ed="#PV"/>unde illa habitualis <unclear>notitia</unclear> 
+                <lb ed="#PV"/>praecise est cognitiva et percipit 
+                <lb ed="#PV"/>per illam scilicet speciem et est alterius mo<lb ed="#PV"/>di 
+                quam sit cognitio producta me<lb ed="#PV"/>diante 
+                specie intelligibili unde 
+                <lb ed="#PV"/>illa habitualis notitia non dicitur 
+                <lb ed="#PV"/>quando realiter sit notitia 
+              </p>
+              <!-- fuzzy break and parallel -->
+              <p xml:id="ppr-l87-tpdcap">
+                Conse<lb ed="#PV"/>quenter 
+                volitiva et dupliciter percep<lb ed="#PV"/>tiva 
+                id est uno modo habitualiter proportiona<lb ed="#PV"/>biliter 
+                sicut memorativum 
+              </p>
+              <!-- fuzzy break and parallel -->
+              <p xml:id="ppr-l87-amuasi">
+                et sic considerando 
+                <lb ed="#PV"/>volitiva secundum duas potentias 
+                <lb ed="#PV"/>suas quarum una est habitualis 
+                <lb ed="#PV"/>potest dici quod spiritus sanctus immutat potentiam 
+                <lb ed="#PV"/>volitiva habitualiter et ita caritas 
+                <lb ed="#PV"/>creata et est realiter perceptio Etiam 
+                <lb ed="#PV"/>dato qoud non exeat in actum alium 
+                <lb ed="#PV"/>ita etiam species intelligibilis activam 
+                <lb ed="#PV"/>memoriam dato quod non exiret 
+                <lb ed="#PV"/>in alium actum
+              </p>
+              <div xml:id="ppr-l87-Dd1e198">
+                <head xml:id="ppr-l87-Hoididr">Opinio Iohannes de Rippa</head>
+                <p xml:id="ppr-l87-ctieav">
+                  Circa istam materiam 
+                  <lb ed="#PV"/>de declaratione maiori advertendum 
+                  <lb ed="#PV"/>quod <ref xml:id="ppr-l87-Rd1e207"><name ref="#Ripa">magister iohannes de rippa</name></ref> ponit propositiones 
+                  <lb ed="#PV"/>quas declarabo Sed antequam 
+                  <lb ed="#PV"/>veniam ad ipsum advertendum 
+                  <lb ed="#PV"/>quod multorum doctorum est opinio 
+                  <lb ed="#PV"/>quod in patria divina essentia in<lb ed="#PV"/>mutat 
+                  inmediate potentiam memorati<lb ed="#PV"/>vam 
+                  ad productionem actus cognos<lb ed="#PV"/>cendi 
+                  absque se et tamen non in<lb ed="#PV"/>mutat 
+                  secundum actum cognoscendi 
+                  <lb ed="#PV"/>Et sic ponunt quod ibi non est 
+                  <lb ed="#PV"/>species distincta ab obiecto tamen 
+                  <lb ed="#PV"/>ponunt coniunctionem mediam inter 
+                  <lb ed="#PV"/>creaturam et divinam essentiam Et 
+                  <lb ed="#PV"/>si dico quod probabile est quod spiritus sanctus immutat 
+                  <lb ed="#PV"/>ut species et tamen non possit 
+                  <lb ed="#PV"/>esse actualis volitio
+                </p> 
+                <p xml:id="ppr-l87-ustfer">
+                  <ref xml:id="ppr-l87-Rd1e224"><name ref="#Aquinas">Sanctus 
+                  <lb ed="#PV"/>Thomas de <sic>aliquo<!-- probably should be "acquino"--></sic></name></ref> ponit quod est <unclear>meto[?]</unclear>
+                  <pb ed="#PV" n="162-v"/>
+                  <cb ed="#PV" n="a"/>
+                  <lb ed="#PV"/>species non tamen cognitio in <ref>prima 
+                  <lb ed="#PV"/>parte summae suae</ref>
+                </p>
+                <div xml:id="ppr-l87-Dd1e238">
+                  <head xml:id="ppr-l87-Hppoppo">Prima propositio</head>
+                  <p xml:id="ppr-l87-ppiaaa">
+                    Quibus 
+                    <lb ed="#PV"/>praemissis est haec prima conclusio <name ref="#Ripa">magistri iohannis 
+                    <lb ed="#PV"/>de rippa</name> in forma in portione appe<lb ed="#PV"/>titiva 
+                    intellectiva duae tales 
+                    <lb ed="#PV"/>potentiae neccessario sunt ponendae 
+                    <lb ed="#PV"/>patet quia omnis ratio probans 
+                    <lb ed="#PV"/>duas potentias in tempore rationali 
+                    <lb ed="#PV"/>unam memoriam actuale et aliam 
+                    <lb ed="#PV"/>habituale omnis talis in proposito 
+                    <lb ed="#PV"/>probat duas potentias in appe<lb ed="#PV"/>titiva 
+                    intellectiva scilicet actualem 
+                    <lb ed="#PV"/>et habitualem
+                  </p>
+                </div>
+                <div xml:id="ppr-l87-Dd1e250">
+                  <head xml:id="ppr-l87-Hspospo">Secunda propositio</head>
+                  <p xml:id="ppr-l87-spsvie">
+                    Alia conclusio spiritus sanctus 
+                    <lb ed="#PV"/>in vita praesenti non potest esse formalis 
+                    <lb ed="#PV"/>actus potentiae fruitive nec 
+                    <lb ed="#PV"/>actualis sive actualiter immutabilis 
+                    <lb ed="#PV"/>nam fruitio quae esset spiritus sanctus illa 
+                    <lb ed="#PV"/>solum est beatitudo sed de communi lege 
+                    <lb ed="#PV"/>non communicatur fruitio beatifice 
+                    <lb ed="#PV"/>in una secundum <ref xml:id="ppr-l87-Rd1e259"><name ref="#Augustine">augustinum</name></ref> ergo
+                  </p>
+                </div>
+                <div xml:id="ppr-l87-Dd1e273">
+                  <head xml:id="ppr-l87-Htpotpo">Tertia propositio</head>
+                  <p xml:id="ppr-l87-tcspeh">
+                    Alia 
+                    <lb ed="#PV"/>conclusio solius potentiae vo<lb ed="#PV"/>litive 
+                    habitualiter spiritus sanctus potest esse 
+                    <lb ed="#PV"/>formalis actus in vita praesenti 
+                    <lb ed="#PV"/>quia potest esse actus vitalis et non 
+                    <lb ed="#PV"/>actualis 
+                  </p>
+                </div>
+                <div xml:id="ppr-l87-Dd1e282">
+                  <head xml:id="ppr-l87-Hqprqpr">Quarta propositio</head>
+                  <p xml:id="ppr-l87-appsgi">
+                    Alia conclusio per huiusmodi 
+                    <lb ed="#PV"/>habitualem immutationem potentia 
+                    <lb ed="#PV"/>in suo genere est beatifice actuata 
+                    <lb ed="#PV"/>patet nam ista actuatio spiritus sancti respectu 
+                    <lb ed="#PV"/>habitualis appetitive est ultima ac<lb ed="#PV"/>tuatio 
+                    ad quam ipsa ordinatur 
+                    <lb ed="#PV"/>quia nec in patria erit alia eius 
+                    <lb ed="#PV"/>habituatio licet forte intentius 
+                    <lb ed="#PV"/>ergo 
+                  </p> 
+                  <p xml:id="ppr-l87-ehcedd">
+                    quantum ad hoc est <ref xml:id="ppr-l87-Rd1e292">beatus <name ref="#Paul">spostolus</name></ref> 
+                    <lb ed="#PV"/><quote xml:id="ppr-l87-Qd1e300" source="http://scta.info/resource/Icor13_10">quod ex parte est evacuabitur</quote> 
+                    <lb ed="#PV"/>sicut fides et spes sed caritas 
+                    <lb ed="#PV"/>remanebit unde beatitudo 
+                    <lb ed="#PV"/>connotat singularis aliarum po<lb ed="#PV"/>tentiarum 
+                    superiorum <sic>ultimatam</sic> 
+                    <lb ed="#PV"/>actuationem ergo  
+                  </p>
+                  <p xml:id="ppr-l87-utcdvp">
+                    quantum ad hoc 
+                    <lb ed="#PV"/>est in optima suae dispositione
+                    <lb ed="#PV"/><ref xml:id="ppr-l87-Rd1e310"><name ref="#Augustine">augustinus</name> in libro 19o <title ref="#CityOfGod">de civitate 
+                    <lb ed="#PV"/>dei</title> capitulo 21o</ref> ponit comparationem
+                    <cb ed="#PV" n="b"/>
+                    <lb ed="#PV"/>animae ad carnem et spiritus sanctus ad hominis 
+                    <lb ed="#PV"/>vitam <quote xml:id="ppr-l87-Qd1e321" source="http://scta.info/resource/adcd-l19-d1e3190" synch="4-13">sicut anima est vita 
+                     <lb ed="#PV"/>hominis in beata vita</quote> scilicet <del rend="expunctuation">virtuosa 
+                     <lb ed="#PV"/>ergo illa habitualis</del> pro <unclear>spiritus sancti carne</unclear>
+                    <lb ed="#PV"/>id est hominis ita deus est vita ho<lb ed="#PV"/>minis 
+                    in beata vita scilicet virtuosa 
+                    <lb ed="#PV"/>ergo illa habitualis pro spiritu sancto et caritate 
+                    <lb ed="#PV"/>actuatio est quaedam beatitudo 
+                  </p>
+                </div>
+                <div xml:id="ppr-l87-Dd1e344">
+                  <head xml:id="ppr-l87-Hoqipqp">Obiectio: quod ista positio ponit quattuor potentias</head>
+                  <p xml:id="ppr-l87-scaeit">
+                    <lb ed="#PV"/>dubitatur nam sic ponendo 
+                    <lb ed="#PV"/>tu ponis quatuor potentias 
+                    <lb ed="#PV"/>animae et sic est ymaginatio qua 
+                    <lb ed="#PV"/>trinitatis et non trinitatis quod 
+                    <lb ed="#PV"/>est contra doctores ymmo contra 
+                    <lb ed="#PV"/>scriptura diens quod anima huma<lb ed="#PV"/>na 
+                    est ad ymaginationem dei et 
+                    <lb ed="#PV"/>trinitas facta
+                  </p> 
+                  <p xml:id="ppr-l87-rendda">
+                    Rspondetur 
+                    <lb ed="#PV"/>negando consequentia Advertendum 
+                    <lb ed="#PV"/>quod si vellemus secundum operationes 
+                    <lb ed="#PV"/>animae distinguere eius potentias 
+                    <lb ed="#PV"/>ipsa esset multarum potentiarum 
+                    <lb ed="#PV"/>quia multi sunt gradus opera<lb ed="#PV"/>tionum 
+                    suarum sub operatione
+                    <lb ed="#PV"/>rationali primo est quod assensura sim<lb ed="#PV"/>plicium 
+                    et secundum hod aliter se 
+                    <lb ed="#PV"/>habet quam ut est compositiva 
+                    <lb ed="#PV"/>Alius gradus ut est assensura
+                    <lb ed="#PV"/>et est alius gradus quam apprehendere 
+                    <lb ed="#PV"/>alius quia esset discursus seu 
+                    <lb ed="#PV"/>discursiva et sic in effectivam 
+                    <lb ed="#PV"/>sunt variae operationes
+                  </p> 
+                  <p xml:id="ppr-l87-sqddpa">
+                    Sed 
+                    <lb ed="#PV"/>quia doctores possunt animam actu<lb ed="#PV"/>ari 
+                    speciei intelligibili deinde 
+                    <lb ed="#PV"/>amorem 
+                  </p> 
+                  <p xml:id="ppr-l87-ipeait">
+                    Ita quod fit divisio pri<lb ed="#PV"/>ncipalis 
+                    in trinarium numerum et 
+                    <lb ed="#PV"/>divisio in quaternitatem et non 
+                    <lb ed="#PV"/>confert ad trinitatis similitudinem
+                  </p>
+                </div>
+                <div xml:id="ppr-l87-Dd1e372">
+                  <head xml:id="ppr-l87-Hduhssa">Primum Dubium: utrum habitualis immutatio sit semper actu</head>
+                  <p xml:id="ppr-l87-sdudss">
+                    <lb ed="#PV"/>dubitatur ulterius utrum habi<lb ed="#PV"/>tualis 
+                    immutatio sit semper 
+                    <lb ed="#PV"/>actu id est utrum caritas semper 
+                    <lb ed="#PV"/>immutet actualiter Et ita de 
+                    <pb ed="#PV" n="163-r"/>
+                    <cb ed="#PV" n="a"/>
+                    <lb ed="#PV"/>spiritu sancto quod semper dirigit 
+                  </p>
+                  <p xml:id="ppr-l87-bqaass">
+                    <lb ed="#PV"/>potest responderi quod non nam 
+                    <lb ed="#PV"/>sic in sompno ligatur vis ratio<lb ed="#PV"/>nalis 
+                    quantum ad  actos suos Ita etiam 
+                    <lb ed="#PV"/>quantum ad vim memorativam quantum 
+                    <lb ed="#PV"/>ad actus suos et sic etiam affec<lb ed="#PV"/>tiva 
+                    habitualis et sic non oportet 
+                    <lb ed="#PV"/>quod sit in actu semper
+                  </p>
+                </div>
+                <div xml:id="ppr-l87-Dd1e388">
+                  <head xml:id="ppr-l87-Hsduusi">Secundum dubium: utrum stat immutatio <unclear>[?]</unclear></head>
+                  <p xml:id="ppr-l87-squpmr">
+                    Queritur 
+                    <lb ed="#PV"/>ulterius utrum staret esse immutationem 
+                    <lb ed="#PV"/>huiusmodi habitualem absque hoc quod esset 
+                    <lb ed="#PV"/>actualis ut de voluntate absque hoc 
+                    <lb ed="#PV"/>quod sit in actu volendi dicitur 
+                    <lb ed="#PV"/>quod sic sint dememoria intellec<lb ed="#PV"/>tiva 
+                    non repugnat quod sit ac<lb ed="#PV"/>tuata 
+                    speciei intelligibilia absque 
+                    <lb ed="#PV"/>hoc quod exiret in actum ut in 
+                    <lb ed="#PV"/>bonis motibus <unclear>experimur</unclear> <unclear>quandoque</unclear> 
+                    <lb ed="#PV"/>vehementem motum antequam 
+                    <lb ed="#PV"/>elegamus actum et possumus 
+                    <lb ed="#PV"/>huiusmodi habituale immutationem 
+                    <lb ed="#PV"/>percipere antequam exeamus in actum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div xml:id="ppr-l87-Dd1e401">
+              <head xml:id="ppr-l87-Hspqpqp">Secunda pars quintae propositionis</head>
+              <p xml:id="ppr-l87-viaeif">
+                <lb ed="#PV"/>Nunc venio ad 2am partem 
+                <lb ed="#PV"/>quam teneo scilicet quod habitudo spiritus sancti 
+                <lb ed="#PV"/>ad mentem quam gratificat et 
+                <lb ed="#PV"/>vivificat reducitur ad causa<lb ed="#PV"/>litatem 
+                effectivam quia forma habet
+                <lb ed="#PV"/>unam habitudinem sic quod est tamquam 
+                <lb ed="#PV"/>motrix respectu mobilis sibi 
+                <lb ed="#PV"/>aplicati et ideo quantum ad hoc 
+                <lb ed="#PV"/>concurrit effective etiam informat 
+                <lb ed="#PV"/>mobile cum unitur Quantum 
+                <lb ed="#PV"/>ad tertium seu 2am habitudinem 
+                <lb ed="#PV"/>spiritus sancti non potest Sed quantum ad 
+                <lb ed="#PV"/>primum potest concedi de spiritu sancto prae<lb ed="#PV"/>cise 
+                resolvendo in causalitatem 
+                <lb ed="#PV"/>effectivam 
+              </p>
+              <p xml:id="ppr-l87-eqsvee">
+                Sequitur quod ad vi<lb ed="#PV"/>vificandum 
+                caritatem non requiritur 
+                <lb ed="#PV"/>mentis vivificatio nec econtra 
+                <lb ed="#PV"/>sicut ad vivificandum mentem 
+                <lb ed="#PV"/>non requiritur caritas vivifica<lb ed="#PV"/>tionois 
+                sic ad vivificandum 
+                <cb ed="#PV" n="b"/><!-- 163rb -->
+                <lb ed="#PV"/>caritatem non requiritur mentis 
+                <lb ed="#PV"/>vivifictio per spiritum sanctum unde sicut 
+                <lb ed="#PV"/>alias dictum est caritas nisi per 
+                <lb ed="#PV"/>spiritum sanctum specialiter vivificetur et <sic>assum<lb ed="#PV"/>matur</sic> 
+                a spiritu sancto non potest exire in actus 
+                <lb ed="#PV"/>suos Nunc dico quod staret spiritum sanctum 
+                <lb ed="#PV"/>habere istam habitudinem respectu 
+                <lb ed="#PV"/>caritatis et non respectu mentis 
+                <lb ed="#PV"/>et econtra quia illae habitudines 
+                <lb ed="#PV"/>sunt ad invicem inpertinentes 
+                <lb ed="#PV"/>quia una habitudo scilicet spiritus sanctus ad 
+                <lb ed="#PV"/>caritatem non dependet ab habi<lb ed="#PV"/>tudine 
+                spiritus sancti ad mentem
+              </p>
+              <!-- fuzzy parallel -->
+              <p xml:id="ppr-l87-eqseds">
+                Sequitur 
+                <lb ed="#PV"/>quod staret voluntatem non vivi<lb ed="#PV"/>ficata 
+                specialiter per spiritum sanctum <unclear>spiritus sanctus</unclear> conceditur 
+                <lb ed="#PV"/>ad actum nobilium productivum 
+                <lb ed="#PV"/>quia habitudo spiritus sancti ad 
+                <lb ed="#PV"/>caritatem non dependet ex ha<lb ed="#PV"/>bitudine 
+                sublata <unclear>?eniam</unclear> ad hoc 
+                <lb ed="#PV"/>habitudo suffiens respectu actus 
+                <lb ed="#PV"/>mobilis
+              </p>
+              <p xml:id="ppr-l87-schema">
+                dubitatur dato quod 
+                <lb ed="#PV"/>voluntas non actuetur sed caritas 
+                <lb ed="#PV"/>utrum voluntas merebitur 
+                <lb ed="#PV"/>Breviter hic non esset difficul<lb ed="#PV"/>tas 
+                considerata acceptatione divina 
+                <lb ed="#PV"/>ergo illa <unclear>circumscribio</unclear> 
+                
+                sed loquor de 
+                <lb ed="#PV"/>dignitate actus in se et accep<lb ed="#PV"/>tabilitatem 
+                nolo pro praesenti discurrere 
+                <lb ed="#PV"/>quia non est materia <unclear>prius</unclear> de po<lb ed="#PV"/>tentia 
+                ordinata quia de illa non 
+                <lb ed="#PV"/>stat quod sit caritas in mente 
+                <lb ed="#PV"/>quando spiritus sanctus mentem vivificat 
+                Sed 
+                <lb ed="#PV"/>loquendo absolute dicetur quod non 
+                <lb ed="#PV"/>esset forte vitae aeternae merito<lb ed="#PV"/>rius 
+              </p>
+              <!-- very fuzzy parallel; dbcheck -->
+              <p xml:id="ppr-l87-eicvie">
+                huiusmodi actus et potest ef<lb ed="#PV"/>fectus 
+                nobilius produci ratione 
+                <lb ed="#PV"/>supplementi <unclear>spiritus sancti</unclear> cum caritate non 
+                <lb ed="#PV"/>requiritur quod producet a potentia 
+                <lb ed="#PV"/>vivificata vivificationem spiritus 
+                <lb ed="#PV"/>sancti ex sua speciali assistentia 
+                <pb ed="#PV" n="163-v"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>scilicet ad hoc quod huiusmodi actus et 
+                <lb ed="#PV"/>potest effectus nobilius produci ratione 
+                <lb ed="#PV"/>supplementi <unclear>spiritus sancti</unclear> cum caritate 
+                <lb ed="#PV"/>non requiritur quod producet a potentia 
+                <lb ed="#PV"/>vivificata vivificatione spiritus 
+                <lb ed="#PV"/>sancti ex sua speciali assistentia 
+                <lb ed="#PV"/>scilicet ad hoc quod huiusmodi actus 
+                <lb ed="#PV"/>sit meritorius
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l87-Dd1e438">
+            <head xml:id="ppr-l87-Hoatper">Obiectio ad tertiam propositionem et responsio</head>
+            <p xml:id="ppr-l87-ctpctp">
+              <lb ed="#PV"/>Contra tertiam 
+              <lb ed="#PV"/>propositionem 
+            </p>
+            <p xml:id="ppr-l87-chassv">
+              arguitur primo quia spiritus sanctus mit<lb ed="#PV"/>titur 
+              non mittitur ergo missio in ca<lb ed="#PV"/>ritatem 
+              est effectus proprius spiritus sancti 
+              <lb ed="#PV"/>ad creaturam vivificandum
+            </p>
+            <p xml:id="ppr-l87-sntttm">
+              [omitted]
+            </p>
+            <p xml:id="ppr-l87-tssstt">
+              Item 
+              <lb ed="#PV"/>spiritus sanctus producit sortes a patre et tamen 
+              <lb ed="#PV"/>pater non producit vel saltem trinitas 
+              <lb ed="#PV"/>non producit a patre igitur alicui per<lb ed="#PV"/>sonarum 
+              attribuenda est aliqua 
+              <lb ed="#PV"/>operatio adextra quae non toti trini<lb ed="#PV"/>tati 
+              attribuitur
+              
+            </p>
+            <p xml:id="ppr-l87-nepiim">
+              <lb ed="#PV"/>Notandum 
+              <lb ed="#PV"/>quod spiritus sanctus mitti ad creaturam intelligitur 
+              <lb ed="#PV"/>primo in aliqua specie visibili 
+              <lb ed="#PV"/>illo modo filius missus est in car<lb ed="#PV"/>nem 
+              et spiritus sanctus in specie columbae 
+              <lb ed="#PV"/>et de ista missione non est ad 
+              <lb ed="#PV"/>propositum dicitur tamen quod omnem 
+              <lb ed="#PV"/>effectum adextra operatur tota trinitas 
+              <lb ed="#PV"/>cum hoc stat quod solus filius 
+              <lb ed="#PV"/>dicatur homo et incarnatus 
+            </p>
+            <!-- fuzyy parallel -->
+            <p xml:id="ppr-l87-aiepmi">
+              <lb ed="#PV"/>et si capitur mitti vel missio pro 
+              <lb ed="#PV"/>incarnari est proprium filio et si pro 
+              <lb ed="#PV"/>taliter apparere est proprium spiritui sancto sed 
+              <lb ed="#PV"/>non est missio quae est creaturae 
+              <lb ed="#PV"/>gratificatio scilicet missio invisibilis
+            </p>
+            <p xml:id="ppr-l87-psqsai">
+              <lb ed="#PV"/>primo isto modo intelligitur missio 
+              <lb ed="#PV"/>in mente invisibilis id est duorum spiritua<lb ed="#PV"/>lium 
+              et carissimatum collans vel 
+              <lb ed="#PV"/>donatio Certum est quod effectivus 
+              <lb ed="#PV"/>totius trinitatis efficienter mittitur 
+              <lb ed="#PV"/>ad creaturae gratificationem licet huiusmodi 
+              <lb ed="#PV"/>dona sunt <unclear>appropriata</unclear> spiritui sancto 
+              quia procedit 
+              <cb ed="#PV" n="b"/> <!--163v -->
+              <lb ed="#PV"/>per modum doni
+            </p>
+            <p xml:id="ppr-l87-amcfdg">
+              2o modo mitti 
+              <lb ed="#PV"/>id est specialiter assistere et creaturae 
+              <lb ed="#PV"/>noti esse illapsum sive detur 
+              <lb ed="#PV"/>dona creata sive non Isto modo 
+              <lb ed="#PV"/>ponitur quibusdam quod spiritus sanctus posset 
+              <lb ed="#PV"/>mitti se solo in esse suo per<lb ed="#PV"/>sonali
+              Et videtur esse opinio 
+              <lb ed="#PV"/><ref xml:id="ppr-l87-Rd1e472"> <name ref="#Lombard">magistri</name></ref> ita illabitur creaturae et est 
+              <lb ed="#PV"/>quaedam unio
+            </p>
+            <p xml:id="ppr-l87-aaiecp">
+              Alias fuit improbata 
+              <lb ed="#PV"/>scilicet quod sit amor creaturae quia est 
+              <lb ed="#PV"/>realiter operation adextra
+            </p>
+            <p xml:id="ppr-l87-sqsgce">
+              2o modo 
+              <lb ed="#PV"/>quia spiritus sanctus non est amor essen<lb ed="#PV"/>tialis 
+              quoniam pater sit ille filius 
+              <lb ed="#PV"/>sicut filius non habet sapientia 
+              <lb ed="#PV"/>essentialiter quam non habet pater ymmo 
+              <lb ed="#PV"/>pater filius et spiritus sanctus sunt 
+              <lb ed="#PV"/>eadem potentia sapientia et amor 
+              <lb ed="#PV"/>unde tota potentia patris est 
+              <lb ed="#PV"/>filius et etiam spiritus sanctus et ita de amore 
+              <lb ed="#PV"/>ut amor non sit terminus notionalis
+              <lb ed="#PV"/>et sic dicitur quod tota trinitas 
+              <lb ed="#PV"/>mitti posset quia potest specialiter 
+              <lb ed="#PV"/>illabi creaturae et reducitur ad 
+              <lb ed="#PV"/>genus causae efficientis et quod 
+              <lb ed="#PV"/>quantum ad operationes id est habet se sicut 
+              <lb ed="#PV"/>forma se habet quantum ad operari 
+              <lb ed="#PV"/>et ideo iungitur ut motor et non 
+              <lb ed="#PV"/><unclear>in</unclear> informis
+            </p>
+            <p xml:id="ppr-l87-tmcsiv">
+              3o modo mitti 
+              <lb ed="#PV"/>id est specialiter assistere et illabi et 
+              <lb ed="#PV"/>dona causae conferre connotando 
+              <lb ed="#PV"/>mittentis distinctionem originationem ab 
+              <lb ed="#PV"/>alio et sub auctoritate et isto modo 
+              <lb ed="#PV"/>capiunt doctores qui dicunt 
+              <lb ed="#PV"/>quod pater non potest mitti nec tota 
+              <lb ed="#PV"/>trinitas et sic stat solum <unclear>in terminis</unclear> 
+              <lb ed="#PV"/>unde pater non emanat ab aliquo 
+              <lb ed="#PV"/>nec originaliter et sic pater non 
+              <lb ed="#PV"/>posset mitti nullus dubitat 
+              <lb ed="#PV"/>Et sic divina essentia non 
+              <lb ed="#PV"/>mittitur in iustificatione creaturae 
+              <pb ed="#PV" n="164-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>quia non distinguitur nec ori<lb ed="#PV"/>ginatur
+            </p>
+            <p xml:id="ppr-l87-eqpeaa">
+              Et hoc patet licet trinitas 
+              <lb ed="#PV"/>operetur missionem passive 
+              3o modo nihilominus non mittitur 
+              <lb ed="#PV"/>patet quia non est ab alio primum 
+              <lb ed="#PV"/>patet quia missio passsiva est 
+              <lb ed="#PV"/>operatio adextra tota trinitatis 
+              <lb ed="#PV"/>operabatur incarnationem non <unclear>tamen</unclear> 
+              <lb ed="#PV"/>est incarnata 
+            </p> 
+            <p xml:id="ppr-l87-puqmsi">
+              patet ulterius quod omnes 
+              <lb ed="#PV"/>auctoritates sonantes quod spiritus sanctus 
+              <lb ed="#PV"/>vel filius mittatur a tota caritate 
+            </p>
+            <!-- very fuzzy break; needs review-->
+            <p xml:id="ppr-l87-esptmn">
+              <lb ed="#PV"/>quomodo dicunt intelligi aliquando 
+              <lb ed="#PV"/>dicitur quod filius mittit se aliquando 
+              <lb ed="#PV"/>quod nulla persona potest se mittere
+            </p>
+            <p xml:id="ppr-l87-svraic">
+              <lb ed="#PV"/>unde primo vel 2o modo intelli<lb ed="#PV"/>gunt 
+              omnes tales affirmative 
+              <lb ed="#PV"/>et negative intelliguntur 3o modo 
+              <lb ed="#PV"/>hoc de illa lectione
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
