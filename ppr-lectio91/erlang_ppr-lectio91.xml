@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 91, De Caritate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 91, De Caritate [Palantine Transcription]</title>
+          <date when="2020-11-08">November 08, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="122-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio91">
+        <head xml:id="ppr-l91-Hldcldc">Lectio 91, de Caritate</head>
+        <div xml:id="ppr-l91-Dd1e109">
+          <head xml:id="ppr-l91-Htodgag">Tertia opinio de intensio formarum: quod intensio formarum non fit per additionem gradus ad gradum</head>
+          <p xml:id="ppr-l91-ratcsc">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>Restat alia tractanda de materia incepta unde tertia opinio quae 
+            <lb ed="#E"/>ponit quod intensio formarum non fit per additionem partis ad partem sicut dictum est sed per deputationem 
+            <lb ed="#E"/>a suo contrario vel remotionem impedientis eius operationem 
+          </p>
+          <div xml:id="ppr-l91-Dd1e117">
+            <head xml:id="ppr-l91-Hdosdos">Deficientia opinionis</head>
+            <div xml:id="ppr-l91-Dd1e122">
+              <head xml:id="ppr-l91-Hpdapda">Prima deficientia</head>
+              <p xml:id="ppr-l91-siodsr">
+                sed ista deficit primo quia multae sunt 
+                <lb ed="#E"/>qualitates quae realiter non habent contrarium prima patet de scientia quae non habet aliquam qualitatem 
+                <lb ed="#E"/>positivam sibi contrariam unde anima <unclear>in creatione</unclear> sua est tamquam tabula rasa etc igitur procedendo 
+                <lb ed="#E"/>vel depingendo scientiam non oportet
+              </p>
+            </div>
+            <div xml:id="ppr-l91-Dd1e131">
+              <head xml:id="ppr-l91-Hsdasda">Secunda deficientia</head>
+              <p xml:id="ppr-l91-sianhc">
+                Etiam apparet de lumine quod posset intendi in medio non tamen per remotionem 
+                <lb ed="#E"/>sui contrarii quia non habet
+              </p>
+            </div>
+            <div xml:id="ppr-l91-Dd1e140">
+              <head xml:id="ppr-l91-Htdatda">Tertia deficientia</head>
+              <p xml:id="ppr-l91-tqsrnc">
+                Item sequeretur quod aliquis esset in peccato mortali et peccato simul nam contrarium 
+                <lb ed="#E"/>caritatis est culpa vel peccatum mortali saltem est quaedam contrarietas lege stante
+                <!-- break -->
+                Ista tamen ratio non 
+                <lb ed="#E"/>concludit quia non est formalis contrarietas culpae ad caritatem 
+              </p>
+            </div>
+            <div xml:id="ppr-l91-Dd1e154">
+              <head xml:id="ppr-l91-Hqdaqda">Quarta deficientia</head>
+              <p xml:id="ppr-l91-qanebe">
+                Secundo principaliter sic sequeretur quod evidenter 
+                <lb ed="#E"/>contradictio nam sit a qualitas intenditur per <unclear>depura?tor</unclear> etc quia minus miscetur etc igitur alia 
+                <lb ed="#E"/>qualitas scilicet <c>b</c> etiam minus commiscetur scilicet cum alia igitur <del rend="strikethrough">etc</del> etiam intenditur
+              </p>
+            </div>
+            <div xml:id="ppr-l91-Dd1e192">
+              <head xml:id="ppr-l91-Hqndqnd">Quinta deficientia</head>
+              <p xml:id="ppr-l91-qaicce">
+                Item veniendo ad 
+                <lb ed="#E"/>radicem quomodo resolvitur quod <c>a</c> qualitas minus miscetur suo contrario scilicet <c>b</c> nisi quia aliquid remo<lb ed="#E"/>vetur 
+                de qualitate contraria igitur habet partes intensivas 
+              </p>
+            </div>
+            <div xml:id="ppr-l91-Dd1e201">
+              <head xml:id="ppr-l91-Hsxdsxd">Sexta deficientia</head>
+              <p xml:id="ppr-l91-sdqiea">
+                Item data qualitate a ipsa est 
+                <lb ed="#E"/>tota latitudo in sua specie et per forma alia sibi contraria scilicet <c>b</c> igitur summa et pari ratione <c>b</c> igitur duae 
+                <lb ed="#E"/>qualitates contrariae summae sunt in eodem adaequate Ex istis apparet quod praedicta positio <add place="above-line">non</add> est solida 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l91-Dd1e212">
+          <head xml:id="ppr-l91-Hqoddif">Quarta opinio de intensione formarum</head>
+          <p xml:id="ppr-l91-qoepiq">
+            Quarta 
+            <lb ed="#E"/>Opinio ponit quod qualitas intenditur quia reducitur de potentia ad actum ymmo istius opinionis 
+            <lb ed="#E"/>quod qualitas quantum est de se est indivisibilis intensive sed secundum applicationem agentis ipsa redditur actu 
+            <lb ed="#E"/>et constituitur tantae activitatis et per reductionem ad actum redditur potentior ad agendum Ista opinio 
+            <lb ed="#E"/>non posset evidenter reprobari tamen nullum habet fundamentum et est voluntaria quia hoc ponere quod qualitas 
+            <lb ed="#E"/>est in duplo intensior sine positione maioris qualitatis videtur voluntarium nisi ponatur virtus 
+            <lb ed="#E"/>influxiva et illa non videtur nisi met illa qualitas 
+          </p>
+        </div>
+        <div xml:id="ppr-l91-Dd1e228">
+          <head xml:id="ppr-l91-Hqnddif">Quinta opinio de intensione formarum</head>
+          <p xml:id="ppr-l91-qoesie">
+            Quinta opinio ponit quod essentia caritatis 
+            <lb ed="#E"/>distinguitur aliquo <unclear>modo</unclear> scilicet ex natura rei a suis gradibus et gradus distinguuntur inter se distinctio quae vocaretur vel ex natura rei 
+            <lb ed="#E"/>vel formalis cuius ymaginatio est alias tacta nam <name ref="#Ripa">magister iohannes de ripa</name> ponit quod secundum multitudinem 
+            <lb ed="#E"/>denominationum perfectionalium est correspondentia rationum obiectalium ita quod esse distinguitur aliquo modo a parte rei 
+            <lb ed="#E"/>a vivere etc unde illa ymaginatio confert ad capiendum et intelligendum istam opinionem Sed 
+            <lb ed="#E"/>ymaginationem oportet quod sicut in essentia tres sunt personae quarum una non est alia Ista proportionaliter 
+            <lb ed="#E"/>in proposito sed tamen ista distinctio scilicet in proposito est minor unde ista opinio ymaginatur quod intentio fit per 
+            <lb ed="#E"/>generationem novorum graduum ydemptitate concurrentium essentialiter cum illa essentia et remissio per corruptionem 
+            <lb ed="#E"/>illorum graduum absque corruptione essentiae illius qualitatis unde haec essentia est hii gradus 
+            <lb ed="#E"/>et hic gradus est ille gradus
+          </p>
+          <p xml:id="ppr-l91-sioptd">
+            Sed ista positio videtur inconveniens quia ponit difficilius quam 
+            <lb ed="#E"/>sit articulus trinitatis <sic>trinitatis</sic> propter intentionem formarum ideo reprobatur quia <unclear>meditivus</unclear> inconveniens 
+            <lb ed="#E"/>difficilius ad salvandum quam sit articulus trinitatis
+          </p>
+          <p xml:id="ppr-l91-saditd">
+            Secundo arguitur iste gradus incipit 
+            <lb ed="#E"/>et iste gradus est haec qualitas vel haec essentia igitur etc unde sylogismus expositorius conceditur 
+            <lb ed="#E"/>ubique ex materiam trinitatis Et ista si <del rend="expunctuation">correspondetur</del> aliquis gradus corrumpitur arguitur quod qualitas 
+            <lb ed="#E"/>illa corrumpatur propter ydemptitatem gradus cum qualitate
+          </p>
+          <p xml:id="ppr-l91-itsnee">
+            Et si corrumpitur 
+            <pb ed="#E" n="122-v"/>
+            <lb ed="#E"/>gradus Quaeritur utrum aliquid si vel nichil Si aliud igitur 
+            <lb ed="#E"/>essentia Igitur essentia illius qualitatis corrumpitur
+          </p>
+        </div>
+        <div xml:id="ppr-l91-Dd1e255">
+          <head xml:id="ppr-l91-Hsodesa">Sexta opinio de intensione formarum: quod intensio formarum fit per additionem gradus ad gradum in eodem situ adaequate<!--<note>[position of Walter Burley?? See lectio 76</note>--></head>
+          <p xml:id="ppr-l91-soqpce">
+            Sexta opinio quae tenenda est 
+            <lb ed="#E"/>in ista materia est quae intentio fiat realiter per additionem gradus ad gradum in eodem situ ad<lb ed="#E"/>aequate 
+            vel saltem non in diversis sitibus scilicet sine situs differentia ut includatur qualitas quae non 
+            <lb ed="#E"/>habet situm patet per experientiam
+          </p>
+          <p xml:id="ppr-l91-pqaemc">
+            ista positio quia ignis producit caliditatem in aquam et continue addit 
+            <lb ed="#E"/>novam et novam 
+          </p>
+          <p xml:id="ppr-l91-iloqse">
+            Etiam lucidum producit lumen et si semper veniat aliquod lucidum in 
+            <lb ed="#E"/>idem medium ut si ponatur una candela fit lumen Si ponatur adhuc una fit novum 
+            <lb ed="#E"/>lumen et non curo pro praesenti utrum fiat unum lumen ex illis duobus 
+          </p>
+          <p xml:id="ppr-l91-chtesi">
+            Sed contra quia sicut plures 
+            <lb ed="#E"/>auctoritates quae videntur reprobare istam viam quia <ref xml:id="ppr-l91-Rd1e274"><name ref="#Aristotle">philosophus</name></ref> ponit quod duo accidentia solum 
+            <lb ed="#E"/>numero differentia non possunt esse in eodem subiecto Sed secundum istam viam sic ponitur ut de duobus gradibus cali<lb ed="#E"/>ditatis
+          </p>
+          <p xml:id="ppr-l91-rqasis">
+            Respondetur quod intentio <ref xml:id="ppr-l91-Rd1e291"><name ref="#Aristotle">philosophi</name></ref> est quod accidens quod habet terminum suum suae perfectionis non est compossibile 
+            <lb ed="#E"/>alteri accidenti eiusdem speciei Advertendum quod secundum doctrinam phylosophi 2o de anima res habent suos 
+            <lb ed="#E"/>terminos suae perfectionis et magis unde datur gradus maximus caliditatis scilicet conveniens 
+            <lb ed="#E"/>igni optime disposito dico consequenter quod huiusmodi qualitas habet terminum suae perfectionis et in illo 
+            <lb ed="#E"/>casu huiusmodi gradus non est intensibiles naturaliter Etiam licet esset aliquod agens natum 
+            <lb ed="#E"/>producere maiorem qualitatem intensive quantum esset de se quia huiusmodi gradus non est natus 
+            <lb ed="#E"/>coniungi alteri vel recipere alium gradum caliditatis quia habet terminum etc et est tunc actus 
+            <lb ed="#E"/>cui repugnat recipere sed quaelibet caliditas circa illum tantum est intendentia et in potentia 
+            <lb ed="#E"/>seu inclinatione ad suam perfectionem et terminum suae perfectionis et ideo ex ipso gradu scilicet non summo 
+            <lb ed="#E"/>quodlibet adveniente constituitur unum unde <name>philosophus</name> vult quod numquam duo accidentia quorum quodlibet 
+            <lb ed="#E"/>habet terminum suae perfectionis possunt etc quia tunc quodlibet eorum est actus cui repugnat recipiere 
+          </p>
+          <p xml:id="ppr-l91-srsias">
+            Etiam repugnat quantum est ex parte subiecti 
+          </p>
+          <p xml:id="ppr-l91-tqehsp">
+            Etiam ratione otiositatis vel otii quod natura abhorret 
+            <lb ed="#E"/>quia otiose esset sicut dicitur de pluribus formis substantialibus respectu eiusdem subiecti
+          </p>
+        </div>
+        <div xml:id="ppr-l91-Dd1e315">
+          <head xml:id="ppr-l91-Hrarrar">Responsio ad rationes</head>
+          <p xml:id="ppr-l91-avscim">
+            Circa istam con<lb ed="#E"/>suevit introduci multi casus quorum difficultas dependet ex calculationibus etc et sinca<lb ed="#E"/>thegorematibus 
+            de quibus super se deo causa brevitatis
+          </p>
+          <div xml:id="ppr-l91-Dd1e326">
+            <head xml:id="ppr-l91-Hapmapm">Ad primam</head>
+            <p xml:id="ppr-l91-srentd">
+              Ad rationes factas in principio quaestionis primo argue<lb ed="#E"/>batur 
+              quod nulla talis qualitas est ponenda ad consecutionem summae felicitatis introducebatur 
+              <lb ed="#E"/>philosophus
+            </p>
+            <p xml:id="ppr-l91-hdqimc">
+              Respondetur quod investigatio naturalis non sufficit attingere suam felicitatem ideo testes 
+              <lb ed="#E"/>adducti non sunt ydonei quia sicut alias dictum est fuerunt sectae de hoc quasi inmuerabiles 
+            </p>
+          </div>
+          <div xml:id="ppr-l91-Dd1e338">
+            <head xml:id="ppr-l91-Hasmasm">Ad secundam</head>
+            <p xml:id="ppr-l91-ascncp">
+              Ad 
+              <lb ed="#E"/>secundam rationem ubi arguitur sic cupiditas potest naturaliter tolli igitur caritas potest naturaliter haberi 
+              <lb ed="#E"/>nego antecedens et consequentiam nam in statu <del rend="strikethrough">viae</del> innocentiae quantum erat ex naturali sua institutione 
+              <lb ed="#E"/>fuit sine cupiditate tamen non caritate quia illa est donum dei super naturale ad 
+              <lb ed="#E"/>probationem antecedentis quia virtutes possunt acquiri in tanto quod habeatur plena concordia negatur hoc 
+              <lb ed="#E"/>nam nec vera virtus potest acquiri sine caritate nec exire in actum virtuosum nisi 
+              <lb ed="#E"/>dirigatur a caritate tamquam a causa necessarium  praeordinata et superiori eius inflentia sic 
+              <lb ed="#E"/>subtrahatur habitus virtuosus non exibit in actum eiusdem speciei nec virtuosum 
+              <lb ed="#E"/>Ideo falsum est quod ex puris naturalibus potest acquiri habitus virtuosus de <name>plotino</name> philosopho 
+              <lb ed="#E"/>qui ponit 4or genera virtutum
+            </p>
+            <p xml:id="ppr-l91-hrqira">
+              respondetur quod iste <name>philosophus</name> locutus est speculative de virtutibus 
+              <lb ed="#E"/>et non practice sicut forte diceretur de <ref xml:id="ppr-l91-Rd1e378"><name ref="#Seneca">seneca</name></ref> qui scripsit virtutes et vitam etc 
+              <lb ed="#E"/>non quod crederet aliquem esse talem sed quod posset esse talis habundantiam virtutum 
+              <lb ed="#E"/>quod tolleret omnem rebellionem
+            </p>
+            <p xml:id="ppr-l91-sdqpdg">
+              Secundo dicitur quod si dicatur de <name>socrate</name> quod omnino fuit 
+              <lb ed="#E"/>dicens passionum suorum dicitur quod hoc fuit per speciale donum quia <ref><name>Augustinus</name> 18o de civitate dei</ref> 
+              <lb ed="#E"/>ponit hoc de <name>Iob</name> Etiam quod multi alii degente habuerunt specialia dona et fuerunt et <unclear>similiter<!-- simpliciter/singulariter</unclear> --></unclear> 
+              <lb ed="#E"/>illustrati <name>Socrates</name> qui ponit unicum deum adorandum periit ab <unclear>ethemensibus</unclear> et sic 
+              <lb ed="#E"/>in attestationem unitatis dei mortuus est Et si habuerunt sicut scripserunt fuit hoc dono dei 
+              <lb ed="#E"/>gratuito et gratia elevante
+            </p>
+            <p xml:id="ppr-l91-uenmsr">
+              Secundo advertendum quod caritas et cupiditas non sunt contrariae formaliter 
+              <lb ed="#E"/>nam quilibet habet cupiditatem in poenam Etiam existens in caritate habet cupiditatem patet 
+              <lb ed="#E"/>de paulo qui oportabat dissolvi etc Etiam anathema esse fratribus suis quo ad etc 
+              <lb ed="#E"/>dixit quod sentiebat legem etc 
+            </p>
+            <p xml:id="ppr-l91-sncecm">
+              et sic sunt contrariae quantum ad executionem nec contrarian<lb ed="#E"/>tur 
+              quantum ad primos effectus Nam primus effectus cupiditatis est motio prava quae 
+              <lb ed="#E"/>est prius motus et stat cum habitu caritatis ut cum volitione libera et caritativa caste vi<lb ed="#E"/>vendi 
+              in paulo steterunt mali primi motus et sic nec habitus sunt contrarii nec actus  
+              <lb ed="#E"/>primi sed actus ultimi executivi et talis actus cupiditatis non est compossibili caritati 
+              <lb ed="#E"/>quia semper esset culpa moralis et sic consequentia non valet nec antecedens est concedendum
+            </p>
+          </div>
+          <div xml:id="ppr-l91-Dd1e414">
+            <head xml:id="ppr-l91-Haaraar">Ad aliam rationem</head>
+            <p xml:id="ppr-l91-aarnic">
+              Ad aliam 
+              <lb ed="#E"/>rationem quia <name>sortes</name> facit quod in se est igitur gratificatur <unclear>antecedens</unclear> est in sua potestate naturali <del>q</del> scilicet quod faciat 
+              <lb ed="#E"/>quantum potest naturaliter etc
+            </p>
+            <p xml:id="ppr-l91-rqpecg">
+              dicitur quod consequentia non valet nam quantumcumque faceret <name>sortes</name> adhuc deus posset 
+              <lb ed="#E"/>non dare gratiam absolute et sic concedendo istam <name>sortes</name> facit quod in se est et ista lex stat de<lb ed="#E"/>monstrando 
+              legem christi igitur sortes gratificatur et si dicatur quod aliquis est in potestate sortes 
+              <lb ed="#E"/>naturae quia licet pro prima parte non tamen pro secunda parte quia deus dat gratiam cum ista lege 
+              <lb ed="#E"/>dependet a dei numera et sic est supernaturalis quantum ad <name>sortem</name> Si dicatur tunc <name>sortes</name> 
+              <lb ed="#E"/>obligatur ad impossibile negetur consequentia quia illa lege stante in potestate sortis et sic 
+              <lb ed="#E"/>non obligatur ad impossibile nec est in sua naturali potestate 
+            </p>
+          </div>
+          <div xml:id="ppr-l91-Dd1e464">
+            <head xml:id="ppr-l91-Hamramr">Ad aliam rationem</head>
+            <p xml:id="ppr-l91-aargsi">
+              Ad aliam rationem quando dicitur 
+              <lb ed="#E"/>nullum donum creatum est neccessarium requiritur ad gratificandum creaturam etc
+            </p> 
+            <p xml:id="ppr-l91-hdqhls">
+              respondetur 
+              <lb ed="#E"/>quod absolute nullum donum creatum est necessarium quia donum acceptatio sufficit ad gratificandum 
+              <lb ed="#E"/>Secundo dicitur de vi logice quod nullum donum creatum requiritur tamen requiritur aliquod donum creatum 
+              <lb ed="#E"/>stante lege sicut ad esse album nulla albedo requiritur tamen ad esse album requiratur albedo 
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
