@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 92, De Caritate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 92, De Caritate [Erlangen Transcription]</title>
+          <date when="2020-12-03">Decenber 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="171-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio92">
+        <head xml:id="ppr-l92-Hldcldc">Lectio 92, de Caritate</head>
+        <div xml:id="ppr-l92-Dd1e109">
+          <head xml:id="ppr-l92-Haaraar">Ad aliam rationem</head>
+          <p xml:id="ppr-l92-aarsdi">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Consequenter restat respondere ad aliquas rationes in principio quaestionis factas arguebatur 
+            <lb ed="#E"/>sic quia vel caritas est indivisibilis intensive vel indivisibilis
+            <!-- break --> 
+            Si detur primum tunc omnes 
+            <lb ed="#E"/>homines sunt aeque cari Si dicatur secundum contra non est remissibilis igitur nec augmentabilis 
+            <lb ed="#E"/>antecedens probatur quia <seg type="correction">si<del rend="strikethrough">c</del></seg> sic hoc est per peccatum veniale 
+          </p>
+          <p xml:id="ppr-l92-pqainb">
+            ex quo sequeretur quod aliquis tantum meruisset sicut 
+            <lb ed="#E"/>unquam <name>sanctus petrus</name> et tamen etc
+          </p>
+          <p xml:id="ppr-l92-ssqnmp">
+            Secundo sequitur quod aliquis punieretur in inferno qui tamen numquam 
+            <lb ed="#E"/>peccasset mortaliter
+          </p>
+          <p xml:id="ppr-l92-rpqhpg">
+            Ad primum respondendum est quando dicitur vel esset indivisibilis ibi dicitur 
+            <lb ed="#E"/>quod dato quod esset indivisibilis non sequitur tamen inconveniens scilicet quod omnes essent aequaliter cari et potest ista consequentia 
+            <lb ed="#E"/>multipliciter interni secundum varios modos tactos de intensionibus
+          </p>
+          <p xml:id="ppr-l92-sqcada">
+            2o quia caritas non est intrinsece 
+            <lb ed="#E"/>caritas nec denominat intrinsece carum ideo cum aequalitate huiusmodi caritatis in duobus stat inae<lb ed="#E"/>qualitas 
+            denominationum scilicet secundum diversitatem acceptationum divinarum ideo esse carum deo 
+            <lb ed="#E"/>est denominatio extrinseca huiusmodi qualitati sed magis resolvitur ad divinam acceptionem 
+          </p>
+          <div xml:id="ppr-l92-Dd1e133">
+            <head xml:id="ppr-l92-Hobitio">Obiectio</head>
+            <p xml:id="ppr-l92-scaisc">
+              Si ar<lb ed="#E"/>guatur 
+              omnis qualitas mundi habet propriam rationem specificam per quam differt ab aliis qualitatibus 
+              <lb ed="#E"/>alterius speciei igitur sic habebit caritas et illa non videtur aliud esse nisi esse caritatis igitur intrinsecum 
+              <lb ed="#E"/>est huiusmodi qualitati quod sit caritas sicut de albedine
+            </p>
+          </div>
+          <div xml:id="ppr-l92-Dd1e142">
+            <head xml:id="ppr-l92-Hraorao">Responsio ad obiectionem</head>
+            <p xml:id="ppr-l92-rqcdpn">
+              Respondetur concedendo quod aliquid est de intrinseca
+              <lb ed="#E"/>ratione sua specifica sed negatur quod hoc sit esse caritatem et hoc petitur sed non probatur
+            </p>
+            <p xml:id="ppr-l92-esqcid">
+              Et quando quaeritur 
+              <lb ed="#E"/>quae denominatio est intrinseca dicitur quod vocabulum non est impositum ideo non habemus praedicata concretiva 
+              <lb ed="#E"/>imposita quae communicantur subiecto intrinseco vi huiusmodi informationis Et ita dicitur de qualibus 
+              <lb ed="#E"/>qualitate vitali licet denominet subiectum vitaliter non tamen est intrinseca denominatio quod patet 
+              <lb ed="#E"/>quia si huiusmodi qualitas inesset lapidi vel alteri rei non denominaret tali denominatione
+            </p>
+            <p xml:id="ppr-l92-snsppv">
+              <pb ed="#E" n="123-v"/>
+              <lb ed="#E"/>Secundo dicitur quod non solum est per acceptationem sed etiam per assistentiam spiritus sancti seu ratione 
+              <lb ed="#E"/>habitudinis scilicet <unclear>spiritus sanctus</unclear> 2m quod magis vivificat caritatem et mentem attenuat 2m hoc caritas 
+              <lb ed="#E"/>magis denominat sed nihilominus teneo quod sit realiter intensibilis et quod componitur ex partibus intensivis 
+              <lb ed="#E"/>Ad rationem quia <unclear>periforma</unclear> esset remissibilis scilicet per veniale
+            </p>
+          </div>
+          <div xml:id="ppr-l92-Dd1e157">
+            <head xml:id="ppr-l92-Hddpapm">De differentia peccati venialis a peccato mortali</head>
+            <p xml:id="ppr-l92-neaevp">
+              Notandum qualiter differt veniale 
+              <lb ed="#E"/>a mortali non intendo diffinitive producere sed dabo generale notificationem Advertendum quod aliqui 
+              <lb ed="#E"/>ponunt differentiam in ordine ad penas eis debitas nam mortali daretur aeterna pena veniali vero 
+              <lb ed="#E"/>praecise temporalis Sed ista assignatio nulla videtur quia <unclear>taxatio</unclear> penae et quantificatio vel duratio est 
+              <lb ed="#E"/>omnino inpertinens ad gratuitatem culpae Nam si deus nullam vellet dare penam pro culpa gravi 
+              <lb ed="#E"/>signata non minoraretur turpitudo vel obliquitas culpae 
+            </p>
+            <p xml:id="ppr-l92-sdgnia">
+              Item daemones graviter peccant et damp<lb ed="#E"/>nati 
+              tamen eis nulla detur pena pro illis peccatis quia deus non vult puniere culpas ex quo sunt 
+              <lb ed="#E"/>extra statum merendi vel demerendi licet non sunt extra statum male agendi 
+            </p>
+            <p xml:id="ppr-l92-aapamd">
+              Secundo assignat 
+              <lb ed="#E"/>differentiam per hoc quod veniale non est praeceptum divinum vel non est legis transgressio et mortale 
+              <lb ed="#E"/>est huiusmodi Et istud non valet quia generaliter scriptura divina vel lex prohibet malum
+            </p>
+            <p xml:id="ppr-l92-cqrecl">
+              Confirmatur 
+              <lb ed="#E"/>quia ratio peccati consistit in comparatione ad legem scilicet in difformitatem ad legem scilicet quia actus 
+              <lb ed="#E"/>vel omissio est difformis legi
+            </p>
+            <p xml:id="ppr-l92-eipvem">
+              pro intellectu de differentia praedictorum 
+            </p>
+            <!-- unnecessary break here -->
+            <p xml:id="ppr-l92-neqepi">
+              <pb ed="#PV" n="172-v"/>
+              <cb ed="#PV" n="a"/>
+              est advertendum quod ex culpa originali 
+              <lb ed="#E"/>creatura rationalis incurrit ignorantiam agendorum ex parte intellectus
+            </p> 
+            <p xml:id="ppr-l92-siifqd">
+              2o incurrit infirmitatem 
+              <lb ed="#E"/>et inpotentia quantum ad effectum Ideo ratione huiusmodi ignorantiae aliqua sunt fugibilia de quibus 
+              <lb ed="#E"/>intellectus non potest habere pro praesenti statu evidens iudicium vel sufficiens iudicium practicum suae 
+              <lb ed="#E"/>fugibilitatis Et sunt aliqua elegibilia de quibus non potest etc Etiam aliqua sunt fugibilia 
+              <lb ed="#E"/>etiam eligibila de quibus potest habere satis evidenter iudicium practicum
+              <!-- break -->
+              Circa hoc dicitur 
+              <lb ed="#E"/>quod ex parte ignorantiae circa totam latitudinem eligibilium et fugibilium de quibus potest etc Contingunt 
+              <lb ed="#E"/>peccata venialia et ideo veniam meretur quia non potest habere evidens iudicium
+            </p>
+            <p xml:id="ppr-l92-sephfd">
+              Secundo ex parte 
+              <lb ed="#E"/>inpotentiae quia ex peccato originali creatura incurrit in potentia Etiam ratione privationis 
+              <lb ed="#E"/>iustitiae originalis et consecutione cupiditatis consurgunt mali motus quo licet sunt pravi et divina lege 
+              <lb ed="#E"/>prohibiti tamen quia in factae diligentiae nos non possumus etc licet forte possemus gradu superiorum 
+              <lb ed="#E"/>diligentiae aliquid ex divina <unclear>benignitate</unclear> non obligamur
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l92-somami">
+              Quando dicitur si dicimus peccatum 
+              <lb ed="#E"/>non habemus etc intelligitur de veniale Sed quando continuatur per <unclear>tempus</unclear> libere tunc mutat se et 
+              <lb ed="#E"/>intrat speciem mortalium quia tunc cessat causa facilitatis ex causandi creatura debet secundum ultimum 
+              <lb ed="#E"/>suae potestatis factae diligentia
+              <!-- break --> 
+              sed quam diu manet modo suo naturali et non potest libere suspendi non 
+              <lb ed="#E"/>est mortale 
+              <!-- break --> 
+              Sequitur quod in statu innocentiae nullum potuit esse veniale patet quia circa omnia 
+              <lb ed="#E"/>cognoscibilia primi parentis habuerunt distinctam notitiam nec habuerunt in potentia 
+              <lb ed="#E"/>ex qua consurgerent motus in ordinati ignorantia agendorum et fragilitas non fuerunt 
+              <lb ed="#E"/>in eis
+            </p>
+          </div>
+          <div xml:id="ppr-l92-Dd1e198">
+            <head xml:id="ppr-l92-Huvpprg">Utrum veniale peccatum remittat gratiam?</head>
+            <p xml:id="ppr-l92-vtaedo">
+              <pc type="pilcrow">¶</pc> Veniendo ad materiam utrum veniale remittit gratiam Aliqui dicunt quod sic
+            </p> 
+            <p xml:id="ppr-l92-qdqdga">
+              Istius 
+              <lb ed="#E"/>opinionis videtur ese <name>auticiodorensis</name> et multi alii
+            </p>
+            <p xml:id="ppr-l92-adcqaa">
+              Alii dicunt contrarium unde non est ratio co<lb ed="#E"/>gens
+              absolute pro una parte vel alia Tenendo quod possunt remittere 
+            </p> 
+            <!-- break is "ordinato" seems a little off here -->
+            <p xml:id="ppr-l92-ttpugg">
+              respondetur ad rationem in contrarium 
+              <lb ed="#E"/>factum arguebatur sic Sequeretur quod staret aliquem tamen meruisse sicut sanctum petrum
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l92-etgmgr">
+              Suppositis duobus 
+              <lb ed="#E"/>scilicet quod aliqua gratia minor baptismali sufficeret ad salutem sicut aliqui dicunt et alii dicunt oppositum 
+              <lb ed="#E"/>Tamen supposito illo diceretur consequenter quod in isto casu non esset consequens inconveniens Causa est quia licet me<lb ed="#E"/>ruit 
+              stat quod non praemiabitur quia meritum est demeritum et proportionaliter praemium in regno caelorum 
+              <lb ed="#E"/>In alio casu ubi concederetur quod non esset neccesse peccatorem resurgere ad maiorem vel aequalem 
+              <lb ed="#E"/>gratiam dicunt plures ut <name>durandus</name> et alii quod secundum quod peccatores se disponunt <unclear>conterendo</unclear> vel 
+              <lb ed="#E"/>attendo resurgunt et sic staret quod aliquis meruisset plus quam unquam sanctus petrus et tamen resur<lb ed="#E"/>geret 
+              cum persona gratia
+            </p>
+            <p xml:id="ppr-l92-sqnmgg">
+              Sed istud non teneo quia credo quod gratia <unclear>baptismalis</unclear> <unclear>animal</unclear> sit <del rend="strikethrough">mia</del> minima sufficiens 
+              <lb ed="#E"/>ad subiectum et quod nulla posset minor sufficiens <pc type="pilcrow">¶</pc> Consequenter ymaginandum quod viator secundum processum 
+              <pb ed="#E" n="124-r"/>
+              <lb ed="#E"/>temporis habens usum rationis continue obligatur ad maiorem vel minorem gradum gratiae 
+            </p>
+            <p xml:id="ppr-l92-upieep">
+              <!-- fuzzy break; perhaps homeotelueton in pal lat here -->
+              <lb ed="#E"/>potest ulterius ymaginari quod ultra gradum gratiae ad qua creatura rationalis obligatur 
+              <lb ed="#E"/>sub poena peccati mortalis potest habere aliquem alium gratiae gradum perficientem et constituentem 
+              <lb ed="#E"/>inperfectione ultra praecepta quam scilicet gratiam habemus ex opere super erogationis
+            </p>
+          </div>
+          <div xml:id="ppr-l92-Dd1e244">
+            <head xml:id="ppr-l92-Hraocpv">Responsio ad obiectionem circa peccatum venialem</head>
+            <p xml:id="ppr-l92-etrrpv">
+              Istis 
+              <lb ed="#E"/>suppositis respondendum est ad rationem quod venialia possunt minuere gratiam superadditam super 
+              <lb ed="#E"/>illam ad quam obligamur scilicet quam habemus per modum consilii et non praecepti et illa potest tota 
+              <lb ed="#E"/>remitti per venialia
+              <!-- break --> <!-- this should be moved below -->
+              Si quaeratur de alia 
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l92-rqnipm">
+              patet quod non per venialia vel veniale quia eo ipso 
+              <lb ed="#E"/>quod aliquid tolleretur peccaret mortaliter quia creatura ad totam illam latitudinem obligatur 
+              <lb ed="#E"/>ideo si non habet peccat mortaliter
+            </p>
+            <p xml:id="ppr-l92-adipip">
+              Aliter dico quod licet peccatum veniale quantum est de se posset realiter 
+              <lb ed="#E"/>remittere per accidens tamen non potest quia creatura rationalis secundum processum temporis et secundum dona 
+              <lb ed="#E"/>collata obligatur magis ac magis ad maiorem vel minorem gratiae gradum 
+              <!-- break ? --> 
+              Advertendum quod quantum<lb ed="#E"/>cumque 
+              gratiae gradum habuit creatura semel ad illum in aeternum obligatur vel maiorem 
+              <lb ed="#E"/>et obligabitur Causa est nam 2m <ref xml:id="ppr-l92-Rd1e261"><name ref="#Augustine">augustinum</name></ref> gratia distinguit inter filios regni et filios 
+              <lb ed="#E"/>perditionis quia eo ipso quod est in gratia habet quoddam modo vis ad aeternam gloriam <unclear>de</unclear> perpetuo obli<lb ed="#E"/>gatur 
+              ad eius conservationem hoc enim <del rend="strikethrough">l</del> est de <unclear>dictamine</unclear> rectae rationis et mere politico quod filius 
+              <lb ed="#E"/>tenetur conservare hereditatem  
+            </p> 
+            <p xml:id="ppr-l92-eehepm">
+              Ex quo habetur quod nulla est distinctio gratiae ad quam obliga<lb ed="#E"/>mur 
+              et gratia sibi existente quia non staret aliquem deperdere quin peccaret committendo 
+              <lb ed="#E"/>vel omittendo
+            </p>
+            <p xml:id="ppr-l92-espsep">
+              Sequitur ex hoc quod stante lege veniale non remittit gratiam et sic patet quod 
+              <lb ed="#E"/>non sequitur illud quod inducebatur
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l92-Dd1e278">
+          <head xml:id="ppr-l92-Haaqnei">Ad argumentum quod caritas non est intensiblis</head>
+          <p xml:id="ppr-l92-daqesl">
+            Deinde arguebatur quod caritas non est intensibilis 
+            <lb ed="#E"/>quia si sic sequeretur quod deus posset taliter se habere quod nesciret praemiare etc
+          </p>
+          <p xml:id="ppr-l92-irqidp">
+            Respondetur quod praemiabun<lb ed="#E"/>tur 
+            aequaliter Contra quia sortes numquam habuit in via gradum caritatis ut 10 et <name>plato</name> 
+            <lb ed="#E"/>habuit igitur nego consequentiam quia licet <name>sortes</name> numquam habuit tamen nihil deficit sibi de gradu citra 10 
+            <lb ed="#E"/>quia habuit quaelibet citra 10 Et tamen non habuit 10 Et quia nichil sibi deficit praemi<lb ed="#E"/>abitur 
+            Et quia tota dispositio sufficiens ad hoc praecessit sed non habuit <unclear>mutatum</unclear> esse ideo etc
+          </p>
+          <p xml:id="ppr-l92-cthtap">
+            Alius 
+            <lb ed="#E"/>modus quem concedit <unclear>hesbri</unclear> unde concedit quod <name>sortes</name> et <name>plato</name> erunt aequae deo cari in via et tamen in 
+            <lb ed="#E"/>nullo instanti erant deo aequae cari ideo regula sua Qualecumque erit aliquid quale ipsum non 
+            <lb ed="#E"/>es ipsum incipit dicit quod ista regula non habet veritatem nisi ubi propositio de futuro verificatur 
+            <lb ed="#E"/>pro aliqua instanti ergo non sequitur inceptio in proposito unde sortes non est ita carus sicut erit plato 
+            <lb ed="#E"/>Et erit ita carus sicut plato erit et tamen non incipit nec incipiet esse ita carus sicut erit plato 
+            <lb ed="#E"/>Causa est quia illa propositio verificatur pro aliquo instanti ideo <subst><add place="above-line">non</add> <del rend="strikethrough">bene</del></subst> sequitur inceptio sed bene 
+            <lb ed="#E"/>sequitur si propositio de futuro verificaretur pro aliquo instanti ut bene sequitur <c>a</c> erit album etc Sed 
+            <lb ed="#E"/>prima via videtur melior
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
