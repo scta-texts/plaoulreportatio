@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 93, De Caritate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 93, De Caritate [Palantine Transcription]</title>
+          <date when="2020-12-06">December 06, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="173-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio93">
+        <head xml:id="ppr-l93-Hldcldc">Lectio 93, de Caritate</head>
+        <head xml:id="ppr-l93-Huqssei" type="question-title">Utrum qualitas spiritualis seu indivisibilis extensive possit subiecto extenso inhaerere?</head>
+        <p xml:id="ppr-l93-sadsei">
+          <lb ed="#PV"/>In alia lectione 
+          <lb ed="#PV"/>Sequens argumentum tactum 
+          <lb ed="#PV"/>in principio quaestionis tan<lb ed="#PV"/>git 
+          utrum qualitates spirituales 
+          <lb ed="#PV"/>et indivisibiles extensive possit 
+          <lb ed="#PV"/>subiectis extensis inhaerere
+        </p>
+        <div xml:id="ppr-l93-Dd1e115">
+          <head xml:id="ppr-l93-uoqeec">Una opinio quod qualitas mundi inextensa potest realiter fieri extensa et e converso</head>
+          <p xml:id="ppr-l93-eprmcv">
+            primo 
+            <lb ed="#PV"/>declarabo opinionem cum suis fundamentis 
+            <lb ed="#PV"/>deinde quaestionem 
+          </p>
+          <p xml:id="ppr-l93-ueueie">
+            ponam opinio 
+            <lb ed="#PV"/>una ponit quod omnis <unclear>qualitas</unclear>
+            <lb ed="#PV"/>mundi in extensa potest realiter 
+            <lb ed="#PV"/>fieri extensa et indivisibilis 
+            <lb ed="#PV"/>extensive 
+          </p>
+          <div xml:id="ppr-l93-Dd1e126">
+            <head xml:id="ppr-l93-Hspipio">Suppositiones pro istius opinionis</head>
+            <p xml:id="ppr-l93-phoops">
+              pro declaratione 
+              <lb ed="#PV"/>ista oppinio praemittit suppositiones 
+            </p>
+            <div xml:id="ppr-l93-Dd1e134">
+              <head xml:id="ppr-l93-pqovai">Prima: quod omne accidens est intensivum vel alicuius intensionis</head>
+              <p xml:id="ppr-l93-psoeir">
+                <lb ed="#PV"/>prima quod omne accidens est inten<lb ed="#PV"/>sum 
+                vel alicuius intentionis 
+                <lb ed="#PV"/>probat quia impossibile et aliquod 
+                <lb ed="#PV"/>accidens esse infinite remissum 
+              </p>
+              <p xml:id="ppr-l93-spqmei">
+                <lb ed="#PV"/>2o probat nam generaliter probet 
+                <lb ed="#PV"/>accidens sua medietate est inten<lb ed="#PV"/>sius
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e146">
+              <head xml:id="ppr-l93-Hssqsua">Secunda suppositio</head>
+              <head xml:id="ppr-l93-Hd1e151" type="question-title">Quod omnis qualitas inextensa continet partes secundum se et quodlibet sui unitas adinvicem</head>
+              <p xml:id="ppr-l93-ssopeu">
+                2a suppositio omnis qualitas 
+                <lb ed="#PV"/>inextesnsa continet partes secundum 
+                <lb ed="#PV"/>se et quodlibet sui unitas ad invicem 
+                <lb ed="#PV"/>patet quia pars <unclear>inte</unclear> intensive 
+                <lb ed="#PV"/>uniuntur inter se et qua ratione 
+                <lb ed="#PV"/>propter indistantiam unitur alteri 
+                <lb ed="#PV"/>quaelibet 
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e158">
+              <head xml:id="ppr-l93-Htsotso">Tertia suppositio</head>
+              <p xml:id="ppr-l93-tsasar">
+                3a suppositio alia est unio 
+                <lb ed="#PV"/>partium intensivarum inter se et 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>alia in ordine ad subiectum 
+                <lb ed="#PV"/>patet calere in qualitatibus corporali<lb ed="#PV"/>bus 
+                quae habent unionem intensi<lb ed="#PV"/>vam 
+                et continuitatem quae sunt diver<lb ed="#PV"/>sarum 
+                specierum et consurgens 
+                <lb ed="#PV"/>ex diversis habitudinibus
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e168">
+              <head xml:id="ppr-l93-Hqsoqso">Quarta suppositio</head>
+              <p xml:id="ppr-l93-eqsaue">
+                Sequitur 
+                <lb ed="#PV"/>quarta suppositio quod habitudo partium 
+                <lb ed="#PV"/>intensivarum est alia ab unitate 
+                <lb ed="#PV"/>extensiva
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e177">
+              <head xml:id="ppr-l93-Hqnsqns">Quinta suppositio</head>
+              <p xml:id="ppr-l93-qsoiea">
+                Quinta suppositio 
+                <lb ed="#PV"/>omnes qualitates subiectum indivisibile 
+                <lb ed="#PV"/>informans infinitis sitibus 
+                <lb ed="#PV"/>exterioribus coexistunt patet quia 
+                <lb ed="#PV"/>sicut substantiae coexistunt diversis 
+                <lb ed="#PV"/>sitibus licet non commensurativae 
+                <lb ed="#PV"/>ita etc unde licet anima intellectiva 
+                <lb ed="#PV"/>sit indivisibilis <del rend="strikethrough">cogasi</del> coexistit 
+                <lb ed="#PV"/>tamen sic indivisibili corpori huma<lb ed="#PV"/>no
+                unde quanto res est magis 
+                <lb ed="#PV"/>indivisibilis tam etiam et sic actus 
+                <lb ed="#PV"/>status inhaerens animae indivisibili 
+                <lb ed="#PV"/>proportionaliter existit eidem cui animae
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e188">
+              <head xml:id="ppr-l93-Hsxosxo">Sexta suppositio</head>
+              <p xml:id="ppr-l93-ssdfis">
+                Sexta 
+                <lb ed="#PV"/>suppositio destructo qulibet subiecto 
+                <lb ed="#PV"/>indivisibli potest deus conservare 
+                <lb ed="#PV"/>habitudine accidentis ad situm 
+                <lb ed="#PV"/>exteriorem quem habebat sit quod 
+                <lb ed="#PV"/>occupetur situm sicut ante
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e197">
+              <head xml:id="ppr-l93-Hsmosmo">Septima suppositio</head>
+              <p xml:id="ppr-l93-ssdipe">
+                Sep<lb ed="#PV"/>tima 
+                suppositio deus posset esse accidens 
+                <lb ed="#PV"/>non solum localiter verum etiam 
+                <lb ed="#PV"/>subiective multiplicare potest 
+                <lb ed="#PV"/>accidens non solum ponere in diver<lb ed="#PV"/>sis 
+                sitibus sed in diversis 
+                <lb ed="#PV"/>inhaereri 
+                <!-- could be moved below if corresponding change was made in "plaoulcommentary" expression -->
+                Ex istis capere videtur 
+                <lb ed="#PV"/>fundamentum quod aliquod accidens 
+                <lb ed="#PV"/>indivisibile potest extensive inhaerere 
+                <lb ed="#PV"/>ymmo esse qualitas extensa
+                <!--fuzzy parallel: consider revision -->
+              </p>
+              <p xml:id="ppr-l93-uispic">
+                <!--fuzzy parallel: consider revision -->
+                <lb ed="#PV"/>ymmo consistit in hoc quod accidens 
+                <lb ed="#PV"/>spirituale posset habere duplum ha<lb ed="#PV"/>bitudinem 
+                partium suarum prima est 
+                <lb ed="#PV"/>habitudo partium inter se Alia est in 
+                <pb ed="#PV" n="174-r"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>diversis sitibus Ex consequenti sicut 
+                <lb ed="#PV"/>accidens indivisibile occupat 
+                <lb ed="#PV"/>situm et realiter secundum diversos 
+                <lb ed="#PV"/>situs habet partes sibi potest proportio<lb ed="#PV"/>naliter 
+                inhaerere subiecto correspondenti 
+                <lb ed="#PV"/>situ subiecti et sic habet modum 
+                <lb ed="#PV"/>continuitatis
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l93-Dd1e214">
+            <head xml:id="ppr-l93-Hciocio">Conclusiones istius opinionis</head>
+            <p xml:id="ppr-l93-eiiopc">
+              deinde ponit haec 
+              <lb ed="#PV"/>opinio conclusiones
+            </p>
+            <div xml:id="ppr-l93-Dd1e222">
+              <head xml:id="ppr-l93-Hpcopco">Prima conclusio</head>
+              <p xml:id="ppr-l93-poffpc">
+                prima omnem 
+                <lb ed="#PV"/>formam accidentale a subiecto et 
+                <lb ed="#PV"/>materia separatam potest deus situaliter 
+                <lb ed="#PV"/>extendere unione partium non 
+                <lb ed="#PV"/>destincta probatur quia de corporalibus 
+                <lb ed="#PV"/>non est dubium proportionaliter augmentationem 
+                <lb ed="#PV"/>extensivam rarefactionem de spiritua<lb ed="#PV"/>libus 
+                probatur quia possunt habere 
+                <lb ed="#PV"/>habitudinem ordinis quantum 
+                <lb ed="#PV"/>ad situm ratione suarum partium 
+                <lb ed="#PV"/>ideo per replicationem vel separationem 
+                <lb ed="#PV"/>potest fieri unio et habetur <unclear>proposi<lb ed="#PV"/>tum</unclear>
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e231">
+              <head xml:id="ppr-l93-Hscosco">Secunda conclusio</head>
+              <p xml:id="ppr-l93-scaiee">
+                2a hoc actus corporale 
+                <lb ed="#PV"/>potest habere in extensu pro nam 
+                <lb ed="#PV"/>habitudo partium intensivarum est 
+                <lb ed="#PV"/>alia ab unione partium ad situm 
+                <lb ed="#PV"/>igitur 2a potest tolli stante prima 
+                <lb ed="#PV"/>igitur potest tolli habitudo partium respectu 
+                <lb ed="#PV"/>loci alia remanente quo dato 
+                <lb ed="#PV"/>habebit esse indivisibile 
+              </p>
+            </div>
+            <div xml:id="ppr-l93-Dd1e240">
+              <head xml:id="ppr-l93-Htcotco">Tertia conclusio</head>
+              <p xml:id="ppr-l93-eqsdqi">
+                Sequitur 
+                <lb ed="#PV"/>corollarie primo quod nullum accidens de<lb ed="#PV"/>terminat 
+                sibi ordinem partium 
+                <lb ed="#PV"/>in situ vel in toto patet quia 
+                <lb ed="#PV"/>habitudo partium intensivarum 
+                <lb ed="#PV"/>est alia quam unionis exten<lb ed="#PV"/>sive 
+                igitur est extrinseca et 
+                <lb ed="#PV"/>per consequens etc 
+                
+                Sequitur quod stat 
+                <lb ed="#PV"/>accidentia corporalia habere habitudinem 
+                <lb ed="#PV"/>accidentium spiritualium et econtra ut albedine 
+                <lb ed="#PV"/>caritatis et econtra caritatem habitudinem 
+                <lb ed="#PV"/>continuitatis
+                
+                Consequenter concedit 
+                <lb ed="#PV"/>haec opinio quod caritas potest in 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>formae subiectum extensum et esse 
+                <lb ed="#PV"/>qualitas extensive 
+                
+                Consequenter 
+                <lb ed="#PV"/>quod stat duas qualitates eiusdem 
+                <lb ed="#PV"/>speciei quarum una esset exten<lb ed="#PV"/>sionis 
+                est omnino extrinseca natura <unclear>speciei</unclear>
+                <lb ed="#PV"/>igitur potest tolli ab una remanente 
+                <lb ed="#PV"/>ea in alia
+              </p> 
+              <!--
+                doesn't seem present 
+                <p xml:id="ppr-l93-mcptsr">
+                Multa corollaria possent inferri quae essent bene 
+                pulchra, tamen studentibus relinquuntur.
+              </p>-->
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l93-Dd1e254">
+          <head xml:id="ppr-l93-Hoaiaio">Obiectio ad istam opinionem</head>
+          <p xml:id="ppr-l93-ctiqsi">
+            Contra praedictam 
+            <lb ed="#PV"/>positionem pono conclusionem negativam 
+            <lb ed="#PV"/>quod nec caritas nec alia spiritualis 
+            <lb ed="#PV"/>qualitas potest subiectum extensum 
+            <lb ed="#PV"/>informare vel econtra Radix primi 
+            <lb ed="#PV"/>est nam nullus situs extrinse<lb ed="#PV"/>cus 
+            correspondet vel potest correspon<lb ed="#PV"/>dere 
+            qualitati spirituali
+            
+            Advertendum 
+            <lb ed="#PV"/>quod res indivisibilis extensive sic 
+            <lb ed="#PV"/>se habeat quod sibi correspondeat 
+            <lb ed="#PV"/>aliquis situs extrinsecus hoc 
+            <lb ed="#PV"/>est ratione suae perfectionis de neccessitate 
+            <lb ed="#PV"/>correspondet omnis situs <unclear>communicabilis</unclear>
+            
+            <lb ed="#PV"/>Ita secundum ordine specierum 
+            <lb ed="#PV"/>2m maiorem perfectiorem res nata 
+            <lb ed="#PV"/>est occupare maiorem situm cum 
+            <lb ed="#PV"/>igitur accidentia sint minimae perfectionis 
+            <lb ed="#PV"/>non correspondet eis conditio 
+            <lb ed="#PV"/>indivisibilis proportionaliter ad substantias 
+            <lb ed="#PV"/>sic quod nec sequitur si angelo 
+            <lb ed="#PV"/>corresponderet vel anima situs quod igitur 
+            <lb ed="#PV"/>accidenti
+          </p>
+          <p xml:id="ppr-l93-echsei">
+            Quidam doctor notat 
+            <lb ed="#PV"/>quomodo salvatur quod accidens indivisibile 
+            <lb ed="#PV"/>non coexistit situi cui subiectum 
+            <lb ed="#PV"/>eius coexistit Et sic concedit 
+            <lb ed="#PV"/>licet intellectus sit simpliciter 
+            <lb ed="#PV"/>indivisibilis etiam omnis actus vel 
+            <lb ed="#PV"/>habitus eius non tamen oporteret 
+            <lb ed="#PV"/>quod ubicumque intellectus ibi eius ac<lb ed="#PV"/>tus 
+            quia stat quod angelus vel 
+            <lb ed="#PV"/>anima intellectiva multiplicare<lb ed="#PV"/>tur 
+            in diversis sitibus et tamen non 
+            <pb ed="#PV" n="174-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>quilibet eius notitia vel actus
+            <lb ed="#PV"/>Conformiter concedit <name ref="#Chaton">schaton</name> 
+            <lb ed="#PV"/>quod licet intellectus vel ens situs 
+            <lb ed="#PV"/>habet sint indivisibiles tamen ac<lb ed="#PV"/>tus 
+            intelligendi est in capite 
+            <lb ed="#PV"/>Ita quod sibi <unclear>correspondent</unclear> punctualis 
+            <lb ed="#PV"/>situs adaequate et sic quia accidens 
+            <lb ed="#PV"/>non est aptum natum existere situi 
+            <lb ed="#PV"/>divisibili secundum se et quodlibet 
+            <lb ed="#PV"/>sui ideo nullo modo potest
+          </p>
+        </div>
+        <div xml:id="ppr-l93-Dd1e286">
+          <head xml:id="ppr-l93-Hoeroer">Obiectio et Responsio</head>
+          <p xml:id="ppr-l93-caqiec">
+            Replicatur 
+            <lb ed="#PV"/>nam saltem per replicationem ponamus 
+            <lb ed="#PV"/>quod qualitas spiritualis sicut caritas 
+            <lb ed="#PV"/>inficiens multiplicaretur in hoc 
+            <lb ed="#PV"/>situ divisibili vel creetur 
+            <lb ed="#PV"/>alia et alia differens solum materialiter 
+            <lb ed="#PV"/>tunc videtur quod una potest alteri 
+            <lb ed="#PV"/>uniri Ex quo sunt eiusdem  
+            <lb ed="#PV"/>speciei quo dato erit verum continuum 
+          </p>
+          <p xml:id="ppr-l93-rqpppe">
+            <lb ed="#PV"/>Respondetur prima quod pars huiusmodi qualitatis 
+            <lb ed="#PV"/>vel huiusmodi qualitates solo 
+            <lb ed="#PV"/>numero differentes non sunt unibi<lb ed="#PV"/>les 
+            nisi intensive sicut nec anima 
+            <lb ed="#PV"/>est in potentia unionis continuitatis 
+            <lb ed="#PV"/>eo quod nec est pars extensiva nec 
+            <lb ed="#PV"/>potest esse totum extensivum nam 
+            <lb ed="#PV"/>qua ratione <del rend="strikethrough">p</del> repugnat sibi alteri 
+            <lb ed="#PV"/>coniungi per modum continuitatis ita in proposi<lb ed="#PV"/>to 
+            quia nulla qualitas aliquem 
+            <lb ed="#PV"/>partem informaret et eo quod solum 
+            <lb ed="#PV"/>punctualiter inexisteret
+          </p>
+          <p xml:id="ppr-l93-enqaui">
+            Item proportionalis  
+            <lb ed="#PV"/>dicendum esset de illis sicut de 
+            <lb ed="#PV"/>punctis ymaginanda puncta 
+            <lb ed="#PV"/>continuantia ita quod nulla haberet 
+            <lb ed="#PV"/>aliam sibi inmediate sicut ex punctis 
+            <lb ed="#PV"/>continuantibus non resulta aliquod 
+            <lb ed="#PV"/>unum Sic non sequitur ibi 
+            <lb ed="#PV"/>sunt infinita puncta et non est 
+            <lb ed="#PV"/>fugienda aliqua pars quin ibi 
+            <lb ed="#PV"/>sit punctus igitur resulta existens 
+            <lb ed="#PV"/>continuum Ideo illa ymaginatio desinit 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>multum tamen quia huiusmodi quali<lb ed="#PV"/>tates 
+            non sunt continuabiles nec 
+            <lb ed="#PV"/>ex infinita replicatione argueretur 
+            <lb ed="#PV"/>continuitas 
+          </p>
+          <p xml:id="ppr-l93-ehsspp">
+            Sequitur quod haec 
+            <lb ed="#PV"/>consequentia non valet in qualibet huius subiecti 
+            <lb ed="#PV"/>est qualitas spiritualis scilicet caritas 
+            <lb ed="#PV"/>igitur totum redditur quoddam 
+            <lb ed="#PV"/>extensum Tenendo ergo quod 
+            <lb ed="#PV"/>qualitas mere spiritualis non 
+            <lb ed="#PV"/>potest subiecto extenso inhaerere 
+            <lb ed="#PV"/>et si sic non poneretur nisi sicut 
+            <lb ed="#PV"/>puncto
+          </p>
+          <p xml:id="ppr-l93-cqqcpi">
+            Concedendum est tamen 
+            <lb ed="#PV"/>quod potest poni in aliquo situ 
+            <lb ed="#PV"/>punctuali sed tamen nullus punctus 
+            <lb ed="#PV"/>vel situs correspondet sibi secundum 
+            <lb ed="#PV"/>se et quodlibet sui
+          </p>
+        </div>
+        <div xml:id="ppr-l93-Dd1e312">
+          <head xml:id="ppr-l93-Hafifio">Ad fundamenta illius opinionis</head>
+          <div xml:id="ppr-l93-Dd1e317">
+            <head xml:id="ppr-l93-Hapsaps">Ad primam suppositionem</head>
+            <p xml:id="ppr-l93-etaaei">
+              Respondetur ergo quantum 
+              <lb ed="#PV"/>ad primam suppositionem dicentem 
+              <lb ed="#PV"/>quod omne accidens est intensum
+            </p>
+            <p xml:id="ppr-l93-hdpepc">
+              <lb ed="#PV"/>ista est falsa ymaginando de quantitate 
+              <lb ed="#PV"/>distincta illa non est intensa 
+              <lb ed="#PV"/>quia sic sequitur penetratio 
+              <lb ed="#PV"/>quantitatum realiter distinctarum 
+            </p>
+            <p xml:id="ppr-l93-septis">
+              <lb ed="#PV"/>2o sequitur quod pars adaequaretur toti 
+              <lb ed="#PV"/>probatur quia sequitur inconveniens nam 
+              <lb ed="#PV"/>signata pedali quantitate quae 
+              <lb ed="#PV"/>est medietas intensiva appli<lb ed="#PV"/>cetur 
+              quantitas quadrupe<lb ed="#PV"/>dalis 
+              nec excederet nec ex<lb ed="#PV"/>cederetur 
+              quia bipedalis est coex<lb ed="#PV"/>tensa 
+              illi igitur etiam quaelibet 
+              <lb ed="#PV"/>pars istius totius bipedalis 
+              <lb ed="#PV"/>coextenditur toti
+            </p>
+            <p xml:id="ppr-l93-tdiinr">
+              <sic>2o</sic> datur instantia 
+              <lb ed="#PV"/>de quibusdam accidentibus <unclear>succ?tis</unclear> ut 
+              <lb ed="#PV"/>de actu negandi unde capiamus 
+              <lb ed="#PV"/>istam <mentioned>sortes non currit</mentioned> quia illus actus 
+              <lb ed="#PV"/>nec intenditur nec remittitur 
+            </p>
+            <p xml:id="ppr-l93-sidivr">
+              <lb ed="#PV"/>3o datur de affirmativis acti<lb ed="#PV"/>bus 
+              <unclear>si?catis</unclear> ubi non videtur 
+              <pb ed="#PV" n="175-r"/>
+              <lb ed="#PV" n="a"/>
+              <lb ed="#PV"/>quod huiusmodi qualitates sint 
+              <lb ed="#PV"/>remissibiles vel intensibiles
+            </p>
+            <p xml:id="ppr-l93-eqdisp">
+              <lb ed="#PV"/>Item forte de conceptibus abso<lb ed="#PV"/>lutis 
+              nec ratio sua habet fundamentum 
+              <lb ed="#PV"/>quia pari ratione quaelibet forma 
+              <lb ed="#PV"/>substantialis esset intensa igitur naturae consequentia 
+              <lb ed="#PV"/>Consequenter nec valet ratio sequens 
+              <lb ed="#PV"/>scilicet quodlibet accidens esset intenius 
+              <lb ed="#PV"/>sua parte patet de quantitate
+            </p>
+          </div>
+          <div xml:id="ppr-l93-Dd1e347">
+            <head xml:id="ppr-l93-Hassass">Ad secundam suppositionem</head>
+            <p xml:id="ppr-l93-sengpi">
+              2a <unclear>sp?</unclear> 
+              <lb ed="#PV"/>non est etiam evidens ymmo neganda 
+              <lb ed="#PV"/>quae ponit ordinem partium inten<lb ed="#PV"/>sivarum 
+              inter se quantum ad hoc 
+              <lb ed="#PV"/>concedendo ordinem Etiam hoc habetur 
+              <lb ed="#PV"/>quod non unitur alter gradus quia 
+              <lb ed="#PV"/>gradus ultimo introductus non 
+              <lb ed="#PV"/>unitur primo quia non nisi im<lb ed="#PV"/>mediate 
+              ut dicit <name>magister nyclaus 
+              <lb ed="#PV"/>orem</name> et est probabile et est ordo 
+              <lb ed="#PV"/>proportionalis ad ordinem extensum
+            </p>
+          </div>
+          <div xml:id="ppr-l93-Dd1e356">
+            <head xml:id="ppr-l93-Hatsats">Ad tertiam suppositionem</head>
+            <p xml:id="ppr-l93-tsqnhs">
+              <lb ed="#PV"/>3a suppositio alia est unio pertinet 
+              <lb ed="#PV"/>inter se quantum ad subiectum 
+              <lb ed="#PV"/>concedendo hoc in qualitatibus 
+              <lb ed="#PV"/>corporalibus si generaliter intelli<lb ed="#PV"/>gat 
+              <unclear>negandum</unclear> est sibi nam qualitas 
+              <lb ed="#PV"/>spiritualis solum habet habitudinem 
+              <lb ed="#PV"/>partium unicarum intensive et non 
+              <lb ed="#PV"/>secundum situ
+            </p>
+          </div>
+          <div xml:id="ppr-l93-Dd1e365">
+            <head xml:id="ppr-l93-Haqsaqs">Ad quintam suppositionem</head>
+            <p xml:id="ppr-l93-qsupra">
+              <sic>4o</sic> suppositio ponit 
+              <lb ed="#PV"/>quod bene ymaginatur quod qualitas 
+              <lb ed="#PV"/>spiritualis adaequate occupat 
+              <lb ed="#PV"/>situm quem subiectum inhaeret Et co<lb ed="#PV"/>existit 
+              tot sitibus quot sub<lb ed="#PV"/>iectum 
+              cui inhaeret Istud est 
+              <lb ed="#PV"/>inprobatum quia est ratione perfec<lb ed="#PV"/>tionis 
+              subiective Ideo si angelus 
+              <lb ed="#PV"/>vel suprema intelligentia si daretur 
+              <lb ed="#PV"/>totum spirituale ymaginabile occupa<lb ed="#PV"/>ret 
+              vel coexisteret non opor<lb ed="#PV"/>tet 
+              ita esse de accidente
+              <lb ed="#PV"/>Sequitur alia lectio
+            </p>
+            <!--
+              doesn't see present
+              <p xml:id="ppr-l93-aeuqds">
+              Adhuc 
+              erat una ratio, sed ex dictis satis patet quid dicendum 
+              sit.
+            </p>-->
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
