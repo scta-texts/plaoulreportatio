@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 94, De Caritate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 94, De Caritate [Erlangen Transcription]</title>
+          <date when="2020-12-15">December 15, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="125-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio94">
+        <head xml:id="ppr-l94-Hldcldc">Lectio 94, de Caritate</head>
+        <div xml:id="ppr-l94-Dd1e109">
+          <head xml:id="ppr-l94-Huspepg">Utrum secundum proportionem debeat esse proportio gratiae?</head>
+          <p xml:id="ppr-l94-eepepg">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>difficultas tractanda est utrum secundum proportionem statuum debent esse gradus gratiae
+          </p>
+          <p xml:id="ppr-l94-uneadm">
+            Advertendum 
+            <lb ed="#E"/>quod in tota latitudine perfectionis gratiarum primus et infimus gradus est gratia baptismalis 
+            <lb ed="#E"/>ad quam quilibet obligatur id est ad tantam vel maiorem et illa sufficit ad salutem utque de pueris 
+            <lb ed="#E"/>noviter baptizatis decedentibus deinde ponerentur gradus secundum dispositiones hominum 
+            <lb ed="#E"/>naturales etiam gratuitas verbi gratia quae capacior esset ingenio magis obligaretur 
+            <lb ed="#E"/>unde daretur creatura rationalis quae tam remisse haberet usum rationis ratione dispositionis ingenii quod 
+            <lb ed="#E"/>confusissima cognitio et dilectio dei sufficerent et forte in quibusdam simplicibus personis habet 
+            <lb ed="#E"/>locum et sic latitudo esset praeceptorum quia staret quod sortes obligaretur ad maiorem gratiam 
+            <lb ed="#E"/>quam <name xml:id="ppr-lectio94-Nd1e177">plato</name> et sic esset ymaginanda tota latitudo perfectionis cadentis sub praecepto et sic non 
+            <lb ed="#E"/>omnes obligantur aequaliter nec omnes obligantur ad dilectionem inimicorum
+          </p>
+          <p xml:id="ppr-l94-uneidd">
+            Advertenda est distinctio 
+            <lb ed="#E"/>quia praeceptum videtur esse generale de quolibet proximo
+          </p>
+          <!-- fuzzy break -->
+          <p xml:id="ppr-l94-piuees">
+            et nomine proximi intelligitur quilibet via<lb ed="#E"/>tor 
+            sub quo comprehenditur inimicus Respondetur quod nomine christi potest esse dilectio generalis qua 
+            <lb ed="#E"/>generali dilectione et volitione optatur cuilibet vita aeterna et sic tenemur quemlibet diligere 
+            <lb ed="#E"/>Sed si occurrat inimicus ut sortes non teneor in particulari ipsum diligere sicut alium sed sufficit ad 
+            <lb ed="#E"/>inplendum praeceptum quod non odiam vel quod non habeam aliquem alium actum repugnantem 
+            <lb ed="#E"/>dilectioni proximi generali Et sic partim concedendum quod diligendus est inimicus ex praecepto 
+            <lb ed="#E"/>scilicet quod debemus cuilibet optare suum finem quia in hoc est similitudo omnium creaturarum scilicet in 
+            <lb ed="#E"/>finem ultimum et sub illa generali dilectione impletur praeceptum vel dilectio cadens sub praecepto 
+            <lb ed="#E"/>Sed si quis diligat inimicum speciali dilectione et opus super erogans et est supra praecepta 
+            <lb ed="#E"/>et est consilii
+            <!-- add break -->
+            Ad istud tamen opus tenentur pastores ecclesiae unde pastoribus ecclesiae generaliter 
+            <lb ed="#E"/>debet esse conceptus sui proportionaliter proximum et deum <ref xml:id="ppr-l94-Rd1e134" corresp="#ppr-l94-Qepbpos"><title ref="#io">iohannes</title> 10</ref> <quote xml:id="ppr-l94-Qepbpos" source="http://scta.info/resource/io10_11">ego sum pastor bonus et pastor bonus 
+            <lb ed="#E"/>est qui ponit animam suam pro te ovibus suis</quote> Ideo episcopus pro grege tenetur exponere animam suam 
+            <lb ed="#E"/>id est vitam corporalem Et si vitam etiam debet abicere corporales voluptates et decimas 
+            <lb ed="#E"/>subveniendo pauperibus considerato quod pauperum sunt 
+          </p>
+          <p xml:id="ppr-l94-eehpoc">
+            Ex isto apparet de gravitate 
+            <lb ed="#E"/>peccati summi pastoris ubi videret oves perire tueretur ex officio patet quod quantum gradum cari<lb ed="#E"/>tatis 
+            obligatur ultra alios Et multi gradus sunt praecepti in superioribus praelatis Quantum 
+            <lb ed="#E"/>ad hoc summus pontifex teneretur habere supremum gradum caritatis et maxime animam pro ovibus 
+            <lb ed="#E"/>ponere et tamquam servus ecclesiae <unclear>extremam</unclear> omnem diligentiam pro conservatione <del rend="expunctuation">ecclesiae</del> omnium adhibere
+          </p>
+          <p xml:id="ppr-l94-ecedmt">
+            <lb ed="#E"/>Consequenter episcopi unde <quote xml:id="ppr-lectio94-Qd1e356" source="http://scta.info/resource/lc10_3" synch="4-9">mitto vos sicut oves inter lupos</quote> id est inter inimicus blasphem<lb ed="#E"/>atores 
+            vestros quos debetis ad viam veritatis reducere 
+            <!-- See my plaoul note about lectio 94/95 -->
+            Sequitur quaestio in eadem lectione etc 
+            <!-- see my plaoul note about lectio 94/95 --> 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
