@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 95, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 94, De libertate [Erlangen Transcription]</title>
+          <date when="2020-12-16">December 16, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="175-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio95">
+        <head xml:id="ppr-l95-Hldldld">Lectio 95, De libertate</head>
+        <p xml:id="ppr-l95-cssepl">
+          <lb ed="#E"/>Circa 2m de libertate et circa primum 
+          <lb ed="#E"/>de praedestinatione 
+        </p>
+        <div xml:id="ppr-l95-Dd1e112">
+          <head xml:id="ppr-l95-Hulanap">Utrum liberum arbitrium possit necessitari ad peccatum?</head>
+          <p xml:id="ppr-l95-qiqpsp">
+            quaeritur etc 
+            <lb ed="#E"/>utrum liberum arbitrium non possit necessitari ad peccandum
+          </p>
+          <div xml:id="ppr-l95-Dd1e120">
+            <head xml:id="ppr-l95-Hrqsrqs">Rationes quod sic</head>
+            <div xml:id="ppr-l95-Dd1e125">
+              <head xml:id="ppr-l95-Hpropro">Prima ratio</head>
+              <p xml:id="ppr-l95-eapfvn">
+                Arguitur primo quod sic ex necessitate fatalis dispositionis causarum seu ex necessitate fati de quibus 
+                <lb ed="#E"/>loquitur <ref xml:id="ppr-l95-Rd1e132"><name ref="#Augustine">augustinus</name> in quinto <title ref="#CityOfGod">de Civitate dei</title> capitulo nono</ref> et introducit versiculum annei <name>senecae</name> volentem 
+                ducere fata volentem 2m habent ubi immutatur quod facilis dispositio causarum necessitat homines 
+                <lb ed="#E"/>etiam <unclear>volentes</unclear> ita quod homo velit nolit sequitur inpulsum fatalis dispositionis rerum
+              </p>
+              <p xml:id="ppr-l95-lesifvn">
+                Similiter 
+                <lb ed="#E"/><name ref="#Seneca">Seneca</name> in tragoediis in illa quae intitulatur de <name ref="#Oedipus">edipo</name> dicit fatis agimur credite fatis 
+                <lb ed="#E"/>et introducit ibi quod fata omnino necessitate
+              </p>
+              <p xml:id="ppr-l95-eoiraa">
+                Ad idem <name ref="#Ovid">Ovidus</name> <title ref="#Metamorphoses">methamoropheos</title> introducit 
+                <lb ed="#E"/>venerem supplicantatem <name ref="#Jupiter">Iovi</name> <unclear>pro</unclear> <name ref="#Aeneas">aenea</name> quod non pateretur infortunia Respondit <name>Iupiter</name> 
+                <lb ed="#E"/>quod non possunt imitari fata igitur etiam neccessitant omnes causas inferiores respectu suorum omnium actuum
+              </p>
+              <p xml:id="ppr-l95-capccn">
+                <lb ed="#E"/>Confirmatur auctoritate multorum philosophorum ponentium quod futura de necessitate eveniunt unde <name>alkindus</name> 
+                <lb ed="#E"/>possibile et necessarium sunt penitus idem sed praecise differunt secundum nostram ignorantiam quia non videmus 
+                <lb ed="#E"/>causas applicatas ad certos effectus futuros scilicet ad ponendum vel impediendum 
+              </p>
+              <p xml:id="ppr-l95-scqscs">
+                Confirmatur 
+                <lb ed="#E"/>secundo nam primo iste mundus inferior regitur ab istis superioribus ergo obedit sibi si sic neccessario sequitur 
+                <lb ed="#E"/>propositum quod omnes effectus eveniunt de neccessitate naturae Et <name>ptolomeus</name> vultus huius saeculi subiecti sunt 
+                <lb ed="#E"/>vultibus superioribus et ponit hoc in centiloquio Ita quilibet effectus inferior habet ymaginationem 
+                <lb ed="#E"/>effectivam superius
+              </p>
+            </div>
+            <div xml:id="ppr-l95-Dd1e194">
+              <head xml:id="ppr-l95-Hsrosro">Secunda ratio</head>
+              <p xml:id="ppr-l95-sausav">
+                Secundo principaliter arguitur ut prius arguebatur in prima distinctione nam deus 
+                <pb ed="#E" n="126-r"/>
+                <lb ed="#E"/>vel voluntas divina concurrit cum libero arbitrio creato <unclear>praeveniendo</unclear> et praeveniendo ipsum et huiusmodi <unclear>praeventio</unclear> 
+                <lb ed="#E"/>non est in potestate liberi arbitrii igitur neccessitas unde arguitur sic deus vult praevenire voluntatem 
+                <lb ed="#E"/>humanam et vult secum concurrere igitur producit etc et antecedens non est in potestate voluntatis creatae igitur nec 
+                <lb ed="#E"/>consequens quia antecedens non est etc notum est
+              </p>
+            </div>
+            <div xml:id="ppr-l95-Dd1e212">
+              <head xml:id="ppr-l95-trtrtr">Tertia ratio</head>
+              <p xml:id="ppr-l95-tadpae">
+                Tertio principaliter deus praecognoscit omnia futura et iudicat 
+                <lb ed="#E"/>illa fore et tale iudicium est oratio immutabile et simpliciter infallibile igitur necesse est sic fore antecedens est clarum 
+                <lb ed="#E"/>quia omnia nuda et aperta sunt oculis eius quod sit immutabilis patet quia apud ipsum non 
+                <lb ed="#E"/>est vicissitudinis obumbrato Etiam ego sum deus et non <unclear>mutor</unclear> Consimiliter argui potest de de<lb ed="#E"/>claratione 
+                divinae voluntatis quae ab aeterno fuit et est efficax ergo nullo modo potest aliter evenire
+              </p>
+              <p xml:id="ppr-l95-itadqf">
+                <lb ed="#E"/>Ideo <ref xml:id="ppr-l95-Rd1e224"><name ref="#Aureoli">aureolus</name></ref> tenet quod si voluntas divina sit determinata volendo a fore ab aeterno fuit sic 
+                <lb ed="#E"/>determinata et concedit istam consequentiam voluntas divina ab aeterno fuit determinata quod <c>a</c> erit ergo <c>a</c> 
+                <lb ed="#E"/>necessario erit et ideo negat antecedens 
+              </p>
+            </div>
+            <div xml:id="ppr-l95-Dd1e237">
+              <head xml:id="ppr-l95-Hqrqrqr">Quarta ratio</head>
+              <p xml:id="ppr-l95-qasvbd">
+                Quarto principaliter deus animae christi revelavit omnia futura contingentia 
+                <lb ed="#E"/>et inpossibile est quod deceperit eam igitur neccesse est sic evenire prima pars antecedentis est nota per <name ref="#Lombard">magistrum</name> in 3o 
+                <lb ed="#E"/>libro distinctione 14a distinctione anima christi novit omnia quae verbum igitur omnia futura contingentia 
+              </p>
+              <p xml:id="ppr-l95-eeevbd">
+                Secunda pars probatur primo quia inpossibile est ex parte dei ratione summae bonitatis Secundo ex parte 
+                <lb ed="#E"/>animae christi quia haec consequentia est bona anima christi unita verbo fuit decepta ergo verum tenet consequentia 
+                <lb ed="#E"/>per communicationem ydeomatum nam scire cognoscere et decipere sunt praedicata quae habent fieri circa idem 
+                <lb ed="#E"/>articulus condempnatus Stat animam christi unitam verbo decipi unde si per ymaginationem 
+                <lb ed="#E"/>deus potest facere quod antichristus non erit sequitur oppositum alicuius partis antecedentis quia anima 
+                <lb ed="#E"/>christi esset decepta ex quo sic credidit dixerunt aliqui quod post revelationem efficitur necessarium 
+                <lb ed="#E"/>id est non posset facere deus quin eveniat quia non posset decipere
+              </p>
+            </div>
+            <div xml:id="ppr-l95-Dd1e253">
+              <head xml:id="ppr-l95-Hqnrqnr">Quinta ratio</head>
+              <p xml:id="ppr-l95-qacmni">
+                Quinto causalitas 
+                <lb ed="#E"/>voluntatis est naturalis igitur non potest ad opposita consequentia patet <ref xml:id="ppr-l95-Rd1e262">nono <title ref="#Metaphysics">metaphysicae</title></ref> antecedens probatur de primis 
+                <lb ed="#E"/>motibus quia procedunt a causalitate intrinseca voluntatis et per modum natura igitur 
+              </p>
+              <p xml:id="ppr-l95-cvrhcn">
+                Confirmatur 
+                <lb ed="#E"/>quia voluntas respectu cuiuscumque sui actus potest se ipsam necessitare igitur antecedens probatur nam respectu cuiuscumque sui actus 
+                <lb ed="#E"/>potest habere velle producendi ipsum quo posito producit actum suum naturaliter et necessitatur ad produ<lb ed="#E"/>cendum 
+                nam <ref>nono methaphysicae</ref> voluntas volens et potens est causa neccessaria modo respectu cuiuscumque 
+                <lb ed="#E"/>actus potest habere velle et mere natura potest exire in suum actum 
+              </p>
+            </div>
+            <div xml:id="ppr-l95-Dd1e281">
+              <head xml:id="ppr-l95-Hsxrsxr">Sexta ratio</head>
+              <p xml:id="ppr-l95-saanva">
+                Sexto aliqua illecebra posset 
+                <lb ed="#E"/>neccessitare voluntatem id est ad hoc <unclear>allectivum</unclear> illicitum igitur antecedens probatur quare resistentia voluntatis 
+                est praecise finita et intentas illecebro potest augeri ad duplum etc ergo potest augeri et quod sit 
+                <lb ed="#E"/>proportio maioris inaequalitatis et tunc neccessitabit scilicet quia voluntas est finite resistentiae 
+                <lb ed="#E"/>et motivitas obiecti potest augeri ad quemlibet gradum igitur
+              </p>
+            </div>
+            <div xml:id="ppr-l95-Dd1e290">
+              <head xml:id="ppr-l95-Hsprspr">Septima ratio</head>
+              <p xml:id="ppr-l95-saonel">
+                Septimo obiectum beatificum 
+                <lb ed="#E"/>necessitat voluntatem ad ipsius dilectionem probatur primo quia sicut principia prima se habent 
+                <lb ed="#E"/>ad intellectum ita ultimus finis respectu voluntatis 
+                <!-- possible break --> 
+                sed prima principia neccessitant intellectum 
+                <lb ed="#E"/>igitur antecedens patet <ref>2o physicorum</ref> eadem est habitudo priorum principiorum ad intellectum 
+              </p>
+              <p xml:id="ppr-l95-snudeb">
+                Secunda nisi 
+                <lb ed="#E"/>sic sequeretur quod quilibet beatus posset se privari beatitudinem consequens falsum quia non essent confirma<lb ed="#E"/>ti 
+                quia angeli possent cadere probatur consequentia quia si respectu dei voluntas libere producat etc potest 
+                <lb ed="#E"/>desinere esse beata
+              </p>
+            </div>
+            <div xml:id="ppr-l95-Dd1e302">
+              <head xml:id="ppr-l95-Horooro">Octava ratio</head>
+              <p xml:id="ppr-l95-oaqecl">
+                ultimo libertas non ponitur in voluntate secundum <ref xml:id="ppr-l95-Rd1e311"><name>durandum</name></ref> et plures 
+                <lb ed="#E"/>doctores negantes libertatem in voluntate proprie reperiri ergo
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l95-Dd1e319">
+            <head xml:id="ppr-l95-Hscasca">Sed contra</head>
+            <p xml:id="ppr-l95-ioalma">
+              In oppositum arguitur 
+              <lb ed="#E"/>nam si sacra scriptura innuitur clare libertas unde in epistola de sanctis qui potuit 
+              <lb ed="#E"/>transgredi et non est transgressus ideo laudatur ibi innuitur potestas liberi arbitrii 
+              <!-- possible break --> 
+              Ad 
+              <lb ed="#E"/>idem est tota multitudo doctorum solempnium Etiam articulus in moralibus per totum 
+              <lb ed="#E"/>videtur concedere libertatem Etiam <name ref="#Cicero">tullius</name> et patet per <ref xml:id="ppr-l95-Rd1e331"><name>augustinum</name> in quinto <title ref="#CityOfGod">de civitate dei</title> capitulo 
+              <lb ed="#E"/>nono</ref> maluit scientiam divinam adextra quam libertatem liberi arbitrii quia est tollere 
+              <lb ed="#E"/>totam policiam consilia ymmo totam humanam prudentiam ideo est per viciosum negare 
+              <lb ed="#E"/>libertatem liberi arbitrii ymmo quilibet paganus iudicaret esse nephandum 
+              <pb ed="#E" n="126-v"/>
+              <lb ed="#E"/>pro declaratione materiae secundum octo argumenta erunt octo articuli 
+            </p>
+          </div>
+          <div xml:id="ppr-l95-Dd1e352">
+            <head xml:id="ppr-l95-Hdqsdqs">Divisio quaestiones</head>
+            <p xml:id="ppr-l95-iimtao">
+              in primo videbitur quicquid intelligatur 
+              <lb ed="#E"/>notitiae fati et quod senserunt philosophi de illo Secunda pars articuli tractabit utrum corpora caelestia habent 
+              <lb ed="#E"/>efficaciam super actibus liberi arbitrii quantum ad regimen <sic>pollitticum</sic> et respectum causarum infe<lb ed="#E"/>riorum 
+              Alii articuli erunt secundum argumenta tacta 
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
