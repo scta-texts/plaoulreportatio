@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 97, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 97, De libertate [Palantine Transcription]</title>
+          <date when="2020-12-27">December 27, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="179-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio97">
+        <head xml:id="ppr-l97-Hldldld">Lectio 97, de Libertate</head>
+        <div xml:id="ppr-l97-Dd1e109">
+          <head xml:id="ppr-l97-Hdciedp">De connexio inter fatum et divina providentia</head>
+          <p xml:id="ppr-l97-adddpd">
+            <lb ed="PV"/>In alia lectione 
+            <lb ed="PV"/>Ad discutiendum difficultatem 
+            <lb ed="PV"/>de concorda liberi arbitrii 
+            <lb ed="PV"/>cum fato introducta est materia 
+            <lb ed="PV"/>de praescientia dei
+          </p>
+          <p xml:id="ppr-l97-sqscis">
+            quia 2m
+            <ref xml:id="ppr-l97-Rd1e119"><name ref="#Boethius">Boetium</name></ref> 
+            <lb ed="PV"/><quote xml:id="ppr-l97-Qd1e130" source="http://scta.info/resource/hy7y6y-d1e75">ordo fatalis ex prudentiae 
+            <lb ed="PV"/>simplicitate procedit</quote> ideo habent inter 
+            <lb ed="PV"/>se <sic>quanda</sic> connectionem 
+          </p>
+          <div xml:id="ppr-l97-Dd1e142">
+            <head xml:id="ppr-l97-Hpoqfen">Prima Opinio: Quod fatum est nihil</head>
+            <p xml:id="ppr-l97-eionep">
+              Iuxta opinio<lb ed="PV"/>nes 
+              recitatas secundum <name>Raby 
+              <lb ed="PV"/>moysem</name> fatum nichil esset 2am 
+              <lb ed="PV"/>primam opinionem Nam antiqua 
+              <lb ed="PV"/>opinio resolvit necessitatem 
+              <lb ed="PV"/>effectuum 2m materiam vel dispositionem 
+              <lb ed="PV"/>materiae ideo ponit omnia <unclear>sn</unclear> a casu 
+              <lb ed="PV"/>secundum quod contingit materiam esse 
+              <lb ed="PV"/>talem vel talem tamen vocant 
+              <lb ed="PV"/>materiam <unclear>corporalia</unclear> athomalia secundum quorum 
+              <lb ed="PV"/>combinationes contingunt 
+              <lb ed="PV"/>effectus varii et quod nichil fit 
+              <lb ed="PV"/>nisi pure a casu et quod nulla 
+              <lb ed="PV"/>est divina providentia respectu 
+              <lb ed="PV"/>originis universi nec aliqua 
+              <lb ed="PV"/>cura dei et iuxta hanc opinionem 
+              <lb ed="PV"/>fatum nichil penitus esset quia 
+              <lb ed="PV"/>haec opinio non concedit ordinationem 
+              <lb ed="PV"/>causarum <unclear>seminem</unclear> fatalem
+            </p>
+          </div>
+          <div xml:id="ppr-l97-Dd1e151">
+            <head xml:id="ppr-l97-Hsoqsai">Secunda opinio: quod divina providentia extendit se ad incorruptibilia</head>
+            <p xml:id="ppr-l97-sooiem">
+              <pc type="virgula">/</pc> 4ta 
+              <lb ed="PV"/>opinio est ipsius <name ref="#Maimonides">Raby moysi</name> si 
+              <cb ed="PV" n="b"/>
+              <lb ed="PV"/>qui ponit quod prudentia divina 
+              <lb ed="PV"/>praecise extendit se ad corrump<lb ed="PV"/>tibilia 
+              et quia inmediate est et 
+              <lb ed="PV"/>terminatur in incorruptibilia ideo ex hoc ipsa
+              <lb ed="PV"/>sunt incorruptibilia et met aeterna 
+            </p>
+            <p xml:id="ppr-l97-ucrhea">
+              <lb ed="PV"/>Consequenter respectu omnium corporum 
+              <lb ed="PV"/>caelestium operationum et motuum 
+              <lb ed="PV"/>eorum <unclear>ponit</unclear> esse divinam providentiam 
+              <lb ed="PV"/>ex hoc ortiuntur aeternitatem 
+              <lb ed="PV"/>respectu specierum Etiam in spera 
+              <lb ed="PV"/>generalium et corrumptibilium ponit esse 
+              <lb ed="PV"/>divinam providentiam et respectu 
+              <lb ed="PV"/>hominis etiam individuorum speciei 
+              <lb ed="PV"/>humanae ratione intellectuum 
+            </p>
+            <p xml:id="ppr-l97-eromev">
+              Opinionem veram inprobando 
+              <lb ed="PV"/>arguit <name>Raby moises</name> sic quia 
+              <lb ed="PV"/>divina providentia se extenderet 
+              <lb ed="PV"/>ad individua sequitur quod omnia 
+              <lb ed="PV"/>de necessitate evenirent propter 
+              <lb ed="PV"/>stabilitatem et immutabilitatem divinae 
+              <lb ed="PV"/>providentiae <pc type="virgula">/</pc> et per consequens periret 
+              <lb ed="PV"/>leges et 2o morales
+            </p>
+            <p xml:id="ppr-l97-sircso">
+              videtur 
+              <lb ed="PV"/>michi quod ista ratio inevitabiliter 
+              <lb ed="PV"/>militat contra ipsam quia concedit 
+              <lb ed="PV"/>quod divina providentia se extendit 
+              <lb ed="PV"/>ad individua humanae speciei et 
+              <lb ed="PV"/>operationes eiusdem praecipue per<lb ed="PV"/>tinentes 
+              ad intellectum Ideo si 
+              <lb ed="PV"/>se extendit ad electiones neces<lb ed="PV"/>sario 
+              eveniat quod est incon<lb ed="PV"/>veniens quod intulit contra 
+              <lb ed="PV"/>aliam opinionem et sic omnia con<lb ed="PV"/>currentia 
+              voluntatem evenirent 
+              <lb ed="PV"/>necessario
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l97-sircXY">
+              <pc type="virgula">/</pc> Consequenter 
+              <lb ed="PV"/>habet <unclear>dic</unclear> quod fatum non stat cum 
+              <lb ed="PV"/>libero arbitrio quia <unclear>vel</unclear> causatur 
+              <lb ed="PV"/>fatum pro divina providentia ad 
+              <lb ed="PV"/>intra vel ordine causarum 
+              <lb ed="PV"/>sive sit sive non 
+            </p>
+            <!-- fuzzy break/parallel -->
+            <p xml:id="ppr-l97-nqacod">
+              <pc type="virgula">/</pc> habet ponere 
+              <lb ed="PV"/>necessitatem et sic illa ordinatio 
+              <pb ed="PV" n="180-r"/>
+              <cb ed="PV" n="a"/>
+              <lb ed="PV"/>carum provisa est in mente 
+              <lb ed="PV"/>divina ergo est necessaria Ideo 
+              <lb ed="PV"/>in ista materia videtur mihi ipse incidit 
+              <lb ed="PV"/>ancillam cupiens vitare <sic>caribdiam</sic>
+              <pc type="virgula">/</pc> Tenendum ergo cu fide ca<lb ed="PV"/>tholica 
+              doctoribus sacris in <ref><name ref="#Boethius">boecius</name> 
+              <lb ed="PV"/>in 4to <title>de consolatione philosophiae</title> 
+              <lb ed="PV"/>circa finem</ref> ita quod providentia 
+              <lb ed="PV"/>se extendit ad omnia <!-- end of quote here ? --> <pc type="virgula">/</pc> unde 
+              <lb ed="PV"/><ref xml:id="ppr-l97-Rd1e194" corresp="#l97-Qpesged">boetius in 4to prosa sexta</ref> <pc type="virgula">/</pc> <quote xml:id="ppr-l97-Qpesged" source="http://scta.info/resource/hy7y6y-d1e75">providentia 
+              <lb ed="PV"/>est summa ratio divina</quote> ubi 
+              <lb ed="PV"/>ponit qua <unclear>acta</unclear> disponit
+            </p>
+          </div>
+          <div xml:id="ppr-l97-Dd1e214">
+            <head xml:id="ppr-l97-Hoaffav">Origo acceptationis fati a vulgari</head>
+            <p xml:id="ppr-l97-ahvvaf">
+              <pc type="virgula">/</pc> Ad 
+              <lb ed="PV"/>habendum tamen varios mo<lb ed="PV"/>dos 
+              acceptionis huius vocabuli 
+            </p>
+            <p xml:id="ppr-l97-pcmfia">
+              <lb ed="PV"/>notandum quod sicut tactum est in alia 
+              <lb ed="PV"/>lectione fatuitas vulgi habet ori<lb ed="PV"/>ginem 
+              ex laesione potentiarum 
+              <lb ed="PV"/>scilicet rationalis concupiscibilis et irascibilis 
+              <lb ed="PV"/>natura rationalis habet primam veritatem 
+              <lb ed="PV"/>pro principali obiecto concupiscibilis 
+              <lb ed="PV"/>primam bonitatem irascibilis primam 
+              <lb ed="PV"/>excellentiam et potentiam suam 
+              <lb ed="PV"/>quae sunt in deo et illud cor<lb ed="PV"/>respondet 
+              tribus attributis 
+              <lb ed="PV"/>vel personis Sed ex laesione 
+              <lb ed="PV"/>primae potentiae scilicet rationalis prima veri<lb ed="PV"/>tas 
+              est occultata sicut saepe prius 
+              <lb ed="PV"/>dictum est concupiscibilis inclina<lb ed="PV"/>tur 
+              non ad summam sed ad ma<lb ed="PV"/>lum 
+              non sub ratione dico mali 
+              <lb ed="PV"/>irrascibilis non inclinatur 
+              <lb ed="PV"/>ad <unclear>suam</unclear> excellentiam sed ad 
+              <lb ed="PV"/>vilem volumptatem unde experientia 
+              <lb ed="PV"/>radice ignorando causas ef<lb ed="PV"/>fectuum 
+              <pc type="virgula">/</pc> resolvit se vulgus 
+              <lb ed="PV"/>ad latentem necessitatem et 
+              <lb ed="PV"/>hanc vocat fatum
+            </p>
+            <p xml:id="ppr-l97-secaei">
+              2o ex 
+              <lb ed="PV"/>corruptione huiusmodi virtutum prae<lb ed="PV"/>cise 
+              irascibilis et concupiscibilis convertitur 
+              <lb ed="PV"/>creatura ad colendum vicia Et 
+              <cb ed="PV" n="b"/>
+              <lb ed="PV"/>ex consequenti ad excusandas 
+              <lb ed="PV"/>excusationes in peccatis finxit 
+              <lb ed="PV"/>scienter necessitari homines <pc type="virgula">/</pc> ad vi<lb ed="PV"/>cia 
+              <pc type="virgula">/</pc> ut per hoc liberius pro respondet 
+              <lb ed="PV"/>in voluptates <pc type="virgula">/</pc> et alia obiecta illi<lb ed="PV"/>cita 
+              et ut etiam excusaretur ab 
+              <lb ed="PV"/>infama ratione compellentis 
+              <lb ed="PV"/>necessitatis <pc type="virgula">/</pc> Ita quod ex nequitia quoddam modo 
+              <lb ed="PV"/>deliberata potuit habere originem 
+              <lb ed="PV"/>istud vocabulum fatum 
+            </p>
+            <p xml:id="ppr-l97-tmevqm">
+              <pc type="virgula">/</pc> 3us 
+              <lb ed="PV"/>modus quod exigentibus deme<lb ed="PV"/>ritis 
+              creaturae deus promisit dia<lb ed="PV"/>bulum 
+              in forma sensibili 
+              <lb ed="PV"/>apparere <pc type="virgula">/</pc> et colloqui et parecise 
+              <lb ed="PV"/>in neccessitatibus hominum praedicendo prospe<lb ed="PV"/>ritates 
+              et adversitates futuras 
+              <lb ed="PV"/>ipsi nascenti noviter Istud 
+              <lb ed="PV"/>tangit <ref xml:id="ppr-l97-Rd1e234"><name ref="#WilliamOfParis">wilhelmus parysiensis</name> 
+              in libro <title ref="OnTheUniverse">de universo</title></ref> <quote xml:id="ppr-l97-Qd1e243"><!-- could be type paraphrase -->daemones 
+              <lb ed="PV"/>in forma mulierum vel virorum 
+              <lb ed="PV"/>possunt apparere et mentiri deno<lb ed="PV"/>viter 
+              nascentibus</quote>
+            </p>
+          </div>
+          <div xml:id="ppr-l97-Dd1e254">
+            <head xml:id="ppr-l97-Htmdtmd">Tres modos deceptionis</head>
+            <p xml:id="ppr-l97-univsn">
+              <pc type="virgula">/</pc> Nota quod apud 
+              <lb ed="PV"/>tale vulgus triplicia sunt 
+              <lb ed="PV"/>dicta <unclear>denovum</unclear> quaedam et illa non ne<lb ed="PV"/>cessario 
+              sunt ventura Et alia 
+              <lb ed="PV"/>nunciata tamquam ventura <pc type="virgula">/</pc> 
+              <lb ed="PV"/>simpliciter tangenda statum nascentis 
+              <lb ed="PV"/>et illa vocatur proprie fata <pc type="virgula">/</pc> 2m 
+              <lb ed="PV"/>istam acceptationem id est deorum vel dearum 
+              <lb ed="PV"/>decreta dicta <pc type="virgula">/</pc> et statuta <pc type="virgula">/</pc> et <unclear>sen?iata</unclear>
+              <lb ed="PV"/><unclear>irrationaliter</unclear> secundum <name>wilhelm parisiensis</name>
+              <lb ed="PV"/>ita quod daemones apparuerunt 
+              <lb ed="PV"/>in forma mulierum et <unclear>prae??cciant</unclear> 
+              <lb ed="PV"/>etc illae <unclear>pro?vca?ones</unclear> vocantur fata et 
+              <lb ed="PV"/>dicunt ista necessario futura 
+              <lb ed="PV"/>fore et ita est introducta a fulgo 
+              <lb ed="PV"/>dyabolo seducente <pc type="virgula">/</pc> vel dicitur fatum 
+              <lb ed="PV"/>a forma <pc type="virgula">/</pc> <unclear>art?</unclear> quia fata sunt 
+              <lb ed="PV"/>dicta deorum vel dearum <unclear>se?utia</unclear> 
+              <lb ed="PV"/>quid futurum sit nascenti pro 
+              <lb ed="PV"/>speritatis vel adversitatis 
+            </p>
+          </div>
+          <div xml:id="ppr-l97-Dd1e263">
+            <head xml:id="ppr-l97-Hrieire">Radix idolatriae</head>
+            <p xml:id="ppr-l97-eihiec">
+              In hoc
+              <pb ed="PV" n="180-v"/>
+              <cb ed="PV" n="a"/>
+              <lb ed="PV"/>fundatur una radix ydolatran<lb ed="PV"/>di 
+              Nam per hoc credit vulgus 
+              <lb ed="PV"/>daemones habere potestatem dandi pro<lb ed="PV"/>speritatem 
+              nascentibus vel adver<lb ed="PV"/>sitatem 
+              et per consequens resolvunt se 
+              <lb ed="PV"/>in eos tamquam in summos 
+              <lb ed="PV"/>rectores totius orbis per 
+              <lb ed="PV"/>consequens decepta rationalis concupiscibilis 
+              <lb ed="PV"/>amat et nascibilis exhibet cultum 
+            </p>
+            <p xml:id="ppr-l97-eehher">
+              <lb ed="PV"/>et fundatur prima <unclear>sibi</unclear> nephandae 
+              <lb ed="PV"/>ydolatriae qui habet decem species quas 
+              <lb ed="PV"/><ref xml:id="ppr-l97-Rd1e275"><name ref="#WilliamOfParis">wilhelmus parysiensis</name> tractat in 
+              <lb ed="PV"/>fine libri sui <title ref="OnFaithAndLaws">de fide et legibus</title></ref>
+              <lb ed="PV"/>prima species est cultus daemonum <pc type="virgula">/</pc> 2a 
+              <lb ed="PV"/>cultus stellarum <pc type="virgula">/</pc> 3a cultus 
+              <lb ed="PV"/>elementorum 4a cultus ydolorum <pc type="virgula">/</pc> 
+              <lb ed="PV"/>5ta cultus ymaginum fabri<lb ed="PV"/>catarum 
+              in certis constellationi<lb ed="PV"/>bus 
+              <lb ed="PV"/>Sexta est de adoratione figu<lb ed="PV"/>rarum 
+              <pc type="virgula">/</pc> 7ma consistit in verbis 8va 
+              <lb ed="PV"/>in temporibus nona in principiis 
+              <lb ed="PV"/>seu in <unclear>etiis</unclear> rerum <pc type="virgula">/</pc> decima in inven<lb ed="PV"/>tionibus 
+              rerum ut reperire ferrum 
+              <lb ed="PV"/>melius quam aurum <pc type="virgula">/</pc> et per ista 
+              <lb ed="PV"/>veniunt omnes quasi fatuitates 
+              <lb ed="PV"/>et <unclear>frustitiones</unclear> et rufae et sortile<lb ed="PV"/>gia 
+              vetularum <pc type="virgula">/</pc> de quibus forte 
+              <lb ed="PV"/>post reprobandae fiet declaratio 
+              <lb ed="PV"/>hoc si dictum de fato secundum modum 
+              <lb ed="PV"/>vulgarium 
+            </p>
+          </div>
+          <!-- fuzzy break and parallel-->
+          <div xml:id="ppr-l97-Dd1e293">
+            <head xml:id="ppr-l97-Hdcfdcf">De causa fati</head>
+            <p xml:id="ppr-l97-eqavan">
+              <pc type="virgula">/</pc> primo ergo capitur pro 
+              <lb ed="PV"/>quadam necessitate fit eveniendi 
+              <lb ed="PV"/>et non habet aliquid pro obiecto 
+              <lb ed="PV"/>non resolvunt se ad aliud 2o 
+              <lb ed="PV"/>est ad excusandum vitioque 
+              <lb ed="PV"/>In 3a vulgari <unclear>sermone</unclear> est dictum 
+              <lb ed="PV"/>divinali in necessitate primi de futuro 
+              <lb ed="PV"/>prosperitate vel adversitate nascentis
+            </p>
+          </div>
+          <div xml:id="ppr-l97-Dd1e302">
+            <head xml:id="ppr-l97-Hoeieif">opinio errans iulii firmici</head>
+            <p xml:id="ppr-l97-saorep">
+              <lb ed="PV"/><pc type="virgula">//</pc> Sed alia opinio philosophorum etiam 
+              <lb ed="PV"/>errantium in ista materia prima 
+              <lb ed="PV"/>opinio <ref xml:id="ppr-l97-Rd1e311"><name ref="#JuliusFirmicus">iulii firmia</name> in prologo 
+              <lb ed="PV"/><title ref="#AstrologyFirmicus">astrologiae</title> suae</ref> ubi expresse tenet 
+              <cb ed="PV" n="b"/>
+              <lb ed="PV"/>quod fatum sit concathenatio 
+              <lb ed="PV"/>causarum superiorum et corporum 
+              <lb ed="PV"/>caelestium omnino necessitans et 
+              <lb ed="PV"/>necessario faciens evenire quidquid 
+              <lb ed="PV"/>futurum est <pc type="virgula">/</pc>
+              <!--- left off -->
+              
+              omnium causarum superiorum 
+              necessitans et necessario faciens evenire quidquid futurum 
+              est. et inevitabiliter, et ad probandum errorem suum inducit 
+              exempla plurima quorum Radix stat in hoc quod innocentes 
+              puniuntur et male moriuntur et pessimi 
+              prosperantur igitur resolvendum est ad fatum necessitas quod nihil est 
+              nisi dispositio corporum caelestium quae est causa respectu effectuum producibilium.
+            </p>
+            <p xml:id="ppr-l97-epppfi">
+              Et primo ponit exemplum de <name ref="#Socrates">Socrate</name> qui licet esset innocens 
+              mala morte fato periit, et <name ref="#Plato">Plato</name> fato captus est 
+              a tyranno, et <name ref="Pythagoras">pitagoras</name> exilium passus est, et <name ref="#Pompey">pompeius</name> 
+              iustus perdidit imperium <name>Romanum</name> et occisus est, et 
+              tyrannus malus obtinuit  et haec allegat 
+              <cit>
+                <ref xml:id="ppr-l97-Rd1e345" target="http://scta.info/resource/hy7y6y-d1e75">
+                  <name ref="#Boethius">Boethius</name> IVo 
+                  <title ref="#Consolation">de consolatione</title>
+                </ref>
+                <bibl>
+                  XXX
+                </bibl>
+              </cit> 
+              introducendo lucanum, 
+              et quod causa 
+              <name ref="#JuliusCaesar">Caesaris</name> 
+              placuit diis, 
+              et ut dicit 
+              <cit>
+                <ref xml:id="ppr-l97-Rd1e363"><name ref="#Lactantius">Lactantius</name></ref>
+                <bibl>XXX</bibl>
+              </cit>, 
+              <name ref="#Pompey">Pompeius</name> pro iustitia certabat, 
+              et fato <name ref="#JuliusCaesar">Caesar</name> obtinuit. 
+              Unde dicit praefatus <name ref="#JuliusCaesar">Iulius</name> 
+              in hiis verbis credamus itaque fide veritatis oppresse et 
+              confiteamur vere rationis secum[?] iudicium nihil in nostra potestate, 
+              sed totum positum in potestate fatorum, 
+              et quidquid patitur vel prosperatur fortunae imponitur.
+            </p>
+            <p xml:id="ppr-l97-sioebe">
+              Sed ista positio nedum est contra fidem 
+              sed etiam contra moralem philosophiam et contra mores et contra veram 
+              theologiam resolvendo se ad veritatem ut deducetur. 
+              Sed ad rationem quam tangit sub istis verbis quid agis 
+              de rogas fato et stellarum vim obstinante animositate 
+              contempnis cum vides malorum exitu bonos esse.
+            </p>
+          </div>
+          <div xml:id="ppr-l97-Dd1e385">
+            <head xml:id="ppr-l97-Hoeaerb">Omnia eveniunt a casu vel ex necessitate et responsio Boethius</head>
+            <p xml:id="ppr-l97-iertim">
+              Ista 
+              ratio nihil valet licet esset impertinens ad theologiam et 
+              philosophiam et quia ista ratio movit antiquos, scilicet, quod omnia 
+              eveniunt a casu vel ex necessitate sed illud non valet et 
+              maxime quia experimur libertatem in nobis unde in libertate 
+              nostra est levare vestucam[?].
+            </p>
+            <p xml:id="ppr-l97-eirilp">
+              Et ideo respondet <name ref="#Boethius">Boecius</name> in loco praeallegato.
+            </p>
+            <p xml:id="ppr-l97-prepvn">
+              Prima responsio est infirmitas nostrae cognitionis 
+              quae est tanta quod et non cognoscamus interiora hominum 
+              quia credimus aliquos malos esse qui tamen boni sunt 
+              et econverso. ideo apud nos est difficile iudicare utrum boni 
+              patiantur vel non.
+            </p>
+            <p xml:id="ppr-l97-srqivr">
+              Secunda responsio quod Deus qui est sapientissimus 
+              et optimus medicus animarum ut habetur 
+              <ref xml:id="ppr-l97-Rd1e404" corresp="#l97-Qqsovit">
+                in 
+                <title ref="#ps">Psalmo</title>
+              </ref>,
+              <cit>
+                <quote xml:id="ppr-l97-Qqsovit" source="http://scta.info/resource/ps102_3">
+                  qui sanat omnes iniquitates vel infirmitates tuas
+                </quote>
+              </cit>, 
+              et alibi  
+              <cit>
+                <quote xml:id="ppr-l97-Qqsiipm" source="http://scta.info/resource/is43_25">
+                  qui sanat iniquitates propter me
+                </quote>
+              </cit>. 
+              Et ideo ut sanemur 
+              Deus applicat diversa pro regimine sanitatis nostrae. 
+              Et infirmis diversa medicamenta pro cura habenda 
+              propinquat, et haec habet facere  peritus medicus, quia 
+              cum sanitate stat varietas <unclear>complationum</unclear>, 
+              igitur varietas regiminis.
+            </p>
+            <p xml:id="ppr-l97-icimia">
+              Item cum infirmitate stat varietas <unclear>complatonum</unclear>, 
+              et ita deus cognoscit dispositionem creaturarum rationalium 
+              <pb ed="#SV" n="316-v"/>
+              <cb ed="#SV" n="a"/>
+              et videt quibusdam bonis bonum esse habere adversitatem 
+              licet eam lateat nos ut causa Regiminis sanitatis latet 
+              in multis peritis et in ignorantibus medicinam, et ita 
+              imaginandum est quod deus stit pro bonis expedit prosperitas 
+              temporalis aliquando et diversitas aliquando et ideo ipse Resolvit 
+              ad nostram ignorantiam et ad divinam sapientiam quod bonis 
+              evenit prosperitas vel adversitas et malis etiam nam 
+              ex defectu contingit quod nescimus quare hunc ditat, et 
+              alium forte meliorem deicit et privat bonis temporalibus 
+              quia ignoramus illam artem altissimam divinae sapientiae 
+              et illud apparet in exemplo de medico, iam allegato.
+            </p>
+            <p xml:id="ppr-l97-tsqqve">
+              Tertia solutio quod virtuosis quando dat temporalia propter pusillanimitatem 
+              quae non est vitium ratione cuius adveniente adversitate quis 
+              corresponderet a statu virtutis et ideo deus tali confert 
+              bona temporalia quod ita contingat nomen est quia credidit 
+              diabolus de <name ref="#Job">Iob</name> quod sublatis bonis temporalibus se dampnaret 
+              cui concordat <name ref="#Paul">Apostolus</name> dicens 
+              <cit>
+                <quote xml:id="ppr-l97-Qd1e447" source="http://scta.info/resource/Icor10_13">
+                  fidelis Deus qui non 
+                  patietur vos temptari <sic>supra illud</sic> quod potestis
+                </quote></cit>, 
+              et 
+              sic sapientissime Deus ordinat.
+            </p>
+            <p xml:id="ppr-l97-qcstct">
+              Quarta solutio quia quid 
+              possunt esse in contemplatione dei et deus vult auferre 
+              impedimentum contemplationis ut paupertatem et aegritudinem 
+              et ideo sanitatem corporis et divitias talibus 
+              tribuit.
+            </p>
+            <p xml:id="ppr-l97-qcqdbt">
+              Quinta causa seu quinta solutio ut boni possint domare 
+              malos et punire et subiugare, et sic deus exaltavit 
+              <name ref="#David">David</name> et fecit eum regem ut malitiae <name ref="#Saul">Saulis</name> 
+              resisteret et populum in manu potenti regeret puniendo malos et sic deus notabiliter dat bonis 
+              bona temporalia.
+            </p> 
+          </div>
+          <div xml:id="ppr-l97-Dd1e468">
+            <head xml:id="ppr-l97-Hdmadma">De mala</head>
+            <div xml:id="ppr-l97-Dd1e473">
+              <head xml:id="ppr-l97-Hqbmcsb">Quare bonis mala contingant secundum Boethium</head>
+              <p xml:id="ppr-l97-sqbcbr">
+                Sed quare bonis mala contingant 
+                <name ref="#Boethius">Boetius</name> respondet.
+              </p>
+              <p xml:id="ppr-l97-pnpsmp">
+                Primo ne propter bonitatem et excellentiam 
+                cadant in superbiam ut de <name ref="#Paul">Paulo</name> qui habuit 
+                angelum <name ref="Satan">Satanae</name> et temptationem de peccato carnis 
+                intensissimam, ideo 
+                <cit>
+                  <quote xml:id="ppr-l97-Qd1e494" source="http://scta.info/resource/IIcor12_7">
+                    ne magnitudo revelationum me extollat 
+                    datus est mihi stimulus carnis et angelus 
+                    <name ref="#Satan">Satanae</name> qui me colaphizet
+                  </quote>
+                </cit>, 
+                et ideo, 
+                licet <name ref="#Paul">Paulus</name> 
+                esset magnae perfectionis, 
+                data est ei adversitas <!-- reims looks like it has datae, but otherwitnesses support "data" --> 
+                ne esset in superbia deiectus.
+              </p>
+              <p xml:id="ppr-l97-sdalee">
+                Secundo Deus aufert bona 
+                temporalia virtuosus[?] ne ex divitiis exeant in excessum 
+                vel superbiam vel luxuriam.
+              </p>
+              <p xml:id="ppr-l97-tefivp">
+                Tertio ut fieret 
+                in eis virtus vel ut ipsa augeatur, ut de <name ref="#Job">Iob</name> qui 
+                erat virtuosus et tamen sublata sunt ei omnia bona 
+                temporalia, et de <name>thobia</name> qui poenam habuit longam in 
+                necessitate et miseria in qua profecit in virtute patientiae.
+              </p>
+              <p xml:id="ppr-l97-qaranc">
+                Quarto ad reprimendum praesumptionem contingit 
+                namque quod deus nedum mala poenalia sed etiam deus 
+                permittit corruere in peccatum quod de terminis est, 
+                ut de <name ref="#Peter">Petro</name> 
+                qui de se ipso praesumens 
+                quod nullo modo christum relinqueret 
+                cum dicebat. 
+                Et si oporteat me mori 
+                tecum non te negabo, nam sperans in constantiam suae fragilitatis 
+                permissus est corruere in peccatum cum ad vocem 
+                ancillae negavit christum.
+              </p>
+              <p xml:id="ppr-l97-qpdptp">
+                Quinto permisit deus beatos 
+                pati ut virtus magnificaretur et gloriosum nomen 
+                acquirerent in hac vita quod factum est in martyribus 
+                <cb ed="#SV" n="316vb"/>qui nullo modo a vera constantia et virtute fidei 
+                potuerunt separari nam mors haec non potuit 
+                licet terribilissimum et horribilissimum omni, et adhuc 
+                Reperitur in gentilibus ut in <name>marco</name> Regula et 
+                <name>iustino</name> et de illo qui tenebat magum. nam alius 
+                volens interficere non poterat percutere nisi prius tenentem 
+                percuteret.
+              </p>
+            </div>
+            <div xml:id="ppr-l97-Dd1e538">
+              <head xml:id="ppr-l97-Hqbcass">Quod bonum contingat malis pertinent ad summam sapientiam</head>
+              <p xml:id="ppr-l97-sqmemu">
+                Sed quod malis male contingant 
+                nullus miratur, sed quod bonum contingat malis 
+                hoc pertinet ad summam sapientiam ex multiplici 
+                utilitate.
+              </p>
+              <p xml:id="ppr-l97-pqqsbt">
+                Primo, 
+                quia quantum ad affluentiam temporalium 
+                est argumentum evidens quod bona temporalia sunt contempnanda 
+                et in eis non est felicitas, quia mali non 
+                sunt felices inhaerendo sicut bonis temporalibus.
+              </p>
+              <p xml:id="ppr-l97-spdeam">
+                Secundo, 
+                permisit deus ex sua divina providentia ne tales 
+                prorumpant in deteriora scelera et ne efficiantur deteriores 
+                quia per privationem bonorum tales prorumperent 
+                in homicidia furta et alia mala.
+              </p>
+              <p xml:id="ppr-l97-tqhacb">
+                Tertio, 
+                quia 
+                habendancia[?] bonorum potest esse occasio virtuose uniendi. 
+                primo ex gratificatione divinae beneficientiae quia 
+                consideratis suas conscientias malas et dei bonitatem 
+                pro vocantur fortissime ad dei amorem ut exemplum 
+                ponit <name ref="#WilliamOfParis">guillelmus parisiensis</name> de uno qui fuerat pessime 
+                vitae, et fuit electus in epistolam considerans eius 
+                malam vitam et dei beneficientiam fuit perfectissimus 
+                homo qui Relinquens totum elegit vitam solitaria. 
+                etiam ex timore administrationis et divinae bonitatis 
+                praeservat se a peccato et per accidens contingit bonum.
+              </p>
+              <p xml:id="ppr-l97-qdmcap">
+                Quarto, 
+                datur malis affluentia bonorum in eorum poenam 
+                quia possunt esse tantae malitiae quod digni sunt relinqui 
+                a deo et habentes tantas divitias 
+                intrant de peccato in peccatum ut divitiae et priora 
+                peccata fuit causae aliorum peccatorum.
+              </p>
+              <p xml:id="ppr-l97-udelne">
+                Ultimo datur 
+                eis affluentia beatorum, quia propter exercitium bonorum 
+                datur malis potentia, quia si non fuisset seiucia[?] 
+                imperatorum non fuissent tot martyres quot sunt 
+                et ideo profuit eorum potentia licet non eis.
+              </p>
+            </div>
+            <div xml:id="ppr-l97-Dd1e566">
+              <head xml:id="ppr-l97-Hcbpcbp">Cur boni patiuntur</head>
+              <p xml:id="ppr-l97-qapemp">
+                Quantum 
+                tamen ad passionem beatorum, scilicet quod boni et virtuosi 
+                patiantur et turbantur 
+                <name ref="#WilliamOfParis">Guillelmus Parisiensis</name> assignat 
+                aliquas causa discurrendo per singula mala 
+                poenalia et dicit quod dolor est bona memorativa 
+                rationis contra sensum quia per dolorem vehementem anima 
+                purgatur a voluntatibus. et sic de singulis discurrendo. 
+                Ex quo patet quod deus non laedit bonos quando dat 
+                eis mala poenalia quia sunt quoddam modo bona 
+                spiritualia et medicinae purgativae.
+              </p>
+            </div>
+            <div xml:id="ppr-l97-Dd1e578">
+              <head xml:id="ppr-l97-Hrmsrms">Responsio magis speculative</head>
+              <p xml:id="ppr-l97-nirsad">
+                Nihilominus istae 
+                rationes sunt ad satisfaciendum hominibus. 
+                Et ideo respondetur magis speculative, 
+                et resolutio stat ad duo.
+              </p>
+              <p xml:id="ppr-l97-peqocr">
+                Primum est quod iudicium nostrum est infirmum 
+                in cogitando altitudinem dei et Regnis ipsius 
+                circa universum. ideo standum est fide quae data est 
+                nobis ad medelam quando intellectus est infirmus 
+                <cb ed="#SV" n="317-r"/>
+                <cb ed="#SV" n="a"/>
+                et non potest cognoscere quia fides nobis praedicat 
+                quod deus est optimus, et ideo habemus concedere quod quidquid 
+                ab eo fit bene fit et singula optime regit, licet 
+                nesciamus ostendere causas regiminis.
+              </p> 
+              <p xml:id="ppr-l97-acebos">
+                Alia causa est quod 
+                bonitas ordinis rerum non est prior obiective divina 
+                providentia, 
+                sed est omnino posterior. unde deus suam providentiam 
+                non habet ad intra ex Repraesentatione bonitatis 
+                ordinis Rerum in se, sed prius deus voluit 
+                et disponit Res sic ordinari et sic sequitur quod bene 
+                ordinantur et ad nullam aliam radicem debemus[?] 
+                resolvi bonitas ordinis rerum. unde quod terra sit 
+                in centro mundi, et ignis in concavo orbis lunae 
+                et duo elementa media sic disposita ex eo non 
+                denominatur ordinatio Rerum bona, sed ordinatio 
+                Rerum sortitur suam bonitatem a divina ordinatione. 
+                Unde si terra esset in concavo orbis lunae et ignis 
+                in centro ubi terra est tunc res essent aeque bene ordinatae 
+                sicut nunc sunt, quia eo ipso quod deus vult 
+                sic res ordinari, eo ipso ordinatio est bona 
+                nisi forte quo ad nostrum modum considerandi, quia 
+                non apparet nobis bene ordinari sic.
+              </p>
+              <p xml:id="ppr-l97-eictes">
+                Et ideo consequenter 
+                dato quod deus puniret bonos et innocentes 
+                et non propter aliud bonum consequendus nihilominus iustificatione 
+                faceret, et aequae iustae ac si salvaret eos 
+                quia bonitas Rerum debet Resolvi ad providentem 
+                a cuius iudicio ordo Rerum dependet et ordinatur 
+                et disponitur, et ideo non oportet nisi recurrere ad 
+                hoc quod ratione suae immensitatis sic providet 
+                et licet iste modus deinde sit vulgarum tamen est 
+                subtilissimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
