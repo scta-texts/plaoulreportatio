@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 100, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 100, De libertate [Palantine Transcription]</title>
+          <date when="2021-01-12">January 12, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-01-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="186-r"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio100">
+        <head xml:id="ppr-l100-Hldlldl">Lectio 100, de Libertate</head>
+        <div xml:id="ppr-l100-Dd1e109">
+          <head xml:id="ppr-l100-Hccpccp">Circa corruptelam peccati</head>
+          <p xml:id="ppr-l100-apmitd">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>Antequam prosequar materiam 
+            <lb ed="#PV"/>de ludificationibus daemonum insistam 
+            <lb ed="#PV"/>circa corruptelam peccati quae est ra<lb ed="#PV"/>dix 
+            omnium haeresum et errorum 
+            <lb ed="#PV"/>praeter rationes tactas
+          </p> 
+          <div xml:id="ppr-l100-Dd1e117">
+            <head xml:id="ppr-l100-Hrqeepc">Rationes quod errores mores ac malas cogitationes ex peccati corruptela</head>
+            <div xml:id="ppr-l100-Dd1e122">
+            <head xml:id="ppr-l100-Hpropro">Prima ratio</head>
+              <p xml:id="ppr-l100-eiapep">
+                Arguitur 
+                <lb ed="#PV"/>primo auctoritate scripturae ubi dicitur 
+                <lb ed="#PV"/>corpus quod corrumpitur aggra<lb ed="#PV"/>vat 
+                animam et deprimit sensum multa 
+                <lb ed="#PV"/>cogitantem per corpus <unclear>intellecti</unclear> 
+                <lb ed="#PV"/>corpus infectum unde proportionaliter 
+                <lb ed="#PV"/>ad quantitates corporum qualitates 
+                <lb ed="#PV"/>animae movent et operantur <ref xml:id="ppr-l100-Rzdv3e3" corresp="#ppr-l100-Qa3ve3e"><name ref="#Augustine">Augustinus</name></ref> 
+                <lb ed="#PV"/><quote xml:id="ppr-l100-Qa3ve3e" source="http://scta.info/resource/aconf-l13-d1e150" synch="161-164">amor meus pondus meum</quote>
+                <lb ed="#PV"/>ymaginandum scitu levitas movet 
+                <lb ed="#PV"/>mobile cui inhaeret et gravitas 
+                <lb ed="#PV"/>deorsum ita proportionaliter caritas mo<lb ed="#PV"/>vet 
+                sursum in deum cupiditas 
+                <lb ed="#PV"/>quae est correuptela aggravat animam 
+                <lb ed="#PV"/>quia de directo inclinat ad contrarium 
+                <lb ed="#PV"/>finem ad quem caritas
+              </p>
+            </div>
+            <div xml:id="ppr-l100-Dd1e146">
+              <head xml:id="ppr-l100-Hsrosro">Secunda ratio</head>
+              <p xml:id="ppr-l100-saeoli">
+                2o ex yma<lb ed="#PV"/>ginatione 
+                doctorum quod anima rationalis 
+                <lb ed="#PV"/>creata est in <sic>orizante</sic> <unclear>dimi?dere</unclear> 
+                <lb ed="#PV"/>regionem lucis a regione tene<lb ed="#PV"/>brarum 
+                et virtutes tam mora<lb ed="#PV"/>les 
+                quam gratuite move ut 
+                <lb ed="#PV"/>eam ad <sic>emisperium</sic> superius ad 
+                <lb ed="#PV"/>regionem lucis in qua in statu 
+                <lb ed="#PV"/>innocentiae semper movisisset 
+                <lb ed="#PV"/>sed cupiditas et corruptela movet 
+                <lb ed="#PV"/>ad regionem tenebrarum inferius 
+                <lb ed="#PV"/>et quantum ad luminem cognoscendi 
+                <lb ed="#PV"/>veritatem obtenebratur rationalis seu lumen
+                <pb ed="#PV" n="186-v"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/><unclear>intelligentiae</unclear> ita de aliis viribus suo modo
+              </p>
+            </div>
+            <div xml:id="ppr-l100-Dd1e158">
+              <head xml:id="ppr-l100-Htrotro">Tertia ratio</head>
+              <p xml:id="ppr-l100-taaefc">
+                <lb ed="#PV"/><sic>2o</sic> arguitur auctoritate <name ref="#Paul"><sic>appostoli</sic></name> quia <quote xml:id="ppr-l100-Qd1e168" source="http://scta.info/resource/IIcor3_5">nihil est 
+                <lb ed="#PV"/>nobis tamquam ex nobis</quote> et loquitur de co<lb ed="#PV"/>gitare 
+                <del rend="strikethrough">etc</del> et sic intelligitur de rationali quantum 
+                <lb ed="#PV"/>ad veritates perficientes intellectum et quod 
+                <lb ed="#PV"/>non sufficientibus ex nobis propter corruptela igitur 
+                <lb ed="#PV"/>omnia sibi derelicta per cupiditatem de 
+                <lb ed="#PV"/><unclear>praementem</unclear> tendit in errores et non 
+                <lb ed="#PV"/>sufficit assensive in veritates sui fe<lb ed="#PV"/>licitati 
+                pertinentes <name ref="#Augustine">Augustinus</name> contra <name ref="#Julian">iulianum</name> 
+                <lb ed="#PV"/>et <name ref="#Pelagius">pellagium</name> 
+              </p>
+              <!-- fuzzy parallel -->
+              <p xml:id="ppr-l100-echded">
+                de isto plures scripsit 
+                <lb ed="#PV"/>de pluribus locis quia seclusa 
+                <lb ed="#PV"/>caritate nec anima sufficit ad <unclear>dicta<lb ed="#PV"/>mini</unclear> 
+                <unclear>pc?te</unclear> nec voluntas ad ef<lb ed="#PV"/>fectum 
+                Et deficit semper quantum 
+                <lb ed="#PV"/>ad electionem finis ita quod omnis vo<lb ed="#PV"/>litio 
+                et electio sine caritate est 
+                <lb ed="#PV"/>realiter peccatum
+              </p>
+            </div>
+            <div xml:id="ppr-l100-Dd1e207">
+              <head xml:id="ppr-l100-Hqroqro">Quarta ratio</head>
+              <p xml:id="ppr-l100-qaapvs">
+                Quarto arguitur 
+                <lb ed="#PV"/>auctoritate <ref xml:id="ppr-l100-Rd1e216" target="http://scta.info/resource/aristneth-l1"><name ref="#Aristotle">aristotelis</name> in primo <title ref="#Ethics">ethycorum</title></ref>
+                <lb ed="#PV"/>qui licet sub terminis nostris 
+                <lb ed="#PV"/>ponit tamen aequaliter quod in nobis 
+                <lb ed="#PV"/>est aliquid quod adversatur rationi ymaginatio 
+                <lb ed="#PV"/>eius est idem quod realiter quaedam 
+                <lb ed="#PV"/>infirmitas naturaliter in existens 
+                <lb ed="#PV"/>et in natura cuius cura est per virtutes 
+                <lb ed="#PV"/>et curatur per veritates in tanto 
+                <lb ed="#PV"/>quod sensitiva obedit rationi ideo 
+                <lb ed="#PV"/>quantum ad <unclear>sententiam</unclear> ipse ratione conci<lb ed="#PV"/>dit 
+                nobiscum
+              </p>
+              <p xml:id="ppr-l100-eceppi">
+                Confirmatur 
+                <lb ed="#PV"/>ex dictis <ref xml:id="ppr-l100-Rd1e234"><name ref="#Cicero">tulii</name> in libro <title ref="#TuscanDisputations">de tusqullanis 
+                <lb ed="#PV"/>quaestionibus</title></ref> ubi expresse ponit 
+                <lb ed="#PV"/>quod licet a nativitate natura de se sit 
+                <lb ed="#PV"/>recta tamen contrariae pravis opinionibus 
+                <lb ed="#PV"/>et erroribus <unclear>inbuitur</unclear> anima et in<lb ed="#PV"/>evitabiliter 
+                Ideo circa hoc consequenter 
+                <lb ed="#PV"/>dicit evitandas fabulas poeticas 
+                <lb ed="#PV"/>et esse multum periculosas Iuvenibus 
+                <lb ed="#PV"/>ymmo dicit eas <unclear>esse</unclear> pellendas 
+                <lb ed="#PV"/>a civitate et credo quod intelligitur de illis 
+                <lb ed="#PV"/>qui sunt quasi ioculationes
+              </p>
+            </div>
+            <div xml:id="ppr-l100-Dd1e253">
+              <head xml:id="ppr-l100-Hqnrqnr">Quinta ratio</head>
+              <p xml:id="ppr-l100-qaalsp">
+                <lb ed="#PV"/>Quinto arguitur auctoritate <name>platonis</name> 2m 
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>quod recitat <ref xml:id="ppr-l100-Rd1e262"><name ref="#Macrobius">macrobius</name> in exposi<lb ed="#PV"/>tione 
+                <title>sompni scipionis</title></ref> qui po<lb ed="#PV"/>nit 
+                quod anima dum coniungitur corpori 
+                <lb ed="#PV"/>moritur non <unclear>quid</unclear> quod desinat esse 
+                <lb ed="#PV"/>sed moritur per privationem vitalium 
+                <lb ed="#PV"/>operationum suarum sic quod laeditur 
+                <lb ed="#PV"/>et quia anima coniuncta corpori in 
+                <lb ed="#PV"/>disponitur ad veritatis cognitionem 
+                <lb ed="#PV"/>et contemplationem et inclinatur 
+                <lb ed="#PV"/>ad falsitatem <unclear>vocaverunt</unclear> eam mortuam 
+                <lb ed="#PV"/>et corpus <unclear>vocaverunt</unclear> sepulcrum 
+                <lb ed="#PV"/>animae Et antiquiores vocaverunt 
+                <lb ed="#PV"/>corpus infernum animae et sic non 
+                <lb ed="#PV"/>solum sacra scriptura concedit corruptela 
+                <lb ed="#PV"/>in anima sed etiam philosophi secundum quod reci<lb ed="#PV"/>tat 
+                <name ref="#Macrobius">macrobius</name> anima ex incorruptione 
+                <lb ed="#PV"/>cum corpore <seg type="correction">in<del rend="strikethrough">l</del>ebriatur</seg> laetheo 
+                <lb ed="#PV"/>fluvio et infernati per cuius po<lb ed="#PV"/>tantionem 
+                obliviscitur et redditur 
+                <lb ed="#PV"/>inhabilis ad cognitionem sui fi<lb ed="#PV"/>nis 
+                et melior per <unclear>quae <!-- quem? --></unclear> deveniendum
+                <lb ed="#PV"/>est in <unclear>illo</unclear> Et consequenter 
+                <lb ed="#PV"/>ponit fluvios infernales 
+                <lb ed="#PV"/>realiter laedentes animam 2m 
+                <lb ed="#PV"/>omnes eius potentias 
+              </p>
+            </div>
+            <div xml:id="ppr-l100-Dd1e277">
+              <head xml:id="ppr-l100-Hsxrsxr">Sexta ratio</head>
+              <p xml:id="ppr-l100-seuepo">
+                ultimo 
+                <lb ed="#PV"/>arguitur <sic>experigentia</sic>
+              </p>
+              <!-- fuzzy parallels -->
+              <p xml:id="ppr-l100-sedrae">
+                nam quilibet 
+                <lb ed="#PV"/>experitur pravas inclinationes et de<lb ed="#PV"/>privationes 
+                intellectus intantum quod doctrina 
+                <lb ed="#PV"/>est difficilis puris a principio 
+                <lb ed="#PV"/>ideo verberibus et terroribus vio<lb ed="#PV"/>lente 
+                introducuntur 
+              </p>
+              <!-- fuzzy parallels -->
+              <p xml:id="ppr-l100-tedehn">
+                Item ex 
+                <lb ed="#PV"/>alia parte experimur de factus naturales 
+                <lb ed="#PV"/>et morales inhumana specie plus 
+                <lb ed="#PV"/>quam in aliis proportionaliter nam 
+                <lb ed="#PV"/>alia animata stanti natura vitam 
+                <lb ed="#PV"/>aeternam sibi procurant et habent mo<lb ed="#PV"/>tum 
+                progressivum et homo non 
+                <lb ed="#PV"/>habet 
+              </p>
+              <!-- fuzzy parallels -->
+              <p xml:id="ppr-l100-iihaid">
+                et habet prudentiam sufficientem 
+                <lb ed="#PV"/>pro vita conservanda et homo 
+                <pb ed="#PV" n="187-r"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>non aequalem bestiis ymmo forte 
+                <lb ed="#PV"/>minorem et praecipue per consuetudinem 
+                <lb ed="#PV"/>ut si inter bestiales homines 
+                <lb ed="#PV"/>nutriretur <ref xml:id="ppr-l100-Rd1e295"><name>aristoteles</name> in politicis</ref> homo sine 
+                <lb ed="#PV"/>virtutibus est <unclear>animalis<!-- alias--></unclear> sceleratissimum et 
+                <lb ed="#PV"/>pessimum et sic patet quod natura humana 
+                <lb ed="#PV"/>sibi derelicta tendit in materia 
+                <lb ed="#PV"/>et figura
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l100-Dd1e314">
+            <head xml:id="ppr-l100-Hormorm">Opinio Rabbi Moyses</head>
+            <p xml:id="ppr-l100-eirsho">
+              Ex istis radicibus sequitur 
+              <lb ed="#PV"/>probatas et verisimilitudo illius con<lb ed="#PV"/>ditio 
+              dicit <ref xml:id="ppr-l100-Rd1e323"><name ref="#Maimonides">Rabi moyses</name> in 
+              <lb ed="#PV"/>3o libro <title ref="#GuideForThePerplexed">de duce dubiorum</title></ref> de gente 
+              <lb ed="#PV"/><unclear>iusedin</unclear> quae est gens sabeorum 
+              <lb ed="#PV"/>credente deum esse puram 
+              <lb ed="#PV"/>creaturam Ita quod caelum vel 
+              <lb ed="#PV"/>ignem potest esse deum et idem dicit 
+              <lb ed="#PV"/>aliqua quae viderentur esse incre<lb ed="#PV"/>dibilia 
+              unde illa gens duxit 
+              <lb ed="#PV"/><name>Adam</name> esse prophetam lunae et colen<lb ed="#PV"/>tem 
+              lunam deum de terra promissionis
+              <lb ed="#PV"/>veniens attulit secum arborem 
+              <lb ed="#PV"/>dicit ibidem ydolatriam ymaginum 
+              <lb ed="#PV"/>derivationem et sacrilegii habere 
+              <lb ed="#PV"/>originem
+            </p>
+            <p xml:id="ppr-l100-ssqmis">
+              Ex hiis sequitur quod diffi<lb ed="#PV"/>cultas 
+              resistendi diabulo 
+              <lb ed="#PV"/>non iritur ex magnitudine potentiae 
+              <lb ed="#PV"/>diaboli sed ex <sic>pernitate</sic> resistentiae 
+              <lb ed="#PV"/>nam tanta est pronitas humanae <add place="margin-right">naturae ad malum quod minus impulsus 
+                sufficit</add>
+            </p>
+            <p xml:id="ppr-l100-tscmie">
+              <add place="margin-right"><!-- this is part of the same "addition" above --><sic>2o</sic> sequitur contra impugnantes <name>brawardinus</name> 
+              dicit quod ydolatriae adorabant</add>
+              <lb ed="#PV"/>tamquam deum reum corporalem scilicet la<lb ed="#PV"/>pidem 
+              quia tanta potest esse mentis 
+              <lb ed="#PV"/><unclear>depresso</unclear> quod rem inferiorem 
+              <lb ed="#PV"/>se adorem tamquam deum quia 
+              <lb ed="#PV"/>corruptela peccati monet in talia
+            </p>
+            <p xml:id="ppr-l100-qspouc">
+              Sequitur 
+              <lb ed="#PV"/>satis esse probabile amarum diligere de<lb ed="#PV"/>narii 
+              formam et eius habitudinem 
+              <lb ed="#PV"/>absque relatione in aliud unde 
+              <lb ed="#PV"/>2am ordinationem politicam et insti<lb ed="#PV"/>tutus 
+              ad usum commutationem 
+              <lb ed="#PV"/>et procurationem necessariorum 
+              <lb ed="#PV"/>modo contingit de lyrare sic 
+              <lb ed="#PV"/>quod diligat etc ut aliqui sunt 
+              <lb ed="#PV"/>licet habundant denariis non tamen 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>usu patet dictum <name>apostoli</name> quod avaritia est 
+              <lb ed="#PV"/><quote source="http://scta.info/resource/gal5_20" synch="1-2">ydolorum servitus</quote> scilicet quod <unclear>intanto</unclear> etc
+              <lb ed="#PV"/>quod prostituat sibi <unclear>diviciabri</unclear>
+            </p>
+            <p xml:id="ppr-l100-qspscc">
+              Sequitur 
+              <lb ed="#PV"/>ulterius possibilitas ad orationis ignis 
+              <lb ed="#PV"/>per <name ref="#Chaldeans">caldeos</name> unde de <name ref="#Abraham">abraham</name> 
+              <lb ed="#PV"/><unclear>le?tur</unclear> quod deus liberavit eum de vi cal<lb ed="#PV"/>deorum 
+              ubi notatur quod <name>abraham</name>
+              <lb ed="#PV"/>natus est in caldea et ibi cole<lb ed="#PV"/>bantur 
+              ignis tamquam deus sed quia 
+              <lb ed="#PV"/>reproat et dixit differentiam esse inter 
+              <lb ed="#PV"/>agens principale et instrumentum positus 
+              <lb ed="#PV"/>fuit in ignem sed deus <unclear>liberavit</unclear> eum 
+              <lb ed="#PV"/><name>hesdras</name> <name>neimer</name> 9no capitulo <quote xml:id="ppr-l100-Qd1e385" source="http://scta.info/resource/neh9_7" synch="1-13">Tu 
+              <lb ed="#PV"/>domine qui liberasti <name>abraham</name> de <unclear>vr<!-- bible verse has "igne"--></unclear>
+              <lb ed="#PV"/>caldorum</quote> Confirmatur <ref>sapientiae 
+              <lb ed="#PV"/>13o capitulo</ref> <quote xml:id="ppr-l100-Qd1e394" source="http://scta.info/resource/sap13_1 http://scta.info/resource/sap13_2">neque operibus adtendentes 
+              <lb ed="#PV"/>cognoverunt quis esset artifex 
+              <lb ed="#PV"/><sic>si</sic> ante ignem aut <unclear>speciem</unclear> aut <unclear>gurum</unclear> 
+              <lb ed="#PV"/><unclear><sic>g</sic>ellarum</unclear></quote> etc Et sic scriptura satis 
+              <lb ed="#PV"/>testatur quod etiam ultimate creaturam 
+              <lb ed="#PV"/>pro deo <unclear>coluerunt</unclear>
+            </p>
+          </div>
+          <div xml:id="ppr-l100-Dd1e400">
+            <head xml:id="ppr-l100-Hocecer">Obiecto <unclear>caldaeis</unclear> et responsio</head>
+            <p xml:id="ppr-l100-scaavc">
+              Sed instaretur 
+              <lb ed="#PV"/>de caldeis name gens cadesin 
+              <lb ed="#PV"/>est gens caldeica et dicit quod coluerunt 
+              <lb ed="#PV"/>solem pro deo principali et lunam 
+              <lb ed="#PV"/>pro deo minus principali ergo non ignem 
+            </p>
+            <p xml:id="ppr-l100-rqcien">
+              <lb ed="#PV"/>Responsio est facilis et duplex prima nam 
+              <lb ed="#PV"/>opinio eorum fuit quod caelum est 
+              <lb ed="#PV"/>de natura ignis ymmo omnia corporalia 
+              <lb ed="#PV"/>caelestia ymmo ignis etc sunt 
+              <lb ed="#PV"/><ref xml:id="ppr-l100-Rd1e438"><name rend="#Cicero">Tulius</name> duplex est de sompno 
+              <lb ed="#PV"/>sipionis iuxta de re publica</ref> ex<lb ed="#PV"/>presse 
+              ponit stellas esse ignes 
+              <lb ed="#PV"/>Consequenter inter omnes effectus 
+              <lb ed="#PV"/>hic inferius ignis apud nos 
+              <lb ed="#PV"/>est nobilior ideo tamquam effectum 
+              <lb ed="#PV"/>non deum ultimatum coluerunt 
+              <lb ed="#PV"/>ignem hic infernis existente
+            </p>
+            <p xml:id="ppr-l100-siccol">
+              <lb ed="#PV"/>Et sic 2o quod coluerunt ignem 
+              <lb ed="#PV"/>inferiorem tamquam effectum 
+              <lb ed="#PV"/>dei scilicet quem ipsi posuerunt
+              <pb ed="#PV" n="187-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>deum unde non posuerunt unum solum 
+              <lb ed="#PV"/>deum sed quemlibet stellam posuerunt esse 
+              <lb ed="#PV"/>deum 
+            </p>
+            <p xml:id="ppr-l100-eehhfv">
+              <unclear>Et hanc <!-- ex hac? --></unclear> peste remanserunt 
+              <lb ed="#PV"/>vestigia usque nunc inter christianos 
+              <lb ed="#PV"/>unde vetulae faciunt ignes certis 
+              <lb ed="#PV"/>noctibus et faciunt aliquas super<lb ed="#PV"/>stitiones 
+              laesionum ab igne evitan<lb ed="#PV"/>das 
+              ut in festo sancto Iohannis 
+              <lb ed="#PV"/>intendentes per hoc evitare quae 
+              <lb ed="#PV"/>in <sic>fortunia</sic> Ex hoc ars sacri<lb ed="#PV"/>legia 
+              sumit originem quae vocatur 
+              <lb ed="#PV"/>praenomantia <unclear>v?deo?tis</unclear> huiusmodi 
+              <lb ed="#PV"/>superstitiones volunt indicare 
+              <lb ed="#PV"/>de sonis factis in igne praecipue 
+              <lb ed="#PV"/>ad hoc facto scilicet superstitiose in certis 
+              <lb ed="#PV"/>temporibus anni et sic sunt individua 
+              <lb ed="#PV"/>iudicia secundum sonos 2o secundum 
+              <lb ed="#PV"/>figuras falsa 3o proponendo 
+              <lb ed="#PV"/>figuras et sonos et sunt ista 
+              <lb ed="#PV"/>introducta intantum quod inter christianos 
+              <lb ed="#PV"/>non possunt expelli ex eadem ra<lb ed="#PV"/>dice 
+              habuit originem Alia quae 
+              <lb ed="#PV"/>vocatur <unclear>aerumantia</unclear> et ydroman<lb ed="#PV"/>tia 
+              et geomantia qua multi 
+              <lb ed="#PV"/>utuntur loco astrologiae et etiam 
+              <lb ed="#PV"/>loco medicine quae nullo co<lb ed="#PV"/>lare 
+              <unclear>vi?tis</unclear> firmanter sed puere gratis 
+              <lb ed="#PV"/>acceptantur ab anima Nam 
+              <lb ed="#PV"/>in geomantia proiectio punctorum 
+              <lb ed="#PV"/>resolvitur ad causas per se 
+              <lb ed="#PV"/>stat duos proicere pro eodem tempore 
+              <lb ed="#PV"/>et secundum voluntatem brachii ab uno 
+              <lb ed="#PV"/>fiunt plura quam ab alio et sunt 
+              <lb ed="#PV"/>secundum paritatem punctorum vel imparita<lb ed="#PV"/>tem 
+              et secundum hoc faciunt figuras 
+              <lb ed="#PV"/>et istud resolvitur ad dispositionem 
+              <lb ed="#PV"/>manus <unclear>esse</unclear> nulla radice fundatur 
+              <lb ed="#PV"/>sed ex corruptela praecise acceptatur
+            </p>
+          </div>
+          <div xml:id="ppr-l100-Dd1e467">
+            <head xml:id="ppr-l100-Haoeoer">Alia obiectio et responsio</head>
+            <p xml:id="ppr-l100-cdival">
+              <lb ed="#PV"/>Contra dicta inquiritur de uno 
+              <lb ed="#PV"/>dubio quantum ad huiusmodi corruptelam 
+              <lb ed="#PV"/>quia huiusmodi corrupteal vel est habitus intellectus
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>vel voluntatis si primum ergo 
+              <lb ed="#PV"/>non immutat reliquas potentias 
+              <lb ed="#PV"/>scilicet concupiscibilem et nascibilem si voluntatis 
+              <lb ed="#PV"/>ergo non immutat inmediate 
+              <lb ed="#PV"/>potentiam cognitivam igitur 
+              <lb ed="#PV"/>non erit laesiva omnium trium virium 
+              <lb ed="#PV"/>primo dicitur quod nec iustitia 
+              <lb ed="#PV"/>originalis erat qualitas 
+              <lb ed="#PV"/>positiva nec eius primatio 
+              <lb ed="#PV"/>scilicet cupiditas sibi contraria
+            </p>
+            <!-- fuzzy parallel; dbcheck -->
+            <p xml:id="ppr-l100-rqnneo">
+              Sed 
+              <lb ed="#PV"/>potest sic ymaginari quod iustitia 
+              <lb ed="#PV"/>originalis dicebatur esse pro 
+              <lb ed="#PV"/>tanto quia tanta erit habitu<lb ed="#PV"/>do 
+              virium sensitivarum ad rationem 
+              <lb ed="#PV"/>quia modo obediebant sibi et pa<lb ed="#PV"/>rate 
+              erant obedire sicut forte 
+              <lb ed="#PV"/>elementa vel membra obedivisset 
+              <lb ed="#PV"/>ubi nunc non et non oportet 
+              <lb ed="#PV"/>ponere qualitatem <unclear>fanitatem</unclear> lapidem 
+              <lb ed="#PV"/>obedire michi
+            </p>
+          </div>
+          <div xml:id="ppr-l100-Dd1e482">
+            <head xml:id="ppr-l100-Haoraor">Alia obiectio et responsio</head>
+            <p xml:id="ppr-l100-scoesi">
+              Et sic consequenter 
+              <lb ed="#PV"/>diceretur quod privatio iustitiae ori<lb ed="#PV"/>ginalis 
+              non esset nisi talis habi<lb ed="#PV"/>tudo 
+              vel dispositio quod vires seu 
+              sitive non obediunt rationi sed saepe 
+              <lb ed="#PV"/><unclear>dicunt</unclear> et sic dicitur quod <unclear>rationalis</unclear> 
+              <lb ed="#PV"/>esset nunc laesa non quia ami<lb ed="#PV"/>sit
+              etc sed quia etiam ordo solu<lb ed="#PV"/>tus 
+              est 
+            </p> 
+            <p xml:id="ppr-l100-sdaape">
+              Replicaretur quia nihil 
+              <lb ed="#PV"/><unclear>dicis</unclear> quia ex hoc non sequitur 
+              <lb ed="#PV"/>caecitas in intellectu quia non 
+              <lb ed="#PV"/>sequitur nisi difficultas in consequendo 
+              <lb ed="#PV"/>quantum ad potentiam volitivam 
+              <lb ed="#PV"/>Ideo addo quod negandum sublata est 
+              <lb ed="#PV"/>huiusmodi <unclear>obedientia</unclear> sed etiam spiritualis 
+              <lb ed="#PV"/>coassistentia quantum ad potestate
+              <lb ed="#PV"/>elevationem et operationem suam executionem
+            </p>
+            <p xml:id="ppr-l100-svrrci">
+              <lb ed="#PV"/>2o enim Respondetur quod cupiditas est re<lb ed="#PV"/>aliter 
+              qualitas inficiens totum 
+              <lb ed="#PV"/>animae regimen et caecans intellectum 
+              <pb ed="#PV" n="188-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>et turbans concupiscibilem et irasci<lb ed="#PV"/>bilem 
+            </p>
+            <p xml:id="ppr-l100-unebpe">
+              Advertendum quod anima est 
+              <lb ed="#PV"/>realiter unica potentia sed 
+              <lb ed="#PV"/>secundum quod habet divesos actus de<lb ed="#PV"/>nominantur 
+              diversimode et sic stat 
+              <lb ed="#PV"/>quod sit unica qualitas tripliciter 
+              <lb ed="#PV"/><unclear>inminima</unclear> sicut est unica anima tripliciter 
+              <lb ed="#PV"/>operativa quod sit qualitas talis 
+              <lb ed="#PV"/>patet de fide utque per <name ref="#WilliamOfParis">wilhelmum 
+              parysiensis</name> Etiam <name ref="#WilliamOfAuxerre">wilhelmum an<lb ed="#PV"/>ticiodorensem</name>  
+              quod fides negandum est assensus 
+              <lb ed="#PV"/>sed etiam amor et omnis amor 
+              <lb ed="#PV"/>est cognitio ut tenet <ref xml:id="ppr-l100-Rd1e506"><name ref="#Wodeham">adam</name></ref>
+              <lb ed="#PV"/>Ita quod concupiditas continet <unclear>causam<!--totam?--></unclear> la<lb ed="#PV"/>titudinem 
+              omnium habituum pravorum 
+              <lb ed="#PV"/>et vitiosorum quae est inmutata 
+              <lb ed="#PV"/>viciose et erronee intellectus
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
