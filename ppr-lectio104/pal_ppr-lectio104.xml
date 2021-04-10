@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 104, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 104, De libertate [Palantine Transcription]</title>
+          <date when="2021-03-23">March 23, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-03-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="193-v"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio104">
+        <head xml:id="ppr-l104-Hldlldl">Lectio 104, de Libertate</head>
+        <div xml:id="ppr-l104-Dd1e109">
+          <head xml:id="ppr-l104-Hppepet">Providentia producit effectos tripliciter</head>
+          <p xml:id="ppr-l104-veqvfc">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>visum est prius qualiter ad 
+            <lb ed="#PV"/>causas pure naturales non possunt 
+            <lb ed="#PV"/>philosophi <unclear>commentator</unclear> reducere effectus 
+            <lb ed="#PV"/>qui apparuerunt specialiter post christi 
+            <lb ed="#PV"/>adventum et visum est quae inconvenientia 
+            <pb ed="#PV" n="194-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>incidunt apud nos <unclear>concedens<!-- conveniens? --></unclear> fi<lb ed="#PV"/>dem 
+            nostram
+          </p>
+          <p xml:id="ppr-l104-ptmpsa">
+            Advertendum licet 
+            <lb ed="#PV"/>omnis effectus quae contingunt 
+            <lb ed="#PV"/>reducuntur ad divinam providen<lb ed="#PV"/>tiam 
+            in generali tamen in speciali 
+            <lb ed="#PV"/>sunt tres modi primus mo<lb ed="#PV"/>dus 
+            est miraculorum 2us operationum dya<lb ed="#PV"/>bolicarum 
+            3us naturae per se vel per 
+            <lb ed="#PV"/>accidens operantis
+          </p>
+        </div>
+        <div xml:id="ppr-l104-Dd1e121">
+          <head xml:id="ppr-l104-Hcpggem">Propositio: quod miracula non evidens in lumine naturali, sed quod miracula sunt possibilia est probabile</head>
+          <p xml:id="ppr-l104-cpslep">
+            Consequenter 
+            <lb ed="#PV"/>circa primum pro declaratione ponitur 
+            <lb ed="#PV"/>haec propositio quamvis non sit evidens 
+            <lb ed="#PV"/>in puro lumine naturale ad hoc esse 
+            <lb ed="#PV"/>mirabilium <del rend="strikethrough">deum</del> vel mirabile deum tamen 
+            <lb ed="#PV"/>posse agere potest naturae cursum 
+            <lb ed="#PV"/>est in eodem lumine probabile
+          </p> 
+          <div xml:id="ppr-l104-Dd1e129">
+            <head xml:id="ppr-l104-Hppprra">Probatio primae partis</head>
+            <p xml:id="ppr-l104-ppprae">
+              Prima 
+              <lb ed="#PV"/>pars probatur quia non est evidens 
+              <lb ed="#PV"/>in lumine naturali quod deus possit 
+              <lb ed="#PV"/>agere praeter naturae cursum quia 
+              <lb ed="#PV"/>aliter agat quam secundum institu<lb ed="#PV"/>tionem 
+              naturaelm experimur scilicet quia 
+              <lb ed="#PV"/>agat modo et necessitate naturae 
+              <lb ed="#PV"/>nam si contrarium fuisset evidens 
+              <lb ed="#PV"/>philosophi non tenuissent quod agat ne<lb ed="#PV"/>cessitate 
+              naturae 
+            </p>
+            <p xml:id="ppr-l104-spihem">
+              2o probatur eodem prima pars 
+              <lb ed="#PV"/>ex ista radice quia naturae facul<lb ed="#PV"/>tas 
+              vel potestas est ignota ideo 
+              <lb ed="#PV"/>de nullo effectum constat vel 
+              <lb ed="#PV"/>potest constare evidenter quin fi<lb ed="#PV"/>at 
+              necessitate naturae ymmo du<lb ed="#PV"/>bium 
+              est nobis dato effectu quan<lb ed="#PV"/>tumcumque 
+              magno utrum potestas 
+              <lb ed="#PV"/>naturae ad illud se excedat patet 
+              <lb ed="#PV"/>ex infinitis conbinationibus quae 
+              <lb ed="#PV"/>non sunt scibiles a nobis primo 
+              <lb ed="#PV"/>per applicationem agentium ad 
+              <lb ed="#PV"/>sua passa nam sicut magnes 
+              <lb ed="#PV"/>quandoque ferro applicatum trahit 
+              <lb ed="#PV"/>ipsum ita forte quaelibet res 
+              <lb ed="#PV"/>habet passum in quod ageret 
+              <lb ed="#PV"/>nobilem effectum si applicantur 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>et impossibile est quodlibet agens ad 
+              <lb ed="#PV"/>quodlibet passum applicari 
+              <lb ed="#PV"/>magnes forte respectu alterius 
+              <lb ed="#PV"/>passi haberet effectum nobiliorem 
+              <lb ed="#PV"/>quam respectu ferri 
+            </p>
+            <p xml:id="ppr-l104-eidpsp">
+              et sic planta 
+              <lb ed="#PV"/>quae nobilior est et animata forte 
+              <lb ed="#PV"/><del rend="strikethrough">respectu alterius</del> potest in effectum 
+              <lb ed="#PV"/>nobiliorem
+            </p>
+            <p xml:id="ppr-l104-taassl">
+              <sic>2o</sic> aliquod agens 
+              <lb ed="#PV"/>est productivum alicuius effectus 
+              <lb ed="#PV"/>cum alio agente et non per se 
+              <lb ed="#PV"/>sed impossibile eest omnia agentia 
+              <lb ed="#PV"/>simul combinare vel quodlibet cum 
+              <lb ed="#PV"/>quodlibet ergo latet etc unde color 
+              <lb ed="#PV"/>non potest multiplicari nisi coagente 
+              <lb ed="#PV"/>lumine et sic de aliis
+            </p>
+            <p xml:id="ppr-l104-eqaacm">
+              igitur impossibile est scire 
+              <lb ed="#PV"/>naturae facultatem vel potestatem 
+              <lb ed="#PV"/>unde combinatio agentium facit 
+              <lb ed="#PV"/>numerales effectus ut in tyria<lb ed="#PV"/>ca
+              <unclear>pure</unclear> venenum quod tamen 
+              <lb ed="#PV"/>praeservat a veneno agentium etc 
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l104-qeaavn">
+              <lb ed="#PV"/>ex diversitate distantia<lb ed="#PV"/>rum 
+              quia forte in certa distantia 
+              <lb ed="#PV"/>produceret effectum ubi citra 
+              <lb ed="#PV"/>vel ultra non produceret similem
+            </p>
+            <p xml:id="ppr-l104-qsqcon">
+              Item secundum qualitatem vel quantitatem 
+              <lb ed="#PV"/>passorum possunt in filium ef<lb ed="#PV"/>fectus 
+              diversificari Ideo circa 
+              <lb ed="#PV"/>operationes naturales est infini<lb ed="#PV"/>ta 
+              difficultas  
+              
+              Quinto secundum qualitatem 
+              et quantitatem agentium possunt in infinitum effectus diversificari 
+              et sic infinita Restat latitudo inquisitionis 
+              circa operationes naturales.
+            </p>
+            <p xml:id="ppr-l104-eqaicn">
+              igitur naturae potestas
+              <lb ed="#PV"/><sic>potestas</sic> est ignota igitur quocumque 
+              <lb ed="#PV"/>effectu dato non est evidens 
+              <lb ed="#PV"/>quin posset fieri per naturam Iuxta 
+              <lb ed="#PV"/>illam ymaginationem in <ref xml:id="ppr-l104-Rd1e173">libro 
+              <lb ed="#PV"/>de mirabilibus sacrae scripturae qui 
+              <lb ed="#PV"/>ascribitur <name ref="#Augustine">augustino</name></ref> ipse omnia 
+              <lb ed="#PV"/>mirabilia a creatione mundi usque 
+              <lb ed="#PV"/>adventu christi resolvit in causas 
+              <lb ed="#PV"/>naturales
+            </p>
+            <p xml:id="ppr-l104-ermihm">
+              Et <name ref="#Maimonides">rabi moyses</name> recitat 
+              <pb ed="#PV" n="194-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>opinionem <unclear>dubium</unclear> quod ab <unclear>initio</unclear> non 
+              <lb ed="#PV"/>fuit ad unitumque opus instituta 
+              <lb ed="#PV"/>vero primaria impositione ad omnes 
+              <lb ed="#PV"/>effectus contingentes in hoc mun<lb ed="#PV"/>do 
+              unde mare stetit fixum 
+              <lb ed="#PV"/>in transita filiorum israel de egip<lb ed="#PV"/>to
+              ad deserta et fuit mari 
+              <lb ed="#PV"/>naturali illo tempore sic stare 
+              <lb ed="#PV"/>ET iterum naturale fuit 2m eos 
+              <lb ed="#PV"/>igni in <unclear>camino</unclear> ignis non <unclear>adurere</unclear>
+            </p>
+            <p xml:id="ppr-l104-unecpn">
+              <lb ed="#PV"/>Advertendum quod intentio eorum 
+              <lb ed="#PV"/>nullum generat scandalum licet 
+              <lb ed="#PV"/>falsum dicant Nam ymaginatio 
+              <lb ed="#PV"/>illorum est <unclear>specialiter</unclear> illius qui 
+              <lb ed="#PV"/>condidit librum de mirabilibus 
+              <lb ed="#PV"/>sacrae scripturae quod deus ratione 
+              <lb ed="#PV"/>suae potestatis est taliter naturae 
+              <lb ed="#PV"/>dicens quod quodcumque deus vult 
+              <lb ed="#PV"/>hoc natura facit obediendo deo et sic 
+              <lb ed="#PV"/>dicitur facere naturaliter ex divino 
+              <lb ed="#PV"/>imperio et clementise sibi scilicet naturae 
+              <lb ed="#PV"/>et in evalis?e et sic omnes comparatio 
+              <lb ed="#PV"/>quae est conveniens agenti et ad 
+              <lb ed="#PV"/>quam inclinatur est sibi naturalis 
+              <lb ed="#PV"/>et sic dicuntur naturales quae fiunt a natura 
+              <lb ed="#PV"/>obediente deo patet ergo potestas <unclear>propos?</unclear> 
+              <lb ed="#PV"/>scilicet quod non est evidens in lumine naturali 
+              <lb ed="#PV"/>non adiuto per fidem etc nec 
+              <lb ed="#PV"/>valet consequentia sortes nescit hunc 
+              <lb ed="#PV"/>effectum resolvere in causas 
+              <lb ed="#PV"/>naturales igitur non est naturalis
+            </p>
+          </div>
+          <div xml:id="ppr-l104-Dd1e209">
+            <head xml:id="ppr-l104-Hpsppsp">Probatio secundae partis</head>
+            <p xml:id="ppr-l104-spcifn">
+              <lb ed="#PV"/><pc type="virgula">//</pc> 2a pars propositionis <ref>in primo lectionis</ref> 
+              <lb ed="#PV"/>positae probatur nam deus est libera 
+              <lb ed="#PV"/>agens vel <unclear>lib?e</unclear> contingenter agit adextra 
+              <lb ed="#PV"/>et habet infinitam potentiam ergo se 
+              <lb ed="#PV"/>solo quaecumque effectum quantum<lb ed="#PV"/>cumque 
+              magnum potest producere consequentia 
+              <lb ed="#PV"/>est bona in lumine naturali et antecedens 
+              <lb ed="#PV"/>est probabile in eodem probatur quod antecedens sit 
+              <lb ed="#PV"/>probabile in lumine naturali probatur quia probabile 
+              <lb ed="#PV"/>est quod deus sit omnipotens 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>quia esse omnipotentem dicit per<lb ed="#PV"/>fectionem 
+              simpliciter et omnis deno<lb ed="#PV"/>minatio 
+              perfectionis simpliciter 
+              <lb ed="#PV"/>sibi competit <ref xml:id="ppr-l104-Rd1e218" target="http://scta.info/resource/aristmet-l12"><name ref="#Aristotle">Aristoteles</name> 12 <title ref="#Metaphysics">Metaphysicae</title></ref>
+              <lb ed="#PV"/><!-- quote here? -->deus est proprie etc
+            </p>
+            <!-- doesn't seem present
+              <p xml:id="ppr-l104-selaml">
+              Secundo esse liberum dicit summam perfectionem 
+              et adhuc in lumine naturali, modo deo attribuitur 
+              maxime libertas.
+            </p>-->
+            <p xml:id="ppr-l104-tpaqtc">
+              Item <ref xml:id="ppr-l104-Rd1e239"><name ref="#Aristotle">philosophus</name> 
+              <lb ed="#PV"/>in 4to <title ref="#Physics">physicarum</title></ref> videtur deo attri<lb ed="#PV"/>buere 
+              hanc potestatem scilicet quod naturae 
+              <lb ed="#PV"/>concursu potest etc patet de subtiliatione 
+              <lb ed="#PV"/>modii scilicet <unclear>aeris</unclear> in infinitum 
+              <lb ed="#PV"/>et libere agentem Sed in ali<lb ed="#PV"/>quibus 
+              ymmo in omnibus quasi 
+              <lb ed="#PV"/>loquitur solum secundum apparentias 
+              <lb ed="#PV"/>adextra
+            </p>
+            <p xml:id="ppr-l104-pdmmae">
+              pro maiori declaratione materiae 
+              <lb ed="#PV"/>advertendum quod triplex est mo<lb ed="#PV"/>dus 
+              agendi effectus
+            </p>
+            <p xml:id="ppr-l104-pesndd">
+              primus 2m propriam 
+              <lb ed="#PV"/>naturam specificam vel individua<lb ed="#PV"/>lem 
+              Isto modo res operantur 
+              <lb ed="#PV"/>operationes proprias suae speciei 
+              <lb ed="#PV"/>sic terra naturaliter intentio collo<lb ed="#PV"/>catur 
+              et descendit naturaliter 
+              <lb ed="#PV"/>ad locum proprium 
+            </p>
+            <p xml:id="ppr-l104-smaosn">
+              2us est modus 
+              <lb ed="#PV"/>2m naturam communem sic quod oportet 
+              <lb ed="#PV"/>ymaginari specialem distinctam 
+              <lb ed="#PV"/>ab individuas Sed vocatur 
+              <lb ed="#PV"/>natura communis respectu operis vel 
+              <lb ed="#PV"/>effectus quam omnis causa in<lb ed="#PV"/>tenderet 
+              vel quaelibet causa data 
+              <lb ed="#PV"/>inclinaretur ad hoc quo in<lb ed="#PV"/>stinctu 
+              vel quaelibet res appe<lb ed="#PV"/>tit 
+              decorem universi boni 
+              <lb ed="#PV"/>et sic quaelibet se habet respectu va<lb ed="#PV"/>cui 
+              et huiusmodi operationes 
+              <lb ed="#PV"/>omnes sunt naturales
+            </p>
+            <p xml:id="ppr-l104-temsus">
+              3us eset 
+              <lb ed="#PV"/>2m obedientiam supremi extra 
+              <lb ed="#PV"/>duos primos modos cuius prin<lb ed="#PV"/>cipis 
+              mandatum potest esse novum 
+              <lb ed="#PV"/>id est deus potest velle noviter ali<lb ed="#PV"/>quam 
+              causam producere aliquem 
+              <pb ed="#PV" n="195-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>effectum cuius ante non fuit 
+              <lb ed="#PV"/>productiva in potentia propinqua 
+              <lb ed="#PV"/>nec secundum inclinationem propria nec 
+              <lb ed="#PV"/>communem et sic de omnibus effecti<lb ed="#PV"/>bus 
+              miraculosis Sicut ad 
+              <lb ed="#PV"/>preces <name>Iosue</name> stetit sol sic quod 
+              <lb ed="#PV"/>per modum meriti impetravit 
+              <lb ed="#PV"/>praeceptum divinum quod deus praece<lb ed="#PV"/>pit 
+              creaturae suae scilicet soli quod sta<lb ed="#PV"/>ret 
+            </p>
+            <p xml:id="ppr-l104-eimpcr">
+              et sic sub isto modo qui 
+              <lb ed="#PV"/>est alterius speciei a praedictis <unclear>o?o</unclear>
+              <lb ed="#PV"/>mirabilia continentur Sed locum 
+              <lb ed="#PV"/>fuit soli naturali Et etiam igni 
+              <lb ed="#PV"/>naturale non solum non <unclear>comburrere</unclear> sed 
+              <lb ed="#PV"/>etiam communi creaturae dulcedinem <unclear>rerum</unclear> 
+              <lb ed="#PV"/>quia delectabat tactum existentium 
+              <lb ed="#PV"/>in ipso 
+            </p>
+            <p xml:id="ppr-l104-dsivsm">
+              difficultas est in voca<lb ed="#PV"/>bulo 
+              unde non est naturale 
+              <lb ed="#PV"/>primo modo quia non est ex inclinatione 
+              <lb ed="#PV"/>naturali indita sibi a principio 
+              <lb ed="#PV"/>nec 2o modo sed si vocaretur 
+              <lb ed="#PV"/>naturale obediere mandato summi 
+              <lb ed="#PV"/>principiis sic esset naturale incon<lb ed="#PV"/>veniens
+              Et iste modus non 
+              <lb ed="#PV"/>scandalisat fidem ymmo magni<lb ed="#PV"/>ficat 
+              eam scilicet ponendo habitudinem 
+              <lb ed="#PV"/>et ordinem creaturarum ad deum
+              <lb ed="#PV"/>Et sic resolvitur in inmensi<lb ed="#PV"/>tatem
+              divinae potestatis et infrustra<lb ed="#PV"/>bilitatem 
+              divinae voluntatis 
+              <lb ed="#PV"/>et sic miraculum est supra naturam 
+              <lb ed="#PV"/>et naturalem causalitatem rerum 
+              <lb ed="#PV"/>tam primo modo quam 2o modo 
+            </p>
+            <p xml:id="ppr-l104-unetem">
+              ulterius 
+              <lb ed="#PV"/>est advertendum quia loquitur 
+              <lb ed="#PV"/>de mirabilibus effectibus quod quantum 
+              <lb ed="#PV"/>ad effectus de 3o genere <unclear>ibe?stis</unclear>
+              <lb ed="#PV"/>plures f?os <del rend="strikethrough">etiam</del> ita quod sunt plures 
+              <lb ed="#PV"/>species miraculorum prima quando
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>aliqua causa producit aliquem 
+              <lb ed="#PV"/>effectum supra causalitatem 
+              <lb ed="#PV"/><unclear>institutam</unclear> vel quantum ad speciem 
+              <lb ed="#PV"/>vel quantum ad gradum vel 
+              <lb ed="#PV"/>quantum ad medium vel quantum 
+              <lb ed="#PV"/>ad tmepus vel quantum ad locum 
+              <lb ed="#PV"/>vel quantitatem quantum ad speciem 
+              <lb ed="#PV"/>ut si deus faceret lapidem concurrere 
+              <lb ed="#PV"/>ad productionem <unclear>azini</unclear> sic quod species 
+              <lb ed="#PV"/>inferior produceret superiorem 
+              <lb ed="#PV"/>effectus esset miraculosus nam 
+              <lb ed="#PV"/>talis causa ageret supra cau<lb ed="#PV"/>salitatem 
+              sibi inditam sed absolute 
+              <lb ed="#PV"/>loquendo potest esse eius causalitas 
+              <lb ed="#PV"/>ad hoc elevari et sic esset effectus 
+              <lb ed="#PV"/>miraculosus Exemplum quantum ad gra<lb ed="#PV"/>dus 
+              ut si aliqua causa sit 
+              <lb ed="#PV"/>nata producere effectum ad cer<lb ed="#PV"/>tam 
+              distantiam et ageret in 
+              <lb ed="#PV"/>duplam esset etiam effectus mi<lb ed="#PV"/>raculosus
+            </p>
+            <p xml:id="ppr-l104-qaless">
+              Quantum ad tem<lb ed="#PV"/>pus 
+              ut si causa sit productiva 
+              <lb ed="#PV"/>sui effectus cum talibus 
+              <lb ed="#PV"/>circumstantiis in una hora et 
+              <lb ed="#PV"/>producat individua hora et effectus 
+              <lb ed="#PV"/>miraculosus Quantum ad locum 
+              <lb ed="#PV"/>multipliciter quia vel una res potest 
+              <lb ed="#PV"/>esse in diversis locis quia unica 
+              <lb ed="#PV"/>res solum unicum situm sibi 
+              <lb ed="#PV"/>determinat vel in eodem situm 
+              <lb ed="#PV"/>aliter locatur quam sibi a natura 
+              <lb ed="#PV"/>sua determinat ut situatio corporis 
+              <lb ed="#PV"/>christi in sacramento quia est in isto 
+              <lb ed="#PV"/>et in alio etiam situabitur potest 
+              <lb ed="#PV"/>communem naturae medium nam in quolibet 
+              <lb ed="#PV"/>puncto hostiae est totum corpus 
+              <lb ed="#PV"/>christi Quantum ad <unclear>quidditatem</unclear> quia 
+              <lb ed="#PV"/>res corporales habent certos terminos 
+              <pb ed="#PV" n="195-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>suae quidditatis et si ultra talem terminum 
+              <lb ed="#PV"/>miraculosum est et sicut dicitur 
+              <lb ed="#PV"/>hic de excessu ita potest dici de 
+              <lb ed="#PV"/>sub ut quantum ad speciem si homo 
+              <lb ed="#PV"/>produeret lapidem vel aliam rem 
+              <lb ed="#PV"/>inferioris speciei esset miraculosum 
+              <lb ed="#PV"/>quia sub sua naturali causalitate 
+              <lb ed="#PV"/>ageret quantum ad gradum ut scilicet 
+              <lb ed="#PV"/>causalitas ut 10 non produceret 
+              <lb ed="#PV"/>nisi ut unum Etiam si sol non 
+              <lb ed="#PV"/>ageret ad <del rend="strikethrough">causatam</del> tantam dis<lb ed="#PV"/>tantiam 
+              sicut nunc sed solum ad 
+              <lb ed="#PV"/>concavum orbis lunae esset miracu<lb ed="#PV"/>lum 
+              quantum ad medium et sic illa 
+              <lb ed="#PV"/>potest esse 2a species
+            </p>
+            <p xml:id="ppr-l104-tseccn">
+              3a species quando 
+              <lb ed="#PV"/>effectus producitur et tamen non 
+              <lb ed="#PV"/>a causis a quibus 2m naturae 
+              <lb ed="#PV"/><unclear>institutionem</unclear> deberet produci ut si 
+              <lb ed="#PV"/>deus se solo produceret ignem 
+              <lb ed="#PV"/>effectus esset miraculosus vel 
+              <lb ed="#PV"/>quemcumque alium effectum consue<lb ed="#PV"/>tum 
+              produci a causis 2is sive 
+              <lb ed="#PV"/>quibus non producitur 2m communem 
+              <lb ed="#PV"/>naturae cursum 
+            </p>
+            <p xml:id="ppr-l104-qsqomm">
+              4a species si effectus 
+              <lb ed="#PV"/>non producitur positis tamen 
+              <lb ed="#PV"/>causis 2m communem naturae cursum 
+              <lb ed="#PV"/>sufficientibus impedimento omni re<lb ed="#PV"/>moto 
+              praeter dei voluntate 
+              <lb ed="#PV"/>ut in camino ignis <!-- break point? -->Ad istas 
+              <lb ed="#PV"/>quatuor species reducuntur omnia 
+              <lb ed="#PV"/>mirabilia mundi vel ad aliquam 
+              <lb ed="#PV"/>vel aliquas earum
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l104-Dd1e319">
+          <head xml:id="ppr-l104-Hcorria">Corollaria</head>
+          <p xml:id="ppr-l104-pcepnm">
+            primum corollarium 
+            <lb ed="#PV"/>ex ignorantia cursus naturalis 
+            <lb ed="#PV"/>negaverunt philosophi mirabilia mundi 
+            <lb ed="#PV"/>patet nam scilicet potestas naturae fuisset 
+            <lb ed="#PV"/>eis nota scivissent evidenter 
+            <lb ed="#PV"/>aliqua fuisse facta quae non 
+            <lb ed="#PV"/>sufficiunt naturae facultati sed supra 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>eius <unclear>luminis</unclear> et excesserunt naturalem 
+            <lb ed="#PV"/>naturae facultatem 
+          </p>
+          <p xml:id="ppr-l104-scapfr">
+            2m corollarium ad com<lb ed="#PV"/>plete 
+            philosophandum requiruntur cognitio 
+            <lb ed="#PV"/>fidei Et ideo concedat <ref xml:id="ppr-l104-Rd1e331"><name ref="#Aristotle">Aristoteles</name> in 
+            <lb ed="#PV"/>libro <title>de secretis secretorum</title></ref> quod 
+            <lb ed="#PV"/>philosophia fuit revelata.
+          </p>
+          <p xml:id="ppr-l104-tclacs">
+            3m corollarium 
+            <lb ed="#PV"/>licet creatio animae intellectivae sit supra 
+            <lb ed="#PV"/>naturae facultatem non tamen est proprie 
+            <lb ed="#PV"/>miraculum patet quia non est miraculum 
+            <lb ed="#PV"/>respectu divinae potentiae eo quod 
+            <lb ed="#PV"/>non potest agere supra suo po<lb ed="#PV"/>tentiam 
+            quae <add place="above-line">est</add> simpliciter immensa 
+            <lb ed="#PV"/>ymmo respectum eius vel est miraculum 
+            <lb ed="#PV"/>est quemlibet effectum excedit ymmo 
+            <lb ed="#PV"/><unclear>evangelio</unclear> divinarum personarum 
+            <lb ed="#PV"/>et summe naturalis naturalitate increata 
+            <lb ed="#PV"/>non creata sed anima intellectiva non est 
+            <lb ed="#PV"/>nata produci a causis secundis 
+            <lb ed="#PV"/>sed producto eius bene est super 
+            <lb ed="#PV"/>naturalis extendens totius naturae 
+            <lb ed="#PV"/>creatae facultatem Consequenter 
+            <lb ed="#PV"/>dicitur de donis spiritualibus 
+            <lb ed="#PV"/>quae sunt supernaturalia et tamen 
+            <lb ed="#PV"/>non sunt mirabilia quia non 
+            <lb ed="#PV"/>habent ordinem ad causas secundas 
+            <lb ed="#PV"/>quo ad eorum produci
+          </p>
+          <p xml:id="ppr-l104-qcqacs">
+            Sequitur 
+            <lb ed="#PV"/>ulterius quod deus producendo animam 
+            <lb ed="#PV"/>intellectiva se solo non agit mira<lb ed="#PV"/>culose 
+            tamen producendo anima 
+            <lb ed="#PV"/>asini ageret miraculose 2m 
+            <lb ed="#PV"/>patet quia ageret se solo effectum 
+            <lb ed="#PV"/>producibilem mediantibus causis 2is 
+            <lb ed="#PV"/>nam 2m communem cursum non 
+            <lb ed="#PV"/>producitur nisi 2m dispositionem 
+            <lb ed="#PV"/>materiae a veritate seminali etc
+          </p>
+          <p xml:id="ppr-l104-qcscep">
+            <sic>4m</sic> corollarium
+            <lb ed="#PV"/>si sacram novae legis efficiant 
+            <pb ed="#PV" n="196-r"/>
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/><unclear>quoque</unclear> figurant <unclear>concede<del rend="strikethrough">re</del></unclear> potest quod 
+            <lb ed="#PV"/>faciunt mirabilia Opinio aliquorum 
+            <lb ed="#PV"/>doctorum fuit quod attingunt <unclear>realiter</unclear> 
+            <lb ed="#PV"/>productive gratiam sic quod sacramentum 
+            <lb ed="#PV"/>exterius non solum significat gratiam sed 
+            <lb ed="#PV"/>realiter producit Et per hoc differunt 
+            <lb ed="#PV"/>a sacramentis veteris legis Ex quo sequitur 
+            <lb ed="#PV"/>quod miraculose agunt quia supra 
+            <lb ed="#PV"/>naturae facultatem teneo quod haec po<lb ed="#PV"/>sitio 
+            est possiblis nam ex divina opera <lb ed="#PV"/>tione 
+            et potentia obedientali scitis habetur 
+            <lb ed="#PV"/>quod festuta posset concurrere respectu 
+            <lb ed="#PV"/>cuiuscumque effectus hic inferius
+          </p>
+          <p xml:id="ppr-l104-scsvtm">
+            <lb ed="#PV"/>Sequitur quod potestas faciendi 
+            <lb ed="#PV"/>mirabilia esset creaturae communicabilis 
+            <lb ed="#PV"/>ymmo hanc potestatem videntur 
+            <lb ed="#PV"/>accipisse apostoli unde dicit dedit 
+            <lb ed="#PV"/>eis potestatem eiciendi daemonia 
+            <lb ed="#PV"/><ref xml:id="ppr-l104-Rd1e365"><name ref="#GregoryGreat">Gregorius</name> in <title>dyalogorum</title></ref> dicit quod po<lb ed="#PV"/>testate 
+            creatura contingit facere mi<lb ed="#PV"/>rabilia 
+            scilicet dum se extendit ultra 
+            <lb ed="#PV"/>naturae limitates ut quod fides <unclear>appostolorum</unclear> 
+            <lb ed="#PV"/>in primaeva ecclesia in tanto 
+            <lb ed="#PV"/>gradu vel tanto erit potestas 
+            <lb ed="#PV"/>faciendi mirabilia possibile est unde 
+            <lb ed="#PV"/>salvator et appostolus videtur hoc 
+            <lb ed="#PV"/>dicere quod fides est vigor transfe<lb ed="#PV"/>rend 
+            <sic>mentes</sic>
+          </p>
+          <!-- doesn't seem present 
+            <p xml:id="ppr-l104-acpasm">
+            Alia corollaria possent 
+            inferri quod alii sunt effectus producibiles naturaliter et 
+            tamen fiunt miraculose ut de sanatione febris quia 
+            licet aliquando naturaliter producatur aliquando tamen miraculose eicitur 
+            aliquorum sanctorum meritis.
+          </p>-->
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
