@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 105, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 105, De libertate [Erlangen Transcription]</title>
+          <date when="2021-04-30">April 30, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-04-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="196-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio105">
+        <head xml:id="ppr-l105-Hldlldl">Lectio 105, de Libertate</head>
+          <div xml:id="ppr-l105-Dd1e109">
+            <head xml:id="ppr-l105-Hcodcod">Circa operationem daemonum</head>
+            <p xml:id="ppr-l105-sqhatr">
+              <lb ed="#E"/>In alia lectione
+              <lb ed="#E"/>Secundum quod heri tangebatur omnia opera mirabilia reducuntur ad tres modos 
+            </p>
+            <p xml:id="ppr-l105-ueoilp">
+              unus est modus 
+              <lb ed="#E"/>operum miraculorum de quibus heri dicebatur 
+            </p>
+            <!-- review division here -->
+            <div xml:id="ppr-l105-Dd1e122">
+              <head xml:id="ppr-l105-Hppoppo">Prima propositio</head>
+              <p xml:id="ppr-l105-aeopeo">
+                Alius est modus <unclear>operum</unclear> daemonum Advertendum est primo 
+                <lb ed="#E"/>quod ex scriptura testamenti etiam satis habemus quod spiritus maligni quae multa exercuerunt opera ut 
+                <lb ed="#E"/>patet evvangelium de daemonum <sic>eicione</sic> ab hominibus per eos obsessis etc 
+              </p>
+              <p xml:id="ppr-l105-ehcanc">
+                plures philosophi in hoc concordant 
+                <lb ed="#E"/><name>plato</name> substantias spirituales divisit in duo 
+                genera unum bonorum spiritum quos vocavit 
+                <sic>calodaemones</sic> <foreign>calo</foreign> in graeco 
+                bonum dicitur latine dicitur 2o 
+                genere <sic>cacodaemones</sic> unde <foreign>caco</foreign>
+                in graeco est malum in latine 
+                Ideo ex doctrina eius in thymeo 
+                habemus quod ponendi sunt species 
+                ipse posuit nobis hoc in aere 
+                nobis conservari
+              </p>
+              <p xml:id="ppr-l105-dadmsf">
+                de <name ref="#Aristotle">aristotele</name> 
+                quantum est de <unclear>communi</unclear> eius doctrina 
+                non <sic>aparet</sic> quod posuerit <ref xml:id="ppr-l105-Rd1e160"><name ref="#WilliamOfParis">Wilhelmus 
+                parisiensis</name> in libro <title ref="#deUniverso">de universo</title></ref> 
+                dicit quod habuit spiritum familiare 
+                quem credebat <name ref="#Aristotle">aristoteles</name> esse spiritum 
+                vel angelum bonum missum 
+                sibi de caelo scilicet orbe veneris 
+                <name>wilhelmus parysiensis</name> notat quod ibi 
+                realiter fuit daemon  qui sub titulo 
+                bonitatis et sanctitatis decipit eum 
+                et dixit se missum de caelo et 
+                tamen instruxit eum de aliquibus 
+                punctis contra fidem et inter alia quod non 
+                esset spiritus materiali <ref xml:id="ppr-l105-Rd1e191"><unclear>vitulo<!-- viterbo ? --></unclear> tamen 
+                in libro quem fecit de natura 
+                daemonum</ref> dicit <name ref="#Aristotle">aristotelem</name> fecisse 
+                librum <title>de genealogia daemonum</title> 
+                quem dicit fuisse ultimum bonum 
+                librum licet in veniatur  
+                apud nos sed quidquid sit de 
+                hoc dicendum est quod ponendi sunt 
+                maligni spiritus
+              </p>
+            </div>
+            <div xml:id="ppr-l105-Dd1e209">
+              <head xml:id="ppr-l105-Hspospo">Secunda propositio</head>
+              <p xml:id="ppr-l105-sdqpcn">
+                2o notandum
+                quod huiusmodi spiritus sola divina 
+                permissione operantur quaedam quod 
+                apparet nam extremo odio odiunt totum 
+                genus humanum ergo si relinquerentur 
+                nam ut testatur <ref xml:id="ppr-l105-Rd1e220">petrus</ref>
+                <pb ed="#PV" n="196-v"/>
+                <cb ed="#PV" n="a"/>
+                in <title ref="#Ipetr">canonica</title> <quote xml:id="ppr-l105-Qavtqqd" source="http://scta.info/resource/Ipetr5_8">adversarius noster 
+                diabolus tamquam leo rugiens</quote> etc
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l105-Dd1e238">
+            <head xml:id="ppr-l105-Hcorria">Corollaria</head>
+            <div xml:id="ppr-l105-Dd1e243">
+              <head xml:id="ppr-l105-Hpqfoon">Primum: quod familiaritas daemonum est summe fugienda quia extremo odio odiunt nos</head>
+              <p xml:id="ppr-l105-eqsmnn">
+                Sequitur primo quod eorum familiaritas 
+                est summe fugienda nam 
+                extremo odio odiunt nos ergo quidquid 
+                fraudem possent exercent in nos 
+              </p>
+            </div>
+            <div xml:id="ppr-l105-Dd1e272">
+              <head xml:id="ppr-l105-Hsqamne">Secundum: quod ars magica nihil est</head>
+              <p xml:id="ppr-l105-ssqsoc">
+                2o sequitur quod ars magica nihil 
+                est patet nam daemones et eorum 
+                operationes subiacent soli divinae 
+                providentiae et <unclear>promistum</unclear> ergo sequitur 
+                quod non subiacent alicui arti 
+                vel <unclear>christis</unclear> nec con?ma?bus vel industriis 
+                aliis humanitus inventis 
+                sed deo vel forte sanctis quibus 
+                det deus patrem eos <unclear>varoedi</unclear> 
+                ut <name>appostolis</name>
+              </p>
+              <p xml:id="ppr-l105-saqrap">
+                Etiam alio nam invocatores 
+                daemonum sunt homines bestiales 
+                fide et virtutibus carentes 
+                ergo non sub arte <del rend="strikethrough">caret</del> cadit huiusmodi 
+                facultas magica antecedens est notum 
+                discurrendo per historiam nam malifici 
+                fuerunt semper et vilissimi 
+                
+                Etiam apparet de hiis qui habitat inter 
+                m?o?s ubi etiam reperiuntur multi 
+                invocatores daemonum qui carent
+                arte carent
+                
+                Etiam alio quia 
+                unus quisque illorum bestialium 
+                iuxta suam fantasiam ad plurium 
+                invocat igitur non cadit sub arte 
+                nec per modum <unclear>regularum</unclear> artis 
+                procedit
+              </p>
+            </div>
+            <div xml:id="ppr-l105-Dd1e296">
+              <head xml:id="ppr-l105-Htqmiqd">Tertium: quod malefici vi artis magicae nihil aliud operantur nisi deceptiones potentiarum in illis quos decipiunt</head>
+              <p xml:id="ppr-l105-stqiqd">
+                3o sequitur quod malifici 
+                vi artis magicae nichil aliud 
+                operantur nisi decpetionem vel laesionem 
+                potentiarum interiorum in illis 
+                quod decipiunt
+              </p>
+            </div>
+          </div>
+        <div xml:id="ppr-l105-Dd1e306">
+          <head xml:id="ppr-l105-Hmmdmmd">Multiplex modi deceptionis</head>
+          <p xml:id="ppr-l105-ueasde">
+            Advertendum 
+            igitur quod quantum ad materiam praesentem 
+            spectat multiplex apud tres 
+            reperitur deceptio quod habet pro 
+            fine quaesitum 
+          </p>
+          <div xml:id="ppr-l105-Dd1e314">
+            <head xml:id="ppr-l105-Hpmdpmd">Primus modus deceptionis</head>
+            <p xml:id="ppr-l105-pgenvl">
+              <!-- possible omission here -->
+              vel met loquuntur 
+              et videntur loqui
+            </p>
+          </div>
+          <div xml:id="ppr-l105-Dd1e323">
+            <head xml:id="ppr-l105-Hsmdsmd">Secundus modus deceptionis</head>
+            <p xml:id="ppr-l105-smseda">
+              2us 
+              modus decipiendi ut tangit 
+              <name>bachon</name> est per conventionem nam aptatis 
+              <cb ed="#PV" n="b"/>
+              quibusdam canalibus habent latentes 
+              socios qui per cannas 
+              loquuntur et decipiunt audientes
+            </p>
+            <p xml:id="ppr-l105-tmdsti">
+              3o modus est per terrores passionare 
+              hominem interius et taliter discribare 
+              potentias interiores quod non 
+              sit distinctio quantum ad sit disterbatum 
+              inter phantasma et obiectum quo 
+              casu stante quod quis interius 
+              occurrit per modum phantasmatis 
+              iudicatur adextra obiective existere 
+              quid quidem terror vel passio inducitur 
+              ab eis ex multiplici 
+              modo et causa primo ex parte loci quia 
+              tales malifici eligunt loca scilicet 
+              solitaria terrorum inducta Ex parte
+            </p>
+            <p xml:id="ppr-l105-sephdf">
+              Ex parte 
+              temporis nam tempore nocturno 
+              et specialiter tenebroso consuerunt 
+              sicut homines de fraudare
+            </p>
+            <p xml:id="ppr-l105-teplpa">
+              Ex parte 
+              verbarum tamen quia sunt ignota 
+              tamen quia ex figuratione locutionis 
+              sunt laesiva potentiae audientis 
+            </p>
+            <p xml:id="ppr-l105-qefpsp">
+              Etiam figura asscriptis quae omnia 
+              simul menta reducunt <unclear>assistentes</unclear> 
+              ad talem statum quod vi terroris 
+              interioris et motuum spiritum ad 
+              intra non distinguunt inter phantasmata 
+              et obiecta sic quoque 
+              illudque inpressum est obicitur 
+              per modum rei adextra obiecte et sic 
+              quidquid occurrit ad intra per modum 
+              phantasmatis repraesentantur quod sit 
+              adextra per modum obiecti 
+              <!-- fuzzy break/parallel-->
+            </p>
+            <p xml:id="ppr-l105-efaemi">
+              <!-- fuzzy break/parallel-->
+              quia quandoque 
+              aliqui crediderunt loqui cum 
+              daemonibus qui se ipsos adhunc 
+              statum reduxerunt assistentes 
+              remanent post in perpetuum laesi 
+              ratione disturbationis spirituum adintra 
+              <unclear>rereducitur</unclear> ad praestivum statum
+              <pb ed="#PV" n="197-r"/>
+              <cb ed="#PV" n="a"/>
+              ymmo quandoque inpurdentes male 
+              dispositi
+            </p>
+          </div>
+          <div xml:id="ppr-l105-Dd1e365">
+            <head xml:id="ppr-l105-Htmdtmd">Tertius modus deceptionis</head>
+            <p xml:id="ppr-l105-aemefm">
+              Alius modus potest 
+              esse per naturam ratione densitatis a aliquo 
+              et hoc dupliciter vel quia eligit 
+              loca ubi sciunt aerem esse tantae 
+              densitatis quod est reflectionis 
+              specierum et ratione frigiditatis noctis 
+              in tantum condensatur quod reflectantur 
+              species sic quod videt homo se videre
+              hominem in alio situ non videt 
+              tamen nisi se ipsum ut <ref>tertio 
+              methelogicorum</ref> dicitur de eutiphone 
+              quid sic videt faciem suam vel 
+              etiam per applicationem alicuius multipliciter 
+              condensantis et per hunc modum 
+              salvantur multae apparentiae 
+              daemonum ubi scilicet sortes vidit se ipsum 
+              in aere existentem credit habere 
+              daemonem propinquum Etiam quo 
+              consurgere potest <unclear>timor de</unclear> <unclear>magico 
+              faciei</unclear> et magna infirmitas 
+              accidentia animae 2m proportionem suae vehentiae 
+              alterant corpus et possunt 
+              quandoque usque ad mortem et sic potest 
+              resolvi ad causas naturales absque 
+              hoc quod recurratur ad daemones
+            </p>
+          </div>
+          <div xml:id="ppr-l105-Dd1e381">
+            <head xml:id="ppr-l105-Hqmdqmd">Quartus modus deceptionis</head>
+            <p xml:id="ppr-l105-qmdrar">
+              Item potest esse ratione considerationis defectus 
+              rei ab alia re
+            </p>
+            <p xml:id="ppr-l105-uneoce">
+              Advertendum 
+              quod secundum quod res videtur sub maiori 
+              angulo secundum hoc indicatur 
+              proportionabiliter esse maior ceteris 
+              paribus et sub minori minor 
+              et sub essentiali essentialis 
+              Ita est demonstrata a <ref><name>vitulone</name> 
+              in quarto suo libro</ref> Et etiam 
+              <ref><name>alacen</name></ref> demonstrat eam quia visio 
+              sit etc ex hoc potest contingere 
+              quod id obiectum parvae quantitatis 
+              ut homo videatur ita magnum 
+              sicut castrum maximum vel terris 
+              <cb ed="#PV" n="b"/>altissima ut posito casu quod homo 
+              et terris elevata videantur sub 
+              eodem angulo adaequate et non 
+              <unclear>distinguantur</unclear> de distantia vel 
+              propinquitate sine dubio homo 
+              iudicatur ita altus sicut terris scilicet 
+              si radius transeat per <unclear>cacimine</unclear> 
+              capitis et non <unclear>disceruatur</unclear> distantia  
+              et sic indicabitur homo daemon 
+            </p>
+            <p xml:id="ppr-l105-eivadn">
+              et sic <unclear>verat</unclear> vitulo de lupo qui sic 
+              videbatur proprie nemus et apparuit 
+              esse ita magnus sicut nemus
+              Sed ipso variebatur angelus 
+              et videbatur sub propria quantitate 
+              et sic possunt applicari obiecta quod videantur 
+              ad essentiales angelos
+            </p>
+            <p xml:id="ppr-l105-ueacid">
+              Advertendum 
+              quod ad debite percipiendum 
+              visu requiruntur 8o scilicet 
+              Ubi est advertendum lux 
+              debita distantia situs magnitudo 
+              soliditas siaphaneitas 
+              tempus <unclear>multiplicia</unclear> convenines et debita 
+              organi dispositio et quia ista possunt 
+              in infinitum variari igitur 
+              deceptiones possunt in infinitum 
+              multiplicari stupor nam alicuius 
+              istorum mutationem <unclear>s?r</unclear> deceptio 
+            </p>
+          </div>
+          <div xml:id="ppr-l105-Dd1e409">
+            <head xml:id="ppr-l105-qnmqnm">Quintus modus deceptionis</head>
+            <p xml:id="ppr-l105-qmiaes">
+              Alius 
+              modus deceptionis potest esse 
+              laedendo organi dispositionum assistentis 
+              nam sicut <sic>corpedo</sic> est pistis quid 
+              cuius actus stupe facit membrorum 
+              ita quod tangendo ipsum membrum 
+              vel maius redditur <unclear>stup?</unclear> 
+              ymmo etiam licet tangat solam per 
+              baculum ut tangit <ref><name>wilhelmus 
+              parisiensis</name> in <title>de universo</title></ref> Et 
+              sic potest visus valde alterari ubi 
+              tamen non est de modo Requiritur 
+              iterum conveniens tempus nam 
+              propter velocitatem motus 
+              punctus circulariter revolutus
+              <pb ed="#PV" n="197-v"/>
+              <cb ed="#PV" n="a"/>videtur esse circulus sicut de baculo 
+              inflammato si revoluatur circulariter 
+              terminus eius videtur esse circulus 
+              propter <unclear>b?titem</unclear> temporis videtur 
+              esse superius et inferius simul 
+              Et ergo propter bi?tem temporis 
+              in quo res ponitur in loco 
+              sensus non sufficit iudicare quod 
+              sit in loco sic resolvantur 
+              omnes <unclear>t?tus</unclear> scilicet ratione brevitatis 
+              quis et velocitatis motus Et fiunt 
+              huiusmodi deceptiones ratione 
+              infirmitatis virtutis rectae distra?tue
+              Ita etiam potest dici de aliis circumstantiis 
+              sive de tempore etc
+
+              quibus utuntur magici in 
+              suis deceptionibus ad extorquendum 
+              pecunias a simplicibus 
+            </p>
+          </div>
+          <div xml:id="ppr-l105-Dd1e421">
+            <head xml:id="ppr-l105-Hsxmsxm">Sextus modus deceptionis</head>
+            <p xml:id="ppr-l105-smesna">
+              Alius modus potest esse per materialium 
+              causarum applicationem quae tamen 
+              ignorantia esse naturales et sic simplices 
+              credunt quod fiunt artedinali 
+              <name>wilhelmus parysiensis</name> ex 
+              cera et pubuere corii sed pen?tis
+              ad usti si fiat candela de 
+              nocete facit apparere festucas 
+              vel iunctos esse serpentes quia 
+              variabitur color 
+              
+              Similiter ut dicit 
+              ratione defectus lucis solum <unclear>quertuum</unclear>
+              apparet esse <unclear>bufo</unclear> et sic <unclear>positum</unclear> infinita 
+              exempla ponit et fiunt tamen per causas 
+              naturales vel per modos tactos
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l105-Dd1e441">
+          <head xml:id="ppr-l105-Hqtmmsp">Quod tales magici nullo modo sunt permittendi</head>
+          <p xml:id="ppr-l105-eqqqvc">
+            patet 
+            finaliter quod tales magici vel 
+            superstitiosi nullo modo sunt in 
+            policia permittendi nam laedunt 
+            illos quos vexant
+          </p>
+          <p xml:id="ppr-l105-sfiasd">
+            2o quia 
+            faciunt ydolatriae scilicet sacrificare 
+            daemonibus
+          </p>
+          <p xml:id="ppr-l105-tqntcd">
+            Item non afferunt 
+            nisi phantasmata 
+            nam apparentiae non 
+            <cb ed="#PV" n="b"/>
+            nisi secundum quod obiciuntur positiviis 
+            interioribus ideo in illis nichil 
+            virtutis reperitur potest tamen altero duorum 
+            modorum contingere
+          </p>
+          <p xml:id="ppr-l105-umedhi">
+            quod occurrat 
+            aliquid <unclear>virtutis<!-- veritatis--></unclear> non ex arte sed culpa 
+            quia creatura totaliter a deo deseritur 
+            et <unclear>diabolam</unclear> subicitur et in penam 
+            peccati cum diabolo conversatur 
+            non vi artis sed ratione culpae 
+            et quandoque deus non permittit quod 
+            <unclear>n?qui</unclear> se subicere diabolo se subiciant 
+            <!-- very fuzzy prallels -->
+          </p>
+         <!--
+           doesn't seem to be present
+           <p xml:id="ppr-l105-amedfq">
+            Alius modus est de Reprobatione malorum 
+            et huiusmodi inquirentibus, 
+            et hoc determinat 
+            <cit>
+              <ref xml:id="ppr-l105-Rd1e466">
+                <name ref="#JohnOfSalisbury">sabiensis[?]</name> 
+                in <title>Summa</title> sua, 
+                libro IIo, 
+                capitulo 17mo
+              </ref>
+              <bibl>XXX</bibl>
+            </cit> 
+            
+            et 
+            <cit>
+              <ref xml:id="ppr-l105-Rd1e481">
+                <name ref="#NicholasOresme">Magister Nicholaus Oresme</name> 
+                in tertio libro de figurationibus 
+                qualitatum
+              </ref>
+              <bibl>XXX</bibl>
+            </cit>.
+          </p>-->
+          <!-- very fuzzy prallels -->
+          <p xml:id="ppr-l105-ismtne">
+            de isto videatur balb?ucio 
+            secundum illusiones quae non fiunt per daemones
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
