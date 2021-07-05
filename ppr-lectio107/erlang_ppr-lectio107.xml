@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 107, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 106, De libertate [Erlangen Transcription]</title>
+          <date when="2021-07-01">July 01, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-07-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="141-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio107">
+      <head xml:id="ppr-l107-Hldlldl">Lectio 107, de Libertate</head>
+        <div xml:id="ppr-l107-Dd1e109">
+          <head xml:id="ppr-l107-Hdevdev">De efficacia verborum</head>
+          <p xml:id="ppr-l107-iplsmp">
+            <lb ed="#E"/>In alia lectione 
+            <lb ed="#E"/>Quia in lectione praecedenti manserunt aliqua scrupulosa Indicam 
+            <pb ed="#E" n="141-v"/>
+            <lb ed="#E"/>Argumenta ut mala sint magis aperta et resoluta primo dictum est quod verbis 
+            <lb ed="#E"/>non debetur nisi naturalis efficacia
+          </p>
+          <p xml:id="ppr-l107-caqeim">
+            <pc type="pilcrow">¶</pc> Contra primo nam vera sacramentalia verba convertunt 
+            <lb ed="#E"/>panem in corpus christi et in baptismo producunt gratiam vel caritatem quia sacramenta novae 
+            <lb ed="#E"/>legis nedum sunt gratiae significativa vel figurativa sed realiter effectiva quia per hoc ponitur 
+            <lb ed="#E"/>differentia inter sacramenta novae legis et sacramenta veteris legis
+          </p>
+          <p xml:id="ppr-l107-snoaee">
+            Secundo non ut collitur 
+            <lb ed="#E"/>ex dictis <name>salburiniensis</name> oratio dominica prolata tempore collectionis herbarum praestat illis vim 
+            <lb ed="#E"/>curandi morbum
+          </p> 
+          <p xml:id="ppr-l107-iceeee">
+            Item capitula evvangelii gestata vel audita inveniuntur profuisse quam 
+            <lb ed="#E"/>plerius
+          </p>
+          <p xml:id="ppr-l107-qisgaa">
+            Item ut dicit <name ref="#JohnOfSalisbury">Salburiensis</name> Symbolum apostolorum daemoniatum a quo gestabatur 
+            <lb ed="#E"/>curavit
+          </p>
+          <p xml:id="ppr-l107-qgplcq">
+            Item intellectus evvangelium Iohannis supponebat <unclear>infrenus</unclear> et curabantur prout recitat 
+            <lb ed="#E"/><ref xml:id="ppr-l107-Rd1e146"><title ref="#Policraticus">policraticus</title></ref>
+          </p>
+        </div>
+        <div xml:id="ppr-l107-Dd1e155">
+          <head xml:id="ppr-l107-Hdesdes">De efficacia sortis</head>
+          <p xml:id="ppr-l107-daqehe">
+            Deinde arguitur quod <name>sors</name> et augurum et talia sint licita et habeant realem efficaciam 
+            <lb ed="#E"/><del rend="strikethrough">entia</del> patet de <name>sorte</name> actuum primo dederunt sortes ex eis et cecidit sors super <name>mathiam</name> ergo 
+            <lb ed="#E"/>apostoli usi sunt sortibus Item <ref>Iosue 7mus</ref> furtum <name>nachor</name> repertum est sorte nam primo 
+            <lb ed="#E"/>misit sortem super tribus deinde super familiam deinde super personas tandem <name>nachor</name> repertus 
+            <lb ed="#E"/>est reus iussum deum Item primo regum 14o capitulo <name>Saul</name> deprehendit <name>Ionathan</name> comedisse 
+            <lb ed="#E"/>vel per sortem Item luce primo Sacharias sorte exivit ut poneret incensum igitur 
+            <lb ed="#E"/>patres usi sunt sortibus in veteri testamento et novo igitur
+          </p>
+        </div>
+        <div xml:id="ppr-l107-Dd1e205">
+          <head xml:id="ppr-l107-Hdeadea">De efficacia augurio</head>
+          <p xml:id="ppr-l107-daspme">
+            de augurio probatur genesis 
+            <lb ed="#E"/>44o capitulo <name>Ioseph</name> dicit fratribus suis an ignora sunt quod non sit similis mei in auguriandi 
+            <lb ed="#E"/>scientia et vocat eam scientia et per consequens efficiam pluries decuit quod aliquod omen boni significatum 
+            <lb ed="#E"/>et aliquod mali patet per valeriarium qui de hoc fecit tytulum in libro suo Et de hoc ponit 
+            <lb ed="#E"/><title>policratus</title> etiam multa exempla in libro primo capitulo finali
+          </p>
+          <p xml:id="ppr-l107-idaale">
+            Item de avibus et ipsarum operationibus 
+            <lb ed="#E"/>et praenostinationibus quae fiunt ex usu auditu vel volatu ponit <name>Salburiensis</name> multa exempla 
+            <lb ed="#E"/>igitur augurum est licitum et habet efficaciam 
+          </p> 
+          <p xml:id="ppr-l107-udasds">
+            unde de <unclear>alceone</unclear> id est de tale ave dicit dum incipit 
+            <lb ed="#E"/>iudificare non est dubium de tempore iudiebus succedentibus quin sit temporate complexarum
+            <lb ed="#E"/>et <unclear>seuum</unclear>
+          </p>
+          <p xml:id="ppr-l107-icacie">
+            Item cum aves fluviales evidentius frequentius <unclear>mergo</unclear> conspicies umbres 
+            <lb ed="#E"/>expecta 
+          </p>
+          <p xml:id="ppr-l107-iccnpp">
+            Item cum clamorem cernicis audias matutinam fluviam petit id est significat 
+          </p>
+          <p xml:id="ppr-l107-iplssp">
+            <lb ed="#E"/>Item <title>policratus</title> capitulo 4o libro 2o ponit multa signa quae processerunt imminente <unclear>Ie<lb ed="#E"/>rusolorum</unclear>
+            excidio ut eclipsis lunae per 12 quia noctes per quod pro <unclear>digni</unclear> significabatur iudaeorum 
+            <lb ed="#E"/>excidium et quia noluerunt accipere verum lumen a christo ideo eclipsis etc Item sicut de luna qua 
+            <lb ed="#E"/>significat populum iudaicum <name>Salburiensis</name> allegat stultus mutatur ut luna sapiens cum sole 
+            <lb ed="#E"/>manet Per lunam intelligatur populus iudaicus per solem christus
+          </p>
+        </div>
+        <div xml:id="ppr-l107-Dd1e294">
+          <head xml:id="ppr-l107-Hraadev">Responsio ad argumenta de efficacia verborum</head>
+          <p xml:id="ppr-l107-psihvf">
+            <pc type="pilcrow">¶</pc> Pro solutione advertendum 
+            <lb ed="#E"/>Quod non reprobavi efficaciam esse in verbis sed reprobavi illam quam magici et malifici 
+            <lb ed="#E"/>eis attribuunt Posui quod habeant multiplicem naturalem efficaciam ymmo ad interficiendum ut in praesenti 
+            <lb ed="#E"/>lectione et quod habeant vim <unclear>passiandi</unclear> iudices Patet perfecta Ramorum ymmo <name>tulius</name> quasi <unclear>renal<lb ed="#E"/>uebat</unclear> 
+            ad nutum scilicet inclinavit homines ad prosequendum vel fugiendum dicit <name>Tullius</name> 
+            <lb ed="#E"/>quod oratione homines silvestres et quasi bestiales facti sunt deum et quasi civiles Et sic legitur de 
+            <lb ed="#E"/>quodam philosopho quia ita <unclear>efficaliter</unclear> per sermonem suum sua sit animae inmortalitatem ut aliqui se interficerent 
+            <lb ed="#E"/>pro vita futura habenda
+          </p>
+          <p xml:id="ppr-l107-epmdev">
+            <pc type="pilcrow">¶</pc> Advertendum quod praeter modos tactos in lectione praecedenti quibusdam verbis 
+            <lb ed="#E"/>attribuitur maxima efficacia unde verbis sacramentalibus potest attribui vis productiva gratiae non quidem 
+            <lb ed="#E"/>ex natura proprie sed miraculose elevando scilicet accidentia super naturae facultatem <name>magister</name> dicit quod <quote xml:id="ppr-l107-Qsnleqf" source="http://scta.info/resource/pl-l4d22c2-d1e134">sacramenta 
+            <lb ed="#E"/>novae legis realiter efficiunt quod sufficiant</quote>
+          </p>
+          <p xml:id="ppr-l107-smpnes">
+            secundus modus potest esse quod verba habeant efficaciam 
+            <lb ed="#E"/>per modum meriti ita quod vera prolato sint meritoria opera et boni temporalis vel gratiae acquisitiva 
+            <lb ed="#E"/>Et sic oratio dominica est meritoria gratiae vel sanitatis <del rend="strikethrough">potest</del> vel potest esse inpetrativa quod haec verba 
+            <lb ed="#E"/>habeant pro tunc hanc efficaciam ad curandum habet <unclear>is?em</unclear> qui est utilis politiae et sic 
+            <pb ed="#E" n="142-r"/>
+            <lb ed="#E"/>non esset inconveniens dicere orationes devotas scilicet petendo per modum meriti gratiam sanitatis habuit conferri 
+            <lb ed="#E"/><name>Apostolus</name> <quote xml:id="ppr-l107-Qd1e339" source="http://scta.info/resource/col3_17">omnia quae facitis in nomine domini facite</quote>
+          </p>
+          <!--doesn't seem present -->
+          <!--<p xml:id="ppr-l107-eqamhi">
+            Ex quo apparet quod verbum prolatum isto modo 
+            haberet efficaciam et maxime tenendo quod actus exteriores 
+            nihil addunt bonitatis vel malitiae habitibus 
+            interioribus.
+          </p>-->
+          <p xml:id="ppr-l107-tpivnp">
+            Tertio potest ymaginari quod verba habent efficaciam per modum 
+            <lb ed="#E"/>causae <seg type="correction">sin<add place="above-line">e</add></seg> qua non isto modo ymaginantur plures quod verba sacramentalia habent efficaciam respectu gratiae non quod eam 
+            <lb ed="#E"/>producant sed ex ordinatione divina factam est quod ad baptizandum requiruntur verba et quantumque proferuntur 
+            <lb ed="#E"/>aliis causis concurrentibus deus se solo infundit gratiam quamquam tamen ipsa verba non produ<lb ed="#E"/>cunt
+          </p> 
+          <p xml:id="ppr-l107-qvhpsr">
+            Quarto quod haberet efficaciam ex spirituali dei providentia in suplementum virtutum deficientium 
+            <lb ed="#E"/>in necessitate verbi <unclear>gratia</unclear> quia forte in hoc climate sunt aliqui morbi et quia deus et natura sufficienter provi<lb ed="#E"/>derunt 
+            in alio non est inconveniens quod quibusdam verbis daretur efficacia herbarum deficientium et non 
+            <lb ed="#E"/>sequitur ex hoc superstitio utrum sit vel ne non discutio pro praesenti et sic salvaretur de cura equorum 
+            <lb ed="#E"/>non assero dico tamen esse possibile
+          </p>
+          <p xml:id="ppr-l107-qpvvhe">
+            Quinto ex poteste faciendi mirabilia concessa alicui bono 
+            <lb ed="#E"/>viro nam data potestate faciendi miracula quis potest uti certis verbis in exequendo tanquam 
+            <lb ed="#E"/>mediis causis ad quorum probationem sequitur circa secundum quod libuit eligere Et sic sive dicat in nomine 
+            <lb ed="#E"/>patris vel christi vel trinitatis huiusmodi christum poterit habere efficaciam curandi
+          </p>
+          <p xml:id="ppr-l107-sdqeod">
+            Sexto dico 
+            <lb ed="#E"/>quod haec oratio <unclear>dominica</unclear> applicata aliter quam per modum orationis meritorie et devote vel evvangelium 
+            <lb ed="#E"/>applicatum ad infirmum nisi referatur ad deum et dei gratiae inpetrationem peccatum est ymmo illi<lb ed="#E"/>citum 
+            et supersticiosum sicut malifici consuerunt sacramenta vel maleficia sua applicare et 
+            <lb ed="#E"/>orationes devotas
+          </p>
+          <p xml:id="ppr-l107-sdqsma">
+            dico quod hoc est superstitiosum et oratio non habet efficaciam nisi forte per istum 
+            <lb ed="#E"/>modum quia tamen delirat vel offendet rem sacram quod vi peccati deseritur a deo et relin<lb ed="#E"/>quitur 
+            servituti dyaboli et quandoque deus permittit quod dyabolus illudit et facit miranda 
+          </p>
+          <p xml:id="ppr-l107-eqasia">
+            Et sic patet 
+            <lb ed="#E"/>quid dicendum est de vi verborum
+          </p> 
+        </div>
+        <div xml:id="ppr-l107-Dd1e386">
+          <head xml:id="ppr-l107-Hraaads">Responsio ad argumenta de sorte</head>
+          <!-- doesn't seem present  in pal lat-->
+          <p xml:id="ppr-l107-saaslu">
+            <pc type="pilcrow">¶</pc> Ad aliud de sorte multipliciter capitur sors aliae acceptionis 
+            <lb ed="#E"/>sunt inpertinens ad propositum capitur hic quando profertur aliquod verbum vel fit aliquid ad <unclear>inve?dum</unclear> occultum 
+            <lb ed="#E"/>maxime quando effectus medius est sine deliberatione vel electione humana in decretis distinctione 26a 
+            <lb ed="#E"/>dicitur quod sortes quaedam sunt licite quod illicite Illicite sint quae <unclear>faciunt</unclear> cum coniurationibus 
+            <lb ed="#E"/>et figuris sicut gemoantia et isti sunt dampnanda 
+          </p>
+          <p xml:id="ppr-l107-aesfed">
+            Alia potest esse sortis causa necessitatis 
+            <lb ed="#E"/>et ibi esset paritas et determinatio respectu humanae diligentiae in illo casu non esset inconveniens committere 
+            <lb ed="#E"/>divinae providentiae quae nichil facit a casu
+          </p>
+          <p xml:id="ppr-l107-etnehc">
+            <pc type="pilcrow">¶</pc> Advertendum quod propter speciem mali ecclesia in electio<lb ed="#E"/>nibus 
+            rationaliter prohibuit sortes satis habetur in <ref xml:id="ppr-l107-Rd1e401" target="http://scta.info/resource/gd-p2c26q1-d1e112">decretis 26 d</ref> quantum est de sortibus in sacra scrip<lb ed="#E"/>tura 
+            repertis dicitur quod fuerunt licite vel a deo vel ex necessitate omnes dictae processerunt 
+            <lb ed="#E"/>quod factae fuerunt per divinam dispensationem 
+          </p>
+        </div>
+        <div xml:id="ppr-l107-Dd1e413">
+          <head xml:id="ppr-l107-Hraaada">Responsio ad argumenta de augirio</head>
+          <p xml:id="ppr-l107-daanos">
+            <pc type="pilcrow">¶</pc> De augurio <name>Ioseph</name> respondendum est primo quod au<lb ed="#E"/>gurum 
+            est omnino illicitum et semper fuit leviticis 19o capitulo <quote xml:id="ppr-l107-Qnannos" source="http://scta.info/resource/lev19_26">non <unclear>auguriabimus</unclear> non observatis 
+            <lb ed="#E"/>sompno</quote>
+          </p>
+          <p xml:id="ppr-l107-idnerf">
+            Item <ref xml:id="ppr-l107-Rd1e438"><title ref="#deut">deuteronomium</title> 18o capitulo</ref> <quote xml:id="ppr-l107-Qniisea" source="http://scta.info/resource/deut18_10">non inveniuntur <del rend="strikethrough">inq</del> in te qui observabunt sompnia 
+            <lb ed="#E"/>atque auguria</quote> Ad <name>Ioseph</name> quia dixit <unclear>hii</unclear> ignoratis <add place="above-line">etc</add> ego confitetur se esse augurem 
+            <lb ed="#E"/>quod non faceret nisi esse res ficta
+          </p>
+          <p xml:id="ppr-l107-rsueva">
+            Respondetur 2m viam postillam quod cepit speciem pro genere nam <name>Ioseph</name> 
+            <lb ed="#E"/>habuit spiritum propheticum et habuit gratiam cognoscendi futura et expressit sub vocabulo speciali 
+            <lb ed="#E"/>scilicet auguriandi 
+          </p>
+          <p xml:id="ppr-l107-sdasdq">
+            Aliter dicunt alii quod ioco vel Iocose loquebatur fratribus et quasi derisorie
+          </p> 
+          <p xml:id="ppr-l107-tdqsdq">
+            Tertio 
+            <lb ed="#E"/>dicunt alii quod propositio sua non est assensiva sed pure interrogativa quia dicitur an igno<lb ed="#E"/>ratis 
+            etc Ibi est interrogatio nec est vera nec falsa nec ex ea sequitur aliquid
+          </p>
+          <p xml:id="ppr-l107-qsassa">
+            Quarto resolvit 
+            <lb ed="#E"/>reprobando augurium nam <unclear>nolebat<!-- volebat --></unclear> a fratribus cognosci ideo sciens quod apostolus electus dei 
+            <lb ed="#E"/>summe augurium detestabatur dicebat se habere illud quod summe odiunt <name>Iacob</name> et sui ne 
+            <lb ed="#E"/>cognosceretur ab eis
+          </p>
+          <p xml:id="ppr-l107-qdqsaq">
+            Quinto diceretur quod non esset inconveniens concedere quod patres sancti aliquando de<lb ed="#E"/>fecissent 
+            et peccassent sicut de apostolis legitur quod in fide dubitaverunt ut legitur <name>petrum apostolum</name> 
+            <lb ed="#E"/>negasse christum <unclear>Sto</unclear> tamen magis <unclear>in 4or</unclear> prioribus vel in aliqua earum quae licet sufficit
+          </p>
+          <p xml:id="ppr-l107-ctmpss">
+            <lb ed="#E"/>Circa materiam augurii advertendum quod in volatu avium specialiter vocibus et aliis mu<lb ed="#E"/>tationibus 
+            potest quandoque aliquod futurum cognosci pure naturaliter etiam maioris animalium ymmo etiam
+            <pb ed="#E" n="142-v"/>
+            <lb ed="#E"/>elementarum et sine superstitione vel saltem potest coniecturari
+          </p>
+          <p xml:id="ppr-l107-ueaeai">
+            Advertendum quod animalia bruta quia 
+            <lb ed="#E"/>non habent prudentiam nec considerant de futuris ideo in eis non est sollicitudo nec occupatio sicut 
+            <lb ed="#E"/>in hominibus qui per talia afficiuntur et occupantur quod etc Bruta talia non habent ideo anum<lb ed="#E"/>mo 
+            obiecto mutantur et percipiunt mutationem ubi homo non perciperet quia homo vehementioribus mutationibus 
+            <lb ed="#E"/>agitatur et sic aves propter mutationem factam in agere vel in alio elemento vel etiam in influen<lb ed="#E"/>tiis 
+            celestibus mutant suos motus tam in motu locali quam in voce Ideo <unclear>ex pugna</unclear> <unclear>cor<lb ed="#E"/>ruorum</unclear> 
+            praenoscunt aliqui bella Et si bene praevideatur non potest ratione influentiae coleam moveri 
+            <lb ed="#E"/>et ex hoc potest insurgere pugna inter aves et quia influentia est generalis potest movere homines 
+            <lb ed="#E"/>non oporteat sequi sed est dispositio vitae librum arbitrium potest corrigere passiones et quan<lb ed="#E"/>tum 
+            ad hoc non esset illicitum nec prohibitum et sic salvantur experientiae inductae de avibus
+          </p>
+        </div>
+        <div xml:id="ppr-l107-Dd1e505">
+          <head xml:id="ppr-l107-Hrdordo">Responsio de <unclear>ognimibus</unclear></head>
+          <p xml:id="ppr-l107-rtrvem">
+            <lb ed="#E"/>Restat respondere de avibus quod sunt vanitates vel <seg type="correction">mendac<add place="below-line">i</add>a</seg> 
+          </p>
+          <p xml:id="ppr-l107-sdqleo"><!-- needs change in ordinatio version -->
+            vel quandoque per accidens potuit contin<lb ed="#E"/>gere 
+            talis effectus nam quid ex connectione sed mere per accidens ut si sortes cadat exeundo 
+            <lb ed="#E"/>domum per accidens potest contingere quod obviaret sibi inimicus 
+          </p>
+          <p xml:id="ppr-l107-tdqlpn"><!-- need id adjustment -->
+            vel 3o potest contingere quod de meri<lb ed="#E"/>tis 
+            exigentibus illudantur a dyabolo et hoc dicit <ref xml:id="ppr-l107-Rd1e526"><name ref="#JohnOfSalisbury">salburiensis</name></ref> Advertendum quod divina providentia 
+            <lb ed="#E"/>ad morum honestatem consueverunt emittere <sic>prodigiant</sic> terreantur mali et sic de eclipsi 
+            <lb ed="#E"/>lumine factum fuit ut iudaei territi conversi fuissent ad <unclear>uni</unclear> christi cultum
+          </p>
+          <p xml:id="ppr-l107-udqfad">
+            ultimo in <ref xml:id="ppr-l107-Rd1e551"><title ref="#Decretals">decreto</title></ref> 
+            <lb ed="#E"/>condempnatur usus astrologorum dicitur quod quantum ad fabricam ymaginum et quantum ad horas et 
+            <lb ed="#E"/>certas constellationes et ad invocandum daemones et etiam usus astrolabii ad idem per quod inve<lb ed="#E"/>nitur 
+            ascendens ec reprobantur et condempnantur Scientia tamen quantum ad motus et 
+            <lb ed="#E"/>iudicia aliqua non debet reprobari Sequitur etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
