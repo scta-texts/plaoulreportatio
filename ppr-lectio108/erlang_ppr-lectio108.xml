@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 108, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 108, De libertate [Palantine Transcription]</title>
+          <date when="2021-09-01">September 01, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="142-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio108">
+        <head xml:id="ppr-l108-Hldlldl">Lectio 108, de Libertate</head>
+        <div xml:id="ppr-l108-Dd1e109">
+          <head xml:id="ppr-l108-Hqeiqpc">Quod esse in homine liberum arbitrium est nedum a catholico fideli et a quolibet philosopho concedendum</head>
+          <p xml:id="ppr-l108-eqpqdp">
+            <lb ed="#E"/>Alia lectione Sequitur
+            <lb ed="#E"/>Quia plures gentilium dixerunt quod fatum inponit neccessitatem et tollit librum arbi<lb ed="#E"/>trium 
+            sic prima propositio Esse in homine librum arbitrium est negandum a catholico fideli sed etiam a quolibet 
+            <lb ed="#E"/>philosopho confitendum vel concedendum Apparet primo experientia actuum nostrorum nam quilibet potest experiri 
+            <lb ed="#E"/>de motu digiti ad quamcumque differentiam homo voluerit 
+          </p>
+          <p xml:id="ppr-l108-snssla">
+            Item nisi sic subverteretur tota moralis 
+            <lb ed="#E"/><del rend="strikethrough">philosophica</del> politia <ref xml:id="ppr-l108-Rd1e124">3o ethicorum <name>philosophus</name></ref> ponit quod ad virtuose operandum concurrit aliquod voluntarium 
+            <lb ed="#E"/>propter quod <name ref="#Cicero">tullius</name> secundum <ref xml:id="ppr-l108-Rd1e142"><name ref="#Augustine">augustinus</name> in quinto <title ref="#CityOfGod">de civitate dei</title></ref> considerans quod oportet alterum duorum 
+            <lb ed="#E"/>concedere vel quod omnia de necessitate evenirent vel quod deus non cognosceret futura adextra vel 
+            <lb ed="#E"/>quod praevideret et quia reputabat primum magis inconveniens tenuit secundum dixit deum non praevidere 
+            <lb ed="#E"/>futurum contingentia probatur etiam ex sacra scripturam
+          </p>
+          <!-- fuzzy break -->
+          <p xml:id="ppr-l108-taeela">
+            unde <ref xml:id="ppr-l108-Rd1e160"><name ref="#RichardFitzRalph">Alkindus</name> <unclear>5o</unclear> hoc <title ref="#deQuaestionibusArmenorum">de quaestionibus armenorum</title></ref> 
+            <lb ed="#E"/>ponit ad hoc innumerales auctoritates 
+          </p>
+          <!-- fuzzy break -->
+          <p xml:id="ppr-l108-qeaper">
+            in <ref xml:id="ppr-l108-Rd1e176">evvangelio</ref> <quote xml:id="ppr-l108-Qapqdla" source="http://scta.info/resource/mt26_53"><unclear>quin</unclear> putatis quod non possum rogare patrem meum 
+            <lb ed="#E"/>exhibebit in plus quam</quote> etc ergo concedit se posse quod non facit 
+          </p>
+          <p xml:id="ppr-l108-eqppdp">
+            Item negare libertatem 
+            <lb ed="#E"/>a nobis est negare a quolibet etiam a deo 
+          </p>
+          <!--
+            doesn't seem present 
+            <p xml:id="ppr-l108-iinqla">  
+            Isti igitur negant esse in quolibet libertatem 
+            arbitrii.
+          </p>
+          <p xml:id="ppr-l108-eqaetp">
+            Ex quo apparet quod ex divina provisione 
+            sequitur necessitans ita quod sequitur quod non posset non 
+            producere effectum tempore praefixo.
+          </p>-->
+          <p xml:id="ppr-l108-qaeela">
+            Item salvator <name ref="#Apostles">apostolis</name> dicit <quote xml:id="ppr-l108-Qd1e204" source="http://scta.info/resource/mt26_40@13-18">non potuistis una 
+            <lb ed="#E"/>hora <unclear>vigilare</unclear> mecum</quote> denotans esse in libertate eorum vigilare Et de sanctis legitur Qui 
+            <lb ed="#E"/>potuit transgredi et non est transgressus 
+          </p> 
+        </div>
+        <div xml:id="ppr-l108-Dd1e206">
+          <head xml:id="ppr-l108-Heifeif">Error Iulii Firmici</head>
+          <p xml:id="ppr-l108-eqaece">
+            Sequitur error illius <ref xml:id="ppr-l108-Rd1e215"><name>iulii firmici</name> Qui in principio suae <title>as<lb ed="#E"/>trologiae</title></ref> 
+            expresse ponit quod constellatio et dispositio siderum est fatum simpliciter necessitans respectum 
+            <lb ed="#E"/>cuiuscumque operationis apparet clare quia iste tollit libertatem arbitrii simpliciter respectu cuiuscumque 
+            <lb ed="#E"/>operationis 
+          </p>
+          <p xml:id="ppr-l108-sqacim">
+            Secundo quia actiones liberas a voluntate libera dependentes reducit indis<lb ed="#E"/>positiones
+            siderum
+          </p>
+        </div>
+        <div xml:id="ppr-l108-Dd1e230">
+          <head xml:id="ppr-l108-Heraera">Error Alkindi</head>
+          <p xml:id="ppr-l108-saimni">
+            <sic>Similiter<!-- might also be similiter in Pal lat --></sic> consimiliter error <ref xml:id="ppr-l108-Rd1e239"><name ref="#Alkindi">alkindi</name> in libro suo <title ref="#deRadiisStellicis">de radiis stellicis</title></ref> qui ponit 
+            <lb ed="#E"/>quod in celesti armonia relucent omnes effectus reluceret <del rend="strikethrough">in</del> <unclear>quam</unclear> necessitate eveniendi
+          </p>
+          <p xml:id="ppr-l108-eqdnan">
+            Infert <name>alkin<lb ed="#E"/>dus</name>
+            quod non est differentia inter possibili et necessarium sed ponimus differentiam propter ignorantiam causarum
+          </p>
+          <p xml:id="ppr-l108-siqcpa">
+            Consequenter 
+            <lb ed="#E"/>infert qui celestem armoniam perfecte cognosceret causa praesentia praeterita et futura praevideret 
+            <lb ed="#E"/>et cognosceret apparet error quia tollit libertatem arbitrii et ponit celum influere respectu 
+            <lb ed="#E"/>operationum voluntariarum <ref xml:id="ppr-l108-Rd1e261"><name ref="#Ptolemy">Ptolomeus</name> in <title ref="#Centiloquium">centiloquo</title></ref> dicit quod iudicia astrorum sunt inter 
+            <pb ed="#E" n="143-r"/>
+            <lb ed="#E"/>necessariam et possibile id est sunt contingentia et in illa propositione eiusdem <title>centiloquii</title> ponit quod bonus 
+            <lb ed="#E"/>astrologus posset adiuvare opera humana sicut cultor agrum ut sit vertilis quia visa dispositione aeris 
+            <lb ed="#E"/>si labatur ad nimiam caliditatem per bonum regimen ad applicationem frigidorum conservabitur quod influentia 
+            <lb ed="#E"/>non nolebit ergo elicitur ex illa propositione Alia propositio quam neccessario ponit ea in forma quod sapiens 
+            <lb ed="#E"/>dominabitur astris et iste incomparabiliter fuit excellentior quam <name>alkindus</name>
+          </p>
+        </div>
+        <div xml:id="ppr-l108-Dd1e279">
+          <head xml:id="ppr-l108-Hecsecs">Error Ciceronis</head>
+          <p xml:id="ppr-l108-sctcao">
+            Sequitur contra <name ref="#Cicero">tullium</name> et suos 
+            <lb ed="#E"/>sequaces quod cum immutabilitate divinae providentiae stat executionis contingentia unde haec copulativa est concedenda 
+            <lb ed="#E"/>a catholico deus res ab aeterno praevidit et contingenter evenient 
+          </p>
+        </div>
+        <div xml:id="ppr-l108-Dd1e295">
+          <head xml:id="ppr-l108-Haeraer">Alia error</head>
+          <p xml:id="ppr-l108-eqpier">
+            Ex quo patet error illorum 
+            <lb ed="#E"/>qui ex hac radice neccessitatem fati assentiunt unde ymaginatio aliquorum fuit quod providentia divina 
+            <lb ed="#E"/>ab aeterno praevidit et sapientissime et optime ordinavit ad addunt quod non stat aliter fieri 
+            <lb ed="#E"/>primo quia tunc deus mutaretur in consilio Secundo quia eligeret minus unde <unclear>uniri</unclear> tamen optime ordinavit 
+          </p>
+          <!-- fuzzy parallel -->
+          <p xml:id="ppr-l108-eehssm">
+            Et dicunt quod ordo et executio dicitur providentiae est inmutabilis et hoc vocant fatum patet error nam 
+            <lb ed="#E"/>quamvis divinam providentia sit absolute inmutabilis tamen stat libertas arbitrii Et illud quod praevidit 
+            <lb ed="#E"/>potest non fore Et illa difficultas tractabitur suo loco
+          </p>
+        </div>
+        <div xml:id="ppr-l108-Dd1e310">
+          <head xml:id="ppr-l108-Haaeaae">Alia error</head>
+          <p xml:id="ppr-l108-sedeaf">
+            Sequitur ulterius error dicentium 
+            <lb ed="#E"/>ex infallibili deorum suam fati neccessitatem contingere vel esse a vetulis dictum est de neccessitate 
+            <lb ed="#E"/>puerorum apparet fatales deae quarum dicta vocantur fata ad hoc dictum est prius Sed nulla 
+            <lb ed="#E"/>sequitur neccessitas nam spiritus maligni sunt mendaces ideo eorum dictum non ponit neccessitatem 
+          </p>
+          <p xml:id="ppr-l108-sddudp">
+            2o 
+            <lb ed="#E"/>quia dictum dei non inponit neccessitatem ut patebit in materia de revelationibus
+          </p>
+        </div>
+        <div xml:id="ppr-l108-Dd1e328">
+          <head xml:id="ppr-l108-Hepmepm">Error philosophorum</head>
+          <p xml:id="ppr-l108-eqspmi">
+            Sequitur error aliquorum 
+            <lb ed="#E"/>philosophorum circa materiam fati dubium quod hymermanas habet se per modum seminis necessitas per modum 
+            <lb ed="#E"/>germinis ordo texturae per modum fluxus id est positionis rei in esse <ref><name>Albertus</name> tractat istam ymaginationem 
+            <lb ed="#E"/>in libro de causis</ref> et dicit eam esse <name>aristotelis</name> talis est ymaginatio quod aliqua sunt inmaterialia sicut deus 
+            <lb ed="#E"/>et intelligentiae secundum ipsum et alia quantum ad aliud in corpora celestia alia sunt materialia ut 
+            <lb ed="#E"/>materia generabilium et corruptibilium
+          </p>
+          <p xml:id="ppr-l108-sqpiii">
+            Tunc consequenter quamvis esset defectus ex parte materiae flui<lb ed="#E"/>tantis 
+            et distinctis a principio de neccessitate evenirent Istud est erroneum quia tollit libertatem a primis 
+            <lb ed="#E"/>causis Etiam ex parte agentium ponit neccessitatem in effectibus
+          </p>
+        </div>
+        <div xml:id="ppr-l108-Dd1e367">
+          <head xml:id="ppr-l108-Hcnocno">Conclusio</head>
+          <p xml:id="ppr-l108-eehede">
+            Et sic apparet quod omnibus istis modis 
+            <lb ed="#E"/>praedictis fatam nichil est ymmo fictum
+          </p>
+          <p xml:id="ppr-l108-netpeb">
+            Advertendum quod fatum aliter potest capi multipliciter sicut patebit in 
+            <lb ed="#E"/>lectione sequenti
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
