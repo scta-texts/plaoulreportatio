@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 109, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 109, De libertate [Palantine Transcription]</title>
+          <date when="2021-10-01">October 01, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-10-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="203-v"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio109">
+        <head xml:id="ppr-l109-Hldlldl">Lectio 109, de Libertate [Palatine Transcription]</head>
+        <div xml:id="ppr-l109-Dd1e109">
+          <head xml:id="ppr-l109-Hrqeecf">Recapitulatio: quattuor errores circa fatum</head>
+          <p xml:id="ppr-l109-eplafm">
+            <lb ed="#PV"/>In alia lectione
+            <lb ed="#PV"/>Ex praecedenti lectione apparuit circa 
+            <lb ed="#PV"/>fatum quadruplex error primus
+            <lb ed="#PV"/>dubium causarum superiorem ordinem
+            <!-- something corrupt in text here -->
+            <lb ed="#PV"/>et <del rend="strikethrough">esse</del> <unclear>seminem</unclear> <add place="above-line">s?r?r</add> esse fatum <pc type="virgula">/</pc> 4us dubium
+            <!-- something corrupt in text here -->
+            <lb ed="#PV"/>ex immobilitate divinae providentiae 
+            <lb ed="#PV"/>immutabitur et inevitabiliter omnes 
+            <pb ed="#PV" n="204-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>effectus esse contingentes 4us 
+            <lb ed="#PV"/>error est philosophorum resolventium  
+            <lb ed="#PV"/>ad inperfectionem materiae quae non 
+            <lb ed="#PV"/>potest sufficienter inmutari primum et 
+            <lb ed="#PV"/><unclear>sperna</unclear> si sic semper esset in actu 
+          </p>
+          <p xml:id="ppr-l109-eqacla">
+            <lb ed="#PV"/>Et ideo triplicem posuerunt <unclear>viver<lb ed="#PV"/>sermine</unclear>
+            etiam sub primo primo posue<lb ed="#PV"/>runt 
+            intelligentias quas immutabiles 
+            <lb ed="#PV"/>scilicet <unclear>hymermanem</unclear> in quibus sunt 
+            <lb ed="#PV"/>semina deinde in causis subor<lb ed="#PV"/>dinatis 
+            eis inmutabiliter moventibus 
+            <lb ed="#PV"/>secundum casum et vocaverunt neces<lb ed="#PV"/>sitatem 
+            in quibus sunt tamquam 
+            <lb ed="#PV"/>in germine 3m posuerunt 
+            <lb ed="#PV"/>in generabilibus et corruptibilibus 
+            <lb ed="#PV"/>quae non possunt primum sufficienter 
+            <lb ed="#PV"/>immutari et vocaverunt textu<lb ed="#PV"/>ram
+            et sic posuerunt tres deas 
+            <lb ed="#PV"/>vel tria fata scilicet <name>latensis</name>, <name>atropos</name>.
+          </p>
+        </div>
+        <div xml:id="ppr-l109-Dd1e136">
+          <head xml:id="ppr-l109-Hqerqer">Quintus error</head>
+          <p xml:id="ppr-l109-htqned">
+            <lb ed="#PV"/>addo quinto errorem negantium 
+            <lb ed="#PV"/>fatum maxime propter radicem 
+            <lb ed="#PV"/>negationis nam <name><sic>anexagoras</sic></name> 
+            <lb ed="#PV"/>et alii philosophi negaverunt connexationem 
+            <lb ed="#PV"/>causarum ideo dixerunt omnia 
+            <lb ed="#PV"/>a casu contingere et sic nichil 
+            <lb ed="#PV"/>esse fatum ideo negaverunt fatum
+          </p>
+          <p xml:id="ppr-l109-eehilp">
+            <lb ed="#PV"/>ex illa radice et positio illa ad men<lb ed="#PV"/>tem 
+            ponentium est erronea dixi 
+            <lb ed="#PV"/>in reprobatione huius erroris quod ex 
+            <lb ed="#PV"/>radice erroris non pono in 
+            <lb ed="#PV"/>se reprobatur nam dicit <name>gregorius</name> 
+            <lb ed="#PV"/>in omelia <sic>ephiphaniae</sic> <!-- quote here --> Absit in
+            <lb ed="#PV"/>mentibus fidelium quod aliud esse fa<lb ed="#PV"/>tum 
+            dicam et sic videtur negare 
+            <lb ed="#PV"/>fatum intelligit tamen secundum 
+            <lb ed="#PV"/>praedictus modos <ref xml:id="ppr-l109-Rd1e171"><name ref="#Augustine">Augustinus</name> 5o <title ref="#CityOfGod">de 
+            <lb ed="#PV"/>civitate dei</title></ref> <quote xml:id="ppr-l109-Qd1e182" source="http://scta.info/resource/adcd-l5-d1e664@52-70">si quis virtutem 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>vel potestatem dei nomine fati appellet 
+            <lb ed="#PV"/>sententiam teneat et linguam corrigat</quote>
+            <lb ed="#PV"/>et si dicatur de <ref xml:id="ppr-l109-Rd1e197"><name ref="#Boethius">boetio</name> qui usus 
+            <lb ed="#PV"/>4o <title ref="#Consolation">de consolatione</title> prosa sexta</ref> <unclear>illo</unclear>
+            <lb ed="#PV"/><unclear>termino</unclear> Respondetur quod usus est more poe<lb ed="#PV"/>tico
+          </p>
+          <p xml:id="ppr-l109-sdqnep">
+            2o licet apud vulgus vel 
+            <lb ed="#PV"/>simplices usus illius vocabu<lb ed="#PV"/>li 
+            sit periculosus ne vulgus 
+            <lb ed="#PV"/>coincidat cum sententia gentilium 
+            <lb ed="#PV"/>apud tamen doctores nullum 
+            <lb ed="#PV"/>est periculum 
+          </p>
+        </div>
+        <div xml:id="ppr-l109-Dd1e215">
+          <head xml:id="ppr-l109-Hqfmibs">Quod fatum multipliciter potest accipi in bona significatione</head>
+          <p xml:id="ppr-l109-uneibs">
+            Advertendum quod fa<lb ed="#PV"/>tum 
+            potest multipliciter accipi in 
+            <lb ed="#PV"/>bona acceptione vel sermone
+          </p> 
+          <div xml:id="ppr-l109-Dd1e223">
+            <head xml:id="ppr-l109-Hpafpaf">Prima acceptatio fati</head>
+            <p xml:id="ppr-l109-uugsdf">
+              ut 
+              <lb ed="#PV"/>patet per <ref xml:id="ppr-l109-Rd1e230"><name ref="#WilliamOfParis">wuilhelum parisiensis</name></ref> unde 
+              <lb ed="#PV"/>dicit quod <quote xml:id="ppr-l109-Qd1e238">fatum potest dici a <unclear>for<!-- sor? --></unclear> 
+              <lb ed="#PV"/>faris</quote> id est loqui vel dicere Nunc 
+              <lb ed="#PV"/>inter omnia sine competit deo 
+              <lb ed="#PV"/>esse verbum omnium expressivum verbum 
+              <lb ed="#PV"/>scilicet essentiale quod competit cuilibet 
+              <lb ed="#PV"/>persone et toti trinitati Etiam 
+              <lb ed="#PV"/>verbum notionale quod competit 
+              <lb ed="#PV"/>filio et nulli alteri et ergo tota 
+              <lb ed="#PV"/>trinitas personarum potest dici 
+              <lb ed="#PV"/>fatum quasi <unclear>finis</unclear> vel producens 
+              <lb ed="#PV"/>omnia et maxime filius <quote xml:id="ppr-l109-Qpqoofs" source="http://scta.info/resource/io1_3">per 
+              <lb ed="#PV"/>quem omnia facta sunt</quote> <!-- quote here --> 
+              
+            </p>
+          </div>
+          <div xml:id="ppr-l109-Dd1e287">
+            <head xml:id="ppr-l109-Hsafsaf">Secunda acceptatio fidei</head>
+            <p xml:id="ppr-l109-smsdcd">
+              <sic>3o</sic> 
+              <lb ed="#PV"/>pro divina providentia quae specialiter 
+              <lb ed="#PV"/>est rerum in suum finem directus 
+              <lb ed="#PV"/>hoc tangit <ref xml:id="ppr-l109-Rd1e296"><name ref="#Augustine">augustinus</name> quinto <title ref="#CityOfGod">de ci<lb ed="#PV"/>vitate 
+              dei</title></ref>
+            </p>
+          </div>
+          <div xml:id="ppr-l109-Dd1e311">
+            <head xml:id="ppr-l109-Htaftaf">Tertia acceptatio fati</head>
+            <p xml:id="ppr-l109-tmstou">
+              <sic>2o</sic> principaliter 
+              <lb ed="#PV"/>dicit fatum vel capitur in bona 
+              <lb ed="#PV"/>sermone pro efectu divinae providentiae 
+              <lb ed="#PV"/>vel executione ymaginandum est quod di<lb ed="#PV"/>vina 
+              providentia est tamquam spe<lb ed="#PV"/>culum intelligibile et mundus archi<lb ed="#PV"/>tippus 
+              omnis effectus praesentes prae<lb ed="#PV"/>teritos 
+              et futuros limpidise
+              <pb ed="#PV" n="204-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>repraesentas et omnes habitudines 
+              <lb ed="#PV"/>rerum et totum ordine universi
+            </p>
+            <!-- left off f. 204v -->
+            <p xml:id="ppr-l109-ciecap">
+              <lb ed="#PV"/>Consequenter ymaginandum est quod huiusmodi 
+              <lb ed="#PV"/>ars explicatur successive ad extra 
+              <lb ed="#PV"/>secundum varia tempora et loca et 
+              <lb ed="#PV"/>secundum quod est quasi effectus arti<lb ed="#PV"/>ficiarum 
+              unde res producuntur 
+              <lb ed="#PV"/>eodem ordine quo concepte 
+              <lb ed="#PV"/>sunt et huius executio et expli<lb ed="#PV"/>catio 
+              ad extra divinae providentiae 
+              <lb ed="#PV"/>potest vocari fatum <ref xml:id="ppr-l109-Rd1e330" corresp="#ppr-l109-Qfeirmd"><name ref="#Boethius">Boetius</name></ref>
+              <lb ed="#PV"/>describit <quote xml:id="ppr-l109-Qfeirmd" source="http://scta.info/resource/hy7y6y-d1e75-d1e625">fatum quod est inhaerens 
+              <lb ed="#PV"/>rebus mobilibus dispositio per 
+              <lb ed="#PV"/>quam providentia suis quaeque nec<lb ed="#PV"/>tit 
+              ordinibus</quote> utrum sit dispositio 
+              <lb ed="#PV"/>super addita non est ponendum 
+              <lb ed="#PV"/>sed res sit dispositae ita quod debi<lb ed="#PV"/>tae 
+              ordinat licet relatio mul<lb ed="#PV"/>tarum 
+              operationum in finem debi<lb ed="#PV"/>tum 
+              non sit nobis nota deus 
+              <lb ed="#PV"/>tamen non promovet vel incitat 
+              <lb ed="#PV"/>ad peccatum
+            </p>
+            <p xml:id="ppr-l109-eisois">
+              et sic tota latitudo 
+              <lb ed="#PV"/>omnium operationum quae fiunt etiam 
+              <lb ed="#PV"/>a deo et habitudo et connexio di<lb ed="#PV"/>ceretur 
+              fatum ita quod temporalis 
+              <lb ed="#PV"/>explicatio esset fatum et non esset 
+              <lb ed="#PV"/>nisi res sic ordinata inter se 
+              
+              
+            </p>
+            <p xml:id="ppr-l109-eihevf">
+              <lb ed="#PV"/>pono propositionem iuxta hoc quod non 
+              <lb ed="#PV"/>stat aliud <unclear>fieri</unclear> et non fata isto 
+              <lb ed="#PV"/>modo quia si fiat a divina pro<lb ed="#PV"/>videntia 
+              tunc sit fato isto modo 
+              <lb ed="#PV"/>sicut quaelibet res mundi quae sit 
+              <lb ed="#PV"/>dicitur sine a fato quia secundum 
+              <lb ed="#PV"/>debitum ordinem etc et sic est impossibile 
+              <lb ed="#PV"/>quod aliud evadat ordinem divinae provi<lb ed="#PV"/>dentiae 
+              quantum ad hoc quod quid<lb ed="#PV"/>quid 
+              sit est explicatio divinae 
+              <lb ed="#PV"/>providentiae quantum ad hoc igitur
+            </p>
+            <p xml:id="ppr-l109-scsenl">
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>2a propositio licet non stat aliud fieri 
+              <lb ed="#PV"/>contra fatum contra tamen fatum 
+              <lb ed="#PV"/>potest fieri aliud  recipiendo istud 2o 
+              <lb ed="#PV"/>modo patet nam alias erit effectus 
+              <lb ed="#PV"/>divinae providentiae qui non potest 
+              <lb ed="#PV"/>non <del rend="strikethrough">facere</del> fore igitur aliud erit 
+              <lb ed="#PV"/>fatum quod non potest esse fatum igitur 
+              <lb ed="#PV"/>sortes illud quod facatum est sine non 
+              <lb ed="#PV"/>potest fore ut ordinatum est quod 
+              <lb ed="#PV"/>sortes levabit festucam tamen 
+              <lb ed="#PV"/>potest non levare
+            </p>
+          </div>
+          <div xml:id="ppr-l109-Dd1e370">
+            <head xml:id="ppr-l109-Hqafqaf">Quarta acceptatio fati</head>
+            <p xml:id="ppr-l109-qaensf">
+              3ea acceptio 
+              <lb ed="#PV"/>est ut fatum dicatur explicatio 
+              <lb ed="#PV"/>divinae providentiae circa res tempori 
+              <lb ed="#PV"/>subiectas et ista est strictior 
+              <lb ed="#PV"/>quam praecedens inmediate 
+              <lb ed="#PV"/>nam isto modo illa quae subia<lb ed="#PV"/>cent 
+              evo id est illa quae sunt <unclear>eviter<lb ed="#PV"/>na</unclear>
+              non subiacent fato Et sic 
+              <lb ed="#PV"/>accipit <ref xml:id="ppr-l109-Rd1e377"><name ref="#Boethius">boecius</name> in 4o</ref> dicit 
+              <lb ed="#PV"/>si superne mentis <unclear>er?at</unclear> fir<lb ed="#PV"/>mitati 
+              motu <unclear>carans</unclear> fato quoque 
+              <lb ed="#PV"/>super egredietur necessitatem 
+              <lb ed="#PV"/>explicando ymaginationem <name ref="#Boethius">Boecius</name> 
+              <lb ed="#PV"/>ymaginatur quod proprie deus debet 
+              <lb ed="#PV"/>compari centro orbis quod est 
+              <lb ed="#PV"/>simpliciter inmobile quantumcumque 
+              <lb ed="#PV"/>velociter moveatur orbis 
+              <lb ed="#PV"/>circa centrum nichilominus remanet 
+              <lb ed="#PV"/>centrum ymaginabile deinde yma<lb ed="#PV"/>ginaur 
+              quia orationes scripti circa 
+              <lb ed="#PV"/>centrum magis distantes velo<lb ed="#PV"/>cius 
+              moventur ymaginatio ergo 
+              <lb ed="#PV"/>eius quod datur aliqua latitudo 
+              <lb ed="#PV"/>distantiae a centro ultra <unclear>qua</unclear>
+              <lb ed="#PV"/>quidquid est est temporale et est tantae 
+              <lb ed="#PV"/>mutationi subiectum quod vocatur 
+              <pb ed="#PV" n="205-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>temporale et sic magis et magis 
+              <lb ed="#PV"/>tendunt ad inmobilitatem ideo da<lb ed="#PV"/>bitur 
+              rotalis orbis qui dividat 
+              <lb ed="#PV"/>temporalia et eviterna non subia<lb ed="#PV"/>cent 
+              fato
+            </p>
+            <p xml:id="ppr-l109-esines">
+              2m hoc posset poni 
+              <lb ed="#PV"/>duae propositiones prima stat quod liberum 
+              <lb ed="#PV"/>arbitrium non subiacent fato 
+              <lb ed="#PV"/>isto modo supponendo patet nam <name>boetius</name> 
+              <lb ed="#PV"/>si superne mentis etc unde 
+              <lb ed="#PV"/>stat quod aliquid per contempla<lb ed="#PV"/>tionem 
+              in deum elevetur ab sol<lb ed="#PV"/>vatur 
+              a temporalibus quod nullum 
+              <lb ed="#PV"/>motum illorum experitur sed so<lb ed="#PV"/>lum 
+              motum ad deum propter propin<lb ed="#PV"/>quitatem 
+              ad centrum <unclear>in</unclear> potest 
+              <lb ed="#PV"/>haberi intellectus unus dicit ipsius 
+              <lb ed="#PV"/>virgilii in libro georgitorum 
+              <lb ed="#PV"/>felix <del>quod</del> qui potuit rerum cognsos<lb ed="#PV"/>cere 
+              causas etc Ita quod quasi 
+              <lb ed="#PV"/>tetigit vitam contemplativam 
+              <lb ed="#PV"/>vel speculativam ad quam vene<lb ed="#PV"/>runt 
+              philosophi et sic apparet adhuc quod 
+              <lb ed="#PV"/>falsum gentiles bene sapientes 
+              <lb ed="#PV"/>fatu non ponit necessitate licet 
+              <lb ed="#PV"/>sit in ex orabile et semper 
+              <lb ed="#PV"/>habeat effectum quantum ad causas 
+              <lb ed="#PV"/>naturaliter agentes Et sic salva<lb ed="#PV"/>rentur 
+              poete scilicet quantum ad exe<lb ed="#PV"/>cutiones 
+              operum naturalium ita quod 
+              <lb ed="#PV"/>sic non impeditur Cum hoc stat 
+              <lb ed="#PV"/>quod intelligitur elevetur et appropinquet 
+              <lb ed="#PV"/>ad divinam contemplationem et 
+              <lb ed="#PV"/>non subiciatur fato
+            </p>
+          </div>
+          <div xml:id="ppr-l109-Dd1e407">
+            <head xml:id="ppr-l109-Hqnfqnf">Quinta acceptatio fati</head>
+            <p xml:id="ppr-l109-xxxyyy">
+              <sic>4o</sic> modo capitur 
+              <lb ed="#PV"/>pro naturali <unclear>inflexu</unclear> causari et earum 
+              <lb ed="#PV"/>necessariam inter se et ad effectus 
+              <lb ed="#PV"/>connexione et intelligitur de necessitate 
+              <lb ed="#PV"/>naturae quantum est ex parte huius agentium 
+              
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>In quarum causarum cognitione 
+              <lb ed="#PV"/>est <unclear>max?</unclear> intellectus perfectio ideo circa 
+              <lb ed="#PV"/>hoc post insistam aliqualiter 
+            </p>
+          </div>
+          <div xml:id="ppr-l109-Dd1e419">
+            <head xml:id="ppr-l109-Hsxfsxf">Sexta acceptatio fati</head>
+            <p xml:id="ppr-l109-saecvf">
+              <lb ed="#PV"/>Quinta acceptio iuxta perypote<lb ed="#PV"/>ticorum
+              opinionem <unclear>ypo?oris</unclear> et cu?abilis 
+              <lb ed="#PV"/>iste vocat fatum naturalem rei 
+              <lb ed="#PV"/>dispositione et innatam et effectus 
+              <lb ed="#PV"/>qui de per se <unclear>consequitur</unclear> vel innati 
+              <lb ed="#PV"/>sunt consequi illam dispositionem 
+              <lb ed="#PV"/>naturalem fatales appelleantur 
+              <lb ed="#PV"/>exemplum ex naturali dispositione et connexione peryo<lb ed="#PV"/>dus 
+              vitae esset tanta quod duraret 
+              <lb ed="#PV"/>usque ad instans A et quia est 
+              <lb ed="#PV"/><unclear>colericus</unclear> nicitabitur ad iram consequenter 
+              <lb ed="#PV"/>inclinatur vocat fatum et effectus 
+              <lb ed="#PV"/>sequens vocat fatales et sit 
+              <lb ed="#PV"/>quod sortes tantum <unclear>div?et</unclear> et sic miles 
+              <lb ed="#PV"/>fato contingit 
+            </p>
+            <p xml:id="ppr-l109-hteacv">
+              Advertendum 
+              <lb ed="#PV"/>quod sicut videlicet ille <name>alexander</name> expli<lb ed="#PV"/>cat 
+              fatum non est causa ne<lb ed="#PV"/>cessaria 
+              effectus fatalis ymmo 
+              <lb ed="#PV"/>contingenter val?o effectus fatalis 
+              <lb ed="#PV"/>procedit a fato declarantur ex parte 
+              <lb ed="#PV"/>corporis quia ex naturali dispositione 
+              <lb ed="#PV"/>sortes viveret per 10 annos Sed 
+              <lb ed="#PV"/>poterit malum regimen eligere 
+              <lb ed="#PV"/>et sic fatum non habebit effectum 
+              <lb ed="#PV"/>vel potest meliorare regimen 
+              <lb ed="#PV"/>et sic prolangabit Et licet a 
+              <lb ed="#PV"/>natura sit colericus et inclinatus 
+              <lb ed="#PV"/>ad exercitari in malitia potest 
+              <lb ed="#PV"/>per doctrinam ad alia se divertere 
+              <lb ed="#PV"/>et fieri religiosus et sic <subst><del>causa</del><add place="above-line">tam</add></subst> 
+              <lb ed="#PV"/>ex parte corporis quam ex parte elec<lb ed="#PV"/>tionum 
+              animae potest fatum non 
+              <lb ed="#PV"/>habere effectum Exemplum ponit de <name>so<lb ed="#PV"/>crate</name> 
+              quia <unclear>quidam</unclear> dixit eum 
+              <pb ed="#PV" n="205-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>male esse inclinatum Respondet 
+              <lb ed="#PV"/><name>socrates</name> quod fato <unclear>vivere</unclear> erat quia 
+              <lb ed="#PV"/>fuit inclinatus ad mala quae 
+              <lb ed="#PV"/><unclear>dominat</unclear> per virtutem et rationem allegat 
+              <lb ed="#PV"/>ad istud <name>aristotelem</name> in 2o metheororum 
+              <lb ed="#PV"/>sed non reperitur in illa forma dicen<lb ed="#PV"/>tem 
+              hyemps debet esse frigi<lb ed="#PV"/>da 
+              secundum fatam tempora Et forte est 
+              <lb ed="#PV"/>secundum aliam translationem Item 
+              <lb ed="#PV"/>allegat <name>aristotelem</name> in libro de 
+              <lb ed="#PV"/>auditu id est <unclear>philosophorum</unclear> quem antiquus 
+              <lb ed="#PV"/>vocant de auditu et librum
+              <lb ed="#PV"/><name>avicennae</name> vocant librum sufficientiae 
+            </p>
+            <p xml:id="ppr-l109-shfpds">
+              <lb ed="#PV"/>Addo sequendo ymaginationem 
+              quod inclinatio quae esset secundum 
+              <lb ed="#PV"/>instinctum naturae consequens posset 
+              <lb ed="#PV"/>dici fatum Et secundum hanc 
+              <lb ed="#PV"/>ymaginationem salvarentur multa 
+              <lb ed="#PV"/>dicta poetarum et vulgarum nam 
+              <lb ed="#PV"/>spirituales cura est naturae consequens ad 
+              <lb ed="#PV"/>praeservandum principes <unclear>dominans</unclear> 
+              <lb ed="#PV"/>vitia et reducens ad debitum tem<lb ed="#PV"/>peramentum 
+              totum <unclear>materosivum</unclear>
+            </p>
+            <p xml:id="ppr-l109-udcevf">
+              <lb ed="#PV"/>Et sic de <name>Iulio cesare</name> quia 
+              <lb ed="#PV"/>pauper auctoritas formidavit 
+              <lb ed="#PV"/><name>Iulius cesarem</name> vehis 
+              <lb ed="#PV"/>quasi sollicitudo est toti naturae 
+              <lb ed="#PV"/>universali ad mei praeservationem et sic 
+              <lb ed="#PV"/>salvarentur effectus mirabiles 
+              <lb ed="#PV"/>sicut de equo <name>alexander</name> et <name>iulii 
+                <lb ed="#PV"/>cesaris</name> et isti vocaretur effectus 
+              <lb ed="#PV"/>fatales et naturae universalis Et iste 
+              <lb ed="#PV"/>modus non offendit catholicum 
+              <lb ed="#PV"/>ymmo magnificat divinam provi<lb ed="#PV"/>dentiam 
+              respectu regiminis naturalis
+            </p>
+          </div>
+          <div xml:id="ppr-l109-Dd1e517">
+            <head xml:id="ppr-l109-Hspfspf">Septima acceptatio fati</head>
+            <p xml:id="ppr-l109-ssfsfr">
+              <lb ed="#PV"/>Sexto capitur pro naturali condi<lb ed="#PV"/>tione 
+              rerum praedictarum 
+              <lb ed="#PV"/>nam rerum productarum naturalis 
+              <lb ed="#PV"/>conditio est quod habeant terminum 
+              <lb ed="#PV"/>a quo scilicet generationem et ad quem 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>scilicet corruptionem etiam medium scilicet ex<lb ed="#PV"/>istere 
+              et istud relatum ad tria 
+              <lb ed="#PV"/>tempora aptatur tribus fatis 
+              <lb ed="#PV"/>quae dur <name>cloto</name> <name>latesis</name> et <name>atropos</name>
+            </p>
+          </div>
+          <div xml:id="ppr-l109-Dd1e535">
+            <head xml:id="ppr-l109-Hoafoaf">Octava acceptatio fati</head>
+            <p xml:id="ppr-l109-ocfccl">
+              <sic>Septimo</sic> fata possunt dici 
+              <lb ed="#PV"/>dispositiones rerum <unclear>vas</unclear> secundum 
+              <lb ed="#PV"/>scripturae testimonium creatura sic 
+              <lb ed="#PV"/>producta in numero pondere 
+              <lb ed="#PV"/>et mensura In numero quantum 
+              <lb ed="#PV"/>ad naturam specificam et correspondet 
+              <lb ed="#PV"/><name>cloto</name> Quantum ad mensuram 
+              <lb ed="#PV"/>tam suae durationis quam 
+              <lb ed="#PV"/>activitatis et correspondet <name>lathesi</name> de<lb ed="#PV"/>inde 
+              quantum ad pondus scilicet 
+              <lb ed="#PV"/>respectu finis et correspondet 
+              <lb ed="#PV"/><name>atropos</name> et sic etiam res habent 
+              <lb ed="#PV"/><unclear>crementum</unclear> statum et declinationem 
+              <lb ed="#PV"/>correspondenter ad tria fata Item ad 
+              <lb ed="#PV"/>tres dimensiones posset reduci prima 
+              <lb ed="#PV"/>est longitudo et sic et sic dixerunt 
+              <lb ed="#PV"/>antiqui omnia reduci ad 
+              <lb ed="#PV"/>dimensiones vel ad numerus cu<lb ed="#PV"/>bitos 
+              Radix quae ducta in 
+              <lb ed="#PV"/>se producit quadra?m deinde ra<lb ed="#PV"/>dix
+              producit cubicum et non ultra
+            </p> 
+            <p xml:id="ppr-l109-arhiev">
+              <lb ed="#PV"/>Aliae rerum habitudines concernentes 
+              <lb ed="#PV"/>philosophiam posset ad hoc applicari 
+              <lb ed="#PV"/>et ad istam resolvi Et vulgus 
+              <lb ed="#PV"/>imperitum non capiens ista ce<lb ed="#PV"/>pit 
+              in scandalum et incidit in 
+              <lb ed="#PV"/>errores
+              <!-- possible new paragraph or error in placement-->
+              <!-- perhaps this explains why numbering disagrees with ordination version -->
+              Circa 4am acceptationem 
+              <lb ed="#PV"/>fati intendo introducere de modo 
+              <lb ed="#PV"/>coordinationis causarum inter 
+              <lb ed="#PV"/>se et tandem <unclear>ds?re</unclear> ad dicendum de 
+              <lb ed="#PV"/>habitudine primae causae ad voluntatem
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
