@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 110, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 109, De libertate [Palantine Transcription]</title>
+          <date when="2021-12-12">December 12, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="elang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-12-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="205-v"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio110">
+      <head xml:id="ppr-l110-Hldlldl">Lectio 110, de Libertate</head>
+        <div xml:id="ppr-l110-Dd1e109">
+          <head xml:id="ppr-l110-Hcqaqaf">Circa quintam acceptationem fati</head>
+          <p xml:id="ppr-l110-cqausa">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>In lectione praecedenti dictum est quod quarto modo capitur fatum pro naturali causarum influxu et neccessario connexu
+            <pb ed="#E" n="144-v"/>
+            <lb ed="#E"/>Et hoc necessitate naturali scilicet de lege ordinati et non absolute 
+          </p>
+          <p xml:id="ppr-l110-dtegec">
+            difficultas ergo tractando est de fato
+            <lb ed="#E"/>4o modo accepto Et non est nisi executio divinae providentiae quantum effectus naturaliter procedentes ex causis naturaliter 
+            <lb ed="#E"/>et modo naturae concurrentibus quantum ad 2as causas unde huiusmodi executionem fieri Tangit <name>boecius</name> multipliciter secundum 
+            <lb ed="#E"/>varias opiniones dicens Sive igitur famulantibus quibusdam providentiae spirantibus fatum exerceatur 
+            <lb ed="#E"/>seu anima seu tota serviente natura seu celestibus syderum motibus seu celestibus virtutibus seu daemonum 
+            <lb ed="#E"/>sollercia vel quaecumque divinae providentiae exterior executio vocatur fatum dicitur notanter exterior 
+            <lb ed="#E"/>executione ad excludendum actus liberos et intelligitur illud dictum <name>boetii</name> sive quod divinae providentiae executio 
+            <lb ed="#E"/>exterior vocatur fatum sive deus subordinet sibi intelligentias secundum opinionem philosophorum 
+            <lb ed="#E"/>sive anima concurrrente et non capitur ibi pro anima nostra sed pro anima mundi de qua variae fuerunt opiniones 
+            <lb ed="#E"/>quia secundum aliquos deus singula vivificans et animans dicitur anima mundi vel tota agregatio 
+            <lb ed="#E"/>intelligentiarum regentium mundum corporalem vel intelligentia orbis lunae quae actuat 
+            <lb ed="#E"/>et vivificat mundum inferiorem 
+          </p>
+        <!-- difficult to see primo, secunod, ad tertio in above -->
+          <p xml:id="ppr-l110-qdqsam">
+            vel quia sicut quilibet orbis habet intelligentiam sibi assistentem 
+            <lb ed="#E"/>Ita tota spera activarum et passivarum habet intelligentiam sub intelligentia orbis lunae quae non inhaeret 
+            <lb ed="#E"/>sed assistit movet et inclinat ad suas operationes exercendas est anima mundi
+          </p>
+          <p xml:id="ppr-l110-tctaen">
+            et sic posuerunt 
+            <lb ed="#E"/>philosophi quod praeter formas speciales est anima mundi unde <ref xml:id="ppr-l110-Rd1e137"><name>virgilius</name> 6o <title ref="#Eneads">eneydos</title></ref> <quote xml:id="ppr-l110-Qd1e148">Omnia spiritus intellectus 
+            <lb ed="#E"/>alit</quote> vel capitur pro tota serviente natura et per hoc intellectus secundum antiquos vel anima mundi vel omnia 
+            <lb ed="#E"/>simul concurrentia recitatur scilicet combinatio omnium causarum concurrentium ad regimen universi vel 
+            <lb ed="#E"/>potest intelligi anima mundi ultimo dicta scilicet aliqua intelligentia assistens Aliae particulae sunt satis clare 
+            <lb ed="#E"/>seu sollertia daemonum secundum opinionem platonicam
+          </p>
+        </div>
+        <div xml:id="ppr-l110-Dd1e166">
+          <head xml:id="ppr-l110-Hqepped">Quod executio providentiae est duplex</head>
+          <p xml:id="ppr-l110-pdtcpp">
+            Pro declaratione notandum quod duplex est cursus 
+            <lb ed="#E"/>et executio divinae providentiae quantum ad propositum Quid est gratuitus et supernaturalis Alius 
+            <lb ed="#E"/>est secundum concursum causarum pure naturalium praemium cursum ignoraverunt philosophi quia voluerunt 
+            <lb ed="#E"/>omnia reduci ad <unclear>regimen</unclear>
+          </p>
+        </div>
+        <div xml:id="ppr-l110-Dd1e175">
+          <head xml:id="ppr-l110-Hpcppep">Propositiones circa prima executio providentiae</head>
+          <div xml:id="ppr-l110-Dd1e180">
+            <head xml:id="ppr-l110-Hppoppo">Prima propositio</head>
+            <p xml:id="ppr-l110-peipcn">
+              Iuxta primum concursum sit haec prima conclusio Prima intelligentia non est naturaliter 
+              <lb ed="#E"/>suae providentiae explicatam ad extra patet quia non posset agere adextra nisi per intellectum et volun<lb ed="#E"/>tatem 
+              et pure libere igitur non stat eam concurrere adextra et non libere et per consequens conclusio vera
+            </p>
+            <p xml:id="ppr-l110-eiaqfd">
+              Ex isto patet 
+              <lb ed="#E"/>falsitas dicti quorumdam dicentium quod respectu aliquarum opinionum deus concurrit more naturaliter adextra et 
+              <lb ed="#E"/>regimen aliarum mere libere unde secundum eos respectu orbis sui primi Deus habet assistentia pure na<lb ed="#E"/>turalem 
+              Et sicut unitur suo corpore naturaliter ita deus suo orbi et sic deus non potest non calefacere et 
+              <lb ed="#E"/>non facere alios motus applicatis passis secundum quod se habent 2ae causae respectu aliquorum effectuum respectu 
+              <lb ed="#E"/>quorum pure naturaliter se habent et sic in eodem genere concurrendi et modo deus est prima causa 
+            </p>
+            <p xml:id="ppr-l110-diigla">
+              deinde 
+              <lb ed="#E"/>quod est una 2a subordinata causarum et effectuum libere producibilium sicut in anima nostra reperitur duplex 
+              <lb ed="#E"/>causalitas scilicet naturalis et libera ita in superioribus etiam in liberis concurrit deus tamquam causa libera 
+            </p>
+            <p xml:id="ppr-l110-sciraa">
+              <lb ed="#E"/>Contra hoc posui propositionem
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e202">
+            <head xml:id="ppr-l110-Hspospo">Secunda propositio</head>
+            <p xml:id="ppr-l110-spsmfc">
+              Secunda propositio sola infima intelligentia inter omnes intelligentias est naturaliter 
+              <lb ed="#E"/>per unionem constitutivam divinae providentiae executiva scilicet anima nostra nam ipsa non est apta nata exercere 
+              <lb ed="#E"/>suas operationes secundum naturalem cursum nisi unica sit corpori non solum per modum assistentiae 
+              <lb ed="#E"/>sed informationis et constitutiones
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e211">
+            <head xml:id="ppr-l110-Htpotpo">Tertia propositio</head>
+            <p xml:id="ppr-l110-tpimeo">
+              Tertia propositio in latitudine media datur portio naturaliter corporaliter executiva 
+              <lb ed="#E"/>et alia a corpore totaliter separata secundum conclusiones positas in latitudine intelligentiarum est aliqua 
+              <lb ed="#E"/>mere libera executiva sic quod nullo modo potest naturaliter concurrerere habemus extremam infimam quae non potest nisi coniuncta 
+              <lb ed="#E"/>corpori negandum per modum assistentiae sed partis constitutione et informationis intrinsece et sic ista conclusio loquitur de me<lb ed="#E"/>diis 
+              et non ponit duas latitudines Quarum primo sit incipienda ab inferiori non executiva suarum 
+              <lb ed="#E"/>operationum nisi mediante corpore cui coniungitur Et datur alius portio quae est executiva sine corpore
+            </p> 
+            <p xml:id="ppr-l110-ppaicu">
+              <lb ed="#E"/>Prima patet de infimis intelligentiis inmediate supra speciem humanam positis quae indigent coniungi 
+              <lb ed="#E"/>corpori licet per informationem ad motus et effectus inferius exercendos
+            </p> 
+            <p xml:id="ppr-l110-spducc">
+              Secunda portio datur intelligentiarum 
+              <lb ed="#E"/>omnino separatorum quia plures ponuntur intelligentiae quam orbes istud consonat theologicis de 
+              <lb ed="#E"/><sic>ierarchiis</sic> angelorum non moventium orbes quorum officium est contemplari divinam bonitatem 
+              <lb ed="#E"/>redeundo omnes effectus in deum per considerationem tamquam in summum bonum et in illo delectari
+              <pb ed="#E" n="145-r"/>
+              <lb ed="#E"/>Et est officium seraphim et interpretatur <!-- possible skip in Pal here --> ardor vel amor divinae bonitatis et eam explicare fide<lb ed="#E"/>libus 
+              et angelis inferioribus et non requirunt materiam corporalem ita de cherubin et interpretatur pleni<lb ed="#E"/>tudo 
+              scientiarum 
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e240">
+            <head xml:id="ppr-l110-Hqpoqpo">Quarta propositio</head>
+            <p xml:id="ppr-l110-qpqeie">
+              Sequitur 4ta propositio quod in latitudine naturarum intellectualium requiritur similitudo numerorum cubicorum 
+              <lb ed="#E"/>scilicet duo extrema maxime distantia primo omnino separata et anima humana est extremum inferius et dantur duo 
+              <lb ed="#E"/>media ut dictum est
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e250">
+            <head xml:id="ppr-l110-qnpqnp">Quinta propositio</head>
+            <p xml:id="ppr-l110-qpaeen">
+              Sequitur quinta propositio quod angeli moventes orbes non constituunt aliquod vivens 
+              <lb ed="#E"/>vi unionis vel assistentiae spiritualis et hoc ponitur contra opinionem platonicam dicentem quod caelum 
+              <lb ed="#E"/>est vivens Consequenter ponunt planetas per modum membrorum ad executionem per modum animalis perfectissimi
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l110-Dd1e263">
+          <head xml:id="ppr-l110-Hcascas">Corollaria (sequentes ex quinta propositione?)</head>
+          <div xml:id="ppr-l110-Dd1e268">
+            <head xml:id="ppr-l110-Hpcmpcm">Primum corollarium</head>
+            <p xml:id="ppr-l110-eqsvec">
+              <lb ed="#E"/>Sequitur quod licet motores orbium celestium sint naturae intellectuales et volitive unio cum intelligentiae ad orbem 
+              <lb ed="#E"/>vel eius actio et operatio non est per modum intellectus et voluntatis sed est pure naturalis patet proportionaliter sicut de 
+              <lb ed="#E"/>anima humana quia licet etc unio tamen eiusdem ad maximum non est intellectualis vel volitiva sed mere 
+              <lb ed="#E"/>naturalis et ita de intelligentiis
+            </p>
+            <p xml:id="ppr-l110-eqapmn">
+              Ex hoc patet qualiter divinae providentiae executio facta per angelum seu 
+              <lb ed="#E"/>intelligentiarum sit naturalis licet fiat a causis liberis 
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e282">
+            <head xml:id="ppr-l110-Hscmscm">Secundum corollarium</head>
+            <p xml:id="ppr-l110-ssqcso">
+              Sequitur quod destructis ordinis inquietarentur 
+              <lb ed="#E"/>motores orbium et haberent naturale desiderium <unclear>ad?re?no</unclear> movere
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e294">
+            <head xml:id="ppr-l110-Htcmtcm">Tertium corollarium</head>
+            <p xml:id="ppr-l110-tsqiem">
+              Sequitur quod limitatur secundum exigen<lb ed="#E"/>tias 
+              suorum orbium sicut orbes sunt diversarum specierum ita motores orbium et quilibet inclinatur ad speciem 
+              <lb ed="#E"/>orbis proportionatum sibi
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e303">
+          <head xml:id="ppr-l110-qcmqcm">Quartum corollarium</head>
+          <p xml:id="ppr-l110-sqqmqm">
+            Sequitur quod orbes habent partim ratione materiae et partim ratione formae materiae 
+            <lb ed="#E"/>in hoc quia sicut forma naturalis non potest exercere suam operationem nisi mediate materia Ita nec intelligentia suam 
+            <lb ed="#E"/>operationem naturalem nisi mediate orbe Et habet rationem formae in hoc quia orbis non est receptivus 
+            <lb ed="#E"/>formae inhaerentis ymmo sibi repugnat recipere Etiam orbes intrinsice sunt diversarum 
+            <lb ed="#E"/>specierum ideo quantum ad hoc habent gradus rationes formae
+          </p>
+        </div>
+        <div xml:id="ppr-l110-Dd1e313">
+          <head xml:id="ppr-l110-Hqncqnc">Quintum corollarium</head>
+          <p xml:id="ppr-l110-qsqeoe">
+            Sequitur ulterius quod ex specificis conditionibus corres<lb ed="#E"/>pondet 
+            sibi mutuo orbis <add place="above-line">et</add> intelligentia quia orbis ex natura specifica est alicuius speciem etiam intelligentia 
+            <lb ed="#E"/>Et hoc contingit quod huic speciei intelligentiae convenit haec species corporalis ad sui operis executionem
+          </p>
+        </div>
+        <div xml:id="ppr-l110-Dd1e322">
+          <head xml:id="ppr-l110-Hsxcsxc">Sextum corollarium</head>
+          <p xml:id="ppr-l110-ssqiee">
+            <lb ed="#E"/>Sequitur quod idem angelus non potest pluribus orbibus uniri secundum naturae cursum communem statutu nec plures 
+            <lb ed="#E"/>vim orbi quia angelus seu intelligentia ex natura sua specifica requirit talem orbem sibi 
+            <lb ed="#E"/>uniri et econtra igitur orbis alterius speciei esset sibi disconveniens
+          </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e338">
+            <head xml:id="ppr-l110-Hspcspc">Septimum corollarium</head>
+            <p xml:id="ppr-l110-ssqesf">
+              Sequitur quod angeli vel motores 
+              <lb ed="#E"/>orbium non possunt naturaliter a suis orbibus separari nam tanta est etc sicut formae substantialis ad materiam
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e347">
+            <head xml:id="ppr-l110-Hc11ss">Octavum corollarium</head>
+            <p xml:id="ppr-l110-oscuid">
+              Sequitur error credentium intelligentias inhabitare ymagines in certis constellationibus fa<lb ed="#E"/>bricatis 
+              fuit una opinio quod ymago ex certa materia incerta constellatione fabricata cum certis verbis 
+              <lb ed="#E"/>et coniurationibus est sufficiens causa quod intelligentia inhabitet nam intelligentiae moventes orbes 
+              <lb ed="#E"/>non sunt <del rend="strikethrough">po</del> separabiles naturaliter ergo ficticium est illud Ex hoc apparet esset fictum de intelligentia 
+              <lb ed="#E"/>orbis venerum quam dicunt quid <name>aristotelem</name> habuisse quia forte ymaginantur quod inhabitet yma<lb ed="#E"/>ginationem
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e362">
+            <head xml:id="ppr-l110-Hncmncm">Nonum corollarium</head>
+            <p xml:id="ppr-l110-nseucs">
+              Sequitur error dicentium daemones esse motores orbium dixerunt quid quod quia daemon
+              <lb ed="#E"/>noluit subici deo deus subicit eum corpori 
+            </p>
+            <p xml:id="ppr-l110-pheqef">
+              patet quia consurgit habitudo intelligentiae ad orbem 
+              <lb ed="#E"/>ex natura specifica
+            </p>
+            <p xml:id="ppr-l110-sinsio">
+              Item intelligentia non est separabilis naturaliter separabilis ab orbe igitur non staret daemones hic 
+              <lb ed="#E"/>existere et movere orbes 
+            </p>
+            <p xml:id="ppr-l110-tnddno">
+              et non sunt ydonei ad exercendum tale officium 
+            </p>
+            <p xml:id="ppr-l110-qspiao">
+              Item motores orbium mo<lb ed="#E"/>vent 
+              gratia et amore primi modo daemones non amant deum sed quicquid agunt agunt incontemptum primi
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e389">
+            <head xml:id="ppr-l110-Hdcmdcm">Decimum corollarium</head>
+            <p xml:id="ppr-l110-dsomis">
+              <lb ed="#E"/>Sequitur falsa opinionis dicentium quod quilibet superior angelus unitur cuilibet inferiori orbium 
+              <lb ed="#E"/>ymaginatio fuit quod quilibet angelus qui unitur superiori orbium unitur singulis inferioribus ymmo 
+              <lb ed="#E"/>toto mundo corporali Et per hoc superstitiose voluerunt salvare sompnia et multa alia quia 
+              <lb ed="#E"/>intelligentiae etiam in centro terrae sunt
+            </p>
+          </div>
+          <div xml:id="ppr-l110-Dd1e403">
+            <head xml:id="ppr-l110-Hudcudc">Undecimum corollarium</head>
+            <p xml:id="ppr-l110-xy38aa"> 
+              patet ex dictis quod opinio <name ref="#Aristotle">aristotelis</name> debite intellecta quantum 
+              <lb ed="#E"/>ad intelligentias et motores orbium non repugnant fidei saltem quantum ad idem quod est praesentis spe<lb ed="#E"/>culationis 
+              quia ultra intelligentias unitas posuit unam supremam non unitam et illam vocant 
+              <lb ed="#E"/>animam mundi et sicut anima humana non exercet operationes sibi debitas nisi mediantibus membris 
+              <lb ed="#E"/>corporalibus ita nec anima mundi quae tamen est illuminans et unificans deficit tamen opinio <name>aristotelis</name> 
+              <lb ed="#E"/>quia posuit primam naturaliter agere et non libere Posset dicendi applicando ad iearchias angelorum
+              <pb ed="#E" n="145-v"/>
+              <lb ed="#E"/>Et ponerentur 32 angeli coniuncti corporalibus ad divinae providentiae executionem scilicet ponendo 
+              <lb ed="#E"/><unclear>ec?cles</unclear> epiciclos et supposito quod sunt 10 orbes oportet ponere 32 speras secundum <name>tholomeum</name> Et sic oporteret 
+              <lb ed="#E"/>ponere tot intelligentias De ista materia videatur <name>albertus magnus</name> in libro de causis et <name>wilhelmus 
+              <lb ed="#E"/>parisiensis</name> in libro de universo qui pulchre tractant istam materiam
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
