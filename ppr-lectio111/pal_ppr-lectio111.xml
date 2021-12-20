@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 111, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 109, De libertate [Palantine Transcription]</title>
+          <date when="2021-12-20">December 20, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-12-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="207-v"/>
+        <cb ed="#PV" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio111">
+      <head xml:id="ppr-l111-Hldlldl">Lectio 111, de Libertate</head>
+        <div xml:id="ppr-l111-Dd1e109">
+          <head xml:id="ppr-l111-Hedppet">Executio divinae providentiae est triplex</head>
+          <p xml:id="ppr-l111-qsadpe">
+            <lb ed="#PV"/>In alia lectione
+            <lb ed="#PV"/>Quantum spectat ad propositum 
+            <lb ed="#PV"/>et pro maiori declaratione materiae 
+            <lb ed="#PV"/>tractae Sciendum quod triplex 
+            <lb ed="#PV"/>est divinae providentiae executio
+          </p> 
+          <p xml:id="ppr-l111-uepctc">
+            Una est per influentiam summi boni 
+            cunctis providentis, et hoc modo ipsa non est res 
+            ad extra, sed est volitio divinae quae semper est uniformis 
+            respectu omnium effectuum quae fiunt ad extra quia 
+            ipsa est pura et summa libertas simpliciter immensa 
+            et quantum ad effectus arduos et infimos 
+            <cb ed="#SV" n="b"/><!--SV333vb-->
+            uniformiter concurrit et mere libere et quia ipsa non est 
+            naturaliter activa ut dictum est, ideo talis executio nullo modo 
+            potest concurrere tunc creatae.
+          </p>
+          <p xml:id="ppr-l111-seeaeh">
+            Secunda executio est respectu causarum 
+            secondarium executio divinae providentiae non naturalis sed voluntaria 
+            quam faciunt angeli non appropriati naturaliter corporibus vel orbibus 
+            vel materiis corporeis, et isto modo <name ref="#Seraphim">seraphin</name> 
+            contemplatur divinam bonitatem ut finem ultimum et habitudines omnium 
+            Rerum in finem ultimum et habitudines omni Rerum in finem ultimum 
+            Reducit ex qua habitudine ignotescit summa bonitas 
+            dei et inde consurgit summus amor et immensa bonitas 
+            divina, ex qua bonitate respectu creaturarum in deum considerata 
+            consurgit maximus amor nam officium <name ref="#Seraphim">seraphin</name> 
+            est circa obiectum divinum propter amorem 
+            ideo <name ref="#Seraphim">seraphin</name> vocantur et interpretatur 
+            ardentes et nedum est eorum officium circa obiectum ratione 
+            amoris sed officium eorum et est eundum amorem et veritatem 
+            ac bonitatem summam revelare et dicere congruenter 
+            angelis aliis et hominibus.
+          </p>
+          
+          <p xml:id="ppr-l111-ccrhhi">
+            Consequenter considerando 
+            rerum dispositionem optime factam et habitudines Rerum inter se 
+            per hoc explicatur divina  sapientia quae ita bene scivit 
+            ordinare quod officium pertinet ad <name rend="Cherubim">cherubin</name> quod interpretatur 
+            plenitudo scientiae. Et idem docent alios angelos inferiores 
+            et homines hic inferius.
+          </p>
+        </div>
+        <div xml:id="ppr-l111-Dd1e142">
+          <head xml:id="ppr-l111-Hocrcrh">Officia circa regimen humanum</head>
+          <p xml:id="ppr-l111-cdaeht">
+            Consequenter descendendo ad ultimam
+            <sic>gerarchiam</sic> sunt alia officia circa Regimen humanum et
+            haec triplicia.
+          </p>
+          <div xml:id="ppr-l111-Dd1e153">
+            <head xml:id="ppr-l111-Hpompom">Primum officium</head>
+            <p xml:id="ppr-l111-naoapp">
+              Nam aliquod officium est circa bonum commune humanum 
+              quod est <unclear>pole?cum[?]</unclear> et ad hoc deputati sunt angeli 
+              quorum officium est conservare politicas et instruere principes 
+              de modo iustitiae Regendi et gubernandi politiam 
+              ut ait <name ref="#Macrobius">macrobius</name> quod somnia  principum 
+              sunt vera, <seg ana="#politica">nam dormientibus immittuntur angeli revelantes 
+              necessaria quod regimen politiae</seg> nec hoc <unclear>ficticeum[?]</unclear> 
+              cum hoc scriptura dicat 
+              <cit>
+                <ref xml:id="ppr-l111-Rd1e174" target="http://scta.info/resource/dan10_13">
+                  <name ref="#Daniel">Daniel</name> decimo capitulo
+                </ref>
+              </cit> 
+              ubi dicitur 
+              quod <name ref="#Michael">michael</name> erat princeps 
+              <name ref="#Jews">Iudeorum</name> regens populum 
+              iudaicum. alium angelum habebat politiam graecorum 
+              et alium politiam pesonarum.
+            </p>
+            <p xml:id="ppr-l111-eqaead">
+              Ex quo apparet quod angelorum 
+              officium est certa humanas politias et huic addunt 
+              doctores et translatio Regnorum spectat ad eorum 
+              officia ut si princeps voluerit inclinationibus angelorum 
+              obedire a principatu corruat et a divino.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e193">
+            <head xml:id="ppr-l111-Hsomsom">Secundum officium</head>
+            <p xml:id="ppr-l111-ahotrc">
+              Aliud habent officium nedum circa communem politiam et eius 
+              Rectores sed etiam circa quamlibet personam et totam politiam 
+              simul et ad hoc deputantur archangeli 
+              ad annuntiandum et revelandum illa quae tangunt  
+              <pb ed="#SV" n="334-r"/>
+              <cb ed="#SV" n="a"/>
+              religionem et divinum cultum 
+              et sic <name ref="#Gabriel">Gabriel</name> annuntiavit 
+              ex officio incarnationem verbi quae fuit fons salutis 
+              et totius Religionis christianae.
+            </p>
+            <p xml:id="ppr-l111-ehaesr">
+              Ex hoc apparet quod divina 
+              providente gratia angeli prompti sunt ut doceant 
+              et homines instruant circa fidei cultum et sacram religionem.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e212">
+            <head xml:id="ppr-l111-Htomtom">Tertium officium</head>
+            <p xml:id="ppr-l111-aeosep">
+              Aliud est officium respectu particularis personae 
+              et suorum actuum communium, et sic dicunt sancti quod cuilibet 
+              rationali creaturae datus est angelus cuius officium est 
+              de singulis instruere creaturam bona consequendo et 
+              a malo retrahendo. Et ideo 
+              <ref xml:id="ppr-l111-Rd1e219">in 
+                <title ref="#Psalms">Psalmo</title>
+              </ref> 
+              scribitur 
+              <cit>
+                <quote xml:id="ppr-l111-Qasmovt" source="http://scta.info/resource/ps90_11@2-13">
+                  angelis 
+                  suis mandavit de te ut custodiant te in 
+                  omnibus viis tuis
+                </quote>
+              </cit> 
+              quod exponunt doctores respectu cuiuslibet 
+              creaturae, quia officium angelorum et voluntarium ex gratuita 
+              institutione divina constitutum ut sic homines instruant 
+              nisi ponant obicem. Et istae duae acceptationes 
+              sunt extra propositionem.
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l111-Dd1e234">
+          <head xml:id="ppr-l111-Hduavaa">Difficultas: Utrum angeli non naturaliter inclinati ad orbes vel ad alia?</head>
+          <p xml:id="ppr-l111-sheace">
+            Sed hic est difficultas, nam 
+            dubitatur utrum angeli non naturaliter inclinati ad orbes 
+            vel ad alia. corpora movenda respectu naturalium actionum 
+            concurrant effective.
+          </p>
+          <p xml:id="ppr-l111-esavie">
+            Et si aliqui utrum omnes et 
+            quia materia est positiva congruitate potest dici sic quod secundum ordinem 
+            essentialem perfectionis secundum hoc est ordo influxus 
+            ita quod angelus immediate sub deo non modo naturaliter 
+            et naturaliter modo, sed in modo voluntario agit respectu operationum 
+            naturalium hoc est probabile. Sed tamen nolo illud asserere 
+            propter articulum condemnatum parisius qui dicit sic, dicere 
+            quod angelus moveat orbem solo voluntatis imperio 
+            error.
+          </p>
+          <p xml:id="ppr-l111-itieev">
+            Intelligitur tamen iste articulus de angelo 
+            appopriato orbi qui tamen poterit ratione sui motus in multas 
+            operationes naturales et etiam voluntarias.
+          </p>
+          <p xml:id="ppr-l111-sdqqse">
+            Secundo diceretur 
+            quod angelus agens per voluntatem non sufficeret producere 
+            operationes inferius nisi concurrentibus aliis causis naturalibus 
+            et naturali modo Requisitis, et sic angelus non coniunctus 
+            orbi movet orbem non solo voluntatis imperio, sed 
+            movet una cum intelligentia praerequista et concurrente 
+            quae superior est.
+          </p>
+          <p xml:id="ppr-l111-tpdori">
+            Tertio potest dici quod Resolvendum est ad divinum 
+            decretum quia ordo causalitatis non semper sequitur 
+            ordinem rerum intrinsecum.
+          </p>
+        </div>
+        <div xml:id="ppr-l111-Dd1e256">
+          <head xml:id="ppr-l111-Hadqmoo">Alia difficultas: qualiter motores orbium ordinantur</head>
+          <p xml:id="ppr-l111-sdimmd">
+            Sequitur de influentia naturali 
+            prout est ad propositum. Difficultas est qualiter motores 
+            orbium vel causae superiores naturaliter agentes ordinantur 
+            et qualem habeant inter se dependentiam et qualem 
+            ordinem habent in agendo utrum, scilicet, quaelibet intelligentia 
+            sufficiat se sola individuum vel speciem producere 
+            et certa hoc sunt multi modi dicendi.
+          </p>
+          <div xml:id="ppr-l111-Dd1e264">
+            <head xml:id="ppr-l111-Hpvapva">Prima via</head>
+            <p xml:id="ppr-l111-peqcqr">
+              primum est 
+              quod prima intelligentia coniuncta orbi dato quod non moveret 
+              se solo orbem, habet tamen naturalem causalitatem 
+              <cb ed="#SV" n="b"/><!--SV334rb-->
+              universalem respectu omnium producibilium naturaliter et materialiter, 
+              id est de potentia materiae educibilium et producibilium naturaliter 
+              habet tamen confuse, 
+              et taliter quod non sufficit exire 
+              in actum se sola, 
+              ideo imaginandum est quod secunda intelligentia 
+              conclusione sphaerae vel aggregatum ex omnibus intelligentiis 
+              creatis habet naturalem causalitatem supra 
+              omnes quiditates rerum species producibiles naturaliter 
+              per educationem formae de potentiae materiae et sic concava 
+              sphaera sub decima existens dat causalitatem productivam 
+              quiditatum et specierum et omnium Rerum et est <unclear>ydeativa</unclear> 
+              omnium specierum et quiditatum producibilium et educibilium 
+              de potentia materiae. Et per hoc excluditur anima humana. 
+              Deinde adhuc huiusmodi causalitas non 
+              sufficit eo quod praecise quiditatum contentiva et 
+              non particularium specierum productiva, et ideo octava sphera 
+              habet vim productivam figurarum et corporum lineamentorum 
+              secundum debitam figuram et quantitatem. omnes 
+              autem astrologi ponunt figuras et maxime de 
+              praedicamento qualitatis de quarta specie illae ponuntur in 
+              octava sphera ex dispositione stellarum quantum ad situm 
+              ut omnis figurae specierum sunt reperibiles in octava 
+              sphaera et ad hanc resolvuntur licet intellectus non sufficit 
+              discernere, et in concava sphaera ponuntur imaginationes non 
+              figuraliter, sed virtualiter quae sunt causae quiditatum rerum.
+            </p>
+            <p xml:id="ppr-l111-cpivpi">
+              Consequenter ponunt isti astrologi quod planetae et 
+              orbes planetarum non habent in se imagines Rerum 
+              sed sunt successivi influentiarum trium superioris orbium 
+              ut a primo orbe capiant in genere vim producendi 
+              inferiora.
+            </p>
+            <p xml:id="ppr-l111-asovmm">
+              A secundo orbe capiant vi producendi 
+              species tales. a tertio orbe capiant vim producendi 
+              figuras. Sed isti planetae et eorum orbes habet 
+              ex propria natura vim ponendi in effectu et in esse rem 
+              individualem secundum accidentia et influentias proprias, nam 
+              ex istis influentiis aggregatis resultat effectus 
+              hic inferius quia generaliter causandum habetur a prima 
+              sphaera, et quiditas habetur a nona incipiendo a suprema 
+              est secunda incipiendo ab infima ipsa est nona et 
+              figura habetur in octava, vel in tertia secundum alium modum 
+              computandi. Sed particulatio est in planetis septem, 
+              et ideo planete movetur tot diversis motibus ut influentiam 
+              quam non habent consequenter et ista est radix 
+              et diversitas motuum planetarum ut, 
+              scilicet consequantur 
+              vim receptam a sphaeris superioribus, et secundum hoc 
+              est ibi concatenatio mirabilis, nam omnis motus, 
+              <pb ed="#SV" n="334-v"/>
+              <cb ed="#SV" n="a"/>
+              scilicet retrogradationis et stationis et alii motus diversi 
+              fiunt propter necessitatem susceptionis influentiae ab orbibus 
+              et intelligentiis superioribus, quia semper inferiores 
+              non sufficiunt consequi influentiam suam nisi prius 
+              suscepta superiori influentia et ideo tanta motuum 
+              diversitas ordinatur propter necessitatem regiminis naturalis 
+              et maxime hic inferius et ut facilius intelligatur comparetur maior 
+              mundi ad minorem, scilicet ad hominem nam cor habet 
+              universalem influentiam et tamen per illam non posset effectus 
+              particulares exequi nisi haberet diversa membra 
+              sibi subordinata et recipientia eius influentiam 
+              et per ea membra non possunt fieri particulares effectus 
+              nisi influente corde. Unde contingit quod in corde est 
+              vita, non tamen posset producere actus vitales nisi 
+              mediantibus membris. 
+              Et igitur dicitur quod prima sphaera habet 
+              modum cordis et influit in toto orbe, nec tantum 
+              sufficeret producere effectus nisi mediantibus membris, id est, 
+              sphaeris inferioribus et secundum hanc similitudinem homo vacatur 
+              minor mundus.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e289">
+            <head xml:id="ppr-l111-Hsvasva">Secunda via</head>
+            <p xml:id="ppr-l111-aiqapl">
+              Alia imaginatio quae apud quosdam 
+              videtur esse contraria primae, apparet tamen secundum proprium iudicium 
+              quod sacris coincidat cum prima, nam planetae sunt 
+              effectum hic inferios primo et principaliter effectivi et 
+              ideativi et continent rationes causales universaliter enim 
+              effectum et cum hoc rationes nedum universales sed quidditative 
+              et nihilominus non possunt in effectum seu in actum 
+              nisi superiores orbes influant cum eis influentia 
+              satis generali et modicae perfectionis. exemplum sicut ponitur 
+              quod calor est naturaliter suae specie contentivus et 
+              productivus ita planetae sunt omnium effectuum productivi, 
+              et sicut calor non potest multiplicare nisi radiatus 
+              lumine, ita planetae non possunt producere 
+              effectus nisi Radiantibus superioribus orbibus et intelligentiis 
+              et sic superiores tunc concurrent cum planetis 
+              non proprie et efficienter producendo effectus secundum illum modum 
+              sed actuando planetas ad effectuum productionem, ut lumen 
+              non producit species colores, sed tamen color non 
+              potest producere species nisi adsit praesentia luminis.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e298">
+            <head xml:id="ppr-l111-Htvatva">Tertia via</head>
+            <p xml:id="dL109tvqena"><!-- need id change -->
+              Tertia via 
+              quod planetae habent proportionales stellas fixas in octava 
+              sphaera quaequid stellae fixae Recipiunt influenciam 
+              a nona sphaera, et ideo effectus fiunt, nec a planetis 
+              sic quod contineant principaliter effectus, Sed aeque primo 
+              stellae fixae et planetae continent effectus inferiores, 
+              verum est tamen quod aliquae stellae sunt aptae aliquibus 
+              <cb ed="#SV" n="b"/><!--SV 334vb-->
+              effectibus aliae aliis, et tunc si applicentur secundum hanc 
+              proportionem effectibus secundum hoc <unclear>habendat</unclear> magna copia individuorum 
+              et posset contingere per oppositum minus si tales 
+              stellae effectibus non applicentur.
+            </p>
+            <p xml:id="ppr-l111-netqmc">
+              Notandum est tamen quod rationes 
+              scientiales et causalitates causarum inferiorum non semper 
+              Requirunt causam superiorem eis correspondentem adaequate sed 
+              sufficit quod sit communis influentia vel causa quae ut plurimum 
+              est communis propter varietatem influentiarum quia numquam 
+              est influentia respectu unius speciei adaequate, nam quaecumque sit 
+              influentia seu dispositio caeli applicata igni adhuc 
+              produceret ignem si ei applicatur stupa vel combustibile 
+              et igitur adhoc quod causalitas inferior exeat in actum 
+              non Requirit influentiam sibi adaequatam, sed sufficit 
+              quod sit communis et quodammodo commixta.
+            </p>
+            <p xml:id="ppr-l111-sneepi">
+              Secundo notandum 
+              est quod ratio scientialis vel causalitatis hic inferius 
+              quantum ad mixta perfecta movetur et multum iuvatur vel impeditur 
+              a causa ei proportionata vel contraria in dispositione corporum et 
+              influentiarum caelestium, 
+              et ideo dicit et tenuit 
+              <name ref="#Avicenna">Avicenna</name> 
+              quod sine cursu causarum inferiorum, causae caelestes 
+              potuerunt animalia nedum imperfecta, sed etiam perfecta, et 
+              ex hoc notat <name ref="#Albert">Albertus</name> 
+              quod monstra consueverunt contingere 
+              non solum ex parte materiae, sed etiam ex parte influentiae.
+            </p>
+            <p xml:id="ppr-l111-epiahp">
+              Ex parte influentiae ut contingit quod sit aliqua dispositio 
+              in astris ad productionem <c>a</c> speciei contingit 
+              tamen per aliam influentiam advenientem fieri monstrum 
+              alterius speciei plene tamen, et ita in specie humana salvat 
+              monstra, et igitur de iliis qui habent similitudinem hominis 
+              quae procedit ex vigore influentiae quae viget tempore 
+              productionis seminis quae quid influentia est conveniens 
+              ad hominis productionem.
+            </p>
+            <p xml:id="ppr-l111-epdcic">
+              Ex primo dicto apparet quod multum 
+              inspicienda est radix inferiorum causarum in actionibus inferioribus 
+              patet quia radix causarum superiorum non haberet 
+              effectum nisi concordarent inferiores causae.
+            </p>
+            <p xml:id="ppr-l111-eqasmn">
+              Ex quo 
+              apparet quod praesumptiosum est intromittere de indicativa 
+              astrologiae alicui nisi sit maximus naturalis.
+            </p>
+            <p xml:id="ppr-l111-sqlicc">
+              Sequitur 
+              <unclear>sequitur<!--accidental repeat ? --></unclear> 
+              quod licet monstrum et pestilentiae et mutationes 
+              reducentur in causam caelestem ut in pluribus reducuntur 
+              in causam inferiorem, nam secundum dispositionem influentiae 
+              vel abundantis materiae potest fieri monstrum, 
+              vel quia materia est male disposita nisi materiae superabundans 
+              produceret plura membra et etiam quia influentia 
+              aliquando producit effectum alterius speciei, 
+              et sic non omnia monstra 
+              dicuntur reduci in causam superiorem ut in resolutione 
+              <cb ed="#SV" n="335-r"/>
+              <cb ed="#SV" n="a"/>
+              elementorum et cadaverum per bellum potest contingere mortalitas 
+              et ex in dispositione regionum, 
+              et ista non immediate 
+              reducitur in causam caelestem.
+            </p>
+            <p xml:id="ppr-l111-seacmp">
+              Sunt etiam aliqua 
+              quae eveniunt quae possunt resolvi in causas superiores ut 
+              quaedam aliam sunt venenosa ita influentia illorum 
+              productiva potest in aliquo tempore vigere taliter quod ratione sui 
+              vigoris imprimitur aeri qualitas nocens nobis et 
+              Realiter inficiens et sic sola influentia venenum conservativa 
+              potest contingere mortalitas et pestilentia.
+            </p>
+            <p xml:id="ppr-l111-amppve">
+              Alius modus ponendi quod ordo naturalis non requirit aliquam 
+              connexionem causarum mediarum inter se sed quilibet praerequirit 
+              influxum primae, 
+              et tunc ex variis influentiis 
+              hic inferius congregatis producuntur varii effectus.
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l111-Dd1e358">
+          <head xml:id="ppr-l111-Hcorlri">Corollaria</head>
+          <p xml:id="ppr-l111-eiqdic">
+            Ex istis quacumque via data inferentur corollaria.
+          </p>
+          <div xml:id="ppr-l111-Dd1e366">
+            <head xml:id="ppr-l111-Hpcmpcm">Primum corollarium</head>
+            <p xml:id="ppr-l111-peqaci">
+              Primum 
+              est quod tota naturalis influentia corporum caelestium non se 
+              extendit ad aliquam electionem liberam taliter 
+              patet quia secundum omnes influentiae corporum caelestium et 
+              intelligentiarum non est potens ad elementorum 
+              mutationem et seu eorum immixtus commistionem, nec 
+              ad specierum productionem et ideo actio naturalis angeli 
+              moventis orbem et primae intelligentiae creatae appropriatae 
+              non se extendit ad productionem minimi actus 
+              liberi, nec ad animam se extendit, nec ad eius actus 
+              quantum ad superiorem potentiam et sic tota concatenatio 
+              causarum caelestium quae vocatur aurea, quia pulcherrime 
+              imaginata nullam ponit inferius necessitatem respectu effectuum 
+              materialium. primo non quantum ad liberos et morales actus. 
+              secundo non imponit necessitatem respectu effectuum materialium et 
+              corporalium, nam stat quod sic influentia specialis aeque 
+              productiva et tamen quod non producatur equus nisi fiat particularum 
+              applicatio causarum inferiorum.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e375">
+            <head xml:id="ppr-l111-Hscmscm">Secundum corollarium</head>
+            <p xml:id="ppr-l111-ssqsps">
+              Secundo sequitur 
+              quod si fiant productiones et seditiones non debent 
+              imputari <name>saturno</name> nec etiam <name>marti</name> debet imputari 
+              aliquod vitium unde sunt aliqui qui sua vitia imponunt 
+              planetis qui tamen errant in philosophia astrologia 
+              et moribus simul, nec <name>Iovi</name> attribuendus est divinus 
+              cultus, non tamen improbatur quin praecise influat alterando 
+              elementa et complendo mixta, nec Regia dignitas 
+              attribuitur soli, unde dicunt aliqui quod si sol sit in medio 
+              caeli et habeat plenum ac liberum  
+              aspectum ad <unclear>lun?uam[?]</unclear> et tunc Regia dignitas existit 
+              in suo potentissimo statu.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e396">
+            <head xml:id="ppr-l111-Htcmtcm">Tertium corollarium</head>
+            <p xml:id="ppr-l111-tsqdts">
+              Tertio sequitur quod nec illa 
+              quae pertinent ad religionem sacram nec illa quae pertinent 
+              ad sacrilegia reducuntur in corpora caelestia 
+              <cb ed="#SV" n="b"/><!--335rb-->
+              vel astra, immo praecise talia fiunt bonitate vel malitia 
+              hominum  et ita de nequitia <name>caldeorum</name> 
+              nec a <name>mercurio</name> est lex humana specialiter introducto 
+              sed a deo specialiter nobis providente ut salvi 
+              fiamus. Sed quod imagines fabricatae in constellationibus 
+              secundum magos habeant efficaciam sunt regulae 
+              traditae satis faciles apud eos puta ad habendum 
+              horam et constellationem et sic de aliis quae sunt convenientia 
+              ut dici debent ut homo habeat honorem vel 
+              sit lepidus vel eloquens complacens quae in conspectu 
+              gentium, sed haec omnia sunt falsa, quia corpora caelestia 
+              non se extendunt ad tales effectus ita quod stellae 
+              non habent efficaciam in materiam quae non est earum capax, 
+              licet tamen aliqui dicunt hoc esse verum quantum ad materialem 
+              influentiam, scilicet, dum corpora fabricantur in tali constellatione 
+              recipiunt impresionem ab influentia vehementer 
+              vigente tempore fabricationis huiusmodi imaginum 
+              et tunc impressio derelicta ab influentia caelesti remanet 
+              variata tamen influentia caelesti, sed hoc 
+              non se extenderet nisi ad alterationem corporalem 
+              et si sint aliqui qui aliter intelligant sine dubio 
+              hoc est ex malo intellectu, vel talis effectus 
+              proveniret ex imaginatione vehementia ad hunc effectum 
+              producendi, modo dicitur quod annus qui non vult frangi 
+              non debet talibus subici.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e415">
+            <head xml:id="dll109Hqcmqcm">Quartum corollarium</head>
+            <p xml:id="ppr-l111-qsqpqa">
+              Quarto sequitur quod elevationes quae 
+              fiunt in certis constellationibus non habent effectum nisi 
+              Reducendo ad corporalem dispositionem ut stat quod 
+              ratione dipositionis temporis quod hoc sit magis eloquentior 
+              vel gratus et tunc expedit illum hac hora magis 
+              adire principem quam alia.
+            </p>
+            <p xml:id="ppr-l111-ceqsah">
+              Consequenter elevationes quae  
+              tangunt regimen naturale non sunt negandae ut 
+              de flebotomia, et ita per dei gratiam interpretandum 
+              est de aliquibus quod Resolvant se ad hoc.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e427">
+            <head xml:id="ppr-l111-Hqcmqcm">Quintum corollarium</head>
+            <p xml:id="ppr-l111-Hqsqeat">
+              Quinto sequitur 
+              quod magnae coniunctiones quae fiunt commutatione triplicis 
+              non sunt causa commutationis Regni, quia nec corpora 
+              caelestia nec eorum habitudo se extendit 
+              ad talia.
+            </p>
+            <p xml:id="ppr-l111-Hcpiaap">
+              Consimiliter potest inferri de materia nativitatis quod casus qui accidunt 
+              nato alicui, et alia quae a vetulis vel ab aliquibus 
+              astrologis dicuntur accidere non dependent a corporalibus 
+              caelestibus, immo haec omnia ut dictum est fiunt 
+              causa inanis gloriae vel quaestus. unde de gemellis hoc 
+              apparet quia inter illos astrologi nesciunt ponere differentiam quin 
+              eodem modo sint complexionatus, licet tamen magna sit differentia quia 
+              unus potest esse bene complexionatus, alius male unus etiam 
+              posset bene agere per assuefactionem et alius erit malus. 
+              tertio dicitur quod staret quod unus esset generatus a Rege et alius 
+              <pb ed="#SV" n="335-v"/>
+              <cb ed="#SV" n="a"/>
+              a paupere.
+            </p>
+          </div>
+          <div xml:id="ppr-l111-Dd1e443">
+            <head xml:id="ppr-l111-Hsxmsxm">Sextum corollarium</head>
+            <p xml:id="ppr-l111-Hseuaie">
+              Sexto et ultimo sequitur quod fatalis series 
+              Rerum prout capitur communiter nullam imponit necessitatem libero 
+              arbitrio, nam tota etiam concatenatio causarum superiorum 
+              et inferiorum nullam posset imponere necessitatem libero 
+              arbitrio igitur, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
