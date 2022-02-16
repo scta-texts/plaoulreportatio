@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 112, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 112, De libertate [Palantine Transcription]</title>
+          <date when="2022-02-08">February 08, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="210-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio112">
+        <head xml:id="ppr-l112-Hldlldl">Lectio 112, de Libertate</head>
+        <div xml:id="ppr-l112-Dd1e109">
+          <head xml:id="ppr-l112-Hdlvlvc">De libertate voluntatis creatae</head>
+          <p xml:id="ppr-l112-saaapn">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>Secundum argumentum factum 
+            <lb ed="#PV"/>contra libertate voluntatis crea<lb ed="#PV"/>tae
+            ex causalitate et concursu 
+            <lb ed="#PV"/>primae causae Arguebatur sic deus 
+            <lb ed="#PV"/>vult concurrere cum voluntate creata 
+            <lb ed="#PV"/>ad producendum actum <pc type="virgula"/> igitur necessitatur 
+            <lb ed="#PV"/>et antecedens non est in potestate 
+            <lb ed="#PV"/>voluntatis creatae <pc type="virgula"/> igitur nec consequens 
+          </p>
+        </div>
+        <div xml:id="ppr-l112-Dd1e130">
+          <head xml:id="ppr-l112-Hprones">Propositiones</head>
+          <p xml:id="ppr-l112-pdpppp">
+            <lb ed="#PV"/>pro intellectu et declaratione ponuntur 
+            <lb ed="#PV"/>propositiones
+          </p>
+          <div xml:id="ppr-l112-Dd1e141">
+            <head xml:id="ppr-l112-Hppo">Prima propositio</head>
+            <head xml:id="ppr-l112-Hd1e146" type="question-title">Prioritas concursus primae causae non est aliquo modo durationis</head>
+            <p xml:id="ppr-l112-peiqvc">
+              prima prioritas concursu
+              <lb ed="#PV"/>causae primae respectu voluntatis 
+              <lb ed="#PV"/>creatae non est aliquo modo durationis 
+              <lb ed="#PV"/>patet nam <unclear>ali?</unclear> esset effectus pro<lb ed="#PV"/>ductus 
+              ante concursum voluntatis 
+              <lb ed="#PV"/>creatae <pc type="virgula"/> quia signetur iustans 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>in quo voluntas divina concurrat 
+              <lb ed="#PV"/>in illos instanti ponit effectu 
+            </p>
+            <p xml:id="ppr-l112-tiimnd">
+              <lb ed="#PV"/>igitur voluntas creata si concurrat 
+              <lb ed="#PV"/>bis produceretur effectus vel ergo 
+              <lb ed="#PV"/>solum haberet se passive
+            </p>
+          </div>
+          <div xml:id="ppr-l112-Dd1e156">
+            <head xml:id="ppr-l112-Hsptciv">Secunda propositio</head>
+            <head xml:id="ppr-l112-Hd1e161" type="question-title">Talis prioritas concursus primae causae non necessario includit praeter effectum aliquid causarum in voluntate</head>
+            <p xml:id="ppr-l112-spenia">
+              2a 
+              <lb ed="#PV"/>propositio talis prioritas concursus 
+              <lb ed="#PV"/>primae causae non necessario 
+              <lb ed="#PV"/>includit praeter effectum aliud causari 
+              <lb ed="#PV"/>in ipsa voluntate patet nam 
+              <lb ed="#PV"/>si sic pari ratione ad illud in<lb ed="#PV"/>fluendum 
+              in voluntate require<lb ed="#PV"/>tur 
+              alia dispositio prima et sic esset 
+              <lb ed="#PV"/>processus in infinitum ergo <del>co</del>tenendum
+              <lb ed="#PV"/>quod deo concurrente cum voluntate 
+              <lb ed="#PV"/>ad actus productionem nihil aliud 
+              <lb ed="#PV"/>producit deus nisi ipsum met 
+              <lb ed="#PV"/>actum ad quem voluntas concurrit 
+            </p>
+          </div>
+          <div xml:id="ppr-l112-Dd1e168">
+            <head xml:id="ppr-l112-Htpotpo">Tertia propositio</head> 
+            <head xml:id="ppr-l112-Hd1e173" type="question-title">Respectu actus boni deus voluntatem primam et inclinat ad agendum</head>
+            <p xml:id="ppr-l112-tprrbo">
+              <lb ed="#PV"/>3a propositio respectu actus boni deus vo<lb ed="#PV"/>luntate 
+              praemovet et inclinat ad 
+              <lb ed="#PV"/>agendum patet nam ita est de facto 
+              <lb ed="#PV"/>in iustificatione impii unde 
+              <lb ed="#PV"/><ref><title>apoca</title> <num>3o</num></ref> dicit spiritus sanctus 
+              <lb ed="#PV"/><quote xml:id="ppr-l112-QBefsaop" source="http://scta.info/resource/ap3_20">Ego foris ad ostium pulso</quote> ita 
+              <lb ed="#PV"/>quod peccatores specialiter praemovent 
+              <lb ed="#PV"/>ut convertantur Etiam praevenit in ius<lb ed="#PV"/>tificatione 
+              impii gravum primam 
+              <lb ed="#PV"/>inferendo et actat voluntatem
+              <lb ed="#PV"/>ad actus boni et meritorii 
+              <lb ed="#PV"/>executionem
+            </p>
+          </div>
+          <div xml:id="ppr-l112-Dd1e200">
+            <head xml:id="ppr-l112-Hqpoqpo">Quarta propositio</head>
+            <head xml:id="ppr-l112-Hd1e205" type="question-title">Respectu actus prohibiti concurrit deus secundum minimum gradum possibilem</head>
+            <p xml:id="ppr-l112-qprsip">
+              4a propositio regimen <!-- possible correction or addition above regimen -->
+              <lb ed="#PV"/>actus prohibit concurrit deus 
+              <lb ed="#PV"/>secundum minimum gradum possibile et 
+              <lb ed="#PV"/>extensive indivisibilem Adver<lb ed="#PV"/>tendum 
+              <lb ed="#PV"/>quod ut alias tenui con<lb ed="#PV"/>cursus 
+              <lb ed="#PV"/>divinus <subst><del>regimen</del><add>respectu</add></subst> cuiuscumque 
+              <lb ed="#PV"/>effectus est simpliciter infinitus 
+              <lb ed="#PV"/>nichilominus extensive potest dico 
+              <lb ed="#PV"/>minimus respectu actus mali vel pro<lb ed="#PV"/>hibiti
+              quia non concurrat in quantum 
+              <pb ed="#PV" n="211-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>necessitas effectus requirit quae<lb ed="#PV"/>libet 
+              effectus requirit concursum 
+              <lb ed="#PV"/>esse inmense unde non 
+              <lb ed="#PV"/>inclinat motibus specialibus 
+              <lb ed="#PV"/>praemiis
+            </p>
+          </div>
+          <div xml:id="ppr-l112-Dd1e219">
+            <head xml:id="ppr-l112-Hqnpqnp">Quinta propositio</head> 
+            <head xml:id="ppr-l112-Hd1e224" type="question-title">Prioritas dei concursus est sufficientiae <unclear>necessitatis</unclear> et excellentiae</head>
+            <p xml:id="ppr-l112-qpprcs">
+              Quinta propositio prioritas 
+              <lb ed="#PV"/>domini concursus est sufficientiae 
+              <lb ed="#PV"/>necessitatis et excellentiae dictum 
+              <lb ed="#PV"/>est in propositionem quod non est durationis 
+              <lb ed="#PV"/>igitur non primo concurrat deus
+              <lb ed="#PV"/>et deinde voluntas creata 
+            </p>
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l112-pereqp">
+              <lb ed="#PV"/>dicitur quod est sufficientiae quantum 
+              <lb ed="#PV"/>ad primum membrum nam cau<lb ed="#PV"/>salitas 
+              prima non indiget 
+              <lb ed="#PV"/>causalitas 2a ad ponendum 
+              <lb ed="#PV"/>effectum in esse ideo habet praeveni<lb ed="#PV"/>tatem 
+              sufficientiae
+            </p>
+            <p xml:id="ppr-l112-seircs">
+              2o necessitatis 
+              <lb ed="#PV"/>nam quilibet effectus requirit 
+              <lb ed="#PV"/>eam necessario concurrere id est 
+              <lb ed="#PV"/>si effectus producatur oportet 
+              <lb ed="#PV"/>quod a prima causa
+              <!-- break here ? --> 
+              3o excellen<lb ed="#PV"/>tia 
+              appatet quia illa est superema 
+              <lb ed="#PV"/>et excellentissima causalitas 
+              <lb ed="#PV"/>in primo gradu a quo omnis 
+              <lb ed="#PV"/>causalitas 2o derivatur igitur 
+              <lb ed="#PV"/>habet praevenitatem dignitatis et ex<lb ed="#PV"/>cellentiae
+            </p>
+            <div xml:id="ppr-l112-Dd1e261">
+              <head xml:id="ppr-l112-Hdcddcd">De causalitate divina</head>
+              <p xml:id="ppr-l112-uaecep">
+                Advertendum quod sicut 
+                <lb ed="#PV"/>aeternitas habet quandam prioritatem 
+                <lb ed="#PV"/>respectu temporis et praevenitatem et priorem 
+                <lb ed="#PV"/>et posteriorem aeternitas continet 
+                <lb ed="#PV"/>modo perfectionis et excellentiae totam 
+                <lb ed="#PV"/>ymaginabilem latitudinem temporis Con<lb ed="#PV"/>sequenter 
+                quantum ad situm quia 
+                <lb ed="#PV"/>licet divina essentia sit simpliciter 
+                <lb ed="#PV"/>indivisibilis Tenent tamen 
+                <lb ed="#PV"/>situm ymaginarium continet et 
+                <lb ed="#PV"/>pravenit 
+              </p>
+              <p xml:id="ppr-l112-eidmai">
+                ita divinam causalitas habet 
+                <lb ed="#PV"/>aspectum causalitatis creatae ex<lb ed="#PV"/>cellentiam 
+                eminentiam continuendo ante et
+                <cb ed="#PV" n="b"/>
+                <lb ed="#PV"/>post et est posterior et prior et illo 
+                <lb ed="#PV"/>modo causalitas <del rend="strikethrough">habet respectum 
+                  <lb ed="#PV"/>causalitatis</del> divinam est prima in 
+                <lb ed="#PV"/>cursu effectus communis sibi et esse 
+                <lb ed="#PV"/>creatae in quibus magis particulari<lb ed="#PV"/>zando 
+                advertendum quod prima 
+                <lb ed="#PV"/>causalitas continet 2am et producit 
+                <lb ed="#PV"/>eam tamquam umbram suae causalitatis 
+                <lb ed="#PV"/>et tenuissimam vestigium causalitatis 
+                <lb ed="#PV"/>unde quidquid producit ad extra 
+                <lb ed="#PV"/>hoc continet in infinitum nobili<lb ed="#PV"/>ori 
+                modo 
+              </p> 
+              <p xml:id="ppr-l112-sdchrp">
+                2a divina causalitas 
+                <lb ed="#PV"/>dat mensuram et limitationem 
+                <lb ed="#PV"/>causalitati creatae
+              </p> 
+              <p xml:id="ppr-l112-tqdccc">
+                3o quia divinam 
+                <lb ed="#PV"/>caualitas conservat creatam 
+              </p>
+              <p xml:id="ppr-l112-qdccpc">
+                4o actuat et vivificat plus quam 
+                <lb ed="#PV"/>anima corpus advertendum quod crea<lb ed="#PV"/>tura 
+                producta in esse <unclear>nedum</unclear> ab 
+                <lb ed="#PV"/>eo conservatur sed etiam ratione cuiusdam 
+                <lb ed="#PV"/><unclear>intuitis</unclear> quam habet ad deum effectiva 
+                <lb ed="#PV"/>ipsa elevatur et vivificatur et redditur 
+                <lb ed="#PV"/>in potentia propinquissima ad 
+                <lb ed="#PV"/>hoc quod possit exire in operationes 
+                <lb ed="#PV"/>ymaginantur alii quod si deus 
+                <lb ed="#PV"/>praecise <unclear>aservaret</unclear> creaturam in esse 
+                <lb ed="#PV"/>tollendo actuatem et vivifica<lb ed="#PV"/>tionem 
+                creaturam non esset in potentia 
+                <lb ed="#PV"/>propinqua producendi aliquem effectum 
+                <lb ed="#PV"/>ymmo aeque vel magis redderetur 
+                <lb ed="#PV"/>destituta sicut materia vel corpus 
+                non habens actum
+              </p>
+              <p xml:id="ppr-l112-eqahpr">
+                Quinto quia 
+                <lb ed="#PV"/>divinam causalitas est origo 
+                <lb ed="#PV"/>fatalis omnium producibilium ideo 
+                <lb ed="#PV"/>quantum ad hoc habet prioritatis 
+                <lb ed="#PV"/>rationem.
+              </p>
+              <p xml:id="ppr-l112-qdcpes">
+                Sexto divina cau<lb ed="#PV"/>salitas 
+                est sua libertas et summus 
+                <lb ed="#PV"/>gradus libertatis ideo in genere potentiarum
+                <pb ed="#PV" n="211-v"/>
+                <cb ed="#PV" n="a"/>
+                <lb ed="#PV"/>liberarum ipsa est prima et summa
+              </p> 
+              <p xml:id="ppr-l112-eqssre">
+                <lb ed="#PV"/>Sequitur quod de prioritate praedicta 
+                <lb ed="#PV"/>et non de prioritate temporis con<lb ed="#PV"/>cedendum 
+                est quod prima causa prius 
+                <lb ed="#PV"/>influit et incipit influere 
+                <lb ed="#PV"/>regimen effectus qui est communis 
+                <lb ed="#PV"/>primae causae et 2ae quam causa 2a 
+              </p>
+              <p xml:id="ppr-l112-ssqapa">
+                <lb ed="#PV"/>2o sequitur quod posterius desint 
+                <lb ed="#PV"/>nam habet rationem continentiae virtualis 
+                <lb ed="#PV"/>unde sit prius influere dicit 
+                <lb ed="#PV"/>perfectionem quia excellentiam 
+                <lb ed="#PV"/>activitatis inde pendentis et inmensi
+                <lb ed="#PV"/>et sic deo competit Consimiliter 
+                <lb ed="#PV"/>posterans influere dicit etiam 
+                <lb ed="#PV"/>perfectionem nam ratio continentiae <unclear>a parte</unclear> 
+                et post non est ymaginanda ad 
+                <lb ed="#PV"/>durationem temporalem sed magis 
+                <lb ed="#PV"/>intensive
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l112-Dd1e312">
+            <head xml:id="ppr-l112-Hsxpsxp">Sexta propositio</head> 
+            <head xml:id="ppr-l112-Hd1e317" type="qusestion-title">Desinere prius influere <unclear>dicitur[?]</unclear> imperfectionem</head>
+            <p xml:id="ppr-l112-spdidi">
+              <sic>Quinta</sic> propositio desinere 
+              <lb ed="#PV"/>prius influere dicit imperfectionem 
+              <lb ed="#PV"/>patet ex simili radice
+            </p> 
+            <p xml:id="ppr-l112-eqsatd">
+              Sequitur 
+              <lb ed="#PV"/>quod divina causalitas respectu creatae 
+              <lb ed="#PV"/>in infinitum est prior et in in<lb ed="#PV"/>finitum 
+              posterior patet proportionalem mo<lb ed="#PV"/>dum 
+              comparandi causalitatem divinam 
+              <lb ed="#PV"/>ad creatam sicut comparando eter<lb ed="#PV"/>nitatem 
+              ad tempus
+            </p>
+            <p xml:id="ppr-l112-ssadte">
+              Sequitur 
+              <lb ed="#PV"/>ex hoc quod aeque posterior est 
+              <lb ed="#PV"/>sicut prior quia ab omni parte 
+              <lb ed="#PV"/>continet immense <unclear>excede?o</unclear> 
+            </p>
+            <p xml:id="ppr-l112-tsqaap">
+              Sequitur 
+              <lb ed="#PV"/>quod haec prioritatis habitudo est totale im<lb ed="#PV"/>pertinens 
+              ad neccessitandum liberum arbitrium 
+              <lb ed="#PV"/>quia non est nisi prioritas dignitatis 
+              <lb ed="#PV"/>et excellentiae et non est temporis vel 
+              <lb ed="#PV"/>durationis et ymaginatio conclu<lb ed="#PV"/>dens 
+              formaliter voluntatis li<lb ed="#PV"/>bertatem 
+              eo quod concurrat liberi 
+              <lb ed="#PV"/>volendo causam 2arii liber 
+              <lb ed="#PV"/>concurrere igitur etc
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l112-Dd1e340">
+          <head xml:id="ppr-l112-Hcorria">Corollaria</head>
+          <p xml:id="ppr-l112-pcdcre">
+            Pro declaratione 
+            <lb ed="#PV"/>supponitur quod talis influxus 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>dei cum voluntate creata non 
+            <lb ed="#PV"/>est aliud nisi volitio divina 
+            <lb ed="#PV"/>ad intra quia vult talem actum 
+            <lb ed="#PV"/>libere a voluntate <subst><del><!-- no deletion mark -->tanta</del> <add place="above-line">creata<!-- corrected by another hand--></add></subst> produci 
+            <lb ed="#PV"/>quia sola voluntate agit deus 
+            <lb ed="#PV"/>ad extra et sic non indiget ministro 
+            <lb ed="#PV"/>sed sola voluntate sua effica<lb ed="#PV"/>ti 
+            res producit <name ref="#Paul">Apostolus</name> <quote xml:id="ppr-l112-Qd1e350" source="http://scta.info/resource/rom4_17">vocasti 
+            <lb ed="#PV"/>ea quae non sunt tanquam ea 
+            <lb ed="#PV"/>quae sunt</quote> Item mandavit et 
+            <lb ed="#PV"/>creata sunt Item dixit et facta 
+            <lb ed="#PV"/>sunt et sic divina causalis 
+            <lb ed="#PV"/><subst><del>regimen</del> <add>respectu</add></subst> creaturae est circumstantiona<lb ed="#PV"/>ta 
+            taliter quod vult officium produci 
+            <lb ed="#PV"/>mente creatura libere concurrente 
+            <lb ed="#PV"/>patet quia volitio illa habet pro ob<lb ed="#PV"/>iecto 
+            hoc totum effectum libere 
+            <lb ed="#PV"/>produci ab hoc voluntate creata 
+            <lb ed="#PV"/>ideo illa influentia includit for<lb ed="#PV"/>maliter 
+            voluntatem creatam libere 
+            <lb ed="#PV"/>concurrere
+          </p>
+          <p xml:id="ppr-l112-usqvgp">
+            Sequitur quod licet in se divina 
+            <lb ed="#PV"/>volitio sit talis simipliciter inmensa 
+            <lb ed="#PV"/>ut sic tamen circumstantionata dicitur 
+            <lb ed="#PV"/>quod non est positiva effectus nisi creatura 
+            <lb ed="#PV"/>concurrent libere patet ipsa inclu<lb ed="#PV"/>dit 
+            hoc quia non est volitio talis 
+            <lb ed="#PV"/>nisi quod res sit a creata libera po<lb ed="#PV"/>tentia 
+            et per consequens negandum non 
+            <lb ed="#PV"/>tollit sed formaliter ponit liber<lb ed="#PV"/>tatem 
+            exemplum de effectu quem deus 
+            <lb ed="#PV"/>vellet producere tamen tali causa eam tali 
+            <lb ed="#PV"/>tempore et in tali gradu et loco 
+            <lb ed="#PV"/>cum qua volitione nam staret 
+            <lb ed="#PV"/>effectum ab aliquo produci 
+            <lb ed="#PV"/>nec a se solo cum tali volitione 
+            <lb ed="#PV"/>nec <unclear>necessario</unclear> gradu nec in alio 
+            <lb ed="#PV"/>tempore nec loco
+          </p>
+          <p xml:id="ppr-l112-eqsias">
+            Sequitur 
+            <lb ed="#PV"/>quod censenda est magis libera vo<lb ed="#PV"/>luntas 
+            creata ex divina praeventione 
+            <pb ed="#PV" n="212-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>quam si prima causa concurret 
+            <lb ed="#PV"/>in genere finis praecise ita quod auget 
+            <lb ed="#PV"/>libertatem et est magis libera quod 
+            <lb ed="#PV"/>si prima causa communicaret sibi po<lb ed="#PV"/>tentiam 
+            per se producendi patet nam 
+            si quid deus influit voluntatem 
+            <lb ed="#PV"/>praeter actum non influat movetur 
+            <lb ed="#PV"/>libere agendi ex eo quod iste est 
+            <lb ed="#PV"/>ordo eorum 2o reddit volun<lb ed="#PV"/>tate  
+            magis efficacem ad prompte 
+            <lb ed="#PV"/>et libere exeundum in actum
+          </p>
+          <p xml:id="ppr-l112-ssqpmn">
+            Sequitur 
+            <lb ed="#PV"/>quod non solum ex sua intrinseca 
+            <lb ed="#PV"/>libertatis conditione voluntas 
+            <lb ed="#PV"/>non necessitatur ad suas elevationes 
+          </p>
+          <!-- very fuzzy break and parallel -->
+          <p xml:id="ppr-l112-cna4aa">
+            <lb ed="#PV"/>sed etiam per divinam praeventionem et ex 
+            <lb ed="#PV"/>praeventione divina quam intrinseca 
+            <lb ed="#PV"/>potentia libertatis
+          </p>
+          <p xml:id="ppr-l112-svdsda">
+            sed prima causa de<lb ed="#PV"/>terminat 
+            voluntatem creatam non 
+            <lb ed="#PV"/>necessitando multipliciter
+            <lb ed="#PV"/>primo vivificando eam vel arman<lb ed="#PV"/>do 
+            suam libertatem quia non <unclear>suff</unclear> 
+            <lb ed="#PV"/>exire in actum nisi voluntate divina 
+            <lb ed="#PV"/>actuetur 2o limitat eam quantum 
+            <lb ed="#PV"/>ad individualem actum quia quaelibet 
+            <lb ed="#PV"/>causa creata est indeterminata respectu ef<lb ed="#PV"/>fectuum 
+            ab ea producabilium eiusdem specei 
+            <lb ed="#PV"/>aequate
+          </p>
+          <p xml:id="ppr-l112-tsqedp">
+            Sequitur quod nullatenus 
+            <lb ed="#PV"/>imputandum est primae causae quod 
+            <lb ed="#PV"/>concurrat ad actum prohibitum 
+            <lb ed="#PV"/>patet quia nullo modo necessi<lb ed="#PV"/>tat 
+            voluntatem ipsius productionem 
+            <lb ed="#PV"/>ymmo concurrit remississimo gradu 
+            <lb ed="#PV"/>et ita remissio et praecise tantum 
+            <lb ed="#PV"/>quantum naturalis necessitas requi<lb ed="#PV"/>rit 
+            quod male eligat voluntas 
+            <lb ed="#PV"/>creata est suae imperfectionis Etiam 
+            <lb ed="#PV"/>talis actus non est deo illicita 
+            <lb ed="#PV"/>vel prohibitus 
+          </p> 
+          <p xml:id="ppr-l112-qsesqr">
+            Sequitur error 
+            <lb ed="#PV"/>negantium actus <unclear>positivus <!-- possible correction --></unclear> voluntatis 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>propter peccatum commissionis vel 
+            <lb ed="#PV"/><unclear>singentium</unclear> respectus ymaginati 
+            <lb ed="#PV"/>sunt quod non staret cum divina <unclear>unam</unclear> 
+            <lb ed="#PV"/>quod actus voluntatis esset quid positivum 
+            <lb ed="#PV"/>quia concurrit praeveniendo igitur esset causa 
+            <lb ed="#PV"/>deformitatis Ideo dicunt quod actus 
+            <lb ed="#PV"/>voluntatis nichil est sed est met vo<lb ed="#PV"/>luntas 
+            et hoc propter ignorantiam 
+            <lb ed="#PV"/>istius prioritatis dictae dixerunt 
+            <lb ed="#PV"/>quod actus non sunt peccata sed ponitur 
+            <lb ed="#PV"/>respectus qui suas modo rerum 
+            <lb ed="#PV"/>ad quos deus nullo modo <unclear>contra</unclear>
+            <lb ed="#PV"/>quia non potest ad peccatum concurrere
+          </p>
+          <p xml:id="ppr-l112-qsepce">
+            <lb ed="#PV"/>Sequitur error negantium divinum 
+            <lb ed="#PV"/>concursum respectu talium quia impossibile 
+            <lb ed="#PV"/>est quod creatura sit aliqua entitas 
+            <lb ed="#PV"/>et producta adextra quando sit adeo 
+            <lb ed="#PV"/>effective
+          </p> 
+          <p xml:id="ppr-l112-sseosn">
+            Sequitur error di<lb ed="#PV"/>centium 
+            liberum arbitrium prius 
+            <lb ed="#PV"/>agere in electionibus sine bonis 
+            <lb ed="#PV"/>sine malis quam deum et quod deus 
+            <lb ed="#PV"/>concomitanter concurrit nam propter 
+            <lb ed="#PV"/>prioritatem concursus non oportet 
+            <lb ed="#PV"/>sequi necessitatem
+          </p>
+          <p xml:id="ppr-l112-sseeil">
+            Sequitur 
+            <lb ed="#PV"/>error <ref xml:id="ppr-l112-Rd1e410"><name ref="#Bradwardine">barguerdini</name> <unclear>dicentis quod 
+            <lb ed="#PV"/>ex praeventione <!-- not marked as deletion, but probably should be part of deletion --></unclear> <del rend="strikethrough">primae causae respectu 
+            <lb ed="#PV"/>creatae voluntatis</del> in tertia 
+            <lb ed="#PV"/>parte summae suae de causa de 18o 
+            <lb ed="#PV"/>capitulo 2o 3o 4o</ref> dicentis quod ex praeventione
+            <lb ed="#PV"/>primae causae respectu voluntatis 
+            <lb ed="#PV"/>creatae voluntas humana ne<lb ed="#PV"/>cessitatur 
+            ad quemcumque suum actum 
+            <lb ed="#PV"/>sive bonum sive malum Istud est 
+            <lb ed="#PV"/>periculosum et erroneum et sapit 
+            <lb ed="#PV"/>haeresim quia tollit in <unclear>praesent?tem</unclear>
+            <lb ed="#PV"/>ad peccatum ipse rationes ponit 
+            <lb ed="#PV"/>et solvit aliorum rationes in 
+            <lb ed="#PV"/>sequenti lectione tangentur etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
