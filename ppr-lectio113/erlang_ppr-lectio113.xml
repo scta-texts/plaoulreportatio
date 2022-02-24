@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 113, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 113, De libertate [Erlangen Transcription]</title>
+          <date when="2022-02-23">February 23, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="148-r"/>
+      </div>
+    </front>
+    <body>
+        <div xml:id="ppr-lectio113">
+        <head xml:id="ppr-l113-Hldlldl">Lectio 113, de Libertate [Erlangen Transcription</head>
+        <div xml:id="ppr-l113-Dd1e109">
+          <head xml:id="ppr-l113-Hrdledc">
+            Recapitulatio: de liberate voluntati creatae et divina concurrentia
+          </head>
+          <p xml:id="ppr-l113-eplgna">
+            <lb ed="#E"/>Alia lectione 
+            <lb ed="#E"/>Ex praecedenti lectione patuit quod voluntas creata magis libere producit praeventa voluntate 
+            <lb ed="#E"/>divina quam si sola produceret Item quod praeventio divina non necessitat causa sed libertat eam 
+            <lb ed="#E"/>magis quam si voluntas se sola exiret in actum quia voluntas divina non praevenit voluntatem 
+            <lb ed="#E"/>humanam duratione sed illa praeventio est nobilitas causae et consistit insufficientia quantum 
+            <lb ed="#E"/>ad effectum quia se sola sufficit etc sicut dictum est 
+          </p> 
+          <p xml:id="ppr-l113-enqram">
+            Notatum est quod nichilominus respectu operationis meritoriae 
+            <lb ed="#E"/>vel actus boni prima causa praevenit durationi voluntatem ante productionem actus boni movendo et 
+            <lb ed="#E"/>inclinando ad actum bonum haec tamen inclinatio non est de necessitate non est illativa actus ad obiectum alliciens 
+            <lb ed="#E"/>vel movens voluntatem non necessitate ita praeventio divina praecise inclinat voluntatem etiam  
+            <lb ed="#E"/>respectu actus mali deus concurrit minimo gradu possibili cum talibus circumstantiis quia stat quod habitus 
+            <lb ed="#E"/>moveat actum malum etiam obiectum quae non movet sine deo unde non se solo incitat ad 
+            <lb ed="#E"/>malum sed ad bonum 
+          </p>
+          <p xml:id="ppr-l113-sednna">
+            <lb ed="#E"/>Sequitur falsum esse aliquam causam esse necessitatem antecedentem respectu alicuius effectus 
+            <lb ed="#E"/>et hoc contra <name>braguuardini</name> in tertia parte summa suae ubi ponit quod divina voluntas est necessitas 
+            <lb ed="#E"/>antecedens respectu cuiuscumque effectus quae producitur sive a causae libera sive naturali
+          </p>
+          <p xml:id="ppr-l113-echcqp">
+            Sed recitare descriptionem 
+            <lb ed="#E"/>necessitatis antecedentis ipsius <name>Braguuerdini</name> unde dicit sic quod est causa activa qua posita 
+            <pb ed="#E" n="148-v"/>
+            <lb ed="#E"/>Cum omnibus suis dispositionibus naturaliter principiis quibus causat finem creatum necessario et indefectibiliter 
+            <lb ed="#E"/>sequitur illud causari per causat intelligit quod sit apta causare tunc ponit quod voluntas divina est necessi<lb ed="#E"/>tas 
+            antecedens respectu cuiuscumque effectus qui producitur nam posita divina voluntate 
+            <lb ed="#E"/>ad cuius effectus productionem cum ceteris requisitis necessario et indefectibiliter ponitur effectus 
+          </p>
+        </div>
+        <div xml:id="ppr-l113-Dd1e132">
+          <head xml:id="ppr-l113-corria">Corollarium: quod esse aliquam necessitans antecedentem est impossibilem</head>
+          <p xml:id="ppr-l113-eciaei">
+            <lb ed="#E"/>Contra ipsum <unclear>intuli</unclear> corollarium 
+          </p>
+          <p xml:id="ppr-l113-epdivd">
+            unde clarum est de actu libero unde alias non libere produceretur nam 
+            <lb ed="#E"/>concurrentibus omnibus requisitis ad actus liberi productionem secundum eum necessario producat actum vo<lb ed="#E"/>luntas 
+            libera et per consequens non tollit libertatem contradictionis a voluntate humana
+          </p>
+          <p xml:id="ppr-l113-eqaavd">
+            ymmo sequitur 
+            <lb ed="#E"/>quod voluntas divina nullo modo est libera activa ad extra nec ad intra quia non producere quocumque effectu 
+            <lb ed="#E"/>dato Et sic ponunt quod omnia absolute de necessitate eveniunt
+          </p>
+          <p xml:id="ppr-l113-ssqcsa">
+            Sequitur quod ex libertate primae causae 
+            <lb ed="#E"/>respectu effectus naturalis et a causa naturali producibilis nulla est necessitas antecedens patet nam quamcumque 
+            <lb ed="#E"/>agens naturale sit applicatum ad passum cum omnibus requisitis adhuc libertas primae causae potest 
+            <lb ed="#E"/>influere ad effectus productionem igitur non est prima causa necessitas antecedens / de 2a patet nam <unclear>quaecumque</unclear> 
+            <lb ed="#E"/>sit applicata cum omnibus requisitis adhuc deus potest libere suspendere actionem suam et per consequens 
+            <lb ed="#E"/>nec prima causa nec 2a est necessitas antecedens respectu effectus ergo etiam deficit <name>Braguuerdinum</name>
+            <lb ed="#E"/>respectum effectum naturalium <!-- possible break point --> Sequitur licet haec consequentia sit necessaria deus vult a causam producere <c>b</c> 
+            <lb ed="#E"/>effectum igitur a causa producit <c>b</c> effectum nichilominus consequens est contingens Quia licet deus vult <c>a</c> producere 
+            <lb ed="#E"/><c>b</c> tamen contingenter vult ideo sola necessitas <unclear>consequentiae</unclear> est ibi concedenda sed consequens est <unclear>ponere</unclear> contingens sicut antecedens 
+          </p>
+          <p xml:id="ppr-l113-tsqdar">
+            <lb ed="#E"/>Sequitur quod nulla causa potest necessitari ad producendum effectum quia numquam necessitatur 2a causa 
+            <lb ed="#E"/>igitur 2a agit <pc type="pilcrow"/> Pro errore contrario fundando vel sophistice colorando praedicta facit rationes 
+            <lb ed="#E"/>quas inducam et per quarum solutionem elucebit veritas 
+          </p>
+        </div>
+        <div xml:id="ppr-l113-Dd1e188">
+          <head xml:id="ppr-l113-Hrbirbi">Rationes Bradwardini</head>
+          <p xml:id="ppr-l113-peqsdc">
+            primo arguitur sic quod oppositum scilicet negare 
+            <lb ed="#E"/>illam necessitatem antecedentem est error pelagii igitur antecedens nam ponere praeventionem divinam necessitatem 
+            <lb ed="#E"/>voluntatem ad suum actum est dare voluntati plenum divinum super actum suum sed dare voluntati 
+            <lb ed="#E"/>plenum dominum super actum suum est dare de erroribus pelagii nam est attribuere voluntati ultra 
+            <lb ed="#E"/>suam naturalem facultatem et attribuere sic efficaciam divini concursus istud est erroneum ymmo 
+            <lb ed="#E"/>haereticum 
+          </p>
+          <p xml:id="ppr-l113-srdena">
+            Secunda ratio facta prius deus vult voluntatem producere <c>b</c> actum igitur producit <c>b</c> actum 
+            <lb ed="#E"/>consequentia tenet quia voluntas dei est efficax et infrustrabilis igitur quicquid vult et qualitercumque taliter fit 
+            <lb ed="#E"/>et antecedens non est in potestate voluntatis creatae igitur nec consequens igitur necessario vult <unclear>quando</unclear> deus <unclear>causa</unclear> velle igitur prae<lb ed="#E"/>venitur 
+            a prima causa tamquam necessitate praevenire respectu effectus
+          </p>
+          <p xml:id="ppr-l113-tasaap">
+            Tertio non sequeretur quod homo 
+            <lb ed="#E"/>posset deum facere mendacem et periurum consequens est erroneum et consequentia probatur nam sic ita quod 
+            <lb ed="#E"/>deus velit concurrere in <c>a</c> hora cum voluntate creata ad producendum <c>b</c> actum et dicat se 
+            <lb ed="#E"/>sic velle concurrere et revelet et iuret Tunc tunc quaeritur utrum voluntas creata potest contrarie 
+            <lb ed="#E"/>Si sic habetur consequens illatum et sic poterit deum decipere et etiam sequuntur alia inconvenientia Si non habetur 
+            <lb ed="#E"/>propositum
+          </p> 
+          <p xml:id="ppr-l113-qqpisa">
+            Quarto quaelibet potentia fortior potest sibi subiectam debiliorem necessitare ad actum 
+            <lb ed="#E"/>igitur divina voluntas quae est infinita potentia potest voluntatem creatam necessitare ad actum 
+            <lb ed="#E"/>igitur consequentia est clara antecedens patet ad experientiam quia quanto potentia est fortior tanto agit cum mi<lb ed="#E"/>nori 
+            resistentia
+          </p> 
+          <p xml:id="ppr-l113-qadaap">
+            Quinto deus potest facere creaturam inpeccabilem saltis per gratiam 
+            <lb ed="#E"/>et in gratia conformare igitur potest eam necessitare ad bonos actus et inpossibilitate ad malum 
+            <lb ed="#E"/>consequentia tenet quia creatura confirmata est huiusmodi scilicet est necessitata ad bonum et inpossibilitas ad 
+            <lb ed="#E"/>malum quia <unclear>oppositum</unclear> repugnat antecedenti
+          </p>
+          <p xml:id="ppr-l113-saqneo">
+            Sexto vero sic sequeretur quod deus non esset 
+            <lb ed="#E"/>omnipotens consequens falsum et contra fidei articulum consequentia ponendo quod deus faciat ultimum suae potentiae 
+            <lb ed="#E"/>quod sortes diligat <name>platonem</name> et omnino hoc velit quaeritur utrum sortes necessitabitur si sic habetur 
+            <lb ed="#E"/>intentum si non igitur potest omnipotentiae dei contrariae
+          </p>
+          <p xml:id="ppr-l113-savqav">
+            Septimo voluntas animae christi fuit 
+            <lb ed="#E"/>absolute necessitata ad suos actus bonos in primo instante suae conceptionis ergo quaelibet alia 
+            <lb ed="#E"/>necessitari potest consequentia tenet quia illa fuit aeque nobilis et libera sicut aliqua alia creatura etc
+          </p>
+          <p xml:id="ppr-l113-cdbroe">
+            <pb ed="#E" n="149-r"/>
+            <lb ed="#E"/>Confirmatur de beatis confirmatis in gratia quo necessitatur ad deum diligendum et bene operandum 
+            <lb ed="#E"/>et inpossibilitantur ad peccandum igitur voluntas divina est necessitas antecedens respectu operationum electivarum 
+          </p>
+          <p xml:id="ppr-l113-oaocab">
+            <lb ed="#E"/>Item arguitur ostendendo possibilitatem huius ymaginationis nam latens confirmatio alicuius creaturae ratio<lb ed="#E"/>nalis 
+            necessitaret ipsam ad bene operandum tamen huiusmodi necessitatio vel inpossibilitatio non caderet sub 
+            <lb ed="#E"/>experientia nam quicquid ageret hoc ageret volens igitur experientia quia non experimur talia non tollit 
+            <lb ed="#E"/>quin sit necessitatio et per hac solvit illa quae possunt sibi obici
+          </p>
+          <p xml:id="ppr-l113-nadden">
+            Item dato quod esset praecise unius vir 
+            <lb ed="#E"/>et una mulier et numerus electorum non esset completus tunc deus necessitaret ut convenirent ad generationem 
+            <lb ed="#E"/>prolis igitur deus suo cursu potest liberum arbitrium necessitare igitur eadem ratione generaliter et semper
+          </p>
+          <!-- fuzzy break and parallel; something missing in pal lat here -->
+          <p xml:id="ppr-l113-daersa">
+            Item 
+            phy<lb ed="#E"/>sice 
+            in eodem casu arguitur nam secundum philosophiam ne species peccat necesitabuntur convenire ad generationem 
+            <lb ed="#E"/>igitur voluntas creata est necesitabilis respectu suarum electionum
+          </p>
+          <p xml:id="ppr-l113-uadnee">
+            <pc type="pilcrow"/> Item voluntas divina est necessitas 
+            <lb ed="#E"/>antecedens respectu praesentium et praeteritorum igitur respectu futurorum consequentia tenet quia uniformiter se habet divina voluntas 
+            <lb ed="#E"/>quantum est respectu sui igitur si est necessitas antecedens respectu praesentis et praeteriti etiam respectu futura ratione suae uni<lb ed="#E"/>formitatis 
+            adaequate respectu praesentis allegat <ref xml:id="ppr-l113-Rd1e264">philosophum primo peryermenias</ref> Omne quod est dum est necesse est esse 
+            <lb ed="#E"/>respectu praeteriti clarum est igitur etc
+          </p>
+          <p xml:id="ppr-l113-caeils">
+            Consequenter ad eandem positionem inducit immateriales auctoritates sacrae scripturae 
+            <lb ed="#E"/><name ref="#Augustine">augustini</name> <name ref="#Anselm">anselmi</name> et aliorum doctorum Sed non oportet eas inducere unico ultimo omnis solvuntur 
+            <lb ed="#E"/>dicitur quod intelliguntur de necessitate consequentiae vel conditionata unde <name>Boecius</name> Si video te ambulare necesse 
+            <lb ed="#E"/>est te ambulare ista non est concedenda nisi in sensu composito Ita quod haec consequentia est necessaria video te 
+            <lb ed="#E"/>ambulare igitur tu ambulas Deus vult antichristum fore igitur necessario erit intelligeretur in sensu composito 
+            <lb ed="#E"/>ad sensum dictum proportionalem igitur non intelligeretur de necessitate consequentis vel antecedentis sed consequentiae etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
