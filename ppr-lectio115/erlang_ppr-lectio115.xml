@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 115, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 115, De libertate [Erlangen Transcription]</title>
+          <date when="2022-03-24">March 24, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="216-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio115">
+      <head xml:id="ppr-l115-Hldlldl">Lectio 115, de Libertate</head>
+        <div xml:id="ppr-l115-Dd1e109">
+          <head xml:id="ppr-l115-Harcedc">Aliae rationes contra Bradwardinum de libertate et divina concurrentia</head>
+          <div xml:id="ppr-l115-Dd1e114">
+            <head xml:id="ppr-l115-Hpropro">Prima ratio</head>
+            <p xml:id="ppr-l115-rarpsa">
+              <lb ed="#E"/>In alia lectione
+              <lb ed="#E"/>Aliae sunt rationes solvendae quarum solutio patet ex radicibus tactis quia nulla earum probat volun<lb ed="#E"/>tatem 
+              divinam esse necessitatem antecedentem patet nam dato quod deus necessitaret voluntatem adhuc contingen<lb ed="#E"/>ter
+              necessitaret ita quod posset libere non necessitare igitur non est necessitas antecedens et sic licet voluntas crea<lb ed="#E"/>ta 
+              quantum est de se non posset <sic>resilire</sic> tamen deus potest non necessitare
+            </p>
+          </div>
+          <div xml:id="ppr-l115-Dd1e123">
+            <head xml:id="ppr-l115-Hsrosro">Secunda ratio</head>
+            <p xml:id="ppr-l115-sdqcdp">
+              Secundo omnes rationes per eum 
+              <lb ed="#E"/>factae solum probant de possibili scilicet quod voluntas creata posset per divinam voluntatem necessitari et sua conclusio est 
+              <lb ed="#E"/>de in esse modo ex hoc quod deus posset sic agere non sequitur quod sic agat et sic non probat intentum
+            </p>
+          </div>
+          <div xml:id="ppr-l115-Dd1e134">
+            <head xml:id="ppr-l115-trotro">Tertia ratio</head>
+            <p xml:id="ppr-l115-tdqscn">
+              <lb ed="#E"/>Tertio dicitur quod omnes per eum factae rationes pro credunt de causalitate naturali voluntatis et non de causalitate 
+              <lb ed="#E"/>libera igitur non sunt ad propositum quia non revocatur in dubium quin voluntas necessitetur quan<lb ed="#E"/>tum 
+              ad primos motus et eius multos actus ad quos habet causalitatem naturalem et modo 
+              <lb ed="#E"/>naturali et sic fertur obiecto sibi praesentato Et sic dicit <ref xml:id="ppr-l115-Rd1e145"><name>augustinus</name></ref> quod primi motus non sunt in nostra 
+              <lb ed="#E"/>potestate et sic quamvis concederetur quod voluntas potest concurrere cum deo ad multorum actuum productionem 
+              <lb ed="#E"/>non sequitur quod liberum arbitrium secundum causalitatem sed bene secundum causalitatem 
+              <lb ed="#E"/>naturalem
+            </p>
+          </div>
+          <div xml:id="ppr-l115-Dd1e155">
+            <head xml:id="ppr-l115-Hqroqro">Quarta ratio</head>
+            <p xml:id="ppr-l115-qdqeae">
+              Quarto diceretur pro solutione omnium rationum simul quod procedunt non de causalitate activa 
+              <lb ed="#E"/>voluntatis sed de vitali <unclear>eius</unclear> operatione
+              <pc type="pilcrow"/> Advertendum quod voluntas respectu suorum actuum liberorum 
+              <lb ed="#E"/>multipliciter concurrit 
+            </p> 
+            <p xml:id="ppr-l115-ppaeae">
+              primo producendo actum quantum ad hoc habet rationem cauae libere agentis et 
+              <lb ed="#E"/>de hoc habitudine consideratur libertas voluntatis Aliam habitudinem ad suum actum quia actu 
+              <lb ed="#E"/>producto per eam afficitur scilicet volendo si sit volitio vel volendo si sit volitio et istae 
+              <pb ed="#E" n="151-r"/>
+              <lb ed="#E"/>sunt habitudines distincte quia 2a non est productio aliqua nec actio proprie loquendo scilicet vitalis immutatio etc Quia 
+              <lb ed="#E"/>voluntas informata actu suo nihil producit ad hoc quod per eam velit vel nolit sed utitur eo et 
+              <lb ed="#E"/>forte magis se habet passive quantum ad hoc quam active et sic neganda est ista consequentia voluntas potest 
+              <lb ed="#E"/>necessitari ad producendum actum suum liberum forte 
+            </p> 
+            <p xml:id="ppr-l115-smvnel">
+              secundus modus posset dicit quoddam modo naturalis cuius 
+              <lb ed="#E"/>ratio est quia producto actu a voluntate non in potestate sua quin per illum velit per aliquod tempus 
+              <lb ed="#E"/>ergo habitudo voluntatis ad suum actum videtur quoddam modo esse naturalis productio vero actus est 
+              <lb ed="#E"/>summe simpliciter libera nam positis omnibus causis requisitis ad actus productionem voluntas habet in 
+              <lb ed="#E"/>sua potestate exeundum vel non exeundum non aut sit actu producto nam illo producto non 
+              <lb ed="#E"/>est in potestate voluntatis quin per illum pro tempus afficiatur et sic neganda est consequentia deus potest necessi<lb ed="#E"/>tare 
+              voluntatem ad volendum igitur potest necessitari causalitatem eius liberam ad exeundum in actum 
+              <lb ed="#E"/>quia habitudines sunt diversae 
+            </p>
+            <p xml:id="ppr-l115-eqpdqu">
+              Inferri posset quod stat voluntatem commissime peccare tamen nec ad velle nec aliquid 
+              <lb ed="#E"/>volle nec aliquid nolle patet quia habitudo voluntatis ad suum actum ut voluntas est ipsius effec<lb ed="#E"/>tiva 
+              Est alia habitudo quam ut per actum suum est afficibilis Quia stat quod deus velit con<lb ed="#E"/>currere 
+              cum primo et non cum secundo scilicet ad hoc quod voluntas producat actum suum et non ad hoc 
+              <lb ed="#E"/>quod voluntas afficiatur per eundem Sed difficultas est quod magis cadat sub prohibitione 
+              <lb ed="#E"/>vel productio actus vel per eam vitaliter inmutari Teneo pro praesenti quod utramque 
+            </p> 
+            <p xml:id="ppr-l115-sdqaea">
+              Secundo dico 
+              <lb ed="#E"/>quod magis libere subiacet voluntati productio actus quam affectio per eum patet ex dictis quia pure 
+              <lb ed="#E"/>liberum et voluntati producere actum ipso tamen producto est partim naturale per eum affici
+            </p>
+            <p xml:id="ppr-l115-tdqhad">
+              dico 3o 
+              <lb ed="#E"/>quod illo non obstante voluntas magis deordinatur positive per inmutationem actus mali producti 
+              <lb ed="#E"/>quam per eius productionem primo quodlibet istorum cadit sub prohibitione de actu illicito quia 
+              <lb ed="#E"/>negandum prohibitum est voluntati ne producat odium dei sed etiam non odiat et sic videtur utramque 
+              <lb ed="#E"/>contra legem Et ultra inmutatio vitalis actus prohibiti est positive de ordinatam voluntatis 
+              <lb ed="#E"/>quia odium dei movet voluntatem in contrarium suis finis igitur est formaliter et positive ipsius voluntatis 
+              <lb ed="#E"/>deordinativa igitur praeter prohibitionem habet annexam deordinationem ideo credere quod immutatio esset de<lb ed="#E"/>terior
+            </p>
+          </div>
+          <div xml:id="ppr-l115-Dd1e188">
+            <head xml:id="ppr-l115-Hqnoqno">Quinta ratio</head>
+            <p xml:id="ppr-l115-qpdeml">
+              Quinto dico quantum ad rationes habentes difficultatem de confirmatis in via vel prima 
+              <lb ed="#E"/>quod rationes illae possunt <seg type="correction"><add place="above-line">re</add>solvi</seg> ad alias causas quam divinam praeventionem In beatis potest consurgere con<lb ed="#E"/>firmatio 
+              ex multis inter alia potest consurgere ymaginando tres gradus causalitatis duos extremos 
+              <lb ed="#E"/>naturales complacenter tamen et tertium medium et secundum primum voluntas agit circa primos motus 
+              <lb ed="#E"/>2m exemplum superius voluntas agit circa summum bonum sibi praesentatum et est supremum genus 
+              <lb ed="#E"/>media portio poneretur electiva libere et esset respectu mediorum ad finem Suprema esset respectu 
+              <lb ed="#E"/>finis inmediate nec est inconveniens in eadem potentia activitatem naturalem ponere supra liberam quia 
+              <lb ed="#E"/>causalitas patris in divinis ad inter est naturalis et causalitas eius adextra est libera libertate 
+              <lb ed="#E"/>contradictionis
+            </p>
+            <p xml:id="ppr-l115-aminnd">
+              <pc type="pilcrow"/> Aliis modis posset salvari scilicet si obiectum posset cum vehementer movere 
+              <lb ed="#E"/>quod necessitaret etc esset aliquod et non ad propositum
+            </p>
+          </div>
+          <div xml:id="ppr-l115-Dd1e200">
+            <head xml:id="ppr-l115-sxrsxr">Sexta ratio</head>
+            <p xml:id="ppr-l115-uneasm">
+              ultimo sciendum est circa materiam tactam propter 
+              <lb ed="#E"/>modum loquendi <name ref="#Anselm">venerabilis Anselmi</name> de necessitate antecedente quod ipsa potest capi multipliciter
+            </p> 
+            <p xml:id="ppr-l115-pmpcid">
+              primo pro causa 
+              <lb ed="#E"/>activa qua posita respectu effectus non est in potestate causae <unclear>quoniam</unclear> effectus sequatur Isto modo 
+              <lb ed="#E"/>cepit <name ref="#Bradwardine">Braguuardini</name> et sic negandum est quod possit esse necessitas antecedens respectu effectus quia quacumque 
+              <lb ed="#E"/>causa posita sive prima sive secunda causa activa habet in potestate sua libera quod non sequatur effectus
+            </p> 
+            <p xml:id="ppr-l115-smcdna">
+              <lb ed="#E"/>Secundo capitur magis ad mentem doctorum pro causa activa qua posita respectu alicuius effectus non est in 
+              <lb ed="#E"/>potestate agentis naturalis quin sequatur effectus et sic prima causa respectu cuiuscumque operationis extra 
+              <lb ed="#E"/>liberum arbitrium causatum est necessitas antecedens
+            </p>
+            <p xml:id="ppr-l115-tmcsip">
+              Tertio modo capitur pro causa activa qua posita 
+              <lb ed="#E"/>non est in potestate liberi arbitrii quin effectus ponatur esse Et tunc circa hoc tenendum est contra 
+              <lb ed="#E"/><name ref="#Bradwardine">Braguuardini</name> quod etiam deus non est necessitas antecedens respectu actuum liberi arbitrii et sic volun<lb ed="#E"/>tas 
+              habet in sua potestate quae non ponatur actus Addo quod in instanti in quo producitur effectus 
+              <pb ed="#E" n="151-v"/>
+              <lb ed="#E"/>positis omnibus etc in potestate liberi arbitrii est quod huiusmodi actus non producitur <name>Gregorius de eri<lb ed="#E"/>mino</name>  
+              dicit quod ista consequentia non est necessaria a est igitur necesse est a esse vel fuisse ut valet res pro eodem instanti 
+              <lb ed="#E"/>pro quo producitur nullam contrahit necessitatem essendi ymmo possibile est eam nec esse nec fuisse 
+              <lb ed="#E"/>pro instanti pro quo est sed solum contrahit necessitatem ex praeterito si vellemus dicere quod illa consequentia 
+              <lb ed="#E"/>esset bona diceremus quod actus qui nunc est productus sic dicitur in libertate voluntatis quia 
+              <lb ed="#E"/>inmediate ante voluntas habuit in sua facultate quod effectus poneretur in hoc instanti vel non po<lb ed="#E"/>neretur 
+              sto tamen in prima via apparet satis concorda liberi arbitrii in praeventionis divinae voluntatis 
+              <lb ed="#E"/>respectu voluntatis creatae et sic apparet error <name ref="#Bradwardine">Braguuardini</name> tollens executionem voluntatis 
+              <lb ed="#E"/>creatae nam praeventio divina sive gratuita sive naturalis magis auget executionem volun<lb ed="#E"/>tatis 
+              creatae quam inpediat ideo praeventio illa non debet turbare fideles quod inducat necessitatem 
+              <lb ed="#E"/>liberi arbitrii.
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l115-Dd1e241">
+          <head xml:id="ppr-l115-dcladp">
+            De concordia liberum arbitrium et contingentiam effectum futurum cum aeterna dei praescientia (articulus tertius)
+          </head>
+          <p xml:id="ppr-l115-tsdrad">
+            <pb ed="#PV" n="218-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#E"/>Tertius articulus difficultas restat concordare liberum arbitrium et contingentiam futu<lb ed="#E"/>rorum 
+            cum divina sapientia aeterna et inmutabili Ista tanta est quod <ref xml:id="ppr-l115-Rd1e250" target="http://scta.info/resource/hy7y6y-d1e75-d1e605"><name ref="#Boethius">Boetius</name></ref> comparat eam ydrae serpe<lb ed="#E"/>ti 
+            Cui si abscinditur unum caput crescunt duo secundum poetas ita praesens materia est tantae difficultatis 
+            <lb ed="#E"/>quod solutionibus efficitur difficilior
+          </p>
+          <p xml:id="ppr-l115-eurqdn">
+            Et una solutione data occurrunt duae replicationes 
+            <lb ed="#E"/><ref xml:id="ppr-l115-Rd1e268" corresp="#ppr-l115-oadivi"><name ref="#Paul">Apostolus</name> <title ref="#rom">ad romanos</title> 11o capitulo</ref> <quote xml:id="ppr-l115-oadivi" source="http://scta.info/resource/rom11_33">O altitudo divitiarum sapientiae et scientiae dei quam incomprehensibilia sunt iu<lb ed="#E"/>dicia 
+            et investigabiles viae eius</quote> allegat <name>ysaiam</name> <name>apostolus</name> dicentem <!-- quote -->Quis novit sensum 
+            <lb ed="#E"/>deum quasi diceret nullus <!-- possible quote -->
+          </p> 
+          <p xml:id="ppr-l115-echamf">
+            duae regulae sunt praemittendae morales ut intellectus in aliquo <sic>fructi</sic>ficet 
+          </p>
+          <p xml:id="ppr-l115-peqofa">
+            prima est quod in arduis difficultatibus non est innitendum proprio ingenio sed primae veritati in<lb ed="#E"/>fallibili 
+            quod officium ad fidem pertinet et ideo circa talem materiam sufficit scutum fidei assumere quod est 
+            <lb ed="#E"/>et quod debet esse fortius quam apparentia demonstrativa in contrarium quia ut tactum est prius fides 
+            <lb ed="#E"/>pro tegit a falsis apparentiis demonstrativis et eas repellit ideo tenet rationale inmobile 
+          </p>
+          <p xml:id="ppr-l115-sresst">
+            <lb ed="#E"/>Secundum quod est potentia rationalis sed per alias potentias temporari per concupiscibilem et irascibilem et 
+            <lb ed="#E"/>econtra Ita in eis debet esse mutua influentia et temperamentum quod una non excedit aliam 
+            <lb ed="#E"/>quia si rationalis excedit irascibilem et concupiscibilem acquiritur scientia quae inflat et de<lb ed="#E"/>struit 
+            irascibilem per praesumptionem qua postea influit in errores irrationalem et destruit eam 
+            <lb ed="#E"/>Ideo inquisitio circa ardua debet esse cum humilitate <ref xml:id="ppr-l115-Rd1e298"><name ref="#Paul">apostolo</name> dicente <title ref="#rom">ad romanos</title> 5to</ref> <quote xml:id="ppr-l115-Qd1e309" source="http://scta.info/resource/rom11_20">noli altum sapere 
+            <lb ed="#E"/>sed timere</quote>
+          </p>
+        </div>
+        <div xml:id="ppr-l115-Dd1e315">
+          <head xml:id="ppr-l115-Hdqsdqs">Divisio questionis</head>
+          <p xml:id="ppr-l115-ipvrip">
+            Istis praemissis venio ad punctum tria intendo facere circa praesentem difficultatem primo intendo 
+            <lb ed="#E"/>praesentem modum generalem satis faciendi in materia Secundo in speciali intendo 
+            <lb ed="#E"/>reprobare modos falso Tertio intendo modos particulares circa materiam inducere et colore infundere 
+            <lb ed="#E"/>iuxta posse 
+          </p>
+        </div>
+        <div xml:id="ppr-l115-Dd1e324">
+          <head xml:id="ppr-l115-Hqapqap">Quantum ad primum</head>
+          <p xml:id="ppr-l115-qapopc">
+            Quantum ad primum recolligenda sunt principia alias per me posita saltem recitata 
+            <lb ed="#E"/>quia non fuit inventor eorum primum est de se inmensitate divinae perfectionis ad quam sequuntur 
+            <lb ed="#E"/>contrarie proprietates ad res finitas vel limitatas nam divina essentia esse nulla ratione suae in<lb ed="#E"/>mensae 
+            perfectionis est independens et quaelibet creatura est dependens est aeterna et quaelibet crea<lb ed="#E"/>tura 
+            est temporalis et sic de aliis conditionibus competentibus divinae essentiae quo sunt opposito aliis com<lb ed="#E"/>petentibus 
+            creaturis 
+          </p>
+          <p xml:id="ppr-l115-eei">
+            Ex isto principio adiuncto alio debilitate humani ingenii Et ad<lb ed="#E"/>iuncto 
+            3o scilicet quod sufficit secundum materiam subiectam inquirere 
+          </p>
+          <p xml:id="ppr-l115-ihhans">
+            Istis habitis satis congruere persuadetur 
+            <lb ed="#E"/>compossibilitas divinae praescientiae de futura contingentia et singula alia quia divina notitia 
+            <lb ed="#E"/>est omnis alterius modi et aliarum proprietatum a notitia naturali nobis compossibili unde nostra est 
+            <lb ed="#E"/>dependens et illa independens nostra non potest esse singularium contingentium et illa omnium singularium 
+            <lb ed="#E"/>Et sicut sequitur in nobis sortes credit vel iudicat quod <c>a</c> erit et potest non fore igitur credulitas sortis 
+            <lb ed="#E"/>potest esse deceptio et est fallibilis vel potest esse error Ita universa in deo sequitur deus credit 
+            <lb ed="#E"/>quod <c>a</c> erit et potest non fore igitur credulitas dei est omnino perfecta et infallibilis scilicet ratione <unclear>optimum</unclear> illius 
+            <lb ed="#E"/>quoddam modo concluderetur de notitia creata ex radice tacta quia est alterius conditionis omnino
+          </p>
+          <p xml:id="ppr-l115-eehspi">
+            Et 
+            <lb ed="#E"/>ista est causa malorum errorum apud illos qui resolvunt se ad modum suum concipiendi
+            <pb ed="#E" n="152-r"/>
+            <lb ed="#E"/>
+            <lb ed="#E"/>vel credendi vel manifeste vel latenter
+          </p> 
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
