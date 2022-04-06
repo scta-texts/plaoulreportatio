@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 116, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 116, De libertate [Erlangen Transcription]</title>
+          <date when="2022-04-05">April 05, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="152-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio116">
+      <head xml:id="ppr-l116-Hldlldl">Lectio 116, de Libertate</head>
+        <div xml:id="ppr-l116-Dd1e109">
+          <head xml:id="ppr-l116-Hqderfc">
+            Quare difficultas est intelligere concordiam divinae praescientiae respectu futurorum contingentium
+          </head>
+          <p xml:id="ppr-l116-cigpca">
+            <lb ed="#E"/>Alia lectione 
+            <lb ed="#E"/>Circa generalem manuductionem in praesenti materia tactum est quod ad immensitatem divinae cognitionis 
+            <lb ed="#E"/>resolvenda est ad praesens materia propter cuius ignorantiam oritur tota difficultas praesens Advertendum 
+            <lb ed="#E"/>quod in hiis quae transcendunt limites nostrae investigationis et cognitionis naturalis locus ab auctoritate 
+            <lb ed="#E"/>est potissimum argumentum et semper debet <unclear>rationi</unclear> praeponderari causa huius est infirmitas rationis in tali materia 
+            <lb ed="#E"/>et illustratio specialis dicentium ex alia parte unde hoc in artificialibus habet locum nam in<lb ed="#E"/>expertus 
+            in arte domificatoria quantumcumque ingenio pollet credit artificia
+          </p>
+          <p xml:id="ppr-l116-snepad">
+            Secundo principaliter 
+            <lb ed="#E"/>advertendum sicut aliter tactum est corruptela peccati est causa adhaesionis falsificatum concurren<lb ed="#E"/>tium 
+            humanam felicitatem etiam ubi non est vehemens ratio Ex hoc consurgere posset vehe<lb ed="#E"/>mens 
+            motio et apparentia non ex parte rationis in se sed ex parte <unclear>de praesentate</unclear> affectionis 
+            <lb ed="#E"/>cuius inclinatio est excusare vitia et necessitatem rebus evenientibus inponere Pertinenter applicando 
+            <lb ed="#E"/>dico
+          </p>
+          <p xml:id="ppr-l116-tqapap">
+            3o quod apud indifferentum bene dispositum in lumine naturali apparentius concluditur 
+            <lb ed="#E"/>concordia divinae praescientiae cum libro arbitrio quam eius contrarium ita quod circumscripta fide 
+            <lb ed="#E"/>rationes huic intrahentes vel moventes fortiores sunt pro concordia quam pro contraria parte 
+          </p> 
+        </div>
+        <div xml:id="ppr-l116-Dd1e134">
+          <head xml:id="ppr-l116-Hrfppel">Rationes fundamentales pro concordia praescientiae et libertatis</head>
+          <p xml:id="ppr-l116-pcdpup">
+            <lb ed="#E"/>Pro cuius declaratione inducam rationes fundamentales pro utraque parte 
+          </p> 
+          <p xml:id="ppr-l116-pehcdp">
+            Prima ratio haec consequentia 
+            <lb ed="#E"/>est bona in lumine naturali deus est universaliter perfectus igitur est <sic>omnissciens</sic> et contradictorie liber ista 
+            <lb ed="#E"/>consequentia est apparens in lumine naturali apud bene dispositum quia illa sunt praedicata perfectionalia scilicet 
+            <lb ed="#E"/>esse <sic>omnissciens</sic> Et esse liberum libertate contradictionis igitur conpetunt et universaliter perfectio antecedens est philosophorum 
+            <lb ed="#E"/>omnium quia <quote>est spera cuius centrum est ubique et circumferentia nusquam</quote> Et sic sequitur per consequens concor<lb ed="#E"/>dia 
+            etc ex quo est <sic>omnis sciens</sic> nulla veritas cum latet Et ex hoc quod est contradictio liberi sequitur quod 
+            <lb ed="#E"/>indifferenter potest actum futurum producere vel non producere igitur apud non male dispositum in lumine naturali 
+            <lb ed="#E"/>deducitur concordia futurorum contingentium cum divina praescientia
+          </p> 
+          <p xml:id="ppr-l116-srdapp">
+            Secundo deus est omnium opti<lb ed="#E"/>mus 
+            gubernator ergo praescit male contingenter futura et mala contingenter evenire Ista deductio 
+            <lb ed="#E"/>est clara in lumine naturali quia eo ipso quod est optimus gubernator in suo regimine non includuntur 
+            <lb ed="#E"/>necessario <seg type="correction">difformita<del rend="strikethrough">te</del>s</seg> vel culpae deturpantes ordinem universi sed per voluntatem libertatis 
+            <lb ed="#E"/>creatae contingenter eveniunt et sunt antecedens conceditur
+          </p>
+          <p xml:id="ppr-l116-trdaia">
+            Tertio deus est omnisciens et sortes libere contingenter 
+            <lb ed="#E"/>producit actum igitur praescientia divina est futuris contingentibus compossibilis Deductio est clara procreato 
+            <lb ed="#E"/>nam ex prima parte scilicet quod est omnis sciens et <del rend="expunctuation">sortes libere contingenter producit</del> sequitur quod habet  
+            <lb ed="#E"/>scientia omnium quae sunt Secunda pars clara est cuilibet philosopho scilicet quod possum eligere a actum 
+            <lb ed="#E"/>et eius oppositum exequi vel non exequi scilicet levare festucam vel non unde concepta 
+            <lb ed="#E"/>universali dei sapientia respectu cuiuscumque veritatis experientia clare docet usum libertatis et exercitium circa
+            <lb ed="#E"/>actus circa quos pater indifferenter exire in actum vel non exire
+          </p>
+          <p xml:id="ppr-l116-qraaee">
+            Quarto ad universaliter perfectum spec<lb ed="#E"/>tat 
+            res cognoscere secundum omnes suas habitudines et etiam proprietates ergo deus cognoscens 
+            <lb ed="#E"/>actus quos percipimus esse contingentibus igitur praescientia divina est elicitiva illorum Confirmatur 
+            <lb ed="#E"/>nam cognitio repugnans conditionibus rei cognitae est erronea vel deceptio igitur divina cognitio 
+            <lb ed="#E"/>nullo modo repungnat contingentiae rerum alias esset realiter error et non cognitio
+          </p>
+          <p xml:id="ppr-l116-qahrfc">
+            ultimo 
+            <lb ed="#E"/>nam haec positio non est propria fidei sed est communis civibus vere philosophanti et sic apparet hiis 
+            <lb ed="#E"/>rationibus quod etiam circumscripta fide apparenter concluditur concordia divinae praescientiae cum contingentia 
+            <lb ed="#E"/>futurorum nunc videndae sunt rationes in contrarium et quanti ponderis sunt prima radix 
+            <lb ed="#E"/>et apparentia stat in hoc quod deus ab aeterno sic novit demonstrando futurum contingens ergo 
+            <lb ed="#E"/>necessario eveniet ista consequentia videtur eis apparentissima quia ex quo ab aeterno aliquid conpetit 
+            <lb ed="#E"/>deo videtur quod sit omnino necessarium sic fieri qualiter ab aeterno conceptum est a deo
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e183">
+          <head xml:id="ppr-l116-Hrococc">Rationes oppositae: contra concordiam</head>
+          <p xml:id="ppr-l116-ppface">
+            Ratio ista 
+            <pb ed="#E" n="152-v"/>
+            <lb ed="#E"/>deducitur brevius ad hoc Deus cognoscit a inmutabiliter igitur cognoscit a necessario vel deus scit 
+            <lb ed="#E"/>immutabiliter a fore igitur scit a necessario fore quia inmutabiliter et necessario idem valent secundum eos 
+            <lb ed="#E"/>unde sequitur primo ab aeterno ergo necessario
+          </p> 
+          <p xml:id="ppr-l116-usriad">
+            Secundo sequitur inmutabiliter ergo necessario <pc type="pilcrow"/> Pro solutione ad<lb ed="#E"/>vertendum 
+            circa primum si advertantur dicta patet quia ratio est sophistica nec movet vigore 
+            <lb ed="#E"/>rationes sed ratione defectus consignificantis eius apparentia est ratione dispositionis recipientis <unclear>primum</unclear> declaratur 
+            <lb ed="#E"/>nam deus uniformiter se habens adaequate potest aliqua incipere scire et aliqua desinere scire 
+            <lb ed="#E"/>id est aliquas veritates potest etc igitur considerata inmensitate divinae scientiae non est repugnantia nec est 
+            <lb ed="#E"/>inconveniens vel numerale apud intellectum bene dispositum quod illa inmensa notio uniformiter se 
+            <lb ed="#E"/>habens adaequate sit contrariorum notitia Et per idem adaequate omnes habent concordere quod deus 
+            <lb ed="#E"/>scivit hanc antichristus non est per totam ymaginabile mensuram et ante productionem ante christi ab aeterno 
+            <lb ed="#E"/>deus fuit scientia illius et in primo instanti esse ante christi est vel erit scientia contradictoria scilicet istius antichristus 
+            <lb ed="#E"/>est
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e217">
+          <head xml:id="ppr-l116-Hrarrcc">Responsiones ad rationes contra concordiam</head>
+          <p xml:id="ppr-l116-csdisp">
+            Et sic considerata inmensitate divinae scientiae nullo modo arguitur mutatio ex hoc etc nec sequitur est inmutabiliter 
+            <lb ed="#E"/>scientia huius igitur necessario Item quantum ad secundum quod etiam est sophisticum istud Ab aeterno ita scivit deus 
+            <lb ed="#E"/>igitur necesse est eum sic scire datur instantia ponatur per impossibile quod deus non esset in 
+            <lb ed="#E"/>rerum natura vel nihil cognosceret ab extra si futurum est quod antichristus erit ab aeterno futurum 
+            <lb ed="#E"/>fuit et si sic contingens potest non fore ergo licet ab aeterno fuit futurum potest tamen ita esse quod numquam 
+            <lb ed="#E"/>fuit futurum igitur praesens difficultas est totaliter inpertiens ad divinam praescientiam unde si ab aeterno 
+            <lb ed="#E"/>ista fuisset formata antichristus erit ab aeterno fuisset vera et potest non esse vera et tamen non potest mutuari 
+            <lb ed="#E"/>de veritate in falsitatem quia si ponatur quod antichristus non erit tunc non fuit ab aeterno vera sed falsa 
+            <lb ed="#E"/>Circa hoc in tertio capitulo fundabo positionem
+          </p> 
+          <p xml:id="ppr-l116-sipdcf">
+            <!-- Can't find parallel in above
+              
+              Sed in primo instanti suae productionis 
+            scientia divina erit scientia de eius opposita seu contraria 
+            et ita considerata immensitate divinae praescientiae, 
+            nulla arguitur mutatio 
+            quod deus sit scientia veritatis post 
+            ea non sit scientia illius, 
+            nam non sequitur deus est immutabiliter scientia, 
+            igitur ipse est necessario scientia. 
+            Consequentia non valet 
+            quia contingenter est scientia 
+            respectu propositionis cuius veritas 
+            dependet a futuro. 
+            Alia consequentia est sophistica deus ab 
+            aeterno scivit <c>a</c> futurum, 
+            igitur necessario erit, 
+            nam datur eiusdem instantia posito per impossibile quod 
+            <cb ed="#SV" n="b"/><!-\-341rb-\->
+            deus non esset vel nihil ad extra cognosceret 
+            si futurum est quod antichristus erit ab aeterno futurum fuit 
+            et si sit contingens, 
+            potest non fore, 
+            nam licet ab aeterno futurum fuerit, 
+            potest tamen non esse 
+            sic quod numquam erit futurum, 
+            igitur non est mirandum, 
+            si contingentium sit possibilis cum divina praescientia, 
+            et per consequens non est mirum 
+            si in materia divinae praescientiae conceditur quod, 
+            si deus scivit ab aeterno antichristum fore, 
+            potest tamen non fore sine ipsius mutatione, 
+            nam non est mirum 
+            si concedantur huiusmodi propositiones in divina praescientia, 
+            cum alibi reperiatur similitudo, 
+            nam si habeamus quod una propositio fuerit, 
+            contingeret vera si fuerit ab aeterno prolata. 
+            Et si habeamus quod divina scientia 
+            possit esse iudicium contrariorum, 
+            tunc salvatur faciliter cum libertate 
+            et praescientia divina contingentia futurorum.-->
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e239">
+          <head xml:id="ppr-l116-Hcnecne">Conclusiones negativae</head>
+          <p xml:id="ppr-l116-pmtamf">
+            Pro maiori declaratione materiae pono propositiones negativas 
+            <lb ed="#E"/>contra aliquorum opiniones 
+          </p>
+          <div xml:id="ppr-l116-Dd1e247">
+            <head xml:id="ppr-l116-Hppnppn">Prima propositio negativa</head>
+            <p xml:id="ppr-l116-peefti">
+              prima divina essentia non per hoc evidenter cognoscit futura contingentia 
+              <lb ed="#E"/>quia eius aeternitas coexistit toti fluxui temporis ymaginarii
+            </p>
+            <p xml:id="ppr-l116-pqeldc">
+              <pc type="pilcrow"/> Advertendum quod opinio 
+              <lb ed="#E"/>aliquorum doctorum fuit quod divina aeternitas coexistet toti tempori a parte ante et post coexistit negandum 
+              <lb ed="#E"/>vel futurum Sed etiam ad ymaginationem possibili et antecedit et sequitur cum hoc coexistit et sic consequenter totum 
+              <lb ed="#E"/>ipse etiam in infinitum ab utraque parte est totaliter praesens aeternitati ratione suae continentiae et 
+              <lb ed="#E"/>habitudinis et quia aeternitas includit totum tempus ymaginabile ratione istius habitudinis est omnium produ<lb ed="#E"/>cibilium 
+              in deo cognitio <ref xml:id="ppr-l116-Rd1e259"><name ref="#Anselm">Anshelmus</name> videtur istud ponere in libro suo de concordia</ref> 
+            </p>
+            <p xml:id="ppr-l116-sciiap">
+              <pc type="pilcrow"/> Arguitur contra 
+              <lb ed="#E"/>istam opinionem primo praesentia creaturae est totaliter inpertinens ad divinam cognitionem vel ad hoc quod ipsa 
+              <lb ed="#E"/>a deo cognoscatur igitur <unclear>pe</unclear> <unclear>ymaginationis</unclear> est totaliter falsa antecedens patet nam creatura ad divinam cognitionem 
+              <lb ed="#E"/>non concurrit obiective nec in aliquo genere causae eo quod divina scientia nullatenus nec mediate nec 
+              <lb ed="#E"/>inmediate a rebus creatis <seg type="correction"><add place="above-line">de</add>pendere</seg> potest igitur 
+            </p>
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l116-saqami">
+              Secundo deficit ymaginatio eo quod non capit 
+              <lb ed="#E"/>habitudinem aeternitatis tempus sed per modum correspondentiae quasi aequalitatis vel excessus ut 
+              ymaginari videtur quod quasi in eodem genere mensurae coextendatur aeternitas et tempus 
+              <lb ed="#E"/>quantum ad durationem falsum est quia modus durationis aeternitatis licet sit contentivus temporis non 
+              <lb ed="#E"/>tamen per talem medium
+            </p>
+            <p xml:id="ppr-l116-tehtdn">
+              Tertio et fortius Ex ista ymaginatione sequitur quod tanta sit 
+              <lb ed="#E"/>libertas divinae voluntatis respectu praeteritorum sicut futurorum vel praesentium consequens est contra <ref xml:id="ppr-l116-Rd1e291">articulum parisiensis</ref> 
+              <lb ed="#E"/>et philosophi non concesserunt quod potentia sit ad praeterita consequentia probatur quia quantum est ex parte divinae 
+              <lb ed="#E"/>aeternitatis aequae prius est sibi praeteritum sicut futurum igitur cum nichil apud aeternitatem 
+              <lb ed="#E"/>sit lapsum in praeteritum sequitur quod vel trahit necessitatem respectu divinae voluntatis igitur potest 
+              <lb ed="#E"/>facere aequae faciliter <name>adam</name> non fuisse sicut antichristum non fore hanc ymaginationem 
+              <lb ed="#E"/>secutus est <ref xml:id="ppr-l116-Rd1e303"><name ref="#PeterDamian">petrus damiani</name> in quadam epistola contra <name>Ierominum</name> de reparatione virginis</ref>
+              <lb ed="#E"/>concedit expresse de virgine quae realiter est corrupta quod possibile est quod non sit vel fuit 
+              <lb ed="#E"/>corrupta unde non est <del rend="strikethrough">dia</del> dubium quin deus posset eam reintegrare sed ad 
+              <lb ed="#E"/>alium sensum concedit et hoc per istam ymaginationem Quia vel labitur 
+              <pb ed="#E" n="153-r"/>
+              <lb ed="#E"/>inpraeteritum quantum ad divinam <sic>ad divinam</sic> voluntatem igitur nichil quantum ad eum trahit necessitatem
+            </p>
+          </div>
+          <div xml:id="ppr-l116-Dd1e316">
+            <head xml:id="ppr-l116-Hspnspn">Secunda propositio negativa</head>
+            <p xml:id="ppr-l116-scpcfc">
+              <lb ed="#E"/>Secunda conclusio per nulla intrinsecam contingentiam cognoscit deus futura contingentia contra opinionem 
+              <lb ed="#E"/>dicentium quod realiter ad intra sit aliqua contingentia in deo quae est non cognoscendi futura 
+              <lb ed="#E"/>contingentia 
+            </p>
+            <p xml:id="ppr-l116-ccifrc">
+              Et concedit consequenter quod sicut futura contingentia possunt realiter non esse Ita 
+              <lb ed="#E"/>ratio intrinseca quae est deus potest realiter non esse ut cognoscendi antichristum fore est contingens 
+              <lb ed="#E"/>et potest non fore et sic scientia dei qua scitur quod antichristus erit potest non esse ymaginatur quod deus per intrin<lb ed="#E"/>icam 
+              et essentialem rationem non cognoscit futurum contingens unde staret 2m istam ymaginationem 
+              <lb ed="#E"/>tota latitudo divinae inmensitatis et perfectionis ad intra absque scientia contingentium futurorum ita 
+              <lb ed="#E"/>quod non est deo intrinseca licet sic idem quod deus unde non est accidens inhaerens sed est formalis realiter 
+              <lb ed="#E"/>contingens realiter deo ydemptica
+            </p>
+            <p xml:id="ppr-l116-cioepm">
+              Conclusio posita est contra istam ymaginationem
+            </p> 
+            <p xml:id="ppr-l116-pqierc">
+              probatur primo quia 
+              <lb ed="#E"/>in deo a parte rei circumscriptis quibuscumque terminis vel conceptibus in deo non potest esse contingentia quia 
+              <lb ed="#E"/>est simpliciter aeternis immutabilis et purus actus habens actualiter omnem sibi possibile perfectionem 
+              <lb ed="#E"/>et est simpliciter necesse est esse igitur nulla est contingentia realis in deo 
+            </p>
+            <p xml:id="ppr-l116-siadva">
+              Item in aeternis non differunt posse et 
+              <lb ed="#E"/>esse et secundum philosophum igitur illa quae sunt deus vel quicquid est deus ab aeterno et semper necessario est deus nec potest de<lb ed="#E"/>sinere 
+              esse
+            </p>
+            <p xml:id="ppr-l116-tsccdp">
+              Item signetur contingentia in deo Et sit <c>a</c> tunc sic <c>a</c> non est accidens deo inhaerens 
+              <lb ed="#E"/>nec concedit positio igitur est deus Tunc ultra <c>a</c> pater non esse et est pure contingens igitur deus est 
+              <lb ed="#E"/>contingens et potest non esse Arguitur expositorie haec res potest non esse et haec res est deus igitur etc quod 
+              <lb ed="#E"/>est blasphemia et contra divinam perfectionem actu actuationem et necessitatem 
+            </p>
+            <p xml:id="ppr-l116-qsdsso">
+              Item si deus sit aliqua contingentia 
+              <lb ed="#E"/>sequitur quod potest realiter immutari patet nam deus potest incipere esse aliqua contingentia quae non est <c>a</c> 
+              <lb ed="#E"/>contingentia sed <c>b</c> contingentia ergo potest mutari et ita de contradictoria contingentia scilicet antichristus 
+              <lb ed="#E"/>non erit quia potest esse haec contingentia respectu illius 
+            </p>
+            <p xml:id="ppr-l116-qcdpic">
+              Item capio divinam essentiam secundum rationem 
+              <lb ed="#E"/>pure essentialem consideratam Quaero utrum secundum rationem pure essentialem repraesentat antichristum fore 
+              <lb ed="#E"/>vel non si non tunc non est intrinsece essentialiter perfecta
+            </p> 
+          </div>
+        </div>
+        <div xml:id="ppr-l116-Dd1e367">
+          <head xml:id="ppr-l116-Hcpccpc">Contra primam conclusionem</head>
+          <p xml:id="ppr-l116-ctpcdp">
+            Contra <ref xml:id="ppr-l116-Rd1e376" target="http://scta.info/resource/ppr-l116-peefti">primam conclusionem</ref> arguitur primo quia <ref xml:id="ppr-l116-Rd1e382"><name ref="#Anselm">Anshelmus</name> 
+            <lb ed="#E"/>in libro de concordia</ref> videtur ponere quod huiusmodi praesentialitas aeternitas ad tempus sit causa contingentiae 
+            <lb ed="#E"/>futurorum 
+          </p>
+          <p xml:id="ppr-l116-sbiala">
+            Ad idem <ref xml:id="ppr-l116-Rd1e397"><name ref="#Boethius">boetius</name> 5to <title ref="#Consolation">de consolatione</title></ref> Ex habitudine aeternitatis ad tempus possunt fieri contingentia absque 
+            <lb ed="#E"/>mutatione aeternitatis divinae scientiae 
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e412">
+          <head xml:id="ppr-l116-Hcscscs">Contra secundam conclusionem</head>
+          <p xml:id="ppr-l116-cscrdi">
+            Contra <ref xml:id="ppr-l116-Rd1e421" target="http://scta.info/resource/l116-scpcfc">2am conclusionem</ref> deus secundum nullam rationem intrinsecam est scientia contingentiorum 
+            <lb ed="#E"/>futurorum igitur propositum antecedens tenet quia quacumque ratione data cum illa stat oppositum futuri contingentis 
+            <lb ed="#E"/>eo quod est contingens ideo nulla ratio deo extrinseca est futuro contingentis notitia antecedens patet primo signata 
+            <lb ed="#E"/>tota latitudine omnium futurorum contingentium cuiuslibet illorum oppositum potest stare stante ratione intrinseca 
+            <lb ed="#E"/>dei igitur
+          </p>
+          <p xml:id="ppr-l116-snsenn">
+            Secundo signata ratione quae est realiter futuri contingenter repraesentativa et scientia ex illius rationis 
+            <lb ed="#E"/>esse arguitur futurum tempus contingens esse vel fore sed consequens est contingens igitur antecedens scilicet huiusmodi rationem esse et 
+            <lb ed="#E"/>per consequens illa ratio est contingens pure et non necessaria
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e432">
+          <head xml:id="ppr-l116-Hraaraa">Responsio ad argumenta contra conclusiones</head>
+          <p xml:id="ppr-l116-aprhap">
+            <pc type="pilcrow"/>Ad primum respondeo quod intentio 
+            <lb ed="#E"/><name ref="Anselm">Anshelmi</name> et <name ref="#Boethius">boetii</name> fuit solvere compossibilitatem contingentiae futurorum cum praescientia dei ex immen<lb ed="#E"/>sitate 
+            divinae praescientiae et inmensitate aeternitatis eius non applicando ad fluxum temporis quia 
+            <lb ed="#E"/>hoc est omnino inpertinens sed potest esse nunc scientia huius vel oppositi Ponunt quidam exemplum de centro in quo 
+            <lb ed="#E"/>si poneretur oculus et egrederetur inmediate ad oculum partis circumferentiae semidiamiter 
+            <lb ed="#E"/>ordo esset et successio incircumferentia dyameteorum et in ordine ad suum centrum nulla 
+            <lb ed="#E"/>esset diversitas quia concurrent ad centrum et oculus quamlibet intueretur Simile exemplum ponit 
+            <lb ed="#E"/><name ref="#Albert">Albertus</name> de puncto lucis indivisibiles cognitio quae ad omnem partem circumferentiae mul<lb ed="#E"/>tiplicaret 
+            <lb ed="#E"/>radios
+          </p>
+          <p xml:id="ppr-l116-arqfec">
+            <ref xml:id="ppr-l116-Rd1e464" target="http://scta.info/resorce/ppr-l116-cscrdi">Ad rationem <add place="above-line">contra</add> 2am conclusionem</ref> quaeritur secundum nullam rationem intrinsecam necessariam etc negetur 
+            <lb ed="#E"/>antecedens Ad probationem quacumque data illa stante potest oppositum futuri contingentis contingere 
+            <lb ed="#E"/>igitur non est etc nego consequentiam quia inmensitas et illimitatio divinae cognitionis tanta est quod potest 
+            <lb ed="#E"/>esse respectu unius et potest esse respectu contrarii ratione suae inmensitatis scilicet huiusmodi notitiae hoc naturali notitiae 
+            <pb ed="#E" n="153-v"/>
+            <lb ed="#E"/>nec conpetit nec conpetere potest igitur non est similitudo naturalis rationis ad divinam
+          </p>
+          <p xml:id="ppr-l116-asrmit">
+            <ref xml:id="ppr-l116-Rd1e476" target="http://scta.info/resource/ppr-l116-snsenn">Secundo arguitur</ref> 
+            <lb ed="#E"/>sic signata ratione qua deus cognoscit antichristum fore etc Ista ratio est sophistica et parvi ponde<lb ed="#E"/>ris 
+            si resolvatur puto quid intelligit per illam rationem esse si <unclear>exeat</unclear> sic ratio cognoscendi <unclear>rem</unclear> 
+            <lb ed="#E"/>id est quod antichristus est deus dico quod consequentia est necessaria et consequens contingens etc etiam antecedens et tamen illa est necessaria 
+            <lb ed="#E"/>scientia sed non huius ymmo contingenter est huius scientia Si signaret illam rationem per terminum absolutum scilicet hoc est scientia de<lb ed="#E"/>monstrando 
+            divinam scientiam vel essentiam consequentia non valet quia antecedens est necessariam et consequens pure 
+            <lb ed="#E"/>contingens et sic argumentum non valet
+          </p> 
+          <p xml:id="ppr-l116-asmils">
+            Alii adhuc sunt modi ymaginandi possibilitatem con<lb ed="#E"/>tingentium 
+            futurorum cum divina praescientia contra quos ponam in alia lectione conclusiones negativas
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

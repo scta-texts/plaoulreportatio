@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 116, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 116, De libertate [Palantine Transcription]</title>
+          <date when="2022-03-26">March 26, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-03-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="218-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio116">
+      <head xml:id="ppr-l116-Hldlldl">Lectio 116, de Libertate</head>
+        <div xml:id="ppr-l116-Dd1e109">
+          <head xml:id="ppr-l116-Hqderfc">
+            Quare difficultas est intelligere concordiam divinae praescientiae respectu futurorum contingentium
+          </head>
+          <p xml:id="ppr-l116-cigpca">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>Circa generalem manuductionem 
+            <lb ed="#PV"/>in praesenti materia tactum est quod ad 
+            <lb ed="#PV"/>immensitatem divinae cognitionis 
+            <lb ed="#PV"/>resolvenda est ad praesens materia 
+            <lb ed="#PV"/>propter cuius ignorantiam oritur 
+            <lb ed="#PV"/>tota difficultas praesens Adver<lb ed="#PV"/>tendum 
+            quod in hiis quae trans<lb ed="#PV"/>cendunt 
+            limites nostrae inves<lb ed="#PV"/>tigationis et cognitionis 
+            <lb ed="#PV"/>naturalis locus ab <unclear>argumento</unclear> est potis<cb ed="#PV" n="b"/><lb ed="#PV"/>simum 
+            argumentum et semper 
+            <lb ed="#PV"/>debet rationem praeponderari causa huius 
+            <lb ed="#PV"/>est infirmitas rationis in 
+            <lb ed="#PV"/>tali materia et illustro specialis 
+            <lb ed="#PV"/>dicentium ex alia parte unde hoc 
+            <lb ed="#PV"/>in artificibus habet locum nam 
+            <lb ed="#PV"/>in expertus in arte <unclear>domifica<lb ed="#PV"/>toria</unclear> 
+            quantumcumque ingenio pol<lb ed="#PV"/>let 
+            <del rend="strikethrough">adit</del> credit artificia
+          </p>
+          <p xml:id="ppr-l116-snepad">
+            2o 
+            <lb ed="#PV"/>principaliter advertendum sit aliter tac<lb ed="#PV"/>tum 
+            est corruptela peccati est causa 
+            <lb ed="#PV"/>adhaesionis falsificatum concurrentium 
+            <lb ed="#PV"/>humanum felicitatem etc ubi 
+            <lb ed="#PV"/>non est vehemens ratio Ex hoc 
+            <lb ed="#PV"/>consurgere potest vehemens mo<lb ed="#PV"/>tio 
+            et apparentia non ex parte ra<lb ed="#PV"/>tionis 
+            in se sed ex parte de praesentate 
+            <lb ed="#PV"/>affectionis cuius inclinatio 
+            <lb ed="#PV"/>est extrinsare vitia et necessitatem 
+            <lb ed="#PV"/>rebus evenibus inponere 
+            <lb ed="#PV"/>pertinenter <sic>aplicando</sic> dico
+          </p>
+          <p xml:id="ppr-l116-tqapap">
+            3o quod 
+            <lb ed="#PV"/>apud indifferentum bene dispo<lb ed="#PV"/>situm 
+            in lumine naturali apparentius 
+            <lb ed="#PV"/>concluditur concordia divinae prae<lb ed="#PV"/>scientiae 
+            cum pro concordia 
+            <lb ed="#PV"/>quam pro contraria parte 
+          </p> 
+        </div>
+        <div xml:id="ppr-l116-Dd1e134">
+          <head xml:id="ppr-l116-Hrfppel">Rationes fundamentales pro concordia praescientiae et libertatis</head>
+          <p xml:id="ppr-l116-pcdpup">
+            pro cuius declara<lb ed="#PV"/>tione 
+            inducam rationes fun<lb ed="#PV"/>damentales 
+            pro utraque parte 
+          </p> 
+          <p xml:id="ppr-l116-pehcdp">
+            <lb ed="#PV"/>prima ratio haec consequentia est bona 
+            <lb ed="#PV"/>in lumine naturali deus est univer<lb ed="#PV"/>saliter 
+            perfectus igitur est omnis 
+            <lb ed="#PV"/>sciens et contradictoriae liber ista consequentia 
+            <lb ed="#PV"/>est apparens in lumine naturali 
+            <lb ed="#PV"/>apud bene dispositum quia 
+            <lb ed="#PV"/>illa sunt praedicata perfectionalia 
+            <lb ed="#PV"/>scilicet esse omnis sciens et esse <del rend="strikethrough">b?m</del>
+            <pb ed="#PV" n="219-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>librum libertate contradictionis igitur 
+            <lb ed="#PV"/>competunt et universaliter perfectio antecedens est 
+            <lb ed="#PV"/><unclear>pherum</unclear> omnium quia <quote>est spera 
+            <lb ed="#PV"/>cuius centrum est ubique et circum<lb ed="#PV"/>ferentia 
+            nusquam</quote> et sic sequitur 
+            <lb ed="#PV"/>per consequens concordia etc Et quae 
+            <lb ed="#PV"/>est omnis sciens nulla veritas 
+            <lb ed="#PV"/>cum latet et ex hoc quod est contradictio 
+            <lb ed="#PV"/>lab?e sequitur quod indifferenter potest <c>a</c> 
+            <lb ed="#PV"/>actum futurum producere vel non 
+            <lb ed="#PV"/>producere igitur apud non male 
+            <lb ed="#PV"/>dispositum in lumine naturali 
+            <lb ed="#PV"/>deducitur concordia futurorum 
+            <lb ed="#PV"/>contingentium cum divina prae<lb ed="#PV"/>scientia
+          </p> 
+          <p xml:id="ppr-l116-srdapp">
+            2o deus est omnium 
+            <lb ed="#PV"/>optimus gubernator ergo praescit 
+            <lb ed="#PV"/>male contingenter <del rend="strikethrough">producit actum</del> 
+            <lb ed="#PV"/>futura et mala contingenter 
+            <lb ed="#PV"/>evenire Ista est deductio <unclear>clara</unclear> 
+            <lb ed="#PV"/>in lumine naturali quia eo ipso 
+            <lb ed="#PV"/>quod est optimus gubernator in 
+            <lb ed="#PV"/>suo regimine non includuntur 
+            <lb ed="#PV"/>necessario difformis vel culpae 
+            <lb ed="#PV"/><unclear>deturpans</unclear> ordinem universi 
+            <lb ed="#PV"/>sed per voluntatem libertatis creatae 
+            <lb ed="#PV"/>contingenter eveniunt et sunt 
+            <lb ed="#PV"/>antecedens conceditur
+          </p>
+          <p xml:id="ppr-l116-trdaia">
+            3o deus est omni<lb ed="#PV"/>sciens 
+            et sortes libere contingenter 
+            <lb ed="#PV"/>producit actum igitur praescientia 
+            <lb ed="#PV"/>vel eius optimum exequi vel 
+            <lb ed="#PV"/>non exsequi scilicet levare fes<lb ed="#PV"/>tucam 
+            vel non unde concepta 
+            <lb ed="#PV"/>universali dei scientia respectu cuiuscumque 
+            <lb ed="#PV"/>veritatis experientia clara docet sn 
+            <lb ed="#PV"/>libertatis et exercitium circa actus circa 
+            <lb ed="#PV"/>quas pater indifferenter exire in 
+            <lb ed="#PV"/>actum vel non exire
+          </p>
+          <p xml:id="ppr-l116-qraaee">
+            Quarto 
+            <lb ed="#PV"/>ad <unclear>iul?ius</unclear> perfectum universaliter spectat 
+            <lb ed="#PV"/>
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>res cognoscere <del>omne</del> secundum 
+            <lb ed="#PV"/>omnes suas habitudines et etiam  
+            <lb ed="#PV"/>proprietates ergo deus cognoscens 
+            <lb ed="#PV"/>actus quos percipimus esse con<lb ed="#PV"/>tingentibus 
+            igitur praescientia divina est 
+            <lb ed="#PV"/>elicitiva illorum Confirmatur 
+            <lb ed="#PV"/>nam cognitio repugnans 
+            <lb ed="#PV"/>conditionibus rei cognitae 
+            <lb ed="#PV"/>est erronea vel deceptio igitur 
+            <lb ed="#PV"/>divina cognitio nullo modo 
+            <lb ed="#PV"/>repugnat contingentiae rerum 
+            <lb ed="#PV"/>alias esset realiter error et non 
+            <lb ed="#PV"/>cognitio
+          </p>
+          <p xml:id="ppr-l116-qahrfc">
+            ultimo nam haec 
+            <lb ed="#PV"/>positio non est propria fidei sed est communis 
+            <lb ed="#PV"/>civibus vere philosophanti et sic apparet 
+            <lb ed="#PV"/>hiis rationibus quod etiam tertium 
+            <lb ed="#PV"/>scripta fide apparenter concluditur 
+            <lb ed="#PV"/>concordia divinae praescientiae 
+            <lb ed="#PV"/>cum contingentia futurorum
+            <lb ed="#PV"/>nunc videndae sunt rationes 
+            <lb ed="#PV"/>in contrarium et quanta ponderis 
+            <lb ed="#PV"/>sunt prima radix et apparentia 
+            <lb ed="#PV"/>stat in hoc quod deus ab aeterno 
+            <lb ed="#PV"/>sic novit demonstrando futurum 
+            <lb ed="#PV"/>contingens ergo necessario 
+            <lb ed="#PV"/>eveniet ista consequentia videretur 
+            <lb ed="#PV"/>eis apparentissima quia ex quo 
+            <lb ed="#PV"/>ab aeterno aliquid competit deo 
+            <lb ed="#PV"/>videtur quod sit oratio necessitatis 
+            <lb ed="#PV"/>sic fieri qualiter ab aeterno 
+            <lb ed="#PV"/>conceptum est a deo
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e183">
+          <head xml:id="ppr-l116-Hrococc">Rationes oppositae: contra concordiam</head>
+          <p xml:id="ppr-l116-ppface">
+            Ratio 
+            <lb ed="#PV"/>ista deducitur brevius ad hoc 
+            <lb ed="#PV"/>quod deus cognoscit a immutabiliter 
+            <lb ed="#PV"/>igitur cognoscit a necessario 
+            <lb ed="#PV"/>vel deus scit immutabiliter 
+            <lb ed="#PV"/>a fore igitur scit a <del>fore</del> necessario 
+            <lb ed="#PV"/>fore quia immutabiliter et necessario idem 
+            <pb ed="#PV" n="219-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/><sic>idem</sic> valent secundum eos unde 
+            <lb ed="#PV"/>sequitur primo ab aeterno ergo necessario
+          </p> 
+          <p xml:id="ppr-l116-usriad">
+            2o sequitur immutabiliter ergo necesse pro 
+            <lb ed="#PV"/>solutione advertendum circa primum 
+            <lb ed="#PV"/>si advertantur dicta patet qui ratio 
+            <lb ed="#PV"/>est sophistica nec movet vi<lb ed="#PV"/>gore 
+            rationes sed ratione defectus <unclear>consignificantis</unclear> 
+            inexperientia est ratione dispositionis 
+            <lb ed="#PV"/>recipientis praemium declaratur nam 
+            <lb ed="#PV"/>deus uniformiter se habens 
+            <lb ed="#PV"/>adaequate potest aliqua incipere 
+            <lb ed="#PV"/>scire et aliqua desinere scire id est 
+            <lb ed="#PV"/>aliquas veritatis potest igitur considerata in<lb ed="#PV"/>mensitate 
+            divinae scientiae non est re<lb ed="#PV"/>pugnantia 
+            <lb ed="#PV"/>adaequate nec est in<lb ed="#PV"/>conveniens 
+            vel numerale apud intel<lb ed="#PV"/>lectum 
+            bene dispositum quod illa 
+            <lb ed="#PV"/>inmensa notio uniformi<lb ed="#PV"/>ter 
+            se habens adaequate sit contrariorum 
+            <lb ed="#PV"/>notitia et per idem adaequate omnes 
+            <lb ed="#PV"/>habent concordere quod deus scivit 
+            <lb ed="#PV"/>hanc ante christus non est <add place="margin-left">per totam ymaginabile mensuram et ante productionem ante christo ab aeterno deus fuit scientia illius et in primo instanti esse</add> ante christi 
+            <lb ed="#PV"/>est vel erit scientia contradictoriae scilicet istius 
+            <lb ed="#PV"/>ante christus est
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e217">
+          <head xml:id="ppr-l116-Hrarrcc">Responsiones ad rationes contra concordiam</head>
+          <p xml:id="ppr-l116-csdisp">
+            Et sic considerata 
+            <lb ed="#PV"/>immensitate divinae scientiae nullo modo 
+            <lb ed="#PV"/>arguitur mutatio Ex hoc <unclear>r</unclear> nec sequitur 
+            <lb ed="#PV"/>est mutabiliter scientia huius igitur 
+            <lb ed="#PV"/>necessario Item quantum ad 
+            <lb ed="#PV"/>2m quod etiam est sophisticam 
+            <lb ed="#PV"/>istud ab aeterno ita scivit deus 
+            <lb ed="#PV"/>igitur necesse <add place="above-line"><unclear>r?eam</unclear></add> scire 
+            datur instan<lb ed="#PV"/>tia 
+            ponatur per impossibile quod deus 
+            <lb ed="#PV"/>non esset in rerum <unclear>naturae</unclear> vel nihil 
+            <lb ed="#PV"/>cognosceret ab extra si futurum 
+            <lb ed="#PV"/>est quod ante christus erit ab aeterno 
+            <lb ed="#PV"/>futurus fuit igitur praesens difficultas 
+            <lb ed="#PV"/>est totaliter inpertiens ad divinam 
+            <lb ed="#PV"/>praescientiam unde si ab aeterno ista 
+            <lb ed="#PV"/>fuisset formata ante christus erit 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>ab aeterno fuisset <del rend="vacat">fuit et si sit 
+            <lb ed="#PV"/>contingens potest non fore licet ab 
+            <lb ed="#PV"/>aeterno fuit ficturum potest tamen 
+            <lb ed="#PV"/>ita esse quod numquam fuit futurum 
+            <lb ed="#PV"/>igitur praesens difficultas est totaliter 
+            <lb ed="#PV"/>inpertinens ad divinam praescientiam</del>
+            <lb ed="#PV"/>et potest non esse vera et alii non potest 
+            <lb ed="#PV"/>mutuari de veritate in falsitatem 
+            <lb ed="#PV"/>quia si ponatur quod ante christus 
+            <lb ed="#PV"/>non erit tunc non fuit ab aeterno 
+            <lb ed="#PV"/>vera sed falsa Circa hoc in 3o 
+            <lb ed="#PV"/>capitulo fundabo positionem
+          </p> 
+          <p xml:id="ppr-l116-sipdcf">
+            <!-- Can't find parallel in above
+              
+              Sed in primo instanti suae productionis 
+            scientia divina erit scientia de eius opposita seu contraria 
+            et ita considerata immensitate divinae praescientiae, 
+            nulla arguitur mutatio 
+            quod deus sit scientia veritatis post 
+            ea non sit scientia illius, 
+            nam non sequitur deus est immutabiliter scientia, 
+            igitur ipse est necessario scientia. 
+            Consequentia non valet 
+            quia contingenter est scientia 
+            respectu propositionis cuius veritas 
+            dependet a futuro. 
+            Alia consequentia est sophistica deus ab 
+            aeterno scivit <c>a</c> futurum, 
+            igitur necessario erit, 
+            nam datur eiusdem instantia posito per impossibile quod 
+            <cb ed="#SV" n="b"/><!-\-341rb-\->
+            deus non esset vel nihil ad extra cognosceret 
+            si futurum est quod antichristus erit ab aeterno futurum fuit 
+            et si sit contingens, 
+            potest non fore, 
+            nam licet ab aeterno futurum fuerit, 
+            potest tamen non esse 
+            sic quod numquam erit futurum, 
+            igitur non est mirandum, 
+            si contingentium sit possibilis cum divina praescientia, 
+            et per consequens non est mirum 
+            si in materia divinae praescientiae conceditur quod, 
+            si deus scivit ab aeterno antichristum fore, 
+            potest tamen non fore sine ipsius mutatione, 
+            nam non est mirum 
+            si concedantur huiusmodi propositiones in divina praescientia, 
+            cum alibi reperiatur similitudo, 
+            nam si habeamus quod una propositio fuerit, 
+            contingeret vera si fuerit ab aeterno prolata. 
+            Et si habeamus quod divina scientia 
+            possit esse iudicium contrariorum, 
+            tunc salvatur faciliter cum libertate 
+            et praescientia divina contingentia futurorum.-->
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e239">
+          <head xml:id="ppr-l116-Hcnecne">Conclusiones negativae</head>
+          <p xml:id="ppr-l116-pmtamf">
+            pro ma<lb ed="#PV"/>iori 
+            declaratione materiae pono propositiones 
+            <lb ed="#PV"/>negativas contra aliquorum opiniones 
+          </p>
+          <div xml:id="ppr-l116-Dd1e247">
+            <head xml:id="ppr-l116-Hppnppn">Prima propositio negativa</head>
+            <p xml:id="ppr-l116-peefti">
+              <lb ed="#PV"/>prima divina essentia non per
+              <lb ed="#PV"/>hoc evidenter cognoscit futura 
+              <lb ed="#PV"/>contingentia quia eius aeter<lb ed="#PV"/>nitas 
+              coexistit toti fluxui 
+              <lb ed="#PV"/>temporis ymaginarii
+            </p>
+            <p xml:id="ppr-l116-pqeldc">
+              Advertendum 
+              <lb ed="#PV"/>quod opinio aliquorum doctorum 
+              <lb ed="#PV"/>fuit quod divina aeternitas coex<lb ed="#PV"/>istet 
+              toti tempori a parte ante et post 
+              <lb ed="#PV"/>coexistit negandum vel futurum Sed 
+              ad ymaginationem possibili et antecedit 
+              <lb ed="#PV"/>et sequitur cum hoc existit et 
+              <lb ed="#PV"/>sic consequenter totum ipse etiam in infini<lb ed="#PV"/>tum 
+              ab utraque parte est totaliter praesens 
+              <lb ed="#PV"/>aeternitati ratione suae continentiae 
+              <lb ed="#PV"/>et habitudinis et quia aeternitas 
+              <lb ed="#PV"/>includit totum tempus ymaginabile 
+              <lb ed="#PV"/>ratione istius habitudinis est omnium 
+              <lb ed="#PV"/>producibilium in deo cognitio <ref xml:id="ppr-l116-Rd1e259"><name ref="#Anselm">Ans<lb ed="#PV" break="no"/>elmus</name> 
+              videtur istud ponere 
+              <lb ed="#PV"/>in libro suo de concordia</ref> 
+            </p>
+            <p xml:id="ppr-l116-sciiap">
+              dicitur 
+              <lb ed="#PV"/>contra istam opinionem primo 
+              praesentia creaturae est totaliter in<lb ed="#PV"/>pertinens 
+              ad divinam cognitionem
+              <pb ed="#PV" n="220-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>non concurrit obiective nec in 
+              <lb ed="#PV"/>aliquo genere causae eo quod divina 
+              <lb ed="#PV"/>scientia nullatenus nec mediate 
+              <lb ed="#PV"/>nec inmediate a rebus creatis 
+              <lb ed="#PV"/>dependere potest igitur 
+            </p>
+            <!-- fuzzy parallel -->
+            <p xml:id="ppr-l116-saqami">
+              <sic>3o</sic> deficit 
+              <lb ed="#PV"/>ymaginatio eo quod non capit 
+              <lb ed="#PV"/>habitudinem aeternitatis nam videtur 
+              <lb ed="#PV"/>ymaginatio quod habitudo aeternitatis 
+              <lb ed="#PV"/>ad tempus sit per modum 
+              <lb ed="#PV"/>correspondentiae quasi equa?tis
+              <lb ed="#PV"/>vel excessus ut quod videtur ymaginari 
+              <lb ed="#PV"/>quod quasi in eodem genere mensurae 
+              <lb ed="#PV"/>coextendatur aeternitas et tem<lb ed="#PV"/>pus 
+              quantum ad durationem 
+              <lb ed="#PV"/>falsum est quia modus durati<lb ed="#PV"/>onis 
+              aeternitatis licet sit conten<lb ed="#PV"/>tivus 
+              temporis non tamen partiale
+            </p>
+            <p xml:id="ppr-l116-tehtdn">
+              <lb ed="#PV"/>modum 3o et fortius Ex ista 
+              <lb ed="#PV"/>ymaginatione sequitur quod tan<lb ed="#PV"/>ta 
+              sit libertas divinae voluntatis 
+              <lb ed="#PV"/>respectu praeteritorum sicut futurorum 
+              <lb ed="#PV"/>vel praesentium consequens est contra <ref xml:id="ppr-l116-Rd1e291">articulum 
+              <lb ed="#PV"/>parysiensis</ref> et philosophi non concesserunt 
+              <lb ed="#PV"/>quod potentia sit ad praeterita 
+              <lb ed="#PV"/>consequentia probatur quia quantum est ex parte 
+              <lb ed="#PV"/>divinae aeternitatis aequae prius 
+              <lb ed="#PV"/>est sibi praeteritum sicut futurum 
+              <lb ed="#PV"/>igitur <add place="above-line">et cum</add> nichil apud aeternitatem 
+              <lb ed="#PV"/>sit lapsum in praeteritum sequitur 
+              <lb ed="#PV"/>quod vel trahit necessitatem respectu 
+              <lb ed="#PV"/>divinae voluntatis igitur potest facere 
+              <lb ed="#PV"/>aequae faciliter <name>adam</name> non fuisse 
+              <lb ed="#PV"/>sicut ante christum non fore hanc 
+              <lb ed="#PV"/>ymaginationem secutus est <ref xml:id="ppr-l116-Rd1e303"><name ref="#PeterDamian">petrus 
+              <lb ed="#PV"/>damiani</name> in quadam epistola contra 
+              <lb ed="#PV"/><name>Ierominium</name> de reparatione virginis</ref>
+              <lb ed="#PV"/>concedit expresse de virgine 
+              <lb ed="#PV"/>quae realiter est corrupta quod 
+              <lb ed="#PV"/>possibile est quod non sit vel fuit cor<lb ed="#PV"/>rupta 
+              unde non est dubium 
+              <lb ed="#PV"/>quin deus potest eam reintegrare 
+              <lb ed="#PV"/>et ad alium sensum concedit et 
+              <lb ed="#PV"/>hoc per istam ymaginationem 
+              <lb ed="#PV"/>quia vel labitur inpraeteritum 
+              <lb ed="#PV"/>quantum ad divinam voluntatem 
+              <lb ed="#PV"/>igitur nichil quantum ad eum tra<lb ed="#PV"/>hit 
+              necessitatem
+            </p>
+          </div>
+          <div xml:id="ppr-l116-Dd1e316">
+            <head xml:id="ppr-l116-Hspnspn">Secunda propositio negativa</head>
+            <p xml:id="ppr-l116-scpcfc">
+              2a conclusio per 
+              <lb ed="#PV"/>nulla intrinsecam contingentiam 
+              <lb ed="#PV"/>cognoscit deus futura con<lb ed="#PV"/>tingentia 
+              contra opinionem dicentium 
+              <lb ed="#PV"/>quod realiter ad intra sit aliqua 
+              <lb ed="#PV"/>contingentia in deo quae est 
+              <lb ed="#PV"/>non cognoscendi futura 
+              <lb ed="#PV"/>contingentia 
+            </p>
+            <p xml:id="ppr-l116-ccifrc">
+              et concedi con<lb ed="#PV"/>sequenter 
+              quod sicut futura contingenti 
+              <lb ed="#PV"/>possunt realiter non esse Ita ratio 
+              <lb ed="#PV"/>intrinseca quae est deus potest 
+              <lb ed="#PV"/>realiter non esse ut cognoscendi 
+              <lb ed="#PV"/>ante christum fore est contingens 
+              <lb ed="#PV"/>et potest non fore et sic scientia dei 
+              <lb ed="#PV"/>qua scitur quod ante christus erit 
+              <lb ed="#PV"/>potest non esse ymaginatur quod deus 
+              <lb ed="#PV"/>per intrinsecam et essentialem rationem non cog<lb ed="#PV"/>noscit 
+              futurum contingens 
+              <lb ed="#PV"/>unde staret 2m istam ymagina<lb ed="#PV"/>tionem 
+              tota latitudo divinae in<lb ed="#PV"/>mensitatis 
+              et perfectionis ad intra 
+              <lb ed="#PV"/>absque scientia contingentium futuro<lb ed="#PV"/>rum 
+              ita quod non est deo intrinseca 
+              <lb ed="#PV"/>licet sic idem quod deus unde 
+              <lb ed="#PV"/>non est <unclear>ac?s</unclear> inhaerens sed est ratio 
+              <lb ed="#PV"/>formalis realiter contingens realiter 
+              <lb ed="#PV"/>deo ydemptica
+            </p>
+            <p xml:id="ppr-l116-cioepm">
+              Conclusio posita 
+              <lb ed="#PV"/>est contra istam ymaginationem 
+            </p> 
+            <p xml:id="ppr-l116-pqierc">
+              <lb ed="#PV"/>probatur primo quia in deo a parte rei cir<lb ed="#PV"/>cumscriptis 
+              quibuscumque terminis 
+              <lb ed="#PV"/>vel conceptibus in deo non potest esse 
+              <pb ed="#PV" n="220-v"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>contingentia quia est simpliciter 
+              <lb ed="#PV"/>aeternis immutabilis et purus 
+              <lb ed="#PV"/>actus habens actualiter omnem sibi 
+              <lb ed="#PV"/>possibile perfectionem et est simpliciter 
+              <lb ed="#PV"/>necesse esse igitur nulla est contingentia 
+              <lb ed="#PV"/>realis in eo 
+            </p>
+            <p xml:id="ppr-l116-siadva">
+              Item in aeternis 
+              <lb ed="#PV"/>non differunt posse et esse et secundum 
+              <lb ed="#PV"/>philosophum igitur illa quae sunt 
+              <lb ed="#PV"/>deus vel quidquid est deus ab aeter<lb ed="#PV"/>no 
+              et semper et necessario est 
+              <lb ed="#PV"/>deus nec potest desinere esse
+            </p>
+            <p xml:id="ppr-l116-tsccdp">
+              Item 
+              <lb ed="#PV"/>signetur contingentia in deo 
+              <lb ed="#PV"/>et sit a tunc sic <c>a</c> non est <unclear>accidens</unclear>
+              <lb ed="#PV"/>deo inhaerens <subst><del>et</del> <add place="above-line">ut</add></subst> concedit <name>plato</name> igitur 
+              <lb ed="#PV"/>est deus tunc ultra a pater non 
+              <lb ed="#PV"/>esse et est pure contingens igitur 
+              <lb ed="#PV"/>deus est contingens et potest non 
+              <lb ed="#PV"/>esse arguitur expositorie haec res 
+              <lb ed="#PV"/>potest non esse et haec res est deus 
+              <lb ed="#PV"/>igitur etc quod est blasphemia 
+              <lb ed="#PV"/>et contra divinam perfectionem actu 
+              <lb ed="#PV"/>actionem et necessitatem
+            </p>
+            <p xml:id="ppr-l116-qsdsso">
+              Item si deus 
+              <lb ed="#PV"/>sit aliqua contingentia sequitur 
+              <lb ed="#PV"/>quod potest realiter inmutari patet 
+              <lb ed="#PV"/>nam deus potest incipere eo ali<lb ed="#PV"/>qua 
+              contingentia quae non est 
+              <lb ed="#PV"/><c>a</c> contingentia sed <c>b</c> contingentia 
+              <lb ed="#PV"/>ergo potest mutari et ita de contradic<lb ed="#PV"/>toria 
+              contingentia scilicet antichristus non erit 
+              <lb ed="#PV"/>quia potest esse haec contingentia 
+              <lb ed="#PV"/>2m illius 
+            </p>
+            <p xml:id="ppr-l116-qcdpic">
+              Item capio divinam 
+              <lb ed="#PV"/>essentiam secundum rationem pure essentialem 
+              <lb ed="#PV"/>consideratam quaero utrum 
+              <lb ed="#PV"/>secundum rationem pure essentialem 
+              <lb ed="#PV"/>repraesentat antichristum fore <unclear>alias</unclear> 
+              <lb ed="#PV"/>non si non tunc non est in<lb ed="#PV"/>trinsece 
+              essentialiter perfecta
+            </p> 
+          </div>
+        </div>
+        <div xml:id="ppr-l116-Dd1e367">
+          <head xml:id="ppr-l116-Hcpccpc">Contra primam conclusionem</head>
+          <p xml:id="ppr-l116-ctpcdp">
+            Contra 
+            <lb ed="#PV"/><ref xml:id="ppr-l116-Rd1e376" target="http://scta.info/resource/ppr-l116-peefti">primam conclusionem</ref> arguitur primo 
+            <lb ed="#PV"/>quia <ref xml:id="ppr-l116-Rd1e382"><name ref="#Anselm">anshelmus</name> in libro de 
+            <lb ed="#PV"/>concordia</ref> videtur ponere quod huiusmodi 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>praesentialitas aeternitas ad tempus 
+            <lb ed="#PV"/>sit causa contingentiae futurorum 
+          </p>
+          <p xml:id="ppr-l116-sbiala">
+            <lb ed="#PV"/>Ad idem <ref xml:id="ppr-l116-Rd1e397"><name ref="#Boethius">boetius</name> quinto <title ref="#Consolation">de conso<lb ed="#PV"/>latione</title></ref> ex habitudine aeternitatis 
+            <lb ed="#PV"/>ad tempus possunt sine contingentia 
+            <lb ed="#PV"/>absque mutatione aeternitatis 
+            <lb ed="#PV"/>divinae praescientiae 
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e412">
+          <head xml:id="ppr-l116-Hcscscs">Contra secundam conclusionem</head>
+          <p xml:id="ppr-l116-cscrdi">
+            Contra <ref xml:id="ppr-l116-Rd1e421" target="http://scta.info/resource/l116-scpcfc">2am conclusionem</ref> 
+            deus secundum nullam rationem 
+            <lb ed="#PV"/>intrinsecam est scientia contingentiorum 
+            <lb ed="#PV"/>futurorum igitur propositum antecedens <unclear>tenet<!-- could be patet --></unclear>
+            <lb ed="#PV"/>quia quacumque ratione data cum 
+            <lb ed="#PV"/>illa stat <unclear>op?m</unclear> futuri contingentis 
+            <lb ed="#PV"/>eo quod est contingens ideo nulla ratio 
+            <lb ed="#PV"/>deo extrinseca est futuro contingentis 
+            <lb ed="#PV"/>notitia antecedens patet primo signa<lb ed="#PV"/>ta 
+            tota latitudine omnium futurorum 
+            <lb ed="#PV"/>contingentium cuiuslibet illorum 
+            <lb ed="#PV"/>optimum potest stare stante ratione in<lb ed="#PV"/>trinseca 
+            dei igitur
+          </p>
+          <p xml:id="ppr-l116-snsenn">
+            2o signata 
+            <lb ed="#PV"/>ratione quae est realiter futuri contingenter 
+            <lb ed="#PV"/>repraesentativa et scientia ex illius rationis 
+            <lb ed="#PV"/>esse arguitur futurum tempus contingens 
+            <lb ed="#PV"/>esse vel fore Sed consequens est contingens 
+            <lb ed="#PV"/>igitur antecedens scilicet <unclear>huiusmodi</unclear> rationem 
+            <lb ed="#PV"/>esse et per consequens illa ratio est contingens 
+            <lb ed="#PV"/>pure et non necessaria
+          </p>
+        </div>
+        <div xml:id="ppr-l116-Dd1e432">
+          <head xml:id="ppr-l116-Hraaraa">Responsio ad argumenta contra conclusiones</head>
+          <p xml:id="ppr-l116-aprhap">
+            Ad
+            <lb ed="#PV"/>primum respondeo quod intentio <name ref="Anselm">anselmi</name> 
+            <lb ed="#PV"/>et <name ref="#Boethius">Boetii</name> fuit est salvare compossibilitatem 
+            <lb ed="#PV"/>contingentiae futurorum cum praescientia 
+            <lb ed="#PV"/>dei ex immensitate divinae praescientiae 
+            <lb ed="#PV"/>et inmensitate aeternitatis eius 
+            <lb ed="#PV"/>non applicando ad fluxum temporis 
+            <lb ed="#PV"/>quia hoc est omnino inpertinens sed 
+            <lb ed="#PV"/>potest esse nunc scientia huius vel 
+            <lb ed="#PV"/>oppositi ponunt u=quidam exemplum 
+            <lb ed="#PV"/>de centro in quo si poneretur 
+            <lb ed="#PV"/>oculus et egrederetur inmmediate 
+            <lb ed="#PV"/>ad oculum partis circumferenter semi<pb ed="#PV" n="221-r"/><cb ed="#PV" n="a"/><lb ed="#PV" break="no"/>dyameta 
+            ordo esset et successio 
+            <lb ed="#PV"/><unclear>me?ctum</unclear>ferentia dyametrorum et in ordine 
+            <lb ed="#PV"/>ad suum centrum nulla diversi<lb ed="#PV"/>tas 
+            quia concurrent ad centrum 
+            <lb ed="#PV"/>et oculus quamlibet intueretur Simile 
+            <lb ed="#PV"/>exemplum ponit <name ref="#Albert">albertus</name> de puncto 
+            <lb ed="#PV"/>lucis indivisibiles cognitio quae 
+            <lb ed="#PV"/>ad omnem partem circumferentiae multi<lb ed="#PV"/>plicaret 
+            radios
+          </p>
+          <p xml:id="ppr-l116-arqfec">
+            <ref xml:id="ppr-l116-Rd1e464" target="http://scta.info/resorce/ppr-l116-cscrdi">Ad rationem 
+            <lb ed="#PV"/>contra secundam conclusionem</ref> quaeritur 
+            <lb ed="#PV"/>secundum nulla rationem intrinsecam 
+            <lb ed="#PV"/>necessariam etc negatur antecedens Ad 
+            <lb ed="#PV"/>probationem quacumque data illa 
+            <lb ed="#PV"/>stante potest <unclear>oppositum</unclear> futuri contingen<lb ed="#PV"/>tis 
+            contingere igitur non est etc 
+            <lb ed="#PV"/>nego consequentiam quia inmensi<lb ed="#PV"/>tas 
+            et illimitatio divinae cogni<lb ed="#PV"/>tionis 
+            tanta est quod potest esse respectu 
+            <lb ed="#PV"/>unius et potest esse respectu contrarii ratione 
+            <lb ed="#PV"/>suae inmensitatis scilicet huiusmodi 
+            <lb ed="#PV"/>notitiae hoc naturali notitiae nec 
+            <lb ed="#PV"/>competit nec competere potest 
+            <lb ed="#PV"/>igitur non est similitudo naturalis rationis 
+            <lb ed="#PV"/>ad divinam
+          </p>
+          <p xml:id="ppr-l116-asrmit">
+            <ref xml:id="ppr-l116-Rd1e476" target="http://scta.info/resource/ppr-l116-snsenn">2o arguitur</ref> sic 
+            <lb ed="#PV"/>signata ratione qua deus cog<lb ed="#PV"/>noscit 
+            ante christum fore etc ista 
+            <lb ed="#PV"/>ratio est sophistica et parvi pon<lb ed="#PV"/>deris 
+            si resolvatur peto quid 
+            <lb ed="#PV"/>intelligit per illum ratione esse 
+            <lb ed="#PV"/>si <unclear>exeat</unclear> sic ratio cognoscendi quod 
+            <lb ed="#PV"/>antichristus est deus dico quod consequentia 
+            <lb ed="#PV"/>ext necessaria et consequens contingens 
+            <lb ed="#PV"/>etc etiam antecedens et tamen illa est 
+            <lb ed="#PV"/>necessarissima scientia sed non huius 
+            <lb ed="#PV"/>scientia Si signet illam rationem 
+            <lb ed="#PV"/>per terminum absolutum scilicet haec 
+            <lb ed="#PV"/>est scientia demonstrando divinam 
+            <lb ed="#PV"/>scientiam vel essentiam consequentia non 
+            <lb ed="#PV"/>valet quia antecedens est necessariam 
+            <lb ed="#PV"/>et consequens puere contingens et sic argumentum 
+            <cb ed="#PV" n="b"/>non valet
+          </p> 
+          <p xml:id="ppr-l116-asmils">
+            Alii adhuc sunt 
+            <lb ed="#PV"/>modi ymaginandi compossibilitatem 
+            <lb ed="#PV"/>contingentium futurorum cum divina 
+            <lb ed="#PV"/>praescientia contra quos ponam in 
+            <lb ed="#PV"/>alia lectione conclusiones negativas
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
