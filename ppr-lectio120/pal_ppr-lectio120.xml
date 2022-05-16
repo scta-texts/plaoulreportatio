@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 120, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 120, De libertate [Palantine Transcription]</title>
+          <date when="2022-05-11">May 11, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-05-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="228-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio120">
+      <head xml:id="ppr-l120-Hldlldl">Lectio 120, de Libertate</head>
+        <div xml:id="ppr-l120-Dd1e109">
+          <head xml:id="ppr-l120-Hrectio">Recapitulatio</head>
+          <p xml:id="ppr-l120-ipvacv">
+            <lb ed="#PV"/>In alia lectione
+            <lb ed="#PV"/>In praecedentibus visum est quod 
+            <lb ed="#PV"/>divina cognitio vel praescientia
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>nullam necessitatem inponit futuris 
+            <lb ed="#PV"/>evenientibus plusquam aliqua 
+            <lb ed="#PV"/>creabilis quae de sui natura esset omnium 
+            <lb ed="#PV"/>virtutum cognitio constat quod nullam 
+            <lb ed="#PV"/>necessitatem imponeret sicut nec 
+            <lb ed="#PV"/>si videam <name>sortes</name> stantem vel currentem 
+            <lb ed="#PV"/>in ea visio valeat contingentia <unclear>u?</unclear> vel 
+            <lb ed="#PV"/>effectus illius liberi 
+          </p>
+          <!-- fuzzy parallel -->
+          <p xml:id="ppr-l120-eivhqi">
+            et sic fieret 
+            <lb ed="#PV"/>divina praescientia res secundum quod sunt 
+            <lb ed="#PV"/>vel erunt nec ut sic debet consimiliter 
+            <lb ed="#PV"/>ut causa rerum et prior causa 
+            <lb ed="#PV"/>nec posteriori sed quasi ut in<lb ed="#PV"/>pertinens
+          </p> 
+          <p xml:id="ppr-l120-eiapcb">
+            et inter alias vias ista 
+            <lb ed="#PV"/>est magis facilis ab intelligentia nostro 
+            <lb ed="#PV"/>ad concipiendum
+          </p> 
+        </div>
+        <div xml:id="ppr-l120-Dd1e127">
+          <head xml:id="ppr-l120-Hddpper">Difficultas de praedestinatione et reprobatione</head>
+          <p xml:id="ppr-l120-srdped">
+            Restat difficultas maior 
+            <lb ed="#PV"/>de praedestinatione et reprobatione 
+            <lb ed="#PV"/>nam ultra veritatis cognitionem 
+            <lb ed="#PV"/>praedestinatio videtur dicere actum 
+            <lb ed="#PV"/>voluntatis divinae et determinationem 
+            <lb ed="#PV"/>causalitatis Et sic licet praescientia 
+            <lb ed="#PV"/>non poneret necessitatem tamen videtur 
+            <lb ed="#PV"/>quod praedestinatio ponat neces<lb ed="#PV"/>sitatem 
+            ex inmutabili determinatione 
+            <lb ed="#PV"/>divinae voluntatis respectu prae<lb ed="#PV"/>destinatorum 
+            et sic proportionaliter de reprobatione
+          </p>
+        </div>
+        <div xml:id="ppr-l120-Dd1e140">
+          <head xml:id="ppr-l120-Hpropsl">Propositio: Quilibet qui est viator potest esse praedestinatus stante lege</head>
+          <p xml:id="ppr-l120-pdmepa">
+            <lb ed="#PV"/>pro declaratione materiae sit haec prima 
+            <lb ed="#PV"/>propositio Quilibet quae est viator potest 
+            <lb ed="#PV"/>esse praedestinatus stante lege 
+            <lb ed="#PV"/>patet nam quilibet potest facere quod in 
+            <lb ed="#PV"/>se est stante lege ad sui finis exe<lb ed="#PV"/>cutionem 
+            quae lege stante numquam 
+            <lb ed="#PV"/>excidit a gratia quia quandoque aliquis 
+            <lb ed="#PV"/>facit quod in se est deus confert 
+            <lb ed="#PV"/>sibi gratiam et si non faciat contrarium 
+            <lb ed="#PV"/>deus non aufert gratiam 
+            <lb ed="#PV"/>quia in potestate sui est facere quod
+            <lb ed="#PV"/>in se est et sic uno adiuncto scilicet
+            <pb ed="#PV" n="229-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>nostra divina stante lege potest esse 
+            <lb ed="#PV"/>praedestinatus
+          </p> 
+          <p xml:id="ppr-l120-ueaqid">
+            Advertendum quod si 
+            <lb ed="#PV"/>divina scientia nullam imponat 
+            <lb ed="#PV"/>scitis vel scibilibus necessitatem 
+            <lb ed="#PV"/>a fortiori nec divina voluntas 
+            <lb ed="#PV"/>cuius intrinseca conditio vel causalitas 
+            <lb ed="#PV"/>eset intrinsece libera patet ergo quod prae<lb ed="#PV"/>destinatio 
+            ratione actus voluntatis 
+            <lb ed="#PV"/>seu determinationis nullam penitus 
+            <lb ed="#PV"/>addit difficultatis gradum nec eset color 
+            <lb ed="#PV"/>ad ponendum quod aliquam inducat 
+            <lb ed="#PV"/>necessitatem patet quia voluntas divina 
+            <lb ed="#PV"/>respectu talium est intrinseca libera 
+          </p>
+          <p xml:id="ppr-l120-eqaeid">
+            <lb ed="#PV"/>patet contra <ref xml:id="ppr-l120-Rd1e155"><name ref="#Aureoli">aureolum</name></ref> hanc consequentiam 
+            <lb ed="#PV"/>non esse bonum ymmo periculosum 
+            <lb ed="#PV"/>voluntas divina determinata 
+            <lb ed="#PV"/>fuit ab aeterno ad producendum 
+            <lb ed="#PV"/><c>a</c> <unclear>e f factum</unclear> futurum ergo necesse 
+            <lb ed="#PV"/>est eam sic esse determinatam respectu 
+            <lb ed="#PV"/>eiusdem effectus nam antecedens est 
+            <lb ed="#PV"/>unde et consequens est contra veritatem fidei nam 
+            <lb ed="#PV"/>sequitur quod necessario produceret 
+            <lb ed="#PV"/>huiusmodi effectum pro tempore 
+            <lb ed="#PV"/>praefixio unde ipse deficit ex 
+            <lb ed="#PV"/>eo quod non considerat de ratione 
+            <lb ed="#PV"/>libertatis quae est idem actus et potentia 
+            <lb ed="#PV"/>in deo sit quod univormiter se habens 
+            <lb ed="#PV"/>posset nunc agere et nunc non agere 
+            <lb ed="#PV"/>hac ut ipse dicit reperitur in 
+            <lb ed="#PV"/>voluntate nostra et sic consequenter 
+            <lb ed="#PV"/>de deo sed non advertit de inper<lb ed="#PV"/>fectione 
+            nostri intellectus indigentis 
+            <lb ed="#PV"/>alio distincto <unclear>ap?mo</unclear> actu et sic non 
+            <lb ed="#PV"/>habet se uniformiter omnino 
+          </p>
+          <p xml:id="ppr-l120-eqspsr">
+            Sequitur 
+            <lb ed="#PV"/>quod deus magis positive concurrit 
+            <lb ed="#PV"/>et aliter ad praedestinationem quam 
+            <lb ed="#PV"/>ad inprobationem licet utrobique aequae 
+            <lb ed="#PV"/>contingenter 2m modum est 
+            <lb ed="#PV"/>primum apparet quia deus respectu 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>operationis elicite et a viatore 
+            <lb ed="#PV"/>praedestinato habente usum rationis 
+            <lb ed="#PV"/>concurrit primo modo in gloriam conferendo 
+            <lb ed="#PV"/>gratiam non sit autem de inprobato 
+            <lb ed="#PV"/>quia non specialiter vult nullum finem 
+            <lb ed="#PV"/>scilicet aeternam mortem vel dampna<lb ed="#PV"/>tione 
+            peccatorum Consequenter 
+            <lb ed="#PV"/>probabiliter potest dici quod se habet negative et priva<lb ed="#PV"/>tive 
+            divina voluntas respectu praesci<lb ed="#PV"/>ti 
+            vel reprobati <unclear>et</unclear> se habet positive 
+            <lb ed="#PV"/>respectu praedestinati
+          </p> 
+          <p xml:id="ppr-l120-ssqtee">
+            Sequitur 
+            <lb ed="#PV"/>quod licet non steterit tamen lege 
+            <lb ed="#PV"/>tunc <unclear>ordina?r</unclear> nec staret nunc 
+            <lb ed="#PV"/>ex ypothesi praedestinatum posse 
+            <lb ed="#PV"/>esse praescitum de nullo tamen est 
+            <lb ed="#PV"/>econtra loquor in sensu composito 
+          </p>
+        </div>
+        <div xml:id="ppr-l120-Dd1e186">
+          <head xml:id="ppr-l120-Hqdgdgp">Quod duplex gradus <unclear>praedestinationis[?]</unclear></head>
+          <p xml:id="ppr-l120-pcdfam">
+            <lb ed="#PV"/>Advertendum pro declaratione 
+            <lb ed="#PV"/>quod duplex reperitur gradus prae<lb ed="#PV"/>destinatorum 
+            primus est generalis de 
+            <lb ed="#PV"/>quibus constat divino intellectu 
+            <lb ed="#PV"/>quod felicitatem <unclear>aeternum</unclear> consequenter 
+            <lb ed="#PV"/>finaliter et tamen hoc voluntas divina 
+            <lb ed="#PV"/>est determinata licet contingenter 
+            <lb ed="#PV"/>ad conferendum gratiam in hac vi<lb ed="#PV"/>ta 
+            et postea futuram gloriam et haec eset 
+            <lb ed="#PV"/>generalis cum qua bene stat vel 
+            <lb ed="#PV"/>potest stare non agere conformiter quia 
+            <lb ed="#PV"/>pure contingenter voluntas faciet actus 
+            <lb ed="#PV"/>quae includuntur in ratione <unclear>tota <!-- possibly more letters here or correction --></unclear>
+            <lb ed="#PV"/>habentis usum rationis
+          </p>
+          <p xml:id="ppr-l120-aemipv">
+            Alius gradus 
+            <lb ed="#PV"/>est specialior electionis scilicet specialis 
+            <lb ed="#PV"/>cum confirmatione et inpossibili<lb ed="#PV"/>tatione 
+            respectu creaturae scilicet de carentia 
+            <lb ed="#PV"/>finalis perserverantiae aliqui praedes<lb ed="#PV"/>tinatorum 
+            taliter fuerunt prae<lb ed="#PV"/>destinati 
+            quod not fuit in eorum 
+            <lb ed="#PV"/>parte ut antecedenter etc non esse 
+            <lb ed="#PV"/>praedestinatos ut <name>Iherimas</name> antequam 
+            <pb ed="#PV" n="229-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>ex utero egrederetur <unclear>sanctificatus</unclear> fuit 
+            <lb ed="#PV"/>Etiam <name>Iohannes Baptista</name> et verisimile est 
+            <lb ed="#PV"/>quod eos in hac vita confirmaverit 
+            <lb ed="#PV"/>quod a gratia non potuerunt excedere 
+            <lb ed="#PV"/>vel discedere quantum erit ex sua 
+            <lb ed="#PV"/>facultate licet absolute posset vel po<lb ed="#PV"/>tuisset 
+            eos desere sed non stante 
+            <lb ed="#PV"/>lege sed de praescitis habentibus usum 
+            <lb ed="#PV"/>rationis non sic quia licet deus 
+            <lb ed="#PV"/>posset creaturam confirmare 
+            <lb ed="#PV"/>tamen stante lege non potest ob<lb ed="#PV"/>stinare 
+            in via igitur nullum praeclu<lb ed="#PV"/>ditur 
+            quin posset esse praedestinatus 
+          </p>
+          <p xml:id="ppr-l120-cqerom">
+            <lb ed="#PV"/>Advertendum quod doctores loquens 
+            <lb ed="#PV"/>in praesenti materia et scriptura quandoque 
+            <lb ed="#PV"/>quod sancti dei non possunt eadem tales 
+            <lb ed="#PV"/>auctoritates intelligendae sunt iuxta 
+            <lb ed="#PV"/>2arii acceptionem reprobationis 
+            <lb ed="#PV"/>unde concedendum est quod non est 
+            <lb ed="#PV"/>in eorum potestate quod sunt praesci<lb ed="#PV"/>tae 
+            stante lege et sic potest concedi 
+            <lb ed="#PV"/>quod electi <del rend="strikethrough">e</del> non possunt gratiam finalis 
+            <lb ed="#PV"/>perseverantiae de reprobatione dicitur 
+            <lb ed="#PV"/>quod non cadit sub misericordia divina quia 
+            <lb ed="#PV"/>impossibilitate aliquem viatorem ad 
+            <lb ed="#PV"/>bonum unde est contra eius bonitate 
+            <lb ed="#PV"/>et sic dicuntur se habere respectu illorum 
+            <lb ed="#PV"/>et istorum misericordissime tamen 
+          </p>
+          <div xml:id="ppr-l120-Dd1e231">
+            <head xml:id="ppr-l120-Hpdgdgp">Propositiones de gradu <unclear>praedestinationis[?]</unclear></head>
+            <p xml:id="ppr-l120-padmpp">
+              <lb ed="#PV"/>pro declaratione materiae ponam alias 
+              <lb ed="#PV"/>propositiones 
+            </p>
+            <p xml:id="ppr-l120-pepaad">
+              primo modo et communiter argumenta nullum 
+              <lb ed="#PV"/>tribuit intrinsece dignitatis gradum 
+              <lb ed="#PV"/>praedestinato nec <unclear>reprobato</unclear> indignitate 
+              <lb ed="#PV"/>patet nam cum aeterna dei praedestina<lb ed="#PV"/>tione 
+              stat quantumlibet intensus gra<lb ed="#PV"/>dus 
+              malitio et proportionaliter de repro<lb ed="#PV"/>bato 
+              cum aeterna reprobatione 
+              <lb ed="#PV"/>stat quantumlibet magnus perfectionis gradus 
+              <lb ed="#PV"/><unclear>quiat</unclear> potest in caritate perficere <unclear>primo</unclear> 
+              <lb ed="#PV"/>potest perficere recipiendo sacramenta 
+              <lb ed="#PV"/>et postea potest consequenter perficere 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>in caritate per exercitium bonarum 
+              <lb ed="#PV"/>operationum et proportionaliter correspondet 
+              <lb ed="#PV"/>divina acceptatio ad intra et istam 
+              <lb ed="#PV"/>materiam deduxi in materia caritatis 
+              <lb ed="#PV"/>dicebatur quod divina acceptatio 
+              <lb ed="#PV"/>quia creatura principaliter denominantur 
+              <lb ed="#PV"/><unclear>grata</unclear> et secundum quam creaturam 
+              <lb ed="#PV"/>redditur vita aeterna digna est 
+              <lb ed="#PV"/>alia quam praedestinatio quia illa 
+              <lb ed="#PV"/>potest esse respectu praesciti utque de 
+              <lb ed="#PV"/>puero praescito quia sic habet gratiam 
+              <lb ed="#PV"/>informantem ita acceptantem
+            </p>
+            <p xml:id="ppr-l120-sprvdc">
+              <lb ed="#PV"/>Item praedestinatio quantum est ex 
+              <lb ed="#PV"/>parte divinorum actum intrinsecorum 
+              <lb ed="#PV"/>dicit cognitionem de futura felicitate 
+              <lb ed="#PV"/>deinde proportionalem volitionem sed con<lb ed="#PV"/>stat 
+              quod determinatio divinae voluntatis 
+              <lb ed="#PV"/>respectu actus dependet a libera 
+              <lb ed="#PV"/>voluntate humana nullum dicit 
+              <lb ed="#PV"/>perfectionis gradum nisi <unclear>dum</unclear> voluntas 
+              <lb ed="#PV"/>humana exit in actum eligendo 
+              <lb ed="#PV"/>conformiter ad divinam voluntatem 
+              <lb ed="#PV"/>igitur
+            </p>
+            <p xml:id="ppr-l120-eqsqdp">
+              Sequitur <del rend="strikethrough">deinde</del> quod dictum 
+              <lb ed="#PV"/>scripturae de <name ref="#Jacob">Iacob</name> et <name ref="#Esau">esau<!-- spelling unclear --></name> potest 
+              <lb ed="#PV"/>intelligi 2m allegoriam ut fi<lb ed="#PV"/>gurarent 
+              ecclesiam dictorum et ma<lb ed="#PV"/>lignantium 
+              et non sit quasi dictum personale
+              <lb ed="#PV"/>et secundum hoc facile esset solvere
+            </p>
+            <p xml:id="ppr-l120-sprqnh">
+              2o potest intelligi de speciali electione 
+              <lb ed="#PV"/>scilicet quod dilexerit <name ref="#Jacob">iacob</name> praedestinatione 
+              <lb ed="#PV"/>2o modo dicta et quia non datio 
+              <lb ed="#PV"/>alicuius boni vocatur apud deum 
+              <lb ed="#PV"/>quandoque odium et quod hanc gratiam non 
+              <lb ed="#PV"/>contulit <name ref="#Esau">esalo</name> ideo dicitur <name ref="#Esau">esalo</name> odio 
+              <lb ed="#PV"/>habuisse scilicet per subtractionem eius gratiae 
+            </p>
+            <p xml:id="ppr-l120-uenpep">
+              <lb ed="#PV"/>Advertendum quod aliquorum fuit 
+              <lb ed="#PV"/>opinio quod praedestinatio quasi quandam 
+              <lb ed="#PV"/>causat necessitatem respectu creaturae 
+              <lb ed="#PV"/>ut vitam aeternam consequitur 
+              <pb ed="#PV" n="230-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>licet concedant possibilitatem ad 
+              <lb ed="#PV"/>quam tamen eodem modo super de re<lb ed="#PV"/>velatione 
+              divina vel futuro iudicio 
+              <lb ed="#PV"/>sed haec via non removet quod credunt 
+              <lb ed="#PV"/>evitare quia daretur occasio 
+              <lb ed="#PV"/><sic>negliendi</sic> falsum quia dato quia 
+              <lb ed="#PV"/>sit praestitu ad hoc in libertate 
+              <lb ed="#PV"/>sua est praedestinari ita quod 
+              <lb ed="#PV"/>stante lege et <unclear>misericordia</unclear> etc sequitur 
+              <lb ed="#PV"/>quod salvabitur ergo melius est po<lb ed="#PV"/>nere 
+              quod quilibet potest salvari 
+            </p>
+            <!-- fuzzy break -->
+            <p xml:id="ppr-l120-eqssps">
+              Sequitur 
+              <lb ed="#PV"/>quod nulli praescito repugnat 
+              <lb ed="#PV"/>habere libertatem ad vitam aeternam 
+              <lb ed="#PV"/>et mereri vitam aeternam quia 
+              <lb ed="#PV"/>omnia requisita potest esse in eo 
+              <lb ed="#PV"/>quia illa praedestinatio divinae 
+              <lb ed="#PV"/>voluntatis est inpertinens patet quia aequaliter 
+              <lb ed="#PV"/>reperitur vel reperiri potest dignitas 
+              <lb ed="#PV"/>tam in praescito quam impraedes<lb ed="#PV"/>tinao 
+              sequitur quod vel se habet repugnare 
+              <lb ed="#PV"/>in praedestinato ad culpam 
+              <lb ed="#PV"/>mortalem et mortem perpetuam sequitur 
+              <lb ed="#PV"/>falsum esse quod esse meritum est effectus 
+              <lb ed="#PV"/>divinae praedestinationis patet ex eo 
+              <lb ed="#PV"/>quia stat quod sortes realiter me<lb ed="#PV"/>ratur 
+              et tamen scit praescitus igitur etc 
+              <lb ed="#PV"/>quia actualiter meretur Quis 
+              <lb ed="#PV"/>audeat negare quin petrus pecca<lb ed="#PV"/>vit 
+              <lb ed="#PV"/>negando christum <name>david</name> acci<lb ed="#PV"/>dendo 
+              et fuerunt praedestinati 
+              <lb ed="#PV"/>et si decessissent fuissent <unclear>pu?i??</unclear>
+              <lb ed="#PV"/>Item quicumque servaverit man<lb ed="#PV"/>data 
+              salvabitur unde si vis ad 
+              <lb ed="#PV"/>vitam ingredi serva mandato 
+              <lb ed="#PV"/>modo stat praescitum servare man<lb ed="#PV"/>data 
+              et mereri vitam ultimo 
+              <lb ed="#PV"/>advertendum quod tenendo aliam 
+              <lb ed="#PV"/>viam non est alia resolutio 
+              <lb ed="#PV"/>nisi quod divina inmensitas 
+              <lb ed="#PV"/>est ultima <unclear>respectu</unclear> iustitiae vel bonitati
+              <lb ed="#PV"/>non repugnaret aliquem non exigentibus 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>suis demeritis aeternaliter vita aeter<lb ed="#PV"/>na 
+              privari etiam sublata libertate 
+              <lb ed="#PV"/>deus occulto suo iudicio iustis<lb ed="#PV"/>sime 
+              faceret quod unum eligeret 
+              <lb ed="#PV"/>et alium <unclear>reg?m</unclear> non respiciendo opera 
+              <lb ed="#PV"/>scilicet merita vel demerita ideo qui 
+              <lb ed="#PV"/>vellet sequi sicut dicit <ref xml:id="ppr-l120-Rd1e309"><name rend="#Paul">apostolus</name></ref> 
+              <lb ed="#PV"/><quote xml:id="ppr-l120-Qd1e317" source="http://scta.info/resource/rom9_21">figulus facit</quote> etc tamen via videtur 
+              <lb ed="#PV"/>melior quod quilibet potest salvari et econtra 
+              <lb ed="#PV"/>est in libertate voluntatis antecedentis et dis<lb ed="#PV"/>positive 
+              quod praescitus salvetur 
+              <lb ed="#PV"/>posset alias dari occasio <sic>neglientiae</sic>
+              <lb ed="#PV"/>salutis vel occasio desperationis
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
