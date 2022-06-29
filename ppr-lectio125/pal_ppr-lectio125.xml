@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 125, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 125, De libertate [Palantine Transcription]</title>
+          <date when="2022-06-09">June 09, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-06-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="237-r"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio125">
+      <head xml:id="ppr-l125-Hldlldl">Lectio 125, de Libertate</head>
+        <div xml:id="ppr-l125-Dd1e109">
+          <head xml:id="ppr-l125-Haeqpef">Alia error: quod revelatio de futuro contingenti potest esse falsa</head>
+          <p xml:id="ppr-l125-davstc">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>dimissis aliis viis erroneis 
+            <lb ed="#PV"/>circa materiam praesentem est via reci<lb ed="#PV"/>tanda 
+            quo salvat compossibilitatem 
+            <lb ed="#PV"/>futurorum contingentium cum revelationibus 
+            <lb ed="#PV"/>quia absolute possibile est revelationem 
+            <lb ed="#PV"/>de futuro contingenti esse falsam 
+            <lb ed="#PV"/>facta ergo revelatione et in lapsa 
+            <lb ed="#PV"/>in praeteritum dicunt consequenter quod necesse 
+            <lb ed="#PV"/>est sic assensisse et quia potest 
+            <lb ed="#PV"/>a primum contingere ideo dicunt quod talis 
+            <lb ed="#PV"/>cui facta est revelatio sit deceptus 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>et iuxta hoc salvant contingentiam 
+            <lb ed="#PV"/>quia necessarium est quod assentiunt 
+            <lb ed="#PV"/>sed non vere
+          </p>
+          <p xml:id="ppr-l125-qqhced">
+            <lb ed="#PV"/>Quamvis haec positio 
+            <lb ed="#PV"/>sit facilis ad sustinendum <unclear>obviat</unclear> 
+            tamen articulis parisiensis nam ex 
+            <lb ed="#PV"/>ipsa sequitur quod christus potest decipi 
+            <lb ed="#PV"/>quia facta revelatione quod iudi<lb ed="#PV"/>cium 
+            futurum erit concedit quod necesse 
+            <lb ed="#PV"/>est antichristum sic credidisse et si po<lb ed="#PV"/>natur 
+            quod non erit dicunt quod fuit 
+            <lb ed="#PV"/>deceptus 
+          </p>
+          <p xml:id="ppr-l125-eic">
+            <ref xml:id="ppr-l125-Rd1e126"><name ref="#Holcot">haelkot</name></ref> concedit 
+            <lb ed="#PV"/>hoc esse possibile per communicationem ydeomatum
+            <lb ed="#PV"/><ref xml:id="ppr-l125-Rd1e136"><name ref="#Wodeham">Adam</name></ref> concedit quod anima christi pertinit esse 
+            <lb ed="#PV"/>decepta et negat consequentiam ergo christus 
+            <lb ed="#PV"/>ita quod inevitabiliter habent con<lb ed="#PV"/>cedere 
+            quod humanitas christi unita 
+            <lb ed="#PV"/>fuit decepta <name ref="#Wodeham">Adam</name> concedit de hu<lb ed="#PV"/>manitate 
+            et negat de supposito 
+            <lb ed="#PV"/>cum in christo sit iudicium in<lb ed="#PV"/>fallibile 
+            quam deus est et sic infallibilis 
+            <lb ed="#PV"/>rectitudo etiam inmensa veritas  
+            <lb ed="#PV"/>Et si in personae inferiori sit error 
+            <lb ed="#PV"/>non communicatur Exemplum in nobis 
+            <lb ed="#PV"/>ratio speculativa cognoscens solis 
+            <lb ed="#PV"/>quantitatem iudicat quod est maior 
+            <lb ed="#PV"/>tota terra sensus exterior iu<lb ed="#PV"/>dicat 
+            oppositum modo homo non dicitur 
+            <lb ed="#PV"/>false iudicare ex quo aliud <unclear>iudicationem</unclear>
+            <lb ed="#PV"/>infinitum nobilius et sic numquam 
+            <lb ed="#PV"/>comederetur quod christus false 
+            <lb ed="#PV"/>iudicaret nec sequitur false 
+            <lb ed="#PV"/>iudicat 2m humanitatem igitur false 
+            <lb ed="#PV"/>iudicat sicut homo non iudicatur 
+            <lb ed="#PV"/>deceptus simpliciter propter 
+            <lb ed="#PV"/>iudicium sensus de quantitate solis
+          </p> 
+          <p xml:id="ppr-l125-sipvsd">
+            <lb ed="#PV"/>Breviter utraque positio est 
+            <lb ed="#PV"/>contra articulos parisiensis ubi ponitur
+            <!-- begin condemnation quote?? -->
+            <lb ed="#PV"/>dicere quod anima christi unita verbo 
+            <lb ed="#PV"/>erat error tam quo ad partem 
+            <lb ed="#PV"/>cognitivam quam quo ad effectivam 
+            <pb ed="#PV" n="237-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>et sic non sana ista via
+          </p>
+        </div>
+        <div xml:id="ppr-l125-Dd1e160">
+          <head xml:id="ppr-l125-Hddcddc">De divina concurrentia</head>
+          <p xml:id="ppr-l125-samoes">
+            Sunt 
+            <lb ed="#PV"/>alii modi probabiles in hoc numero 
+            <lb ed="#PV"/><unclear>5ae</unclear> et transibo nunc causa brevitatis 
+            <lb ed="#PV"/>Et venio ad ultimum modum 
+            <lb ed="#PV"/>quam reputo magis probabilem 
+            <lb ed="#PV"/>pro nunc verum tamen modum alias 
+            <lb ed="#PV"/>michi occurrentem prius tangam 
+            <lb ed="#PV"/>videt supponendo quod deus respectu re<lb ed="#PV"/>velationis 
+            concurrat duplici 
+            <lb ed="#PV"/>genere concursus effective scilicet et 
+            <lb ed="#PV"/>generaliter
+          </p>
+          <p xml:id="ppr-l125-snqesc">
+            2o obiective specialiter 
+            <lb ed="#PV"/>Advertendum ulterius quod licet 
+            <lb ed="#PV"/>concursus dei effectivus in prae<lb ed="#PV"/>teritum 
+            lapsus contrahat ne<lb ed="#PV"/>cessitatem ita quod sequitur deus agit 
+            <lb ed="#PV"/><c>a</c> etc
+          </p>
+          <p xml:id="ppr-l125-atcfif">
+            concursus tamen ob<lb ed="#PV"/>iectivus 
+            potest ymaginari pure 
+            <lb ed="#PV"/>liber et quod non transeat in praete<lb ed="#PV"/>ritum 
+            <lb ed="#PV"/>non sequitur deus concurrit 
+            <lb ed="#PV"/>in praeterito obiective respuectu <c>a</c> 
+            <lb ed="#PV"/>vel <c>b</c> revelationis igitur necesse 
+            <lb ed="#PV"/>est ipsum sic concurrisse Iuxta hanc 
+            <lb ed="#PV"/>viam salvaretur aliqualiter 
+            <lb ed="#PV"/>possibilis contingentium cum revelationibus 
+            <lb ed="#PV"/>quia diceretur quod revelatio 
+            <lb ed="#PV"/>facta a deo ex speciali concursu 
+            <lb ed="#PV"/>obiectivo non contrahit necessitatem 
+            <lb ed="#PV"/>in esse revelationis ideo neque contingentia 
+            <lb ed="#PV"/>in esse revelationis sic possit 
+            <lb ed="#PV"/>non esse revelatio unde alia 
+            <lb ed="#PV"/>denominatio contingenter competit illi 
+            <lb ed="#PV"/>quantitati et deus potest numquam concurrisse
+            <lb ed="#PV"/>et sic iudicium non erit dicitur 
+            <lb ed="#PV"/>quod numquam revelat et sic obiective 
+            <lb ed="#PV"/>concurrit respectu eius 
+          </p> 
+          <p xml:id="ppr-l125-elieoc">
+            licet ista via 
+            <lb ed="#PV"/>sit satis subtilis tamen non sufficit 
+            <lb ed="#PV"/>
+          </p> 
+          <p xml:id="ppr-l125-sipdrp">
+            primo non satis generalis quia non 
+            <lb ed="#PV"/>salvat de propheticis 
+          </p>
+          <p xml:id="ppr-l125-tnsqid">
+            2o non sal<lb ed="#PV"/>vat 
+            quin anima christi possit esse <unclear>decepi</unclear>
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>ipsa unita quod realiter assensit 
+            <lb ed="#PV"/>quod iudicium futurum ponitur quod non erit 
+            <lb ed="#PV"/>sive deus concurrat obiective sive 
+            <lb ed="#PV"/>non <sic>non</sic> tollit quin anima christi assen<lb ed="#PV"/>serit 
+            igitur erit decepta
+          </p>
+        </div>
+        <div xml:id="ppr-l125-Dd1e202">
+          <head xml:id="ppr-l125-Hsupnes">Suppositiones</head>
+          <p xml:id="ppr-l125-sptips">
+            Sequitur 
+            <lb ed="#PV"/>positio tenenda in hac materia pro 
+            <lb ed="#PV"/>cuius radice facilius intelligenda 
+            <lb ed="#PV"/>praemitto suppositiones
+          </p>
+          <p xml:id="ppr-l125-petsvg">
+            prima est tota 
+            <lb ed="#PV"/>latitudo assensum revelatorum 
+            <lb ed="#PV"/>est supra et alterius generis ab assen<lb ed="#PV"/>sibus 
+            naturaliter Etiam sic creatis sic 
+            <lb ed="#PV"/>quod tota latitudo illa est omnino 
+            <lb ed="#PV"/>supernaturalis et alterius generis ab 
+            <lb ed="#PV"/>assensibus naturaliter creatis hoc sive terminentur 
+            <lb ed="#PV"/>inmediate obiective ad divinum 
+            <lb ed="#PV"/>verbum sive sunt aenigmatico ut assensus 
+            <lb ed="#PV"/>fidei <unclear>sive</unclear> <unclear>dicentes</unclear> ascendendo 2m 
+            <lb ed="#PV"/>gradus versus lucem primam vel 
+            <lb ed="#PV"/>dicendo
+          </p>
+          <p xml:id="ppr-l125-ssapec">
+            2a suppositio aliam habitudinem 
+            <lb ed="#PV"/>habet huiusmodi <name>anselmus</name> ad sua <unclear>enunciabilia</unclear> 
+            <lb ed="#PV"/>quam aliae cognitiones naturaliter 
+            <lb ed="#PV"/>creatae quia assensus creati sunt 
+            <lb ed="#PV"/>quasi effectus rerum vel sic esse 
+            <lb ed="#PV"/>sicut per eos concipitur 
+          </p>
+          <p xml:id="ppr-l125-tsvqie">
+            3a suppositio 
+            <lb ed="#PV"/>veritas assensuum revelatorum 
+            <lb ed="#PV"/>magis respicit conformitatem 
+            <lb ed="#PV"/>ad iudicium vel assensum divinum 
+            <lb ed="#PV"/>respectu eiusdem veritatis quam 
+            <lb ed="#PV"/>sic esse sicut per talem assensum 
+            <lb ed="#PV"/>significatur ut dat tali assensu iudicium fu<lb ed="#PV"/>turum 
+            et magis consideratur 
+            <lb ed="#PV"/>veritas quia est conformitas iudicio 
+            <lb ed="#PV"/>divino quam quod ita erit sicut 
+            <lb ed="#PV"/>significetur per illum assensum
+          </p>
+          <p xml:id="ppr-l125-qshade">
+            4a suppositio  
+            <lb ed="#PV"/>habitudo assensum revelatarum 
+            <lb ed="#PV"/>ad conformitatem <unclear>de?m</unclear> assensus est pure 
+            <lb ed="#PV"/>essentialis et intrinseca ita quod assensus 
+            <lb ed="#PV"/>respectu huius futuri antichristus 
+            <lb ed="#PV"/>erit vel iudicium erit mentalis 
+            <pb ed="#PV" n="238-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>non habet necessariam habitudinem 
+            <lb ed="#PV"/>ad suum significatum ymmo potest 
+            <lb ed="#PV"/>non esse assensus respectu huius antichristus 
+            <lb ed="#PV"/>erit unde habet conformitatem ad divinum 
+            <lb ed="#PV"/>iudicium sic quod non in esse tali 
+            <lb ed="#PV"/>dependet a divino iudicio sicut illa 
+            <lb ed="#PV"/>entitas in esse entitatis dependet 
+            <lb ed="#PV"/>ab entitate divina conservativa 
+          </p>
+        </div>
+        <div xml:id="ppr-l125-Dd1e234">
+          <head xml:id="ppr-l125-Hcorria">Corollaria</head>
+          <!-- 1 -->
+          <p xml:id="ppr-l125-eqscsc">
+            <lb ed="#PV"/>Sequitur primo quod nullus talis 
+            <lb ed="#PV"/>assensus creatus revelatus potest esse 
+            <lb ed="#PV"/>falsus patet ex suppositione quia intrinseca 
+            <lb ed="#PV"/>habitudo conformitatis ipsius ad 
+            <lb ed="#PV"/>sensum divinum est omnino insolubilis 
+            <lb ed="#PV"/>igitur in esse assensus <add>non</add> stat quando maneat 
+            <lb ed="#PV"/>conformitas et per consequens sequitur 
+            <lb ed="#PV"/>quod talis non possit esse falsus 
+            <lb ed="#PV"/>unde non stat divinum assensum 
+            <lb ed="#PV"/>esse falsum igitur nec revelatum 
+          </p>
+          <p xml:id="ppr-l125-neqssm">
+            <lb ed="#PV"/>Advertendum quod pro introductione 
+            <lb ed="#PV"/>huius materiae non possum procedere 
+            <lb ed="#PV"/>probando positionem meam per evi<lb ed="#PV"/>dentiam 
+            sed sufficit dare modum 
+            <lb ed="#PV"/>per quem <unclear>evitanter</unclear> per alios modos
+          </p>
+          <p xml:id="ppr-l125-sneida">
+            <lb ed="#PV"/>2o sequitur quod sicut verum contingenter 
+            <lb ed="#PV"/>est iudicium quod antichristus erit ita 
+            <lb ed="#PV"/>assensus revelatus vel revelatio 
+            <lb ed="#PV"/>patet quia insolubilis est habitudo 
+            <lb ed="#PV"/>conformitatis iudicii creati ad divinum 
+            <lb ed="#PV"/>igitur si verum est contingens respectu 
+            <lb ed="#PV"/>huius antichristus erit etiam reli<lb ed="#PV"/>uum
+          </p>
+          <p xml:id="ppr-l125-eqscar">
+            3o sequitur quod omnis re<lb ed="#PV"/>velatio 
+            facta vel assensus per 
+            <lb ed="#PV"/>revelatione factus participat 
+            <lb ed="#PV"/>modalem perfectione infinitae 
+            <lb ed="#PV"/>nobilitatis licet perfectio ponitur essentialis non 
+            <lb ed="#PV"/>possit competere inferioribus 
+            <lb ed="#PV"/>quando superioribus etiam competat 
+            <lb ed="#PV"/><unclear>de moralibus</unclear> tamen non est necessarium 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>quia <unclear>moralis</unclear> potest infinite competere 
+            <lb ed="#PV"/>creaturae finitae Exemplum de simplicitate 
+            <lb ed="#PV"/>qui competit animae et non composito 
+            <lb ed="#PV"/>Etiam non competeret inferiori et 
+            <lb ed="#PV"/>non superiori Sic in proposito 
+            <lb ed="#PV"/>esse <unclear>rationem</unclear> inobliquabilem <del rend="strikethrough">inconveniens 
+            <lb ed="#PV"/>modalem perfectionem competere inferi<lb ed="#PV"/>ori</del> 
+            competit cuilibet assensui re<lb ed="#PV"/>velato 
+          </p>
+          <p xml:id="ppr-l125-sciiar">
+            unde intrinsece et per se 
+            <lb ed="#PV"/>divino assensui competit quod sit 
+            <lb ed="#PV"/>assensus inobliquabilis et possit 
+            <lb ed="#PV"/>esse contradictoriorum vel utriusque <unclear>obiectorum</unclear> 
+            <lb ed="#PV"/><unclear>revelatus</unclear> et creatus competit 
+            <lb ed="#PV"/>iste modus per participationem 
+            <lb ed="#PV"/>quia in hoc participat cum divino 
+            <lb ed="#PV"/>assensu nec potest esse falsus assensus 
+            <lb ed="#PV"/>Et sicud divinus idem manens formaliter 
+            <lb ed="#PV"/>potest esse oppositorum ita creatus 
+          </p>
+          <p xml:id="ppr-l125-sdqapi">
+            <lb ed="#PV"/>4o sequitur quod quilibet assensus revela<lb ed="#PV"/>tus 
+            id est revelatio habet quoddam modo 
+            <lb ed="#PV"/>libertatis modum instrumentaliter 
+            <lb ed="#PV"/>non transeundo in praeteritum 
+            <lb ed="#PV"/>nec respectu sui enunciabilis nec 
+            <lb ed="#PV"/>respectu inmutationis vitalis 
+            <lb ed="#PV"/>pro eodem enunciabili patet clare quia 
+            <lb ed="#PV"/>assensus respectu huius iudicium futu<lb ed="#PV"/>rum 
+            erit est contingenter assensus respectu 
+            <lb ed="#PV"/>illius et uniformiter se habendo 
+            <lb ed="#PV"/>potest non esse huius assensus et in hoc 
+            <lb ed="#PV"/>est quidam modus libertatis sed sic 
+            <lb ed="#PV"/>de quolibet assensu revelato et non 
+            <lb ed="#PV"/>transit in praeteritum quia si 
+            <lb ed="#PV"/>non sit illius numquam fuit illius 
+            <lb ed="#PV"/>non sequitur assensus respectu huius 
+            <lb ed="#PV"/>antichristus erit immutavit potentiam 
+            <lb ed="#PV"/>sortis igitur necesse est etc quia antecedens 
+            <lb ed="#PV"/>est verum et consequens falsum quia habet 
+            <lb ed="#PV"/>modum qui non labitur 
+            <cb ed="#PV" n="238-v"/>
+            <lb ed="#PV"/>in praeteritum in quantum ad hoc
+          </p>
+          <p xml:id="ppr-l125-epihvh">
+            5o 
+            <lb ed="#PV"/>sequitur quod revelatio facta respectu 
+            <lb ed="#PV"/>futuri contingentis est quoddam modo 
+            <lb ed="#PV"/>necessaria licet futurum remaneat 
+            <lb ed="#PV"/>contingens causa est propter 
+            <lb ed="#PV"/>contingentem habitudinem revela<lb ed="#PV"/>tionis 
+            ad suum enuntiabile quia contingenter 
+            <lb ed="#PV"/>est assertio respectu talis igitur 
+            <lb ed="#PV"/>remanet sibi necessitas suae veritatis 
+            <lb ed="#PV"/>per conformitatem ad divinum assensum 
+            <lb ed="#PV"/>absque necessaria connexione 
+            <lb ed="#PV"/>ad suum sensum quod potest illud non 
+            <lb ed="#PV"/>significare
+          </p> 
+          <p xml:id="ppr-l125-eehpmc">
+            Ex hoc patet quod ex tali 
+            <lb ed="#PV"/>assensu revelato vel ex propositione
+            <lb ed="#PV"/>non sequitur alia naturaliter formata 
+            <lb ed="#PV"/>qua enunciatur idem patet quia prima 
+            <lb ed="#PV"/>in se considerata vel assensus est neces<lb ed="#PV"/>sarius 
+            ad illud quod sumeretur 
+            <lb ed="#PV"/>enunciando ex terminis a nobis creatis esset 
+            <lb ed="#PV"/>pure contingens
+          </p> 
+          <p xml:id="ppr-l125-eqacer">
+            Sexto patet 
+            <lb ed="#PV"/>qualiter nec anima christi nec beatus 
+            <lb ed="#PV"/>nec propheta vel fidelis potest decipi 
+            <lb ed="#PV"/>asserendo futuris contingen<lb ed="#PV"/>tibus 
+            per revelationem sibi facta 
+            <lb ed="#PV"/>nam tota latitudo revelationum 
+            <lb ed="#PV"/>quae est supra etc habet necessariam 
+            <lb ed="#PV"/>habitudinem ad divinum assensum et in esse 
+            <lb ed="#PV"/>tali dependet <unclear>ad m?o</unclear> assensu 
+            <lb ed="#PV"/>Ideo sicut ille est in obliquabilis 
+            <lb ed="#PV"/>ita iste unde quod sunt supernaturales 
+            <lb ed="#PV"/><del rend="expunctuation">a se ipso locutus quod credit et 
+            <lb ed="#PV"/>dixit quod in me subvertetur</del> 
+            <lb ed="#PV"/>Ideo si habeant proprietas numerales 
+            <lb ed="#PV"/>non est multum mirandum
+          </p>
+          <p xml:id="l125-epccer">
+            7o 
+            <lb ed="#PV"/>sequitur quod <name ref="#Jonah">ionas</name> propria fuit a 
+            <lb ed="#PV"/>se ipso locutus quod credit et duxit 
+            <lb ed="#PV"/>quod <name type="place">ninive</name> subverteretur et deficit in 
+            <lb ed="#PV"/>consequentia facta <unclear>s?us</unclear> sumendo propositionem naturaliter 
+            <lb ed="#PV"/>creabilem ab eo quae <unclear>nullus</unclear> sub<lb ed="#PV"/>sumitur 
+            sub revelatione facta
+          </p>
+          <p xml:id="ppr-l125-opssar">
+            <lb ed="#PV"/>Octavo sequitur quod iste non obstan<lb ed="#PV"/>te 
+            revelatio facta quaelibet est certissima 
+            <lb ed="#PV"/>patet quia non contingit per reve<lb ed="#PV"/>lationem 
+            assentientem decipi per re<lb ed="#PV"/>velationem 
+            ymmo non est possibile addo 
+            <lb ed="#PV"/>tamen quod haec certitudo non causatur 
+            <lb ed="#PV"/>per actum reflexum super certitu<lb ed="#PV"/>dinem 
+            assensus revelati 
+          </p>
+          <p xml:id="ppr-l125-eqipse">
+            In<lb ed="#PV"/>fero 
+            ultimo quod stat aliquem 
+            <lb ed="#PV"/>esse certissimum de aliqua veritate et tamen 
+            <lb ed="#PV"/>non posse naturaliter se scire est 
+            <lb ed="#PV"/>certissimum patet de assensu revelato 
+            <lb ed="#PV"/>respectu futuri contingentis de 
+            <lb ed="#PV"/>quo est omnino viator certus tamen non 
+            <lb ed="#PV"/>potest habere actum reflexum naturaliter 
+            <lb ed="#PV"/>creatum de huiusmodi certitudine 
+            <lb ed="#PV"/>quia iudicaret per actum reflexum 
+            <lb ed="#PV"/>fallibilem quia huiusmodi assensus 
+            <lb ed="#PV"/>exit latitudinem assensum revelatorum 
+            <lb ed="#PV"/>Circa hoc ut magis habeatur 
+            <lb ed="#PV"/>ymaginatio possumus ymaginari 
+            <lb ed="#PV"/>quod quaelibet revelatio se habet ad mo<lb ed="#PV"/>dum 
+            cuiusdam radii dependentis 
+            <lb ed="#PV"/>a luce et taliter quod non potest esse in esse 
+            <lb ed="#PV"/>tali quin <unclear>cor?at</unclear> lux esse in lucis 
+            <lb ed="#PV"/>Et sic in proposito ymaginemur 
+            <lb ed="#PV"/>quod revelatio sit quidem radius de<lb ed="#PV"/>pendens
+            a luce prima ut est veritas 
+            <lb ed="#PV"/>per istam viam salvatur quod anima 
+            <lb ed="#PV"/>christi non potest decipi quia qualiter<lb ed="#PV"/>cumque 
+            eveniat semper <unclear>su?us an?sus</unclear> 
+            <lb ed="#PV"/>est verus Salvatur etiam quod deus 
+            <lb ed="#PV"/>non potest decipere creaturam per reve<lb ed="#PV"/>latione 
+            Breviter per istam 
+            <lb ed="#PV"/>viam omnia argumenta dif<lb ed="#PV"/>ficilia 
+            in ista materia possunt 
+            <lb ed="#PV"/>solvi <unclear>Rt</unclear> sequitur a lectio
+          </p>
+        </div> 
+      </div>
+    </body>
+  </text>
+</TEI>

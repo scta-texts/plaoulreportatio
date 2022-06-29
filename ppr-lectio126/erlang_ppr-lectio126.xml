@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 126, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 126, De libertate [Erlangen Transcription]</title>
+          <date when="2022-06-18">June 18, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-06-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="164-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio126">
+        <head xml:id="ppr-l126-Hldlldl">Lectio 126, de Libertate</head>
+        <div xml:id="ppr-l126-Dd1e109">
+          <head xml:id="ppr-l126-Hrarari">Responsiones ad rationes alias (lectio 120) inductas</head>
+          <p xml:id="ppr-l126-rraihm">
+            <lb ed="#E"/>Alia lectione
+            <lb ed="#E"/>Restat respondere ad rationes inductas alias in hac materia.
+          </p>
+          <div xml:id="ppr-l126-Dd1e117">
+            <head xml:id="ppr-l126-Hapmapm">Ad primam</head>
+            <p xml:id="ppr-l126-peqacd">
+              <ref xml:id="ppr-l126-Rd1e126" target="http://scta.info/resource/ppr-l122-sumdsd">prima</ref> erat si staret contingentia 
+              <lb ed="#E"/>cum revelatione facta sequeretur quod in potestate nostra esset decipere christum consequens est absonum probatur consequentia Sit 
+              <lb ed="#E"/><c>a</c> actus quem sum facturus christus scit me facturum et possum non facere <c>a</c> actum igitur possum decipere 
+              <lb ed="#E"/>christum et falsificari assensum christi
+            </p>
+            <p xml:id="ppr-l126-rbaeoc">
+              Respondetur ex radice heri tacta negando consequentiam quod stat aliquem 
+              <lb ed="#E"/>decipere animam christi unitam verbo Articulus parisiensis hoc sonat nam per communicationem ydeomatum hoc sequeretur 
+              <lb ed="#E"/>quod deus deciperetur unde non potest anima christi unita verbo decipi vel in sensu composito nec possibile 
+              <lb ed="#E"/>est eam unitam etc peccare ratione repugnantiae istorum ad verbum dei Ad rationem anima christi scit per 
+              <lb ed="#E"/>revelationem et assentit quod tu facies <c>a</c> actum <seg type="correctio"><subst><del>da</del><add>ad</add></subst>mitto</seg> et potest non facere ponatur quod non fa<lb ed="#E"/>cies 
+              admitto tunc sequitur quod sit decepta quod nego consequentiam nam anima christi numquam assensit quod tu fa<lb ed="#E"/>cies 
+              <c>a</c> sed assenserit quod faceres eius contradictionem per revelationem
+            </p>
+            <p xml:id="ppr-l126-stpapc">
+              Si ponas casum totum sic quod nullum 
+              <lb ed="#E"/>quod ultimum positionem non deponat praemium Casus est impossibilis utque in arte obligatoria 
+              <lb ed="#E"/>Breviter pro regula generali dicendum quod in materia revelationum eodem modo adaequate respondendum est sicut in materia praescientiae 
+              <lb ed="#E"/>dei nam praescientiae et adaequate sicut deus praescivit quod sortes est facturus <c>a</c> et potest non facere Ita deus 
+              <lb ed="#E"/>potest non scire sed eius contradictoriam ita etc quia revelationes sequuntur modos scientiae dei vel sunt conformes 
+              <pb ed="#E" n="165-r"/>
+              <lb ed="#E"/>essentialiter et intrinsece divinae scientiae et sic oportet dicere in hac materia propter articulos condempnatos
+            </p>
+            <p xml:id="ppr-l126-savesp">
+              Secundum 
+              <lb ed="#E"/>alias vias respondetur aliter quia via quae concedit quod praeteritum potest non fuisse diceret dato 
+              <lb ed="#E"/>quod sit perfecta revelatio et assensus respectu futuri contingentis tamen illam qualitatem fuisse et assensum 
+              <lb ed="#E"/>fuit contingens Ideo sicut potest non fore effectus futurus ita praeteritum potest destrui Ideo nisi ista via 
+              <lb ed="#E"/>esset condempnata parisius ipsa esset satis probabilis apud theologum patet per inmensitatem 
+              <lb ed="#E"/>divinae potentiae sed abicienda est propter articulum
+            </p>
+            <p xml:id="ppr-l126-svaeai">
+              Etiam viae anglicorum abiciendae sunt scilicet quod anima 
+              <lb ed="#E"/>christi unica posset decipi de potentia dei absoluta sed dampnatum est etiam parisius Ideo oportet conformiter 
+              <lb ed="#E"/>loqui ad articulos quos profitemur et sic dicendum est quod revelatio sequitur assensum divinum quod est 
+              <lb ed="#E"/>et fuit alicuius assensus et potest numquam fuisse assensus illius sed necesse est illam qualitatem fuisse si
+              <lb ed="#E"/>fuit non tamen oportet quod fuerit assensus illius sed potest esse oppositi 
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e194">
+            <head xml:id="ppr-l126-Hasmasm">Ad secundum</head>
+            <p xml:id="ppr-l126-asqrnf">
+              <ref xml:id="ppr-l126-Rd1e203" target="http://scta.info/resource/ppr-l122-sscpdd">Secundo</ref> arguebatur sic nam si ita esset 
+              <lb ed="#E"/>sequeretur quod aliquis ex assensu falso posset salvari et vitam aeternam mereri probatur consequentia posito 
+              <lb ed="#E"/>etc quidquid sit consequente concederent aliqui quod ex falsa credulitate contingit mereri sed hac non teneo 
+              <lb ed="#E"/>dico aliter negando quod circa huiusmodi revelationes contingit formari assensus probabiles respectu 
+              <lb ed="#E"/>revelatorum distinctas a revelationibus vel assensus vel coniecturas probabiles contingit 
+              <lb ed="#E"/>formari a se ipso modo pure naturali a quibus possunt procedere effectus qui forte cre<lb ed="#E"/>duntur 
+              procedere a revelatione et non procedunt sicut de <name>Iona</name> qui revelatione facta elicuit iudicium 
+              <lb ed="#E"/>cathegori quod <name>nineve</name> subverteretur et fecit effectum illicitum Ita in proposito accidere potest quod 
+              <lb ed="#E"/>sortes habita revelatione de platone potest elicere iudicium ex se ipso aliud a revelatione scilicet quod iste 
+              <lb ed="#E"/>peccabit de inde odium de testamentum platonis deinde 3o executionem operis tunc posito quod <name>plato</name> 
+              <lb ed="#E"/>non peccet dicitur quod per revelationem sibi factam numquam assensit quod sortes erat peccaturus 
+              <lb ed="#E"/>sed elicuit probabiliter praedicta et stat quod meritorie Et sic solverentur infinitae rationes quae con<lb ed="#E"/>sueverunt 
+              fieri de passionibus et operationibus quas dicimus sequi ad assensus revelationis sed facta re<lb ed="#E"/>velatione 
+              potentia intellectiva elicit iudicia et consurgunt operationes et passiones gaudii vel tristitiae 
+              <lb ed="#E"/>probabiliter iuxta revelationem factam licet non sint conforma revelationi ymmo quandoque contraria 
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e264">
+            <head xml:id="ppr-l126-Hatmatm">Ad tertiam</head>
+            <p xml:id="ppr-l126-tatvae">
+              <pc type="pilcrow"/><ref xml:id="ppr-l126-Rd1e273" target="http://scta.info/resource/ppr-l122-taqnss">Ad 3am</ref> rationem tangentem difficultatem utrum existenti in peccato possit sua futura 
+              <lb ed="#E"/>dampnatio revelari videtur difficultas esse pro tanto quia illa facta creatura cogitur ad peccandum 
+              <lb ed="#E"/>scilicet ad desperandum aut firmiter credendum quod dampnabitur quae credulitas est actus oppositus 
+              <lb ed="#E"/>spei Istam materiam <ref xml:id="ppr-l126-Rd1e291"><name ref="#Wodeham">Adam</name></ref> et <ref xml:id="ppr-l126-Rd1e281"><name ref="#Oyta">Eutha</name></ref> diffuse tractant aliter 
+            </p>
+            <p xml:id="ppr-l126-thddid">
+              tamen dico primo dicendum quod in casu 
+              <lb ed="#E"/>in quo revelaretur <del rend="expunctuation">divina d</del> futura dampnatio et sic firmiter crederet non per hoc proprie desperaret 
+              <lb ed="#E"/>Causa est nam spes est habitus magis proprie potentiae volitive quam <del rend="expunctuation">congrue</del> cognitive Ideo assensus 
+              <lb ed="#E"/>purus est qui potentiae cognitivae intellectivae non tollit formaliter nec contrariatur actui potentiae voli<lb ed="#E"/>tivae 
+              Spes magis proprie est amor futuri boni promissi quam eius credulitas et informat 
+              <lb ed="#E"/>potentiam appetitivam rationalem Ideo non repugnat actui intellectus ideo non sequitur sortes 
+              <lb ed="#E"/>credit quod non habebit vitam aeternus igitur desperat quia cum illo staret amore aeternae vitae
+            </p>
+            <p xml:id="ppr-l126-sdqasi">
+              Secundo dico licet revelaretur sibi sua dampnatio haberet nichilominus credere nisi ordinatio dei 
+              <lb ed="#E"/>sit circa hoc mutata quia aequaliter potest salvari quia non tollit contingentiam nec ponit necessitatem 
+              <lb ed="#E"/>igitur nichilominus habet credere quod salvabitur et non repugnat legi quod salvetur quia habet credere 
+              <lb ed="#E"/>quod si faciat quod in se est salvabitur illa facta revelatione non debet desperare ymmo debet niti credere ad merendum 
+              <lb ed="#E"/>et bene agendum ex quo huiusmodi revelatio nullam inponit necessitatem et hoc si non mutaretur 
+              <lb ed="#E"/>ordinatio facta in divina lege scilicet quicumque fuit quod in se est salvabitur unde posset taliter fieri 
+              <lb ed="#E"/>revelatio quod deus vellet subtrahere ea quae requiruntur ad consequendum vel non vellet concurrere 
+              <lb ed="#E"/>hoc dupliciter uno modo quod dampnatio praescientiae diceret ponam absque culpa Secundo ut intelligeretur aliqua 
+              <pb ed="#E" n="165-v"/>
+              <lb ed="#E"/>prima culpa 
+            </p>
+            <p xml:id="ppr-l126-smcevp">
+              dico quod secundo modo casus est impossibilis quia divinae bonitati repugnat crea<lb ed="#E"/>turam 
+              necessitatem ad peccandum peccato actuali Si primo modo intelligitur creatura non habet 
+              <lb ed="#E"/>sperare quod debet salvari sed debet elicere volitionem conformando se divinae ordinationi et obedire quae obedientia 
+              <lb ed="#E"/>erit sibi maximus gradus perfectionis dicunt aliqui quod casus possibilis esset quod daretur tan<lb ed="#E"/>tus 
+              gradus iustitiae cum maximo gradu poenalitatis et <unclear>cruciatus</unclear> aeterni quod esset maior 
+              <lb ed="#E"/>quod de gradus beatitudinis dabilis Istud pro nunc teneo sed reputo probabile
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e341">
+            <head xml:id="ppr-l126-Haqmaqm">Ad quartam</head>
+            <p xml:id="ppr-l126-qaseis">
+              <pc type="pilcrow"/><ref xml:id="ppr-l126-Rd1e350" target="http://scta.info/resource/ppr-l122-qasdnd">Ad quartam 
+                <lb ed="#E"/>rationem</ref> si sic sequeretur quod aliquis necessitaretur vel obligaretur ad peccandum consequens videtur esse contra divinam boni<lb ed="#E"/>tatem 
+              et aequitatem consequentia probatur in casu quod revelaretur sorti quod solum ille qui cras peccabit salvabitur 
+              <lb ed="#E"/>tunc sortes obligatur ad peccandum et sic semper sequitur quia peccat quod obligatur etc probatur nam sortes obligatur 
+              <lb ed="#E"/>ad volendum ultimum finem igitur ad volendum modum sive quo non contingit finem consequi ita est 
+              <lb ed="#E"/>in casu nostro qui solus ille qui peccabit salvabitur et hoc firmiter credit et verum est et possibile 
+              <lb ed="#E"/>igitur peccare est antecedens ad consecutionem finis sine quo scilicet peccare non contingit finem consequi Respondetur 
+              <lb ed="#E"/>quod <del rend="expunctuation">als</del> aliquis obligatur ad peccandum ad casum admittitur et negetur quod obligatur ad peccandum 
+              <lb ed="#E"/>quando dicitur obligatur ad finem conceditur etiam ad modum quando dicitur tale medium est peccare negetur quia 
+              <lb ed="#E"/>ordinatio non est necessaria igitur potest non esse medium quia <del rend="strikethrough">stat</del> scit quod quicumque perseveraverit usque in 
+              <lb ed="#E"/>finem et fecit quod in se est salvabitur
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e380">
+            <head xml:id="ppr-l126-Haqnaqn">Ad quintam</head>
+            <p xml:id="ppr-l126-qrescf">
+              <pc type="pilcrow"/><ref xml:id="ppr-l126-Rd1e389" target="http://scta.info/resource/ppr-l122-qcfqac">Ad quintam rationem</ref> proprium est divinae inmensitati cognoscere 
+              <lb ed="#E"/>futura igitur antecedens probatur quia cognoscere futura est ex aeternitate et inmensitati 
+            </p>
+            <p xml:id="ppr-l126-rqdesa">
+              Respondetur quod 
+              <lb ed="#E"/>dubium est utrum soli deo competat naturaliter sic quod nulli alteri sit communicabile Sed probabile est quod su<lb ed="#E"/>prema 
+              intelligentia si daretur cognosceret futura contingentia per suam essentiam 
+              <!-- break -->
+              Secundo dato 
+              <lb ed="#E"/>quod licet sic esset proprium per essentiam tamen est particibile actualiter ab aliis creaturis rationalibus unde 
+              <lb ed="#E"/>non plus probat quam quod nulla creatura potest per essentiam suam esse futurorum notitia
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e406">
+            <head xml:id="ppr-l126-Hasxasx">Ad sextam</head>
+            <p xml:id="ppr-l126-srdaqf">
+              <lb ed="#E"/><pc type="pilcrow"/> <ref xml:id="ppr-l126-Rd1e415" target="http://scta.info/resource/ppr-l122-sanvaa">Ad sextam rationem</ref> quod nulla revelatio est certa quia nescitur quo spiritu fiat
+            </p> 
+            <p xml:id="ppr-l126-airtup">
+              Responsum fuit 
+              <lb ed="#E"/>circa prologum iuxta <ref xml:id="ppr-l126-Rd1e427"><name ref="#WilliamOfParis">wilhelmum parisiensis</name></ref> <ref xml:id="ppr-l126-Rd1e437"><name ref="WilliamOfAuxerre">auticiodorensis</name></ref> et alios qui tenent quod deus non permitteret 
+              <lb ed="#E"/>creaturam temptare ultra sine facultatem unde <ref xml:id="ppr-l126-Rd1e445" corresp="#ppr-l126-Qfdqiqp"><name ref="#Paul">apostolum</name></ref> <quote xml:id="ppr-l126-Qfdqiqp" source="http://scta.info/resource/Icor10_13@7-9">fidelis deus</quote> Antiqui doctores 
+              <lb ed="#E"/>tenent quod creatura numquam deciperetur si faceret quod in se est
+            </p>
+            <p xml:id="ppr-l126-tdqvms">
+              Secunda dicitur quod ars est tradita in 
+              <lb ed="#E"/>scriptura sacra destruendi unde a fructibus eorum cognoscetis eos Advertendum primo quod 
+              <lb ed="#E"/>si illud quod dicitur sit contra scripturam vel determinationem ecclesiae contra dictamen rectae rationis contra bonos 
+              <lb ed="#E"/>modos Ex quibus posset coniecturari 
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e464">
+            <head xml:id="ppr-l126-Haspasp">Ad septimam</head>
+            <p xml:id="ppr-l126-sadals">
+              <pc type="pilcrow"/><ref xml:id="ppr-l126-Rd1e473" target="http://scta.info/resource/ppr-l122-sapnsc">Ad septimam</ref> rationem necesse est sortem assensisse quod <c>a</c> erit posito 
+              <lb ed="#E"/>quod assensisset negatur antecedens quia eius assensus est et fuit contingenter assensus respectu huius antichristus erit Causa 
+              <lb ed="#E"/>huius est habitudo assensus talis creati et necessaria et essentialis conformitas ad sensum divinum igitur potest numquam 
+              <lb ed="#E"/>fuisse huius quia assensus super naturalis non habuit necessariam connexionem ad res adextra sed ad lucem supremum 
+              <lb ed="#E"/>cuius effectus in esse tali
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e496">
+            <head xml:id="ppr-l126-Haomaom">Ad aliam</head>
+            <p xml:id="ppr-l126-aodpsc">
+              <pc type="pilcrow"/>Ad octavam rationem dicitur quod per idem negatur consequentia ista deus revelat quod <c>a</c> 
+              <lb ed="#E"/>erit igitur <c>a</c> <sic><c>a</c></sic> erit et instantia datur quia non sequitur deus revelavit Petrum peccaturum igitur petrus 
+              <lb ed="#E"/>peccavit unde ista consequentia non valet sed oportet addere deus revelavit quod ita erit ergo ita erit vel ita fuit 
+              <lb ed="#E"/>vel ita est Tamen eundo <add place="above-line">ad</add> intellectum admissa consequentia ad secundum dictum negetur quod antecedens est necessarium ymmo pure 
+              contingens est quod deus revelavit antichristum fore sicut hoc est pure contingens deus assentit quod antichristus 
+              <lb ed="#E"/>erit Ita ista sortes assensit quod antichristus erit et sicut deus potest numquam assensisse quod etc ita sortes potest unde 
+              <lb ed="#E"/>licet ista sit de praeterito sortes assensit tamen <del rend="strikethrough expunctuation">advertendum eam</del> ad verificandum eam requiritur veritas propositionis 
+              <lb ed="#E"/>de futuro contingenti quae est contingens igitur etc unde huiusmodi revelationes non labuntur secundum <unclear>cau<lb ed="#E"/>sas</unclear>
+              omnes sed semper manet causa verificationis quae dependet a futuro contingenti igitur
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e518">
+            <head xml:id="ppr-l126-Hanmanm">Ad octavam</head>
+            <p xml:id="ppr-l126-anseep">
+              <pc type="pilcrow"/><ref xml:id="ppr-l126-Rd1e529" target="http://scta.info/resource/l120-oaqcno">Ad nonam</ref> 
+              <lb ed="#E"/>rationem sequeretur quod illud quod est praeteritum posset iam non fuisse negetur consequentia ad probationem capiamus 
+              <lb ed="#E"/>motum christi eundo ad passionem iste processit ab assensu quia credebat se passurum et assensus 
+              <pb ed="#E" n="166-r"/>
+              <lb ed="#E"/>ille processit obiective a morte ponamus quod ordinaverit in illo medio se non passurum quo posito 
+              <lb ed="#E"/>nec assensus nec volitio nec motus ille fuisset quia non causabuntur nisi ab illo assensu et morte ideo 
+              <lb ed="#E"/>si tollatur causa oportet tollere effectum 
+            </p>
+            <p xml:id="ppr-l126-hediap">
+              hic est difficultas quod non oportet dicere quod habuerit alium assensum 
+              <lb ed="#E"/>dico ergo quod ab assensu de morte futura non dependebat effective huiusmodi motus localis quia 
+              <lb ed="#E"/>fortificaretur argumentum Capiamus tristitiam in anima christi creatam illa videtur <unclear>causari</unclear> ab assensu de 
+              <lb ed="#E"/>morte ponatur tunc quod non moriatur sequitur quod numquam vel fuerit illa notitia vel quod assensus fuerit falsus
+            </p>
+            <p xml:id="ppr-l126-pinevh">
+              <lb ed="#E"/>Advertendo quod huiusmodi operationes sive sint passiones gaudii sive tristitiae non causantur 
+              <lb ed="#E"/>ab assensu huius quod erat <sic>mariturus</sic> nec etiam motus localis sed illa tristitia causabatur 
+              <lb ed="#E"/>ex imperio rationis Causa est quia christus fuit tantae fortitudinis secundum humanitatem quod assensus de 
+              <lb ed="#E"/>morte numquam causasset in eo tristitiam vel timorem unde multi matres habuerunt habitus for<lb ed="#E"/>titudinis 
+              tantum quod sponte aggrediebantur mortem igitur in christo non fuit tristitia causata ab assensu 
+              <lb ed="#E"/>mortis sed ratio iussit et voluntas imperavit potentiae tristabili ut ita loquar ut tristaretur 
+              <lb ed="#E"/>tanta fuit in ea habundantia virtutum quod non fuisset in eo dolor vel tristitia sed ex 
+              <lb ed="#E"/>imperio voluntatis ut ostenderet se esse hominem
+            </p>
+            <p xml:id="ppr-l126-apduea">
+              Aliter posset dici quod in revelatione aliud posset con<lb ed="#E"/>siderari 
+              apprehensio aliquod tamquam iudicium tunc dicitur quod in revelatione illud quod est per modum apprehen<lb ed="#E"/>sionis 
+              non iudicii potest causare tristitiam et sic revelatio in esse apprehensionis est naturaliter signi<lb ed="#E"/>ficativa 
+              et in esse assensus est oppositorum et sic concurrit ad passiones ut apprehensio non ut 
+              <lb ed="#E"/>assensus 
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e555">
+            <head xml:id="ppr-l126-Hadmadm">Ad nonam</head>
+            <p xml:id="ppr-l126-daacac">
+              <pc type="pilcrow"/><ref xml:id="ppr-l126-Rd1e564" target="http://scta.info/resource/ppr-l122-naavrc">Ad decimam rationem</ref> aliqua est veritas quae non est revelabilis relucens in verbo 
+              <lb ed="#E"/>antecedens conceditur saltis possibile est scilicet quod deus nichil revelat quia falsificat se et hoc est propter reflexionem 
+              <lb ed="#E"/>quam habet supra se et nullus intellectus creatus est quae est veritas possibilis et non est revela<lb ed="#E"/>bilis 
+              ubi propositio infert se ipsam esse falsam Item supposito quod anima christi praecise infinitas veri<lb ed="#E"/>tates 
+              cognosceret et non potest plures Concedendum esset quod creatura multas veritates potest cog<lb ed="#E"/>noscere 
+              quas christus non ut sunt <unclear>5</unclear> et non plures tunc ista esse aliud ab istis veritatibus et qualibet 
+              <lb ed="#E"/>ipsarum est ignotum christo non revelabilis animae christi et esset nota petro et sic negatur 
+              <lb ed="#E"/>consequentia
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e573">
+            <head xml:id="ppr-l126-Haumaum">Ad decimam</head>
+            <p xml:id="ppr-l126-auqner">
+              <pc type="pilcrow"/><ref xml:id="ppr-l126-Rd1e582" target="http://scta.info/resource/ppr-l122-dacqin">Ad undecimam</ref> rationem de prophetiis quae fuerunt falsae negandum est illud quod assumitur quia 
+              <lb ed="#E"/>spiritus sanctus est qui locutus est per prophetas igitur non cadit ibi deceptio vel mendacium Ad probationem de reve<lb ed="#E"/>latione 
+              <name>Ionae</name> Responsum est quod numquam fuit sibi revelatum quod ninive subverteretur sed fuit <unclear>commu<lb ed="#E"/>natoria</unclear> 
+              vel conditionalis vel alia alterius significationis Sed quia actus reflexi sunt valde diffi<lb ed="#E"/>ciles 
+              super tales ideo intellectus facilime elicit falsum iudicium quia credit elicere iudicium con<lb ed="#E"/>forme 
+              suae revelationi et non est sic et sic dicitur de <name>Iona</name> quia elicuit iudicium humanum solum 
+              <lb ed="#E"/>a se ipso
+            </p>
+          </div>
+          <div xml:id="ppr-l126-Dd1e607">
+            <head xml:id="ppr-l126-Haddadd">Ad aliam</head>
+            <p xml:id="ppr-l126-aubcif">
+              Ad ultimam ista consequentia est bona sortes assensu vel naturaliter creato assensit quod antichristus erit 
+              <lb ed="#E"/>igitur necesse est quod assenserit concedo consequentiam esse necessariam igitur a simili ista est bona sortes assensit per reve<lb ed="#E"/>lationem 
+              quod antichristus erit igitur necesse est sortes sic assensisse nego consequentiam causa est quia assensus per reve<lb ed="#E"/>lati 
+              haberet aliam habitudinem ab obiecta quorum sunt quam assensus naturaliter creati quia assensus naturaliter <unclear>creati</unclear>
+              <lb ed="#E"/>sunt quasi effectus talium obiectorum unde <ref xml:id="ppr-l126-Rd1e624"><name>aristoteles</name></ref> <quote xml:id="ppr-l126-Qd1e633">Ex eo quod res est vel non est <sic>est</sic> oratio vera vel falsa</quote> 
+              <lb ed="#E"/>sed assensus revelatus scilicet qui est revelatio non habet talem connexionem ad suum secundum quia non 
+              <lb ed="#E"/>dependet ab illo sed a prima luce et eius conformitate Ideo debet requiri conformitas ad sensum 
+              <lb ed="#E"/>divinum et non ab obiectum revelationis veritas quaeritur in <del rend="strikethrough">lu</del> luce illa prima et est quaedam 
+              <lb ed="#E"/>radius emanans ab illa luce unde non causatur ab obiecto sed ab assensu in creato cuius habitudine 
+              <lb ed="#E"/>sequitur unde <ref xml:id="ppr-l126-Rd1e688" corresp="#ppr-l126-Qjve87v"><name>boetius</name> in fine <title>de consolatione</title> <unclear>vii</unclear></ref> <quote xml:id="ppr-l126-Qjve87v" source="http://scta.info/resource/hy7y6y-d1e83-d1e316@1153-1159">intemerata mortalibus libertas neque iniquae leges</quote> etc 
+              <lb ed="#E"/>Et finis adest de materia revelationum Sequi
+              <pb ed="#E" n="166-v"/>
+              <lb ed="#E"/>Sequitur alia materia scilicet de libero arbitrio
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

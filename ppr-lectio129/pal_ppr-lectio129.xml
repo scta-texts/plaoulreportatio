@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 129, De libertate [Palatine Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 129, De libertate [Palantine Transcription]</title>
+          <date when="2022-06-26">June 26, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="PV" n="pal">Palatine</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-06-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="245-v"/>
+        <cb ed="#PV" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio129">
+      <head xml:id="ppr-l129-Hldlldl">Lectio 129, de Libertate</head>
+        <div xml:id="ppr-l129-Dd1e109">
+          <head xml:id="ppr-l129-Hchdchd">Contra heri dictam</head>
+          <p xml:id="ppr-l129-ichsef">
+            <lb ed="#PV"/>In alia lectione 
+            <lb ed="#PV"/>Circa heri dicta restabant rationes 
+            <lb ed="#PV"/>fiendae et solvendae 
+          </p>
+          <p xml:id="ppr-l129-epsnmr">
+            primo si positio 
+            <lb ed="#PV"/>esset vera sequitur quod voluntas esset 
+            <lb ed="#PV"/>omnino indifferens ita quod sine actu 
+            <lb ed="#PV"/>staret obiecto alliciente vel  mo<lb ed="#PV"/>vente 
+            et sic esset omnino indifferans et ultra 
+            <lb ed="#PV"/>igitur non remitteretur et per consequens 
+            <lb ed="#PV"/>nullo modo resisteret 
+          </p>
+          <p xml:id="ppr-l129-airqir">
+            Respondendum 
+            <lb ed="#PV"/>est distinguendo de hoc quod est voluntatem 
+            <lb ed="#PV"/>esse indifferentem si intelligitur voluntas 
+            <lb ed="#PV"/>esse indifferens quia ex se non 
+            <lb ed="#PV"/>potest in unum vel in reliquum 
+            <lb ed="#PV"/>sic absolute est negandum quod sit indifferens 
+            <lb ed="#PV"/>obiecto alliciente et movente Si 
+            <lb ed="#PV"/>vero sic intelligitur quod sit indifferans id est 
+            <lb ed="#PV"/>ex se et sua intrinseca ratione possit 
+            <lb ed="#PV"/>prosequi vel non obiecto alliciente 
+            <lb ed="#PV"/>vel <unclear>mo?ve</unclear> illo modo esse indifferentem 
+            <lb ed="#PV"/>non est aliud quam esse vel habere in<lb ed="#PV"/>trinsecam 
+            libertatem sicut de <unclear>m?</unclear> quia 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>esset indifferens ad hanc vel hanc 
+            <lb ed="#PV"/>dispositionem vel formam illo modo 
+            <lb ed="#PV"/>negandum est voluntatem esse indifferentem 
+            <lb ed="#PV"/>iuxta primum modum sed si 2o modo 
+            <lb ed="#PV"/>conceditur
+          </p>
+          <p xml:id="ppr-l129-sacimr">
+            2o <unclear>sic</unclear> si ita esset ut ponis 
+            <lb ed="#PV"/>sequitur quod voluntas infinite mo<lb ed="#PV"/>dice 
+            resisteret quia resistendo 
+            <lb ed="#PV"/>positive per aliquem actum inten<lb ed="#PV"/>sius 
+            resisteret per sub duplum 
+            <lb ed="#PV"/>quam per purum non velle et iterum 
+            <lb ed="#PV"/>per subduplum actum intensius 
+            <lb ed="#PV"/>quam per purum non velle et sic in 
+            <lb ed="#PV"/>infinitum <unclear>minuendo</unclear> propter <unclear>possibiliorem</unclear> 
+            <lb ed="#PV"/>resistentiam igitur infinite 
+            <lb ed="#PV"/>modice resisteret per purum 
+            <lb ed="#PV"/>non velle quia sperimus quam 
+            <lb ed="#PV"/>per quaecumque actum positivum 
+            <lb ed="#PV"/>et per actum <unclear>potentia</unclear> infinite mo<lb ed="#PV"/>dice 
+            potest igitur per non velle 
+            <lb ed="#PV"/>vel non actum infinite modice 
+            <lb ed="#PV"/>resistit 
+          </p>
+          <p xml:id="ppr-l129-rncpsm">
+            Respondetur negando consequens illatum 
+            <lb ed="#PV"/>et consequentiam unde respondetur sicut heri 
+            <lb ed="#PV"/>de omissione concedo quod per actum 
+            <lb ed="#PV"/>positivum intensius resistit 
+            <lb ed="#PV"/>et utrumque per subduplum in<lb ed="#PV"/>tensius 
+            resistit quam per puerum 
+            <lb ed="#PV"/>non velle et sic in infinitum 
+            <lb ed="#PV"/>nego tamen quod si resistat actu 
+            <lb ed="#PV"/>positivo in aliquo gradu quod 
+            <lb ed="#PV"/>in duplo remissiori actu in 
+            <lb ed="#PV"/>duplominus resistit quia non 
+            <lb ed="#PV"/>subduplatur tota resistentia sed 
+            <lb ed="#PV"/>solum partialis et minima quae est 
+            <lb ed="#PV"/>in actu
+          </p>
+        </div>
+        <div xml:id="ppr-l129-Dd1e143">
+          <head xml:id="ppr-l129-Hdiftas">Difficultas</head>
+          <p xml:id="ppr-l129-sciaav">
+            Contra nam resistentia 
+            <lb ed="#PV"/>voluntatis est intrinsece finita et acti<lb ed="#PV"/>vitas 
+            vel motivitas obiectalis 
+            <lb ed="#PV"/>potest esse aliquantae quantitatis 
+            <lb ed="#PV"/>scilicet potest habere subduplam proportionem 
+            <lb ed="#PV"/>respectu activitatis sic igitur <c>b</c> graduum 
+            <pb ed="#PV" n="246-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>et motivitas obiecti ut 4or 
+            <lb ed="#PV"/>ponatur quod motivitas obiecti 
+            <lb ed="#PV"/>dupletur et in duplo plus 
+            <lb ed="#PV"/>moveat tunc erit aequalitas 
+            <lb ed="#PV"/>tunc iterum augeatur tunc erit 
+            <lb ed="#PV"/>proportio maioris <unclear>in?clitatis</unclear> obiecti 
+            <lb ed="#PV"/>ad voluntatem igitur necessita<lb ed="#PV"/>bit 
+            voluntatem cum sit agens naturale 
+            <lb ed="#PV"/>et habet resistentiam minorem quam 
+            <lb ed="#PV"/>sit eius activitas et per consequens da<lb ed="#PV"/>bitur 
+            passio illicita quae supera<lb ed="#PV"/>bit 
+            eius resistentiam et neces<lb ed="#PV"/>sitabit 
+            igitur non est intrinsece 
+            <lb ed="#PV"/>simpliciter libera plures solu<lb ed="#PV"/>tiones 
+            possunt dari in hac materia 
+            <lb ed="#PV"/>dimisis aliis quia alias dedi
+            <lb ed="#PV"/>modum respondendi dicitur pro <unclear>nunc</unclear> 
+            <lb ed="#PV"/>quod obiectum licet moveat voluntatem 
+            <lb ed="#PV"/>scilicet per primos motus eos causando 
+            <lb ed="#PV"/>nihilominus ad actum liberum 
+            <lb ed="#PV"/>nec cognitio nec obiectum 
+            <lb ed="#PV"/>concurrunt active 
+          </p>
+          <p xml:id="ppr-l129-eqapen">
+            ideo quantum 
+            <lb ed="#PV"/>ad hoc in voluntate minimus gra<lb ed="#PV"/>dus 
+            resistentiae sufficeret quia 
+            <lb ed="#PV"/>nec obiectum nec notitia 
+            <lb ed="#PV"/>secundum aliquas agit in eam 
+            <lb ed="#PV"/>sed notitiam praecise concurrit 
+            <lb ed="#PV"/>in genere causae exemplaris ostendendo 
+            <lb ed="#PV"/>praecise in concurrendo effective 
+            <lb ed="#PV"/>vel non causando actum liberum 
+            <lb ed="#PV"/>Ita quod productio actus liberi est 
+            <lb ed="#PV"/>in sola voluntatis libertate Et sit consequenter 
+            <lb ed="#PV"/>dicunt quod voluntas quantum ad 
+            <lb ed="#PV"/>actum suum liberum nullo modo 
+            <lb ed="#PV"/>potest <unclear>difficultari</unclear> sed difficultas est 
+            <lb ed="#PV"/>per potentias sensitivas quae non obediunt 
+            <lb ed="#PV"/>prompte voluntati in agregando
+            <lb ed="#PV"/>ardua vel fugiendo delectabilia Et 
+            <lb ed="#PV"/>istam viam concedunt alii 
+            <lb ed="#PV"/>licet concedant actum cognitionis 
+            <lb ed="#PV"/>concurrere
+          </p>
+          <p xml:id="ppr-l129-sdsqep">
+            Alia via respondendi 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>dicendo de perceptiva potentia voluntatis 
+            et activa considerando voluntatem ut activam 
+            <lb ed="#PV"/>et ut perceptivam dicendum consequenter 
+            <lb ed="#PV"/>quod voluntas est magis activa quam 
+            <lb ed="#PV"/>perceptiva unde denominationes 
+            <lb ed="#PV"/>perfectionales habentes ordinem inter se 
+            <lb ed="#PV"/>sic se habent quod priores semper 
+            <lb ed="#PV"/>perfectiori modo id est maior gradu 
+            <lb ed="#PV"/>correspondet quam posteriores ut esse 
+            <lb ed="#PV"/>actum est denominatio prior quam 
+            <lb ed="#PV"/>esse perceptivum 
+          </p>
+          <p xml:id="ppr-l129-schpsi">
+            2o considerandum 
+            <lb ed="#PV"/>est consequenter quod voluntas per idem 
+            <lb ed="#PV"/>formaliter est activa sui actus 
+            <lb ed="#PV"/>libere et per idem intrinsece est 
+            <lb ed="#PV"/>eiusdem suspensiva et per idem 
+            <lb ed="#PV"/>formaliter est resistitiva ita quod 
+            <lb ed="#PV"/>eadem causalitas comparatur tripliciter 
+            <lb ed="#PV"/>et quia ut dictum est minus est percep<lb ed="#PV"/>tiva 
+            quam resistitiva non igitur 
+            <lb ed="#PV"/>potest tantum percipere quantum resistetur 
+            <lb ed="#PV"/>et quia non movetur ab obiecto 
+            <lb ed="#PV"/>nisi perceptive ideo motio <unclear>a</unclear> 
+            <lb ed="#PV"/>perceptiva non potest esse tanta sicut est 
+            <lb ed="#PV"/>eius resistitiva Ita quod illa motio 
+            <lb ed="#PV"/>est perceptio et sic semper est maior 
+            <lb ed="#PV"/>voluntatis resistentia quam 
+            <lb ed="#PV"/>obiecti motivitas
+          </p>
+          <p xml:id="ppr-l129-tseeem">
+            3a solutio 
+            <lb ed="#PV"/>dari potest ymaginando quod motio 
+            <lb ed="#PV"/>vel allectio obiectalis consurgit 
+            <lb ed="#PV"/>ex quadam proportione <seg type="correction">convenient<del rend="expunctuation">i</del>e</seg>
+            <lb ed="#PV"/>obiecti ad potentiam et quia illa datur 
+            <lb ed="#PV"/>maxime possibilis inter hanc potentiam 
+            <lb ed="#PV"/>et hoc obiectum quae tamen est minor 
+            <lb ed="#PV"/>quam activitas vel resistentia 
+            <lb ed="#PV"/>voluntatis secundum quam maxime 
+            <lb ed="#PV"/>gradu motivitatis movetur potentia 
+            <lb ed="#PV"/>tamen minus movetur quam sit eius re<lb ed="#PV"/>sistentia
+          </p>
+          <p xml:id="ppr-l129-rqtapv">
+            Et quando dicitur dupletur 
+            <lb ed="#PV"/>obiectum Respondet quod sic minus 
+            <lb ed="#PV"/>movebat hanc potentiam causa est 
+            <pb ed="#PV" n="246-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>quia habet minorem proportionem 
+            <lb ed="#PV"/><unclear>convenientem</unclear> ad potentiam igitur unus mo<lb ed="#PV"/>vebit 
+            igitur duplatio magis 
+            <lb ed="#PV"/>probat contrarium quia propositum Ideo 
+            <lb ed="#PV"/>in esse motivitatis conveniente <unclear>minus</unclear> voluntatem 
+            <lb ed="#PV"/>allicieret
+          </p>
+          <p xml:id="ppr-l129-cauipr">
+            Consequenter addebatur 
+            <lb ed="#PV"/>una ratio facilis tamen quia si 
+            <lb ed="#PV"/>voluntas se sola sufficeret 
+            <lb ed="#PV"/>resistere tunc virtutes morales 
+            <lb ed="#PV"/>superfluerent consequentia nulla est quia 
+            <lb ed="#PV"/>licet sufficeret ex sua intrinseca 
+            <lb ed="#PV"/>libertate tamen redditur promptior 
+            <lb ed="#PV"/>et ex eis habet modum et ipse mul<lb ed="#PV"/>tum 
+            conformit voluntati et 
+            <lb ed="#PV"/>reddunt eam tutam quia cuius 
+            <lb ed="#PV"/>habitibus talibus semper resistit 
+            <lb ed="#PV"/>ideo fixatur in bonum
+          </p>
+          <p xml:id="ppr-l129-cranrv">
+            Consequenter 
+            <lb ed="#PV"/>dicendum est de 2o argumento 
+            <lb ed="#PV"/>principali scilicet utrum voluntas subito 
+            <lb ed="#PV"/>vel successive agat prima propositio 
+            <lb ed="#PV"/>voluntas subito potest producere 
+            <lb ed="#PV"/>suum actum id est totum simul vel 
+            <lb ed="#PV"/>in instanti Ista propositio supponit quod vo<lb ed="#PV"/>luntas 
+            se habet active respectu sui 
+            <lb ed="#PV"/>actus ad hoc sunt innumerales 
+            <lb ed="#PV"/>auctoritates sanctorum ad hoc etiam est 
+            <lb ed="#PV"/>ratio nam potentia passiva 
+            <lb ed="#PV"/>non habet actum suum in sua potesta<lb ed="#PV"/>te 
+            ergo numquam respectu actus 
+            <lb ed="#PV"/>est libera antecedens probatur quia actus potentiae 
+            <lb ed="#PV"/>passive est in potestate agentis 
+            <lb ed="#PV"/>applicati ad passum et per consequens 
+            <lb ed="#PV"/>agens naturale applicatum ad vo<lb ed="#PV"/>luntatem 
+            semper ageret naturaliter 
+            <lb ed="#PV"/>artum voluntatis igitur non libere 
+            <lb ed="#PV"/>et sic licet libere ageret tamen voluntas 
+            <lb ed="#PV"/>necessario reciperet 
+          </p>
+          <p xml:id="ppr-l129-thplvi">
+            Tamen circa 
+            <lb ed="#PV"/>hoc potest esse <unclear>cantelosa</unclear> responsio 
+            <lb ed="#PV"/>dicendo quod ymmo salvaretur libertas 
+            <lb ed="#PV"/>pure passiva per talem modum 
+            <lb ed="#PV"/>quia dato agente et applicato 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>ad actus liberi productionem 
+            <lb ed="#PV"/>in facultatem voluntatis est actum in se 
+            <lb ed="#PV"/>recipere vel non recte sicut causali<lb ed="#PV"/>tatem 
+            effectivam ymaginamur 
+            <lb ed="#PV"/>liberam in voluntate et non in 
+            <lb ed="#PV"/>agentibus inferioribus quia 
+            <lb ed="#PV"/>eius causalitas differet specie sub 
+            <lb ed="#PV"/>activitate elementarum etc Item passi<lb ed="#PV"/>va 
+            potentia voluntatis <del rend="strikethrough">recipere</del> 
+            <lb ed="#PV"/>est alterius speciei a potentia passiva 
+            <lb ed="#PV"/>naturali igitur salvatur quod applicato agen<lb ed="#PV"/>te 
+            ad actus liberi productionem 
+            <lb ed="#PV"/>est in facultate potentiae passivae voluntatis 
+            <lb ed="#PV"/>recipere actum vel non recipere
+            <lb ed="#PV"/>Quamvis ista positio non potest im<lb ed="#PV"/>probari 
+            tamen non videtur rationabiliter 
+            <lb ed="#PV"/>fundata ex eo quod tota latitudo 
+            <lb ed="#PV"/>causalitatis active videtur supra totam 
+            <lb ed="#PV"/>latitudinem causalitatis active 
+            <lb ed="#PV"/>videtur supra totam latitudinem 
+            <lb ed="#PV"/>causalitatis passive ergo activa 
+            <lb ed="#PV"/>causalitas caloris vel ignis 
+            <lb ed="#PV"/>vel alterius agentis naturalis 
+            <lb ed="#PV"/>perfectior est latitudine causalitatis 
+            <lb ed="#PV"/>passive igitur concederet libertate 
+            <lb ed="#PV"/>voluntatis quod est inconveniens
+          </p>
+          <p xml:id="ppr-l129-saclen">
+            <lb ed="#PV"/>Item causalitas libera est nobilis<lb ed="#PV"/>sima 
+            causalitatum nam deo 
+            <lb ed="#PV"/>competit cui nulla causa<lb ed="#PV"/>litas 
+            passiva potest competere 
+            <lb ed="#PV"/>Ideo de ratione sua scilicet voluntatis 
+            <lb ed="#PV"/>est causalitas activa et non pas<lb ed="#PV"/>siva 
+          </p>
+          <p xml:id="ppr-l129-taealv">
+            Item arguitur 
+            <lb ed="#PV"/>fortius dato eodem agente 
+            <lb ed="#PV"/>ad actus liberi productionem 
+            <lb ed="#PV"/>applicata voluntas potest oppositos 
+            <lb ed="#PV"/>effectus elicere et producere quia 
+            <lb ed="#PV"/>dato movente ad persecutionem 
+            <lb ed="#PV"/>voluntas potest elicere velle 
+            <lb ed="#PV"/>vel nolle sed diversitas effectuum 
+            <pb ed="#PV" n="247-r"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>non potest ab eadem causa naturali im<lb ed="#PV"/>mediate 
+            procedere respectu eiusdem 
+            <lb ed="#PV"/>passi igitur est reducendum ad causa<lb ed="#PV"/>litatem 
+            activam liberam voluntatis 
+            <lb ed="#PV"/>et hoc quantum ad supremum propositionis
+          </p>
+        </div>
+        <div xml:id="ppr-l129-Dd1e208">
+          <head xml:id="ppr-l129-Hqapapp">Quantum ad principalem propositionis</head>
+          <p xml:id="ppr-l129-qapsda">
+            <lb ed="#PV"/>Sed quia voluntas subito 
+            <lb ed="#PV"/>potest etc probatur quia agens naturale 
+            <lb ed="#PV"/>materiale quantum est <unclear>de se</unclear> potest suum 
+            <lb ed="#PV"/>effectum subito producere 
+            <lb ed="#PV"/>igitur et voluntas consequentia probatur 
+            <lb ed="#PV"/>pro tanto quia velocitas 
+            <lb ed="#PV"/>actionis dicit perfectionem in causa 
+            <lb ed="#PV"/>agente quia secundum augmen<lb ed="#PV"/>tum 
+            potentiae minuitur tempus 
+            <lb ed="#PV"/>si ergo agenti naturali et materiali 
+            <lb ed="#PV"/>convenit quod subito possit etc 
+            <lb ed="#PV"/>competit superiori ut fortiori 
+            <lb ed="#PV"/>antecedens probatur de lucido quia si subi<lb ed="#PV"/>to 
+            applicetur ad diaphanum 
+            <lb ed="#PV"/>subito causat lumen patet per 
+            <lb ed="#PV"/><ref xml:id="ppr-l129-Rd1e226" target="http://scta.info/resource/aristda-l2"><name ref="#Aristotle">aristoteles</name> 2o <title ref="#deAnima">de anima</title></ref> et ex per alia 
+            <lb ed="#PV"/>ad hoc est
+          </p>
+          <p xml:id="ppr-l129-sained">
+            2o in actionibus 
+            <lb ed="#PV"/>naturalibus secundum proportionem 
+            <lb ed="#PV"/>potentiae agentis ad resisten<lb ed="#PV"/>tiam 
+            passi augetur velocitas 
+            <lb ed="#PV"/>ergo stante eodem gradu agentis 
+            <lb ed="#PV"/>per continuam diminutionem resistentiae 
+            <lb ed="#PV"/>augetur contingentiae velocitas igitur 
+            <lb ed="#PV"/>si tollatur totalis resistentia 
+            <lb ed="#PV"/>igitur infinita velocitas igitur 
+            <lb ed="#PV"/>subito producitur Si dicitur 
+            <lb ed="#PV"/>quod aliqua non infinita probabitur 
+            <lb ed="#PV"/>quia primum suppositum non erat 
+            <lb ed="#PV"/>verum sed quia proportio velocitatum 
+            <lb ed="#PV"/>sequitur proportionem activitatis 
+            <lb ed="#PV"/>ad resistentiam quia potest in 
+            <lb ed="#PV"/>infinitum augeri 
+          </p>
+          <p xml:id="ppr-l129-tadnes">
+            Item de facto 
+            <lb ed="#PV"/>ita fuit de actibus animae christi 
+            <lb ed="#PV"/>quia in primo instanti sui 
+            <lb ed="#PV"/>esse produxit actus meritorios 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>quibus meruit nobis et sibi 
+          </p>
+        </div>
+        <div xml:id="ppr-l129-Dd1e244">
+          <head xml:id="ppr-l129-Hcorria">Corollaria</head>
+          <div xml:id="ppr-l129-Dd1e249">
+            <head xml:id="ppr-l129-Hpcmpcm">Primum corollarium</head>
+            <p xml:id="ppr-l129-eqsiam">
+              Sequitur quod non repugnat 
+              <lb ed="#PV"/>angelo in primo in instanti suae 
+              <lb ed="#PV"/>productionis mereri vitum 
+              <lb ed="#PV"/>aeternam quia deus potest cauare 
+              <lb ed="#PV"/>angelum tamen notitiis sufficientibus 
+              <lb ed="#PV"/>in intellectu et dictaminibus sufficientibus 
+              <lb ed="#PV"/>ad meritorie agendum et voluntas 
+              <lb ed="#PV"/>potest subito producere suum 
+              <lb ed="#PV"/>actum ex quo non habet resistentiam 
+              <lb ed="#PV"/>igitur etc
+            </p>
+          </div>
+          <div xml:id="ppr-l129-Dd1e258">
+            <head xml:id="ppr-l129-Hscmscm">Secundum corollarium</head>
+            <p xml:id="ppr-l129-ssqraa">
+              2o sequitur quod res 
+              <lb ed="#PV"/>in primo instanti suae productionis 
+              <lb ed="#PV"/>non trahat necessitatem 
+              <lb ed="#PV"/>suae praeteritionis id est si ad potentiam 
+              <lb ed="#PV"/>rei non sequitur ipsum esse vel 
+              <lb ed="#PV"/>fuisse <name>Gregorius</name> concedti 
+              <lb ed="#PV"/>quod adhuc <unclear>nam</unclear> plura libertas Tenendo 
+              <lb ed="#PV"/>hanc viam dico quod prius angelus 
+              <lb ed="#PV"/>in primo instanti suae creationis 
+              <lb ed="#PV"/>potuit peccare mortaliter patet 
+              <lb ed="#PV"/>ex radice tradita quia potuit 
+              <lb ed="#PV"/>habere notitiam dei et praeceptoris 
+              <lb ed="#PV"/>quia deus potuit in eodem instanti 
+              <lb ed="#PV"/>ostendere sibi 2o in eodem instanti 
+              <lb ed="#PV"/>potuit negligere vel transgredi 
+              <lb ed="#PV"/>unde patet <ref xml:id="ppr-l129-Rd1e281" target="http://scta.info/resource/ppr-l129-eqsiam">praecedens corrollarium</ref> quod potuit 
+              <lb ed="#PV"/>mereri igitur etiam demereri quod ita 
+              <lb ed="#PV"/>fuit de facto videtur <ref xml:id="ppr-l129-Rd1e289" target="http://scta.info/resource/adcd-l11-d1e1597"><name>augustinus</name> assenstire 
+              credo 11o <title ref="#CityOfGod">de civitate dei</title></ref> <!-- quote??  --> draco 
+              <lb ed="#PV"/>ille ab instanti suae creationis non 
+              <lb ed="#PV"/>stetit Tamen <ref><name>augustinus</name> in eodem</ref> 
+              deteminat se ad contrarium scilicet quod non 
+              <lb ed="#PV"/>fuit causatus malus nec 
+              <lb ed="#PV"/>ex hoc quod primus angelus in primo 
+              <lb ed="#PV"/>instanti peccasset argueretur deus malus 
+              <lb ed="#PV"/>quae aeque libere potuit in eodem 
+              <lb ed="#PV"/>instanti exire in actum binum 
+              <lb ed="#PV"/>sicut in malum et est <unclear>qualificatus</unclear> 
+              <lb ed="#PV"/>pro tunc in instanti pro quo peccavit 
+              <pb ed="#PV" n="247-v"/>
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>Si teneatur quod omne quod 
+              <lb ed="#PV"/>est etc id est quod haec consequentia est bona 
+              <lb ed="#PV"/><c>a</c> est igitur necesse est <c>a</c> esse vel 
+              <lb ed="#PV"/>fuisse non est salvabile quia potuit 
+              <lb ed="#PV"/>peccare in instanti suae productionis 
+              <lb ed="#PV"/>non curo de <unclear>lo?ca</unclear> quia potuit ante 
+              <lb ed="#PV"/>illud creari non tamen concedendum 
+              <lb ed="#PV"/>quod potuit etc quia tunc non libere 
+              <lb ed="#PV"/>sed necessario peccasset licet <ref xml:id="ppr-l129-Rd1e316"><name ref="#Wodeham">adam</name></ref> 
+              <lb ed="#PV"/>videatur dicere quod haec copulativa 
+              <lb ed="#PV"/>est possibilis esse quod est etc et tamen 
+              <lb ed="#PV"/>voluntas in eodem instanti in 
+              <lb ed="#PV"/>quo producitur mere libere producit 
+              <lb ed="#PV"/>quia prius natura producitur Sed 
+              <lb ed="#PV"/>contra arguitur quia huiusmodi actum 
+              <lb ed="#PV"/>est necesse esse vel fuisse unde pri<lb ed="#PV"/>oritas 
+              illa nulla est vel non 
+              <lb ed="#PV"/>sufficit tollit praeteritionem est 
+              <lb ed="#PV"/>illius effectus
+            </p>
+          </div>
+          <div xml:id="ppr-l129-Dd1e333">
+            <head xml:id="ppr-l129-Htcmtcm">Tertium corollarium</head>
+            <p xml:id="ppr-l129-taqnee">
+              3m adiungo 
+              <lb ed="#PV"/>dato quod non potuit peccare in 
+              <lb ed="#PV"/>primo instanti suae creationis tenendi 
+              <lb ed="#PV"/>quod etiam in eodem instanti 
+              <lb ed="#PV"/>tantum potuit incipere peccare 
+              <lb ed="#PV"/>quia licet posito quod esse etc et quod 
+              <lb ed="#PV"/>non in instanti posset etc tamen in 
+              <lb ed="#PV"/>eodem in instanti inciperet peccare 
+              <lb ed="#PV"/>vel successive producere in actum 
+              <lb ed="#PV"/>quia incipit producere actum 
+              <lb ed="#PV"/>prohibitum igitur et peccare Sequitur 
+              <lb ed="#PV"/>quod haec consequentia valet sortes tenetur non 
+              <lb ed="#PV"/>per incipere peccare in instanti quia ipse 
+              <lb ed="#PV"/>incipit peccare in eodem instanti 
+              <lb ed="#PV"/>igitur peccat vel non est transgres<lb ed="#PV"/>sor 
+              praecepti quia replicaretur 
+              <lb ed="#PV"/>de primo angelo quia <unclear>positum</unclear> est etc
+              <lb ed="#PV"/>ponamus quod habeat praeceptum tunc 
+              <lb ed="#PV"/>angelus iste tenetur non incipere 
+              <lb ed="#PV"/>in hoc instanti et incipit igitur in 
+              <lb ed="#PV"/>hoc instanti peccat Breviter consequentia 
+              <lb ed="#PV"/>nihil valet 
+            </p>
+            <p xml:id="ppr-l129-eianip">
+              Ex quo patet solutio rationis 
+              <cb ed="#PV" n="b"/>
+              <lb ed="#PV"/>fieri consuete scilicet talis ponamus 
+              <lb ed="#PV"/>quod deus praecipiat sorti et quod 
+              <lb ed="#PV"/>non incipiat peccare per remotionem 
+              <lb ed="#PV"/>de praesenti tunc dicunt consequenter quod sortes 
+              <lb ed="#PV"/>non potest transgredi praeceptum quia 
+              <lb ed="#PV"/>si sic hoc esset quando inciperet 
+              <lb ed="#PV"/>peccare per remotionem de praesenti 
+              <lb ed="#PV"/>Contra peccat in <c>a</c> igitur etc antecedens probatur 
+              <lb ed="#PV"/>quia in <c>a</c> tenetur modo incipere 
+              <lb ed="#PV"/>et incipiat igitur peccat
+            </p>
+          <!-- consider moving last sentence into next paragraph -->
+            <p xml:id="ppr-l129-rqiedf">
+              Respondetur patet 
+              <lb ed="#PV"/>ex dictis quia consequentia non valet et conceditur 
+              quod potest transgredi tunc si sic sit in 
+              <lb ed="#PV"/><c>a</c> igitur incipit etc concedo et nego 
+              <lb ed="#PV"/>quod peccat in <c>a</c> Ad probationem 
+              <lb ed="#PV"/>quia est obligatus ad non in<lb ed="#PV"/>cipiendum 
+              in <c>a</c> et incipit 
+              <lb ed="#PV"/>igitur dicitur quod solum sequitur 
+              <lb ed="#PV"/>quod incipit peccare in <c>a</c> quia 
+              <lb ed="#PV"/>ad concludendum transgressionem 
+              <lb ed="#PV"/>oporteret arguere per propositiones non dependens 
+              <lb ed="#PV"/>a futuro unde consequentia non valet 
+              <lb ed="#PV"/>Ego sum obligatus quod non peccem 
+              <lb ed="#PV"/>die dominica tamen peccabo ergo 
+              <lb ed="#PV"/>transgredior sed bene sequitur quod pec<lb ed="#PV"/>cabo 
+              quia licet ista sortes in<lb ed="#PV"/>cipit 
+              peccare videatur de praesenti 
+              <lb ed="#PV"/>quantum tamen ad aliud est 
+              <lb ed="#PV"/>de futuro et sic propositio de incipit 
+              <lb ed="#PV"/>esse non est ponitur de praesenti igitur 
+              <lb ed="#PV"/>non sequitur quod peccet sed etc
+            </p>
+          </div>
+          <div xml:id="ppr-l129-Dd1e402">
+            <head xml:id="ppr-l129-Hqcmqcm">Quartum corollarium</head>
+            <p xml:id="ppr-l129-sqqeig">
+              Sequitur 
+              <lb ed="#PV"/>quod non inplicat vel possibile 
+              <lb ed="#PV"/>est michi permanentis dare ultimum 
+              <lb ed="#PV"/>instans quia voluntas ex<lb ed="#PV"/>istens 
+              in gratia potest incipere pec<lb ed="#PV"/>care 
+              per remotionem de praesenti 
+              <lb ed="#PV"/>quia inmediate post hoc pec<lb ed="#PV"/>cabit 
+              igitur inmediate post hoc 
+              <lb ed="#PV"/>non erit in gratia 
+            </p>
+            <!-- fuzzy parallel; possible corruption -->
+            <p xml:id="ppr-l129-shhphp">
+              et hoc est ultimum 
+              <pb ed="#PV" n="248-r"/>
+              <cb ed="#PV" n="a"/>
+              <lb ed="#PV"/>instans esse in gratia quia tunc 
+              <lb ed="#PV"/><del rend="strikethrough">non</del> est in gratia et immediate 
+              <lb ed="#PV"/>post hoc carebit gratia Nisi 
+              <lb ed="#PV"/>diceretur quod daretur ultimum instans 
+              <lb ed="#PV"/>in esse gratiae sed non in esse qualitatis 
+            </p>
+            <!-- break perhaps not necessary here; -->
+            <!-- fuzzy parallel; possible corruption -->
+            <p xml:id="ppr-l129-sfdhep">
+              <lb ed="#PV"/>via tamen communior est quod non 
+              <lb ed="#PV"/>desinit esse gratiae quin qualitatis 
+              <lb ed="#PV"/><sic><!-- some kind of textual corruption here -->via tamen communior est quod non 
+              <lb ed="#PV"/>desinit esse gratiae quin qualitatis</sic>
+            </p>
+            <p xml:id="ppr-l129-tqiqim">
+              <lb ed="#PV"/>Item quod possibile sit probatur in exemplo 
+              <lb ed="#PV"/>communi tenendo quod qualitatis sit 
+              <lb ed="#PV"/>res distincta tunc in rarefac<lb ed="#PV"/>tione 
+              vel condensatione datur ultimum 
+              <lb ed="#PV"/>instans qualitatis aqua inci<lb ed="#PV"/>pit 
+              motus
+            </p>
+            <p xml:id="ppr-l129-qdceum">
+              2o deus conservat 
+              <lb ed="#PV"/>nunc modum vel creaturam 
+              <lb ed="#PV"/>aliam mere libere contingenter 
+              <lb ed="#PV"/>et potest numquam post hoc crea<lb ed="#PV"/>turam
+              conservare igitur datur 
+              <lb ed="#PV"/>ultimum instans rei permanentis 
+              <lb ed="#PV"/>in esse quia deus mere libere 
+              <lb ed="#PV"/>conservat res
+            </p>
+            <p xml:id="ppr-l129-qdnpii">
+              3o deus nunc 
+              <lb ed="#PV"/>non producit <c>a</c> effectum produci<lb ed="#PV"/>bilem 
+              successive et inmedia<lb ed="#PV"/>te 
+              post hoc potest et in minori 
+              <lb ed="#PV"/>tempore potest in duplo et in tri<lb ed="#PV"/>plo 
+              igitur subito post hoc 
+              <lb ed="#PV"/>potest producere et sic datur ultimum 
+              <lb ed="#PV"/>instans non esse rei ante sui pro<lb ed="#PV"/>ductione 
+              rei producibilis tamen 
+              <lb ed="#PV"/>non successive ut <c>a</c> agentibus 
+              <lb ed="#PV"/>nunc non est et inmediate 
+              <lb ed="#PV"/>post hoc erit
+            </p>
+            <p xml:id="ppr-l129-ssaelp">
+              Item sic obsta<lb ed="#PV"/>culum 
+              occupans spatium aliquod 
+              <lb ed="#PV"/><unclear>ut</unclear> lumen ibidem producatur 
+              <lb ed="#PV"/>ponamus quod deus subito cor<lb ed="#PV"/>rumpat 
+              illud sic quod hoc nunc 
+              <lb ed="#PV"/>sic et numquam post tunc in 
+              <lb ed="#PV"/>ultimo instanti non est lumen
+              <cb ed="#PV" n="b"/>et inmediate post hoc erit totum 
+              <lb ed="#PV"/>illuminatum simul et hoc ab agenti 
+              <lb ed="#PV"/>naturali
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l129-Dd1e446">
+          <head xml:id="ppr-l129-Hsaaaaa">Solutio ad argumentum Altissidorensis</head>
+          <p xml:id="ppr-l129-eiiinp">
+            Iuxta hanc viam solveretur 
+            <lb ed="#PV"/>argumentum <ref xml:id="ppr-l129-Rd1e455"><name ref="#WilliamOfAuxerre">auticiodorensis</name></ref> casus 
+            <lb ed="#PV"/>est quod si voluntas possit sic 
+            <lb ed="#PV"/>subito producere actum suum sit 
+            <lb ed="#PV"/><c>a</c> et interveniat praeceptum quod sortes 
+            <lb ed="#PV"/>teneatur infra horam praesentem 
+            <lb ed="#PV"/>producere <c>a</c> actum taliter quod quandocumque 
+            <lb ed="#PV"/>potest producere sufficit quod produ<lb ed="#PV"/>cat 
+            scilicet quod in aliquo instanti 
+            <lb ed="#PV"/>quocumque deinde adiungitur 
+            <lb ed="#PV"/>quod sortes realiter non producat Et in 
+            <lb ed="#PV"/>instanti terminante horam sit primo mortuus 
+            <lb ed="#PV"/>tunc sortes habuit praeceptum 
+            <lb ed="#PV"/>quod produceret actum et non produxit 
+            <lb ed="#PV"/>igitur transgressor quaeritur quando 
+            <lb ed="#PV"/>non in illa hora nec in instanti 
+            <lb ed="#PV"/>terminate quia iam est extra viam 
+            <lb ed="#PV"/>nec ante quia quocumque instanti da<lb ed="#PV"/>to 
+            ante illud inter ipsum et praesens 
+            <lb ed="#PV"/>instans si terminus etc est tempus 
+            <lb ed="#PV"/>medium quod potuit ad implere 
+            <lb ed="#PV"/>igitur semper ante est in gratia 
+            <lb ed="#PV"/>potest dici quod sortes inmediate 
+            <lb ed="#PV"/>ante hoc peccavit et tamen in nullo 
+            <lb ed="#PV"/>instanti huius fore fuit in peccato 
+            <lb ed="#PV"/>vel peccavit sicut si deus non 
+            <lb ed="#PV"/>crearet nunc angelum et immediate 
+            <lb ed="#PV"/>post hoc crearet tunc nullum 
+            <lb ed="#PV"/>instans esset significabile post hoc 
+            <lb ed="#PV"/>quando angelus est ante hoc productus
+            <lb ed="#PV"/>Ita sequitur in ista materia dicitur 
+            <lb ed="#PV"/>quod sortes inmediate  ante hoc peccaverit 
+            <lb ed="#PV"/>et tamen nullum fuit instans 
+            <lb ed="#PV"/>ante hoc quin in illo fuit in gratia 
+            <lb ed="#PV"/>et quod in illo non peccavit sicut de angelo 
+            <pb ed="#PV" n="248-v"/>
+            <cb ed="#PV" n="a"/>
+            <lb ed="#PV"/>de quo daretur ultimum non esse ante 
+            <lb ed="#PV"/>sui productionem <name>Adam</name> <unclear>dai</unclear> aliam 
+            <lb ed="#PV"/>viam <ref xml:id="ppr-l129-Rd1e504"><name rend="#WilliamOfAuxerre">Auticiodorensis</name></ref> dicit quod non 
+            peccat in hora sed prius est inpec<lb ed="#PV"/>cato 
+            in instanti suae mortis et contraxit 
+            <lb ed="#PV"/>peccatum in hora 
+          </p>
+          <p xml:id="ppr-l129-rediph">
+            Contra non est 
+            <lb ed="#PV"/>in via igitur dicitur quod si peccare 
+            <lb ed="#PV"/>capitur pro aliqualiter se habere in 
+            <lb ed="#PV"/>aliquo tempore ad quod sequitur 
+            <lb ed="#PV"/>post tempore vel natura se esse in peccato 
+            <lb ed="#PV"/>tunc non peccat in instanti 
+            <lb ed="#PV"/>illo sed prius scilicet in tempore prae<lb ed="#PV"/>cedenti 
+            quia in toto illo tempore 
+            <lb ed="#PV"/><unclear>prae?ati</unclear> aliqualiter se habent ad quod 
+            <lb ed="#PV"/>sequitur quod in hoc instanti peccat 
+            <lb ed="#PV"/>et sic peccat in primo instanti suae
+            <lb ed="#PV"/>mortis nec est inconveniens 
+            <lb ed="#PV"/>quod contrahat peccatum in gratia <!--break? -->Aliter 
+            <lb ed="#PV"/>dicit <ref><name rend="#Wodeham">adam</name></ref> scilicet quod realiter peccat 
+            <lb ed="#PV"/>ante finem horae quae intellectus 
+            <lb ed="#PV"/>noster est limitatus ad discurrendum 
+            <lb ed="#PV"/>partis temporis igitur datur ita parva 
+            <lb ed="#PV"/>pars quae est insensibilis nunc ante 
+            <lb ed="#PV"/>finem horae peccavit quia iam non 
+            <lb ed="#PV"/>sufficit discernere tam parvam 
+            <lb ed="#PV"/>partem temporis Sed istud non 
+            <lb ed="#PV"/>valet quia capiatur infinita 
+            <lb ed="#PV"/>potentia quae cognoscat infi<lb ed="#PV"/>nitam 
+            partem temporis tunc cessit 
+            <lb ed="#PV"/>solutio <!-- break --> Alia solutio dicitur 
+            <lb ed="#PV"/>quod peccat quia exponit se peri<lb ed="#PV"/>culo 
+            quia tenetur cogitare de 
+            <lb ed="#PV"/>praecepto et non facit et sic non 
+            <lb ed="#PV"/>ex solo illo mandato peccat 
+            <lb ed="#PV"/>sed etiam quod non facit diligentiam 
+            <lb ed="#PV"/>suam 
+          </p>
+          <p xml:id="ppr-l129-iqdfim">
+            unde staret quod duorum 
+            <lb ed="#PV"/>contradictoriorum quaelibet inmediate haec erat 
+            <lb ed="#PV"/>vera ut ponatur quod una in qualibet 
+            <cb ed="#PV" n="b"/>
+            <lb ed="#PV"/>parte proportionali denominata <unclear>ami?tur</unclear> paris 
+            <lb ed="#PV"/>sit vera et alia etc signemus 
+            <lb ed="#PV"/>finem horae quaelibet inmediate 
+            <lb ed="#PV"/>ante hoc erat vera quia una im<lb ed="#PV"/>mediate 
+            ante hoc erat pars denomina<lb ed="#PV"/>ta 
+            <unclear>amo?tur</unclear> pari et quinque fuit 
+            <lb ed="#PV"/>in pari fuit in gratia etc Istud 
+            <lb ed="#PV"/>ponit <ref><name>climitio</name> in 2o sophismate</ref> 
+            <lb ed="#PV"/><c>a</c> tangit <c>b</c> quod est <ref>sophismata 15m</ref>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
