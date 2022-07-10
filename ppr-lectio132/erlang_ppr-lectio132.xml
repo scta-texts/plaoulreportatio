@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 132, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 132, De libertate [Erlangen Transcription]</title>
+          <date when="2022-07-10">July 10, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-07-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#PV" n="174-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio132">
+      <head xml:id="ppr-l132-HldIld">Lectio 132, de Incarnatione</head>
+        <div xml:id="ppr-l132-Dd1e109">
+          <head xml:id="ppr-l132-Hnotnda">Notanda</head>
+          <div xml:id="ppr-l132-Dd1e114">
+            <head xml:id="ppr-l132-Hpnmpnm">Primum notandum</head>
+            <p xml:id="ppr-l132-pdpvaa">
+              <lb ed="#E"/>Alia lectio 
+              <lb ed="#E"/>Pro declaratione praesentis materiae sciendum quod suppositum est ultimata alicuius naturae 
+              <lb ed="#E"/>subsistentia quia difficultas ad intelligendum quid nomine suppositi intelligatur Pro 
+              <lb ed="#E"/>cuius intellectu notandum quod ordo reperitur tendentiarum unius rei ad alteram 
+            </p>
+            <div xml:id="ppr-l132-Dd1e128">
+              <head xml:id="ppr-l132-Hqqtqqt">Quinque tendentia</head>
+              <p xml:id="ppr-l132-petacp">
+                Prima est formae 
+                <lb ed="#E"/>ad suum subiectum sive illam sit substantialis sive accidentalis et hoc dividitur quia quaedam est actualis 
+                <lb ed="#E"/>et quaedam habitualis primum notum est Exemplum 2i ut est tendendum animae separata ad suum corpus 
+                <lb ed="#E"/>proprium 
+              </p> 
+              <p xml:id="ppr-l132-seteec">
+                Secunda tendentia est partis ad partem in ordine ad totius constitutione et ex hac con<lb ed="#E"/>surgit 
+                unio partium continui et earum continuitas
+              </p>
+              <p xml:id="ppr-l132-tetlen">
+                Tria est locati ad locum suum natura<lb ed="#E"/>lem 
+                hac enim tendentia tendit ignis ad contactum concavum orbis lunae quae est sibi 
+                <lb ed="#E"/>conveniens locus et naturalis
+              </p>
+              <p xml:id="ppr-l132-qtempd">
+                Quarta est coexistentium seclusis tribus prioribus habitudinibus 
+                <lb ed="#E"/>et isto modo intelligentia tendit ad orbis praesentiam et econtra nam se habet ut inhaerens forma nec 
+                <lb ed="#E"/>aliquo modorum prius tactorum 
+              </p>
+              <p xml:id="ppr-l132-qetasf">
+                Quinta est tendentia rei in suum ultimum finem vel in suam 
+                <lb ed="#E"/>causam conservantem Et isto modo cuiuslibet creaturae in deum est insolubilis tendentia quia 
+                <lb ed="#E"/>sicut creatura sine essentia primae causae vel potest sic nec in esse conservari absque habitudine 
+                <lb ed="#E"/>in suum ultimum finem
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l132-Dd1e154">
+            <head xml:id="ppr-l132-Hsnmsnm">Secundum notandum</head>
+            <p xml:id="ppr-l132-snqitc">
+              Secundo advertendum quod praeter quinque dictas habitudines tendentiarum 
+              <lb ed="#E"/>est alia tendentia cuiuslibet rei ad se ipsam vel ad sui existentiam si nata sit ex se existere 
+              <lb ed="#E"/>vel in alterius existentiam si non sit natura ex se existere tamquam in quod termino 
+              <lb ed="#E"/>rationem quietis habente licet non ultimate quantum ad creaturas et hic terminus vocatur 
+              <lb ed="#E"/>subsistentia Iuxta quem modum quodlibet compositum substantiale sibi et suae naturale de<lb ed="#E"/>relictum 
+              tendit in se ipsum tamquam in propriam unitatem quod appetit et in qua quodammodo quie<lb ed="#E"/>tatur 
+              quamvis non ultimate deinde omnia accidentia et cuius pars in ipsum tamquam 
+              <lb ed="#E"/>intrinsecam eis unitatem tendunt subsistere
+            </p>
+          </div>
+          <div xml:id="ppr-l132-Dd1e169">
+            <head xml:id="ppr-l132-Htnmtnm">Tertium notandum</head>
+            <p xml:id="ppr-l132-tenadc">
+              3o notandum quod denominationes concretive omnium ten<lb ed="#E"/>dentium 
+              ad aliquem terminum vel in aliquo tamquam in id in quo subsistunt communicatur ipsi 
+              <lb ed="#E"/>subsistentiae unde et accidentia in toto composito naturali existentia sive inhaereant primae materiae 
+              <lb ed="#E"/>sive non tamen toti composito denominationes communicant scilicet subsistentiae principali qua subsistunt 
+              <lb ed="#E"/>unde proprie quamvis causalitas inhaereat materiae non tamen denominant eam calidam sed subsistentiam 
+              <lb ed="#E"/>principalem scilicet totum compositum Consimile est de forma substantiali quae licet inhaereat materiae non tamen 
+              <lb ed="#E"/>denominat materiam viventem vel intellectivam ex sua inhaesione sed totum compositum quae 
+              <lb ed="#E"/>est ultimata rei subsistentia
+            </p>
+          </div>
+          <div xml:id="ppr-l132-Dd1e178">
+            <head xml:id="ppr-l132-Hqnmqnm">Quartum notandum</head>
+            <p xml:id="ppr-l132-qnebdv">
+              Quarto notandum quod tendentiae creaturarum subiacent divinae omnipotentiae 
+              <lb ed="#E"/>et libero dei decreto sic quod sunt in potentia obedientiali ad taliter vel taliter tendendum iuxta 
+              <lb ed="#E"/>bene placitum divinae voluntatis
+            </p>
+          </div>
+          <div xml:id="ppr-l132-Dd1e188">
+            <head xml:id="ppr-l132-Hcdtdtc">Corollaria de tendentia creaturarum</head>
+            <p xml:id="ppr-l132-csqiic">
+              <pc type="pilcrow"/> Consequenter sequitur ex hoc quod variabiles sunt secundum 
+              <lb ed="#E"/>beneplacitum divinae voluntatis sicut alias exemplatum est detendentia naturali 
+              <lb ed="#E"/>ignis ad concavum orbis lunae quae sic subiacet divinae voluntati quod naturaliter posset 
+              <lb ed="#E"/>ex divino statuto deorsum tendere et <unclear>ibi debet</unclear> naturaliter quietari
+            </p>
+            <p xml:id="ppr-l132-ehseps">
+              Sequitur quod licet quodlibet 
+              <lb ed="#E"/>compositum substantiale totale suae naturae derelictum tendat inpropriam subsistentiam quodlibet tamen 
+              <lb ed="#E"/>tale inpropriam subsistentiam potest non tendere vel in se tamquam inpropriam subsistentiam
+            </p> 
+            <p xml:id="ppr-l132-eqsrht">
+              <pb ed="#E" n="174-v"/>
+              <lb ed="#E"/>Sequitur quod quodlibet compositum substantiale quod realiter nunc est suppositum vel subsistentia vel 
+              <lb ed="#E"/>ypostasis potest realiter desinere esse suppositum subsistentia vel ypostasis patet ex ra<lb ed="#E"/>dice 
+              tacta nam tendentia creaturae ad se vel ad aliud citra finem ultimum est variabilis 
+              <lb ed="#E"/>ideo deus potuit cuiuslibet creaturae tendentiam in se ipsam tamquam inpropriam subsisten<lb ed="#E"/>tiam 
+              suspendere ita quod potest actualiter in se non tendere 
+              <!-- break --> 
+              Sequitur ex eadem radice quod quaelibet 
+              <lb ed="#E"/>creatura potest actualiter in deum tendere tamquam in subsistentiam ultimatam ita quod actualiter 
+              <lb ed="#E"/>appetat in deum subsistere et non in se et quia divinae potentiae non repugnat hanc tendentiam 
+              <lb ed="#E"/>terminare 
+            </p>
+            <p xml:id="ppr-l132-isqqci">
+              ideo sequitur quod deus respectu cuiuslibet creaturae potest esse subsistentia vel ypostasis 
+              <lb ed="#E"/>vel terminus tendentiae ultimatus ad quem ultimate inclinatur 
+            </p>
+          </div>
+        </div>
+        <div xml:id="ppr-l132-Dd1e222">
+          <head xml:id="ppr-l132-Hcqssid">Conclusio quod stat naturam humanam non tendere in se vel ad eius subsistentiam propriam sed in Deum</head>
+          <p xml:id="ppr-l132-ehrdet">
+            hic radicatur difficultas 
+            <lb ed="#E"/>et concluditur quod stat naturam humanam tendere ad se tamquam ad subsistentiam ultima<lb ed="#E"/>tam 
+            nec consequenter stat quod in deum tamquam in ultimatam subsistentiam tendat et sic habetur sufficiens 
+            <lb ed="#E"/>ymaginatio praesentis materiae quia sufficit quod natura humana non tendat in se tamquam in subsisten<lb ed="#E"/>tiam 
+            propriam et quod in deum tamquam intendentiam quam appetit et quod deus terminet huiusmodi ten<lb ed="#E"/>dentiam 
+            quia
+          </p>
+        </div>
+        <!-- fuzzy and unclear break -->
+        <div xml:id="ppr-l132-Dd1e231">
+          <head xml:id="ppr-l132-Hcorria">Corollaria</head>
+          <p xml:id="ppr-l132-Heehies">
+            ex hoc sequitur quod sit huius naturae subsistentiae et suppositum vel ypostasis 
+            <lb ed="#E"/>scilicet ex descriptione posita Et ex 3o notabili sequitur quod vi huiusmodi habitudinis subsistentiae deus 
+            <lb ed="#E"/>sit realiter suscipiens denominationes coniectivas tam naturae competentes quam accidentibus in 
+            <lb ed="#E"/>ea subsistentibus
+          </p>
+          <p xml:id="ppr-l132-sspgvd">
+            Et sic salvabitur quod est homo rationalis risibilis et sic de aliis quae 
+            <lb ed="#E"/>competerent naturae humanae si per se subsisteret Et ista est manuductio clarissima in hac 
+            <lb ed="#E"/>materia quantum pati unde <name ref="#Isaias">ysaias</name> generationem eius quis enarrabit quod utraque generatione 
+            <lb ed="#E"/>intelligitur 
+          </p>
+          <p xml:id="ppr-l132-Heqsiea">
+            Sequitur primo quod nulla materia est essentialiter et intrinsece suppositum vel subsistentia 
+            <lb ed="#E"/>nisi realiter sit tria supposita et tres subsistentiae patet ex deductione prior nam quaelibet creatura 
+            <lb ed="#E"/>tendens ad sui subsistentiam vel in se tendit tendentia purae contingenti et ab ea re<lb ed="#E"/>mobili 
+            ergo non est intrinsece realiter essentialiter et inseparabiliter sua subsistentia ypostasis vel sup<lb ed="#E"/>positum 
+            ideo sola essentia divina quae est huiusmodi est talis unde nulla est natura creata nisi 
+            <lb ed="#E"/>possit desuppositari quod est medium concludendi in se non subsistere sed tendentia naturae divinae ad 
+            <lb ed="#E"/>suas proprias ypostases est inseparabilis perpetua et aeterna ideo est intrinsece
+          </p>
+          <p xml:id="ppr-l132-sqqdvv">
+            Sequitur ulterius 
+            <lb ed="#E"/>quod quaelibet subsistentia creata potest desinere esse subsistentia absque hoc quod aliquid a parte rei 
+            <lb ed="#E"/>desinat esse vel aliqua res patet ex possibili variatione tendentiae creaturae in propriam subsistentiam 
+            <lb ed="#E"/>ex qua nichil a parte rei variatur id est nichil non acquiritur vel dependitur
+          </p>
+          <p xml:id="ppr-l132-udqiea">
+            unde 
+            <lb ed="#E"/>dato quod quaelibet creaturam subsistentiam suppositaret et esset eius subsistentia tunc quaelibet 
+            <lb ed="#E"/>desineret esse subsistentia et tamen etc Cum tamen stat quod aliqua res desineret esse homo aliqua 
+            <lb ed="#E"/>asinus etc sed nulla res desineret esse aliquid igitur non sequitur <c>a</c> incipit esse asinus ergo <c>a</c> 
+            <lb ed="#E"/>incipit esse nec sequitur <c>a</c> desinit esse asinus ergo <c>a</c> desinit esse Primum patet in hoc casu quo 
+            <lb ed="#E"/>deus esset cuiuslibet creaturae actualis subsistentia vel inciperet esse etc adhuc remaneret 
+            <lb ed="#E"/>materia humana <unclear>asinina</unclear> et deus inciperet esse asinus lapis homo et sic de aliis denomina<lb ed="#E"/>tionibus 
+            suppositionibus non tamen inciperet aliquid
+          </p> 
+          <p xml:id="ppr-l132-siatsv">
+            Item in alio casu non supernaturali stat quod 
+            <lb ed="#E"/>aliquid incipiat esse homo et tamen non incipiat esse aliquid nam significata parte residua 
+            <lb ed="#E"/>hominis praeter eius brachium quae vocetur <c>a</c> illa non est homo ut suppositum eo quod est 
+            <lb ed="#E"/>pars et non subsistit subsistentia et si auferatur brachium illa incipit esse homo 
+            <lb ed="#E"/>et eo ipso habet <unclear>subsistentiam rationem <!-- possible correction --></unclear> ultimate et sic incipit esse  
+            <lb ed="#E"/>aliquid quia nichil acquirit sed potius deperdit aliquid Similiter angelus de potentia dei absoluta 
+            <lb ed="#E"/>ut videtur posset vel materiam informare vel cum alio angelo unitive concurrere ad modum quo duo 
+            <lb ed="#E"/>gradus albedinis simul concurrentes constituunt unam qualitatem quo dato angelus de<lb ed="#E"/>sineret 
+            esse suppositum eo quod de ratione partis est non esse subsistentiam ultimatam sed in suo 
+            <lb ed="#E"/>tota subsistere Ideo angelus scilicet materiam reformaret desineret esse subsistentia 
+            <pb ed="#E" n="175-r"/>
+            <lb ed="#E"/>angelica non tamen desineret esse vel si cum alio angelo concurreret et iterum fieret suppositum vel 
+            <lb ed="#E"/>acquirendo Et sic posset esse suppositum vel subsistentia vel ypostasis modo naturali Patet ex dictis 
+            <lb ed="#E"/>quod praedicata concretiva suppositionalia contingenter competunt creaturis quia esse hominem et sic de aliis concretis 
+            <lb ed="#E"/>denominationibus personalibus pure contingenter dicuntur de natura humana vel humanitate 
+            <lb ed="#E"/>quia per carentiam tendentiae possunt removeri quia talis tendentia ut dictum est <sic>est</sic> pure con<lb ed="#E"/>tingens
+            adnutum dei variabilis
+          </p>
+          <p xml:id="ppr-l132-eqsuti">
+            Sequitur quod omnes res creata mundi potest deo suas 
+            <lb ed="#E"/>denominationes concretivas <del rend="strikethrough">denomina</del> communicare patet quia potest in eo ultimate subsistere igitur consequentia 
+            <lb ed="#E"/>tenet quia de ratione subsistentiae est denominationes concretivas omni tali subsistentia subsistentium 
+            <lb ed="#E"/>Et quia ut dictum quaelibet res creata potest in deo subsistere subsistentia ultimata ideo potest 
+            <lb ed="#E"/>deo communicare sua praedicata concretiva
+          </p>
+        </div>
+        <div xml:id="ppr-l132-Dd1e292">
+          <head xml:id="ppr-l132-Hdduads">Dubium de unione</head>
+          <head xml:id="ppr-l132-Hd1e297" type="question-title">Utrum quaelibet res sit a deo <unclear>supposibilis</unclear></head>
+          <p xml:id="ppr-l132-chnvsu">
+            Advertendum tamen quod dubium est inter doctores utrum quaelibet 
+            <lb ed="#E"/>res sit a deo supponibilis vel suppositionaliter deo unibilis  
+          </p>
+          <p xml:id="ppr-l132-epepsu">
+            una opinio dicit quod nulla nisi 
+            <lb ed="#E"/>sit <seg type="correction">nata<del rend="expunctuation">ra</del></seg> esse suppositum vel subsistere subsistentia propria verbi gratia quia accidentia non possunt 
+            <lb ed="#E"/>naturaliter in se subsistere nec possunt esse sua intrinseca subsistentia ideo non potest ea vivere sibi 
+            <lb ed="#E"/>suppositionaliter Quia etiam partes sive sunt essentiales sive integrales maxime 
+            <lb ed="#E"/>tamen essentiales non possunt per se subsistere ideo non sunt unibiles deo ypostatice vel <unclear>supponi<lb ed="#E"/>taliter</unclear> 
+            quia non habent propriam subsistentiam ideo deus non posset eis sic uniri ut sit 
+            <lb ed="#E"/>eorum subsistentia 
+          </p>
+          <p xml:id="ppr-l132-adqicc">
+            Alii dicunt quod ymmo generaliter Ista difficultas est vocalis praecise et non 
+            <lb ed="#E"/>realis nam si per suppositare intelligatur esse suppositum alicuius rei quae sibi derelicta 
+            <lb ed="#E"/>esset met suppositum tunc evidens est quod positio prima haberet veritatem Si autem intelli<lb ed="#E"/>gatur 
+            per supponitare esse subsistentiam alicuius sic constat quod cuiuslibet rei deus potest esse 
+            <lb ed="#E"/>subsistentia vel suppositum et quamlibet sibi suppositionaliter vivere et sic iste modus est 
+            <lb ed="#E"/>magis tenendus quam primus patet nam inter duo de facto fuit unio materiae ad verbum quae tamen 
+            <lb ed="#E"/>materia non habet rationem suppositi sed potius partis sibi derelicta vi tamen cuius unionis verbum 
+            <lb ed="#E"/>suscepit denominationes concretivas ex parte materiae sibi communicatas ut iacere in sepulchro 
+            <lb ed="#E"/>quod non potest competere verbo dei indivisibili ex parte sui sed ratione rei corporalis sibi unite 
+            <lb ed="#E"/>vel naturae assumptae Ideo patet quod res quae non est de se natura esse suppositum potest deo uniri 
+            <lb ed="#E"/>suppositionaliter id est deus potest esse eius subsistentia ratione cuius competunt sibi denominationes concre<lb ed="#E"/>tive 
+            Simile est de anima quia conceditur quod christus descendit ad inferiores ymmo est articulus fidei 
+            <lb ed="#E"/>Et tamen hoc non esset concedendum nisi fuisset unio talis quod verbum dei fuisset animae subsistentia 
+            <lb ed="#E"/>ratione cuius habitudinis reciperet denominationes concretivas animae competentes id est per animam communicabiles 
+            <lb ed="#E"/>Et sic patet quod illa difficultas resoluta ad sua principia valde modica est. Patet ergo quod respectu cuiuslibet 
+            <lb ed="#E"/>creaturae potest deus habere huiusmodi habitudinem talem ex qua consurgit ydeomatum communicatio patet quia 
+            <lb ed="#E"/>potest cuiuslibet creaturae <del rend="strikethrough">l</del> esse subsistentia ideo potest recipere praedicata concretiva et per consequens ydeomata 
+            <lb ed="#E"/>illi naturae competentia 
+          </p>
+          <p xml:id="ppr-l132-pcdsaf">
+            <pc type="pilcrow"/> Pro declaratione advertendum quod ydioma est vocabulum graecum 
+            <lb ed="#E"/>Et dicitur ab <foreign>ydos</foreign> quod est forma et <foreign xml:lang="gr">onoma</foreign> quod est nomen quasi nomen formae vel proprietatis rei vel sumptum 
+            <lb ed="#E"/>ab illa
+          </p>
+          <p xml:id="ppr-l132-snenpe">
+            Secundo notandum quod naturae creatae duplex competit ydeoma vel duplicia competunt ydeomata 
+            <lb ed="#E"/>id est praedicata proprietatem rei experimentia Quaedam competunt intrinsece et inseparabiliter tam<lb ed="#E"/>quam 
+            propriam ut <del rend="strikethrough">huiusmodi</del> humanitas competit hoc praedicatum esse humanitatem vel naturam huma<lb ed="#E"/>nam 
+            intrinsece et inseparabiliter et esse animalitatem et sic de aliis praedicatis abstractivis Similiter animae 
+            <lb ed="#E"/>competit intrinsece esse vitam Alia sunt quae non inseparabiliter competunt inseparabiliter naturaliter 
+            <lb ed="#E"/>tamen sed non absolute sicut esse hominem competit naturae humanae tamquam eius proprietas naturaliter 
+            <lb ed="#E"/>inseparabilis quia sibi ipsi derelicta et in se ipsa subsisteret et sic de aliis ut est animal corpus substantiam etc 
+            <pb ed="#E" n="175-v"/>
+            <lb ed="#E"/>absolute tamen illa sunt separabilia quia humanitas potest in se non subsistere et sic potest non esse subsis<lb ed="#E"/>tentia 
+            Et sic praedicata <unclear>inportuna</unclear> subsistentia sunt ab ea remobilia et sic vocantur talia praedica<lb ed="#E"/>ta 
+            ydeomata vel praedicata proprietatem rei exprimentia ymmo utraque talia 
+          </p>
+          <p xml:id="ppr-l132-sensed">
+            <pc type="pilcrow"/> Advertendum 
+            ulterius quod alia praedicata experimentia conditionem naturae quae sunt concretiva et <del rend="strikethrough">in</del> remobilia absolute 
+            <lb ed="#E"/>illa possunt communicari subsistentiae in qua huiusmodi natura potest subsistere unde vi unionis humanitatis 
+            <lb ed="#E"/>ad verbum humanitas non communicat verbo praedicata sibi essentialiter et intrinsece communicata quia non communicatur sibi 
+            <lb ed="#E"/>quod sit humanitas vel animalitas <pc type="pilcrow"/> Alia autem praedicata vel ydeomata quae sunt concretiva sunt 
+            <lb ed="#E"/><unclear>remobilia</unclear> sicut eius subsistentia quia illa semper sequuntur subsistentiam rei ideo sicut contin<lb ed="#E"/>genter 
+            competunt in se subsistit ita praedicata sibi contingenter competunt unde humanitas christi nec est homo 
+            <lb ed="#E"/>nec animal nec corpus sumendo illa nomina seu praedicatur pure concretive nec substantia sic sumendo sed corporalitas 
+            <lb ed="#E"/>substantialitas 
+          </p>
+          <p xml:id="ppr-l132-eppatc">
+            Patet quod unio ypostatica in christo potest sic describi Est unio vel habitudo 
+            <lb ed="#E"/>verbi ad humanam naturam virtute cuius fit persona divina humanae naturae subsistentia et sic 
+            <lb ed="#E"/>nihil est nisi fieri naturae subsistentiam ita quod collat ymaginatio tendentiam naturae propriam et 
+            <lb ed="#E"/>subsistentiam Doctores utuntur terminis armatis ex quibus communiter scolares non capiunt funda<lb ed="#E"/>mentum 
+            ideo totum aedificum est resolvere ad terminos claros
+          </p>
+          <div xml:id="ppr-l132-Dd1e393">
+            <head xml:id="ppr-l132-Hqhuass">Quod haec unio est similis unioni accidentis ad suum subiectum</head>
+            <p xml:id="ppr-l132-ptmsnh">
+              Pro maiori manuductione in praesenti 
+              <lb ed="#E"/>materia ymaginandum est iuxta <ref xml:id="ppr-l132-Rd1e402"><name ref="#Scotus">doctorem subtilem</name></ref> quod haec unio est valde similis quam ad aliquid 
+              <lb ed="#E"/>unioni accidentis ad suum subiectum unde quantum ad aliud <del rend="expunctuation">unioni accidentis</del> dissimilitudo est 
+              <lb ed="#E"/>quia actus inhaeret subiecto et informat Et quantum ad hoc debet haec habitudo tolli comperando naturam 
+              <lb ed="#E"/>humanam ad verbum dei quia dicit potentialitatem quendam et inperfectionem
+            </p>
+            <p xml:id="ppr-l132-aehehr">
+              Alia est habitudo accidentis 
+              <lb ed="#E"/>ad suum subiectum quia subiectum est quoddam modo subsistentia accidentis et quasi eius consistentia et dicit 
+              <lb ed="#E"/>perfectionem in subiecto scilicet quod est deus eius subsistentia quia habet communem quoddam modo finis vel conservantis 
+              <lb ed="#E"/>in quem alia res tendit ideo illa habitudo est ex qua consurgit denominatio concertiva quam accidens 
+              <lb ed="#E"/>consuevit communicare suo subiecto Ad propositum circumscribendo inhaesionem vel informationem Si yma<lb ed="#E"/>ginemur 
+              humanitatem habere illam habitudinem ad verbum per modum <unclear>innitentis</unclear> suae subsisten<lb ed="#E"/>tiae 
+              in qua subsistit virtute cuius communicat sibi denominationes concretivas sicut albedo communicat suo 
+              <lb ed="#E"/>subiecto denominationem suam concretivam habebitur ymaginatio Ita quod quantum ad hoc habeat modum accidentis 
+              <lb ed="#E"/>Et sic humanitas se haberet per modum subiecti et subsistentiae et sic esset homo per humanitatem et tamen esset res 
+              <lb ed="#E"/>simplicissima Et sic patet quomodo salvatur communicatio ydeomatum quia iste homo deus et deus est homo 
+              <lb ed="#E"/>et sic intelligitur fieri communicatio ydeomatum quando praedicta quae competerent humanitati si esset suppositum 
+              <lb ed="#E"/>competunt deo et econtra unde conceditur quod homo est omnipotens inmensus et aeternus et ille homo aeterna<lb ed="#E"/>liter 
+              a patre procedit ille homo creavit caelum et terram Et viceversa deo competit praedicata humana 
+              <lb ed="#E"/>scilicet quod est passibilis mortuis resurrexit ascendit ad caelum Et haec est explicatio communicationis 
+              <lb ed="#E"/>ydeomatum Et ista ymaginatione habita faciliumum est dicere ad propositiones difficiles 
+            </p>
+          </div>
+          <div xml:id="ppr-l132-Dd1e423">
+            <head xml:id="ppr-l132-Hnqdduc">Notanda: qualiter deus utitur creatura</head>
+            <p xml:id="ppr-l132-ptpude">
+              Pro tamen 
+              <lb ed="#E"/>particulari expressione materiae advertendum ultimo quod deus utitur creatura generaliter tamquam 
+              <lb ed="#E"/>instrumento et praecise in bonis operibus licet servetur cum hoc valde bene libertas ut alias dictum est 
+            </p>
+            <p xml:id="ppr-l132-snepoe">
+              Secundo quod potest dici modo specialiter uti instrumento uno modo ipsum <unclear>movendo</unclear> ad operationes speciales faculta<lb ed="#E"/>tem 
+              instrumenti excedentes secundum influentiam communem Secundo quod potest specialiori modo uti 
+              <lb ed="#E"/>instrumento tamquam similiter intrinseco ut anima potest uti instrumento extrinseco et etiam corpore proprio tam<lb ed="#E"/>quam 
+              instrumento intrinseco vel manu vel pede vel alio membro Item duobus modis ymaginandum 
+              <lb ed="#E"/>est quod verbum vitatur humanitate ipsam elevando quantum ad primum ad operationes naturae 
+              facultatem excedentes Secundo tamquam proprio instrumento ad proprias operationes exercendas 
+              et istud est difficilius 
+            </p>
+          </div>
+          <div xml:id="ppr-l132-Dd1e436">
+            <head xml:id="ppr-l132-Hocnocn">Opinio Chatton</head>
+            <p xml:id="ppr-l132-eihppu">
+              Ego prosequar viam <ref xml:id="ppr-l132-Rd1e445"><name ref="#Chatton">schoton</name> in 12a distinctione 3ii sententiarum</ref> videlicet quod tanta 
+              <lb ed="#E"/>est haec benedicta unio ut verbum sit ita plene humanitati illapsum quod omnis volitio 
+              <lb ed="#E"/>et cognitio ubi sit huic humanitati cognitio et volitio Et sic eadem est operatio dei et humanitatis
+              <pb ed="#E" n="176-r"/>
+              <lb ed="#E"/>assumptae ideo deus materiam humanam supra se quasi rapuit ad ultimum gradum possibilem 
+              <lb ed="#E"/>communicari et cum tanta in trinitate ut omnis divisa operatio praeter emanationem ad intra sed omnes 
+              <lb ed="#E"/>quae est executiva ad extra humanitati vel animae christi realiter competat Et haec est alta ymaginatio 
+              <lb ed="#E"/>et pulchrum considerationis iudicio meo Ex hoc raptu humanitatis supra se et ex communicatione 
+              <lb ed="#E"/>operum consurgit quod non subsistit in se sed subsistentia divina et verbum est sibi <del rend="expunctuation">naturalis</del>
+              <lb ed="#E"/><unclear>ralis</unclear> subsistentiae ex qua consurgit et competunt nullo hanc radicem ponit <ref xml:id="ppr-l132-Rd1e460"><name ref="#Aquinas">sanctus 
+              <lb ed="#E"/>thomas</name> <title ref="#SummaContraGentiles">contra gentiles</title> in quarto</ref>  
+            </p>
+            <p xml:id="ppr-l132-pedcvv">
+              Tunc ponuntur corollaria declarativa doctorum Sequitur 
+              <lb ed="#E"/>primo quod humanitas christi nullo modo potest peccare unita patet quia omnis eius operatio est supra 
+              <lb ed="#E"/>totius naturae suae facultatem et quia deo non potest creaturarum speciali motione inclinare ad 
+              <lb ed="#E"/>malum igitur.
+            </p>
+            <p xml:id="ppr-l132-siquei">
+              Secunda radix est quia omnis prima operatio vel volitio vel cognitio est sibi etiam operatio 
+              <lb ed="#E"/>volitio vel cognitio et non potest ibi esse repugnans volitio vel cognitio <!-- corruption or disagreement here --> Secunda sequitur quod haec vino 
+              <lb ed="#E"/>est infinita rectitudo ymmo summa quia est <unclear>raptus</unclear> individuam bonitatem summus passibilis infinite 
+              <lb ed="#E"/>supra quamlibet <seg type="correction">creata<del rend="strikethrough">ram</del></seg> rectitudinem
+            </p>
+            <p xml:id="ppr-l132-tsqmeb">
+              <lb ed="#E"/>Tertio sequitur quod haec benedictissima unio est formaliter 
+              <lb ed="#E"/>habitudo quia est supremus gradus attingendi undique ultimatum finem ergo est maxime 
+              <lb ed="#E"/>beatitudo 
+            </p>
+            <p xml:id="ppr-l132-qsqebs">
+              Infero consequenter quod beatitudo animae christi nullo modo dependet ab humanitate vel anima ymmo 
+              <lb ed="#E"/>econtra humanitas vel anima christi dependet a sua beatitudine et in ea subsistit et cuius subsistentia 
+              <lb ed="#E"/>est simpliciter beatifica
+            </p>
+            <p xml:id="ppr-l132-qsqoep">
+              Sequitur consequenter quod vi huius unionis ipsa respectu cuiuscumque operationis est potens 
+              <lb ed="#E"/>nam est sic in deum rapta quod omnis divina volitio vel cognitio est etiam sibi etc ergo quidquid ad extra etc 
+              <lb ed="#E"/>Patet quod tam respectu regiminis spiritualis id est militantis ecclesiae vel temporalis vel naturalis ipsa est tam 
+              <lb ed="#E"/>universaliter inmediate deo subordinata ad omnium effectum productionem 
+            </p>
+            <p xml:id="ppr-l132-eqpedh">
+              Ex quo patet quod in primo instanti 
+              <lb ed="#E"/>suae conceptionis habuit divinam supra omnia astra et etiam influentiam superiorem ad omnes 
+              <lb ed="#E"/>causas concurrentes 2as ad sui conceptionem scilicet ad intelligentias angelos et totam curiam 
+              <lb ed="#E"/>angelorum patet ex illo lapsu haec est doctorum sententia quia <name>magister</name> dicit quod deus communicavit 
+              <lb ed="#E"/>sibi omnia cognoscere quae verbum <ref xml:id="ppr-l132-Rd1e497"><name ref="#RichardOfStVictor">Rycardus</name></ref> dicit quod sibi communicata est omnipotentia quia 
+              <lb ed="#E"/>eius potentia est per velle eius imperativum quod est divinum et sic eius velle est simpliciter infrustrabile 
+              <lb ed="#E"/>Ex quo salvatur quod nullus angelus quantumcumque perfectus posset adaequalitatem beatitudinis 
+              <lb ed="#E"/>animae christi pertingere nisi per unionem ypostaticam quia iste est supremus gradus perfectionis ad 
+              <lb ed="#E"/>extra communicabilis <name>Augustinus</name> in rebus partis ortis nulla fuit maior gratia et sic fuit gratia
+              <lb ed="#E"/>maior et sic fuit gratia humanitatem gratificans 
+            </p>
+            <p xml:id="ppr-l132-eehaee">
+              Salvatur consequenter quod beata virgo habeat 
+              <lb ed="#E"/>supremum gloriae gradum creabilem sibi communicabilem de potentia absoluta tamen non est ita beata sicut huma<lb ed="#E"/>nitas
+              <!-- approximate start of  misssing section --> 
+              christi dicitur notanter gradum <unclear>arabilem</unclear> ad distinguendum cum unionem ypostaticam 
+              <lb ed="#E"/>quae est formaliter beatifica nam difficultas est supposito quod unumquodque individuum non fit perfectius 
+              <lb ed="#E"/>alio in spiritus humana essentialiter tunc humanitas christi et <!-- end of missing section --> et virgo gloriosa sunt eiusdem perfectionis 
+              <lb ed="#E"/>et quia virgo dicitur plena gratia quaeritur quomodo gratia virginis non adaequatur gratia 
+              <lb ed="#E"/><unclear>christi</unclear> differentia est quia gratia virginis est creata et alia increata Notandum quod opinio communis aliter 
+              <lb ed="#E"/>tenet videlicet quod unio ypostatica est praecise subsistentia naturae taliter quod praecise supplet 
+              <lb ed="#E"/>vicem suppositi creati Ideo dicunt quod vi unionis ypostatice verbum nichil communicat <unclear>natuare</unclear> 
+              <lb ed="#E"/>nisi quia subsistat eam et posset hoc in puris naturalibus et per consequens sive gratia 
+            </p>
+          </div>
+          <div xml:id="ppr-l132-Dd1e525">
+            <head xml:id="ppr-l132-Hosiosi">Opinio Scoti</head>
+            <p xml:id="ppr-l132-cthsvs">
+              Pro qua opinione 
+              <lb ed="#E"/>arguit <ref xml:id="ppr-l132-Rd1e534"><name ref="#Scotus">scotus</name></ref> nam inquit natura per prius subsistit in se ipsa quam in ipsa ad operetur 
+              <lb ed="#E"/>hoc omne apparet de natura in se subsistente quia suppositum est actionis et actiones 
+              <lb ed="#E"/>sunt suppositorum
+            </p>
+            <!-- fuzzy parallel  -->
+            <p xml:id="ppr-l132-airlps">
+              ergo si assumatur ab alio per prius subsistet quam exeat in opus naturae 
+              <lb ed="#E"/>quam et res non potest subsistere subsistentia aliena nisi infinita veritate et infinito modo 
+              <pb ed="#E" n="176-v"/>
+              <lb ed="#E"/>concurrente et aliter concurrente quam quando causatur in se subsistit et ideo vi huiusmodi unionis 
+              <lb ed="#E"/>verbum se communicat non solum ut subsistentia ita quod concursus obiectivus non potest separari a concursu
+            </p>
+            <p xml:id="ppr-l132-scasnc">
+              <lb ed="#E"/><space quantity="6" unit="words"/> Sed replicatur quia concessum est quod deus potest esse subsistentia 
+              <lb ed="#E"/>creaturae irrationalis ergo beatificabit creaturam irrationale negatur consequentia quia licet deus com<lb ed="#E"/>municet 
+              se uniformiter quantum est ex parte sui negatur rationali et irrationali quia tamen 
+              <lb ed="#E"/>natura rationalis est capax beatitudinis et alia non Ideo ex hoc consurgit quod irrationalis 
+              <lb ed="#E"/>non est beatifica et alia est ut actualis cognitio potentia in anima mea est michi cognitio et ipsa po<lb ed="#E"/>tentia 
+              in lapide non est cognitio lapidis
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
