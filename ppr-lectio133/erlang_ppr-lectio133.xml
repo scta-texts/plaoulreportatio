@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 133, De libertate [Erlangen Transcription]</title>
+        <author ref="#peter-plaoul">Petrus Plaoul</author>
+        <editor ref="#jeffreycwitt">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 133, De libertate [Erlangen Transcription]</title>
+          <date when="2022-07-10">July 10, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="D" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-07-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="176-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="lectio133">
+      <head xml:id="l133-Hldildi">Lectio 133, de Incarnatione</head>
+        <div>
+          <head xml:id="l133-Hcqchvc">Conclusio: quod christi humanitas non sit homo nec humanitas et verbum simul sunt homo vel christus</head>
+          <p xml:id="l133-edasfd">
+            <lb ed="#E"/>Alia lectio
+            <lb ed="#E"/>Ex dictis heri patet quod christi humanitas non sit homo nec humanitas et verbum simul sunt homo 
+            <lb ed="#E"/>vel christus contra multorum falsam phantasiam etiam <del rend="expunctuation">repungnatorum</del> reputatorum sed homo est illa simpli<lb ed="#E"/>cissima 
+            in divinis secunda persona Ita quod christus supponit pro illa quae est aeterna et ab aeterno fuit et 
+            <lb ed="#E"/>a patre processit nec est agregatum ex duabus naturis ita quod nichil est filius dei quin sit filius hominis 
+            <lb ed="#E"/>et econtra 
+          </p> 
+          <p xml:id="l133-eqsnfh">
+            Sequitur primo quod tales eo possibiles aliquis homo fuit ab aeterno et tamen numquam fuit homo 
+            <lb ed="#E"/>Secunda stat cum prima scilicet quod ille numquam fuit homo
+          </p> 
+          <p xml:id="l133-acspeh">
+            Secundo stat ista quod eius humanitas numquam 
+            <lb ed="#E"/>fuit Patet ex sumendo primum instans incarnationis verbi vel sic primum instans scilicet incarnationis scilicet 
+            <lb ed="#E"/>sancti tunc ille nunc est homo 
+          </p>
+          <p xml:id="l133-saqset">
+            Tertio sequitur quod ille idem ab aeterno fuit numquam tamen eius humanitas 
+            <lb ed="#E"/>fuit etiam numquam etiam fuit homo et primo nunc est homo
+          </p> 
+          <p xml:id="l133-sieset">
+            Similiter aliquis homo fuit ab aeterno et 
+            <lb ed="#E"/>ille idem homo aeternaliter erit et est homo et tamen nec habebit nec habuit humanitatem patet in casu in 
+            <lb ed="#E"/>quo instans incarnationis esset unicum instans durationis humanitatis ita quod illa non esset nisi 
+            <lb ed="#E"/>per instans tunc patet 
+          </p> 
+          <p xml:id="l133-sahios">
+            Similiter aliquis homo creavit animam suam et similiter corpus proprium et organisavit et 
+            <lb ed="#E"/>simul iuxta patet quia verbum dei propter quod omnia facta sunt teste evangelio Similiter aliquis homo creavit 
+            <lb ed="#E"/>matrem suam ex qua humanitatem sumpsit Ista sunt clarissima ymaginationes tamen declarativa ideo ea induco 
+            <lb ed="#E"/>Pro regula proportionata loquendum est <sic>est</sic> de christo respectu suae humanitatis sicut de substantia respectu albedinis quantum 
+            <lb ed="#E"/>ad id quod ad propositum spectat quia sicut substantia agregatum vel compositum ex accidente et subiecto 
+            <lb ed="#E"/>sed praecise est subsistentia cui albedo est unita Item christus non est agregatum ex deo et humanitate 
+            <lb ed="#E"/>vel humana natura sed est verbum cum unita est humana natura Ideo quantum ad hoc sicut dicimus de 
+            <lb ed="#E"/>albo quod fuit antequam album
+          </p>
+          <p xml:id="l133-emdhua">
+            Ita de christo quod fuit antequam fuit homo vel christus et ista proportionaliter ymaginatio 
+            <lb ed="#E"/>in hac materia et facilior ad sustinendum non tamen dico per modum accidentis inhaerentis et quia deo nichil 
+            <lb ed="#E"/>potest inhaerere nec aliud potest ipsum informare quia non habet potentiam passivam sed ex habitudine sub<lb ed="#E"/>sistentiae 
+            quia dicit perfectionem subiecto nec propter hoc voco eam accidentalem nec proprie essentialem 
+            <lb ed="#E"/>ut dicit <name ref="#Durandus">durandus</name>
+          </p> 
+          <p xml:id="l133-tddios">
+            quod se habet ista unio ad modum insertionis sicut ramis inseritur arbori 
+            <lb ed="#E"/>ut quod humanitas inseritur sic quod manet naturarum distinctio et est unita subsistentia sed non est sufficiens 
+            <lb ed="#E"/>similitudo ut nec dicit sed melior est dicta respectu subiecti et accidentis
+          </p>
+        </div>
+        <div>
+          <head xml:id="l133-Hprones">Propositiones</head>
+          <p xml:id="l133-dammpp">
+            Propono propositiones ad declarandum 
+            <lb ed="#E"/>materiam 
+          </p>
+          <p xml:id="l133-peneai">
+            primam non stat sine multiplicatione naturarum creatam suppositori supposito proprio et alieno 
+            <lb ed="#E"/>id est non stat eam in se subsistere et cum hoc in alio sine sui multiplicatione patet nam in se subsistere 
+            <lb ed="#E"/>dicit alteri non inviti ita quod privat vel negat intendentiam vel tendentiam in aliam subsisten<lb ed="#E"/>tiam 
+            ex communi doctorum descriptione
+          </p>
+          <p xml:id="l133-spnpss">
+            <pc type="virgula"/> Secunda propositio non videtur inplicare quod in diversis locis 
+            <lb ed="#E"/>eadem natura posita sibi invitatur hic et alibi invita alteri scilicet ratione et per consequens per multiplicationem 
+            <lb ed="#E"/>vel replicationem unius naturae in diversis sitibus non videtur repugnantia quando etc Quo da<lb ed="#E"/>to 
+            staret humanitatem christi in caelo esse verbo unitam et hic in terra de potentia dei absoluta proprie 
+            <lb ed="#E"/>sumpto subsistere et sibi inviti 
+          </p>
+          <p xml:id="l133-tpnhia">
+            <pc type="virgula"/>Tertia propositio non videtur implicare quod replicationem naturae 
+            <lb ed="#E"/>binam vel trinam in eodem situ adaequate subsistat in proprio supposito et cum hoc invitatur alieno
+          </p>
+          <p xml:id="l133-qpqips">
+            <pb ed="#E" n="177-r"/>
+            <lb ed="#E"/>Alia propositio quamvis pluribus propriis ypostasibus vel subsistentiis existere sit proprium divinae naturae 
+            <lb ed="#E"/>creatae tamen non repugnat in pluribus alienis subsistentiis subsistere divina est quod proprium est 
+            <lb ed="#E"/>divinae naturae existere in pluribus suppositis tamquam sibi propriis et ydempticis 2a pars dicit etc 
+          </p>
+          <p xml:id="l133-ppqits">
+            <lb ed="#E"/>primum patet nam divina essentia ex intrinseca ratione sui consistit in tribus suppositis et nulla creatura 
+            <lb ed="#E"/>est reperibilis quae sit una essentialiter et trina suppositionaliter ideo esse in pluribus suppositis et 
+            <lb ed="#E"/>pluribus subsistentiis subsistere est proprietas sequens divinam naturam ratione suae inmensitatis et 
+            <lb ed="#E"/>inmensae fecunditatis quod ita pollulat in tres
+          </p>
+          <p xml:id="l133-sppdqc">
+            Secunda pars probatur quia sicut filius terminat 
+            <lb ed="#E"/>dependentiam humanae naturae et eius subsistentiam ita nulla videtur repugnantia quod ad patrem 
+            <lb ed="#E"/>habeat eandem habitudinem adaequate et ita ad spiritum sanctum et non videtur replicare quod eadem 
+            <lb ed="#E"/>natura assumpta sit tribus personis hanc conclusionem concedunt quasi concorditer doctores communiter etc
+          </p>
+        </div>
+        <div>
+          <head xml:id="l133-corria">Corollaria</head>
+          <p xml:id="l133-eqsdss">
+            <lb ed="#E"/>Sequitur primo quod stat multiplicari homines absque novae rei productione patet nam datur natura as<lb ed="#E"/>sumpta 
+            a christo suae alicuius rei novae productione stat quod pater assumit causa et sit eius subsis<lb ed="#E"/>tentia 
+            quo dato pater erit homo et ita de spiritu sancto 
+          </p> 
+          <p xml:id="l133-eqaqeh">
+            et tunc erunt tres homines et tamen non erit 
+            <lb ed="#E"/>alicuius novae rei productio nec ad intra nec ad extra nam ponendo unionem distinctam ab extremis unibi<lb ed="#E"/>libus 
+            contra <name>ockam</name>
+          </p> 
+          <p xml:id="l133-csqema">
+            Sequitur consimiliter quod stat fieri plures homines absque hoc quod sint plures animae quia 
+            <lb ed="#E"/>stante unica anima potest natura a tribus suppositis assumi quo stante sequitur numerus ternarius hominum et 
+            <lb ed="#E"/>non est multiplicatio animarum 
+          </p>
+          <p xml:id="l133-cehteh">
+            Consequenter ex ypothesi quod angelus posset etiam naturam 
+            <lb ed="#E"/>humanam suppositare de quo dubium est inter doctores et sic staret sine novae rei productione infi<lb ed="#E"/>nitas 
+            sibi homines quia qua ratione ad unum posset terminare eadem ad duo et sic in infinitum
+          </p>
+          <p xml:id="l133-ssqaof">
+            <lb ed="#E"/>Sequitur ex illo quod virgo gloriosa unica generatione qua genuit ihesum adaequate potuit generare 
+            <lb ed="#E"/>plures filios quia si in eodem instanti patet filius et spiritus sanctus humanam naturam assumpsis<lb ed="#E"/>sent 
+            virginis filii ipsa uniformiter causaliter concurrente 
+          </p>
+          <!-- fuzzy parallel -->
+          <p xml:id="l133-eqaaof">
+            ymmo sequitur quod infinitos eadem duratione 
+            <lb ed="#E"/>uniformi filios potuit genuisse absque hoc quod aliter causaliter concurrisset Sed ex multiplicatione 
+            <lb ed="#E"/>terminantium subsistentiam arguitur multiplicatio hominum quia illa est ratio suppositalis et intelligitur 
+            <lb ed="#E"/>stante ypothesi scilicet de angelis Sed quantum ad hoc utrum creatura posset aliam suppositare 
+            <lb ed="#E"/>non habemus fide nec contrarium ideo probabiliter locuti sunt
+          </p> 
+        </div>
+        <div>
+          <head xml:id="l133-Hdeiftas">Difficultas</head>
+          <p xml:id="l133-ctpthu">
+            <pc type="pilcrow"/>Circa praesentem materiam sunt 
+            <lb ed="#E"/>plures particulares difficultates una est utrum essentia in esse essentiae posset esse for<lb ed="#E"/>malis 
+            terminus huiusmodi unionis ita quod sit realiter subsistentia humanae naturae ad istum intellectum 
+            <lb ed="#E"/>si per inpossibile essentia divina et persona distinguerentur utrum essentia in essentiae
+            <lb ed="#E"/>posset etc 
+          </p>
+          <p xml:id="l133-adqnep">
+            Tenetur probabiliter quod non licet aliqui dicunt contrarium Radix pro parte 
+            <lb ed="#E"/>negativa videtur probabiliter terminare dependentiam alicuius naturae est proprietas personalis non redu<lb ed="#E"/>cibilis 
+            proprie ad genus causae efficientis nec finalis quia si ad aliquod genus causae reduceretur 
+            <lb ed="#E"/>omnino esset operatio indistincta respectu omnium personarum Opera enim trinitatis ad extra sunt in<lb ed="#E"/>distincta 
+            ideo si terminare dependentiam sic esset <unclear>commune</unclear> etc Ideo magis tenendum quod est proprie<lb ed="#E"/>tas 
+            personalis quam essentialis ideo essentiae ut si non potest competere nisi secundum aliquam suarum 
+            <lb ed="#E"/>subsistentiarum 
+          </p>
+          <!-- fuzzy break; text disagreement? -->
+          <p xml:id="l133-shehel">
+            <seg type="correction">Proba<add>bi</add>liter</seg> tenendum est quod <del>proprietas personalis</del> sic et communiter tenet doctores 
+            <lb ed="#E"/>sicut verbum divinum est subsistentia humanae naturae Ita simul posset esse angelicae vel alterius naturae 
+            <lb ed="#E"/>vel eiusdem speciei Ita conceditur quod angelus posset esse angelus homo et lapis Et sic verbum 
+            <lb ed="#E"/>dei esset asinus sustinendo naturam <unclear>asimina</unclear> et idem homo et angelus et sic consequenter concedendum quod 
+            <lb ed="#E"/>haec est possibilis homo est asinus homo est lapis 
+          </p>
+        </div>
+        <div>
+          <head xml:id="l133-svrsvr">Suppositiones vel regulae</head>
+          <p xml:id="l133-uamsvr">
+            <pc type="pilcrow"/> ulterius dicit ad sciendum vi huiusmodi unionis quae 
+            <lb ed="#E"/><del rend="strikethrough">quod</del> praedicata competunt sibi sit 
+          </p>
+          <p xml:id="l133-prepim">
+            prima regula vel suppositio circa hoc nullum praedicatum vel ydeoma in<lb ed="#E"/>portans 
+            deformitatem vel culpam vi huiusmodi communicationis potest deo competere Patet primo 
+            <lb ed="#E"/>quia nephas esset dicere quod deus peccaret unde redditur inobliqualis rectitudo  
+            <lb ed="#E"/>ut heri dictum est quia illa natura non agit nisi specialiter a deo mota et deus 
+            <pb ed="#E" n="177-v"/>
+            <lb ed="#E"/>non posset specialiter voluntatem ad malum inclinare
+          </p>
+          <p xml:id="l133-srpamc">
+            Secunda regula praedicata denominantia 
+            <lb ed="#E"/>defectus qui esset culpabilis mortaliter in statu innocentiae non communicatur verbo dei vi 
+            <lb ed="#E"/>unionis naturae nec possunt ut sunt primi motus male qui non sunt in nostra potestate qui tamen 
+            <lb ed="#E"/>in statu innocentiae fuissent realiter peccata Ibi enim non fuisset differentia inter veniale et mortale 
+            <lb ed="#E"/>sed ratione nostrae infirmitatis et necessitatis non inputantur nobis ad culpam 
+          </p>
+          <p xml:id="l133-treqeh">
+            Tria regula 
+            <lb ed="#E"/>quod praedicata quae sunt naturae propriae et inseparabilia non possunt supposito communicari sicut esse huma<lb ed="#E"/>nitatem 
+            <lb ed="#E"/>alietatem et sic de aliis praedicatis essentialibus et propriis humanae naturae et ita de alia natura 
+            <lb ed="#E"/>diceretur quod verbum non dicitur humanitas vel animalitas vel natura humana ratione 
+            <lb ed="#E"/>huiusmodi unionis
+          </p>
+          <p xml:id="l133-qrosps">
+            Quarta regula omnia concretiva quae de praesenti conpeterent naturae in proprio 
+            <lb ed="#E"/>supposito vi talis unionis et sic apparet quomodo debet dici quod christus verbum dei et deus <sic>commede<lb ed="#E"/>bat</sic> 
+            et bibebat et esuriebat patiebatur et moriebatur
+          </p>
+          <p xml:id="l133-qriahp">
+            Quinta regula illa praedicata con<lb ed="#E"/>cretiva 
+            quae dicerentur de illa natura in praeterito vel futuro tempore coniunctionis ad verbum 
+            <lb ed="#E"/>etiam dicuntur de verbo vel conpetunt supposito assumenti ut fuisse nunc passum etc
+          </p>
+          <p xml:id="l133-srieup">
+            Sexta regula illa quae dicuntur de illa natura in praeterito vel etiam in futuro ante vel post 
+            <lb ed="#E"/>coniunctionem non communicatur supposito verbi gratia sit ita quod naturam luciferi assumat verbum 
+            <lb ed="#E"/>dei sicut de potentia absoluta fieri potest tunc de praeterito enunciare concretive quod haec natura fuit 
+            <lb ed="#E"/>dampnata quod peccavit fuit mala male egit quae sunt praedicata suppositionalia sed 
+            <lb ed="#E"/>non competunt supposito assenti quia conpetunt naturae assumptae ante sui assumptionem 
+            <lb ed="#E"/>Ita proportionaliter de futuro si verbum dei assumeret naturam antichristi illi naturae conpetit quod realiter 
+            <lb ed="#E"/>peccabit et male aget sed non conpetit verbo quia verificatio erit pro tempore quando erit non coniuncta 
+            <lb ed="#E"/>Ita non sequitur haec natura peccabit igitur hoc suppositum peccabit 
+          </p>
+          <p xml:id="l133-srnucv">
+            Alia regula non oportet quod ea quae 
+            <lb ed="#E"/>competunt de possibili naturae assumptae conpetant verbo nisi illa possunt in esse illi naturae tempore 
+            <lb ed="#E"/>quo coniuncta est verbi gratia humanitas christi verbo coniuncta potest dampnari de potentia absoluta 
+            <lb ed="#E"/>et posset male agere nec potest reduci ad actum stante ordinatione et tamen verbum non potest peccare 
+            <lb ed="#E"/>unde illa possibilitas non est reducibilis ad actum pro tempore unionis vel commotionis 
+            <lb ed="#E"/>patet ex hoc quod haec consequentia nulla est christus assumit naturam praestitam igitur christus est praescitus
+            <lb ed="#E"/>quia natura non dicitur praescita quantum ad praesens praecise unde illa non posset verificari stan<lb ed="#E"/>te 
+            unione ita quod non stat quod haec natura semper est unica quod est praescita quia 2m infert 
+            <lb ed="#E"/>quod peccat peccavit vel peccabit 
+          </p>
+          <p xml:id="l133-ocpaac">
+            ultima regula per modum doctrinae mihi propositiones concessae per sacram 
+            <lb ed="#E"/>scripturam et ecclesiam concorditer debent <unclear>d</unclear> absolute concedi et exponi conformiter ad sensum articuli 
+            <lb ed="#E"/>unde si reperiatur quod christus sit creatura datur regula sic resolvendi et consimiles propositiones 
+            <lb ed="#E"/>id est christus est suppositum habens naturam creatam Si reperitur quod christus non est creatura id est 
+            <lb ed="#E"/>christus habet talem naturam assumptam quod vi ipsius non incipit esse Item christus est 
+            <lb ed="#E"/>passibilis id est habet naturam possibilem est inpassibilis id est habet naturam inpassibilem et sic 
+            <lb ed="#E"/>resolute non contradicunt Et sic loquuntur quandoque doctores aequivoce quod quandoque concedunt et quandoque ne<lb ed="#E"/>gant 
+            eadem propositionem Et hoc fuit quandoque ex necessitate quia vigente aliqua haeresi scandalam 
+            <lb ed="#E"/>fuisset uti talibus propositionibus
+          </p>
+        </div>
+        <div>
+          <head xml:id="l133-Hcorria">Corollaria</head>
+          <p xml:id="l133-sednph">
+            Sequitur ex praedictis quod humanitas dimissa et ab alio supposito 
+            <lb ed="#E"/>assumpta illud dimissum et suae proprie subsistentiae relinqueretur esset homo et 
+            <lb ed="#E"/>tamen non esset christus quia christus est verbum dei et supponit praecise pro verbo dei et non pro hac 
+            <lb ed="#E"/>humanitate 
+          </p>
+          <p xml:id="l133-peuues">
+            Potest dici ulterius quod dimissa humanitate verbum dei desineret eo filius 
+            <lb ed="#E"/>virginis quia denominatio concretiva conpetit de praesenti ratione habitudinis praesentialis modo 
+            <lb ed="#E"/>non sequitur hunc humanitatem tractatam a virgine igitur nunc est virginis filius patet 
+            <lb ed="#E"/>ex regulis patet ex regulis Et sic haberet patrem solum in divinis et aeternum etc
+            <pb ed="#E" n="178-r"/>
+            <lb ed="#E"/>Infero consequenter quod probabiliter posset dici quod homo dimissus scilicet petrus non est filius virginis 
+            licet sua natura fuisset de virgine tracta quia tunc non fuit suppositum
+          </p>
+          <p xml:id="l133-sancis">
+            Item assumpta 
+            <lb ed="#E"/>ab alio supposito cum citatricibus non sequitur quod iste homo sunt passus intente quia natura 
+            <lb ed="#E"/>increatae patiebatur patiebatur quando non erat in hoc supposito ideo non communicatur sibi 
+            <lb ed="#E"/>hoc praedicatum
+          </p>
+          <p xml:id="l133-eqsqmc">
+            Sequitur ulterius quod si verbum assumeret materiam <del>mulieris</del> filii alicuius mulieris 
+            <lb ed="#E"/>non propter hoc esset filius illius mulieris vel non denominaretur patet quia est aliquod suppositum 
+            <lb ed="#E"/>quia quod naturae competebat hoc erat in alio supposito Si quaeritur quam habebit habitudinem 
+            <lb ed="#E"/>ad beatam quae sit illa mater si non sit filius eius videtur quod possit secum contrahere matrimo<lb ed="#E"/>nialiter 
+            negatur consequentia quia licet non sit filius nec <unclear>activeat</unclear> sibi in gradu nominato nichilominus 
+            <lb ed="#E"/>modo potest contrahere nam visa intentione legis prohibentis non potest quia est propinquitas naturae 
+            <lb ed="#E"/>licet non suppositi quia natura sua nata fuit de tali muliere ideo non congruit quod 
+            <lb ed="#E"/>secum coniungatur
+          </p>
+          <p xml:id="l133-cqqaud">
+            Consequenter infertur quod haec consequentia non valet verbum assumit naturam 
+            <lb ed="#E"/>3o annorum igitur est tertio annorum igitur <del rend="expunctuation">suppositum quia arguitur de praesenti</del> Breviter censendus est aetatis 
+            <lb ed="#E"/>unius diei si assumpsit per unum diem ante quia in praeterito non conpetit
+          </p>
+          <p xml:id="l133-schpta">
+            Contra haec 
+            <lb ed="#E"/>natura est 3o annorum igitur suppositum quia arguitur de praesenti dicitur quod <del rend="expunctuation">aliquis</del> antecedens est aliqualiter de 
+            <lb ed="#E"/>praeterito quia aequivalet isti tantum duravit 
+          </p>
+          <p xml:id="l133-ascmpd">
+            Alii sunt casus particulares sequentes ex istis 
+            <lb ed="#E"/>quos ponit <ref><name ref="#NicholasOresme">Orem</name> in libro suo <title ref="#deCommunicationeIdiomatum">de communicationibus ydiomatum</title></ref> etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
