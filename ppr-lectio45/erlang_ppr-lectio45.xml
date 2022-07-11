@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 45, de Fruitio [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 44, de Notitia [Erlangen Transcription]</title>
+          <date when="2018-07-22">July 11, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-07-11" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="82-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio45">
+        <head xml:id="ppr-l45-Hldldld">Lectio 45, de Fruitione [Palatine Transcription]</head>
+        <div xml:id="ppr-l45-Dd1e85">
+          <head xml:id="ppr-l45-Hspaiec">Solutiones pro aliquibus rationibus prius factus quod non solum
+            Deo est fruendum, immo etiam creatura
+          </head>
+          <p xml:id="ppr-l45-crriec">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>Consequenter restat solvere aliquas rationes prius factas scilicet in lectione inmediate praecedente 
+            <lb ed="#E"/>Ad probandum quod non solum deo sit fruendum ymmo etiam creaturum
+          </p>
+          <div xml:id="ppr-l45-Dd1e99">
+            <head xml:id="ppr-l45-Hrqcedp">Ratio: quod creatura in casu esse Deo praeferenda</head>
+            <p xml:id="ppr-l45-uchtep">
+              Circa hoc ponebatur 
+              <lb ed="#E"/>casus in quo creatura sit praeferenda deo ut si <name>sortes</name> fruatur deo et videat proximum 
+              <lb ed="#E"/>in exemplis necessitate constitutum etc
+            </p>
+            <p xml:id="ppr-l45-isisad">
+              et si ita detur staret creaturam numquam frui deo et de<lb ed="#E"/>bite 
+              tamen probatur sit aliquis adultus baptizatus et occurrat proximus in prima hora constitutus in extrema 
+              <lb ed="#E"/>necessitate tunc tenetur subveniri illi In 2a hora occurrat alius proximus et si consequuntur usque ad finem 
+              <lb ed="#E"/>vitae tunc numquam fruetur deo
+            </p>
+            <p xml:id="ppr-l45-iaphdi">
+              Confirmatur creatura non tenetur frui deo probatur
+            </p>
+            <p xml:id="ppr-l45-pepdda">
+              primo inductione 
+              <lb ed="#E"/>ex parte temporis quia nec in <c>a</c> tempore nec in <c>b</c> ymmo quocumque dato in illo potest licite frui
+            </p>
+            <p xml:id="ppr-l45-pseagi">
+              Secundo probatur inductione ex parte actus quia nullum actum fruendi tenetur habere creatura quia 
+              <lb ed="#E"/>quocumque dato cum alio potest frui Etiam pro conclusio ad intentionem quia quocumque data cum 
+              <lb ed="#E"/>minori potest frui deo igitur non obligatur ad aliquem gradum 
+            </p>
+          </div>
+          <div xml:id="ppr-l45-Dd1e172">
+            <head xml:id="ppr-l45-Hrarrar">Responsio ad rationem</head>
+            <div xml:id="ppr-l45-Dd1e177">
+              <head xml:id="ppr-l45-Hprprpr">Prima responsio</head>
+              <p xml:id="ppr-l45-airdsf">
+                Respondendum est ad ista primo cum 
+                <lb ed="#E"/>distinctione nam sic fruens deo vel fruitur eo ex officio occupatus circa divinum cultum specialiter 
+                <lb ed="#E"/>sicut sacerdos in consecutione corporis dominici vel est persona privata quae contemplando ex devo<lb ed="#E"/>tione 
+                fruitur deo 
+              </p>
+              <p xml:id="ppr-l45-ipcspe">
+                In primo casu non teneretur subvenire proximum dimittendo divinum officium 
+                dicit <name ref="#Holcot">holkot</name> quod in sumptione corporis christi tenetur summe corpus christi potius quam subvenire 
+                <lb ed="#E"/>proximo
+              </p>
+              <p xml:id="ppr-l45-saivaa">
+                In 2o casu dicit quod tenetur subvenire proximo Et hoc secundum duplicem ymaginationem 
+                <lb ed="#E"/>prima quia non semper tenemur ad meliora <del rend="strikethrough"><!-- deletion a bit unclear -->consequentia tenet</del> patet nam sit aliquod praeceptum respectu dilectionis 
+                <lb ed="#E"/>proximi et sit aliquod consilium arduissimum quod est summae perfectionis et essent incompassibilia teneretur 
+                <lb ed="#E"/>quis facere praeceptum et non consilium nam dimissio consilii non est peccatum sed dimissio praecepti
+                <pb ed="#E" n="62-v"/>
+                <lb ed="#E"/>est peccatum ideo ratione obligationis debemus magis obedire quam ratione bonitatis obiecti in se Sic 
+                <lb ed="#E"/>in proposito licet fruitio quantum est de se est melior quam subventio proximi tamen in illo casu 
+                <lb ed="#E"/>esset obligatus pro illo tempore ad subveniendum proximo et non ad fruendum deo
+              </p>
+            </div>
+            <div xml:id="ppr-l45-Dd1e251">
+              <head xml:id="ppr-l45-Hsrsrsr">Secunda responsio</head>
+              <p xml:id="ppr-l45-sriemm">
+                Secundo respondetur iuxta 
+                <lb ed="#E"/>prius dicta quod in isto casu subvenire proximo non velle subvenire proximo ordinate 
+                <lb ed="#E"/>est frui deo patet quia ex dilectione proximi propter deum et in illo magis diligi deus quam proximum 
+                <lb ed="#E"/>Ideo casus videtur habere ymaginationem falsam nam licet dimittetur fruitio dei in hac specie scilicet quae haberet 
+                <lb ed="#E"/>praecise deum pro obiecto tamen non dimittetur fruitio dei et sic patet quod quis potest converti ad proximum dimit<lb ed="#E"/>tendo 
+                fruitionem quae habet praecise deum pro obiecto sed ex hoc non sequitur illud scilicet converti ad proximum 
+                <lb ed="#E"/>est melius
+              </p>
+              <p xml:id="ppr-l45-sipnss">
+                Sed contra quaeritur tunc utrum sit peccatum frui deo Ponamus casum quod quis fruatur 
+                <lb ed="#E"/>deo et videat proximum constitutum in extrema necessitate et non subveniat sibi
+              </p>
+              <p xml:id="ppr-l45-dqccsp">
+                Breviter casus est impossibilis secundum legem nunc <unclear>currentem</unclear> quia 
+                eo ipso quo diligeret deum super 
+                omnia ad impleret omnia intendo 
+                tenere quod non stat quod aliquis sit 
+                in peccato mortali et diligat deum 
+                super omnia et fruitio esset distincta 
+                ab usu ipsa inclinaret ad dilectionem 
+                proximi
+              </p>
+            </div>
+            <div xml:id="ppr-l45-Dd1e310">
+              <head xml:id="ppr-l45-Htrtrtr">Tertia responsio</head>
+              <p xml:id="ppr-l45-taaame">
+                Ad illud quod 
+                addebatur sit aliquis adultus et baptizatus etc
+              </p>
+              <!-- paragraph break likely not needed -->
+              <p xml:id="ppr-l45-tvqfsc">
+                breviter responsum 
+                est quod diligendo proximum diligit 
+                deum quia dilectio dei ordinata 
+                proximi est magis dilectio 
+                dei quam proximi <unclear>Advita?us</unclear> tamen 
+                gratia argumenti quod fruitio distinguatur 
+                ab usu etc sit ita quod aliquis 
+                subveniat proximo in prima 
+                hora quia habet usum rationis
+              </p>
+              <p xml:id="ppr-l45-ttqano">
+                et sic consequenter breviter potest dici quod stante 
+                illo casu ipse numquam fuit obligatus 
+                ad exeundum in actualem 
+                <cb ed="#PV" n="b"/>
+                dei dilectionem Ideo sufficeret habitualis 
+                quia haberet promptitudinem exeundi 
+                in actum quando occurreret materia fruendi 
+                sed quia occupatus est circa illud 
+                in quo meretur sufficit habitualis 
+                dilectio
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l45-Dd1e355">
+            <head xml:id="ppr-l45-Hoqqvgs">Obiectio: Quod quis sine fide, caritate, vel gratiam
+              salvetur</head>
+            <p xml:id="ppr-l45-yciasm">
+              <!-- left off -->
+              Circa istam materiam dicit 
+              aliqui quod staret aliquem salvari 
+              qui tamen numquam in vita sua 
+              habuisset fidem vel gratiam casus 
+              potest poni sic Sit aliquis adultus 
+              qui primo habet usum rationis in 
+              <c>a</c> instanti iste tenetur se disponere 
+              debite ad hoc quod suscipiat verum 
+              dei cultum et veram legem et iste 
+              requirit dispositionem primam 
+              et sic paganus qui sit in peccato 
+              originali vel ad vultus qui sit 
+              in peccato mortali iste tenetur 
+              se disponere ad susceptionem 
+              legis gratiae et fidei et istud non 
+              potest fieri subito ergo requiritur 
+              mora ponamus ergo quod sicut 
+              tenetur se debite disponere 
+              in tota illa mora quod ita <unclear>faciat</unclear> 
+              et quod in instanti terminante illam moram 
+              ipse primo non sit et decebat 
+              in isto casu videtur multum probabile 
+              quod iste salvabitur Nam ipse 
+              sufficienter fecit quod in se sint 
+              nec omisit Nam quanto cito 
+              potuit se disposuit ergo dispositio 
+              habebit suum effectum ac si talis 
+              adultus maneret
+              
+              Advertendum 
+              quod doctores considerant quod in gratificatione 
+              aliquid est ex parte creaturae 
+              scilicet dispositio brevia quae est sine 
+              gratia gratificante qua posita 
+              deus infundit vel facit illud 
+              quod requiritur ex parte sui ad 
+              solum deum spectat infundere
+              gratiam
+             </p>
+            <p xml:id="ppr-l45-esvetd">
+              Similiter potest poni casus 
+              quod aliquis ab instanti sui baptismi 
+              <pb ed="#PV" n="83-v"/>
+              <cb ed="#PV" n="a"/>
+              continue augeat suam gratiam 
+              et ponatur quod praecipiatur sibi quod 
+              eliciat actum et non limitetur 
+              sibi tempus vel instans <unclear>in quo</unclear> 
+              eliciat et sufficiat ad impletionem 
+              praecepti quod eliciat in aliquo instanti 
+              suae vitae et supponitur quod ille actus 
+              de sua natura instanti possit elicitur 
+              moriatur absque hoc quod eliceat 
+              <c>a</c> actum Tunc iste est transgressor 
+              quia non implevit mandatum 
+              et non penitet quia non potet 
+              ex quo non est in statu penitendi 
+              nec penituit Est ergo transgressor 
+              mandati dei quia fecit contra 
+              legem dei et non reperavit et ista 
+              est indignitas creaturae et talis 
+              creatura est indigna gratia quia gratia 
+              deus non inclusit sibi est indignus 
+              et semper in vita sua fuit 
+              in gratia quia semper ille actus 
+              fuit producibilis in instanti ut supponitur 
+              quia quocumque instanti dato potuit 
+              et etiam post illud quia quocumque 
+              instanti ergo signato ante illud primum instans sui non 
+              esse potuit etc fuit tunc medium 
+              nam illud etiam aliud signatum potest 
+              vocari probabiliter
+            </p>
+          </div>
+          <div xml:id="ppr-l45-Dd1e453">
+            <head xml:id="ppr-l45-Hraorao">Responsio ad obiectionem</head>
+            <p xml:id="ppr-l45-ecipsg">
+              circa istam materiam 
+              quod ubi praecedit aliqua mora 
+              terminata ad aliquod instans iudicandum 
+              est in illo instanti quantum 
+              ad habitudinem creaturae ad si 
+              creatura esset in huiusmodi instanti 
+              verbi gratia ponam extra etiam in aliquo 
+              quod est forte clarius ut poni 
+              solet casus quod sint <name>sortes</name> et <name>plato</name> 
+              quid sint in aequali gratia et operentur 
+              meritorie taliter quod in utroque 
+              intendatur gratia aequaliter per unam 
+              totam horam et in fine horae <name>sortes</name> 
+              decedat absque hoc quod proficiat in 
+              gratia et <name>plato</name> maneat 
+              
+              tunc <name>plato</name> 
+              habebit gratiam ut <unclear>10</unclear> ut supponitur 
+              tunc glora sibi currunt proportionaliter tunc 
+              de isto qui decedit quaeritur 
+              <cb ed="#PV" n="b"/>
+              quantam gloriam habebit numquam 
+              habuit gratiam ut 10 quia dato quocumque 
+              instanti antequam decederet 
+              inter illud et instans mortis est tempus 
+              medium et in illo acquisivit gratiam 
+              <unclear>quocumque <!-- possible correction --></unclear> dato antequam decederet 
+              non habuit gratiam ut 10 ideo in isto 
+              iudicandum est de praemio <name>sortis</name> 
+              ac si <name>sortes</name> esset in alio instanti in 
+              quo decedit et sic tantum habebit ac si 
+              maneret in vita pro illo instanti unde 
+              praecedenti acquirit <unclear>quaestionibus</unclear> gradum citra 
+              10 Ideo per nichil excedit gratia 
+              <name>platonis</name> gratiam <name>sortis</name> Ita proportionaliter dico 
+              de bene vel male agere
+              
+              Si <name>Sortes</name> 
+              esset in vita in primo casu ipse 
+              haberet gratiam et virtutes sibi infusas 
+              ergo deus infundit sibi 
+              
+              Et in alio casu esset in peccato in instanti et 
+              in quo sic moritur vel decedit 
+              verum est quod circa materiamde illo 
+              casu quo quis disponeret se et 
+              decederet etc utrum salvaretur 
+              probabile est quod sic Sed qui vellet 
+              propter <unclear>positiva</unclear> ecclesiae posset dicere 
+              quod casus non est possibilis lege stante 
+              nam deus ordinavit quod qui cumque 
+              salvabitur realiter fuit 
+              in via decoratus virtutibus 
+              et gratia et ergo casus non stat 
+              
+              Ideo in illo casu quod deus videret 
+              sufficientem diligentiam et intentionem 
+              continua?is versimilem est quod praevisa 
+              morte deus praeveniret eum in 
+              donis suis 
+              
+              Istud reputo satis 
+              probabile propter illa quae communiter 
+              ponit scriptura et theologia nostra 
+              vel diceretur quod sufficit quod ista creatura 
+              fecerit quod in se fuit et disposuerit 
+              se ad istas virtutes et gratiam 
+              suscipiendas
+              
+              
+              
+              Et circa istam materiam potest probabiliter nominari
+              quod, ubi praecedit aliqua mora terminata ad aliquod instans,
+              iudicandum est in illo instanti quantum ad habitudinem creaturae
+              ac si creatura esset in illo instanti. verbi gratia solet poni
+              casus: sint <name ref="#Sortes">sortes</name> et <name ref="#Plato"
+                >plato</name>, qui sint in aequali gratia et
+              operantur taliter quod meritorie quod gratia intendatur in utroque
+              aequaliter
+              per unam totam horam. et in fine horae <name ref="#Plato">plato</name>
+              decedat et
+              <name ref="#Plato">sortes</name> Remaneat sine profectu gratiae, tunc
+                <name ref="#Plato">sortes</name>, qui Remanet habebit gratiam ut decem, et tunc sibi
+              correspondebit gloria
+              proportionalis suae gratiae.</p>
+            
+            <p xml:id="ppr-l45-etdact">Et tunc de <name ref="#Plato">platone</name> qui decedit
+              quaeritur
+              quam gloriam habebit, quia numquam habuit gratiam, ut decem,
+              quia dato instanti in quo habuisset inter illud et instans
+              suae mortis est instans medium, et in illo acquisiuisset
+              gratiam. ideo iudicandum est in isto casu de praemio <name ref="#Plato"
+                >platonis</name>
+              ac si maneret in instanti in quo decedit. Ita dico de
+              bene vel male agere, si aliquis disponit se per totum tempus,
+              tunc in illo instanti temporis si decebat iudicandum est
+              ac si esset. unde si <name ref="#Sortes">sortes</name> semper fuisset in
+              tota vita
+              sua peccator et disponeret se. et in fine dispositionis
+              suae moriretur, tunc iudicandum esset de <name ref="#Sortes"
+                >sorte</name> ac si
+              <unclear>maxamisset[?]</unclear> in illo instanti. ita etiam si sic,
+              aliquis
+              qui fuerit in gratia per totam vitam suam et sibi praecipiatur
+              aliquid fieri quod possit adimplere in quolibet instanti vitae
+              suae, et non Impleat, tunc iudicandum est de illo quod esset
+              in peccato ac si maneret et fuisset datum praeceptum usque
+              ad certum tempus.</p>
+            <p xml:id="ppr-l45-veqint">verum est quod circa materiam de illo casu in quo
+              quis disponeret se et in tempore dispositionis decederet,
+              tunc quaereretur, utrum salvaretur. tamen dicitur quod casus non est
+              possibilis le
+              ge stante, quia deus ordinavit, quia quicumque salvabitur realiter
+              fuerit vel sit decoratus virtutibus et gratia. et sic non erit
+              casus possibilis, quia ordinatum est quod nullus salvabitur, quoniam
+                <unclear>habuerit[?]</unclear>
+              gratiam vel virtutem in vita sua, tamen viso casu quo quis
+              se sic disponeret deus praeveniret mortem suam et illud
+              est satis probabile propter scripturam, et illud quod ponit scriptura,
+              quia sine fide impossibile est deo placere. et sic deus sibi infun
+              deret fidem et gratiam, tamen qui vellet tenere aliam viam di
+              ceretur quod sufficit quod iste fecerit quod in se est, et se dipo
+              suerit ad gratiam sustinendam.</p>
+            <p xml:id="ppr-l45-ciiint">
+              Consequenter quia 
+              tactum est quod quaocumque instanti dato 
+              <pb ed="#PV" n="84-r"/>
+              <cb ed="#PV" n="a"/>
+              numquam in illo tenetur quis frui 
+              deo potest dici quod licet in nullo tamen 
+              tenetur in aliquo
+            </p>
+            <p xml:id="ppr-l45-sirtsd">
+              Sed ista responsio 
+              non videtur sufficiens primo quod 
+              creatura existens in culpa tenetur 
+              frui deo etc pro tunc saltim tenetur 
+              se disponere et ferre quod in se est ergo 
+              realiter obligatur ad fruendum deo pro 
+              tunc
+            </p>
+            <p xml:id="ppr-l45-ictpso">
+              Item creatura tenetur quotienscumque 
+              occurrit incipitur praecepti frui 
+              deo
+            </p>
+            <p xml:id="ppr-l45-icttrd">
+              etiam tenetur facere occurrere 
+              sibi materiam fruendi deo quia tenetur 
+              ad fidem et ad deum cultum 
+              et ideo 
+              etiam tenetur pro aliquo tempore 
+              Etiam quia quolibet die recipit 
+              beneficia et tenetur retribuere et non 
+              nisi frui deo
+            </p>
+            <p xml:id="ppr-l45-itftfd">
+              <!-- dbcheck division here -->
+              Et hoc secundum gradus 
+              et status nam praelati maxime 
+              et quasi continuo quantum <unclear>praelatas</unclear> ad est 
+              nam vita eorum <del>d</del> debet esse activa 
+              et contemplativa
+            </p>
+            <p xml:id="ppr-l45-updeps">
+              praeceptum de dilectione 
+              dei quantum ad habitum 
+              obligat pro ovum tempore dicunt doctores 
+              quod praeceptiva affirmativa 
+              obligant semper et non prosper ut 
+              obligatis creatura naturalis semper 
+              ad habendum habitualem dilectionem 
+              id est quod sit in caritate quia illa habitualis 
+              dilectio non eset nisi caritas vel 
+              obligatur semper id est numquam est 
+              dispensatio dicunt ulterius quod 
+              negativa obligant semper et pro semper
+            </p>
+          </div>
+          <div xml:id="ppr-l45-Dd1e649">
+            <head xml:id="ppr-l45-Hqpafqn">
+              Quod praecepta affirmativa obligant ad frequentius quam
+              negativa
+            </head>
+            <p xml:id="ppr-l45-ctiipn">
+              Circa 
+              istam materiam advertendum quod praecepta 
+              affirmativa obligant ad frequentius 
+              quam negativa et sic dico 
+              contrarium illius dicti communis nec 
+              videtur illud dictum commune bene 
+              fundatum
+              
+              Advertendum quod ad 
+              implere praeceptum negativum non est 
+              non facere prohibitum nec sufficit 
+              ad praecepti negati inpletionem 
+              Nam tunc quilibet dormiens 
+              ad impleret infinita praecepta
+              <cb ed="#PV" n="b"/>
+              et infinite meretur quia infinitorum 
+              malorum nullum faceret vel quodlibet 
+              non faceret et sic dormiens infinite 
+              meretur 
+              
+              Et per consequens ad impletionem 
+              mandati ultra requiritur alterum 
+              duorum scilicet actualis fuga voluntatis 
+              et refutatio obiecti prohibiti verbi 
+              gratia ad implendum praeceptum 
+              defuncto requiritur praesentia obiecti 
+              furabilis et motio <unclear>ad hoc</unclear> ex parte 
+              voluntatis et requiritur detestatio 
+              et fuga huius et <unclear>per hoc</unclear> ad impletur 
+              adimpletio illis mandati
+              
+              Et 
+              illa volitio est dei dilectius et fruitio 
+              Et iste est nobilior gradus 
+              ad implendi praeceptum negativa
+              
+              2us gradus est quod moventi materia 
+              furti quod voluntas resistat huiusmodi 
+              motioni id est non eliciat velle persecutum 
+              nec etiam fugitivum sed solum 
+              resistat absque hoc quod producat 
+              velle vel nolle et sic in illo 
+              casu ad impleret absque aliquo 
+              actu positivus
+              
+              Et sic sicut aliqua 
+              pura omissio esset in culpa
+              
+              Item 
+              aliqua pura omissio esset 
+              quod <unclear>a?modo</unclear> mereri et inplere 
+              praeceptum tamen magis primo 
+              modo 3am tamen viam <unclear>reputo</unclear> 
+              scilicet quod per non facere etc sic 
+              dictum est
+              
+              
+              
+              Circa tamen istam materiam est advertendum praecepta affirmativa
+              obligant ad frequentius quam negativa contra commune dictum.
+              unde dicitur communiter quod negativa obligant ad semper
+              <cb ed="#SV" n="252vb"/>
+              et pro semper, sed affirmativa ad semper, sed non pro semper, id est,
+              obligant
+              ad semper habere habitum, non tamen pro semper obligant habere actum
+              circa huiusmodi praecepta affirmativa.</p>
+            <p xml:id="ppr-l45-uaisim">et illud non est prima facie fun
+              damentum loquendo de impletione praecepti neganti. unde adimplere
+              praeceptum negativum non est non facere illud quod est prohibitum.
+              nec sufficit ad praecepti neganti impletionem. probatur quia tunc
+              quilibet dormiens impleret in finita praecepta negativa et
+              infinite meretur, quia infinitorum malorum prohibitorum nullum
+              faceret, et sic infinite meretur, tamen dormiens. et per consequens
+              adimpletionem praecepti negativi ultra non facere illud
+              quod prohibetur Requiritur alterum duorum, scilicet actualis fuga
+              et Refutatio obiecti prohibiti. verbi gratia ad impletionem praece
+              pti de non furari Requiritur praesentia Rei furabilis et
+              motio ad hoc. et tunc ex parte voluntatis Requiritur dete
+              statio illius et fuga, quia voluntas Refutat sibi prohi
+              bitum.</p>
+            <p xml:id="ppr-l45-epesim">et posset etiam poni gradus secundus quod adveniente materia
+              furti voluntas Resistat tali motioni, id est, non eli
+              ciat velle <unclear>prosequutum[?]</unclear>, nec volitivum, sed solum
+              Resistat
+              tunc ille est gradus imaginabilis quod voluntas impleret praece
+              ptum negativum absque actu, et tunc sicut aliqua pura obmi
+              ssio boni esset peccatum, ita aliqua pura obmissio ma
+              li praesentanti sub certis conditionibus esset meritum. tamen primam
+              viam magis accepto quia secundum aliam viam, tunc oportet concedere
+              quod dormiens infinita praecepta negativa impleret. et sic infinite
+              mereretur.</p>
+            <p xml:id="ppr-l45-esfnel">
+              Sequitur quod frequentius 
+              obligamur ad inplendum praecepta 
+              affirmativa quam negativa patet 
+              quia obligamur frequenter 
+              et tenemus exire in actum 
+              dilectionis dei scilicet propter 
+              gratiarum actiones et propter cultum 
+              ad quem tenemur
+              <!-- break point -->
+              Quantum ad praecepta 
+              negativa non videmur obligari 
+              nisi <unclear>inquantum <!-- possible correction --></unclear> materia occurit et 
+              sic aliquis servaret legem dei 
+              et tamen non ad impleret praecepta 
+              dei negativa quia non occurrit materia 
+              Et ideo quia ista materia frequenter 
+              occurrit multi abstulerunt se a 
+              mundo et duxerunt vitam solitariam
+              
+              Ad habendum intellectum 
+              communis modi loquendi quod obligant 
+              quod semper non intelligitur de totali 
+              esse sed intelligitur quod executio 
+              non est licita verum est tamen quod non 
+              exequi non est ad implere nisi occurrat 
+              materia sicut dictum est
+              
+              Ad 
+              aliam rationem quod nulla fruitio 
+              cadit sub praecepto quia etc 
+              probabile est mihi quod etiam creatura tenetur 
+              in certo gradu frui deo et hoc 
+              secundum maiorem notitiam habitualem 
+              acquisitum vel infusam 
+              sibi vel etiam statum nam ad maiorem 
+              gradum obligatur theologus 
+              doctus praelatus etc quam 
+              vetula nec sufficeret tantus 
+              gradus in tali unde sicut aliqui 
+              obligantur frequentius quantum 
+              ad partes temporis Ita etiam intensius 
+              quantum ad gradus dilectionis 
+              secundum differentias statum personarum 
+              <unclear>quem</unclear> de <unclear>argumento</unclear> probante quod ad nullum 
+              sufficit quod aliquod argumentum est sophisticum 
+              et non procedit ad mentem 
+              loquentium in ista materia 
+              
+              Si vollemus dicere quod ad nullum etc 
+              tunc dicendum esset quod non sciret 
+              quod aliquis fruetur deo quin ad impleret 
+              praeceptum et fruetur et sic 
+              idem actus esset consilii et 
+              praecepti esset sic praecepti quia per ipsum 
+              realiter ad impletur praeceptum 
+              
+              etiam esset consilii obligamur 
+              ad multa quae sunt <unclear>accensiva</unclear> 
+              devotionis
+              
+              
+              Et sic frequentius obligamur ad
+              implendum praecepta affirmativa quam negativa. patet quia frequenter
+              obligamur exire in actum dilectionis dei, scilicet, vel propter
+              actiones gratiarum vel quia materia occurrit et sic de aliis, vel
+              propter
+              cultum. Sed ad praecepta negativa non obligamur, nisi materia
+              occurrat. Unde si non occurreret materia furti non adimplerem
+              praeceptum de non furando, et sic staret quod aliquis in vita sua
+              non adimpleret praecepta negativa, quia nullum occurreret. Sed
+              quia transgressio negativorum est valde mala, ideo multi
+              se posuerunt in Religione, licet non propter hoc adimpleant
+              illa negativa, quia non eis occurrit materia, tamen ad habendum
+              communem intellectum, quando dicitur praecepta negativa obligant ad
+              semper
+              et pro semper, hoc inter de aliquali impletione non
+              de totali, quia illud quod est non furari non est totalis
+              adimpletio illius praecepti, non furaberis, tamen executio
+              numquam est licita.</p>
+            <p xml:id="ppr-l45-iopsiv">ideo omnino prohibetur ad semper et non
+              pro semper non exequi, licet exequi non sit adimplere
+              quantum ad aliam rationem nulla fruitio cadit sub praecepto,
+              <cb ed="#SV" n="253ra"/>
+              quia quocumque dato per alium potest adimplere, etiam quocumque
+              dato actu possum per Remissionem adimplere quantum ad
+              illam rationem probabile est mihi quod creatura tenetur in certo gradu
+              frui deo, et hoc secundum notitiam habitualem acquisitam vel in
+              fusam sibi, nam ad maiorem gradum obligatur theologus vel
+              praelatus quam vetula. nec sufficeret tantus gradus in sic
+              cognoscente sicut in vetula.</p>
+            <p xml:id="ppr-l45-usavtg">unde sicut aliqui obligantur fre
+              quentius quantum ad partes temporis, ut dictum est, Ita intensius
+              aliqui obligantur quantum ad partes dilectionis. De alio
+              sufficit quod obligentur ad aliquem, licet ad nullum obligemur,
+              et illud est sophisticum. nec procedit ad intensionem lo
+              quentium, tamen si intelligeretur quod quilibet minimus gradus dile
+              ctionis sufficeret, et tamen est praeceptum frui deo, et tunc
+              diceretur quod numquam adimpleretur praeceptum quoniam ibi esset
+              consilium et adimpleret consilium. unde praeceptum est quantum ad
+              fruendum. Sed consilium est quantum ad fruendum in tanto vel
+              tanto gradu.</p>
+          </div>
+          <div xml:id="ppr-l45-Dd1e806">
+            <head xml:id="ppr-l45-Hconsio">Conclusio</head>
+            <p xml:id="ppr-l45-espdde">et sic patet qualiter debemus diligere deum
+              et frui deo, et tenetur exire in actum fidei. unde
+              imaginandum est quod actus fidei nos facit exire in actum
+              dilectionis. Unde, quia eximus in actum fidei de incarnatione
+              et de creatione mundi de Redemptione et de passione
+              et sic de aliis, ideo circa talia multas dilectiones debemus elicere,
+              etc.</p>
+          </div>
+        </div>
+        <div>
+          <head>Conclusiones</head>
+          <p>
+            Circa distinctionem 
+            43am prima oppinio quod deus 
+            non potest facere alio modo quem facit 
+            probatur quia non potest facere nisi quod 
+            est bonum et iustum fieri et stat 
+            quod deus quidquid agit iustissime 
+            optime et ordinate et
+            <cb ed="#PV" n="b"/>
+            sapientissime et ergo repugnat 
+            sibi praeter illa agere quia non 
+            habuisset bonum consilium de 
+            agendo et ordinando Ipsa opinio 
+            deficit et resoluit se ad <unclear>iudicium</unclear> 
+            nostram scilicet iudicando quod illud <add place="above-line">sit</add> iustum 
+            et debitum in ordine ad 
+            <unclear>n?as</unclear> unde ultima resolutio 
+            debet esse ad divinam voluntatem 
+            tamquam ad <unclear>rectam</unclear> optimam quae 
+            est prima unde eo ipso quod deus 
+            vult aliquid fieri illud est 
+            iustissimum dicit <name>magister</name> quod ly 
+            <mentioned>debet</mentioned> pro ut dicit obligationem 
+            non attribuitur deo si tamen 
+            ly <mentioned>debet</mentioned> significet decentia deus non 
+            potest facere nisi quod debet id est decet 
+            materia istius distinctionis resolvitur 
+            ad duo proprium deus <del>d</del> potest multa 
+            facere quae non faciet 2m deus 
+            potest multa velle quae non volet
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

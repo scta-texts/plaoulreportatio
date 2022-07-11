@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +52,7 @@
           <p xml:id="ppr-l13-ipvias">
             Venio ad haec quomodo fides
             <lb ed="#E" n="7"/>est languorum animae sanativa unde partes <choice><orig>ymaginis</orig><reg>imaginis</reg></choice>  sunt deformatae patet quia potentia conversa
-            <lb ed="#E"/>est <sic>indebilitatem</sic> et pro tanto <unclear>subiecta[?]</unclear> sensualitati
+            <lb ed="#E" n="8"/>est <sic>indebilitatem</sic> et pro tanto <unclear>subiecta[?]</unclear> sensualitati
           </p>
           <div xml:id="ppr-l13-Dd1e3758">
             <head xml:id="pl2Hcppdid">[Circa primum partem: deformitas imaginis Dei]</head>
@@ -63,7 +60,7 @@
               <head xml:id="ppr-l13-Hppippi">[prima pars imaginis]</head>
               <p xml:id="ppr-l13-qeaimf">
                 Sed contra primum fides auget realiter 
-                <lb ed="#E"/>causalitatem intellectionis et reddit ipsum vigorosum et dominativum
+                <lb ed="#E" n="9"/>causalitatem intellectionis et reddit ipsum vigorosum et dominativum
               </p>
               <!-- defense of this position in other edition comes directly after this assertion
                 rather than after the third assertion as in this edition
@@ -74,14 +71,14 @@
               <head xml:id="ppr-l13-Hspispi">[Secunda pars imaginis]</head>
               <p xml:id="ppr-l13-qasope">
                 Contra 2m confert 
-                <lb ed="#E"/>lumen
+                <lb ed="#E" n="10"/>lumen
               </p>
             </div>
             <div xml:id="ppr-l13-Dd1e3797">
               <head xml:id="ppr-l13-Htptptp">[Tertia pars]</head>
               <p xml:id="ppr-l13-pseiab">
                 Contra tertium tollit affectionem temporalem et inducit affectionem spiritualium quia iudicat 
-                <lb ed="#E"/>illa esse nociva ad proprie perfectionis consecutionem et sic ista tria sunt reformativa intellectus
+                <lb ed="#E" n="11"/>illa esse nociva ad proprie perfectionis consecutionem et sic ista tria sunt reformativa intellectus
               </p>
             </div>
             <div xml:id="ppr-l13-Dd1e3819">
@@ -93,46 +90,46 @@
                 <!-- is related to l13-qeaimf 
                 There is NO l13-dppvee to relate to 
                 -->
-                <lb ed="#E"/>de primo patet primo quia ipsa est suprema dispositio potentiae intellectivae hic in via ergo etc
+                <lb ed="#E" n="12"/>de primo patet primo quia ipsa est suprema dispositio potentiae intellectivae hic in via ergo etc
               </p>
               <p xml:id="ppr-l13-cqffav">
-                <lb ed="#E"/>Confirmatur quia fides facit intellectum exire in assensu <unclear>idu[?]</unclear> non apparentis 
-                <lb ed="#E"/>et hoc est maxime virtutis et vigoris quia non est ex apparentia obiecti
+                <lb ed="#E" n="13"/>Confirmatur quia fides facit intellectum exire in assensu <unclear>idu[?]</unclear> non apparentis 
+                <lb ed="#E" n="14"/>et hoc est maxime virtutis et vigoris quia non est ex apparentia obiecti
                 <!-- possible break point -->
                 Confirmatur quia sicut 
-                <lb ed="#E"/>caritas se habet ad voluntatem ita fides proportionaliter ad intellectum Sed caritas reddit voluntatem 
-                <lb ed="#E"/>potentiorem ergo etc posset addi quod fides est potentiae quod sibi annectetur quantum esset ex primaria 
-                <lb ed="#E"/>sui institutione <unclear>virtus[?]</unclear> faciendi miracula <choice><orig>ymmo</orig><reg>immo</reg></choice> ipsa posset dici virtus faciendi mirabilia 
-                <lb ed="#E"/>unde christi videtur hoc confirmare dicens Si habueritis fidem etc dicetis uni monti etc
+                <lb ed="#E" n="15"/>caritas se habet ad voluntatem ita fides proportionaliter ad intellectum Sed caritas reddit voluntatem 
+                <lb ed="#E" n="16"/>potentiorem ergo etc posset addi quod fides est potentiae quod sibi annectetur quantum esset ex primaria 
+                <lb ed="#E" n="17"/>sui institutione <unclear>virtus[?]</unclear> faciendi miracula <choice><orig>ymmo</orig><reg>immo</reg></choice> ipsa posset dici virtus faciendi mirabilia 
+                <lb ed="#E" n="18"/>unde christi videtur hoc confirmare dicens Si habueritis fidem etc dicetis uni monti etc
                 <!-- possible break point -->
-                <lb ed="#E"/>Item <name>apostolus</name> <title>ad <sic>chorintios</sic></title> si habuero fidem transfero montes etiam habenti fidem obe<lb ed="#E" break="no"/>dierit 
+                <lb ed="#E" n="19"/>Item <name>apostolus</name> <title>ad <sic>chorintios</sic></title> si habuero fidem transfero montes etiam habenti fidem obe<lb ed="#E" break="no" n="20"/>dierit 
                 corporalis <unclear>creatura[?]</unclear>
                 <!-- possible break point -->
                 Advertendum quod sane intelligatur nam non dico aliquam 
-                <lb ed="#E"/>creaturam quamcumque habere vim faciendi mirabilia ex se utrum vis miraculorum sit 
-                <lb ed="#E"/>communicabilis creaturae est alia quaestio
+                <lb ed="#E" n="21"/>creaturam quamcumque habere vim faciendi mirabilia ex se utrum vis miraculorum sit 
+                <lb ed="#E" n="22"/>communicabilis creaturae est alia quaestio
               </p>
               <p xml:id="ppr-l13-dtsafm">
-                Dico tamen 2m <name>greg[?]</name> <unclear>indyalo[?]</unclear> quod vis miracul<lb ed="#E" break="no"/>lorum 
+                Dico tamen 2m <name>greg[?]</name> <unclear>indyalo[?]</unclear> quod vis miracul<lb ed="#E" break="no" n="23"/>lorum 
                 est aliquid causatum vel aliquod donum causatum Et si probabiliter potest dici quod virtus 
-                <lb ed="#E"/>faciendi mirabilia communicata creaturae pater vocari fides 
+                <lb ed="#E" n="24"/>faciendi mirabilia communicata creaturae pater vocari fides 
                 <!-- possible break point -->
                 Tria <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> quod illa virtus 
-                <lb ed="#E"/>remansit sibi quantum oportuit scilicet quantum ad fidei sfr?tem[?] de inlgatem[?] et ideo non opor<lb ed="#E" break="no"/>tuit 
+                <lb ed="#E" n="25"/>remansit sibi quantum oportuit scilicet quantum ad fidei sfr?tem[?] de inlgatem[?] et ideo non opor<lb ed="#E" break="no" n="26"/>tuit 
                 fidem postea habere huiusmodi efficaciam
               </p>
               <p xml:id="ppr-l13-incvvs">
                 Et sic potest <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod fides effective 
-                <lb ed="#E"/>concurrat ad mirabilia et credo quod habet certam habitudinem et hoc incerte gradu secundum 
-                <lb ed="#E"/>si se haberet esset virtus faciendi mirabilia slatem aptitudinaliter nescio si actualiter 
-                <lb ed="#E"/>Istud videtur mirabiliter sonare in sacra scriptura et tamen est retinendum a modo loquendi doctorum 
-                <lb ed="#E"/>et ista vis debet merito attribui fidei quia mirabilia erant fidei manifestativa Et ergo quod 
-                <lb ed="#E"/>fides fuerit respectu illorum aliqualiter causa effectiva probabiliter tenere non videtur erroneum
+                <lb ed="#E" n="27"/>concurrat ad mirabilia et credo quod habet certam habitudinem et hoc incerte gradu secundum 
+                <lb ed="#E" n="28"/>si se haberet esset virtus faciendi mirabilia slatem aptitudinaliter nescio si actualiter 
+                <lb ed="#E" n="29"/>Istud videtur mirabiliter sonare in sacra scriptura et tamen est retinendum a modo loquendi doctorum 
+                <lb ed="#E" n="30"/>et ista vis debet merito attribui fidei quia mirabilia erant fidei manifestativa Et ergo quod 
+                <lb ed="#E" n="31"/>fides fuerit respectu illorum aliqualiter causa effectiva probabiliter tenere non videtur erroneum
                 <!-- possible break spot to be added in other edition -->
-                <lb ed="#E"/>Sequitur quod intellectus efficitur victor carnis <choice><orig>dyaboli</orig><reg>diaboli</reg></choice> et mundi per fidem Unde <name>Iohannis</name> 
-                <lb ed="#E"/>nescio quoto capitulo Hoc vincit <title>Ad hebre</title> 7o Sancti per fidem vicerunt regna scilicet 
-                <lb ed="#E"/>potentiarum animae Quantum ad primam partem intelligentiae confert fides intellectui 
-                <lb ed="#E"/>lumen postea sequitur quod tollit affectiones mala Sequliter quaiter confert contra temptationes contra sor<lb ed="#E" break="no"/>tilegia 
+                <lb ed="#E" n="32"/>Sequitur quod intellectus efficitur victor carnis <choice><orig>dyaboli</orig><reg>diaboli</reg></choice> et mundi per fidem Unde <name>Iohannis</name> 
+                <lb ed="#E" n="33"/>nescio quoto capitulo Hoc vincit <title>Ad hebre</title> 7o Sancti per fidem vicerunt regna scilicet 
+                <lb ed="#E" n="34"/>potentiarum animae Quantum ad primam partem intelligentiae confert fides intellectui 
+                <lb ed="#E" n="35"/>lumen postea sequitur quod tollit affectiones mala Sequliter quaiter confert contra temptationes contra sor<lb ed="#E" break="no" n="36"/>tilegia 
                 qualiter non subicitur operationibus <choice><orig>ymaginum</orig><reg>imaginum</reg></choice>
                 <!-- relation of this fragment unclear
                   very similar to l13-pseiab -->
@@ -145,42 +142,42 @@
           <head xml:id="ppr-l13-Hacacac">[Aliqua corollaria]</head>
           <p xml:id="ppr-l13-scqnda">
             Sequitur qualiter 
-            <lb ed="#E"/>lex christi et adventus christi non potuerunt <unclear>praenoscicari[?]</unclear> ex constellationibus Intendo ostendere 
-            <lb ed="#E"/>quod de talibus intromittere se est contra astrologiam
+            <lb ed="#E" n="37"/>lex christi et adventus christi non potuerunt <unclear>praenoscicari[?]</unclear> ex constellationibus Intendo ostendere 
+            <lb ed="#E" n="38"/>quod de talibus intromittere se est contra astrologiam
           </p>
           <p xml:id="ppr-l13-suqiip">
             Sequitur veniendo ad propositum quod ratio probabilis 
-            <lb ed="#E"/>Vigore fidei <corr><del>dicitur si</del></corr> efficitur sanctifica Et hoc dupliciter primo quia intellectus vigorosior et 
-            <lb ed="#E"/>formosior efficitur per fidem Unde proposita ratione[?] quae esset m[?] probabil[?] solum propter intellectus 
+            <lb ed="#E" n="39"/>Vigore fidei <corr><del>dicitur si</del></corr> efficitur sanctifica Et hoc dupliciter primo quia intellectus vigorosior et 
+            <lb ed="#E" n="40"/>formosior efficitur per fidem Unde proposita ratione[?] quae esset m[?] probabil[?] solum propter intellectus 
             <pb ed="#E" n="16-r"/>
-            <lb ed="#E"/>debilitatem et alti de modo habendi fidem infusam ut stat unum esse cui una 
-            <lb ed="#E"/>ratio solum esset probabilis quia non esset capax et alteri esset de?o[?] Capiamus 
-            <lb ed="#E"/>ergo intellectum sub gradu quem habet ex se 2us[?] gradu quem habet ex fide et sic pa<lb ed="#E" break="no"/>teret 
+            <lb ed="#E" n="1"/>debilitatem et alti de modo habendi fidem infusam ut stat unum esse cui una 
+            <lb ed="#E" n="2"/>ratio solum esset probabilis quia non esset capax et alteri esset de?o[?] Capiamus 
+            <lb ed="#E" n="3"/>ergo intellectum sub gradu quem habet ex se 2us[?] gradu quem habet ex fide et sic pa<lb ed="#E" break="no" n="4"/>teret 
             etc quia fides illuminat et ideo magis facit cognoscere
           </p>
           <p xml:id="ppr-l13-suqiel">
             Sequitur quod fides intantum posset 
-            <lb ed="#E"/>augeri quod vigorabit intellectum proprie elevationem status innocentiae quantum ad vivacitatem[?] 
-            <lb ed="#E"/>et vigorem non cum volo dicere quando maneant aliquae penalitates patet quia 
-            <lb ed="#E"/>addit certum gradum ergo si in duplo augetur et sic de aliis
+            <lb ed="#E" n="5"/>augeri quod vigorabit intellectum proprie elevationem status innocentiae quantum ad vivacitatem[?] 
+            <lb ed="#E" n="6"/>et vigorem non cum volo dicere quando maneant aliquae penalitates patet quia 
+            <lb ed="#E" n="7"/>addit certum gradum ergo si in duplo augetur et sic de aliis
           </p>
           <p xml:id="ppr-l13-usqeip">
             Sequitur quod per adiutorium 
-            <lb ed="#E"/>fidei deducuntur articuli fidei in lumine naturali nam in lumine naturali posset fieri rationes 
-            <lb ed="#E"/>probabiles aliquae ad probandum quod deus est <choice><orig>ymo</orig><reg>immo</reg></choice> lumen naturale continet neccessitari articulos fidei principales 
-            <lb ed="#E"/>scilicet deum esse et deum esse trinum et unum Sed deductio[?] latet ex minima distantia 
-            <lb ed="#E"/>a principiis et quia fides potest roborare intellectum et intellectus mediante ex lumine naturali potest venire
+            <lb ed="#E" n="8"/>fidei deducuntur articuli fidei in lumine naturali nam in lumine naturali posset fieri rationes 
+            <lb ed="#E" n="9"/>probabiles aliquae ad probandum quod deus est <choice><orig>ymo</orig><reg>immo</reg></choice> lumen naturale continet neccessitari articulos fidei principales 
+            <lb ed="#E" n="10"/>scilicet deum esse et deum esse trinum et unum Sed deductio[?] latet ex minima distantia 
+            <lb ed="#E" n="11"/>a principiis et quia fides potest roborare intellectum et intellectus mediante ex lumine naturali potest venire
           </p>
           <div xml:id="ppr-l13-Dd1e4203">
             <head xml:id="ppr-l13-Hierier">[Instantia et responsio]</head>
             <p xml:id="ppr-l13-itacee">
-              <lb ed="#E"/>Contra fides non intenditur Quia vetula firmiter credit sicut theologus 
-              <lb ed="#E"/>ibi non intenditur
+              <lb ed="#E" n="12"/>Contra fides non intenditur Quia vetula firmiter credit sicut theologus 
+              <lb ed="#E" n="13"/>ibi non intenditur
             </p> 
             <p xml:id="ppr-l13-rcacai">
-              <lb ed="#E"/>Concedo antecedens et nego consequentiam quia firmitas fidei in intenditur 
-              <lb ed="#E"/>in esse firmitas quia firmitas fidei omnem rationem et apparantiam abnegat et quilibet gradus 
-              <lb ed="#E"/>facit hoc et sic quantum ad firmitatem non capit latitudinem tamen bene inten<lb ed="#E" break="no"/>ditur 
+              <lb ed="#E" n="14"/>Concedo antecedens et nego consequentiam quia firmitas fidei in intenditur 
+              <lb ed="#E" n="15"/>in esse firmitas quia firmitas fidei omnem rationem et apparantiam abnegat et quilibet gradus 
+              <lb ed="#E" n="16"/>facit hoc et sic quantum ad firmitatem non capit latitudinem tamen bene inten<lb ed="#E" break="no" n="17"/>ditur 
               in esse luminositatis et etiam in esse vigorositatis
             </p>
           </div>
@@ -189,7 +186,7 @@
           <head xml:id="ppr-l13-Hdtdtdt">[Definitio theologiae]</head>
           <p xml:id="ppr-l13-epifvt">
             <unclear>Voco</unclear> theologiam 
-            <lb ed="#E"/>deductionem conclusionem fidei ex lumine naturali cum adiutorio fidei postea tamen magis vi<lb ed="#E" break="no"/>debitur 
+            <lb ed="#E" n="18"/>deductionem conclusionem fidei ex lumine naturali cum adiutorio fidei postea tamen magis vi<lb ed="#E" break="no" n="19"/>debitur 
             diffinitio theologiae in speciali
           </p>
         </div>
@@ -198,11 +195,11 @@
           <p xml:id="ppr-l13-eehtep">
             <!-- also includes <p xml:id="ppr-l13-pppabt"> -->
             Sequitur contra <name>de utha magister henricum</name> quod theologia non 
-            <lb ed="#E"/>est firmior fide quia licet sit clarior tamen non est perfectior unde lumen fidei est superioris 
-            <lb ed="#E"/>speciei et nobilioris non obstante quod sit enigmatica notitia 
+            <lb ed="#E" n="20"/>est firmior fide quia licet sit clarior tamen non est perfectior unde lumen fidei est superioris 
+            <lb ed="#E" n="21"/>speciei et nobilioris non obstante quod sit enigmatica notitia 
             <!-- possible break point -->
-            Sequitur quod ad perfectionem theo<lb ed="#E" break="no"/>logice[?] 
-            expedit proficere maxime in fide patet quia est creatura neccessario requisita ad bene theolo<lb ed="#E" break="no"/>gitandum
+            Sequitur quod ad perfectionem theo<lb ed="#E" break="no" n="22"/>logice[?] 
+            expedit proficere maxime in fide patet quia est creatura neccessario requisita ad bene theolo<lb ed="#E" break="no" n="23"/>gitandum
           </p>
           <p xml:id="ppr-l13-ssqpat">
             Sequitur quod 2m proportionem augmenta?ris[?] fidei etc augmentatur theologia
@@ -212,10 +209,10 @@
             <p xml:id="ppr-l13-sqqemd">
               <!-- also includes <p xml:id="ppr-l13-ripeaf"> -->
               Sed 
-              <lb ed="#E"/>quaeritur quomodo intendi potest huiusmodi <unclear>yma?or[?]</unclear> de fide sicut de caritate quia quando occurit 
-              <lb ed="#E"/>materia de deo ad regratiandum et etiam de ca?catur[?] intenditur caritas Item etiam per frequentem 
-              <lb ed="#E"/>exitum habitus in actum intenditur habitus et sic st sibi meritorium si sic frequenter 
-              <lb ed="#E"/>exeat sine ratione
+              <lb ed="#E" n="24"/>quaeritur quomodo intendi potest huiusmodi <unclear>yma?or[?]</unclear> de fide sicut de caritate quia quando occurit 
+              <lb ed="#E" n="25"/>materia de deo ad regratiandum et etiam de ca?catur[?] intenditur caritas Item etiam per frequentem 
+              <lb ed="#E" n="26"/>exitum habitus in actum intenditur habitus et sic st sibi meritorium si sic frequenter 
+              <lb ed="#E" n="27"/>exeat sine ratione
             </p>
           </div>
           <div xml:id="ppr-l13-Dd1e4347">
@@ -223,50 +220,50 @@
               naturalibus possunt deduci duo genera deductionis]</head>
             <p xml:id="ppr-l13-stqntn">
               Quiritur[?] de articulis fidei contingentibus quomodo possunt deduci ex lumine 
-              <lb ed="#E"/>naturali quia articulus incarnationis non habet aliquam habitudinem ad coram latitudinem 
-              <lb ed="#E"/>luminis naturalis
+              <lb ed="#E" n="28"/>naturali quia articulus incarnationis non habet aliquam habitudinem ad coram latitudinem 
+              <lb ed="#E" n="29"/>luminis naturalis
             </p>
             <p xml:id="ppr-l13-rhnecp">
               Aliqui sunt articuli qui habent neccessariam habitudinem ad creaturam sicut deus 
-              <lb ed="#E"/>est et deus est trinus et unus et talia possunt deduci per media intrinseca Alio modo per media 
-              <lb ed="#E"/>extrinseca
+              <lb ed="#E" n="30"/>est et deus est trinus et unus et talia possunt deduci per media intrinseca Alio modo per media 
+              <lb ed="#E" n="31"/>extrinseca
             </p>
             <p xml:id="ppr-l13-pqnibc">Unde duplex est deductio quae per media intrinseca Alio modo per media extrinseca 
-              <lb ed="#E"/>scilicet sivadendo[?] vel quasi rethorice ut triangulo Ego recordor me alias scivisse 
-              <lb ed="#E"/>d?urvee[?] quod habet tres angulos etc et nunc non scio dem?re[?] et tamen quod?uo[?] scio que[?] habet 
-              <lb ed="#E"/>tres etc quia alias recordor me scivisse dem?re[?]
+              <lb ed="#E" n="32"/>scilicet sivadendo[?] vel quasi rethorice ut triangulo Ego recordor me alias scivisse 
+              <lb ed="#E" n="33"/>d?urvee[?] quod habet tres angulos etc et nunc non scio dem?re[?] et tamen quod?uo[?] scio que[?] habet 
+              <lb ed="#E" n="34"/>tres etc quia alias recordor me scivisse dem?re[?]
             </p>
             <!-- reason for break a bit unclear -->
             <p xml:id="ppr-l13-etdils">
               et sic articuli contingenter ut 
-              <lb ed="#E"/>articulus incarnationis non potest deduci ex lumine naturali quia non dependet ex eo nec 
-              <lb ed="#E"/>habet habitudinem annexionis neccessariae ad lumen naturale fides per theologiam non 
-              <lb ed="#E"/>debet probari ut credantur articuli sed ut credatur credulitas eorum esse rationalis contra haereti<lb ed="#E" break="no"/>cos
+              <lb ed="#E" n="35"/>articulus incarnationis non potest deduci ex lumine naturali quia non dependet ex eo nec 
+              <lb ed="#E" n="36"/>habet habitudinem annexionis neccessariae ad lumen naturale fides per theologiam non 
+              <lb ed="#E" n="37"/>debet probari ut credantur articuli sed ut credatur credulitas eorum esse rationalis contra haereti<lb ed="#E" break="no" n="38"/>cos
             </p>
           </div>
         </div>
         <div xml:id="ppr-l13-Dd1e4440">
           <head xml:id="ppr-l13-Hd1e4442">Circa textum</head>
           <p xml:id="ppr-l13-ctcpde">
-            <lb ed="#E"/>Circa textum conclusio Catholoice tenendum est quod spiritus sanctus procedat a patre et a filio 
-            <lb ed="#E"/>Advertendum est consilio nyceo fuit congregatio parum[?] sollempuissimorum[?] et fuit 
-            <lb ed="#E"/>in factum symbalum missae et ibi nichil fuit dictum de filio Ita quod ibi fuit 
-            <lb ed="#E"/>Quia articuli fidei deducuntur in lumine naturali per adiutorium fidei 
+            <lb ed="#E" n="39"/>Circa textum conclusio Catholoice tenendum est quod spiritus sanctus procedat a patre et a filio 
+            <lb ed="#E" n="40"/>Advertendum est consilio nyceo fuit congregatio parum[?] sollempuissimorum[?] et fuit 
+            <lb ed="#E" n="41"/>in factum symbalum missae et ibi nichil fuit dictum de filio Ita quod ibi fuit 
+            <lb ed="#E" n="42"/>Quia articuli fidei deducuntur in lumine naturali per adiutorium fidei 
             <pb ed="#E" n="16-v"/>
-            <lb ed="#E"/>Consilium quod procedat a patre et postea in fine consilii fertur sententia anathematis 
-            <lb ed="#E"/>si quis aliquid addiderit Et propter hoc istud graeci <choice><orig>inputat</orig><reg>imputat</reg></choice> nos scismaticos quia 
-            <lb ed="#E"/>nos addidimus filioque 
-            <g ref="#pilcrow"/>Doctores dicunt quod istae additiones intelligendum de falsi<lb ed="#E" break="no"/>tatibus 
+            <lb ed="#E" n="1"/>Consilium quod procedat a patre et postea in fine consilii fertur sententia anathematis 
+            <lb ed="#E" n="2"/>si quis aliquid addiderit Et propter hoc istud graeci <choice><orig>inputat</orig><reg>imputat</reg></choice> nos scismaticos quia 
+            <lb ed="#E" n="3"/>nos addidimus filioque 
+            <g ref="#pilcrow"/>Doctores dicunt quod istae additiones intelligendum de falsi<lb ed="#E" break="no" n="4"/>tatibus 
             vel contradicentibus in illis contentis scilicet quod aliquid adderetur quod falsificaret 
-            <lb ed="#E"/>incontenta et sic quando fuit consilium ecc?rit materia et fecerunt de patre et non fuit 
-            <lb ed="#E"/>totum <choice><orig>conpletum</orig><reg>completum</reg></choice> et sic non debemus reputari infideles vel scismatici <choice><orig>ymmo</orig><reg>immo</reg></choice> 
-            <lb ed="#E"/>maiores eorum tenuerunt nobiscum ut recitat <name>magister</name> in littera unde graeci non fuerunt 
-            <lb ed="#E"/>vocati quia ab eis fuit ablata sapientia et fuerunt sancti eketes[?] Credo in libris 
-            <lb ed="#E"/><name>moysi</name> in fine habetur etiam si quis addiderit etc Sed dixit <name>magister petrus</name> quod non crederet quod 
-            <lb ed="#E"/><name>moises</name> intendebat quod non fierent alii libri biblye sed intendebat quod si quis ad<lb ed="#E" break="no"/>deret 
+            <lb ed="#E" n="5"/>incontenta et sic quando fuit consilium ecc?rit materia et fecerunt de patre et non fuit 
+            <lb ed="#E" n="6"/>totum <choice><orig>conpletum</orig><reg>completum</reg></choice> et sic non debemus reputari infideles vel scismatici <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+            <lb ed="#E" n="7"/>maiores eorum tenuerunt nobiscum ut recitat <name>magister</name> in littera unde graeci non fuerunt 
+            <lb ed="#E" n="8"/>vocati quia ab eis fuit ablata sapientia et fuerunt sancti eketes[?] Credo in libris 
+            <lb ed="#E" n="9"/><name>moysi</name> in fine habetur etiam si quis addiderit etc Sed dixit <name>magister petrus</name> quod non crederet quod 
+            <lb ed="#E" n="10"/><name>moises</name> intendebat quod non fierent alii libri biblye sed intendebat quod si quis ad<lb ed="#E" break="no" n="11"/>deret 
             <del>flisis</del> falsifitas[?] dicta in illis libris Et sic stat in proposito quod etiam dixit 
-            <lb ed="#E"/>pro tunc quod spiritus sanctus praecedit a patre expectando ulterius quosque aliud esset 
-            <lb ed="#E"/>magis determinatum et discussum per doctores
+            <lb ed="#E" n="12"/>pro tunc quod spiritus sanctus praecedit a patre expectando ulterius quosque aliud esset 
+            <lb ed="#E" n="13"/>magis determinatum et discussum per doctores
           </p>
         </div>
       </div>

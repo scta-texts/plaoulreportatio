@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,9 +50,9 @@
         <head xml:id="ppr-l15-Hd1e3726">Lectio 15, de Fide [Palatine Transcription]</head>
         <p xml:id="ppr-l15-d1e3729">
           <lb ed="#PV" n="64"/><hi rend="largeFont">Alia lectio in qua 
-          <lb ed="#PV"/>valde modicum legit quia erat aggre<lb ed="#PV" break="no"/>tatio 
-          universita<lb ed="#PV" break="no"/>tis ad conferendum 
-          <lb ed="#PV"/>aliquod beneficium</hi>
+          <lb ed="#PV" n="65"/>valde modicum legit quia erat aggre<lb ed="#PV" break="no" n="66"/>tatio 
+          universita<lb ed="#PV" break="no" n="67"/>tis ad conferendum 
+          <lb ed="#PV" n="68"/>aliquod beneficium</hi>
         </p>
         <div xml:id="ppr-l15-Dd1e3744">
           <head xml:id="ppr-l15-Hrdpdpc">[Recapitulatio duarum praedictarum conclusionum]</head>
@@ -63,74 +60,74 @@
             <head xml:id="ppr-l15-Hcpcnsc">[Circa primam conclusionem: opinio quod actus fidei actus scientificus non sunt compossibiles]</head>
             <p xml:id="ppr-l15-ecppss">
               Conclusio quia licet actus
-              <lb ed="#PV"/>fidei credendi et sciendi sunt com<lb ed="#PV" break="no"/>passibiles
+              <lb ed="#PV" n="69"/>fidei credendi et sciendi sunt com<lb ed="#PV" break="no" n="70"/>passibiles
               quo ad esse simul non tum[?]
-              <lb ed="#PV"/>quo ad in?ure[?]
+              <lb ed="#PV" n="71"/>quo ad in?ure[?]
             </p>
           </div>
           <div xml:id="ppr-l15-Dd1e3764">
             <head xml:id="ppr-l15-Hopdpdc">[Opinio Petri de Candia]</head>
             <p xml:id="ppr-l15-ncmani">
               <g ref="#slash"/>pro illo <choice><orig>ymaginat</orig><reg>imaginat</reg></choice> 
-              <lb ed="#PV"/><name>de candia</name>
+              <lb ed="#PV" n="72"/><name>de candia</name>
             </p>
           </div>
           <div xml:id="ppr-l15-Dd1e3785">
             <head xml:id="ppr-l15-Hrapcrc">[Responsio ad opinionem Petri de Candia: quattuor conclusiones circa rationem cognitionis]</head>
             <p xml:id="ppr-l15-cicimc">
               <unclear>prima<!-- primo ?? --></unclear> cognitio 
-              <lb ed="#PV"/>non est intrinsece et essentialiter cognitio[?] 
-              <lb ed="#PV"/>probatur quod circumscriptis potentia 
-              <lb ed="#PV"/>in absolutam non mineret cognitio 
-              <lb ed="#PV"/>quia si non esse potentia 
-              <lb ed="#PV"/>cognitiva non esset cognitio Si 
-              <lb ed="#PV"/>esset sibi cognitio cum esset 
-              <lb ed="#PV"/>extra potentiam[?] et obiectum tunc esset 
-              <lb ed="#PV"/>in se formaliter vita quod videtur 
-              <lb ed="#PV"/>absurdum
+              <lb ed="#PV" n="73"/>non est intrinsece et essentialiter cognitio[?] 
+              <lb ed="#PV" n="74"/>probatur quod circumscriptis potentia 
+              <lb ed="#PV" n="75"/>in absolutam non mineret cognitio 
+              <lb ed="#PV" n="76"/>quia si non esse potentia 
+              <lb ed="#PV" n="77"/>cognitiva non esset cognitio Si 
+              <lb ed="#PV" n="78"/>esset sibi cognitio cum esset 
+              <lb ed="#PV" n="79"/>extra potentiam[?] et obiectum tunc esset 
+              <lb ed="#PV" n="80"/>in se formaliter vita quod videtur 
+              <lb ed="#PV" n="81"/>absurdum
             </p>
             <p xml:id="ppr-l15-spcsqq">
               Item si oppositum 
-              <lb ed="#PV"/>staret videtur quod viveret cum cognoscere 
-              <lb ed="#PV"/>pertinet ad vitam
+              <lb ed="#PV" n="82"/>staret videtur quod viveret cum cognoscere 
+              <lb ed="#PV" n="83"/>pertinet ad vitam
             </p>
             <p xml:id="ppr-l15-taippp">
               <g ref="#slash"/>3o si poneretur 
               <pb ed="#PV" n="21-v"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/><seg type="correction">mihi</seg> lapide et esset intrinsece cognitio 
-              <lb ed="#PV"/>non faceret lapidem intelligere 
-              <lb ed="#PV"/>quod est inpossibile patet consequentia ex qua 
-              <lb ed="#PV"/>esset intrinsece cognitio et sic diceret 
-              <lb ed="#PV"/>de volitione et sic de aliis potentiis 
-              <lb ed="#PV"/>praeceptis
+              <lb ed="#PV" n="1"/><seg type="correction">mihi</seg> lapide et esset intrinsece cognitio 
+              <lb ed="#PV" n="2"/>non faceret lapidem intelligere 
+              <lb ed="#PV" n="3"/>quod est inpossibile patet consequentia ex qua 
+              <lb ed="#PV" n="4"/>esset intrinsece cognitio et sic diceret 
+              <lb ed="#PV" n="5"/>de volitione et sic de aliis potentiis 
+              <lb ed="#PV" n="6"/>praeceptis
             </p>
           </div>
           <div xml:id="ppr-l15-Dd1e3847">
             <head xml:id="ppr-l15-Hsccpua">[Secunda conclusio: cognitio non dicitur "cognitio" ex habitudine potentiae ut activa]</head>
             <p xml:id="ppr-l15-scnicv">
               Item <g ref="#dbslash"/> 2o dicitur quod non 
-              <lb ed="#PV"/>dicitur cognitio ex habitudine po<lb ed="#PV" break="no"/>tentiae 
+              <lb ed="#PV" n="7"/>dicitur cognitio ex habitudine po<lb ed="#PV" break="no" n="8"/>tentiae 
               ut activa est probatur quia 
-              <lb ed="#PV"/>est prior quam cognitio et sic staret 
-              <lb ed="#PV"/>quod produceret et tamen non perciperet
+              <lb ed="#PV" n="9"/>est prior quam cognitio et sic staret 
+              <lb ed="#PV" n="10"/>quod produceret et tamen non perciperet
             </p>
             <p xml:id="ppr-l15-sncapc">
               Item sequitur quod sic esset de omni 
-              <lb ed="#PV"/>notitia quod est falsum de notitia di<lb ed="#PV" break="no"/>vina
+              <lb ed="#PV" n="11"/>notitia quod est falsum de notitia di<lb ed="#PV" break="no" n="12"/>vina
             </p>
           </div>
           <div xml:id="ppr-l15-Dd1e3874">
             <head xml:id="ppr-l15-Htccpur">[Tertia conclusio: cognitio non dicitur "cognitio" ex habitudine potentiae ut receptiva]</head>
             <p xml:id="ppr-l15-tccsis">
               <g ref="#slash"/>3o quod non dicitur co?gtio[?] 
-              <lb ed="#PV"/>in habitudine subiecti ut <choice><orig>sicud</orig><reg>sicut</reg></choice> so<lb ed="#PV" break="no"/>lum 
-              receptivum probatur quia doi[?] cog<lb ed="#PV" break="no"/>nitio 
+              <lb ed="#PV" n="13"/>in habitudine subiecti ut <choice><orig>sicud</orig><reg>sicut</reg></choice> so<lb ed="#PV" break="no" n="14"/>lum 
+              receptivum probatur quia doi[?] cog<lb ed="#PV" break="no" n="15"/>nitio 
               non est in aliquo subiecto
             </p>
             <p xml:id="ppr-l15-spccee">
-              <lb ed="#PV"/><g ref="#slash"/>Confirmatur quia si poneretur 
-              <lb ed="#PV"/>in lapide haberet illam habitudinem
+              <lb ed="#PV" n="16"/><g ref="#slash"/>Confirmatur quia si poneretur 
+              <lb ed="#PV" n="17"/>in lapide haberet illam habitudinem
               <!-- possible hometeleuton here -->
             </p>
           </div>
@@ -138,13 +135,13 @@
             <head xml:id="ppr-l15-Hqccevi">[Quarta conclusio: cognitio dicitur "cognitio" ex habitudine ad suam potentiam ut perceptivam et vitaliter immutabilem]</head>
             <p xml:id="ppr-l15-qccasp">
               <!-- possible hometeleuton here -->
-              <lb ed="#PV"/>ad potentiam ut perceptivam est 
-              <lb ed="#PV"/>et vitaliter immutabilia 
+              <lb ed="#PV" n="18"/>ad potentiam ut perceptivam est 
+              <lb ed="#PV" n="19"/>et vitaliter immutabilia 
               patet quia non 
-              <lb ed="#PV"/>dicitur cognitio in habitudine 
-              <lb ed="#PV"/>ad potentiam ut activa est etiam non 
-              <lb ed="#PV"/>ut passiva nec intrinsece quare 
-              <lb ed="#PV"/>relinquendum ultimum
+              <lb ed="#PV" n="20"/>dicitur cognitio in habitudine 
+              <lb ed="#PV" n="21"/>ad potentiam ut activa est etiam non 
+              <lb ed="#PV" n="22"/>ut passiva nec intrinsece quare 
+              <lb ed="#PV" n="23"/>relinquendum ultimum
             </p>
           </div>
         </div>
@@ -155,27 +152,27 @@
             <p xml:id="ppr-l15-eppdah">
               <!-- also includes <p xml:id="l15-eipncb"> -->
               unde tres 
-              <lb ed="#PV"/>sunt habitudines una subiec<lb ed="#PV" break="no"/>tiva 
+              <lb ed="#PV" n="24"/>sunt habitudines una subiec<lb ed="#PV" break="no" n="25"/>tiva 
               <g ref="#slash"/>alia activa <g ref="#slash"/>alia quod per eam 
-              <lb ed="#PV"/>apprehendit <g ref="#slash"/>et secundum ultimum 
-              <lb ed="#PV"/>dicitur cognitio et sic si sic esset 
-              <lb ed="#PV"/>ex potentiam non diceretur cognitio[?] et sic de aliis 
-              <lb ed="#PV"/>dicitur communiter quod istae habitudines 
-              <lb ed="#PV"/>sunt ab invicem separabiles
+              <lb ed="#PV" n="26"/>apprehendit <g ref="#slash"/>et secundum ultimum 
+              <lb ed="#PV" n="27"/>dicitur cognitio et sic si sic esset 
+              <lb ed="#PV" n="28"/>ex potentiam non diceretur cognitio[?] et sic de aliis 
+              <lb ed="#PV" n="29"/>dicitur communiter quod istae habitudines 
+              <lb ed="#PV" n="30"/>sunt ab invicem separabiles
             </p>
           </div>
         </div>
         <div xml:id="ppr-l15-Dd1e3970">
           <head xml:id="ppr-l15-Hd1e3972">Circa textum</head>
           <p xml:id="ppr-l15-d1e3975">
-            <lb ed="#PV"/>Quod dixit <name>magister petrus</name> circa 
-            <lb ed="#PV"/>textum ??per se proprie dicta circa 
-            <lb ed="#PV"/>textum in praecedenti lectione non sp[?] scripsi 
-            <lb ed="#PV"/>ex ore eius istud quod immediate 
-            <lb ed="#PV"/>praecedit sed quasi totum postea 
-            <lb ed="#PV"/>ponitur vicem in una lectione 
-            <lb ed="#PV"/>vicem quae incipit visum est quod 
-            <lb ed="#PV"/>quaelibet creatura potest concurrere ob<lb ed="#PV" break="no"/>iective 
+            <lb ed="#PV" n="31"/>Quod dixit <name>magister petrus</name> circa 
+            <lb ed="#PV" n="32"/>textum ??per se proprie dicta circa 
+            <lb ed="#PV" n="33"/>textum in praecedenti lectione non sp[?] scripsi 
+            <lb ed="#PV" n="34"/>ex ore eius istud quod immediate 
+            <lb ed="#PV" n="35"/>praecedit sed quasi totum postea 
+            <lb ed="#PV" n="36"/>ponitur vicem in una lectione 
+            <lb ed="#PV" n="37"/>vicem quae incipit visum est quod 
+            <lb ed="#PV" n="38"/>quaelibet creatura potest concurrere ob<lb ed="#PV" break="no" n="39"/>iective 
             et potest etc
           </p>
         </div>

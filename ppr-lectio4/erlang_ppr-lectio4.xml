@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,87 +51,87 @@
           <head xml:id="ppr-l4-Hfecami"><supplied>Fides est conformis divino iudicio: solutiones ad multas instantias</supplied></head>
           <p xml:id="ppr-l4-seqtoa">
             <lb ed="#E" n="10"/>Alia lectio
-            <lb ed="#E"/>Ex <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> de fide possunt solvi multae rationes et difficultates quibus involvuntur[?] 
-            <lb ed="#E"/>alii tenentes communem modum.
+            <lb ed="#E" n="11"/>Ex <choice><orig>ymaginatione</orig><reg>imaginatione</reg></choice> de fide possunt solvi multae rationes et difficultates quibus involvuntur[?] 
+            <lb ed="#E" n="12"/>alii tenentes communem modum.
           </p>
         </div>
         <div>
           <head xml:id="ppr-l4-Hpipipi"><supplied>Prima instantia</supplied></head>
           <p xml:id="ppr-l4-upaneu">
             Prima difficultas utrum aequali certitudine ex 
-            <lb ed="#E"/>fide credatur futuro contingenti. Sicut neccessario verbi <add place="aboveLine">gratia</add> huic de resurectio mortuorum <del rend="strikethrough">orh</del> erit 
-            <lb ed="#E"/>et huic deus est trinus et unus.
+            <lb ed="#E" n="13"/>fide credatur futuro contingenti. Sicut neccessario verbi <add place="aboveLine">gratia</add> huic de resurectio mortuorum <del rend="strikethrough">orh</del> erit 
+            <lb ed="#E" n="14"/>et huic deus est trinus et unus.
           </p>
         </div>
         <div>
           <head xml:id="ppr-l4-Hrapapi"><supplied>Responsio ad prima instantia</supplied></head>
           <p xml:id="ppr-l4-beiqnv">
             videtur quod non quia unum est neccessariam et neccesse esse et aliud 
-            <lb ed="#E"/>contingens licet iudicium futurorum posset <g ref="#carrot"/><add place="aboveLine">non</add> fore tamen assensus fide est tantae certitudinis 
-            <lb ed="#E"/>non potest falli fides non habet suam apparenciam ex parte obiecti licet ex se.
+            <lb ed="#E" n="15"/>contingens licet iudicium futurorum posset <g ref="#carrot"/><add place="aboveLine">non</add> fore tamen assensus fide est tantae certitudinis 
+            <lb ed="#E" n="16"/>non potest falli fides non habet suam apparenciam ex parte obiecti licet ex se.
           </p>
         </div>
         <div>
           <head xml:id="ppr-l4-Hsieier"><supplied>Secunda instantia et rationes</supplied></head>
           <p xml:id="ppr-l4-ptqsef">
             Contra arguitur 
-            <lb ed="#E"/>probando quod praedictam non sint vera <choice><orig>ymo</orig><reg>immo</reg></choice> quod fidei possit sub esse falsum
+            <lb ed="#E" n="17"/>probando quod praedictam non sint vera <choice><orig>ymo</orig><reg>immo</reg></choice> quod fidei possit sub esse falsum
           </p>
           <p xml:id="ppr-l4-pqdpem">
             quia spei de facto 
-            <lb ed="#E"/>sub est falsum igitur fidei tenet consequentia quia spes videtur etc. Antecedens de praescito qui habet spem quae est quidam 
-            <lb ed="#E"/>assensus quo assentit se habiturum vitam aeternam et tamen non habebit
+            <lb ed="#E" n="18"/>sub est falsum igitur fidei tenet consequentia quia spes videtur etc. Antecedens de praescito qui habet spem quae est quidam 
+            <lb ed="#E" n="19"/>assensus quo assentit se habiturum vitam aeternam et tamen non habebit
           </p> 
           <p xml:id="ppr-l4-cqpcrc">
             Secundo quia 
-            <lb ed="#E"/>hoc potest accedere in isto casu posito quod aliquis existens in extrema <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> debeat accipere 
-            <lb ed="#E"/>corpus christi et petatur ab eo virum cedat hoc esse corpus christi Respondet credo et illi 
-            <lb ed="#E"/>potest subesse falsum quia possibile est quod illud non sit corpus christi ymmo quod non sit debita 
-            <lb ed="#E"/>facta consecratio
+            <lb ed="#E" n="20"/>hoc potest accedere in isto casu posito quod aliquis existens in extrema <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> debeat accipere 
+            <lb ed="#E" n="21"/>corpus christi et petatur ab eo virum cedat hoc esse corpus christi Respondet credo et illi 
+            <lb ed="#E" n="22"/>potest subesse falsum quia possibile est quod illud non sit corpus christi ymmo quod non sit debita 
+            <lb ed="#E" n="23"/>facta consecratio
           </p>
           <p xml:id="ppr-l4-tcaiaf">
             Tertio capiamus aliquem qui ex habitu fidei exeat in actum 
-            <lb ed="#E"/>istius enunciabilis quod christus incarnabitur vel quod unus antiquus pater habuerit et contin<lb ed="#E" break="no"/>tire[?] 
+            <lb ed="#E" n="24"/>istius enunciabilis quod christus incarnabitur vel quod unus antiquus pater habuerit et contin<lb ed="#E" break="no" n="25"/>tire[?] 
             usque ad instans incarnationis tunc qui erit falsus quia in illo instanti non 
-            <lb ed="#E"/>est unum dicere quod christus incarnabitur ymmo est incarnatus
+            <lb ed="#E" n="26"/>est unum dicere quod christus incarnabitur ymmo est incarnatus
           </p>
           <p xml:id="ppr-l4-qdaeam">
             Item abraham de facto 
-            <lb ed="#E"/>meruit ex fide et tamen per illam credidit falsum quia credidit filium suum esse ymolandum 
-            <lb ed="#E"/>qui non erat ymo laudus et illi fidei subfuit falsum
+            <lb ed="#E" n="27"/>meruit ex fide et tamen per illam credidit falsum quia credidit filium suum esse ymolandum 
+            <lb ed="#E" n="28"/>qui non erat ymo laudus et illi fidei subfuit falsum
           </p>
           <p xml:id="ppr-l4-qaacep">
             Item spiritus sanctus potest concurrere active 
-            <lb ed="#E"/>ab assensui propositionis false igitur fides ?c?? quia fides non est maioris dignitatis neccessaris 
-            <lb ed="#E"/>quia spiritus sanctus Q?s[?] patet quia nichil potest produci adextra quando deus concurit et spiritus sanctus
+            <lb ed="#E" n="29"/>ab assensui propositionis false igitur fides ?c?? quia fides non est maioris dignitatis neccessaris 
+            <lb ed="#E" n="30"/>quia spiritus sanctus Q?s[?] patet quia nichil potest produci adextra quando deus concurit et spiritus sanctus
           </p>
           <p xml:id="ppr-l4-ssffee">
-            <lb ed="#E"/>Item est in potentia obedientali respectu concu?que deus voluerit ipsam assumere ergo deus potest ipsam assumere 
-            <lb ed="#E"/>ad assenciendum falso
+            <lb ed="#E" n="31"/>Item est in potentia obedientali respectu concu?que deus voluerit ipsam assumere ergo deus potest ipsam assumere 
+            <lb ed="#E" n="32"/>ad assenciendum falso
           </p>
         </div>
         <div>
           <head xml:id="ppr-l4-Hohohoh"><supplied>Opinio Holcot</supplied></head>
           <p xml:id="ppr-l4-ucdnmh">
             Ala[?] dicit quod inquam intellectus credit propositioni non neccessitatus fuerit 
-            <lb ed="#E"/>per assensum ad hoc et rationem et excludit habitum fidei sed hoc non videtur ?ni[?] quia 
-            <lb ed="#E"/>tenes quod actus fidei non est in potestate nostrae vel voluntatis non me?te[?] habitur 
-            <lb ed="#E"/>habitus infusus in baptismo se solo non sufficit exire in actum utque de parvo baptisato 
-            <lb ed="#E"/>merito inter sarracenos Sed tunc poetitur quae est d?? dicitur quod iste qui habet habitum 
-            <lb ed="#E"/>facilius disponitur ab habendum actum fidei quam qui non habet habitum Quia si 
-            <lb ed="#E"/>uterque facit diligenciam tunc in habituato intenditur caritas ex quo est in gratia et 
-            <lb ed="#E"/>in alio non quia non in gratia unde requiritur ultra quod sit diligencia odium 
+            <lb ed="#E" n="33"/>per assensum ad hoc et rationem et excludit habitum fidei sed hoc non videtur ?ni[?] quia 
+            <lb ed="#E" n="34"/>tenes quod actus fidei non est in potestate nostrae vel voluntatis non me?te[?] habitur 
+            <lb ed="#E" n="35"/>habitus infusus in baptismo se solo non sufficit exire in actum utque de parvo baptisato 
+            <lb ed="#E" n="36"/>merito inter sarracenos Sed tunc poetitur quae est d?? dicitur quod iste qui habet habitum 
+            <lb ed="#E" n="37"/>facilius disponitur ab habendum actum fidei quam qui non habet habitum Quia si 
+            <lb ed="#E" n="38"/>uterque facit diligenciam tunc in habituato intenditur caritas ex quo est in gratia et 
+            <lb ed="#E" n="39"/>in alio non quia non in gratia unde requiritur ultra quod sit diligencia odium 
             <pb ed="#E" n="5-v"/>
-            <lb ed="#E"/>mali et amor boni
+            <lb ed="#E" n="1"/>mali et amor boni
           </p>
           <p xml:id="ppr-l4-vqhmie">
             <!-- no clear paralle here-->
             Videtur quod <name ref="#Holcot">holcot</name> <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> de fide quod sit unus habitus acquisitus 
-            <lb ed="#E"/>etc vel unus habitus opinativus Timendum est quod quam plures credant non ex fide <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> 
-            <lb ed="#E"/>ad salutem sed ex fide gravata per rationes probabiles ut quod penis est per habitum opina<lb ed="#E" break="no"/>tum[?] 
+            <lb ed="#E" n="2"/>etc vel unus habitus opinativus Timendum est quod quam plures credant non ex fide <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> 
+            <lb ed="#E" n="3"/>ad salutem sed ex fide gravata per rationes probabiles ut quod penis est per habitum opina<lb ed="#E" break="no" n="4"/>tum[?] 
             scilicet qui est cum formidinie Argumentum <name ref="#Holcot">holcot</name> credo non est in potestate mea sine motivo assentire 
-            <lb ed="#E"/>propositioni unde propositis duabus una evidenti et alia non tunc illi inevidenti non passum 
-            <lb ed="#E"/>assentire sine motivo seu ratione modo in articulo trinitatis ex maxime me videncia
+            <lb ed="#E" n="5"/>propositioni unde propositis duabus una evidenti et alia non tunc illi inevidenti non passum 
+            <lb ed="#E" n="6"/>assentire sine motivo seu ratione modo in articulo trinitatis ex maxime me videncia
           </p>
         </div>
         <div>
@@ -143,36 +140,36 @@
           </head>
           <p xml:id="ppr-l4-aehrma">
             <!-- also includes <p xml:id="l4-iiasei"> -->
-            Adver<g ref="#dbdash"/><lb ed="#E"/>tendum quod lata seu magna est differentia inter propositiones indifferentes et omnino inpertinentes Ad fi<lb ed="#E" break="no"/>nis 
+            Adver<g ref="#dbdash"/><lb ed="#E" n="7"/>tendum quod lata seu magna est differentia inter propositiones indifferentes et omnino inpertinentes Ad fi<lb ed="#E" break="no" n="8"/>nis 
             humani consecutionem et alias <choice><orig>neccessario</orig><reg>necessario</reg></choice> ordinatas ad finis humani consecutionem videlicet 
-            <lb ed="#E"/>inter illas quae sunt de neccessitate salutis quia alias quae non unde natura inducit ho? 
-            <lb ed="#E"/>inclinationem ad essentiendum illis quae sunt de necessitate salutis et ita est in rebus 
-            <lb ed="#E"/>pollitticis quia natura ind?t ho??um quod sit alias civile et ergo eciam rationale quod homo plus in<lb ed="#E" break="no"/>clinetur 
+            <lb ed="#E" n="9"/>inter illas quae sunt de neccessitate salutis quia alias quae non unde natura inducit ho? 
+            <lb ed="#E" n="10"/>inclinationem ad essentiendum illis quae sunt de necessitate salutis et ita est in rebus 
+            <lb ed="#E" n="11"/>pollitticis quia natura ind?t ho??um quod sit alias civile et ergo eciam rationale quod homo plus in<lb ed="#E" break="no" n="12"/>clinetur 
             ad propositionem quae est de neccessitate salutis quam ad aliam indifferentem et inpertinentem 
             <!-- break -->
-            <lb ed="#E"/>Gesta radice quod quaelibet creatura rationalis habet instinctum ad deum tam in affectu 
-            <lb ed="#E"/>quam in intellectu In affectu quantum ad diligere in intellectu quantum ad cognoscere provenit 
-            <lb ed="#E"/>omnis <choice><orig>ydolatria</orig><reg>idolatria</reg></choice> ex istis
+            <lb ed="#E" n="13"/>Gesta radice quod quaelibet creatura rationalis habet instinctum ad deum tam in affectu 
+            <lb ed="#E" n="14"/>quam in intellectu In affectu quantum ad diligere in intellectu quantum ad cognoscere provenit 
+            <lb ed="#E" n="15"/>omnis <choice><orig>ydolatria</orig><reg>idolatria</reg></choice> ex istis
           </p>
           <p xml:id="ppr-l4-epheda">
             Tunc ad rationem <name ref="#Holcot">holcot</name> dicitur quod non est similem de propositionibus indifferentibus 
-            <lb ed="#E"/>et habentibus neccessariam habitudinem ad finem humanum
+            <lb ed="#E" n="16"/>et habentibus neccessariam habitudinem ad finem humanum
           </p>
           <p xml:id="ppr-l4-eaease">
             Aliter potest solvi quod fides habet alium modum 
-            <lb ed="#E"/>respectu sui obiecti quam aliquando habitus qui actus fidei non habet apparenciam ex parte sui 
-            <lb ed="#E"/>obiecti Sed diceretur quod esset quod obiectum intellectus sit apparens verum conceditur vel quod ibi sit apparentia 
-            <lb ed="#E"/>ex parte obiecti vel alterius modo dicitur quod fides ex sua int?istate est apparentia
+            <lb ed="#E" n="17"/>respectu sui obiecti quam aliquando habitus qui actus fidei non habet apparenciam ex parte sui 
+            <lb ed="#E" n="18"/>obiecti Sed diceretur quod esset quod obiectum intellectus sit apparens verum conceditur vel quod ibi sit apparentia 
+            <lb ed="#E" n="19"/>ex parte obiecti vel alterius modo dicitur quod fides ex sua int?istate est apparentia
           </p>
         </div>
         <div>
           <head xml:id="ppr-l4-Hctctct">Circa textum</head>
           <p xml:id="ppr-l4-nctpma">
             Nota 
-            <lb ed="#E"/>circa textum quod quando dicitur de partibus <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> memoria non capitur pro memoria sensitiva 
-            <lb ed="#E"/>sed pro actu actione per speciem intelligibilem et habet se tamquam primum producens et comparatio 
-            <lb ed="#E"/>pri[?] et inde producitur intellectio quae comperatur filio et ista duo quia diligunt 
-            <lb ed="#E"/>se producunt spiritum sanctum per modum amoris
+            <lb ed="#E" n="20"/>circa textum quod quando dicitur de partibus <choice><orig>ymaginis</orig><reg>imaginis</reg></choice> memoria non capitur pro memoria sensitiva 
+            <lb ed="#E" n="21"/>sed pro actu actione per speciem intelligibilem et habet se tamquam primum producens et comparatio
+            <lb ed="#E" n="22"/>pri[?] et inde producitur intellectio quae comperatur filio et ista duo quia diligunt 
+            <lb ed="#E" n="23"/>se producunt spiritum sanctum per modum amoris
           </p>
         </div>
       </div>

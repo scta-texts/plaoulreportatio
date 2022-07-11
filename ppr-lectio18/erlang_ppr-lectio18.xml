@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +51,7 @@
           <head xml:id="ppr-l18-Hreiphl">[Recapitulatio et intentio pro hoc lectione]</head>
           <p xml:id="ppr-l18-seqtfp">
             <lb ed="#E" n="13"/>In alia lectione 
-            <lb ed="#E"/>Tactum est quod ipsa fides iuvat lumen naturale ut attingere posset veritates theo<lb ed="#E" break="no"/>logicas 
+            <lb ed="#E" n="14"/>Tactum est quod ipsa fides iuvat lumen naturale ut attingere posset veritates theo<lb ed="#E" break="no" n="15"/>logicas 
             et de hoc intendo investigare
           </p>
           <p xml:id="ppr-l18-rinamd"> 
@@ -64,98 +61,98 @@
         <div xml:id="ppr-l18-Dd1e3763">
           <head xml:id="ppr-l18-Hpcfasa">[Prima conclusio: fides non est pars antecedentis in processu theologico, tamen requiritur ad scientifice assentiendum]</head>
           <p xml:id="ppr-l18-pctssa">
-            Prima propositio Quam<lb ed="#E" break="no"/>vis
+            Prima propositio Quam<lb ed="#E" break="no" n="16"/>vis
             fides non intret processum theologicum tamquam pars antecedentis ad theologicam 
-            <lb ed="#E"/>conclusionem probandum ipsa tamen requiritur ad sic scientifice adhaerendum
+            <lb ed="#E" n="17"/>conclusionem probandum ipsa tamen requiritur ad sic scientifice adhaerendum
           </p>
           <p xml:id="ppr-l18-pphens">
             probatur prima pars quia 
-            <lb ed="#E"/>antecedens creditum vel dubium numquam infert conclusionem scitam probative saltem 
-            <lb ed="#E"/>quia non sequitur ex dubio scitum probative licet bene illative quia ex falso bene 
-            <lb ed="#E"/>sequitur verum unde conclusio sequitur debiliorem partem antecedentis ut consequenter dicitur et hoc quo ad scire 
-            <lb ed="#E"/>et in processu probativo
+            <lb ed="#E" n="18"/>antecedens creditum vel dubium numquam infert conclusionem scitam probative saltem 
+            <lb ed="#E" n="19"/>quia non sequitur ex dubio scitum probative licet bene illative quia ex falso bene 
+            <lb ed="#E" n="20"/>sequitur verum unde conclusio sequitur debiliorem partem antecedentis ut consequenter dicitur et hoc quo ad scire 
+            <lb ed="#E" n="21"/>et in processu probativo
           </p>
           <p xml:id="ppr-l18-spcsee">
             Secunda pars satis fuit prius radicata nam lumen 
-            <lb ed="#E"/>naturale sibi derelictum non attingeret speciales veritates theologicas
+            <lb ed="#E" n="22"/>naturale sibi derelictum non attingeret speciales veritates theologicas
           </p>
           <div xml:id="ppr-l18-Dd1e3826">
             <head xml:id="ppr-l18-Hqfcaln">[Qualiter fides conferat ad lumen naturale]</head>
             <p xml:id="ppr-l18-uspcvt">
               Unde 2m 
-              <lb ed="#E"/>quod prius tangebatur et applicandum ad propositum qualiter lumen naturale iutum per fidem ve<lb ed="#E" break="no"/>niat 
+              <lb ed="#E" n="23"/>quod prius tangebatur et applicandum ad propositum qualiter lumen naturale iutum per fidem ve<lb ed="#E" break="no" n="24"/>niat 
               ad theologicas veritates primo fides fortificat intellectum 2o illuminat intellectum 
-              <lb ed="#E"/>Tertio liberat eum ab erroribus et etiam ab apparentia rationum sophisticorum
+              <lb ed="#E" n="25"/>Tertio liberat eum ab erroribus et etiam ab apparentia rationum sophisticorum
             </p>
             <!-- reevaluate break -->
             <div xml:id="ppr-l18-Dd1e3858">
               <head xml:id="ppr-l18-Hdtvsao">[De tertia via: Utrum intellectus assentiat immediate sine apparentiis opponentis]</head>
               <p xml:id="ppr-l18-eipaie">
                 scilicet fides 
-                <lb ed="#E"/>tollit et liberat intellectum ab erroribus et apparentiis omnium sophisticarum <name ref="#Kilvignton">Dromineton</name> 
-                <lb ed="#E"/>dicit quod data aliqua propositione cum aliqua apparentia et proposita intellectui si <corr><del rend="strikethrough">s</del></corr> nulla sit apparentia 
-                <lb ed="#E"/>ad oppositum intellectus assentit et sic est de principiis primis quia nulla apparentia est ad oppositum 
-                <lb ed="#E"/>et sic in ista radice fundat assensum principiorum Etiam dicit quandocumque intellectus componit 
-                <lb ed="#E"/>propositionem si non sit <unclear>motivum</unclear> ad contrarium naturaliter assentit
+                <lb ed="#E" n="26"/>tollit et liberat intellectum ab erroribus et apparentiis omnium sophisticarum <name ref="#Kilvignton">Dromineton</name> 
+                <lb ed="#E" n="27"/>dicit quod data aliqua propositione cum aliqua apparentia et proposita intellectui si <corr><del rend="strikethrough">s</del></corr> nulla sit apparentia 
+                <lb ed="#E" n="28"/>ad oppositum intellectus assentit et sic est de principiis primis quia nulla apparentia est ad oppositum 
+                <lb ed="#E" n="29"/>et sic in ista radice fundat assensum principiorum Etiam dicit quandocumque intellectus componit 
+                <lb ed="#E" n="30"/>propositionem si non sit <unclear>motivum</unclear> ad contrarium naturaliter assentit
               </p>
               <p xml:id="ppr-l18-smvaab">
                 Sed non credo sibi quantum ad hoc 
-                <lb ed="#E"/>quod instantia est de propositione dubia ut si intellectus componet et formet istam stellae 
-                <lb ed="#E"/>sunt pares sicut diceret sic quod quando intellectus componit propositionem et est aliqua apparentia ad illam 
-                <lb ed="#E"/>et nulla apparentia ad oppositum etiam assentit et sic de fide respectu luminis naturalis Unde appa<lb ed="#E" break="no"/>rentia 
+                <lb ed="#E" n="31"/>quod instantia est de propositione dubia ut si intellectus componet et formet istam stellae 
+                <lb ed="#E" n="32"/>sunt pares sicut diceret sic quod quando intellectus componit propositionem et est aliqua apparentia ad illam 
+                <lb ed="#E" n="33"/>et nulla apparentia ad oppositum etiam assentit et sic de fide respectu luminis naturalis Unde appa<lb ed="#E" break="no" n="34"/>rentia 
                 quantumcumque modica cum remotione apparentiarum ad oppositum sufficit ad causandum assensum
               </p>
             </div>
             <div xml:id="ppr-l18-Dd1e3933">
               <head xml:id="ppr-l18-Hdtvtaf">[De tertia via: quomodo fides tollit apparentia falsa]</head>
               <p xml:id="ppr-l18-naanvt">
-                <lb ed="#E"/>et sic de fide quia fides tollit apparentias contra fidem et causat assensum <corr><del rend="strikethrough">scilicet</del><add place="marginRight">licet</add></corr> aenigma<lb ed="#E" break="no"/>ticum 
-                tamen removet assensum contrarium de veritatibus theologicis Etiam quia apparentiae in<lb ed="#E" break="no"/>telliguntur 
+                <lb ed="#E" n="35"/>et sic de fide quia fides tollit apparentias contra fidem et causat assensum <corr><del rend="strikethrough">scilicet</del><add place="marginRight">licet</add></corr> aenigma<lb ed="#E" break="no" n="36"/>ticum 
+                tamen removet assensum contrarium de veritatibus theologicis Etiam quia apparentiae in<lb ed="#E" break="no" n="37"/>telliguntur 
                 per fidem intellectus etiam sufficit ex lumine naturali exire in assensum cum adiutorio 
-                <lb ed="#E"/>fidei
+                <lb ed="#E" n="38"/>fidei
               </p>
               <p xml:id="ppr-l18-pqedhc">
-                Pro quo notandum quod assensus pure extrinsecus variat quandoque processum demonstra<lb ed="#E" break="no"/>tivum 
+                Pro quo notandum quod assensus pure extrinsecus variat quandoque processum demonstra<lb ed="#E" break="no" n="39"/>tivum 
                 nam sit quod <name ref="#Sortes">sortes</name> habeat huiusmodi assensum respectu <name ref="#Plato">platonis</name> quod <name ref="#Plato">plato</name> habeat syllogismos 
                 <pb ed="#E" n="22-r"/>
-                <lb ed="#E"/>falsigraphos in materia demonstrativa et postea <name>plato</name> faciat sibi syllogismum et sic <name>sortes</name> concedit 
-                <lb ed="#E"/>maiorem minorem et consequentiam et tamen dubitabit consequens conclusionem
+                <lb ed="#E" n="1"/>falsigraphos in materia demonstrativa et postea <name>plato</name> faciat sibi syllogismum et sic <name>sortes</name> concedit 
+                <lb ed="#E" n="2"/>maiorem minorem et consequentiam et tamen dubitabit consequens conclusionem
               </p>
               <p xml:id="ppr-l18-esdisc">
                 Sed dicatur 
-                <lb ed="#E"/>quod hoc est contra <name ref="#Aristotle">philosophum</name> primo <title>posteriorum</title> quia scitis maiore et minore et consequentia esse bonam etc Respondetur quod 
-                <lb ed="#E"/>istud intelligitur ubi non esset aliquis artus in generali adhaesivus quod in aliquo 
-                <lb ed="#E"/>esset ibi deceptio unde staret quod <name>sortes</name> crederet se alias scivisse demonstrative <c>A</c> <c>b</c> 
-                <lb ed="#E"/>et <c>c</c> conclusiones et post reperiat se fuisse deceptum
+                <lb ed="#E" n="3"/>quod hoc est contra <name ref="#Aristotle">philosophum</name> primo <title>posteriorum</title> quia scitis maiore et minore et consequentia esse bonam etc Respondetur quod 
+                <lb ed="#E" n="4"/>istud intelligitur ubi non esset aliquis artus in generali adhaesivus quod in aliquo 
+                <lb ed="#E" n="5"/>esset ibi deceptio unde staret quod <name>sortes</name> crederet se alias scivisse demonstrative <c>A</c> <c>b</c> 
+                <lb ed="#E" n="6"/>et <c>c</c> conclusiones et post reperiat se fuisse deceptum
               </p> 
               <p xml:id="ppr-l18-eeilva">
-                in hoc casu potest habere actum suspen<lb ed="#E" break="no"/>sivum 
+                in hoc casu potest habere actum suspen<lb ed="#E" break="no" n="7"/>sivum 
                 quando accurrit sibi actus demonstrativus in tanto gradu sicut prius sibi occurrebat 
-                <lb ed="#E"/>vel forte diceretur quod non sufficit habere illa sed etiam requiritur quod assentiatur quod totus 
-                <lb ed="#E"/>processus sit verus sine deceptione
+                <lb ed="#E" n="8"/>vel forte diceretur quod non sufficit habere illa sed etiam requiritur quod assentiatur quod totus 
+                <lb ed="#E" n="9"/>processus sit verus sine deceptione
               </p>
             </div>
             <div xml:id="ppr-l18-Dd1e4117">
               <head xml:id="ppr-l18-Hcccccc">[Corollaria]</head>
               <p xml:id="ppr-l18-eqpaac">
-                Infertur corollarie quod circumstantia persona lo<lb ed="#E" break="no"/>quentis 
+                Infertur corollarie quod circumstantia persona lo<lb ed="#E" break="no" n="10"/>quentis 
                 <choice><orig>inmutat</orig><reg>immutat</reg></choice> de evidentia et assensu conclusionis quia iuvat et sufficit cum aequali apparentia 
-                <lb ed="#E"/>quae in actu non sufficeret videlicet in suspecto
+                <lb ed="#E" n="11"/>quae in actu non sufficeret videlicet in suspecto
               </p>
               <p xml:id="ppr-l18-auqseb">
                 Advertendum quod fides est proprie loquendo 
-                <lb ed="#E"/>respectu dei et necessariorum quae ad salutem Ita quod est habitus adhaesivus respectu illorum 
-                <lb ed="#E"/>quae sunt <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem scilicet sub ratione amabilis dei vel timendi Dico quod 
-                <lb ed="#E"/>amabilis propter bonitatem timendi propter iustitiam unde semper deus debet includi 
-                <lb ed="#E"/>unde quando dicitur quod mortui resurgent debet supleri quod deus faciet mortuos exsurgere et sic de aliis 
-                <lb ed="#E"/>semper includendo deum in talibus Ex consequenti fides dum habet unum pro obiecto sed etiam 
-                <lb ed="#E"/>bonum
+                <lb ed="#E" n="12"/>respectu dei et necessariorum quae ad salutem Ita quod est habitus adhaesivus respectu illorum 
+                <lb ed="#E" n="13"/>quae sunt <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ad salutem scilicet sub ratione amabilis dei vel timendi Dico quod 
+                <lb ed="#E" n="14"/>amabilis propter bonitatem timendi propter iustitiam unde semper deus debet includi 
+                <lb ed="#E" n="15"/>unde quando dicitur quod mortui resurgent debet supleri quod deus faciet mortuos exsurgere et sic de aliis 
+                <lb ed="#E" n="16"/>semper includendo deum in talibus Ex consequenti fides dum habet unum pro obiecto sed etiam 
+                <lb ed="#E" n="17"/>bonum
               </p>
               <p xml:id="ppr-l18-eifeaq">
                 et ideo fides est quidam <unclear>amet[?]</unclear> et ideo incitat intellectum ad veritates theologicas 
-                <lb ed="#E"/>requirendas et cognoscendas facilime enim credimus quibus afficimur et sic iste 
-                <lb ed="#E"/>est unus modus fidei praeter modos tactos et ideo lumen naturale ratione amoris exit cum minori 
-                <lb ed="#E"/>motivo saltem quantum
+                <lb ed="#E" n="18"/>requirendas et cognoscendas facilime enim credimus quibus afficimur et sic iste 
+                <lb ed="#E" n="19"/>est unus modus fidei praeter modos tactos et ideo lumen naturale ratione amoris exit cum minori 
+                <lb ed="#E" n="20"/>motivo saltem quantum
               </p>
               <!-- break needs reevaluation -->
               <p xml:id="ppr-l18-eqspaf">
@@ -163,13 +160,13 @@
                   <p xml:id="l18-eeciva">
                   -->
                 ex lumine naturali in assensum Omnes veritas mundi potest considerari 
-                <lb ed="#E"/>ut a deo exemplata sicut dictum est prius Infertur in mathematicis est bonum atque finis
+                <lb ed="#E" n="21"/>ut a deo exemplata sicut dictum est prius Infertur in mathematicis est bonum atque finis
                 <!-- possible break -->
-                <lb ed="#E"/>vicem prout <unclear>mathe?lia</unclear> cadunt sub theologica consideratione 
+                <lb ed="#E" n="22"/>vicem prout <unclear>mathe?lia</unclear> cadunt sub theologica consideratione 
                 <!-- possible break -->
                 Infert <name>bachon</name> <g ref="#slash"/>quod philosophi 
-                <lb ed="#E"/>non habuerunt plenam notitiam de iride quia non noverunt casum finalem de
-                <lb ed="#E"/>hoc alias tractabitur veniendo ad naturam
+                <lb ed="#E" n="23"/>non habuerunt plenam notitiam de iride quia non noverunt casum finalem de
+                <lb ed="#E" n="24"/>hoc alias tractabitur veniendo ad naturam
               </p>
             </div>
           </div>
@@ -180,154 +177,154 @@
             <head xml:id="ppr-l18-Hpptsct">[Primum principium theologiae et secunda conclusio lectionis: Quamvis 'Deum esse' est primum principium theologia, tamen simul conclusio theologiae]</head>
             <p xml:id="ppr-l18-viasct">
               2a conclusio Quamvis deum esse sit simpliciter etiam 
-              <lb ed="#E"/>absolute primum principium complexum est tamen simul theologica conclusio seu in theologia conclusio
+              <lb ed="#E" n="25"/>absolute primum principium complexum est tamen simul theologica conclusio seu in theologia conclusio
             </p>
             <p xml:id="ppr-l18-uaesgh">
               Advertendum 
-              <lb ed="#E"/>quod varii possunt esse processus in theologia et eandem veritas sumitur aliquando ut antecedens 
-              <lb ed="#E"/>et aliquando ut consequens nam per sacram scripturam probatur quod deus est et per deum esse 
-              <lb ed="#E"/>cum aliquibus aliis additis deducitur quod sacra scriptura est
+              <lb ed="#E" n="26"/>quod varii possunt esse processus in theologia et eandem veritas sumitur aliquando ut antecedens 
+              <lb ed="#E" n="27"/>et aliquando ut consequens nam per sacram scripturam probatur quod deus est et per deum esse 
+              <lb ed="#E" n="28"/>cum aliquibus aliis additis deducitur quod sacra scriptura est
             </p>
           </div>
           <div xml:id="ppr-l18-Dd1e4342">
             <head xml:id="ppr-l18-Hsptepp">[Secundum principium theologiae, Deus est omnipotens et liber, concluditur ex primo principio]</head>
             <p xml:id="ppr-l18-sppeip">
               <sic>Tertium</sic> principium potest 
-              <lb ed="#E"/>poni libera dei omnipotentia ita quod in processu theologico primum principium est deum 
-              <lb ed="#E"/>esse 2m est quod deus est omnipotens et liber Totum 2m sequitur ex primo quia deus 
-              <lb ed="#E"/>est quadam res universaliter perfecta cui <choice><orig>nichil</orig><reg>nihil</reg></choice> perfectionis de est et ex hoc sequitur 2m 
-              <lb ed="#E"/>principium vocatur tamen primum quod per ipsum plura alia adducuntur sic quod respectu aliquorum 
-              <lb ed="#E"/>dicitur conclusio et aliorum principium Et per ignorantiam istius habet ortum quasi omnis error 
-              <lb ed="#E"/>in philosophia
+              <lb ed="#E" n="29"/>poni libera dei omnipotentia ita quod in processu theologico primum principium est deum 
+              <lb ed="#E" n="30"/>esse 2m est quod deus est omnipotens et liber Totum 2m sequitur ex primo quia deus 
+              <lb ed="#E" n="31"/>est quadam res universaliter perfecta cui <choice><orig>nichil</orig><reg>nihil</reg></choice> perfectionis de est et ex hoc sequitur 2m 
+              <lb ed="#E" n="32"/>principium vocatur tamen primum quod per ipsum plura alia adducuntur sic quod respectu aliquorum 
+              <lb ed="#E" n="33"/>dicitur conclusio et aliorum principium Et per ignorantiam istius habet ortum quasi omnis error 
+              <lb ed="#E" n="34"/>in philosophia
             </p>
             <div xml:id="ppr-l18-Dd1e4397">
               <head xml:id="ppr-l18-Hopcldo">[Obiectio philosophorum contra liberam Dei omnipotentiam</head>
               <p xml:id="ppr-l18-uenssp">
                 unde philosophi habuerunt istud quod idem inquantum idem non facit nisi idem 
-                <lb ed="#E"/>Istud est magnae apparentiae in lumine naturali quia videtur quod <unclear>conpositio</unclear> quo aliquid omnino eodem modo 
-                <lb ed="#E"/>se habet adaequate non producit immediate nisi idem
+                <lb ed="#E" n="35"/>Istud est magnae apparentiae in lumine naturali quia videtur quod <unclear>conpositio</unclear> quo aliquid omnino eodem modo 
+                <lb ed="#E" n="36"/>se habet adaequate non producit immediate nisi idem
               </p>
               <p xml:id="ppr-l18-eimetn">
                 et sic <choice><orig>ymaginati</orig><reg>imaginati</reg></choice> sunt quam absolute 
-                <lb ed="#E"/>deus non potest immediate plura producere et consequenter quod non posset non agere et sic posuerunt 
-                <lb ed="#E"/>quod ab aeterno fuit mundus <name>Avicenna</name> in sua <title>methaphysica</title> exponit <name>aristotelem</name> 
+                <lb ed="#E" n="37"/>deus non potest immediate plura producere et consequenter quod non posset non agere et sic posuerunt 
+                <lb ed="#E" n="38"/>quod ab aeterno fuit mundus <name>Avicenna</name> in sua <title>methaphysica</title> exponit <name>aristotelem</name> 
                 <pb ed="#E" n="22-v"/>
-                <lb ed="#E"/>quod omnes res fuerunt productae non esse ad esse quia primo caeli dicit <name>aristoteles</name> ab 
-                <lb ed="#E"/>ipso datum est omnibus esse et vivere et <g ref="#slash"/>12o <title>metaphysicae</title> Ab ipso dependet caelum et tota natura
+                <lb ed="#E" n="1"/>quod omnes res fuerunt productae non esse ad esse quia primo caeli dicit <name>aristoteles</name> ab 
+                <lb ed="#E" n="2"/>ipso datum est omnibus esse et vivere et <g ref="#slash"/>12o <title>metaphysicae</title> Ab ipso dependet caelum et tota natura
               </p>
               <p xml:id="ppr-l18-uiavip">
-                <lb ed="#E"/>unde <choice><orig>ymaginatio</orig><reg>imaginatio</reg></choice> <name>avicennae</name> quia deus simplicissimus est non potest immediate producere 
-                <lb ed="#E"/>nisi unum et sic intelligendo se ipsum producit intelligentia primam et non ponit 
-                <lb ed="#E"/>plura ratione suae simplicitatis immediate
+                <lb ed="#E" n="3"/>unde <choice><orig>ymaginatio</orig><reg>imaginatio</reg></choice> <name>avicennae</name> quia deus simplicissimus est non potest immediate producere 
+                <lb ed="#E" n="4"/>nisi unum et sic intelligendo se ipsum producit intelligentia primam et non ponit 
+                <lb ed="#E" n="5"/>plura ratione suae simplicitatis immediate
                 <!-- possible break point -->
-                Et <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod in qualibet specie intel<lb ed="#E" break="no"/>ligentiarum 
+                Et <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod in qualibet specie intel<lb ed="#E" break="no" n="6"/>ligentiarum 
                 non est nisi unica possibilis quia non est ratio quare deus potius produceret 
-                <lb ed="#E"/>unam quam aliam praeter primam de qua dictum est
+                <lb ed="#E" n="7"/>unam quam aliam praeter primam de qua dictum est
               </p>
               <p xml:id="ppr-l18-iuqipe">
-                Et postea prima intelligentia in<lb ed="#E" break="no"/>telligendo 
-                <lb ed="#E"/>deum producit aliam Et deinde ipsa cognoscendo seipsam in ordine 
-                <lb ed="#E"/>ad deum producit aliam in orbem Et videtur quod istud debet intelligi de prima post deum 
-                <lb ed="#E"/>Et hoc credo et si consequenter usque ad ultimam Et ultima 2m <name>avicennam</name> vocatur 
-                <lb ed="#E"/>datur formarum et non deus Deus eodem modo se habendo potest producere infinitos 
-                <lb ed="#E"/>varios effectus et hoc est ratione suae perfectionis et <choice><orig>inmensitatis</orig><reg>immensitatis</reg></choice> et libertatis Si enim 
-                <lb ed="#E"/>consideretur <choice><orig>in mensitas</orig><reg>immensitas</reg></choice> primae causae cum libertate eiusdem non est difficile 
-                <lb ed="#E"/>multa concedere et deducere
+                Et postea prima intelligentia in<lb ed="#E" break="no" n="8"/>telligendo 
+                <lb ed="#E" n="9"/>deum producit aliam Et deinde ipsa cognoscendo seipsam in ordine 
+                <lb ed="#E" n="10"/>ad deum producit aliam in orbem Et videtur quod istud debet intelligi de prima post deum 
+                <lb ed="#E" n="11"/>Et hoc credo et si consequenter usque ad ultimam Et ultima 2m <name>avicennam</name> vocatur 
+                <lb ed="#E" n="12"/>datur formarum et non deus Deus eodem modo se habendo potest producere infinitos 
+                <lb ed="#E" n="13"/>varios effectus et hoc est ratione suae perfectionis et <choice><orig>inmensitatis</orig><reg>immensitatis</reg></choice> et libertatis Si enim 
+                <lb ed="#E" n="14"/>consideretur <choice><orig>in mensitas</orig><reg>immensitas</reg></choice> primae causae cum libertate eiusdem non est difficile 
+                <lb ed="#E" n="15"/>multa concedere et deducere
               </p>
             </div>
             <div xml:id="ppr-l18-Dd1e4606">
               <head xml:id="ppr-l18-Hoatldo">[Opinio aliquorum theologorum de libera Dei omnipotentia]</head>
               <p xml:id="ppr-l18-cqapav">
                 Advertendum quod aliqui Theologi in parte locuti sunt 
-                <lb ed="#E"/>istam positionem dixerunt enim quod deus non agit volendo adextra quia si sic tunc esset 
-                <lb ed="#E"/>determinatus ad aliquam aliam volitionem 
+                <lb ed="#E" n="16"/>istam positionem dixerunt enim quod deus non agit volendo adextra quia si sic tunc esset 
+                <lb ed="#E" n="17"/>determinatus ad aliquam aliam volitionem 
               </p>
               <p xml:id="ppr-l18-euacne">
                 videlicet ponatur quod velit antichristum fore vel etiam 
-                <lb ed="#E"/>ab aeterno fuit determinatus et si sic <choice><orig>neccessario</orig><reg>necessario</reg></choice> est determinatus quia alias esset mutabilis 
-                <lb ed="#E"/>tunc ultra ergo <choice><orig>neccessario</orig><reg>necessario</reg></choice> antichristus erit alias illa volitio esset frustrabilis
+                <lb ed="#E" n="18"/>ab aeterno fuit determinatus et si sic <choice><orig>neccessario</orig><reg>necessario</reg></choice> est determinatus quia alias esset mutabilis 
+                <lb ed="#E" n="19"/>tunc ultra ergo <choice><orig>neccessario</orig><reg>necessario</reg></choice> antichristus erit alias illa volitio esset frustrabilis
               </p>
               <p xml:id="ppr-l18-espsmd">
                 Et sic 
-                <lb ed="#E"/>dicit iste doctor quod agit per alium modum scilicet per immediatum libertatis applicationem 
-                <lb ed="#E"/>proportionabiliter Sicut bonitas tantae se habet respectu sui primi actus quem producit extra libere 
-                <lb ed="#E"/>et non producit determinata per aliam volitionem quia produceretur in infinitum Et sic proportionaliter dicit 
-                <lb ed="#E"/>esse <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> iste doctor de voluntate divina et sic applicat se absque hoc 
-                <lb ed="#E"/>quod intrinsece determinatur volendo Et sic dicit iste doctor primo quod non est possibile quod 
-                <lb ed="#E"/>deus per aliquam volitionem determinetur ad alicuius effectus productionem et sic <choice><orig>neccessitaretur</orig><reg>necessitaretur</reg></choice> 
-                <lb ed="#E"/>Secundo quod exit in actum absque hoc quod intrinsice determinaretur volendo
+                <lb ed="#E" n="20"/>dicit iste doctor quod agit per alium modum scilicet per immediatum libertatis applicationem 
+                <lb ed="#E" n="21"/>proportionabiliter Sicut bonitas tantae se habet respectu sui primi actus quem producit extra libere 
+                <lb ed="#E" n="22"/>et non producit determinata per aliam volitionem quia produceretur in infinitum Et sic proportionaliter dicit 
+                <lb ed="#E" n="23"/>esse <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> iste doctor de voluntate divina et sic applicat se absque hoc 
+                <lb ed="#E" n="24"/>quod intrinsece determinatur volendo Et sic dicit iste doctor primo quod non est possibile quod 
+                <lb ed="#E" n="25"/>deus per aliquam volitionem determinetur ad alicuius effectus productionem et sic <choice><orig>neccessitaretur</orig><reg>necessitaretur</reg></choice> 
+                <lb ed="#E" n="26"/>Secundo quod exit in actum absque hoc quod intrinsice determinaretur volendo
               </p>
             </div>
             <div xml:id="ppr-l18-Dd1e4707">
               <head xml:id="ppr-l18-Hodppet">[Opinio de Plaoul contra philosophos et theologos]</head>
               <p xml:id="ppr-l18-simaci">
-                Sed ista po<lb ed="#E" break="no"/>sitio 
+                Sed ista po<lb ed="#E" break="no" n="27"/>sitio 
                 non videtur mihi solida
               </p>
               <div xml:id="ppr-l18-Dd1e4730">
                 <head xml:id="ppr-l18-Hpadadp">[Primum argumentum de Plaoul]</head>
                 <p xml:id="ppr-l18-epacev">
                   Arguitur primo sic quia si sic quia posset volitione determinata super 
-                  <lb ed="#E"/>addita
+                  <lb ed="#E" n="28"/>addita
                 </p>
                 <!-- review break -->
                 <p xml:id="ppr-l18-eeancc">
                   et hoc <unclear>vel vel</unclear> se ipso <name>Boetius</name> in primo <title>de trinitate</title> error <name>Arrii</name> quia 
-                  <lb ed="#E"/>nescit habere modum in inquirendo unde contrarie proprietates conveniunt rebus quarum 
-                  <lb ed="#E"/>una est <choice><orig>in mensa</orig><reg>immensa</reg></choice> et alia non
+                  <lb ed="#E" n="29"/>nescit habere modum in inquirendo unde contrarie proprietates conveniunt rebus quarum 
+                  <lb ed="#E" n="30"/>una est <choice><orig>in mensa</orig><reg>immensa</reg></choice> et alia non
                 </p>
                 <p xml:id="ppr-l18-uicesc">
                   In creaturis bene sequitur <name>sortes</name> voluit ab aeterno 
-                  <lb ed="#E"/>A fore et potest non fore ergo voluntas illa est frustrabilis Similiter sequitur 
-                  <lb ed="#E"/>de scire <name>sortis</name> quod est fallibile Sed de deo non sequitur sed sequitur magis oppositum 
-                  <lb ed="#E"/>quia isto addito quod deus est <choice><orig>inmensus</orig><reg>immensus</reg></choice> sequitur quod non est frustrabilis vel fallibi<lb ed="#E" break="no"/>lis 
+                  <lb ed="#E" n="31"/>A fore et potest non fore ergo voluntas illa est frustrabilis Similiter sequitur 
+                  <lb ed="#E" n="32"/>de scire <name>sortis</name> quod est fallibile Sed de deo non sequitur sed sequitur magis oppositum 
+                  <lb ed="#E" n="33"/>quia isto addito quod deus est <choice><orig>inmensus</orig><reg>immensus</reg></choice> sequitur quod non est frustrabilis vel fallibi<lb ed="#E" break="no" n="34"/>lis 
                   unde si res est <choice><orig>inmensa</orig><reg>immensa</reg></choice> non est mirum si habet mirabiles proprietates Et sic consequentia 
-                  <lb ed="#E"/>non valet deus voluit ab aeterno ergo <choice><orig>neccessario</orig><reg>necessario</reg></choice> voluit unde valde periculosum 
-                  <lb ed="#E"/>est concedere illam consequentiam Et si petatur quomodo est <choice><orig>inmensus</orig><reg>immensus</reg></choice> dicitur quod non potest plene 
-                  <lb ed="#E"/>apprehendi nisi a se ipso et sic non possumus nos scire quomodo immensus est
+                  <lb ed="#E" n="35"/>non valet deus voluit ab aeterno ergo <choice><orig>neccessario</orig><reg>necessario</reg></choice> voluit unde valde periculosum 
+                  <lb ed="#E" n="36"/>est concedere illam consequentiam Et si petatur quomodo est <choice><orig>inmensus</orig><reg>immensus</reg></choice> dicitur quod non potest plene 
+                  <lb ed="#E" n="37"/>apprehendi nisi a se ipso et sic non possumus nos scire quomodo immensus est
                 </p>
                 <p xml:id="ppr-l18-esihiv">
                   Similiter <!-- possibile homoeteleuton in pal here --> 
-                  <lb ed="#E"/>non sequitur deus ab aeterno scivit antichristum fore ergo <choice><orig>neccessario</orig><reg>necessario</reg></choice> <choice><orig>ymmo</orig><reg>immo</reg></choice> dicitur quod contingenter 
-                  <lb ed="#E"/>et potest non scire Et ideo <name>apostolus</name> <quote>O altitudo</quote> etc Innuendo quod est mirabilis
+                  <lb ed="#E" n="38"/>non sequitur deus ab aeterno scivit antichristum fore ergo <choice><orig>neccessario</orig><reg>necessario</reg></choice> <choice><orig>ymmo</orig><reg>immo</reg></choice> dicitur quod contingenter 
+                  <lb ed="#E" n="39"/>et potest non scire Et ideo <name>apostolus</name> <quote>O altitudo</quote> etc Innuendo quod est mirabilis
                 </p>
                 <p xml:id="ppr-l18-idpvsc">
                   <pb ed="#E" n="23-r"/>
-                  <lb ed="#E"/>secundum fundamentum <rs>istius doctoris</rs> deficit arguendo a simili de voluntate 
-                  <lb ed="#E"/>nostra Advertendum quod semper consequentiam debet negari quando arguitur per simile de creatura ad 
-                  <lb ed="#E"/>deum patet per praedicta
+                  <lb ed="#E" n="1"/>secundum fundamentum <rs>istius doctoris</rs> deficit arguendo a simili de voluntate 
+                  <lb ed="#E" n="2"/>nostra Advertendum quod semper consequentiam debet negari quando arguitur per simile de creatura ad 
+                  <lb ed="#E" n="3"/>deum patet per praedicta
                   
                   Advertendum quod anima nostra ratione suae <choice><orig>inperfectionis</orig><reg>imperfectionis</reg></choice> elicit velle 
-                  <lb ed="#E"/>ad operandum adextra unde si ipsa vellet se ipsa non indigeret volitione
+                  <lb ed="#E" n="4"/>ad operandum adextra unde si ipsa vellet se ipsa non indigeret volitione
                 </p>
               </div>
               <div xml:id="ppr-l18-Dd1e4915">
                 <head xml:id="ppr-l18-Hsasasa">[Secundum argumentum]</head>         
                 <p xml:id="ppr-l18-sriesi">
                   et sic ratio 
-                  <lb ed="#E"/>est contra <choice><orig>ipsum met</orig><reg>ipsummet</reg></choice> quia operatio in nobis non fit sine <!-- sine is correct fix in pal -->velle ergo requiritur volitio distincta 
-                  <lb ed="#E"/>ad operandum adextra
+                  <lb ed="#E" n="5"/>est contra <choice><orig>ipsum met</orig><reg>ipsummet</reg></choice> quia operatio in nobis non fit sine <!-- sine is correct fix in pal -->velle ergo requiritur volitio distincta 
+                  <lb ed="#E" n="6"/>ad operandum adextra
                 </p>
                 <p xml:id="ppr-l18-ivqrid">
                   <!-- includes <p xml:id="l18-ivqema"> 
                     and <p xml:id="l18-ispuqa"> -->
                   Item voluntas quando exit in actum primum exit tamquam <choice><orig>inperfecta</orig><reg>imperfecta</reg></choice> 
-                  <lb ed="#E"/>quia non cognoscendo ipsum saltem in particulari Etiam quod producit hunc actum primum 
-                  <lb ed="#E"/>non determinata per se sed per primam causam quia quantum est de se non magis ipsa produceret 
-                  <lb ed="#E"/>quam alium sibi similem Et ideo dicitur de deo quod ipse non exit in actum nisi realiter 
-                  <lb ed="#E"/>volendo quia quaeritur quomodo determinetur ad producendum <unclear><c>A</c></unclear> individuum plus quam aliud 
-                  <lb ed="#E"/>eiusdem speciei non determinatur per complacentiam quia placet unum producere sicut aliud 
-                  <lb ed="#E"/>Confirmatur quia sic eadem difficultas erit de ista complacentia sicut de volitione 
-                  <lb ed="#E"/>Item de intellectu arguitur quia si ab aeterno intellexit antichristum fore si dicitur quod compla<lb ed="#E" break="no"/>centia 
+                  <lb ed="#E" n="7"/>quia non cognoscendo ipsum saltem in particulari Etiam quod producit hunc actum primum 
+                  <lb ed="#E" n="8"/>non determinata per se sed per primam causam quia quantum est de se non magis ipsa produceret 
+                  <lb ed="#E" n="9"/>quam alium sibi similem Et ideo dicitur de deo quod ipse non exit in actum nisi realiter 
+                  <lb ed="#E" n="10"/>volendo quia quaeritur quomodo determinetur ad producendum <unclear><c>A</c></unclear> individuum plus quam aliud 
+                  <lb ed="#E" n="11"/>eiusdem speciei non determinatur per complacentiam quia placet unum producere sicut aliud 
+                  <lb ed="#E" n="12"/>Confirmatur quia sic eadem difficultas erit de ista complacentia sicut de volitione 
+                  <lb ed="#E" n="13"/>Item de intellectu arguitur quia si ab aeterno intellexit antichristum fore si dicitur quod compla<lb ed="#E" break="no" n="14"/>centia 
                   est indifferens tunc non est ratio quare potius unum quam aliud
                 </p>
                 <p xml:id="ppr-l18-idesss">
-                  Item scrip<lb ed="#E" break="no"/>tura 
+                  Item scrip<lb ed="#E" break="no" n="15"/>tura 
                   sacra ecclesia doctores <unclear>sacrus</unclear> concedunt quod deus agit volendo ergo etc 
                   <!-- break -->
                   Sequitur 
-                  <lb ed="#E"/>quod periculosum est negare in deo libertatem <choice><orig>ymmo</orig><reg>immo</reg></choice> etiam volitionem quia contradicitur 
-                  <lb ed="#E"/>ecclesiae
+                  <lb ed="#E" n="16"/>quod periculosum est negare in deo libertatem <choice><orig>ymmo</orig><reg>immo</reg></choice> etiam volitionem quia contradicitur 
+                  <lb ed="#E" n="17"/>ecclesiae
                 </p>
               </div>
             </div>
@@ -336,23 +333,23 @@
             <head xml:id="ppr-l18-Hcdppdp">Conclusio de primo duo principiis</head>
             <p xml:id="ppr-l18-eieaac">
               Ex istis duobus principiis tamquam intrinsicis sequuntur omnes conditiones theologicae 
-              <lb ed="#E"/><choice><orig>neccessariae</orig><reg>necessariae</reg></choice> et contingentes adiunctus aliquibus aliis 
+              <lb ed="#E" n="18"/><choice><orig>neccessariae</orig><reg>necessariae</reg></choice> et contingentes adiunctus aliquibus aliis 
             </p>
           </div>
           <div xml:id="ppr-l18-Dd1e5078">
             <head xml:id="ppr-l18-Htptsas">[Tertium principium theologiae: Deus providet sufficienter ad salutem]</head>
             <p xml:id="ppr-l18-tppess">
-              Tertium principium quod deus provi<lb ed="#E" break="no"/>dit 
-              sufficienter de lege et doctrina <choice><orig>super naturalibus</orig><reg>supernaturalibus</reg></choice> dirigentibus ad salutem patet de sua bonita<lb ed="#E" break="no"/>te 
-              et sic continetur sub isto quod docuit sufficienter creaturam scilicet bibliam et sic vera<lb ed="#E" break="no"/>citer 
+              Tertium principium quod deus provi<lb ed="#E" break="no" n="19"/>dit 
+              sufficienter de lege et doctrina <choice><orig>super naturalibus</orig><reg>supernaturalibus</reg></choice> dirigentibus ad salutem patet de sua bonita<lb ed="#E" break="no" n="20"/>te 
+              et sic continetur sub isto quod docuit sufficienter creaturam scilicet bibliam et sic vera<lb ed="#E" break="no" n="21"/>citer 
               et infallibiliter credendum est bibliae
             </p>
             <!-- <p xml:id="l18-eppsae"> doesn't seem present -->
             <p xml:id="ppr-l18-tpnpss">
               Ecclesia capitur modo pro <choice><orig>agregato</orig><reg>aggregato</reg></choice> 
-              <lb ed="#E"/>ex prophetis apostolis et sic de aliis Isto modo habuerunt unam scripturam et immedia<lb ed="#E" break="no"/>te 
+              <lb ed="#E" n="22"/>ex prophetis apostolis et sic de aliis Isto modo habuerunt unam scripturam et immedia<lb ed="#E" break="no" n="23"/>te 
               habuerunt quicquid scripserunt et sic est <choice><orig>inmensa</orig><reg>immensa</reg></choice> quia christus erat unus <name>apostolus</name> quia 
-              <lb ed="#E"/><name>paulus</name> vocat eum <name>apostolum</name> credo ad romanos <!-- unclear if this should be a title or persongroup --> et sic ecclesia est infinitae auctoritatis <unclear>ratione</unclear> cristi 
+              <lb ed="#E" n="24"/><name>paulus</name> vocat eum <name>apostolum</name> credo ad romanos <!-- unclear if this should be a title or persongroup --> et sic ecclesia est infinitae auctoritatis <unclear>ratione</unclear> cristi 
               Alio modo capitur pro consilio generali et sic de aliis de isto dicetur alias
             </p>
           </div>
@@ -360,33 +357,33 @@
         <div xml:id="ppr-l18-Dd1e5180">
           <head xml:id="ppr-l18-Hd1e5182">Circa textum</head>
           <p xml:id="ppr-l18-d1e5185">
-            <lb ed="#E"/>Circa textum prima conclusio Spiritus sanctus procedit aeternaliter a patre et filio non tamen a se 
-            <lb ed="#E"/>quia dicit <name>augustinus</name> nulla res producit se ut sit id est non facit se esse
+            <lb ed="#E" n="25"/>Circa textum prima conclusio Spiritus sanctus procedit aeternaliter a patre et filio non tamen a se 
+            <lb ed="#E" n="26"/>quia dicit <name>augustinus</name> nulla res producit se ut sit id est non facit se esse
           </p>
           <p xml:id="ppr-l18-d1e5202">
             Secunda conclusio 
-            <lb ed="#E"/>Spiritus sanctus mittitur temporaliter a se ipso quia sic ipsum mitti non est nisi grati<lb ed="#E" break="no"/>ficare 
+            <lb ed="#E" n="27"/>Spiritus sanctus mittitur temporaliter a se ipso quia sic ipsum mitti non est nisi grati<lb ed="#E" break="no" n="28"/>ficare 
             creaturam Antiqui dixerunt quod missio includit quemdam auctoritatem 
-            <lb ed="#E"/>scilicet quemdam ordinem ad aliquid et sic dixerunt quod spiritus sanctus non mittitur a se
+            <lb ed="#E" n="29"/>scilicet quemdam ordinem ad aliquid et sic dixerunt quod spiritus sanctus non mittitur a se
           </p>
           <p xml:id="ppr-l18-d1e5227">
             Tertia conclusio Spiritus sanctus non magis erat in creaturis ubi apparuit quam ante quia deus 
-            <lb ed="#E"/>est ubique ratione suae <choice><orig>inmensitatis</orig><reg>immensitatis</reg></choice> et sic non est mutabilis de uno loco ad alium sed 
-            <lb ed="#E"/>dicitur mitti quia ostendit se esse <corr><del rend="strikethrough">acu</del></corr> alicubi <choice><orig>quodam modo</orig><reg>quodammodo</reg></choice> speciali
+            <lb ed="#E" n="30"/>est ubique ratione suae <choice><orig>inmensitatis</orig><reg>immensitatis</reg></choice> et sic non est mutabilis de uno loco ad alium sed 
+            <lb ed="#E" n="31"/>dicitur mitti quia ostendit se esse <corr><del rend="strikethrough">acu</del></corr> alicubi <choice><orig>quodam modo</orig><reg>quodammodo</reg></choice> speciali
           </p> 
           <p xml:id="ppr-l18-qcivsi">
             Quarta conclusio 
-            <lb ed="#E"/>ibi Sed prius quaerendum est Aliter filius apparuit in specie visibili quam spiritus 
-            <lb ed="#E"/>sanctus quia filius in humanitate tamquam verus homo et tamquam <choice><orig>ypostatice</orig><reg>hypostatice</reg></choice> 
-            <lb ed="#E"/>sibi vivens eam sic quod dicebatur verus homo et sic non erat de spiritu sancto sed quod movit 
-            <lb ed="#E"/>talem creaturam modo speciali Et sic quando dicitur columba vel quod apparuit in specie 
-            <lb ed="#E"/>columbae potest dici quod erat realis columba et quod movit eam modo speciali et non 
-            <lb ed="#E"/>vivebatur si <choice><orig>ypostatice</orig><reg>hypostatice</reg></choice>
+            <lb ed="#E" n="32"/>ibi Sed prius quaerendum est Aliter filius apparuit in specie visibili quam spiritus 
+            <lb ed="#E" n="33"/>sanctus quia filius in humanitate tamquam verus homo et tamquam <choice><orig>ypostatice</orig><reg>hypostatice</reg></choice> 
+            <lb ed="#E" n="34"/>sibi vivens eam sic quod dicebatur verus homo et sic non erat de spiritu sancto sed quod movit 
+            <lb ed="#E" n="35"/>talem creaturam modo speciali Et sic quando dicitur columba vel quod apparuit in specie 
+            <lb ed="#E" n="36"/>columbae potest dici quod erat realis columba et quod movit eam modo speciali et non 
+            <lb ed="#E" n="37"/>vivebatur si <choice><orig>ypostatice</orig><reg>hypostatice</reg></choice>
           </p>
           <p xml:id="ppr-l18-d1e5296">
             Quinta conclusio filius est minor patre secundum formam 
             <pb ed="#E" n="23-v"/>
-            <lb ed="#E"/>assumptam etiam minore se ipso et sic non est de spiritu sancto quia sic non uni<lb ed="#E" break="no"/>vit 
+            <lb ed="#E" n="1"/>assumptam etiam minore se ipso et sic non est de spiritu sancto quia sic non uni<lb ed="#E" break="no" n="2"/>vit 
             sibi creaturam per illam missionem
           </p>
         </div>

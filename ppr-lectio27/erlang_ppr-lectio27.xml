@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,20 +52,20 @@
           
           <p xml:id="ppr-l27-saiagp">
             <lb ed="#E" n="24"/>In alia lectione  
-            <lb ed="#E"/>Quantum ad tertium articulum utrum deus et creatura possint univocari
+            <lb ed="#E" n="25"/>Quantum ad tertium articulum utrum deus et creatura possint univocari
           </p>
           <p xml:id="ppr-l27-htacea">
-            Ad<lb ed="#E" break="no"/>vertendum 
+            Ad<lb ed="#E" break="no" n="26"/>vertendum 
             quod doctores non movent istam <del rend="strikethrough">cau</del> materiam ad tractandum aliquid de logica 
-            <lb ed="#E"/>sed ad manifestandum divinam excellentiam ad hoc fuit omnium doctorum intentio ut ipso cog<lb ed="#E" break="no"/>nito 
+            <lb ed="#E" n="27"/>sed ad manifestandum divinam excellentiam ad hoc fuit omnium doctorum intentio ut ipso cog<lb ed="#E" break="no" n="28"/>nito 
             alliciant in sui dilectionem
           </p>
           <p xml:id="ppr-l27-ebdess">
             Breviter doctores in ista materia <sic>intuntur</sic> ostendere quod tanta 
-            <lb ed="#E"/>est divina excellentia et tantus excessus dei super creaturam quod non possunt univoce significari 
-            <lb ed="#E"/>Ad hoc <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> multum confert <choice><orig>ymaginatio</orig><reg>imaginatio</reg></choice> <name ref="#Aristotle">aristotelis</name> de accidente et substantia unde <name ref="#Aristotle">aristoteles</name> 
-            <lb ed="#E"/><choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod accidens ratione suae dependentiae et defectu intrinsecae perfectionis non est proprie ens 
-            <lb ed="#E"/>nec habet proprie esse sed in existens Ita proportionaliter <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> de creatura respectu dei quod crea<lb ed="#E" break="no"/>turae 
+            <lb ed="#E" n="29"/>est divina excellentia et tantus excessus dei super creaturam quod non possunt univoce significari 
+            <lb ed="#E" n="30"/>Ad hoc <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> multum confert <choice><orig>ymaginatio</orig><reg>imaginatio</reg></choice> <name ref="#Aristotle">aristotelis</name> de accidente et substantia unde <name ref="#Aristotle">aristoteles</name> 
+            <lb ed="#E" n="31"/><choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod accidens ratione suae dependentiae et defectu intrinsecae perfectionis non est proprie ens 
+            <lb ed="#E" n="32"/>nec habet proprie esse sed in existens Ita proportionaliter <choice><orig>ymaginandum</orig><reg>imaginandum</reg></choice> de creatura respectu dei quod crea<lb ed="#E" break="no" n="33"/>turae 
             est tantae imperfectionis et tantae indigentiae quod quodammodo deus est suum subsistere
           </p>
         </div>
@@ -76,64 +73,64 @@
           <head xml:id="ppr-l27-Hogpogp">Opinio Guillelmi Parisiensis</head>
           <p xml:id="ppr-l27-ehemeh">
             et hoc dicit 
-            <lb ed="#E"/>expressissime <name ref="#WilliamOfParis">wilhelmus parisiensis</name> quod esse conpetit deo proprie et essentialiter creaturae extrinsice unde 
-            <lb ed="#E"/>esse creaturae est ipse deus est ipse met sustentans creaturam unde deus habet unam 
-            <lb ed="#E"/>causalitatem respectu creaturae quam noverunt philosophi et deus est realiter nobis magis intimus 
-            <lb ed="#E"/>quam nos ipsi nobis et ideo est quasi sustentatio creaturarum <choice><orig>ymmo</orig><reg>immo</reg></choice> est eis esse Ex isto ipse 
-            <lb ed="#E"/>fundat inclinationem quam creatura habet ad deum quia illa tendentia et dilectio creaturae cum 
-            <lb ed="#E"/>si deus sit eius esse 
+            <lb ed="#E" n="34"/>expressissime <name ref="#WilliamOfParis">wilhelmus parisiensis</name> quod esse conpetit deo proprie et essentialiter creaturae extrinsice unde 
+            <lb ed="#E" n="35"/>esse creaturae est ipse deus est ipse met sustentans creaturam unde deus habet unam 
+            <lb ed="#E" n="36"/>causalitatem respectu creaturae quam noverunt philosophi et deus est realiter nobis magis intimus 
+            <lb ed="#E" n="37"/>quam nos ipsi nobis et ideo est quasi sustentatio creaturarum <choice><orig>ymmo</orig><reg>immo</reg></choice> est eis esse Ex isto ipse 
+            <lb ed="#E" n="38"/>fundat inclinationem quam creatura habet ad deum quia illa tendentia et dilectio creaturae cum 
+            <lb ed="#E" n="39"/>si deus sit eius esse 
           </p>
           <p xml:id="ppr-l27-ippdec">
             Satis potest <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod non est conceptus <sic>unicus</sic> creaturae et 
-            <lb ed="#E"/>dei iuxta <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> dictam de substantia et accidente quia creatura non in se sed ex 
-            <lb ed="#E"/>se habet esse unde creatura habet unam habitudinem quae est maioris dependentiae ad deum 
-            <lb ed="#E"/>quam accidentis ad subiectum Et ista habitudo dependentiae in infinitum maior reperitur 
-            <lb ed="#E"/>scilicet creaturae ad deum quam accidentis ad substantiam Si ergo <name ref="#Aristotle">aristoteles</name> ratione habitudinis accidentis 
-            <lb ed="#E"/>ad substantiam negavit univocationem substantiae et accidentis quia a fortiori debet negari univocatio dei et creaturae
+            <lb ed="#E" n="40"/>dei iuxta <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> dictam de substantia et accidente quia creatura non in se sed ex 
+            <lb ed="#E" n="41"/>se habet esse unde creatura habet unam habitudinem quae est maioris dependentiae ad deum 
+            <lb ed="#E" n="42"/>quam accidentis ad subiectum Et ista habitudo dependentiae in infinitum maior reperitur 
+            <lb ed="#E" n="43"/>scilicet creaturae ad deum quam accidentis ad substantiam Si ergo <name ref="#Aristotle">aristoteles</name> ratione habitudinis accidentis 
+            <lb ed="#E" n="44"/>ad substantiam negavit univocationem substantiae et accidentis quia a fortiori debet negari univocatio dei et creaturae
           </p>
           <p xml:id="ppr-l27-veqiim">
-            <lb ed="#E"/>unde phylosophi non consideraverunt speciales habitudines sicut nos <choice><orig>ymmo</orig><reg>immo</reg></choice> posuerunt aliquas creaturas 
-            <lb ed="#E"/>habere necesse esse sicut caelum et nobis revolutae sunt tales habitudines et nobis revolutae sunt 
-            <lb ed="#E"/>tales habitudines Et ideo si bene considerasset habitudinem non posuisset quod fuisset uni<lb ed="#E" break="no"/>vocatio 
+            <lb ed="#E" n="45"/>unde phylosophi non consideraverunt speciales habitudines sicut nos <choice><orig>ymmo</orig><reg>immo</reg></choice> posuerunt aliquas creaturas 
+            <lb ed="#E" n="46"/>habere necesse esse sicut caelum et nobis revolutae sunt tales habitudines et nobis revolutae sunt 
+            <lb ed="#E" n="47"/>tales habitudines Et ideo si bene considerasset habitudinem non posuisset quod fuisset uni<lb ed="#E" break="no" n="48"/>vocatio 
             dei et creaturae <name ref="#Avicenna">Avicenna</name> expresse posuit in sua <title ref="#Metaphysics">metaphysica</title> quod deus non est in aliquo 
-            <lb ed="#E"/>genere videndum est quomodo et qualiter doctores procedunt in ista materia
+            <lb ed="#E" n="49"/>genere videndum est quomodo et qualiter doctores procedunt in ista materia
           </p>
         </div>
         <div>
           <head xml:id="ppr-l27-Hososos">Opinio Scoti</head>
           <p xml:id="ppr-l27-qahcad">
             unde <name ref="#Scotus">doctor subtilis</name> 
-            <lb ed="#E"/>ponit quod potest habere aliquis conceptus realiter univocus deo et creaturae repositus in aliquo 
-            <lb ed="#E"/>genere in hoc concordat cum aliis saltem antiquis 
+            <lb ed="#E" n="50"/>ponit quod potest habere aliquis conceptus realiter univocus deo et creaturae repositus in aliquo 
+            <lb ed="#E" n="51"/>genere in hoc concordat cum aliis saltem antiquis 
           </p>
           <p xml:id="ppr-l27-qapehf">
             ulterius ponit quod conceptus entis est communis 
-            <lb ed="#E"/>deo creaturae <!-- possible paragraph break --><pc ana="#pilcrow"/>Advertendum quod doctores habent modus loquendi obscuros et male resolutos 
-            <lb ed="#E"/>unde dicunt quod conceptus <unclear>entis</unclear> de ratione sua est indifferens ad finitum vel infinitum ideo ratio entis 
-            <lb ed="#E"/>est communis deo creaturae
+            <lb ed="#E" n="52"/>deo creaturae <!-- possible paragraph break --><pc ana="#pilcrow"/>Advertendum quod doctores habent modus loquendi obscuros et male resolutos 
+            <lb ed="#E" n="53"/>unde dicunt quod conceptus <unclear>entis</unclear> de ratione sua est indifferens ad finitum vel infinitum ideo ratio entis 
+            <lb ed="#E" n="54"/>est communis deo creaturae
           </p>
           <p xml:id="ppr-l27-tqpdaf">
             Advertendum quod realiter quando locuntur de rationibus non capiunt rationem 
-            <lb ed="#E"/>pro conceptu et hoc est <unclear>terminale</unclear> nec proprie pro obiecto ideo difficile est dare intellectum et fundamentum unde quando 
-            <lb ed="#E"/>dicunt quod ratio entis est communis credo quod capiunt rationem pro obiecto subtili modo ostenso unde 
-            <lb ed="#E"/>a parte rei et a parte obiecti loquendo formaliter secundum modum ipsius eadem formalitas 
-            <lb ed="#E"/>essendi correspondet deo et creaturae vel eadem ratio formalis <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod formalitas 
-            <lb ed="#E"/>essendi est eadem in deo et creatura Sed differentia est inter deum et creaturam non 
-            <lb ed="#E"/>formaliter sed per modos intrinsecos et hoc iterum est terribile
+            <lb ed="#E" n="55"/>pro conceptu et hoc est <unclear>terminale</unclear> nec proprie pro obiecto ideo difficile est dare intellectum et fundamentum unde quando 
+            <lb ed="#E" n="56"/>dicunt quod ratio entis est communis credo quod capiunt rationem pro obiecto subtili modo ostenso unde 
+            <lb ed="#E" n="57"/>a parte rei et a parte obiecti loquendo formaliter secundum modum ipsius eadem formalitas 
+            <lb ed="#E" n="58"/>essendi correspondet deo et creaturae vel eadem ratio formalis <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod formalitas 
+            <lb ed="#E" n="59"/>essendi est eadem in deo et creatura Sed differentia est inter deum et creaturam non 
+            <lb ed="#E" n="60"/>formaliter sed per modos intrinsecos et hoc iterum est terribile
           </p>
           <p xml:id="ppr-l27-usecod">
             Breviter doctores isti <choice><orig>ymaginantur</orig><reg>imaginantur</reg></choice> 
-            <lb ed="#E"/>alias distinctiones quae sit essentialis etiam quam sit personalis et <choice><orig>ymaginantur</orig><reg>imaginantur</reg></choice> quod ad positionem 
-            <lb ed="#E"/><sic>quiditatis</sic> rei in esse ponitur quid distinctum aliquo modo non tamen totaliter realiter <choice><orig>ymmo</orig><reg>immo</reg></choice> <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> 
-            <lb ed="#E"/>concurrens et vocatur modus essendi rei unde formalis ratio essendi in deo et formalis 
-            <lb ed="#E"/>ratio essendi in creatura sunt eadem Sed deus habet modum infinitum et creatura habet
+            <lb ed="#E" n="61"/>alias distinctiones quae sit essentialis etiam quam sit personalis et <choice><orig>ymaginantur</orig><reg>imaginantur</reg></choice> quod ad positionem 
+            <lb ed="#E" n="62"/><sic>quiditatis</sic> rei in esse ponitur quid distinctum aliquo modo non tamen totaliter realiter <choice><orig>ymmo</orig><reg>immo</reg></choice> <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> 
+            <lb ed="#E" n="63"/>concurrens et vocatur modus essendi rei unde formalis ratio essendi in deo et formalis 
+            <lb ed="#E" n="64"/>ratio essendi in creatura sunt eadem Sed deus habet modum infinitum et creatura habet
             <pb ed="#E" n="37-r"/>
-            <lb ed="#E"/>alium modum Dicit ulterius quod iste modus non diversificat speciem formalitatis Unde 
-            <lb ed="#E"/><choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod staret quod in eadem specie essent duo iudicia unum infinitum et aliud non et <unclear>sic</unclear> 
-            <lb ed="#E"/>haberent diversos modus ulterius a modis intrinsecis non causantur conceptus absoluti sed a rationibus formalibus 
-            <lb ed="#E"/>modo illae rationes possunt <subst><del rend="expunctuation">creare</del> <add>causare</add></subst> conceptum convenientem deo et creaturae unde secundum modum 
-            <lb ed="#E"/>ens vivens etc sunt extra genus sed secundum formalitates et non secundum modum causantur 
-            <lb ed="#E"/>omnia praedicata posita sub genere et ideo secundum <name ref="#Scotus">doctorem subtilem</name> potest esse univocatio iuxta dicta
+            <lb ed="#E" n="1"/>alium modum Dicit ulterius quod iste modus non diversificat speciem formalitatis Unde 
+            <lb ed="#E" n="2"/><choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod staret quod in eadem specie essent duo iudicia unum infinitum et aliud non et <unclear>sic</unclear> 
+            <lb ed="#E" n="3"/>haberent diversos modus ulterius a modis intrinsecis non causantur conceptus absoluti sed a rationibus formalibus 
+            <lb ed="#E" n="4"/>modo illae rationes possunt <subst><del rend="expunctuation">creare</del> <add>causare</add></subst> conceptum convenientem deo et creaturae unde secundum modum 
+            <lb ed="#E" n="5"/>ens vivens etc sunt extra genus sed secundum formalitates et non secundum modum causantur 
+            <lb ed="#E" n="6"/>omnia praedicata posita sub genere et ideo secundum <name ref="#Scotus">doctorem subtilem</name> potest esse univocatio iuxta dicta
           </p>
         </div> 
         <div>
@@ -141,127 +138,127 @@
           <!-- <p xml:id="ppr-l27-aiipdp"> not present -->
           <p xml:id="ppr-l27-ppncie">
             <name ref="#Aureoli">Aureolus</name> 
-            <lb ed="#E"/>tenet aliam quia dicit quod non potest haberi conceptus univocus deo et creaturae quia deficit 
-            <lb ed="#E"/>ratio prima conclusio sua non potest esse conceptus univocus deo et creaturae correspondens quia deficit ratio obiectiva 
-            <lb ed="#E"/>communis unde <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod conceptus animalis habet rationem obiectivam adaequatam sibi communem omnibus speciebus 
-            <lb ed="#E"/>et individuis illius generis unde conceptus de se secundum eum saltem generalis non terminatur ad 
-            <lb ed="#E"/>obiectum inmediate sed habet rationem obiectivam ad quam terminantur etc unum ad aliquid esse perspicuum Secundum 
-            <lb ed="#E"/>hoc dicit quod non potest haberi conceptus unicus de deo et deo creatura quia nulla est ratio obiectiva communis eis 
+            <lb ed="#E" n="7"/>tenet aliam quia dicit quod non potest haberi conceptus univocus deo et creaturae quia deficit 
+            <lb ed="#E" n="8"/>ratio prima conclusio sua non potest esse conceptus univocus deo et creaturae correspondens quia deficit ratio obiectiva 
+            <lb ed="#E" n="9"/>communis unde <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod conceptus animalis habet rationem obiectivam adaequatam sibi communem omnibus speciebus 
+            <lb ed="#E" n="10"/>et individuis illius generis unde conceptus de se secundum eum saltem generalis non terminatur ad 
+            <lb ed="#E" n="11"/>obiectum inmediate sed habet rationem obiectivam ad quam terminantur etc unum ad aliquid esse perspicuum Secundum 
+            <lb ed="#E" n="12"/>hoc dicit quod non potest haberi conceptus unicus de deo et deo creatura quia nulla est ratio obiectiva communis eis 
             sicut est ratio obiectiva communis conceptui generis et speciei
           </p>
           <p xml:id="ppr-l27-spqles">
             Secundo ponit quod bene habetur conceptus confusus dei et 
-            <lb ed="#E"/>creaturae sicut conceptus entis quia non habet unam rationem obiectivam istud est valde mirabile 
-            <lb ed="#E"/><name>magister petrus</name> pro intellectu ipsius apparet mihi quod aliqualiter potest dari intellectus considerandum pro illo quod anima 
-            <lb ed="#E"/>intellectiva habet multiplicem orationem et inter alias nobis notas quod sensitiva vegativa et intellectiva 
-            <lb ed="#E"/>Tunc <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> proportionaliter ad <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> istorum doctorum quod ratio obiectiva <choice><orig>nichil</orig><reg>nihil</reg></choice> aliud est quam 
-            <lb ed="#E"/>res considerata 2m aliquem modum se habendi ad operandum ut ratio generis est esse sensitivum 
-            <lb ed="#E"/>ut quod omnis res cui competit illa ratio obicitur in ratione animalis et hoc est de ratione conceptus quod habeat <unclear>sic</unclear> 
+            <lb ed="#E" n="13"/>creaturae sicut conceptus entis quia non habet unam rationem obiectivam istud est valde mirabile 
+            <lb ed="#E" n="14"/><name>magister petrus</name> pro intellectu ipsius apparet mihi quod aliqualiter potest dari intellectus considerandum pro illo quod anima 
+            <lb ed="#E" n="15"/>intellectiva habet multiplicem orationem et inter alias nobis notas quod sensitiva vegativa et intellectiva 
+            <lb ed="#E" n="16"/>Tunc <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> proportionaliter ad <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> istorum doctorum quod ratio obiectiva <choice><orig>nichil</orig><reg>nihil</reg></choice> aliud est quam 
+            <lb ed="#E" n="17"/>res considerata 2m aliquem modum se habendi ad operandum ut ratio generis est esse sensitivum 
+            <lb ed="#E" n="18"/>ut quod omnis res cui competit illa ratio obicitur in ratione animalis et hoc est de ratione conceptus quod habeat <unclear>sic</unclear> 
             <!-- possible para break here ?? -->
-            <lb ed="#E"/>Ad oppositum de deo non potest haberi ratio obiectiva limitata quia deus <del rend="expunctuation">qn</del> secundum modum 
-            <lb ed="#E"/>est ipse inmense ita quod non reperientur tales gradus 2m magis et minus perfectos in deo sicut 
-            <lb ed="#E"/>in creaturis unde reperiuntur in creaturis quod aliud est et est valde inperfecte et aliquid  
-            <lb ed="#E"/>aliud est et est perfectius limitate tamen sed sic non est de deo et sic omnes conceptus qui creantur 
-            <lb ed="#E"/>per modum speciei vel generis causantur a rebus 2m esse limitatum et deus non habet esse 
-            <lb ed="#E"/>limitatum et ideo non potest esse conceptus univocus deus et creaturae Et si <name ref="#Aureoli">Aureolus</name> ad istum 
-            <lb ed="#E"/>intellectum loquitur valde probabiliter loquitur
+            <lb ed="#E" n="19"/>Ad oppositum de deo non potest haberi ratio obiectiva limitata quia deus <del rend="expunctuation">qn</del> secundum modum 
+            <lb ed="#E" n="20"/>est ipse inmense ita quod non reperientur tales gradus 2m magis et minus perfectos in deo sicut 
+            <lb ed="#E" n="21"/>in creaturis unde reperiuntur in creaturis quod aliud est et est valde inperfecte et aliquid  
+            <lb ed="#E" n="22"/>aliud est et est perfectius limitate tamen sed sic non est de deo et sic omnes conceptus qui creantur 
+            <lb ed="#E" n="23"/>per modum speciei vel generis causantur a rebus 2m esse limitatum et deus non habet esse 
+            <lb ed="#E" n="24"/>limitatum et ideo non potest esse conceptus univocus deus et creaturae Et si <name ref="#Aureoli">Aureolus</name> ad istum 
+            <lb ed="#E" n="25"/>intellectum loquitur valde probabiliter loquitur
           </p>
         </div>
         <div>
           <head xml:id="ppr-l27-Hoididr">Opinio Ioannis de Ripa</head>
           <p xml:id="ppr-l27-aeoeee">
             Alia via <name ref="#Ripa">magister Iohannes de ripa</name> dicit quod deus non 
-            <lb ed="#E"/>univocatur <unclear>de creatura</unclear>
+            <lb ed="#E" n="26"/>univocatur <unclear>de creatura</unclear>
           </p>
           <p xml:id="ppr-l27-tpipum">
             et magis intelligitur quam alii ponit propositiones pro quarum 
-            <lb ed="#E"/>intellectu advertendum quod ipse videntur innuere duplicem ordinem praedicamentorum essentialium secundum 
-            <lb ed="#E"/>quod tetigi
+            <lb ed="#E" n="27"/>intellectu advertendum quod ipse videntur innuere duplicem ordinem praedicamentorum essentialium secundum 
+            <lb ed="#E" n="28"/>quod tetigi
           </p>
           <p xml:id="ppr-l27-peodve">
             unus est praedicatorum communium quorum ens primum postea alia 
           </p>
           <p xml:id="ppr-l27-soisfe">
             Secundo <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> 
-            <lb ed="#E"/>ordinem correspondentem in deo praedicatorum propriorum deo quia sicut ens est communem ita ab ente 
-            <lb ed="#E"/>capitur conceptus significans praecise entitatem <subst><del rend="strikethrough">dist</del> <add place="in-line">divinam</add></subst> et <unclear>significat</unclear> modo infinitatis
+            <lb ed="#E" n="29"/>ordinem correspondentem in deo praedicatorum propriorum deo quia sicut ens est communem ita ab ente 
+            <lb ed="#E" n="30"/>capitur conceptus significans praecise entitatem <subst><del rend="strikethrough">dist</del> <add place="in-line">divinam</add></subst> et <unclear>significat</unclear> modo infinitatis
           </p>
           <p xml:id="ppr-l27-iidlep">
             Secundo sicut habemus 
-            <lb ed="#E"/>duplicem ordinem talium praedicatorum ita a parte rei est duplex ratio obiectalis correspondens verbi gratia 
-            <lb ed="#E"/><choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod ens prout est commune realiter sicut correspondet ratio formalis entis quae 
-            <lb ed="#E"/>quantum est de se est infinita licet tamen finite et 2m varios gradus possit a creatura par<lb ed="#E" break="no"/>ticipare 
+            <lb ed="#E" n="31"/>duplicem ordinem talium praedicatorum ita a parte rei est duplex ratio obiectalis correspondens verbi gratia 
+            <lb ed="#E" n="32"/><choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod ens prout est commune realiter sicut correspondet ratio formalis entis quae 
+            <lb ed="#E" n="33"/>quantum est de se est infinita licet tamen finite et 2m varios gradus possit a creatura par<lb ed="#E" break="no" n="34"/>ticipare 
             ita quod distinctae rationes et distinctae res ut ita loquar correspondent istis ens vivens 
-            <lb ed="#E"/>etc ita quod aliqualis distinctio minor quam sit personalis Ita quod correspondent distinctae res concurrentes 
-            <lb ed="#E"/>tamen <choice><orig>ydemptice</orig><reg>identice</reg></choice> unde <choice><orig>imaginemur</orig><reg>imaginemur</reg></choice> quod huic <unclear>praedicato <!-- praedicamento?? --></unclear> ens correspondeat a parte rei aliqua 
-            <lb ed="#E"/>entitas quae est formalis ratio et sic de aliis praedicatis Et <choice><orig>ymaginemur</orig><reg>imaginemur</reg></choice> quod concurrant 
-            <lb ed="#E"/>ydemptice sicut personae divinae concurrunt ydemptice <del>yi</del> in essentia divina ita dicit quod aliud 
-            <lb ed="#E"/>est esse in deo aliud vivere et aliud esse formatur et concurrunt ydemptice
+            <lb ed="#E" n="35"/>etc ita quod aliqualis distinctio minor quam sit personalis Ita quod correspondent distinctae res concurrentes 
+            <lb ed="#E" n="36"/>tamen <choice><orig>ydemptice</orig><reg>identice</reg></choice> unde <choice><orig>imaginemur</orig><reg>imaginemur</reg></choice> quod huic <unclear>praedicato <!-- praedicamento?? --></unclear> ens correspondeat a parte rei aliqua 
+            <lb ed="#E" n="37"/>entitas quae est formalis ratio et sic de aliis praedicatis Et <choice><orig>ymaginemur</orig><reg>imaginemur</reg></choice> quod concurrant 
+            <lb ed="#E" n="38"/>ydemptice sicut personae divinae concurrunt ydemptice <del>yi</del> in essentia divina ita dicit quod aliud 
+            <lb ed="#E" n="39"/>est esse in deo aliud vivere et aliud esse formatur et concurrunt ydemptice
           </p>
           <p xml:id="ppr-l27-eciiie">
             ulterius dicit quod 
-            <lb ed="#E"/>ratio entis correspondet creaturae et cuilibet finite et ratio entis in deo et ratio entis in creatura 
-            <lb ed="#E"/>nullo modo conveniunt ideo nullo modo possunt univocari quia huiusmodi in deo est simplicissima et indivisibilis
+            <lb ed="#E" n="40"/>ratio entis correspondet creaturae et cuilibet finite et ratio entis in deo et ratio entis in creatura 
+            <lb ed="#E" n="41"/>nullo modo conveniunt ideo nullo modo possunt univocari quia huiusmodi in deo est simplicissima et indivisibilis
             <pb ed="#E" n="37-v"/>
-            <lb ed="#E"/>sed in creatura est gradualis <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod homo vel perfectio hominis est plurium graduum qui 
-            <lb ed="#E"/>omnes sunt eiusdem speciei quam lapis et sic in deo est totaliter alterius rationis quia omnino 
-            <lb ed="#E"/>inmensa omnino individualis
+            <lb ed="#E" n="1"/>sed in creatura est gradualis <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod homo vel perfectio hominis est plurium graduum qui 
+            <lb ed="#E" n="2"/>omnes sunt eiusdem speciei quam lapis et sic in deo est totaliter alterius rationis quia omnino 
+            <lb ed="#E" n="3"/>inmensa omnino individualis
           </p>
           <p xml:id="ppr-l27-ippeip">
             Isto praemisso prima propositio sua ratio entis secundum quam 
-            <lb ed="#E"/>deus denominatur formaliter ens est simpliciter inmensa capit rationem pro ratione obiectiva et sic illa 
-            <lb ed="#E"/>ratio in deo est <choice><orig>inmensa</orig><reg>immensa</reg></choice>
+            <lb ed="#E" n="4"/>deus denominatur formaliter ens est simpliciter inmensa capit rationem pro ratione obiectiva et sic illa 
+            <lb ed="#E" n="5"/>ratio in deo est <choice><orig>inmensa</orig><reg>immensa</reg></choice>
           </p>
           <p xml:id="ppr-l27-scodec">
             Secunda conclusio omnis denominatio transcendens communis deo et creaturae 
-            <lb ed="#E"/>habet in deo rationem intrinsecam inmensam formaliter vult dicere sicut dicit de ente quia 
-            <lb ed="#E"/>realiter in deo correspondet ratio <choice><orig>inmensa</orig><reg>immensa</reg></choice> ita cuilibet alteri denominationi ratio <choice><orig>inmensa</orig><reg>immensa</reg></choice> 
-            <lb ed="#E"/>correspondet 
+            <lb ed="#E" n="6"/>habet in deo rationem intrinsecam inmensam formaliter vult dicere sicut dicit de ente quia 
+            <lb ed="#E" n="7"/>realiter in deo correspondet ratio <choice><orig>inmensa</orig><reg>immensa</reg></choice> ita cuilibet alteri denominationi ratio <choice><orig>inmensa</orig><reg>immensa</reg></choice> 
+            <lb ed="#E" n="8"/>correspondet 
           </p>
           <p xml:id="ppr-l27-tcqfel">
-            Tertia conclusio Secundum nullam rationem in esse entis deus <unclear>post</unclear> communicare cum crea<lb ed="#E" break="no"/>tura 
+            Tertia conclusio Secundum nullam rationem in esse entis deus <unclear>post</unclear> communicare cum crea<lb ed="#E" break="no" n="9"/>tura 
             formaliter Causa est quia omne illud est <choice><orig>inmensum</orig><reg>immensum</reg></choice> et inmensum se habet ideo non potest 
-            <lb ed="#E"/>communicare cum creatura <del rend="expunctuation">formaliter</del> Intendit probari Si deus communicaret sit in 
-            <lb ed="#E"/>ratione essendi quod potest esse forma
+            <lb ed="#E" n="10"/>communicare cum creatura <del rend="expunctuation">formaliter</del> Intendit probari Si deus communicaret sit in 
+            <lb ed="#E" n="11"/>ratione essendi quod potest esse forma
           </p>
           <p xml:id="ppr-l27-qcsmpd">
             Quarta conclusio secundum rationem entis vel eius denominationem 
-            <lb ed="#E"/>essentialem tamen de deo et creatura est conceptus analogicus unde ymaginatur quod sit unus conceptus 
-            <lb ed="#E"/>analogicus qui primo et principaliter convenit uni et posterius alteri ipse <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod in deo ratio entis 
-            <lb ed="#E"/>est exemplativa esse creati et ratio viventis in deo est exemplativa creaturae Si 
-            <lb ed="#E"/>viceversa fiat quod per prius conveniat creaturae dicit <name ref="#Dionysius">beatus dyonisius</name> et <name ref="#RogerBacon">lynconiensis</name> 
-            <lb ed="#E"/>quod deus non eius ens sed super ens et hoc prout principaliter convenit creaturis
+            <lb ed="#E" n="12"/>essentialem tamen de deo et creatura est conceptus analogicus unde ymaginatur quod sit unus conceptus 
+            <lb ed="#E" n="13"/>analogicus qui primo et principaliter convenit uni et posterius alteri ipse <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod in deo ratio entis 
+            <lb ed="#E" n="14"/>est exemplativa esse creati et ratio viventis in deo est exemplativa creaturae Si 
+            <lb ed="#E" n="15"/>viceversa fiat quod per prius conveniat creaturae dicit <name ref="#Dionysius">beatus dyonisius</name> et <name ref="#RogerBacon">lynconiensis</name> 
+            <lb ed="#E" n="16"/>quod deus non eius ens sed super ens et hoc prout principaliter convenit creaturis
           </p>
           <p xml:id="ppr-l27-enespt">
             Consequenter ponit quod omnes 
-            <lb ed="#E"/>creaturae sunt univoce sensibiles secundum rationem entis patet quia est eiusdem rationis in homine 
-            <lb ed="#E"/>in asino et sic de aliis et sic ratio vitae in omnibus viventibus creatis et sic conveniunt quasi specifice 
-            <lb ed="#E"/>in ratione entis Sequitur quod si daretur suprema notitia creabilis esse suum esset eiusdem 
-            <lb ed="#E"/>speciei adaequate cum esse materiae primae quia tota latitudo rationis formalis entis est in materia 
-            <lb ed="#E"/>prima 
+            <lb ed="#E" n="17"/>creaturae sunt univoce sensibiles secundum rationem entis patet quia est eiusdem rationis in homine 
+            <lb ed="#E" n="18"/>in asino et sic de aliis et sic ratio vitae in omnibus viventibus creatis et sic conveniunt quasi specifice 
+            <lb ed="#E" n="19"/>in ratione entis Sequitur quod si daretur suprema notitia creabilis esse suum esset eiusdem 
+            <lb ed="#E" n="20"/>speciei adaequate cum esse materiae primae quia tota latitudo rationis formalis entis est in materia 
+            <lb ed="#E" n="21"/>prima 
           </p>
         </div>
         <div>
           <head xml:id="ppr-l27-Hopopop"><supplied>Opinio Plaoul</supplied></head> 
           <p xml:id="ppr-l27-veqemc">
             Isto modo patet quomodo capiuntur formalitates in deo Sed videtur melius dicere secundum 
-            <lb ed="#E"/><name ref="#Aureoli">aureolum</name> sicut ipse expositus est
+            <lb ed="#E" n="22"/><name ref="#Aureoli">aureolum</name> sicut ipse expositus est
           </p>
           <p xml:id="ppr-l27-ebupoi">
             Arguitur contra materiam de formalitatibus licet sit subtilis et 
-            <lb ed="#E"/><sic>abilicet</sic> intellectum unde est aeque difficilis sicut materia determinate ipsa tamen non probatur quia 
-            <lb ed="#E"/>omnis ratio salvabitur faciliter et per ipsam nulla difficultas solvitur ergo non est ponenda 2o 
-            <lb ed="#E"/>non est ratio cogens nec per eam aliquid salvatur quando salvaretur sine ea aeque probabiliter vel magis 
-            <lb ed="#E"/>nec fides astringit nos igitur non sunt ponendae Nihilominus subtilissime <choice><orig>ymaginati</orig><reg>imaginati</reg></choice> sunt 
-            <lb ed="#E"/>doctores ponentes eas
+            <lb ed="#E" n="23"/><sic>abilicet</sic> intellectum unde est aeque difficilis sicut materia determinate ipsa tamen non probatur quia 
+            <lb ed="#E" n="24"/>omnis ratio salvabitur faciliter et per ipsam nulla difficultas solvitur ergo non est ponenda 2o 
+            <lb ed="#E" n="25"/>non est ratio cogens nec per eam aliquid salvatur quando salvaretur sine ea aeque probabiliter vel magis 
+            <lb ed="#E" n="26"/>nec fides astringit nos igitur non sunt ponendae Nihilominus subtilissime <choice><orig>ymaginati</orig><reg>imaginati</reg></choice> sunt 
+            <lb ed="#E" n="27"/>doctores ponentes eas
           </p>
         </div>
         <div>
           <head><supplied>Circa textum</supplied></head>
           <p xml:id="ppr-l27-ctditp">
             Circa textum distinctionem 25am persona uno modo capitur <seg type="correction">pro</seg> essentia Alio modo 
-            <lb ed="#E"/>pro suppositali proprietate persona non est terminus relativus sed suppositalis id est suppositum naturae 
-            <lb ed="#E"/>rationalis Sed in trinitate tria persona ita tres personae
+            <lb ed="#E" n="28"/>pro suppositali proprietate persona non est terminus relativus sed suppositalis id est suppositum naturae 
+            <lb ed="#E" n="29"/>rationalis Sed in trinitate tria persona ita tres personae
           </p>
         </div>
       </div>

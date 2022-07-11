@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +54,7 @@
           <p xml:id="ppr-l8-seqses">
             <pb ed="#E" n="10-r"/>
             <lb ed="#E" n="1"/>Alia lectio 
-            <lb ed="#E"/>dictum est quod fides est donum dei supernaturale
+            <lb ed="#E" n="2"/>dictum est quod fides est donum dei supernaturale
           </p>
         </div>
         <div xml:id="ppr-l8-Dd1e3744">
@@ -66,32 +63,32 @@
           </head>
           <p xml:id="ppr-l8-eqpscv">
             Ex qua conclusione infertur alia conclusio 
-            <lb ed="#E"/>Quod fides elevat <choice><orig>potenciam</orig><reg>potentiam</reg></choice> roborat et illuminat super omnes habitus naturaliter acquisitos 
-            <lb ed="#E"/>Ex qua sequitur contra <name ref="#Averroes">Averoym</name> in prologo 3ii <title>physicorum</title> dicentem quod instructio[?] in aliqua 
-            <lb ed="#E"/>lege est impeditum veritatis Probatur ergo conclusio parvulis quod fides elevat etc probatur per effectum quia 
-            <lb ed="#E"/>facit veritatem arduissimam per assensum attingere quia dictum est <title>ysaiae</title> nisi cre<lb ed="#E" break="no"/>dideritis 
+            <lb ed="#E" n="3"/>Quod fides elevat <choice><orig>potenciam</orig><reg>potentiam</reg></choice> roborat et illuminat super omnes habitus naturaliter acquisitos 
+            <lb ed="#E" n="4"/>Ex qua sequitur contra <name ref="#Averroes">Averoym</name> in prologo 3ii <title>physicorum</title> dicentem quod instructio[?] in aliqua 
+            <lb ed="#E" n="5"/>lege est impeditum veritatis Probatur ergo conclusio parvulis quod fides elevat etc probatur per effectum quia 
+            <lb ed="#E" n="6"/>facit veritatem arduissimam per assensum attingere quia dictum est <title>ysaiae</title> nisi cre<lb ed="#E" break="no" n="7"/>dideritis 
             non intelligetis ergo
           </p>
           <p xml:id="ppr-l8-aiaesa">
-            <lb ed="#E"/>Ad idem arguitur ratione primo quia est sumptur[?] dispositio supreme 
-            <lb ed="#E"/>potenciae intellectus reddens ipsum virtuosissimum igitur antecedens probatur quia maximus 
-            <lb ed="#E"/>vigor intellectus implicatur incredibilium dispositione[?] quae est excellentissima
+            <lb ed="#E" n="8"/>Ad idem arguitur ratione primo quia est sumptur[?] dispositio supreme 
+            <lb ed="#E" n="9"/>potenciae intellectus reddens ipsum virtuosissimum igitur antecedens probatur quia maximus 
+            <lb ed="#E" n="10"/>vigor intellectus implicatur incredibilium dispositione[?] quae est excellentissima
           </p>
           <p xml:id="ppr-l8-ifeqqa">
-            <lb ed="#E"/>fides est lumen expulsivum ignorantiae intrinsecus[?] igitur consequentia tenet quia iuxta proportionem obiectorum 
-            <lb ed="#E"/>est proportio habituum
+            <lb ed="#E" n="11"/>fides est lumen expulsivum ignorantiae intrinsecus[?] igitur consequentia tenet quia iuxta proportionem obiectorum 
+            <lb ed="#E" n="12"/>est proportio habituum
           </p>
           <p xml:id="ppr-l8-ifaaid">
             Item habitus fidei annectitur spirituali assistentiae divinae igitur
           </p>
           <p xml:id="ppr-l8-iftete">
-            <lb ed="#E"/>Item <unclear>5to</unclear> fides tollit metuatatem[?] rationum sophisticarum circa summum bonum et 
-            <lb ed="#E"/>felicitatem varios errores <choice><orig>inducencium</orig><reg>inducentium</reg></choice> ergo est habitus nobilissimus con?tem[?] quia non 
-            <lb ed="#E"/>est parvum bonum tollere rationes sophisticas circa felicitatem
+            <lb ed="#E" n="13"/>Item <unclear>5to</unclear> fides tollit metuatatem[?] rationum sophisticarum circa summum bonum et 
+            <lb ed="#E" n="14"/>felicitatem varios errores <choice><orig>inducencium</orig><reg>inducentium</reg></choice> ergo est habitus nobilissimus con?tem[?] quia non 
+            <lb ed="#E" n="15"/>est parvum bonum tollere rationes sophisticas circa felicitatem
           </p>
           <p xml:id="ppr-l8-qacfcp">
             <g ref="#pilcrow"/>Sexto iuxta scripturae 
-            <lb ed="#E"/>testimonium non solum inclinat ad assensum sed ad amorem <space extent="oneWordLength"/>
+            <lb ed="#E" n="16"/>testimonium non solum inclinat ad assensum sed ad amorem <space extent="oneWordLength"/>
           </p>
         </div>
         <div xml:id="ppr-l8-Dd1e3904">
@@ -99,39 +96,39 @@
             <supplied>Languores animae</supplied>
           </head>
           <p xml:id="ppr-l8-cvqrpa">
-            procus[?] materiae in<lb ed="#E" break="no"/>tellectum 
+            procus[?] materiae in<lb ed="#E" break="no" n="17"/>tellectum 
             clariori videndum est quae sunt languores animae quae per fidem curari 
-            <lb ed="#E"/>habent Ubi advertendum quod primaria radix est pena originalis culpae et causa est 
-            <lb ed="#E"/>peccatum originale
+            <lb ed="#E" n="18"/>habent Ubi advertendum quod primaria radix est pena originalis culpae et causa est 
+            <lb ed="#E" n="19"/>peccatum originale
           </p>
           <div xml:id="ppr-l8-Dd1e3932">
             <head xml:id="ppr-l8-Hplddid">
               <supplied>Primus languor: deformatio imaginis Dei</supplied>
             </head>
             <p xml:id="ppr-l8-pelmis"> 
-              Primus ergo languor est poena per quam anima est ymago dei diffor<lb ed="#E" break="no"/>matur 
-              et post perdit vigorem per quem sensum deberet dominare[?] Quia in homine bene dis<g ref="#dbdash"/><lb ed="#E"/>posito 
+              Primus ergo languor est poena per quam anima est ymago dei diffor<lb ed="#E" break="no" n="20"/>matur 
+              et post perdit vigorem per quem sensum deberet dominare[?] Quia in homine bene dis<g ref="#dbdash"/><lb ed="#E" n="21"/>posito 
               anima debet dominare corpori divino dispotico[?] Nunc econverso si non sit dei gratia specialis 
-              <lb ed="#E"/>ex poena peccati originalis domni[?] mutatur Ita quod est subiecto[?] ad sensum ipsius 
-              <lb ed="#E"/>animae
+              <lb ed="#E" n="22"/>ex poena peccati originalis domni[?] mutatur Ita quod est subiecto[?] ad sensum ipsius 
+              <lb ed="#E" n="23"/>animae
             </p>
             <p xml:id="ppr-l8-pelrdt">
-              <lb ed="#E"/>Prima pars vocaretur memoria quae propo?rtur[?] patri in divinis
+              <lb ed="#E" n="24"/>Prima pars vocaretur memoria quae propo?rtur[?] patri in divinis
             </p>
             <p xml:id="ppr-l8-slvaot">
               <unclear>Secundus</unclear> languor 
-              <lb ed="#E"/>vel 2a pars est quia per huiusmodi procedit rationis rectitudinem acceptando temporalia et in hoc 
-              <lb ed="#E"/>deformatur <choice><orig>intelligencia</orig><reg>intelligentia</reg></choice> per culpam originalem obliviscendo quae pars ymagi?orum[?] cor<lb ed="#E" break="no"/>respondet 
+              <lb ed="#E" n="25"/>vel 2a pars est quia per huiusmodi procedit rationis rectitudinem acceptando temporalia et in hoc 
+              <lb ed="#E" n="26"/>deformatur <choice><orig>intelligencia</orig><reg>intelligentia</reg></choice> per culpam originalem obliviscendo quae pars ymagi?orum[?] cor<lb ed="#E" break="no" n="27"/>respondet 
               filio intantum quod per quendam similitudinem <choice><orig>sicud</orig><reg>sicut</reg></choice> inf?nis[?] iudicat amaris dulce et 
-              <lb ed="#E"/>econverso 
-              Sic <choice><orig>eciam</orig><reg>etiam</reg></choice> anima infrematur iudicando malum bonum etc Et istum languo<lb ed="#E" break="no"/>rem 
-              sencientes philosophi dixerunt animam mebriari[?] Et dicit <name>magister Acerbius</name> quod ita est mo?<lb ed="#E"/>ta 
+              <lb ed="#E" n="28"/>econverso 
+              Sic <choice><orig>eciam</orig><reg>etiam</reg></choice> anima infrematur iudicando malum bonum etc Et istum languo<lb ed="#E" break="no" n="29"/>rem 
+              sencientes philosophi dixerunt animam mebriari[?] Et dicit <name>magister Acerbius</name> quod ita est mo?<lb ed="#E" n="30"/>ta 
               ita et istos languores incurrit anima nec ex speciali dei gratia
             </p>
             <p xml:id="ppr-l8-itaqat">
               <!-- possible omission here -->
               Et in hoc deimeperatur[?] 
-              <lb ed="#E"/>ymago spiritus sancti
+              <lb ed="#E" n="31"/>ymago spiritus sancti
             </p>
           </div>
           <div xml:id="ppr-l8-Dd1e4063">
@@ -140,22 +137,22 @@
             </head>
             <p xml:id="ppr-l8-spissd">
               Tercius languor parvulis est ex parte humanae complexionis 
-              <lb ed="#E"/>Nam in statu innocentiae non fuisset de?us[?] in humana complexione <choice><orig>ymmo</orig><reg>immo</reg></choice> viguisset 
-              <lb ed="#E"/>rationem per totum tempus vitae suae nam in infusione animae primaria ipsa anima caret 
-              <lb ed="#E"/>usu rationis et post <choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> et sic corpus non aggravat animam non dico de ex<lb ed="#E" break="no"/>emptis 
+              <lb ed="#E" n="32"/>Nam in statu innocentiae non fuisset de?us[?] in humana complexione <choice><orig>ymmo</orig><reg>immo</reg></choice> viguisset 
+              <lb ed="#E" n="33"/>rationem per totum tempus vitae suae nam in infusione animae primaria ipsa anima caret 
+              <lb ed="#E" n="34"/>usu rationis et post <choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> et sic corpus non aggravat animam non dico de ex<lb ed="#E" break="no" n="35"/>emptis 
               ut ipso et aliis et haec ex culpa originali et ista complexio terminatur ad 
-              <lb ed="#E"/>brutorum complexionem et ascendit per gradus remississimos
+              <lb ed="#E" n="36"/>brutorum complexionem et ascendit per gradus remississimos
             </p>
             <p xml:id="ppr-l8-eihsis">
               Et circa hoc dicitur quod staret esse 
-              <lb ed="#E"/>hominem qui non haberet nisi unum sensum scilicet tactum et quod non potest uit naturaliter aliis sensibus 
-              <lb ed="#E"/>nec exterioribus nec interioribus nec intellectione de factu aliqui non habentes auditum eciam 
-              <lb ed="#E"/>non habentes visum nec requiritur gustus quia puer motto[?] capit cibum et non 
-              <lb ed="#E"/>per gustum et sic eciam alia vegetabilia Et ideo possibile est quod sic alias homo qui non exerceat 
-              <lb ed="#E"/>nisi vim tactus sic quod alias operationes non exerceant nec eciam operaciones superiores 
+              <lb ed="#E" n="37"/>hominem qui non haberet nisi unum sensum scilicet tactum et quod non potest uit naturaliter aliis sensibus 
+              <lb ed="#E" n="38"/>nec exterioribus nec interioribus nec intellectione de factu aliqui non habentes auditum eciam 
+              <lb ed="#E" n="39"/>non habentes visum nec requiritur gustus quia puer motto[?] capit cibum et non 
+              <lb ed="#E" n="40"/>per gustum et sic eciam alia vegetabilia Et ideo possibile est quod sic alias homo qui non exerceat 
+              <lb ed="#E" n="41"/>nisi vim tactus sic quod alias operationes non exerceant nec eciam operaciones superiores 
               <pb ed="#E" n="11-v"/>
-              <lb ed="#E"/>Et confirmatur quia forma substancialis potest educi sub aliqua dispositione sub 
-              <lb ed="#E"/>qua non potest debite exercere omnes suas operationes
+              <lb ed="#E" n="1"/>Et confirmatur quia forma substancialis potest educi sub aliqua dispositione sub 
+              <lb ed="#E" n="2"/>qua non potest debite exercere omnes suas operationes
             </p>
             <div xml:id="ppr-l8-Dd1e4170">
               <head xml:id="ppr-l8-Hapapap">
@@ -163,39 +160,39 @@
               </head>
               <p xml:id="ppr-l8-uchqav">
                 Circa hoc d?? duo prima propositio 
-                <lb ed="#E"/>non facit formam substantialem esse in materia cum dispositione quando possit cum illa 
-                <lb ed="#E"/>aliquam operationem exerecere patet quia maxime esset ociosum in natura si nichil operaretur 
-                <lb ed="#E"/>et natura abhorret ocium sim?om[?] 
+                <lb ed="#E" n="3"/>non facit formam substantialem esse in materia cum dispositione quando possit cum illa 
+                <lb ed="#E" n="4"/>aliquam operationem exerecere patet quia maxime esset ociosum in natura si nichil operaretur 
+                <lb ed="#E" n="5"/>et natura abhorret ocium sim?om[?] 
                 <!-- possible break -->
-                Secunda dispositio sub qua sufficit aliquem suarum operacio<lb ed="#E" break="no"/>num 
+                Secunda dispositio sub qua sufficit aliquem suarum operacio<lb ed="#E" break="no" n="6"/>num 
                 exercere sufficit ad eius conservationem et cuius educcionem hoc videmus in[?] elu?tis[?] nam 
-                <lb ed="#E"/>aliqua diu stat sub dispositione sibi disco?veniente etiam in generatione clutorum[?]
+                <lb ed="#E" n="7"/>aliqua diu stat sub dispositione sibi disco?veniente etiam in generatione clutorum[?]
                 <!-- possible break -->
-                Ex ista ra<lb ed="#E" break="no"/>dice 
-                potest fundari quod complexia[?] seu dispositio sub qua capitur[?] anima humana illa est immediata dis<lb ed="#E" break="no"/>positioni 
+                Ex ista ra<lb ed="#E" break="no" n="8"/>dice 
+                potest fundari quod complexia[?] seu dispositio sub qua capitur[?] anima humana illa est immediata dis<lb ed="#E" break="no" n="9"/>positioni 
                 sub qua est forma bruti vel vegitabilis patet quia constat quod forma educatur 
-                <lb ed="#E"/>sub minima[?] operatione humana scilicet dispositione tactiva et ista est minima pro rationabili creatura vel 
-                <lb ed="#E"/>forte vegetabilis si non sit ordo essencialis ergo quaecumque minor debetur illa est brutalis
+                <lb ed="#E" n="10"/>sub minima[?] operatione humana scilicet dispositione tactiva et ista est minima pro rationabili creatura vel 
+                <lb ed="#E" n="11"/>forte vegetabilis si non sit ordo essencialis ergo quaecumque minor debetur illa est brutalis
               </p>
               <p xml:id="ppr-l8-eirsci">
-                <lb ed="#E"/>Sequitur primo quod ex gradibus operationum cognoscendi specifice dit[?] contenter sub intellectis 
-                <lb ed="#E"/>non concluditur diversitas specifica creaturarum rationabilium producibilium sub specie humana 
-                <lb ed="#E"/>Aliqui volunt dicere quod ymaginibilis esset creatura quae intelligeret confuse solum Alia comparando 
-                <lb ed="#E"/>et dividendo solum alia sylogizando Ita quod essent gradus specifica sub specie humana c?a<lb ed="#E" break="no"/>biles[?] 
+                <lb ed="#E" n="12"/>Sequitur primo quod ex gradibus operationum cognoscendi specifice dit[?] contenter sub intellectis 
+                <lb ed="#E" n="13"/>non concluditur diversitas specifica creaturarum rationabilium producibilium sub specie humana 
+                <lb ed="#E" n="14"/>Aliqui volunt dicere quod ymaginibilis esset creatura quae intelligeret confuse solum Alia comparando 
+                <lb ed="#E" n="15"/>et dividendo solum alia sylogizando Ita quod essent gradus specifica sub specie humana c?a<lb ed="#E" break="no" n="16"/>biles[?] 
                 Ita quod ex illis operationibus essent diversae species quod non est dicendum quia istae possunt 
-                <lb ed="#E"/>esse in eadem specie ymo de facto aliqua conclusio est demonstrabilis <name ref="#Sortes">sorti</name> quae non <name ref="#Plato">platoni</name> vel haec 
-                <lb ed="#E"/>solum ratione complexionis organicae et sic magis reductiva est talis diversitas specifica addversitatem 
-                <lb ed="#E"/>complexionum organorum et non etc Ex quo patet quod falsum est quod possit communicari alicui esse volun<lb ed="#E" break="no"/>tarium 
+                <lb ed="#E" n="17"/>esse in eadem specie ymo de facto aliqua conclusio est demonstrabilis <name ref="#Sortes">sorti</name> quae non <name ref="#Plato">platoni</name> vel haec 
+                <lb ed="#E" n="18"/>solum ratione complexionis organicae et sic magis reductiva est talis diversitas specifica addversitatem 
+                <lb ed="#E" n="19"/>complexionum organorum et non etc Ex quo patet quod falsum est quod possit communicari alicui esse volun<lb ed="#E" break="no" n="20"/>tarium 
                 non cognitum
               </p>
               <p xml:id="ppr-l8-eqpsec">
-                Sed diceres[?] esse intellectum est superius vel diceres sic esse intel<lb ed="#E" break="no"/>lectivum et esse volitivum sunt subordinata ergo unum alicui communicari potest sine altero dicitur 
-                <lb ed="#E"/>quod non habet ordine ymmo non sunt subordinata quia omne[?] volitii[?] est intellectivum[?] et 
-                <lb ed="#E"/>econverso unde esse volitivum non est nisi esse appetitivum intellectualiter et sic non stat unum communicari 
-                <lb ed="#E"/>sine alio Sed forte volitivum habet ratione passionis et intellectum subiecti Sed quidquid sit de hoc dicitur quod istae 
-                <lb ed="#E"/><choice><orig>denominaciones</orig><reg>denominationes</reg></choice> sunt convertibiles et ista infirmitas provenit ex peccato originali et ha<lb ed="#E" break="no"/>buissemus 
+                Sed diceres[?] esse intellectum est superius vel diceres sic esse intel<lb ed="#E" break="no" n="21"/>lectivum et esse volitivum sunt subordinata ergo unum alicui communicari potest sine altero dicitur 
+                <lb ed="#E" n="22"/>quod non habet ordine ymmo non sunt subordinata quia omne[?] volitii[?] est intellectivum[?] et 
+                <lb ed="#E" n="23"/>econverso unde esse volitivum non est nisi esse appetitivum intellectualiter et sic non stat unum communicari 
+                <lb ed="#E" n="24"/>sine alio Sed forte volitivum habet ratione passionis et intellectum subiecti Sed quidquid sit de hoc dicitur quod istae 
+                <lb ed="#E" n="25"/><choice><orig>denominaciones</orig><reg>denominationes</reg></choice> sunt convertibiles et ista infirmitas provenit ex peccato originali et ha<lb ed="#E" break="no" n="26"/>buissemus 
                 organa bene disposita si mansissemus in statu naturae integre et sic ista 
-                <lb ed="#E"/>est multis causa[?] ignorambr[?]
+                <lb ed="#E" n="27"/>est multis causa[?] ignorambr[?]
               </p>
             </div>
           </div>
@@ -205,14 +202,14 @@
             <supplied>Tertius languor</supplied>
           </head>
           <p xml:id="ppr-l8-tlarqa">
-            Tercius languor est consuetudo audiendi errores <ref><name ref="#Averroes">comen<lb ed="#E" break="no"/>tator</name> 
+            Tercius languor est consuetudo audiendi errores <ref><name ref="#Averroes">comen<lb ed="#E" break="no" n="28"/>tator</name> 
             3o <title ref="#Physics">physicorum</title></ref> dicit quod consuetudo audiendi falsa est impeditum in acquisitione veritatis vel 
-            <lb ed="#E"/>dicitur quod numerabiliter[??] impedit veritatem quia propter confirmationem quandoque creduntur Et dicit 
-            <lb ed="#E"/>hoc <ref><name ref="#Averroes">commentator</name> in prologo 3ii <title>physicorum</title></ref> Et <name>tullius</name> <corr>in<del rend="expunctuated">de</del></corr> <title>tussillnis quaestionibus</title> natura tales non 
-            <lb ed="#E"/>genuit ut si ipsam intueremur nos duceret ad vitam beatam sed illos igncles[?] quos[?] 
-            <lb ed="#E"/>nobis dedit natura mala consuetudine extinguimus Et ista fuit causa ydolatriae apud filios 
-            <lb ed="#E"/>israel et postea semper conterminate[?] Et sic inducitur quam periculosum est are malum exemplum[?] quia 
-            <lb ed="#E"/>contingit quod imperpetuum conc??etur Et articulos[?] docuit ne iu?[?] male assuescerent
+            <lb ed="#E" n="29"/>dicitur quod numerabiliter[??] impedit veritatem quia propter confirmationem quandoque creduntur Et dicit 
+            <lb ed="#E" n="30"/>hoc <ref><name ref="#Averroes">commentator</name> in prologo 3ii <title>physicorum</title></ref> Et <name>tullius</name> <corr>in<del rend="expunctuated">de</del></corr> <title>tussillnis quaestionibus</title> natura tales non 
+            <lb ed="#E" n="31"/>genuit ut si ipsam intueremur nos duceret ad vitam beatam sed illos igncles[?] quos[?] 
+            <lb ed="#E" n="32"/>nobis dedit natura mala consuetudine extinguimus Et ista fuit causa ydolatriae apud filios 
+            <lb ed="#E" n="33"/>israel et postea semper conterminate[?] Et sic inducitur quam periculosum est are malum exemplum[?] quia 
+            <lb ed="#E" n="34"/>contingit quod imperpetuum conc??etur Et articulos[?] docuit ne iu?[?] male assuescerent
           </p>
         </div>
         <div xml:id="ppr-l8-Dd1e4536">
@@ -220,91 +217,91 @@
             <supplied>Quartus languor</supplied>
           </head>
           <p xml:id="ppr-l8-qianem">
-            <lb ed="#E"/>Quarta infirmitas est affectio prava quae est sui obiecti offensiva sub ratione boni quia 
-            <lb ed="#E"/>amor et odium pervertunt iudicium Et ideo <name ref="#Boethius">boecius</name> primo <title>de consolatione</title> iubet passiones tolli si intrinsecus 
-            <lb ed="#E"/>debeat bene iudicare Et <ref><title ref="#sap">sapientia</title> 2o</ref> <quote ana="#sap2_21">malicia excaecavit eos</quote> Et psalmista <quote>iniquitates 
-            <lb ed="#E"/>meae supergressae sunt caput meum et lumen oculorum meorum non est mecum</quote>
+            <lb ed="#E" n="35"/>Quarta infirmitas est affectio prava quae est sui obiecti offensiva sub ratione boni quia 
+            <lb ed="#E" n="36"/>amor et odium pervertunt iudicium Et ideo <name ref="#Boethius">boecius</name> primo <title>de consolatione</title> iubet passiones tolli si intrinsecus 
+            <lb ed="#E" n="37"/>debeat bene iudicare Et <ref><title ref="#sap">sapientia</title> 2o</ref> <quote ana="#sap2_21">malicia excaecavit eos</quote> Et psalmista <quote>iniquitates 
+            <lb ed="#E" n="38"/>meae supergressae sunt caput meum et lumen oculorum meorum non est mecum</quote>
           </p>
         </div>
         <div xml:id="ppr-l8-Dd1e4584">
           <head xml:id="ppr-l8-Hacacac"><supplied>Aliquae conclusiones</supplied></head>
           <p xml:id="ppr-l8-ipsdda">
             Istis 
-            <lb ed="#E"/>igitur praemissis ut aliqualiter deveniantur ad materiam principalem Una propositio Anima cum 
-            <lb ed="#E"/><choice><orig>influencia</orig><reg>influentia</reg></choice> dei generali plus movetur <choice><orig>apparenciis</orig><reg>apparentiis</reg></choice> sophisticis quam veritate 
+            <lb ed="#E" n="39"/>igitur praemissis ut aliqualiter deveniantur ad materiam principalem Una propositio Anima cum 
+            <lb ed="#E" n="40"/><choice><orig>influencia</orig><reg>influentia</reg></choice> dei generali plus movetur <choice><orig>apparenciis</orig><reg>apparentiis</reg></choice> sophisticis quam veritate 
             <pb ed="#E" n="11-r"/>
-            <lb ed="#E"/>vel apparentia falitatis quam veritatis Ita quod falsitas plus movet quam veritas evi<lb ed="#E" break="no"/>dentissimis 
+            <lb ed="#E" n="1"/>vel apparentia falitatis quam veritatis Ita quod falsitas plus movet quam veritas evi<lb ed="#E" break="no" n="2"/>dentissimis 
             veritatibus Ex hoc satis tangit <ref><name ref="#Aristotle">philosophus</name> in <title>topicis</title></ref> dicens Quaedam falsa 
-            <lb ed="#E"/>quibusdam veris sunt probabiliora et haec ex?at[?] corruptela quia verum quantu est 
-            <lb ed="#E"/>de se <corr><g ref="#carrot"/><add place="aboveLine">non</add></corr> movet ad assensum et quaelibet falsitas quantum est de se movet ad dissensum Sed est de 
-            <lb ed="#E"/>nobis quantum ad haec sicut de infirmo iudicare dulce amarum
+            <lb ed="#E" n="3"/>quibusdam veris sunt probabiliora et haec ex?at[?] corruptela quia verum quantu est 
+            <lb ed="#E" n="4"/>de se <corr><g ref="#carrot"/><add place="aboveLine">non</add></corr> movet ad assensum et quaelibet falsitas quantum est de se movet ad dissensum Sed est de 
+            <lb ed="#E" n="5"/>nobis quantum ad haec sicut de infirmo iudicare dulce amarum
           </p>
           <p xml:id="ppr-l8-scamic">
-            Secunda propositio Htte[?]<lb ed="#E"/>cata 
+            Secunda propositio Htte[?]<lb ed="#E" n="6"/>cata 
             animae volnerata[?] et languoribus ipsa in humana investigatione indiget fide quadam 
-            <lb ed="#E"/>vel proportionali fidei unde q[?] modo[?] eleucorum[?] Oportet addiscentem credere Similiter in philosophia 
-            <lb ed="#E"/>quaedam principia recipiuntur quadam fide et non sunt de se evidencia Eciam pt?iones[?] 
-            <lb ed="#E"/>assumuntur in mathematica et geometria quae non fuit evidentes Similiter <name>tholomeus</name> 
-            <lb ed="#E"/>in <title>almagesti</title> praesumit ecentoces[?] et epicyclos qui tamen non fuit dem[?] esse
+            <lb ed="#E" n="7"/>vel proportionali fidei unde q[?] modo[?] eleucorum[?] Oportet addiscentem credere Similiter in philosophia 
+            <lb ed="#E" n="8"/>quaedam principia recipiuntur quadam fide et non sunt de se evidencia Eciam pt?iones[?] 
+            <lb ed="#E" n="9"/>assumuntur in mathematica et geometria quae non fuit evidentes Similiter <name>tholomeus</name> 
+            <lb ed="#E" n="10"/>in <title>almagesti</title> praesumit ecentoces[?] et epicyclos qui tamen non fuit dem[?] esse
           </p> 
           <p xml:id="ppr-l8-eqssda">
             dici potest 
-            <lb ed="#E"/>corrollarie quod maxime pars scientiae humanitus in vente est quaedam fides ex defectu rationum ad illa quibus 
-            <lb ed="#E"/>assentimus fide et ex defectu rationi ad contrarium ex debilitate humanae investigationis et sic intrinsecus[?] 
-            <lb ed="#E"/>indiget fide
+            <lb ed="#E" n="11"/>corrollarie quod maxime pars scientiae humanitus in vente est quaedam fides ex defectu rationum ad illa quibus 
+            <lb ed="#E" n="12"/>assentimus fide et ex defectu rationi ad contrarium ex debilitate humanae investigationis et sic intrinsecus[?] 
+            <lb ed="#E" n="13"/>indiget fide
           </p>
           <p xml:id="ppr-l8-eqsdaf">
             Ex quo sequitur quod de quacumque de infinitum plus ignoramus quam sciamus Conclusio 
-            <lb ed="#E"/>quod cognoscere se in ori?m cognoscere ex maximum cognoscibilium quia est propositio disponens 
-            <lb ed="#E"/>ad fide et tollit superbiam Unde de caelo venit noceselitos
+            <lb ed="#E" n="14"/>quod cognoscere se in ori?m cognoscere ex maximum cognoscibilium quia est propositio disponens 
+            <lb ed="#E" n="15"/>ad fide et tollit superbiam Unde de caelo venit noceselitos
           </p>
           <p xml:id="ppr-l8-uhivms">
-            Et ideo ad hanc ve<lb ed="#E" break="no"/>niens 
+            Et ideo ad hanc ve<lb ed="#E" break="no" n="16"/>niens 
             maximus philosophus rep?tur Unde <name>socrates</name> hoc unum scio quod nescio
           </p>
           <p xml:id="ppr-l8-duqipi">
-            dicitur ul<lb ed="#E" break="no"/>terius 
-            quod licet geometria sit de quantitate continua et maxime faciliter est cognoscibilis tamen hu<lb ed="#E" break="no"/>manitus 
+            dicitur ul<lb ed="#E" break="no" n="17"/>terius 
+            quod licet geometria sit de quantitate continua et maxime faciliter est cognoscibilis tamen hu<lb ed="#E" break="no" n="18"/>manitus 
             non est proprie et praescientiae scibile de aliqua re quanta sic et per consequens geometria fundat 
-            <lb ed="#E"/>se super principia ignota probatur quia sic vel hoc esset per virtutem mensuram seu per a?am[?] quanitatem 
-            <lb ed="#E"/>et hoc non quia non potest constare quod inter a quantitatem et ?[?] non sic excessus quia non est m?[?] 
-            <lb ed="#E"/>concludendi quia una non excedat a?am[?] quia non sequitur non percipitur excessus ergo non est quia forte 
-            <lb ed="#E"/>indivisibiliter unum excedat aliud Item si dicatur quod quantitas est nota convenitur[?] quomodo sic nota 
-            <lb ed="#E"/>sed dicitur est de se nota quia pluries est per cep[?] probo quia non sufficit sed semper per a?am[?] et nulla est ex se 
-            <lb ed="#E"/>nota quia detur illa quam dicis per se notam et si a[?] Pono casum quod omnes res mundi praeter 
-            <lb ed="#E"/>istam duplentur tunc stante ista casu[?] intellectus iudicabit quod ista res sit a[?] sic sub 
-            <lb ed="#E"/>duplam quia supponitur quod huiusmodi dupla?o[?] aliarum[?] rerum lateat 
+            <lb ed="#E" n="19"/>se super principia ignota probatur quia sic vel hoc esset per virtutem mensuram seu per a?am[?] quanitatem 
+            <lb ed="#E" n="20"/>et hoc non quia non potest constare quod inter a quantitatem et ?[?] non sic excessus quia non est m?[?] 
+            <lb ed="#E" n="21"/>concludendi quia una non excedat a?am[?] quia non sequitur non percipitur excessus ergo non est quia forte 
+            <lb ed="#E" n="22"/>indivisibiliter unum excedat aliud Item si dicatur quod quantitas est nota convenitur[?] quomodo sic nota 
+            <lb ed="#E" n="23"/>sed dicitur est de se nota quia pluries est per cep[?] probo quia non sufficit sed semper per a?am[?] et nulla est ex se 
+            <lb ed="#E" n="24"/>nota quia detur illa quam dicis per se notam et si a[?] Pono casum quod omnes res mundi praeter 
+            <lb ed="#E" n="25"/>istam duplentur tunc stante ista casu[?] intellectus iudicabit quod ista res sit a[?] sic sub 
+            <lb ed="#E" n="26"/>duplam quia supponitur quod huiusmodi dupla?o[?] aliarum[?] rerum lateat 
             <!-- break? -->
             Alius casus subduplentur 
-            <lb ed="#E"/>omnes aliae res ipsa non subduplatur tunc iudicabitur duple quantitatis in ordine ad quantiatem 
-            <lb ed="#E"/>secundum quam prius iudicabitur 
+            <lb ed="#E" n="27"/>omnes aliae res ipsa non subduplatur tunc iudicabitur duple quantitatis in ordine ad quantiatem 
+            <lb ed="#E" n="28"/>secundum quam prius iudicabitur 
             <!-- break -->
             Tertius casus ipsa duplata et aliis eciam ipsa reputaretur 
-            <lb ed="#E"/>aequalis sicut prius maneat ergo tantae quantitatis et aliae omnes subduplentur Tunc 
-            <lb ed="#E"/>n?us[?] iudicabit [?] esse maius et supponitur quod semper lateat duplatio[?] vel subduplatio[?] Etiam 
-            <lb ed="#E"/>potest exemplificari de motu augmentationis et motu locali ymmo de velocitate 
-            <lb ed="#E"/>et tarditate ponamus quod omnis motus mundi velociteretur in sensibiliter apud me sc?em[?] 
-            <lb ed="#E"/>quod <name>sortem</name> iudicaret ?xisse per valde modutum[?] tempus et tamen vixisset per valde magnum 
-            <lb ed="#E"/>tempus
+            <lb ed="#E" n="29"/>aequalis sicut prius maneat ergo tantae quantitatis et aliae omnes subduplentur Tunc 
+            <lb ed="#E" n="30"/>n?us[?] iudicabit [?] esse maius et supponitur quod semper lateat duplatio[?] vel subduplatio[?] Etiam 
+            <lb ed="#E" n="31"/>potest exemplificari de motu augmentationis et motu locali ymmo de velocitate 
+            <lb ed="#E" n="32"/>et tarditate ponamus quod omnis motus mundi velociteretur in sensibiliter apud me sc?em[?] 
+            <lb ed="#E" n="33"/>quod <name>sortem</name> iudicaret ?xisse per valde modutum[?] tempus et tamen vixisset per valde magnum 
+            <lb ed="#E" n="34"/>tempus
             <!-- break -->
             Ut sicut nunc fit per ymaginationem una revolutio fieret semper centum[?] revolutiones 
-            <lb ed="#E"/>vel ponatur quod retardaretur et sic potest salvari per homines diucius ven? per talem ve<lb ed="#E" break="no"/>locitationem[?] 
+            <lb ed="#E" n="35"/>vel ponatur quod retardaretur et sic potest salvari per homines diucius ven? per talem ve<lb ed="#E" break="no" n="36"/>locitationem[?] 
             motus caeli quia melius conservaretur et sicut posset iuxta istud dici de peryodis 
-            <lb ed="#E"/>et sicut potest salvari quod aliqui fuerunt fortiores et hoc[?] per tarditionem motuum et quod fu<lb ed="#E" break="no"/>issent 
+            <lb ed="#E" n="37"/>et sicut potest salvari quod aliqui fuerunt fortiores et hoc[?] per tarditionem motuum et quod fu<lb ed="#E" break="no" n="38"/>issent 
             melius complexionati propter velocitatem motuum caeli Et sicut intellectus 
-            <lb ed="#E"/>potest infinitis modis falli et indiget quadam credulitate
+            <lb ed="#E" n="39"/>potest infinitis modis falli et indiget quadam credulitate
             <!-- break -->
             Ex praedictis 
             <pb ed="#E" n="11-v"/>
-            <lb ed="#E"/>apparet de infirmitate humani intellectus et postea videbitur de cura
+            <lb ed="#E" n="1"/>apparet de infirmitate humani intellectus et postea videbitur de cura
           </p>
         </div>
         <div xml:id="ppr-l8-Dd1e5038">
           <head xml:id="ppr-l8-Hd1e5040">Circa textum</head>
           <p xml:id="ppr-l8-d1e5043">
             Circa textum 
-            <lb ed="#E"/>patrem posset generare filium et filium non posse generare non dicit aliquam perfectionem 
-            <lb ed="#E"/>in patre vel imperfectionem in filio quia filius est tota <choice><orig>perfeccio</orig><reg>perfectio</reg></choice> quae est pater unde genera<lb ed="#E" break="no"/>re 
+            <lb ed="#E" n="2"/>patrem posset generare filium et filium non posse generare non dicit aliquam perfectionem 
+            <lb ed="#E" n="3"/>in patre vel imperfectionem in filio quia filius est tota <choice><orig>perfeccio</orig><reg>perfectio</reg></choice> quae est pater unde genera<lb ed="#E" break="no" n="4"/>re 
             filium est proprietas personalis et ista <choice><orig>nichil</orig><reg>nihil</reg></choice> perfectionis super addit
           </p>
         </div>

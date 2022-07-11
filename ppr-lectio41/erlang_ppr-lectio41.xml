@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,45 +52,45 @@
           <div xml:id="ppr-l41-Dd1e92">
             <head xml:id="ppr-l41-Hqqcdpd">Quod quia creatura est propter Deum, ideo debet diligi propter Deum</head>
             <p xml:id="ppr-l41-aecasp">
-              <lb ed="#E"/>In alia lectione 
-              <lb ed="#E"/>Advertendum circa materiam motam quae realiter est materia de dilectione dei et proximi quantum 
-              <lb ed="#E"/>ad sui principalitatem
+              <lb ed="#E" n="13"/>In alia lectione 
+              <lb ed="#E" n="14"/>Advertendum circa materiam motam quae realiter est materia de dilectione dei et proximi quantum 
+              <lb ed="#E" n="15"/>ad sui principalitatem
             </p>
             <p xml:id="ppr-l41-qeadpd">
-              <lb ed="#E"/>et quantum est ad punctum mere essent doctores satis concordes scilicet quod 
-              <lb ed="#E"/>secundum ordinem rerum esset ordo dilectionum proportionalis
+              <lb ed="#E" n="16"/>et quantum est ad punctum mere essent doctores satis concordes scilicet quod 
+              <lb ed="#E" n="17"/>secundum ordinem rerum esset ordo dilectionum proportionalis
             </p>
             <p xml:id="ppr-l41-eihofo">
               Sed discordia est inter doctores 
-              <lb ed="#E"/>propter aequivocationes vocabulorum istorum scilicet uti et frui Ex una parte et ex alia parte 
-              <lb ed="#E"/>propter ignorantiam actuum animae et proprietatem eorum etiam quia ignoramus naturam potentiae 
-              <lb ed="#E"/>volitivae et motum ipsius in eius obiectum
+              <lb ed="#E" n="18"/>propter aequivocationes vocabulorum istorum scilicet uti et frui Ex una parte et ex alia parte 
+              <lb ed="#E" n="19"/>propter ignorantiam actuum animae et proprietatem eorum etiam quia ignoramus naturam potentiae 
+              <lb ed="#E" n="20"/>volitivae et motum ipsius in eius obiectum
             </p>
             <p xml:id="ppr-l41-patofo">
               <pc type="#pilcrow"/>Pro declaratione materiae ut solvantur argumenta alias 
-              <lb ed="#E"/>adducta fuit dictum quod solus deus est licite et ordinate fruitionis obiectum
+              <lb ed="#E" n="21"/>adducta fuit dictum quod solus deus est licite et ordinate fruitionis obiectum
             </p>
             <p xml:id="ppr-l41-chaorb">
-              Argumentum fuit ratio<lb ed="#E" break="no"/>nibus 
+              Argumentum fuit ratio<lb ed="#E" break="no" n="22"/>nibus 
               aliquibus una ratio fuit quia voluntas potest fieri ad aliquid propter se etiam licite quod non 
-              <lb ed="#E"/>est deus nam bonum sub ratione boni ostensum potest diligi propter se et illa ratio non est dei specialiter
+              <lb ed="#E" n="23"/>est deus nam bonum sub ratione boni ostensum potest diligi propter se et illa ratio non est dei specialiter
             </p>
           </div>
           <div xml:id="ppr-l41-Dd1e166">
             <head xml:id="ppr-l41-Hpsvsve">Propositiones sequendo viam <name>Eliphatus</name></head>
             <p xml:id="ppr-l41-pdmpap">
-              <lb ed="#E"/>Exequendo viam <name ref="#RobertHalifax">eliphat</name> in illa materia sit haec prima propositio 
+              <lb ed="#E" n="24"/>Exequendo viam <name ref="#RobertHalifax">eliphat</name> in illa materia sit haec prima propositio 
             </p>
             <div xml:id="ppr-l41-Dd1e181">
               <head xml:id="ppr-l41-Hppnefo">Prima propositio: non quodlibet ens potest esse fruitionis obiectum</head>
               <p xml:id="ppr-l41-ppnips">
                 non quodlibet ens potest esse 
-                <lb ed="#E"/>obiectum fruitionis probatur dupliciter primo nam aliquid est ymaginabile quod non habet rationem boni sicud 
-                <lb ed="#E"/>miseria igitur voluntas non potest ferri dilective in illud propter se
+                <lb ed="#E" n="25"/>obiectum fruitionis probatur dupliciter primo nam aliquid est ymaginabile quod non habet rationem boni sicud 
+                <lb ed="#E" n="26"/>miseria igitur voluntas non potest ferri dilective in illud propter se
               </p>
               <p xml:id="ppr-l41-inesrf">
                 Secundo non esse non potest 
-                <lb ed="#E"/>esse obiectum fruitionis eo quod non habet rationem boni nec potest sub electionem eadem
+                <lb ed="#E" n="27"/>esse obiectum fruitionis eo quod non habet rationem boni nec potest sub electionem eadem
               </p>
             </div>
             <div xml:id="ppr-l41-Dd1e207">
@@ -102,9 +99,9 @@
               </head>
               <p xml:id="ppr-l41-spqqeu">
                 Secunda propositio 
-                <lb ed="#E"/>Quodlibet ens potest esse obiectum visus probatur nam circa quodlibet ens voluntas potest habere actum 
-                <lb ed="#E"/>dilectivum relativum in aliud quod magis diligit ymmo quocumque dato potest aliud ens magis 
-                <lb ed="#E"/>diligere igitur circa quodlibet ens potest habere dilectionem quae est usus 
+                <lb ed="#E" n="28"/>Quodlibet ens potest esse obiectum visus probatur nam circa quodlibet ens voluntas potest habere actum 
+                <lb ed="#E" n="29"/>dilectivum relativum in aliud quod magis diligit ymmo quocumque dato potest aliud ens magis 
+                <lb ed="#E" n="30"/>diligere igitur circa quodlibet ens potest habere dilectionem quae est usus 
               </p>
             </div>
             <div xml:id="ppr-l41-Dd1e226">
@@ -113,54 +110,54 @@
               </head>
               <p xml:id="ppr-l41-tpotsb">
                 Tertia propositio omne aliud a deo potest 
-                <lb ed="#E"/>esse obiectum usus ordinati ymmo debet esse patet ex habitudine omnium rerum in deum quia quaelibet 
-                <lb ed="#E"/>res est diligibilis in deum et propter deum tamquam propter bonum finale
+                <lb ed="#E" n="31"/>esse obiectum usus ordinati ymmo debet esse patet ex habitudine omnium rerum in deum quia quaelibet 
+                <lb ed="#E" n="32"/>res est diligibilis in deum et propter deum tamquam propter bonum finale
               </p>
             </div>
             <div xml:id="ppr-l41-Dd1e247">
               <head xml:id="ppr-l41-Hqponeu">Quarta propositio: omne nolle est usus</head>
               <p xml:id="ppr-l41-qpoamd">
                 Quarta propositio omne nolle 
-                <lb ed="#E"/>est usus patet quia omne nolle est fuga quaedam alicuius disconvenientis quae <unclear>quidem</unclear> fuga non 
-                <lb ed="#E"/>est fuga aliunde nisi ratione illius quod amatur ergo illa fuga ordinatur in amorem et per consequens 
-                <lb ed="#E"/>est propter aliud magis dilectum
+                <lb ed="#E" n="33"/>est usus patet quia omne nolle est fuga quaedam alicuius disconvenientis quae <unclear>quidem</unclear> fuga non 
+                <lb ed="#E" n="34"/>est fuga aliunde nisi ratione illius quod amatur ergo illa fuga ordinatur in amorem et per consequens 
+                <lb ed="#E" n="35"/>est propter aliud magis dilectum
               </p>
             </div>
             <div xml:id="ppr-l41-Dd1e269">
               <head xml:id="ppr-l41-Hqpqvpa">Quinta propositio: quicquid vult voluntas, vult propter se vel propter aliud</head>
               <p xml:id="ppr-l41-qpqiqi">
                 Quinta propositio Quidquid vult voluntas illud vult propter vel propter 
-                <lb ed="#E"/>aliud et in isto stat tota difficultas mere Probatur nam bonitas est causa per se ergo 
-                <lb ed="#E"/>semper agit propter aliquem finem Ista propositio trahitur ex secundo physicorum et 9o <title>metaphysicae</title> 
-                <lb ed="#E"/>per <name ref="#Aristotle">aristotelem</name> et <name>commentatorem</name> Ad idem etiam <name>Anselmi</name> variis locis dicens voluntas numquam 
-                <lb ed="#E"/>exit in actum nisi habeat animae id est nisi propter finem quem intendit alium a se vel est met finis
+                <lb ed="#E" n="36"/>aliud et in isto stat tota difficultas mere Probatur nam bonitas est causa per se ergo 
+                <lb ed="#E" n="37"/>semper agit propter aliquem finem Ista propositio trahitur ex secundo physicorum et 9o <title>metaphysicae</title> 
+                <lb ed="#E" n="38"/>per <name ref="#Aristotle">aristotelem</name> et <name>commentatorem</name> Ad idem etiam <name>Anselmi</name> variis locis dicens voluntas numquam 
+                <lb ed="#E" n="39"/>exit in actum nisi habeat animae id est nisi propter finem quem intendit alium a se vel est met finis
               </p>
             </div>
             <div xml:id="ppr-l41-Dd1e307">
               <head xml:id="ppr-l41-Hspqspq">Sexta propositio</head>
               <p xml:id="ppr-l41-spppbf">
                 Sexta propositio omne velle voluntatis est usus vel fruitio patet quia voluntas non 
-                <lb ed="#E"/>potest exire in actum quin habeat cur vel ergo propter se et sic est fruitio vel propter aliud et sic est 
-                <lb ed="#E"/>usus unde non stat voluntatem agere nec propter finem Ideo primo et 2o physicorum ponit 
+                <lb ed="#E" n="40"/>potest exire in actum quin habeat cur vel ergo propter se et sic est fruitio vel propter aliud et sic est 
+                <lb ed="#E" n="41"/>usus unde non stat voluntatem agere nec propter finem Ideo primo et 2o physicorum ponit 
                 <pb ed="#E" n="57-r"/>
-                <lb ed="#E"/>quod finis est causa causarum Unde materia non alteratur nisi ad certe forme receptionem nec agens 
-                <lb ed="#E"/>ageret nisi sub ratione certi finis ymmo voluntas in omni sua actione praecipue in actione nobi<lb ed="#E" break="no"/>li 
+                <lb ed="#E" n="1"/>quod finis est causa causarum Unde materia non alteratur nisi ad certe forme receptionem nec agens 
+                <lb ed="#E" n="2"/>ageret nisi sub ratione certi finis ymmo voluntas in omni sua actione praecipue in actione nobi<lb ed="#E" break="no" n="3"/>li 
                 quae est velle vel nolle semper agit propter finem si igitur est obiecti per se est fruitio si propter aliud 
-                <lb ed="#E"/>est usus et loquor de <sic>de liberatis</sic> et non de primis motibus vel aliis non de liberatis  
-                <lb ed="#E"/>Ex alio nam ita est de intellectum igitur proportionaliter est de voluntate Antecedens declaratur Nam intellectus 
-                <lb ed="#E"/>cuicumque propositioni assentit illi assentit vel per se ut sunt principia vel assentit illi vel illis ex 
-                <lb ed="#E"/>evidentia sumpta ex aliis sicut conclusionibus ipsa voluntas circa finem habet fruitionem 
-                <lb ed="#E"/>circa media habet usum unde voluntas finem diligit propter bonitatem ipsius finis in se 
-                <lb ed="#E"/>et media diligit gratia finis sicut intellectus assentit principiis propter evidentiam eorum 
-                <lb ed="#E"/>in se et assentit conclusionibus propter evidentiam principiorum
+                <lb ed="#E" n="4"/>est usus et loquor de <sic>de liberatis</sic> et non de primis motibus vel aliis non de liberatis  
+                <lb ed="#E" n="5"/>Ex alio nam ita est de intellectum igitur proportionaliter est de voluntate Antecedens declaratur Nam intellectus 
+                <lb ed="#E" n="6"/>cuicumque propositioni assentit illi assentit vel per se ut sunt principia vel assentit illi vel illis ex 
+                <lb ed="#E" n="7"/>evidentia sumpta ex aliis sicut conclusionibus ipsa voluntas circa finem habet fruitionem 
+                <lb ed="#E" n="8"/>circa media habet usum unde voluntas finem diligit propter bonitatem ipsius finis in se 
+                <lb ed="#E" n="9"/>et media diligit gratia finis sicut intellectus assentit principiis propter evidentiam eorum 
+                <lb ed="#E" n="10"/>in se et assentit conclusionibus propter evidentiam principiorum
               </p>
             </div>
             <div xml:id="ppr-l41-Dd1e373">
               <head xml:id="ppr-l41-Hcecece">Conclusio <name ref="#RobertHalifax">Elipahti</name></head>
               <p xml:id="ppr-l41-tsiorc">
                 <pc type="#pilcrow"/>Secundum ista satis patet sequenda 
-                <lb ed="#E"/>via <name ref="#RobertHalifax">Eliphat</name> quomodo omnis actus mundi ipsius voluntatis vel est usus vel fruitio et quomodo actus 
-                <lb ed="#E"/>usus non potest licite haberi respectu dei nec fruitio respectum creaturae
+                <lb ed="#E" n="11"/>via <name ref="#RobertHalifax">Eliphat</name> quomodo omnis actus mundi ipsius voluntatis vel est usus vel fruitio et quomodo actus 
+                <lb ed="#E" n="12"/>usus non potest licite haberi respectu dei nec fruitio respectum creaturae
               </p>
             </div>
           </div>
@@ -168,67 +165,67 @@
             <head xml:id="ppr-l41-Hocvcve">Obiecto contra viam <name ref="#RobertHalifax">Eliphati</name></head>
             <p xml:id="ppr-l41-schuvf">
               Sed contra hoc est argumentum factum 
-              <lb ed="#E"/>nam bonum sub ratione boni in communi est obiectum etc Item idem actus est usus et fruitio igitur 
-              <lb ed="#E"/>fruitio habet pro obiecto quoddam creatum probaretur consequentia faciliter per <sic>sylogismum</sic> <unclear>expositorium</unclear> Respondet 
-              <lb ed="#E"/><name ref="#RobertHalifax">Eliphat</name> quod nullo modo voluntas potest habere actum deliberatum quin realiter sit usus vel fruitio
+              <lb ed="#E" n="13"/>nam bonum sub ratione boni in communi est obiectum etc Item idem actus est usus et fruitio igitur 
+              <lb ed="#E" n="14"/>fruitio habet pro obiecto quoddam creatum probaretur consequentia faciliter per <sic>sylogismum</sic> <unclear>expositorium</unclear> Respondet 
+              <lb ed="#E" n="15"/><name ref="#RobertHalifax">Eliphat</name> quod nullo modo voluntas potest habere actum deliberatum quin realiter sit usus vel fruitio
             </p>
             <p xml:id="ppr-l41-ucadps">
               Ad 
-              <lb ed="#E"/>rationem quando dicitur possibile est quod intellectus praesentet voluntati bonum sub ratione generali bonitatis
+              <lb ed="#E" n="16"/>rationem quando dicitur possibile est quod intellectus praesentet voluntati bonum sub ratione generali bonitatis
             </p>
             <p xml:id="ppr-l41-dqipfa">
-              Respondet in <title>sententia</title> quod illo casu stante vel voluntas referret in ultimum finem et sic propter illum dili<lb ed="#E" break="no"/>git 
+              Respondet in <title>sententia</title> quod illo casu stante vel voluntas referret in ultimum finem et sic propter illum dili<lb ed="#E" break="no" n="17"/>git 
               huiusmodi bonum sub ratione boni scilicet in communi referre in aliud vel potest huiusmodi bonum diligere 
-              <lb ed="#E"/>propter se scilicet non referendo in aliud et ideo secundum suam libertatem ipsa voluntas se limitabit
+              <lb ed="#E" n="18"/>propter se scilicet non referendo in aliud et ideo secundum suam libertatem ipsa voluntas se limitabit
             <!-- break -->
-              <lb ed="#E"/>Contra hoc replicatur nam ponamus quod intellectus sicud praesentat voluntati ita etc dictet vo<lb ed="#E" break="no"/>luntati 
+              <lb ed="#E" n="19"/>Contra hoc replicatur nam ponamus quod intellectus sicud praesentat voluntati ita etc dictet vo<lb ed="#E" break="no" n="20"/>luntati 
               illud non esse referendum ad aliud nec propter se diligendum licet erroneae Tunc 
-              <lb ed="#E"/>videtur quod voluntas potest se illi dictamini conformare
+              <lb ed="#E" n="21"/>videtur quod voluntas potest se illi dictamini conformare
             </p>
             <p xml:id="ppr-l41-dqvpfa">
               Respondetur quod nullo modo potest voluntas 
-              <lb ed="#E"/>exire in actum scilicet producendo volitionem nisi ordinando illam in aliquem finem scilicet sic quod exeat 
-              <lb ed="#E"/>in actum absque hoc quod per causam finalem dirigatur in agendo quia est ordo essentialis in 
-              <lb ed="#E"/>agendo sic quod causa effectiva realiter dependet a causa finali sic quod non potest exire in actum 
-              <lb ed="#E"/>nisi <unclear>sine</unclear> concurrente in suo modo causandi
+              <lb ed="#E" n="22"/>exire in actum scilicet producendo volitionem nisi ordinando illam in aliquem finem scilicet sic quod exeat 
+              <lb ed="#E" n="23"/>in actum absque hoc quod per causam finalem dirigatur in agendo quia est ordo essentialis in 
+              <lb ed="#E" n="24"/>agendo sic quod causa effectiva realiter dependet a causa finali sic quod non potest exire in actum 
+              <lb ed="#E" n="25"/>nisi <unclear>sine</unclear> concurrente in suo modo causandi
               <!-- possible break -->
               Contra replicatur nam possibile est quod aliquis ex 
-              <lb ed="#E"/>pietate naturali dat pauperi elemosivam absque hoc quod referat in aliud vel quod faciat 
-              <lb ed="#E"/>propter se absolute igitur stat voluntatem volle <unclear>exequi</unclear> absque relatione in finem aliquem
+              <lb ed="#E" n="26"/>pietate naturali dat pauperi elemosivam absque hoc quod referat in aliud vel quod faciat 
+              <lb ed="#E" n="27"/>propter se absolute igitur stat voluntatem volle <unclear>exequi</unclear> absque relatione in finem aliquem
             </p>
           </div>
           <div xml:id="ppr-l41-Dd1e489">
             <head xml:id="ppr-l41-Hressio">Responsio</head>
             <p xml:id="ppr-l41-reetud">
-              <lb ed="#E"/>Advertendum quod multi sunt actus voluntatis super quos non habetur reflectio sicut in intellectu 
-              <lb ed="#E"/>saepe contigit Ideo bene stat quod in voluntate sit aliqua intentio quae non <subst><del rend="strikethrough expunctuation">pertici<lb ed="#E" break="no"/>patur</del> 
+              <lb ed="#E" n="28"/>Advertendum quod multi sunt actus voluntatis super quos non habetur reflectio sicut in intellectu 
+              <lb ed="#E" n="29"/>saepe contigit Ideo bene stat quod in voluntate sit aliqua intentio quae non <subst><del rend="strikethrough expunctuation">pertici<lb ed="#E" break="no" n="30"/>patur</del> 
               <add place="in-line">percipiatur </add></subst> a nobis unde valde possibile est quod plures sint motus in voluntate nostra 
-              <lb ed="#E"/>quos non experimur
+              <lb ed="#E" n="31"/>quos non experimur
             </p>
             <p xml:id="ppr-l41-esn">
               et sic licet non evidenter experiamur velle <c>a</c> quia volumus <c>b</c> 
-              <lb ed="#E"/>non propter hoc negandum quin voluntas referat semper in aliquem finem Et intelligitur 
-              <lb ed="#E"/>semper de actibus voluntatis deliberatis Et sic non est possibile velle dare elemosivam 
-              <lb ed="#E"/>nisi altero modorum scilicet vel propter deum vel ex affectione comodi scilicet ex timore vel aliunde 
-              <lb ed="#E"/>licet non semper experiamur propter defectum alicuius reflexi Et sic dans elemosivam 
-              <lb ed="#E"/>vel dat ex timore pene vel propter vanam gloriam vel alium finem illicitum vel propter deum 
-              <lb ed="#E"/>et sic licite verum est quod voluntas ratione libertatis suae potest sibi constituere finem Consequenter 
-              <lb ed="#E"/>iuxta istam ymaginationem diceretur quod nullus esset actus deliberatus voluntatis 
+              <lb ed="#E" n="32"/>non propter hoc negandum quin voluntas referat semper in aliquem finem Et intelligitur 
+              <lb ed="#E" n="33"/>semper de actibus voluntatis deliberatis Et sic non est possibile velle dare elemosivam 
+              <lb ed="#E" n="34"/>nisi altero modorum scilicet vel propter deum vel ex affectione comodi scilicet ex timore vel aliunde 
+              <lb ed="#E" n="35"/>licet non semper experiamur propter defectum alicuius reflexi Et sic dans elemosivam 
+              <lb ed="#E" n="36"/>vel dat ex timore pene vel propter vanam gloriam vel alium finem illicitum vel propter deum 
+              <lb ed="#E" n="37"/>et sic licite verum est quod voluntas ratione libertatis suae potest sibi constituere finem Consequenter 
+              <lb ed="#E" n="38"/>iuxta istam ymaginationem diceretur quod nullus esset actus deliberatus voluntatis 
               quando vel esset ad 
-              <lb ed="#E"/>bonum sive ad malum finem <del rend="strikethrough">Consequenter iuxta istam ymaginationem</del> Et concedat <name>iste doctor</name> 
-              <lb ed="#E"/>quod nullus talis quin vel sit ex caritate vel ex cupiditate et sic consequenter quod omnis talis
+              <lb ed="#E" n="39"/>bonum sive ad malum finem <del rend="strikethrough">Consequenter iuxta istam ymaginationem</del> Et concedat <name>iste doctor</name> 
+              <lb ed="#E" n="40"/>quod nullus talis quin vel sit ex caritate vel ex cupiditate et sic consequenter quod omnis talis
               <pb ed="#E" n="57-v"/>
-              <lb ed="#E"/>vel est meritum vel culpa Et allegat <name ref="#Augustine">Augustinus</name> contra Iulianum dicens omnis actus in quam deli<lb ed="#E" break="no"/>beratus 
+              <lb ed="#E" n="1"/>vel est meritum vel culpa Et allegat <name ref="#Augustine">Augustinus</name> contra Iulianum dicens omnis actus in quam deli<lb ed="#E" break="no" n="2"/>beratus 
               infidelis est realiter peccatum potest exemplum si aliquis restat nudum vel nutriat famelicum 
-              <lb ed="#E"/>quia nullus talis feratur indebitum finem Istud est probabile licet consequenter non teneatur
+              <lb ed="#E" n="3"/>quia nullus talis feratur indebitum finem Istud est probabile licet consequenter non teneatur
             </p>
             <p xml:id="ppr-l41-cdptud">
               Arguitur 
-              <lb ed="#E"/>contra praedictum ponamus quod deus in patria appareat alicui ita quod ille nesciat utrum sit deus 
-              <lb ed="#E"/>vel creatura appareat tamen huiusmodi res bona Ponatur ulterius quod voluntas eliciat recte aliquem
-              <lb ed="#E"/>actum amoris tunc videtur quod huiusmodi actus nec sit usus nec fruitio Quia quemcumque actum eliceret 
-              <lb ed="#E"/>scilicet vel usum vel fruitionem exponeret se <unclear>discernum</unclear> et sic peccaret mortaliter ergo potest habere 
-              <lb ed="#E"/>actum bonum qui nec sit usus nec fruitio 
+              <lb ed="#E" n="4"/>contra praedictum ponamus quod deus in patria appareat alicui ita quod ille nesciat utrum sit deus 
+              <lb ed="#E" n="5"/>vel creatura appareat tamen huiusmodi res bona Ponatur ulterius quod voluntas eliciat recte aliquem
+              <lb ed="#E" n="6"/>actum amoris tunc videtur quod huiusmodi actus nec sit usus nec fruitio Quia quemcumque actum eliceret 
+              <lb ed="#E" n="7"/>scilicet vel usum vel fruitionem exponeret se <unclear>discernum</unclear> et sic peccaret mortaliter ergo potest habere 
+              <lb ed="#E" n="8"/>actum bonum qui nec sit usus nec fruitio 
             </p>
               <!-- 
                 contents of this paragraph seem included in above; considering revising the division 
@@ -241,100 +238,100 @@
               -->
             <p xml:id="ppr-l41-rqseud">
               Respondetur quod stante casu isto voluntas non potest exire 
-              <lb ed="#E"/><del rend="strikethrough">vo</del> in actum quin peccet nam sicut ratio probat exponeret se periculo Sed fortificetur casus 
-              <lb ed="#E"/>et ponatur quod appareat beato dicitur quod non exiret in actum Cum <seg type="correction"><del rend="expunctuation">fo</del>beatitudine</seg> 
+              <lb ed="#E" n="9"/><del rend="strikethrough">vo</del> in actum quin peccet nam sicut ratio probat exponeret se periculo Sed fortificetur casus 
+              <lb ed="#E" n="10"/>et ponatur quod appareat beato dicitur quod non exiret in actum Cum <seg type="correction"><del rend="expunctuation">fo</del>beatitudine</seg> 
               <!-- possible break point -->
               Contra praecipiat 
-              <lb ed="#E"/>deus quod exeat in actum dicitur quod non est possibile nisi revelet sibi utrum sit deus vel creatura 
-              <lb ed="#E"/>breviter in isto casu non potest exire in actum
+              <lb ed="#E" n="11"/>deus quod exeat in actum dicitur quod non est possibile nisi revelet sibi utrum sit deus vel creatura 
+              <lb ed="#E" n="12"/>breviter in isto casu non potest exire in actum
             </p>
             <p xml:id="ppr-l41-scrrif">
               Contra nam voluntas realiter est libera sic quod posset 
-              <lb ed="#E"/>producere actum et non potest non producere omnibus aliis stantibus requisitis igitur potest non referre ita quod 
-              <lb ed="#E"/>sicut mere libere potest producere ita in sua libertate habet quod referat vel non referat habeat 
-              <lb ed="#E"/>ergo se sic respectu sui modi quod non referat
+              <lb ed="#E" n="13"/>producere actum et non potest non producere omnibus aliis stantibus requisitis igitur potest non referre ita quod 
+              <lb ed="#E" n="14"/>sicut mere libere potest producere ita in sua libertate habet quod referat vel non referat habeat 
+              <lb ed="#E" n="15"/>ergo se sic respectu sui modi quod non referat
             </p>
             <p xml:id="ppr-l41-etsrif">
               Breviter respondet licet voluntas habeat actum 
-              <lb ed="#E"/>in sua libertate modum tamen non habet in sua libertate non habet posito actu ymmo ad actum neccessario sequitur 
-              <lb ed="#E"/>modus hoc est ex habitudine causae finalis ad efficientem Causa efficiens maxime <unclear>electiva</unclear> non 
-              <lb ed="#E"/>potest sine fine exire in actum
+              <lb ed="#E" n="16"/>in sua libertate modum tamen non habet in sua libertate non habet posito actu ymmo ad actum neccessario sequitur 
+              <lb ed="#E" n="17"/>modus hoc est ex habitudine causae finalis ad efficientem Causa efficiens maxime <unclear>electiva</unclear> non 
+              <lb ed="#E" n="18"/>potest sine fine exire in actum
             </p>
           </div>
           <div xml:id="ppr-l41-Dd1e696">
             <head xml:id="ppr-l41-Hsaaaar">Solutione ad aliam rationem</head>
             <p xml:id="ppr-l41-crsuef">
               Consequenter ad aliam rationem quando dicitur quod idem actus est usus et fruitio 
-              <lb ed="#E"/>igitur fruitio habet aliquod obiectum creatum plures tenent quod fruitio et usus realiter distinguuntur ita quod non 
-              <lb ed="#E"/>stat aliquem eundem actum <del rend="strikethrough">esse</del> voluntatis esse usum et fruitionem 
+              <lb ed="#E" n="19"/>igitur fruitio habet aliquod obiectum creatum plures tenent quod fruitio et usus realiter distinguuntur ita quod non 
+              <lb ed="#E" n="20"/>stat aliquem eundem actum <del rend="strikethrough">esse</del> voluntatis esse usum et fruitionem 
               <!-- break? -->
               unde diceretur quod dilectio dei est causa 
-              <lb ed="#E"/>dilectionis creaturae et sic faciliter esset solutum Tenendo tamen positionem <name ref="#Wodeham">adae</name> scilicet quod est idem actus
+              <lb ed="#E" n="21"/>dilectionis creaturae et sic faciliter esset solutum Tenendo tamen positionem <name ref="#Wodeham">adae</name> scilicet quod est idem actus
             </p>
             <p xml:id="ppr-l41-udquef">
               <!-- first line of this might be in previous paragraph in ordinatio edition
                 reconsider break -->
-              <lb ed="#E"/>Respondetur <del rend="strikethrough">ad</del> et dicitur quod ratio est pure sophistica quia licet ille actus habet pro obiecto aliquam creaturam 
-              <lb ed="#E"/>non tamen est illius fruitio ideo non arguit contra intentionem conclusionis quia stat quod fruitio respectu dei 
-              <lb ed="#E"/>sit usus respectu creaturae
+              <lb ed="#E" n="22"/>Respondetur <del rend="strikethrough">ad</del> et dicitur quod ratio est pure sophistica quia licet ille actus habet pro obiecto aliquam creaturam 
+              <lb ed="#E" n="23"/>non tamen est illius fruitio ideo non arguit contra intentionem conclusionis quia stat quod fruitio respectu dei 
+              <lb ed="#E" n="24"/>sit usus respectu creaturae
             </p>
             <p xml:id="ppr-l41-scqdec">
               Sed contra obicitur sequeretur quod deus et creatura aeque perfecte et 
-              <lb ed="#E"/>aequaliter diligerentur quia est idem actus adequate dilectio dei et dilectio creaturae Et per consequens 
-              <lb ed="#E"/>non est ordo actum sicut est ordo rerum
+              <lb ed="#E" n="25"/>aequaliter diligerentur quia est idem actus adequate dilectio dei et dilectio creaturae Et per consequens 
+              <lb ed="#E" n="26"/>non est ordo actum sicut est ordo rerum
             </p>
             <p xml:id="ppr-l41-repama">
               Notandum quod deus multipliciter diligitur vel quo modo dilectio dei 
-              <lb ed="#E"/>se habeat ad dilectionem creaturae solum distinguuntur uno modo quod deus diligitur appreciative Alio modo 
-              <lb ed="#E"/>effective 
+              <lb ed="#E" n="27"/>se habeat ad dilectionem creaturae solum distinguuntur uno modo quod deus diligitur appreciative Alio modo 
+              <lb ed="#E" n="28"/>effective 
             </p>
             <p xml:id="ppr-l41-cpeidd">
               dilectio appreciativa dupliciter capitur apud doctores uno modo est dilectio sequens 
-              <lb ed="#E"/>iudicium de divina perfectione et quantificari solet secundum iudicium in intellectu de deo <seg type="correction">quo<del>d</del></seg> est summum 
-              <lb ed="#E"/>bonum et quod est summe perfectus secundum tale iudicium formatur et quantificatur dilectio et sic deus diligitur 
-              <lb ed="#E"/>in infinitum appreciative 
+              <lb ed="#E" n="29"/>iudicium de divina perfectione et quantificari solet secundum iudicium in intellectu de deo <seg type="correction">quo<del>d</del></seg> est summum 
+              <lb ed="#E" n="30"/>bonum et quod est summe perfectus secundum tale iudicium formatur et quantificatur dilectio et sic deus diligitur 
+              <lb ed="#E" n="31"/>in infinitum appreciative 
              </p> 
             <p xml:id="ppr-l41-cdqdqc">
               Consequenter diceretur de dilectio affectiva quod staret quod aliqua creatura 
-              <lb ed="#E"/>diligeretur intensius quam deus et hoc ordinate et licite sed non appreciative potest ordinare
-              <lb ed="#E"/>et hoc saltem in diversis suppositis Est tamen semper dilectio dei nobilior quia est appreciative 
-              <lb ed="#E"/>infinita 
+              <lb ed="#E" n="32"/>diligeretur intensius quam deus et hoc ordinate et licite sed non appreciative potest ordinare
+              <lb ed="#E" n="33"/>et hoc saltem in diversis suppositis Est tamen semper dilectio dei nobilior quia est appreciative 
+              <lb ed="#E" n="34"/>infinita 
               <!-- possibile break -->
               2a ipsa dilectio dei est alterius modi in esse affectionis quam dilectio creaturae Aliter 
-              <lb ed="#E"/>solent alii capere dilectionem affectivam et vocatur illa qua voluntas optat tali respectu cuius est tantum bonum 
-              <lb ed="#E"/>in esse et sic dilectio respectu dei est infinita quia creaturam optat deo quod fit summum bonum et sic 
-              <lb ed="#E"/>non diligimus creaturam vel sic non optamus creaturae quia non optamus quod aliqua sit 
-              <lb ed="#E"/>deus et sic semper finite diligimus creaturas Iste modus diceret a primo nam sic semper 
-              <lb ed="#E"/>est maior respectu dei quam respectu creaturae <pc type="#pilcrow"/>Tenendo ergo quod sit idem actus fruitio et usus quomodo 
-              <lb ed="#E"/>salvabitur quod deus plus quam creatura
+              <lb ed="#E" n="35"/>solent alii capere dilectionem affectivam et vocatur illa qua voluntas optat tali respectu cuius est tantum bonum 
+              <lb ed="#E" n="36"/>in esse et sic dilectio respectu dei est infinita quia creaturam optat deo quod fit summum bonum et sic 
+              <lb ed="#E" n="37"/>non diligimus creaturam vel sic non optamus creaturae quia non optamus quod aliqua sit 
+              <lb ed="#E" n="38"/>deus et sic semper finite diligimus creaturas Iste modus diceret a primo nam sic semper 
+              <lb ed="#E" n="39"/>est maior respectu dei quam respectu creaturae <pc type="#pilcrow"/>Tenendo ergo quod sit idem actus fruitio et usus quomodo 
+              <lb ed="#E" n="40"/>salvabitur quod deus plus quam creatura
             </p>
             <!-- reason for break unclear; perhaps break should be at "tenendo" above -->
             <p xml:id="ppr-l41-meqqir">
-              modus est facilis quia idem actus potest habere diver<lb ed="#E" break="no"/>sas 
+              modus est facilis quia idem actus potest habere diver<lb ed="#E" break="no" n="41"/>sas 
               habitudines ad potentiam et obiectum Patet nam capiamus aliquos iudicium de aliquo illud habet 
-              <lb ed="#E"/>duplicem habitudinem ad animam prima habitudo est quia realiter repraesentat illud cuius est iudicium 
-              <lb ed="#E"/>etiam repraesentat intellectui aliquam veritatem Et secunda habitudo est realiter 
-              <lb ed="#E"/>perfectior quam prima Item capiamus in patria unum actum qui est iudicium una habitudo 
+              <lb ed="#E" n="42"/>duplicem habitudinem ad animam prima habitudo est quia realiter repraesentat illud cuius est iudicium 
+              <lb ed="#E" n="43"/>etiam repraesentat intellectui aliquam veritatem Et secunda habitudo est realiter 
+              <lb ed="#E" n="44"/>perfectior quam prima Item capiamus in patria unum actum qui est iudicium una habitudo 
               <pb ed="#E" n="58-r"/>
-              <lb ed="#E"/>illius est repraesentare Alia est certificare intellectum de veritate et 2a est nobilior quam prima
+              <lb ed="#E" n="1"/>illius est repraesentare Alia est certificare intellectum de veritate et 2a est nobilior quam prima
             </p> 
             <p xml:id="ppr-l41-aecqrc">
-              <lb ed="#E"/>Item capiamus notitiam quam habet beatus in verbo de creatura illa repraesentat verbum et creatura 
-              <lb ed="#E"/>in verbo relucentem et illa beatificat respectu verbi et non respectu creaturae ideo perfectius respectu huius obiectum quam 
-              <lb ed="#E"/>respectu huius
+              <lb ed="#E" n="2"/>Item capiamus notitiam quam habet beatus in verbo de creatura illa repraesentat verbum et creatura 
+              <lb ed="#E" n="3"/>in verbo relucentem et illa beatificat respectu verbi et non respectu creaturae ideo perfectius respectu huius obiectum quam 
+              <lb ed="#E" n="4"/>respectu huius
             </p>
             <p xml:id="ppr-l41-iapqrc">
-              Alii dicunt quod est eadem notitia principiorum et conclusionum et quod illa eadem est intensior <!-- homoteluton in PV here --> noti<lb ed="#E" break="no"/>tia 
+              Alii dicunt quod est eadem notitia principiorum et conclusionum et quod illa eadem est intensior <!-- homoteluton in PV here --> noti<lb ed="#E" break="no" n="5"/>tia 
               respectu principiorum quam respectu <unclear>conclusionis</unclear> <unclear>ibi</unclear> non est inconveniens quod idem actus sit intensior respectu unius quam 
-              <lb ed="#E"/>respectu alterius et sic apparet quomodo illa militat quando semper sit solo fruendum 
+              <lb ed="#E" n="6"/>respectu alterius et sic apparet quomodo illa militat quando semper sit solo fruendum 
             </p>
           </div>
           <div xml:id="ppr-l41-Dd1e919">
             <head xml:id="ppr-l41-Hraaaar">Responsio ad aliam rationem</head>
             <p xml:id="ppr-l41-reedpp">
               unde 
-              <lb ed="#E"/>omnes rationes supponibiles habent eandem rationem fruibilitatis et sic beati habent eandem rationem 
-              <lb ed="#E"/>fruendi a patre et filio et spiritu sancto
+              <lb ed="#E" n="7"/>omnes rationes supponibiles habent eandem rationem fruibilitatis et sic beati habent eandem rationem 
+              <lb ed="#E" n="8"/>fruendi a patre et filio et spiritu sancto
             </p>
           </div>
         </div>
@@ -342,21 +339,21 @@
           <head>Conclusiones</head>
           <p xml:id="ppr-l41-cd3viv">
             <pc type="#pilcrow"/><pc type="#pilcrow"/>Circa distinctionem 39vam Quae incipit praeterea 
-            <lb ed="#E"/>solet quaeri et est de divinae scientiae immutabilitate prima conclusio Scientia dei non est augmentabilis vel mi<lb ed="#E" break="no"/>nuibilis 
+            <lb ed="#E" n="9"/>solet quaeri et est de divinae scientiae immutabilitate prima conclusio Scientia dei non est augmentabilis vel mi<lb ed="#E" break="no" n="10"/>nuibilis 
             et quod est immutabilis vel invariabilis
           </p>
           <p xml:id="ppr-l41-scdafc">
             Secunda conclusio deus scit aliqua quae potest non scire 
-            <lb ed="#E"/>patet quia scit auxilium fore contingenter
+            <lb ed="#E" n="11"/>patet quia scit auxilium fore contingenter
           </p>
           <p xml:id="ppr-l41-tcdias">
-            Tertia conclusio deus non potest aliquid scire ex tempore id est non potest <seg type="correction">in<lb ed="#E"/><del rend="strikethrough">con</del>cipere</seg> 
+            Tertia conclusio deus non potest aliquid scire ex tempore id est non potest <seg type="correction">in<lb ed="#E" n="12"/><del rend="strikethrough">con</del>cipere</seg> 
             aliquid scire
           </p>
           <p xml:id="ppr-l41-qcdeft">
             Quarta conclusio deus aliqua nescit quae potest scire quia multa possunt esse futura 
-            <lb ed="#E"/>quae non sunt futura de ista materia dixit <name>magister petrus</name> quod videndum esset in quaestione et quod ergo faciliter 
-            <lb ed="#E"/>transivit
+            <lb ed="#E" n="13"/>quae non sunt futura de ista materia dixit <name>magister petrus</name> quod videndum esset in quaestione et quod ergo faciliter 
+            <lb ed="#E" n="14"/>transivit
           </p>
           <p xml:id="ppr-l41-qcaadb">
             Quinta conclusio aliam <unclear>curam</unclear> habet deus de rationalibus et aliam de brutis

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,28 +54,28 @@
           <!-- <p xml:id="ppr-l19-isqnic"> seems missing -->
           <p xml:id="ppr-l19-seirsl">
             <lb ed="#PV" n="62"/>In alia lectione 
-            <lb ed="#PV"/>Prima principia et conclu<lb ed="#PV" break="no"/>siones 
+            <lb ed="#PV" n="63"/>Prima principia et conclu<lb ed="#PV" break="no" n="64"/>siones 
             exprimentes divinam 
-            <lb ed="#PV"/>nobilitatem et excellentiam 
-            <lb ed="#PV"/>reducuntur ad istam deus est 
-            <lb ed="#PV"/>ut habere omnipotentiam immen<lb ed="#PV" break="no"/>sam 
+            <lb ed="#PV" n="65"/>nobilitatem et excellentiam 
+            <lb ed="#PV" n="66"/>reducuntur ad istam deus est 
+            <lb ed="#PV" n="67"/>ut habere omnipotentiam immen<lb ed="#PV" break="no" n="68"/>sam 
             <unclear>contradictione</unclear> liberam
             <!-- break? -->
             Ex illo 
-            <lb ed="#PV"/>infert quod deus potest facere 
-            <lb ed="#PV"/>quidquid non implicat contradictionem 
-            <lb ed="#PV"/>et sic de multis aliis
+            <lb ed="#PV" n="69"/>infert quod deus potest facere 
+            <lb ed="#PV" n="70"/>quidquid non implicat contradictionem 
+            <lb ed="#PV" n="71"/>et sic de multis aliis
           </p>
           <p xml:id="ppr-l19-eceesp">
             sequitur 
-            <lb ed="#PV"/>quod deus est summe providentiae 
-            <lb ed="#PV"/>unde posuerunt unum principium 
-            <lb ed="#PV"/>primum scilicet deum esse universaliter esse per<lb ed="#PV" break="no"/>fectum 
+            <lb ed="#PV" n="72"/>quod deus est summe providentiae 
+            <lb ed="#PV" n="73"/>unde posuerunt unum principium 
+            <lb ed="#PV" n="74"/>primum scilicet deum esse universaliter esse per<lb ed="#PV" break="no" n="75"/>fectum 
             2m principium deum gubernare 
-            <lb ed="#PV"/>et providere humano <unclear>genero</unclear> sub 
-            <lb ed="#PV"/>isto 2o principio continentur omnia 
-            <lb ed="#PV"/>pietatis et etiam omnia omnia alia redu<lb ed="#PV" break="no"/>cuntur 
-            ad illud Et istud tan<lb ed="#PV" break="no"/>git 
+            <lb ed="#PV" n="76"/>et providere humano <unclear>genero</unclear> sub 
+            <lb ed="#PV" n="77"/>isto 2o principio continentur omnia 
+            <lb ed="#PV" n="78"/>pietatis et etiam omnia omnia alia redu<lb ed="#PV" break="no" n="79"/>cuntur 
+            ad illud Et istud tan<lb ed="#PV" break="no" n="80"/>git 
             <name ref="#Paul">apostolus</name>
           </p>
         </div>
@@ -86,152 +83,152 @@
           <head xml:id="ppr-l19-Hdptepp">[Duo praecepta theologiae, licet non sint immediate sequentia ex primis principiis]</head>
           <p xml:id="ppr-l19-aeqtpd">
             Advertendum 
-            <lb ed="#PV"/>quod <unclear cert="high">volentius</unclear> procedere theologice 
-            <lb ed="#PV"/>duo principia sunt observanda 
-            <lb ed="#PV"/>quae sunt directiva primum quod est 
+            <lb ed="#PV" n="81"/>quod <unclear cert="high">volentius</unclear> procedere theologice 
+            <lb ed="#PV" n="82"/>duo principia sunt observanda 
+            <lb ed="#PV" n="83"/>quae sunt directiva primum quod est 
             <pb ed="#PV" n="27-v"/>
             <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/><name ref="#Boethius">Boetii</name> etiam 
+            <lb ed="#PV" n="1"/><name ref="#Boethius">Boetii</name> etiam 
             <name ref="#Aristotle">aristotelis</name> <unclear>sermones</unclear> 
-            <lb ed="#PV"/>recipiendi sunt secundum materiam sub<lb ed="#PV" break="no"/>iectam
+            <lb ed="#PV" n="2"/>recipiendi sunt secundum materiam sub<lb ed="#PV" break="no" n="3"/>iectam
           </p>
           <p xml:id="ppr-l19-apecic">
             Advertendum ad aliud 
-            <lb ed="#PV"/>scilicet debilitas humani ingenii 
-            <lb ed="#PV"/>quae debet considerari <name ref="#Paul">apostolus</name> 
-            <lb ed="#PV"/><quote xml:id="ppr-l19-Qd1e3827" ana="IIcor3_5"><choice><orig>nichil</orig><reg>nihil</reg></choice> est ex nobis tamquam 
-            <lb ed="#PV"/>ex nobis</quote> <g ref="#slash"/>creatura requirit 
-            <lb ed="#PV"/>a deo continuam actuationem sicut 
-            <lb ed="#PV"/>tenet <name ref="#WilliamOfParis">wilhelmus parysiensis</name> sicut 
-            <lb ed="#PV"/>dictum est prius
+            <lb ed="#PV" n="4"/>scilicet debilitas humani ingenii 
+            <lb ed="#PV" n="5"/>quae debet considerari <name ref="#Paul">apostolus</name> 
+            <lb ed="#PV" n="6"/><quote xml:id="ppr-l19-Qd1e3827" ana="IIcor3_5"><choice><orig>nichil</orig><reg>nihil</reg></choice> est ex nobis tamquam 
+            <lb ed="#PV" n="7"/>ex nobis</quote> <g ref="#slash"/>creatura requirit 
+            <lb ed="#PV" n="8"/>a deo continuam actuationem sicut 
+            <lb ed="#PV" n="9"/>tenet <name ref="#WilliamOfParis">wilhelmus parysiensis</name> sicut 
+            <lb ed="#PV" n="10"/>dictum est prius
           </p>
         </div>
         <div xml:id="ppr-l19-Dd1e3849">
           <head xml:id="ppr-l19-Hqptqpt">Quartum principium theologiae</head>
           <p xml:id="ppr-l19-appese">
             <g ref="#dbslash"/>Aliud 
-            <lb ed="#PV"/>principium praemittendum pro nunc 
-            <lb ed="#PV"/>quod deus est prima regula 
-            <lb ed="#PV"/>et ultima prima incipiendo superius 
-            <lb ed="#PV"/>ultime incipiendo inferius 
-            <lb ed="#PV"/>et summa ad quam resolvitur 
-            <lb ed="#PV"/>omne iustum bonum et de<lb ed="#PV" break="no"/>cens 
+            <lb ed="#PV" n="11"/>principium praemittendum pro nunc 
+            <lb ed="#PV" n="12"/>quod deus est prima regula 
+            <lb ed="#PV" n="13"/>et ultima prima incipiendo superius 
+            <lb ed="#PV" n="14"/>ultime incipiendo inferius 
+            <lb ed="#PV" n="15"/>et summa ad quam resolvitur 
+            <lb ed="#PV" n="16"/>omne iustum bonum et de<lb ed="#PV" break="no" n="17"/>cens 
             et ita magno utilitatis 
-            <lb ed="#PV"/>sicut tactum est prius et 
-            <lb ed="#PV"/>quodammodo omnis veritas 
-            <lb ed="#PV"/>est a deo exemplata et ita 
-            <lb ed="#PV"/>etiam omnis bonitas
+            <lb ed="#PV" n="18"/>sicut tactum est prius et 
+            <lb ed="#PV" n="19"/>quodammodo omnis veritas 
+            <lb ed="#PV" n="20"/>est a deo exemplata et ita 
+            <lb ed="#PV" n="21"/>etiam omnis bonitas
           </p>
           <div xml:id="ppr-l19-Dd1e3883">
             <head xml:id="ppr-l19-Hceqsri">[Corollaria ex quarto principio: quod humanum iudicum non est sufficiens regula iusti]</head>
             <p xml:id="ppr-l19-eqsivr">
               sic quod 
-              <lb ed="#PV"/>humanum iudicium non est suffi<lb ed="#PV" break="no"/>cienti 
+              <lb ed="#PV" n="22"/>humanum iudicium non est suffi<lb ed="#PV" break="no" n="23"/>cienti 
               regula iusti vel rectitudinis 
             </p>
             <p xml:id="ppr-l19-uaqaur">
-              <lb ed="#PV"/><name ref="#Aristotle">philosophus</name> in toto libro <title ref="#Ethics">ethicorum</title> 
-              <lb ed="#PV"/>resolvit omnia ad dictamen 
-              <lb ed="#PV"/>rectae rationis sed tamen illa non 
-              <lb ed="#PV"/>est ultima regula
+              <lb ed="#PV" n="24"/><name ref="#Aristotle">philosophus</name> in toto libro <title ref="#Ethics">ethicorum</title> 
+              <lb ed="#PV" n="25"/>resolvit omnia ad dictamen 
+              <lb ed="#PV" n="26"/>rectae rationis sed tamen illa non 
+              <lb ed="#PV" n="27"/>est ultima regula
             </p>
             <!-- <p xml:id="ppr-l19-iaemeh"> seems missing -->
             <p xml:id="ppr-l19-eqseoh">
               Sequitur 
-              <lb ed="#PV"/>quod deus non vult sic fore 
-              <lb ed="#PV"/>vel operari ad extra quia bonum 
-              <lb ed="#PV"/>debet sic fieri vel fore sed vice<lb ed="#PV" break="no"/>versa 
+              <lb ed="#PV" n="28"/>quod deus non vult sic fore 
+              <lb ed="#PV" n="29"/>vel operari ad extra quia bonum 
+              <lb ed="#PV" n="30"/>debet sic fieri vel fore sed vice<lb ed="#PV" break="no" n="31"/>versa 
               scilicet quia vult sic fieri esse 
-              <lb ed="#PV"/>bonum ita quod non est ex parte 
-              <lb ed="#PV"/>obiecti oritur ordinatio primae 
-              <lb ed="#PV"/>causae quod sic vel sic regat
+              <lb ed="#PV" n="32"/>bonum ita quod non est ex parte 
+              <lb ed="#PV" n="33"/>obiecti oritur ordinatio primae 
+              <lb ed="#PV" n="34"/>causae quod sic vel sic regat
             </p>
             <p xml:id="ppr-l19-eqsosb">
-              <lb ed="#PV"/>Sequitur quod absolute posset 
-              <lb ed="#PV"/>esse bonum quod omnes daemones 
-              <lb ed="#PV"/>et etiam dampnati alii salva<lb ed="#PV" break="no"/>rentur 
+              <lb ed="#PV" n="35"/>Sequitur quod absolute posset 
+              <lb ed="#PV" n="36"/>esse bonum quod omnes daemones 
+              <lb ed="#PV" n="37"/>et etiam dampnati alii salva<lb ed="#PV" break="no" n="38"/>rentur 
               et omnes in paradyso 
-              <lb ed="#PV"/>existentes dampnarentur 
-              <lb ed="#PV"/>patet quia istud non est bonum 
-              <lb ed="#PV"/>nisi in relatione ad primam 
-              <lb ed="#PV"/>regulam quia sic esse vel non esse 
+              <lb ed="#PV" n="39"/>existentes dampnarentur 
+              <lb ed="#PV" n="40"/>patet quia istud non est bonum 
+              <lb ed="#PV" n="41"/>nisi in relatione ad primam 
+              <lb ed="#PV" n="42"/>regulam quia sic esse vel non esse 
               <cb ed="#PV" n="b"/> <!-- 27vb -->
-              <lb ed="#PV"/>est non primarie bonum nisi in 
-              <lb ed="#PV"/>resolutione ad primum a quo 
-              <lb ed="#PV"/>tamquam a principali capit quod 
-              <lb ed="#PV"/><unclear cert="high">fit</unclear> bonum
+              <lb ed="#PV" n="43"/>est non primarie bonum nisi in 
+              <lb ed="#PV" n="44"/>resolutione ad primum a quo 
+              <lb ed="#PV" n="45"/>tamquam a principali capit quod 
+              <lb ed="#PV" n="46"/><unclear cert="high">fit</unclear> bonum
             </p>
             <p xml:id="ppr-l19-eqsdgt">
               Sequitur quod non 
-              <lb ed="#PV"/>est standum humano iudicio 
-              <lb ed="#PV"/>in inquisitione materiae reproba<lb ed="#PV" break="no"/>tionis 
+              <lb ed="#PV" n="47"/>est standum humano iudicio 
+              <lb ed="#PV" n="48"/>in inquisitione materiae reproba<lb ed="#PV" break="no" n="49"/>tionis 
               illorum qui <choice><orig>nichil</orig><reg>nihil</reg></choice> male 
-              <lb ed="#PV"/>egerunt sicut scriptum est de 
-              <lb ed="#PV"/><name ref="#Esau">esau</name> et <name ref="#Jacob">Iacob</name> antequam aliquid 
-              <lb ed="#PV"/>boni vel male egissent <name ref="#Jacob">Ia<lb ed="#PV" break="no"/>cob</name> 
+              <lb ed="#PV" n="50"/>egerunt sicut scriptum est de 
+              <lb ed="#PV" n="51"/><name ref="#Esau">esau</name> et <name ref="#Jacob">Iacob</name> antequam aliquid 
+              <lb ed="#PV" n="52"/>boni vel male egissent <name ref="#Jacob">Ia<lb ed="#PV" break="no" n="53"/>cob</name> 
               dilexat <name ref="#Esau">esau</name> odio habui 
-              <lb ed="#PV"/>deus non praedestinavit 
-              <lb ed="#PV"/>aliquem propter bona opera 
-              <lb ed="#PV"/>futura nec reprobavit propter 
-              <lb ed="#PV"/>futura mala
+              <lb ed="#PV" n="54"/>deus non praedestinavit 
+              <lb ed="#PV" n="55"/>aliquem propter bona opera 
+              <lb ed="#PV" n="56"/>futura nec reprobavit propter 
+              <lb ed="#PV" n="57"/>futura mala
               <!-- possible break -->
-              Item non est re<lb ed="#PV" break="no"/>currendum 
-              ad humanum iudi<lb ed="#PV" break="no"/>cium 
+              Item non est re<lb ed="#PV" break="no" n="58"/>currendum 
+              ad humanum iudi<lb ed="#PV" break="no" n="59"/>cium 
               de cruciato perpetuo propter 
-              <lb ed="#PV"/>nimium peccatum mortale quia 
-              <lb ed="#PV"/>prima facie diceretur quod non 
-              <lb ed="#PV"/>esset misericorditer actum
+              <lb ed="#PV" n="60"/>nimium peccatum mortale quia 
+              <lb ed="#PV" n="61"/>prima facie diceretur quod non 
+              <lb ed="#PV" n="62"/>esset misericorditer actum
             </p>
             <p xml:id="ppr-l19-ienomf">
-              <lb ed="#PV"/>sicut de infectione animae 
-              <lb ed="#PV"/>in primo instanti suae crea<lb ed="#PV" break="no"/>tionis 
+              <lb ed="#PV" n="63"/>sicut de infectione animae 
+              <lb ed="#PV" n="64"/>in primo instanti suae crea<lb ed="#PV" break="no" n="65"/>tionis 
               unde ipsa est culpabilis 
-              <lb ed="#PV"/>et dampnabitur perpetuo si 
-              <lb ed="#PV"/>decedat cum illa infectione 
-              <lb ed="#PV"/>certum est quod de hoc humanum 
-              <lb ed="#PV"/>iudicium non tantum iudicaret sed 
-              <lb ed="#PV"/>tota radix est quod deus ita 
-              <lb ed="#PV"/>vult ergo est bonum 
+              <lb ed="#PV" n="66"/>et dampnabitur perpetuo si 
+              <lb ed="#PV" n="67"/>decedat cum illa infectione 
+              <lb ed="#PV" n="68"/>certum est quod de hoc humanum 
+              <lb ed="#PV" n="69"/>iudicium non tantum iudicaret sed 
+              <lb ed="#PV" n="70"/>tota radix est quod deus ita 
+              <lb ed="#PV" n="71"/>vult ergo est bonum 
             </p>
             <p xml:id="ppr-l19-eqsbov">
               Ex hoc 
-              <lb ed="#PV"/><name ref="#Origen">origines</name> cepit initium sui 
-              <lb ed="#PV"/>erroris quia stetit in humano 
-              <lb ed="#PV"/>iudicio seu in iudicio proprie 
-              <lb ed="#PV"/>rationis divina ista evitantur 
-              <lb ed="#PV"/>quia non est standum humano 
-              <lb ed="#PV"/>iudicio quia sumitur tota 
-              <lb ed="#PV"/>radix ex hoc quod deus ita 
-              <lb ed="#PV"/>vult etiam haec est sanctum <unclear>puor</unclear> etc
+              <lb ed="#PV" n="72"/><name ref="#Origen">origines</name> cepit initium sui 
+              <lb ed="#PV" n="73"/>erroris quia stetit in humano 
+              <lb ed="#PV" n="74"/>iudicio seu in iudicio proprie 
+              <lb ed="#PV" n="75"/>rationis divina ista evitantur 
+              <lb ed="#PV" n="76"/>quia non est standum humano 
+              <lb ed="#PV" n="77"/>iudicio quia sumitur tota 
+              <lb ed="#PV" n="78"/>radix ex hoc quod deus ita 
+              <lb ed="#PV" n="79"/>vult etiam haec est sanctum <unclear>puor</unclear> etc
             </p>
             <p xml:id="ppr-l19-eqsdes">
-              Se<lb ed="#PV" break="no"/>quitur 
+              Se<lb ed="#PV" break="no" n="80"/>quitur 
               quod post satisfactionem 
-              <lb ed="#PV"/>mire mirantium sufficit de<lb ed="#PV" break="no"/>clarare 
+              <lb ed="#PV" n="81"/>mire mirantium sufficit de<lb ed="#PV" break="no" n="82"/>clarare 
               humanam praesumptionem 
-              <lb ed="#PV"/>et falsam <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> nec 
-              <lb ed="#PV"/>aliter est eis solvendum 
+              <lb ed="#PV" n="83"/>et falsam <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> nec 
+              <lb ed="#PV" n="84"/>aliter est eis solvendum 
               <pb ed="#PV" n="28-r"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>
-              sed solum ostendere eorum prae<lb ed="#PV" break="no"/>sumptionem 
-              falsam <choice><orig>ymagina<lb ed="#PV" break="no"/>tionem</orig><reg>imagina<lb ed="#PV" break="no"/>tionem</reg></choice> 
+              <lb ed="#PV" n="1"/>
+              sed solum ostendere eorum prae<lb ed="#PV" break="no" n="2"/>sumptionem 
+              falsam <choice><orig>ymagina<lb ed="#PV" break="no" n="3"/>tionem</orig><reg>imagina<lb ed="#PV" break="no" n="3"/>tionem</reg></choice> 
               Ista radix est quia resolvunt 
-              <lb ed="#PV"/>se ad humanum iudicium et hoc 
-              <lb ed="#PV"/>male quia hoc non est ultimum 
-              <lb ed="#PV"/>et etiam provenit ex debilitate inge<lb ed="#PV" break="no"/>nii 
+              <lb ed="#PV" n="4"/>se ad humanum iudicium et hoc 
+              <lb ed="#PV" n="5"/>male quia hoc non est ultimum 
+              <lb ed="#PV" n="6"/>et etiam provenit ex debilitate inge<lb ed="#PV" break="no" n="7"/>nii 
               non potentis capere qualiter 
-              <lb ed="#PV"/>hoc fit iuste
+              <lb ed="#PV" n="8"/>hoc fit iuste
             </p>
             <p xml:id="ppr-l19-eqslln">
               Sequitur ulterius 
-              <lb ed="#PV"/>quod quicumque perfecte caperet di<lb ed="#PV" break="no"/>vinam 
-              providentiam utique iudi<lb ed="#PV" break="no"/>caret 
+              <lb ed="#PV" n="9"/>quod quicumque perfecte caperet di<lb ed="#PV" break="no" n="10"/>vinam 
+              providentiam utique iudi<lb ed="#PV" break="no" n="11"/>caret 
               omnia fieri optime Nam 
-              <lb ed="#PV"/>defectus humani iudicii resol<lb ed="#PV" break="no"/>vendo 
+              <lb ed="#PV" n="12"/>defectus humani iudicii resol<lb ed="#PV" break="no" n="13"/>vendo 
               etc provenit ex ignorantia 
-              <lb ed="#PV"/>divini iudicii Quidquid 
-              <lb ed="#PV"/>divina providentia facit or<lb ed="#PV" break="no"/>dinat 
+              <lb ed="#PV" n="14"/>divini iudicii Quidquid 
+              <lb ed="#PV" n="15"/>divina providentia facit or<lb ed="#PV" break="no" n="16"/>dinat 
               in melius licet finis nos lateat
             </p>
           </div>
@@ -240,180 +237,180 @@
           <head xml:id="ppr-l19-Hquiiae">[Quintum principium theologiae]</head>
           <p xml:id="ppr-l19-appipo">
             Aliud principium 
-            <lb ed="#PV"/>nisi quis ponat obicere gratiam 
-            <lb ed="#PV"/>dei consequatur dummodo sit in 
-            <lb ed="#PV"/>statu viae et usus ratione Istud 
-            <lb ed="#PV"/>est principium theologicum propter istam 
-            <lb ed="#PV"/>regulam solvatur de multitudine 
-            <lb ed="#PV"/>dampnandorum quia non <sic>sta</sic> 
-            <lb ed="#PV"/>per eum quod multi dampnabuntur
+            <lb ed="#PV" n="17"/>nisi quis ponat obicere gratiam 
+            <lb ed="#PV" n="18"/>dei consequatur dummodo sit in 
+            <lb ed="#PV" n="19"/>statu viae et usus ratione Istud 
+            <lb ed="#PV" n="20"/>est principium theologicum propter istam 
+            <lb ed="#PV" n="21"/>regulam solvatur de multitudine 
+            <lb ed="#PV" n="22"/>dampnandorum quia non <sic>sta</sic> 
+            <lb ed="#PV" n="23"/>per eum quod multi dampnabuntur
           </p>
         </div>
         <div xml:id="ppr-l19-Dd1e4160">
           <head xml:id="ppr-l19-Hsptspt">[Sextum principium theologiae]</head>
           <p xml:id="ppr-l19-apdssc">
-            <lb ed="#PV"/>Aliud principium credendum scilicet <name ref="#GregoryGreat">gregorius</name> 
-            <lb ed="#PV"/><name ref="#Augustine">augustinus</name> 
+            <lb ed="#PV" n="24"/>Aliud principium credendum scilicet <name ref="#GregoryGreat">gregorius</name> 
+            <lb ed="#PV" n="25"/><name ref="#Augustine">augustinus</name> 
             <name ref="#Jerome">Ieromius</name> <name ref="#Ambrose">ambrosio</name> in hiis 
-            <lb ed="#PV"/>quae tangunt expositionem 
-            <lb ed="#PV"/>sacrae scripturae et fidei nisi 
-            <lb ed="#PV"/>sibi <sic>in vicem</sic> contradicant et etiam 
-            <lb ed="#PV"/>nisi materia sit pure speculativa 
-            <lb ed="#PV"/>probatur et istud proficiet pro 
-            <lb ed="#PV"/>postea dicendis nam creden<lb ed="#PV" break="no"/>dum 
+            <lb ed="#PV" n="26"/>quae tangunt expositionem 
+            <lb ed="#PV" n="27"/>sacrae scripturae et fidei nisi 
+            <lb ed="#PV" n="28"/>sibi <sic>in vicem</sic> contradicant et etiam 
+            <lb ed="#PV" n="29"/>nisi materia sit pure speculativa 
+            <lb ed="#PV" n="30"/>probatur et istud proficiet pro 
+            <lb ed="#PV" n="31"/>postea dicendis nam creden<lb ed="#PV" break="no" n="32"/>dum 
             est quod quemcumque sensum 
-            <lb ed="#PV"/>dant quod ex alio passu sacrae 
-            <lb ed="#PV"/>scripturae eliciunt ergo eis 
-            <lb ed="#PV"/>credendum Item propter vehe<lb ed="#PV" break="no"/>mentem 
-            laborem circa exposi<lb ed="#PV" break="no"/>tionem 
-            sacrae scripturae sunt qua<lb ed="#PV" break="no"/>si 
+            <lb ed="#PV" n="33"/>dant quod ex alio passu sacrae 
+            <lb ed="#PV" n="34"/>scripturae eliciunt ergo eis 
+            <lb ed="#PV" n="35"/>credendum Item propter vehe<lb ed="#PV" break="no" n="36"/>mentem 
+            laborem circa exposi<lb ed="#PV" break="no" n="37"/>tionem 
+            sacrae scripturae sunt qua<lb ed="#PV" break="no" n="38"/>si 
             artifices modo in talibus 
-            <lb ed="#PV"/>oportet addiscentem credere 
-            <lb ed="#PV"/>ubi esset materia speculativa salvata 
-            <lb ed="#PV"/>reverentia non esset magis eis
+            <lb ed="#PV" n="39"/>oportet addiscentem credere 
+            <lb ed="#PV" n="40"/>ubi esset materia speculativa salvata 
+            <lb ed="#PV" n="41"/>reverentia non esset magis eis
             <cb ed="#PV" n="b"/> <!-- 28rb -->
-            <lb ed="#PV"/>credendum quam rationes ipsorum 
-            <lb ed="#PV"/>convincerent Sicut dicit <name ref="#Augustine">augustinus</name> in 
-            <lb ed="#PV"/>epistola ad <name ref="#Jerome">Ieromium</name> Solum illis 
-            <lb ed="#PV"/>litteris credendum ex se quae 
-            <lb ed="#PV"/>sacrae vocantur scilicet bibliae sed 
-            <lb ed="#PV"/>in eis non nisi in quantum 
-            <lb ed="#PV"/>consonae sacrae scripturae vel ratione 
-            <lb ed="#PV"/>possent probari Advertendum 
-            <lb ed="#PV"/>quod non oportet quod quidquid dicant 
-            <lb ed="#PV"/>quod hoc sit katholicum patet quia 
-            <lb ed="#PV"/><name ref="#Jerome">ieromus</name> contradicit <name ref="#Augustine">Augustino</name> nec 
-            <lb ed="#PV"/>dicta eorum inquantum eorum 
-            <lb ed="#PV"/>sunt fidei sed sunt inquantum 
-            <lb ed="#PV"/>scripturae sacrae sunt consona
+            <lb ed="#PV" n="42"/>credendum quam rationes ipsorum 
+            <lb ed="#PV" n="43"/>convincerent Sicut dicit <name ref="#Augustine">augustinus</name> in 
+            <lb ed="#PV" n="44"/>epistola ad <name ref="#Jerome">Ieromium</name> Solum illis 
+            <lb ed="#PV" n="45"/>litteris credendum ex se quae 
+            <lb ed="#PV" n="46"/>sacrae vocantur scilicet bibliae sed 
+            <lb ed="#PV" n="47"/>in eis non nisi in quantum 
+            <lb ed="#PV" n="48"/>consonae sacrae scripturae vel ratione 
+            <lb ed="#PV" n="49"/>possent probari Advertendum 
+            <lb ed="#PV" n="50"/>quod non oportet quod quidquid dicant 
+            <lb ed="#PV" n="51"/>quod hoc sit katholicum patet quia 
+            <lb ed="#PV" n="52"/><name ref="#Jerome">ieromus</name> contradicit <name ref="#Augustine">Augustino</name> nec 
+            <lb ed="#PV" n="53"/>dicta eorum inquantum eorum 
+            <lb ed="#PV" n="54"/>sunt fidei sed sunt inquantum 
+            <lb ed="#PV" n="55"/>scripturae sacrae sunt consona
           </p>
         </div>
         <div xml:id="ppr-l19-Dd1e4265">
           <head xml:id="ppr-l19-Hsepiae">[Septimum principium theologiae]</head>
           <p xml:id="ppr-l19-apqudi">
             Ad principium scribentibus aliqua 
-            <lb ed="#PV"/>non habentibus fidem non est 
-            <lb ed="#PV"/>credendum nec eorum auctoritas 
-            <lb ed="#PV"/>debet aliquem movere nisi quia 
-            <lb ed="#PV"/>consona scripturae sacrae vel fi<lb ed="#PV" break="no"/>dei 
+            <lb ed="#PV" n="56"/>non habentibus fidem non est 
+            <lb ed="#PV" n="57"/>credendum nec eorum auctoritas 
+            <lb ed="#PV" n="58"/>debet aliquem movere nisi quia 
+            <lb ed="#PV" n="59"/>consona scripturae sacrae vel fi<lb ed="#PV" break="no" n="60"/>dei 
             vel rationi vel quia doctores 
-            <lb ed="#PV"/>sacri nostri per usum appro<lb ed="#PV" break="no"/>baverunt 
+            <lb ed="#PV" n="61"/>sacri nostri per usum appro<lb ed="#PV" break="no" n="62"/>baverunt 
             <choice><orig>inplicite</orig><reg>implicite</reg></choice>
           </p>
           <p xml:id="ppr-l19-eiclsc">
             <name>Ieromus</name> 
-            <lb ed="#PV"/>in quadam epistola loquitur 
-            <lb ed="#PV"/>de muliere captiva quae 
-            <lb ed="#PV"/>debet primo abradi et tunc 
-            <lb ed="#PV"/>nubere unde per mulierem 
-            <lb ed="#PV"/>captivam intelligit scientiam 
-            <lb ed="#PV"/>traditam per gentiles quae non 
-            <lb ed="#PV"/>debet nude recipi sed debet abradi 
-            <lb ed="#PV"/>et tunc potest nubere et tunc potest 
-            <lb ed="#PV"/>allegari Sicut <name>paulus</name> 
-            <lb ed="#PV"/>utitur huiusmodi allegantibus 
-            <lb ed="#PV"/>et versimile est sicut illi qui non 
-            <lb ed="#PV"/>habuerunt fidem statuerunt 
-            <lb ed="#PV"/>malos fines Sicut tangit 
-            <lb ed="#PV"/><name ref="#Lactantius">lactantius</name> ad apparendum tradi<lb ed="#PV" break="no"/>derunt 
-            errores aliqui ad extol<lb ed="#PV" break="no"/>lendum 
+            <lb ed="#PV" n="63"/>in quadam epistola loquitur 
+            <lb ed="#PV" n="64"/>de muliere captiva quae 
+            <lb ed="#PV" n="65"/>debet primo abradi et tunc 
+            <lb ed="#PV" n="66"/>nubere unde per mulierem 
+            <lb ed="#PV" n="67"/>captivam intelligit scientiam 
+            <lb ed="#PV" n="68"/>traditam per gentiles quae non 
+            <lb ed="#PV" n="69"/>debet nude recipi sed debet abradi 
+            <lb ed="#PV" n="70"/>et tunc potest nubere et tunc potest 
+            <lb ed="#PV" n="71"/>allegari Sicut <name>paulus</name> 
+            <lb ed="#PV" n="72"/>utitur huiusmodi allegantibus 
+            <lb ed="#PV" n="73"/>et versimile est sicut illi qui non 
+            <lb ed="#PV" n="74"/>habuerunt fidem statuerunt 
+            <lb ed="#PV" n="75"/>malos fines Sicut tangit 
+            <lb ed="#PV" n="76"/><name ref="#Lactantius">lactantius</name> ad apparendum tradi<lb ed="#PV" break="no" n="77"/>derunt 
+            errores aliqui ad extol<lb ed="#PV" break="no" n="78"/>lendum 
             statum suum sicut 
-            <lb ed="#PV"/>de quodam <unclear>presbytero</unclear> in <placeName>egipto</placeName> 
-            <lb ed="#PV"/>qui scripsit epistolam <name>allexandro</name> 
-            <lb ed="#PV"/>in quam scripsit de multis annis 
-            <lb ed="#PV"/>quibus fuit regnum <del rend="strikethrough">ey</del> <placeName>egipti</placeName> 
+            <lb ed="#PV" n="79"/>de quodam <unclear>presbytero</unclear> in <placeName>egipto</placeName> 
+            <lb ed="#PV" n="80"/>qui scripsit epistolam <name>allexandro</name> 
+            <lb ed="#PV" n="81"/>in quam scripsit de multis annis 
+            <lb ed="#PV" n="82"/>quibus fuit regnum <del rend="strikethrough">ey</del> <placeName>egipti</placeName> 
             <pb ed="#PV" n="28-v"/>
             <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>et sic saepe fecerunt <space extent="oneWordLength"/> 
-            <lb ed="#PV"/>et sic aliqui fugiunt mendacia 
-            <lb ed="#PV"/>ad extollendum suum genus
-            <lb ed="#PV"/>Solius narrat de <name>allexan<lb ed="#PV" break="no"/>dro</name> 
+            <lb ed="#PV" n="1"/>et sic saepe fecerunt <space extent="oneWordLength"/> 
+            <lb ed="#PV" n="2"/>et sic aliqui fugiunt mendacia 
+            <lb ed="#PV" n="3"/>ad extollendum suum genus
+            <lb ed="#PV" n="4"/>Solius narrat de <name>allexan<lb ed="#PV" break="no" n="5"/>dro</name> 
             quod nascebatur quando sol fuit 
-            <lb ed="#PV"/>in oppositis signis et <choice><orig>nichil</orig><reg>nihil</reg></choice> 
-            <lb ed="#PV"/>scivit de astrologia
+            <lb ed="#PV" n="6"/>in oppositis signis et <choice><orig>nichil</orig><reg>nihil</reg></choice> 
+            <lb ed="#PV" n="7"/>scivit de astrologia
           </p>
           <!-- <p xml:id="ppr-l19-ieapvm"> seems missing or is partly contained in above -->
           <p xml:id="ppr-l19-aeesde">
             Auctor 
-            <lb ed="#PV"/>de proprietatibus rerum ponit quod ca<lb ed="#PV" break="no"/>put 
+            <lb ed="#PV" n="8"/>de proprietatibus rerum ponit quod ca<lb ed="#PV" break="no" n="9"/>put 
             et cauda draconis sunt 
-            <lb ed="#PV"/>duae stellae et non sunt nisi inter<lb ed="#PV" break="no"/>sectiones 
+            <lb ed="#PV" n="10"/>duae stellae et non sunt nisi inter<lb ed="#PV" break="no" n="11"/>sectiones 
             <name>Augustinus</name> in 12o <title>de trinitate</title> 
-            <lb ed="#PV"/>narrat de presbytero in <placeName>egipto</placeName> 
-            <lb ed="#PV"/>unde non abhorrent mendacia 
-            <lb ed="#PV"/>usque in fines suos malos con<lb ed="#PV" break="no"/>sequendos 
-            et sic non est creden<lb ed="#PV" break="no"/>dum 
+            <lb ed="#PV" n="12"/>narrat de presbytero in <placeName>egipto</placeName> 
+            <lb ed="#PV" n="13"/>unde non abhorrent mendacia 
+            <lb ed="#PV" n="14"/>usque in fines suos malos con<lb ed="#PV" break="no" n="15"/>sequendos 
+            et sic non est creden<lb ed="#PV" break="no" n="16"/>dum 
             gentibus sed debent 
-            <lb ed="#PV"/>repelli nec debet quaequam laedere 
-            <lb ed="#PV"/>nec inducere difficultatem
+            <lb ed="#PV" n="17"/>repelli nec debet quaequam laedere 
+            <lb ed="#PV" n="18"/>nec inducere difficultatem
           </p>
           <!-- parallel breaks very weak here; hard to discern -->
           <p xml:id="ppr-l19-tqeeit">
-            <lb ed="#PV"/>Sed obiectiones de <name>aristotele</name> dicitur 
-            <lb ed="#PV"/>quod in pluribus locutus est 
-            <lb ed="#PV"/>bene et abraduntur dicta 
-            <lb ed="#PV"/>sua de aeternitate mundi quia 
-            <lb ed="#PV"/>illa non consonat fidei Et 
-            <lb ed="#PV"/>etiam possit ponit differentia inter 
-            <lb ed="#PV"/>illos ex una parte qui labo<lb ed="#PV" break="no"/>raverunt 
-            quodammodo ex viri<lb ed="#PV" break="no"/>bus 
+            <lb ed="#PV" n="19"/>Sed obiectiones de <name>aristotele</name> dicitur 
+            <lb ed="#PV" n="20"/>quod in pluribus locutus est 
+            <lb ed="#PV" n="21"/>bene et abraduntur dicta 
+            <lb ed="#PV" n="22"/>sua de aeternitate mundi quia 
+            <lb ed="#PV" n="23"/>illa non consonat fidei Et 
+            <lb ed="#PV" n="24"/>etiam possit ponit differentia inter 
+            <lb ed="#PV" n="25"/>illos ex una parte qui labo<lb ed="#PV" break="no" n="26"/>raverunt 
+            quodammodo ex viri<lb ed="#PV" break="no" n="27"/>bus 
             propriis sicut fuerunt 
-            <lb ed="#PV"/>doctores sacri Et alios qui 
-            <lb ed="#PV"/><choice><orig>in mediate</orig><reg>immediate</reg></choice> habuerunt a deo 
-            <lb ed="#PV"/>sicut fuerunt <name ref="#Apostles">apostoli</name> post missi<lb ed="#PV" break="no"/>ones 
+            <lb ed="#PV" n="28"/>doctores sacri Et alios qui 
+            <lb ed="#PV" n="29"/><choice><orig>in mediate</orig><reg>immediate</reg></choice> habuerunt a deo 
+            <lb ed="#PV" n="30"/>sicut fuerunt <name ref="#Apostles">apostoli</name> post missi<lb ed="#PV" break="no" n="31"/>ones 
             spiritus sancti et fides non subicitur 
-            <lb ed="#PV"/>humano iudicio
+            <lb ed="#PV" n="32"/>humano iudicio
           </p>
           <p xml:id="ppr-l19-sdfaef">
             2o humana 
-            <lb ed="#PV"/>investigatio est per modum servi una habitudo quod plene 
-            <lb ed="#PV"/>obediebat domino 2o quod <choice><orig>nichil</orig><reg>nihil</reg></choice> 
-            <lb ed="#PV"/>faciat ex se et sic theologia proce<lb ed="#PV" break="no"/>dit 
+            <lb ed="#PV" n="33"/>investigatio est per modum servi una habitudo quod plene 
+            <lb ed="#PV" n="34"/>obediebat domino 2o quod <choice><orig>nichil</orig><reg>nihil</reg></choice> 
+            <lb ed="#PV" n="35"/>faciat ex se et sic theologia proce<lb ed="#PV" break="no" n="36"/>dit 
             ex fide et lumine naturali Et sic 
-            <lb ed="#PV"/>est finis istius materiae et primo 
-            <lb ed="#PV"/>incipietur a 3a distinctione 
-            <lb ed="#PV"/>post prius post 2a
+            <lb ed="#PV" n="37"/>est finis istius materiae et primo 
+            <lb ed="#PV" n="38"/>incipietur a 3a distinctione 
+            <lb ed="#PV" n="39"/>post prius post 2a
           </p>
         </div>
         <div xml:id="ppr-l19-Dd1e4497">
           <head xml:id="ppr-l19-Hd1e4499">Circa textum</head>
           <p xml:id="ppr-l19-d1e4502">
             Circa textum 
-            <lb ed="#PV"/>scilicet distinctione 17am prima conclusio 
-            <lb ed="#PV"/>spiritus sanctus non solum est caritas 
+            <lb ed="#PV" n="40"/>scilicet distinctione 17am prima conclusio 
+            <lb ed="#PV" n="41"/>spiritus sanctus non solum est caritas 
             <cb ed="#PV" n="b"/> <!-- 28vb -->
-            <lb ed="#PV"/>qua deus diligit nos sed 
-            <lb ed="#PV"/>qua nos diligimus deum 
-            <lb ed="#PV"/>dixit <name>magister petrus</name> quod <name ref="#Lombard">magister petrus</name> 
-            <lb ed="#PV"/>in isto passu non communiter tenetur 
-            <lb ed="#PV"/>dixit tamen quod esset probabile 
-            <lb ed="#PV"/>unde dixit <name>magister petrus</name> quod opinio 
-            <lb ed="#PV"/><name>magistri</name> <title>sententiarum</title> est quod fides bene 
-            <lb ed="#PV"/>realiter est una qualitas creata 
-            <lb ed="#PV"/>et etiam spes sed caritas est spiritus sanctus 
-            <lb ed="#PV"/>met habituans animam
+            <lb ed="#PV" n="42"/>qua deus diligit nos sed 
+            <lb ed="#PV" n="43"/>qua nos diligimus deum 
+            <lb ed="#PV" n="44"/>dixit <name>magister petrus</name> quod <name ref="#Lombard">magister petrus</name> 
+            <lb ed="#PV" n="45"/>in isto passu non communiter tenetur 
+            <lb ed="#PV" n="46"/>dixit tamen quod esset probabile 
+            <lb ed="#PV" n="47"/>unde dixit <name>magister petrus</name> quod opinio 
+            <lb ed="#PV" n="48"/><name>magistri</name> <title>sententiarum</title> est quod fides bene 
+            <lb ed="#PV" n="49"/>realiter est una qualitas creata 
+            <lb ed="#PV" n="50"/>et etiam spes sed caritas est spiritus sanctus 
+            <lb ed="#PV" n="51"/>met habituans animam
           </p>
           <p xml:id="ppr-l19-d1e4546">
-            <lb ed="#PV"/>2a conclusio spiritus sanctus in se non augetur 
-            <lb ed="#PV"/>nec minuitur sed quo ad nos 
-            <lb ed="#PV"/>unde secundum beneplacitum suum 
-            <lb ed="#PV"/>posset nos magis et minus <unclear>mutare</unclear>
+            <lb ed="#PV" n="52"/>2a conclusio spiritus sanctus in se non augetur 
+            <lb ed="#PV" n="53"/>nec minuitur sed quo ad nos 
+            <lb ed="#PV" n="54"/>unde secundum beneplacitum suum 
+            <lb ed="#PV" n="55"/>posset nos magis et minus <unclear>mutare</unclear>
           </p>
           <p xml:id="ppr-l19-d1e4560">
             3a conclusio Spiritus sanctus non 
-            <lb ed="#PV"/>est caritas a se ipso absolute id est non 
-            <lb ed="#PV"/>est amore a se ipso quia non 
-            <lb ed="#PV"/>producit se est tamen nobis 
-            <lb ed="#PV"/>caritas a se ipso quia se ipso 
-            <lb ed="#PV"/>gratificat nos unde a se<lb ed="#PV" break="no"/>ipso 
+            <lb ed="#PV" n="56"/>est caritas a se ipso absolute id est non 
+            <lb ed="#PV" n="57"/>est amore a se ipso quia non 
+            <lb ed="#PV" n="58"/>producit se est tamen nobis 
+            <lb ed="#PV" n="59"/>caritas a se ipso quia se ipso 
+            <lb ed="#PV" n="60"/>gratificat nos unde a se<lb ed="#PV" break="no" n="61"/>ipso 
             esset amor faceret se esse 
-            <lb ed="#PV"/>quod non est concedendum <choice><orig>ymmo</orig><reg>immo</reg></choice> 
-            <lb ed="#PV"/>contra <name ref="#Augustine">augustinum</name>
+            <lb ed="#PV" n="62"/>quod non est concedendum <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+            <lb ed="#PV" n="63"/>contra <name ref="#Augustine">augustinum</name>
           </p>
           <p xml:id="ppr-l19-d1e4587">
             ultima conclusio 
-            <lb ed="#PV"/>spiritus sanctus non concurrit per modum habitus ad actum 
-            <lb ed="#PV"/>caritatis
+            <lb ed="#PV" n="64"/>spiritus sanctus non concurrit per modum habitus ad actum 
+            <lb ed="#PV" n="65"/>caritatis
           </p>
         </div>
       </div>
