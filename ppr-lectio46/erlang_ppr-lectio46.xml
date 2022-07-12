@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 46, De fruitione [Erlangen Transcription]</title>
+        <author xml:id="PP">Petrus Plaoul</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Lectio 46, De fruitione [Erlangen Transcription]</title>
+          <date when="2022-07-11">July 07, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-05-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#E" n="63-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ppr-lectio46">
+        <head xml:id="ppr-l46-Hldfldf">Lectio 46, de Fruitione</head>
+        <div xml:id="ppr-l46-Dd1e85">
+          <head xml:id="ppr-l46-Hncqfes">
+            <supplied>Novus casus quando Deo non fruendum est simpliciter</supplied>
+          </head>
+          <p xml:id="ppr-l46-iplrfd">
+            <lb ed="#E"/>In alia lectione
+            <lb ed="#E"/>In praecedenti lectione responsum est ad argumentum <del rend="expunctuation">in</del> quo probabatur quod in casu non est deo fruendum 
+            <lb ed="#E"/>sed potius subveniendum esset proximo dictum est circa hoc quod conversio ad creaturam ordinata 
+            <lb ed="#E"/>est etiam dei fruitio Ita quod a dilectione dei fruitiva quis convertatur ad dilectionem creaturam or<lb ed="#E"/>dinatam 
+            quia eo ipso quod utitur debite creatura realiter fruitur deo
+          </p>
+          <p xml:id="ppr-l46-camepm">
+            Continuando materiam 
+            <lb ed="#E"/>arguitur quod liceat cessare a fruitione dei simpliciter et quod in casu fruitio dei esset peccatum Ponatur 
+            <lb ed="#E"/>casus detur sorti praeceptum negativum scilicet quod per totam a horam non fruatur deo in isto 
+            <lb ed="#E"/>casu stante ista prohibitione si sortes exeat in actum ipse peccat mortaliter Probatur quia facit contra 
+            <pb ed="#E" n="64-r"/>
+            <lb ed="#E"/>divinum praeceptum sibi datum
+          </p> 
+        </div>
+        <div xml:id="ppr-l46-Dd1e144">
+          <head xml:id="ppr-l46-Hraiaic">
+            <supplied>Responsio ad istum casum</supplied>
+          </head>
+          <p xml:id="ppr-l46-airadm">
+            Respondetur quod multipliciter quod tenendo quod non stat aliquem esse 
+            <lb ed="#E"/>in peccato et frui deo posito illo casu tacto 
+          </p>
+          <div xml:id="ppr-l46-Dd1e158">
+            <head xml:id="ppr-l46-Hprones">
+              <supplied>Propositiones</supplied>
+            </head>
+            <div xml:id="ppr-l46-Dd1e163">
+              <head xml:id="ppr-l46-Hppqdel">
+                <supplied>Prima propositio</supplied>
+              </head>
+              <head xml:id="ppr-l46-Hd1e175" type="question-title">
+                <supplied>Quod semper fruitio Dei est licita</supplied>
+              </head>
+              <p xml:id="ppr-l46-pdsscl">
+                dico primo quod stante casu creatura rationalis 
+                <lb ed="#E"/>potest transgredi praeceptum patet quia stante casu potest habere nolle conformiter ad praeceptum 
+                <lb ed="#E"/>sibi datur quo dato realiter transgreditur praeceptum scilicet <unclear>nolendo</unclear> divino praecepto obedire 
+                <lb ed="#E"/>Sed per istud ratio intratur difficultas nam quaeritur utrum actus fruendi in hora prohibitionis 
+                <lb ed="#E"/>esset licitus a creatura pono primo istam propositionem Quod semper fruitio dei est licita et meritoria in 
+                <lb ed="#E"/>via salutis sic quod non stat per eam peccare stante lege communi
+              </p>
+            </div>
+            <div xml:id="ppr-l46-Dd1e193">
+              <head xml:id="ppr-l46-Hspqpsf">
+                <supplied>Secunda propositio</supplied> 
+              </head>
+              <head xml:id="ppr-l46-Hd1e198" type="question-title">
+                <supplied>Quod non stat creaturam elicere fruitionem stante prohibitione sibi facta</supplied>
+              </head>
+              <p xml:id="ppr-l46-Hspncei">
+                Secunda propositio non stat 
+                <lb ed="#E"/>creaturam elicere huiusmodi fruitionem stante prohibitione sibi facta patet quia tunc meretur et peccaret simul
+                <lb ed="#E"/>Ex hoc sequitur quod non potest creatura huiusmodi praeceptum inmediate transgredi voco inmediate quod faciat 
+                <lb ed="#E"/>distincte sibi prohibitum patet prohibitum est quod fruatur et non stat quod fruatur et quod sibi sit prohibitum
+              </p>
+              <p xml:id="ppr-l46-scffpe">
+                <lb ed="#E"/>Contra hoc arguitur nam habeat <name>sortes</name> praeceptum continuandi fruitionem usque ad instans et non 
+                <lb ed="#E"/>ultra tunc adveniente <c>a</c> sortes fruitum deo et inmediate post hoc fruetur ergo fruendo deo 
+                <lb ed="#E"/>transgreditur et peccabit consequentia et prima pars antecedentis nota sunt Secunda pars probatur multipliciter 
+                <lb ed="#E"/>primo quia stante praecepto huiusmodi <c>a</c> instans non esse sibi debite notum nec est in potestate 
+                <lb ed="#E"/>creaturae cognoscere ergo creatura continuabit actum credendo praeceptum inplere tunc 
+                <lb ed="#E"/>sic continuabit post <c>a</c> ergo peccabit
+              </p>
+              <p xml:id="ppr-l46-icpepa">
+                Secundo inmediate post <c>a</c> non est minoris causae con<lb ed="#E"/>tinuative 
+                quam ante <c>a</c> igitur post <c>a</c> continuabit et per consequens continuabit in tempore prohibitionis
+              </p>
+              <p xml:id="ppr-l46-ivnfdp">
+                <lb ed="#E"/>Item voluntas non potest subito cessare ab actu ergo ista consequentia est bona voluntas fruitur 
+                <lb ed="#E"/>deo in <c>a</c> instanti ergo fruetur post <c>a</c> igitur peccabit
+              </p>
+              <p xml:id="ppr-l46-ivqfdp">
+                Item ad idem voluntas quae fruitur deo 
+                <lb ed="#E"/>in <c>a</c> instanti sic se habet quod eius actus fruendi tunc est et non datur ultimum instans rei 
+                <lb ed="#E"/>permanentis ergo post erit actus fruendi sed post <c>a</c> ergo creatura fruetur deo rationaliter post <c>a</c> ergo 
+                <lb ed="#E"/>in tempore quo sibi prohibitum est ergo stat frui deo et peccare etc 
+              </p>
+              <p xml:id="ppr-l46-psaasa">
+                <lb ed="#E"/>Pro responsione
+              </p>
+              <p xml:id="ppr-l46-paeqac">
+                advertendum quod respectu fruitionis dei concurrunt tres causae etiam subordinate 
+                <lb ed="#E"/>principaliter causa quae ad productionem quam quo ad confirmationem scilicet specialis dei assistentia et coefficientia
+              </p>
+              <p xml:id="ppr-l46-scseec">
+                Secundo specialis dei caritatis assistentia et coefficientia
+              </p>
+              <p xml:id="ppr-l46-teccla">
+                Tertio est concursus liberi arbitrii
+              </p>
+              <p xml:id="ppr-l46-eqsaid">
+                <lb ed="#E"/>Sequitur quod a speciales dei et caritatis coefficientia principaliter dependet actus fruitionis
+                <!-- possible para break point -->
+                Sequitur ulterius 
+                <lb ed="#E"/>quod istorum subtractio est actus fruitionis destructio quia specialiter ab illis dependet in produci et 
+                <lb ed="#E"/>conservari
+              </p>
+            </div>
+            <div xml:id="ppr-l46-Dd1e377">
+              <head xml:id="ppr-l46-Htpqmvi">
+                <supplied>Tertia Propositio</supplied>
+              </head>
+              <head xml:id="ppr-l46-Hd1e315" type="question-title">
+                <supplied>Quod Deus respectu actus mali 
+                non potest specialiter concurrere movere vel influere</supplied>
+              </head>
+              <p xml:id="ppr-l46-tnesei">
+                Secundo notandum quod deus respectu actus mali non potest spiritualiter influere vel movere nec 
+                <lb ed="#E"/>etiam caritas nam commune est quod etiam deo repugnat causare assensum falsum se ipso inmediate in creatura 
+                <lb ed="#E"/>ymmo quemcumque errorem etiam inpertinentem ad salutem et hoc ratione suae inmensae bonitatis
+                <!-- possible break point -->
+                Sequitur quod 
+                <lb ed="#E"/>non stat deum concurrere specialiter respectu actus prohibiti 
+              </p>
+              <p xml:id="ppr-l46-eqpdec">
+                Sequitur quod non stat huiusmodi actum fruitionis du<lb ed="#E"/>rare 
+                ultra <c>a</c> instans probatur clare quia in toto tempore post Est prohibitus ergo deus respectu eius 
+                <lb ed="#E"/>subtrahit specialem efficientiam et assistentiam etiam caritatis ergo huiusmodi actus desinit esse 
+                <lb ed="#E"/><c>a</c> per consequens non erit <del rend="strikethrough">in voluntate potestatis</del> in potestate voluntatis ipsum continuare quia liberum arbi<lb ed="#E"/>trium 
+                non sufficit vel continuare sive praedictis Sic apparet qualiter in isto 
+                <lb ed="#E"/>casu creatura non poterit frui deo <c>a</c> instans
+              </p>
+            </div>
+          </div>
+          <div xml:id="ppr-l46-Dd1e439">
+            <head xml:id="ppr-l46-Hararar">Ad rationes</head>
+            <div xml:id="ppr-l46-Dd1e444">
+              <head xml:id="ppr-l46-Hapapap">Ad primam</head>
+              <p xml:id="ppr-l46-etadec">
+                Tunc ad rationem nam creatura non 
+                <lb ed="#E"/>cognoscit debite <c>a</c> instans ergo stat quod ultra continet apparet solutio ex dictis Nam 
+                <lb ed="#E"/>sive cognoscat distincte huiusmodi instans ultra quod non licet frui deo sive non tamen non stat 
+                <lb ed="#E"/>quod habeat huiusmodi actum ultra <c>a</c> instans per subtractionem specialis influentiae dei et 
+                <lb ed="#E"/>caritatis
+              </p>
+              <p xml:id="ppr-l46-uscnni">
+                Quantum est tamen de materia in se et creatura non certificaretur separare habet si 
+                <lb ed="#E"/>faciat quod in se est quod deus concurrat se cum ad continuandum actum per tempus licitum 
+                <lb ed="#E"/>et non ultra vel etiam posset per aliquem <sic>medum</sic> sensibilem certificari ut per horologum posset certificari
+              </p>
+              <p xml:id="ppr-l46-atecap">
+                <pb ed="#E" n="64-v"/>
+                <lb ed="#E"/>Advertendum quod casus potest sic poni quod realiter repugnaret legi ut si poneretur quod creatura 
+                <lb ed="#E"/>non posset distincte certificari de adimpletione et esset obligata continuare tunc casus 
+                <lb ed="#E"/>repugnaret legi
+              </p>
+            </div>
+            <div xml:id="ppr-l46-Dd1e525">
+              <head xml:id="ppr-l46-asasas">Ad secundam</head>
+              <p xml:id="ppr-l46-ascpie">
+                <lb ed="#E"/>Ad 2am quando dicitur nam creatura habet causalitatem essentialem respectu 
+                <lb ed="#E"/>sui actus post <c>a</c> sicut ante Breviter patet quid dicendum quia licet voluntas sit aequae libera 
+                <lb ed="#E"/>et eiusdem potestatis quantum est ex se tamen sua causalitas non sufficit nec ad productionem nec ad 
+                <lb ed="#E"/>continuationem sed requiritur etc 
+                <!-- break -->
+                si non est in potestate naturali voluntatis sine speciali adiutorio 
+                <lb ed="#E"/>dei actum meritorium producere ad actum dei fruitivum
+                <!-- break -->
+                Ad aliud de ultimo instanti quando dicitur 
+                <lb ed="#E"/>si voluntas frueretur in <c>a</c> et post numquam frueretur tunc actus fruendi haberet ultimum instans 
+              </p>
+              <p xml:id="ppr-l46-hreeeu">
+                Respondetur quod nullum videtur inconveniens quod rei permanentis detur ultimum instans sui esse nam 
+                <lb ed="#E"/>hoc habent ponere ponentes quod quantitas sit res distincta a substantia quanta nam si aliquid debeat rarefieri 
+                <lb ed="#E"/>uniformiter et sic pedale tunc quando incipit rarefieri datur ultimum instans in quo 
+                <lb ed="#E"/>hoc pedalis quantitas habet esse Etiam datur ultimum instans summae caliditatis scilicet quando incipit 
+                <lb ed="#E"/>remitti et sic etiam <name>burley</name> dicit de qualitatibus quia dicit quod in <unclear>intentione</unclear> <del rend="strikethrough">q</del> <seg type="correction">cali<add place="above-line">di</add>tatis</seg> prior 
+                <lb ed="#E"/>non manet cum posteriori Et si aliquis sit in caritate et incipiat successive peccare 
+                <lb ed="#E"/>tunc peccat per remotionem de praesenti et istud est ultimum instans in gratia quia ante erat et adhuc est 
+                <lb ed="#E"/>in gratia et non peccat sed inmediate post hoc erit in gratia et peccabit
+              </p>
+              <p xml:id="ppr-l46-eidiqe">
+                Si instetur quomodo huiusmodi 
+                <lb ed="#E"/>res <unclear>cor?tur</unclear> vel instanti in quo est vel in alio non in quo est nec in alio quia tunc esset instans 
+                <lb ed="#E"/>inmediatum instanti quod non est concedendum
+              </p> 
+              <p xml:id="ppr-l46-rqrppd">
+                Respondetur primo quod res potest dici corrumpi quando desunt 
+                <lb ed="#E"/>esse sive per remotionem de praesenti sive per potentiam et sic corrumpitur quando est <!-- start missing text in pal here?? --> <unclear>Alio modo</unclear> quod non requiritur 
+                <lb ed="#E"/>signare aliquod instand in quo nunc rationes corrumpitur Staret quod <c>a</c> angelus nunc non esset 
+                <lb ed="#E"/>et inmediate post hoc foret tunc produceretur et tamen nullum esset instans in quo verum esset dicere 
+                <lb ed="#E"/>iste angelus producitur dicunt tamen aliqui quod ubi instantia non sunt eiusdem continui<lb ed="#E"/>tatis 
+                non esset inconveniens instans esse instanti inmediatum <!-- end messing text in pal -->
+              </p>
+            </div>
+            <div xml:id="ppr-l46-Dd1e621">
+              <head xml:id="ppr-l46-Hatatat">Ad tertiam</head>
+              <p xml:id="ppr-l46-aanaas">
+                <!-- possible break --> 
+                Ad aliam et deberet esse ante solutionem 
+                <lb ed="#E"/>dictae rationis nego istam consequentiam voluntas creata vult in hoc instanti ergo volet Nego quando 
+                <lb ed="#E"/>possit subito cessare ab actu suo sed forte de communi lege staret de actu quem eliceret 
+                <lb ed="#E"/>de concursu dei generali quod non subito potest cessare
+              </p>
+            </div>
+          </div>
+        </div>
+        <div xml:id="ppr-l46-Dd1e642">
+          <head xml:id="ppr-l46-Hadadad">
+            Responsio ad argumenta quod Deo non fruendum solum
+          </head>
+          <div xml:id="ppr-l46-Dd1e647">
+            <head xml:id="ppr-l46-Hd1e649">Ad rationem quartam, quintam, et sextum</head>
+            <p xml:id="ppr-l46-auavss">
+              <!-- seems to also include ppr-l46-ihcced -->
+              Ad aliam rationem quae fuit alias tacta ar<lb ed="#E"/>guebatur 
+              <!-- some kind of omission in pal here -->
+              de humanitate christi et de divinitate scilicet de illo aggregato  
+              
+              
+              utendum est ergo christo ergo <unclear>deos</unclear>
+              
+            </p>
+            <!--<p xml:id="ppr-l46-iceade">
+              <!-\- only appears in V -\->
+              Item christus est magis diligendus 
+              Christus est magis diligendus 
+              quam pater, quia ratione fraternitatis in christo ad<lb ed="#V"/>ditur 
+              aliquid diligibilitatis, etc.
+            </p>-->
+            <p xml:id="ppr-l46-itcqds">
+              Item tota ca<lb ed="#E"/>lestis 
+              curia incluso deo est magis diligenda quam deus 
+              <!--possible ref to <ref xml:id="ppr-l46-Rd1e678" target="lectio44.xml#l44-ipdede">lectio 44, para.</ref>--> 
+            </p>
+            <p xml:id="ppr-l46-ihcced">
+              etiam humanitate christi 
+              <lb ed="#E"/>utendum est ergo christo ergo deo
+            </p>
+            <p xml:id="ppr-l46-ifhpci">
+              Item probatur quod fruitio dei est illicita quia fruitio humanitatis 
+              <lb ed="#E"/>christi est illicita ergo christi ergo dei
+            </p>
+            <p xml:id="ppr-l46-airdqd">
+              Respondetur de aggregato ex humanitate christi et 
+              <lb ed="#E"/>verbo sive de christo ly <mentioned>christus</mentioned> non supponit pro aggregato sed supponit pro supposito conno<lb ed="#E"/>tando 
+              humanitatem et sic eo est fruendum quia tota radix diligibilitatis est in deo et est 
+              <lb ed="#E"/>communis personas et ideo nullus gradus competit humanitati nisi reducibiliter in 
+              <lb ed="#E"/>deum sic quod alia a deo non sunt de per se diligibilia nisi inquantum reducuntur in deum Patet 
+              <lb ed="#E"/>hoc de tota caelesti patrai quia totum aggregatum non est magis diligendum quam deus
+            </p>
+            <p xml:id="ppr-l46-scauef">
+              <lb ed="#E"/>Contra illud est diligendum ergo usu vel fruitione
+            </p>
+            <p xml:id="ppr-l46-rhqnef">
+              Si usu uteremur deo quod esset 
+              <lb ed="#E"/>obiectum partiale respondeo dico primo quod istud totius aggregatum non est obiectum 
+              <lb ed="#E"/>unicum rationabiliter diligibile sed si ordinate diligatur debet esse dilectio quae sit usus 
+              <lb ed="#E"/>respectu totius multitudinis praeter deum si sit ordinata et fruitio respectu dei et sic creatura 
+              <lb ed="#E"/>constituet duo obiecta alias non esset dilectio ordinata
+              <!-- break --> 
+              Secundo modo potest dici quod 
+              <lb ed="#E"/>huiusmodi multitudinis poteset esse usus in ordine ad dum ita quod ordinatur in obiectum frui<lb ed="#E"/>bile 
+              scilicet deum et sic <sic>opporteret</sic> concedere quod deus esset pars obiecti usus 
+              <!-- break --> 
+              Breviter 
+              <lb ed="#E"/>respondendum est quod non est inconveniens quod sit partiale obiectum usus ubi per eundem actum 
+              <lb ed="#E"/>adaequate est obiectum fruitio
+            </p> 
+            <p xml:id="ppr-l46-cqdceu">
+              Consequenter de humanitate christi <del>q</del> arguitur quia illa est utendum 
+              <pb ed="#E" n="65-r"/>
+              <lb ed="#E"/>ergo deo consequentia tenet per communicationem ut sequitur sortes videt humanitatem christi ergo christum tangit humanitatem 
+              <lb ed="#E"/>christi ergo christum <!--start missing text in pal --> Et ergo sequitur utitur humanitate christi ergo christo Etiam illicitum est frui 
+              <lb ed="#E"/>humanitate christi
+            </p>
+            <p xml:id="ppr-l46-reppci">
+              Respondendum est primo quod quidquid est dictum de obiecto usus et fruitionis intelligitur 
+              <lb ed="#E"/>de per se obiecto ita quod solus deus est per se obiectum fruibile et numquam obiectum utibile per se et 
+              <lb ed="#E"/>inmediate unde quod diceretur obiectum utibile hoc esset per communicationem ydeomatum
+            </p>
+            <p xml:id="ppr-l46-aeruef">
+              Sed alia responsio 
+              <lb ed="#E"/>est melior videlicet negando quod sit communicatio ydeomatum quanta ad ista praedicata frui 
+              <lb ed="#E"/>et uti
+            </p>
+            <p xml:id="ppr-l46-uaqend">
+              Advertendum quod humanitas christi aliter se habet respectu visionis vel <sic>aliter</sic> cognitionis inmediate 
+              <lb ed="#E"/>obiective causatae ab ea quam respectu dilectionis circa primum se habet obiective et non sic respectu 
+              <lb ed="#E"/>dilectionis elicite a voluntate nec inmediate ideo non sequitur humanitas christi est inmediate obiectum 
+              <lb ed="#E"/>respectu notitiae ergo est obiectum inmediatum respectu dilectionis unde licet ista praedicata videri tangi 
+              <lb ed="#E"/>communicarentur christo ratione humanitatis assumptae non sequitur quod istud praedicatum diligi quia 
+              <lb ed="#E"/>dilectio non est inmediate ab humanitate sicut visio ideo non est ita <unclear>intrinsecum</unclear> sibi quod diligatur 
+              <lb ed="#E"/>sicut intrinsecum est sibi quod videatur quod <del rend="strikethrough">d</del> ad videri concurrit principaliter et causat sui visionem 
+              <lb ed="#E"/>et sic non est de diligi quia valde bene stat quod obiciat se et non concurrat ad actum di<lb ed="#E"/>lectionis 
+              et sic oportet negare consequentiam si humanitas christi videtur verbum videtur ergo si 
+              <lb ed="#E"/>humanitas diligitur verbum diligitur et sic patet quomodo
+            </p>
+            <p xml:id="ppr-l46-esnads">
+              respondendum est ad ambo argumenta 
+              <lb ed="#E"/>Istud praedicatum uti non communicatur supposito et ergo consequentia non valet non etiam sequitur sortes fruitur 
+              <lb ed="#E"/>humanitate christi ergo fruitur deo vel christo
+            </p>
+            <p xml:id="ppr-l46-adachp">
+              Aliter dicunt alii quod non oportet quod ista praedicata 
+              <lb ed="#E"/>videri cognosci vi communicationis ydeomatum conpetunt verbo Sed non bene quia 
+              <lb ed="#E"/>scriptura cogit nos quod deus videtur et visus est <unclear>in terris</unclear> et sensitive cognitus est Ideo bene 
+              <lb ed="#E"/>sequitur iste videt humanitatem christi ergo deum per communicationem ydeomatum non tamen sequitur iste 
+              <lb ed="#E"/>diligit humanitatem christi ergo deum sed bene sequitur si in antecedente addatur ordinate 
+            </p>
+          </div>
+          <div xml:id="ppr-l46-Dd1e853">
+            <head xml:id="ppr-l46-Hauauau">Ad septimum</head>
+            <p xml:id="ppr-l46-arffcc">
+              ultima 
+              <lb ed="#E"/>ratio quam fecit <name ref="#Holcot">halkot</name> quod angelus sathanae <seg type="correction">appare<del rend="expunctuation">b</del>at</seg> deus et habeat ignorantiam 
+              <lb ed="#E"/><del rend="strikethrough">igi</del> invincibilem tunc credet quod <c>a</c> est deus et eliciet actum fruitivum et peccabit vel fruetur 
+              <lb ed="#E"/>creatura merendo
+            </p> 
+            <p xml:id="ppr-l46-hdqpnt">
+              Breviter <seg type="correction"><subst><del rend="expunctuation">spe</del><add place="above-line">re</add></subst>spondet</seg> <ref xml:id="ppr-l46-Rd1e873" target="http://scta.info/resource/rh-l1q3-d1e144"><name ref="#Holcot">halkot</name></ref> et concedit quod aliquis potest licite uti deo 
+              <lb ed="#E"/>et consequenter quod potest licite frui creatura nam in casu posito creatura meretur 
+              <lb ed="#E"/>fruendo creatura nam haberet ignorantiam invincibilem ergo totaliter excusaretur 
+              <lb ed="#E"/>ergo meretur ac si deo frueretur Et sic si christus appareret alicui recederet ille quod esset 
+              <lb ed="#E"/><name>iudas</name> dicit quod odiendo illum mereretur quia crederet quod esset inimicus dei et sic meretur 
+              <lb ed="#E"/>Ista materia de ignorantia solet tractari in 2o tamen in ista materia scilicet argumenti standum est magis 
+              <lb ed="#E"/>cum doctoribus antiquis scilicet quod in nullo casu fruendum est creatura et in nullo casu dicendum 
+              <lb ed="#E"/>est de deo
+            </p>
+            <p xml:id="ppr-l46-uaqofc">
+              Advertendum est quod fruitio creaturae est essentialiter deordinatio sicut odium dei est deor<lb ed="#E"/>dinatio 
+              non dico quod illa qualitas sit intrinsece et essentialiter de ordinatio 
+            </p>
+            <p xml:id="ppr-l46-d1e1205"> <!-- doesn't have paralle in later edition? -->
+              sed dico quod non stat crea<lb ed="#E"/>turam 
+              frui creatura quin sit deordinatio Patet quia est aversio a fine debito et conversio ad 
+              <lb ed="#E"/>illud 
+            </p>
+            <!-- reason for paragraph break extremely unclear -->
+            <p xml:id="ppr-l46-npdofc">
+              ymmo deus non posset facere quod creatura haberet debitam rationem fruibilitas
+            </p>
+            <p xml:id="ppr-l46-ifeaec">
+              Item 
+              <lb ed="#E"/>fruitio est exhibitio summi honoris quantum est ex parte creaturae modo quod honor 
+              <lb ed="#E"/>summus attribuitur creaturae est deordinatio universi et est de ordinatio creaturae et sic 
+              <lb ed="#E"/>illud non potest esse licitum ergo magis tenendus est <name>Wilhelmus parisiensis</name> et antiqui 
+              <lb ed="#E"/>doctores 
+            </p>
+            <p xml:id="ppr-l46-nahdvc">
+              Ad probationem ipsius <name ref="#Holcot">halkot</name> quando dicitur stat quod habeat ignorantiam invincibilem 
+              <lb ed="#E"/>et quod non sit in sua potestate cognoscere quod sit creatura
+            </p>
+            <p xml:id="ppr-l46-rqstic">
+              Respondetur quod lege stante non est casus 
+              <lb ed="#E"/>possibilis scilicet quod creatura habeat ignorantiam invincibilem de alia creatura 
+              <lb ed="#E"/>quod sit deus nam si creatura faciat quod in se est deus non permittit eam in talem miseriam 
+              <lb ed="#E"/>et ignorantiam corruere quia si sic tunc non potest inmediate decipere creaturam 
+              <pb ed="#E" n="65-v"/>
+              <lb ed="#E"/>ita etiam non potest in proposito unde non permittit errare et praecipue circa finem ultimum 
+              <lb ed="#E"/><del rend="expunctuation">si faciat quod in se est</del> Et ideo omnes casus sui fundantur super fundamento falso ita quod 
+              <lb ed="#E"/>non stat quod habeat talem ignorantiam quod sic <unclear>derivet</unclear> circa ultimum finem si faciat quod 
+              <lb ed="#E"/>in se est et si non sit in peccato et si esset in peccato non frueretur meritorie etc 
+            </p>
+            <!-- conclusiones -->
+            <p xml:id="ppr-l46-d1e1335">
+              <lb ed="#E"/>Circa distinctionem 44am Prima conclusio deus potest facere alia quam fecerit et etiam meliora nam potestas 
+              <lb ed="#E"/>sua non est evacuata et ideo inter supremam creaturam nunc creatura infinite possunt 
+              <lb ed="#E"/>produci et creari
+            </p>
+            <p xml:id="ppr-l46-d1e1354">
+              <pc type="#pilcrow"/>Secunda quod potest facere meliori modo et potuit quia posset ponere 
+              <lb ed="#E"/>hominem in melioribus naturalibus et etiam inpeccabile secundum cursum naturalem utrum 
+              <lb ed="#E"/>simpliciter tenendum quod non quia esset eiusdem speciei nobiscum ergo absolute posset
+            </p>
+            <p xml:id="ppr-l46-d1e1375">
+              Tertia 
+              <lb ed="#E"/>conclusio quidquid deus potuit potest et vult etc id est semper manet aequalis potestas et aequalis 
+              <lb ed="#E"/>voluntas etc.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
