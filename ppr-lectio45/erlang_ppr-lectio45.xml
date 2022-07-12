@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,8 +15,7 @@
       <publicationStmt>
         <authority>An SCTA Project</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
           </p>
         </availability>
       </publicationStmt>
@@ -30,8 +26,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,7 +43,7 @@
   <text>
     <front>
       <div xml:id="starts-on">
-        <pb ed="#E" n="82-v"/>
+        <pb ed="#E" n="62-r"/>
       </div>
     </front>
     <body>
@@ -59,34 +54,34 @@
             Deo est fruendum, immo etiam creatura
           </head>
           <p xml:id="ppr-l45-crriec">
-            <lb ed="#E"/>In alia lectione
-            <lb ed="#E"/>Consequenter restat solvere aliquas rationes prius factas scilicet in lectione inmediate praecedente 
-            <lb ed="#E"/>Ad probandum quod non solum deo sit fruendum ymmo etiam creaturum
+            <lb ed="#E" n="21"/>In alia lectione
+            <lb ed="#E" n="22"/>Consequenter restat solvere aliquas rationes prius factas scilicet in lectione inmediate praecedente 
+            <lb ed="#E" n="23"/>Ad probandum quod non solum deo sit fruendum ymmo etiam creaturum
           </p>
           <div xml:id="ppr-l45-Dd1e99">
             <head xml:id="ppr-l45-Hrqcedp">Ratio: quod creatura in casu esse Deo praeferenda</head>
             <p xml:id="ppr-l45-uchtep">
               Circa hoc ponebatur 
-              <lb ed="#E"/>casus in quo creatura sit praeferenda deo ut si <name>sortes</name> fruatur deo et videat proximum 
-              <lb ed="#E"/>in exemplis necessitate constitutum etc
+              <lb ed="#E" n="24"/>casus in quo creatura sit praeferenda deo ut si <name>sortes</name> fruatur deo et videat proximum 
+              <lb ed="#E" n="25"/>in exemplis necessitate constitutum etc
             </p>
             <p xml:id="ppr-l45-isisad">
-              et si ita detur staret creaturam numquam frui deo et de<lb ed="#E"/>bite 
+              et si ita detur staret creaturam numquam frui deo et de<lb ed="#E" n="26"/>bite 
               tamen probatur sit aliquis adultus baptizatus et occurrat proximus in prima hora constitutus in extrema 
-              <lb ed="#E"/>necessitate tunc tenetur subveniri illi In 2a hora occurrat alius proximus et si consequuntur usque ad finem 
-              <lb ed="#E"/>vitae tunc numquam fruetur deo
+              <lb ed="#E" n="27"/>necessitate tunc tenetur subveniri illi In 2a hora occurrat alius proximus et si consequuntur usque ad finem 
+              <lb ed="#E" n="28"/>vitae tunc numquam fruetur deo
             </p>
             <p xml:id="ppr-l45-iaphdi">
               Confirmatur creatura non tenetur frui deo probatur
             </p>
             <p xml:id="ppr-l45-pepdda">
               primo inductione 
-              <lb ed="#E"/>ex parte temporis quia nec in <c>a</c> tempore nec in <c>b</c> ymmo quocumque dato in illo potest licite frui
+              <lb ed="#E" n="29"/>ex parte temporis quia nec in <c>a</c> tempore nec in <c>b</c> ymmo quocumque dato in illo potest licite frui
             </p>
             <p xml:id="ppr-l45-pseagi">
               Secundo probatur inductione ex parte actus quia nullum actum fruendi tenetur habere creatura quia 
-              <lb ed="#E"/>quocumque dato cum alio potest frui Etiam pro conclusio ad intentionem quia quocumque data cum 
-              <lb ed="#E"/>minori potest frui deo igitur non obligatur ad aliquem gradum 
+              <lb ed="#E" n="30"/>quocumque dato cum alio potest frui Etiam pro conclusio ad intentionem quia quocumque data cum 
+              <lb ed="#E" n="31"/>minori potest frui deo igitur non obligatur ad aliquem gradum 
             </p>
           </div>
           <div xml:id="ppr-l45-Dd1e172">
@@ -95,65 +90,65 @@
               <head xml:id="ppr-l45-Hprprpr">Prima responsio</head>
               <p xml:id="ppr-l45-airdsf">
                 Respondendum est ad ista primo cum 
-                <lb ed="#E"/>distinctione nam sic fruens deo vel fruitur eo ex officio occupatus circa divinum cultum specialiter 
-                <lb ed="#E"/>sicut sacerdos in consecutione corporis dominici vel est persona privata quae contemplando ex devo<lb ed="#E"/>tione 
+                <lb ed="#E" n="32"/>distinctione nam sic fruens deo vel fruitur eo ex officio occupatus circa divinum cultum specialiter 
+                <lb ed="#E" n="33"/>sicut sacerdos in consecutione corporis dominici vel est persona privata quae contemplando ex devo<lb ed="#E" n="34"/>tione 
                 fruitur deo 
               </p>
               <p xml:id="ppr-l45-ipcspe">
                 In primo casu non teneretur subvenire proximum dimittendo divinum officium 
                 dicit <name ref="#Holcot">holkot</name> quod in sumptione corporis christi tenetur summe corpus christi potius quam subvenire 
-                <lb ed="#E"/>proximo
+                <lb ed="#E" n="35"/>proximo
               </p>
               <p xml:id="ppr-l45-saivaa">
                 In 2o casu dicit quod tenetur subvenire proximo Et hoc secundum duplicem ymaginationem 
-                <lb ed="#E"/>prima quia non semper tenemur ad meliora <del rend="strikethrough"><!-- deletion a bit unclear -->consequentia tenet</del> patet nam sit aliquod praeceptum respectu dilectionis 
-                <lb ed="#E"/>proximi et sit aliquod consilium arduissimum quod est summae perfectionis et essent incompassibilia teneretur 
-                <lb ed="#E"/>quis facere praeceptum et non consilium nam dimissio consilii non est peccatum sed dimissio praecepti
+                <lb ed="#E" n="36"/>prima quia non semper tenemur ad meliora <del rend="strikethrough"><!-- deletion a bit unclear -->consequentia tenet</del> patet nam sit aliquod praeceptum respectu dilectionis 
+                <lb ed="#E" n="37"/>proximi et sit aliquod consilium arduissimum quod est summae perfectionis et essent incompassibilia teneretur 
+                <lb ed="#E" n="38"/>quis facere praeceptum et non consilium nam dimissio consilii non est peccatum sed dimissio praecepti
                 <pb ed="#E" n="62-v"/>
-                <lb ed="#E"/>est peccatum ideo ratione obligationis debemus magis obedire quam ratione bonitatis obiecti in se Sic 
-                <lb ed="#E"/>in proposito licet fruitio quantum est de se est melior quam subventio proximi tamen in illo casu 
-                <lb ed="#E"/>esset obligatus pro illo tempore ad subveniendum proximo et non ad fruendum deo
+                <lb ed="#E" n="1"/>est peccatum ideo ratione obligationis debemus magis obedire quam ratione bonitatis obiecti in se Sic 
+                <lb ed="#E" n="2"/>in proposito licet fruitio quantum est de se est melior quam subventio proximi tamen in illo casu 
+                <lb ed="#E" n="3"/>esset obligatus pro illo tempore ad subveniendum proximo et non ad fruendum deo
               </p>
             </div>
             <div xml:id="ppr-l45-Dd1e251">
               <head xml:id="ppr-l45-Hsrsrsr">Secunda responsio</head>
               <p xml:id="ppr-l45-sriemm">
                 Secundo respondetur iuxta 
-                <lb ed="#E"/>prius dicta quod in isto casu subvenire proximo non velle subvenire proximo ordinate 
-                <lb ed="#E"/>est frui deo patet quia ex dilectione proximi propter deum et in illo magis diligi deus quam proximum 
-                <lb ed="#E"/>Ideo casus videtur habere ymaginationem falsam nam licet dimittetur fruitio dei in hac specie scilicet quae haberet 
-                <lb ed="#E"/>praecise deum pro obiecto tamen non dimittetur fruitio dei et sic patet quod quis potest converti ad proximum dimit<lb ed="#E"/>tendo 
+                <lb ed="#E" n="4"/>prius dicta quod in isto casu subvenire proximo non velle subvenire proximo ordinate 
+                <lb ed="#E" n="5"/>est frui deo patet quia ex dilectione proximi propter deum et in illo magis diligi deus quam proximum 
+                <lb ed="#E" n="6"/>Ideo casus videtur habere ymaginationem falsam nam licet dimittetur fruitio dei in hac specie scilicet quae haberet 
+                <lb ed="#E" n="7"/>praecise deum pro obiecto tamen non dimittetur fruitio dei et sic patet quod quis potest converti ad proximum dimit<lb ed="#E" n="8"/>tendo 
                 fruitionem quae habet praecise deum pro obiecto sed ex hoc non sequitur illud scilicet converti ad proximum 
-                <lb ed="#E"/>est melius
+                <lb ed="#E" n="9"/>est melius
               </p>
               <p xml:id="ppr-l45-sipnss">
                 Sed contra quaeritur tunc utrum sit peccatum frui deo Ponamus casum quod quis fruatur 
-                <lb ed="#E"/>deo et videat proximum constitutum in extrema necessitate et non subveniat sibi
+                <lb ed="#E" n="10"/>deo et videat proximum constitutum in extrema necessitate et non subveniat sibi
               </p>
               <p xml:id="ppr-l45-dqccsp">
                 Breviter casus 
-                <lb ed="#E"/>est inpossibilis secundum legem nunc currentem quia eo ipso quo diligeret deum super omnia ad impleret 
-                <lb ed="#E"/>omnia Intendo tenere quod non stat quod aliquis sit in peccato mortali et diligat deum super omnia 
-                <lb ed="#E"/>ubi fruitio esset distincta ab usu ipsa inclinaret ad dilectionem proximi
+                <lb ed="#E" n="11"/>est inpossibilis secundum legem nunc currentem quia eo ipso quo diligeret deum super omnia ad impleret 
+                <lb ed="#E" n="12"/>omnia Intendo tenere quod non stat quod aliquis sit in peccato mortali et diligat deum super omnia 
+                <lb ed="#E" n="13"/>ubi fruitio esset distincta ab usu ipsa inclinaret ad dilectionem proximi
               </p>
             </div>
             <div xml:id="ppr-l45-Dd1e310">
               <head xml:id="ppr-l45-Htrtrtr">Tertia responsio</head>
               <p xml:id="ppr-l45-taaame">
                 Ad illud quod addebatur 
-                <lb ed="#E"/>sit aliquis adultus et baptizatus etc
+                <lb ed="#E" n="14"/>sit aliquis adultus et baptizatus etc
               </p>
               <!-- paragraph break likely not needed -->
               <p xml:id="ppr-l45-tvqfsc">
                 Breviter responsum est quod diligendo proximum diligit 
-                <lb ed="#E"/>deum quia dilectio dei ordinata proximi est magis dilectio dei quam proximi <unclear>Admittamus</unclear> 
-                <lb ed="#E"/>tamen gratia argumenti quod fruitio distinguatur ab usu tunc sit ita quod aliquis subveniat proximo in prima 
-                <lb ed="#E"/>hora quae habet usum rationis
+                <lb ed="#E" n="15"/>deum quia dilectio dei ordinata proximi est magis dilectio dei quam proximi <unclear>Admittamus</unclear> 
+                <lb ed="#E" n="16"/>tamen gratia argumenti quod fruitio distinguatur ab usu tunc sit ita quod aliquis subveniat proximo in prima 
+                <lb ed="#E" n="17"/>hora quae habet usum rationis
               </p>
               <p xml:id="ppr-l45-ttqano">
                 et sic consequenter Breviter potest dici quod stante illo casu ipse numquam 
-                <lb ed="#E"/>fuit oblicus ad exeundum in actualem dei et dilectionem Ideo sufficeret habitualis dilectio 
-                <lb ed="#E"/>qua haberet promptitudinem exeundi in actum quando occurreret materia fruendi sed quia occu<lb ed="#E"/>patus 
+                <lb ed="#E" n="18"/>fuit oblicus ad exeundum in actualem dei et dilectionem Ideo sufficeret habitualis dilectio 
+                <lb ed="#E" n="19"/>qua haberet promptitudinem exeundi in actum quando occurreret materia fruendi sed quia occu<lb ed="#E" n="20"/>patus 
                 est circa illud in quo meretur sufficit habitualis dilectio
               </p>
             </div>
@@ -162,109 +157,109 @@
             <head xml:id="ppr-l45-Hoqqvgs">Obiectio: Quod quis sine fide, caritate, vel gratiam salvetur</head>
             <p xml:id="ppr-l45-yciasm">
               Circa istam materiam 
-              <lb ed="#E"/>dicunt aliqui quod staret aliquem salvari qui tamen numquam in vita sua habuisset fidem vel 
-              <lb ed="#E"/>gratiam Casus posset poni sic Sit aliquis adultus qui primo habet usum rationis in <c>a</c> instanti 
-              <lb ed="#E"/>iste tenetur se disponere debite ad hoc quod sustineat verum dei cultum et veram legem et iste 
-              <lb ed="#E"/>requirit dispositionem primam et sic paganus quae sit in peccato originali vel ad vultus qui 
-              <lb ed="#E"/>sit in peccato mortali iste tenetur se disponere ad susceptionem legis gratiae et fidei et 
-              <lb ed="#E"/>istud non potest fieri subito ergo requiritur mora ponamus ergo quod sicut tenetur se debite disponere 
-              <lb ed="#E"/>in tota illa mera quod ita faciat et quod in instanti terminante illam moram ipse primo non sit et decebat 
-              <lb ed="#E"/>In isto casu videtur multum valde probabile quod iste salvabitur nam ipse sufficienter fecit quod in se fuit nec 
-              <lb ed="#E"/>omisit Nam quam cito potuit se disposuit ergo dispositio habebit suum effectum ac si talis 
-              <lb ed="#E"/>adultus maneret <pc type="pilcrow"/>Advertendum quod doctores considerant quod in gratificatione aliquid est ex 
-              <lb ed="#E"/>parte creaturae scilicet dispositio praevia quae est sine gratia gratificante qua posita deus infundit vel 
-              <lb ed="#E"/>gratiam ergo quando in creatura praecessit quidquid requirtur ex parte creaturae deus infudit vel 
-              <lb ed="#E"/>facit illud quod requiritur ex parte sui Ad solum deum spectat infundere gratiam
+              <lb ed="#E" n="21"/>dicunt aliqui quod staret aliquem salvari qui tamen numquam in vita sua habuisset fidem vel 
+              <lb ed="#E" n="22"/>gratiam Casus posset poni sic Sit aliquis adultus qui primo habet usum rationis in <c>a</c> instanti 
+              <lb ed="#E" n="23"/>iste tenetur se disponere debite ad hoc quod sustineat verum dei cultum et veram legem et iste 
+              <lb ed="#E" n="24"/>requirit dispositionem primam et sic paganus quae sit in peccato originali vel ad vultus qui 
+              <lb ed="#E" n="25"/>sit in peccato mortali iste tenetur se disponere ad susceptionem legis gratiae et fidei et 
+              <lb ed="#E" n="26"/>istud non potest fieri subito ergo requiritur mora ponamus ergo quod sicut tenetur se debite disponere 
+              <lb ed="#E" n="27"/>in tota illa mera quod ita faciat et quod in instanti terminante illam moram ipse primo non sit et decebat 
+              <lb ed="#E" n="28"/>In isto casu videtur multum valde probabile quod iste salvabitur nam ipse sufficienter fecit quod in se fuit nec 
+              <lb ed="#E" n="29"/>omisit Nam quam cito potuit se disposuit ergo dispositio habebit suum effectum ac si talis 
+              <lb ed="#E" n="30"/>adultus maneret <pc type="pilcrow"/>Advertendum quod doctores considerant quod in gratificatione aliquid est ex 
+              <lb ed="#E" n="31"/>parte creaturae scilicet dispositio praevia quae est sine gratia gratificante qua posita deus infundit vel 
+              <lb ed="#E" n="32"/>gratiam ergo quando in creatura praecessit quidquid requirtur ex parte creaturae deus infudit vel 
+              <lb ed="#E" n="33"/>facit illud quod requiritur ex parte sui Ad solum deum spectat infundere gratiam
              </p>
             <p xml:id="ppr-l45-esvetd">
               Similiter potest 
-              <lb ed="#E"/>poni casus quod aliquis ab instanti sui baptismi continue augeat suam gratiam et ponatur quod praecipiatur sibi quod eliciat 
-              <lb ed="#E"/>actum <c>a</c> et non limitetur sibi tempus vel instans in quo eliciat <subst><del>quod</del><add place="above-line">et</add></subst> sufficiat ad in<lb ed="#E"/>pletionem 
+              <lb ed="#E" n="34"/>poni casus quod aliquis ab instanti sui baptismi continue augeat suam gratiam et ponatur quod praecipiatur sibi quod eliciat 
+              <lb ed="#E" n="35"/>actum <c>a</c> et non limitetur sibi tempus vel instans in quo eliciat <subst><del>quod</del><add place="above-line">et</add></subst> sufficiat ad in<lb ed="#E" n="36"/>pletionem 
               praecepti quod eliciat in aliquo instanti suae vitae et supponitur quod ille actus de sua 
-              <lb ed="#E"/>natura in instanti possit elici tunc moriatur absque hoc quod eliciat <c>a</c> actum tunc iste est trans<lb ed="#E"/>gressor 
+              <lb ed="#E" n="37"/>natura in instanti possit elici tunc moriatur absque hoc quod eliciat <c>a</c> actum tunc iste est trans<lb ed="#E" n="38"/>gressor 
               quia non inplevit mandatum et non poenitet quia non potest ex quo non est in 
-              <lb ed="#E"/>statu poenitendi nec poenituit Est ergo transgressor mandati dei quia fecit contra legem 
-              <lb ed="#E"/>dei et non reparavit et ista est indignitas creaturae et talis creatura est indigna gratia 
-              <lb ed="#E"/>quia <unclear>ergo</unclear> deus non inclusit sibi est indignus et semper in vita sua fuit in gratia quia 
-              <lb ed="#E"/>semper ille actus fuit producibilis in instanti ut supponitur quia quocumque instanti dato potuit 
+              <lb ed="#E" n="39"/>statu poenitendi nec poenituit Est ergo transgressor mandati dei quia fecit contra legem 
+              <lb ed="#E" n="40"/>dei et non reparavit et ista est indignitas creaturae et talis creatura est indigna gratia 
+              <lb ed="#E" n="41"/>quia <unclear>ergo</unclear> deus non inclusit sibi est indignus et semper in vita sua fuit in gratia quia 
+              <lb ed="#E" n="42"/>semper ille actus fuit producibilis in instanti ut supponitur quia quocumque instanti dato potuit 
               <pb ed="#E" n="63-r"/>
-              <lb ed="#E"/>Et etiam post illud quia quocumque instanti signato ante illud primum instans sui non esse potuit 
-              <lb ed="#E"/>Etiam fuit tempus medium inter illud et aliud signatum Potest vocari probabiliter
+              <lb ed="#E" n="1"/>Et etiam post illud quia quocumque instanti signato ante illud primum instans sui non esse potuit 
+              <lb ed="#E" n="2"/>Etiam fuit tempus medium inter illud et aliud signatum Potest vocari probabiliter
             </p>
           </div>
           <div xml:id="ppr-l45-Dd1e453">
             <head xml:id="ppr-l45-Hraorao">Responsio ad obiectionem</head>
             <p xml:id="ppr-l45-ecipsg">
               circa istam 
-              <lb ed="#E"/>materiam quod ubi praecedit aliqua mora terminata ad aliquod instans iudicandum est in illo instanti quantum 
-              <lb ed="#E"/>ad habitudinem creaturae ad si creatura esset in huiusmodi instanti verbi gratia ponam <unclear>exemplum</unclear> etiam in alio 
-              <lb ed="#E"/>quod est forte clarius ut poni solet casus quod sint <name>sortes</name> et <name>plato</name> qui sint inaequali gratia 
-              <lb ed="#E"/>et operentur meritorie taliter quod in utroque intendatur gratia aequaliter per unam totam horam et 
-              <lb ed="#E"/>in fine horae <name>sortes</name> decedat absque hoc quod proficiat in gratia et <name>plato</name> maneat tunc <name>plato</name> habebit 
-              <lb ed="#E"/>gratiam ut 10 ut <unclear>supponitur</unclear> tunc gloria sibi correspondet proportionaliter 
+              <lb ed="#E" n="3"/>materiam quod ubi praecedit aliqua mora terminata ad aliquod instans iudicandum est in illo instanti quantum 
+              <lb ed="#E" n="4"/>ad habitudinem creaturae ad si creatura esset in huiusmodi instanti verbi gratia ponam <unclear>exemplum</unclear> etiam in alio 
+              <lb ed="#E" n="5"/>quod est forte clarius ut poni solet casus quod sint <name>sortes</name> et <name>plato</name> qui sint inaequali gratia 
+              <lb ed="#E" n="6"/>et operentur meritorie taliter quod in utroque intendatur gratia aequaliter per unam totam horam et 
+              <lb ed="#E" n="7"/>in fine horae <name>sortes</name> decedat absque hoc quod proficiat in gratia et <name>plato</name> maneat tunc <name>plato</name> habebit 
+              <lb ed="#E" n="8"/>gratiam ut 10 ut <unclear>supponitur</unclear> tunc gloria sibi correspondet proportionaliter 
              </p>
             
             <p xml:id="ppr-l45-etdact">
               tunc de isto qui decedit quaeritur quantam 
-              <lb ed="#E"/>gloriam habebit numquam habuit gratiam ut 10 quia dato quocumque instanti antequam decederet inter illud 
-              <lb ed="#E"/>et instans mortis est tempus medium et in illo acquisivit gratiam quia quocumque dato antequam decederet 
-              <lb ed="#E"/>non habuit gratiam ut 10 ideo in isto iudicandum est de praemio <name>sortis</name> ac si <name>sortes</name> esset 
-              <lb ed="#E"/>in alio instanti in quo decedit et sic tantum <del rend="strikethrough">hret</del> habebit ac si maneret in vita pro illo instanti unde 
-              <lb ed="#E"/>in tempore praecedenti requirit quemlibet gradum citra 10 Ideo per nichil excedit gratia <name>platonis</name> 
-              <lb ed="#E"/>gratiam <name>sortis</name> ita proportionaliter dico de bene vel male agere
+              <lb ed="#E" n="9"/>gloriam habebit numquam habuit gratiam ut 10 quia dato quocumque instanti antequam decederet inter illud 
+              <lb ed="#E" n="10"/>et instans mortis est tempus medium et in illo acquisivit gratiam quia quocumque dato antequam decederet 
+              <lb ed="#E" n="11"/>non habuit gratiam ut 10 ideo in isto iudicandum est de praemio <name>sortis</name> ac si <name>sortes</name> esset 
+              <lb ed="#E" n="12"/>in alio instanti in quo decedit et sic tantum <del rend="strikethrough">hret</del> habebit ac si maneret in vita pro illo instanti unde 
+              <lb ed="#E" n="13"/>in tempore praecedenti requirit quemlibet gradum citra 10 Ideo per nichil excedit gratia <name>platonis</name> 
+              <lb ed="#E" n="14"/>gratiam <name>sortis</name> ita proportionaliter dico de bene vel male agere
               
               Si <name>Sortes</name> esset in vita in primo casu 
-              <lb ed="#E"/>ipse haberet gratiam et virtutes sibi infusas ergo deus infundit sibi 
+              <lb ed="#E" n="15"/>ipse haberet gratiam et virtutes sibi infusas ergo deus infundit sibi 
               
               Et in alio casu esset 
-              <lb ed="#E"/>in peccato in instanti in quo sic moritur et iudicandum est ac si maneret in instanti in qua moritur 
-              <lb ed="#E"/>vel decedit 
+              <lb ed="#E" n="16"/>in peccato in instanti in quo sic moritur et iudicandum est ac si maneret in instanti in qua moritur 
+              <lb ed="#E" n="17"/>vel decedit 
             </p>
             <p xml:id="ppr-l45-veqint">
               verum est quod circa materiam de illo casu quo quis disponeret se et decederet etc 
-              <lb ed="#E"/>utrum salvaretur probabile est quod sic sed qui vellet propter positiva ecclesiae posset dicere quod casus non 
-              <lb ed="#E"/>est possibilis lege stante nam deus ordinavit quod quicumque salvabitur realiter fuit in via 
-              <lb ed="#E"/>decoratus virtutibus et gratia et ergo casus non stat 
+              <lb ed="#E" n="18"/>utrum salvaretur probabile est quod sic sed qui vellet propter positiva ecclesiae posset dicere quod casus non 
+              <lb ed="#E" n="19"/>est possibilis lege stante nam deus ordinavit quod quicumque salvabitur realiter fuit in via 
+              <lb ed="#E" n="20"/>decoratus virtutibus et gratia et ergo casus non stat 
               
               Ideo in illo casu quia deus videret 
-              <lb ed="#E"/>sufficientem diligentiam et intentionem continuationis verisimile est quod praevisa morte deus prae<lb ed="#E"/>veniret 
+              <lb ed="#E" n="21"/>sufficientem diligentiam et intentionem continuationis verisimile est quod praevisa morte deus prae<lb ed="#E" n="22"/>veniret 
               eum in donis suis 
               
               Istud reputo satis probabile propter illa quae communiter ponit scriptura 
-              <lb ed="#E"/>et theologia nostra vel diceretur quod sufficit quod ista creatura fecerit quod in se fuit et disposuerit se ad 
-              <lb ed="#E"/>istas virtutes et gratiam suscipiendas  
+              <lb ed="#E" n="23"/>et theologia nostra vel diceretur quod sufficit quod ista creatura fecerit quod in se fuit et disposuerit se ad 
+              <lb ed="#E" n="24"/>istas virtutes et gratiam suscipiendas  
             </p>
             <p xml:id="ppr-l45-ciiint">
               Consequenter quia tactum est quod quocumque instanti dato 
-              <lb ed="#E"/>numquam in illo tenetur quis frui deo Posset dici quod licet in nullo tamen tenetur in aliquo
+              <lb ed="#E" n="25"/>numquam in illo tenetur quis frui deo Posset dici quod licet in nullo tamen tenetur in aliquo
             </p>
             <p xml:id="ppr-l45-sirtsd">
               Sed 
-              <lb ed="#E"/>ista responsio non videtur sufficiens Primo quia creatura existens in culpa tenetur frui 
-              <lb ed="#E"/>deo etiam pro tunc saltim tenetur se disponere et ferre quod in se est et ergo realiter obligatur 
-              <lb ed="#E"/>ad fruendum deo pro tunc
+              <lb ed="#E" n="26"/>ista responsio non videtur sufficiens Primo quia creatura existens in culpa tenetur frui 
+              <lb ed="#E" n="27"/>deo etiam pro tunc saltim tenetur se disponere et ferre quod in se est et ergo realiter obligatur 
+              <lb ed="#E" n="28"/>ad fruendum deo pro tunc
             </p>
             <p xml:id="ppr-l45-ictpso">
               Item creatura tenetur quotienscumque occurrit incipitur praecepti 
-              <lb ed="#E"/>frui deo
+              <lb ed="#E" n="29"/>frui deo
             </p>
             <p xml:id="ppr-l45-icttrd">
               etiam tenetur facere occurrere sibi materiam fruendi deo quia tenetur ad fidem 
-              <lb ed="#E"/>et ad divinum cultum et ideo etiam tenetur pro aliquo tempore Etiam quia quolibet die recipit 
-              <lb ed="#E"/>beneficia et tenetur retribuere et non nisi perfrui deo
+              <lb ed="#E" n="30"/>et ad divinum cultum et ideo etiam tenetur pro aliquo tempore Etiam quia quolibet die recipit 
+              <lb ed="#E" n="31"/>beneficia et tenetur retribuere et non nisi perfrui deo
             </p>
             <p xml:id="ppr-l45-itftfd">
               <!-- dbcheck division here -->
               Et hoc secundum gradus et status nam 
-              <lb ed="#E"/>praelati maxime et quasi continuo quantum <unclear>potestas</unclear> ad est nam vita eorum debet esse activa 
-              <lb ed="#E"/>et contemplativa
+              <lb ed="#E" n="32"/>praelati maxime et quasi continuo quantum <unclear>potestas</unclear> ad est nam vita eorum debet esse activa 
+              <lb ed="#E" n="33"/>et contemplativa
             </p>
             <p xml:id="ppr-l45-updeps">
               praeceptum de dilectione dei quantum ad habitum alligat pro <unclear>omni</unclear> tempore dicunt 
-              <lb ed="#E"/>doctores quod praeceptiva affirmativa allegant semper et non pro semper ut obligatur crea<lb ed="#E"/>tura 
+              <lb ed="#E" n="34"/>doctores quod praeceptiva affirmativa allegant semper et non pro semper ut obligatur crea<lb ed="#E" n="35"/>tura 
               rationalis semper ad habendum habitualem dilectionem id est quod sit in caritate quia 
-              <lb ed="#E"/>illa habitualis dilectio non est nisi caritas vel obligatur semper id est numquam est dispensatio 
-              <lb ed="#E"/>dicunt ulterius quod negativa obligant semper et pro semper
+              <lb ed="#E" n="36"/>illa habitualis dilectio non est nisi caritas vel obligatur semper id est numquam est dispensatio 
+              <lb ed="#E" n="37"/>dicunt ulterius quod negativa obligant semper et pro semper
             </p>
           </div>
           <div xml:id="ppr-l45-Dd1e649">
@@ -274,72 +269,72 @@
             </head>
             <p xml:id="ppr-l45-ctiipn">
               Circa istam materiam advertendum 
-              <lb ed="#E"/>quod praecepta affirmativa obligant ad frequentius quam negativa
+              <lb ed="#E" n="38"/>quod praecepta affirmativa obligant ad frequentius quam negativa
             </p>
             <p xml:id="ppr-l45-uaisim">
               et sic dico contrarium illius dicti 
-              <lb ed="#E"/>communis nec videtur illud dictum commune bene fundatum
+              <lb ed="#E" n="39"/>communis nec videtur illud dictum commune bene fundatum
               
               Advertendum quod adimplere praeceptum 
-              <lb ed="#E"/>negativum non est non facere prohibitum nec sufficit ad praecepti negativi inpletionem nam 
-              <lb ed="#E"/>tunc quilibet dormiens ad inpleret infinita et infinite meretur quia infinitorum malorum 
+              <lb ed="#E" n="40"/>negativum non est non facere prohibitum nec sufficit ad praecepti negativi inpletionem nam 
+              <lb ed="#E" n="41"/>tunc quilibet dormiens ad inpleret infinita et infinite meretur quia infinitorum malorum 
               <cb ed="#E" n="63-v"/>
-              <lb ed="#E"/>nullum faceret vel quodlibet non faceret et sic dormiens infinite meretur 
+              <lb ed="#E" n="42"/>nullum faceret vel quodlibet non faceret et sic dormiens infinite meretur 
               
               Et per consequens ad 
-              <lb ed="#E"/>inpletionem mandati ultra requiritur alterum duorum scilicet actualis fuga voluntatis et re<lb ed="#E"/>futatio 
+              <lb ed="#E" n="43"/>inpletionem mandati ultra requiritur alterum duorum scilicet actualis fuga voluntatis et re<lb ed="#E" n="44"/>futatio 
               obiecti prohibiti verbi gratia ad implendum praeceptum defuncto requiritur praesentia obiecti 
-              <lb ed="#E"/>furabilis et motio ad hoc ex parte voluntatis et requiritur detestatio et fuga huius et per hoc 
-              <lb ed="#E"/>adinpletur adimpletio illius mandati
+              <lb ed="#E" n="45"/>furabilis et motio ad hoc ex parte voluntatis et requiritur detestatio et fuga huius et per hoc 
+              <lb ed="#E" n="46"/>adinpletur adimpletio illius mandati
               
               Et illa volitio est dei dilectio et fruitio Et iste 
-              <lb ed="#E"/>est nobilior gradus ad implendi praeceptum negativa
+              <lb ed="#E" n="47"/>est nobilior gradus ad implendi praeceptum negativa
             </p>
             <p xml:id="ppr-l45-epesim">
               Secundus gradus est quod movente materia 
-              <lb ed="#E"/>furti quod voluntas resistat huiusmodi motioni id est non eliciat velle persecutum nec etiam fugitivum 
-              <lb ed="#E"/>sed solum resistere absque hoc quod producat velle vel nolle et sic in iste casu ad inpleret absque 
-              <lb ed="#E"/>aliquo actu positivo
+              <lb ed="#E" n="48"/>furti quod voluntas resistat huiusmodi motioni id est non eliciat velle persecutum nec etiam fugitivum 
+              <lb ed="#E" n="49"/>sed solum resistere absque hoc quod producat velle vel nolle et sic in iste casu ad inpleret absque 
+              <lb ed="#E" n="50"/>aliquo actu positivo
               
               Et sic sicut aliqua pura omissio esset <add place="above-line">in</add> culpa
               
               Item aliqua pura 
-              <lb ed="#E"/>omissio esset quoddam modo mere et adinplere praeceptum sto tamen magis primo modo Tertia tamen viam 
-              <lb ed="#E"/>refuto scilicet quod per non facere sicut dictum est  
+              <lb ed="#E" n="51"/>omissio esset quoddam modo mere et adinplere praeceptum sto tamen magis primo modo Tertia tamen viam 
+              <lb ed="#E" n="52"/>refuto scilicet quod per non facere sicut dictum est  
             </p>
             <p xml:id="ppr-l45-esfnel">
               Sequitur quod frequentius obligamur adinplendum 
-              <lb ed="#E"/>praecepta affirmativa quam negativa patet quia obligamur frequenter et tenemus exire in actum 
-              <lb ed="#E"/>dilectionis dei scilicet propter gratiarum actiones et propter cultum ad quem tenemur
+              <lb ed="#E" n="53"/>praecepta affirmativa quam negativa patet quia obligamur frequenter et tenemus exire in actum 
+              <lb ed="#E" n="54"/>dilectionis dei scilicet propter gratiarum actiones et propter cultum ad quem tenemur
               <!-- break point -->
               Quantum ad praecepta 
-              <lb ed="#E"/>negativa non videmur obligari nisi quando materia occurrit et sic aliquis servaret legem dei et tamen 
-              <lb ed="#E"/>non adinpleret praecepta dei negativa quia non occurrit materia Et ideo quia ista materia frequenter 
-              <lb ed="#E"/>occurrit multi abstulerunt se a mundo et duxerunt vitam <sic>solutariam</sic>
+              <lb ed="#E" n="55"/>negativa non videmur obligari nisi quando materia occurrit et sic aliquis servaret legem dei et tamen 
+              <lb ed="#E" n="56"/>non adinpleret praecepta dei negativa quia non occurrit materia Et ideo quia ista materia frequenter 
+              <lb ed="#E" n="57"/>occurrit multi abstulerunt se a mundo et duxerunt vitam <sic>solutariam</sic>
               
               Ad habendum intellectum communis 
-              <lb ed="#E"/>modi loquendi quod obligant quod semper non intelligitur de totali esse sed intelligitur quod executio non est licita
+              <lb ed="#E" n="58"/>modi loquendi quod obligant quod semper non intelligitur de totali esse sed intelligitur quod executio non est licita
             </p>
             <p xml:id="ppr-l45-iopsiv">
-              <lb ed="#E"/>verum est tamen quod non exequi non est ad implere nisi occurrat materia sicut dictum est
+              <lb ed="#E" n="59"/>verum est tamen quod non exequi non est ad implere nisi occurrat materia sicut dictum est
               
               Ad aliam rationem quod nulla 
-              <lb ed="#E"/>fruitio cadit sub praecepto quia etc probabile est mihi quod etiam creatura tenetur in certo gradu 
-              <lb ed="#E"/>frui deo et hoc secundum maiorem notitiam habitualem acquisitum vel infusam sibi vel etiam statum 
-              <lb ed="#E"/>nam ad maiorem gradum obligatur theologus doctus praelatus etc quam vetula nec sufficeret tantus 
-              <lb ed="#E"/>gradus in tali 
+              <lb ed="#E" n="60"/>fruitio cadit sub praecepto quia etc probabile est mihi quod etiam creatura tenetur in certo gradu 
+              <lb ed="#E" n="61"/>frui deo et hoc secundum maiorem notitiam habitualem acquisitum vel infusam sibi vel etiam statum 
+              <lb ed="#E" n="62"/>nam ad maiorem gradum obligatur theologus doctus praelatus etc quam vetula nec sufficeret tantus 
+              <lb ed="#E" n="63"/>gradus in tali 
            </p>
             <p xml:id="ppr-l45-usavtg">
               unde sicut aliqui obligantur frequentius quantum ad partes temporis ita etiam intensius 
-              <lb ed="#E"/>quantum ad gradus dilectionis secundum differentias statuum personarum quantum est de argumento probante quod ad nullum 
-              <lb ed="#E"/>sufficit ad aliquod Argumentum est sophisticum et non procedit ad mentem loquentium de materia ista  
+              <lb ed="#E" n="64"/>quantum ad gradus dilectionis secundum differentias statuum personarum quantum est de argumento probante quod ad nullum 
+              <lb ed="#E" n="65"/>sufficit ad aliquod Argumentum est sophisticum et non procedit ad mentem loquentium de materia ista  
               
-              <lb ed="#E"/>Si vellemus dicere quod ad nullum etc tunc dicendum esset quod non staret quod aliquis fruetur deo quin ad 
-              <lb ed="#E"/>impleret praeceptum et fruetur Et sic idem actus esset consilii et praecepti Esset sic praecepti quia 
-              <lb ed="#E"/>per ipsum realiter adinpletur praeceptum 
+              <lb ed="#E" n="66"/>Si vellemus dicere quod ad nullum etc tunc dicendum esset quod non staret quod aliquis fruetur deo quin ad 
+              <lb ed="#E" n="67"/>impleret praeceptum et fruetur Et sic idem actus esset consilii et praecepti Esset sic praecepti quia 
+              <lb ed="#E" n="68"/>per ipsum realiter adinpletur praeceptum 
               
               Etiam esset consilii Obligamur ad multa quae 
-              <lb ed="#E"/>sunt <sic>accensiva</sic> devotionis
+              <lb ed="#E" n="69"/>sunt <sic>accensiva</sic> devotionis
             </p>
           </div>
           <!--
@@ -361,14 +356,14 @@
         <head xml:id="ppr-l45-Hacdsda">Conclusiones</head>
         <p xml:id="ppr-l45-cd4qnv">
             <pc type="pilcrow"/>Circa distinctionem 43am prima opinio falsa quod deus non potest 
-            <lb ed="#E"/>facere alio modo quam facit Probatur quia non potest facere nisi quod est bonum et iustum fieri et stat 
-            <lb ed="#E"/>quod deus quidquid agit iustissime optime et ordinate et sapientissime et ergo repungnat sibi 
-            <lb ed="#E"/>praeter illa agere quia non habuisset bonum consilium de agendo et ordinando Ipsa opinio defi<lb ed="#E"/>cit 
+            <lb ed="#E" n="70"/>facere alio modo quam facit Probatur quia non potest facere nisi quod est bonum et iustum fieri et stat 
+            <lb ed="#E" n="71"/>quod deus quidquid agit iustissime optime et ordinate et sapientissime et ergo repungnat sibi 
+            <lb ed="#E" n="72"/>praeter illa agere quia non habuisset bonum consilium de agendo et ordinando Ipsa opinio defi<lb ed="#E" n="73"/>cit 
             et resoluit se ad iudicium nostram scilicet iudicando quod illud sic iustum et debitum in ordine ad 
-            <lb ed="#E"/>nos unde ultima resolutio debet esse ad divinam voluntatem tamquam ad regulam optimam quae 
-            <lb ed="#E"/>est prima unde eo ipso quod deus vult aliquid fieri illud est iustissimum dicit <name>magister</name> quod ly <mentioned>debet</mentioned> 
-            <lb ed="#E"/>prout dicit obligationem non attribuitur deo si tamen ly <mentioned>debet</mentioned> significet decentiam deus non potest facere nisi quod debet 
-            <lb ed="#E"/>id est decet Primum deus potest multa facere quae non faciet Secundum deus potest multa velle quae non volet
+            <lb ed="#E" n="74"/>nos unde ultima resolutio debet esse ad divinam voluntatem tamquam ad regulam optimam quae 
+            <lb ed="#E" n="75"/>est prima unde eo ipso quod deus vult aliquid fieri illud est iustissimum dicit <name>magister</name> quod ly <mentioned>debet</mentioned> 
+            <lb ed="#E" n="76"/>prout dicit obligationem non attribuitur deo si tamen ly <mentioned>debet</mentioned> significet decentiam deus non potest facere nisi quod debet 
+            <lb ed="#E" n="77"/>id est decet Primum deus potest multa facere quae non faciet Secundum deus potest multa velle quae non volet
           </p>
         </div>
       </div>
