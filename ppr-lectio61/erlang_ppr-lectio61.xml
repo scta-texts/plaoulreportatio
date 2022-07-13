@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,25 +53,25 @@
           <head xml:id="ppr-l61-Hcmdmdf">Continuandum materia de formalitatibus</head>
           <p xml:id="ppr-l61-imdced">
             <lb ed="#E" n="4"/>De formalitatibus secundum magister iohannes de rippa
-            <lb ed="#E"/>Alia lectio 70
-            <lb ed="#E"/>Materia de formalitatibus continet duo puncta primum est habere radicem 
-            <lb ed="#E"/>ymaginationis doctorum loquentium in ista materia et sine illo non habetur 2m 
-            <lb ed="#E"/>punctum scilicet de particularibus difficultatibus contingentibus 
+            <lb ed="#E" n="5"/>Alia lectio 70
+            <lb ed="#E" n="6"/>Materia de formalitatibus continet duo puncta primum est habere radicem 
+            <lb ed="#E" n="7"/>ymaginationis doctorum loquentium in ista materia et sine illo non habetur 2m 
+            <lb ed="#E" n="8"/>punctum scilicet de particularibus difficultatibus contingentibus 
           </p>
           <div xml:id="ppr-l61-Dd1e119">
             <head xml:id="ppr-l61-Hppdpdr">Plus propositiones de Rippa</head>
             <p xml:id="ppr-l61-ecpidr">
               circa istam materiam ut habeatur 
-              <lb ed="#E"/>ymaginatio et fundamentum materiae pono propositiones 2m <name>magistrum iohannes de ripa</name>
+              <lb ed="#E" n="9"/>ymaginatio et fundamentum materiae pono propositiones 2m <name>magistrum iohannes de ripa</name>
             </p>
             <div xml:id="ppr-l61-Dd1e130">
               <head xml:id="ppr-l61-Hppoppo">Prima propositio:</head>
               <p xml:id="ppr-l61-ppcaps">
                 prima propositio cuilibet 
-                <lb ed="#E"/>denominatione perfectionis simpliciter correspondet absolute ratio obiectalis eiusdem rationis verbitur prima de<lb ed="#E" break="no"/>nominatio 
-                <lb ed="#E"/>perfectionis simpliciter correspondet absolute ratio obiectalis eiusdem rationis verbi prima de<lb ed="#E" break="no"/>nominatio 
+                <lb ed="#E" n="10"/>denominatione perfectionis simpliciter correspondet absolute ratio obiectalis eiusdem rationis verbitur prima de<lb ed="#E" break="no" n="11"/>nominatio 
+                <lb ed="#E" n="12"/>perfectionis simpliciter correspondet absolute ratio obiectalis eiusdem rationis verbi prima de<lb ed="#E" break="no" n="13"/>nominatio 
                 perfectionis simpliciter est ens vel esse ens tunc a parte obiecti ymaginandum est quod quidquid 
-                <lb ed="#E"/>significatur per ens inquantum ens 2m hoc est eiusdem rationis adaequate et sic de esse <unclear>intel<lb ed="#E" break="no"/>lectum</unclear> 
+                <lb ed="#E" n="14"/>significatur per ens inquantum ens 2m hoc est eiusdem rationis adaequate et sic de esse <unclear>intel<lb ed="#E" break="no" n="15"/>lectum</unclear> 
                 et sic de aliis
               </p>
             </div>
@@ -82,32 +79,32 @@
               <head xml:id="ppr-l61-Hspospo">Secunda propositio</head>
               <p xml:id="ppr-l61-sphpao">
                 Secunda propositio huiusmodi ratio obiectalis in infinitum varie potest creaturis communicari 
-                <lb ed="#E"/>Nam sicut in infinite sunt species producibiles per dei potentiam in esse 2m hoc esse crea<lb ed="#E" break="no"/>turis 
+                <lb ed="#E" n="16"/>Nam sicut in infinite sunt species producibiles per dei potentiam in esse 2m hoc esse crea<lb ed="#E" break="no" n="17"/>turis 
                 correspondet vel communicatur nam infinite speciei communicatur esse in aliquo gradu 
-                <lb ed="#E"/>et superiori speciei in gradu perfectiori et sic ascendendo Et sicut dicitur de primo praedicato ita proportionaliter 
-                <lb ed="#E"/>de quolibet alio ut vivere communicatur inferiori speciei in aliquo gradu et communicatur superiori  
-                <lb ed="#E"/>gradu inperfectiori vel superiori gradu eiusdem rationis cum primo
+                <lb ed="#E" n="18"/>et superiori speciei in gradu perfectiori et sic ascendendo Et sicut dicitur de primo praedicato ita proportionaliter 
+                <lb ed="#E" n="19"/>de quolibet alio ut vivere communicatur inferiori speciei in aliquo gradu et communicatur superiori  
+                <lb ed="#E" n="20"/>gradu inperfectiori vel superiori gradu eiusdem rationis cum primo
               </p>
             </div>
             <div xml:id="ppr-l61-Dd1e152">
               <head xml:id="ppr-l61-Htpotpo">Tertia propositio</head>
               <p xml:id="ppr-l61-eeipve">
                 Sequitur ex hoc quod homo 
-                <lb ed="#E"/>est perfectior in esse seu secundum rationem essendi quam asinus Ita quod homo perfectius parti<lb ed="#E" break="no"/>cipat 
-                esse quam asinus Ponatur exemplum manuductum per inpossibile Capiamus per yma<lb ed="#E" break="no"/>ginationem 
+                <lb ed="#E" n="21"/>est perfectior in esse seu secundum rationem essendi quam asinus Ita quod homo perfectius parti<lb ed="#E" break="no" n="22"/>cipat 
+                esse quam asinus Ponatur exemplum manuductum per inpossibile Capiamus per yma<lb ed="#E" break="no" n="23"/>ginationem 
                 quod homo deperdat successive denominationes posteriores primo auferatur esse 
-                <lb ed="#E"/>volitivum deinde esse rationale deinde esse sensitivum deinde esse unum quo usque maneat 
-                <lb ed="#E"/>solum esse scilicet prima denominatio tunc illud quod remanet participat perfectiori modo esse quam 
-                <lb ed="#E"/>species inferior ad speciem humana vel quam infinita esse scilicet materia prima 
+                <lb ed="#E" n="24"/>volitivum deinde esse rationale deinde esse sensitivum deinde esse unum quo usque maneat 
+                <lb ed="#E" n="25"/>solum esse scilicet prima denominatio tunc illud quod remanet participat perfectiori modo esse quam 
+                <lb ed="#E" n="26"/>species inferior ad speciem humana vel quam infinita esse scilicet materia prima 
               </p>
             </div>
             <div xml:id="ppr-l61-Dd1e162">
               <head xml:id="ppr-l61-Hqpoqpo">Quarta propositio</head>
               <p xml:id="ppr-l61-eispgi">
                 Sequitur quod in esse 
-                <lb ed="#E"/>sunt gradus ponendi et in ratione obiectali correspondente illi praedicato patet quia illud quod re<lb ed="#E" break="no"/>manet 
+                <lb ed="#E" n="27"/>sunt gradus ponendi et in ratione obiectali correspondente illi praedicato patet quia illud quod re<lb ed="#E" break="no" n="28"/>manet 
                 in casu posito per inpossibile habet esse et est eiusdem rationis cum quolibet alio esse et 
-                <lb ed="#E"/>est tamen perfectius quam esse inferioris speciei ergo est intensius vel habet perfectionis esse perfectioni 
+                <lb ed="#E" n="29"/>est tamen perfectius quam esse inferioris speciei ergo est intensius vel habet perfectionis esse perfectioni 
                 graduali intensiva
               </p>
             </div>
@@ -116,21 +113,21 @@
               <p xml:id="ppr-l61-ascidr">
                 Tertia propositio sicut conceptus correspondens denominationi perfectionali priori 
                 est prior et alterius speciei praedicamentalis tamen de posteriori Ita proportionaliter correspondet sibi a parte obiecti 
-                <lb ed="#E"/>ratio obiectalis prior possibilis tamen concurrere unitive tum reali ratione obiectali correspondenti posteriori 
-                <lb ed="#E"/>denominationi huiusmodi denominationes habent habitudines unam quod sunt alterius speciei ut conceptus 
-                <lb ed="#E"/>entis quam vivi et cum hoc praedicantur de se in vicem Ita ratio essendi a parte rei est alterius 
-                <lb ed="#E"/>rationis seu speciei a ratione vivendi Et sicut conceptus entis est praedicabilis de conceptu vivendi 
-                <lb ed="#E"/>Item ratio obiectalis essendi est in potentia ad hoc quod concurrat unitive et quasi recipiat 
-                <lb ed="#E"/>rationem vitae per modum quasi actus posterioris Ita quod est habitudo rationum quoddam modo sicut conceptum Et 
-                <lb ed="#E"/>sic ratio vitae est alterius speciei ab esse vel rationi cognitivi et est in potentia ad concurrendum 
-                <lb ed="#E"/>unitive id est effici realiter unum Et ex istis conversibus causantur rerum species 2m eum 
+                <lb ed="#E" n="30"/>ratio obiectalis prior possibilis tamen concurrere unitive tum reali ratione obiectali correspondenti posteriori 
+                <lb ed="#E" n="31"/>denominationi huiusmodi denominationes habent habitudines unam quod sunt alterius speciei ut conceptus 
+                <lb ed="#E" n="32"/>entis quam vivi et cum hoc praedicantur de se in vicem Ita ratio essendi a parte rei est alterius 
+                <lb ed="#E" n="33"/>rationis seu speciei a ratione vivendi Et sicut conceptus entis est praedicabilis de conceptu vivendi 
+                <lb ed="#E" n="34"/>Item ratio obiectalis essendi est in potentia ad hoc quod concurrat unitive et quasi recipiat 
+                <lb ed="#E" n="35"/>rationem vitae per modum quasi actus posterioris Ita quod est habitudo rationum quoddam modo sicut conceptum Et 
+                <lb ed="#E" n="36"/>sic ratio vitae est alterius speciei ab esse vel rationi cognitivi et est in potentia ad concurrendum 
+                <lb ed="#E" n="37"/>unitive id est effici realiter unum Et ex istis conversibus causantur rerum species 2m eum 
               </p>
               <!-- fuzzy parallel -->
               <p xml:id="ppr-l61-secuae">
-                <lb ed="#E"/>Si sequitur istam viam sic quod per quandam habitudinem et similitudinem conceptuum Capiamus habitudinem 
-                <lb ed="#E"/>rationem obiectalium a parte rei habemus modum agendi duas distinctos specifice differentes 
-                <lb ed="#E"/>Ista ymaginatione habita totius processus in tractatu de perfectione specierum est satis facilis 
-                <lb ed="#E"/>Et istae rationes obiectales vocantur formalitates distinctae 
+                <lb ed="#E" n="38"/>Si sequitur istam viam sic quod per quandam habitudinem et similitudinem conceptuum Capiamus habitudinem 
+                <lb ed="#E" n="39"/>rationem obiectalium a parte rei habemus modum agendi duas distinctos specifice differentes 
+                <lb ed="#E" n="40"/>Ista ymaginatione habita totius processus in tractatu de perfectione specierum est satis facilis 
+                <lb ed="#E" n="41"/>Et istae rationes obiectales vocantur formalitates distinctae 
               </p>
             </div>
           </div>
@@ -138,72 +135,72 @@
             <head xml:id="ppr-l61-Hppdpsr">Plus propositiones de Rippa</head>
             <p xml:id="ppr-l61-eiiiap">
               Infert <name>magister Iohannes de ripa</name> 
-              <lb ed="#E"/>propositiones
+              <lb ed="#E" n="42"/>propositiones
             </p>
             <div xml:id="ppr-l61-Dd1e200">
               <head xml:id="ppr-l61-Hpappap">Prima propositio</head>
               <p xml:id="ppr-l61-peqhpg">
                 prima quanto res est perfectior tanto compositor est id est magis composita etc 
                 <pb ed="#E" n="84-v"/>
-                <lb ed="#E"/>patet primo de compositione ex gradibus pluribus eiusdem rationis
+                <lb ed="#E" n="1"/>patet primo de compositione ex gradibus pluribus eiusdem rationis
               </p>
               <p xml:id="ppr-l61-sechcc">
                 Secundo est compositior quantum 
-                <lb ed="#E"/>ad formales rationes correspondentes denominationibus perfectionalibus quia quanto res est perfectior 
-                <lb ed="#E"/>tanto pluries formales rationes competunt ei 
+                <lb ed="#E" n="2"/>ad formales rationes correspondentes denominationibus perfectionalibus quia quanto res est perfectior 
+                <lb ed="#E" n="3"/>tanto pluries formales rationes competunt ei 
               </p>
             </div>
             <div xml:id="ppr-l61-Dd1e216">
               <head xml:id="ppr-l61-Hsapsap">Secunda propositio</head>
               <p xml:id="ppr-l61-siqfic">
                 Sequitur ex isto quod quanto creatura est actualior 
-                <lb ed="#E"/>tanto est potentialior patet quia per acquisitionem novarum rationum obiectalium redditur magis po<lb ed="#E" break="no"/>tentialior 
+                <lb ed="#E" n="4"/>tanto est potentialior patet quia per acquisitionem novarum rationum obiectalium redditur magis po<lb ed="#E" break="no" n="5"/>tentialior 
               </p>
             </div>
             <div xml:id="ppr-l61-Dd1e225">
               <head xml:id="ppr-l61-Htaptap">Tertia propositio</head>
               <p xml:id="ppr-l61-apipas">
-                <lb ed="#E"/>Alia propositio Infinita supprema intelligentia si daretur ipsa esset intrinsece 
-                <lb ed="#E"/>infinitae potentialitatis quia haberet infinitas rationes constitutivas quarum quaelibet esset 
-                <lb ed="#E"/>inpotentia ad alia et essent actualitates proportionaliter 
+                Alia propositio Infinita supprema intelligentia si daretur ipsa esset intrinsece 
+                <lb ed="#E" n="6"/>infinitae potentialitatis quia haberet infinitas rationes constitutivas quarum quaelibet esset 
+                <lb ed="#E" n="7"/>inpotentia ad alia et essent actualitates proportionaliter 
               </p>
             </div>
             <div xml:id="ppr-l61-Dd1e235">
               <head xml:id="ppr-l61-Hqtpqtp">Quarta propositio</head>
               <p xml:id="ppr-l61-apsmve">
-                <lb ed="#E"/>Alia propositio sola ultima ratio obiectalis 
-                <lb ed="#E"/>ultimo constitutiva suppremae intelligentiae esset cui repugnaret potentialitas ad ulterius recipiendum 
-                <lb ed="#E"/>per istam ymaginationem multi antiquorum dicta intelligerentur unde per istam viam ymagi<lb ed="#E" break="no"/>nabiles
+                Alia propositio sola ultima ratio obiectalis 
+                <lb ed="#E" n="8"/>ultimo constitutiva suppremae intelligentiae esset cui repugnaret potentialitas ad ulterius recipiendum 
+                <lb ed="#E" n="9"/>per istam ymaginationem multi antiquorum dicta intelligerentur unde per istam viam ymagi<lb ed="#E" break="no" n="10"/>nabiles
                 esset satis positio antiquorum de distinctione universalium a singularibus nam ymaginabantur 
-                <lb ed="#E"/>quod realiter secundum ordinem conceptuum inter se esset aliqualis correspondentia rerum et utrum illa multi<lb ed="#E" break="no"/>plicentur 
+                <lb ed="#E" n="11"/>quod realiter secundum ordinem conceptuum inter se esset aliqualis correspondentia rerum et utrum illa multi<lb ed="#E" break="no" n="12"/>plicentur 
                 ad individua vel non dixerunt quod non Consimiliter positio et distinctio de esse et essentia 
-                <lb ed="#E"/>cum ydemptitate tamen essentiali Etiam per istam viam intelligere compositio angeli ex actu et potentia 
-                <lb ed="#E"/>Similiter ymaginatio ydearum scilicet quod realiter esset una ydea in se incorruptibilis et tamen concurrent 
-                <lb ed="#E"/>ydemptice cum corruptibili 
+                <lb ed="#E" n="13"/>cum ydemptitate tamen essentiali Etiam per istam viam intelligere compositio angeli ex actu et potentia 
+                <lb ed="#E" n="14"/>Similiter ymaginatio ydearum scilicet quod realiter esset una ydea in se incorruptibilis et tamen concurrent 
+                <lb ed="#E" n="15"/>ydemptice cum corruptibili 
               </p>
             </div>
             <div xml:id="ppr-l61-Dd1e247">
               <head xml:id="ppr-l61-Hqnpqnp">Quinta propositio</head>
               <p xml:id="ppr-l61-cearid">
                 Continuando et applicando aliqualiter materiam Quantum est 
-                <lb ed="#E"/>de distinctione quae est gradibus eiusdem rationis illa nullo modo est in deo reperibiliter quia gradus 
-                <lb ed="#E"/>remissior inportat quandam inperfectionem 2o habitudo istarum rationum obiectalium potentialitatis 
-                <lb ed="#E"/>prioritatis et posterietatis non habet etiam locum in deo
+                <lb ed="#E" n="16"/>de distinctione quae est gradibus eiusdem rationis illa nullo modo est in deo reperibiliter quia gradus 
+                <lb ed="#E" n="17"/>remissior inportat quandam inperfectionem 2o habitudo istarum rationum obiectalium potentialitatis 
+                <lb ed="#E" n="18"/>prioritatis et posterietatis non habet etiam locum in deo
               </p>
               <p xml:id="ppr-l61-qapers">
-                <lb ed="#E"/>ymaginandum est quod ratio essendi in deo est 
-                <lb ed="#E"/>unicus simplicissimus gradus simpliciter inmensae et infinitae nobilitatis et perfectionis sed in creatura 
-                <lb ed="#E"/>est aliter <del rend="strikethrough">sed</del> sicut dictum est Consequenter ponitur quod apparet clare quomodo univoce significantur creatura 
-                <lb ed="#E"/>quia omnia entia sunt eiusdem rationis in esse et omnia quae univocantur in aliquo sunt eiusdem 
-                <lb ed="#E"/>rationis specificae
+                ymaginandum est quod ratio essendi in deo est 
+                <lb ed="#E" n="19"/>unicus simplicissimus gradus simpliciter inmensae et infinitae nobilitatis et perfectionis sed in creatura 
+                <lb ed="#E" n="20"/>est aliter <del rend="strikethrough">sed</del> sicut dictum est Consequenter ponitur quod apparet clare quomodo univoce significantur creatura 
+                <lb ed="#E" n="21"/>quia omnia entia sunt eiusdem rationis in esse et omnia quae univocantur in aliquo sunt eiusdem 
+                <lb ed="#E" n="22"/>rationis specificae
               </p>
               <p xml:id="ppr-l61-qassav">
                 quantum ad hoc non est ymaginandum quod ratio essendi in deo sit potentialis 
-                <lb ed="#E"/>respectu rationis <del rend="expunctuation">essendi</del> vitae Sed ymaginandum quod omnes rationes concurrant unitive aeque primo in 
-                <lb ed="#E"/>deo absque ordine potentialitatis vel actualitatis in unam simplicissimam unitatem 
-                <lb ed="#E"/>et sic est sibi summa simplicitas recte dicunt illi de ista opinione Sicut tres personae concurrunt 
-                <lb ed="#E"/>simpliciter unitive in essentia divina absque ordine quantum ad perfectionem Et dicunt consequenter quod 
-                <lb ed="#E"/>pluralitas formalitatum non arguit contra simplicitatem ymmo potius arguit simplicitatem
+                <lb ed="#E" n="23"/>respectu rationis <del rend="expunctuation">essendi</del> vitae Sed ymaginandum quod omnes rationes concurrant unitive aeque primo in 
+                <lb ed="#E" n="24"/>deo absque ordine potentialitatis vel actualitatis in unam simplicissimam unitatem 
+                <lb ed="#E" n="25"/>et sic est sibi summa simplicitas recte dicunt illi de ista opinione Sicut tres personae concurrunt 
+                <lb ed="#E" n="26"/>simpliciter unitive in essentia divina absque ordine quantum ad perfectionem Et dicunt consequenter quod 
+                <lb ed="#E" n="27"/>pluralitas formalitatum non arguit contra simplicitatem ymmo potius arguit simplicitatem
               </p>
             </div>
           </div>

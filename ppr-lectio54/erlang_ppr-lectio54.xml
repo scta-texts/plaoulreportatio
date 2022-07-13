@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,46 +53,46 @@
           <head xml:id="ppr-l54-Hduddud">Duo difficultates</head>
           <p xml:id="ppr-l54-vepdei">
             <lb ed="#E" n="1"/>Alia lectio 
-            <lb ed="#E"/>visum est prius qualiter naturalis inclinatio feratur in deum ultimate propter se principaliter et quantum ad hoc 
-            <lb ed="#E"/>est insolubilis habitudo Et in ista consideratione consistit tota virtus methaphysicae et etiam 
-            <lb ed="#E"/>moralis scientiae
+            <lb ed="#E" n="2"/>visum est prius qualiter naturalis inclinatio feratur in deum ultimate propter se principaliter et quantum ad hoc 
+            <lb ed="#E" n="3"/>est insolubilis habitudo Et in ista consideratione consistit tota virtus methaphysicae et etiam 
+            <lb ed="#E" n="4"/>moralis scientiae
           </p>
           <p xml:id="ppr-l54-pmisin">
-            Pro maiori intellectu et declaratione materiae inquirenda sunt duo primum utrum incli<lb ed="#E" break="no"/>natio 
+            Pro maiori intellectu et declaratione materiae inquirenda sunt duo primum utrum incli<lb ed="#E" break="no" n="5"/>natio 
             naturalis creaturae in deum sit in ipsum tamquam in trinitatem sub ratione trinitatis personaliter 
-            <lb ed="#E"/>Secunda difficultas utrum voluntas habens deum clare ostensum more naturae feratur in ipsum etc
+            <lb ed="#E" n="6"/>Secunda difficultas utrum voluntas habens deum clare ostensum more naturae feratur in ipsum etc
           </p>
         </div>
         <div xml:id="ppr-l54-Dd1e119">
           <head xml:id="ppr-l54-Huictit">Utrum inclinatio creaturarum in Deum sit in ipsum tanquam in Trinitatem</head>
           <p xml:id="ppr-l54-ecpeev">
             Circa primam materiam teneo partem affirmativam scilicet quod naturalis inclinatio rerum in deum est in ipsum 
-            <lb ed="#E"/>tamquam terminum probatur primo nam creatura quaelibet est quoddam vestigium illius in creaturae trinitatis 
-            <lb ed="#E"/>ergo tendit in ipsum deum sub habitudine qua est eius vestigium
+            <lb ed="#E" n="7"/>tamquam terminum probatur primo nam creatura quaelibet est quoddam vestigium illius in creaturae trinitatis 
+            <lb ed="#E" n="8"/>ergo tendit in ipsum deum sub habitudine qua est eius vestigium
           </p>
           <p xml:id="ppr-l54-cnrnut">
             Confirmatur nam tres creatae procedunt 
-            <lb ed="#E"/>de non esse ad esse a deo ut trinitas est et ut est trinum suppositum ergo revertuntur ad ipsum et convertuntur 
-            <lb ed="#E"/>sub eadem habitudine nam sicut in genere causae efficientis deus concurrit ut trinus ita in genere causae fina<lb ed="#E" break="no"/>lis 
+            <lb ed="#E" n="9"/>de non esse ad esse a deo ut trinitas est et ut est trinum suppositum ergo revertuntur ad ipsum et convertuntur 
+            <lb ed="#E" n="10"/>sub eadem habitudine nam sicut in genere causae efficientis deus concurrit ut trinus ita in genere causae fina<lb ed="#E" break="no" n="11"/>lis 
             igitur terminat rerum dependentias ut trinus et habitudo causarum ad se ipsum est ut ad 
-            <lb ed="#E"/>terminum unde ut deus non potest concurrere in genere causae <del rend="expunctuation">finalis</del> efficientis praecise ut essentia 
-            <lb ed="#E"/>vel ut unica persona eo quod opera trinitatis ad extra sunt indivisa ita in genere terminandi 
-            <lb ed="#E"/>vel finis non potest
+            <lb ed="#E" n="12"/>terminum unde ut deus non potest concurrere in genere causae <del rend="expunctuation">finalis</del> efficientis praecise ut essentia 
+            <lb ed="#E" n="13"/>vel ut unica persona eo quod opera trinitatis ad extra sunt indivisa ita in genere terminandi 
+            <lb ed="#E" n="14"/>vel finis non potest
           </p> 
           <p xml:id="ppr-l54-sedups">
             Restat difficultas de voluntate creata utrum possit habere actum 
-            <lb ed="#E"/>dilectionis vel volitionis qui terminentur ad essentiam et non ad personam vel ad unam personam 
-            <lb ed="#E"/>et non ad aliam vel alias
+            <lb ed="#E" n="15"/>dilectionis vel volitionis qui terminentur ad essentiam et non ad personam vel ad unam personam 
+            <lb ed="#E" n="16"/>et non ad aliam vel alias
           </p>
           <p xml:id="ppr-l54-ebciqa">
             Breviter bene resolvendo credo quod sit tenendum quod non potest tendere 
-            <lb ed="#E"/>in deum quin tamquam in trinitatem nec in essentiam quin in personam nec in unam personam quando 
-            <lb ed="#E"/>in alias 
+            <lb ed="#E" n="17"/>in deum quin tamquam in trinitatem nec in essentiam quin in personam nec in unam personam quando 
+            <lb ed="#E" n="18"/>in alias 
           </p> 
           <p xml:id="ppr-l54-eppead">
             licet alias tenuerim contrarium scilicet quod staret divinam essentiam cognosci vel hanc rem 
-            <lb ed="#E"/>cognosci non habendo respectu ad personas Breviter eadem est difficultas de visione et dilectione 
-            <lb ed="#E"/>tenendo partem affirmativam 
+            <lb ed="#E" n="19"/>cognosci non habendo respectu ad personas Breviter eadem est difficultas de visione et dilectione 
+            <lb ed="#E" n="20"/>tenendo partem affirmativam 
           </p> 
         </div>
         <!-- very FUZZZY BREAK; something kind of disagreement or difference with "plaoulcommentary" version -->
@@ -103,94 +100,94 @@
           <head xml:id="ppr-l54-Husudsa">Utrum stat unam personam Trinitatis potest diligi sine alia?</head>
           <p xml:id="ppr-l54-idqipm">
             quia non stat videri divinam essentiam quin videatur persona 
-            <lb ed="#E"/>et non stat videre unam quando quaelibet videatur
+            <lb ed="#E" n="21"/>et non stat videre unam quando quaelibet videatur
           </p> 
           <p xml:id="ppr-l54-pprpee">
             probatur primo per rationem tactam iam quia sicut deus 
-            <lb ed="#E"/>non potest concurrere in genere causae efficientis nisi ut trinum suppositum ita nec id esse obiecti benefici
-            <lb ed="#E"/>nec causae finalis nam ille concursus est adextra et ideo debet competere uni sicut alteri
+            <lb ed="#E" n="22"/>non potest concurrere in genere causae efficientis nisi ut trinum suppositum ita nec id esse obiecti benefici
+            <lb ed="#E" n="23"/>nec causae finalis nam ille concursus est adextra et ideo debet competere uni sicut alteri
           </p>
           <p xml:id="ppr-l54-sqcdsa">
             Secundo 
-            <lb ed="#E"/>quia concursus obiectivus qui non est realiter supplebilis ille est reducibilis ad causalitatem 
-            <lb ed="#E"/>effectivam et illa est indistincta adextra ideo non stat unam personam obiective concurrere quando alia 
-            <lb ed="#E"/>concurrat et sic quia iste concursus est indivisus sic quod non stat unam personam concurrere sine 
-            <lb ed="#E"/>alia sequitur propositum 
+            <lb ed="#E" n="24"/>quia concursus obiectivus qui non est realiter supplebilis ille est reducibilis ad causalitatem 
+            <lb ed="#E" n="25"/>effectivam et illa est indistincta adextra ideo non stat unam personam obiective concurrere quando alia 
+            <lb ed="#E" n="26"/>concurrat et sic quia iste concursus est indivisus sic quod non stat unam personam concurrere sine 
+            <lb ed="#E" n="27"/>alia sequitur propositum 
           </p>
           <p xml:id="ppr-l54-tatptp">
             Tertio arguitur testimonio christi qui fecit aequivalenter istam consequentiam si aliquis 
-            <lb ed="#E"/>videt filium videt patrem nam dicit <quote xml:id="ppr-l54-Qd1e172" source="http://scta.info/resource/io10_38">pater in me est et ego in patre</quote> et sic unus est in alio per idemptitatem 
-            <lb ed="#E"/>essentiae ergo si una persona videtur et alia <name ref="#Augustine">Augustinus</name> sine audiamus ostende nobis patrem 
-            <lb ed="#E"/>sive audiamus ostende nobis filium <unclear>tantum dictum</unclear> valet quod noviter sine alio ostendi potest et sic innuit quod in<lb ed="#E" break="no"/>possibile 
+            <lb ed="#E" n="28"/>videt filium videt patrem nam dicit <quote xml:id="ppr-l54-Qd1e172" source="http://scta.info/resource/io10_38">pater in me est et ego in patre</quote> et sic unus est in alio per idemptitatem 
+            <lb ed="#E" n="29"/>essentiae ergo si una persona videtur et alia <name ref="#Augustine">Augustinus</name> sine audiamus ostende nobis patrem 
+            <lb ed="#E" n="30"/>sive audiamus ostende nobis filium <unclear>tantum dictum</unclear> valet quod noviter sine alio ostendi potest et sic innuit quod in<lb ed="#E" break="no" n="31"/>possibile 
             est videre unam personam sine alia
           </p> 
           <p xml:id="ppr-l54-iodptp">
             Item doctores sancti scilicet <name ref="#Augustine">Augustinus</name> <name ref="#anselm">Anshelmus</name> et alii 
-            <lb ed="#E"/>semper obiectum fruitionis ponunt trinitatem unde <name>augustinus</name> Rationes quibus fruendum est 
+            <lb ed="#E" n="32"/>semper obiectum fruitionis ponunt trinitatem unde <name>augustinus</name> Rationes quibus fruendum est 
           </p>
           <p xml:id="ppr-l54-isaesp">
             Item sicut alias 
-            <lb ed="#E"/>dictum est ratio fruibilitatis est essentialis ergo est indivisa et indivise conpetit cuilibet personarum 
-            <lb ed="#E"/>quod sit essentialis patet nam dicit summam perfectionem et habet rationem bonitatis ideo est ratio communis cuilibet per<lb ed="#E" break="no"/>sonarum 
+            <lb ed="#E" n="33"/>dictum est ratio fruibilitatis est essentialis ergo est indivisa et indivise conpetit cuilibet personarum 
+            <lb ed="#E" n="34"/>quod sit essentialis patet nam dicit summam perfectionem et habet rationem bonitatis ideo est ratio communis cuilibet per<lb ed="#E" break="no" n="35"/>sonarum 
             igitur non stat quod aliquis fruatur aliqua quin qualibet 
           </p>
           <p xml:id="ppr-l54-insqei">
-            <lb ed="#E"/>Item ponatur quod sortes beatificetur 
-            <lb ed="#E"/>in a scilicet patre videndo solum patrem et plato in <c>b</c> scilicet filio et Cycero <unclear>in</unclear> scilicet spiritu sancto 
+            <lb ed="#E" n="36"/>Item ponatur quod sortes beatificetur 
+            <lb ed="#E" n="37"/>in a scilicet patre videndo solum patrem et plato in <c>b</c> scilicet filio et Cycero <unclear>in</unclear> scilicet spiritu sancto 
             sic erunt illi tres beati et erunt plures fines ultimi et plura obiecta fruitionis 
           </p>
           <p xml:id="ppr-l54-isqfid">
             Item sequitur 
-            <lb ed="#E"/>quod staret sortem esse amatum patris in divinis et tamen non esset amicus filii patet ponamus 
+            <lb ed="#E" n="38"/>quod staret sortem esse amatum patris in divinis et tamen non esset amicus filii patet ponamus 
             quod videat patrem solum et diligat et viceversa pater sortem tunc inter patrem et sortem 
-            <lb ed="#E"/>est mutua benivolentia et non in sortem et filium 
+            <lb ed="#E" n="39"/>est mutua benivolentia et non in sortem et filium 
           </p>
           <p xml:id="ppr-l54-iochaa">
             Ockam facit unam rationem quae videtur 
-            <lb ed="#E"/>sibi satis apparens quia de una persona non debet aliqui affirmari quod negatur de alia vel 
-            <lb ed="#E"/>de essentia nisi sacra scriptura vel determinatio ecclesiae vel alia auctoritas cui non licet contra<lb ed="#E" break="no"/>dicere 
+            <lb ed="#E" n="40"/>sibi satis apparens quia de una persona non debet aliqui affirmari quod negatur de alia vel 
+            <lb ed="#E" n="41"/>de essentia nisi sacra scriptura vel determinatio ecclesiae vel alia auctoritas cui non licet contra<lb ed="#E" break="no" n="42"/>dicere 
             liget ad hoc vel nisi ratio convincens sit ad hoc istud ponit tamquam principium 
-            <lb ed="#E"/>quia sunt idem modo in proposito est sic scilicet dicere quod essentia videtur et pater non videtur unde
+            <lb ed="#E" n="43"/>quia sunt idem modo in proposito est sic scilicet dicere quod essentia videtur et pater non videtur unde
             <pb ed="#E" n="76-r"/>
-            <lb ed="#E"/>ad istud non videtur esse aliqua auctoritas scripturae ymmo magis scriptura videtur esse <del rend="expunctuation">mag</del> ad contrarium 
-            <lb ed="#E"/>nam concedere duo contradictoria de rebus ydemptite concurrentibus videtur magnum inconveniens ubi 
-            <lb ed="#E"/>fides nos non cogit
+            <lb ed="#E" n="1"/>ad istud non videtur esse aliqua auctoritas scripturae ymmo magis scriptura videtur esse <del rend="expunctuation">mag</del> ad contrarium 
+            <lb ed="#E" n="2"/>nam concedere duo contradictoria de rebus ydemptite concurrentibus videtur magnum inconveniens ubi 
+            <lb ed="#E" n="3"/>fides nos non cogit
           </p>
         </div>
         <div xml:id="ppr-l54-Dd1e259">
           <head xml:id="ppr-l54-Hqascst">Quod aliqua sunt praedicata quae competunt Deo ab aeterno et aliqua quae competunt sibi temporaliter</head>
           <p xml:id="ppr-l54-aeqsda">
-            <lb ed="#E"/>Advertendum quod aliqua sunt praedicata quae competunt deo ab aeterno et aliqua 
-            <lb ed="#E"/>temporaliter Illa quae competunt deo ab aeterno sunt in multiplici differentia quaedam sunt absoluta et 
-            <lb ed="#E"/>essentialia sicut esse sapientem esse bonum esse perfectum et sic de aliis absolutis praedicatis dicentibus perfectionem simpliciter 
+            <lb ed="#E" n="4"/>Advertendum quod aliqua sunt praedicata quae competunt deo ab aeterno et aliqua 
+            <lb ed="#E" n="5"/>temporaliter Illa quae competunt deo ab aeterno sunt in multiplici differentia quaedam sunt absoluta et 
+            <lb ed="#E" n="6"/>essentialia sicut esse sapientem esse bonum esse perfectum et sic de aliis absolutis praedicatis dicentibus perfectionem simpliciter 
           </p>
           <p xml:id="ppr-l54-asqsdc">
-            <lb ed="#E"/>Alia competunt deo ab aeterno ratione aeternae <del rend="expunctuation">deampnationis</del> emanationis vel productionis 
-            <lb ed="#E"/>ad intra ut generare esse patrem generari esse filium spirare esse patrem esse filium spirari esse spiritum sanctum 
+            <lb ed="#E" n="7"/>Alia competunt deo ab aeterno ratione aeternae <del rend="expunctuation">deampnationis</del> emanationis vel productionis 
+            <lb ed="#E" n="8"/>ad intra ut generare esse patrem generari esse filium spirare esse patrem esse filium spirari esse spiritum sanctum 
             <!-- break? -->
-            <lb ed="#E"/>Alia competant deo ex tempore et hoc dupliciter Quodam competunt ratione operationis suae temporalis 
-            <lb ed="#E"/>sicut creator creare vel creans Nam ex operatione sua illa sibi competunt 
+            <lb ed="#E" n="9"/>Alia competant deo ex tempore et hoc dupliciter Quodam competunt ratione operationis suae temporalis 
+            <lb ed="#E" n="10"/>sicut creator creare vel creans Nam ex operatione sua illa sibi competunt 
           </p> 
           <p xml:id="ppr-l54-acssda">
             Alia competunt deo ratione 
-            <lb ed="#E"/>operationis creaturae sicut cognosci amari honorari toli et sic de aliis
+            <lb ed="#E" n="11"/>operationis creaturae sicut cognosci amari honorari toli et sic de aliis
           </p> 
           <p xml:id="ppr-l54-qapapa">
             Quantum ad prima praedicata quodlibet 
-            <lb ed="#E"/>est commune toti essentiae et cuilibet personarum per se et omnibus similis nam essentia est sapiens et est ens 
-            <lb ed="#E"/>et tota trinitas et quaelibet personarum et sic de aliis absolutis perfectionis
+            <lb ed="#E" n="12"/>est commune toti essentiae et cuilibet personarum per se et omnibus similis nam essentia est sapiens et est ens 
+            <lb ed="#E" n="13"/>et tota trinitas et quaelibet personarum et sic de aliis absolutis perfectionis
           </p>
           <p xml:id="ppr-l54-qlcsda">
             Quantum est de relativis competunt 
-            <lb ed="#E"/>aliqua aliquibus et alia aliis sicut generare soli patri generari soli filio spirare patri et filio spi<lb ed="#E" break="no"/>rari 
+            <lb ed="#E" n="14"/>aliqua aliquibus et alia aliis sicut generare soli patri generari soli filio spirare patri et filio spi<lb ed="#E" break="no" n="15"/>rari 
             spiritu sancto
           </p>
           <p xml:id="ppr-l54-qedecp">
-            <lb ed="#E"/>Quantum est de tertiis quae competunt sibi ratione operationibus suae <del rend="strikethrough">dicti</del> dicunt 
-            <lb ed="#E"/>doctores quod ista praedicata sunt communia essentiae et cuilibet personarum Ita quod non stat quod aliqua 
-            <lb ed="#E"/>persona creet quin essentia creet et quaelibet personarum et sic de omnibus aliis scilicet gubernare dirigere 
-            <lb ed="#E"/>etc qui sibi attribuuntur Consimiliter de aliis dicitur quod quilibet tale indifferenter conpetit essentiae et 
-            <lb ed="#E"/>cuilibet personarum 
+            <lb ed="#E" n="16"/>Quantum est de tertiis quae competunt sibi ratione operationibus suae <del rend="strikethrough">dicti</del> dicunt 
+            <lb ed="#E" n="17"/>doctores quod ista praedicata sunt communia essentiae et cuilibet personarum Ita quod non stat quod aliqua 
+            <lb ed="#E" n="18"/>persona creet quin essentia creet et quaelibet personarum et sic de omnibus aliis scilicet gubernare dirigere 
+            <lb ed="#E" n="19"/>etc qui sibi attribuuntur Consimiliter de aliis dicitur quod quilibet tale indifferenter conpetit essentiae et 
+            <lb ed="#E" n="20"/>cuilibet personarum 
           </p> 
           <p xml:id="ppr-l54-uspvtt">
             unde si non esset cognitus pater et essentia cognita est et tota trinitas et ita de 
@@ -202,90 +199,90 @@
           <head xml:id="ppr-l54-Huniaqp">Utrum notitia intuitiva immediate terminatat ad Deum terminetur ad essentiam et ad quamlibet personam?</head>
           <p xml:id="ppr-l54-athias">
             Advertendum quod proprie loquendo difficultas principalis non solvitur per istud 
-            <lb ed="#E"/>nam 2m istam viam concederetur quod quilibet qui cognoscit deum etiam trinitatem cognoscit 
-            <lb ed="#E"/>quia illam quae est trinitas cognoscit et ita etiam philosophi trinitatem cognoverunt et deum qui est pater 
-            <lb ed="#E"/>etc Sed hic non est radix difficultatis in se tamen quantum ad illum modum explanandi doctores 
-            <lb ed="#E"/>locuti sunt unde staret quod aliquis trinitatem concederet et negaret trinitatem et faciliter 
+            <lb ed="#E" n="21"/>nam 2m istam viam concederetur quod quilibet qui cognoscit deum etiam trinitatem cognoscit 
+            <lb ed="#E" n="22"/>quia illam quae est trinitas cognoscit et ita etiam philosophi trinitatem cognoverunt et deum qui est pater 
+            <lb ed="#E" n="23"/>etc Sed hic non est radix difficultatis in se tamen quantum ad illum modum explanandi doctores 
+            <lb ed="#E" n="24"/>locuti sunt unde staret quod aliquis trinitatem concederet et negaret trinitatem et faciliter 
           </p>
           <p xml:id="ppr-l54-sdeepd">
             respondetur 
-            <lb ed="#E"/>quod diceretur quod non diligeret personam veniendo ad punctum difficultatis ipsa est de notitia intui<lb ed="#E" break="no"/>tiva
+            <lb ed="#E" n="25"/>quod diceretur quod non diligeret personam veniendo ad punctum difficultatis ipsa est de notitia intui<lb ed="#E" break="no" n="26"/>tiva
             inmediate terminata ad deum Ita quod difficultas est utrum stat habere notitiam intuitivam intellectu 
-            <lb ed="#E"/>de deo virtute cuius intellectus potest elicere evidens iudicium quia illa res est essentia et tamen virtute 
-            <lb ed="#E"/>eiusdem non potest elicere iudicium quia huiusmodi res sit persona vel personae
+            <lb ed="#E" n="27"/>de deo virtute cuius intellectus potest elicere evidens iudicium quia illa res est essentia et tamen virtute 
+            <lb ed="#E" n="28"/>eiusdem non potest elicere iudicium quia huiusmodi res sit persona vel personae
           </p>
           <p xml:id="ppr-l54-ebcdid">
             <pc type="virgula">/</pc> Teneo quod nullo modo stat quod 
-            <lb ed="#E"/>aliquis habeat notitiam intuitivam divinae essentiae ante evidenter possit elicere iudicium quod est tres 
-            <lb ed="#E"/>personae scilicet pater filius et spiritus sanctus Ita quod in illa notitia relucent tres personae repraesentatione simplici 
-            <lb ed="#E"/>virtute cuius potest elicere quod est essentia pater et filius et spiritus sanctus 
+            <lb ed="#E" n="29"/>aliquis habeat notitiam intuitivam divinae essentiae ante evidenter possit elicere iudicium quod est tres 
+            <lb ed="#E" n="30"/>personae scilicet pater filius et spiritus sanctus Ita quod in illa notitia relucent tres personae repraesentatione simplici 
+            <lb ed="#E" n="31"/>virtute cuius potest elicere quod est essentia pater et filius et spiritus sanctus 
             <!-- break ? --> 
             Alii dicunt quod stat aliquam habere 
-            <lb ed="#E"/>intuitivam notitiam incomplexam et quod vi illius non potest elicere quod sit trinus in personis 
+            <lb ed="#E" n="32"/>intuitivam notitiam incomplexam et quod vi illius non potest elicere quod sit trinus in personis 
           </p> 
           <p xml:id="ppr-l54-epqicp">
             Probo quod intentio 
-            <lb ed="#E"/>salvatoris fuit loqui secundum divinitatem suam quando dicit Qui videt me etc Quia illa visio 
-            <lb ed="#E"/>corporalis non ostendebat patrem quia non potest elici vi illius visionis quod fuit 
-            <lb ed="#E"/>pater vel filius etc 
+            <lb ed="#E" n="33"/>salvatoris fuit loqui secundum divinitatem suam quando dicit Qui videt me etc Quia illa visio 
+            <lb ed="#E" n="34"/>corporalis non ostendebat patrem quia non potest elici vi illius visionis quod fuit 
+            <lb ed="#E" n="35"/>pater vel filius etc 
           </p>
           <p xml:id="ppr-l54-escqce">
             Istud fundatur maxime in ratione facta de concursu obiectivo quia obiectivus concursus 
-            <lb ed="#E"/>est operatio adextra et sic sequitur essentiam divina concurrit obiective igitur quaelibet personarum et igitur quaelibet cog<lb ed="#E" break="no"/>noscitur 
+            <lb ed="#E" n="36"/>est operatio adextra et sic sequitur essentiam divina concurrit obiective igitur quaelibet personarum et igitur quaelibet cog<lb ed="#E" break="no" n="37"/>noscitur 
             et ista ratio et michi multum apparens
           </p>
           <p xml:id="ppr-l54-ipiqcc">
             Item propter ydempticam rationem diligibilitatis 
-            <lb ed="#E"/>et cognoscibilitatis quia illa est mere eadem ideo non stat quod obiciatur quando cognoscatur omne 
-            <lb ed="#E"/>illud cui competit illa ratio
+            <lb ed="#E" n="38"/>et cognoscibilitatis quia illa est mere eadem ideo non stat quod obiciatur quando cognoscatur omne 
+            <lb ed="#E" n="39"/>illud cui competit illa ratio
           </p>
           <p xml:id="ppr-l54-ieheet">
             Item alia tacta sunt ad istud idem probandum ymaginandum consequenter 
-            <lb ed="#E"/>quod prima ratio secundum quam deus obicitur intuitive est ipsum esse trinum quia illa est ratio constituitiva 
-            <lb ed="#E"/>dei 
+            <lb ed="#E" n="40"/>quod prima ratio secundum quam deus obicitur intuitive est ipsum esse trinum quia illa est ratio constituitiva 
+            <lb ed="#E" n="41"/>dei 
           </p>
           <!-- fuzzy break -->
           <p xml:id="ppr-l54-iedsct">
             Ita quod deus sic est deus quod est tres personae vel essentia dei est tres personae et sic illa est prima 
-            <lb ed="#E"/>ratio et sic dico ratio entis quantum ad deum praesupponit illam rationem
+            <lb ed="#E" n="42"/>ratio et sic dico ratio entis quantum ad deum praesupponit illam rationem
           </p>
           <p xml:id="ppr-l54-citpvp">
             Contra istud arguit quidam 
-            <lb ed="#E"/>modernus doctor nam intellectus potest habere notitiam intuitivam de aliqua re et tamen dubitare 
-            <lb ed="#E"/>cuius speciei sit res visa et per consequens a fortiori potest dubitare dere individuali antecedens probatur per experientiam 
+            <lb ed="#E" n="43"/>modernus doctor nam intellectus potest habere notitiam intuitivam de aliqua re et tamen dubitare 
+            <lb ed="#E" n="44"/>cuius speciei sit res visa et per consequens a fortiori potest dubitare dere individuali antecedens probatur per experientiam 
             <pb ed="#E" n="76-v"/>
-            <lb ed="#E"/>Quae solet adduci circa primum physicorum Quia stat quod aliquas videat aliquod ens 
-            <lb ed="#E"/>et tamen non potest elicere cuius generis proximi sit illa res nec speciei nec quale individuum Ita etiam 
-            <lb ed="#E"/>proportionaliter potest stare quod aliquis angelus praesentetur alteri angelo in tanta distantia quod dubitaret 
-            <lb ed="#E"/>utrum esset anima rationalis vel de genere angelorum et sic consequenter staret descendere a pluribus noticiis ad 
-            <lb ed="#E"/>inperfectores etc Ita de essentia divina staret quod intellectus non posset iudicare vi alicuius notitiae 
-            <lb ed="#E"/>intuitive quam haberet de deo vel non posset elicere quod esset deus vel deitas sed quod esset an<lb ed="#E" break="no"/>gelus 
+            <lb ed="#E" n="1"/>Quae solet adduci circa primum physicorum Quia stat quod aliquas videat aliquod ens 
+            <lb ed="#E" n="2"/>et tamen non potest elicere cuius generis proximi sit illa res nec speciei nec quale individuum Ita etiam 
+            <lb ed="#E" n="3"/>proportionaliter potest stare quod aliquis angelus praesentetur alteri angelo in tanta distantia quod dubitaret 
+            <lb ed="#E" n="4"/>utrum esset anima rationalis vel de genere angelorum et sic consequenter staret descendere a pluribus noticiis ad 
+            <lb ed="#E" n="5"/>inperfectores etc Ita de essentia divina staret quod intellectus non posset iudicare vi alicuius notitiae 
+            <lb ed="#E" n="6"/>intuitive quam haberet de deo vel non posset elicere quod esset deus vel deitas sed quod esset an<lb ed="#E" break="no" n="7"/>gelus 
             et sic diligeret hoc visum et non sub ratione deitatis nec trinitatis nec alicuius personae
           </p>
           <p xml:id="ppr-l54-reqned">
             Respondendum 
-            <lb ed="#E"/>est quod ista ratio procedit ex falsa ymaginatione propter comparationem notitiae intuitive de cre<lb ed="#E" break="no"/>atura 
+            <lb ed="#E" n="8"/>est quod ista ratio procedit ex falsa ymaginatione propter comparationem notitiae intuitive de cre<lb ed="#E" break="no" n="9"/>atura 
             Nam notitia de creatura hic in via communiter causatur mediante <subst><del rend="strikethrough">ordine</del> <add place="above-line">organo</add></subst> corporeo et 
-            <lb ed="#E"/>secundum quod res est nimis distans causatur debilior notitia Et utrum sint eiusdem speciei non discu<lb ed="#E" break="no"/>tio 
+            <lb ed="#E" n="10"/>secundum quod res est nimis distans causatur debilior notitia Et utrum sint eiusdem speciei non discu<lb ed="#E" break="no" n="11"/>tio 
             pro praesenti videtur quod sic quia causatur a similibus causis videtur quod non quia virtute unius 
-            <lb ed="#E"/>non potest elici iudicium cuius speciei sit res visa et virtute alterius potest 
+            <lb ed="#E" n="12"/>non potest elici iudicium cuius speciei sit res visa et virtute alterius potest 
           </p>
           <p xml:id="ppr-l54-taprvc">
             Concedo sibi de 
-            <lb ed="#E"/>notitia intuitiva creaturae quae causatur mediante organo corporeo quod potest esse aliqua 
-            <lb ed="#E"/>talis virtute cuius non potest elici iudicium cuius speciei sit res visa igitur sic erit de deo nego consequentiam 
-            <lb ed="#E"/>Et est duplex causa prima est quia deus non praesentatur 2m aliquam distantiam 
-            <lb ed="#E"/>quia se toto praesens est animae et concurrit obiective et praesentissimus est Secunda causa est quia intellectus 
-            <lb ed="#E"/>videndo deum intuitive nec mediante utitur organo corporali quod facit respectu visionis creaturae etc
+            <lb ed="#E" n="13"/>notitia intuitiva creaturae quae causatur mediante organo corporeo quod potest esse aliqua 
+            <lb ed="#E" n="14"/>talis virtute cuius non potest elici iudicium cuius speciei sit res visa igitur sic erit de deo nego consequentiam 
+            <lb ed="#E" n="15"/>Et est duplex causa prima est quia deus non praesentatur 2m aliquam distantiam 
+            <lb ed="#E" n="16"/>quia se toto praesens est animae et concurrit obiective et praesentissimus est Secunda causa est quia intellectus 
+            <lb ed="#E" n="17"/>videndo deum intuitive nec mediante utitur organo corporali quod facit respectu visionis creaturae etc
           </p>
           <p xml:id="ppr-l54-esdrnc">
             Quantum esset de hoc quod unus angelus videret alium ad minimam distantiam admittatur 
-            <lb ed="#E"/>casus licet forte non sit possibilis ergo ita erit de deo nego consequentiam propter causam applicationis 
-            <lb ed="#E"/>Quia deus non potest distare a nobis nec potest esse causa inperfectionis notitiae et sit procedunt 
-            <lb ed="#E"/>ex hoc quod non advertunt dissimilitudinem obiectorum concurrentium quia ista removeretur respectu notitiae 
-            <lb ed="#E"/>et sic procedunt ex hoc quod non advertunt dissimilitudinem obiectorum concurrentium quia iste re<lb ed="#E" break="no"/>moveretur 
+            <lb ed="#E" n="18"/>casus licet forte non sit possibilis ergo ita erit de deo nego consequentiam propter causam applicationis 
+            <lb ed="#E" n="19"/>Quia deus non potest distare a nobis nec potest esse causa inperfectionis notitiae et sit procedunt 
+            <lb ed="#E" n="20"/>ex hoc quod non advertunt dissimilitudinem obiectorum concurrentium quia ista removeretur respectu notitiae 
+            <lb ed="#E" n="21"/>et sic procedunt ex hoc quod non advertunt dissimilitudinem obiectorum concurrentium quia iste re<lb ed="#E" break="no" n="22"/>moveretur 
             respectu notitiae intuitivae dei Etiam deus agit et concurrit obiective semper ut trinum suppositum 
-            <lb ed="#E"/>ita quod illa ratio est primo simpliciter 
+            <lb ed="#E" n="23"/>ita quod illa ratio est primo simpliciter 
           </p>
         </div>
         <div xml:id="ppr-l54-Dd1e375">
@@ -293,26 +290,26 @@
           <div xml:id="ppr-l54-Dd1e380">
             <head xml:id="ppr-l54-Hpriima">Prima</head>
             <p xml:id="ppr-l54-cdadsp">
-              Arguitur contra dicta primo probatur quod una persona potest sine alia dili<lb ed="#E" break="no"/>gi 
+              Arguitur contra dicta primo probatur quod una persona potest sine alia dili<lb ed="#E" break="no" n="24"/>gi 
               vel videri quia una potest incarnari sine alia igitur videri vel diligi consequentia notatur quia non 
-              <lb ed="#E"/>apparet maiori difficultas vel incompossibilitas de uno quam de alio antecedens patet quia solus 
-              <lb ed="#E"/>filius est incarnatus
+              <lb ed="#E" n="25"/>apparet maiori difficultas vel incompossibilitas de uno quam de alio antecedens patet quia solus 
+              <lb ed="#E" n="26"/>filius est incarnatus
             </p>
           </div>
           <div xml:id="ppr-l54-Dd1e389">
             <head xml:id="ppr-l54-Hsecnda">Secunda</head>
             <p xml:id="ppr-l54-spncsa">
               Secundo potest non est spiritus sanctus ista propositio est vera vel ergo extrema servit penitus 
-              <lb ed="#E"/>idem vel non si primum tunc esset falsa quia ibi esset negatio eiusdem de se ergo oportet quod unus terminus 
-              <lb ed="#E"/>significet aliquid quod non significat reliquus et non aliud nisi personam igitur etc
+              <lb ed="#E" n="27"/>idem vel non si primum tunc esset falsa quia ibi esset negatio eiusdem de se ergo oportet quod unus terminus 
+              <lb ed="#E" n="28"/>significet aliquid quod non significat reliquus et non aliud nisi personam igitur etc
             </p>
           </div>
           <div xml:id="ppr-l54-Dd1e398">
             <head xml:id="ppr-l54-Htertia">Tertia</head>
             <p xml:id="ppr-l54-icacsp">
               Tertio conceptus 
-              <lb ed="#E"/>mere absolutus non dependet a respectivo ymmo prior est ideo potest haberi conceptus absolutus de deo absque 
-              <lb ed="#E"/>hoc quod habeatur relativus quo dato habetur propositum scilicet quod cognoscatur essentia et non pater 
+              <lb ed="#E" n="29"/>mere absolutus non dependet a respectivo ymmo prior est ideo potest haberi conceptus absolutus de deo absque 
+              <lb ed="#E" n="30"/>hoc quod habeatur relativus quo dato habetur propositum scilicet quod cognoscatur essentia et non pater 
               et eodem modo de dilectione
             </p>
           </div>
@@ -321,55 +318,55 @@
             <p xml:id="ppr-l54-iipesp">
               Quarto intellectus potest dictare quod producens summum bonum 
               est summe diligendum 
-              <lb ed="#E"/>et voluntas potest se illi dictamini conformare et tunc diligeret praecise patrem quia praecise pater 
-              <lb ed="#E"/>producibilis summum bonum scilicet filium in divinis
+              <lb ed="#E" n="31"/>et voluntas potest se illi dictamini conformare et tunc diligeret praecise patrem quia praecise pater 
+              <lb ed="#E" n="32"/>producibilis summum bonum scilicet filium in divinis
             </p>
           </div>
           <div xml:id="ppr-l54-Dd1e420">
             <head xml:id="ppr-l54-Hquinta">Quinta</head>
             <p xml:id="ppr-l54-ifpdur">
               Quinto quia filius potest ab aliquo plus diligi 
-              <lb ed="#E"/>quam pater ab eodem igitur etc Antecedens probatur quia filius potest diligi tamquam redemptor ultra patrem
+              <lb ed="#E" n="33"/>quam pater ab eodem igitur etc Antecedens probatur quia filius potest diligi tamquam redemptor ultra patrem
             </p>
           </div>
           <div xml:id="ppr-l54-Dd1e429">
             <head xml:id="ppr-l54-Hsexxta">Sexta</head>
             <p xml:id="ppr-l54-impdpt">
               Sexto 
-              <lb ed="#E"/>magi pharaonis habuerunt praecise cognitionem duarum personarum unde defecerunt in 3o signo ut 
-              <lb ed="#E"/>philosophi antiqui aliqui igitur potuerunt diligere duas personas sive 3a
+              <lb ed="#E" n="34"/>magi pharaonis habuerunt praecise cognitionem duarum personarum unde defecerunt in 3o signo ut 
+              <lb ed="#E" n="35"/>philosophi antiqui aliqui igitur potuerunt diligere duas personas sive 3a
             </p>
           </div>
           <div xml:id="ppr-l54-Dd1e441">
             <head xml:id="ppr-l54-Hsepima">Septima</head>
             <p xml:id="ppr-l54-idpsdc">
               Septimo de personis 
-              <lb ed="#E"/>sunt tres distincti articuli ergo distincte cognitiones ergo una potest haberi sine alia
+              <lb ed="#E" n="36"/>sunt tres distincti articuli ergo distincte cognitiones ergo una potest haberi sine alia
             </p>
           </div>
           <div xml:id="ppr-l54-Dd1e450">
             <head xml:id="ppr-l54-Hoctava">Octava</head>
             <p xml:id="ppr-l54-ipeapd">
               Octavo arguit 
-              <lb ed="#E"/><name ref="#Scotus">scotus</name> Quia pater est prior origine filio scilicet antequam generet filium unde ipse ymaginatur instantia 
-              <lb ed="#E"/>naturae et non temporis quantum ad hoc et sic pater est perfecte beatus in instanti ymaginario in quo non produxit 
-              <lb ed="#E"/>filium igitur pro tunc dilexit se plus quam filium ergo etc
+              <lb ed="#E" n="37"/><name ref="#Scotus">scotus</name> Quia pater est prior origine filio scilicet antequam generet filium unde ipse ymaginatur instantia 
+              <lb ed="#E" n="38"/>naturae et non temporis quantum ad hoc et sic pater est perfecte beatus in instanti ymaginario in quo non produxit 
+              <lb ed="#E" n="39"/>filium igitur pro tunc dilexit se plus quam filium ergo etc
             </p>
           </div>
           <div xml:id="ppr-l54-Dd1e462">
             <head xml:id="ppr-l54-Hnonona">Nona</head>
             <p xml:id="ppr-l54-iassir">
               Nono et est alia ratio <name ref="#Scotus">scoti</name> quia quantum 
-              <lb ed="#E"/>aliquis actus habet duo obiecta unum primarium et aliud secundarium talis actus potest absolvi a se<lb ed="#E" break="no"/>cundario 
+              <lb ed="#E" n="40"/>aliquis actus habet duo obiecta unum primarium et aliud secundarium talis actus potest absolvi a se<lb ed="#E" break="no" n="41"/>cundario 
               modo obiectum primarium est divina essentia in ratione propria et secundarium obiectum sunt divinae 
               <pb ed="#E" n="77-r"/>
-              <lb ed="#E"/>relationes seu proprietates personarum igitur etc ut de visione qua videtur essentia divina 
-              <lb ed="#E"/>obiectum primarium est essentia divina et secundarium est creaturae ita in proposito divino proprietates 
-              <lb ed="#E"/>non possunt movere sine essentia sed <unclear>bene<!-- unde?--></unclear> econtra et ideo divinae proprietates habent se tamquam 
-              <lb ed="#E"/>obiectum secundarium et essentia sicut primarium <!-- break? --><pc type="#pilcrow"/>Advertendum quod potest dici quando dicitur 
-              <lb ed="#E"/>per <name>beatum augustinum</name> quod operae trinitatis etc intelligitur quantum ad producere sed non quantum ad terminare 
-              <lb ed="#E"/>et sic secunda persona determinat dependentiam humanitatis et sic una persona posset videri sine 
-              <lb ed="#E"/>alia quia una persona <seg type="correction"><subst><del>per</del><add place="in-line">p</add></subst>otest</seg> terminare actum videndi etc
+              <lb ed="#E" n="1"/>relationes seu proprietates personarum igitur etc ut de visione qua videtur essentia divina 
+              <lb ed="#E" n="2"/>obiectum primarium est essentia divina et secundarium est creaturae ita in proposito divino proprietates 
+              <lb ed="#E" n="3"/>non possunt movere sine essentia sed <unclear>bene<!-- unde?--></unclear> econtra et ideo divinae proprietates habent se tamquam 
+              <lb ed="#E" n="4"/>obiectum secundarium et essentia sicut primarium <!-- break? --><pc type="#pilcrow"/>Advertendum quod potest dici quando dicitur 
+              <lb ed="#E" n="5"/>per <name>beatum augustinum</name> quod operae trinitatis etc intelligitur quantum ad producere sed non quantum ad terminare 
+              <lb ed="#E" n="6"/>et sic secunda persona determinat dependentiam humanitatis et sic una persona posset videri sine 
+              <lb ed="#E" n="7"/>alia quia una persona <seg type="correction"><subst><del>per</del><add place="in-line">p</add></subst>otest</seg> terminare actum videndi etc
             </p>
           </div>
         </div>

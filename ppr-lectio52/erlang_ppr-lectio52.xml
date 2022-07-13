@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,205 +54,205 @@
           <head xml:id="ppr-l52-Hpcqtid">Propositiones circa qualiter tota natura tendit in deum</head>
           <p xml:id="ppr-l52-ahchaa">
             <lb ed="#E" n="12"/>Alia lectio 61a
-            <lb ed="#E"/>Ad habendum clariorem intellectum qualiter tota natura tendit in deum ultimate sunt 
-            <lb ed="#E"/>aliqua advertenda
+            <lb ed="#E" n="13"/>Ad habendum clariorem intellectum qualiter tota natura tendit in deum ultimate sunt 
+            <lb ed="#E" n="14"/>aliqua advertenda
           </p>
           <div xml:id="ppr-l52-Dd1e117">
             <head xml:id="ppr-l52-Hqncirt">Quod nulla creatura habet intrinseca rationem terminandi</head>
             <p xml:id="ppr-l52-ereasi">
               et repetenda est radix prius tacta scilicet quod nulla creatura habet intrinsece rationem 
-              <lb ed="#E"/>terminandi ideo non potest esse ordinate diligibilis ultimate vel appetibilis sine appetitu <del rend="expunctuation">naturali</del> 
-              <lb ed="#E"/>rationali sive irrationabili sive animali sive naturali
+              <lb ed="#E" n="15"/>terminandi ideo non potest esse ordinate diligibilis ultimate vel appetibilis sine appetitu <del rend="expunctuation">naturali</del> 
+              <lb ed="#E" n="16"/>rationali sive irrationabili sive animali sive naturali
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e128">
             <head xml:id="ppr-l52-Hqaasac">Quod ab appetitu finis, medii potest simpliciter absolvi creatura</head>
             <p xml:id="ppr-l52-eeisac">
               Sequitur primo quod ab appetitu finis medii potest simpliciter 
-              <lb ed="#E"/>absolvi creatura
+              <lb ed="#E" n="17"/>absolvi creatura
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e137">
             <head xml:id="ppr-l52-Hqfqion">Quod finis quo non est necessarius in operationibus naturalibus</head>
             <p xml:id="ppr-l52-eqseae">
               Secundo sequitur quod finis quo non est neccessarius in operationibus naturalibus patet quia 
-              <lb ed="#E"/>finis quo semper est aliquid circa deum cuius habitudo est absolubilis igitur
+              <lb ed="#E" n="18"/>finis quo semper est aliquid circa deum cuius habitudo est absolubilis igitur
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e147">
             <head xml:id="ppr-l52-qneefc">Quod non est necesse quod forma et finis coincidant</head>
             <p xml:id="ppr-l52-suqauf">
               Sequitur ulterius quod non est neccesse 
-              <lb ed="#E"/>quod forma et finis coincidant ita quod stat agens naturale producere effectum formam et non in<lb ed="#E" break="no"/>tendere 
+              <lb ed="#E" n="19"/>quod forma et finis coincidant ita quod stat agens naturale producere effectum formam et non in<lb ed="#E" break="no" n="20"/>tendere 
               nisi in ultimum finem nam habitudo quo ad suum finem quo est <del rend="strikethrough">finaliter contingens</del> simpliciter contingens
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e156">
             <head xml:id="ppr-l52-Hqaaces">Quod appetitum animae ad suum corpus esse solubile</head>
             <p xml:id="ppr-l52-eqsarc">
-              <lb ed="#E"/>Sequitur appetitum animae ad suum corpus esse solubilem id est stat quod anima non inclinetur 
-              <lb ed="#E"/>ad suum corpus patet quia inclinatio eius est ad aliquod creatum non rationem finis vel rei 
-              <lb ed="#E"/>naturalis
+              <lb ed="#E" n="21"/>Sequitur appetitum animae ad suum corpus esse solubilem id est stat quod anima non inclinetur 
+              <lb ed="#E" n="22"/>ad suum corpus patet quia inclinatio eius est ad aliquod creatum non rationem finis vel rei 
+              <lb ed="#E" n="23"/>naturalis
             </p> 
           </div>
           <div xml:id="ppr-l52-Dd1e169">
             <head xml:id="ppr-l52-Hqahpep">Quod anima humana separat potest esse persona</head><!-- parallel to d149Hqahpep -->
             <p xml:id="ppr-l52-eqppep">
-              Ex quo patet quod opinio <name ref="#Lombard">magistri</name> de personalitate animae licet non sit vera est tamen pro<lb ed="#E" break="no"/>babilis 
+              Ex quo patet quod opinio <name ref="#Lombard">magistri</name> de personalitate animae licet non sit vera est tamen pro<lb ed="#E" break="no" n="24"/>babilis 
               scilicet quod <quote xml:id="ppr-l52-Qd1e185" source="http://scta.info/resource/pl-l3d5c3-d1e124">humana separata sit personae</quote> Doctores communiter dicunt contra in gratiam quia 
-              <lb ed="#E"/>persona debet esse subsistentia quae non innitur alicui tamquam pars vel forma ita quod non 
-              <lb ed="#E"/>appetit adhaerendum nec ad esse partem Ex radice tacta huiusmodi inclinatio non est necessaria nec est 
-              <lb ed="#E"/>essentialis animae ymmo deus potest eum absolvere ab huiusmodi inclinatione
+              <lb ed="#E" n="25"/>persona debet esse subsistentia quae non innitur alicui tamquam pars vel forma ita quod non 
+              <lb ed="#E" n="26"/>appetit adhaerendum nec ad esse partem Ex radice tacta huiusmodi inclinatio non est necessaria nec est 
+              <lb ed="#E" n="27"/>essentialis animae ymmo deus potest eum absolvere ab huiusmodi inclinatione
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e202">
             <head xml:id="ppr-l52-Hqnrasa">Quod non repugnat angelo quod desinat esse persona absque sui assumptione</head>
             <p xml:id="ppr-l52-seqeap">
               Sequitur quod non repugnat 
-              <lb ed="#E"/>angelo quod desinat esse persona absque sui assumptione unde non est dubium si natura angelica
-              <lb ed="#E"/>assumeretur a deo non esset persona nec suppositum Ego dico amplius scilicet quod absque hoc potest 
-              <lb ed="#E"/>desinere esse persona nam sicut habitudo animae ad corpus posset absolvi ab anima ita deus potest angelo 
-              <lb ed="#E"/>huiusmodi inclinationem addere et inclinare ad aliquam materiam quo dato desinit esse persona absque etc
+              <lb ed="#E" n="28"/>angelo quod desinat esse persona absque sui assumptione unde non est dubium si natura angelica
+              <lb ed="#E" n="29"/>assumeretur a deo non esset persona nec suppositum Ego dico amplius scilicet quod absque hoc potest 
+              <lb ed="#E" n="30"/>desinere esse persona nam sicut habitudo animae ad corpus posset absolvi ab anima ita deus potest angelo 
+              <lb ed="#E" n="31"/>huiusmodi inclinationem addere et inclinare ad aliquam materiam quo dato desinit esse persona absque etc
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e211">
             <head xml:id="ppr-l52-Hqsgicm">Quod stat grave absolvi a tendentia in centrum mundi</head>
             <p xml:id="ppr-l52-suqsnp">
-              <lb ed="#E"/>Sequitur ulterius quod stat grave absolvi a tendentia in centrum mundi patet quia nullius naturae ad 
-              <lb ed="#E"/>ad aliquem finem est neccessaria habitudo nisi ad finem ultimatum et sic cum quaestionibus tendentia in 
-              <lb ed="#E"/>alia creatura est tendentia circa ultimum finem <!-- break --> sequitur propositum et sic per consequens staret genere 
-              <lb ed="#E"/>naturaliter non tendere deorsum quia non est sibi illa tendentia essentialis proportionaliter dicitur 
-              <lb ed="#E"/>de igne respectu orbis lumine ymmo dicitur consequenter quod huiusmodi inclinationes possunt permutari scilicet ut 
-              <lb ed="#E"/>grave ascenderet naturaliter et inclinaret ad concavum orbis lumine et ignis ad centrum terrae <!-- break --> 
-              <lb ed="#E"/>nam habitudo est inclinatio rerum in huiusmodi fines est mere contingens et ex statuto divinae 
-              <lb ed="#E"/>providentia libere sic ordinantis Patet quod naturaliter ignis posset descendere et terra ascenderet 
-              <lb ed="#E"/>secundum materiam propriam non dico secundum materiam universi
+              <lb ed="#E" n="32"/>Sequitur ulterius quod stat grave absolvi a tendentia in centrum mundi patet quia nullius naturae ad 
+              <lb ed="#E" n="33"/>ad aliquem finem est neccessaria habitudo nisi ad finem ultimatum et sic cum quaestionibus tendentia in 
+              <lb ed="#E" n="34"/>alia creatura est tendentia circa ultimum finem <!-- break --> sequitur propositum et sic per consequens staret genere 
+              <lb ed="#E" n="35"/>naturaliter non tendere deorsum quia non est sibi illa tendentia essentialis proportionaliter dicitur 
+              <lb ed="#E" n="36"/>de igne respectu orbis lumine ymmo dicitur consequenter quod huiusmodi inclinationes possunt permutari scilicet ut 
+              <lb ed="#E" n="37"/>grave ascenderet naturaliter et inclinaret ad concavum orbis lumine et ignis ad centrum terrae <!-- break --> 
+              <lb ed="#E" n="38"/>nam habitudo est inclinatio rerum in huiusmodi fines est mere contingens et ex statuto divinae 
+              <lb ed="#E" n="39"/>providentia libere sic ordinantis Patet quod naturaliter ignis posset descendere et terra ascenderet 
+              <lb ed="#E" n="40"/>secundum materiam propriam non dico secundum materiam universi
             </p>
             <p xml:id="ppr-l52-iqphtf">
               Item staret quod absque loci intentione 
-              <lb ed="#E"/>moveretur grave vel leve sic quod solum ex intentione ultimi finis nam sola essentialis habitudo 
-              <lb ed="#E"/>est ipsius ad ultimum finem
+              <lb ed="#E" n="41"/>moveretur grave vel leve sic quod solum ex intentione ultimi finis nam sola essentialis habitudo 
+              <lb ed="#E" n="42"/>est ipsius ad ultimum finem
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e223">
             <head xml:id="ppr-l52-Hqpnddl">Quod principia naturalia subiacent divinae dispositioni liberae</head>
             <p xml:id="ppr-l52-eqssni">
               Sequitur quod principia naturalia saltem quae reputantur naturalia subiacent 
-              <lb ed="#E"/>divinae dispositione libere scilicet quod omne grave non impeditum descendit et leve ascendit 
+              <lb ed="#E" n="43"/>divinae dispositione libere scilicet quod omne grave non impeditum descendit et leve ascendit 
               <!--break -->
               Sequitur 
               <pb ed="#E" n="73-r"/>
-              <lb ed="#E"/>quod illa principia sunt contingentia
+              <lb ed="#E" n="1"/>quod illa principia sunt contingentia
               <!-- break --> 
               Sequitur 
               quod contraria possunt esse principia eo modo quo 
-              <lb ed="#E"/>hoc sunt sic scilicet quod leve descendat ut esse principium naturale sicut nunc est principium quod grave descendat
+              <lb ed="#E" n="2"/>hoc sunt sic scilicet quod leve descendat ut esse principium naturale sicut nunc est principium quod grave descendat
             </p>
             <p xml:id="ppr-l52-eqpsni">
-              <lb ed="#E"/>Sequitur quod non potest esse principium naturale contradictorium principio quod nunc est naturale
+              <lb ed="#E" n="3"/>Sequitur quod non potest esse principium naturale contradictorium principio quod nunc est naturale
               <!-- break --> 
               Sequitur quod theologia perfectius 
-              <lb ed="#E"/><unclear>philosophantur</unclear> et scrutatur naturas rerum quam alia quaevis scientia quia nulla alia novit huiusmodi habitudines 
-              <lb ed="#E"/>quia naturalis philosophus ponit quod deus agit necessitatem naturae nec potest immutare <unclear>quare</unclear> statutum 
+              <lb ed="#E" n="4"/><unclear>philosophantur</unclear> et scrutatur naturas rerum quam alia quaevis scientia quia nulla alia novit huiusmodi habitudines 
+              <lb ed="#E" n="5"/>quia naturalis philosophus ponit quod deus agit necessitatem naturae nec potest immutare <unclear>quare</unclear> statutum 
             </p>
             <p xml:id="ppr-l52-cdqcru">
               Consequenter 
-              <lb ed="#E"/>diceretur quod velocitates in motibus magis sequuntur deum decreti liberi regulam quam proportionem potentiarum 
-              <lb ed="#E"/>activarum ad suas resistentias una agit et alia resistit in certo gradu secundum quod sta<lb ed="#E" break="no"/>tuit 
+              <lb ed="#E" n="6"/>diceretur quod velocitates in motibus magis sequuntur deum decreti liberi regulam quam proportionem potentiarum 
+              <lb ed="#E" n="7"/>activarum ad suas resistentias una agit et alia resistit in certo gradu secundum quod sta<lb ed="#E" break="no" n="8"/>tuit 
               deus et congruit universo
             </p>
             <p xml:id="ppr-l52-cddrai">
               <unclear>Sequitur<!-- sequeretur--></unclear> quod duratio rerum est secundum divinum statutum et 2m quod 
-              <lb ed="#E"/>congruit universo iuxta divinam providentiam
+              <lb ed="#E" n="9"/>congruit universo iuxta divinam providentiam
             </p> 
             <!-- fuzzy break -->
             <p xml:id="ppr-l52-eqppim">
               patet quod nulla repugnantia videutr esse quod angelus 
-              <lb ed="#E"/>vel alia substantia haberet in se principium <unclear>sic</unclear> <unclear>corruptur</unclear> nam nulla videtur repugnantia quando secundum 
-              <lb ed="#E"/>certam proportionem actuum vel habituum vel dispositionum actualium vel habitualium inter se esset 
-              <lb ed="#E"/>quaedam proportio ad quam sequeretur eius permanentia et cuius solutionem corruptio primo unde non 
-              <lb ed="#E"/>videtur hoc magis inconveniens quam de natura corporali Forma substantialis quantum est de se non 
-              <lb ed="#E"/>est magis corruptibilis quam angelus ymmo non est nisi secundum divinum statutum ista positio 
-              <lb ed="#E"/>videtur fundari in sacra scriptura ubi dicitur quod deus posuit naturae praeceptum 
+              <lb ed="#E" n="10"/>vel alia substantia haberet in se principium <unclear>sic</unclear> <unclear>corruptur</unclear> nam nulla videtur repugnantia quando secundum 
+              <lb ed="#E" n="11"/>certam proportionem actuum vel habituum vel dispositionum actualium vel habitualium inter se esset 
+              <lb ed="#E" n="12"/>quaedam proportio ad quam sequeretur eius permanentia et cuius solutionem corruptio primo unde non 
+              <lb ed="#E" n="13"/>videtur hoc magis inconveniens quam de natura corporali Forma substantialis quantum est de se non 
+              <lb ed="#E" n="14"/>est magis corruptibilis quam angelus ymmo non est nisi secundum divinum statutum ista positio 
+              <lb ed="#E" n="15"/>videtur fundari in sacra scriptura ubi dicitur quod deus posuit naturae praeceptum 
               <!-- break -->
               Item proverbiorum 
-              <lb ed="#E"/>8vo habetur quomodo singula obediunt Etiam rabi moyies qui fuit iudeus bonus tamen ponit consimile 
-              <lb ed="#E"/>in libro suo de duce dubiorum quem alleget <del rend="strikethrough">albertus</del> et <name>albertus</name> et etiam doctores tractant istam 
-              <lb ed="#E"/>materiam
+              <lb ed="#E" n="16"/>8vo habetur quomodo singula obediunt Etiam rabi moyies qui fuit iudeus bonus tamen ponit consimile 
+              <lb ed="#E" n="17"/>in libro suo de duce dubiorum quem alleget <del rend="strikethrough">albertus</del> et <name>albertus</name> et etiam doctores tractant istam 
+              <lb ed="#E" n="18"/>materiam
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e268">
             <head xml:id="ppr-l52-Hqcvpna">Quod caritas vel gratia non potest inclinare contra primarium naturae appetitum</head>
             <p xml:id="ppr-l52-eqspin">
               Sequitur ulterius quod caritas vel gratia non potest inclinare contra primarium naturae appetitum 
-              <lb ed="#E"/>patet quia primarius naturae appetitus est rectissimus quia semper in deum est Quis tamen sic huiusmodi 
-              <lb ed="#E"/>appetitus potest dici quod non est res distincta a re met appetente sicut dicitur de <sic>appetitio</sic> naturae primae circa 
-              <lb ed="#E"/><ref xml:id="ppr-l52-Rd1e277">primum <title ref="#Physics">physicorum</title></ref> Capiendo tamen pro inpellente potest dici quod realiter est deus dirigens et mo<lb ed="#E" break="no"/>vens 
+              <lb ed="#E" n="19"/>patet quia primarius naturae appetitus est rectissimus quia semper in deum est Quis tamen sic huiusmodi 
+              <lb ed="#E" n="20"/>appetitus potest dici quod non est res distincta a re met appetente sicut dicitur de <sic>appetitio</sic> naturae primae circa 
+              <lb ed="#E" n="21"/><ref xml:id="ppr-l52-Rd1e277">primum <title ref="#Physics">physicorum</title></ref> Capiendo tamen pro inpellente potest dici quod realiter est deus dirigens et mo<lb ed="#E" break="no" n="22"/>vens 
               creaturam quia creatura non habens cognitionem seu non intellectualis est sicut sagitta 
-              <lb ed="#E"/>quae bene directa ab aliquo directivo attingit signum et sicut bonus artifex numquam deficeret 
-              <lb ed="#E"/>a signo sic nec creatura non intellectualis et sic intelligitur illud philosophi quod natura semper recte agit
+              <lb ed="#E" n="23"/>quae bene directa ab aliquo directivo attingit signum et sicut bonus artifex numquam deficeret 
+              <lb ed="#E" n="24"/>a signo sic nec creatura non intellectualis et sic intelligitur illud philosophi quod natura semper recte agit
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e288">
             <head xml:id="ppr-l52-Hqcnpuc">Quod caritas non potest inclinare ad diligendum Deum propter utilitatem creaturae</head>
             <p xml:id="ppr-l52-eqppuc">
-              <lb ed="#E"/>Ex quo semper est inclinatio naturalis recta et caritas non potest oblique inclinare igitur sequitur quod 
-              <lb ed="#E"/>caritas non potest inclinare creaturam ad diligendum deum propter utilitate creaturae
+              <lb ed="#E" n="25"/>Ex quo semper est inclinatio naturalis recta et caritas non potest oblique inclinare igitur sequitur quod 
+              <lb ed="#E" n="26"/>caritas non potest inclinare creaturam ad diligendum deum propter utilitate creaturae
             </p>
             <p xml:id="ppr-l52-uaeefc">
               Advertendum 
-              <lb ed="#E"/>quod <ref xml:id="ppr-l52-Rd1e300"><name ref="#WilliamOfAuxerre">auticiodorensis</name></ref> ponit duos motus caritatis unum qui est in ultimum finem propter se simpliciter 
-              <lb ed="#E"/>et illum dicit esse proprissime fruitivum et valde perfectum Alium ponit qui est propter habere bonum 
-              <lb ed="#E"/>et propter praemiari cum eo et propter felicitari et bene esse cum eo et ab eo 
+              <lb ed="#E" n="27"/>quod <ref xml:id="ppr-l52-Rd1e300"><name ref="#WilliamOfAuxerre">auticiodorensis</name></ref> ponit duos motus caritatis unum qui est in ultimum finem propter se simpliciter 
+              <lb ed="#E" n="28"/>et illum dicit esse proprissime fruitivum et valde perfectum Alium ponit qui est propter habere bonum 
+              <lb ed="#E" n="29"/>et propter praemiari cum eo et propter felicitari et bene esse cum eo et ab eo 
             </p> 
             <p xml:id="ppr-l52-qappef">
               quantum ad primum in pars 
-              <lb ed="#E"/>gloria meam etc et postea addit quoniam bonorum meorum non eges unde dicit quod bene possumus 
-              <lb ed="#E"/>appetere deum ut praemiantem
+              <lb ed="#E" n="30"/>gloria meam etc et postea addit quoniam bonorum meorum non eges unde dicit quod bene possumus 
+              <lb ed="#E" n="31"/>appetere deum ut praemiantem
             </p> 
             <p xml:id="ppr-l52-cspefc">
               Pono contra hoc scilicet contra 2m nam ordo debitus caritatis non servatur 
-              <lb ed="#E"/>in dilectione nisi deus sit ultimus terminus dilectionis ergo diligere deum ut benefacientem ut felici<lb ed="#E" break="no"/>tantem 
+              <lb ed="#E" n="32"/>in dilectione nisi deus sit ultimus terminus dilectionis ergo diligere deum ut benefacientem ut felici<lb ed="#E" break="no" n="33"/>tantem 
               est magis diligere felicitatem quam ipsum et per consequens obiectum illius esset creatura et 
-              <lb ed="#E"/>principale obiectum esset ipsa met creatura sic esset usus dei et fruitio creaturae
+              <lb ed="#E" n="34"/>principale obiectum esset ipsa met creatura sic esset usus dei et fruitio creaturae
             </p>
             <p xml:id="ppr-l52-pstpdc">
               Tamen pro salvatione dicti sui advertendum quod huiusmodi motus dilectionis potest dupliciter considerari 
             </p> 
             <p xml:id="ppr-l52-umqpus">
               uno modo 
-              <lb ed="#E"/>quod in huiusmodi dilectione sint praecise duo termini scilicet deus dilectus et creatura recipiendum huiusmodi 
-              <lb ed="#E"/>dilectionem scilicet deus terminus a quo et creatura terminus ad quem Isto modo dico quod non est licitum 
-              <lb ed="#E"/>diligere deum propter creaturam 
+              <lb ed="#E" n="35"/>quod in huiusmodi dilectione sint praecise duo termini scilicet deus dilectus et creatura recipiendum huiusmodi 
+              <lb ed="#E" n="36"/>dilectionem scilicet deus terminus a quo et creatura terminus ad quem Isto modo dico quod non est licitum 
+              <lb ed="#E" n="37"/>diligere deum propter creaturam 
             </p> 
             <p xml:id="ppr-l52-spcuid">
               Secundo modo potest considerari quod deus sit terminus a quo et etiam terminus 
-              <lb ed="#E"/>ad quem Ita quod ymaginabile est quod sit dilectio quae habeat tres terminos unum a quo scilicet deum 
+              <lb ed="#E" n="38"/>ad quem Ita quod ymaginabile est quod sit dilectio quae habeat tres terminos unum a quo scilicet deum 
               et alium ad quem scilicet creatura et 3m ad quem finalem scilicet deum ita quod finaliter in deum
             </p> 
             <p xml:id="ppr-l52-esdntu">
               Isto modo 
-              <lb ed="#E"/>salvaretur quod esset licitum scilicet duplex per <sic>eadem</sic> dilectionem referetur ad ipsum deum ultimate Et 
-              <lb ed="#E"/>istud est ad modum motus rationalis qui incipit ab oriente transiens per accidens et iterum 
-              <lb ed="#E"/>ad orientem Ita in proposito incipit ab oriente scilicet deo ad occidentem scilicet creaturam
+              <lb ed="#E" n="39"/>salvaretur quod esset licitum scilicet duplex per <sic>eadem</sic> dilectionem referetur ad ipsum deum ultimate Et 
+              <lb ed="#E" n="40"/>istud est ad modum motus rationalis qui incipit ab oriente transiens per accidens et iterum 
+              <lb ed="#E" n="41"/>ad orientem Ita in proposito incipit ab oriente scilicet deo ad occidentem scilicet creaturam
               <pb ed="#E" n="73-v"/>
-              <lb ed="#E"/>et iterum ad deum
+              <lb ed="#E" n="1"/>et iterum ad deum
             </p> 
           </div>
           <div xml:id="ppr-l52-Dd1e345">
             <head xml:id="ppr-l52-qliemn">Quod licet illa dilectio esset licita qua diligeretur Deus propter utilitatem creaturae nihilominus tamen dilectio simplex absoluta et propter se est multo nobilior</head>
             <p xml:id="ppr-l52-suqcdn">
               Sequitur ulterius quod nihilominus dilectio simplex dei solum propter se est multum melior quam 
-              <lb ed="#E"/>illa de qua dictum est quia minus participat de conversione ad creaturam 
+              <lb ed="#E" n="2"/>illa de qua dictum est quia minus participat de conversione ad creaturam 
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e354">
             <head xml:id="ppr-l52-Hqopcin">Quod omne peccatum est realiter naturae contrarium et contra inclinationem naturalem</head>
             <p xml:id="ppr-l52-suqdvi">
               Sequitur quod omne peccatum 
-              <lb ed="#E"/>est realiter naturae contrarium vel contra inclinationem naturalem patet quia semper natura inclinatur 
-              <lb ed="#E"/>ad bonum ymmo inclinatio naturalis est rectissima <ref xml:id="ppr-l52-Rd1e363"><name ref="#Augustine">Augustini</name> <title ref="deVeraInnocentiae">de vera innocentiae</title></ref> dicit illud corollarium illam 
-              expresse 
+              <lb ed="#E" n="3"/>est realiter naturae contrarium vel contra inclinationem naturalem patet quia semper natura inclinatur 
+              <lb ed="#E" n="4"/>ad bonum ymmo inclinatio naturalis est rectissima <ref xml:id="ppr-l52-Rd1e363"><name ref="#Augustine">Augustini</name> <title ref="deVeraInnocentiae">de vera innocentiae</title></ref> dicit illud corollarium illam 
+              <lb ed="#E" n="5"/>expresse 
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e378">
@@ -268,9 +265,9 @@
             <head xml:id="ppr-l52-Hqanlaa">Quod agentia naturalia non agunt ut assimilentur Deo, licet agendo assimilentur</head>
             <p xml:id="ppr-l52-suquad">
               Sequitur quod agentia 
-              <lb ed="#E"/>naturalia non agunt ut assimilentur deo sed agendo assimilentur patet primum quia gratia 
-              <lb ed="#E"/>ipsius dei absolute et per se agunt quidquid agunt et per consequens primaria intentione non habent reflexionem 
-              <lb ed="#E"/>ad se ex hac tamen inclinatione assimilantur deo
+              <lb ed="#E" n="6"/>naturalia non agunt ut assimilentur deo sed agendo assimilentur patet primum quia gratia 
+              <lb ed="#E" n="7"/>ipsius dei absolute et per se agunt quidquid agunt et per consequens primaria intentione non habent reflexionem 
+              <lb ed="#E" n="8"/>ad se ex hac tamen inclinatione assimilantur deo
             </p>
           </div>
         </div>
@@ -280,53 +277,53 @@
             <head xml:id="ppr-l52-Hpriima">Prima</head>
             <p xml:id="ppr-l52-scdied">
               Aliter contra <unclear>dicta</unclear> primo quod teste scriptura 
-              <lb ed="#E"/>natura humana ab adolescentia sua prona est ad malum igitur inclinatio naturae est dampnata
+              <lb ed="#E" n="9"/>natura humana ab adolescentia sua prona est ad malum igitur inclinatio naturae est dampnata
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e413">
             <head xml:id="ppr-l52-Hsecnda">Secunda</head>
             <p xml:id="ppr-l52-isniad">
-              <lb ed="#E"/>Secundo si natura esset sic recta et moveret in deum directe sequeretur quod ex puris naturalibus homo posset 
-              <lb ed="#E"/>attingere deum et mereri vitam aeternam consequens est error pelagii
+              <lb ed="#E" n="10"/>Secundo si natura esset sic recta et moveret in deum directe sequeretur quod ex puris naturalibus homo posset 
+              <lb ed="#E" n="11"/>attingere deum et mereri vitam aeternam consequens est error pelagii
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e428">
             <head xml:id="ppr-l52-Htertia">Tertia</head>
             <p xml:id="ppr-l52-iinaai">
               Tertio inclinatio naturae 
-              <lb ed="#E"/>est a deo sic libere inclinante et inpellente igitur potest subtrahere huiusmodi inclinationem et quod 
-              <lb ed="#E"/>plus est ad aliud inclinaretur per consequens stat quod naturalis inclinatio sit ad aliquod creatum
+              <lb ed="#E" n="12"/>est a deo sic libere inclinante et inpellente igitur potest subtrahere huiusmodi inclinationem et quod 
+              <lb ed="#E" n="13"/>plus est ad aliud inclinaretur per consequens stat quod naturalis inclinatio sit ad aliquod creatum
             </p> 
           </div>
           <div xml:id="ppr-l52-Dd1e439">
             <head xml:id="ppr-l52-Hquarta">Quarta</head>
             <p xml:id="ppr-l52-ileqid">
-              Quarto liber<lb ed="#E" break="no"/>tas 
+              Quarto liber<lb ed="#E" break="no" n="14"/>tas 
               et potentia superior ad naturam non cognitivam ergo si ipsa potest ferri ad <del rend="expunctuation">aliquod</del> aliud 
-              <lb ed="#E"/>quam in deum etiam natura perfectior potest scilicet natura non cognoscendi 
+              <lb ed="#E" n="15"/>quam in deum etiam natura perfectior potest scilicet natura non cognoscendi 
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e454">
             <head xml:id="ppr-l52-Hquinta">Quinta</head>
             <p xml:id="ppr-l52-icsqid">
-              Quinto creatura sibi derelic<lb ed="#E" break="no"/>ta 
+              Quinto creatura sibi derelic<lb ed="#E" break="no" n="16"/>ta 
               tendit in nichilum igitur extrinsece vel ab extrinsico magis ad se vel ad creaturam tenderet 
-              <lb ed="#E"/>quam in deum
+              <lb ed="#E" n="17"/>quam in deum
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e465">
             <head xml:id="ppr-l52-Hsexxta">Sexta</head>
             <p xml:id="ppr-l52-iniped">
               Sexto naturalis iustitia resultat ex decreto divino et acceptatione eius ergo 
-              <lb ed="#E"/>cum deus posset libere non acceptare regimine naturale sequitur quod posset esse difformis
+              <lb ed="#E" n="18"/>cum deus posset libere non acceptare regimine naturale sequitur quod posset esse difformis
             </p>
           </div>
           <div xml:id="ppr-l52-Dd1e476">
             <head xml:id="ppr-l52-Hsepima">Septima</head>
             <p xml:id="ppr-l52-imcusf">
-              <lb ed="#E"/>Septimo multiplex contingit error in naturalibus agentibus patet in animalibus brutis ubi contingunt 
-              <lb ed="#E"/>errores etiam <unclear>ferocitates</unclear> etiam per malam consuetudinem possunt adduci ad inferendum 
-              mala igitur
+              <lb ed="#E" n="19"/>Septimo multiplex contingit error in naturalibus agentibus patet in animalibus brutis ubi contingunt 
+              <lb ed="#E" n="20"/>errores etiam <unclear>ferocitates</unclear> etiam per malam consuetudinem possunt adduci ad inferendum 
+              <lb ed="#E" n="21"/>mala igitur
             </p>
           </div>
           <!--
@@ -343,7 +340,7 @@
             <head xml:id="ppr-l52-Hnonona">Octava</head><!-- match 9 in other edition -->
             <p xml:id="ppr-l52-iacsda">
               Octavo Etiam per malam consuetudinem possunt induci ad inferendum aliqua corpora 
-              <lb ed="#E"/>caelestia sunt intrinsece et essentialiter mala scilicet saturnus et mars ut patet per astronomos ymmo vi<lb ed="#E" break="no"/>tia 
+              <lb ed="#E" n="22"/>caelestia sunt intrinsece et essentialiter mala scilicet saturnus et mars ut patet per astronomos ymmo vi<lb ed="#E" break="no" n="23"/>tia 
               furta occasiones et multa  <del rend="expunctuation">mala</del> alia resolvunt ad huiusmodi planetas
             </p>
           </div>
@@ -351,9 +348,9 @@
             <head xml:id="ppr-l52-Hdecima">Nono</head><!-- match 10 in other edition -->
             <p xml:id="ppr-l52-ipdqec">
               Nono potest dari 
-              <lb ed="#E"/>praeceptum contra inclinationem naturalem unde stat quod aliquis habeat inclinationem naturalem ad a nichi<lb ed="#E" break="no"/>lominus 
+              <lb ed="#E" n="24"/>praeceptum contra inclinationem naturalem unde stat quod aliquis habeat inclinationem naturalem ad a nichi<lb ed="#E" break="no" n="25"/>lominus 
               deus potest <unclear>praecipo</unclear> quod non inclinetur ad a et per hoc non mutatur eius inclinatio igitur adhuc 
-              <lb ed="#E"/>inclinatur naturaliter et per consequens peccat etc 
+              <lb ed="#E" n="26"/>inclinatur naturaliter et per consequens peccat etc 
             </p>
           </div>
         </div>

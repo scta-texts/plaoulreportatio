@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +20,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -56,42 +53,42 @@
         <div xml:id="ppr-l86-Dd1e109">
           <head xml:id="ppr-l86-Hcaeaed">Circa acceptionem et deacceptionem</head>
           <p xml:id="ppr-l86-eplegd">
-            <lb ed="#E"/>In alia lectione 
-            <lb ed="#E"/>In praecedenti lectione fuit tactum quod sicut divina acceptatio se sola est causa gratificationis
-            <lb ed="#E"/>creaturae Ita stante peccato primi hominis et poenis inde consequentibus scilicet privatione iustitiae 
-            <lb ed="#E"/>originalis pro tota posterioritate et cupiditate sequente quae est quaedam habitualis tur<lb ed="#E" break="no"/>pitudo 
+            <lb ed="#E" n="15"/>In alia lectione 
+            <lb ed="#E" n="16"/>In praecedenti lectione fuit tactum quod sicut divina acceptatio se sola est causa gratificationis
+            <lb ed="#E" n="17"/>creaturae Ita stante peccato primi hominis et poenis inde consequentibus scilicet privatione iustitiae 
+            <lb ed="#E" n="18"/>originalis pro tota posterioritate et cupiditate sequente quae est quaedam habitualis tur<lb ed="#E" break="no" n="19"/>pitudo 
             habens se per modum habitus <del rend="strikethrough">virtuosi</del> viciosi stante laesione virium inferiorum 
-            <lb ed="#E"/>et superiorum dicebatur quod deacceptatio est formalius in peccato originali sed hic non ca<lb ed="#E" break="no"/>pio 
+            <lb ed="#E" n="20"/>et superiorum dicebatur quod deacceptatio est formalius in peccato originali sed hic non ca<lb ed="#E" break="no" n="21"/>pio 
             ly deacceptatio active quia sic non esset nisi deus sed capio ly deacceptatio passive Et 
-            <lb ed="#E"/>illa potest dupliciter ymaginari vel intelligi uno modo potest ymaginari deacceptio per privationem ac<lb ed="#E" break="no"/>ceptationis 
+            <lb ed="#E" n="22"/>illa potest dupliciter ymaginari vel intelligi uno modo potest ymaginari deacceptio per privationem ac<lb ed="#E" break="no" n="23"/>ceptationis 
             requisitae ad hoc quod creatura non sit indigna 
           </p>
           <p xml:id="ppr-l86-uieevb">
             ubi ymaginandum esset quod 
-            <lb ed="#E"/>varii sunt gradus deacceptationis de supremo genere esset gradus reddens creaturam 
-            <lb ed="#E"/>formaliter dignam vita aeterna et gratam deo Alius gradus ymaginabilis esset 
-            <lb ed="#E"/>respectu moralis bonitatis non dico intrinsece Contra istum 3m advertendum quod bonitas ordinis 
-            <lb ed="#E"/>rerum magis consurgit ex divinam acceptatione 3o modo supra quam extrinseca specifica rerum 
-            <lb ed="#E"/><unclear>ratione</unclear> qua bonitate denominat scriptura cum <!-- possible correction here --> vidit deus omnia quae fecerat et erant 
-            <lb ed="#E"/>valde bona
+            <lb ed="#E" n="24"/>varii sunt gradus deacceptationis de supremo genere esset gradus reddens creaturam 
+            <lb ed="#E" n="25"/>formaliter dignam vita aeterna et gratam deo Alius gradus ymaginabilis esset 
+            <lb ed="#E" n="26"/>respectu moralis bonitatis non dico intrinsece Contra istum 3m advertendum quod bonitas ordinis 
+            <lb ed="#E" n="27"/>rerum magis consurgit ex divinam acceptatione 3o modo supra quam extrinseca specifica rerum 
+            <lb ed="#E" n="28"/><unclear>ratione</unclear> qua bonitate denominat scriptura cum <!-- possible correction here --> vidit deus omnia quae fecerat et erant 
+            <lb ed="#E" n="29"/>valde bona
           </p>
           <p xml:id="ppr-l86-eqceuc">
-            <lb ed="#E"/>Ex quo consequenter ymaginari posset quod nulla facta mutatione intrinseca in rebus 
-            <lb ed="#E"/>per solam subtractionem acceptationis 3o modo male esset universo creato 
+            <lb ed="#E" n="30"/>Ex quo consequenter ymaginari posset quod nulla facta mutatione intrinseca in rebus 
+            <lb ed="#E" n="31"/>per solam subtractionem acceptationis 3o modo male esset universo creato 
           </p>
           <p xml:id="ppr-l86-eihdic">
             Iuxta hanc ymaginationem 
-            <lb ed="#E"/>consequenter ymaginari posset quod subtractio totius latitudinis acceptibilitatis divinae haberet 
-            <lb ed="#E"/>rationem turpitudinis et culpae et sic ymaginari possit quod deacceptatio esset formali in pec<lb ed="#E" break="no"/>cato 
-            originali Alio modo magis positive potest capi ut sit quaedam indignitas in creatura con<lb ed="#E" break="no"/>surgens 
-            ex hoc quod deus realiter cum reputat indignam quod non potest facere nisi praecederet aliqua dis<lb ed="#E" break="no"/>positio 
+            <lb ed="#E" n="32"/>consequenter ymaginari posset quod subtractio totius latitudinis acceptibilitatis divinae haberet 
+            <lb ed="#E" n="33"/>rationem turpitudinis et culpae et sic ymaginari possit quod deacceptatio esset formali in pec<lb ed="#E" break="no" n="34"/>cato 
+            originali Alio modo magis positive potest capi ut sit quaedam indignitas in creatura con<lb ed="#E" break="no" n="35"/>surgens 
+            ex hoc quod deus realiter cum reputat indignam quod non potest facere nisi praecederet aliqua dis<lb ed="#E" break="no" n="36"/>positio 
             ad hoc sufficiens scilicet peccatum primi parentis pro quo perdidit iustitiam originalem 
-            <lb ed="#E"/>et infecta est caro 
+            <lb ed="#E" n="37"/>et infecta est caro 
           </p>
           <p xml:id="ppr-l86-eqaiel">
             Ideo formale in peccato originali esset indignitas consurgens ex 
-            <lb ed="#E"/>divina indignatione vel deacceptatione videtur hoc conservare dictis <name ref="#Paul">apostoli</name> dicentis quod <quote xml:id="ppr-l86-Qd1e139" source="http://scta.info/resource/eph2_3">omnes nasci<lb ed="#E" break="no"/>mur 
-            filii irae</quote> id est indigni Et huiusmodi deacceptatio est quaedam ira dei quae reputat nos indg<lb ed="#E" break="no"/>nos 
+            <lb ed="#E" n="38"/>divina indignatione vel deacceptatione videtur hoc conservare dictis <name ref="#Paul">apostoli</name> dicentis quod <quote xml:id="ppr-l86-Qd1e139" source="http://scta.info/resource/eph2_3">omnes nasci<lb ed="#E" break="no" n="39"/>mur 
+            filii irae</quote> id est indigni Et huiusmodi deacceptatio est quaedam ira dei quae reputat nos indg<lb ed="#E" break="no" n="40"/>nos 
             nec vult conferre gratiam nisi per <unclear>remedia</unclear> per christum inposita et per renovationem legis
           </p>
         </div>
@@ -99,93 +96,93 @@
           <head xml:id="ppr-l86-Hucrmqg">Utrum creatura realiter mutatur quando gratificatur?</head>
           <p xml:id="ppr-l86-sdqadc">
             Consequenter 
-            <lb ed="#E"/>dictum est quod ad gratificationem creaturae non requiritur aliquod additum 
+            <lb ed="#E" n="41"/>dictum est quod ad gratificationem creaturae non requiritur aliquod additum 
           </p>
           <p xml:id="ppr-l86-ipqmqg">
             Iuxta quod dubitatur 
-            <lb ed="#E"/>utrum creatura quando gratificatur realiter mutatur scilicet utrum aliquid de novo sibi additur etc 
+            <lb ed="#E" n="42"/>utrum creatura quando gratificatur realiter mutatur scilicet utrum aliquid de novo sibi additur etc 
           </p>
           <p xml:id="ppr-l86-rqsccn">
             <pb ed="#E" n="115-v"/>
-            <lb ed="#E"/>potest responderi quod sic scilicet quod est realiter quaedam mutatio nec est ex de necessitate quod quaelibet species mutationis 
-            <lb ed="#E"/>habeat aliquod distinctum pro termino acquisito vel aliquod deperdit quod aliae sunt species mutationis divinae potentiae 
-            <lb ed="#E"/>possibilis quam sint secundum communem cursum naturae
+            <lb ed="#E" n="1"/>potest responderi quod sic scilicet quod est realiter quaedam mutatio nec est ex de necessitate quod quaelibet species mutationis 
+            <lb ed="#E" n="2"/>habeat aliquod distinctum pro termino acquisito vel aliquod deperdit quod aliae sunt species mutationis divinae potentiae 
+            <lb ed="#E" n="3"/>possibilis quam sint secundum communem cursum naturae
           </p>
           <p xml:id="ppr-l86-sdqdar">
             Secundo adhuc communiter philosophando a pluribus conceditur 
-            <lb ed="#E"/>quod stat esse mutationem localem absque acquisitione alicuius rei vel de perditione scilicet ponendo quod motus 
-            <lb ed="#E"/>localis sit ipsum mobile ut ecclesia tenet et plures alii nichilominus concedunt articulum parisiensis 
-            <lb ed="#E"/>scilicet quod deus potest totum mundum movere moto recto quo dato nichil acquiret nec spatium nec alias 
-            <lb ed="#E"/>et sic non videtur repugnantia quod aliqua res realiter mutetur et tamen nec aliquid acquirit nec deperdit
+            <lb ed="#E" n="4"/>quod stat esse mutationem localem absque acquisitione alicuius rei vel de perditione scilicet ponendo quod motus 
+            <lb ed="#E" n="5"/>localis sit ipsum mobile ut ecclesia tenet et plures alii nichilominus concedunt articulum parisiensis 
+            <lb ed="#E" n="6"/>scilicet quod deus potest totum mundum movere moto recto quo dato nichil acquiret nec spatium nec alias 
+            <lb ed="#E" n="7"/>et sic non videtur repugnantia quod aliqua res realiter mutetur et tamen nec aliquid acquirit nec deperdit
           </p>
           <p xml:id="ppr-l86-tdeeun">
-            <lb ed="#E"/>Tertio dictum est quod <name>achilles</name> id est ratio fortissima ponentium respectus est quando est propositio aliqua affirmativa quae 
-            <lb ed="#E"/>verificatur pro rebus si qualificatum positio rerum illarum non sufficit ad verificationem propositionis 
-            <lb ed="#E"/>oportet ponere respectus alios unde secundum opinantes vero respectus per istud principium scietur ubi 
-            <lb ed="#E"/>debet ponit respectus relationis 
+            <lb ed="#E" n="8"/>Tertio dictum est quod <name>achilles</name> id est ratio fortissima ponentium respectus est quando est propositio aliqua affirmativa quae 
+            <lb ed="#E" n="9"/>verificatur pro rebus si qualificatum positio rerum illarum non sufficit ad verificationem propositionis 
+            <lb ed="#E" n="10"/>oportet ponere respectus alios unde secundum opinantes vero respectus per istud principium scietur ubi 
+            <lb ed="#E" n="11"/>debet ponit respectus relationis 
           </p>
           <p xml:id="ppr-l86-uavser">
             verbi gratia ad verificandum hanc sol conservat radium non sufficit 
-            <lb ed="#E"/>quod sol sit radius sit quia staret quod sol esset et radius etiam non a sole sed a deo ergo oportet 
-            <lb ed="#E"/>ponere respectum <unclear>meritum</unclear> quia non sufficit verificatio sine illa doctores de isto faciunt longos tractatus 
-            <lb ed="#E"/>et totum resolvitur ad istud <ref xml:id="ppr-l86-Rd1e190"><name ref="#Durandus">durandus</name></ref> ponit quod huiusmodi respectus
+            <lb ed="#E" n="12"/>quod sol sit radius sit quia staret quod sol esset et radius etiam non a sole sed a deo ergo oportet 
+            <lb ed="#E" n="13"/>ponere respectum <unclear>meritum</unclear> quia non sufficit verificatio sine illa doctores de isto faciunt longos tractatus 
+            <lb ed="#E" n="14"/>et totum resolvitur ad istud <ref xml:id="ppr-l86-Rd1e190"><name ref="#Durandus">durandus</name></ref> ponit quod huiusmodi respectus
           </p>
           <!-- fuzzy break -->
           <p xml:id="ppr-l86-pnsphr">
-            non sunt verae substantiae nec acci<lb ed="#E" break="no"/>dentia 
+            non sunt verae substantiae nec acci<lb ed="#E" break="no" n="15"/>dentia 
             absoluta sed potius modi rerum distincti et tamen nec a rebus inhaeret realiter Et ymaginatur 
-            <lb ed="#E"/>tertius gradus entium vel rerum ut dictum est alias Et breviter quasi omnium doctorum 
-            <lb ed="#E"/>antiquorum opinio est quod sunt ponendae 3s res applicandae ad materiam
+            <lb ed="#E" n="16"/>tertius gradus entium vel rerum ut dictum est alias Et breviter quasi omnium doctorum 
+            <lb ed="#E" n="17"/>antiquorum opinio est quod sunt ponendae 3s res applicandae ad materiam
           </p>
           <p xml:id="ppr-l86-amassh">
             si vellemus ponere 
-            <lb ed="#E"/>aliquem respectum in creatura quando gratificaretur facilius salvaretur ita quod acquireretur aliquis 
-            <lb ed="#E"/>modus se habendi qui dicitur respectus ratione cuius creatura dicitur grata deo qui 
-            <lb ed="#E"/>non vult ponere tres respectus faciliter potest dicere quod ad verificandum istam propositionem sortes est deo 
-            <lb ed="#E"/>gratus non sufficiunt deus et sortes quocumque sed taliter se habentes Et <name>ockam</name> videtur tenere istum 
-            <lb ed="#E"/>modum
+            <lb ed="#E" n="18"/>aliquem respectum in creatura quando gratificaretur facilius salvaretur ita quod acquireretur aliquis 
+            <lb ed="#E" n="19"/>modus se habendi qui dicitur respectus ratione cuius creatura dicitur grata deo qui 
+            <lb ed="#E" n="20"/>non vult ponere tres respectus faciliter potest dicere quod ad verificandum istam propositionem sortes est deo 
+            <lb ed="#E" n="21"/>gratus non sufficiunt deus et sortes quocumque sed taliter se habentes Et <name>ockam</name> videtur tenere istum 
+            <lb ed="#E" n="22"/>modum
           </p>
         </div>
         <div xml:id="ppr-l86-Dd1e212">
           <head xml:id="ppr-l86-Harqaov">Ad rationem: quod caritas non sit activa quia sequitur quod caritas posset se sola exire in actus omnium virtutum</head>
           <p xml:id="ppr-l86-drrsda">
-            Restat ideo consequenter respondere ad rationes alias factas quibus probatur quod caritas crea<lb ed="#E" break="no"/>tura 
+            Restat ideo consequenter respondere ad rationes alias factas quibus probatur quod caritas crea<lb ed="#E" break="no" n="23"/>tura 
             non sit activa respectu actuum virtuosorum quia si sic scilicet quod esset prima causa sequeretur quod 
-            <lb ed="#E"/>posset se sola exire in omnes actus virtutum et sic non requiritur prudentia etc
+            <lb ed="#E" n="24"/>posset se sola exire in omnes actus virtutum et sic non requiritur prudentia etc
           </p>
           <p xml:id="ppr-l86-rtpavc">
-            <lb ed="#E"/>Respondendum est tenendo positionem primam consona veritati theologicae ut videtur quod habet se tamquam prima 
-            <lb ed="#E"/>causa in regno animae et potest se sola exire in actus aliarum virtutum quia si non maxime 
-            <lb ed="#E"/>videretur de prudentia quae est habitus intellectus et caritas voluntatis <ref xml:id="ppr-l86-Rd1e226"> <name ref="#Aquinas">Sanctus 
-            <lb ed="#E"/>Thomas</name> in 2a 2ae  <title ref="#SummaTheologica">summae theologicae</title> etc</ref> <pc type="#pilcrow"/> Respondet quod caritas est unctio docens de omnibus 
-            <lb ed="#E"/>ut habetur in canonica iohannis et sit respectu omnium necessariorum ad salutem Caritas est sufficiens 
-            <lb ed="#E"/>ad exeundum in actum intellectus practici et ad volendum conformiter
+            <lb ed="#E" n="25"/>Respondendum est tenendo positionem primam consona veritati theologicae ut videtur quod habet se tamquam prima 
+            <lb ed="#E" n="26"/>causa in regno animae et potest se sola exire in actus aliarum virtutum quia si non maxime 
+            <lb ed="#E" n="27"/>videretur de prudentia quae est habitus intellectus et caritas voluntatis <ref xml:id="ppr-l86-Rd1e226"> <name ref="#Aquinas">Sanctus 
+            <lb ed="#E" n="28"/>Thomas</name> in 2a 2ae  <title ref="#SummaTheologica">summae theologicae</title> etc</ref> <pc type="#pilcrow"/> Respondet quod caritas est unctio docens de omnibus 
+            <lb ed="#E" n="29"/>ut habetur in canonica iohannis et sit respectu omnium necessariorum ad salutem Caritas est sufficiens 
+            <lb ed="#E" n="30"/>ad exeundum in actum intellectus practici et ad volendum conformiter
           </p>
         </div>
         <div xml:id="ppr-l86-Dd1e241">
           <head xml:id="ppr-l86-Haaragp">Ad aliam rationem: si caritas esset activa, ponatur quod intendatur gradus dilectionis in forte continue ad gradum prohibitum</head>
           <p xml:id="ppr-l86-aarcnc">
             Ad secundam rationem 
-            <lb ed="#E"/>quia si sic activa ponamus quod intendatur caritas in sorte continue usque ad gradum prohibitum 
-            <lb ed="#E"/>tunc quaeritur quando et gradus illicitus utrum caritas concurrit si sic tunc concurrit ad peccatum si non 
-            <lb ed="#E"/>tunc voluntas sufficienter se sola et per consequens prius suffecisset et sic caritas frustra poneretur
+            <lb ed="#E" n="31"/>quia si sic activa ponamus quod intendatur caritas in sorte continue usque ad gradum prohibitum 
+            <lb ed="#E" n="32"/>tunc quaeritur quando et gradus illicitus utrum caritas concurrit si sic tunc concurrit ad peccatum si non 
+            <lb ed="#E" n="33"/>tunc voluntas sufficienter se sola et per consequens prius suffecisset et sic caritas frustra poneretur
           </p>
           <p xml:id="ppr-l86-rqeaav">
             Respondetur 
-            <lb ed="#E"/>quod in isto casu ad gradum illicitum caritas non concurrit nec potest unde sicut fides non posset 
-            <lb ed="#E"/>inclinare ad falsum ut dictum est in prologo ita nec caritas ad malum ymmo magis repung<lb ed="#E" break="no"/>nat 
+            <lb ed="#E" n="34"/>quod in isto casu ad gradum illicitum caritas non concurrit nec potest unde sicut fides non posset 
+            <lb ed="#E" n="35"/>inclinare ad falsum ut dictum est in prologo ita nec caritas ad malum ymmo magis repung<lb ed="#E" break="no" n="36"/>nat 
             quia perfectiori modo dirigit potentiam in obiectum quam quaecumque alia virtus vel habitus
           </p>
           <div xml:id="ppr-l86-Dd1e262">
             <head xml:id="ppr-l86-Hobitio">Obiectio</head>
             <p xml:id="ppr-l86-scqhgp">
-              <lb ed="#E"/>Sed contra quia voluntas se sola producit huiusmodi gradum
+              <lb ed="#E" n="37"/>Sed contra quia voluntas se sola producit huiusmodi gradum
             </p>
             <p xml:id="ppr-l86-rqvami">
               Respondendum est quod non et quod non 
-              <lb ed="#E"/>sufficit in eadem specie actus nec potest lege stante communi sed voluntas in instanti in quo apta nata 
-              <lb ed="#E"/>est ad huiusmodi gradus productionem exibit in actum alterius speciei negandum in genere morum sed intrinsece 
-              <lb ed="#E"/>et essentialiter 
+              <lb ed="#E" n="38"/>sufficit in eadem specie actus nec potest lege stante communi sed voluntas in instanti in quo apta nata 
+              <lb ed="#E" n="39"/>est ad huiusmodi gradus productionem exibit in actum alterius speciei negandum in genere morum sed intrinsece 
+              <lb ed="#E" n="40"/>et essentialiter 
             </p>
           </div>
         </div>
@@ -193,102 +190,102 @@
           <head xml:id="ppr-l86-Hucpape">Utrum caritas possit concurrere cum voluntate usque ad huiusmodi actum prohibitum exlcusive</head>
           <p xml:id="ppr-l86-hdugcp">
             dubitatur utrum caritas possit concurrere cum voluntate ad huiusmodi gradum 
-            <lb ed="#E"/>exclusive scilicet ad quemlibet alium circa gradum illicitum
+            <lb ed="#E" n="41"/>exclusive scilicet ad quemlibet alium circa gradum illicitum
           </p>
           <p xml:id="ppr-l86-evqiea">
             Arguitur quod non ex ista radice quia 
-            <lb ed="#E"/>si sorti esset prohibitum quod non producat gradum ut 10 et producat quemlibet circa 
+            <lb ed="#E" n="42"/>si sorti esset prohibitum quod non producat gradum ut 10 et producat quemlibet circa 
             <pb ed="#E" n="116-r"/>
-            <lb ed="#E"/>Culpandus est quia sequitur produxit quemlibet circa gradum ut 10 igitur si maneat habebit gradum 
-            <lb ed="#E"/>ut <num>x</num> ut si agit per horam et in fine horae habetur gradum et decem si remaneret Istam 
-            <lb ed="#E"/>materiam tangit <unclear>auostay</unclear> de omissione 
+            <lb ed="#E" n="1"/>Culpandus est quia sequitur produxit quemlibet circa gradum ut 10 igitur si maneat habebit gradum 
+            <lb ed="#E" n="2"/>ut <num>x</num> ut si agit per horam et in fine horae habetur gradum et decem si remaneret Istam 
+            <lb ed="#E" n="3"/>materiam tangit <unclear>auostay</unclear> de omissione 
           </p>
           <p xml:id="ppr-l86-rqnnpo">
             Breviter dicendum quod non stat caritatem usque ad illum 
-            <lb ed="#E"/>gradum exclusive continue agere sed ex promissione speciali in aliquo instanti circa 3s in quo anima 
-            <lb ed="#E"/>non sufficeret considerare in quo gradu distaret actum a gradu prohibito caritas 
-            <lb ed="#E"/>movet intellectum ad considerandum propinquitatem gradus prohibiti et ista solutio solet dari 
-            <lb ed="#E"/>in materia de omissione quia dicitur quod appropinquante tempore tenetur considerare
+            <lb ed="#E" n="4"/>gradum exclusive continue agere sed ex promissione speciali in aliquo instanti circa 3s in quo anima 
+            <lb ed="#E" n="5"/>non sufficeret considerare in quo gradu distaret actum a gradu prohibito caritas 
+            <lb ed="#E" n="6"/>movet intellectum ad considerandum propinquitatem gradus prohibiti et ista solutio solet dari 
+            <lb ed="#E" n="7"/>in materia de omissione quia dicitur quod appropinquante tempore tenetur considerare
           </p>
         </div>
         <div xml:id="ppr-l86-Dd1e312">
           <head xml:id="ppr-l86-Hatmatum">Ad tertiam: si caritas est activa, sequeretur quod caritas posset agere non agente voluntate</head>
           <p xml:id="ppr-l86-atrraa">
             Ad aliam rationem 
-            <lb ed="#E"/>quando dicitur si voluntas in regno animae esset sic prima causa potest agere non coagente 
-            <lb ed="#E"/>voluntatis etc
+            <lb ed="#E" n="8"/>quando dicitur si voluntas in regno animae esset sic prima causa potest agere non coagente 
+            <lb ed="#E" n="9"/>voluntatis etc
           </p>
           <!-- why para break? This should be collapsed with above -->
           <p xml:id="ppr-l86-ncqrda">
             Breviter negetur consequentia quia de necessitate voluntas concurrit saltem receptive 
-            <lb ed="#E"/>et <unclear>inmutative</unclear> quo ad actos suos
+            <lb ed="#E" n="10"/>et <unclear>inmutative</unclear> quo ad actos suos
           </p>
           <p xml:id="ppr-l86-sdqqvn">
             Secundo dicitur quod voluntas respectu actus sui liberi non 
-            <lb ed="#E"/>necessitatur nec a deo nec a suo actu igitur non sequitur quod posset sic neccessitare voluntatem ad 
-            <lb ed="#E"/>talem actum
+            <lb ed="#E" n="11"/>necessitatur nec a deo nec a suo actu igitur non sequitur quod posset sic neccessitare voluntatem ad 
+            <lb ed="#E" n="12"/>talem actum
           </p>
           <p xml:id="ppr-l86-tdqcla">
             Tertio dicitur quod licet caritas sit realiter in <unclear>se quodam</unclear> res naturalis et naturaliter activa 
-            <lb ed="#E"/>habet tamen modum libera agendi quia est instrumentum spiritus sancti sequens <unclear>deus</unclear> inclinationem et motionem 
-            <lb ed="#E"/>quo ad modum agendi proportionaliter sicut dictum est prius de fide
+            <lb ed="#E" n="13"/>habet tamen modum libera agendi quia est instrumentum spiritus sancti sequens <unclear>deus</unclear> inclinationem et motionem 
+            <lb ed="#E" n="14"/>quo ad modum agendi proportionaliter sicut dictum est prius de fide
           </p>
         </div>
         <div xml:id="ppr-l86-Dd1e348">
           <head xml:id="ppr-l86-Haqsiei">Ad quartam: si caritas est activa, sequeretur quod ipsa efficeretur infinita</head>
           <p xml:id="ppr-l86-aqqsah">
             Ad aliam si caritas esset sic 
-            <lb ed="#E"/>activa sequeretur quod fieret in actu infinita quia ratione meriti debet argui quia meritum nedum 
-            <lb ed="#E"/>est meritum gloriae in patria sed etiam gratiae in via et loquor in arguendo semper in eodem instanti ergo 
-            <lb ed="#E"/>actus producit habitum infinitum et econtra habitus actum infinitum et sic posset argui 
-            <lb ed="#E"/>de quolibet actu virtuose et sic quilibet talis habitus infinite intenderetur et consequenter actus 
-            <lb ed="#E"/>debet infinite intendi
+            <lb ed="#E" n="15"/>activa sequeretur quod fieret in actu infinita quia ratione meriti debet argui quia meritum nedum 
+            <lb ed="#E" n="16"/>est meritum gloriae in patria sed etiam gratiae in via et loquor in arguendo semper in eodem instanti ergo 
+            <lb ed="#E" n="17"/>actus producit habitum infinitum et econtra habitus actum infinitum et sic posset argui 
+            <lb ed="#E" n="18"/>de quolibet actu virtuose et sic quilibet talis habitus infinite intenderetur et consequenter actus 
+            <lb ed="#E" n="19"/>debet infinite intendi
           </p>
           <p xml:id="ppr-l86-rqifvs">
             Respondendum est quod nullo casu in materia caritatis quod licet caritas concurrens 
-            <lb ed="#E"/>ad actum meritorium mereatur augeri tamen non pro illo instanti sed pro futuro tempore
+            <lb ed="#E" n="20"/>ad actum meritorium mereatur augeri tamen non pro illo instanti sed pro futuro tempore
           </p>
           <p xml:id="ppr-l86-sdqaaa">
             Secundo dato 
-            <lb ed="#E"/>quod caritas in eodem instanti augueretur illud tamen quod quo additur ratione meriti non confert ad actum 
-            <lb ed="#E"/>pro eodem instanti sed habet rationem posterioritatis ut sit caritas ut duo Et addatur unus gradus caritatis 
-            <lb ed="#E"/>ratione actus dicitur quod non confert ad merendum gratiam in hoc instanti sed est posterior et disponit 
-            <lb ed="#E"/>alios actus Quod sit posterior patet quia sequitur 
+            <lb ed="#E" n="21"/>quod caritas in eodem instanti augueretur illud tamen quod quo additur ratione meriti non confert ad actum 
+            <lb ed="#E" n="22"/>pro eodem instanti sed habet rationem posterioritatis ut sit caritas ut duo Et addatur unus gradus caritatis 
+            <lb ed="#E" n="23"/>ratione actus dicitur quod non confert ad merendum gratiam in hoc instanti sed est posterior et disponit 
+            <lb ed="#E" n="24"/>alios actus Quod sit posterior patet quia sequitur 
           </p>
         </div>
         <div xml:id="ppr-l86-Dd1e369">
           <head xml:id="ppr-l86-Hardrdp">Ad rationem de perplexitate</head>
           <p xml:id="ppr-l86-ardacf">
             Ad aliam rationem de iudaeis scilicet de proplexitate 
-            <lb ed="#E"/>simplicium existentium in caritate quia habuerunt in deuteronimo quod qui a lege recederet vel 
-            <lb ed="#E"/><unclear>qui</unclear> quaecumque praedicantem contra legem reciperet etc
+            <lb ed="#E" n="25"/>simplicium existentium in caritate quia habuerunt in deuteronimo quod qui a lege recederet vel 
+            <lb ed="#E" n="26"/><unclear>qui</unclear> quaecumque praedicantem contra legem reciperet etc
           </p>
           <p xml:id="ppr-l86-rqcspn">
-            Etiam miracula non movebant eorum proplex<lb ed="#E" break="no"/>itatem
+            Etiam miracula non movebant eorum proplex<lb ed="#E" break="no" n="27"/>itatem
             Breviter respondendum est quod caritas nullo modo patitur perplexitatem nec potest <unclear>tdee</unclear>
-            <lb ed="#E"/>necessitate ymmo est unctio etc 
+            <lb ed="#E" n="28"/>necessitate ymmo est unctio etc 
           </p>
           <!-- perhaps a skipped line here compare with V -->
           <p xml:id="ppr-l86-earmid">
             De praelatis ymaginatur <name ref="#WilliamOfAuxerre">wilhelmus auticidorensis</name> quod deus est supremus 
-            <lb ed="#E"/>praelatorum consequenter quod semper praesto est in non ponentibus obicem et radiabit illustrationem 
-            <lb ed="#E"/>respectum necessariorum ad subiectum et sic consequenter non debet credere praelato sed inclinabunt eum ad veram partem 
-            <lb ed="#E"/>acceptandum et sic diceret talis Audiam quid loquatur in me dominus et sic in illo casu 
-            <lb ed="#E"/>non conceditur quod talis crederet praelato 
+            <lb ed="#E" n="29"/>praelatorum consequenter quod semper praesto est in non ponentibus obicem et radiabit illustrationem 
+            <lb ed="#E" n="30"/>respectum necessariorum ad subiectum et sic consequenter non debet credere praelato sed inclinabunt eum ad veram partem 
+            <lb ed="#E" n="31"/>acceptandum et sic diceret talis Audiam quid loquatur in me dominus et sic in illo casu 
+            <lb ed="#E" n="32"/>non conceditur quod talis crederet praelato 
           </p>
           <p xml:id="ppr-l86-riqmvc">
             Tunc ad rationem materia est soluta per dictum christi 
-            <lb ed="#E"/>dicentis quod non venit solvere legem sed adinplere unde vetus lex quicquid novae legis 
-            est continebat in figura nec christus quantum ad moralia contradicit sed figurae cessaverunt adveni<lb ed="#E" break="no"/>ente 
+            <lb ed="#E" n="33"/>dicentis quod non venit solvere legem sed adinplere unde vetus lex quicquid novae legis 
+            est continebat in figura nec christus quantum ad moralia contradicit sed figurae cessaverunt adveni<lb ed="#E" break="no" n="34"/>ente 
             veritate scilicet cerimonalia quae erant sacramentorum figurativa unde tenebantur 
-            <lb ed="#E"/>credere in christum quantum est <unclear>demianculis</unclear> dicitur quod ipsi debebant moveri 12 ad magos 
-            <lb ed="#E"/>et ydolatras 
+            <lb ed="#E" n="35"/>credere in christum quantum est <unclear>demianculis</unclear> dicitur quod ipsi debebant moveri 12 ad magos 
+            <lb ed="#E" n="36"/>et ydolatras 
           </p>
           <p xml:id="ppr-l86-ralape">
             <ref xml:id="ppr-l86-Rd1e440"><name>lactantius</name></ref> respondet quod daemones ex ambitione honorum et cultus deo 
-            <lb ed="#E"/>debiti ad decipiendum faciunt naturales coniunctiones quae videntur mirabilia et addunt mala 
-            <lb ed="#E"/>et per adorationem vel rogationem tollunt appositum per eos met Etiam ratione peccatorum potest contingere 
-            <lb ed="#E"/>quod deus permittat 
+            <lb ed="#E" n="37"/>debiti ad decipiendum faciunt naturales coniunctiones quae videntur mirabilia et addunt mala 
+            <lb ed="#E" n="38"/>et per adorationem vel rogationem tollunt appositum per eos met Etiam ratione peccatorum potest contingere 
+            <lb ed="#E" n="39"/>quod deus permittat 
           </p>
           <div xml:id="ppr-l86-Dd1e452">
             <head xml:id="ppr-l86-Hqdiemd">Quomodo discernere inter miracula christi et miracula daemonum</head>
@@ -297,28 +294,28 @@
             </p> 
             <p xml:id="ppr-l86-pppnta">
               primo 
-              <lb ed="#E"/>personae per quas sunt fiunt
+              <lb ed="#E" n="40"/>personae per quas sunt fiunt
               
             </p>
             <p xml:id="ppr-l86-svfepp">
               Secundo debet attendi suus quantum ad primum visa sanctitate christi et 
-              <lb ed="#E"/>apostolorum eorum qui non erunt suspecti de ambitione avaritia vel appetitu aliquo rei 
-              <lb ed="#E"/>temporalis Etiam ratione finis legis directive poterat concludi quod erant vera dei 
+              <lb ed="#E" n="41"/>apostolorum eorum qui non erunt suspecti de ambitione avaritia vel appetitu aliquo rei 
+              <lb ed="#E" n="42"/>temporalis Etiam ratione finis legis directive poterat concludi quod erant vera dei 
               <pb ed="#E" n="116-v"/>
-              <lb ed="#E"/>miracula Si autem sunt magi videbimus eos nephandissimos et amores quaerentes praecise 
-              <lb ed="#E"/>temporalia ergo attendi debet quantum a talia morum sanctitatis vel militia Etiam finis 
-              <lb ed="#E"/>quia finis miraculorum erat verus cultus dei magorum autem erat malus finis
+              <lb ed="#E" n="1"/>miracula Si autem sunt magi videbimus eos nephandissimos et amores quaerentes praecise 
+              <lb ed="#E" n="2"/>temporalia ergo attendi debet quantum a talia morum sanctitatis vel militia Etiam finis 
+              <lb ed="#E" n="3"/>quia finis miraculorum erat verus cultus dei magorum autem erat malus finis
             </p>
             <p xml:id="ppr-l86-tcechm">
-              <lb ed="#E"/>Tertio possunt esse ex invocatione divina inmediate quia vera miracula sunt ex vera invo<lb ed="#E" break="no"/>catione 
+              <lb ed="#E" n="4"/>Tertio possunt esse ex invocatione divina inmediate quia vera miracula sunt ex vera invo<lb ed="#E" break="no" n="5"/>catione 
               dei inmediate et sic concluditur quod non in dei inmediate sed dyaboli contingunt huiusmodi miranda 
-              <lb ed="#E"/>non mirabilia 
+              <lb ed="#E" n="6"/>non mirabilia 
             </p>
           </div>
           <div xml:id="ppr-l86-Dd1e473">
             <head xml:id="ppr-l86-Haardii">Ad aliam rationem de ignorantia invincibile</head>
             <p xml:id="ppr-l86-drtnas">
-              Per idem de vetula de ignorantia invincibili dicitur quod non stat cum carita<lb ed="#E" break="no"/>te 
+              Per idem de vetula de ignorantia invincibili dicitur quod non stat cum carita<lb ed="#E" break="no" n="7"/>te 
               quam ad illa quae sunt de necessitate salutis
             </p>
           </div>
@@ -327,21 +324,21 @@
           <head xml:id="ppr-l86-Harsier">Ad rationem sequentem caritas denominat magis vel minus suum subiectum, igitur oportet quod hoc sit secundum intensionem et remissionem</head>
           <p xml:id="ppr-l86-arsedd">
             Ad aliam rationem caritas denominat magis 
-            <lb ed="#E"/>vel minus ergo non est simplex qualitas 
+            <lb ed="#E" n="8"/>vel minus ergo non est simplex qualitas 
           </p>
           <p xml:id="ppr-l86-rqcedd">
             Respondendum quod caritas denominat secundum extrinsecum 
-            <lb ed="#E"/>dupliciter 
+            <lb ed="#E" n="9"/>dupliciter 
           </p>
           <p xml:id="ppr-l86-umqssa">
             primo modo quantum ad vitalem ymaginationem quae non est intrinsece cognitio et albedinem 
-            <lb ed="#E"/>est intrinsecum denominari album
+            <lb ed="#E" n="10"/>est intrinsecum denominari album
           </p>
           <p xml:id="ppr-l86-smqcsg">
             Secundo dicitur quod caritas dicitur aliunde extrinsece caritas 
-            <lb ed="#E"/>scilicet per divinam acceptationem qui requiritur quia staret quod informaret et tamen non denominaret subiectum carum 
-            <lb ed="#E"/>et secundo quod magis et magis acceptetur creatura secundum hoc dicitur magis et magis cara secundum eandem 
-            <lb ed="#E"/>caritatem in numero
+            <lb ed="#E" n="11"/>scilicet per divinam acceptationem qui requiritur quia staret quod informaret et tamen non denominaret subiectum carum 
+            <lb ed="#E" n="12"/>et secundo quod magis et magis acceptetur creatura secundum hoc dicitur magis et magis cara secundum eandem 
+            <lb ed="#E" n="13"/>caritatem in numero
           </p>
         </div>
         <div xml:id="ppr-l86-Dd1e513">
@@ -350,48 +347,48 @@
             <pc type="#pilcrow"/> Ad aliam essentiam caritatis non repugnat culpae 
           </p>
           <p xml:id="ppr-l86-rqniiv">
-            dicitur quod nulla mundi quali<lb ed="#E" break="no"/>tas 
+            dicitur quod nulla mundi quali<lb ed="#E" break="no" n="14"/>tas 
             est intrinsece recitando ymmo absolute seu de potentia dei absoluta stat cum culpa Etiam staret 
-            <lb ed="#E"/>quod esset in subiecto non vitali et staret quod esset in subiecto vitali et tamen non inmutare et vitaliter
+            <lb ed="#E" n="15"/>quod esset in subiecto non vitali et staret quod esset in subiecto vitali et tamen non inmutare et vitaliter
           </p>
         </div>
         <div xml:id="ppr-l86-Dd1e528">
           <head xml:id="ppr-l86-Harqahp">Ad rationem qua arguebatur contra unum dictum quod caritas in regno animae habet principatum</head>
           <p xml:id="ppr-l86-aarerh">
             Ad 
-            <lb ed="#E"/>aliam rationem saltem apparentem quod caritas in regno animae habet simpliciter principatum quia sit aliquis 
-            <lb ed="#E"/>habitus habituatus in operibus virtuosis et caritatis tandem peccet tunc materiam habitus <del>caritatis</del> 
-            <lb ed="#E"/>acquisiti et illi possunt exire in actum etc Et confirmatur de fide nam existens in peccato potest in actum 
-            <lb ed="#E"/>fidei scilicet informis
+            <lb ed="#E" n="16"/>aliam rationem saltem apparentem quod caritas in regno animae habet simpliciter principatum quia sit aliquis 
+            <lb ed="#E" n="17"/>habitus habituatus in operibus virtuosis et caritatis tandem peccet tunc materiam habitus <del>caritatis</del> 
+            <lb ed="#E" n="18"/>acquisiti et illi possunt exire in actum etc Et confirmatur de fide nam existens in peccato potest in actum 
+            <lb ed="#E" n="19"/>fidei scilicet informis
           </p>
           <p xml:id="ppr-l86-rqnpac">
             Respondendum est tenendo positionem 2m quod probatum est quod nullus est actus 
-            <lb ed="#E"/>virtuosus nisi <add place="above-line">ex</add> concursu caritatis
+            <lb ed="#E" n="20"/>virtuosus nisi <add place="above-line">ex</add> concursu caritatis
           </p>
           <p xml:id="ppr-l86-ireanv">
             ymaginandum est circa istam materiam quod causalitas huiusmodi 
-            <lb ed="#E"/>habituum qui stant cum culpa quantum est de se non sufficiunt ad actus meritorios scilicet ad actum 
-            <lb ed="#E"/>fruitivum et in existentibus in peccato huiusmodi habitus exit in aliquem actum qui apparet esse actus fruc<lb ed="#E" break="no"/>tivus 
+            <lb ed="#E" n="21"/>habituum qui stant cum culpa quantum est de se non sufficiunt ad actus meritorios scilicet ad actum 
+            <lb ed="#E" n="22"/>fruitivum et in existentibus in peccato huiusmodi habitus exit in aliquem actum qui apparet esse actus fruc<lb ed="#E" break="no" n="23"/>tivus 
             et non est talis sed habet finem temporalem explicite vel inplicite vel aequivalenter 
           </p>
           <!-- fuzzy break -->
           <p xml:id="ppr-l86-neqinc">
             et 
-            <lb ed="#E"/>contingit ex hoc quod creatura non potest discernere utrum actus eius sit ordinatus indebitum finem 
-            <lb ed="#E"/>et sic stat quod creatura nesciat an odio vel amore digna sit et ista videtur mihi esse intentio 
-            <lb ed="#E"/>antiquorum philosophorum unde <ref xml:id="ppr-l86-Rd1e575"><name>augustinus</name> de dogmatibus ecclesiasticis</ref> etc et <ref xml:id="ppr-l86-Rd1e560">moribus ecclesiae</ref> ubi describendo 
-            <lb ed="#E"/>virtutem semper dicit concurrere caritatem 
+            <lb ed="#E" n="24"/>contingit ex hoc quod creatura non potest discernere utrum actus eius sit ordinatus indebitum finem 
+            <lb ed="#E" n="25"/>et sic stat quod creatura nesciat an odio vel amore digna sit et ista videtur mihi esse intentio 
+            <lb ed="#E" n="26"/>antiquorum philosophorum unde <ref xml:id="ppr-l86-Rd1e575"><name>augustinus</name> de dogmatibus ecclesiasticis</ref> etc et <ref xml:id="ppr-l86-Rd1e560">moribus ecclesiae</ref> ubi describendo 
+            <lb ed="#E" n="27"/>virtutem semper dicit concurrere caritatem 
           </p>
           <p xml:id="ppr-l86-dcuaac">
             quantum est de fide 
-            <lb ed="#E"/>dico quod habitus supernaturalis non 
-            <lb ed="#E"/>potest concurrere nisi concurrente caritate 
+            <lb ed="#E" n="28"/>dico quod habitus supernaturalis non 
+            <lb ed="#E" n="29"/>potest concurrere nisi concurrente caritate 
           </p>
           <p xml:id="ppr-l86-sdqdvv">
             Et ideo quantum ad proprios actus est mortua tamen acquiritur 
-            <lb ed="#E"/>habitus et huiusmodi habitus acquisitus exit in actum qui sufficit pro credendum pro elevando ad vere 
-            <lb ed="#E"/>credendum et sapiendum et sic concurrit ad actus omnino alterius speciei nec sunt realiter meritorii actus 
-            <lb ed="#E"/>fidei est realiter cognitio etc
+            <lb ed="#E" n="30"/>habitus et huiusmodi habitus acquisitus exit in actum qui sufficit pro credendum pro elevando ad vere 
+            <lb ed="#E" n="31"/>credendum et sapiendum et sic concurrit ad actus omnino alterius speciei nec sunt realiter meritorii actus 
+            <lb ed="#E" n="32"/>fidei est realiter cognitio etc
           </p>
         </div>
       </div>

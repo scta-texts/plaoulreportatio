@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,10 +52,10 @@
         <div xml:id="ppr-l60-Dd1e109">
           <head xml:id="ppr-l60-Hcppfid">Circa prima propositio: formalitates in Deo</head>
           <p xml:id="ppr-l60-qamsda">
-            <lb ed="#E"/>In alia lectione 
-            <lb ed="#E"/>Doctores faciunt multas difficultates de formalitatibus Quaerentes utrum in deo etiam 
-            <lb ed="#E"/>in creaturis sunt distinctae scilicet utrum in deo divina sapientia et divina bonitas sunt idem formaliter 
-            <lb ed="#E"/>et sic de aliis 
+            <lb ed="#E" n="22"/>In alia lectione 
+            <lb ed="#E" n="23"/>Doctores faciunt multas difficultates de formalitatibus Quaerentes utrum in deo etiam 
+            <lb ed="#E" n="24"/>in creaturis sunt distinctae scilicet utrum in deo divina sapientia et divina bonitas sunt idem formaliter 
+            <lb ed="#E" n="25"/>et sic de aliis 
           </p>
           <!--
             not present
@@ -73,75 +70,75 @@
             </p>
             <p xml:id="ppr-l60-qapidr">
               notandum 
-              <lb ed="#E"/>quod circumscripta operatione intellectus quia de distinctione rationum modicum est quia eadem res potest con<lb ed="#E" break="no"/>cipi 
+              <lb ed="#E" n="26"/>quod circumscripta operatione intellectus quia de distinctione rationum modicum est quia eadem res potest con<lb ed="#E" break="no" n="27"/>cipi 
               diversis conceptibus inveniuntur 4or modi distinctionum Secundum <name>magistrum Iohannes de ripa</name> qui ponit eos
             </p> 
             <p xml:id="ppr-l60-pmeemd">
-              <lb ed="#E"/>primus modus est essentiarum scilicet quando sunt duae essentiae et una est alia et illa est maxima distinctionum 
+              <lb ed="#E" n="28"/>primus modus est essentiarum scilicet quando sunt duae essentiae et una est alia et illa est maxima distinctionum 
             </p> 
             <p xml:id="ppr-l60-aempet">
-              <lb ed="#E"/>Alia est minor scilicet realis et non essentialis quando scilicet aliquae res sunt eadem essentia 
-              <lb ed="#E"/>et tamen una non est alia ista distinctio est minor prima quia stat cum unitate essentiae communicat cum 
-              <lb ed="#E"/>alia in hoc quod una res non est alia et differet ab alia quia licet <c>a</c> non est <c>b</c> tamen <c>a</c> et <c>b</c> communicant 
-              <lb ed="#E"/>in essentia et istae distinctiones conceduntur ab omnibus theologis unde prima conceditur inter creaturas  
+              <lb ed="#E" n="29"/>Alia est minor scilicet realis et non essentialis quando scilicet aliquae res sunt eadem essentia 
+              <lb ed="#E" n="30"/>et tamen una non est alia ista distinctio est minor prima quia stat cum unitate essentiae communicat cum 
+              <lb ed="#E" n="31"/>alia in hoc quod una res non est alia et differet ab alia quia licet <c>a</c> non est <c>b</c> tamen <c>a</c> et <c>b</c> communicant 
+              <lb ed="#E" n="32"/>in essentia et istae distinctiones conceduntur ab omnibus theologis unde prima conceditur inter creaturas  
             </p>
             <!-- collapse paragraphs -->
             <p xml:id="ppr-l60-scacat">
-              <lb ed="#E"/>Et secunda conceditur ab omnibus fidelibus theologis sicut distinctio divinarum personarum Quia pater et filius 
-              <lb ed="#E"/>et spiritus sanctus sunt tres res et nulla illarum est alia et tamen quaelibet illarum est idem cum 
-              <lb ed="#E"/>alia quia eadem essentia et sic pater et filius et spiritus sanctus sunt idem saltem in neutro genere 
+              <lb ed="#E" n="33"/>Et secunda conceditur ab omnibus fidelibus theologis sicut distinctio divinarum personarum Quia pater et filius 
+              <lb ed="#E" n="34"/>et spiritus sanctus sunt tres res et nulla illarum est alia et tamen quaelibet illarum est idem cum 
+              <lb ed="#E" n="35"/>alia quia eadem essentia et sic pater et filius et spiritus sanctus sunt idem saltem in neutro genere 
             </p> 
             <p xml:id="ppr-l60-tgedms">
-              <lb ed="#E"/>Tertius gradus est distinctio rationum formalium quoddam modo minor est praedictis quia in ista nec naturae 
-              <lb ed="#E"/>essentia de essentia nec res de re nisi cum aliquo addito verbi gratia capiamus bonitatem 
-              <lb ed="#E"/>divinam et eius iustitiam vel sapientiam certum est quod sunt eadem essentia 
+              <lb ed="#E" n="36"/>Tertius gradus est distinctio rationum formalium quoddam modo minor est praedictis quia in ista nec naturae 
+              <lb ed="#E" n="37"/>essentia de essentia nec res de re nisi cum aliquo addito verbi gratia capiamus bonitatem 
+              <lb ed="#E" n="38"/>divinam et eius iustitiam vel sapientiam certum est quod sunt eadem essentia 
               <!-- break --> 
               Contra primam distinctionem et 
-              <lb ed="#E"/>contra 2am sunt idem sic quod bonitas est sapientia quod non quod conceditur in 2a distinctione quia non conceditur 
-              <lb ed="#E"/>quod pater sit filius est tamen aliqualis distinctio ex parte quia cum addito conceditur unum negari de 
-              <lb ed="#E"/>alio Conceditur quod bonitas non est formaliter sapientia quocumque conceptu certum scripto ita quod ex parte boni<lb ed="#E" break="no"/>tas 
+              <lb ed="#E" n="39"/>contra 2am sunt idem sic quod bonitas est sapientia quod non quod conceditur in 2a distinctione quia non conceditur 
+              <lb ed="#E" n="40"/>quod pater sit filius est tamen aliqualis distinctio ex parte quia cum addito conceditur unum negari de 
+              <lb ed="#E" n="41"/>alio Conceditur quod bonitas non est formaliter sapientia quocumque conceptu certum scripto ita quod ex parte boni<lb ed="#E" break="no" n="42"/>tas 
               non est sapientia et sic intellectus divinus non est formaliter voluntas Ita quod secundum ordinem
               <pb ed="#E" n="83-v"/>
-              <lb ed="#E"/>
-              <lb ed="#E"/>praedicatorum essentialium est ordo talium formalitatum ut primo potest sumi conceptus entis communis 
-              <lb ed="#E"/>deo et creaturae etiam convenientia secundae speciei <add place="above-line">cum deo</add> potest sumi conceptus communis illi et deo Et quia 
-              <lb ed="#E"/>processus est in infinitum 2m hoc in deo est proportionales diversitas a parte rei 
+              <lb ed="#E" n="1"/>
+              <lb ed="#E" n="2"/>praedicatorum essentialium est ordo talium formalitatum ut primo potest sumi conceptus entis communis 
+              <lb ed="#E" n="3"/>deo et creaturae etiam convenientia secundae speciei <add place="above-line">cum deo</add> potest sumi conceptus communis illi et deo Et quia 
+              <lb ed="#E" n="4"/>processus est in infinitum 2m hoc in deo est proportionales diversitas a parte rei 
             </p>
             <!-- fuzzy break and parallel -->
             <p xml:id="ppr-l60-iiqdro">
               non 
-              <lb ed="#E"/>tamen quod vi illius distinctionis negetur unum de reliquo absolute unde nos possemus formare 
-              <lb ed="#E"/>conceptum entis praecise convenientem deo sed non habemus praedicata inposita a gramaticis 
-              <lb ed="#E"/>ideo attribuimus deo praedicatum entis commune sibi et nobis ita breviter quod est diversitas obiecta<lb ed="#E" break="no"/>lis 
+              <lb ed="#E" n="5"/>tamen quod vi illius distinctionis negetur unum de reliquo absolute unde nos possemus formare 
+              <lb ed="#E" n="6"/>conceptum entis praecise convenientem deo sed non habemus praedicata inposita a gramaticis 
+              <lb ed="#E" n="7"/>ideo attribuimus deo praedicatum entis commune sibi et nobis ita breviter quod est diversitas obiecta<lb ed="#E" break="no" n="8"/>lis 
               in deo et in creaturis 2m diversitatem praedicatorum eis attributorum Sicut si capiamus
-              <lb ed="#E"/>conceptum significationem deum praecise esse isti conceptu correspondet in deo ratio obiectalis et alius 
-              <lb ed="#E"/>est conceptus 2m quem deus dicitur sapientia et secundum hoc etiam est in deo alia ratio obeictialis  
-              <lb ed="#E"/>proportionaliter Et sic consequenter Et ideo aliter se habet deus in esse entis et est alia formalitas 
-              <lb ed="#E"/>in eo quam in esse vitae ymaginemur infinitum multitudinem huiusmodi praedicamentorum deinde 
-              <lb ed="#E"/>sicut a parte rei convertuntur et supponunt pro eodem tamen est varietas quantum ad modum 
-              <lb ed="#E"/>inmutandi ita realiter est alia et alia ratio obiectalis formalis Advertendum 
-              <lb ed="#E"/>quod licet huiusmodi formalitates sunt formaliter sumptae vel sic sumptae 2m proprias rationes 
-              <lb ed="#E"/>formales concurrunt ydemptice duobus primis modis nichilomnius manet aequalis 
-              <lb ed="#E"/>distinctio sicut dictum est
+              <lb ed="#E" n="9"/>conceptum significationem deum praecise esse isti conceptu correspondet in deo ratio obiectalis et alius 
+              <lb ed="#E" n="10"/>est conceptus 2m quem deus dicitur sapientia et secundum hoc etiam est in deo alia ratio obeictialis  
+              <lb ed="#E" n="11"/>proportionaliter Et sic consequenter Et ideo aliter se habet deus in esse entis et est alia formalitas 
+              <lb ed="#E" n="12"/>in eo quam in esse vitae ymaginemur infinitum multitudinem huiusmodi praedicamentorum deinde 
+              <lb ed="#E" n="13"/>sicut a parte rei convertuntur et supponunt pro eodem tamen est varietas quantum ad modum 
+              <lb ed="#E" n="14"/>inmutandi ita realiter est alia et alia ratio obiectalis formalis Advertendum 
+              <lb ed="#E" n="15"/>quod licet huiusmodi formalitates sunt formaliter sumptae vel sic sumptae 2m proprias rationes 
+              <lb ed="#E" n="16"/>formales concurrunt ydemptice duobus primis modis nichilomnius manet aequalis 
+              <lb ed="#E" n="17"/>distinctio sicut dictum est
             </p>
             <p xml:id="ppr-l60-qgdaqh">
               Quartus gradus est minor praedictis quia est plurium graduum eiusdem 
-              <lb ed="#E"/>rationis formalis aliqualiter distinctorum simul unitive concurrentium unde ymaginatur 
-              <lb ed="#E"/>iste doctor quod ratio obiectiva entis secundum suam rationem formalem est intensior uni 
-              <lb ed="#E"/>quam alteri ymaginatur quod tota ratio entis secundum suam rationem formalem est idem in omnibus 
-              <lb ed="#E"/>creaturarum Ita quod esse sortis inesse formali et eius omnino eiusdem rationis essentialis cum <del rend="strikethrough">asinus</del> esse 
-              <lb ed="#E"/>asini Est tamen intensius in homine quam in asino et sic terminus transcentibus et denominationibus 
-              <lb ed="#E"/>essentialibus correspondent rationes formalitates compositae ex gradibus Ita quod nobiliorem modum essendi 
-              <lb ed="#E"/>habet angelus quam homo 
+              <lb ed="#E" n="18"/>rationis formalis aliqualiter distinctorum simul unitive concurrentium unde ymaginatur 
+              <lb ed="#E" n="19"/>iste doctor quod ratio obiectiva entis secundum suam rationem formalem est intensior uni 
+              <lb ed="#E" n="20"/>quam alteri ymaginatur quod tota ratio entis secundum suam rationem formalem est idem in omnibus 
+              <lb ed="#E" n="21"/>creaturarum Ita quod esse sortis inesse formali et eius omnino eiusdem rationis essentialis cum <del rend="strikethrough">asinus</del> esse 
+              <lb ed="#E" n="22"/>asini Est tamen intensius in homine quam in asino et sic terminus transcentibus et denominationibus 
+              <lb ed="#E" n="23"/>essentialibus correspondent rationes formalitates compositae ex gradibus Ita quod nobiliorem modum essendi 
+              <lb ed="#E" n="24"/>habet angelus quam homo 
             </p> 
             <p xml:id="ppr-l60-ehqrvf">
               quantum ad gradus sed sunt omnino eiusdem rationis formalis et sic 
-              <lb ed="#E"/>non distinguuntur formaliter sed distinguuntur sicut gradus eiusdem qualitatis incessibilis qui possunt 
-              <lb ed="#E"/>unitive concurrere Exemplum de secundo gradu ut si possent ydemptificari gradus albedinis 
-              <lb ed="#E"/>stante multitudine ipsorum et ipsis remanentibus vel sub aliis verbis sicut si gradus quantitatis 
-              <lb ed="#E"/>eiusdem speciei concurrerent unitive ipsis remanentibus Exemplum etiam de secundo gradu ut si 
-              <lb ed="#E"/>ydemptificentur albedo et nigredo etc Exemplum de 3o ut si triangulus et quadrangulus 
-              <lb ed="#E"/>ydemptificentur substantialiter et realiter et nichilominus quilibet eorum remaneat in suo esse dis<lb ed="#E" break="no"/>tinctio 
+              <lb ed="#E" n="25"/>non distinguuntur formaliter sed distinguuntur sicut gradus eiusdem qualitatis incessibilis qui possunt 
+              <lb ed="#E" n="26"/>unitive concurrere Exemplum de secundo gradu ut si possent ydemptificari gradus albedinis 
+              <lb ed="#E" n="27"/>stante multitudine ipsorum et ipsis remanentibus vel sub aliis verbis sicut si gradus quantitatis 
+              <lb ed="#E" n="28"/>eiusdem speciei concurrerent unitive ipsis remanentibus Exemplum etiam de secundo gradu ut si 
+              <lb ed="#E" n="29"/>ydemptificentur albedo et nigredo etc Exemplum de 3o ut si triangulus et quadrangulus 
+              <lb ed="#E" n="30"/>ydemptificentur substantialiter et realiter et nichilominus quilibet eorum remaneat in suo esse dis<lb ed="#E" break="no" n="31"/>tinctio 
               scilicet in esse figurae et sic una essentia esset alia 
             </p> 
           </div>
@@ -149,42 +146,42 @@
             <head xml:id="ppr-l60-Hcididr">Conclusiones Iohannis de Rippa</head>
             <p xml:id="ppr-l60-iiepsc">
               Consequenter <name ref="#Ripa">magister iohannes de ripa</name> ponit 
-              <lb ed="#E"/>conclusiones 
+              <lb ed="#E" n="32"/>conclusiones 
             </p>
             <div xml:id="ppr-l60-Dd1e208">
               <head xml:id="ppr-l60-Hpcdfed">Prima conclusio <name ref="#Ripa">de Rippa</name></head>
               <head xml:id="ppr-l60-Hd1e215" type="question-title">In qualibet creatura reperitur multitudo graduum eiusdem rationis formalis et denominationis</head>
               <p xml:id="ppr-l60-peimqa">
-                prima quod in qualibet creatura reperitur multitudo graduum eiusdem rationis for<lb ed="#E" break="no"/>malis 
+                prima quod in qualibet creatura reperitur multitudo graduum eiusdem rationis for<lb ed="#E" break="no" n="33"/>malis 
                 et denominationis quia de esse entis in qualibet creatura 2m quod est perfectionis speciei 
-                <lb ed="#E"/>2m hoc habet plures gradus entis Ita est secundum quod est perfectior secundum hoc habet plures gradus 
-                <lb ed="#E"/>in esse vitae et sic de aliis Infert ex hoc quod in qualibet creatura sunt infiniti gradus 
-                <lb ed="#E"/>unitive concurrentes qui nec realiter nec formaliter distinguuntur 
+                <lb ed="#E" n="34"/>2m hoc habet plures gradus entis Ita est secundum quod est perfectior secundum hoc habet plures gradus 
+                <lb ed="#E" n="35"/>in esse vitae et sic de aliis Infert ex hoc quod in qualibet creatura sunt infiniti gradus 
+                <lb ed="#E" n="36"/>unitive concurrentes qui nec realiter nec formaliter distinguuntur 
               </p>
             </div>
             <div xml:id="ppr-l60-Dd1e222">
               <head xml:id="ppr-l60-Hscdard">Secunda conclusio <name ref="#Ripa">de Rippa</name></head> 
               <head xml:id="ppr-l60-Hd1e229" type="question-title">Distinctio gradus rationis formaliter et adaequate repugnat Deo<!--<note>double check</note>--></head>
               <p xml:id="ppr-l60-acduiv">
-                Secunda conclusio distinctio 4ti gradus omnino re<lb ed="#E" break="no"/>pugnat 
+                Secunda conclusio distinctio 4ti gradus omnino re<lb ed="#E" break="no" n="37"/>pugnat 
                 deo quia ubicumque reperitur latitudo graduum quantumcumque unitive concurrentium 
-                <lb ed="#E"/>ibi datur intensius et remissius et hoc repugnat divinae inmensitati Infert ex hoc 
-                <lb ed="#E"/>quod minor distinctio repugnat simplicitati ubi maior non repugnat quia distinctio quarti 
-                <lb ed="#E"/>repugnat et distinctio primi gradus non
+                <lb ed="#E" n="38"/>ibi datur intensius et remissius et hoc repugnat divinae inmensitati Infert ex hoc 
+                <lb ed="#E" n="39"/>quod minor distinctio repugnat simplicitati ubi maior non repugnat quia distinctio quarti 
+                <lb ed="#E" n="40"/>repugnat et distinctio primi gradus non
               </p>
             </div>
             <div xml:id="ppr-l60-Dd1e240">
               <head xml:id="ppr-l60-tcdrdf">Tertia conclusio <name ref="#Ripa">de Rippa</name></head>
               <head xml:id="ppr-l60-Hd1e247" type="question-title">Quod sicut in Deo, ita in creatura reperitur distinctio formalis</head>
               <p xml:id="ppr-l60-acsdfi">
-                Alia conclusio Sicut in deo ita in creatura re<lb ed="#E" break="no"/>peritur 
+                Alia conclusio Sicut in deo ita in creatura re<lb ed="#E" break="no" n="41"/>peritur 
                 formalis distinctio unde sicut tactum ymaginatur quod 2m numerum praedicatorum essentialium 
-                <lb ed="#E"/>adextra communicalium est numeris rationum formalium unitive in deo concurrentium ita etiam 
-                <lb ed="#E"/>in creatura Radix sua est nam aliqua creatura assimilatur deo in esse solum 
-                <lb ed="#E"/>et alia solum in esse vitae modo si in deo nulla sit distinctio tunc sequitur quod ista creatura
+                <lb ed="#E" n="42"/>adextra communicalium est numeris rationum formalium unitive in deo concurrentium ita etiam 
+                <lb ed="#E" n="43"/>in creatura Radix sua est nam aliqua creatura assimilatur deo in esse solum 
+                <lb ed="#E" n="44"/>et alia solum in esse vitae modo si in deo nulla sit distinctio tunc sequitur quod ista creatura
                 <pb ed="#E" n="84-r"/>
-                <lb ed="#E"/>assimulatur deo d in esse igitur etiam assimulatur deo inesse vitae quia in deo esse et esse 
-                <lb ed="#E"/>vitae sunt idem formaliter 
+                <lb ed="#E" n="1"/>assimulatur deo d in esse igitur etiam assimulatur deo inesse vitae quia in deo esse et esse 
+                <lb ed="#E" n="2"/>vitae sunt idem formaliter 
               </p>
             </div>
             <div xml:id="ppr-l60-Dd1e258">
@@ -192,7 +189,7 @@
               <head xml:id="ppr-l60-Hd1e265" type="question-title">De distinctione causalium rationum</head>
               <p xml:id="ppr-l60-acpipi">
                 Aliam conclusionem ponit de distinctione rationum creabilium a rationibus 
-                <lb ed="#E"/>formalibus ista tangit de ydeis ideo transeo etc
+                <lb ed="#E" n="3"/>formalibus ista tangit de ydeis ideo transeo etc
               </p> 
               <!--not present 
                 <p xml:id="ppr-l60-eisidr">

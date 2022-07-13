@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -23,7 +20,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="E" n="elang">Erlangen</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -46,8 +43,7 @@
   <text xml:lang="la">
     <front>
       <div xml:id="starts-on">
-        <pb ed="#PV" n="164-r"/>
-        <cb ed="#PV" n="a"/>
+        <pb ed="#PV" n="118-r"/>
       </div>
     </front>
     <body>
@@ -56,158 +52,158 @@
         <div xml:id="ppr-l88-Dd1e109">
           <head xml:id="ppr-l88-Hpdhcam">Propositiones de habitudine Spiritus Sancti et caritatis ad mentem</head>
           <p xml:id="ppr-l88-avhpsp">
-            <lb ed="#E"/>In alia lectione 
-            <lb ed="#E"/>Ad videndum distinctius habitudinem spiritus sancti et caritatis ad mentem ponuntur propositiones
+            <lb ed="#E" n="40"/>In alia lectione 
+            <lb ed="#E" n="41"/>Ad videndum distinctius habitudinem spiritus sancti et caritatis ad mentem ponuntur propositiones
           </p>
           <div xml:id="ppr-l88-Dd1e117">
             <head xml:id="ppr-l88-Hppqpssa">Prima propositio: quod per divinam acceptationem creatura est magis intrinsece digna quam per Spiritus Sancti assistentiam</head>
             <p xml:id="ppr-l88-ppecqa">
-              <lb ed="#E"/>prima propositio licet de communi lege concurrunt assistentia spiritus sancti specialis caritas creata et
+              <lb ed="#E" n="42"/>prima propositio licet de communi lege concurrunt assistentia spiritus sancti specialis caritas creata et
               <pb ed="#E" n="118-v"/>
-              <lb ed="#E"/>divina acceptatio Nichilominus per divinam acceptationem creatura est magis intrinsece digna 
-              <lb ed="#E"/>quam per spiritus sancti assistentiam ut sic concurrentem vel caritatem informantem 
+              <lb ed="#E" n="1"/>divina acceptatio Nichilominus per divinam acceptationem creatura est magis intrinsece digna 
+              <lb ed="#E" n="2"/>quam per spiritus sancti assistentiam ut sic concurrentem vel caritatem informantem 
             </p>
             <p xml:id="ppr-l88-ppepva">
               prima pars 
-              <lb ed="#E"/><unclear>nota</unclear> est quia de communi lege ad gratificationem creaturae concurrunt illa cum voluntate 
-              <lb ed="#E"/>ad dignificandum et gratificandum
+              <lb ed="#E" n="3"/><unclear>nota</unclear> est quia de communi lege ad gratificationem creaturae concurrunt illa cum voluntate 
+              <lb ed="#E" n="4"/>ad dignificandum et gratificandum
             </p>
             <p xml:id="ppr-l88-spcdva">
               Secunda pars patet nam sola acceptio est causa sufficiens 
-              <lb ed="#E"/>gratificandi creaturam ita quod illa posita creatura est grata nec stat eam poni respectu alicuius 
-              <lb ed="#E"/>creaturae quoniam illa sit grata
+              <lb ed="#E" n="5"/>gratificandi creaturam ita quod illa posita creatura est grata nec stat eam poni respectu alicuius 
+              <lb ed="#E" n="6"/>creaturae quoniam illa sit grata
             </p>
             <p xml:id="ppr-l88-ubsdae">
               Ita quod haec consequentia non est bona creatura est sic acceptata igitur est 
-              <lb ed="#E"/>digna et econtra
+              <lb ed="#E" n="7"/>digna et econtra
             </p>
             <p xml:id="ppr-l88-saicae">
               Sed absolute consequentia non valet spiritus sanctus sit specialiter assistit creaturae igitur est deo grata 
-              <lb ed="#E"/>nec sequitur de caritate Causa est nam influxus spiritus sancti quantum ad hoc reducitur 
-              <lb ed="#E"/>ad causam effectivam motivam 
+              <lb ed="#E" n="8"/>nec sequitur de caritate Causa est nam influxus spiritus sancti quantum ad hoc reducitur 
+              <lb ed="#E" n="9"/>ad causam effectivam motivam 
             </p>
             <!-- fuzzy parallel -->
             <p xml:id="ppr-l88-eidceo">
               et sic staret quod spiritus sanctus sic moveret et tamen non fieret acceptatio 
-              <lb ed="#E"/>et ita de caritate creata et ideo nulla est repugnantia quod illa qualitas realiter moveat 
-              <lb ed="#E"/>et tamen deus non acceptet 
+              <lb ed="#E" n="10"/>et ita de caritate creata et ideo nulla est repugnantia quod illa qualitas realiter moveat 
+              <lb ed="#E" n="11"/>et tamen deus non acceptet 
             </p>
             <p xml:id="ppr-l88-cqdncc">
               Confirmatur nam dignificatio quam dat spiritus sanctus vel caritas ex illa habitudine 
-              <lb ed="#E"/>quam habent ad invicem non est nisi instrumentalis ad divinam acceptationem est per consequens divina acceptatio 
-              <lb ed="#E"/>est principalior et essentialiter <del rend="strikethrough">l</del> respectu huius dignitatis <pc type="pilcrow">¶</pc> Ad creaturam esse dignam vita aeterna 
-              <lb ed="#E"/>requiritur liberalitas qua scilicet deus per suam bonitatem vult creaturam habere vitam aeternam 
-              <lb ed="#E"/><unclear>cum</unclear> esse dignam igitur unde licet spiritus sanctus sit infinitus in se tamen finite solum movet creaturam 
-              <lb ed="#E"/>et per consequens assistentia spiritus sanctus et concursus caritatis sine acceptatione divina non attingant gratificationem 
-              <lb ed="#E"/>creaturae haec conditio inmense divinae liberalitatis non communicatur creaturae
+              <lb ed="#E" n="12"/>quam habent ad invicem non est nisi instrumentalis ad divinam acceptationem est per consequens divina acceptatio 
+              <lb ed="#E" n="13"/>est principalior et essentialiter <del rend="strikethrough">l</del> respectu huius dignitatis <pc type="pilcrow">¶</pc> Ad creaturam esse dignam vita aeterna 
+              <lb ed="#E" n="14"/>requiritur liberalitas qua scilicet deus per suam bonitatem vult creaturam habere vitam aeternam 
+              <lb ed="#E" n="15"/><unclear>cum</unclear> esse dignam igitur unde licet spiritus sanctus sit infinitus in se tamen finite solum movet creaturam 
+              <lb ed="#E" n="16"/>et per consequens assistentia spiritus sanctus et concursus caritatis sine acceptatione divina non attingant gratificationem 
+              <lb ed="#E" n="17"/>creaturae haec conditio inmense divinae liberalitatis non communicatur creaturae
             </p>
           </div>
           <div xml:id="ppr-l88-Dd1e148">
             <head xml:id="ppr-l88-Hspospo">Secunda propositio</head>
             <p xml:id="ppr-l88-eqsrig">
               Sequitur istam consequentia non 
-              <lb ed="#E"/>valere tota perfectio caritatis creatae et essentia creaturae rationalis concurrunt ydemptitate uni<lb ed="#E" break="no"/>tive 
+              <lb ed="#E" n="18"/>valere tota perfectio caritatis creatae et essentia creaturae rationalis concurrunt ydemptitate uni<lb ed="#E" break="no" n="19"/>tive 
               et essentialiter ergo huiusmodi resultans est simpliciter essentialiter gratum vel iustum patet quia tota 
-              <lb ed="#E"/>perfectio caritatis creaturae est citra illum gradum dignitatis quae procedit a libertate inmensa 
-              <lb ed="#E"/>et sic licet creatura esset intrinsece caritas et essentialiter nihilominus ipsa non esset essentialiter 
-              <lb ed="#E"/>digna patet quia tota bonitas caritatis non sufficit ad dignificandum creaturam 
+              <lb ed="#E" n="20"/>perfectio caritatis creaturae est citra illum gradum dignitatis quae procedit a libertate inmensa 
+              <lb ed="#E" n="21"/>et sic licet creatura esset intrinsece caritas et essentialiter nihilominus ipsa non esset essentialiter 
+              <lb ed="#E" n="22"/>digna patet quia tota bonitas caritatis non sufficit ad dignificandum creaturam 
             </p>
             <p xml:id="ppr-l88-eeiqei">
               Sequitur 
-              <lb ed="#E"/>falsitas opinionis aliquorum dicentium quod aliquam posse esse creaturam rationalem inpeccabilem 
-              <lb ed="#E"/>per naturam per hoc quod caritas posset realiter ydemptice concurrere cum creatura rationabili unde yma<lb ed="#E" break="no"/>ginatur 
+              <lb ed="#E" n="23"/>falsitas opinionis aliquorum dicentium quod aliquam posse esse creaturam rationalem inpeccabilem 
+              <lb ed="#E" n="24"/>per naturam per hoc quod caritas posset realiter ydemptice concurrere cum creatura rationabili unde yma<lb ed="#E" break="no" n="25"/>ginatur 
               quod esse caritatem est denominatio perfectionis simpliciter et etiam esse naturam intellectualem et 
-              <lb ed="#E"/>quaelibet est adextra communicabilis et una non repungnat alteri igitur possunt alicui communicare 
-              <lb ed="#E"/>et concurrere ydemptitate essentialiter et sic habetur propositum quod illa creatura esset inpeccabilis per naturam 
+              <lb ed="#E" n="26"/>quaelibet est adextra communicabilis et una non repungnat alteri igitur possunt alicui communicare 
+              <lb ed="#E" n="27"/>et concurrere ydemptitate essentialiter et sic habetur propositum quod illa creatura esset inpeccabilis per naturam 
             </p>
             <!-- fuzzy break -->
             <p xml:id="ppr-l88-scdntt">
-              <lb ed="#E"/>pono conclusionem quod nichilominus quod possent sic concurrere non tamen inpeccabilis unde ipsa solum 
-              <lb ed="#E"/>esset apta nata esse iustitia et quod esset apta partialiter dignificare sed non totaliter
+              <lb ed="#E" n="28"/>pono conclusionem quod nichilominus quod possent sic concurrere non tamen inpeccabilis unde ipsa solum 
+              <lb ed="#E" n="29"/>esset apta nata esse iustitia et quod esset apta partialiter dignificare sed non totaliter
             </p>
           </div>
           <div xml:id="ppr-l88-Dd1e163">
             <head xml:id="ppr-l88-Htpscei">Tertia propositio: si habitudo dignitatis <unclear>passivae[?]</unclear> et acceptati posset intrinsece communicari creaturae, tunc talis creatura esset impeccabilis</head>
             <p xml:id="ppr-l88-tmscrc">
               Sequitur 
-              <lb ed="#E"/>quod si habitudo dignitatis passivae acceptationis posset intrinsece competere naturae talis esset 
-              <lb ed="#E"/>omnino inpeccabilis sic quod illa habitudo essentialiter concurreret patet quia haberet intrinsece unde esset 
-              <lb ed="#E"/>digna nam acceptatio passiva esset medium sufficiens ad concludendum creaturam esse dignam 
-              <lb ed="#E"/>igitur si essentialiter alicui conpeteret illa esset essentialiter digna vita aeterna nec posset 
-              <lb ed="#E"/>deus eam dignificare Sed utrum sit excommunicabilis illa denominatio adextra dicitur quod non 
-              <lb ed="#E"/>quia dependet libere a dispositione divinae voluntatis quae est contingens respectu huius 
+              <lb ed="#E" n="30"/>quod si habitudo dignitatis passivae acceptationis posset intrinsece competere naturae talis esset 
+              <lb ed="#E" n="31"/>omnino inpeccabilis sic quod illa habitudo essentialiter concurreret patet quia haberet intrinsece unde esset 
+              <lb ed="#E" n="32"/>digna nam acceptatio passiva esset medium sufficiens ad concludendum creaturam esse dignam 
+              <lb ed="#E" n="33"/>igitur si essentialiter alicui conpeteret illa esset essentialiter digna vita aeterna nec posset 
+              <lb ed="#E" n="34"/>deus eam dignificare Sed utrum sit excommunicabilis illa denominatio adextra dicitur quod non 
+              <lb ed="#E" n="35"/>quia dependet libere a dispositione divinae voluntatis quae est contingens respectu huius 
             </p>
           </div>
           <div xml:id="ppr-l88-Dd1e179">
             <head xml:id="ppr-l88-Hqpqemc">Quarta Propositio: quod in divinam bonitatem reducitur tota radix bonitatis et meritorum creatura.</head>
             <p xml:id="ppr-l88-qsqnam">
               patet ex isto quod 
-              <lb ed="#E"/>in divinam bonitatem et clementiam reducitur tota radix meritorum creaturae nam ex li<lb ed="#E" break="no"/>bero 
+              <lb ed="#E" n="36"/>in divinam bonitatem et clementiam reducitur tota radix meritorum creaturae nam ex li<lb ed="#E" break="no" n="37"/>bero 
               arbitrio non sufficit quis habere dignitatem vitae aeternae nec ex caritate nec ex speciali 
-              <lb ed="#E"/>motione spiritus sancti igitur 
+              <lb ed="#E" n="38"/>motione spiritus sancti igitur 
             </p>
             <p xml:id="ppr-l88-eiveap">
               patet conformiter ad scripturam quod <quote xml:id="ppr-l88-Qasgva3" source="http://scta.info/resource/tit3_5" synch="1-14" type="paraphrase">non ex operibus iustis non etiam caritatis 
-              <lb ed="#E"/>creatae disposuit nobis salutem vel salvos nos fecit sed propter suam clementiam bonitatem 
-              <lb ed="#E"/>et misericordiam</quote> Ad romanos IXo dicitur quod <quote xml:id="ppr-l88-Qnevsdm" source="http://scta.info/resource/rom9_16">non est volentis neque currentis sed dei miserentis</quote> vitam 
-              <lb ed="#E"/>aeternam etc Sed reducitur ad divinam clementiam etc
+              <lb ed="#E" n="39"/>creatae disposuit nobis salutem vel salvos nos fecit sed propter suam clementiam bonitatem 
+              <lb ed="#E" n="40"/>et misericordiam</quote> Ad romanos IXo dicitur quod <quote xml:id="ppr-l88-Qnevsdm" source="http://scta.info/resource/rom9_16">non est volentis neque currentis sed dei miserentis</quote> vitam 
+              <lb ed="#E" n="41"/>aeternam etc Sed reducitur ad divinam clementiam etc
             </p>
           </div>
           <div xml:id="ppr-l88-Dd1e213">
             <head xml:id="ppr-l88-Hqpqdsc">Quinta Propositio: quod nec concursus activus increatae caritatis nec creatae dignificat sufficienter creaturam</head>
             <p xml:id="ppr-l88-qsqbac">
-              Sequitur evidenter quod nec concursus acti<lb ed="#E" break="no"/>vus 
+              Sequitur evidenter quod nec concursus acti<lb ed="#E" break="no" n="42"/>vus 
               increati doni vel etiam creati dignificat creaturam intrinsice vel sufficienter quia 
-              <lb ed="#E"/>non sunt condigne passiones huius temporis ad vitam aeternam etc Sequitur 
+              <lb ed="#E" n="43"/>non sunt condigne passiones huius temporis ad vitam aeternam etc Sequitur 
               <pb ed="#E" n="119-r"/>
-              <lb ed="#E"/>hoc est contra <name ref="#Ripa">magistrum Iohannem de Ripa</name> dicentem quod ex concursu caritatis et 
-              <lb ed="#E"/>assistentia spiritus sancti actus redditur dignus vita aeterna secundum medium iustitiae commu<lb ed="#E" break="no"/>tative 
+              <lb ed="#E" n="1"/>hoc est contra <name ref="#Ripa">magistrum Iohannem de Ripa</name> dicentem quod ex concursu caritatis et 
+              <lb ed="#E" n="2"/>assistentia spiritus sancti actus redditur dignus vita aeterna secundum medium iustitiae commu<lb ed="#E" break="no" n="3"/>tative 
               quasi ad qualitatem in bonitate
             </p>
           </div>
           <div xml:id="ppr-l88-Dd1e225">
             <head xml:id="ppr-l88-Hspqdae">Sexta Propositio: quod actus productus a caritate cum Spiritu Sancto specialiter assistente circumscripta divina acceptatione esse</head>
             <p xml:id="ppr-l88-ssqvec">
-              Sequitur quod actus productus a caritate et spiritus sancti assis<lb ed="#E" break="no"/>tentia 
+              Sequitur quod actus productus a caritate et spiritus sancti assis<lb ed="#E" break="no" n="4"/>tentia 
               circumscripta divinam acceptationem esset dignissimus actus summae virtutis quantum ad genus 
-              <lb ed="#E"/>licet tamen non esset meritorius et intelligitur circa gratuitam dignitatem patet quia caritas 
-              <lb ed="#E"/>inter omnes virtutes est nobilissima et perfectissima Et secundum philosophum virtus proficit habentem 
-              <lb ed="#E"/>et opus eius bonum reddit Ideo quantum virtus est melior tanto actum nobiliorem 
-              <lb ed="#E"/>producit Et sic spiritus sanctus concurrit quantum ad agere licet non informet
+              <lb ed="#E" n="5"/>licet tamen non esset meritorius et intelligitur circa gratuitam dignitatem patet quia caritas 
+              <lb ed="#E" n="6"/>inter omnes virtutes est nobilissima et perfectissima Et secundum philosophum virtus proficit habentem 
+              <lb ed="#E" n="7"/>et opus eius bonum reddit Ideo quantum virtus est melior tanto actum nobiliorem 
+              <lb ed="#E" n="8"/>producit Et sic spiritus sanctus concurrit quantum ad agere licet non informet
             </p>
           </div>
           <div xml:id="ppr-l88-Dd1e259">
             <head xml:id="ppr-l88-Hspqcca">Septima Propositio: quod Spiritus Sanctus caritas possunt stare cum culpabili actu</head>
             <p xml:id="ppr-l88-ssqcca">
               Sequitur quod licet 
-              <lb ed="#E"/>caritas et spiritus sanctus secundum communem concurrendi modum non possunt ad culpam concurrere possunt absolute 
-              <lb ed="#E"/>cum culpabili actione stare
+              <lb ed="#E" n="9"/>caritas et spiritus sanctus secundum communem concurrendi modum non possunt ad culpam concurrere possunt absolute 
+              <lb ed="#E" n="10"/>cum culpabili actione stare
             </p>
             <p xml:id="ppr-l88-ppaaiv">
               prius alias deducta sint quia spiritus sanctus concurrit cum caritate speciali 
-              <lb ed="#E"/>modo credendi et movendo specialiter creaturam modo sic non potest ad culpam concurrere nec ad 
-              <lb ed="#E"/>actum erroris nec creaturam decipere inmediate speciali concursu ergo nec potest actum pravum 
-              <lb ed="#E"/>sit producere ymmo magis repugnat sibi
+              <lb ed="#E" n="11"/>modo credendi et movendo specialiter creaturam modo sic non potest ad culpam concurrere nec ad 
+              <lb ed="#E" n="12"/>actum erroris nec creaturam decipere inmediate speciali concursu ergo nec potest actum pravum 
+              <lb ed="#E" n="13"/>sit producere ymmo magis repugnat sibi
             </p>
             <p xml:id="ppr-l88-spppac">
-              Secunda pars probatur quia divina acceptatio est se<lb ed="#E" break="no"/>parabilis 
+              Secunda pars probatur quia divina acceptatio est se<lb ed="#E" break="no" n="14"/>parabilis 
               ad huiusmodi speciali assistentia ergo stat creaturam inclinatam per caritatem et 
-              <lb ed="#E"/>spiritus sancti assistentiam remanente huiusmodi inclinatione eligere contra huiusmodi inclinationem remanente caritate 
-              <lb ed="#E"/>et assistentia spiritus sancti quia non est formalis repugnantia illis stantibus in esse inclinationem 
-              <lb ed="#E"/>oppositam scilicet vel positive male eligendo et sic staret habitudo spiritus sancti et caritatis 
-              <lb ed="#E"/>et tamen creatura concurret omissive vel commissive sed istud non stat de lege currente
+              <lb ed="#E" n="15"/>spiritus sancti assistentiam remanente huiusmodi inclinatione eligere contra huiusmodi inclinationem remanente caritate 
+              <lb ed="#E" n="16"/>et assistentia spiritus sancti quia non est formalis repugnantia illis stantibus in esse inclinationem 
+              <lb ed="#E" n="17"/>oppositam scilicet vel positive male eligendo et sic staret habitudo spiritus sancti et caritatis 
+              <lb ed="#E" n="18"/>et tamen creatura concurret omissive vel commissive sed istud non stat de lege currente
             </p>
             <p xml:id="ppr-l88-spsnmc">
               Item 
-              <lb ed="#E"/>de facto ita est respectu peccati venialis igitur non repugnat absolute quin respectu mortalis
+              <lb ed="#E" n="19"/>de facto ita est respectu peccati venialis igitur non repugnat absolute quin respectu mortalis
             </p>
             <p xml:id="ppr-l88-tsqeer">
               Etiam staret 
-              <lb ed="#E"/>quod caritas inclinaret ad actum cuius omissio esset peccatum mortale et tamen voluntas ad oppositum 
-              <lb ed="#E"/>inclinaret <!-- break? --> Sequitur quod staret absolute habitualem vim appetitivam esse rectam et tamen actualem 
-              <lb ed="#E"/>esse deturpatam vel in culpa vel mortificatam patet nam habitualis dispositio est compossibilis 
-              <lb ed="#E"/>male actuationi Ita forte staret econtra in moralibus ut quod sit aliquis valde male habituatus 
-              <lb ed="#E"/>et sic tamen in statu salutis et eligat recte 
+              <lb ed="#E" n="20"/>quod caritas inclinaret ad actum cuius omissio esset peccatum mortale et tamen voluntas ad oppositum 
+              <lb ed="#E" n="21"/>inclinaret <!-- break? --> Sequitur quod staret absolute habitualem vim appetitivam esse rectam et tamen actualem 
+              <lb ed="#E" n="22"/>esse deturpatam vel in culpa vel mortificatam patet nam habitualis dispositio est compossibilis 
+              <lb ed="#E" n="23"/>male actuationi Ita forte staret econtra in moralibus ut quod sit aliquis valde male habituatus 
+              <lb ed="#E" n="24"/>et sic tamen in statu salutis et eligat recte 
             </p>
             <p xml:id="ppr-l88-aeiils">
               Alia est ymaginatio in ista materia de qua alias dicam

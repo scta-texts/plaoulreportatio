@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,18 +53,18 @@
           <head xml:id="ppr-l59-Hpcdcds">Propositiones contra divinam simplicitatem</head>
           <p xml:id="ppr-l59-qcmtid">
             <lb ed="#E" n="15"/>Incipit materia de Formalitatibus 
-            <lb ed="#E"/>In alia lectione
-            <lb ed="#E"/>Circa materiam trinitatis maxime attendi debet divina simplicitas et unitas ideo quantum 
-            <lb ed="#E"/>ad materiam divinae simplicitatis aliqua videtur ab esse quae tamen consequenter a doctoribus conceduntur Quod 
-            <lb ed="#E"/>probatur aliquibus rationibus
+            <lb ed="#E" n="16"/>In alia lectione
+            <lb ed="#E" n="17"/>Circa materiam trinitatis maxime attendi debet divina simplicitas et unitas ideo quantum 
+            <lb ed="#E" n="18"/>ad materiam divinae simplicitatis aliqua videtur ab esse quae tamen consequenter a doctoribus conceduntur Quod 
+            <lb ed="#E" n="19"/>probatur aliquibus rationibus
           </p>
           <div xml:id="ppr-l59-Dd1e117">
             <head xml:id="ppr-l59-Hpqnirf">Prima</head>
             <head type="question-title">Quod non est identitas rationum formalium</head>
             <p xml:id="ppr-l59-pidess">
               Primo arguitur sic nam in divina essentia non est ydemptitas 
-              <lb ed="#E"/>seu multiplicitas rationum formalium inter se formaliter et realiter distinctorum circumscripta operatione 
-              <lb ed="#E"/>vel consideratione intellectus ergo sequitur quod ibi non est summa simplicitas quoniam summa simplicitas ex<lb ed="#E" break="no"/>cludit 
+              <lb ed="#E" n="20"/>seu multiplicitas rationum formalium inter se formaliter et realiter distinctorum circumscripta operatione 
+              <lb ed="#E" n="21"/>vel consideratione intellectus ergo sequitur quod ibi non est summa simplicitas quoniam summa simplicitas ex<lb ed="#E" break="no" n="22"/>cludit 
               omnem multiplicitatem et pluralitatem
             </p>
           </div>
@@ -76,10 +73,10 @@
             <head type="question-title">sQuod in divinis est distinctio essentiae ad personam</head>
             <p xml:id="ppr-l59-iidraa">
               Secundo arguitur In divinis est distinctio essentiae 
-              <lb ed="#E"/>ad personam ergo ibi est quaedam essentiae et personae compositio et per consequens ibi non est omnimoda simplicitas 
-              <lb ed="#E"/>antecedens patet ex eo quia de essentia et de personis verificantur contradictoria verbi gratia Essentia est 
-              <lb ed="#E"/>tres personae et quod sit filius ita et de aliis personis modo maximum medium ad probandum 
-              <lb ed="#E"/>distinctionem inter res est quod aliquid convenit uni quod removetur ab alio 
+              <lb ed="#E" n="23"/>ad personam ergo ibi est quaedam essentiae et personae compositio et per consequens ibi non est omnimoda simplicitas 
+              <lb ed="#E" n="24"/>antecedens patet ex eo quia de essentia et de personis verificantur contradictoria verbi gratia Essentia est 
+              <lb ed="#E" n="25"/>tres personae et quod sit filius ita et de aliis personis modo maximum medium ad probandum 
+              <lb ed="#E" n="26"/>distinctionem inter res est quod aliquid convenit uni quod removetur ab alio 
             </p>
           </div>
           <div>
@@ -87,23 +84,23 @@
             <head type="question-title">in Deo est pluralitas idearum</head>
             <p xml:id="ppr-l59-tidaef">
               Tertio arguitur in deo est pluralitas 
-              <lb ed="#E"/>ydearum et realis distinctio earum ergo in deo non est omnimoda simplicitas ymmo in deo est ydearum infinitas 
-              <lb ed="#E"/>distinctarum unde <ref xml:id="ppr-l59-Rva3akj" corresp="#l59-Qva3akj"> <name ref="#Augustine">augustinus</name> <title ref="#deDiversisQuaestionibus">83 quaestionum</title> quaestione 80a</ref> ponit quod <quote xml:id="ppr-l59-Qva3akj" source="http://scta.info/resource/a83-q46-d1e111" type="paraphrase">alia ratione factus est homo alio ratione 
-              <lb ed="#E"/>equus et alia asinus</quote> ergo sequitur quod in deo sunt variae ydeae variarum specierum formative 
-              <lb ed="#E"/>et factive adextra 
+              <lb ed="#E" n="27"/>ydearum et realis distinctio earum ergo in deo non est omnimoda simplicitas ymmo in deo est ydearum infinitas 
+              <lb ed="#E" n="28"/>distinctarum unde <ref xml:id="ppr-l59-Rva3akj" corresp="#l59-Qva3akj"> <name ref="#Augustine">augustinus</name> <title ref="#deDiversisQuaestionibus">83 quaestionum</title> quaestione 80a</ref> ponit quod <quote xml:id="ppr-l59-Qva3akj" source="http://scta.info/resource/a83-q46-d1e111" type="paraphrase">alia ratione factus est homo alio ratione 
+              <lb ed="#E" n="29"/>equus et alia asinus</quote> ergo sequitur quod in deo sunt variae ydeae variarum specierum formative 
+              <lb ed="#E" n="30"/>et factive adextra 
             </p>
             <p xml:id="ppr-l59-aiceer">
               Ad idem concordant multi doctores dicentes apud deum esse pluralitatem ydearum 
-              <lb ed="#E"/>Et hoc exprimunt sub aliis verbis <unclear>a</unclear> apud deum sunt rerum mensurae Rationes producibilium 
-              <lb ed="#E"/>et regulae fulgores et origines et causae rerum
+              <lb ed="#E" n="31"/>Et hoc exprimunt sub aliis verbis <unclear>a</unclear> apud deum sunt rerum mensurae Rationes producibilium 
+              <lb ed="#E" n="32"/>et regulae fulgores et origines et causae rerum
             </p>
             <p xml:id="ppr-l59-uatdcb">
               unde etiam <ref xml:id="ppr-l59-Rd1e175"><name ref="#Augustine">Augustinus</name> 3o <title ref="#deTrinitate">de trinitate</title> capitulo 
-              <lb ed="#E"/>66o</ref> dicit <quote xml:id="ppr-l59-Qd1e190" source="http://scta.info/resource/adt-l3-d1e444">quod penes deum sunt mensurae numera et pondera</quote> Ex <ref xml:id="ppr-l59-Rd1e203">41o capitulo <title ref="#deTrinitate">de trinitate</title></ref> dicit 
-              <lb ed="#E"/><quote xml:id="ppr-l59-Qd1e211" source="http://scta.info/resource/adt-l14-d1e1656">apud deum esse regulas aeternas quae scriptae sunt in libro lucis quae est veritas</quote> Et <ref xml:id="ppr-l59-Rd1e226">6to 
-              <lb ed="#E"/><title ref="#deTrinitate">de trinitate</title></ref> dicit quod <quote xml:id="ppr-l59-Qd1e234" source="http://scta.info/resource/adt-l6-d1e826">filius est ars omnipotentis plena rationum viventium</quote> Et <ref xml:id="ppr-l59-Rd1e249"> <name ref="#Dionysius">dyonisius</name> 
-              <lb ed="#E"/>in <title ref="#deCaelestiHierarchia">de caelesti Ierarchia</title></ref> vocat ydeas fulgores capitulo 2o Et <ref xml:id="ppr-l59-Rd1e261"><name ref="#Ambrose">ambrosius</name> in <title ref="#Hexameron">exameron</title></ref> 
-              <lb ed="#E"/>vocat ideas origines et causas rerum
+              <lb ed="#E" n="33"/>66o</ref> dicit <quote xml:id="ppr-l59-Qd1e190" source="http://scta.info/resource/adt-l3-d1e444">quod penes deum sunt mensurae numera et pondera</quote> Ex <ref xml:id="ppr-l59-Rd1e203">41o capitulo <title ref="#deTrinitate">de trinitate</title></ref> dicit 
+              <lb ed="#E" n="34"/><quote xml:id="ppr-l59-Qd1e211" source="http://scta.info/resource/adt-l14-d1e1656">apud deum esse regulas aeternas quae scriptae sunt in libro lucis quae est veritas</quote> Et <ref xml:id="ppr-l59-Rd1e226">6to 
+              <lb ed="#E" n="35"/><title ref="#deTrinitate">de trinitate</title></ref> dicit quod <quote xml:id="ppr-l59-Qd1e234" source="http://scta.info/resource/adt-l6-d1e826">filius est ars omnipotentis plena rationum viventium</quote> Et <ref xml:id="ppr-l59-Rd1e249"> <name ref="#Dionysius">dyonisius</name> 
+              <lb ed="#E" n="36"/>in <title ref="#deCaelestiHierarchia">de caelesti Ierarchia</title></ref> vocat ydeas fulgores capitulo 2o Et <ref xml:id="ppr-l59-Rd1e261"><name ref="#Ambrose">ambrosius</name> in <title ref="#Hexameron">exameron</title></ref> 
+              <lb ed="#E" n="37"/>vocat ideas origines et causas rerum
             </p>
           </div>
         </div>
@@ -111,80 +108,80 @@
           <head xml:id="ppr-l59-Hrppppa">Rationes pro prima propositio: probatio antecedentis</head>
           <p xml:id="ppr-l59-srafid">
             Sed iterum redio ad primum antecedens probandum scilicet de pluralitate 
-            <lb ed="#E"/>formalitatum  
+            <lb ed="#E" n="38"/>formalitatum  
           </p>
           <div xml:id="ppr-l59-Dd1e282">
             <head xml:id="ppr-l59-Hprprpr">Prima ratio</head>
             <p xml:id="ppr-l59-epaepn">
               et primo arguam probando hoc rationibus <name>scoti</name> unde <name>scotus</name> vult probare quod sit 
-              <lb ed="#E"/>aliqua non ydemptitas inter divinam sapientiam et divinam bonitatem et ita de aliis deo 
-              <lb ed="#E"/>attributis Et arguit sic Si infinita sapientia esset essentialiter infinita bonitas tunc 
+              <lb ed="#E" n="39"/>aliqua non ydemptitas inter divinam sapientiam et divinam bonitatem et ita de aliis deo 
+              <lb ed="#E" n="40"/>attributis Et arguit sic Si infinita sapientia esset essentialiter infinita bonitas tunc 
               <pb ed="#E" n="82-v"/>
-              <lb ed="#E"/>sapientia in communi esset etiam simpliciter et bonitas in communi Ista ratio est aliqualiter obscura tamen 
-              <lb ed="#E"/>exponetur insolvendo ipsam resolvendo ad sensum clariorem et ideo de ea nichil pro nunc amplius 
-              <lb ed="#E"/>dicam Sed tamen arguitur probando assumptum vicem quod si infinita sapientia esset formaliter 
-              <lb ed="#E"/>infinita bonitas etc quia infinitum alicui additum non variat rationem illius cui additur 
-              <lb ed="#E"/>Sed consequens falsum quod probatur quia si sic tunc in diffinitione quidditiva sapientiae bonitas 
-              <lb ed="#E"/>poneretur tamquam pars vel esset met eius diffinitio quidditiva
+              <lb ed="#E" n="1"/>sapientia in communi esset etiam simpliciter et bonitas in communi Ista ratio est aliqualiter obscura tamen 
+              <lb ed="#E" n="2"/>exponetur insolvendo ipsam resolvendo ad sensum clariorem et ideo de ea nichil pro nunc amplius 
+              <lb ed="#E" n="3"/>dicam Sed tamen arguitur probando assumptum vicem quod si infinita sapientia esset formaliter 
+              <lb ed="#E" n="4"/>infinita bonitas etc quia infinitum alicui additum non variat rationem illius cui additur 
+              <lb ed="#E" n="5"/>Sed consequens falsum quod probatur quia si sic tunc in diffinitione quidditiva sapientiae bonitas 
+              <lb ed="#E" n="6"/>poneretur tamquam pars vel esset met eius diffinitio quidditiva
             </p>
           </div>
           <div xml:id="ppr-l59-Dd1e298">
             <head xml:id="ppr-l59-Hsrsrsr">Secunda ratio</head>
             <p xml:id="ppr-l59-sasiev">
               Secundo arguit <name>scotus</name> distinctio 
-              <lb ed="#E"/>emanationum personarum divinarum ad intra neccessario praesupponit distinctionem principiorum elicitivorum et 
-              <lb ed="#E"/>non distinctionem rationis tantum quia illa est inpertinens nec realem similiter quia una negetur 
-              <lb ed="#E"/>de alia ergo formalem prima pars patet quia non videtur vide esse diversitas praedicatorum elici<lb ed="#E" break="no"/>tivorum 
+              <lb ed="#E" n="7"/>emanationum personarum divinarum ad intra neccessario praesupponit distinctionem principiorum elicitivorum et 
+              <lb ed="#E" n="8"/>non distinctionem rationis tantum quia illa est inpertinens nec realem similiter quia una negetur 
+              <lb ed="#E" n="9"/>de alia ergo formalem prima pars patet quia non videtur vide esse diversitas praedicatorum elici<lb ed="#E" break="no" n="10"/>tivorum 
               illius emanationum Etiam non videtur quomodo salvaretur quod filius procederet modo naturae et non 
-              <lb ed="#E"/>spiritus sanctus nisi poneretur aliqua distinctio in deo 
+              <lb ed="#E" n="11"/>spiritus sanctus nisi poneretur aliqua distinctio in deo 
             </p>
           </div>
           <div xml:id="ppr-l59-Dd1e307">
             <head xml:id="dT57Htrtrtr">Terta ratio</head>
             <p xml:id="ppr-l59-tqeiaa">
               Tertio arguit sic Quidquid est ex se formaliter 
-              <lb ed="#E"/>idem existens principium producendi duo vel plura poni rationem posset esse principium producendi infinita 
-              <lb ed="#E"/>patet quia si eadem modo se habendi adaequate potest in duo eadem ratione potest in tria et in 4or et sic in infinitum 
-              <lb ed="#E"/>Ex quo cum ydemptitate et eodem modo se habendi adaequate stat quod producat duo sequitur quod potest 
-              <lb ed="#E"/>in tria ut tactum est Et huius exemplum est satis in agentibus naturalibus unde si ignis eodem modo se 
-              <lb ed="#E"/>habens producat duos ignes tunc etiam potest ducere tres et 4or et sic ulterius et ita etiam in agen<lb ed="#E" break="no"/>tibus 
+              <lb ed="#E" n="12"/>idem existens principium producendi duo vel plura poni rationem posset esse principium producendi infinita 
+              <lb ed="#E" n="13"/>patet quia si eadem modo se habendi adaequate potest in duo eadem ratione potest in tria et in 4or et sic in infinitum 
+              <lb ed="#E" n="14"/>Ex quo cum ydemptitate et eodem modo se habendi adaequate stat quod producat duo sequitur quod potest 
+              <lb ed="#E" n="15"/>in tria ut tactum est Et huius exemplum est satis in agentibus naturalibus unde si ignis eodem modo se 
+              <lb ed="#E" n="16"/>habens producat duos ignes tunc etiam potest ducere tres et 4or et sic ulterius et ita etiam in agen<lb ed="#E" break="no" n="17"/>tibus 
               aequivocis 
             </p>
             <p xml:id="ppr-l59-isspcn">
               Item spiritus sanctus producitur libere et filius naturaliter et ista varietas non oritur ex modo 
-              <lb ed="#E"/>actuum Sicut patet exemplum de moralibus in actu voluntatis qui licet sit liber tamen hanc denominationem 
-              <lb ed="#E"/>recipit a principio suo effectivo quia huiusmodi actus naturaliter et intrinsece non est liber 
-              <lb ed="#E"/>igitur a simili sibi aliqua productio in divinis sit libera oportet quod sit ex parte principii producentis et sic 
-              <lb ed="#E"/>oporteret ut videtur quod huiusmodi diversitas producendi vicem filium naturaliter et spiritus sanctus libere proveniat 
-              <lb ed="#E"/>et oriatur ex hoc quod est diversitas in principiis productivas 
+              <lb ed="#E" n="18"/>actuum Sicut patet exemplum de moralibus in actu voluntatis qui licet sit liber tamen hanc denominationem 
+              <lb ed="#E" n="19"/>recipit a principio suo effectivo quia huiusmodi actus naturaliter et intrinsece non est liber 
+              <lb ed="#E" n="20"/>igitur a simili sibi aliqua productio in divinis sit libera oportet quod sit ex parte principii producentis et sic 
+              <lb ed="#E" n="21"/>oporteret ut videtur quod huiusmodi diversitas producendi vicem filium naturaliter et spiritus sanctus libere proveniat 
+              <lb ed="#E" n="22"/>et oriatur ex hoc quod est diversitas in principiis productivas 
             </p>
             <p xml:id="ppr-l59-iaaenc">
-              Quinto arguit sic aliqua competunt divinae voluntati quae non competunt divinae intellectui et econtra nam voluntas de<lb ed="#E" break="no"/>terminat 
+              Quinto arguit sic aliqua competunt divinae voluntati quae non competunt divinae intellectui et econtra nam voluntas de<lb ed="#E" break="no" n="23"/>terminat 
               se respectu positionis effectus in esse mere libere et intellectus non quia intellectus 
-              <lb ed="#E"/>divinus etiam neccessario respectu cuiuscumque intellectio 
+              <lb ed="#E" n="24"/>divinus etiam neccessario respectu cuiuscumque intellectio 
             </p>
             <p xml:id="ppr-l59-evanvm">
               Et etiam aliqua attribuuntur intellectu 
-              <lb ed="#E"/>dummodo quae non voluntati nam intellectus intelligit mala et voluntas non vult mala 
-              <lb ed="#E"/>ergo ibi est aliqua distinctio inter eos 
+              <lb ed="#E" n="25"/>dummodo quae non voluntati nam intellectus intelligit mala et voluntas non vult mala 
+              <lb ed="#E" n="26"/>ergo ibi est aliqua distinctio inter eos 
             </p>
             <p xml:id="ppr-l59-aiaqef">
               <pc type="#pilcrow"/> Ad idem propositum arguit <name>magister Iohannes de ripa</name> Et primo arguit 
-              <lb ed="#E"/>sic divina essentia est ab aliquo participabilis in esse et ab eodem non participatur in esse vitae 
-              <lb ed="#E"/>ergo in deo est aliqualis distinctio inter esse et esse vitae Nam si participatio dei in esse a parte obiecti 
-              <lb ed="#E"/>esset idem et unicus gradus cum participatione in esse vitae tunc non esset distinctio in deo inter esse 
-              <lb ed="#E"/>et esse vitae et per consequens quicquid participaret ipsum in esse etiam participaret ipsum inesse vitae 
-              <lb ed="#E"/>et sic materia prima esset vita eo quod participat deum in esse Et cum idem sit per adversarium par<lb ed="#E" break="no"/>ticipare 
+              <lb ed="#E" n="27"/>sic divina essentia est ab aliquo participabilis in esse et ab eodem non participatur in esse vitae 
+              <lb ed="#E" n="28"/>ergo in deo est aliqualis distinctio inter esse et esse vitae Nam si participatio dei in esse a parte obiecti 
+              <lb ed="#E" n="29"/>esset idem et unicus gradus cum participatione in esse vitae tunc non esset distinctio in deo inter esse 
+              <lb ed="#E" n="30"/>et esse vitae et per consequens quicquid participaret ipsum in esse etiam participaret ipsum inesse vitae 
+              <lb ed="#E" n="31"/>et sic materia prima esset vita eo quod participat deum in esse Et cum idem sit per adversarium par<lb ed="#E" break="no" n="32"/>ticipare 
               deum in esse et in esse vitae sequitur intentum 
             </p>
             <p xml:id="ppr-l59-issqpi">
               Secundo arguit sic sequeretur quod in rebus 
-              <lb ed="#E"/>non esset diversas specifica sed res different secundum intensum et remissum praecise probatur consequentia 
-              <lb ed="#E"/>quia ex quo res participant eandem rationem formalem in deo sequeretur quod inquantum ad hoc nulla 
-              <lb ed="#E"/>erit distinctio inter res nisi quod una res intensus participat huiusmodi formalitatem et alia remissius 
-              <lb ed="#E"/>Et consequens ex hoc incidendum esset in errorem hunc quod omnes res mundi essent eiusdem speciei
-              <lb ed="#E"/>Alias rationes facit <name>magister iohannes de rippa</name> de quibus pro praesenti super se deo Sed consequenter tractando 
-              <lb ed="#E"/>materiam eas meliori modo quo potero introducam 2m quod materia requiret
+              <lb ed="#E" n="33"/>non esset diversas specifica sed res different secundum intensum et remissum praecise probatur consequentia 
+              <lb ed="#E" n="34"/>quia ex quo res participant eandem rationem formalem in deo sequeretur quod inquantum ad hoc nulla 
+              <lb ed="#E" n="35"/>erit distinctio inter res nisi quod una res intensus participat huiusmodi formalitatem et alia remissius 
+              <lb ed="#E" n="36"/>Et consequens ex hoc incidendum esset in errorem hunc quod omnes res mundi essent eiusdem speciei
+              <lb ed="#E" n="37"/>Alias rationes facit <name>magister iohannes de rippa</name> de quibus pro praesenti super se deo Sed consequenter tractando 
+              <lb ed="#E" n="38"/>materiam eas meliori modo quo potero introducam 2m quod materia requiret
             </p>
           </div>
         </div>
@@ -192,48 +189,48 @@
           <head xml:id="ppr-l59-Hraootp">Rationes ad oppositum trium propositionum</head>
           <p xml:id="ppr-l59-aoiepd">
             <pc type="#pilcrow"/> Ad oppositum 
-            <lb ed="#E"/>omnium istorum trium simul arguitur auctoritate <name ref="#Dionysius">beati dionysii</name> dicentis quod circa divina non est aliquid asse<lb ed="#E" break="no"/>rendum 
+            <lb ed="#E" n="39"/>omnium istorum trium simul arguitur auctoritate <name ref="#Dionysius">beati dionysii</name> dicentis quod circa divina non est aliquid asse<lb ed="#E" break="no" n="40"/>rendum 
             nisi quod divina docent eloquia et per consequens cum non habeamus ex sacra scriptura vel ex 
-            <lb ed="#E"/>determinatione ecclesiae nec ex eo auctoritate ligante nec etiam ratione communicente quod sit huiusmodi distinctio rationum 
-            <lb ed="#E"/>formalium vel etiam ydearum ponenda in divinis sequitur quod nullo modo est ponendo etc 
+            <lb ed="#E" n="41"/>determinatione ecclesiae nec ex eo auctoritate ligante nec etiam ratione communicente quod sit huiusmodi distinctio rationum 
+            <lb ed="#E" n="42"/>formalium vel etiam ydearum ponenda in divinis sequitur quod nullo modo est ponendo etc 
             <pb ed="#E" n="83-r"/>
-            <lb ed="#E"/>considerata etiam regula <name>Anselmi</name> dicentis quod in divinis omnia sunt idem 
-            <lb ed="#E"/>inter se ubi non obviat relationis oppositio ergo praecise inter per scientias relative est ponenda distinctio
+            <lb ed="#E" n="1"/>considerata etiam regula <name>Anselmi</name> dicentis quod in divinis omnia sunt idem 
+            <lb ed="#E" n="2"/>inter se ubi non obviat relationis oppositio ergo praecise inter per scientias relative est ponenda distinctio
           </p>
           <p xml:id="ppr-l59-iasddm">
-            <lb ed="#E"/>Item positio distinctionis formalitatum est difficilior quam distinctio divinarum personarum inter se igitur sequitur quod non 
-            <lb ed="#E"/>est ponenda cum fides nos non astringat ad hoc antecedens patet nam mirabilitas positionis 
-            <lb ed="#E"/>trinitatis est ex hoc quod ponit et asserit distinctionem minorem realem quam sit distinctio essentialis ponit 
-            <lb ed="#E"/>enim quod aliquid distinguatur ab alio sic quod haec res non est haec et tamen haec et hoc res 
-            <lb ed="#E"/>sunt haec essentia modo distinctio formalitatum 2m ipsas formalitates ponentes esset adhuc minor 
-            <lb ed="#E"/>quam sit distinctio personarum realis inter se et per consequens esset adhuc magis mirabilis 
-            <lb ed="#E"/>quam sit distinctio personarum quia huiusmodi distinctio formalitatum multo plus recedit a distinctione essentiae 
-            <lb ed="#E"/>quam facit distinctio personarum inter se Si igitur distinctio personarum inter se habet sit nobis difficilis 
-            <lb ed="#E"/>et mirabilis ad concipiendum sequitur quod multo plus erit difficile ad concipiendum huiusmodi 
-            <lb ed="#E"/>distinctionem formalitatum inter se Attento igitur quod fides non astringat nos ad ponendum 
-            <lb ed="#E"/>huiusmodi formalitatis in deo maxime cum aeque bene potest trinitas salvari non ponendo 
-            <lb ed="#E"/>illas sicut ponendo ymmo per eas nichil salvatur in divinis quando aeque bene vel melius 
-            <lb ed="#E"/>possit salvari ipsas non ponendo Ergo sequitur quod non debemus huiusmodi formalitates 
-            <lb ed="#E"/>ponere in divinis
+            <lb ed="#E" n="3"/>Item positio distinctionis formalitatum est difficilior quam distinctio divinarum personarum inter se igitur sequitur quod non 
+            <lb ed="#E" n="4"/>est ponenda cum fides nos non astringat ad hoc antecedens patet nam mirabilitas positionis 
+            <lb ed="#E" n="5"/>trinitatis est ex hoc quod ponit et asserit distinctionem minorem realem quam sit distinctio essentialis ponit 
+            <lb ed="#E" n="6"/>enim quod aliquid distinguatur ab alio sic quod haec res non est haec et tamen haec et hoc res 
+            <lb ed="#E" n="7"/>sunt haec essentia modo distinctio formalitatum 2m ipsas formalitates ponentes esset adhuc minor 
+            <lb ed="#E" n="8"/>quam sit distinctio personarum realis inter se et per consequens esset adhuc magis mirabilis 
+            <lb ed="#E" n="9"/>quam sit distinctio personarum quia huiusmodi distinctio formalitatum multo plus recedit a distinctione essentiae 
+            <lb ed="#E" n="10"/>quam facit distinctio personarum inter se Si igitur distinctio personarum inter se habet sit nobis difficilis 
+            <lb ed="#E" n="11"/>et mirabilis ad concipiendum sequitur quod multo plus erit difficile ad concipiendum huiusmodi 
+            <lb ed="#E" n="12"/>distinctionem formalitatum inter se Attento igitur quod fides non astringat nos ad ponendum 
+            <lb ed="#E" n="13"/>huiusmodi formalitatis in deo maxime cum aeque bene potest trinitas salvari non ponendo 
+            <lb ed="#E" n="14"/>illas sicut ponendo ymmo per eas nichil salvatur in divinis quando aeque bene vel melius 
+            <lb ed="#E" n="15"/>possit salvari ipsas non ponendo Ergo sequitur quod non debemus huiusmodi formalitates 
+            <lb ed="#E" n="16"/>ponere in divinis
           </p>
         </div>
         <div xml:id="ppr-l59-Dd1e357">
           <head xml:id="ppr-l59-Hdraatp">Divisio responsionis ad tres propositiones</head>
           <p xml:id="ppr-l59-cttams">
-            Circa nunc tacta erunt tria puncta cum adiutorio divino per trac<lb ed="#E" break="no"/>tanda 
+            Circa nunc tacta erunt tria puncta cum adiutorio divino per trac<lb ed="#E" break="no" n="17"/>tanda 
           </p> 
           <p xml:id="ppr-l59-pedmsit">
-            Primum erat de formalitatibus et quid intellexerunt doctores de formalita<lb ed="#E" break="no"/>tibus 
+            Primum erat de formalitatibus et quid intellexerunt doctores de formalita<lb ed="#E" break="no" n="18"/>tibus 
             variae loquentes et varias vias ponentes viam meliorem probabiliorem iuxta posse 
-            <lb ed="#E"/>eliciendo
+            <lb ed="#E" n="19"/>eliciendo
           </p> 
           <p xml:id="ppr-l59-sedeep">
             Secundum erit de distinctione alia quam vocant doctores distinctionem ex natura rei utrum vicem 
-            <lb ed="#E"/>inter personas et essentiam sit aliqualis distinctio 
+            <lb ed="#E" n="20"/>inter personas et essentiam sit aliqualis distinctio 
           </p>
           <p xml:id="ppr-l59-tedise">
             Et 3m punctum erit de ydeis quomodo et per quem 
-            <lb ed="#E"/>modum sunt ponenda in deo et utrum habeant aliqualem distinctionem inter se
+            <lb ed="#E" n="21"/>modum sunt ponenda in deo et utrum habeant aliqualem distinctionem inter se
           </p>
         </div>  
       </div>
