@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,9 +53,9 @@
         <head xml:id="ppr-l98-Hcdpcdp" type="question-title">Circa divinam providentiam</head>
         <p xml:id="ppr-l98-ehqmmd">
           <lb ed="#PV" n="37"/>In alia lectione
-          <lb ed="#PV"/>Ex his quae dicta sunt circa 
-          <lb ed="#PV"/>divinam providentiam infero propositiones 
-          <lb ed="#PV"/>mere aliqualiter declarativas
+          <lb ed="#PV" n="38"/>Ex his quae dicta sunt circa 
+          <lb ed="#PV" n="39"/>divinam providentiam infero propositiones 
+          <lb ed="#PV" n="40"/>mere aliqualiter declarativas
         </p>
         <div xml:id="ppr-l98-Dd1e119">
           <head xml:id="ppr-l98-Hcorria">Corollaria</head>
@@ -66,340 +63,340 @@
             <head xml:id="ppr-l98-Hpcmpcm">Primum corollarium</head>
             <p xml:id="ppr-l98-ppeiei">
               prima 
-              <lb ed="#PV"/>ex hiis propter quae magis admi<lb ed="#PV" break="no"/>ramur 
+              <lb ed="#PV" n="41"/>ex hiis propter quae magis admi<lb ed="#PV" break="no" n="42"/>ramur 
               divinam providentiam vel sapientiam 
-              <lb ed="#PV"/>apud intellectum bene dispositum 
-              <lb ed="#PV"/>clarius appareat eius <sic>in mense</sic> 
-              <lb ed="#PV"/>bonitatis et sapientiae profunditas 
-              <lb ed="#PV"/>sunt enim aliqua contra 
-              <lb ed="#PV"/>quae intellectus male dispo<lb ed="#PV" break="no"/>situs 
+              <lb ed="#PV" n="43"/>apud intellectum bene dispositum 
+              <lb ed="#PV" n="44"/>clarius appareat eius <sic>in mense</sic> 
+              <lb ed="#PV" n="45"/>bonitatis et sapientiae profunditas 
+              <lb ed="#PV" n="46"/>sunt enim aliqua contra 
+              <lb ed="#PV" n="47"/>quae intellectus male dispo<lb ed="#PV" break="no" n="48"/>situs 
               numerat scilicet contra divinam 
-              <lb ed="#PV"/>sapientiam providentiam <unclear>propt?m</unclear>
-              <lb ed="#PV"/>bonorum etiam <unclear>prede</unclear> sanationem 
-              <lb ed="#PV"/>et ad nullam <unclear>?am</unclear> finitam 
-              <lb ed="#PV"/>resolvendo salvaretur ordo 
-              <lb ed="#PV"/>iustitiae ergo potest omnem regulam 
-              <lb ed="#PV"/>limitatam istud reducitur 
-              <lb ed="#PV"/>in aliam omnino <sic>in mensam</sic>
+              <lb ed="#PV" n="49"/>sapientiam providentiam <unclear>propt?m</unclear>
+              <lb ed="#PV" n="50"/>bonorum etiam <unclear>prede</unclear> sanationem 
+              <lb ed="#PV" n="51"/>et ad nullam <unclear>?am</unclear> finitam 
+              <lb ed="#PV" n="52"/>resolvendo salvaretur ordo 
+              <lb ed="#PV" n="53"/>iustitiae ergo potest omnem regulam 
+              <lb ed="#PV" n="54"/>limitatam istud reducitur 
+              <lb ed="#PV" n="55"/>in aliam omnino <sic>in mensam</sic>
             </p>
           </div>
           <div xml:id="ppr-l98-Dd1e153">
             <head xml:id="ppr-l98-Hscmscm">Secundum corollarium</head>
             <p xml:id="ppr-l98-scsasc">
-              <lb ed="#PV"/>2m corollarium sic male dispositis 
+              <lb ed="#PV" n="56"/>2m corollarium sic male dispositis 
               divina providentia est per accidens 
-              <lb ed="#PV"/>occasio Nam data sed <unclear>acceptatio</unclear>
-              <lb ed="#PV"/>desperationes et odii Ita viceversa 
-              <lb ed="#PV"/>bene dispositis est causa spe et amoris 
-              <lb ed="#PV"/>prima pars patet ex historiis Nam 
-              <lb ed="#PV"/>plures philosophi vel non negabant 
-              <lb ed="#PV"/>deum causae vel rebus providere 
-              <lb ed="#PV"/>2a pars probatur nam quidquid operatur 
-              <lb ed="#PV"/>divina providentia est directiva 
-              <lb ed="#PV"/>rei in suum finem debitum seu 
-              <lb ed="#PV"/>bonum et perfectionem ergo ex huiusmodi 
-              <lb ed="#PV"/><unclear>regimine</unclear> debet consurgere maior <unclear>regnum</unclear>
-              <lb ed="#PV"/>sic dirigentis et specialiter curantis
+              <lb ed="#PV" n="57"/>occasio Nam data sed <unclear>acceptatio</unclear>
+              <lb ed="#PV" n="58"/>desperationes et odii Ita viceversa 
+              <lb ed="#PV" n="59"/>bene dispositis est causa spe et amoris 
+              <lb ed="#PV" n="60"/>prima pars patet ex historiis Nam 
+              <lb ed="#PV" n="61"/>plures philosophi vel non negabant 
+              <lb ed="#PV" n="62"/>deum causae vel rebus providere 
+              <lb ed="#PV" n="63"/>2a pars probatur nam quidquid operatur 
+              <lb ed="#PV" n="64"/>divina providentia est directiva 
+              <lb ed="#PV" n="65"/>rei in suum finem debitum seu 
+              <lb ed="#PV" n="66"/>bonum et perfectionem ergo ex huiusmodi 
+              <lb ed="#PV" n="67"/><unclear>regimine</unclear> debet consurgere maior <unclear>regnum</unclear>
+              <lb ed="#PV" n="68"/>sic dirigentis et specialiter curantis
             </p>
           </div>
           <div xml:id="ppr-l98-Dd1e162">
             <head xml:id="ppr-l98-Htcmtcm">Tertium corollarium</head>
             <p xml:id="ppr-l98-tcdtda">
-              <lb ed="#PV"/>3m corollarium divinae providentiae cognitio est 
-              <lb ed="#PV"/>maximum contra fortunae adversitatem 
-              <lb ed="#PV"/>remedium patet nam cognita 
-              <lb ed="#PV"/>divina providentia adversitates 
-              <lb ed="#PV"/>fortunae quae contingunt 
-              <lb ed="#PV"/>sunt realiter eligibiles et direc<lb ed="#PV" break="no"/>tive 
+              <lb ed="#PV" n="69"/>3m corollarium divinae providentiae cognitio est 
+              <lb ed="#PV" n="70"/>maximum contra fortunae adversitatem 
+              <lb ed="#PV" n="71"/>remedium patet nam cognita 
+              <lb ed="#PV" n="72"/>divina providentia adversitates 
+              <lb ed="#PV" n="73"/>fortunae quae contingunt 
+              <lb ed="#PV" n="74"/>sunt realiter eligibiles et direc<lb ed="#PV" break="no" n="75"/>tive 
               creaturae in suum finem
               <pb ed="#PV" n="182-v"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>et perfectionem et secundum dictamen 
-              <lb ed="#PV"/>rectae rationis eligendi realiter 
-              <lb ed="#PV"/>ideo illa cognita fortunas aspera<lb ed="#PV" break="no"/>nus 
+              <lb ed="#PV" n="1"/>et perfectionem et secundum dictamen 
+              <lb ed="#PV" n="2"/>rectae rationis eligendi realiter 
+              <lb ed="#PV" n="3"/>ideo illa cognita fortunas aspera<lb ed="#PV" break="no" n="4"/>nus 
               erit durior scilicet privatio 
-              <lb ed="#PV"/>sanitatis vel membrorum <ref ><name ref="#Cicero">Tulius</name>
-              <lb ed="#PV"/>in libro <title>de <sic>transquilans</sic> quaestionibus</title><!-- tuscan dispuatations --></ref> quod <quote source="http://scta.info/resource/akju8i">praedicta ymmo fa<lb ed="#PV" break="no"/>ma 
+              <lb ed="#PV" n="5"/>sanitatis vel membrorum <ref><name ref="#Cicero">Tulius</name>
+              <lb ed="#PV" n="6"/>in libro <title>de <sic>transquilans</sic> quaestionibus</title><!-- tuscan dispuatations --></ref> quod <quote source="http://scta.info/resource/akju8i">praedicta ymmo fa<lb ed="#PV" break="no" n="7"/>ma 
               privatio non sunt mala</quote> 
-              etc sunt virtutis patientiae in<lb ed="#PV" break="no"/>ductam 
+              etc sunt virtutis patientiae in<lb ed="#PV" break="no" n="8"/>ductam 
               Exemplum nam aeger <unclear>aegertans</unclear> 
-              <lb ed="#PV"/>sciens evidenter meditum in<lb ed="#PV" break="no"/>fallibili 
+              <lb ed="#PV" n="9"/>sciens evidenter meditum in<lb ed="#PV" break="no" n="10"/>fallibili 
               posse curare gratanter 
-              <lb ed="#PV"/>recipit medicina purgativam 
-              <lb ed="#PV"/>et sufficit ergo proportionaliter causa huiusmodi 
-              <lb ed="#PV"/>adversitas fortunae sunt realiter 
-              <lb ed="#PV"/>tamquam medicinae et sanitatis 
-              <lb ed="#PV"/>spiritualis inductive sequitur quod sunt 
-              <lb ed="#PV"/>spiritualis inductive sequitur quod sunt 
-              <lb ed="#PV"/><sic>aplexandae</sic> et diligendae
+              <lb ed="#PV" n="11"/>recipit medicina purgativam 
+              <lb ed="#PV" n="12"/>et sufficit ergo proportionaliter causa huiusmodi 
+              <lb ed="#PV" n="13"/>adversitas fortunae sunt realiter 
+              <lb ed="#PV" n="14"/>tamquam medicinae et sanitatis 
+              <lb ed="#PV" n="15"/>spiritualis inductive sequitur quod sunt 
+              <lb ed="#PV" n="16"/>spiritualis inductive sequitur quod sunt 
+              <lb ed="#PV" n="17"/><sic>aplexandae</sic> et diligendae
             </p>
             <p xml:id="ppr-l98-eisaic">
               Sequitur 
-              <lb ed="#PV"/>quod etiam in inferno peccata sustinentis 
-              <lb ed="#PV"/>dampnatae melior quam eius 
-              <lb ed="#PV"/>carentia patet quia licet non sit 
-              <lb ed="#PV"/>ad felicitate directiva quia 
-              <lb ed="#PV"/>dampnati sunt obstinati 
-              <lb ed="#PV"/>in malitia est tamen creaturae 
-              <lb ed="#PV"/>praeordinativa quantum cum <unclear>reatu</unclear> 
-              <lb ed="#PV"/>sit compossibile
+              <lb ed="#PV" n="18"/>quod etiam in inferno peccata sustinentis 
+              <lb ed="#PV" n="19"/>dampnatae melior quam eius 
+              <lb ed="#PV" n="20"/>carentia patet quia licet non sit 
+              <lb ed="#PV" n="21"/>ad felicitate directiva quia 
+              <lb ed="#PV" n="22"/>dampnati sunt obstinati 
+              <lb ed="#PV" n="23"/>in malitia est tamen creaturae 
+              <lb ed="#PV" n="24"/>praeordinativa quantum cum <unclear>reatu</unclear> 
+              <lb ed="#PV" n="25"/>sit compossibile
             </p>
           </div>
           <div xml:id="ppr-l98-Dd1e186">
           <head xml:id="ppr-l98-Hqucquc">Quartum corollarium</head>
           <p xml:id="ppr-l98-qceisf">
             Sequitur quod deus 
-            <lb ed="#PV"/>non posset circa suam creaturam 
-            <lb ed="#PV"/>positive sic ordinari quia 
-            <lb ed="#PV"/>ex hoc rationaliter creaturae debeat 
-            <lb ed="#PV"/>turbari vel male contentari 
-            <lb ed="#PV"/>patet Nam omnis executio divinae 
-            <lb ed="#PV"/>ordinationis circa creaturam 
-            <lb ed="#PV"/>est effectus divinae providentiae quae 
-            <lb ed="#PV"/>de necessitate est rei in suum finem 
-            <lb ed="#PV"/>directivam et ipsius ordinativa
+            <lb ed="#PV" n="26"/>non posset circa suam creaturam 
+            <lb ed="#PV" n="27"/>positive sic ordinari quia 
+            <lb ed="#PV" n="28"/>ex hoc rationaliter creaturae debeat 
+            <lb ed="#PV" n="29"/>turbari vel male contentari 
+            <lb ed="#PV" n="30"/>patet Nam omnis executio divinae 
+            <lb ed="#PV" n="31"/>ordinationis circa creaturam 
+            <lb ed="#PV" n="32"/>est effectus divinae providentiae quae 
+            <lb ed="#PV" n="33"/>de necessitate est rei in suum finem 
+            <lb ed="#PV" n="34"/>directivam et ipsius ordinativa
           </p>
         </div>
         <div xml:id="ppr-l98-Dd1e196">
           <head xml:id="ppr-l98-Hqncqnc">Quintum corollarium</head>
           <p xml:id="ppr-l98-qcqfdo">
-            <lb ed="#PV"/>Sequitur quod ceteris remanentibus damp<lb ed="#PV" break="no"/>nati 
+            <lb ed="#PV" n="35"/>Sequitur quod ceteris remanentibus damp<lb ed="#PV" break="no" n="36"/>nati 
             deberent rationaliter eligere tanto 
-            <lb ed="#PV"/>gradu poenae curari et <add place="above-line">non</add> minori 
+            <lb ed="#PV" n="37"/>gradu poenae curari et <add place="above-line">non</add> minori 
             <cb ed="#PV" n="b"/>
-            <lb ed="#PV"/>data optione <unclear>verbi gratiam</unclear> si daretur 
-            <lb ed="#PV"/>optio mediate reatu et aliis secundum 
-            <lb ed="#PV"/>dictamen rectae rationis deberent 
-            <lb ed="#PV"/>optare quod poena remaneret 
-            <lb ed="#PV"/>quia poena tanta est ipsius 
-            <lb ed="#PV"/>dampnati ordinativa et directiva 
-            <lb ed="#PV"/>et ergo ex hoc creatura sortitur 
-            <lb ed="#PV"/>quemdam modum dignitatis et bene 
-            <lb ed="#PV"/>essendi quantum adhoc Igitur 
-            <lb ed="#PV"/>ratio recta dictaret etiam stante 
-            <lb ed="#PV"/>casu dampnationis remissionem 
-            <lb ed="#PV"/>gradum esse fugendum data 
-            <lb ed="#PV"/>optione
+            <lb ed="#PV" n="38"/>data optione <unclear>verbi gratiam</unclear> si daretur 
+            <lb ed="#PV" n="39"/>optio mediate reatu et aliis secundum 
+            <lb ed="#PV" n="40"/>dictamen rectae rationis deberent 
+            <lb ed="#PV" n="41"/>optare quod poena remaneret 
+            <lb ed="#PV" n="42"/>quia poena tanta est ipsius 
+            <lb ed="#PV" n="43"/>dampnati ordinativa et directiva 
+            <lb ed="#PV" n="44"/>et ergo ex hoc creatura sortitur 
+            <lb ed="#PV" n="45"/>quemdam modum dignitatis et bene 
+            <lb ed="#PV" n="46"/>essendi quantum adhoc Igitur 
+            <lb ed="#PV" n="47"/>ratio recta dictaret etiam stante 
+            <lb ed="#PV" n="48"/>casu dampnationis remissionem 
+            <lb ed="#PV" n="49"/>gradum esse fugendum data 
+            <lb ed="#PV" n="50"/>optione
           </p>
         </div>
         <div xml:id="ppr-l98-Dd1e212">
           <head xml:id="ppr-l98-Hsxcsxc">Sextum corollarium</head>
           <p xml:id="ppr-l98-scqimv">
             Sequitur quod divina 
-            <lb ed="#PV"/>prudentia non est nec potest 
-            <lb ed="#PV"/>esse regula mali respectu mali 
-            <lb ed="#PV"/>vel culpae <sic>in mediate</sic> patet 
-            <lb ed="#PV"/>quia providentia divina est causa 
-            <lb ed="#PV"/>effectiva et ordinativa rei in suum 
-            <lb ed="#PV"/>finem Sed peccatum est recte 
-            <lb ed="#PV"/>dispositio contraria scilicet de ordinativa 
-            <lb ed="#PV"/>rei igitur super ipsum non cadit 
-            <lb ed="#PV"/><sic>in mediate</sic> executio divinae provi<lb ed="#PV" break="no"/>dentiae 
+            <lb ed="#PV" n="51"/>prudentia non est nec potest 
+            <lb ed="#PV" n="52"/>esse regula mali respectu mali 
+            <lb ed="#PV" n="53"/>vel culpae <sic>in mediate</sic> patet 
+            <lb ed="#PV" n="54"/>quia providentia divina est causa 
+            <lb ed="#PV" n="55"/>effectiva et ordinativa rei in suum 
+            <lb ed="#PV" n="56"/>finem Sed peccatum est recte 
+            <lb ed="#PV" n="57"/>dispositio contraria scilicet de ordinativa 
+            <lb ed="#PV" n="58"/>rei igitur super ipsum non cadit 
+            <lb ed="#PV" n="59"/><sic>in mediate</sic> executio divinae provi<lb ed="#PV" break="no" n="60"/>dentiae 
             patet quia pure se habet 
-            <lb ed="#PV"/>permissive respectum culpae Et 
-            <lb ed="#PV"/>quidquid sit peccatum vel <unclear>substantia</unclear> 
-            <lb ed="#PV"/>vel actus quae utique bona 
-            <lb ed="#PV"/>est vel actu vel alia habitudo 
-            <lb ed="#PV"/>relativa quae sit tantae imper<lb ed="#PV" break="no"/>rectionis 
+            <lb ed="#PV" n="61"/>permissive respectum culpae Et 
+            <lb ed="#PV" n="62"/>quidquid sit peccatum vel <unclear>substantia</unclear> 
+            <lb ed="#PV" n="63"/>vel actus quae utique bona 
+            <lb ed="#PV" n="64"/>est vel actu vel alia habitudo 
+            <lb ed="#PV" n="65"/>relativa quae sit tantae imper<lb ed="#PV" break="no" n="66"/>rectionis 
             quod non requirit <unclear>cuiquam</unclear> 
-            <lb ed="#PV"/>dei sed deus solum praemittit Et 
-            <lb ed="#PV"/>istud salvaretur apud ponen<lb ed="#PV" break="no"/>tes 
+            <lb ed="#PV" n="67"/>dei sed deus solum praemittit Et 
+            <lb ed="#PV" n="68"/>istud salvaretur apud ponen<lb ed="#PV" break="no" n="69"/>tes 
             relationes distinctas quae 
-            <lb ed="#PV"/>dicunt quod huiusmodi relationes 
-            <lb ed="#PV"/>non sunt entitates sed modi quidam
+            <lb ed="#PV" n="70"/>dicunt quod huiusmodi relationes 
+            <lb ed="#PV" n="71"/>non sunt entitates sed modi quidam
           </p> 
           <p xml:id="ppr-l98-sdiimv">
-            <lb ed="#PV"/>Simile est de ponentibus complexe 
-            <lb ed="#PV"/>significabilia obiective adextra distincta 2a quia 
-            <lb ed="#PV"/>dicunt quod non sunt entitates
+            <lb ed="#PV" n="72"/>Simile est de ponentibus complexe 
+            <lb ed="#PV" n="73"/>significabilia obiective adextra distincta 2a quia 
+            <lb ed="#PV" n="74"/>dicunt quod non sunt entitates
             <pb ed="#PV" n="183-r"/>
             <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>sic sortes non esse est entitas ymmo 
-            <lb ed="#PV"/>aeternum nec dependens adeo nec 
-            <lb ed="#PV"/>producbile nec indiget causa effectiva 
-            <lb ed="#PV"/>ita quod ponentes respectus distinctos 
-            <lb ed="#PV"/>dicerent de peccato Si ponatur 
-            <lb ed="#PV"/>quod sit actus non tamen sub ratione 
-            <lb ed="#PV"/>difformitatis divina providentia im<lb ed="#PV" break="no"/>mediate 
+            <lb ed="#PV" n="1"/>sic sortes non esse est entitas ymmo 
+            <lb ed="#PV" n="2"/>aeternum nec dependens adeo nec 
+            <lb ed="#PV" n="3"/>producbile nec indiget causa effectiva 
+            <lb ed="#PV" n="4"/>ita quod ponentes respectus distinctos 
+            <lb ed="#PV" n="5"/>dicerent de peccato Si ponatur 
+            <lb ed="#PV" n="6"/>quod sit actus non tamen sub ratione 
+            <lb ed="#PV" n="7"/>difformitatis divina providentia im<lb ed="#PV" break="no" n="8"/>mediate 
             est causa <unclear>divino</unclear> <sic>in mediate</sic> nam 
-            <lb ed="#PV"/>mediate divina providentia est potiorum 
-            <lb ed="#PV"/>praeordinata ut meliora eliciat 
-            <lb ed="#PV"/><name ref="#Augustine">Augustinus</name> expedit quosdam peccasse 
-            <lb ed="#PV"/>fortitor et turpiter et hoc ut postea 
-            <lb ed="#PV"/>peccatum superbiae ad quod <unclear>proni</unclear> erant 
-            <lb ed="#PV"/>declinarent et sic providentia divina 
-            <lb ed="#PV"/>ex peccato elicit virtutem scilicet humilitatem
-            <lb ed="#PV"/><name>Apostolus</name> <quote xml:id="ppr-l98-Qd1e230" ana="#rom8_28">diligentibus Deum omnia co<lb ed="#PV" break="no"/>operantur 
+            <lb ed="#PV" n="9"/>mediate divina providentia est potiorum 
+            <lb ed="#PV" n="10"/>praeordinata ut meliora eliciat 
+            <lb ed="#PV" n="11"/><name ref="#Augustine">Augustinus</name> expedit quosdam peccasse 
+            <lb ed="#PV" n="12"/>fortitor et turpiter et hoc ut postea 
+            <lb ed="#PV" n="13"/>peccatum superbiae ad quod <unclear>proni</unclear> erant 
+            <lb ed="#PV" n="14"/>declinarent et sic providentia divina 
+            <lb ed="#PV" n="15"/>ex peccato elicit virtutem scilicet humilitatem
+            <lb ed="#PV" n="16"/><name>Apostolus</name> <quote xml:id="ppr-l98-Qd1e230" ana="#rom8_28">diligentibus Deum omnia co<lb ed="#PV" break="no" n="17"/>operantur 
             in bonum</quote> Etiam peccata 
-            <lb ed="#PV"/>quia ex peccatis oritur eis humi<lb ed="#PV" break="no"/>litas 
+            <lb ed="#PV" n="18"/>quia ex peccatis oritur eis humi<lb ed="#PV" break="no" n="19"/>litas 
             etiam ordinatio Etiam punitio 
-            <lb ed="#PV"/>quae bona est et universi decorativa 
-            <lb ed="#PV"/>etiam ut virtutes eliciantur
+            <lb ed="#PV" n="20"/>quae bona est et universi decorativa 
+            <lb ed="#PV" n="21"/>etiam ut virtutes eliciantur
           </p>
         </div>
         <div xml:id="ppr-l98-Dd1e239">
           <head xml:id="ppr-l98-Hspcspc">Septimum corollarium</head>
           <p xml:id="ppr-l98-cqdspd">
             Sequitur 
-            <lb ed="#PV"/>quod divinum providentia non tollit 
-            <lb ed="#PV"/>libertatem arbitrii creati patet 
-            <lb ed="#PV"/>quia ponit ligem arbitrio creato 
-            <lb ed="#PV"/>ergo dat sibi libertatem ad implendum 
-            <lb ed="#PV"/>nam dato contrario sequitur contra praecedens 
-            <lb ed="#PV"/>corollarium quod deus esset causa peccati 
-            <lb ed="#PV"/>ymmo neccesstaret creaturam ad 
-            <lb ed="#PV"/>peccandum patet nam si deus det 
-            <lb ed="#PV"/>legem et necessitet voluntatem 
-            <lb ed="#PV"/>ad transgrediendum sequitur 
-            <lb ed="#PV"/>quod necessitet ad peccandum 
-            <lb ed="#PV"/>ergo de ordinat creaturam quod 
-            <lb ed="#PV"/>est contra rationem providentiae Nam de 
-            <lb ed="#PV"/>ratione eius est <unclear>rem</unclear> in suum bonum 
-            <lb ed="#PV"/>dirigere ergo repugnat sibi etc
+            <lb ed="#PV" n="22"/>quod divinum providentia non tollit 
+            <lb ed="#PV" n="23"/>libertatem arbitrii creati patet 
+            <lb ed="#PV" n="24"/>quia ponit ligem arbitrio creato 
+            <lb ed="#PV" n="25"/>ergo dat sibi libertatem ad implendum 
+            <lb ed="#PV" n="26"/>nam dato contrario sequitur contra praecedens 
+            <lb ed="#PV" n="27"/>corollarium quod deus esset causa peccati 
+            <lb ed="#PV" n="28"/>ymmo neccesstaret creaturam ad 
+            <lb ed="#PV" n="29"/>peccandum patet nam si deus det 
+            <lb ed="#PV" n="30"/>legem et necessitet voluntatem 
+            <lb ed="#PV" n="31"/>ad transgrediendum sequitur 
+            <lb ed="#PV" n="32"/>quod necessitet ad peccandum 
+            <lb ed="#PV" n="33"/>ergo de ordinat creaturam quod 
+            <lb ed="#PV" n="34"/>est contra rationem providentiae Nam de 
+            <lb ed="#PV" n="35"/>ratione eius est <unclear>rem</unclear> in suum bonum 
+            <lb ed="#PV" n="36"/>dirigere ergo repugnat sibi etc
           </p>
           <p xml:id="ppr-l98-eqsihm">
-            <lb ed="#PV"/>Sequitur quod stabit cum lege 
-            <lb ed="#PV"/>positu libertas arbitrii istud
-            <lb ed="#PV"/>corollarium concedunt morales etc
+            <lb ed="#PV" n="37"/>Sequitur quod stabit cum lege 
+            <lb ed="#PV" n="38"/>positu libertas arbitrii istud
+            <lb ed="#PV" n="39"/>corollarium concedunt morales etc
             <cb ed="#PV" n="b"/>
-            <lb ed="#PV"/>excellentiores philosophi et fides ideo licet 
-            <lb ed="#PV"/>ratio ad conclusionem et est difficilis ad sol<lb ed="#PV" break="no"/>vendum 
+            <lb ed="#PV" n="40"/>excellentiores philosophi et fides ideo licet 
+            <lb ed="#PV" n="41"/>ratio ad conclusionem et est difficilis ad sol<lb ed="#PV" break="no" n="42"/>vendum 
             vel insolubilis nichilominus 
-            <lb ed="#PV"/>esset haec veritas tenenda exemplum 
-            <lb ed="#PV"/>quia stat quod Sortes nesciat a propter quem 
-            <lb ed="#PV"/>a contradictione defendere quando tamen 
-            <lb ed="#PV"/>scit omne veram et tamen nullo modo 
-            <lb ed="#PV"/>stet solvere in solubile factum in 
-            <lb ed="#PV"/>contrarium ubi recurrendum est ad in<lb ed="#PV" break="no"/>firmitatem 
+            <lb ed="#PV" n="43"/>esset haec veritas tenenda exemplum 
+            <lb ed="#PV" n="44"/>quia stat quod Sortes nesciat a propter quem 
+            <lb ed="#PV" n="45"/>a contradictione defendere quando tamen 
+            <lb ed="#PV" n="46"/>scit omne veram et tamen nullo modo 
+            <lb ed="#PV" n="47"/>stet solvere in solubile factum in 
+            <lb ed="#PV" n="48"/>contrarium ubi recurrendum est ad in<lb ed="#PV" break="no" n="49"/>firmitatem 
             ingenii vel ingorantiam 
-            <lb ed="#PV"/>artis dyabolice Ideo licet ratio esset in ista 
-            <lb ed="#PV"/>natura alicui insolubilis tamen non 
-            <lb ed="#PV"/>deberet ipsum turbare quia vel 
-            <lb ed="#PV"/>est ex ignorantia dyabolice vel in<lb ed="#PV" break="no"/>firmitate 
-            ingenii vel ex <unclear>auctoritati<lb ed="#PV" break="no"/>bus</unclear> 
+            <lb ed="#PV" n="50"/>artis dyabolice Ideo licet ratio esset in ista 
+            <lb ed="#PV" n="51"/>natura alicui insolubilis tamen non 
+            <lb ed="#PV" n="52"/>deberet ipsum turbare quia vel 
+            <lb ed="#PV" n="53"/>est ex ignorantia dyabolice vel in<lb ed="#PV" break="no" n="54"/>firmitate 
+            ingenii vel ex <unclear>auctoritati<lb ed="#PV" break="no" n="55"/>bus</unclear> 
             simul tamen deo duce 
-            <lb ed="#PV"/>solvetur satis apparenter <unclear>argumentum</unclear> so<lb ed="#PV" break="no"/>litum 
+            <lb ed="#PV" n="56"/>solvetur satis apparenter <unclear>argumentum</unclear> so<lb ed="#PV" break="no" n="57"/>litum 
             fieri in ista materia scilicet de 
-            <lb ed="#PV"/>praedestinatione
+            <lb ed="#PV" n="58"/>praedestinatione
           </p>
         </div>
         <div xml:id="ppr-l98-Dd1e269">
           <head xml:id="ppr-l98-Hovcovc">Octavum corollarium</head>
           <p xml:id="ppr-l98-ocqaep">
             Sequitur 
-            <lb ed="#PV"/>quod divina providentia non tollit casum 
-            <lb ed="#PV"/>et fortunam addo tamen quod respectu 
-            <lb ed="#PV"/>divinae providentiae nichil est fortuitum 
-            <lb ed="#PV"/>vel casuale 2a pars debet esse nota 
-            <lb ed="#PV"/>quia prima causa omnia universaliter 
-            <lb ed="#PV"/>cognoscit quam nihil latet et nihil 
-            <lb ed="#PV"/>agit quin ipsa cognoscat omnes 
-            <lb ed="#PV"/>habitudines effectuum ad suas 
-            <lb ed="#PV"/>causas nullus effectus accidit 
-            <lb ed="#PV"/>primae causae <unclear>pretuo</unclear> suum intellectum 
-            <lb ed="#PV"/>quia causa fortuita non 
-            <lb ed="#PV"/>intendit in effectum per <unclear>ve?to</unclear> 
-            ex sua operatione exemplum de colen<lb ed="#PV" break="no"/>te 
+            <lb ed="#PV" n="59"/>quod divina providentia non tollit casum 
+            <lb ed="#PV" n="60"/>et fortunam addo tamen quod respectu 
+            <lb ed="#PV" n="61"/>divinae providentiae nichil est fortuitum 
+            <lb ed="#PV" n="62"/>vel casuale 2a pars debet esse nota 
+            <lb ed="#PV" n="63"/>quia prima causa omnia universaliter 
+            <lb ed="#PV" n="64"/>cognoscit quam nihil latet et nihil 
+            <lb ed="#PV" n="65"/>agit quin ipsa cognoscat omnes 
+            <lb ed="#PV" n="66"/>habitudines effectuum ad suas 
+            <lb ed="#PV" n="67"/>causas nullus effectus accidit 
+            <lb ed="#PV" n="68"/>primae causae <unclear>pretuo</unclear> suum intellectum 
+            <lb ed="#PV" n="69"/>quia causa fortuita non 
+            <lb ed="#PV" n="70"/>intendit in effectum per <unclear>ve?to</unclear> 
+            ex sua operatione exemplum de colen<lb ed="#PV" break="no" n="71"/>te 
             agrum et in <unclear>ve?te</unclear> thesauram 
-            <lb ed="#PV"/>quia finis motus est colere 
-            <lb ed="#PV"/>terram et seminare pladum et omnino 
-            <lb ed="#PV"/>latebat thesauri inventum 
-            <lb ed="#PV"/>vel in loco <unclear>illo</unclear> latitatio deus 
-            <lb ed="#PV"/>autem cognoscit omnes rerum 
-            <lb ed="#PV"/>habitudines et nichil agit quin
+            <lb ed="#PV" n="72"/>quia finis motus est colere 
+            <lb ed="#PV" n="73"/>terram et seminare pladum et omnino 
+            <lb ed="#PV" n="74"/>latebat thesauri inventum 
+            <lb ed="#PV" n="75"/>vel in loco <unclear>illo</unclear> latitatio deus 
+            <lb ed="#PV" n="76"/>autem cognoscit omnes rerum 
+            <lb ed="#PV" n="77"/>habitudines et nichil agit quin
             <pb ed="#PV" n="183-v"/>
             <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>a proposito ideo respectum eius nullus 
-            <lb ed="#PV"/>affectus est fortuitus nec casualis
+            <lb ed="#PV" n="1"/>a proposito ideo respectum eius nullus 
+            <lb ed="#PV" n="2"/>affectus est fortuitus nec casualis
           </p>
         </div>
         <div xml:id="ppr-l98-Dd1e290">
           <head xml:id="ppr-l98-Hncmncm">Nonum corollarium</head>
           <p xml:id="ppr-l98-ncqeaf">
-            <lb ed="#PV"/>Sequitur ex hoc quod per <unclear>ymitationem</unclear> 
-            <lb ed="#PV"/>divinae providentiae <unclear>recedet</unclear> causa 
-            <lb ed="#PV"/>fortuita ab effectu fortuito Ita 
-            <lb ed="#PV"/>quod staret voluntatem creatam 
-            <lb ed="#PV"/>vel intellectum practicum tantum 
-            <lb ed="#PV"/>divinam providentiam ymitari quod nihil 
-            <lb ed="#PV"/>posset sibi fortuite contingere <!-- possible addition here --> patet 
-            <lb ed="#PV"/>de anima christi quia 2m <name>magaister</name> ipsa 
-            <lb ed="#PV"/>cognovit omnia quae verum igitur omnem 
-            <lb ed="#PV"/>rerum habitudines igitur etc quia 
-            <lb ed="#PV"/>cuiuscumque effectus videbat finem
+            <lb ed="#PV" n="3"/>Sequitur ex hoc quod per <unclear>ymitationem</unclear> 
+            <lb ed="#PV" n="4"/>divinae providentiae <unclear>recedet</unclear> causa 
+            <lb ed="#PV" n="5"/>fortuita ab effectu fortuito Ita 
+            <lb ed="#PV" n="6"/>quod staret voluntatem creatam 
+            <lb ed="#PV" n="7"/>vel intellectum practicum tantum 
+            <lb ed="#PV" n="8"/>divinam providentiam ymitari quod nihil 
+            <lb ed="#PV" n="9"/>posset sibi fortuite contingere <!-- possible addition here --> patet 
+            <lb ed="#PV" n="10"/>de anima christi quia 2m <name>magaister</name> ipsa 
+            <lb ed="#PV" n="11"/>cognovit omnia quae verum igitur omnem 
+            <lb ed="#PV" n="12"/>rerum habitudines igitur etc quia 
+            <lb ed="#PV" n="13"/>cuiuscumque effectus videbat finem
           </p>
           <p xml:id="ppr-l98-eehacp">
-            <lb ed="#PV"/>Consequenter patet quod intellectus 
-            <lb ed="#PV"/>propositionis <ref xml:id="ppr-l98-Rd1e309" corresp="#ppr-l98-Qd1e320"><name ref="#Aristotle">philosophi</name> in libro <title>de bona for<lb ed="#PV" break="no"/>tuna</title></ref> 
+            <lb ed="#PV" n="14"/>Consequenter patet quod intellectus 
+            <lb ed="#PV" n="15"/>propositionis <ref xml:id="ppr-l98-Rd1e309" corresp="#ppr-l98-Qd1e320"><name ref="#Aristotle">philosophi</name> in libro <title>de bona for<lb ed="#PV" break="no" n="16"/>tuna</title></ref> 
             dicentis quod <quote xml:id="ppr-l98-Qd1e320">ubi maximus 
-            <lb ed="#PV"/>intellectus ibi minima est fortuna</quote> hoc 
-            <lb ed="#PV"/>enim non oportet intelligere 
-            <lb ed="#PV"/>quod philosophi elevati ingenio habeant 
+            <lb ed="#PV" n="17"/>intellectus ibi minima est fortuna</quote> hoc 
+            <lb ed="#PV" n="18"/>enim non oportet intelligere 
+            <lb ed="#PV" n="19"/>quod philosophi elevati ingenio habeant 
             fortunam magis asperam Nam
-            <lb ed="#PV"/>quantum magis elevatus tanto magis 
-            <lb ed="#PV"/>videt rerum habitudines ubi 
-            <lb ed="#PV"/>intellectus non videret et sic maximus 
-            <lb ed="#PV"/>intellectus qua si omnia quae praevidet 
-            <lb ed="#PV"/>quae <unclear>secutura</unclear> sunt ex suis ele<lb ed="#PV" break="no"/>tionibus 
+            <lb ed="#PV" n="20"/>quantum magis elevatus tanto magis 
+            <lb ed="#PV" n="21"/>videt rerum habitudines ubi 
+            <lb ed="#PV" n="22"/>intellectus non videret et sic maximus 
+            <lb ed="#PV" n="23"/>intellectus qua si omnia quae praevidet 
+            <lb ed="#PV" n="24"/>quae <unclear>secutura</unclear> sunt ex suis ele<lb ed="#PV" break="no" n="25"/>tionibus 
             Ideo raro contingit prae 
-            <lb ed="#PV"/>aliquid a fortuna quia <unclear>eviturae</unclear> a 
-            <lb ed="#PV"/>fortuna est evenire absque in<lb ed="#PV" break="no"/>tentione 
+            <lb ed="#PV" n="26"/>aliquid a fortuna quia <unclear>eviturae</unclear> a 
+            <lb ed="#PV" n="27"/>fortuna est evenire absque in<lb ed="#PV" break="no" n="28"/>tentione 
             et praevisione et sic quantum 
-            <lb ed="#PV"/>ad hoc propter ignorantiam 
-            <lb ed="#PV"/>causarum vulgus finxit fortu<lb ed="#PV" break="no"/>nam 
+            <lb ed="#PV" n="29"/>ad hoc propter ignorantiam 
+            <lb ed="#PV" n="30"/>causarum vulgus finxit fortu<lb ed="#PV" break="no" n="31"/>nam 
             esse quodam numeri vel quamdam 
-            <lb ed="#PV"/>causam latentem quod non 
-            <lb ed="#PV"/>oportet dicere sufficit enim doc<lb ed="#PV" break="no"/>trina 
+            <lb ed="#PV" n="32"/>causam latentem quod non 
+            <lb ed="#PV" n="33"/>oportet dicere sufficit enim doc<lb ed="#PV" break="no" n="34"/>trina 
             a <ref xml:id="ppr-l98-Rd1e339"><name ref="#Aristotle">philosopho</name> tradita in 2o <title>physicorum</title></ref>
-            <lb ed="#PV"/>et in <ref xml:id="ppr-l98-Rd1e349">libro de bona fortuna</ref> nihil<lb ed="#PV" break="no"/>ominus
+            <lb ed="#PV" n="35"/>et in <ref xml:id="ppr-l98-Rd1e349">libro de bona fortuna</ref> nihil<lb ed="#PV" break="no" n="36"/>ominus
             Advertendum quod fortuna 
-            <lb ed="#PV"/>potest capi quamcumque modis et ista 
-            <lb ed="#PV"/>videtur tangeri philosophus in 
+            <lb ed="#PV" n="37"/>potest capi quamcumque modis et ista 
+            <lb ed="#PV" n="38"/>videtur tangeri philosophus in 
             <cb ed="#PV" n="b"/>
-            <lb ed="#PV"/>libro de bona fortuna pro provi<lb ed="#PV" break="no"/>dentia 
+            <lb ed="#PV" n="39"/>libro de bona fortuna pro provi<lb ed="#PV" break="no" n="40"/>dentia 
             divina licet non sit 
-            <lb ed="#PV"/>effectus fortuitus respectu ip<lb ed="#PV" break="no"/>sius 
+            <lb ed="#PV" n="41"/>effectus fortuitus respectu ip<lb ed="#PV" break="no" n="42"/>sius 
             est tamen fortuitus respectu 
-            <lb ed="#PV"/>intellectus vle voluntatis creatae et 
-            <lb ed="#PV"/>est ex intentione respectu provi<lb ed="#PV" break="no"/>dentiae 
+            <lb ed="#PV" n="43"/>intellectus vle voluntatis creatae et 
+            <lb ed="#PV" n="44"/>est ex intentione respectu provi<lb ed="#PV" break="no" n="45"/>dentiae 
             divinae quia staret quod 
-            <lb ed="#PV"/>specialiter dirigeret sortem adinveni<lb ed="#PV" break="no"/>endum
+            <lb ed="#PV" n="46"/>specialiter dirigeret sortem adinveni<lb ed="#PV" break="no" n="47"/>endum
             <unclear>the?rum</unclear> ut dicere unde staret 
-            <lb ed="#PV"/>quod idem effectus esset fortuitus 
-            <lb ed="#PV"/>respectum unus voluntatis creatae 
-            <lb ed="#PV"/>et non <unclear>respectum</unclear> alterius hic possunt 
-            <lb ed="#PV"/>multa dici dicendo ad dicta <unclear>vellarum</unclear> 
+            <lb ed="#PV" n="48"/>quod idem effectus esset fortuitus 
+            <lb ed="#PV" n="49"/>respectum unus voluntatis creatae 
+            <lb ed="#PV" n="50"/>et non <unclear>respectum</unclear> alterius hic possunt 
+            <lb ed="#PV" n="51"/>multa dici dicendo ad dicta <unclear>vellarum</unclear> 
           </p>
           <p xml:id="ppr-l98-cdqaig">
-            <lb ed="#PV"/>et <unclear>loca</unclear> consequenter executionem divinae provi<lb ed="#PV" break="no"/>dentiae 
-            respectu regiminis universi<lb ed="#PV" break="no"/>tam
+            <lb ed="#PV" n="52"/>et <unclear>loca</unclear> consequenter executionem divinae provi<lb ed="#PV" break="no" n="53"/>dentiae 
+            respectu regiminis universi<lb ed="#PV" break="no" n="54"/>tam
             naturalis quam moralis 
-            <lb ed="#PV"/>quam gratuiti remitto quantum 
-            <lb ed="#PV"/>ad hoc ad <ref xml:id="ppr-l98-Rd1e379" target="http://scta.info/resource/zxcvbn"><name ref="#WilliamOfParis">wilhelmum parysiensis</name>
-            <lb ed="#PV"/>in libro <title ref="#deUniverso">de universo</title></ref> ubi indu<lb ed="#PV" break="no"/>cit 
+            <lb ed="#PV" n="55"/>quam gratuiti remitto quantum 
+            <lb ed="#PV" n="56"/>ad hoc ad <ref xml:id="ppr-l98-Rd1e379" target="http://scta.info/resource/zxcvbn"><name ref="#WilliamOfParis">wilhelmum parysiensis</name>
+            <lb ed="#PV" n="57"/>in libro <title ref="#deUniverso">de universo</title></ref> ubi indu<lb ed="#PV" break="no" n="58"/>cit 
             qualiter divina providentia 
-            <lb ed="#PV"/>est diffusa in animata et in inanima<lb ed="#PV" break="no"/>ta 
-            <ref><name>Albertus</name> in libro de anima<lb ed="#PV" break="no"/>libus</ref>
+            <lb ed="#PV" n="59"/>est diffusa in animata et in inanima<lb ed="#PV" break="no" n="60"/>ta 
+            <ref><name>Albertus</name> in libro de anima<lb ed="#PV" break="no" n="61"/>libus</ref>
             facit digressionem super 
-            <lb ed="#PV"/>hoc <name>wilhelmus parysiensis</name> inducit 
-            <lb ed="#PV"/>quomodo aranea texit fila et 
-            <lb ed="#PV"/>qua arte et quam ibi relucet 
-            <lb ed="#PV"/>divina providentia et divina bonitas 
-            Etiam de <sic>formita</sic> fungente gra<lb ed="#PV" break="no"/>num <!-- an ant dealing with a seed --> 
+            <lb ed="#PV" n="62"/>hoc <name>wilhelmus parysiensis</name> inducit 
+            <lb ed="#PV" n="63"/>quomodo aranea texit fila et 
+            <lb ed="#PV" n="64"/>qua arte et quam ibi relucet 
+            <lb ed="#PV" n="65"/>divina providentia et divina bonitas 
+            Etiam de <sic>formita</sic> fungente gra<lb ed="#PV" break="no" n="66"/>num <!-- an ant dealing with a seed --> 
             ne pullulet Similiter 
-            <lb ed="#PV"/>de apibus quae quasi politice 
-            <lb ed="#PV"/>civiliter operantur habent regem 
-            <lb ed="#PV"/>qui non habet puncturam nec acu<lb ed="#PV" break="no"/>leum 
-            <unclear>addae</unclear> Notandum quod reges de<lb ed="#PV" break="no"/>bent 
+            <lb ed="#PV" n="67"/>de apibus quae quasi politice 
+            <lb ed="#PV" n="68"/>civiliter operantur habent regem 
+            <lb ed="#PV" n="69"/>qui non habet puncturam nec acu<lb ed="#PV" break="no" n="70"/>leum 
+            <unclear>addae</unclear> Notandum quod reges de<lb ed="#PV" break="no" n="71"/>bent 
             esse mansueti faciunt ex 
-            <lb ed="#PV"/><unclear>agones</unclear> quo replentur sic <unclear>locum</unclear> 
-            <lb ed="#PV"/>quod nichil manet vacuum <unclear>virt?s</unclear>
-            <lb ed="#PV"/>non possunt sic replere locum 
-            <lb ed="#PV"/>sed ex agones replent inter 
-            <lb ed="#PV"/>alias figuras quas docuit
+            <lb ed="#PV" n="72"/><unclear>agones</unclear> quo replentur sic <unclear>locum</unclear> 
+            <lb ed="#PV" n="73"/>quod nichil manet vacuum <unclear>virt?s</unclear>
+            <lb ed="#PV" n="74"/>non possunt sic replere locum 
+            <lb ed="#PV" n="75"/>sed ex agones replent inter 
+            <lb ed="#PV" n="76"/>alias figuras quas docuit
             <pb ed="#PV" n="184-r"/>
             <cb ed="#PV" n="a"/>
-            <lb ed="#PV"/>apes istam geometriam 
+            <lb ed="#PV" n="1"/>apes istam geometriam 
           </p>
           <!--
             consider collapsing this paragraph into the above
@@ -420,87 +417,87 @@
           </head>
           <p xml:id="ppr-l98-pmdaar">
             pro maiori 
-            <lb ed="#PV"/>declaratione notandum quod fatum 
-            <lb ed="#PV"/>rationaliter dictum in tertia acceptatione 
-            <lb ed="#PV"/>scilicet pro enunciato sententiato vel decerto 
-            <lb ed="#PV"/>ad??bus vel deamonibus temper nati<lb ed="#PV" break="no"/>vitatis 
+            <lb ed="#PV" n="2"/>declaratione notandum quod fatum 
+            <lb ed="#PV" n="3"/>rationaliter dictum in tertia acceptatione 
+            <lb ed="#PV" n="4"/>scilicet pro enunciato sententiato vel decerto 
+            <lb ed="#PV" n="5"/>ad??bus vel deamonibus temper nati<lb ed="#PV" break="no" n="6"/>vitatis 
             pueri quod asta sor?most? 
-            <lb ed="#PV"/>opinio tripliciter p?tuet? habere <unclear>ariginem</unclear> 
-            <lb ed="#PV"/>uno modo per modum demeriti 
-            <lb ed="#PV"/>vellarum quae ratione granum 
-            <lb ed="#PV"/>peccatorum potu?ut esse digne illud 
-            <lb ed="#PV"/>a deo ut dyabolum tollerent tamquam 
-            <lb ed="#PV"/>deum et divinum honorem deo sub<lb ed="#PV" break="no"/>trahentes 
+            <lb ed="#PV" n="7"/>opinio tripliciter p?tuet? habere <unclear>ariginem</unclear> 
+            <lb ed="#PV" n="8"/>uno modo per modum demeriti 
+            <lb ed="#PV" n="9"/>vellarum quae ratione granum 
+            <lb ed="#PV" n="10"/>peccatorum potu?ut esse digne illud 
+            <lb ed="#PV" n="11"/>a deo ut dyabolum tollerent tamquam 
+            <lb ed="#PV" n="12"/>deum et divinum honorem deo sub<lb ed="#PV" break="no" n="13"/>trahentes 
             et dyabolo attribueretur 
-            <lb ed="#PV"/>et hoc contingit ex ca?ie de peccato 
-            <lb ed="#PV"/>in peccatum ut patet <ref>ad romanos <num>vi</num>o</ref>
+            <lb ed="#PV" n="14"/>et hoc contingit ex ca?ie de peccato 
+            <lb ed="#PV" n="15"/>in peccatum ut patet <ref>ad romanos <num>vi</num>o</ref>
           </p>
           <p xml:id="ppr-l98-psqpan">
-            <lb ed="#PV"/>Biblia satis narrat fuisse mag<lb ed="#PV" break="no"/>nos 
-            arioles fitonissas ydo<lb ed="#PV" break="no"/>latrias 
+            <lb ed="#PV" n="16"/>Biblia satis narrat fuisse mag<lb ed="#PV" break="no" n="17"/>nos 
+            arioles fitonissas ydo<lb ed="#PV" break="no" n="18"/>latrias 
             et eas ex?me de testatur 
-            <lb ed="#PV"/>et suis demeritis exigentibus 
-            <lb ed="#PV"/>esse relitas in manibus diaboli 
-            <lb ed="#PV"/>hoc affirmant historiae et etiam 
-            <lb ed="#PV"/>dictae gentilium et quantum ad 
-            <lb ed="#PV"/>hoc <unclear>appropiuntur</unclear> quod in ydolis fue<lb ed="#PV" break="no"/>runt 
-            daemones et dabant re<lb ed="#PV" break="no"/>sponsa 
+            <lb ed="#PV" n="19"/>et suis demeritis exigentibus 
+            <lb ed="#PV" n="20"/>esse relitas in manibus diaboli 
+            <lb ed="#PV" n="21"/>hoc affirmant historiae et etiam 
+            <lb ed="#PV" n="22"/>dictae gentilium et quantum ad 
+            <lb ed="#PV" n="23"/>hoc <unclear>appropiuntur</unclear> quod in ydolis fue<lb ed="#PV" break="no" n="24"/>runt 
+            daemones et dabant re<lb ed="#PV" break="no" n="25"/>sponsa 
             sic potuit contingere 
-            <lb ed="#PV"/>quoad daemones diceret mulieribus 
-            <lb ed="#PV"/><unclear>t?ia</unclear>
+            <lb ed="#PV" n="26"/>quoad daemones diceret mulieribus 
+            <lb ed="#PV" n="27"/><unclear>t?ia</unclear>
           </p>
           <p xml:id="ppr-l98-sievms">
             2o potuit habere originem 
-            <lb ed="#PV"/>ex libidine mentiend vetularum 
-            <lb ed="#PV"/>nam potuerunt quandoque fin<lb ed="#PV" break="no"/>gere 
+            <lb ed="#PV" n="28"/>ex libidine mentiend vetularum 
+            <lb ed="#PV" n="29"/>nam potuerunt quandoque fin<lb ed="#PV" break="no" n="30"/>gere 
             quod haberent huiusmodi 
-            <lb ed="#PV"/>decreta deorum ubi penitus 
-            <lb ed="#PV"/>nihil habuerunt vel causa 
-            <lb ed="#PV"/>2a potest ese causa quaestus ut 
-            <lb ed="#PV"/>parentes <unclear>di?tes</unclear> ad bani con<lb ed="#PV" break="no"/>ferrent 
-            dixerunt filios esse fa<lb ed="#PV" break="no"/>tatos 
+            <lb ed="#PV" n="31"/>decreta deorum ubi penitus 
+            <lb ed="#PV" n="32"/>nihil habuerunt vel causa 
+            <lb ed="#PV" n="33"/>2a potest ese causa quaestus ut 
+            <lb ed="#PV" n="34"/>parentes <unclear>di?tes</unclear> ad bani con<lb ed="#PV" break="no" n="35"/>ferrent 
+            dixerunt filios esse fa<lb ed="#PV" break="no" n="36"/>tatos 
             ad magnam prosperitatem 
-            <lb ed="#PV"/>et avidissime decreta deorum 
-            <lb ed="#PV"/>vel causa inanis gloriae ut re<lb ed="#PV" break="no"/>putarentur
+            <lb ed="#PV" n="37"/>et avidissime decreta deorum 
+            <lb ed="#PV" n="38"/>vel causa inanis gloriae ut re<lb ed="#PV" break="no" n="39"/>putarentur
             <sic>familores</sic> deorum 
-            <lb ed="#PV"/>ut viderentur minima scire et <unclear>ex <!-- possibility deleted --></unclear> 
-            <lb ed="#PV"/>alterentur et ita possunt <del>fuerunt</del>
+            <lb ed="#PV" n="40"/>ut viderentur minima scire et <unclear>ex <!-- possibility deleted --></unclear> 
+            <lb ed="#PV" n="41"/>alterentur et ita possunt <del>fuerunt</del>
             <cb ed="#PV" n="b"/>
-            <lb ed="#PV"/>sufficienter contingere 
+            <lb ed="#PV" n="42"/>sufficienter contingere 
           </p>
           <p xml:id="ppr-l98-tphasm">
-            3o potuit ra<lb ed="#PV" break="no"/>dicem 
+            3o potuit ra<lb ed="#PV" break="no" n="43"/>dicem 
             habere ex deceptione vetularum 
-            <lb ed="#PV"/>quae credunt vel reputabant 
-            <lb ed="#PV"/>se habere responsa deorum non 
-            <lb ed="#PV"/>habuerunt et istud potest secundum plures 
-            <lb ed="#PV"/>modos deceptionis contingere inter 
-            <lb ed="#PV"/>alias ratione fortis et vehementis 
-            <lb ed="#PV"/>ymaginationis unde vis sensitiva 
-            <lb ed="#PV"/>potest formare ita intensum actum 
-            <lb ed="#PV"/>quod non sufficit distinguere inter actum 
-            <lb ed="#PV"/>suum et obiectum ymmo credo 
-            <lb ed="#PV"/>obiectum esse praesens Alii sunt modi
-            <lb ed="#PV"/>deceptionum de quibus forte 
-            <lb ed="#PV"/>postremo dicetur
+            <lb ed="#PV" n="44"/>quae credunt vel reputabant 
+            <lb ed="#PV" n="45"/>se habere responsa deorum non 
+            <lb ed="#PV" n="46"/>habuerunt et istud potest secundum plures 
+            <lb ed="#PV" n="47"/>modos deceptionis contingere inter 
+            <lb ed="#PV" n="48"/>alias ratione fortis et vehementis 
+            <lb ed="#PV" n="49"/>ymaginationis unde vis sensitiva 
+            <lb ed="#PV" n="50"/>potest formare ita intensum actum 
+            <lb ed="#PV" n="51"/>quod non sufficit distinguere inter actum 
+            <lb ed="#PV" n="52"/>suum et obiectum ymmo credo 
+            <lb ed="#PV" n="53"/>obiectum esse praesens Alii sunt modi
+            <lb ed="#PV" n="54"/>deceptionum de quibus forte 
+            <lb ed="#PV" n="55"/>postremo dicetur
           </p>
           <p xml:id="ppr-l98-spriot">
             prima tamen 
-            <lb ed="#PV"/>radix non valet quia licet ita 
-            <lb ed="#PV"/>esset non tamen debemus ponere 
-            <lb ed="#PV"/>necessitate fati primo tamen 
-            <lb ed="#PV"/>radix non valet quia licet ita 
-            <lb ed="#PV"/>esset non tamen debemus ponere 
-            <lb ed="#PV"/>necessitatem fati primo quia daemon 
-            <lb ed="#PV"/>est <sic>medax</sic> <ref xml:id="ppr-l98-Rd1e481" corresp="#ppr-l98-Qiepepm"><title ref="#io">Iohannes </title> 8o</ref> <quote xml:id="ppr-l98-Qiepepm" ana="#io8_44">est pater men<lb ed="#PV" break="no"/>dacii</quote>
+            <lb ed="#PV" n="56"/>radix non valet quia licet ita 
+            <lb ed="#PV" n="57"/>esset non tamen debemus ponere 
+            <lb ed="#PV" n="58"/>necessitate fati primo tamen 
+            <lb ed="#PV" n="59"/>radix non valet quia licet ita 
+            <lb ed="#PV" n="60"/>esset non tamen debemus ponere 
+            <lb ed="#PV" n="61"/>necessitatem fati primo quia daemon 
+            <lb ed="#PV" n="62"/>est <sic>medax</sic> <ref xml:id="ppr-l98-Rd1e481" corresp="#ppr-l98-Qiepepm"><title ref="#io">Iohannes </title> 8o</ref> <quote xml:id="ppr-l98-Qiepepm" ana="#io8_44">est pater men<lb ed="#PV" break="no" n="63"/>dacii</quote>
             et homicida ideo dictum 
-            <lb ed="#PV"/>daemonis <unclear>nullam</unclear> ponit necessitatem ymmo 
-            <lb ed="#PV"/>nec revelatio divina vel dictum 
-            <lb ed="#PV"/>dei de effectu nullam imponit neces<lb ed="#PV" break="no"/>sitatem 
-            ergo a fortiori de dae<lb ed="#PV" break="no"/>mone 
+            <lb ed="#PV" n="64"/>daemonis <unclear>nullam</unclear> ponit necessitatem ymmo 
+            <lb ed="#PV" n="65"/>nec revelatio divina vel dictum 
+            <lb ed="#PV" n="66"/>dei de effectu nullam imponit neces<lb ed="#PV" break="no" n="67"/>sitatem 
+            ergo a fortiori de dae<lb ed="#PV" break="no" n="68"/>mone 
             qui est mendax et maxime 
-            <lb ed="#PV"/>invidet generum humanae <ref xml:id="ppr-l98-Ravejsj" corresp="#ppr-l98-Qavdjkj"><title ref="#sap">ana="#sap2_24"</title> 10</ref> 
-            <lb ed="#PV"/><quote xml:id="ppr-l98-Qavdjkj" ana="#sap2_24">invidia diaboli mores virtutis</quote> etc.
+            <lb ed="#PV" n="69"/>invidet generum humanae <ref xml:id="ppr-l98-Ravejsj" corresp="#ppr-l98-Qavdjkj"><title ref="#sap">sapientiae</title> 10</ref> 
+            <lb ed="#PV" n="70"/><quote xml:id="ppr-l98-Qavdjkj" source="http://scta.info/resource/sap2_24">invidia diaboli mores virtutis</quote> etc.
           </p>
           <!--
             not present 

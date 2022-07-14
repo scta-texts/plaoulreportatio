@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,7 +20,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -53,17 +52,17 @@
         <div xml:id="ppr-l120-Dd1e109">
           <head xml:id="ppr-l120-Hrectio">Recapitulatio</head>
           <p xml:id="ppr-l120-ipvacv">
-            <lb ed="#E"/>In alia lectione
-            <lb ed="#E"/>In praecedentibus visum est quod divina cognitio vel praescientia nullam necessitatem inponit futuris 
-            <lb ed="#E"/>evenientibus plusquam aliqua creabilis intelligentia quae de sui natura esset omnium veritatum cognitiva 
-            <lb ed="#E"/>Constat quod nullam necessitatem inponeret sicut nec si viderem <name>sortem</name> stantem vel currentem 
-            <lb ed="#E"/>in ea visio variat contingentiam <unclear>nisi</unclear> vel effectus illius liberi 
+            <lb ed="#E" n="11"/>In alia lectione
+            <lb ed="#E" n="12"/>In praecedentibus visum est quod divina cognitio vel praescientia nullam necessitatem inponit futuris 
+            <lb ed="#E" n="13"/>evenientibus plusquam aliqua creabilis intelligentia quae de sui natura esset omnium veritatum cognitiva 
+            <lb ed="#E" n="14"/>Constat quod nullam necessitatem inponeret sicut nec si viderem <name>sortem</name> stantem vel currentem 
+            <lb ed="#E" n="15"/>in ea visio variat contingentiam <unclear>nisi</unclear> vel effectus illius liberi 
           </p>
           <!-- fuzzy parallel -->
           <p xml:id="ppr-l120-eivhqi">
             Et sic videt divina praescientia res secundum 
-            <lb ed="#E"/>quod sunt vel erunt nec ut sic debet considerari nec causa rerum et prior causaliter nec posteriori sed quasi ut 
-            <lb ed="#E"/>inpertinens
+            <lb ed="#E" n="16"/>quod sunt vel erunt nec ut sic debet considerari nec causa rerum et prior causaliter nec posteriori sed quasi ut 
+            <lb ed="#E" n="17"/>inpertinens
           </p> 
           <p xml:id="ppr-l120-eiapcb">
             et inter alias vias ista est magis facilis ab intelligentia nostro ad concipiendum
@@ -72,143 +71,143 @@
         <div xml:id="ppr-l120-Dd1e127">
           <head xml:id="ppr-l120-Hddpper">Difficultas de praedestinatione et reprobatione</head>
           <p xml:id="ppr-l120-srdped">
-            <lb ed="#E"/>Restat difficultas maior de praedestinatione et reprobatione nam ultra veritatis cognitionem praedestinatio 
-            <lb ed="#E"/>videtur dicere actum voluntatis divinae et determinationem specialem quae habet determinationem causalitatis 
-            <lb ed="#E"/>Et sic licet praescientia non poneret necessitatem tamen videtur quod praedestinatio ponat necessitatem ex in<lb ed="#E" break="no"/>mutabili 
+            <lb ed="#E" n="18"/>Restat difficultas maior de praedestinatione et reprobatione nam ultra veritatis cognitionem praedestinatio 
+            <lb ed="#E" n="19"/>videtur dicere actum voluntatis divinae et determinationem specialem quae habet determinationem causalitatis 
+            <lb ed="#E" n="20"/>Et sic licet praescientia non poneret necessitatem tamen videtur quod praedestinatio ponat necessitatem ex in<lb ed="#E" break="no" n="21"/>mutabili 
             determinatione divinae voluntatis respectu praedestinatorum et sic proportionaliter de reprobatione
           </p>
         </div>
         <div xml:id="ppr-l120-Dd1e140">
           <head xml:id="ppr-l120-Hpropsl">Propositio: Quilibet qui est viator potest esse praedestinatus stante lege</head>
           <p xml:id="ppr-l120-pdmepa">
-            <pc type="pilcrow"/>Pro de<lb ed="#E" break="no"/>claratione 
+            <pc type="pilcrow"/>Pro de<lb ed="#E" break="no" n="22"/>claratione 
             materiae sit haec prima propositio Quilibet quae est viator potest esse praedestinatus stante lege 
-            <lb ed="#E"/>patet nam quilibet potest facere quod in se est stante lege ad sui finis executionem contra lege stante numquam 
-            <lb ed="#E"/>excidit a gratia quia quandoque <unclear>alias</unclear> facit quod in se est deus confert sibi gratiam et si non faciat 
-            <lb ed="#E"/>contrarium deus non aufert gratiam quia in potestate sua est facere quod in se est et sic uno ad<lb ed="#E" break="no"/>iuncto 
+            <lb ed="#E" n="23"/>patet nam quilibet potest facere quod in se est stante lege ad sui finis executionem contra lege stante numquam 
+            <lb ed="#E" n="24"/>excidit a gratia quia quandoque <unclear>alias</unclear> facit quod in se est deus confert sibi gratiam et si non faciat 
+            <lb ed="#E" n="25"/>contrarium deus non aufert gratiam quia in potestate sua est facere quod in se est et sic uno ad<lb ed="#E" break="no" n="26"/>iuncto 
             scilicet <unclear>misercordia</unclear> divina stante lege potest esse praedestinatus
           </p> 
           <p xml:id="ppr-l120-ueaqid">
             <pc type="pilcrow"/>Advertendum quod si divina scientia 
-            <lb ed="#E"/>nullam inponat scitis vel scibilibus necessitatem a fortiori nec divina voluntas cuius intrinseca 
-            <lb ed="#E"/>conditio vel causalitas est intrinsece libera Patet ergo quod praedestinatio ratione actus voluntatis seu determinationis 
-            <lb ed="#E"/>nullam penitus addit difficultatis gradum nec est color ad ponendum quod aliqua inducat necessitatem 
-            <lb ed="#E"/>patet quia voluntas divina respectu talium est intrinseca libera 
+            <lb ed="#E" n="27"/>nullam inponat scitis vel scibilibus necessitatem a fortiori nec divina voluntas cuius intrinseca 
+            <lb ed="#E" n="28"/>conditio vel causalitas est intrinsece libera Patet ergo quod praedestinatio ratione actus voluntatis seu determinationis 
+            <lb ed="#E" n="29"/>nullam penitus addit difficultatis gradum nec est color ad ponendum quod aliqua inducat necessitatem 
+            <lb ed="#E" n="30"/>patet quia voluntas divina respectu talium est intrinseca libera 
           </p>
           <p xml:id="ppr-l120-eqaeid">
             Patet contra <ref xml:id="ppr-l120-Rd1e155"><name ref="#Aureoli">Aureolum</name></ref> hanc consequentiam non 
-            <lb ed="#E"/>esse bonum ymmo periculosum voluntas divina determinata fuit ab aeterno ad producendum <c>a</c> 
-            <lb ed="#E"/>effectum futurum ergo necesse est eam sic esse determinatam respectu eiusdem effectus nam antecedens est verum 
-            <lb ed="#E"/>et consequens est contra veritatem fidei nam sequitur quod necessario produceret huiusmodi effectum pro tempore <unclear>praefixo</unclear> 
-            <lb ed="#E"/>unde ipse deficit ex eo quod non considerat de ratione libertatis quae est idem actus <del rend="strikethrough">inde</del> et potentia 
-            <lb ed="#E"/>in deo sit quod uniformiter se habens posset nunc agere et nunc non agere hac ut ipse dicit reperitur 
-            <lb ed="#E"/>in voluntate nostra et sic consequenter de deo sed non advertit de inperfectionem nostri intellectus indigentis alio distincto 
-            <lb ed="#E"/>a primo actu et sic non habet se uniformiter omnino 
+            <lb ed="#E" n="31"/>esse bonum ymmo periculosum voluntas divina determinata fuit ab aeterno ad producendum <c>a</c> 
+            <lb ed="#E" n="32"/>effectum futurum ergo necesse est eam sic esse determinatam respectu eiusdem effectus nam antecedens est verum 
+            <lb ed="#E" n="33"/>et consequens est contra veritatem fidei nam sequitur quod necessario produceret huiusmodi effectum pro tempore <unclear>praefixo</unclear> 
+            <lb ed="#E" n="34"/>unde ipse deficit ex eo quod non considerat de ratione libertatis quae est idem actus <del rend="strikethrough">inde</del> et potentia 
+            <lb ed="#E" n="35"/>in deo sit quod uniformiter se habens posset nunc agere et nunc non agere hac ut ipse dicit reperitur 
+            <lb ed="#E" n="36"/>in voluntate nostra et sic consequenter de deo sed non advertit de inperfectionem nostri intellectus indigentis alio distincto 
+            <lb ed="#E" n="37"/>a primo actu et sic non habet se uniformiter omnino 
           </p>
           <p xml:id="ppr-l120-eqspsr">
             Sequitur quod deus magis positive concurrit et aliter 
-            <lb ed="#E"/>ad praedestinationem quam ad reprobationem licet utrobique aeque contingenter 2m modum est <pc type="pilcrow"/>Primum apparet 
-            <lb ed="#E"/>quod deus respectu operationis elicite a viatore praedestinato habente usum rationis concurrit primo modo 
-            <lb ed="#E"/>in gloriam conferendo <del rend="strikethrough">gnam</del> gratiam non sit autem de reprobato quia non specialiter vult nullum finem 
-            <lb ed="#E"/>scilicet aeternam mortem vel dampnatione peccatorum <pc type="pilcrow"/>Consequenter probabiliter potest dici quod se habet negative 
-            <lb ed="#E"/>vel privative divina voluntas respectu praesciti vel reprobati ubi se habet positive respectu praedestinati
+            <lb ed="#E" n="38"/>ad praedestinationem quam ad reprobationem licet utrobique aeque contingenter 2m modum est <pc type="pilcrow"/>Primum apparet 
+            <lb ed="#E" n="39"/>quod deus respectu operationis elicite a viatore praedestinato habente usum rationis concurrit primo modo 
+            <lb ed="#E" n="40"/>in gloriam conferendo <del rend="strikethrough">gnam</del> gratiam non sit autem de reprobato quia non specialiter vult nullum finem 
+            <lb ed="#E" n="41"/>scilicet aeternam mortem vel dampnatione peccatorum <pc type="pilcrow"/>Consequenter probabiliter potest dici quod se habet negative 
+            <lb ed="#E" n="42"/>vel privative divina voluntas respectu praesciti vel reprobati ubi se habet positive respectu praedestinati
           </p> 
           <p xml:id="ppr-l120-ssqtee">
             Sequitur 
-            <lb ed="#E"/>quod licet non steterit tamen lege tunc ordinata nec staret nunc ex ypothesi praedestinatum posse 
-            <lb ed="#E"/>esse praescitum de nullo tamen est econtra loquor in sensu composito 
+            <lb ed="#E" n="43"/>quod licet non steterit tamen lege tunc ordinata nec staret nunc ex ypothesi praedestinatum posse 
+            <lb ed="#E" n="44"/>esse praescitum de nullo tamen est econtra loquor in sensu composito 
           </p>
         </div>
         <div xml:id="ppr-l120-Dd1e186">
           <head xml:id="ppr-l120-Hqdgdgp">Quod duplex gradus <unclear>praedestinationis[?]</unclear></head>
           <p xml:id="ppr-l120-pcdfam">
-            <pc type="pilcrow"/>Advertendum pro declaratione quod duplex re<lb ed="#E" break="no"/>peritur 
+            <pc type="pilcrow"/>Advertendum pro declaratione quod duplex re<lb ed="#E" break="no" n="45"/>peritur 
             gradus praedestinatorum primus est generalis de quibus constat divino intellectu quod felicitatem 
             <pb ed="#E" n="158-v"/>
-            <lb ed="#E"/>aeternum consequenter finaliter et tamen hoc voluntas divina est determinata licet contingenter ad 
-            <lb ed="#E"/>conferendum gratiam in hac vita et postea futuram gloriam et haec est generalis cum qua bene stat 
-            <lb ed="#E"/>vel potest stare non agere conformiter quia pure contingenter voluntas facit actus qui inclu<lb ed="#E" break="no"/>duntur 
+            <lb ed="#E" n="1"/>aeternum consequenter finaliter et tamen hoc voluntas divina est determinata licet contingenter ad 
+            <lb ed="#E" n="2"/>conferendum gratiam in hac vita et postea futuram gloriam et haec est generalis cum qua bene stat 
+            <lb ed="#E" n="3"/>vel potest stare non agere conformiter quia pure contingenter voluntas facit actus qui inclu<lb ed="#E" break="no" n="4"/>duntur 
             in ratione totali habentis usum rationis
           </p>
           <p xml:id="ppr-l120-aemipv">
             Alius gradus est specialior electionis scilicet specialis 
-            <lb ed="#E"/>cum confirmatione et inpossibilitatione respectu creaturae scilicet de carentia finalis perseverantiae Aliqui prae<lb ed="#E" break="no"/>destinatorum 
+            <lb ed="#E" n="5"/>cum confirmatione et inpossibilitatione respectu creaturae scilicet de carentia finalis perseverantiae Aliqui prae<lb ed="#E" break="no" n="6"/>destinatorum 
             taliter fuerunt praedestinati quod not futurorum potestate ut antecedentur etc non esse 
-            <lb ed="#E"/>praedestinatos ut <name>Iheremias</name> antequam ex utero egrederetur sanctificatus fuit <name>Iohannes Baptista</name> Et veri<lb ed="#E" break="no"/>simile 
+            <lb ed="#E" n="7"/>praedestinatos ut <name>Iheremias</name> antequam ex utero egrederetur sanctificatus fuit <name>Iohannes Baptista</name> Et veri<lb ed="#E" break="no" n="8"/>simile 
             est quod eos in hac vita confirmaverit quod a gratia non potuerunt excedere vel discedere quantum 
-            <lb ed="#E"/><unclear>erit</unclear> ex sua facultate licet absolute posset vel potuisset eos desere sed non stante lege Sed 
-            <lb ed="#E"/>de praescitis habentibus usum rationis non sic quia licet deus posset creaturam confirmare tamen stante lege 
-            <lb ed="#E"/>non potest obstinare in via igitur nulli praecluditur quin posset esse praedestinatus 
+            <lb ed="#E" n="9"/><unclear>erit</unclear> ex sua facultate licet absolute posset vel potuisset eos desere sed non stante lege Sed 
+            <lb ed="#E" n="10"/>de praescitis habentibus usum rationis non sic quia licet deus posset creaturam confirmare tamen stante lege 
+            <lb ed="#E" n="11"/>non potest obstinare in via igitur nulli praecluditur quin posset esse praedestinatus 
           </p>
           <p xml:id="ppr-l120-cqerom">
             Advertendum quod 
-            <lb ed="#E"/>doctores loquentes in praesenti materia et scriptura quandoque quod <unclear>sancti</unclear> dei non possunt <unclear>cau?re</unclear> Tales auctoritates 
-            <lb ed="#E"/>intelligendae sunt iuxta 2am acceptionem reprobationis unde concedendum est quod non est in eorum potestate 
-            <lb ed="#E"/>quod sunt praescitae stante legi Et sic potest concedi quod electi non possunt gratiam finalis perseverantiae perdere 
-            <lb ed="#E"/>De reprobatione dicitur quod non cadit sub misericordia divina quia inpossibilitate aliquem viatorem ad bonum unde est 
-            <lb ed="#E"/>contra eius bonitatem Et sic dicuntur se habet respectu illorum et istorum misericordissime tamen 
+            <lb ed="#E" n="12"/>doctores loquentes in praesenti materia et scriptura quandoque quod <unclear>sancti</unclear> dei non possunt <unclear>cau?re</unclear> Tales auctoritates 
+            <lb ed="#E" n="13"/>intelligendae sunt iuxta 2am acceptionem reprobationis unde concedendum est quod non est in eorum potestate 
+            <lb ed="#E" n="14"/>quod sunt praescitae stante legi Et sic potest concedi quod electi non possunt gratiam finalis perseverantiae perdere 
+            <lb ed="#E" n="15"/>De reprobatione dicitur quod non cadit sub misericordia divina quia inpossibilitate aliquem viatorem ad bonum unde est 
+            <lb ed="#E" n="16"/>contra eius bonitatem Et sic dicuntur se habet respectu illorum et istorum misericordissime tamen 
           </p>
           <div xml:id="ppr-l120-Dd1e231">
             <head xml:id="ppr-l120-Hpdgdgp">Propositiones de gradu <unclear>praedestinationis[?]</unclear></head>
             <p xml:id="ppr-l120-padmpp">
               Pro declaratione materiae 
-              <lb ed="#E"/>ponam alias propositiones 
+              <lb ed="#E" n="17"/>ponam alias propositiones 
             </p>
             <p xml:id="ppr-l120-pepaad">
               primo modo et communiter argumenta nullum tribuit intrinsece dignitatis gradum 
-              <lb ed="#E"/>praedestinato nec <unclear>reprobato</unclear> indignitatem patet nam cum aeterna dei praedestinatione stat quantumlibet intensus gradus 
-              <lb ed="#E"/>malitiae Et proportionaliter de reprobatione cum aeterna reprobatione stat quantumlibet magnus perfectionis gradus quia 
-              <lb ed="#E"/>potest in caritate perficere primo potest perficere recipiendo sacramenta et postea potest consequenter perficere in caritate per exercitium bo<lb ed="#E" break="no"/>narum 
-              operationum et proportionaliter correspondet divina acceptatio ad intra et istam materiam deduxi in materia cari<lb ed="#E" break="no"/>tatis 
-              dicebatur quod divina acceptatio qua creatura principaliter denominantur grata et secundum quam creaturae red<lb ed="#E" break="no"/>ditur 
+              <lb ed="#E" n="18"/>praedestinato nec <unclear>reprobato</unclear> indignitatem patet nam cum aeterna dei praedestinatione stat quantumlibet intensus gradus 
+              <lb ed="#E" n="19"/>malitiae Et proportionaliter de reprobatione cum aeterna reprobatione stat quantumlibet magnus perfectionis gradus quia 
+              <lb ed="#E" n="20"/>potest in caritate perficere primo potest perficere recipiendo sacramenta et postea potest consequenter perficere in caritate per exercitium bo<lb ed="#E" break="no" n="21"/>narum 
+              operationum et proportionaliter correspondet divina acceptatio ad intra et istam materiam deduxi in materia cari<lb ed="#E" break="no" n="22"/>tatis 
+              dicebatur quod divina acceptatio qua creatura principaliter denominantur grata et secundum quam creaturae red<lb ed="#E" break="no" n="23"/>ditur 
               vita aeterna digna est alia quam praedestinatio quia illa potest esse respectu praesciti utque de puero 
-              <lb ed="#E"/>praescito quia sicut habet gratiam informantem ita acceptantem
+              <lb ed="#E" n="24"/>praescito quia sicut habet gratiam informantem ita acceptantem
             </p>
             <p xml:id="ppr-l120-sprvdc">
               Item praedestinatio quantum est ex parte 
-              <lb ed="#E"/>divinorum actum intrinsecorum dicit cognitionem de futura felicitate deinde proportionalem volitionem sed constat 
-              <lb ed="#E"/>quod determinatio divinae voluntatis respectu actus dependentis a libera voluntate humana nullum dicit 
-              <lb ed="#E"/>perfectionis gradum nisi dum voluntas humana exit in actum eligendo conformiter ad divinam volun<lb ed="#E" break="no"/>tatem 
+              <lb ed="#E" n="25"/>divinorum actum intrinsecorum dicit cognitionem de futura felicitate deinde proportionalem volitionem sed constat 
+              <lb ed="#E" n="26"/>quod determinatio divinae voluntatis respectu actus dependentis a libera voluntate humana nullum dicit 
+              <lb ed="#E" n="27"/>perfectionis gradum nisi dum voluntas humana exit in actum eligendo conformiter ad divinam volun<lb ed="#E" break="no" n="28"/>tatem 
             </p>
             <p xml:id="ppr-l120-eqsqdp">
-              Sequitur quod dictum scripturae De <name ref="#Jacob">Iacob</name> et <name ref="#Esau">Esau</name> potest intelligi secundum allegoriam ut <del rend="strikethrough">fi<lb ed="#E" break="no"/>geret</del> 
+              Sequitur quod dictum scripturae De <name ref="#Jacob">Iacob</name> et <name ref="#Esau">Esau</name> potest intelligi secundum allegoriam ut <del rend="strikethrough">fi<lb ed="#E" break="no" n="29"/>geret</del> 
               <unclear>figuerit</unclear> ecclesiam beatorum et malingnantium et non <unclear>sit</unclear> quasi dictum personale et secundum hoc facile esset 
-              <lb ed="#E"/>solvere
+              <lb ed="#E" n="30"/>solvere
             </p>
             <p xml:id="ppr-l120-sprqnh">
-              <lb ed="#E"/>Secundo potest intelligi de speciali dilectione scilicet quod dilexerit <name ref="#Jacob">Iacob</name> praedestinatione 2o modo dicta et 
-              <lb ed="#E"/>quia non datio alicuius boni vocatur apud deum quandoque odium quia hanc gratiam non contulit 
-              <lb ed="#E"/><name ref="#Esau">esau</name> ideo dicitur <name ref="#Esau">esau</name> odio habuisse scilicet per subtractionem eius gratiae 
+              <lb ed="#E" n="31"/>Secundo potest intelligi de speciali dilectione scilicet quod dilexerit <name ref="#Jacob">Iacob</name> praedestinatione 2o modo dicta et 
+              <lb ed="#E" n="32"/>quia non datio alicuius boni vocatur apud deum quandoque odium quia hanc gratiam non contulit 
+              <lb ed="#E" n="33"/><name ref="#Esau">esau</name> ideo dicitur <name ref="#Esau">esau</name> odio habuisse scilicet per subtractionem eius gratiae 
             </p>
             <p xml:id="ppr-l120-uenpep">
               <pc type="virgula">//</pc>Advertendum quod aliquorum 
-              <lb ed="#E"/>fuit opinio quod praedestinatio quasi quandam causat necessitatem respectu creaturae ut vitam aeternam consequitur 
-              <lb ed="#E"/>licet concedant possibilitatem ad contrarium tamen eodem modo super de revelatione divina vel futuro iudicio sed haec 
-              <lb ed="#E"/>via non removet quod credunt evitare quia daretur occasio negligendi falsum quia dato quia sit praescita 
-              <lb ed="#E"/>ad hoc in libertate sua est praedestinari ita quod stante lege et misericordia etc sequitur quod salvabitur ergo melius 
-              <lb ed="#E"/>est ponere quod quilibet potest salvari 
+              <lb ed="#E" n="34"/>fuit opinio quod praedestinatio quasi quandam causat necessitatem respectu creaturae ut vitam aeternam consequitur 
+              <lb ed="#E" n="35"/>licet concedant possibilitatem ad contrarium tamen eodem modo super de revelatione divina vel futuro iudicio sed haec 
+              <lb ed="#E" n="36"/>via non removet quod credunt evitare quia daretur occasio negligendi falsum quia dato quia sit praescita 
+              <lb ed="#E" n="37"/>ad hoc in libertate sua est praedestinari ita quod stante lege et misericordia etc sequitur quod salvabitur ergo melius 
+              <lb ed="#E" n="38"/>est ponere quod quilibet potest salvari 
             </p>
             <!-- fuzzy break -->
             <p xml:id="ppr-l120-eqssps">
               Sequitur quod nulli praescito repugnat habere dignitatem ad vitam 
-              <lb ed="#E"/>aeternam et mereri vitam aeternam quia omnia requisita potest esse in eo quia illa prae<lb ed="#E" break="no"/>destinatio 
+              <lb ed="#E" n="39"/>aeternam et mereri vitam aeternam quia omnia requisita potest esse in eo quia illa prae<lb ed="#E" break="no" n="40"/>destinatio 
               divinae voluntatis est inpertinens patet quia aequaliter reperitur vel reperiri potest dignitas 
-              <lb ed="#E"/>tam in praescito quam in praedestinato Sequitur quod nichil se habet repugnanter in praedestinato ad cul<lb ed="#E" break="no"/>pam 
+              <lb ed="#E" n="41"/>tam in praescito quam in praedestinato Sequitur quod nichil se habet repugnanter in praedestinato ad cul<lb ed="#E" break="no" n="42"/>pam 
               mortalem et mortem perpetuam Sequitur falsum est quod esse quod meritum est effectus divinae praedestinationis 
-              <lb ed="#E"/>patet ex eo quia stat quod sortes realiter meretur et tamen scit praescitus igitur etc quia actualiter meretur 
-              <lb ed="#E"/>Quis audeat negare quin petrus peccavit negando christum <name>david</name> accidendo et fuerunt 
-              <lb ed="#E"/>praedestinati et si decessissent fuissent <unclear>puniti</unclear> Item quicumque servaverit mandata salvabitur 
-              <lb ed="#E"/>unde si vis vitam ingredi serva mandata modo stat praescitum servare mandata et mereri vitam 
+              <lb ed="#E" n="43"/>patet ex eo quia stat quod sortes realiter meretur et tamen scit praescitus igitur etc quia actualiter meretur 
+              <lb ed="#E" n="44"/>Quis audeat negare quin petrus peccavit negando christum <name>david</name> accidendo et fuerunt 
+              <lb ed="#E" n="45"/>praedestinati et si decessissent fuissent <unclear>puniti</unclear> Item quicumque servaverit mandata salvabitur 
+              <lb ed="#E" n="46"/>unde si vis vitam ingredi serva mandata modo stat praescitum servare mandata et mereri vitam 
               <pb ed="#E" n="159-r"/>
-              <lb ed="#E"/>ultimo advertendum quod tenendo aliam viam non est alia resolutio nisi quod divina inmen<lb ed="#E" break="no"/>sitas 
+              <lb ed="#E" n="1"/>ultimo advertendum quod tenendo aliam viam non est alia resolutio nisi quod divina inmen<lb ed="#E" break="no" n="2"/>sitas 
               est ultima <unclear>respectu</unclear> iustitiae cui standum est nec ratio naturalis nec ad iudicium per <unclear>doc?onem</unclear> vel 
-              <lb ed="#E"/>naturam pro curabile diceretur consequenter quod divinae iustitiae vel bonitati non repugnaret aliquem 
-              <lb ed="#E"/>non exigentibus suis demeritis aeternaliter vita aeterna privari Etiam sublata libertate 
-              <lb ed="#E"/>deus occulto suo iudicio iustissime faceret quod unum eligeret et alium reprobaret non respiciendo 
-              <lb ed="#E"/>opera scilicet merita vel demerita Ideo qui vellet sequi sicut dicit <ref xml:id="ppr-l120-Rd1e309"><name rend="#Paul">apostolus</name></ref> <quote xml:id="ppr-l120-Qd1e317" source="http://scta.info/resource/rom9_21">figulus facit</quote> etc tamen 
-              <lb ed="#E"/>via videtur melior quod quilibet potest salvari et aequaliter est in libertate voluntatis ante<lb ed="#E" break="no"/>cedenter 
+              <lb ed="#E" n="3"/>naturam pro curabile diceretur consequenter quod divinae iustitiae vel bonitati non repugnaret aliquem 
+              <lb ed="#E" n="4"/>non exigentibus suis demeritis aeternaliter vita aeterna privari Etiam sublata libertate 
+              <lb ed="#E" n="5"/>deus occulto suo iudicio iustissime faceret quod unum eligeret et alium reprobaret non respiciendo 
+              <lb ed="#E" n="6"/>opera scilicet merita vel demerita Ideo qui vellet sequi sicut dicit <ref xml:id="ppr-l120-Rd1e309"><name rend="#Paul">apostolus</name></ref> <quote xml:id="ppr-l120-Qd1e317" source="http://scta.info/resource/rom9_21">figulus facit</quote> etc tamen 
+              <lb ed="#E" n="7"/>via videtur melior quod quilibet potest salvari et aequaliter est in libertate voluntatis ante<lb ed="#E" break="no" n="8"/>cedenter 
               et dispositive quod praescitus salvetur posset alias dari occasio <sic>neglientiae</sic> salutis vel 
-              <lb ed="#E"/>occasio desperationis
+              <lb ed="#E" n="9"/>occasio desperationis
             </p>
           </div>
         </div>

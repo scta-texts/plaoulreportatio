@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,11 +51,11 @@
       <div xml:id="ppr-lectio90">
         <head xml:id="ppr-l90-Hldcldc">Lectio 90, de Caritate</head>
         <p xml:id="ppr-l90-cmcsov">
-          <lb ed="#PV"/>In alia lectione 
-          <lb ed="#PV"/>Circa materiam caritatis consuetum est 
-          <lb ed="#PV"/>investigare de augmento utrum 
-          <lb ed="#PV"/>fiat per additionem gradus ad 
-          <lb ed="#PV"/>gradum 
+          <lb ed="#PV" n="3"/>In alia lectione 
+          <lb ed="#PV" n="4"/>Circa materiam caritatis consuetum est 
+          <lb ed="#PV" n="5"/>investigare de augmento utrum 
+          <lb ed="#PV" n="6"/>fiat per additionem gradus ad 
+          <lb ed="#PV" n="7"/>gradum 
         </p>
         <div xml:id="ppr-l90-Dd1e117">
           <head xml:id="ppr-l90-Hostost">
@@ -66,42 +63,42 @@
           </head>
           <p xml:id="ppr-l90-efremf">
             et in praecedenti lectione 
-            <lb ed="#PV"/>recitata est opinio <ref xml:id="ppr-l90-Rd1e128"><name ref="#Aquinas">sancti thomae</name></ref>
+            <lb ed="#PV" n="8"/>recitata est opinio <ref xml:id="ppr-l90-Rd1e128"><name ref="#Aquinas">sancti thomae</name></ref>
           </p>
         </div>
         <div xml:id="ppr-l90-Dd1e138">
           <head xml:id="ppr-l90-Haopaop">Secunda opinio: Gualterus Burleus</head>
           <p xml:id="ppr-l90-eaoeqc">
-            <lb ed="#PV"/>Alia opinio coincidens cum 
-            <lb ed="#PV"/>praedicta quantum ad aliud et differens 
-            <lb ed="#PV"/>quantum a ad quae ponit quod for<lb ed="#PV" break="no"/>ma 
+            <lb ed="#PV" n="9"/>Alia opinio coincidens cum 
+            <lb ed="#PV" n="10"/>praedicta quantum ad aliud et differens 
+            <lb ed="#PV" n="11"/>quantum a ad quae ponit quod for<lb ed="#PV" break="no" n="12"/>ma 
             accidentalis est <unclear>omnino</unclear> simplex 
-            <lb ed="#PV"/>intensive ymaginatur ulterius 
-            <lb ed="#PV"/>quod in eadem speciei sunt diversi 
-            <lb ed="#PV"/>gradus ita quod in specie caloris 
-            <lb ed="#PV"/>datur aliquis calor quae vo<lb ed="#PV" break="no"/>catur 
+            <lb ed="#PV" n="13"/>intensive ymaginatur ulterius 
+            <lb ed="#PV" n="14"/>quod in eadem speciei sunt diversi 
+            <lb ed="#PV" n="15"/>gradus ita quod in specie caloris 
+            <lb ed="#PV" n="16"/>datur aliquis calor quae vo<lb ed="#PV" break="no" n="17"/>catur 
             remissus quia remisse 
-            <lb ed="#PV"/>immutat sensu In eadem specie 
-            <lb ed="#PV"/>datur intensior non per additionem 
-            <lb ed="#PV"/>partis advenientis sed quia huiusmodi 
-            <lb ed="#PV"/>calor est magis sensus immutatio 
-            <lb ed="#PV"/>et non habet partes plures intensivas 
-            <lb ed="#PV"/>sed quia activior et nobilis est 
-            <lb ed="#PV"/>in eadem specie Iste solvat auc<lb ed="#PV" break="no"/>toritates 
+            <lb ed="#PV" n="18"/>immutat sensu In eadem specie 
+            <lb ed="#PV" n="19"/>datur intensior non per additionem 
+            <lb ed="#PV" n="20"/>partis advenientis sed quia huiusmodi 
+            <lb ed="#PV" n="21"/>calor est magis sensus immutatio 
+            <lb ed="#PV" n="22"/>et non habet partes plures intensivas 
+            <lb ed="#PV" n="23"/>sed quia activior et nobilis est 
+            <lb ed="#PV" n="24"/>in eadem specie Iste solvat auc<lb ed="#PV" break="no" n="25"/>toritates 
             antiquorum dicentium 
-            <lb ed="#PV"/>quod forma est simplex intensive 
-            <lb ed="#PV"/>sic quod non habet gradus ex quibus 
-            <lb ed="#PV"/>intensive componatur
+            <lb ed="#PV" n="26"/>quod forma est simplex intensive 
+            <lb ed="#PV" n="27"/>sic quod non habet gradus ex quibus 
+            <lb ed="#PV" n="28"/>intensive componatur
           </p>
           <p xml:id="ppr-l90-Hcopmgb">
             Circa 
-            <lb ed="#PV"/>istam opinionem sic procedam primo 
-            <lb ed="#PV"/>inducam motiva et solvam 
-            <lb ed="#PV"/>post arguam in contrarium et etiam 
-            <lb ed="#PV"/>solvam argumenta ista quod ista 
-            <lb ed="#PV"/>opinio est probabilis licet rationes 
-            <lb ed="#PV"/>suae non concludant et haec opinio 
-            <lb ed="#PV"/>fuit <ref xml:id="ppr-l90-Rd1e156"><name ref="#WalterBurley">magistri <sic>glatori vurlei</sic></name></ref>
+            <lb ed="#PV" n="29"/>istam opinionem sic procedam primo 
+            <lb ed="#PV" n="30"/>inducam motiva et solvam 
+            <lb ed="#PV" n="31"/>post arguam in contrarium et etiam 
+            <lb ed="#PV" n="32"/>solvam argumenta ista quod ista 
+            <lb ed="#PV" n="33"/>opinio est probabilis licet rationes 
+            <lb ed="#PV" n="34"/>suae non concludant et haec opinio 
+            <lb ed="#PV" n="35"/>fuit <ref xml:id="ppr-l90-Rd1e156"><name ref="#WalterBurley">magistri <sic>glatori vurlei</sic></name></ref>
           </p>
           <div xml:id="ppr-l90-Dd1e167">
             <head xml:id="ppr-l90-Hpmemes">Prima pars</head>
@@ -109,132 +106,132 @@
               <head xml:id="ppr-l90-Hprprpr">Prima ratio</head>
               <p xml:id="ppr-l90-preaaq">
                 Prima 
-                <lb ed="#PV"/>ratio sua capit aliquod lucidum 
-                <lb ed="#PV"/>quod applicetur passio dyaphano
+                <lb ed="#PV" n="36"/>ratio sua capit aliquod lucidum 
+                <lb ed="#PV" n="37"/>quod applicetur passio dyaphano
                 <cb ed="#PV" n="b"/>
-                <lb ed="#PV"/>susceptivo luminis tunc in illo 
-                <lb ed="#PV"/>passo causabit aliquem gradum 
-                <lb ed="#PV"/>luminis posito quod sit distantia 
-                <lb ed="#PV"/>debita et quod huiusmodi passum 
-                <lb ed="#PV"/>sit infra speera activitatis 
-                <lb ed="#PV"/>lucidi dendie moveatur 
-                <lb ed="#PV"/>appropinquando tunc sic actum 
-                <lb ed="#PV"/>in quolibet instanti est magis 
-                <lb ed="#PV"/>applicatum ergo in quolibet est 
-                <lb ed="#PV"/>maius lumine igitur corrumpitur 
-                <lb ed="#PV"/>quodlibet praeexistens vel generetur 
-                <lb ed="#PV"/>aliquid superioris speciei vel 
-                <lb ed="#PV"/>huiusmodi passum recipiet in 
-                <lb ed="#PV"/><unclear>finem</unclear> lumen <unclear>recte</unclear> sicut in materia de 
-                <lb ed="#PV"/>quantitate continua scilicet supponendo 
-                <lb ed="#PV"/>quod distinguatur et quod quantitates 
-                <lb ed="#PV"/>non possunt se <unclear>peneturis</unclear> Ideo advenien<lb ed="#PV" break="no"/>te 
+                <lb ed="#PV" n="38"/>susceptivo luminis tunc in illo 
+                <lb ed="#PV" n="39"/>passo causabit aliquem gradum 
+                <lb ed="#PV" n="40"/>luminis posito quod sit distantia 
+                <lb ed="#PV" n="41"/>debita et quod huiusmodi passum 
+                <lb ed="#PV" n="42"/>sit infra speera activitatis 
+                <lb ed="#PV" n="43"/>lucidi dendie moveatur 
+                <lb ed="#PV" n="44"/>appropinquando tunc sic actum 
+                <lb ed="#PV" n="45"/>in quolibet instanti est magis 
+                <lb ed="#PV" n="46"/>applicatum ergo in quolibet est 
+                <lb ed="#PV" n="47"/>maius lumine igitur corrumpitur 
+                <lb ed="#PV" n="48"/>quodlibet praeexistens vel generetur 
+                <lb ed="#PV" n="49"/>aliquid superioris speciei vel 
+                <lb ed="#PV" n="50"/>huiusmodi passum recipiet in 
+                <lb ed="#PV" n="51"/><unclear>finem</unclear> lumen <unclear>recte</unclear> sicut in materia de 
+                <lb ed="#PV" n="52"/>quantitate continua scilicet supponendo 
+                <lb ed="#PV" n="53"/>quod distinguatur et quod quantitates 
+                <lb ed="#PV" n="54"/>non possunt se <unclear>peneturis</unclear> Ideo advenien<lb ed="#PV" break="no" n="55"/>te 
                 maiori prior corrumpitur 
-                <lb ed="#PV"/>sicut in rarefactione est ymaginatio 
-                <lb ed="#PV"/>est ista est similis Breviter loquitur 
-                <lb ed="#PV"/>in materia alterationis sicut consequenter dicitur 
-                <lb ed="#PV"/>in materia augmentationis seu rare<lb ed="#PV" break="no"/>factionis 
+                <lb ed="#PV" n="56"/>sicut in rarefactione est ymaginatio 
+                <lb ed="#PV" n="57"/>est ista est similis Breviter loquitur 
+                <lb ed="#PV" n="58"/>in materia alterationis sicut consequenter dicitur 
+                <lb ed="#PV" n="59"/>in materia augmentationis seu rare<lb ed="#PV" break="no" n="60"/>factionis 
               </p>
               <p xml:id="ppr-l90-ireasp">
                 Breviter ista ratio 
-                <lb ed="#PV"/>est modici ponderis nam 
-                <lb ed="#PV"/>posito quod lumen sit naturae perma<lb ed="#PV" break="no"/>nentis 
+                <lb ed="#PV" n="61"/>est modici ponderis nam 
+                <lb ed="#PV" n="62"/>posito quod lumen sit naturae perma<lb ed="#PV" break="no" n="63"/>nentis 
                 lucidum in passum sibi 
-                <lb ed="#PV"/>debite applicatum quantumcumque 
-                <lb ed="#PV"/>applicetur numquam causabit 
-                <lb ed="#PV"/>maiorem gradum luminis non oporteret 
-                <lb ed="#PV"/>quod in 2o instanti producat 
-                <lb ed="#PV"/>maius lumen cuius lucidum datum 
-                <lb ed="#PV"/><del rend="expunctuation">producat</del> <unclear>maius</unclear>lumen est productum 
-                <lb ed="#PV"/>unde capiamus distantiam pedalem 
-                <lb ed="#PV"/>alu?ado tunc pars mea immediata 
-                <lb ed="#PV"/>lucido recipit maximum lumen 
-                <lb ed="#PV"/>producibile a tali lucido et per 
-                <lb ed="#PV"/>consequens me est supra medium gradum 
+                <lb ed="#PV" n="64"/>debite applicatum quantumcumque 
+                <lb ed="#PV" n="65"/>applicetur numquam causabit 
+                <lb ed="#PV" n="66"/>maiorem gradum luminis non oporteret 
+                <lb ed="#PV" n="67"/>quod in 2o instanti producat 
+                <lb ed="#PV" n="68"/>maius lumen cuius lucidum datum 
+                <lb ed="#PV" n="69"/><del rend="expunctuation">producat</del> <unclear>maius</unclear>lumen est productum 
+                <lb ed="#PV" n="70"/>unde capiamus distantiam pedalem 
+                <lb ed="#PV" n="71"/>alu?ado tunc pars mea immediata 
+                <lb ed="#PV" n="72"/>lucido recipit maximum lumen 
+                <lb ed="#PV" n="73"/>producibile a tali lucido et per 
+                <lb ed="#PV" n="74"/>consequens me est supra medium gradum 
                 <pb ed="#PV" n="168-r"/>
                 <cb ed="#PV" n="a"/>
-                <lb ed="#PV"/>totius latitudinis ut si sic ut <unclear>Io</unclear> 
+                <lb ed="#PV" n="1"/>totius latitudinis ut si sic ut <unclear>Io</unclear> 
                 summa tunc in parte distante 
-                <lb ed="#PV"/>assignificandum est partem in quam 
-                <lb ed="#PV"/><unclear>causis</unclear> lumen ut 8o et ergo non 
-                <lb ed="#PV"/>oportet quod per approximationem 
-                <lb ed="#PV"/>causet lumen intensius sed solum 
-                <lb ed="#PV"/>producet adhuc lumen ut 2
+                <lb ed="#PV" n="2"/>assignificandum est partem in quam 
+                <lb ed="#PV" n="3"/><unclear>causis</unclear> lumen ut 8o et ergo non 
+                <lb ed="#PV" n="4"/>oportet quod per approximationem 
+                <lb ed="#PV" n="5"/>causet lumen intensius sed solum 
+                <lb ed="#PV" n="6"/>producet adhuc lumen ut 2
               </p>
             </div>
             <div xml:id="ppr-l90-Dd1e187">
               <head xml:id="ppr-l90-Hsrosro">Secunda ratio</head>
               <p xml:id="ppr-l90-ssqqqp">
                 et
-                <lb ed="#PV"/>2a ratio sua quia si ita esset sicut 
-                <lb ed="#PV"/>ponis scilicet quod forma componeretur 
-                <lb ed="#PV"/>ex gradibus idem esset remisse 
-                <lb ed="#PV"/>calidum et intense
+                <lb ed="#PV" n="7"/>2a ratio sua quia si ita esset sicut 
+                <lb ed="#PV" n="8"/>ponis scilicet quod forma componeretur 
+                <lb ed="#PV" n="9"/>ex gradibus idem esset remisse 
+                <lb ed="#PV" n="10"/>calidum et intense
               </p>
               <p xml:id="ppr-l90-d1e211">
                 Ista ratio nichil 
-                <lb ed="#PV"/>valet quia denominatio non sit 
-                <lb ed="#PV"/>a parte qualitatis sed a tota qualitate 
-                <lb ed="#PV"/>quia denominatio communicatur secundum 
-                <lb ed="#PV"/>totam latitudinem formae et sic 
-                <lb ed="#PV"/>pars non communicant denominationem 
-                <lb ed="#PV"/>quia integrant totam qualitatem 
-                <lb ed="#PV"/>quae communicat et sic arguitur maxima 
-                <lb ed="#PV"/>caliditas intensissima quam 
-                <lb ed="#PV"/>sortes habet est remissa igitur sortes est 
-                <lb ed="#PV"/>remisse calidus unde non 
-                <lb ed="#PV"/>sequitur aliqua pars sortis est 
-                <lb ed="#PV"/>praecise pedalis quantitatis igitur 
-                <lb ed="#PV"/>sortes est praecise etc quai sicut sortes 
-                <lb ed="#PV"/>non praecise sua pars ita nec 
-                <lb ed="#PV"/>denominatur a quantitate suae partis
+                <lb ed="#PV" n="11"/>valet quia denominatio non sit 
+                <lb ed="#PV" n="12"/>a parte qualitatis sed a tota qualitate 
+                <lb ed="#PV" n="13"/>quia denominatio communicatur secundum 
+                <lb ed="#PV" n="14"/>totam latitudinem formae et sic 
+                <lb ed="#PV" n="15"/>pars non communicant denominationem 
+                <lb ed="#PV" n="16"/>quia integrant totam qualitatem 
+                <lb ed="#PV" n="17"/>quae communicat et sic arguitur maxima 
+                <lb ed="#PV" n="18"/>caliditas intensissima quam 
+                <lb ed="#PV" n="19"/>sortes habet est remissa igitur sortes est 
+                <lb ed="#PV" n="20"/>remisse calidus unde non 
+                <lb ed="#PV" n="21"/>sequitur aliqua pars sortis est 
+                <lb ed="#PV" n="22"/>praecise pedalis quantitatis igitur 
+                <lb ed="#PV" n="23"/>sortes est praecise etc quai sicut sortes 
+                <lb ed="#PV" n="24"/>non praecise sua pars ita nec 
+                <lb ed="#PV" n="25"/>denominatur a quantitate suae partis
               </p>
             </div>
             <div xml:id="ppr-l90-Dd1e215">
               <head xml:id="ppr-l90-Htrotro">Tertia ratio</head>
               <p xml:id="ppr-l90-trstiq">
-                <lb ed="#PV"/>3a ratio nam signemus aliquid 
-                <lb ed="#PV"/>actum quod debeat corrumpere 
-                <lb ed="#PV"/>suum contrarium tunc signo duas 
-                <lb ed="#PV"/>medietates qualitatis corrum<lb ed="#PV" break="no"/>pende 
+                <lb ed="#PV" n="26"/>3a ratio nam signemus aliquid 
+                <lb ed="#PV" n="27"/>actum quod debeat corrumpere 
+                <lb ed="#PV" n="28"/>suum contrarium tunc signo duas 
+                <lb ed="#PV" n="29"/>medietates qualitatis corrum<lb ed="#PV" break="no" n="30"/>pende 
                 illae duae medietates sunt 
-                <lb ed="#PV"/>aequaliter applicatae et sunt eiusdem 
-                <lb ed="#PV"/>rationis adaequatae igitur qua ratione 
-                <lb ed="#PV"/>unam eadem ratione reliquam igitur 
-                <lb ed="#PV"/>nullo modo agens posset remittere 
-                <lb ed="#PV"/>qualitatem quai passa sunt aequaliter 
-                <lb ed="#PV"/>disposita et agens igitur etc
+                <lb ed="#PV" n="31"/>aequaliter applicatae et sunt eiusdem 
+                <lb ed="#PV" n="32"/>rationis adaequatae igitur qua ratione 
+                <lb ed="#PV" n="33"/>unam eadem ratione reliquam igitur 
+                <lb ed="#PV" n="34"/>nullo modo agens posset remittere 
+                <lb ed="#PV" n="35"/>qualitatem quai passa sunt aequaliter 
+                <lb ed="#PV" n="36"/>disposita et agens igitur etc
               </p>
               <p xml:id="ppr-l90-irsiqo">
-                Bre<lb ed="#PV" break="no"/>viter 
+                Bre<lb ed="#PV" break="no" n="37"/>viter 
                 ista ratio solvitur faciliter ex de 
                 <cb ed="#PV" n="b"/>
-                <lb ed="#PV"/>terminatione causarum particularium 
-                <lb ed="#PV"/>pro libertate primae causae nam 
-                <lb ed="#PV"/>prima causa sic se habet quod quaelibet 
-                <lb ed="#PV"/>2a agit in virtute ipsius et directa 
-                <lb ed="#PV"/>ymmo mota ab ea igitur habent 
-                <lb ed="#PV"/>effectum libere limitatur et sic non 
-                <lb ed="#PV"/>procedit ratio quia tenet quod natura 
-                <lb ed="#PV"/>servetur ordo et omnis talis re<lb ed="#PV" break="no"/>ducitur 
+                <lb ed="#PV" n="38"/>terminatione causarum particularium 
+                <lb ed="#PV" n="39"/>pro libertate primae causae nam 
+                <lb ed="#PV" n="40"/>prima causa sic se habet quod quaelibet 
+                <lb ed="#PV" n="41"/>2a agit in virtute ipsius et directa 
+                <lb ed="#PV" n="42"/>ymmo mota ab ea igitur habent 
+                <lb ed="#PV" n="43"/>effectum libere limitatur et sic non 
+                <lb ed="#PV" n="44"/>procedit ratio quia tenet quod natura 
+                <lb ed="#PV" n="45"/>servetur ordo et omnis talis re<lb ed="#PV" break="no" n="46"/>ducitur 
                 ad promissionem primae libertatis 
               </p>
               <p xml:id="ppr-l90-aeifis">
-                <lb ed="#PV"/>Alia ymaginatio quod esset diversa 
-                <lb ed="#PV"/>habitudo partium generalium alicuius 
-                <lb ed="#PV"/>qualitatis ad suum subiectum 
-                <lb ed="#PV"/>Ita quod licet non esset ordo in<lb ed="#PV" break="no"/>trinsecus 
+                <lb ed="#PV" n="47"/>Alia ymaginatio quod esset diversa 
+                <lb ed="#PV" n="48"/>habitudo partium generalium alicuius 
+                <lb ed="#PV" n="49"/>qualitatis ad suum subiectum 
+                <lb ed="#PV" n="50"/>Ita quod licet non esset ordo in<lb ed="#PV" break="no" n="51"/>trinsecus 
                 Ita quod gradus primo 
-                <lb ed="#PV"/>productus magis distat ab attin<lb ed="#PV" break="no"/>gentia 
-                ipsius agentis appli<lb ed="#PV" break="no"/>cati 
+                <lb ed="#PV" n="52"/>productus magis distat ab attin<lb ed="#PV" break="no" n="53"/>gentia 
+                ipsius agentis appli<lb ed="#PV" break="no" n="54"/>cati 
                 corrumpti quam gradus 
-                <lb ed="#PV"/>ultimo productus ideo agens 
-                <lb ed="#PV"/>incipit corrumpere quod ultimo 
-                <lb ed="#PV"/>fuit genitum et sic salvaretur 
-                <lb ed="#PV"/>signatis duabus medietatibus 
-                <lb ed="#PV"/>quod agens ageret in unam et non 
-                <lb ed="#PV"/>in aliam et sic sine concursu 
-                <lb ed="#PV"/>ad libertatem prima causa sal<lb ed="#PV" break="no"/>varetur 
+                <lb ed="#PV" n="55"/>ultimo productus ideo agens 
+                <lb ed="#PV" n="56"/>incipit corrumpere quod ultimo 
+                <lb ed="#PV" n="57"/>fuit genitum et sic salvaretur 
+                <lb ed="#PV" n="58"/>signatis duabus medietatibus 
+                <lb ed="#PV" n="59"/>quod agens ageret in unam et non 
+                <lb ed="#PV" n="60"/>in aliam et sic sine concursu 
+                <lb ed="#PV" n="61"/>ad libertatem prima causa sal<lb ed="#PV" break="no" n="62"/>varetur 
                 argumentum
               </p>
             </div>
@@ -242,17 +239,17 @@
               <head xml:id="ppr-l90-Hqroqro">Quarta ratio</head>
               <p xml:id="ppr-l90-qremdi">
                 Alia ratio 
-                <lb ed="#PV"/>est communis et stat in quod nominis 
-                <lb ed="#PV"/>quia nulla forma intendere<lb ed="#PV" break="no"/>tur 
+                <lb ed="#PV" n="63"/>est communis et stat in quod nominis 
+                <lb ed="#PV" n="64"/>quia nulla forma intendere<lb ed="#PV" break="no" n="65"/>tur 
                 quia nec praeexistens nec 
-                <lb ed="#PV"/>adveniens nec agregatum ex 
-                <lb ed="#PV"/>praeexistente
+                <lb ed="#PV" n="66"/>adveniens nec agregatum ex 
+                <lb ed="#PV" n="67"/>praeexistente
               </p>
               <!-- fuzzy break -->
               <p xml:id="ppr-l90-d1e261">
-                et adveniente sit in<lb ed="#PV" break="no"/>tensivus 
+                et adveniente sit in<lb ed="#PV" break="no" n="68"/>tensivus 
                 quam praeexistens 
-                <lb ed="#PV"/>et si large dicatur idem numero prae<lb ed="#PV" break="no"/>existens 
+                <lb ed="#PV" n="69"/>et si large dicatur idem numero prae<lb ed="#PV" break="no" n="70"/>existens 
                 <sic>agregatum</sic>  
               </p>
             </div>
@@ -263,322 +260,322 @@
               <head xml:id="ppr-l90-Hpoeoer">Prima obiectio et responsio</head>
               <p xml:id="ppr-l90-cipaac">
                 et tunc
-                <lb ed="#PV"/>primo sequitur quod sit dare ultimum in<lb ed="#PV" break="no"/>stans 
+                <lb ed="#PV" n="71"/>primo sequitur quod sit dare ultimum in<lb ed="#PV" break="no" n="72"/>stans 
                 terminum permanentis in esse 
-                <lb ed="#PV"/>probatur consequentia nam posito quod sit ali<lb ed="#PV" break="no"/>quod 
+                <lb ed="#PV" n="73"/>probatur consequentia nam posito quod sit ali<lb ed="#PV" break="no" n="74"/>quod 
                 calidissimum scilicet ut 10 sic quod 
                 <pb ed="#PV" n="168-v"/>
                 <cb ed="#PV" n="a"/>
-                <lb ed="#PV"/>aliquod actum applicetur unifor<lb ed="#PV" break="no"/>miter 
-                ad remittendum calidi<lb ed="#PV" break="no"/>tatem 
+                <lb ed="#PV" n="1"/>aliquod actum applicetur unifor<lb ed="#PV" break="no" n="2"/>miter 
+                ad remittendum calidi<lb ed="#PV" break="no" n="3"/>tatem 
                 et corrumpendum Ita quod fiat 
-                <lb ed="#PV"/>ab intrinseco ipsius passi signe<lb ed="#PV" break="no"/>mus 
+                <lb ed="#PV" n="4"/>ab intrinseco ipsius passi signe<lb ed="#PV" break="no" n="5"/>mus 
                 instans in quo agens 
-                <lb ed="#PV"/>incipit remittere caliditatem 
+                <lb ed="#PV" n="6"/>incipit remittere caliditatem 
                 in illo instant caliditas 
-                <lb ed="#PV"/>ut 10 habet esse quia agens non<lb ed="#PV" break="no"/>dum 
+                <lb ed="#PV" n="7"/>ut 10 habet esse quia agens non<lb ed="#PV" break="no" n="8"/>dum 
                 agit in ipsam sed incipit 
-                <lb ed="#PV"/>agere et inmediate per hoc non 
-                <lb ed="#PV"/>habet esse quia nec manebit 
-                <lb ed="#PV"/>aliqua ens pars extensiva 
-                <lb ed="#PV"/>nec intensiva quod non exten<lb ed="#PV" break="no"/>siva 
+                <lb ed="#PV" n="9"/>agere et inmediate per hoc non 
+                <lb ed="#PV" n="10"/>habet esse quia nec manebit 
+                <lb ed="#PV" n="11"/>aliqua ens pars extensiva 
+                <lb ed="#PV" n="12"/>nec intensiva quod non exten<lb ed="#PV" break="no" n="13"/>siva 
                 patet propter uniformem 
-                <lb ed="#PV"/>applicationem agentis 
+                <lb ed="#PV" n="14"/>applicationem agentis 
               </p>
               <p xml:id="ppr-l90-rahpie">
                 primo potest 
-                <lb ed="#PV"/>responderi quod nisi fortifica<lb ed="#PV" break="no"/>retur 
-                casus successio salva<lb ed="#PV" break="no"/>retur 
+                <lb ed="#PV" n="15"/>responderi quod nisi fortifica<lb ed="#PV" break="no" n="16"/>retur 
+                casus successio salva<lb ed="#PV" break="no" n="17"/>retur 
                 et ex parte partium quantitativarum 
-                <lb ed="#PV"/>per modum per quae forma substantia<lb ed="#PV" break="no"/>lis 
+                <lb ed="#PV" n="18"/>per modum per quae forma substantia<lb ed="#PV" break="no" n="19"/>lis 
                 successive generatur et 
-                <lb ed="#PV"/>successive corrumpitur secundum 
-                <lb ed="#PV"/>partes extensivas sed quia casus 
-                <lb ed="#PV"/>fortificatur ponendo quod agens 
-                <lb ed="#PV"/>sit aequaliter applicatum in isto 
-                <lb ed="#PV"/>casu non esset inconveniens 
-                <lb ed="#PV"/>concedere consequens quia si habent 
-                <lb ed="#PV"/>concedere illi qui ponunt aliquid 
-                <lb ed="#PV"/>successive rarefieri et quod alias sit 
-                <lb ed="#PV"/>res distinctae quia a pedale 
-                <lb ed="#PV"/>nec non rarefit et inmediate 
-                <lb ed="#PV"/>post hac rarefit et in isto 
-                <lb ed="#PV"/>casu qualitas pedalis habet ultimum 
-                <lb ed="#PV"/>instans sui esse et in illo est ex quo 
-                <lb ed="#PV"/>nondum est motus nec rarefactio 
-                <lb ed="#PV"/>et desinit esse quantitas pedalis 
-                <lb ed="#PV"/>per positionem de praesenti ergo proportionaliter 
-                <lb ed="#PV"/>non est inconveniens in proposito
+                <lb ed="#PV" n="20"/>successive corrumpitur secundum 
+                <lb ed="#PV" n="21"/>partes extensivas sed quia casus 
+                <lb ed="#PV" n="22"/>fortificatur ponendo quod agens 
+                <lb ed="#PV" n="23"/>sit aequaliter applicatum in isto 
+                <lb ed="#PV" n="24"/>casu non esset inconveniens 
+                <lb ed="#PV" n="25"/>concedere consequens quia si habent 
+                <lb ed="#PV" n="26"/>concedere illi qui ponunt aliquid 
+                <lb ed="#PV" n="27"/>successive rarefieri et quod alias sit 
+                <lb ed="#PV" n="28"/>res distinctae quia a pedale 
+                <lb ed="#PV" n="29"/>nec non rarefit et inmediate 
+                <lb ed="#PV" n="30"/>post hac rarefit et in isto 
+                <lb ed="#PV" n="31"/>casu qualitas pedalis habet ultimum 
+                <lb ed="#PV" n="32"/>instans sui esse et in illo est ex quo 
+                <lb ed="#PV" n="33"/>nondum est motus nec rarefactio 
+                <lb ed="#PV" n="34"/>et desinit esse quantitas pedalis 
+                <lb ed="#PV" n="35"/>per positionem de praesenti ergo proportionaliter 
+                <lb ed="#PV" n="36"/>non est inconveniens in proposito
               </p>
               <p xml:id="ppr-l90-sivhne">
-                <lb ed="#PV"/>2o istud videtur de facto fieri 
-                <lb ed="#PV"/>in materia caritatis sit ita quod sortes 
-                <lb ed="#PV"/>existens in gratia incipit peccare 
-                <lb ed="#PV"/>per remotionem de praesenti successive 
-                <lb ed="#PV"/>multi tenent quod impossibile quod subi<lb ed="#PV" break="no"/>to 
+                <lb ed="#PV" n="37"/>2o istud videtur de facto fieri 
+                <lb ed="#PV" n="38"/>in materia caritatis sit ita quod sortes 
+                <lb ed="#PV" n="39"/>existens in gratia incipit peccare 
+                <lb ed="#PV" n="40"/>per remotionem de praesenti successive 
+                <lb ed="#PV" n="41"/>multi tenent quod impossibile quod subi<lb ed="#PV" break="no" n="42"/>to 
                 producat voluntas aliquem 
-                <lb ed="#PV"/>actum Tenent tamen aliqui 
-                <lb ed="#PV"/>quod voluntas aliquem actum succes<lb ed="#PV" break="no"/>sive 
+                <lb ed="#PV" n="43"/>actum Tenent tamen aliqui 
+                <lb ed="#PV" n="44"/>quod voluntas aliquem actum succes<lb ed="#PV" break="no" n="45"/>sive 
                 possit producere et ponatur 
-                <lb ed="#PV"/>quod <unclear>sumus</unclear> in illo instanti quia 
-                <lb ed="#PV"/>adhuc voluntas est in caritate 
-                <lb ed="#PV"/>et tamen inmediate post hoc erit 
-                <lb ed="#PV"/>in culpa igitur sine caritate 
-                <lb ed="#PV"/>igitur caritas non erit immediate 
-                <lb ed="#PV"/>post hoc igitur hoc instans 
-                <lb ed="#PV"/>est ultimum instans esse caritatis 
-                <lb ed="#PV"/>sortis igitur rei permanentis dicitur 
-                <lb ed="#PV"/>ultimum instans esse 
+                <lb ed="#PV" n="46"/>quod <unclear>sumus</unclear> in illo instanti quia 
+                <lb ed="#PV" n="47"/>adhuc voluntas est in caritate 
+                <lb ed="#PV" n="48"/>et tamen inmediate post hoc erit 
+                <lb ed="#PV" n="49"/>in culpa igitur sine caritate 
+                <lb ed="#PV" n="50"/>igitur caritas non erit immediate 
+                <lb ed="#PV" n="51"/>post hoc igitur hoc instans 
+                <lb ed="#PV" n="52"/>est ultimum instans esse caritatis 
+                <lb ed="#PV" n="53"/>sortis igitur rei permanentis dicitur 
+                <lb ed="#PV" n="54"/>ultimum instans esse 
               </p>
             </div>
             <div xml:id="ppr-l90-Dd1e284">
               <head xml:id="ppr-l90-Hsoeoer">Secunda obiectio et responsio</head>
               <p xml:id="ppr-l90-srcnhp">
                 2o arguitur 
-                <lb ed="#PV"/>contra istam positionem nam si sic 
-                <lb ed="#PV"/>sequitur quod latitudo gradualis formae 
-                <lb ed="#PV"/>ymmo quaelibet quae acquireret ac<lb ed="#PV" break="no"/>quireretur 
+                <lb ed="#PV" n="55"/>contra istam positionem nam si sic 
+                <lb ed="#PV" n="56"/>sequitur quod latitudo gradualis formae 
+                <lb ed="#PV" n="57"/>ymmo quaelibet quae acquireret ac<lb ed="#PV" break="no" n="58"/>quireretur 
                 tota simul ubi subiectum 
-                <lb ed="#PV"/>esset <del rend="strikethrough">tale quaelibet caliditas quae 
-                  <lb ed="#PV"/>acquiritur acquiritur</del> uniformiter 
-                <lb ed="#PV"/>dispositum Et cum altera sit mo<lb ed="#PV" break="no"/>tus 
+                <lb ed="#PV" n="59"/>esset <del rend="strikethrough">tale quaelibet caliditas quae 
+                  <lb ed="#PV" n="60"/>acquiritur acquiritur</del> uniformiter 
+                <lb ed="#PV" n="61"/>dispositum Et cum altera sit mo<lb ed="#PV" break="no" n="62"/>tus 
                 fiat in instanti quod est inconveniens 
-                <lb ed="#PV"/>quia tempus et motus proportionaliter 
-                <lb ed="#PV"/>dividuntur et probatur consequentia quia ubi 
-                <lb ed="#PV"/>agens esset tale quaelibet caliditas 
+                <lb ed="#PV" n="63"/>quia tempus et motus proportionaliter 
+                <lb ed="#PV" n="64"/>dividuntur et probatur consequentia quia ubi 
+                <lb ed="#PV" n="65"/>agens esset tale quaelibet caliditas 
                 quae acquiritur acquiritur <unclear>subito</unclear> 
-                <lb ed="#PV"/>quia non habet partes intensivas 
-                <lb ed="#PV"/>prima responsio est quae ex communi 
-                <lb ed="#PV"/>applicatione agentium servatur 
-                <lb ed="#PV"/>successio ex parte partium quantitivarum 
-                <lb ed="#PV"/>et sic dicitur quod nunquam unifor<lb ed="#PV" break="no"/>miter 
+                <lb ed="#PV" n="66"/>quia non habet partes intensivas 
+                <lb ed="#PV" n="67"/>prima responsio est quae ex communi 
+                <lb ed="#PV" n="68"/>applicatione agentium servatur 
+                <lb ed="#PV" n="69"/>successio ex parte partium quantitivarum 
+                <lb ed="#PV" n="70"/>et sic dicitur quod nunquam unifor<lb ed="#PV" break="no" n="71"/>miter 
                 applicatur agens ad omnes 
-                <lb ed="#PV"/>Sed istud non satis faciat quia 
-                <lb ed="#PV"/>ponatur quod sit uniformiter 
-                <lb ed="#PV"/>applicatum quo dato stabit 
-                <lb ed="#PV"/>continua alteratio et cum parte quaelibet etc
+                <lb ed="#PV" n="72"/>Sed istud non satis faciat quia 
+                <lb ed="#PV" n="73"/>ponatur quod sit uniformiter 
+                <lb ed="#PV" n="74"/>applicatum quo dato stabit 
+                <lb ed="#PV" n="75"/>continua alteratio et cum parte quaelibet etc
               </p>
               <p xml:id="ppr-l90-rqepsd">
-                <lb ed="#PV"/>Respondendum quod acquisitio
+                <lb ed="#PV" n="76"/>Respondendum quod acquisitio
                 <pb ed="#PV" n="169-r"/>
                 <cb ed="#PV" n="a"/>
-                <lb ed="#PV"/>quantum spectat ad materiam praesentem 
-                <lb ed="#PV"/>intelliguntur dupliciter 
+                <lb ed="#PV" n="1"/>quantum spectat ad materiam praesentem 
+                <lb ed="#PV" n="2"/>intelliguntur dupliciter 
               </p>
               <p xml:id="ppr-l90-umpepm">
                 uno modo 
-                <lb ed="#PV"/>capitur pro producitone qualitatis
-                <lb ed="#PV"/>quae acquiritur et tunc secundum 
+                <lb ed="#PV" n="3"/>capitur pro producitone qualitatis
+                <lb ed="#PV" n="4"/>quae acquiritur et tunc secundum 
                 eum 
-                <lb ed="#PV"/>realiter acquisitio non esset motus 
-                <lb ed="#PV"/>sed terminus motus et sic sunt formaliter 
-                <lb ed="#PV"/>idem producere et productum esse 
-                <lb ed="#PV"/>et sic loquendo acquisito et 
-                <lb ed="#PV"/>vocando acquisitionem totius sum<lb ed="#PV" break="no"/>mi 
-                gradus qualitatis non est mo<lb ed="#PV" break="no"/>tus 
+                <lb ed="#PV" n="5"/>realiter acquisitio non esset motus 
+                <lb ed="#PV" n="6"/>sed terminus motus et sic sunt formaliter 
+                <lb ed="#PV" n="7"/>idem producere et productum esse 
+                <lb ed="#PV" n="8"/>et sic loquendo acquisito et 
+                <lb ed="#PV" n="9"/>vocando acquisitionem totius sum<lb ed="#PV" break="no" n="10"/>mi 
+                gradus qualitatis non est mo<lb ed="#PV" break="no" n="11"/>tus 
                 sed terminus
                 
               </p>
               <p xml:id="ppr-l90-amsppu">
                 aliter capitur pro 
-                <lb ed="#PV"/><sic>agregato</sic> ex productionibus <unclear>omnium</unclear>
+                <lb ed="#PV" n="12"/><sic>agregato</sic> ex productionibus <unclear>omnium</unclear>
                 formarum praecedentium ultima 
-                <lb ed="#PV"/>quae ultimo acquiritur et est 
-                <lb ed="#PV"/>recte similis solutio in materia de 
-                <lb ed="#PV"/>rarefactione tenendo quod quantitas 
-                <lb ed="#PV"/>sit res distincta etc Nam 
-                <lb ed="#PV"/>in isto casu si fiat unifor<lb ed="#PV" break="no"/>miter 
+                <lb ed="#PV" n="13"/>quae ultimo acquiritur et est 
+                <lb ed="#PV" n="14"/>recte similis solutio in materia de 
+                <lb ed="#PV" n="15"/>rarefactione tenendo quod quantitas 
+                <lb ed="#PV" n="16"/>sit res distincta etc Nam 
+                <lb ed="#PV" n="17"/>in isto casu si fiat unifor<lb ed="#PV" break="no" n="18"/>miter 
                 Infinitae quantitates 
-                <lb ed="#PV"/>acquiruntur et tamen quamli<lb ed="#PV" break="no"/>bet 
+                <lb ed="#PV" n="19"/>acquiruntur et tamen quamli<lb ed="#PV" break="no" n="20"/>bet 
                 praecedit infinita corrumptio 
                 et producto iam alteratio debet capi 
-                <lb ed="#PV"/>productionibus omnium praecedentium 
-                <lb ed="#PV"/>ultimam cuius ultime productio 
-                <lb ed="#PV"/>est acquisitivum esse
+                <lb ed="#PV" n="21"/>productionibus omnium praecedentium 
+                <lb ed="#PV" n="22"/>ultimam cuius ultime productio 
+                <lb ed="#PV" n="23"/>est acquisitivum esse
               </p>
             </div>
             <div xml:id="ppr-l90-Dd1e302">
               <head xml:id="ppr-l90-Htoeoer">Tertio obiectio et responsio</head>
               <p xml:id="ppr-l90-taqvme">
                 <sic>2o</sic> arguitur 
-                <lb ed="#PV"/>apparenter quia si sic quod aliquid cale<lb ed="#PV" break="no"/>fiat 
+                <lb ed="#PV" n="24"/>apparenter quia si sic quod aliquid cale<lb ed="#PV" break="no" n="25"/>fiat 
                 uniformiter quantum ad 
-                <lb ed="#PV"/>omnes partes subiecti quaelibet 
-                <lb ed="#PV"/>caliditas quae producitur producatur 
-                <lb ed="#PV"/>subito in instanti et tota simul 
-                <lb ed="#PV"/>modo sicut ex punctis non posset 
-                <lb ed="#PV"/>linea constitui ita nec ex 
-                <lb ed="#PV"/>mutatis esse alteratio unde mu<lb ed="#PV" break="no"/>tata 
-                esse se habent proportionaliter ad al<lb ed="#PV" break="no"/>teratione 
+                <lb ed="#PV" n="26"/>omnes partes subiecti quaelibet 
+                <lb ed="#PV" n="27"/>caliditas quae producitur producatur 
+                <lb ed="#PV" n="28"/>subito in instanti et tota simul 
+                <lb ed="#PV" n="29"/>modo sicut ex punctis non posset 
+                <lb ed="#PV" n="30"/>linea constitui ita nec ex 
+                <lb ed="#PV" n="31"/>mutatis esse alteratio unde mu<lb ed="#PV" break="no" n="32"/>tata 
+                esse se habent proportionaliter ad al<lb ed="#PV" break="no" n="33"/>teratione 
                 sicut puncta ad linea 
-                <lb ed="#PV"/>et instans ad tempus igitur 
-                <lb ed="#PV"/>ex mutatis esse vel mutationibus 
-                <lb ed="#PV"/>subitis non constituitur mutatio 
+                <lb ed="#PV" n="34"/>et instans ad tempus igitur 
+                <lb ed="#PV" n="35"/>ex mutatis esse vel mutationibus 
+                <lb ed="#PV" n="36"/>subitis non constituitur mutatio 
                 <cb ed="#PV" n="b"/>
-                <lb ed="#PV"/>successiva
+                <lb ed="#PV" n="37"/>successiva
               </p>
               <p xml:id="ppr-l90-hpreas">
-                potest responderi proba<lb ed="#PV" break="no"/>biliter 
+                potest responderi proba<lb ed="#PV" break="no" n="38"/>biliter 
                 quod licet ex finitis punctis 
-                <lb ed="#PV"/>numquam potest constitui linea 
-                <lb ed="#PV"/>nec ex finitis instantibus tunc 
-                <lb ed="#PV"/>nec ex finitis mutatis esset mutatio 
-                <lb ed="#PV"/>successiva non tamen sequitur quin 
-                <lb ed="#PV"/>ex infinitis possunt huiusmodi 
-                <lb ed="#PV"/>constitui unde res <ref xml:id="ppr-l90-Rd1e314">aristotelis 
-                  <lb ed="#PV"/>ex vi phisicorum</ref> praecise probant 
-                <lb ed="#PV"/>quod continuum numquam componitur 
-                <lb ed="#PV"/>ex finitis indivisibilibus nam 
-                <lb ed="#PV"/>plurae et multae alii veteres po<lb ed="#PV" break="no"/>suerunt 
+                <lb ed="#PV" n="39"/>numquam potest constitui linea 
+                <lb ed="#PV" n="40"/>nec ex finitis instantibus tunc 
+                <lb ed="#PV" n="41"/>nec ex finitis mutatis esset mutatio 
+                <lb ed="#PV" n="42"/>successiva non tamen sequitur quin 
+                <lb ed="#PV" n="43"/>ex infinitis possunt huiusmodi 
+                <lb ed="#PV" n="44"/>constitui unde res <ref xml:id="ppr-l90-Rd1e314">aristotelis 
+                  <lb ed="#PV" n="45"/>ex vi phisicorum</ref> praecise probant 
+                <lb ed="#PV" n="46"/>quod continuum numquam componitur 
+                <lb ed="#PV" n="47"/>ex finitis indivisibilibus nam 
+                <lb ed="#PV" n="48"/>plurae et multae alii veteres po<lb ed="#PV" break="no" n="49"/>suerunt 
                 resolutionem corporum in 
-                <lb ed="#PV"/>puncta et indivisibilia et contra 
-                <lb ed="#PV"/>opinionem eorum rationes aristotelis 
-                <lb ed="#PV"/>nichil concludunt
+                <lb ed="#PV" n="50"/>puncta et indivisibilia et contra 
+                <lb ed="#PV" n="51"/>opinionem eorum rationes aristotelis 
+                <lb ed="#PV" n="52"/>nichil concludunt
               </p>
             </div>
             <div xml:id="ppr-l90-Dd1e333">
               <head xml:id="ppr-l90-Hqoeoer">Quarta obiectio et responsio</head>
               <p xml:id="ppr-l90-qaqcpc">
                 Arguitur 
-                <lb ed="#PV"/>quarto inquirenda a quo 
-                <lb ed="#PV"/>corrumpitur remissior caliditas 
-                <lb ed="#PV"/>quando intensior producitur quia 
-                <lb ed="#PV"/>calidum intendendo producit 
-                <lb ed="#PV"/>intensum
+                <lb ed="#PV" n="53"/>quarto inquirenda a quo 
+                <lb ed="#PV" n="54"/>corrumpitur remissior caliditas 
+                <lb ed="#PV" n="55"/>quando intensior producitur quia 
+                <lb ed="#PV" n="56"/>calidum intendendo producit 
+                <lb ed="#PV" n="57"/>intensum
               </p>
               <p xml:id="ppr-l90-rqiici">
                 Respondetur faciliter quod 
-                <lb ed="#PV"/>corrumpitur a natura pro vidente et 
-                <lb ed="#PV"/>otium evitante quia huiusmodi 
-                <lb ed="#PV"/>gradus esset otiosus in natura 
-                <lb ed="#PV"/>sicut vacuum igitur natura evitat 
-                <lb ed="#PV"/>otium quia igitur otiosus esset 
-                <lb ed="#PV"/>subtrahitur influentia con<lb ed="#PV" break="no"/>firmativa 
+                <lb ed="#PV" n="58"/>corrumpitur a natura pro vidente et 
+                <lb ed="#PV" n="59"/>otium evitante quia huiusmodi 
+                <lb ed="#PV" n="60"/>gradus esset otiosus in natura 
+                <lb ed="#PV" n="61"/>sicut vacuum igitur natura evitat 
+                <lb ed="#PV" n="62"/>otium quia igitur otiosus esset 
+                <lb ed="#PV" n="63"/>subtrahitur influentia con<lb ed="#PV" break="no" n="64"/>firmativa 
                 et innichilum 
-                <lb ed="#PV"/>redigitur
+                <lb ed="#PV" n="65"/>redigitur
               </p> 
             </div>
             <div xml:id="ppr-l90-Dd1e349">
               <head xml:id="ppr-l90-Hqneoer">Quinta obiectio et responsio</head>
               <p xml:id="ppr-l90-qreeae">
                 Alia ratio apparens 
-                <lb ed="#PV"/>de accidentibus seu speciebus 
-                <lb ed="#PV"/>prius post consecrationem 
-                <lb ed="#PV"/>corporis christi ponamus quod cali<lb ed="#PV" break="no"/>ditas 
+                <lb ed="#PV" n="66"/>de accidentibus seu speciebus 
+                <lb ed="#PV" n="67"/>prius post consecrationem 
+                <lb ed="#PV" n="68"/>corporis christi ponamus quod cali<lb ed="#PV" break="no" n="69"/>ditas 
                 ibi existens augeatur 
-                <lb ed="#PV"/>quod potest fieri per applicationem ad ignem 
-                <lb ed="#PV"/>experientia est clara 
+                <lb ed="#PV" n="70"/>quod potest fieri per applicationem ad ignem 
+                <lb ed="#PV" n="71"/>experientia est clara 
               </p>
               <p xml:id="ppr-l90-taqfcc">
                 tunc vel 
-                <lb ed="#PV"/>accidentia quae fuerunt panis 
-                <lb ed="#PV"/>remanent scilicet caliditas etc adveniente
+                <lb ed="#PV" n="72"/>accidentia quae fuerunt panis 
+                <lb ed="#PV" n="73"/>remanent scilicet caliditas etc adveniente
                 <pb ed="#PV" n="169-v"/>
                 <cb ed="#PV" n="a"/>
-                <lb ed="#PV"/>alia caliditate et si sic fit mentio 
-                <lb ed="#PV"/>et si non sub quod sunt species <unclear>ponis</unclear> 
-                <lb ed="#PV"/>quae fuit sed sunt omnino alia quod 
-                <lb ed="#PV"/>videtur periculose dictum quia species 
-                <lb ed="#PV"/>panis non repraesentaret corpus 
-                <lb ed="#PV"/>christi et sic non essent sacramentales
+                <lb ed="#PV" n="1"/>alia caliditate et si sic fit mentio 
+                <lb ed="#PV" n="2"/>et si non sub quod sunt species <unclear>ponis</unclear> 
+                <lb ed="#PV" n="3"/>quae fuit sed sunt omnino alia quod 
+                <lb ed="#PV" n="4"/>videtur periculose dictum quia species 
+                <lb ed="#PV" n="5"/>panis non repraesentaret corpus 
+                <lb ed="#PV" n="6"/>christi et sic non essent sacramentales
               </p>
               <p xml:id="ppr-l90-rqsfse">
-                <lb ed="#PV"/>Breviter diceretur probabiliter quod licet 
-                <lb ed="#PV"/>ibi fiat intentio vel remissio 
-                <lb ed="#PV"/>non est tamen per additionem partis ad 
-                <lb ed="#PV"/>aliam sed per productionem novae qualitatis 
-                <lb ed="#PV"/>ad salvandum quod ibi fuit species 
-                <lb ed="#PV"/>illius panis conversi in corpus 
-                <lb ed="#PV"/>deinde sufficit quod omnino similem 
-                <lb ed="#PV"/>effectum faciat et quod fuit omnes 
-                <lb ed="#PV"/>similes et eiusdem speciei et sic non sequitur 
-                <lb ed="#PV"/>pericula in fide nostra
+                <lb ed="#PV" n="7"/>Breviter diceretur probabiliter quod licet 
+                <lb ed="#PV" n="8"/>ibi fiat intentio vel remissio 
+                <lb ed="#PV" n="9"/>non est tamen per additionem partis ad 
+                <lb ed="#PV" n="10"/>aliam sed per productionem novae qualitatis 
+                <lb ed="#PV" n="11"/>ad salvandum quod ibi fuit species 
+                <lb ed="#PV" n="12"/>illius panis conversi in corpus 
+                <lb ed="#PV" n="13"/>deinde sufficit quod omnino similem 
+                <lb ed="#PV" n="14"/>effectum faciat et quod fuit omnes 
+                <lb ed="#PV" n="15"/>similes et eiusdem speciei et sic non sequitur 
+                <lb ed="#PV" n="16"/>pericula in fide nostra
               </p>
             </div>
             <div xml:id="ppr-l90-Dd1e364">
               <head xml:id="ppr-l90-Hsxeoer">Sexta obiectio et responsio</head>
               <p xml:id="ppr-l90-sacies">
                 Sexto 
-                <lb ed="#PV"/>caritas per existens remanet 
-                <lb ed="#PV"/>cum acquisito igitur positio est falsa 
-                <lb ed="#PV"/>antecedens probatur in isto casu quod aliquis 
-                <lb ed="#PV"/>ex caritate producat actum merito<lb ed="#PV" break="no"/>rium 
+                <lb ed="#PV" n="17"/>caritas per existens remanet 
+                <lb ed="#PV" n="18"/>cum acquisito igitur positio est falsa 
+                <lb ed="#PV" n="19"/>antecedens probatur in isto casu quod aliquis 
+                <lb ed="#PV" n="20"/>ex caritate producat actum merito<lb ed="#PV" break="no" n="21"/>rium 
                 tunc ex quo meretur 
-                <lb ed="#PV"/>detur sibi aliquis gradus 
-                <lb ed="#PV"/>caritatis in una igitur in illo 
-                <lb ed="#PV"/>instanti confertur sibi caritas 
-                <lb ed="#PV"/>et prima <sic>met</sic> nam causat 
-                <lb ed="#PV"/>caritas actum meritorium in 
-                <lb ed="#PV"/>forte et pro illo actu detur nova 
-                <lb ed="#PV"/>caritas figurae illa tunc illa 
-                <lb ed="#PV"/>infunditur sorti pro hoc instanti 
-                <lb ed="#PV"/>ex quo iam meretur et prima 
-                <lb ed="#PV"/><unclear>rem?am</unclear> in hoc instanti ergo ex 
-                <lb ed="#PV"/>ipsis compositio fit ergo non semper ad 
-                <lb ed="#PV"/>generationem novae prima corrumpitur 
-                <lb ed="#PV"/>ista ratio est satis apparens prima 
-                <lb ed="#PV"/>facie
+                <lb ed="#PV" n="22"/>detur sibi aliquis gradus 
+                <lb ed="#PV" n="23"/>caritatis in una igitur in illo 
+                <lb ed="#PV" n="24"/>instanti confertur sibi caritas 
+                <lb ed="#PV" n="25"/>et prima <sic>met</sic> nam causat 
+                <lb ed="#PV" n="26"/>caritas actum meritorium in 
+                <lb ed="#PV" n="27"/>forte et pro illo actu detur nova 
+                <lb ed="#PV" n="28"/>caritas figurae illa tunc illa 
+                <lb ed="#PV" n="29"/>infunditur sorti pro hoc instanti 
+                <lb ed="#PV" n="30"/>ex quo iam meretur et prima 
+                <lb ed="#PV" n="31"/><unclear>rem?am</unclear> in hoc instanti ergo ex 
+                <lb ed="#PV" n="32"/>ipsis compositio fit ergo non semper ad 
+                <lb ed="#PV" n="33"/>generationem novae prima corrumpitur 
+                <lb ed="#PV" n="34"/>ista ratio est satis apparens prima 
+                <lb ed="#PV" n="35"/>facie
               </p>
               <p xml:id="ppr-l90-rqirnc">
                 potest sic responderi quod in 
-                <lb ed="#PV"/><sic>in</sic> isto casu ubi caritas concurrit 
-                <lb ed="#PV"/>ad actum meritorium sortes meretur 
-                <lb ed="#PV"/>aliquem gradum novum caritatis 
+                <lb ed="#PV" n="36"/><sic>in</sic> isto casu ubi caritas concurrit 
+                <lb ed="#PV" n="37"/>ad actum meritorium sortes meretur 
+                <lb ed="#PV" n="38"/>aliquem gradum novum caritatis 
                 <cb ed="#PV" n="b"/>
-                <lb ed="#PV"/>sibi intendi sed non recipit 
-                <lb ed="#PV"/>in hoc instanti sed inmediate 
-                <lb ed="#PV"/>post hoc recipiet vel non 
-                <lb ed="#PV"/>meretur ipsum infundi per hoc 
-                <lb ed="#PV"/>instanti sed pro sequenti tempore 
-                <lb ed="#PV"/>ideo non concluditur quod cum 
-                <lb ed="#PV"/>caritate quae nunc est in sorte 
-                <lb ed="#PV"/>quae concurrit ad actum infundatur 
-                <lb ed="#PV"/>aliqua nova caritas sed ista 
-                <lb ed="#PV"/>in hoc instanti habet ultimum 
-                <lb ed="#PV"/>instans <unclear>sui</unclear> esse recte sicut dicitur 
-                <lb ed="#PV"/>de quantitate ita quod si continue sic 
-                <lb ed="#PV"/>fiat tunc nulla erit caritas 
-                <lb ed="#PV"/>quae inmediate post hoc infun<lb ed="#PV" break="no"/>detur 
+                <lb ed="#PV" n="39"/>sibi intendi sed non recipit 
+                <lb ed="#PV" n="40"/>in hoc instanti sed inmediate 
+                <lb ed="#PV" n="41"/>post hoc recipiet vel non 
+                <lb ed="#PV" n="42"/>meretur ipsum infundi per hoc 
+                <lb ed="#PV" n="43"/>instanti sed pro sequenti tempore 
+                <lb ed="#PV" n="44"/>ideo non concluditur quod cum 
+                <lb ed="#PV" n="45"/>caritate quae nunc est in sorte 
+                <lb ed="#PV" n="46"/>quae concurrit ad actum infundatur 
+                <lb ed="#PV" n="47"/>aliqua nova caritas sed ista 
+                <lb ed="#PV" n="48"/>in hoc instanti habet ultimum 
+                <lb ed="#PV" n="49"/>instans <unclear>sui</unclear> esse recte sicut dicitur 
+                <lb ed="#PV" n="50"/>de quantitate ita quod si continue sic 
+                <lb ed="#PV" n="51"/>fiat tunc nulla erit caritas 
+                <lb ed="#PV" n="52"/>quae inmediate post hoc infun<lb ed="#PV" break="no" n="53"/>detur 
                 ibi ymmo quacumque <unclear>dita</unclear>
-                <lb ed="#PV"/><del rend="strikethrough">potest</del> post <unclear>ante</unclear> habuit aliam et 
-                <lb ed="#PV"/>ante illam aliam et sic in infi<lb ed="#PV" break="no"/>nitum 
+                <lb ed="#PV" n="54"/><del rend="strikethrough">potest</del> post <unclear>ante</unclear> habuit aliam et 
+                <lb ed="#PV" n="55"/>ante illam aliam et sic in infi<lb ed="#PV" break="no" n="56"/>nitum 
                 secundum hoc concedendum 
-                <lb ed="#PV"/>esset quod quaelibet caritas in tali 
-                <lb ed="#PV"/>casu ubi meritum contumaretur 
-                <lb ed="#PV"/>duraretur <sic>procise</sic> pro instans
+                <lb ed="#PV" n="57"/>esset quod quaelibet caritas in tali 
+                <lb ed="#PV" n="58"/>casu ubi meritum contumaretur 
+                <lb ed="#PV" n="59"/>duraretur <sic>procise</sic> pro instans
               </p> 
               <p xml:id="ppr-l90-asepdi">
                 posset 
-                <lb ed="#PV"/>alia solutio dari scilicet quod caritatem 
-                <lb ed="#PV"/>concurrere ad actum meritorium 
-                <lb ed="#PV"/>et esse causam meriti intelligitur 
-                <lb ed="#PV"/>dupliciter 
+                <lb ed="#PV" n="60"/>alia solutio dari scilicet quod caritatem 
+                <lb ed="#PV" n="61"/>concurrere ad actum meritorium 
+                <lb ed="#PV" n="62"/>et esse causam meriti intelligitur 
+                <lb ed="#PV" n="63"/>dupliciter 
               </p>
               <p xml:id="ppr-l90-umqpam">
                 uno modo quod caritas 
-                <lb ed="#PV"/>fect quidquid requiritur adhoc 
-                <lb ed="#PV"/>quod actus meritorius fiat et tunc 
-                <lb ed="#PV"/>in illo instanti in quo fecit 
+                <lb ed="#PV" n="64"/>fect quidquid requiritur adhoc 
+                <lb ed="#PV" n="65"/>quod actus meritorius fiat et tunc 
+                <lb ed="#PV" n="66"/>in illo instanti in quo fecit 
                 ex tunc primo non est sed tunc 
-                <lb ed="#PV"/>est caritas nova quam sortes me<lb ed="#PV" break="no"/>retr 
+                <lb ed="#PV" n="67"/>est caritas nova quam sortes me<lb ed="#PV" break="no" n="68"/>retr 
                 per actum suum Etiam est plura 
-                <lb ed="#PV"/>sint duo agentia uniformare 
-                <lb ed="#PV"/>aequalitate et aequaliter applicata 
-                <lb ed="#PV"/>quae alterant ad caliditatem per 
-                <lb ed="#PV"/>unam horam primum instans 
-                <lb ed="#PV"/>sui non esse et aliud habet esse illud 
-                <lb ed="#PV"/>quod non <unclear>valet</unclear> debet dici causa 
-                <lb ed="#PV"/>istius caliditas et tamen non 
+                <lb ed="#PV" n="69"/>sint duo agentia uniformare 
+                <lb ed="#PV" n="70"/>aequalitate et aequaliter applicata 
+                <lb ed="#PV" n="71"/>quae alterant ad caliditatem per 
+                <lb ed="#PV" n="72"/>unam horam primum instans 
+                <lb ed="#PV" n="73"/>sui non esse et aliud habet esse illud 
+                <lb ed="#PV" n="74"/>quod non <unclear>valet</unclear> debet dici causa 
+                <lb ed="#PV" n="75"/>istius caliditas et tamen non 
                 <pb ed="#PV" n="170-r"/>
                 <cb ed="#PV" n="a"/>
-                <lb ed="#PV"/>est hoc agens quando hoc est summe 
-                <lb ed="#PV"/>calidum et sic illud quod est annichil<lb ed="#PV" break="no"/>latum 
-                dicitur causasse totam calidi<lb ed="#PV" break="no"/>tatem 
+                <lb ed="#PV" n="1"/>est hoc agens quando hoc est summe 
+                <lb ed="#PV" n="2"/>calidum et sic illud quod est annichil<lb ed="#PV" break="no" n="3"/>latum 
+                dicitur causasse totam calidi<lb ed="#PV" break="no" n="4"/>tatem 
                 quia in illo instanti 
-                <lb ed="#PV"/>agens manens nichil operatur 
-                <lb ed="#PV"/>quia illud instans est extrin<lb ed="#PV" break="no"/>secum 
+                <lb ed="#PV" n="5"/>agens manens nichil operatur 
+                <lb ed="#PV" n="6"/>quia illud instans est extrin<lb ed="#PV" break="no" n="7"/>secum 
                 tempori mensuranti motum 
-                <lb ed="#PV"/>et sic de caritate potest dici
+                <lb ed="#PV" n="8"/>et sic de caritate potest dici
               </p>
               <!--
                 This paragraph doesn't seem present

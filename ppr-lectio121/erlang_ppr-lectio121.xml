@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,7 +20,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="PV" n="pal">Palatine</witness>
+          <witness xml:id="E" n="erlang">Erlangen</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -55,139 +54,139 @@
           <div xml:id="ppr-l121-Dd1e114">
             <head xml:id="ppr-l121-arbarb">Ad primam et secundam rationes Boetii</head>
             <p xml:id="ppr-l121-readpv">
-              <lb ed="#E"/>In alia lectione 
-              <lb ed="#E"/>Respondendum est ad aliquas rationes inductas circa praesentem materiam primo ad rationem 
-              <lb ed="#E"/><ref xml:id="ppr-l121-Rd1e123"><name ref="#Boethius">boecii</name></ref> deus cuncta prospicit et nullo modo potest falli igitur necesse est sic evenire sicut cognoscit 
-              <lb ed="#E"/>vel iudicat Confirmatur nisi quia divina scientia esset ad unam partem limitata 
-              <lb ed="#E"/>sequeretur quod non haberet evidens iudicium
+              <lb ed="#E" n="10"/>In alia lectione 
+              <lb ed="#E" n="11"/>Respondendum est ad aliquas rationes inductas circa praesentem materiam primo ad rationem 
+              <lb ed="#E" n="12"/><ref xml:id="ppr-l121-Rd1e123"><name ref="#Boethius">boecii</name></ref> deus cuncta prospicit et nullo modo potest falli igitur necesse est sic evenire sicut cognoscit 
+              <lb ed="#E" n="13"/>vel iudicat Confirmatur nisi quia divina scientia esset ad unam partem limitata 
+              <lb ed="#E" n="14"/>sequeretur quod non haberet evidens iudicium
             </p>
             <p xml:id="ppr-l121-prqpcl">
-              primo respondetur quod <name ref="#Boethius">Boecius</name> loquitur de necessitate conditiona<lb ed="#E" break="no"/>ta 
+              primo respondetur quod <name ref="#Boethius">Boecius</name> loquitur de necessitate conditiona<lb ed="#E" break="no" n="15"/>ta 
               vel <unclear>congrue</unclear> intelligendo istam consequentiam esse necessaria deus ita novit fore igitur ita erit valet istam <unclear>conditionalem</unclear> 
-              <lb ed="#E"/>si <del rend="expunctuation">dei</del> deus ita novit fore ita erit et sic facilis est solutio et per hoc non plene evacuatur 
-              <lb ed="#E"/>difficultas ideo redibit ridiculum <name ref="#Tiresias">thirisiae</name> nisi divina notitia sit aliquam partem in<lb ed="#E" break="no"/>mobiliter 
+              <lb ed="#E" n="16"/>si <del rend="expunctuation">dei</del> deus ita novit fore ita erit et sic facilis est solutio et per hoc non plene evacuatur 
+              <lb ed="#E" n="17"/>difficultas ideo redibit ridiculum <name ref="#Tiresias">thirisiae</name> nisi divina notitia sit aliquam partem in<lb ed="#E" break="no" n="18"/>mobiliter 
               limitata 
             </p> 
             <p xml:id="ppr-l121-pcdsqo">
               pro cuius declaratio praemittit <name ref="#Boethius">Boecius</name> in loco praeallegato quod plures sunt 
-              <lb ed="#E"/>gradus cognoscendi quorum superior semper corrigit inferiorem Istud clare patet in eodem supposito 
-              <lb ed="#E"/>de sensu tactus et sensu visus nam sensus visus melius iudicat et distinctus de quantitate rei quod sensus 
-              <lb ed="#E"/>tactus Ita sensus communis certius iudicat et nobilius et maior est eius ambitus Ita vis aesti<lb ed="#E" break="no"/>mativa 
+              <lb ed="#E" n="19"/>gradus cognoscendi quorum superior semper corrigit inferiorem Istud clare patet in eodem supposito 
+              <lb ed="#E" n="20"/>de sensu tactus et sensu visus nam sensus visus melius iudicat et distinctus de quantitate rei quod sensus 
+              <lb ed="#E" n="21"/>tactus Ita sensus communis certius iudicat et nobilius et maior est eius ambitus Ita vis aesti<lb ed="#E" break="no" n="22"/>mativa 
               de aliquibus iudicat de quibus non sensus communis et intellectiva de quibus non aestimativa etiam 
-              <lb ed="#E"/>alio modo fertur in obiectum ergo <unclear>an?do</unclear> ad supremum gradum concludit <name>boetius</name> quod habet alium considerandi modum 
-              <lb ed="#E"/>pro cuius ampliori satisfactione praedictorum et sequentium rationem advertendum quod quaelibet sex viarum tactarum 
-              <lb ed="#E"/>posset pro responsione applicari Eligo tamen viam quam magis reputo probabilem scilicet quod divinae 
-              <lb ed="#E"/>habet se per modum potentiae libere respectu virtutum contingentium ita quod sicut divina voluntas 
-              <lb ed="#E"/>dicitur ex hoc libera quia uniformiter se habens adaequate in se et intrinsece nunc agit et nunc non agit 
-              <lb ed="#E"/>Ita proportionaliter ymaginandum est de divina cognitione quod quantum ad hoc habet modum libertatis ut uniformiter 
-              <lb ed="#E"/>se habens nunc sit scientia alicuius et uniformiter se habens sic vel posset esse scientia contrarii vel oppositi
+              <lb ed="#E" n="23"/>alio modo fertur in obiectum ergo <unclear>an?do</unclear> ad supremum gradum concludit <name>boetius</name> quod habet alium considerandi modum 
+              <lb ed="#E" n="24"/>pro cuius ampliori satisfactione praedictorum et sequentium rationem advertendum quod quaelibet sex viarum tactarum 
+              <lb ed="#E" n="25"/>posset pro responsione applicari Eligo tamen viam quam magis reputo probabilem scilicet quod divinae 
+              <lb ed="#E" n="26"/>habet se per modum potentiae libere respectu virtutum contingentium ita quod sicut divina voluntas 
+              <lb ed="#E" n="27"/>dicitur ex hoc libera quia uniformiter se habens adaequate in se et intrinsece nunc agit et nunc non agit 
+              <lb ed="#E" n="28"/>Ita proportionaliter ymaginandum est de divina cognitione quod quantum ad hoc habet modum libertatis ut uniformiter 
+              <lb ed="#E" n="29"/>se habens nunc sit scientia alicuius et uniformiter se habens sic vel posset esse scientia contrarii vel oppositi
             </p> 
             <p xml:id="ppr-l121-espeid">
-              <lb ed="#E"/>et sic per eandem volitionem intrinsecam adaequate deus producit rem in esse et per eandem postea descivit 
-              <lb ed="#E"/>Ita similiter divina notitia respectu unius veritatis est mensus <unclear>ullae</unclear> idem formaliter et ydemptitate consideratus est postea 
-              <lb ed="#E"/>dissensus respectu eiusdem Similiter divina voluntas vel volitio eadem existens adaequate est diversorum 
-              <lb ed="#E"/>effectuum ad extra  productiva ita quod per eandem rationem causalem producit vermen et angelum 
+              <lb ed="#E" n="30"/>et sic per eandem volitionem intrinsecam adaequate deus producit rem in esse et per eandem postea descivit 
+              <lb ed="#E" n="31"/>Ita similiter divina notitia respectu unius veritatis est mensus <unclear>ullae</unclear> idem formaliter et ydemptitate consideratus est postea 
+              <lb ed="#E" n="32"/>dissensus respectu eiusdem Similiter divina voluntas vel volitio eadem existens adaequate est diversorum 
+              <lb ed="#E" n="33"/>effectuum ad extra  productiva ita quod per eandem rationem causalem producit vermen et angelum 
             </p>
             <!-- fuzzy parallel -->
             <p xml:id="ppr-l121-espiip">
               sequendo 
-              <lb ed="#E"/>viam quod non sint rationes causales in deo formaliter adintra distincte hic est dicta  inter philosophiam et theo<lb ed="#E" break="no"/>logiam 
-              nam non capit philosophus quod idem inquantum idem id est adaequate eadem modo se habens praecise sit causa diver<lb ed="#E" break="no"/>sorum 
+              <lb ed="#E" n="34"/>viam quod non sint rationes causales in deo formaliter adintra distincte hic est dicta  inter philosophiam et theo<lb ed="#E" break="no" n="35"/>logiam 
+              nam non capit philosophus quod idem inquantum idem id est adaequate eadem modo se habens praecise sit causa diver<lb ed="#E" break="no" n="36"/>sorum 
               ymmo philosophi non capiunt hoc ideo oppositum habuerunt philosophi quasi pro principio ex quo plures errores 
-              <lb ed="#E"/>processerunt Theologus concedit quod idem inquantum idem ratione suae inmensitatis potest divina producere Item 
-              <lb ed="#E"/>proportionaliter de scientia quod ratione suae immensitatis cum omnimoda simplicitate est assensus formaliter istius antichristus 
-              <lb ed="#E"/>erit et per idem formaliter potest esse dissensus eiusdem et assensus veritatis contingentis et per idem formaliter 
-              <lb ed="#E"/>assensus istius deus est summum bonum 
+              <lb ed="#E" n="37"/>processerunt Theologus concedit quod idem inquantum idem ratione suae inmensitatis potest divina producere Item 
+              <lb ed="#E" n="38"/>proportionaliter de scientia quod ratione suae immensitatis cum omnimoda simplicitate est assensus formaliter istius antichristus 
+              <lb ed="#E" n="39"/>erit et per idem formaliter potest esse dissensus eiusdem et assensus veritatis contingentis et per idem formaliter 
+              <lb ed="#E" n="40"/>assensus istius deus est summum bonum 
             </p> 
             <p xml:id="ppr-l121-eqatad">
               per hanc consequentiam non valere aeternum exemplar adaequatur 
-              <lb ed="#E"/><sic>adaequatur</sic> <c>a</c> exemplato simplicis veritatis et idem <del rend="strikethrough">d</del> adaequatur etiam <c>b</c> exemplata igitur <c>a</c> et <c>b</c> inter se 
+              <lb ed="#E" n="41"/><sic>adaequatur</sic> <c>a</c> exemplato simplicis veritatis et idem <del rend="strikethrough">d</del> adaequatur etiam <c>b</c> exemplata igitur <c>a</c> et <c>b</c> inter se 
               <pb ed="#E" n="159-v"/>
-              <lb ed="#E"/>adaequatur Advertendum quod secundum doctores veritas creata consistit in quod adaequatione 
-              <lb ed="#E"/>exemplati ad exemplar factum vel productum creaturae modo consequentia non valet <c>b</c> 
-              <lb ed="#E"/>effectus adaequatur suo exemplari et <c>c</c> adaequaretur eidem ergo <c>a</c> et <c>b</c> adaequentur inter se 
-              <lb ed="#E"/>cum ydemptitate exemplarum stat summa diversitas exemplatorum reservata tamen 
-              <lb ed="#E"/>habitudine <unclear>exemplatorum</unclear> ad exemplar tunc dico quod quaelibet veritas scilicet simplex adaequatur 
-              <lb ed="#E"/>suo exemplari et tamen non adaequentur inter se veritates exemplatae et istud habet locum mobilis 
-              <lb ed="#E"/>assensibus nam adaequate idem est assensus quod antichristus erit et potest esse istius antichristus non erit 
+              <lb ed="#E" n="1"/>adaequatur Advertendum quod secundum doctores veritas creata consistit in quod adaequatione 
+              <lb ed="#E" n="2"/>exemplati ad exemplar factum vel productum creaturae modo consequentia non valet <c>b</c> 
+              <lb ed="#E" n="3"/>effectus adaequatur suo exemplari et <c>c</c> adaequaretur eidem ergo <c>a</c> et <c>b</c> adaequentur inter se 
+              <lb ed="#E" n="4"/>cum ydemptitate exemplarum stat summa diversitas exemplatorum reservata tamen 
+              <lb ed="#E" n="5"/>habitudine <unclear>exemplatorum</unclear> ad exemplar tunc dico quod quaelibet veritas scilicet simplex adaequatur 
+              <lb ed="#E" n="6"/>suo exemplari et tamen non adaequentur inter se veritates exemplatae et istud habet locum mobilis 
+              <lb ed="#E" n="7"/>assensibus nam adaequate idem est assensus quod antichristus erit et potest esse istius antichristus non erit 
             </p>
             <!-- fuzzy parallel -->
             <p xml:id="ppr-l121-eqahqf">
               et istud 
-              <lb ed="#E"/>confert quomodo deus potest incipere scire <c>a</c> propositionem sine sui mutatione patet consequentia istam non valere ex praesenti 
-              <lb ed="#E"/>materia supponendo quod unum infinitum non sic maius alio et ad intelligendo quod infiniti ad finitum sic 
-              <lb ed="#E"/>infinita proportio tunc stat quod tales in infinitum ad ymaginationem signatum vel duratio infinita 
-              <lb ed="#E"/>si actualiter daretur eandem proportionem habet ad annum sicut ad diem ergo proportio infinita durationis 
-              <lb ed="#E"/>ad annum est aequalis proportioni eiusdem durationis ad deum et tamen dies et annus non aequentur Et facit 
-              <lb ed="#E"/>multum ad videndum qualiter res infinita habet alias habitudines quam etc 
+              <lb ed="#E" n="8"/>confert quomodo deus potest incipere scire <c>a</c> propositionem sine sui mutatione patet consequentia istam non valere ex praesenti 
+              <lb ed="#E" n="9"/>materia supponendo quod unum infinitum non sic maius alio et ad intelligendo quod infiniti ad finitum sic 
+              <lb ed="#E" n="10"/>infinita proportio tunc stat quod tales in infinitum ad ymaginationem signatum vel duratio infinita 
+              <lb ed="#E" n="11"/>si actualiter daretur eandem proportionem habet ad annum sicut ad diem ergo proportio infinita durationis 
+              <lb ed="#E" n="12"/>ad annum est aequalis proportioni eiusdem durationis ad deum et tamen dies et annus non aequentur Et facit 
+              <lb ed="#E" n="13"/>multum ad videndum qualiter res infinita habet alias habitudines quam etc 
             </p> 
             <p xml:id="ppr-l121-iedfie">
               Et ad tollendum quod si idem 
-              <lb ed="#E"/>assensus in nobis non potest esse duorum contradictoriorum successive non sequitur quin divinus possit Sed exem<lb ed="#E" break="no"/>plificatum 
+              <lb ed="#E" n="14"/>assensus in nobis non potest esse duorum contradictoriorum successive non sequitur quin divinus possit Sed exem<lb ed="#E" break="no" n="15"/>plificatum 
               est de duratione ita de corpore infinito ratione ergo inmensitatis divinae provenit utrumque unde 
-              <lb ed="#E"/>quantum est ex parte divini assensus est sufficiens pro omni veritate actualiter existere vel possibili sed quia pura 
-              <lb ed="#E"/>veritas est cui repungnat falsitas ideo non conceditur quod sciat duo contradictoria vel falsum licet habeant eandem 
-              <lb ed="#E"/>cognitionem unius sicut alterius
+              <lb ed="#E" n="16"/>quantum est ex parte divini assensus est sufficiens pro omni veritate actualiter existere vel possibili sed quia pura 
+              <lb ed="#E" n="17"/>veritas est cui repungnat falsitas ideo non conceditur quod sciat duo contradictoria vel falsum licet habeant eandem 
+              <lb ed="#E" n="18"/>cognitionem unius sicut alterius
             </p>
             <p xml:id="ppr-l121-eqoeap">
               Sequitur compossibilis infallibilitatis divinae praescientiae et eius inmutabilitatis 
-              <lb ed="#E"/>cum mutabilitate scibilium patet quia idem assensus adaquate respectu huius antichristus erit si destruatur antichristus erit dissensus 
-              <lb ed="#E"/>respectu eiusdem ratione suae inmensitatis Sicut per idem velle adaequate producit et corrumpit ymmo per idem ad<lb ed="#E" break="no"/>aequate 
-              vult sortem esse et non vult sortem esse quia omnino eodem modo se habet quando producit sortem et quando cor<lb ed="#E" break="no"/>rumpit 
+              <lb ed="#E" n="19"/>cum mutabilitate scibilium patet quia idem assensus adaquate respectu huius antichristus erit si destruatur antichristus erit dissensus 
+              <lb ed="#E" n="20"/>respectu eiusdem ratione suae inmensitatis Sicut per idem velle adaequate producit et corrumpit ymmo per idem ad<lb ed="#E" break="no" n="21"/>aequate 
+              vult sortem esse et non vult sortem esse quia omnino eodem modo se habet quando producit sortem et quando cor<lb ed="#E" break="no" n="22"/>rumpit 
               et antequam
             </p>
             <p xml:id="ppr-l121-eihpep">
               Iuxta ymaginationem philosophi haec est conditio et proprietas intrinseca potentiae libere quod eodem modo 
-              <lb ed="#E"/>se habens possit in contraria et hoc habet locum nedum circa divinam essentiam sed circa creatam libertatem 
-              <lb ed="#E"/>nam ceteris eodem se habentibus stat quod voluntas exeat in actum nec aliquid acquiritur sibi unde 
-              <lb ed="#E"/>staret productio actus voluntatis absque electione patet quia posterior est
+              <lb ed="#E" n="23"/>se habens possit in contraria et hoc habet locum nedum circa divinam essentiam sed circa creatam libertatem 
+              <lb ed="#E" n="24"/>nam ceteris eodem se habentibus stat quod voluntas exeat in actum nec aliquid acquiritur sibi unde 
+              <lb ed="#E" n="25"/>staret productio actus voluntatis absque electione patet quia posterior est
             </p>
             <p xml:id="ppr-l121-sempic">
               Idem eodem modo se habens adaequate 
-              <lb ed="#E"/>potest elicere velle et nolle respectu eiusdem
+              <lb ed="#E" n="26"/>potest elicere velle et nolle respectu eiusdem
             </p>
             <p xml:id="ppr-l121-tpisid">
               Item intensiorem et remissiorem in eadem specie Igitur 
-              <lb ed="#E"/>si in causa creata reperiamus non erit mirum de inmensa et sic non est inconveniens concedere quod respectu futu<lb ed="#E" break="no"/>rorum 
+              <lb ed="#E" n="27"/>si in causa creata reperiamus non erit mirum de inmensa et sic non est inconveniens concedere quod respectu futu<lb ed="#E" break="no" n="28"/>rorum 
               contingentium habet libertatem 
             </p>
             <p xml:id="ppr-l121-eihupc">
               Iuxta hoc potest glosari <name ref="#Boethius">boetius</name> 5o de consolatione pro <unclear>ul</unclear> et sui sequaces 
-              <lb ed="#E"/>dicens quod futura contingentia in se considerata similiter sunt contingentia Relata autem ad divinam scientiam 
-              <lb ed="#E"/>sunt necessaria per quod non videtur praecise intelligere necessitatem conditionalem quia nullius est diffi<lb ed="#E" break="no"/>cultatis 
+              <lb ed="#E" n="29"/>dicens quod futura contingentia in se considerata similiter sunt contingentia Relata autem ad divinam scientiam 
+              <lb ed="#E" n="30"/>sunt necessaria per quod non videtur praecise intelligere necessitatem conditionalem quia nullius est diffi<lb ed="#E" break="no" n="31"/>cultatis 
               quod haec consequentia est bona deus scit <c>a</c> fore igitur <c>a</c> erit Et dicit quod hoc non capit 
-              <lb ed="#E"/>nisi animus divini speculatoris ergo non praecise conditionatam necessitatem intendebat <name>boetius</name> sed unifor<lb ed="#E" break="no"/>mitatem 
+              <lb ed="#E" n="32"/>nisi animus divini speculatoris ergo non praecise conditionatam necessitatem intendebat <name>boetius</name> sed unifor<lb ed="#E" break="no" n="33"/>mitatem 
               et sic inmensitatem et sic coincidit cum dictis nam habitudo divinae notitiae semper est 
-              <lb ed="#E"/>uniformis stante difformitate obiectorum vel scibilium nec resolvendum est ad aliud nisi ad 
-              <lb ed="#E"/>inmensitatem
+              <lb ed="#E" n="34"/>uniformis stante difformitate obiectorum vel scibilium nec resolvendum est ad aliud nisi ad 
+              <lb ed="#E" n="35"/>inmensitatem
             </p> 
             <p xml:id="ppr-l121-eqstqp">
               Sequitur quod magis consurgit ex modo enunciandi quam divinae praescientiae inmutatae quod 
-              <lb ed="#E"/>si deus aliquid scivit ab aeterno scivit et si reprobavit ab aeterno reprobavit antichristus est fu<lb ed="#E" break="no"/>turus 
+              <lb ed="#E" n="36"/>si deus aliquid scivit ab aeterno scivit et si reprobavit ab aeterno reprobavit antichristus est fu<lb ed="#E" break="no" n="37"/>turus 
               igitur ab aeterno fuit futurus Si ponatur quod non est futurus tunc concedendum est quod <unclear>quanquam</unclear> 
-              <lb ed="#E"/>hoc non consurgit ex parte divinae inmutabilitatis sed modi enunciandi nam deo non repugnat 
-              <lb ed="#E"/>noviter assentire ut in instanti in qua <c>a</c> est assentit isti <c>a</c> est et numquam prius assensit 
-              <lb ed="#E"/>habuit tamen prius illum assensum ergo repugnantia est solum ex modo enunciandi 
+              <lb ed="#E" n="38"/>hoc non consurgit ex parte divinae inmutabilitatis sed modi enunciandi nam deo non repugnat 
+              <lb ed="#E" n="39"/>noviter assentire ut in instanti in qua <c>a</c> est assentit isti <c>a</c> est et numquam prius assensit 
+              <lb ed="#E" n="40"/>habuit tamen prius illum assensum ergo repugnantia est solum ex modo enunciandi 
             </p>
             <p xml:id="ppr-l121-cqssdp">
               Confirmatur 
-              <lb ed="#E"/>nam repugnat deo quod nunc sortes acceptet ad gloriam et gratificet sortem et ante non igitur nec quod aliquid 
-              <lb ed="#E"/>noviter sciat sed ratione inmensitatis divinae scientiae potest etc Sicut volitio divina est causa productionis 
-              <lb ed="#E"/>sortes et ante non fuit uniformiter se habens nunc producit minus et ante hoc habuit se eodem modo deus per prius 
+              <lb ed="#E" n="41"/>nam repugnat deo quod nunc sortes acceptet ad gloriam et gratificet sortem et ante non igitur nec quod aliquid 
+              <lb ed="#E" n="42"/>noviter sciat sed ratione inmensitatis divinae scientiae potest etc Sicut volitio divina est causa productionis 
+              <lb ed="#E" n="43"/>sortes et ante non fuit uniformiter se habens nunc producit minus et ante hoc habuit se eodem modo deus per prius 
               <pb ed="#E" n="160-r"/>
-              <lb ed="#E"/>agit quam creatura producatur et se habet uniformiter et ideo ista ymaginatio habet tantum diffi<lb ed="#E" break="no"/>cultatem 
+              <lb ed="#E" n="1"/>agit quam creatura producatur et se habet uniformiter et ideo ista ymaginatio habet tantum diffi<lb ed="#E" break="no" n="2"/>cultatem 
               sicut de praescientia
             </p>
             <p xml:id="ppr-l121-sarapr">
               Restat dubium si deus quantum est de se sic aequaliter notitia respectu 
-              <lb ed="#E"/>utriusque contradictionis vel erit magis assensus huius quam illius vel magis assentiet huic 
-              <lb ed="#E"/>quam illi si sic indifferens sequitur quod <unclear>manet</unclear> incertus unde consurgit plus etc
+              <lb ed="#E" n="3"/>utriusque contradictionis vel erit magis assensus huius quam illius vel magis assentiet huic 
+              <lb ed="#E" n="4"/>quam illi si sic indifferens sequitur quod <unclear>manet</unclear> incertus unde consurgit plus etc
             </p>
             <p xml:id="ppr-l121-rqhish">
-              Respondetur quod consur<lb ed="#E" break="no"/>git ex 
+              Respondetur quod consur<lb ed="#E" break="no" n="5"/>git ex 
               inmensitate divinae praescientiae et habitudine necessariae complexionis quam habet ad veritatem simile est unde 
-              <lb ed="#E"/>consurgit quod <name>sortes</name> producatur quia similiter omnino se habet prius et posterius Sufficit theologo defen<lb ed="#E" break="no"/>denti 
-              materiam istam quod introducat exempla similia unde posito quod deus non esset staret difficul<lb ed="#E" break="no"/>tas 
+              <lb ed="#E" n="6"/>consurgit quod <name>sortes</name> producatur quia similiter omnino se habet prius et posterius Sufficit theologo defen<lb ed="#E" break="no" n="7"/>denti 
+              materiam istam quod introducat exempla similia unde posito quod deus non esset staret difficul<lb ed="#E" break="no" n="8"/>tas 
               patet etiam solutio aliarum rationum
             </p> 
           </div>
@@ -195,68 +194,68 @@
             <head xml:id="ppr-l121-Haqranr">Ad quintam rationem</head>
             <p xml:id="ppr-l121-tarish">
               Arguitur sic consequenter <name>auticiodorensis</name> homo praescivit <c>a</c> fore igitur necesse 
-              <lb ed="#E"/>est etc a simili deus praescivit antichristum fore igitur etc Breviter prima consequentia conceditur quia scientia nostra non 
-              <lb ed="#E"/>est nisi necessariorum
+              <lb ed="#E" n="9"/>est etc a simili deus praescivit antichristum fore igitur etc Breviter prima consequentia conceditur quia scientia nostra non 
+              <lb ed="#E" n="10"/>est nisi necessariorum
             </p>
             <p xml:id="ppr-l121-esasfc">
               Si arguitur de deo a simili negetur consequentia quia non est simile propter causam tactam prima 
-              <lb ed="#E"/>ratione inmensitatis divinae scientiae competit sibi quod possit cognoscere futura contingentia rectitudinaliter 
-              <lb ed="#E"/>unde principia cognoscimus certitudinaliter et non sequitur tamen cognosco sortes esse igitur necesse est me cognoscere 
-              <lb ed="#E"/>sortem esse quia potest non esse vel non sequitur quod necesse est ipsum esse
+              <lb ed="#E" n="11"/>ratione inmensitatis divinae scientiae competit sibi quod possit cognoscere futura contingentia rectitudinaliter 
+              <lb ed="#E" n="12"/>unde principia cognoscimus certitudinaliter et non sequitur tamen cognosco sortes esse igitur necesse est me cognoscere 
+              <lb ed="#E" n="13"/>sortem esse quia potest non esse vel non sequitur quod necesse est ipsum esse
             </p> 
             <p xml:id="ppr-l121-sevsfc">
-              Item ex varia habitudine scientiae ad sci<lb ed="#E" break="no"/>bilia 
-              nam scientia humana dependet a scibilibus et acquiritur per concursum eorum scientia dei non sic nostra de<lb ed="#E" break="no"/>pendet 
+              Item ex varia habitudine scientiae ad sci<lb ed="#E" break="no" n="14"/>bilia 
+              nam scientia humana dependet a scibilibus et acquiritur per concursum eorum scientia dei non sic nostra de<lb ed="#E" break="no" n="15"/>pendet 
               <c>a</c> sic se habere de obiectis illa scilicet divina non
             </p> 
             <p xml:id="ppr-l121-arafec">
               Aliter respondet <name>auticiodorensis</name> dicens quod scientia dei quantum 
-              <lb ed="#E"/>ad infallibilitatem est nostra certior respectu futurorum contingentium quantum tamen ad rei fixionem 
-              <lb ed="#E"/>nostra est certior quia cum nostra scientia nullo modo stat contingentia sed bene cum divina
+              <lb ed="#E" n="16"/>ad infallibilitatem est nostra certior respectu futurorum contingentium quantum tamen ad rei fixionem 
+              <lb ed="#E" n="17"/>nostra est certior quia cum nostra scientia nullo modo stat contingentia sed bene cum divina
             </p>
           </div>
         <div xml:id="ppr-l121-Dd1e353">
           <head xml:id="ppr-l121-Haaraar">Ad sextam rationem</head>
           <p xml:id="ppr-l121-aarnep">
             <pc type="pilcrow"/> Ad aliam rationem 
-            <lb ed="#E"/>numerus praedestinatorum est incompletus ergo etc dicendum quod inplicat contradictionem numerum et non compleri da<lb ed="#E" break="no"/>to 
+            <lb ed="#E" n="18"/>numerus praedestinatorum est incompletus ergo etc dicendum quod inplicat contradictionem numerum et non compleri da<lb ed="#E" break="no" n="19"/>to 
             quod maximus sit finitus nam eo ipso quod non inpleretur non essent alii praedestinati
           </p>
           <p xml:id="ppr-l121-sdqsdp">
             Secundo dico 
-            <lb ed="#E"/>quod absolute quali numerus mundi potest esse maximus praedestinatorum quia deus potest facere quod non essent nisi 
-            <lb ed="#E"/>duo vel unicus quia potest destruere etc
+            <lb ed="#E" n="20"/>quod absolute quali numerus mundi potest esse maximus praedestinatorum quia deus potest facere quod non essent nisi 
+            <lb ed="#E" n="21"/>duo vel unicus quia potest destruere etc
           </p>
           <p xml:id="ppr-l121-tddtcg">
             Tertio dico quod de llege statuta esset certus numerus taxatus 
-            <lb ed="#E"/>adhuc quilibet potest facere quod non esset de numero illorum et quilibet etiam praescitus potest facere quod sit 
-            <lb ed="#E"/>de numero illorum sicut prius dictum est scilicet quod faciant quod in se est et stante lege non totum antecedens est in potestate 
-            <lb ed="#E"/>sua sed in bonitate dei
+            <lb ed="#E" n="22"/>adhuc quilibet potest facere quod non esset de numero illorum et quilibet etiam praescitus potest facere quod sit 
+            <lb ed="#E" n="23"/>de numero illorum sicut prius dictum est scilicet quod faciant quod in se est et stante lege non totum antecedens est in potestate 
+            <lb ed="#E" n="24"/>sua sed in bonitate dei
           </p>
           <p xml:id="ppr-l121-qdqcnd">
             Ultimo dico quod licet sit in potestate cuiuslibet privati viatorum quod sit de numero 
-            <lb ed="#E"/>praedestinatorum non tamen quod numerus ille sit maior vel minor unde stat aliqua dispositio <del rend="strikethrough">s</del> communis non 
-            <lb ed="#E"/>sic in potestate sortis nec platonis et tamen dependet a tota multitudine et necesse est quod eveniant scandala 
-            <lb ed="#E"/>possum tamen evitare quod quilibet potest quod non per ipsum nullus tamen potest quin fiat scandalum Ita fuit de <unclear>procuratione</unclear> 
-            <lb ed="#E"/>passionis christi in cuiuslibet potestate fuit quod ipse non esset causa <unclear>procurationis</unclear> passionis christi in 
-            <lb ed="#E"/>nullius tamen potestate fuit quin <pc type="pilcrow"/> Advertendo circa hoc quod necesse est quod christus pateretur id est sic credens 
-            <lb ed="#E"/>numquam deciperetur vel qui sic assentiret non falleretur ita quod necessitas causatur pro infallibilitate
+            <lb ed="#E" n="25"/>praedestinatorum non tamen quod numerus ille sit maior vel minor unde stat aliqua dispositio <del rend="strikethrough">s</del> communis non 
+            <lb ed="#E" n="26"/>sic in potestate sortis nec platonis et tamen dependet a tota multitudine et necesse est quod eveniant scandala 
+            <lb ed="#E" n="27"/>possum tamen evitare quod quilibet potest quod non per ipsum nullus tamen potest quin fiat scandalum Ita fuit de <unclear>procuratione</unclear> 
+            <lb ed="#E" n="28"/>passionis christi in cuiuslibet potestate fuit quod ipse non esset causa <unclear>procurationis</unclear> passionis christi in 
+            <lb ed="#E" n="29"/>nullius tamen potestate fuit quin <pc type="pilcrow"/> Advertendo circa hoc quod necesse est quod christus pateretur id est sic credens 
+            <lb ed="#E" n="30"/>numquam deciperetur vel qui sic assentiret non falleretur ita quod necessitas causatur pro infallibilitate
           </p>
         </div>
         <div xml:id="ppr-l121-Dd1e391">
           <head xml:id="ppr-l121-arfarf">Ad septimam rationem FitzRalph</head>
           <p xml:id="ppr-l121-arfavc">
             <ref xml:id="ppr-l121-Rd1e400">Alia 
-            <lb ed="#E"/>ratio</ref> <name ref="#RichardFitzRalph">ybernici</name> <name>adam</name> recitat hoc complexum summus sacerdos contingenter supponit etc <unclear>supponit</unclear> Aliter 
-            <lb ed="#E"/>dicitur et facilius quod mere contingenter et libere deus antequam antichristus erit sicut vult et sicut voluntas 
-            <lb ed="#E"/>se habet ad causalitatem 
+            <lb ed="#E" n="31"/>ratio</ref> <name ref="#RichardFitzRalph">ybernici</name> <name>adam</name> recitat hoc complexum summus sacerdos contingenter supponit etc <unclear>supponit</unclear> Aliter 
+            <lb ed="#E" n="32"/>dicitur et facilius quod mere contingenter et libere deus antequam antichristus erit sicut vult et sicut voluntas 
+            <lb ed="#E" n="33"/>se habet ad causalitatem 
           </p>
         </div>
         <div xml:id="ppr-l121-Dd1e418">
           <head xml:id="ppr-l121-Harriae">Ad octavam rationem Rodington</head>
           <p xml:id="ppr-l121-arriae">
             Alia ratio <name ref="#JohnOfRodington">Rodinthon</name> istud est pro me quia conceditur quod necessario vult <name>adam</name> 
-            <lb ed="#E"/>fuisse et prius contingenter voluit 
+            <lb ed="#E" n="34"/>fuisse et prius contingenter voluit 
           </p>
         </div>
         <div xml:id="ppr-l121-Dd1e436">
@@ -270,8 +269,8 @@
           <head xml:id="ppr-l121-aaraar">Ad undecimam rationem</head>
           <p xml:id="ppr-l121-arddar">
             Alia ratio de maximo ipsius <name>hesbri</name> in illo 
-            <lb ed="#E"/>sophismate anima christi necessario erit unde infinitum tempus est minimum per quod antichristus non potest esse 
-            <lb ed="#E"/>futurus quolibet finito minori datur maius illo etc
+            <lb ed="#E" n="35"/>sophismate anima christi necessario erit unde infinitum tempus est minimum per quod antichristus non potest esse 
+            <lb ed="#E" n="36"/>futurus quolibet finito minori datur maius illo etc
           </p>
           </div>
         </div>

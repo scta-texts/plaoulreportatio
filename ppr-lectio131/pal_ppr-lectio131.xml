@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,64 +54,64 @@
           <head xml:id="ppr-l131-Hprotio">Propositio</head>
           <p xml:id="ppr-l131-ppcmpm">
             <lb ed="#PV" n="1"/>Alia lectio
-            <lb ed="#PV"/>Primo ponam conclusionem 
-            <lb ed="#PV"/>fidei in hac materia ex qua inferam
-            <lb ed="#PV"/>contra errores deinde particularius 
-            <lb ed="#PV"/>declarabo
+            <lb ed="#PV" n="2"/>Primo ponam conclusionem 
+            <lb ed="#PV" n="3"/>fidei in hac materia ex qua inferam
+            <lb ed="#PV" n="4"/>contra errores deinde particularius 
+            <lb ed="#PV" n="5"/>declarabo
           </p>
           <p xml:id="ppr-l131-picepg">
             propositio sit haec sicut christus 
-            <lb ed="#PV"/>ihesus verus <del rend="strikethrough">s</del> dei filius a patre 
-            <lb ed="#PV"/>per generatione procedit aeternaliter 
-            <lb ed="#PV"/>sic idem filius homines ex matre 
-            <lb ed="#PV"/>virgine processit <del rend="strikethrough">aeternaliter sic 
-            <lb ed="#PV"/>idem filius hominis</del> temporaliter 
-            <lb ed="#PV"/>etiam per generationem 
+            <lb ed="#PV" n="6"/>ihesus verus <del rend="strikethrough">s</del> dei filius a patre 
+            <lb ed="#PV" n="7"/>per generatione procedit aeternaliter 
+            <lb ed="#PV" n="8"/>sic idem filius homines ex matre 
+            <lb ed="#PV" n="9"/>virgine processit <del rend="strikethrough">aeternaliter sic 
+            <lb ed="#PV" n="10"/>idem filius hominis</del> temporaliter 
+            <lb ed="#PV" n="11"/>etiam per generationem 
           </p>
           <p xml:id="ppr-l131-aipdfa">
             haec est satis 
-            <lb ed="#PV"/><unclear>elbam?m</unclear> series <ref xml:id="ppr-l131-Rd1e131" corresp="#ppr-l131-Qopiifs"><title ref="#io">Ioannes</title> primo capitulo</ref> nam 
-            <lb ed="#PV"/>postquam filii dei generatio descripta 
-            <lb ed="#PV"/>est ibi in principio erat verbum et consequenter 
-            <lb ed="#PV"/>descriptum est quod <quote xml:id="ppr-l131-Qopiifs" source="http://scta.info/resource/io1_3">omnia per ipsum 
-            <lb ed="#PV"/>facta sunt</quote> quae sibi competunt 
-            <lb ed="#PV"/>per aeternam generationem sequitur temporalis 
-            <lb ed="#PV"/>generatio scilicet <quote xml:id="ppr-l131-Qvcfcfv" source="http://scta.info/resource/io1_14">verbum carum factum 
-            <lb ed="#PV"/>est</quote> quam generationem ad utrumque 
-            <lb ed="#PV"/>modum <ref xml:id="ppr-l131-Rd1e156"><title ref="#is">ysae</title> 53</ref> <quote xml:id="ppr-l131-Qd1e168" source="http://scta.info/resource/is53_8">enim generationem 
-            <lb ed="#PV"/>eius quis enarrabit</quote> quam 
-            <lb ed="#PV"/>quod non vita humana sed 
-            <lb ed="#PV"/>spiritu sancto revelante confessus 
-            <lb ed="#PV"/>est <name ref="#Peter">petrus apostolus</name> dicens <quote xml:id="ppr-l131-Qd1e180" source="http://scta.info/resource/mt26_63 http://scta.info/resource/io6_70">tu es 
-            <lb ed="#PV"/>christus fili dei</quote> vini quam ad 
-            <lb ed="#PV"/>primum Quantum ad utrumque 
-            <lb ed="#PV"/>apostolus <ref xml:id="ppr-l131-Rd1e190" corresp="#ppr-l131-Qciffdm"><title ref="#phil">ad philippenses</title> <num>2o</num></ref> <quote xml:id="ppr-l131-Qciffdm" source="http://scta.info/resource/phil2_6 http://scta.info/resource/phil2_7">inter <unclear>cetram</unclear> dicit formam 
-            <lb ed="#PV"/>servi accipiens factus de muliere</quote>
-            <lb ed="#PV"/>hoc idem ipse met ostendit 
-            <lb ed="#PV"/>quantum ad 2am generationem 
-            <lb ed="#PV"/>dicens <quote xml:id="ppr-l131-Qd1e213" source="http://scta.info/resource/io14_28">pater maior in esse</quote> Item <quote xml:id="ppr-l131-Qd1e219" source="http://scta.info/resource/mt26_38 http://scta.info/resource/mc14_34">tris<lb ed="#PV" break="no"/>tis 
-            est anima mea usque ad mor<lb ed="#PV" break="no"/>tem</quote>
+            <lb ed="#PV" n="12"/><unclear>elbam?m</unclear> series <ref xml:id="ppr-l131-Rd1e131" corresp="#ppr-l131-Qopiifs"><title ref="#io">Ioannes</title> primo capitulo</ref> nam 
+            <lb ed="#PV" n="13"/>postquam filii dei generatio descripta 
+            <lb ed="#PV" n="14"/>est ibi in principio erat verbum et consequenter 
+            <lb ed="#PV" n="15"/>descriptum est quod <quote xml:id="ppr-l131-Qopiifs" source="http://scta.info/resource/io1_3">omnia per ipsum 
+            <lb ed="#PV" n="16"/>facta sunt</quote> quae sibi competunt 
+            <lb ed="#PV" n="17"/>per aeternam generationem sequitur temporalis 
+            <lb ed="#PV" n="18"/>generatio scilicet <quote xml:id="ppr-l131-Qvcfcfv" source="http://scta.info/resource/io1_14">verbum carum factum 
+            <lb ed="#PV" n="19"/>est</quote> quam generationem ad utrumque 
+            <lb ed="#PV" n="20"/>modum <ref xml:id="ppr-l131-Rd1e156"><title ref="#is">ysae</title> 53</ref> <quote xml:id="ppr-l131-Qd1e168" source="http://scta.info/resource/is53_8">enim generationem 
+            <lb ed="#PV" n="21"/>eius quis enarrabit</quote> quam 
+            <lb ed="#PV" n="22"/>quod non vita humana sed 
+            <lb ed="#PV" n="23"/>spiritu sancto revelante confessus 
+            <lb ed="#PV" n="24"/>est <name ref="#Peter">petrus apostolus</name> dicens <quote xml:id="ppr-l131-Qd1e180" source="http://scta.info/resource/mt26_63 http://scta.info/resource/io6_70">tu es 
+            <lb ed="#PV" n="25"/>christus fili dei</quote> vini quam ad 
+            <lb ed="#PV" n="26"/>primum Quantum ad utrumque 
+            <lb ed="#PV" n="27"/>apostolus <ref xml:id="ppr-l131-Rd1e190" corresp="#ppr-l131-Qciffdm"><title ref="#phil">ad philippenses</title> <num>2o</num></ref> <quote xml:id="ppr-l131-Qciffdm" source="http://scta.info/resource/phil2_6 http://scta.info/resource/phil2_7">inter <unclear>cetram</unclear> dicit formam 
+            <lb ed="#PV" n="28"/>servi accipiens factus de muliere</quote>
+            <lb ed="#PV" n="29"/>hoc idem ipse met ostendit 
+            <lb ed="#PV" n="30"/>quantum ad 2am generationem 
+            <lb ed="#PV" n="31"/>dicens <quote xml:id="ppr-l131-Qd1e213" source="http://scta.info/resource/io14_28">pater maior in esse</quote> Item <quote xml:id="ppr-l131-Qd1e219" source="http://scta.info/resource/mt26_38 http://scta.info/resource/mc14_34">tris<lb ed="#PV" break="no" n="32"/>tis 
+            est anima mea usque ad mor<lb ed="#PV" break="no" n="33"/>tem</quote>
             quae quidem competunt 
-            <lb ed="#PV"/>ipise christo secundum naturam assump<lb ed="#PV" break="no"/>tam 
+            <lb ed="#PV" n="34"/>ipise christo secundum naturam assump<lb ed="#PV" break="no" n="35"/>tam 
             quantum ad aequalitatem divinae 
-            <lb ed="#PV"/>perfectionis ostendit se esse deum 
+            <lb ed="#PV" n="36"/>perfectionis ostendit se esse deum 
             <cb ed="#PV" n="b"/>
-            <lb ed="#PV"/>dicens <quote xml:id="ppr-l131-Qd1e226" source="http://scta.info/resource/io10_30">ego et pater unum sumus</quote>
-            <lb ed="#PV"/>Item per quam <unclear>philippo</unclear> factam 
-            <lb ed="#PV"/><quote xml:id="ppr-l131-Qd1e237" source="http://scta.info/resource/io14_9">qui videt me videt et patrem</quote> igitur 
-            <lb ed="#PV"/>clare innuit se esse filium verum 
-            <lb ed="#PV"/>hoc est contra haereticos dicentes ipsum 
-            <lb ed="#PV"/>esse praecise filium ad optimum 
+            <lb ed="#PV" n="37"/>dicens <quote xml:id="ppr-l131-Qd1e226" source="http://scta.info/resource/io10_30">ego et pater unum sumus</quote>
+            <lb ed="#PV" n="38"/>Item per quam <unclear>philippo</unclear> factam 
+            <lb ed="#PV" n="39"/><quote xml:id="ppr-l131-Qd1e237" source="http://scta.info/resource/io14_9">qui videt me videt et patrem</quote> igitur 
+            <lb ed="#PV" n="40"/>clare innuit se esse filium verum 
+            <lb ed="#PV" n="41"/>hoc est contra haereticos dicentes ipsum 
+            <lb ed="#PV" n="42"/>esse praecise filium ad optimum 
           </p>
           <!-- should this be a paragraph break? -->
           <p xml:id="ppr-l131-iaoaca">
-            <lb ed="#PV"/>Item dicit <quote xml:id="ppr-l131-Qd1e256" source="http://scta.info/resource/io16_15">omnia quae habet pater mea 
-            <lb ed="#PV"/>sunt</quote> Item per operationem miraculorum 
-            <lb ed="#PV"/>virtute propria Ex remissione peccato<lb ed="#PV" break="no"/>rum 
+            <lb ed="#PV" n="43"/>Item dicit <quote xml:id="ppr-l131-Qd1e256" source="http://scta.info/resource/io16_15">omnia quae habet pater mea 
+            <lb ed="#PV" n="44"/>sunt</quote> Item per operationem miraculorum 
+            <lb ed="#PV" n="45"/>virtute propria Ex remissione peccato<lb ed="#PV" break="no" n="46"/>rum 
             et missione spiritus sancti 
-            <lb ed="#PV"/>quae non possunt esse a creatura pura 
-            <lb ed="#PV"/>patet etiam ex resurrectione ipsius et 
-            <lb ed="#PV"/>ad caelos ascensione 
+            <lb ed="#PV" n="47"/>quae non possunt esse a creatura pura 
+            <lb ed="#PV" n="48"/>patet etiam ex resurrectione ipsius et 
+            <lb ed="#PV" n="49"/>ad caelos ascensione 
           </p>
         </div>
         <div xml:id="ppr-l131-Dd1e264">
@@ -121,161 +120,161 @@
             <head xml:id="ppr-l131-Hpceehp">Primum: contra errorem assentium christum esse hominem purum</head>
             <p xml:id="ppr-l131-eqagap">
               patet primo 
-              <lb ed="#PV"/>error seu haeresis hebeonis 
-              <lb ed="#PV"/>et <name ref="#PaulSamosata">pauli sarrositani</name> et <unclear>fotini</unclear> 
-              <lb ed="#PV"/>haereticorum asserentium ipsum 
-              <lb ed="#PV"/>hominem purum sed participatione 
-              <lb ed="#PV"/>divinae maiestatis glorie etc
-              <lb ed="#PV"/>denominabitur esse deus more 
-              <lb ed="#PV"/>antiquorum etiam philosophorum unde 
-              <lb ed="#PV"/>scriptura <quote xml:id="ppr-l131-Qd1e285">dixi dii estis</quote> Etiam 
-              <lb ed="#PV"/><name ref="#Homer">homerus</name> gentilis dicit <name ref="#Hector">hectorem</name> 
-              <lb ed="#PV"/>filium <name ref="#Priam">priami</name> esse quasi dei filium 
-              <lb ed="#PV"/>propter virtutis excellentiam 
-              <lb ed="#PV"/>ymmo et heroycam virtutem habentes 
-              <lb ed="#PV"/>gentiles gentiles vocabant deos vel 
-              <lb ed="#PV"/>divinos patet <ref xml:id="ppr-l131-Rd1e301" target="http://scta.info/resource/aristneth-l10">7mo <title ref="#Ethics">ethycorum</title></ref> ut ponitur 
-              <lb ed="#PV"/>exemplum de <name ref="#Hector">hectore</name> et <name ref="#Homer">homero</name> narrante
-              <lb ed="#PV"/>patet igitur quia haec est haeresis pes<lb ed="#PV" break="no"/>cifera
+              <lb ed="#PV" n="50"/>error seu haeresis hebeonis 
+              <lb ed="#PV" n="51"/>et <name ref="#PaulSamosata">pauli sarrositani</name> et <unclear>fotini</unclear> 
+              <lb ed="#PV" n="52"/>haereticorum asserentium ipsum 
+              <lb ed="#PV" n="53"/>hominem purum sed participatione 
+              <lb ed="#PV" n="54"/>divinae maiestatis glorie etc
+              <lb ed="#PV" n="55"/>denominabitur esse deus more 
+              <lb ed="#PV" n="56"/>antiquorum etiam philosophorum unde 
+              <lb ed="#PV" n="57"/>scriptura <quote xml:id="ppr-l131-Qd1e285">dixi dii estis</quote> Etiam 
+              <lb ed="#PV" n="58"/><name ref="#Homer">homerus</name> gentilis dicit <name ref="#Hector">hectorem</name> 
+              <lb ed="#PV" n="59"/>filium <name ref="#Priam">priami</name> esse quasi dei filium 
+              <lb ed="#PV" n="60"/>propter virtutis excellentiam 
+              <lb ed="#PV" n="61"/>ymmo et heroycam virtutem habentes 
+              <lb ed="#PV" n="62"/>gentiles gentiles vocabant deos vel 
+              <lb ed="#PV" n="63"/>divinos patet <ref xml:id="ppr-l131-Rd1e301" target="http://scta.info/resource/aristneth-l10">7mo <title ref="#Ethics">ethycorum</title></ref> ut ponitur 
+              <lb ed="#PV" n="64"/>exemplum de <name ref="#Hector">hectore</name> et <name ref="#Homer">homero</name> narrante
+              <lb ed="#PV" n="65"/>patet igitur quia haec est haeresis pes<lb ed="#PV" break="no" n="66"/>cifera
               Item inducitur testimonium 
-              <lb ed="#PV"/>christi dicens <quote xml:id="ppr-l131-Qd1e319" source="http://scta.info/resource/io16_28@1-7">exivi a patre et veni 
-              <lb ed="#PV"/>in mundum</quote> scilicet aeternaliter a 
-              <lb ed="#PV"/>patre unde dicit <quote xml:id="ppr-l131-Qd1e329" source="http://scta.info/resource/io8_58">antequam <name ref="#Abraham">abra<lb ed="#PV" break="no"/>ham</name> 
-              fieret ego sum</quote> ubi asse<lb ed="#PV" break="no"/>rit 
+              <lb ed="#PV" n="67"/>christi dicens <quote xml:id="ppr-l131-Qd1e319" source="http://scta.info/resource/io16_28@1-7">exivi a patre et veni 
+              <lb ed="#PV" n="68"/>in mundum</quote> scilicet aeternaliter a 
+              <lb ed="#PV" n="69"/>patre unde dicit <quote xml:id="ppr-l131-Qd1e329" source="http://scta.info/resource/io8_58">antequam <name ref="#Abraham">abra<lb ed="#PV" break="no" n="70"/>ham</name> 
+              fieret ego sum</quote> ubi asse<lb ed="#PV" break="no" n="71"/>rit 
               se esse ante eisu generationem 
-              <lb ed="#PV"/>temporalem 
+              <lb ed="#PV" n="72"/>temporalem 
             </p> 
             <p xml:id="ppr-l131-iivgap">
               Unde <ref xml:id="ppr-l131-Rd1e339" corresp="#ppr-l131-Qvaeqmm"><title ref="#io">Ioannes</title> 6to capitulo</ref> 
-              <lb ed="#PV"/><quote xml:id="ppr-l131-Qvaeqmm" source="http://scta.info/resource/io16_5">vado ad eum qui me misit</quote>
-              <lb ed="#PV"/>quod intelligitur de aeterna missione 
+              <lb ed="#PV" n="73"/><quote xml:id="ppr-l131-Qvaeqmm" source="http://scta.info/resource/io16_5">vado ad eum qui me misit</quote>
+              <lb ed="#PV" n="74"/>quod intelligitur de aeterna missione 
               <pb ed="#PV" n="251-v"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>vel generatione a patre 
+              <lb ed="#PV" n="1"/>vel generatione a patre 
             </p>
             <p xml:id="ppr-l131-ianphp">
               Item <quote xml:id="ppr-l131-Qd1e359" source="http://scta.info/resource/io3_13">nemo 
-              <lb ed="#PV"/>ascendit in caelum nisi qui descendit de caelo 
-              <lb ed="#PV"/>filius hominis</quote> igitur des<lb ed="#PV" break="no"/>cendit 
+              <lb ed="#PV" n="2"/>ascendit in caelum nisi qui descendit de caelo 
+              <lb ed="#PV" n="3"/>filius hominis</quote> igitur des<lb ed="#PV" break="no" n="4"/>cendit 
               de caelo non per modum 
-              <lb ed="#PV"/>motum localem sed inferiorum
-              <lb ed="#PV"/>naturae assumptionem igitur ex sacra 
-              <lb ed="#PV"/>scriptura repellitur dicta haeresis
+              <lb ed="#PV" n="5"/>motum localem sed inferiorum
+              <lb ed="#PV" n="6"/>naturae assumptionem igitur ex sacra 
+              <lb ed="#PV" n="7"/>scriptura repellitur dicta haeresis
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e365">
             <head xml:id="ppr-l131-Hscmscm">Secundum: contra Manichaeos</head>
             <p xml:id="ppr-l131-sicqef">
-              <lb ed="#PV"/>2o infertur contra haeresim <unclear>manararum</unclear> 
-              <lb ed="#PV"/>dicentes quod non assumpsit sibi corpus 
-              <lb ed="#PV"/><del rend="strikethrough">verbum</del> christum sed praecise fantasticum et 
-              <lb ed="#PV"/>apparens solum et non habebat 
-              <lb ed="#PV"/>corpus patet quod est contra scripturam 
-              <lb ed="#PV"/>iam indictam nisi forte diceret 
-              <lb ed="#PV"/>quod loquitur secundum multitudinem 
-              <lb ed="#PV"/>more scripturae quia aliquando 
-              <lb ed="#PV"/>vocatur leo quandoque agnus et sic etiam 
-              <lb ed="#PV"/>homo similitudinarie Sed repellitur 
-              <lb ed="#PV"/>quod sacra scriptura numquam consequenter 
-              <lb ed="#PV"/>et conformiter utitur similibus quin 
-              <lb ed="#PV"/>2am regulam sint nulla recipienda 
-              <lb ed="#PV"/>ut apparet de rebus in se virorum 
-              <lb ed="#PV"/>apprentibus <name>habrae</name> statim sequitur 
-              <lb ed="#PV"/>et adorat verum ubi denotatur quod 
-              <lb ed="#PV"/>vel angeli vel trinitas personarum 
-              <lb ed="#PV"/>sub similitudine describatur tamen 
-              <lb ed="#PV"/>subiungitur et innuitur quod non erant 
-              <lb ed="#PV"/>veri
+              <lb ed="#PV" n="8"/>2o infertur contra haeresim <unclear>manararum</unclear> 
+              <lb ed="#PV" n="9"/>dicentes quod non assumpsit sibi corpus 
+              <lb ed="#PV" n="10"/><del rend="strikethrough">verbum</del> christum sed praecise fantasticum et 
+              <lb ed="#PV" n="11"/>apparens solum et non habebat 
+              <lb ed="#PV" n="12"/>corpus patet quod est contra scripturam 
+              <lb ed="#PV" n="13"/>iam indictam nisi forte diceret 
+              <lb ed="#PV" n="14"/>quod loquitur secundum multitudinem 
+              <lb ed="#PV" n="15"/>more scripturae quia aliquando 
+              <lb ed="#PV" n="16"/>vocatur leo quandoque agnus et sic etiam 
+              <lb ed="#PV" n="17"/>homo similitudinarie Sed repellitur 
+              <lb ed="#PV" n="18"/>quod sacra scriptura numquam consequenter 
+              <lb ed="#PV" n="19"/>et conformiter utitur similibus quin 
+              <lb ed="#PV" n="20"/>2am regulam sint nulla recipienda 
+              <lb ed="#PV" n="21"/>ut apparet de rebus in se virorum 
+              <lb ed="#PV" n="22"/>apprentibus <name>habrae</name> statim sequitur 
+              <lb ed="#PV" n="23"/>et adorat verum ubi denotatur quod 
+              <lb ed="#PV" n="24"/>vel angeli vel trinitas personarum 
+              <lb ed="#PV" n="25"/>sub similitudine describatur tamen 
+              <lb ed="#PV" n="26"/>subiungitur et innuitur quod non erant 
+              <lb ed="#PV" n="27"/>veri
             </p>
             <p xml:id="ppr-l131-schhvc">
               Item contra hanc haeresim 
-              <lb ed="#PV"/>christi testimonium <ref xml:id="ppr-l131-Rd1e381">luce ultimo capitulo</ref> qui 
-              <lb ed="#PV"/>apparens suis discipulis expresse 
-              <lb ed="#PV"/>iussit ut eum palparent dicens quod 
-              <lb ed="#PV"/><quote xml:id="ppr-l131-Qd1e386" source="http://scta.info/resource/lc24_39">spiritus carnem et ossa habet</quote>
-              <lb ed="#PV"/>ostendens se non habere phatasmatum
-              <lb ed="#PV"/>corpus sed reale <unclear>y?m</unclear> et palpabile 
+              <lb ed="#PV" n="28"/>christi testimonium <ref xml:id="ppr-l131-Rd1e381">luce ultimo capitulo</ref> qui 
+              <lb ed="#PV" n="29"/>apparens suis discipulis expresse 
+              <lb ed="#PV" n="30"/>iussit ut eum palparent dicens quod 
+              <lb ed="#PV" n="31"/><quote xml:id="ppr-l131-Qd1e386" source="http://scta.info/resource/lc24_39">spiritus carnem et ossa habet</quote>
+              <lb ed="#PV" n="32"/>ostendens se non habere phatasmatum
+              <lb ed="#PV" n="33"/>corpus sed reale <unclear>y?m</unclear> et palpabile 
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e392">
             <head xml:id="ppr-l131-Htcecsa">Tertium: contra errorem quod christus corpus caeleste sibi assumpsit</head>
             <p xml:id="ppr-l131-taessa">
-              <lb ed="#PV"/>3o patet circa <name ref="#Valentius"><unclear>valentinam</unclear></name> dicentis 
-              <lb ed="#PV"/>quod corpus celeste sibi assumpsit 
-              <lb ed="#PV"/>et nichil de virgine sed materiam celeste 
-              <lb ed="#PV"/>sibi vivit Et haec error et <unclear>praecedens</unclear> 
+              <lb ed="#PV" n="34"/>3o patet circa <name ref="#Valentius"><unclear>valentinam</unclear></name> dicentis 
+              <lb ed="#PV" n="35"/>quod corpus celeste sibi assumpsit 
+              <lb ed="#PV" n="36"/>et nichil de virgine sed materiam celeste 
+              <lb ed="#PV" n="37"/>sibi vivit Et haec error et <unclear>praecedens</unclear> 
               <cb ed="#PV" n="b"/>
-              <lb ed="#PV"/>ex eadem radice per pullularunt 
-              <lb ed="#PV"/>scilicet tenuerunt quod sunt duo praterita 
-              <lb ed="#PV"/>rerum scilicet bonum et aeternorum et aliud 
-              <lb ed="#PV"/>malum et corrumptelum infra conca<lb ed="#PV" break="no"/>vum 
+              <lb ed="#PV" n="38"/>ex eadem radice per pullularunt 
+              <lb ed="#PV" n="39"/>scilicet tenuerunt quod sunt duo praterita 
+              <lb ed="#PV" n="40"/>rerum scilicet bonum et aeternorum et aliud 
+              <lb ed="#PV" n="41"/>malum et corrumptelum infra conca<lb ed="#PV" break="no" n="42"/>vum 
               oribs lunae contentarum quorum 
-              <lb ed="#PV"/>scilicet corruptelum principium est princeps 
-              <lb ed="#PV"/>tenebrarum scilicet diabolus ideo tenuerunt 
-              <lb ed="#PV"/>quod omnia corruptibilia sint realiter et 
-              <lb ed="#PV"/>intrinsece mala et sic contraria secundum quod 
-              <lb ed="#PV"/>sunt mala habet effectus malos 
-              <lb ed="#PV"/>ideo non decuit quod christus expug<lb ed="#PV" break="no"/>naret 
+              <lb ed="#PV" n="43"/>scilicet corruptelum principium est princeps 
+              <lb ed="#PV" n="44"/>tenebrarum scilicet diabolus ideo tenuerunt 
+              <lb ed="#PV" n="45"/>quod omnia corruptibilia sint realiter et 
+              <lb ed="#PV" n="46"/>intrinsece mala et sic contraria secundum quod 
+              <lb ed="#PV" n="47"/>sunt mala habet effectus malos 
+              <lb ed="#PV" n="48"/>ideo non decuit quod christus expug<lb ed="#PV" break="no" n="49"/>naret 
               <unclear>infinituum</unclear> reciperet materiam 
-              <lb ed="#PV"/>sibi subiectam Conta istum 
-              <lb ed="#PV"/>errorem est scriptura sacra quae 
-              <lb ed="#PV"/>contra eos probat exemplo consedebant 
-              <lb ed="#PV"/>se esse christianos unde <ref xml:id="ppr-l131-Rd1e409"><title ref="#rom">ad Romanos</title> 
-              <lb ed="#PV"/><num>primo</num></ref> <quote xml:id="ppr-l131-Qcfedsc" source="http://scta.info/resource/rom1_3">factus est ex semine <name ref="#David">david</name> 
-              <lb ed="#PV"/>secundum carnem</quote> Item vocant eum 
-              <lb ed="#PV"/>esse <quote xml:id="ppr-l131-QBfemfem" source="http://scta.info/resource/gal4_4">factum ex muliere</quote> ergo de vir<lb ed="#PV" break="no"/>gine 
+              <lb ed="#PV" n="50"/>sibi subiectam Conta istum 
+              <lb ed="#PV" n="51"/>errorem est scriptura sacra quae 
+              <lb ed="#PV" n="52"/>contra eos probat exemplo consedebant 
+              <lb ed="#PV" n="53"/>se esse christianos unde <ref xml:id="ppr-l131-Rd1e409"><title ref="#rom">ad Romanos</title> 
+              <lb ed="#PV" n="54"/><num>primo</num></ref> <quote xml:id="ppr-l131-Qcfedsc" source="http://scta.info/resource/rom1_3">factus est ex semine <name ref="#David">david</name> 
+              <lb ed="#PV" n="55"/>secundum carnem</quote> Item vocant eum 
+              <lb ed="#PV" n="56"/>esse <quote xml:id="ppr-l131-QBfemfem" source="http://scta.info/resource/gal4_4">factum ex muliere</quote> ergo de vir<lb ed="#PV" break="no" n="57"/>gine 
               sumpsit corpus suum <ref xml:id="ppr-l131-Rd1e440">Item 
-              <lb ed="#PV"/><title ref="#hebr">ad hebraeos</title> 2o</ref> <quote xml:id="ppr-l131-Qanassa" source="http://scta.info/resource/hebr2_16">angelos nusquam 
-              <lb ed="#PV"/>apprehendit sed semen <name ref="#Abraham">abrahae</name></quote>
-              <lb ed="#PV"/>id est non assumpsit angelum etc
+              <lb ed="#PV" n="58"/><title ref="#hebr">ad hebraeos</title> 2o</ref> <quote xml:id="ppr-l131-Qanassa" source="http://scta.info/resource/hebr2_16">angelos nusquam 
+              <lb ed="#PV" n="59"/>apprehendit sed semen <name ref="#Abraham">abrahae</name></quote>
+              <lb ed="#PV" n="60"/>id est non assumpsit angelum etc
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e460">
             <head xml:id="ppr-l131-Hqcesva">Quartum: contra errorem antiquorum dicentium deitatem supplere vicem animae</head>
             <p xml:id="ppr-l131-sqesgf">
-              <lb ed="#PV"/>Sequitur <sic>quintus</sic> error scilicet 
-              <lb ed="#PV"/>arrianorum dicentium divinita<lb ed="#PV" break="no"/>tem 
-              supplere vicem animae yma<lb ed="#PV" break="no"/>ginantur 
+              <lb ed="#PV" n="61"/>Sequitur <sic>quintus</sic> error scilicet 
+              <lb ed="#PV" n="62"/>arrianorum dicentium divinita<lb ed="#PV" break="no" n="63"/>tem 
+              supplere vicem animae yma<lb ed="#PV" break="no" n="64"/>ginantur 
               christum realiter compositi ex 
-              <lb ed="#PV"/>corpore et deitate falsum est quia non 
-              <lb ed="#PV"/>est homo quia divinitas non est 
-              <lb ed="#PV"/>communicabilis secundum gradum praecise 
-              <lb ed="#PV"/>figurante Et non <unclear>constitutive</unclear> et si sit 
-              <lb ed="#PV"/>non tamen <unclear>limitate</unclear>
+              <lb ed="#PV" n="65"/>corpore et deitate falsum est quia non 
+              <lb ed="#PV" n="66"/>est homo quia divinitas non est 
+              <lb ed="#PV" n="67"/>communicabilis secundum gradum praecise 
+              <lb ed="#PV" n="68"/>figurante Et non <unclear>constitutive</unclear> et si sit 
+              <lb ed="#PV" n="69"/>non tamen <unclear>limitate</unclear>
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e470">
             <head xml:id="ppr-l131-Hqceten">Quintum: contra errorem <unclear>Theodori[?]</unclear> et Nestorii</head>
             <p xml:id="ppr-l131-pqeesc">
-              patet <sic>sexto </sic> er<lb ed="#PV" break="no"/>ror 
+              patet <sic>sexto </sic> er<lb ed="#PV" break="no" n="70"/>ror 
               <name>theoderii monestem</name> et 
-              <lb ed="#PV"/><name>nestorii</name> sectatorum eius di<lb ed="#PV" break="no"/>centium 
+              <lb ed="#PV" n="71"/><name>nestorii</name> sectatorum eius di<lb ed="#PV" break="no" n="72"/>centium 
               quod christus est realiter homo 
-              <lb ed="#PV"/>sed conceditur esse deus quia est templum 
-              <lb ed="#PV"/>dei in quo singularissime habitat
+              <lb ed="#PV" n="73"/>sed conceditur esse deus quia est templum 
+              <lb ed="#PV" n="74"/>dei in quo singularissime habitat
               <pb ed="#PV" n="252-r"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>tota deitas Ideo dicunt communiter 
-              <lb ed="#PV"/>quod virgo gloriosa non dicitur 
-              <lb ed="#PV"/>proprie mater dei sed hominis quia 
-              <lb ed="#PV"/>licet praedicata deo competentia attri<lb ed="#PV" break="no"/>buantur 
+              <lb ed="#PV" n="1"/>tota deitas Ideo dicunt communiter 
+              <lb ed="#PV" n="2"/>quod virgo gloriosa non dicitur 
+              <lb ed="#PV" n="3"/>proprie mater dei sed hominis quia 
+              <lb ed="#PV" n="4"/>licet praedicata deo competentia attri<lb ed="#PV" break="no" n="5"/>buantur 
               hominem christo non tamen 
-              <lb ed="#PV"/>dicunt econtra quod secundum eos 
-              <lb ed="#PV"/>conceditur christus esse filius dei 
-              <lb ed="#PV"/>dominus gloriae sanctus sanctorum non tamen 
-              <lb ed="#PV"/>econtra conceditur quod deus sit 
-              <lb ed="#PV"/>passus vel mortuus vel de vir<lb ed="#PV" break="no"/>gine 
+              <lb ed="#PV" n="6"/>dicunt econtra quod secundum eos 
+              <lb ed="#PV" n="7"/>conceditur christus esse filius dei 
+              <lb ed="#PV" n="8"/>dominus gloriae sanctus sanctorum non tamen 
+              <lb ed="#PV" n="9"/>econtra conceditur quod deus sit 
+              <lb ed="#PV" n="10"/>passus vel mortuus vel de vir<lb ed="#PV" break="no" n="11"/>gine 
               natus Contra quam <name>nestorium</name> 
-              <lb ed="#PV"/>processit <name>sirillus allexandrinorum 
-              <lb ed="#PV"/>episcopus</name> et fecit generale consilium 
-              <lb ed="#PV"/>congregari ubi determinatum eset quod virgo 
-              <lb ed="#PV"/>gloriosa deum genuit et quod realiter 
-              <lb ed="#PV"/>est mater dei et quod persona hominis 
-              <lb ed="#PV"/>et dei sunt adaequate unica persona 
-              <lb ed="#PV"/>et quod homo vere est deus et 
-              <lb ed="#PV"/>deus homo unius et sic nedum 
-              <lb ed="#PV"/>convivatur <name>nestorius</name> ex auctoritate sed 
-              <lb ed="#PV"/>ex consilio generali ecclesia solemp<lb ed="#PV" break="no"/>niter 
+              <lb ed="#PV" n="12"/>processit <name>sirillus allexandrinorum 
+              <lb ed="#PV" n="13"/>episcopus</name> et fecit generale consilium 
+              <lb ed="#PV" n="14"/>congregari ubi determinatum eset quod virgo 
+              <lb ed="#PV" n="15"/>gloriosa deum genuit et quod realiter 
+              <lb ed="#PV" n="16"/>est mater dei et quod persona hominis 
+              <lb ed="#PV" n="17"/>et dei sunt adaequate unica persona 
+              <lb ed="#PV" n="18"/>et quod homo vere est deus et 
+              <lb ed="#PV" n="19"/>deus homo unius et sic nedum 
+              <lb ed="#PV" n="20"/>convivatur <name>nestorius</name> ex auctoritate sed 
+              <lb ed="#PV" n="21"/>ex consilio generali ecclesia solemp<lb ed="#PV" break="no" n="22"/>niter 
               congregata
             </p>
           </div>
@@ -283,344 +282,344 @@
             <head xml:id="ppr-l131-Hscednc">Sextum: contra errorem quod christus non in duabus naturis consistit</head>
             <p xml:id="ppr-l131-sseevh">
               Septimo patet 
-              <lb ed="#PV"/><name>euticis</name> unde ex caracteribus 
-              <lb ed="#PV"/>non potest haberi utrum sit <name>euticis</name> 
-              <lb ed="#PV"/>vel <name>euticis</name> unde ponit quod licet 
-              <lb ed="#PV"/>christus ex duabus naturis 
-              <lb ed="#PV"/>in una persona cnosistit non 
-              <lb ed="#PV"/>tamen in duabus naturis Contra 
-              <lb ed="#PV"/>quem <name ref="#Boethius">boecius</name> edidit librum 
-              <lb ed="#PV"/>de duabus naturis in una 
-              <lb ed="#PV"/>persona christi ymaginatur ad salvandum 
-              <lb ed="#PV"/>unitatem per se humanae et divinae quod duae 
-              <lb ed="#PV"/>naturae concurrant pure ydemptice 
-              <lb ed="#PV"/>et sic licet christus ex duabus naturis 
-              <lb ed="#PV"/>subsistat non tamen in duabus 
-              <lb ed="#PV"/>eo quod ydemptitate concurrunt Contrarium 
-              <lb ed="#PV"/>est verum alias non esset verus homo 
-              <lb ed="#PV"/>nisi habeat humanitatem ut humanitatem 
+              <lb ed="#PV" n="23"/><name>euticis</name> unde ex caracteribus 
+              <lb ed="#PV" n="24"/>non potest haberi utrum sit <name>euticis</name> 
+              <lb ed="#PV" n="25"/>vel <name>euticis</name> unde ponit quod licet 
+              <lb ed="#PV" n="26"/>christus ex duabus naturis 
+              <lb ed="#PV" n="27"/>in una persona cnosistit non 
+              <lb ed="#PV" n="28"/>tamen in duabus naturis Contra 
+              <lb ed="#PV" n="29"/>quem <name ref="#Boethius">boecius</name> edidit librum 
+              <lb ed="#PV" n="30"/>de duabus naturis in una 
+              <lb ed="#PV" n="31"/>persona christi ymaginatur ad salvandum 
+              <lb ed="#PV" n="32"/>unitatem per se humanae et divinae quod duae 
+              <lb ed="#PV" n="33"/>naturae concurrant pure ydemptice 
+              <lb ed="#PV" n="34"/>et sic licet christus ex duabus naturis 
+              <lb ed="#PV" n="35"/>subsistat non tamen in duabus 
+              <lb ed="#PV" n="36"/>eo quod ydemptitate concurrunt Contrarium 
+              <lb ed="#PV" n="37"/>est verum alias non esset verus homo 
+              <lb ed="#PV" n="38"/>nisi habeat humanitatem ut humanitatem 
               <cb ed="#PV" n="b"/>
-              <lb ed="#PV"/>haberet nisi materiam et formam ex quibus 
-              <lb ed="#PV"/>constituitur
+              <lb ed="#PV" n="39"/>haberet nisi materiam et formam ex quibus 
+              <lb ed="#PV" n="40"/>constituitur
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e521">
             <head xml:id="ppr-l131-Hscehis">Septimum: contra errorem quod filius dei assumpsit sibi hominem identitatum sibi</head>
             <p xml:id="ppr-l131-safems">
               Octavo patet falsis 
-              <lb ed="#PV"/>opinionis datentium filius dei 
-              <lb ed="#PV"/>assumpsit hominem <unclear>ydemptitatum</unclear> sibi 
-              <lb ed="#PV"/>haec opinio modernorum non ponitur 
-              <lb ed="#PV"/>inter haereses reputo quod sit falsa 
-              <lb ed="#PV"/>est enim modernorum ymaginatio 
-              <lb ed="#PV"/>istorum 
+              <lb ed="#PV" n="41"/>opinionis datentium filius dei 
+              <lb ed="#PV" n="42"/>assumpsit hominem <unclear>ydemptitatum</unclear> sibi 
+              <lb ed="#PV" n="43"/>haec opinio modernorum non ponitur 
+              <lb ed="#PV" n="44"/>inter haereses reputo quod sit falsa 
+              <lb ed="#PV" n="45"/>est enim modernorum ymaginatio 
+              <lb ed="#PV" n="46"/>istorum 
             </p>
             <p xml:id="ppr-l131-ehvaee">
               et hanc viam recitat 
-              <lb ed="#PV"/><name>Auticiodorensis</name> et dicit eam fuisse 
-              <lb ed="#PV"/>episcopi seu <unclear>onen?</unclear> in 3o de ista materia 
-              <lb ed="#PV"/>et videtur sentire cum eo unde 
-              <lb ed="#PV"/>ymaginatio scit in hoc quod ihesus christus 
-              <lb ed="#PV"/>natus de virgine et conceptus 
-              <lb ed="#PV"/>realiter est homo et videtur ymaginari 
-              <lb ed="#PV"/>quod humanitas christi realiter est homo 
-              <lb ed="#PV"/>et persona et deinde quod 2a persona 
-              <lb ed="#PV"/>in divinis taliter vivit sibi illum 
-              <lb ed="#PV"/>hominem quod realiter sunt eadem 
-              <lb ed="#PV"/>persona scilicet vivit pure ydemptitate 
-              <lb ed="#PV"/>quod una sit alia et econtra et sic sunt 
-              <lb ed="#PV"/>una persona
+              <lb ed="#PV" n="47"/><name>Auticiodorensis</name> et dicit eam fuisse 
+              <lb ed="#PV" n="48"/>episcopi seu <unclear>onen?</unclear> in 3o de ista materia 
+              <lb ed="#PV" n="49"/>et videtur sentire cum eo unde 
+              <lb ed="#PV" n="50"/>ymaginatio scit in hoc quod ihesus christus 
+              <lb ed="#PV" n="51"/>natus de virgine et conceptus 
+              <lb ed="#PV" n="52"/>realiter est homo et videtur ymaginari 
+              <lb ed="#PV" n="53"/>quod humanitas christi realiter est homo 
+              <lb ed="#PV" n="54"/>et persona et deinde quod 2a persona 
+              <lb ed="#PV" n="55"/>in divinis taliter vivit sibi illum 
+              <lb ed="#PV" n="56"/>hominem quod realiter sunt eadem 
+              <lb ed="#PV" n="57"/>persona scilicet vivit pure ydemptitate 
+              <lb ed="#PV" n="58"/>quod una sit alia et econtra et sic sunt 
+              <lb ed="#PV" n="59"/>una persona
             </p>
             <p xml:id="ppr-l131-scipdc">
               Contra argitur primo data 
-              <lb ed="#PV"/>ista sequitur quod quaelibet creatura 
-              <lb ed="#PV"/>potest fieri deus et incipere esse deus 
-              <lb ed="#PV"/>quia qua ratione deus ydemp<lb ed="#PV" break="no"/>tificat 
+              <lb ed="#PV" n="60"/>ista sequitur quod quaelibet creatura 
+              <lb ed="#PV" n="61"/>potest fieri deus et incipere esse deus 
+              <lb ed="#PV" n="62"/>quia qua ratione deus ydemp<lb ed="#PV" break="no" n="63"/>tificat 
               sibi aliquam creaturam 
-              <lb ed="#PV"/>eadem ratione aliam ponit et sic quaelibet 
-              <lb ed="#PV"/>creatura potest esse beata indepen<lb ed="#PV" break="no"/>dens 
+              <lb ed="#PV" n="64"/>eadem ratione aliam ponit et sic quaelibet 
+              <lb ed="#PV" n="65"/>creatura potest esse beata indepen<lb ed="#PV" break="no" n="66"/>dens 
               et inmensa Consequenter 
-              <lb ed="#PV"/>quod materia prima potest beatificari 
-              <lb ed="#PV"/>esse independens actus et immensus 
-              <lb ed="#PV"/>et purus et sic sequitur quod omnia praedicamenta 
-              <lb ed="#PV"/>perfectionalia cuiuslibet speciei quantumcumque 
-              <lb ed="#PV"/>in fine esset communicabilia
+              <lb ed="#PV" n="67"/>quod materia prima potest beatificari 
+              <lb ed="#PV" n="68"/>esse independens actus et immensus 
+              <lb ed="#PV" n="69"/>et purus et sic sequitur quod omnia praedicamenta 
+              <lb ed="#PV" n="70"/>perfectionalia cuiuslibet speciei quantumcumque 
+              <lb ed="#PV" n="71"/>in fine esset communicabilia
             </p>
             <p xml:id="ppr-l131-ssqdpa">
               Item sequeretur 
-              <lb ed="#PV"/>quod deus esset realiter annichilabilis 
-              <lb ed="#PV"/>patet in casu nam homo christus 
-              <lb ed="#PV"/>est realiter annichilabilis quia potest dimit<lb ed="#PV" break="no"/>ti 
+              <lb ed="#PV" n="72"/>quod deus esset realiter annichilabilis 
+              <lb ed="#PV" n="73"/>patet in casu nam homo christus 
+              <lb ed="#PV" n="74"/>est realiter annichilabilis quia potest dimit<lb ed="#PV" break="no" n="75"/>ti 
               et annichilari et tamen est deus 
-              <lb ed="#PV"/>igitur deus est annichilabilis 
+              <lb ed="#PV" n="76"/>igitur deus est annichilabilis 
             </p>
             <p xml:id="ppr-l131-tsdned">
               <pb ed="#PV" n="252-v"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>Item sequeretur quod deus potest peccare quia 
-              <lb ed="#PV"/>homo christus potest dimitti et 
-              <lb ed="#PV"/>suo humanitati reliquae igitur peccare 
-              <lb ed="#PV"/>et rem miserrimus et per consequens deus 
-              <lb ed="#PV"/>et communiter dampnari 
+              <lb ed="#PV" n="1"/>Item sequeretur quod deus potest peccare quia 
+              <lb ed="#PV" n="2"/>homo christus potest dimitti et 
+              <lb ed="#PV" n="3"/>suo humanitati reliquae igitur peccare 
+              <lb ed="#PV" n="4"/>et rem miserrimus et per consequens deus 
+              <lb ed="#PV" n="5"/>et communiter dampnari 
             </p>
             <p xml:id="ppr-l131-qsidha">
               Item si sic 
-              <lb ed="#PV"/>nulla est differentia essentialis nec 
-              <lb ed="#PV"/>aliqua diffinitio est essentialis 
-              <lb ed="#PV"/>quia quaelibet cuilibet potest competere quia 
-              <lb ed="#PV"/>qua ratione potest creaturam ydemptificare 
-              <lb ed="#PV"/>sibi ita creaturam creaturae et sic diffinitio 
-              <lb ed="#PV"/>hominis competeretur materiae primae 
-              <lb ed="#PV"/>et cuilibet <unclear>ydemptificabili</unclear> et sic ars demon<lb ed="#PV" break="no"/>strativa 
+              <lb ed="#PV" n="6"/>nulla est differentia essentialis nec 
+              <lb ed="#PV" n="7"/>aliqua diffinitio est essentialis 
+              <lb ed="#PV" n="8"/>quia quaelibet cuilibet potest competere quia 
+              <lb ed="#PV" n="9"/>qua ratione potest creaturam ydemptificare 
+              <lb ed="#PV" n="10"/>sibi ita creaturam creaturae et sic diffinitio 
+              <lb ed="#PV" n="11"/>hominis competeretur materiae primae 
+              <lb ed="#PV" n="12"/>et cuilibet <unclear>ydemptificabili</unclear> et sic ars demon<lb ed="#PV" break="no" n="13"/>strativa 
               diffinitiva parum quae sunt 
-              <lb ed="#PV"/>contra theologiam et logicam unde 
-              <lb ed="#PV"/>haec positio concedit consequenter 
-              <lb ed="#PV"/>sicut dicit <name>auticiodorensis</name> has 
-              <lb ed="#PV"/>propositiones <!-- break --> Quae sicut deus incipit 
-              <lb ed="#PV"/>esse homo ita econtra homo incipit 
-              <lb ed="#PV"/>esse deus et sic concedunt quod ali<lb ed="#PV" break="no"/>qua 
+              <lb ed="#PV" n="14"/>contra theologiam et logicam unde 
+              <lb ed="#PV" n="15"/>haec positio concedit consequenter 
+              <lb ed="#PV" n="16"/>sicut dicit <name>auticiodorensis</name> has 
+              <lb ed="#PV" n="17"/>propositiones <!-- break --> Quae sicut deus incipit 
+              <lb ed="#PV" n="18"/>esse homo ita econtra homo incipit 
+              <lb ed="#PV" n="19"/>esse deus et sic concedunt quod ali<lb ed="#PV" break="no" n="20"/>qua 
               res potest realiter incipere 
-              <lb ed="#PV"/>esse deus et esse noviter deus 
-              <lb ed="#PV"/>patet de homini assumpto
+              <lb ed="#PV" n="21"/>esse deus et esse noviter deus 
+              <lb ed="#PV" n="22"/>patet de homini assumpto
             </p>
             <p xml:id="ppr-l131-spdrur">
               Item 
-              <lb ed="#PV"/>dato quod praeexisteret non re<lb ed="#PV" break="no"/>pugnat 
+              <lb ed="#PV" n="23"/>dato quod praeexisteret non re<lb ed="#PV" break="no" n="24"/>pugnat 
               quin deus assumpsisset 
-              <lb ed="#PV"/>in unitatem personae et sic inciperet esse 
-              <lb ed="#PV"/>deus absque sui inceptione
-              <lb ed="#PV"/>Consequenter concedit quod deus <del rend="strikethrough">est</del> 
-              <lb ed="#PV"/>assumpsit <del rend="strikethrough">quia homo est as<lb ed="#PV" break="no"/>sumptus</del> 
+              <lb ed="#PV" n="25"/>in unitatem personae et sic inciperet esse 
+              <lb ed="#PV" n="26"/>deus absque sui inceptione
+              <lb ed="#PV" n="27"/>Consequenter concedit quod deus <del rend="strikethrough">est</del> 
+              <lb ed="#PV" n="28"/>assumpsit <del rend="strikethrough">quia homo est as<lb ed="#PV" break="no" n="29"/>sumptus</del> 
               hominem ut ponit differentiam 
-              <lb ed="#PV"/>inter has assumpsit hominem 
-              <lb ed="#PV"/>et assumpsit naturam humanam 
-              <lb ed="#PV"/>Consequenter concedit quod idem eset assu<lb ed="#PV" break="no"/>mens 
+              <lb ed="#PV" n="30"/>inter has assumpsit hominem 
+              <lb ed="#PV" n="31"/>et assumpsit naturam humanam 
+              <lb ed="#PV" n="32"/>Consequenter concedit quod idem eset assu<lb ed="#PV" break="no" n="33"/>mens 
               et assumptus Consequenter 
-              <lb ed="#PV"/>quod homo assumpsit hominem
-              <lb ed="#PV"/>Consequenter concedit quod de est assump<lb ed="#PV" break="no"/>tus 
+              <lb ed="#PV" n="34"/>quod homo assumpsit hominem
+              <lb ed="#PV" n="35"/>Consequenter concedit quod de est assump<lb ed="#PV" break="no" n="36"/>tus 
               quia homo est assumptus 
-              <lb ed="#PV"/>qui est idem cum deo 
+              <lb ed="#PV" n="37"/>qui est idem cum deo 
               
               Ex ista 
-              <lb ed="#PV"/>positione sequuntur inconvenientia dicta sal<lb ed="#PV" break="no"/>vat 
+              <lb ed="#PV" n="38"/>positione sequuntur inconvenientia dicta sal<lb ed="#PV" break="no" n="39"/>vat 
               tamen haec positio multas auctoritates 
               <cb ed="#PV" n="b"/>
-              <lb ed="#PV"/>primo dicente quod homo factus est deus 
-              <lb ed="#PV"/>qui non potest salvari dicunt nisi 
-              <lb ed="#PV"/>per ydemptifcationem potest responderi 
-              <lb ed="#PV"/>quod nititur sic homo factus est deus 
-              <lb ed="#PV"/>id est factum est ita quod homo est deus 
-              <lb ed="#PV"/>Similiter homo incipit esse deus 
-              <lb ed="#PV"/>unde de vi vocabuli sunt falsae 
-              <lb ed="#PV"/>quia numquam aliquid incipit vel potest 
-              <lb ed="#PV"/>incipere esse deus quia christus semper 
-              <lb ed="#PV"/>est deus fuit deus et inseparabiliter 
-              <lb ed="#PV"/>est deus quia semper emanat 
-              <lb ed="#PV"/>emanavit etc 
+              <lb ed="#PV" n="40"/>primo dicente quod homo factus est deus 
+              <lb ed="#PV" n="41"/>qui non potest salvari dicunt nisi 
+              <lb ed="#PV" n="42"/>per ydemptifcationem potest responderi 
+              <lb ed="#PV" n="43"/>quod nititur sic homo factus est deus 
+              <lb ed="#PV" n="44"/>id est factum est ita quod homo est deus 
+              <lb ed="#PV" n="45"/>Similiter homo incipit esse deus 
+              <lb ed="#PV" n="46"/>unde de vi vocabuli sunt falsae 
+              <lb ed="#PV" n="47"/>quia numquam aliquid incipit vel potest 
+              <lb ed="#PV" n="48"/>incipere esse deus quia christus semper 
+              <lb ed="#PV" n="49"/>est deus fuit deus et inseparabiliter 
+              <lb ed="#PV" n="50"/>est deus quia semper emanat 
+              <lb ed="#PV" n="51"/>emanavit etc 
             </p>
             <!-- fuzzy paralle -->
             <p xml:id="ppr-l131-pqdinc">
               Si arguitur quod ymmo 
-              <lb ed="#PV"/>ad potest incipere vel desinere esse 
-              <lb ed="#PV"/>deus Sit <c>a</c> instans dimis<lb ed="#PV" break="no"/>sionis 
+              <lb ed="#PV" n="52"/>ad potest incipere vel desinere esse 
+              <lb ed="#PV" n="53"/>deus Sit <c>a</c> instans dimis<lb ed="#PV" break="no" n="54"/>sionis 
               humanae naturae christus tunc 
-              <lb ed="#PV"/>homo non est deus et immediate 
-              <lb ed="#PV"/>ante hoc homo erat deus igitur 
-              <lb ed="#PV"/>in hac instanti homo desinit 
-              <lb ed="#PV"/>esse deus Ita de incipit per re<lb ed="#PV" break="no"/>motionem 
+              <lb ed="#PV" n="55"/>homo non est deus et immediate 
+              <lb ed="#PV" n="56"/>ante hoc homo erat deus igitur 
+              <lb ed="#PV" n="57"/>in hac instanti homo desinit 
+              <lb ed="#PV" n="58"/>esse deus Ita de incipit per re<lb ed="#PV" break="no" n="59"/>motionem 
               de praesenti scilicet hoc instans 
-              <lb ed="#PV"/>incarnationis Responsio est facilis nam 
-              <lb ed="#PV"/>in terminiis connotativis talibus dupliciter 
-              <lb ed="#PV"/>providendum est uno modo quod in propositione de 
-              <lb ed="#PV"/>praesenti demonstretur absolute sine con<lb ed="#PV" break="no"/>notatione 
+              <lb ed="#PV" n="60"/>incarnationis Responsio est facilis nam 
+              <lb ed="#PV" n="61"/>in terminiis connotativis talibus dupliciter 
+              <lb ed="#PV" n="62"/>providendum est uno modo quod in propositione de 
+              <lb ed="#PV" n="63"/>praesenti demonstretur absolute sine con<lb ed="#PV" break="no" n="64"/>notatione 
               est pro quo supponit 
-              <lb ed="#PV"/>subiectum et tunc patet faciliter quia demon<lb ed="#PV" break="no"/>strando 
+              <lb ed="#PV" n="65"/>subiectum et tunc patet faciliter quia demon<lb ed="#PV" break="no" n="66"/>strando 
               personam verbi illa de 
-              <lb ed="#PV"/>praesenti est falsa scilicet hoc non est deus 
-              <lb ed="#PV"/>ratione convocationis conceditur ista homo 
-              <lb ed="#PV"/>non est deus Simile est de ista 
-              <lb ed="#PV"/>album desunt esse unde licet 
-              <lb ed="#PV"/>sortes desinat esse albus tamen 
-              <lb ed="#PV"/>non sequitur quod album desinat 
-              <lb ed="#PV"/>2o potest dici quod propositio de praeterito 
-              <lb ed="#PV"/>ubi agitur de desinit debet praecedere 
-              <lb ed="#PV"/>et de praesenti debet sequi cum pro nomine 
+              <lb ed="#PV" n="67"/>praesenti est falsa scilicet hoc non est deus 
+              <lb ed="#PV" n="68"/>ratione convocationis conceditur ista homo 
+              <lb ed="#PV" n="69"/>non est deus Simile est de ista 
+              <lb ed="#PV" n="70"/>album desunt esse unde licet 
+              <lb ed="#PV" n="71"/>sortes desinat esse albus tamen 
+              <lb ed="#PV" n="72"/>non sequitur quod album desinat 
+              <lb ed="#PV" n="73"/>2o potest dici quod propositio de praeterito 
+              <lb ed="#PV" n="74"/>ubi agitur de desinit debet praecedere 
+              <lb ed="#PV" n="75"/>et de praesenti debet sequi cum pro nomine 
               <pb ed="#PV" n="253-r"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>relativo ut christus desinit esse 
-              <lb ed="#PV"/>deus exponitur sic christus immediate 
-              <lb ed="#PV"/>ante hoc fuit deus et ille nunc 
-              <lb ed="#PV"/>non est deus et tunc 2a est falsa 
-              <lb ed="#PV"/>quia ly <mentioned>ille</mentioned> non refert nisi significatum 
-              <lb ed="#PV"/>materiale et sic patet quod instantia non 
-              <lb ed="#PV"/>concludit
+              <lb ed="#PV" n="1"/>relativo ut christus desinit esse 
+              <lb ed="#PV" n="2"/>deus exponitur sic christus immediate 
+              <lb ed="#PV" n="3"/>ante hoc fuit deus et ille nunc 
+              <lb ed="#PV" n="4"/>non est deus et tunc 2a est falsa 
+              <lb ed="#PV" n="5"/>quia ly <mentioned>ille</mentioned> non refert nisi significatum 
+              <lb ed="#PV" n="6"/>materiale et sic patet quod instantia non 
+              <lb ed="#PV" n="7"/>concludit
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e595">
             <head xml:id="ppr-l131-Hoceiup">Octavum: contra errorem quod natura divina et natura humana identice concurrunt in unam personam</head>
             <p xml:id="ppr-l131-sofupe">
               Sequitur conclusio falsitas 
-              <lb ed="#PV"/>opinionis dicentium quod licet natura 
-              <lb ed="#PV"/>humana et divina sint inter se 
-              <lb ed="#PV"/>realiter distincte concurrunt tamen 
-              <lb ed="#PV"/>ydemptitate in unitatem personae ymaginor
-              <lb ed="#PV"/>concedo quidque scriptura sacra dicit 
-              <lb ed="#PV"/>quod realiter sunt ibi duae naturae realiter 
-              <lb ed="#PV"/>divina et humana et iterum huma<lb ed="#PV" break="no"/>na 
-              composita est ex duabus na<lb ed="#PV" break="no"/>turis 
+              <lb ed="#PV" n="8"/>opinionis dicentium quod licet natura 
+              <lb ed="#PV" n="9"/>humana et divina sint inter se 
+              <lb ed="#PV" n="10"/>realiter distincte concurrunt tamen 
+              <lb ed="#PV" n="11"/>ydemptitate in unitatem personae ymaginor
+              <lb ed="#PV" n="12"/>concedo quidque scriptura sacra dicit 
+              <lb ed="#PV" n="13"/>quod realiter sunt ibi duae naturae realiter 
+              <lb ed="#PV" n="14"/>divina et humana et iterum huma<lb ed="#PV" break="no" n="15"/>na 
+              composita est ex duabus na<lb ed="#PV" break="no" n="16"/>turis 
               scilicet materia et forma et licet 
-              <lb ed="#PV"/>istae tres sint inter se distinctae 
-              <lb ed="#PV"/>concurrunt tamen in viam <!-- deletion here? --> 
-              <lb ed="#PV"/>ita quod sunt christus et unicum 
-              <lb ed="#PV"/>suppositum et est opinio multerum 
-              <lb ed="#PV"/>modernorum ymaginatur sicut anima 
-              <lb ed="#PV"/>et materia prima sunt realiter prima 
-              <lb ed="#PV"/>humana et illa simul iuncta sunt 
-              <lb ed="#PV"/>christus et cum anima est etiam eadem 
-              <lb ed="#PV"/>persona Ista expresse fuit opinio 
-              <lb ed="#PV"/><ref xml:id="ppr-l131-Rd1e605">opinio <name ref="#HughOfStVictor">hugonis de sancto victore</name></ref> quod 
-              <lb ed="#PV"/>anima se vere homo et persona hu<lb ed="#PV" break="no"/>mana 
+              <lb ed="#PV" n="17"/>istae tres sint inter se distinctae 
+              <lb ed="#PV" n="18"/>concurrunt tamen in viam <!-- deletion here? --> 
+              <lb ed="#PV" n="19"/>ita quod sunt christus et unicum 
+              <lb ed="#PV" n="20"/>suppositum et est opinio multerum 
+              <lb ed="#PV" n="21"/>modernorum ymaginatur sicut anima 
+              <lb ed="#PV" n="22"/>et materia prima sunt realiter prima 
+              <lb ed="#PV" n="23"/>humana et illa simul iuncta sunt 
+              <lb ed="#PV" n="24"/>christus et cum anima est etiam eadem 
+              <lb ed="#PV" n="25"/>persona Ista expresse fuit opinio 
+              <lb ed="#PV" n="26"/><ref xml:id="ppr-l131-Rd1e605">opinio <name ref="#HughOfStVictor">hugonis de sancto victore</name></ref> quod 
+              <lb ed="#PV" n="27"/>anima se vere homo et persona hu<lb ed="#PV" break="no" n="28"/>mana 
               et cum hoc anima et corpus 
-              <lb ed="#PV"/>simul sunt etiam eadem persona hu<lb ed="#PV" break="no"/>mana 
+              <lb ed="#PV" n="29"/>simul sunt etiam eadem persona hu<lb ed="#PV" break="no" n="30"/>mana 
               hanc viam tenuit 
-              <lb ed="#PV"/><ref xml:id="ppr-l131-Rd1e612"><name ref="#WilliamOfParis">wilhelmus parisiensis</name></ref> etiam <ref><name>wilcliff</name> 
-              <lb ed="#PV"/>in tractatu quodam</ref> Item 
-              <lb ed="#PV"/>proportionabiliter ymaginatur quod istae 
-              <lb ed="#PV"/>3s naturae simul iunctae sunt verbum 
-              <lb ed="#PV"/>dei et 2a persona et christus et vera per se 
-              <lb ed="#PV"/>et cum hoc natura divina in eidem 
-              <lb ed="#PV"/>persona
+              <lb ed="#PV" n="31"/><ref xml:id="ppr-l131-Rd1e612"><name ref="#WilliamOfParis">wilhelmus parisiensis</name></ref> etiam <ref><name>wilcliff</name> 
+              <lb ed="#PV" n="32"/>in tractatu quodam</ref> Item 
+              <lb ed="#PV" n="33"/>proportionabiliter ymaginatur quod istae 
+              <lb ed="#PV" n="34"/>3s naturae simul iunctae sunt verbum 
+              <lb ed="#PV" n="35"/>dei et 2a persona et christus et vera per se 
+              <lb ed="#PV" n="36"/>et cum hoc natura divina in eidem 
+              <lb ed="#PV" n="37"/>persona
             </p>
             <p xml:id="ppr-l131-aisnea">
-              Aliter ymaginati sue<lb ed="#PV" break="no"/>runt 
+              Aliter ymaginati sue<lb ed="#PV" break="no" n="38"/>runt 
               alii scilicet dato asino et quod 
               <cb ed="#PV" n="b"/>
-              <lb ed="#PV"/>anima humana informaret totam 
-              <lb ed="#PV"/>compositum asini tunc resultans 
-              <lb ed="#PV"/>ex omnibus ut dicunt esset asinus 
-              <lb ed="#PV"/>et homo et idem homo esset asinus 
-              <lb ed="#PV"/>et tamen praeexistens esset asinus et esset 
-              <lb ed="#PV"/>homo et sic plures naturae concurrunt 
-              <lb ed="#PV"/>ydemptitate in aliquod unum suppositum 
-              <lb ed="#PV"/>et inter illas aliquae sunt idem spiritum 
-              <lb ed="#PV"/>proportionaliter divina natura et duae quae 
-              <lb ed="#PV"/>humanam constituunt concurrunt 
-              <lb ed="#PV"/>ydemptitate in unitatem personae sic quod 
-              <lb ed="#PV"/>sunt una persona et divinitatem 
-              <lb ed="#PV"/>personae est illa eadem Contra 
-              viam quam videtur tenuis<lb ed="#PV" break="no"/>se 
+              <lb ed="#PV" n="39"/>anima humana informaret totam 
+              <lb ed="#PV" n="40"/>compositum asini tunc resultans 
+              <lb ed="#PV" n="41"/>ex omnibus ut dicunt esset asinus 
+              <lb ed="#PV" n="42"/>et homo et idem homo esset asinus 
+              <lb ed="#PV" n="43"/>et tamen praeexistens esset asinus et esset 
+              <lb ed="#PV" n="44"/>homo et sic plures naturae concurrunt 
+              <lb ed="#PV" n="45"/>ydemptitate in aliquod unum suppositum 
+              <lb ed="#PV" n="46"/>et inter illas aliquae sunt idem spiritum 
+              <lb ed="#PV" n="47"/>proportionaliter divina natura et duae quae 
+              <lb ed="#PV" n="48"/>humanam constituunt concurrunt 
+              <lb ed="#PV" n="49"/>ydemptitate in unitatem personae sic quod 
+              <lb ed="#PV" n="50"/>sunt una persona et divinitatem 
+              <lb ed="#PV" n="51"/>personae est illa eadem Contra 
+              viam quam videtur tenuis<lb ed="#PV" break="no" n="52"/>se 
               <ref xml:id="ppr-l131-Rd1e619"><name ref="#Bernard">sanctus bernhardus</name> in floribus
-              <lb ed="#PV"/>suis</ref> dicens quod sicut unica natura 
-              <lb ed="#PV"/>divina est tres personae distinctae 
-              <lb ed="#PV"/>quarum una non est alia Ita christus 
-              <lb ed="#PV"/>est unica persona universa 
-              <lb ed="#PV"/>et tres naturae realiter inter se distinctae 
+              <lb ed="#PV" n="53"/>suis</ref> dicens quod sicut unica natura 
+              <lb ed="#PV" n="54"/>divina est tres personae distinctae 
+              <lb ed="#PV" n="55"/>quarum una non est alia Ita christus 
+              <lb ed="#PV" n="56"/>est unica persona universa 
+              <lb ed="#PV" n="57"/>et tres naturae realiter inter se distinctae 
             </p>
             <p xml:id="ppr-l131-schqeh">
-              <lb ed="#PV"/>Contra arguitur quia sequitur pirmo quod per<lb ed="#PV" break="no"/>sona 
+              <lb ed="#PV" n="58"/>Contra arguitur quia sequitur pirmo quod per<lb ed="#PV" break="no" n="59"/>sona 
               divina sit multitudo rerum 
-              <lb ed="#PV"/>essentialiter et intrinsece distinctarum 
-              <lb ed="#PV"/>quia christus sic est 3s naturae quarum 
-              <lb ed="#PV"/>una non est alius ymmo essentialiter 
-              <lb ed="#PV"/>distincta quod videtur divinae 
-              <lb ed="#PV"/>simplicitati repugnare Sequitur 
-              <lb ed="#PV"/>ymmo quod est compositus ex multis 
-              <lb ed="#PV"/>essentialiter distinctis 
+              <lb ed="#PV" n="60"/>essentialiter et intrinsece distinctarum 
+              <lb ed="#PV" n="61"/>quia christus sic est 3s naturae quarum 
+              <lb ed="#PV" n="62"/>una non est alius ymmo essentialiter 
+              <lb ed="#PV" n="63"/>distincta quod videtur divinae 
+              <lb ed="#PV" n="64"/>simplicitati repugnare Sequitur 
+              <lb ed="#PV" n="65"/>ymmo quod est compositus ex multis 
+              <lb ed="#PV" n="66"/>essentialiter distinctis 
             </p>
             <p xml:id="ppr-l131-snphrt">
               Item nulla pars 
-              <lb ed="#PV"/>multitudinis essentialiter distinctorum 
-              <lb ed="#PV"/>est agregatum ex omnibus simul 
-              <lb ed="#PV"/>ergo sequitur quod christus vel verbum 
-              <lb ed="#PV"/>dei quod est pars huius multitudinis 
-              <lb ed="#PV"/>quia constituitur ex tribus et divina 
-              <lb ed="#PV"/>natura habet unitatem in hoc 
-              <lb ed="#PV"/>trinario ymmo nulla pars multi<lb ed="#PV" break="no"/>tudinis 
+              <lb ed="#PV" n="67"/>multitudinis essentialiter distinctorum 
+              <lb ed="#PV" n="68"/>est agregatum ex omnibus simul 
+              <lb ed="#PV" n="69"/>ergo sequitur quod christus vel verbum 
+              <lb ed="#PV" n="70"/>dei quod est pars huius multitudinis 
+              <lb ed="#PV" n="71"/>quia constituitur ex tribus et divina 
+              <lb ed="#PV" n="72"/>natura habet unitatem in hoc 
+              <lb ed="#PV" n="73"/>trinario ymmo nulla pars multi<lb ed="#PV" break="no" n="74"/>tudinis 
               est tota multitudo ideo christus 
               <pb ed="#PV" n="253-v"/>
               <cb ed="#PV" n="a"/>
-              <lb ed="#PV"/>habens rationem partis non potest habere rationem 
-              <lb ed="#PV"/>totius
+              <lb ed="#PV" n="1"/>habens rationem partis non potest habere rationem 
+              <lb ed="#PV" n="2"/>totius
             </p>
             <p xml:id="ppr-l131-tmppna">
               Item maior pars huius 
-              <lb ed="#PV"/>multitudinis eset creata et dependens 
-              <lb ed="#PV"/>ergo cum <c>a</c> maiori debet fieri de<lb ed="#PV" break="no"/>nominatio 
+              <lb ed="#PV" n="3"/>multitudinis eset creata et dependens 
+              <lb ed="#PV" n="4"/>ergo cum <c>a</c> maiori debet fieri de<lb ed="#PV" break="no" n="5"/>nominatio 
               sequitur quod deus esset realiter 
-              <lb ed="#PV"/>dependens et creatus et haberet 
-              <lb ed="#PV"/>esse per novam inceptionem 
+              <lb ed="#PV" n="6"/>dependens et creatus et haberet 
+              <lb ed="#PV" n="7"/>esse per novam inceptionem 
             </p>
             <p xml:id="ppr-l131-qsqefr">
               Quarto sequitur 
-              <lb ed="#PV"/>quod creatura fuit ab aeterno ymmo 
-              <lb ed="#PV"/>haec multitudo <del rend="strikethrough">igitur quilibet pars huius</del> 
-              <lb ed="#PV"/>quia christus patet expositorie et 
-              <lb ed="#PV"/>ultra haec multitudo igitur quaelibet 
-              <lb ed="#PV"/>pars huius ergo corpus christi et etiam 
-              <lb ed="#PV"/>anima quod est haereticum Ideo haec 
-              <lb ed="#PV"/>positio tamquam minus probabilis 
-              <lb ed="#PV"/>relinquat
+              <lb ed="#PV" n="8"/>quod creatura fuit ab aeterno ymmo 
+              <lb ed="#PV" n="9"/>haec multitudo <del rend="strikethrough">igitur quilibet pars huius</del> 
+              <lb ed="#PV" n="10"/>quia christus patet expositorie et 
+              <lb ed="#PV" n="11"/>ultra haec multitudo igitur quaelibet 
+              <lb ed="#PV" n="12"/>pars huius ergo corpus christi et etiam 
+              <lb ed="#PV" n="13"/>anima quod est haereticum Ideo haec 
+              <lb ed="#PV" n="14"/>positio tamquam minus probabilis 
+              <lb ed="#PV" n="15"/>relinquat
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e642">
             <head xml:id="ppr-l131-Hncefeh">Nonum: contra errorem quod natura assumpta est realiter deus et sic deus factus est homo</head>
             <p xml:id="ppr-l131-sncaaa">
               Sequitur 10o contra tenentes 
-              <lb ed="#PV"/>quod natura assumpta realiter est deus 
-              <lb ed="#PV"/>et sic deus factus est homo et homo 
-              <lb ed="#PV"/>deus haec positio deficit primo 
-              <lb ed="#PV"/>quia supponit quod deus possit per 
-              <lb ed="#PV"/>intrinsecam actuationem et informa<lb ed="#PV" break="no"/>tionem 
+              <lb ed="#PV" n="16"/>quod natura assumpta realiter est deus 
+              <lb ed="#PV" n="17"/>et sic deus factus est homo et homo 
+              <lb ed="#PV" n="18"/>deus haec positio deficit primo 
+              <lb ed="#PV" n="19"/>quia supponit quod deus possit per 
+              <lb ed="#PV" n="20"/>intrinsecam actuationem et informa<lb ed="#PV" break="no" n="21"/>tionem 
               creaturae communicari cuius contrarium 
-              <lb ed="#PV"/>fuit alias deductum 2o deficit quia 
-              <lb ed="#PV"/>dato humanitas christi esset deus etc 
-              <lb ed="#PV"/>non salvat tamen difficultate materiae scilicet 
-              <lb ed="#PV"/>qualiter persona divina et humana 
-              <lb ed="#PV"/>sunt una persona non relinquatur 
+              <lb ed="#PV" n="22"/>fuit alias deductum 2o deficit quia 
+              <lb ed="#PV" n="23"/>dato humanitas christi esset deus etc 
+              <lb ed="#PV" n="24"/>non salvat tamen difficultate materiae scilicet 
+              <lb ed="#PV" n="25"/>qualiter persona divina et humana 
+              <lb ed="#PV" n="26"/>sunt una persona non relinquatur 
             </p>
           </div>
           <div xml:id="ppr-l131-Dd1e651">
             <head xml:id="ppr-l131-Hdceeup">Decimum: contra errorem quod in christo sunt duae sumpta et unita persona</head>
             <p xml:id="ppr-l131-dopads">
-              <lb ed="#PV"/>Ultima opinio ponit quod in christo 
-              <lb ed="#PV"/>realiter sunt duo supposita et uni<lb ed="#PV" break="no"/>ca 
-              persona ymaginatur quod hu<lb ed="#PV" break="no"/>manitas 
+              <lb ed="#PV" n="27"/>Ultima opinio ponit quod in christo 
+              <lb ed="#PV" n="28"/>realiter sunt duo supposita et uni<lb ed="#PV" break="no" n="29"/>ca 
+              persona ymaginatur quod hu<lb ed="#PV" break="no" n="30"/>manitas 
               assumpta realiter 
-              <lb ed="#PV"/>sit suppositum distinctum a divino supposito 
+              <lb ed="#PV" n="31"/>sit suppositum distinctum a divino supposito 
             </p>
             <p xml:id="ppr-l131-sqdqic">
-              2o quod de ratione personae es habere suprema 
-              <lb ed="#PV"/>dignitatem saltem negative inter aliqua 
-              <lb ed="#PV"/>unita et ideo quia divinum est principalius 
-              <lb ed="#PV"/>quam humanum agregatum consistit una 
-              <lb ed="#PV"/>subsistentia personali et licet sicut plures 
-              <lb ed="#PV"/>subsistentiae non tamen personales
+              <lb ed="#PV" n="32"/>2o quod de ratione personae es habere suprema 
+              <lb ed="#PV" n="33"/>dignitatem saltem negative inter aliqua 
+              <lb ed="#PV" n="34"/>unita et ideo quia divinum est principalius 
+              <lb ed="#PV" n="35"/>quam humanum agregatum consistit una 
+              <lb ed="#PV" n="36"/>subsistentia personali et licet sicut plures 
+              <lb ed="#PV" n="37"/>subsistentiae non tamen personales
             </p> 
             <p xml:id="ppr-l131-sipcnd">
-              <lb ed="#PV"/>haec positio deficit quia coincidit 
-              <lb ed="#PV"/>cum nestorio quia habet concedere 
-              <lb ed="#PV"/>quod homo christus non sit deus 
+              <lb ed="#PV" n="38"/>haec positio deficit quia coincidit 
+              <lb ed="#PV" n="39"/>cum nestorio quia habet concedere 
+              <lb ed="#PV" n="40"/>quod homo christus non sit deus 
               <cb ed="#PV" n="b"/>
-              <lb ed="#PV"/>quia ibi est unus homo alius 
-              <lb ed="#PV"/>a deo et secundum veritatem idem est suppositum 
-              <lb ed="#PV"/>humanae naturae et deus modo secundum istam 
-              <lb ed="#PV"/>positionem suppositum divinum non est 
-              <lb ed="#PV"/>suppositum humanum
+              <lb ed="#PV" n="41"/>quia ibi est unus homo alius 
+              <lb ed="#PV" n="42"/>a deo et secundum veritatem idem est suppositum 
+              <lb ed="#PV" n="43"/>humanae naturae et deus modo secundum istam 
+              <lb ed="#PV" n="44"/>positionem suppositum divinum non est 
+              <lb ed="#PV" n="45"/>suppositum humanum
             </p> 
             <p xml:id="ppr-l131-sieqea">
               Item idem est formaliter 
-              <lb ed="#PV"/>in homine persona ypostasis et spiritum 
-              <lb ed="#PV"/>quia nihil est persona humana 
-              <lb ed="#PV"/>nisi ex subsistentia quia crea<lb ed="#PV" break="no"/>tura 
+              <lb ed="#PV" n="46"/>in homine persona ypostasis et spiritum 
+              <lb ed="#PV" n="47"/>quia nihil est persona humana 
+              <lb ed="#PV" n="48"/>nisi ex subsistentia quia crea<lb ed="#PV" break="no" n="49"/>tura 
               rationalis est persona unde 
-              <lb ed="#PV"/>suppositum generale est ad subsistentiam 
-              <lb ed="#PV"/>omnem Etiam subsistentia humana 
-              <lb ed="#PV"/>vocatur subsistentia Ideo in divinis 
-              <lb ed="#PV"/>ponantur tria supposita ideo quia 
-              <lb ed="#PV"/>subsistentiae creaturarum vocantur 
-              <lb ed="#PV"/>subsistentiae et sic apparet quantum ad modos 
-              <lb ed="#PV"/>dicendi quod nullus eorum dictorum 
-              <lb ed="#PV"/>potest cum veritate stare 
+              <lb ed="#PV" n="50"/>suppositum generale est ad subsistentiam 
+              <lb ed="#PV" n="51"/>omnem Etiam subsistentia humana 
+              <lb ed="#PV" n="52"/>vocatur subsistentia Ideo in divinis 
+              <lb ed="#PV" n="53"/>ponantur tria supposita ideo quia 
+              <lb ed="#PV" n="54"/>subsistentiae creaturarum vocantur 
+              <lb ed="#PV" n="55"/>subsistentiae et sic apparet quantum ad modos 
+              <lb ed="#PV" n="56"/>dicendi quod nullus eorum dictorum 
+              <lb ed="#PV" n="57"/>potest cum veritate stare 
             </p>
           </div>
         </div>
