@@ -195,7 +195,6 @@
           </p>
         </div>
       </div>
-        <!-- the section below was originall in 36, but has been correctly placed at the end of 35. The same thing needs to happen in the documentary editions. There are going to be issues with xml:ids and image association that need to be corrected-->
         <div xml:id="ppr-l35-Dd1e511">
           <head xml:id="ppr-l35-Hqpspsf">Quomodo potest sustineri finitas</head>
           <p xml:id="ppr-l35-rdqsma">
@@ -257,8 +256,8 @@
             cuilibet <sic>pucto</sic> hostiae
           </p>
         </div>
-        <div>
-          <head>Conclusiones</head>
+        <div xml:id="ppr-l35-Dxxyy1">
+          <head xml:id="ppr-l35-Hxxyy2">Conclusiones</head>
           <p xml:id="ppr-l35-cd3cee">
             <pc ana="#pilcrow"/>Circa distinctionem 33am prima
             conclusio quod proprietates personarum sunt 
@@ -268,7 +267,10 @@
           <p xml:id="ppr-l35-scppee">
             Secunda conclusio proprietates differentiarum personarum aliter se habent 
             <pb ed="#E" n="50-v"/>
-            <lb ed="#E" n="1"/>ad personas quam ad essentiam quia sunt distinctione personarum et non sunt distinctive essentiae ultima 
+            <lb ed="#E" n="1"/>ad personas quam ad essentiam quia sunt distinctione personarum et non sunt distinctive essentiae 
+          </p>
+          <p xml:id="ppr-l35-axxyy3">
+            ultima 
             <lb ed="#E" n="2"/>conclusio dicit <name>Augustinus</name> <quote>pater est</quote> etc
           </p>
         </div>
